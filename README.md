@@ -1,6 +1,6 @@
 # Responsive-Design
 
-In this module challenge you will continue working on your porfolio website to make it compatible for different browswer widths.
+In this module challenge you will continue working on your portfolio website to make it compatible for different browser widths.
 
 ## User Interface and Git
 
@@ -14,7 +14,9 @@ In this module challenge you will continue working on your porfolio website to m
 
 ## Introduction
 
-In this challenge you will refactor your personal portfolio code to make it responsive. 
+It goes without saying that this skill is essential for a professional Web Developer. Imagine trying to visit a store's webpage on your phone and not being able to even read the names of items? That would be totally unacceptable in this day and age! Same goes for a web developer's portfolio site.
+
+In this challenge you will refactor your personal portfolio code to make it responsive. You have the ability to write HTML, CSS, and responsive media queries. You also know how to identify and write responsive units. It's time to put that knowledge into action!
 
 ## Instructions
 
@@ -22,7 +24,7 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
 
-- [ ] `cd` into your personal portfolio repository
+- [ ] `cd` into your personal portfolio folder
 - [ ] Create a new branch from `<firstName-lastName>`:
 
 ```bash
@@ -34,13 +36,11 @@ git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 
 ### Task 2: Minimum Viable Product
 
-Today you will continue working on your portfolio site and add the much-needed feature of mobile compatibility.
+Use the checklist below to guide your work today. Your final product should be presentable at both mobile-width and a desktop-width.
 
 - [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
 - [ ] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Change CSS styles from hard-coded `px` to any one of the responsive units learned today
-
-Your final product should be presentable at both mobile-width and a desktop-width.
 
 ### Task 3: Stretch Goals
 
@@ -53,22 +53,23 @@ Once you finish the minimum viable project, work on any of the following stretch
 - [ ] Add accessability features to your webpage
 - [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 
-
 ## FAQs
 
-**What should I include in this section?**
+**What if I'm not done with my site from yesterday?**
 
-*Include the answers to frequently asked questions as they come up. If it is a new module challenge, try to answer a few questions you anticipate students asking. Think ahead to potentional roadblocks for an amateur.*
+*If you're not totally happy with your site, that's fine. Try to work with what you have. If your challenge from yesterday is in a state that you **absolutely** cannot work on it, reach out to your TL for starter code and attend support hours for more HTML/CSS help.*
+
+**My site works on mobile - does that count as responsive?**
+
+*A mobile website is **not** the same thing as a responsive website! A responsive webpage works at any browser width, not just mobile. Keep on coding!*
 
 ## Resources
 
 📚[Best Practices for Responsive Design](https://www.browserstack.com/guide/responsive-design-breakpoints)
 
-📚[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
+🤝[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
 
-[Documentation of gotchas](example)
-
-[FAQ](example)
+👀 [Explore a Curated Gallery of Professional Portfolios](https://wpamelia.com/portfolio-websites/#webdev)
 
 ## Submission format
 
@@ -77,11 +78,3 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
-
-## Grading rubric
-
-If you've prepared a grading rubric that will be used to evaluate the quality of a student's work on your module challenge assignment, include any instructions or relevant links below.
-
-[Grading rubric](example)
-
-[Module challenge grading rubric](https://www.notion.so/e7b32e56ebad4f57b3521efb886f4508)
