@@ -25,7 +25,7 @@ Portfolio websites are a great way to show off your work to friends, family, and
 Follow these steps to set up and work on your project:
 
 - [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [ ] Add your Team Lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -41,11 +41,11 @@ Once your repository is set up, practice what you learned today to create a port
 - [ ]  Information about you in place of the given placeholder
 - [ ]  A `My Projects` button (doesn't need to be functional)
 - [ ]  A `Contact Me` button (doesn't need to be functional)
+- [ ]  Link navigation items to new HTML pages
 
 ## Task 3: Stretch Goals
 
-- [ ]  Add links to social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page.
-- [ ]  Link navigation items to new HTML pages
+- [ ]  Add links to social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page and make them open in a new tab.
 - [ ]  Host your website on Netlify.com
 
 
@@ -69,8 +69,8 @@ Once your repository is set up, practice what you learned today to create a port
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [ ] Add your Team Lead as a reviewer on the pull-request
+- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
 
 ## Grading rubric
 
