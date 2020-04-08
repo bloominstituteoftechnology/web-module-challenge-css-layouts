@@ -1,1 +1,139 @@
 /* Add CSS styling here */
+h2 {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+* {
+    margin: 0 auto;
+}
+
+
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-bottom: 2%;
+    border-bottom: 5px solid black;
+}
+
+.Header {
+    border-bottom: 1px solid black;
+    width: 13%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.NavContainer {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    margin-left: 1%;
+    margin-top: 1%;
+    
+}
+
+.NavContainer li {
+    align-items: center;
+    list-style: none;
+    padding: 2% 7%;
+    border: 2px solid black;
+    background-color: darkgray;
+    
+}
+
+.NavContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.MiddleSectionContainer {
+    display: flex;
+    padding-bottom: 3%;
+    border-bottom: 5px solid black;
+}
+
+.MiddleSectionContainer img{
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 35%;
+    height: 35%;
+    border: 3px solid black;
+}
+
+
+.MiddleInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 80%;
+}
+
+.MiddleInfoContainer h2 {
+    width: 15%;
+    height: 10%;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 55%;
+    padding-bottom: 3%;
+}
+
+.MiddleInfoContainer p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    width: 40%;
+    padding-top: 1%;
+}
+
+.MiddleInfoContainer button {
+    padding: 0.5% 2.5%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    margin-right: 61%;
+}
+
+.ImghListHeader {
+    width: 20%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+.imgListContainer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-top: 1%;
+    border-bottom: 5px solid black;
+}
+
+.imgListContainer img {
+    width: 30%;
+    height: 30%;
+    border: 3px solid black;
+}
+
+
+.FooterContainer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    background-color: lightgray;
+}
+
+.FooterContainer h2 {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.FooterContainer button{
+    padding: 0.5% 2%;
+}
