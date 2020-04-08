@@ -1,1 +1,76 @@
 /* Add CSS styling here */
+/* reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 2px solid black;
+border: 0; 
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing: border-box;
+}
+/* general selectors */
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #CCDAD1;
+    max-height: 100vh;
+    max-width: 100vw;
+    align-items: stretch;
+}
+/* header selectors */
+header{
+    display: flex;
+    flex-flow: wrap column;
+    background: #788585;
+    justify-content: flex-start;
+    padding: 2%;
+    height: 10vh;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5%;
+    max-height: 40%;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    max-height: 40%;
+}
+nav div{
+    text-align: center;
+    border: 0.1rem groove #38302E;
+}
+/* footer selectors */
+footer{
+    background: #788585;
+    height: 10vh;
+    width: 100vw;
+
+}
+/* section selectors */
+section{
+    height: 90vh;
+    width: 100vw;
+}
