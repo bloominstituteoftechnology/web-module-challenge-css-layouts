@@ -98,7 +98,9 @@ button {
 }
 
 p {
-    width: 40%;
+    margin-top: 15px;
+    width: 60%;
+    line-height: 1.5;
 }
 
 .mainHead {
