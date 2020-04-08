@@ -1,1 +1,103 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Serif:wght@700&family=Open+Sans&family=Roboto&display=swap');
+/* general styles*/
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid red;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: lavender;
+    line-height:2;
+}
+
+/* header styles */
+header {
+    height:35vh;
+    background: plum;
+    padding: 0 5% 10% 6%;
+}
+
+header nav {
+    width:100%;
+}
+
+/* nav links styles*/
+
+header nav a {
+    border: 2px darkorchid solid;
+    letter-spacing:3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    color: darkmagenta;
+    border-radius: 10px;
+}
+
+.links {
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+   }
+
+/* h1 style */
+
+header h1 {
+    font-size:70px;
+    color: black;  
+    font-family: 'Arvo', serif;
+    color: purple;
+}
+
+/* header nav hover and changing colour */
+
+header nav a:hover {
+    background-color: white;
+    color: white;
+    animation-name: changing;
+    animation-duration: 3s;
+}
+
+@keyframes changing {
+    from {background-color: pink;}
+    to {background-color: purple;}
+  }
+  
+/* about me box */
+
+#aboutMe .meText {
+    padding: 4%;
+}
+
+.profile {
+    width: 35%;
+}
+
+
