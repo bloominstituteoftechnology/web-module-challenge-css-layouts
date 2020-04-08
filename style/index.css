@@ -1,13 +1,16 @@
 /* Add CSS styling here */
+/* Changing all of the header 2 to a set font */
 h2 {
     font-family: 'Baloo Bhai 2', cursive;
 }
+
+/* Css reset */
 
 * {
     margin: 0 auto;
 }
 
-
+/* Header Styles */
 .HeaderContainer {
     display: flex;
     flex-direction: column;
@@ -23,6 +26,7 @@ h2 {
     margin-left: 1%;
 }
 
+/* Nav styles ❗ Nav is inside of the Header Container❗ */
 .NavContainer {
     height: 10%;
     display: flex;
@@ -44,10 +48,11 @@ h2 {
 
 .NavContainer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
+/* Middle Section styles */
 .MiddleSectionContainer {
     display: flex;
     padding-bottom: 3%;
@@ -62,7 +67,7 @@ h2 {
     border: 3px solid black;
 }
 
-
+/* Info panel styles ❗Middle info container is inside of middle section container❗ */
 .MiddleInfoContainer {
     display: flex;
     flex-direction: column;
@@ -87,13 +92,17 @@ h2 {
     padding-top: 1%;
 }
 
-.MiddleInfoContainer button {
+.MiddleButton {
+    text-decoration: none;
     padding: 0.5% 2.5%;
     border: 2px solid black;
     background-color: white;
     color: black;
-    margin-right: 61%;
+    margin-right: 55%;
+    width: 10%;
 }
+
+/* Img list Header Style */
 
 .ImghListHeader {
     width: 20%;
@@ -103,7 +112,7 @@ h2 {
     text-decoration: underline;
 }
 
-
+/* Img list container styles */
 .imgListContainer {
     max-width: 100%;
     display: flex;
@@ -118,9 +127,10 @@ h2 {
     width: 30%;
     height: 30%;
     border: 3px solid black;
+    border-radius: 10px;
 }
 
-
+/* Footer Container styles */
 .FooterContainer {
     height: 20vh;
     display: flex;
@@ -134,6 +144,34 @@ h2 {
     padding-bottom: 1%;
 }
 
-.FooterContainer button{
+.FooterButton{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
     padding: 0.5% 2%;
+}
+
+/* Hover Styles */
+.NavContainer li:hover{
+    background-color: white;
+    color: black;
+}
+
+.NavContainer a:hover {
+    color: black;
+}
+
+.MiddleButton:hover{
+    background-color: gray;
+    color: black;
+}
+
+.imgListContainer img:hover {
+    border-radius: 30px;
+    height: 31%;
+}
+
+.FooterButton:hover{
+    background-color: gray;
+    color: white;
 }

@@ -2,49 +2,60 @@
 <html lang="en">
 
 <head>
-    <!-- 🚀Metas🚀 -->
+    <!-- Metas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 🚀Site Tab Title🚀 -->
+    <!-- Site Tab Title -->
     <title>Apollo Portfolio</title>
-    <!-- 🚀Style Sheets🚀 -->
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="style/index.css">
-    <!-- 🚀Header Font🚀 -->
+    <!-- Header Font -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
-    <!-- Paragraph Font🚀 -->
+    <!-- Paragraph Font -->
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- 🚀Header Container🚀 -->
+    <!-- Header Container -->
     <header class="HeaderContainer">
         <h2 class="Header">Apollo's Space Station</h2>
-        <!-- 🚀Navigation Container🚀 -->
+        <!-- Navigation Container -->
         <div class="NavContainer">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Contact</a></li>
-    </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
     </header>
-    <!-- 🚀Middle Section Container🚀 -->
-    <section class="MiddleSectionContainer">
-        <img src="https://i.imgur.com/SA4lRaJ.jpg" alt="" class="SplashImg">
-        <div class="MiddleInfoContainer">
-        <h2 href="" class="MiddleHeader">My Name</h2>
-        <button class="MiddleButton">
-            GITHUB
-        </button>
-        <p class="MiddleParagraph">
-            Hello! My name is Jeremiah, 19 Years of age, Semi-Professional Dishwasher and I love Development. I am still learning so much. I plan to achieve the title of a Software Engineer at some point in my life.
-        </p>
-    </div>
-    </section>
+    <!-- End of Header Container -->
 
+    <!-- Middle Section Container -->
+    <section class="MiddleSectionContainer">
+        <!-- Img of me as donald trump -->
+        <img src="https://i.imgur.com/SA4lRaJ.jpg" alt="donald" class="SplashImg">
+        <!-- Info Panel Container  -->
+        <div class="MiddleInfoContainer">
+            <!-- Info Panel Header -->
+            <h2 class="MiddleHeader">My Name</h2>
+            <!-- Info Panel Button -->
+            <a href="projects.html" class="MiddleButton">See WIP Projects</a>
+            <!-- Info Panel Paragraph -->
+            <p class="MiddleParagraph">
+                Hello! My name is Jeremiah, 19 Years of age, Semi-Professional Dishwasher and I love Development. I am
+                still learning so much. I plan to achieve the title of a Software Engineer at some point in my life.
+            </p>
+        </div>
+        <!-- End of info panel -->
+    </section>
+    <!-- End of Middle Section Container -->
+
+    <!-- This is the header above the previous projects -->
+    <!-- It is in its own container to avoid it clashing with the list wrap (imgListContainer) -->
     <section class="ImghListHeader">
         <h2 class="ImgListHeader">Previous Projects</h2>
     </section>
 
+    <!-- Previous Projects Container holding all the imgs and captions. -->
     <section class="imgListContainer">
         <img src="https://i.imgur.com/QKdplIu.jpg" alt="">
         <h2 class="ImgCaption">FiveM Loading Screen</h2>
@@ -56,16 +67,22 @@
         <h2 class="ImgCaption">FiveM Loading Screen</h2>
         <img src="https://i.imgur.com/HnOWbwi.jpg" alt="">
         <h2 class="ImgCaption">Profile Picture / Logo</h2>
-        <img src="https://forum.cfx.re/uploads/default/optimized/4X/9/6/c/96cca5688438d32499b9fdafedfa69772c17a2df_2_690x388.jpeg" alt="">
+        <img src="https://forum.cfx.re/uploads/default/optimized/4X/9/6/c/96cca5688438d32499b9fdafedfa69772c17a2df_2_690x388.jpeg"
+            alt="">
         <h2 class="ImgCaption">FiveM InGame UI Menu</h2>
     </section>
+    <!-- End of Previous Projects container -->
 
+    <!-- Footer -->
     <footer class="FooterContainer">
+        <!-- Footer header -->
         <h2 class="FooterHeader">Like What You See?</h2>
-        <button class="FooterButton">
+        <!-- Footer button -->
+        <a type="button" href="contact.html" class="FooterButton">
             Contact Me?
-        </button>
+        </a>
     </footer>
+    <!-- Footer end -->
 </body>
 
 </html>
