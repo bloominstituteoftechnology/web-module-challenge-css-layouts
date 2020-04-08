@@ -38,10 +38,10 @@ box-sizing: border-box;
 /* header selectors */
 header{
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: nowrap column;
     background: #788585;
-    justify-content: flex-start;
-    padding: 2%;
+    justify-content: space-around;
+    /* padding: 1%; */
     height: 10vh;
     width: 100vw;
 }
@@ -55,12 +55,14 @@ nav{
 }
 h1{
     font-family: 'Fredoka One', cursive;
-    font-size: 3rem;
+    font-size: 3em;
     max-height: 40%;
+    padding-left: 3.5%;
 }
 nav div{
     text-align: center;
-    border: 0.1rem groove #38302E;
+    border: 1px groove #38302E;
+    padding: .1em;
 }
 /* footer selectors */
 footer{
