@@ -1,5 +1,105 @@
 /* Add CSS styling here */
+html, body, div, span, applet,
+object, iframe, h1,h2,h3,h4,h5,h6,
+p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas,
+details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output,
+ruby, section, summary,
+time, mark, audio, video{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto&display=swap');
+
 *{
-    border: solid 4px black;
-    padding:5px;
+    border: solid 0px black;
+}
+body{
+    background-color: moccasin;
+    padding:1%;
+    border:8px solid darkgoldenrod;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:90%;
+    
+}
+ h1{
+    font-size:3em;
+    font-family:'Raleway','Roboto', sans-serif; 
+    justify-content:center;
+}
+h2{
+    font-size:2.5em;
+    font-family:'Roboto','Raleway', sans-serif; 
+    justify-content:center;
+}
+nav{
+    justify-content:center;
+}
+nav a{
+    border: solid 1px black;
+    padding:10px;
+    background-color: #931F21;
+    color:white;
+}
+nav a:hover{
+    background-color:orange;
+}
+nav a:active{
+    background-color:yellow;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+}
+.jumboTron{
+    display:flex;
+    margin:1%;
+    max-width:95%;
+    max-height:60vh;
+    justify-content:center;
+}
+.jumboTron img{
+    margin:1%;
+    width:100%;
+    max-height:60vh;
+    position:static;
+}
+
+.social{
+    justify-content:flex-end;
+}
+#gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width:95%;
+    margin:5%;
+    height:50vh;
+}
+#gallery img{
+    margin:1%;
+    padding:1%;
+    width:15%;
+}
+#gallery p{
+    margin:1%;
+    padding:1%;
+    justify-content:center;
+    
 }
