@@ -28,7 +28,13 @@ h1 {
     color:blue;
 }
 nav a {
-    font-size: 23px;
+    font-size: 22px;
+}
+nav:first-child{
+    padding-left:1rem;
+}
+nav div a{
+    padding-right:1rem ;
 }
 nav{
     display:flex;
@@ -39,4 +45,13 @@ nav{
     display: flex;
 
 }
-
+.gallery img{
+    width: 30%;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery div{
+    flex-direction: column;
+}
