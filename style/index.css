@@ -92,12 +92,118 @@ header nav a:hover {
   
 /* about me box */
 
-#aboutMe .meText {
+#aboutMe {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
     padding: 4%;
 }
+
 
 .profile {
     width: 35%;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+#aboutMe nav {
+    display:flex;
+}
+
+#aboutMe nav a {
+    color: purple;
+    font-size: 15px;
+    border: 2px darkorchid solid;
+    letter-spacing:3px;
+    text-decoration: none;
+    color: darkmagenta;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+p {
+   line-height: 2px;
+}
+
+/*my projects link in about me */
+.myProjects a {
+    font-size: 10px;
+    border: 2px darkorchid solid;
+    letter-spacing:3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: darkmagenta;
+    border-radius: 10px;
+    width: 100%;
+    padding: 4%;
+}
+
+img {
+    width: 20%;
+}
+
+/* first row of images for my projects*/
+
+.first {
+    display:flex;
+    justify-content: space-around;
+    padding: 0 0 5% 0;
+}
+
+/* second row of images for my projects*/
+.second {
+    display:flex;
+    justify-content: space-around;
+}
+
+/* footer styles*/ 
+footer {
+    background: white;
+    margin: 7% 0 0 0;
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 30px;
+    font-family: 
+}
+
+/*contact me nav button */
+
+footer nav {
+    display:flex;
+    justify-content: center;
+}
+
+footer nav a {
+    color: purple;
+    font-size: 20px;
+    border: 2px darkorchid solid;
+    letter-spacing:3px;
+    text-decoration: none;
+    color: darkmagenta;
+    border-radius: 10px;
+    width: 15%;
+}
+
+/* header nav hover and changing colour */
+
+footer nav a:hover {
+    background-color: white;
+    color: white;
+    animation-name: changing;
+    animation-duration: 3s;
+}
+
+@keyframes changing {
+    from {background-color: pink;}
+    to {background-color: purple;}
+  }
+  
 
