@@ -79,9 +79,25 @@ a {
     margin: 10px;
 }
 
+/*style for body header*/
+
+.mainHead {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mainBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    margin: 10px;
+}
+
 a:hover {
     background: #0f4c75;
     color: #bbe1fa;
 }
-
-
