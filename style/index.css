@@ -65,17 +65,17 @@ nav a:active{
 }
 footer{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     background-color:tan;
     margin:-1.05%;
-    height:10vh;
+
 }
 button{
     font-size:1.5em;
-    background-color:lightgrey;
+    background-color:whitesmoke;
 }
 button:hover{
-    background-color: whitesmoke;
+    background-color: lightslategray;
 }
 .jumboTron{
     display:flex;
@@ -90,6 +90,7 @@ button:hover{
     box-shadow: 35px 35px tan;
 }
 .jumboTron:active{
+    transform:translateY(10px);
     box-shadow: 25px 25px tan;
 
 }
@@ -109,7 +110,22 @@ button:hover{
     font-size:1.5em;
 }
 .social{
-    justify-content:flex-end;
+    width:100%;
+}
+.social table{
+    width:100%;
+    margin:2.5%;
+}
+.social tr{
+    width:25%;
+    height:10vh;
+    margin:1%;
+    text-content:center;
+    
+}
+.social img{
+    width:60px;
+    height:60px;
 }
 #gallery{
     display:flex;
@@ -125,7 +141,7 @@ button:hover{
     width:15%;
 }
 #gallery img:hover{
-    transform:scale(2);
+    transform:scale(1.25);
 }
 #gallery p{
     margin:1%;
