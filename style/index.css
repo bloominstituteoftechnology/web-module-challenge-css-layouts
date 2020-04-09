@@ -104,6 +104,9 @@ footer div{
 footer div a i {
     font-size: 2rem;
 }
+.hidden{
+    display:none;
+}
 @media(max-width: 800px){
     html{
         font-size: 12px;
