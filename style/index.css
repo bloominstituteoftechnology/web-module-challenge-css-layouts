@@ -55,7 +55,9 @@ table {
 /* Style for header*/
 header {
     background: #0c7b93;
-    background: linear-gradient(to right, #0c7b93, #142850)
+    background: linear-gradient(to right, #0c7b93, #142850);
+    border: 3px solid ivory;
+    border-style: hidden hidden inset hidden;
 
 }
 
@@ -109,10 +111,11 @@ a {
 
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: bold;
     text-align: center;
-    border: 1px solid red;
     margin: 10px;
+    margin-bottom: 30px;
     color: ivory;
 }
 
@@ -122,14 +125,20 @@ button {
 }
 
 .bodyButton {
-    font-size: 10px;
+    font-size: 25px;
     border: none;
+    color: #0c7b93;
 }
 
 .topButton {
-    border: 1px solid red;
     width: 40%;
     text-align: center;
+}
+
+.projectsButton {
+    height: 30px;
+    border-radius: 60%;
+
 }
 
 p {
@@ -137,7 +146,6 @@ p {
     width: 60%;
     line-height: 1.5;
     text-align: center;
-    border: 1px solid red;
     color: ivory;
 }
 
@@ -151,7 +159,6 @@ p {
 
 .intro {
     width: 50%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,6 +171,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     background: #00a8cc;
+    padding-bottom: 20px
 }
 
 img {
@@ -189,11 +197,9 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border: 1px solid red;
 }
 
 h5 {
-    border: 1px solid red;
     width: 40%;
     color: ivory;
     text-align: center;
@@ -202,8 +208,12 @@ h5 {
 }
 
 .bottomButton {
-    border: 1px solid red;
     width: 40%;
     margin: 10px;
 
+}
+
+.contactButton {
+    height: 30px;
+    border-radius: 60%;
 }
