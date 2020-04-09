@@ -35,6 +35,9 @@ nav:first-child{
 }
 nav div a{
     padding-right:1rem ;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
 }
 nav{
     display:flex;
@@ -46,12 +49,14 @@ nav{
 
 }
 .gallery div img{
-    width: 50%;
+    width: 90%;
 }
 
 .gallery{
     display: flex;
     flex-wrap: wrap;
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 .gallery div{
     display:flex;
@@ -63,6 +68,7 @@ nav{
     display: flex;
     justify-content:center;
     position: relative;
+    margin-top: 1rem;
 }
 .heroinfo{
     display: flex;
@@ -75,6 +81,21 @@ nav{
 }
 footer{
     display: flex;
+    flex-direction: column;
     background-color:red;
-    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+footer a button{
+    width:100%;
+    margin-bottom: 1rem;
+}
+footer div{
+    display:flex;
+    justify-content: space-between;
+    width: 30%;
+}
+footer div a i {
+    font-size: 2rem;
 }
