@@ -45,13 +45,36 @@ nav{
     display: flex;
 
 }
-.gallery img{
-    width: 30%;
+.gallery div img{
+    width: 50%;
 }
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
 }
 .gallery div{
+    display:flex;
     flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+} 
+.hero{
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+.heroinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;                        
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+footer{
+    display: flex;
+    background-color:red;
+    justify-content: center;
 }
