@@ -71,22 +71,35 @@ nav a:hover{
     border-radius: 11px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.img{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
-.imgstacktext{
+.imgstack{
   display:flex;
-  justify-content: flex-start;
-  margin-top: 5%;
-  margin-bottom: 40%;
-  max-width: 50%;
+
+}
+.middletext{
+  
 }
 
-.imgstacktext2{
-  display:flex;
-  justify-content: space-evenly;
-  margin-top: 5%;
-  margin-bottom: 40%;
-  max-width: 50%;
+.img1 { 
+  flex: 1.25;
+  border-radius: 11px;
+  padding: 2rem;
+}
+.img2 { 
+  flex: 1.4953;
+  padding: 2rem;
+  }
+.img3 { 
+  flex: 0.6625;
+  padding: 2rem;
+
 }
 
 
@@ -103,4 +116,5 @@ footer{
     display: inline-block;
     border-radius: 20px;
     background-color: #0b5de0;
+    margin-top: 50rem;
 }
