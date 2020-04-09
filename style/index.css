@@ -31,13 +31,19 @@ img {
     max-width: 100%;
     height: auto;
   }
+  body{
+    height: 100vh;
+    width: auto;
+}
+html{
+    font-size: 62.5%;
+}
 .container{
     display: flex;
     flex-direction: column;
     background: #CCDAD1;
-    height: 100vh;
-    width: 100vw;
-    align-items: stretch;
+    height: 200%;
+    width: 100%;
 }
 /* header selectors */
 header{
@@ -46,7 +52,7 @@ header{
     background: #788585;
     justify-content: space-around;
     /* padding: 1%; */
-    height: 10%;
+    height: 7%;
     width: 100%;
     color: #38302E;
     
@@ -62,14 +68,17 @@ nav{
     width: 10%;
 }
 h1{
-    font-size: 3em;
+    font-size: 5rem;
     max-height: 40%;
     padding-left: 3.5%;
 }
-nav div{
+nav button{
     text-align: center;
-    border: 2px groove #38302E;
-    padding: .1em;
+    background: #6F6866;
+    color: #CCDAD1;
+    border: .125rem groove #6F6866;
+    padding: 5%;
+    margin: 1%;
 }
 /* footer selectors */
 footer{
@@ -86,7 +95,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .f_container h3{
     color: #788585;
@@ -94,15 +103,16 @@ footer{
 .f_container button{
     background-color: #6F6866;
     color: #CCDAD1;
-    border: 1px groove #6F6866;
+    border: .125rem groove #6F6866;
 }
 /* section selectors */
 section{
-    height: 80%;
-    width: 100%;
-    max-height: 80%;
-    max-width: 100%;
+    
     display: flex;
+    height: 83%;
+    width: 100%;
+    max-height: 86%;
+    max-width: 100%;
     flex-flow: nowrap column;
 }
 /* showcase sectiuon */
@@ -112,19 +122,20 @@ section{
     height: 40%;
     max-width: 100%;
     max-height: 45%;
-    border: 1px solid black;
-    justify-content: space-evenly;
-    align-items: center;
+    border: .125rem groove #6F6866;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1%;
 }
 .showcase button{
     background: #6F6866;
     color: #CCDAD1;
-    border: 1px groove #6F6866;
+    border: .125rem groove #6F6866;
 }
 .showcase img{
     max-width: 40%;
     max-height: 80%;
-    border: 1px solid black;
+    border: .125rem groove #6F6866;
 }
 .project_description{
     display: flex;
@@ -133,10 +144,11 @@ section{
     align-content: flex-start;
     max-width: 40%;
     max-height: 80%;
+    font-size: 2.25rem;
 }
 .project_description h3{
-    font-size: 4em;
-    padding: 2%;
+    font-size: 10rem;
+    padding: 8%;
     font-family: 'Marck Script', cursive;
     color: #38302E;
 }
@@ -156,23 +168,34 @@ section{
     flex-flow: row wrap;
     width: 100%;
     height: 60%;
-    border: 1px solid black;
+    border: .125rem groove #6F6866;
     align-content: space-around;
     justify-content: space-around;
+    align-items: center;
+    font-size: 2.75rem;
+    font-family: 'Alfa Slab One', cursive;
 }
 .gallery div{
     max-width: 21%;
-    max-height: 35%;
+    /* max-height: 30%; */
     display: flex;
     flex-flow: column nowrap;
 }
 .gallery img{
     width: 100%;
     height: 80%;
-    border: 3px solid #6F6866;
+    border: .250rem solid #6F6866;
+    /* max-height: 1%; */
 }
 .gallery p{
     width: 100%;
     height: 20%;
     text-align: center;
+    margin: 4%;
 }
+#bad_pic{
+
+}
+
+/* Media queries */
+
