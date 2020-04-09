@@ -93,23 +93,27 @@ a {
 .headerLinks {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .social {
     display: flex;
     justify-content: flex-end;
+    border: 1px solid red;
 }
 
 .icons {
-    width: 30%;
+    width: 40%;
+    border: 1px solid red;
 }
 
 .iconBox {
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    border: none;
-    margin-right: 15px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid red;
+    margin-right: 0;
+    width: 15%
 
 
 }
