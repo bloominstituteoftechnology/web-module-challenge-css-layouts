@@ -21,14 +21,11 @@ font: inherit;
 vertical-align: baseline;  
 }
 
-div {
-    padding: 20 px 100px;
-}
 h1 {
     color:blue;
 }
 nav a {
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 nav:first-child{
     padding-left:1rem;
@@ -64,11 +61,16 @@ nav{
     align-items: center;
     width: 33.3%;
 } 
+.hero-banner{
+    position:relative;
+}
 .hero{
     display: flex;
     justify-content:center;
-    position: relative;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+.bigimage{
+    width: 70%;
 }
 .heroinfo{
     display: flex;
@@ -78,6 +80,9 @@ nav{
     left: 50%;                        
     top: 50%;
     transform:translate(-50%,-50%);
+}
+.heroinfo h1{
+    font-size: 2rem;
 }
 footer{
     display: flex;
@@ -99,11 +104,37 @@ footer div{
 footer div a i {
     font-size: 2rem;
 }
-
-@media(max-width: 500px){
-
-}
-
 @media(max-width: 800px){
-    
+    html{
+        font-size: 12px;
+    }
 }
+@media(max-width: 500px){
+    html{
+        font-size: 18px;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    .navi{
+        display:flex;
+        flex-direction: column;
+    }
+    .hero{
+        height: 200%;
+    }
+    .bigimage{
+        width:100%;
+    }
+    .heroinfo{
+        width:90%;
+    }
+    .gallery div{
+        width: 50%;
+    }
+}
+
+/*
+fix top padding or margin
+*/
