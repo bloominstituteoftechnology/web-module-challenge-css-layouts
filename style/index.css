@@ -72,22 +72,20 @@ h1 {
 }
 
 nav {
+    border: 1px solid red;
     display: flex;
-    padding-left: 2%;
+    justify-content: space-between;
+    width: 50%;
 }
 
-a {
+.navButton {
+    font-size: 3rem;
     text-decoration: none;
     color: ivory;
     font-size: 2rem;
-    padding: 10%;
+    padding: 5%;
     margin: .5%;
-}
-
-.navbutton {
-    border: 1% solid black;
-    border-style: groove;
-    border-radius: 20%;
+    width: 18%;
 }
 
 .headerLinks {
@@ -99,12 +97,9 @@ a {
 .social {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid red;
-}
-
-.icons {
-    width: 40%;
-    border: 1px solid red;
+    border: 1px dotted red;
+    width: 50%;
+    height: 60%;
 }
 
 .iconBox {
@@ -113,9 +108,16 @@ a {
     border-radius: 0;
     border: 1px solid red;
     margin-right: 0;
-    width: 15%
+    width: 20%;
+    height: 60%;
+    
 
 
+}
+
+.icons {
+    width: 80%;
+    border: 1px solid red;
 }
 
 /*style for body header*/
@@ -136,7 +138,8 @@ button {
 }
 
 .bodyButton {
-    font-size: 2.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
     border: none;
     color: #0c7b93;
 }
@@ -147,6 +150,7 @@ button {
 }
 
 .projectsButton {
+    text-decoration: none;
     height: 30px;
     border-radius: 60%;
 
@@ -237,14 +241,43 @@ h5 {
 /* Media queries */
 @media(max-width: 800px){
     .icons{
-        width: 35px;
+        height: 100%;
         margin: -5px;
+    }
+    
+    .bodyButton{
+        font-size: 1rem;
     }
 }
 
 @media(max-width: 500px){
+    nav {
+        flex-direction: column;
+    }
     .social{
+        height: 100%;
+        margin-top: 0;
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .mainHead {
+        flex-direction: column;
+        align-items:center;
+        border: 1px solid red;
+    }
+
+    .headPic {
+        margin-left: 0;
+    }
+
+    .intro {
+        border: 1px solid red;
+        width: 90%;
+    }
+
+    .projectsButton {
+        font-size: 1.5rem;
     }
 }
