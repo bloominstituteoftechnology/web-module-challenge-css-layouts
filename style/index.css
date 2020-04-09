@@ -53,6 +53,14 @@ header {
 .footcon {
     text-align: center;
 }
+@media (max-width: 800px) {
+    .name {
+        font-size: 3.5rem;
+    }
+    nav {
+        height: 5rem;
+    }
+}
 @media (max-width: 500px) {
     .name {
         font-size: 2.5rem;
@@ -60,12 +68,14 @@ header {
     nav {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
+        height: 10rem;
     }
     .introhead {
         font-size: 1.8rem;
     }
     .intropara {
-        font-size: 1.3rem;
+        display: none;
     }
     .images {
         flex-direction: column;
@@ -76,10 +86,5 @@ header {
     }
     .images p {
         width: 90%;
-    }
-}
-@media (max-width: 800px) {
-    .name {
-        font-size: 3.5rem;
     }
 }
