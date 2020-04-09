@@ -1,1 +1,180 @@
 /* Add CSS styling here */
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+body {
+margin: 10px;
+border: 20px solid mistyrose;
+}
+
+h1 {
+color:darkslategray;
+font-family: "satisfy", cursive;
+font-size: 65px;
+width: 25%;
+height: 160%;
+padding-left: 2%;
+background: mistyrose;
+box-shadow: 5px 5px 5px 0px gray;
+
+}
+
+.top-btns button {
+background: lavenderblush;
+border: 1px solid mistyrose;
+color: black;
+padding: 8px 24px;
+float: left;
+box-shadow: 5px 5px 5px gray;
+width: 6.75%;
+}
+
+.top-btns button:hover {
+background: oldlace;
+border: none;
+color: gray;
+padding: 10px 24px;
+float: left;
+box-shadow: 3px 3px 3px gray;
+}
+
+.intro {
+margin: 10%;
+width: 70%;
+height: 70%;
+padding: 8% 2% 8% 8%;
+border-radius: 10px;
+justify-content: center;
+background: seashell;
+}
+
+h2 {
+color:darkslategray;
+font-family: "roboto", sans-serif;
+font-size: 35px;
+width: 100%;
+position: relative;
+left: -50px;
+}
+
+.self-photo {
+height:15%;
+width: 20%;
+border: 8px solid mistyrose;
+border-radius: 5%;
+margin-left: 100px;
+margin-top: 20px;
+position: relative;
+top: -65px;
+left: -90px;
+}
+
+img {
+height: 15%;
+width: 15%;
+border-radius: 5%;
+}
+
+.intro-btn {
+position: relative;
+bottom: -10px;
+left: -50px;  
+}
+
+.intro-btn button {
+background: lavenderblush;
+border: 1px solid mistyrose;
+color: black;
+box-shadow: 5px 5px 5px gray;
+width: 20%;
+padding: 1%;
+
+}
+
+.intro-btn button:hover {
+background: oldlace;
+border: none;
+color: gray;
+box-shadow: 3px 3px 3px gray;
+}
+
+.intro p {
+position: relative;
+bottom: -30px;
+left: -50px;
+width: 97%;
+line-height: 25px;
+} 
+
+.photos {
+position: relative;
+display: inline-block;
+text-align: center;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.row {
+flex-direction: row;
+}
+
+.row img {
+width:  220px;
+height: 220px;
+border: 2px solid mistyrose;
+margin-bottom: 7%;
+}
+
+.caption {
+position: relative;
+display: inline-block;
+text-align: center;
+font-family: "roboto", sans-serif;
+left: -145px;
+top: -60px;  
+}
+
+footer {
+padding-top: 10%;
+padding-bottom: 5%;
+background: mistyrose;
+font-family: "roboto", sans-serif;
+}
+
+footer p {
+font-family: "satisfy", cursive;
+font-size: 30px;
+color: darkslategray;
+display: flex;
+justify-content: center;
+line-height: 45%;
+}
+
+.btm-btn {
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+.btm-btn button {
+background: lavenderblush;
+border: 1px solid mistyrose;
+color: black;
+box-shadow: 5px 5px 5px gray;
+width: 20%;
+padding: 1%;
+margin-right: 2%;
+margin-top: 2%;
+}
+
+.btm-btn button:hover {
+background: oldlace;
+border: none;
+color: gray;
+box-shadow: 3px 3px 3px gray;
+}
