@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+/*add your reset*/
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* General styles */
+body{
+    border: 20px solid rgb(8, 15, 78);
+      font-size:20px;
+        color:rgba(0, 0, 0, 0.788);
+  }
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+  }
+  body{
+    line-height:2;
+    font-size:1.5rem;
+    padding: 10px;
+    
+  }
+Nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+    margin: 0 10px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #0b5de0;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row
+}
+
+nav a:hover{
+    background-color: white;
+}
+
+#intro {
+    border-radius: 11px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imgstacktext{
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  margin-bottom: 40%;
+  max-width: 50%;
+}
+
+.imgstacktext2{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 40%;
+  max-width: 50%;
+}
+
+
+/* footer section styles */
+footer{
+  width: 100%;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+    margin: 0 10px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #0b5de0;
+}
