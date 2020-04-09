@@ -52,6 +52,10 @@ table {
     box-sizing: border-box;
     font-family: georgia;
 }
+
+html{
+    font-size: 62.5%;
+}
 /* Style for header*/
 header {
     background: #0c7b93;
@@ -62,25 +66,28 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
     padding: 15px;
     color: ivory;
 }
 
 nav {
     display: flex;
-    padding-left: 30px;
+    padding-left: 2%;
 }
 
 a {
     text-decoration: none;
     color: ivory;
-    font-size: 20px;
-    border: solid #00a8cc 3px;
+    font-size: 2rem;
+    padding: 10%;
+    margin: .5%;
+}
+
+.navbutton {
+    border: 1% solid black;
     border-style: groove;
-    padding: 10px;
     border-radius: 20%;
-    margin: 10px;
 }
 
 .headerLinks {
@@ -94,7 +101,7 @@ a {
 }
 
 .icons {
-    width: 35px;
+    width: 30%;
 }
 
 .iconBox {
@@ -111,7 +118,7 @@ a {
 
 
 h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
     margin: 10px;
@@ -125,7 +132,7 @@ button {
 }
 
 .bodyButton {
-    font-size: 25px;
+    font-size: 2.5rem;
     border: none;
     color: #0c7b93;
 }
@@ -145,6 +152,7 @@ p {
     margin-top: 15px;
     width: 60%;
     line-height: 1.5;
+    font-size: 1.4rem;
     text-align: center;
     color: ivory;
 }
@@ -163,6 +171,10 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.headPic {
+    margin-left: 10%
 }
 /*style for main body*/
 
@@ -203,7 +215,7 @@ h5 {
     width: 40%;
     color: ivory;
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     margin:10px;
 }
 
@@ -216,4 +228,19 @@ h5 {
 .contactButton {
     height: 30px;
     border-radius: 60%;
+}
+
+/* Media queries */
+@media(max-width: 800px){
+    .icons{
+        width: 35px;
+        margin: -5px;
+    }
+}
+
+@media(max-width: 500px){
+    .social{
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
