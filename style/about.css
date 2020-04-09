@@ -28,29 +28,52 @@ vertical-align: baseline;
     padding:0;
     margin:0;
     max-width:100%;
-
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    background: white;
-    line-height:2;
+.container{
+    margin:5%;
 }
 
-/* header styles */
-header {
-    height:35vh;
-    background: plum;
-    padding: 0 5% 10% 6%;
-    display: flex; 
-    justify-content: space-between;
+img {
+    width: 80%;
 }
 
-header nav {
-    width:100%;
+header h1 {
+    font-size: 60px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 30px;
+    color: purple;
+    padding-top: 3%;
+}
+
+/* bio about me */
+
+.bio {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio p {
+    line-height: 1.2;
 }
 
 /* nav links styles*/
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
 
 header nav a {
     border: 2px darkorchid solid;
@@ -69,15 +92,6 @@ header nav a {
     justify-content: space-around;
    }
 
-/* h1 style */
-
-header h1 {
-    font-size:70px;
-    color: black;  
-    font-family: 'Arvo', serif;
-    color: purple;
-}
-
 /* header nav hover and changing colour */
 
 header nav a:hover {
@@ -91,106 +105,16 @@ header nav a:hover {
     from {background-color: pink;}
     to {background-color: purple;}
   }
-  
-/* about me box */
-
-#aboutMe {
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    padding: 4%;
-}
-
-
-.profile {
-    width: 35%;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-#aboutMe nav {
-    display:flex; 
-    justify-content: space-between;
-}
-
-#aboutMe nav a {
-    color: purple;
-    font-size: 15px;
-    border: 2px darkorchid solid;
-    letter-spacing:3px;
-    text-decoration: none;
-    color: darkmagenta;
-    border-radius: 10px;
-    width: 20%;
-    text-align: center;
-}
-
-#aboutMe nav a:hover {
-    background-color: white;
-    color: white;
-    animation-name: changing;
-    animation-duration: 3s;
-}
-
-
-p {
-   font-size: 14px;
-}
-
-/*my projects link in about me */
-.myProjects a {
-    font-size: 10px;
-    border: 2px darkorchid solid;
-    letter-spacing:3px;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: darkmagenta;
-    border-radius: 10px;
-    width: 100%;
-    padding: 4%;
-}
-
-
-
-/* images of projects and captions */
-
-.projects {
-    display: flex;
-    justify-content: space-around; 
-
-}
-
-.projects div {
-    width: 20%;
-}
-
-.projects p {
-    text-align: center;
-}
 
 
 /* footer styles*/ 
 footer {
     height: 30vh;
-    background: lavender;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-
-footer h3 {
-    font-size: 30px;
-    font-family: 
-}
-
-/*contact me nav button */
-
-
 
 footer nav {
     display:flex;
