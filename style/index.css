@@ -41,7 +41,7 @@ header{
  h1{
     font-size:3em;
     font-family:'Raleway','Roboto', sans-serif; 
-    justify-content:center;
+    align-content:center;
 }
 h2{
     font-size:2.5em;
@@ -50,6 +50,7 @@ h2{
 }
 nav{
     justify-content:center;
+    margin:1.5%;
 }
 nav a{
     border: solid 1px black;
@@ -148,4 +149,21 @@ button:hover{
     padding:1%;
     justify-content:center;
     
+}
+
+#one:hover{
+    transform:rotate(180deg);
+
+}
+
+#three:hover{
+    animation-name: Intro;
+    animation-duration: 2.5s;
+}
+@keyframes Intro{
+0% {transform:scale(1)}
+
+50% {transform:scale(2)}
+
+100% {transform:scale(1)}
 }
