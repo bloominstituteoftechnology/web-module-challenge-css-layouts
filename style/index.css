@@ -31,6 +31,10 @@ body{
     padding:1%;
     border:8px solid darkgoldenrod;
 }
+p{
+    font-family:'Roboto','Raleway',san-serif;
+    font-size:1.25em;
+}
 header{
     display:flex;
     flex-direction:column;
@@ -106,8 +110,7 @@ button:hover{
     position:absolute;
     top:60%;
     left:50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    
     font-size:1.5em;
 }
 .social{
@@ -134,7 +137,7 @@ button:hover{
     flex-wrap:nowrap;
     width:95%;
     margin:5%;
-    height:50vh;
+    height:auto;
 }
 #gallery img{
     margin:1%;
@@ -142,7 +145,7 @@ button:hover{
     width:15%;
 }
 #gallery img:hover{
-    transform:scale(1.25);
+    transform:scale(1.15);
 }
 #gallery p{
     margin:1%;
