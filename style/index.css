@@ -52,10 +52,11 @@ header{
 nav{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     margin-left: 5%;
     max-height: 40%;
+    width: 10%;
 }
 h1{
     font-family: 'Fredoka One', cursive;
@@ -70,7 +71,7 @@ nav div{
 }
 /* footer selectors */
 footer{
-    background: #788585;
+    background: #38302E;
     height: 10%;
     width: 100%;
 
@@ -79,10 +80,11 @@ footer{
 section{
     height: 80%;
     width: 100%;
+    max-height: 80%;
+    max-width: 100%;
     display: flex;
     flex-flow: nowrap column;
 }
-
 /* showcase sectiuon */
 .showcase{
     display: flex;
@@ -94,10 +96,9 @@ section{
     justify-content: space-evenly;
     align-items: center;
 }
-.gallery{
-    width: 100%;
-    height: 60%;
-    border: 1px solid black;
+.showcase button{
+    background: #6F6866;
+    color: #CCDAD1;
 }
 .showcase img{
     max-width: 40%;
@@ -129,13 +130,27 @@ section{
 /* gallery */
 .gallery{
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
     align-content: space-around;
+    justify-content: space-around;
 }
+
 .gallery div{
-    width: 20%;
-    height: 40%;
-    max-width: 20%;
-    max-height: 40%;
-    padding: 1%;
+    max-width: 21%;
+    max-height: 35%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.gallery img{
+    width: 100%;
+    height: 80%;
+    border: 3px solid #6F6866;
+}
+.gallery p{
+    width: 100%;
+    height: 20%;
+    text-align: center;
 }
