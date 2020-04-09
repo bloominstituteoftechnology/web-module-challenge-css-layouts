@@ -81,6 +81,30 @@ a {
     margin: 10px;
 }
 
+.headerLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons {
+    width: 35px;
+}
+
+.iconBox {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    margin-right: 15px;
+
+
+}
+
 /*style for body header*/
 
 
