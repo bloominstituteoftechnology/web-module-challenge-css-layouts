@@ -19,6 +19,8 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 } */
+
+
 *{
     border:2px solid grey;
     background-color: grey;
@@ -86,3 +88,34 @@ background: 0;
         display flex is the solution .-. ???
 
      } */
+
+
+        .container {
+            text-align:center;
+            flex-wrap:wrap;
+            width:21%;
+            line-height:1.4;
+
+        }
+    /*media queries start here*/
+    /*tablet*/
+@media(max-width: 800px){
+    .links{
+      font-size:2rem;
+    }
+    #about .text{
+      width:90%;
+    }
+}
+
+  
+  /*phone*/
+@media(max-width: 500px){
+    header nav{
+      flex-direction:column;
+    }
+    .links{
+      width:100%;
+      font-size:1.6rem;
+    }
+}
