@@ -16,7 +16,7 @@ time, mark, audio, video {
 	margin: 0;
     padding: 0;
     /*when done with website remove comment brackets from border*/
-	 border: 0;
+	 /* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 
 /* General Styles */
 *{
-    /* border: 1px solid red */
+    border: 1px solid grey;
     /*when done with website remove or comment out this line to get rid of borders around all the different sections*/
 }
 
@@ -60,13 +60,28 @@ img {
  
 /*header section styles*/
 
+.hidden {
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip; rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 .Headercontent {
     background-color: lightseagreen;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 nav {
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 nav a {
     border: 1px solid black;
@@ -89,7 +104,7 @@ nav a {
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
-    padding: 12%;
+    padding: 12% 5%;
 
 
 }
@@ -137,12 +152,134 @@ nav a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10%
+        padding: 10%;
     
     }
 #like {
-    padding: 5%
+    margin: 5%;
 }
 #contact {
-    padding: 5%
+    margin: 5%;
 }
+
+/* meta queries for 800px and 500 px */
+
+@media (max-width:800px){
+
+    body{
+        width: 100%;
+    }
+/* header start */
+    header{
+        width: 100%;
+        height: 90%;
+
+    }
+
+    .Headercontent {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Headercontent h1{
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+
+
+    }
+
+    nav {
+        widows: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+
+
+    }
+
+/* header finish */
+
+/* highlights */
+
+.highlight {
+
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#bigpicture{
+    justify-content: center;
+    width: 90%;
+    padding: 5%;
+}
+
+.aboutme {
+    width: 90%;
+    padding: 5%;   
+}
+
+#name {
+    text-align: center;
+    font-size: 4rem; 
+}
+
+#projects {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+#work{
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* line1 and line2 */
+
+.line1{
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+}
+
+.line2{
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+}
+
+.social {
+    flex-direction: row;
+
+}
+
+/* footer */
+
+
+@media (max-width:500px){
+
+    nav a {
+        width: 60%;
+        font-size: 1.3rem;
+     }
+    
+     body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        height: 90%;
+    }
+    
+}
+
+
+/* Accessibility */
+

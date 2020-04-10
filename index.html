@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--this links our styles to our html-->
     <link rel="stylesheet" href="style/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
     <!-- Consumer does not see this -->
@@ -16,26 +17,28 @@
 <header>
     <div class='Headercontent'>
     <h1>Matias Iturbide</h1>
+  <span class='hidden'><a href='#MC'>Skip to Main Content</a> </span>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="projects.html">Projects</a>
+    
     </nav>
     </div>
 </header>
 <!-- Main Content/body -->
-<section class ='MC'>
-    <!-- Big Picture and about me -->
+<section id='MC'>
+    <!-- Big Picture and about me highlight -->
     <div class='highlight'> 
         <!-- big picture -->
          <img id='bigpicture'src="style/IMG/salespitch.jpg">
          <!-- about me -->
-         <div class='aboutme'>
-         <h2 id='name'>My Name</h2>
-        <a id='projects' href="projects.html">My Projects</a>
-        <p id='work'>I am currently studying Web Development Through Lambda, I have more then 10 years of customer service, as well as working in groups and managing them.</p>
-            </div>
+        <div class='aboutme'>
+            <h2 id='name'>Matias Iturbide</h2>
+            <a id='projects' href="projects.html">My Projects</a>
+            <p id='work'>I am currently studying Web Development Through Lambda, I have more then 10 years of customer service, as well as working in groups and managing them.</p>
+        </div>
     </div>
     <!-- All the different Project lines -->
     <div class="Projects">
@@ -90,11 +93,11 @@
     <div class='foot'>
         <p id='like'>Like what you see?</p>
         <a id='contact' href="contact.html">Contact Me</a>
-    </div>
-    <div class='social'>
-        <a href="www.facebook.com">Tacebook</a>
+        <div class='social'>
+        <a href="www.facebook.com">Facebook</a>
         <a href="www.twitter.com">Twitter</a>
         <a href="linkedin.com">Linkedin</a>
+        </div>
     </div>
 </footer>
     <!-- Consumer sees this -->
