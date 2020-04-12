@@ -1,1 +1,131 @@
-/* Add CSS styling here */
+body {
+  background-color: #ffffff;
+  font-family: Tahoma;
+  margin: 0;
+}
+
+header {
+  font-size: 0;
+}
+
+header .site-name h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+header .nav-bar nav {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+header .nav-bar nav a {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+  margin: 0px;
+  color: black;
+  text-transform: capitalize;
+}
+
+header .nav-bar nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+#active:hover {
+  background-color: white;
+  color: black;
+}
+
+.site-intro .intro-title h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin:  30px 0px;
+}
+
+.site-intro .intro-text {
+  margin: 0 auto 50px;
+  width: 80%;
+  line-height: 35px;
+}
+
+.site-intro .intro-text p {
+  margin: 0px;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.site-intro div.intro-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 570px;
+}
+
+.projects-row {
+  display: flex;
+  margin: 25px 0px;
+}
+
+.projects-row img {
+  object-fit: cover;
+  width: 325px;
+  height: 800px;
+}
+
+#project-1-img {
+  margin: 0px;
+}
+
+#project-2-img {
+  margin-left: 25px;
+}
+
+#project-3-img {
+  margin-left: 25px;
+}
+
+#project-4-img {
+  margin-left: 25px;
+}
+
+.projects-row .description {
+  margin: auto;
+  text-align: center;
+  width: 175px;
+  line-height: 35px;
+  font-size: 16px;
+}
+
+footer div.contact-me {
+  text-align: center;
+  background-color: #dbdbdb;
+  padding: 100px;
+}
+
+footer div.contact-me a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+  margin: 0px;
+  color: black;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+footer div.contact-me a:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
