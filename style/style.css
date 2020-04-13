@@ -68,7 +68,7 @@ img {
 .site-intro div.intro-img img {
   object-fit: cover;
   width: 100%;
-  height: 570px;
+  height: 560px;
 }
 
 .projects-row {
@@ -79,7 +79,7 @@ img {
 .projects-row img {
   object-fit: cover;
   width: 325px;
-  height: 800px;
+  height: 725px;
 }
 
 #project-1-img {
