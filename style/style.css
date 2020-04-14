@@ -108,16 +108,40 @@ img {
   margin: 0px;
 }
 
+#project-1-img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 #project-2-img {
   margin-left: 25px;
+}
+
+#project-2-img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 #project-3-img {
   margin-left: 25px;
 }
 
+#project-3-img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 #project-4-img {
   margin-left: 25px;
+}
+
+#project-4-img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 .projects-row .description {
