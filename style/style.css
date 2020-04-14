@@ -154,13 +154,35 @@ footer div.contact-me a:hover {
 }
 
 .container {
-  padding: 200px;
+  padding: 80px;
 }
 
-#contact-info {
+.container .contact-info a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+  margin: 0px;
+  color: black;
+  text-transform: capitalize;
+  background-color: white;
+  margin: 0 45%;
+}
+
+.container .contact-info a:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+div.intro-text.page-info.contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-bottom: 0px;
 }
+
+.container .contact-info p, .container .contact-info a {
+  margin-top: 25px;
+}
+
