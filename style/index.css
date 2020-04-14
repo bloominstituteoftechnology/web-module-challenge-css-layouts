@@ -79,8 +79,42 @@ h2 {
 	color: White;
 	padding: 0 0 5% 0;
 }
- #first {
-	 width: auto;
-	 height: auto;
+ div {
+	 display: flex;
+	 border: 3px solid black;
+	 justify-items: center;
+	 background: black;
+	 margin: 0 0 40px;
  }
 	
+#first {
+	height: 300px;
+	width: 100%;
+}
+.second {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+p {
+	width: 200px;
+	background: greenyellow;
+	font-size: 30px;
+	border: 1px solid black;
+}
+
+section{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+address {
+	background: orangered;
+	font-size: 20px;
+	color: white;
+}
+h3 {
+	background: orangered;
+	font-size: 30px;
+	text-align: center;
+}
