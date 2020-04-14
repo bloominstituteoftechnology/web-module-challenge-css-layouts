@@ -1,0 +1,3 @@
+headers are no longer bold or large
+text are all the same size.
+paragraphs are bunched together.
