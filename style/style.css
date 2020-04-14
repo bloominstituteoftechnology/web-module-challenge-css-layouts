@@ -106,6 +106,12 @@ img {
   font-size: 16px;
 }
 
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 footer div.contact-me {
   text-align: center;
   background-color: #dbdbdb;
@@ -129,3 +135,32 @@ footer div.contact-me a:hover {
   border: 1px solid green;
 }
 
+.site-intro .page-info {
+  text-align: center;
+}
+
+.selfie {
+  display: flex;
+  justify-content: center;
+}
+
+.selfie img {
+  width: 10%;
+  height: auto;
+}
+
+#about-info {
+  margin-top: 25px;
+}
+
+.container {
+  padding: 200px;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0px;
+}
