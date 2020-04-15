@@ -47,41 +47,62 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    background-color: burlywood;
+}
 .container {
-    background: gray;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    font-size: 30px;
+    margin: 25px;
+    background: burlywood;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 .sample-projects {
-    background: gray;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/* my project */
+.proj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5%;
+
 }
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    padding: 25px;
+    justify-content: space-around;
 
   }
-  footer {
+  .footer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+
   }
   h1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
+    font-size: 30px;
   }
-  
   img {
-      display: flex;
-      justify-content: center;
-      flex-direction: column; 
-  }
+    width: 200px;
+    height: 200px;
+}
+  
