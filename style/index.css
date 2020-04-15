@@ -57,25 +57,42 @@ h1 h2 .first-section {
     margin: 0;
     max-width: 100%;
 }
-header {
+
+/* styling nav tabs*/
+nav ul {
+    padding: 0;
+    border-radius: 2px solid silver;    
+    margin-top: 10px;
+    margin-right: 8px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    display: block;
+    line-height: 1px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+/*styling name next to nav tabs*/
+nav .name h1 {
+    font-size: 50px;
+    color: black;
+    padding: 50px;
+    display: inline;
+}
+nav {
     display: flex;
-    height: 100px;
-    width: 100px;
-    padding: 20px;
     justify-content: space-between;
 }
-h1 {
-    font-size: 30px;
-    margin: 20px;
+ nav .name {
+     margin-top: 20px;
+ }
+nav ul {
+    display: flex;
+    align-items: center;
 }
- nav  a{
-   padding: 8px;  
-    background-color: black;
-    color: silver;
-    text-decoration: none;
-    display: inline-block;
-    
-}
+/*styling second header with name and my projects*/
 .first-section {
     display: flex;
     flex-direction: column;
@@ -86,7 +103,7 @@ h1 {
     background-size:cover;
     background-position:center;
     height: 300px;
-    margin: 20px 90px 0 90px
+    margin: 40px 90px 0 90px
 }
 .first-section .button {
     display: flex;
@@ -98,12 +115,15 @@ h2 {
 }
 .button a{
     border: 1px solid black;
+    border-radius: 10px;
     text-decoration: none;
     color: silver;
     padding: 10px;
     font-size: 20px;
     margin: 10px;
+    background-color: black;
 }
+/* styling my gallery images*/
 img {
     width: 300px;
     height: 300px;
@@ -120,7 +140,9 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 20px;
 }
+/* styling my footer*/
 footer {
     margin: 40px;
     display: flex;
