@@ -81,20 +81,18 @@ h2 {
 }
  div {
 	 display: flex;
-	 border: 3px solid black;
-	 justify-items: center;
-	 background: black;
-	 margin: 0 0 40px;
+	 justify-content: center;
+	 align-content: center;
  }
-	
-#first {
-	height: 300px;
-	width: 100%;
-}
+ #first {
+	 border: 5px solid black;
+	 height: 400px;
+	 width: 700px;
+ } 
 .second {
 	height: 200px;
 	width: 200px;
-	border: 1px solid black;
+	border: 6px solid black;
 }
 p {
 	width: 200px;
@@ -106,12 +104,15 @@ p {
 section{
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	border: 4px solid black;
+	background: orange;
 }
 address {
+	display: flex;
+	justify-content: space-between;
 	background: orangered;
 	font-size: 20px;
-	color: white;
+	color: darkolivegreen;
 }
 h3 {
 	background: orangered;
@@ -119,16 +120,17 @@ h3 {
 	text-align: center;
 }
 .button-1 {
-	border-radius: 40px;
-	padding: 20px;
-	height: 100px;
+	height: 226px;
 	width: 150px;
 	background: green;
+	cursor: pointer;
 	
 }
 .button-2 {
-	border-radius: 20px;
 	color:black;
 	background: dodgerblue;
-	margin: 10px 500px;
+	Height: 150px;
+	width: 150px;
+	cursor: pointer;
 }
+
