@@ -48,3 +48,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Style starts from here */
+
+
+
+header nav .nav-list {
+  background-color: yellow;
+  color: darkgreen;
+  font-size: 25px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 5px;
+
+}
+/* Hero area */
+
+#hero {
+  display: flex;
+  background-color: lightgreen;
+}
+div div.hero-list {
+  justify-content: space-between;
+}
+.hero-master {
+  color: black;
+  margin: 10px;
+  padding: 100px;
+
+}
+
+div h1 {
+  font-size: 40px;
+  color: brown;
+  font-weight: bold;
+}
+div h3 {
+  font-size: 30px;
+  color: blue;
+
+}
+
+.button-all {
+  background-color: grey;
+  color: crimson;
+  width: 100px;
+  height: 45px;
+}
