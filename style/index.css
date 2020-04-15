@@ -47,7 +47,8 @@ table {
 /* CODE STARTS HERE */
 
 .container {
-    margin: 30px;
+    margin: 0px;
+    position: relative;
 }
 
 h1 {
@@ -58,20 +59,46 @@ h1 {
 }
 
 nav {
-    text-align: center;
     padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: white;
+    border-style: solid;
+}
+
+nav a {
+    padding: 1%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    background-color: slategray;
+    color: black;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(66, 67, 77);
+    color: white;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     padding: 1%;
+    text-transform: uppercase;
 }
 
 #sec1Text {
     font-size: 15px;
     text-align: center;
     padding: 1%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .section2 {
@@ -79,21 +106,61 @@ h2 {
 }
 
 .section3 {
+    height: 450px;
+    width: 1500px;
+    margin-top: 0%;
+    border: 1px solid white;
+    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
-    margin: auto;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    align-items: center;
+}
+
+.section3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 0%;
 }
 
 #sec3Text {
-    text-align: center;
-    display: flex;
+    padding: 2%;
+    text-align: left;
+    color: black;
 }
 
 .sectionFooter {
-    margin: 2%;
     text-align: center;
     border: 3px black;
-    padding: 2px;
+    padding: 50px;
+    background-color: rgb(150, 150, 150);
 }
+
+.sectionFooter a {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: slategray;
+    color: black;
+    text-decoration: none;
+}
+
+.sectionFooter a:hover {
+    background-color: rgb(66, 67, 77);
+    color: white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
