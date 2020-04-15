@@ -1,7 +1,36 @@
+a {
+  color:black;
+  text-decoration: none;
+}
+a:visited{
+  color:black;
+text-decoration: none;
+}
+
+
 #title h1{
     
     display:block;
     text-align: center;
+    }
+
+
+    .containerA{
+      background: linear-gradient(
+        to right, 
+        #ff9e2c 0%, 
+        #ff9e2c 50%, 
+        #b6701e 50%, 
+        #b6701e 100%
+      );
+      border: 1px solid black;
+      margin: 30px 0;
+      height: 200px;
+      
+      
+
+
+
     }
   
 
@@ -51,8 +80,10 @@
     }
     .container .item-3 {
       border: 2px solid black;
-      height: 155px;
+      height: 150px;
       width: 180px;
+      
+
     }
     
     .item-1 {
@@ -65,12 +96,14 @@
       font-size: 40px;
         text-align: center;
       background-color: slategray;
+    
     }
     
     .item-3 {
       font-size: 40px;
         text-align: center;
       background-color: lavender;
+      position: absolute;
     }
     
     .item-4 {
@@ -93,7 +126,7 @@
     }
     
     
-    /* Make the boxes in container-1 centered in a row within their container */
+  
     
     .container-1 {
       display:flex;
@@ -101,7 +134,7 @@
       align-items:center;
     }
     
-    /* Make the boxes in container-2 centered in a column within their container */
+  
     
     .container-2 {
       display:flex;
@@ -111,17 +144,14 @@
     }
     
     
-    
-    /* Put the boxes in container-4 in a column and spread them evenly across across the height of their container */
+
     
     .container-4 {
       display:flex;
       flex-direction: column;
       justify-content: space-evenly;
     }
-    
-    
-    /* Put the boxes in container-5 in a row in reverse order and put them in the bottom left corner */
+
     
     .container-5 {
       display:flex;
