@@ -1,1 +1,61 @@
-/* Add CSS styling here */
+h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    text-align: 50px;
+    
+  }
+  p {
+      text-align: center;
+      font-size: 90%;
+      font-family: 'Times New Roman', Times, serif;
+  }
+.container {
+    margin: auto;
+    width: 600px;
+  }
+  
+  .container header nav a {
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    border: 20px solid ;
+    color: rgb(15, 201, 46);
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: rgb(23, 26, 190);
+   
+    
+  }
+  .container header nav a:hover {
+      color: silver;
+
+
+  }
+
+
+.Introducing img {
+    width:100%
+}
+.Introducing h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.pics_in_a_row {
+    display: flex;
+
+  }
+  
+.container h1{
+    text-align: center;
+}
+.contact a {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: rgb(76, 163, 91);
+}
+body {
+    background-color: lightgreen;
+}
