@@ -1,1 +1,41 @@
-/* Add CSS styling here */
+h1 {
+    color: blue;
+    border: 20px red solid;
+    text-align: center;
+    padding: 1%;
+    margin:4%;
+}
+.gallery  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+a {
+    color: yellowgreen2;
+    text-align: center;
+}
+a:hover{
+    color: whitesmoke;
+
+}
+*{
+    background-color: brown;
+
+}
+h2 {
+    color: burlywood;
+    border: 15px black dashed;
+    text-align: center;
+}
+p {
+    color: cornflowerblue;
+    font-size: 26px;
+}
+p:hover{
+    color: white;
+}
+nav{
+    text-align: center;
+    margin: 0 auto;
+
+}
