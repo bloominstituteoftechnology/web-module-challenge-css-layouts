@@ -1,1 +1,63 @@
 /* Add CSS styling here */
+body{
+    margin: 0 auto;
+}
+header{
+    background: gray;
+    padding-top: 10px;
+    border-bottom: black solid 2px;
+}
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Gaegu', cursive;
+    margin-left: 20px;
+    font-size: 50px;
+  }
+
+nav{
+    display: flex;
+    margin-left: 70px;
+    box-sizing: border-box;
+
+}
+
+
+nav .item{
+background: rgb(224, 221, 24);
+color: rgb(45, 66, 75);
+font-size: 24px;
+text-decoration: none;
+padding: 4px;
+border: 1px solid black;
+border-radius: 0px;
+margin-bottom: 20px;
+display: inline-block;
+}
+
+.item:hover{
+    background: lightslategray;
+    color: white;
+
+    }
+
+    p {
+        font-size: 16px;
+        font-family: roboto;
+        padding: 10px;
+        line-height: 1.4;
+        }
+
+    img  {
+        border-radius: 10px;
+
+      }
