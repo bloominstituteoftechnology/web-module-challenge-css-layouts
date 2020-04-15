@@ -118,3 +118,7 @@ h3 {
 	font-size: 30px;
 	text-align: center;
 }
+button {
+	height: 50px;
+	width: 50px;
+}
