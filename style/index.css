@@ -1,180 +1,236 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+vertical-align: baseline;  
+}
+
 * {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-vertical-align: baseline;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-family: 'roboto', sans-serif;
 }
 
 body {
-margin: 10px;
-border: 20px solid mistyrose;
 }
 
-h1 {
-color:darkslategray;
-font-family: "satisfy", cursive;
-font-size: 65px;
-width: 25%;
-height: 160%;
-padding-left: 2%;
-background: mistyrose;
-box-shadow: 5px 5px 5px 0px gray;
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  border: 3px solid black;
+  background-image: url(file:///Users/elle/Desktop/Portfolio/User-Interface-II/Photo%20Elements/nordwood-themes-ubIWo074QlU-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.top-btns button {
-background: lavenderblush;
-border: 1px solid mistyrose;
-color: black;
-padding: 8px 24px;
-float: left;
-box-shadow: 5px 5px 5px gray;
-width: 6.75%;
+.hero-inner h1{
+  font-family: "roboto", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: yellow;
 }
 
-.top-btns button:hover {
-background: oldlace;
-border: none;
-color: gray;
-padding: 10px 24px;
-float: left;
-box-shadow: 3px 3px 3px gray;
+.hero-inner nav {
+  text-decoration: none;
+  border-radius: 7px;
+  justify-content: space-around;
+  margin-top: 2%; 
 }
 
-.intro {
-margin: 10%;
-width: 70%;
-height: 70%;
-padding: 8% 2% 8% 8%;
-border-radius: 10px;
-justify-content: center;
-background: seashell;
+.hero-inner nav a {
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px 24px;
 }
 
-h2 {
-color:darkslategray;
-font-family: "roboto", sans-serif;
-font-size: 35px;
-width: 100%;
-position: relative;
-left: -50px;
-}
-
-.self-photo {
-height:15%;
-width: 20%;
-border: 8px solid mistyrose;
-border-radius: 5%;
-margin-left: 100px;
-margin-top: 20px;
-position: relative;
-top: -65px;
-left: -90px;
-}
-
-img {
-height: 15%;
-width: 15%;
-border-radius: 5%;
-}
-
-.intro-btn {
-position: relative;
-bottom: -10px;
-left: -50px;  
-}
-
-.intro-btn button {
-background: lavenderblush;
-border: 1px solid mistyrose;
-color: black;
-box-shadow: 5px 5px 5px gray;
-width: 20%;
-padding: 1%;
+.hero-inner nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 3px 0px yellow;
 
 }
 
-.intro-btn button:hover {
-background: oldlace;
-border: none;
-color: gray;
-box-shadow: 3px 3px 3px gray;
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    margin: 10% 10%;
+    padding-top: 0;
+    border-radius: 100%;
 }
 
-.intro p {
-position: relative;
-bottom: -30px;
-left: -50px;
-width: 97%;
-line-height: 25px;
+.hello {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hello h2 {
+    color: black;
+    width: 100%;
+    font-size: 3.1rem;
+    position: relative;
+    left: 45%;
+    bottom: 200%;
+}
+
+.name {
+    color: yellow;
+    font-size: 4.1rem;
+    position: relative;
+    left: 70%;
+    bottom: 17%;
+}
+
+.photo img {
+    display: flex;
+    width: 25%;
+    height: auto;
+    border: 7px solid yellow;
+    border-radius: 80px;
+    margin: 30px 10px 30px 70px;
+}
+
+.button button {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+    position: relative;
+    left: 380%;
+    bottom: 300%;
+
+}
+
+.button button:hover {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+.text p {
+    max-width: 55%;
+    position: relative;
+    left: 15%;
+    bottom: 218%;
+    line-height: 200%;
+}
+
+.eng {
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 229%;
+    left: 62%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* .title h2{
+    font-weight: bold;
+} */
+
+.project img {
+    max-width: 90%;
+    justify-content: space-between;
+    width:  300px;
+    height: 200px;
+}
+
+#footer {
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 0px;
+    height: 200px;
+    text-align: center;
+}
+
+.lets-connect h3 {
+  font-size: 1.5rem;
+  padding-top: 3%;
+    text-align: center;
+}
+
+.lets-connect h4 {
+    font-size: 1.5rem;
+      text-align: center;
+      color: yellow;
+  }
+
+  #btm-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 2%;
+  }
+
+footer .contact a {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+
 } 
 
-.photos {
-position: relative;
-display: inline-block;
-text-align: center;
-padding-left: 5%;
-padding-right: 5%;
+footer .linkedin a {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+  
+} 
+
+footer .contact a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0px 0px 3px 0px gray;
 }
 
-.row {
-flex-direction: row;
-}
-
-.row img {
-width:  220px;
-height: 220px;
-border: 2px solid mistyrose;
-margin-bottom: 7%;
-}
-
-.caption {
-position: relative;
-display: inline-block;
-text-align: center;
-font-family: "roboto", sans-serif;
-left: -145px;
-top: -60px;  
-}
-
-footer {
-padding-top: 10%;
-padding-bottom: 5%;
-background: mistyrose;
-font-family: "roboto", sans-serif;
-}
-
-footer p {
-font-family: "satisfy", cursive;
-font-size: 30px;
-color: darkslategray;
-display: flex;
-justify-content: center;
-line-height: 45%;
-}
-
-.btm-btn {
-position: relative;
-display: flex;
-justify-content: center;
-}
-
-.btm-btn button {
-background: lavenderblush;
-border: 1px solid mistyrose;
-color: black;
-box-shadow: 5px 5px 5px gray;
-width: 20%;
-padding: 1%;
-margin-right: 2%;
-margin-top: 2%;
-}
-
-.btm-btn button:hover {
-background: oldlace;
-border: none;
-color: gray;
-box-shadow: 3px 3px 3px gray;
+footer .linkedin a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0px 0px 3px 0px gray;
 }
