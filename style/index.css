@@ -1,4 +1,136 @@
 /* Add CSS styling here */
-* {
-    border: 10px solid grey;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my css here  */
+
+.header {
+    border: 3px solid black;
+    background-color: lightgrey;
+}
+h1 {
+    font-size: xx-large;
+    color: black;
+    margin: 0 0 20px 20px;
+}
+h2 {
+    font-size: x-large;
+}
+h3 {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+nav {
+    color: black;
+     width: 600px;
+    display: flex;
+    margin: 0px 0px 20px 40px;
+ }
+nav h3:hover {
+    background-color: black;
+    color: white;
+ }
+.intro {
+    display: flex;
+    background-color: beige;
+}
+.intro img {
+    width: 800px;
+    height: 500px;
+    margin: 20px 20px 20px 20px;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 200px;
+    margin: 200px 20px 20px 20px;
+  }
+.about-me h3 {
+    width: 70px;
+}
+.about-me h3:hover{
+    background-color: black;
+    color: white;
+}
+.about-me p {
+    font-size: large;
+}
+.gallery {
+    display flex;
+    flex-wrap: wrap;
+}
+.gallery img {
+     padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+.footer {
+    padding:20px;
+    background-color: lightgrey;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h3 {
+    margin: 20px;
+}
+.footer h3:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
