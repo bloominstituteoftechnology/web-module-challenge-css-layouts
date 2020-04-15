@@ -95,10 +95,10 @@ h2 {
 
 #sec1Text {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     padding: 1%;
-    display: flex;
-    flex-wrap: nowrap;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .section2 {
