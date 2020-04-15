@@ -234,3 +234,344 @@ footer .linkedin a:hover {
     background-color: yellow;
     box-shadow: 0px 0px 3px 0px gray;
 }
+
+@media (max-width:800px) {
+    .hero {
+        width: 100vw;
+        height: 10vh;
+        margin-bottom: 30%;
+    }
+    .hero-inner h1{
+        font-family: "roboto", sans-serif;
+        font-size: 1.5rem;
+        text-align: left;
+        float: left;
+        vertical-align: left;
+        color: yellow;
+        margin: 4% 0% 5% 3%;
+      }
+      .hero-inner nav {
+          display: flex;
+          flex-direction: row;
+        text-decoration: none;
+        border-radius: 7px;
+       margin: 8% 5% 3% 3%;
+      }
+      .hello h2 {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: row;
+        color: yellow;
+        font-size: 1.1rem;
+    }
+
+    .text p {
+        max-width: 55%;
+    }
+    
+    .eng {
+        color: yellow;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .hero-inner nav a:hover {
+        color: yellow;
+        text-decoration: underline;
+        font-size: .7rem;
+        box-shadow: 0px 0px 1px 0px yellow;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       width: 100%;
+       border-radius: 0;
+       margin: 0;
+}
+
+.photo img {
+    display: flex;
+    width: 30%;
+    height: auto;
+    border: 7px solid yellow;
+    border-radius: 40px;
+    margin-right: 33%;
+    position: relative;
+    bottom: 100px; 
+}
+
+.hello h2 {
+width: 100%;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+
+}
+
+.name {
+    width: 70%;
+    font-size: 1.7rem;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+
+.text p {
+    font-size: 1rem;
+    margin: 2% 0% 5% 0%;
+    position: relative;
+    left: 25%;
+    bottom: 20%;
+}
+
+.eng {
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 229%;
+    left: 5%;
+}
+
+.button button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-bottom: 10%;
+    padding: 20px;
+    width: 140px;
+    position: relative;
+    left: 5%;
+    bottom: 300%;
+
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.project img {
+    max-width: 90%;
+    justify-content: space-between;
+    width:  200px;
+    height: 100px;
+}
+
+.lets-connect h3 {
+    font-size: 1.2rem;
+    padding-top: 3%;
+      text-align: center;
+  }
+  
+  .lets-connect h4 {
+      font-size: 1.2rem;
+        text-align: center;
+        color: yellow;
+    }
+  
+    #btm-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 8%;
+    }
+
+    footer .contact a {
+        border-radius: 12px;
+        padding: 15px;
+        width: 100px;
+    
+    } 
+    
+    footer .linkedin a {
+        border-radius: 12px;
+        padding: 15px;
+        width: 100px;
+      
+    } 
+}
+
+@media (max-width:500px) {
+    .hero {
+        width: 100vw;
+        height: 10vh;
+        margin-bottom: 30%;
+    }
+    .hero-inner h1{
+        font-family: "roboto", sans-serif;
+        font-size: 1rem;
+        text-align: left;
+        float: left;
+        vertical-align: left;
+        color: yellow;
+        margin: 4% 0% 5% 3%;
+      }
+      .hero-inner nav {
+          display: flex;
+          flex-direction: row;
+        text-decoration: none;
+        border-radius: 7px;
+       margin: 8% 5% 3% 3%;
+      }
+      .hello h2 {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        width: 100%;
+        font-size: .8rem;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: row;
+        color: yellow;
+        font-size: .8rem;
+    }
+
+    .text p {
+        max-width: 55%;
+    }
+    
+    .eng {
+        color: yellow;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .hero-inner nav a:hover {
+        color: yellow;
+        text-decoration: underline;
+        font-size: .5rem;
+        box-shadow: 0px 0px 1px 0px yellow;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       width: 100%;
+       border-radius: 0;
+       margin: 0;
+}
+
+.photo img {
+    display: flex;
+    width: 30%;
+    height: auto;
+    border: 7px solid yellow;
+    border-radius: 40px;
+    margin-right: 33%;
+    position: relative;
+    bottom: 100px; 
+}
+
+.hello h2 {
+width: 100%;
+    font-size: 1rem;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+
+}
+
+.name {
+    width: 70%;
+    font-size: 1.2rem;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+
+.text p {
+    font-size: .7rem;
+    margin: 2% 0% 5% 0%;
+    position: relative;
+    left: 25%;
+    bottom: 20%;
+}
+
+.eng {
+    font-size: .9rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 229%;
+    left: 5%;
+}
+
+.button button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-bottom: 10%;
+    padding: 20px;
+    width: 140px;
+    position: relative;
+    left: 5%;
+    bottom: 300%;
+
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.project img {
+    max-width: 90%;
+    justify-content: space-between;
+    width:  200px;
+    height: 100px;
+}
+
+.lets-connect h3 {
+    font-size: 1rem;
+    padding-top: 3%;
+      text-align: center;
+  }
+  
+  .lets-connect h4 {
+      font-size: 1rem;
+        text-align: center;
+        color: yellow;
+    }
+  
+    #btm-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 8%;
+    }
+
+    footer .contact a {
+        border-radius: 12px;
+        padding: 15px;
+        width: 100px;
+    
+    } 
+    
+    footer .linkedin a {
+        border-radius: 12px;
+        padding: 15px;
+        width: 100px;
+      
+    } 
+  
+  
