@@ -1,1 +1,5 @@
-/* Add CSS styling here */
+.home h1 {
+    text-align: center;
+    Color: Tomato; 
+    font-size: 60px;
+}
