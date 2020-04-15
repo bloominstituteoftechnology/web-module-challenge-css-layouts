@@ -1,1 +1,139 @@
+/* First we will reset CSS to reduce browser inconsistencies*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+h1 h2 .first-section {
+    font-family: 'Gaegu', cursive;
+    }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+header {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 30px;
+    margin: 20px;
+}
+ nav  a{
+   padding: 8px;  
+    background-color: black;
+    color: silver;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 300px;
+    margin: 20px 90px 0 90px
+}
+.first-section .button {
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    }
+h2 {
+    font-size: 32px;
+}
+.button a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: silver;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+.gallery {
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    padding: 80px;
+}
+footer a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+   } 
+
