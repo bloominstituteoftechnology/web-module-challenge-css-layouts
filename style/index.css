@@ -118,7 +118,17 @@ h3 {
 	font-size: 30px;
 	text-align: center;
 }
-button {
-	height: 50px;
-	width: 50px;
+.button-1 {
+	border-radius: 40px;
+	padding: 20px;
+	height: 100px;
+	width: 150px;
+	background: green;
+	
+}
+.button-2 {
+	border-radius: 20px;
+	color:black;
+	background: dodgerblue;
+	margin: 10px 500px;
 }
