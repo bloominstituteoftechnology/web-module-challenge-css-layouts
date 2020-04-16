@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en";>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
-    
-<div class="container">
     <title>Aaron Helton</title>
 </head>
 <body>
-    <div class=top-header>
+    
         <header>
             <h1>Aaron Helton</h1>
             <nav>
                 <ul>
-                    <li><a href=index.html>About</a></li>
-                    <li><a href=projects.html>Projects</a></li>
-                    <li><a href=contact.html>Contact</a></li>
+                    <li><a class="sr-only sr-only-focusable" href=index.html alt="About Link">About</a></li>
+                    <li><a class="sr-only sr-only-focusable" href=projects.html alt="Projects Link">Projects</a></li>
+                    <li><a class="sr-only sr-only-focusable" href=contact.html alt="Contact Link">Contact</a></li>
                 </ul>
             </nav>
+            
         </header>
-    </div>
+   
 
     <div class=main-content>
         <h2>Introducing My Site</h2>
@@ -31,24 +30,24 @@
             <img src="cityLine.jpg" alt="City Line, main content image">
     </div>
 
-    <div class=project-container>
-        <div class=project1></div>
-        <div class=project2></div>
-        <div class=project3></div>
-        <div class=project4></div>
-        <div class=projectDescription><p>My current projects utalize Javascript, Python, and SQL.</p></div>
+    <div class=project-container >
+        <div class=project1 alt="protject 1">Project 1</div>
+        <div class=project2 alt="project 2">Project 2</div>
+        <div class=project3 alt="project 3">Project 3</div>
+        <div class=project4 alt="project 4">Project 4</div>
+        <div class=projectDescription alt="project description"><p>My current projects utalize Javascript, Python, and SQL.</p></div>
 
     </div>
 
     <footer>
         <div class=inner-footer>
-            <button type="button" onclick="alert('Hello world!')">Contact Me</button>
+            <button><a class="sr-only sr-only-focusable" href=contact.html alt="Contact Link">Contact Me</a></button>
         
         </div>
         <div class="socialNav">
-            <a href="https://www.facebook.com"><img alt="Facebook" src="fbLogo.jpg" width="30px" height="30px">
-            <a href="https://www.linkedin.com"><img alt="Linkedin" src="inLogo.jpg" width="30px" height="30px">
-            <a href="https://www.github.com"><img alt="Github" src="ghLogo.jpg" width="30px" height="30px">
+            <a class="sr-only sr-only-focusable" href="https://www.facebook.com"><img alt="Facebook" src="fbLogo.jpg" width="30px" height="30px">
+            <a class="sr-only sr-only-focusable" href="https://www.linkedin.com"><img alt="Linkedin" src="inLogo.jpg" width="30px" height="30px">
+            <a class="sr-only sr-only-focusable" href="https://www.github.com"><img alt="Github" src="ghLogo.jpg" width="30px" height="30px">
         </div>    
         
     </footer>
