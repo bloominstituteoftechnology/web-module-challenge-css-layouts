@@ -46,3 +46,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+.container {
+	border: 5px solid red;
+}
+h1 {
+	border: 5px solid black;
+}
+nav {
+	border: 5px solid blue;
+}
+h2 {
+	border: 5px solid green;
+}
+.container p {
+	border: 5px solid yellow;
+}
+
+.skyline {
+	border: 1px solid yellow;
+}
