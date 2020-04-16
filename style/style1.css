@@ -23,7 +23,7 @@ div.item-1 button{
     
   }
   
-  div.item-1 button:hover{
+  html > body> div.container.container-1 > div.item-1 button:hover{
     height:50px;
     width:100px;
     background: linear-gradient(
@@ -33,7 +33,8 @@ div.item-1 button{
         #0ddb0d 50%, 
         #0aec83 100%
         );
-        color: white;
+      color:white;
+        
     font-size: medium;
   }
   
@@ -50,7 +51,7 @@ div.item-1 button{
     box-sizing: border-box;
  
     width:100%;
-    height:4.5rem;
+    height:4rem;
 
    
      
@@ -94,7 +95,7 @@ div.item-1 button{
       }
       p{
         text-align: center;
-        margin: 4rem;
+        margin: 40px;
       }
     div  img{
       margin:30px 90px 30px 90;
