@@ -162,7 +162,6 @@ img {
 #project-1-img:hover {
   filter: brightness(50%);
   filter: blur(3px);
-  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
@@ -173,7 +172,6 @@ img {
 #project-2-img:hover {
   filter: brightness(50%);
   filter: blur(3px);
-  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
@@ -184,7 +182,6 @@ img {
 #project-3-img:hover {
   filter: brightness(50%);
   filter: blur(3px);
-  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
@@ -195,7 +192,6 @@ img {
 #project-4-img:hover {
   filter: brightness(50%);
   filter: blur(3px);
-  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
