@@ -49,3 +49,12 @@ table {
 
 /* My Code goes below this line */
 
+*{
+	color: #510000;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+h1{
+	text-align: center;
+	
+}
