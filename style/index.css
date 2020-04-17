@@ -49,10 +49,11 @@ table {
 
 /* My Code goes below this line */
 
+
 *{
 	color: #510000;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 62.5%;
 }
 
 h1{
@@ -60,7 +61,7 @@ h1{
 	font-size: 36px;
 }
 
-.container header nav a: hover{
+.container header nav a :hover{
 	font-size: 25px;
 	text-align: center;
 	margin: 0 10px;
@@ -102,3 +103,26 @@ img{
 	display: flex;
 	flex-direction: column-reverse;
 }
+
+.social section a :hover{
+	font-size: 25em;
+	text-align: center;
+	margin: 0 10px;
+  	border: 1px solid lightgray;
+  	padding: 20px;
+ 	display: inline-block;
+  	border-radius: 20px;
+ 	color: white;
+ 	text-decoration: none;
+ 	margin-bottom: 20px;
+ 	background: #691009;
+}
+
+@media(max-width: 800px) {
+	
+}
+
+@media(max-width: 500px) {
+
+}
+
