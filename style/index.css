@@ -56,5 +56,45 @@ table {
 
 h1{
 	text-align: center;
-	
+}
+
+.container header nav a: hover{
+	padding: 10px;
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background: #691009;
+}
+
+.intro h2{
+	text-align: center;
+}
+
+
+
+img{
+	display: flex;
+	justify-content: center;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.gallery{
+	width: 50px;
+	height: 50px;
+	border: 4px solid purple;
+	border-radius: 5px;
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 3;
+}
+
+.skills{
+	display: flex;
+	flex-direction: column-reverse;
 }
