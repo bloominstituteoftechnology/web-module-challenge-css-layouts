@@ -52,9 +52,18 @@ table {
 /* Style starts from here */
 
 
+#main-container {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 80px;
 
-header nav .nav-list {
+}
+header nav .nav-list{
+  justify-content: space-between;
   background-color: yellow;
+  width: 100%;
+  height: 50px;
   color: darkgreen;
   font-size: 25px;
   border: 1px solid red;
@@ -62,14 +71,24 @@ header nav .nav-list {
   margin: 5px;
 
 }
+
+.nav-list {
+    justify-content: space-around;
+    
+  }
+
+
 /* Hero area */
 
 #hero {
   display: flex;
   background-color: lightgreen;
 }
-div div.hero-list {
-  justify-content: space-between;
+
+.hero-list {
+  justify-content: space-evenly;
+  border-color: 10px solid crimson;
+
 }
 .hero-master {
   color: black;
@@ -92,6 +111,92 @@ div h3 {
 .button-all {
   background-color: grey;
   color: crimson;
-  width: 100px;
+  width: 120px;
   height: 45px;
+  text-decoration: maroon;
+  font-size: large;
+
+
 }
+
+.button-all:hover {
+  background-color: lightskyblue;
+  color: brown;
+  width: 150px;
+  height: 55px;
+  text-decoration: maroon;
+  font-size: larger;
+
+
+}
+/* Section details */
+#projects-details {
+  background-color: darkgray;
+  width: 100%;
+  height: 100px;
+  margin: 15px 0;
+  padding: 75px;
+
+}
+
+section div h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
+}
+
+#image-management {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* Contact section */
+
+#contact-section {
+  background: lightgreen;
+  width: 100%;
+  height: 200px;
+  color: black;
+  margin: 15px 0;
+  padding: 100px;
+  text-align: center;
+}
+
+#contact-section:hover {
+  background: lightsteelblue;
+  width: 100%;
+  height: 200px;
+  color: black;
+  margin: 15px;
+  padding: 100px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+
+#footer {
+  background-color: darkcyan;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: crimson;
+  padding: 50px;
+
+}
+
+#footer:hover {
+  background-color: lightgreen;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: crimson;
+  font-size: 30px;
+  transition: ease-in;
+
+}
+
+
+
