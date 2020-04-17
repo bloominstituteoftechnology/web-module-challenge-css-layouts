@@ -50,6 +50,12 @@ table {
 * {
 	background: #6b5b95;
 }
+	@media(max-width: 500px){
+		* {
+		background: black;
+	}
+}
+
 h1 {
 	font-size: 600%;
 	text-align: center;
@@ -61,10 +67,34 @@ h1 {
 	justify-content: center;
 	align-items: center;
 }
+@media(max-width: 800px){
+	h1 {
+		background: red;
+		color: white;
+	}
+	}
 .nav-con {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+}
+@media(max-width: 800px){
+		.nav-con {
+			flex-direction: column;
+			align-items: center;
+		}
+}
+@media(max-width: 500px){
+	.nav-con {
+		background: cadetblue;
+	}
+}
+@media(max-width: 500px){
+	.link {
+		background:darkviolet;
+		color: black;
+		font-size:
+	}
 }
 a {
 	background: black;
@@ -107,6 +137,12 @@ section{
 	border: 4px solid black;
 	background: orange;
 }
+
+@media(max-width: 800px){
+	section {
+		flex-wrap: wrap;
+	}
+}
 address {
 	display: flex;
 	justify-content: space-between;
@@ -114,6 +150,11 @@ address {
 	font-size: 20px;
 	color: darkolivegreen;
 }
+@media(max-width: 500px){
+	address {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 h3 {
 	background: orangered;
 	font-size: 30px;
