@@ -68,3 +68,8 @@ h2 {
 .skyline {
 	border: 1px solid yellow;
 }
+
+.project-images {
+	display: inline-flex;
+}
+
