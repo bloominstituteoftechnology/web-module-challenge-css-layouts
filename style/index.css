@@ -53,6 +53,10 @@ html {
     font-size: 62.5%;
 }
 /*I choose black, silver, and gray colors so they can help with webpage accesability*/
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
 h1 h2 .first-section {
     font-family: 'Gaegu', cursive;
     }
