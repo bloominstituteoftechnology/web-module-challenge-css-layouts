@@ -74,8 +74,6 @@ h1{
 	text-align: center;
 }
 
-
-
 img{
 	display: flex;
 	justify-content: center;
@@ -92,6 +90,7 @@ img{
 	display: flex;
 	flex-direction: row;
 	flex-shrink: 3;
+
 }
 
 .skills{
