@@ -24,6 +24,11 @@ vertical-align: baseline;
 body{
      background-color:beige;}
 
+@media (max-width: 800px)
+  {body{background-color: salmon;}
+    @media (max-width: 500px)
+    {body{background-color:black;}}
+
 h1{display:flex;
    justify-content: center;
    font-size: 4rem;
@@ -38,6 +43,8 @@ nav {display:flex;
   margin: 2rem;
     font-family:arial;
 }
+    @media(max-width:500px)
+    {nav{flex-direction: column;}}
 
  
 a{border: 1rem solid lightgreen;
@@ -56,11 +63,20 @@ h2{display: flex;
    color:lightgreen;
    margin:2rem;
 }
+     @media(max-width:800px)
+     {h2{font-size:2rem;}}
+     @media(max-width:500px)
+     {h2{font-size: 1.5rem;}}
    
  p{display: flex;
    font-family:arial;
    color: lightskyblue;
    margin:2rem}
+    
+     @media(max-width:800px)
+     {p{font-size:1.10rem;}}
+     @media(max-width:500px)
+     {p{font-size: 1rem;}}
 
   container{object-fit:none;
 /*     object-position: 6rem 6rem; */
@@ -70,8 +86,8 @@ h2{display: flex;
     width: 50rem;
     height: 20rem;
     background-size: 50rem 50rem;
-    border: 5px solid beige;
-    padding-bottom: 20px;
+    border: 5px;
+    padding-bottom: 1.5rem;
 /*     object-position: 100% 100%; */
 
 }
@@ -91,6 +107,11 @@ section-two{
     color:lightskyblue;
     margin: 2rem;
     font-weight:bold;}
+    
+     @media(max-width:800px)
+     {.picture-text{font-size:.90rem;}}
+     @media(max-width:500px)
+     {.pixture-text{font-size: .75rem;}}
 
 
 footer{display:flex;
@@ -106,4 +127,5 @@ a{border: .25rem solid lightgreen;
   height: 1rem;  
   color: lightskyblue;
   background-color: slategray;
-    text-decoration: none;}
+    text-decoration: none;
+}
