@@ -1,13 +1,13 @@
 /* Add CSS styling here */
 .container {
-    width: 920px;
+    width: 50%;
     margin: auto;
     background-color: rgb(162, 173, 221);
 }
 .header {
-    margin-left: 30px;
+    margin-left: 3%;
     width: 100%;
-    padding: 10px;
+    padding: 1%;
 }
 .nav {
     display: flex;
@@ -16,18 +16,18 @@
 }
 .b1, .b2, .b3, .b4 {
     display: flex;
-    padding: 10px;
+    padding: 1%;
     align-items: center;
     flex-direction: column;
     border: 1px solid grey;
-    border-radius: 15px;
+    border-radius: 15%;
     justify-content: center;
     text-decoration: none;
     color: white;
-    height: 20px;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    height: 2vh;
+    margin-top: 2%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
     background-color: rgb(79, 87, 160)
 }
 .b1:hover {
@@ -52,29 +52,32 @@
 .middle {
     display: flex;
     align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
+    justify-content: center;
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-bottom: 3%;
+    margin-top: -3%;
+    }
 .box1, .box2, .box3, .box4, .box5, .box6 {
-    width: 32%;
+    width: 26%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 5%;
 }
 img {
-    border-radius: 15px;
+    border-radius: 1.5%;
 }
 .bottom {
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 1.5%;
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 3%;
 }
 .bt2 {
-    height: 20px;
+    height: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +85,7 @@ img {
 .bt {
     background-color: rgb(79, 87, 160);
     border: none;
-    border-radius: 15px;
+    border-radius: 1.5%;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -95,11 +98,11 @@ img {
 }
 .top1 {
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 1.5%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 80px;
+    padding: 8%;
     background-color: rgba(150, 132, 214, 0.521);
 }
 .top1:hover {
@@ -108,4 +111,18 @@ img {
 a {
     text-decoration: none;
     color: white;
+}
+@media (max-width: 500px) {
+    .nav {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    }
+    .header {
+        margin-left: 35%;
+        }
+   }
+}
+@media (max-width: 800px) {
+    
 }
