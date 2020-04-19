@@ -51,12 +51,32 @@ table {
 
 /* Style starts from here */
 
-
 #main-container {
   display: flex;
   background-color: black;
   width: 100%;
   height: 80px;
+
+
+}
+
+@media(max-width: 500px) {
+  #main-container {
+    width: 500px;
+    background-color: lightgrey;
+  }
+  #main-container header nav{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  #main-container header nav a{
+      margin-bottom: 10px;
+
+  }
+
+
 
 }
 header nav .nav-list{
