@@ -19,27 +19,29 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+
+
 body{
      background-color:beige;}
 
 h1{display:flex;
    justify-content: center;
-   font-size: 60px;
+   font-size: 4rem;
    color: lightblue;
    font-family:arial;
-   margin:20px;
+   margin: 1rem;
    
 }
 nav {display:flex;
    justify-content: center;
   flex-direction: row; 
-  margin: 2px;
+  margin: 2rem;
     font-family:arial;
 }
-    
+
  
-a{border: 2px solid lightgreen;
-    padding: 10px;
+a{border: 1rem solid lightgreen;
+    padding: 1rem;
     color: lightskyblue;
     background-color: slategray;
     text-decoration: none;   
@@ -49,39 +51,35 @@ a:hover{background-color:yellow;}
 
 h2{display: flex;
    justify-content: center;
-   font-size: 35px;
+   font-size: 2.5rem;
    font-family:arial;
    color:lightgreen;
-   margin:20px;
+   margin:2rem;
 }
    
  p{display: flex;
    font-family:arial;
    color: lightskyblue;
-   margin:30px;}
+   margin:2rem}
 
-container{object-fit:none;
-    object-position: 50% 50%;
+  container{object-fit:none;
+/*     object-position: 6rem 6rem; */
    }
 
 .image{display: flex;
-    width: 500px;
-    height: 500px;
-    background-size: 100% 100%;
+    width: 50rem;
+    height: 20rem;
+    background-size: 50rem 50rem;
     border: 5px solid beige;
     padding-bottom: 20px;
-    object-position: 100% 100%;
+/*     object-position: 100% 100%; */
 
 }
-
-   
- 
-
 
 section-two{    
     font-family:arial;
     color:lightskyblue;
-    margin: 20px;
+    margin: 1rem;
     font-weight:bold;} 
 
     .images{display:flex; 
@@ -91,7 +89,7 @@ section-two{
     .picture-text{
     font-family:arial;
     color:lightskyblue;
-    margin: 20px;
+    margin: 2rem;
     font-weight:bold;}
 
 
@@ -99,13 +97,13 @@ footer{display:flex;
     background-color:lightblue;
     font-family:arial;
     justify-content:center; 
-    border: 1px solid lightgreen;
-    padding: 40px;
+    border: .25rem solid lightgreen;
+    padding: 4rem;
 }
-a{border: 2px solid lightgreen;
-  padding: 10px;
-  width: 100px; 
-  height: 20px;  
+a{border: .25rem solid lightgreen;
+  padding: .25rem;
+  width: 6rem; 
+  height: 1rem;  
   color: lightskyblue;
   background-color: slategray;
     text-decoration: none;}
