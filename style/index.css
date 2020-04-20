@@ -1,1 +1,254 @@
-/* Add CSS styling here */
+/* Reset begins */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset ends */
+
+
+.top-nav {
+    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #e4d6e2;
+}
+
+.nav-links-items {
+    display: flex;
+}
+
+a {
+    padding: 20px;
+    margin-top: 5px;
+    background-color: white;
+    border: 0.5px solid orange;
+    color: darkgray;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+img {
+    width: 40%;
+}
+
+.main-section {
+    width: 92.5%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right-container {
+    width: 70%;
+    padding: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.sub-section .blank-containers {
+    width: 250px;
+    height: 250px;
+    background: rgb(197, 179, 196);
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+
+.top-main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.img1 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img3 {
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img4 {
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img5 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img6 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img7 {
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img8 {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img1 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img2 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img3 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img4 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img5 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img6 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img7 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img8 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background: #e4d6e2;
+    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    align-self: center;
+}
+
+footer button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 20%;
+    align-self: center;
+}
