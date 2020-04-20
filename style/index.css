@@ -1,5 +1,251 @@
-.home h1 {
-    text-align: center;
-    Color: Tomato; 
-    font-size: 60px;
+* {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 1.5rem;
+    
+   
+    }
+    
+    li, a, button {
+    font-family: "Arial" , sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: Black; 
+    text-decoration: none;
+    
+    
+    }
+    header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3.0rem 10%;
+    
+    
+    }
+    .logo {
+    cursor: pointer;
+    margin-right: auto;
+    }
+    
+    .nav_links {
+    list-style: none;
+    
+    }
+    
+    .nav_links li {
+    display: inline-block;
+    padding: 0.1rem 2.0rem;
+    
+    }
+    
+    .nav_links li a {
+    transition: all 0.3s ease 0s;
+    
+    }
+    
+    .nav_links li a:hover {
+        color:teal;
+    
+    
+    }
+    
+    button {
+    padding: 0.9rem 2.5rem;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5.0rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
 }
+    
+    button:hover {
+    background-color: goldenrod;
+    color: teal;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+
+}
+.centered:hover {
+    color: teal;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.0rem;
+    background-color: goldenrod;
+    
+}
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:goldenrod;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.9rem 3.0rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.0rem;
+}
+.container .btn:hover {
+    background-color: goldenrod;
+    color: teal;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow:  wrap-reverse;
+    text-align: center;
+    padding: 6.0rem;
+}
+.footer-content {
+    display: block;
+    margin:auto;
+    height: 10.0rem;
+    padding: 6.0rem;
+
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+   
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 1.5rem;
+    font-size: 2.0rem;
+    width: 4.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: left;
+    margin: 0.1rem;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .social-media {
+      float:right;
+  }
+  @media (max-width: 800px) {
+      header {
+        display:flex; 
+        justify-content: center;
+        
+      }
+      .cta {
+          display: flex;
+          justify-content: center;
+      }
+     .container .btn {
+        display:flex;
+        justify-content: center;
+        font-size:1.0rem; 
+
+    }
+    .centered {
+        display:flex;
+        justify-content: center;
+        font-size:2.0rem; 
+    }
+      
+      .gallery {
+        display:flex; 
+        justify-content: center; 
+      }
+      .center {
+          display:flex;
+          justify-content: center;
+      }
+      button {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.0rem;
+      }
+      .social-media a {
+        display:flex;
+        justify-content: center;
+      }
+
+  }
+   @media (max-width: 500px) {
+      header {
+        display:flex; 
+        justify-content: center;
+        
+      }
+      .cta {
+          display: flex;
+          justify-content: center;
+      }
+     .container .btn {
+        display:flex;
+        justify-content: center;
+        font-size:0.5rem; 
+
+    }
+    .centered {
+        display:flex;
+        justify-content: center;
+        font-size:1.6rem; 
+    }
+      
+      .gallery {
+        display:flex; 
+        justify-content: center; 
+      }
+      button {
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.9rem;
+      }
+      .social-media a {
+        display:flex;
+        justify-content: center;
+      }
+
+  }
+  
+  
+
+   
+
+
+    
