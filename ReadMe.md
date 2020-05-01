@@ -32,7 +32,7 @@ Follow these steps to set up and work on your project:
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
-### Task 2: Minimum Viable Product
+### Task 2a: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
@@ -42,6 +42,12 @@ Once your repository is set up, practice what you learned today to create a port
 - [ ]  A `My Projects` button that links to the projects page
 - [ ]  A `Contact Me` button that links to the contact page
 - [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+
+### Task 2b: Exit Ticket
+
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/M94mbzuHGQoMg6F3e/w9GqZYCQ2YoZZf).
+
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability *without* using external references.
 
 ### Task 3: Stretch Goals
 
