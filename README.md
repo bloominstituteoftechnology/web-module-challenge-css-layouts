@@ -34,7 +34,7 @@ git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 - [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName-day2>`.
 
-### Task 2a: Minimum Viable Product
+### Task 2: Minimum Viable Product
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
@@ -42,12 +42,6 @@ Use the checklist below to guide your work today. Your final product should be p
 - [ ] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Change CSS styles from hard-coded `px` to any one of the responsive units learned today
 - [ ] Add accessability features to your webpage
-
-### Task 2b: Exit Ticket 
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability *without* using external references.
 
 ### Task 3: Stretch Goals
 
