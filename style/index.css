@@ -16,5 +16,83 @@ padding: 0;
 border: 0;  
 font-size: 100%;  
 font: inherit;  
-vertical-align: baseline;  
+vertical-align: baseline; 
+box-sizing: border-box;
+}
+
+
+html{
+    width:100%;
+    height:100%;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin: 1.5%;
+}
+
+/* #home: hover{
+
+} */
+
+
+
+#container{
+    margin: 0% 8% 3% 8%; 
+}
+
+#title{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1586251695724-b3059647e272?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);
+}
+#titleimage{
+    width:100%;
+}
+
+#title div{
+    margin: 10% 10% 10% 10%;
+}
+
+
+.links{
+    display: flex;
+
+}
+#images {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    justify-content:space-around;
+
+}
+
+img, p{
+    width: 90%;
+}
+#images div {
+    width: 30%;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+}
+
+
+footer{
+    background-color: rgb(223, 223, 223);
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+footer button{
+    margin: 3% 10%;
 }
