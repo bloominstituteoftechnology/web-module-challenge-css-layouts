@@ -118,6 +118,26 @@ vertical-align: baseline;
 
   footer{
       width:100%;
+      /* margin-left:5%; */
+      margin-top:3rem;
+      margin-bottom:1%;
       background-color:lightgoldenrodyellow;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
       /* line-height: 4; */
+  }
+
+  .footerText{
+      font-size:2rem;
+      width: 30%;
+      text-align: center;
+      /* border:1px solid red; */
+  }
+
+  .footerButton{
+      height: 4rem;
+      width: 10rem;
+      background-color: lightgrey;
+      border:1px solid black;
   }
