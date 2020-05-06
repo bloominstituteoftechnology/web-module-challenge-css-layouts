@@ -1,1 +1,240 @@
 /* Add CSS styling here */
+
+/* General home page styles*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing: border-box;  
+}
+
+html{
+ font-family: Apple Chancery, cursive, 'Times New Roman', Times, serif;
+ height:100%;
+ display:flex;
+ color:white;
+ background: rgb(2,0,36);
+ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(43,218,201,1) 69%, rgba(0,212,255,1) 100%);
+ background-repeat: no-repeat; 
+}
+
+.home-page{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(43,218,201,1) 69%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    
+
+}
+/*Header styles*/
+header{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.name{
+  left: 0;
+  right: 0;
+  margin: 1% auto 30px auto;
+}
+/*Navagation Menu*/
+nav{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+}
+nav a {
+    text-decoration: none;
+    color:white;
+  
+}
+.main-nav .current{
+    background: black;
+}
+.main-nav a{
+    padding: 5px;
+    background:grey;
+    border: 2px solid white;
+   }
+   .main-nav a:hover{
+        color: black;
+        background: lightblue;
+        transition: 0.5s ease-in;
+    
+  }
+  
+
+/*Header animation*/
+h1.name{
+    animation: type 3s steps(11);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white;
+    width:11ch;
+}
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:11ch;
+    }
+}
+/*Main Intro*/
+section.main{
+    text-align: center;
+    margin: 50px;
+    
+}
+
+section div h2{
+    font-size: 55px;
+    
+}
+.main-intro p{
+    margin:20px;
+}
+/* Page Transition*/
+section div{
+    animation: fade 5s ease;
+    
+}
+@keyframes fade{
+    from{
+      opacity:0;
+      transform: rotatex(-10deg);
+    }
+    to{
+       opacity: 1;
+       transform:rotatex(0);
+    }
+}
+/*Hero Image*/
+.hero img{
+    width: 100%;
+    height:80vh;
+    background-size: cover;
+}
+/*Images at the bottom of the page*/
+
+ .gallery{
+     display:flex;
+     width: 100%;
+     height: auto;
+     align-items:center;
+     justify-content: space-between;
+     justify-items: center;
+     margin-bottom: 5%;
+    
+  }
+
+  
+  .one{
+    margin: 5px;
+    width: 20%;
+    height:500px;
+      cursor: pointer;
+  }
+  .two{
+    margin: 5px;
+    width: 20%;
+    height:500px;
+    cursor: pointer;
+  }
+.three{
+    margin: 5px;
+    width: 20%;
+    height:500px;
+    cursor: pointer;
+}
+.four{
+    margin: 5px;
+    width: 20%;
+    height:500px;
+    cursor: pointer;
+}
+
+div.text{
+      margin: 5px;
+      width: 20%;;
+    height:500px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+         
+}
+.text p{
+    height:500px;
+    text-align: center;
+    overflow: auto;
+    width:100%;
+}
+    
+/*Footer*/
+footer {
+    display:flex;
+    right: 0;
+    bottom:0;
+    background: black;
+    width: 100%;
+    padding: 10px;
+    position:fixed;
+    justify-content: space-evenly;
+       
+}
+
+footer nav{
+     background: black;
+    width: 100%;
+    padding: 10px;
+    }
+
+footer nav button{
+    background-color: silver;
+    padding: 15px;
+    font-family: Apple Chancery, cursive, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor:pointer;
+    
+}
+footer div a{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+button:hover{
+ background-color: steelblue;
+ transition: 0.8s ease-in;
+}
+
+    
+}
+ .github{
+    width: 50%;
+    margin-left: 50%;
+    
+}
