@@ -1,1 +1,19 @@
 /* Add CSS styling here */
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+html{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    background: lightpink;
+   
+
+}
+
+img{
+    width:25%;
+}
