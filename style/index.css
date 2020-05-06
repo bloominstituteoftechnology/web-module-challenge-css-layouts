@@ -1,1 +1,140 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+box-sizing:border-box;
+max-width:100%;
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+header{
+    margin: 20px 20px;
+    padding:0% 0% 5% 1%;
+    background-color:#6495ED;
+}
+header nav{
+    width:100%;
+  }
+
+  .container h1{
+      padding: 20px 2px;
+      font-size: 40px;
+  }
+  #icons li {
+   display: inline-block;
+   justify-content: space-around;
+    list-style-type: none;
+    width: 7em;
+    text-align: center;
+   }
+   #icons a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #EEEEFF;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 2px;
+   }
+   #icons a:hover {
+    background-color: #DDDDEE;
+    box-shadow: 3px 3px 3px gray;
+    border: none;
+   }
+   .first{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+   }
+  .intro{
+     padding-left: 2%;
+    width:70%;
+  }
+  .me{
+      padding-left: 4%;
+  }
+  
+  .me h2{
+      font-size: 28px;
+      padding-bottom:1% ;
+  }
+  .me p{
+      margin-right: 4%;
+    padding-right: 4%;
+    display: inline-block;
+  }
+  #contact li {
+     list-style-type: none;
+     width: 7em;
+     text-align: center;
+     padding-bottom: 1%;
+    }
+  #contact a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #EEEEFF;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 2px;
+   }
+   #contact a:hover {
+    background-color: #DDDDEE;
+    box-shadow: 3px 3px 3px gray;
+    border: none;
+   }
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: baseline;
+    justify-content:space-around;
+  }
+
+  .projects div{ 
+    width:25%;
+    align-items: baseline;
+    padding: 2%;
+    text-align: center;
+  }
+  footer{
+      background-color:#00CED1;
+     text-align: center;
+     padding: 5%;
+  }
+  footer h2{
+      font-size: 25px;
+      padding-bottom: 2%;
+  }
+
+  #button li {
+     display: inline;
+    justify-content: center;
+    list-style-type: none;
+    width: 7em;
+    text-align: center;
+   }
+ #button a {
+   text-decoration: none;
+   color: black;
+   display: inline-block;
+   background-color: #EEEEFF;
+   box-shadow: 5px 5px 5px gray;
+   margin-bottom: 2px;
+  }
+  #button a:hover {
+   background-color: #DDDDEE;
+   box-shadow: 3px 3px 3px gray;
+   border: none;
+  }
