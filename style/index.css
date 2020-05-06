@@ -1,1 +1,123 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+/* General Styles */
+/* */ 
+* {
+    box-sizing: border-box;
+    border:1px solid black;
+  }
+
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+
+  
+  
+  header{
+      display:flex;
+      flex-direction: column;
+      background-color: lightgoldenrodyellow;
+  }
+
+  .mainHeader{
+    font-size: 4rem;
+    margin-left:50px;
+  }
+
+  .mainNav{
+      display: flex;
+      justify-content: flex-start;
+      margin-left:50px
+      /* flex-direction: row; */
+  }
+  .mainNav a{
+      border:1px solid black;
+      margin-left:1rem;
+      width: 8rem;
+      text-align: center;
+      font-size: 2rem;
+      text-decoration: none;
+
+  }
+
+  .intro{
+      margin: 10px 100px;
+      display: flex;
+      /* flex-direction: row-reverse; */
+      /* border: 1px solid red; */
+      height: 20rem;
+  }
+
+  .myIntro{
+      height:200px;
+      width: 55%;
+      margin-left: 5%;
+      /* border:1px solid blueviolet; */
+      display:flex;
+      flex-direction: column;
+      
+
+  }
+
+  .myIntro .subHead{
+      font-size: 3rem;
+      margin-top:2rem;
+  }
+  .myIntro button{
+      width: 30%;
+      height: 20%;
+      margin:3rem 0;
+
+  }
+
+  .heroImg{
+      height: 200px;
+      width: 200px;
+      /* border: 1px solid blue; */
+  }
+
+  .projectGallery{
+      margin-left:5%;
+      margin-right:5%;
+      margin-top:3rem;
+      display:flex;
+      flex-wrap: wrap;
+           
+  }
+
+  .projectImgTitle{
+      width:20%;
+      margin-right:5%;
+  }
+
+  footer{
+      width:100%;
+      background-color:lightgoldenrodyellow;
+      /* line-height: 4; */
+  }
