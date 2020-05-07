@@ -48,6 +48,12 @@ vertical-align: baseline;
   .mainHeader{
     font-size: 4rem;
     margin-left:50px;
+    font-family: Impact, Black, sans-serif;
+  }
+
+  .sectionHeader{
+      font-size: 2rem;
+      font-family:"Arial Black", black, sans-serif;
   }
 
   .mainNav{
@@ -140,4 +146,21 @@ vertical-align: baseline;
       width: 10rem;
       background-color: lightgrey;
       border:1px solid black;
+  }
+
+  .about{
+      margin:10% 5%;
+
+  }
+  
+  .aboutSection{
+      display: flex;
+      align-items: center;
+  }
+
+  .selfie{
+      max-height: 25%;
+      max-width: 50%;
+      margin-right:5%;
+      
   }
