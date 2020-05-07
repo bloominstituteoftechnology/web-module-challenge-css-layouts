@@ -84,13 +84,13 @@ New features of a project should occur in a new branch in the same repository. F
 
  x cd into your personal portfolio folder
  x Create a new branch from <firstName-lastName>:
-git checkout -b <firstName-lastName-day2> <firstName-lastName>.
- Implement the project on your newly created <firstName-lastName-day2> branch, committing changes regularly.
+ x git checkout -b <firstName-lastName-day2> <firstName-lastName>.
+ x Implement the project on your newly created <firstName-lastName-day2> branch, committing changes regularly.
  Push commits: git push origin <firstName-lastName-day2>.
 Task 2: Minimum Viable Product
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
- Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+ x Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
  Introduce max-width media queries into your project at 800px and 500px
  Change CSS styles from hard-coded px to any one of the responsive units learned today
  Add accessability features to your webpage

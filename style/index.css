@@ -38,16 +38,26 @@ vertical-align: baseline;
   } 
 
   
-  
+  .pageContainer{
+      width: 100%;
+      background-color: lightskyblue;
+  }
+
+
   header{
       display:flex;
       flex-direction: column;
       background-color: lightgoldenrodyellow;
+      margin-bottom: 5%;
+      /* max-height: 20vh; */
+      padding-bottom:10%;
+      padding-top: 10%;
+      /* border:1px solid red ; */
   }
 
   .mainHeader{
     font-size: 4rem;
-    margin-left:50px;
+    margin-left:5%;
     font-family: Impact, Black, sans-serif;
   }
 
@@ -59,7 +69,7 @@ vertical-align: baseline;
   .mainNav{
       display: flex;
       justify-content: flex-start;
-      margin-left:50px
+      margin-left:4%;
       /* flex-direction: row; */
   }
   .mainNav a{
@@ -73,7 +83,7 @@ vertical-align: baseline;
   }
 
   .intro{
-      margin: 10px 100px;
+      margin: 5% 10%;
       display: flex;
       /* flex-direction: row-reverse; */
       /* border: 1px solid red; */
@@ -90,21 +100,23 @@ vertical-align: baseline;
       
 
   }
-
+    .myIntro p{
+        margin-right:3%;
+    }
   .myIntro .subHead{
-      font-size: 3rem;
-      margin-top:2rem;
+      font-size: 2.5rem;
+      /* margin-top:2rem; */
   }
   .myIntro button{
-      width: 30%;
+      width: 10rem;
       height: 20%;
-      margin:3rem 0;
+      margin:1rem 0;
 
   }
 
   .heroImg{
-      height: 200px;
-      width: 200px;
+      /* height: 20rem; */
+      /* width: 20rem; */
       /* border: 1px solid blue; */
   }
 
@@ -164,3 +176,5 @@ vertical-align: baseline;
       margin-right:5%;
 
   }
+
+  
