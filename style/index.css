@@ -47,52 +47,44 @@ table {
 	border-spacing: 0;
 }
 
-/* background coloring */
+/* GENERAL TIDBITS */
 
 * {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%
+}
 body {
     background: lightgrey;
 }
-
-/* HEADER STYLING */
-
-header {
-    display: flex;
-    align-items: center;
-    background: slategray;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-h1 {
-    font-size: 50px;
-    margin-left: 4%;
-}
-
-nav {
-    display: flex;
-    /* width: 1000px; */
-    margin-right: 4%;
-
-}
-
-nav div button {
-    /* width: 200px; */
-}
-/* general styles */
-
-/* a {
-    padding: 0 5% 0 5%;
-    background: lightblue;
-} */
 
 img {
     object-fit: cover;
     opacity: 80%;
 }
+
+/* HEADER STYLING */
+
+.headerBar {
+    display: flex;
+    align-items: center;
+    background: slategray;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-left: 4%;
+}
+
+nav {
+    display: flex;
+    margin-right: 4%;
+
+}
+
 
 /* first section */
 
@@ -105,7 +97,7 @@ img {
     max-width: 100%;
     opacity: 50%;
     margin-bottom: 10%;
-    box-sizing: border-box;
+    
 }
 .coverTitle {
     position: absolute;
@@ -115,10 +107,10 @@ img {
 }
 
 .coverTitle h2 {
-    font-size: 40px;
+    font-size: 4rem;
 }
 .coverTitle a {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 /* second section */
 
@@ -130,7 +122,6 @@ img {
 
 .tile {
     width: 30%;
-    /* height: 50px; */
     /* background: hotpink; */
     display: flex;
     flex-direction: column;
@@ -138,12 +129,12 @@ img {
 }
 
 .tile img, .tile h3 {
-    box-sizing: border-box;
     max-width: 100%;
 }
 
 .tile h3 {
     padding: 3% 0% 10% 0%;
+    font-size: 1.6rem;
 }
 
 /* footer styling */
@@ -151,7 +142,7 @@ img {
 footer {
     background: slategray;
     padding:2% 0%;
-    border-top: 5px black solid;
+    border-top: 1%x black solid;
     display: flex;
     justify-content: space-around;
 }
@@ -162,4 +153,49 @@ footer div {
 
 footer a {
  background: slategray;
+ font-size: 2rem;
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+        margin: 2% 0 0 2%;
+    }
+    nav {
+        margin: 2% 0 0 2%; 
+    }
+}
+
+@media(max-width: 500px){
+    .headerBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tile {
+        width: 80%;
+    }
+}
+
+/* ACCESSABILITY FEATURE */
+
+.skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skip:active, 
+a.skip:focus, 
+a.skip:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
 }
