@@ -53,10 +53,16 @@ vertical-align: baseline;
 .followup{
   
 }
-.images{
+.picrow{
   display:flex;
-  justify-content:space-between;
-  width:50%;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:20px;
+}
+.picbox{
+ display:flex;
+ flex-direction:column;
+ text-align:center; 
   }
 
 #contact{
