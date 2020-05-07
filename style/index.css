@@ -110,7 +110,7 @@ vertical-align: baseline;
   .myIntro .subHead{
       font-size: 2.5rem;
       /* margin-top:2rem; */
-      /* border:1px solid peru; */
+      border:1px solid peru;
   }
   .myIntro button{
       width: 10rem;
