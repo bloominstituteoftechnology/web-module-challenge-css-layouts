@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+	<h1> Nick Marconato </h1>
+
+	<nav class='links'>
+	<a href="#">Home</a>
+      	<a href="#">About</a>
+      	<a href="#">Contact</a>
+      	<a href="#">Project</a>
+	</nav>
+
+</header>
+
+<section id='top'>
+		<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="" width="">			
+		</div>
+
+		<div class='main-content'>
+		<h2> Call me Nico, or Zick </h2>
+		<a href='#'>My Projects<a>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		</div>
+
+
+</section>
+
+<section id='bottom'>
+
+	<div class='gallery'>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+	
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title	
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	Title
+	</div>
+
+	<div class='img'>
+		<img src='https://images.unsplash.com/photo-1532466345509-8c3adab3adcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt="Smiley face" height="100" width="100">			
+	
+	Title
+	</div>
+	
+
+</section>
+
+<footer class='footer'>
+
+	<div>
+	<h2>Like what you see?</h2>
+	</div>
+
+	<div id='contact-me'>
+	Contact me.
+	</div>
+
+</footer>
+    
+</body>
+</html>

@@ -1,1 +1,114 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 1px solid grey;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+box-sizing:border-box;
+max-width:100%;
+}
+
+.container {
+Width: 950px;
+}
+
+h1 {
+  margin: 10px 10px 10px 10px;
+  font-size: 30px;
+  text-align: Left;
+}
+
+h2, h3 {
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.links {
+display: flex;
+justify-content: flex-start;
+}
+
+.links a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: #F87B99;
+}
+
+#top{
+  display: flex;
+}
+
+.main-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content a{
+  width: 200px;
+  margin: 20px 20px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 40px;
+  color: white;
+  background: #F87B99;
+}
+
+.main-content p{
+  padding: 5px;
+}
+
+.img-top{
+margin: 20px;
+display:flex;
+justify-content:space-evenly;
+}
+
+.img-bottom{
+  margin: 20px;
+    display:flex;
+  justify-content:space-evenly;
+}
+
+.footer-content div{
+    display:flex;
+    justify-content: center;
+}
+
+footer .footer-content h3 {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.footer-content a{
+margin: 0 10px;
+border: 1px solid lightgray;
+padding: 20px;
+display: inline-block;
+border-radius: 20px;
+color: white;
+text-decoration: none;
+margin-bottom: 20px;
+background: #F87B99;
+}
