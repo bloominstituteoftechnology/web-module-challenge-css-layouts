@@ -1,3 +1,5 @@
+/* @import "./media.css"; */
+
 /* Add CSS styling here */
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
@@ -85,14 +87,16 @@ vertical-align: baseline;
   .intro{
       margin: 5% 10%;
       display: flex;
-      /* flex-direction: row-reverse; */
+      flex-direction: column;
       /* border: 1px solid red; */
-      height: 20rem;
+      flex-wrap: nowrap;
+      align-items: center;
+      /* height: 20rem; */
   }
 
   .myIntro{
-      height:200px;
-      width: 55%;
+      /* height:200px; */
+      /* width: 55%; */
       margin-left: 5%;
       /* border:1px solid blueviolet; */
       display:flex;
@@ -101,16 +105,19 @@ vertical-align: baseline;
 
   }
     .myIntro p{
-        margin-right:3%;
+        /* margin-right:3%; */
     }
   .myIntro .subHead{
       font-size: 2.5rem;
       /* margin-top:2rem; */
+      /* border:1px solid peru; */
   }
   .myIntro button{
       width: 10rem;
-      height: 20%;
+      /* height: 20%; */
       margin:1rem 0;
+      /* border: 1px solid green; */
+
 
   }
 
@@ -126,12 +133,13 @@ vertical-align: baseline;
       margin-top:3rem;
       display:flex;
       flex-wrap: wrap;
+      border: 1px solid red;
            
   }
 
   .projectImgTitle{
-      width:20%;
-      margin-right:5%;
+      width:100%;
+      /* margin-right:5%; */
   }
 
   footer{
@@ -177,4 +185,48 @@ vertical-align: baseline;
 
   }
 
-  
+    @media (max-width:800px){
+        .intro{
+            flex-direction: column;
+        }
+         
+        .projectGallery{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0 0 0% 0;
+            flex-wrap: nowrap;
+            padding:0;
+
+        }
+    }    
+
+    @media (max-width: 500px){
+        .intro{
+
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+        }
+
+        .heroImg{
+            display:none;
+        }
+        .mainNav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainNav a{
+            margin-bottom: 2%;
+        }
+        .mainHeader{
+            align-items: center;
+            margin: 0;
+            text-align: center;
+        }
+
+    }
+
+

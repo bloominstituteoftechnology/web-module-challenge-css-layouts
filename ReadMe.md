@@ -92,7 +92,7 @@ Use the checklist below to guide your work today. Your final product should be p
 
  x Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
  Introduce max-width media queries into your project at 800px and 500px
- Change CSS styles from hard-coded px to any one of the responsive units learned today
+ x Change CSS styles from hard-coded px to any one of the responsive units learned today
  Add accessability features to your webpage
 Task 3: Stretch Goals
 Once you finish the minimum viable project, work on any of the following stretch goals:

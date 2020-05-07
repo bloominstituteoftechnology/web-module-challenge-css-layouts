@@ -1,0 +1,19 @@
+/* media query 800px */
+
+@media (max-width:800px){
+    .intro{
+        flex-direction: column;
+    }
+    
+
+
+/* media query 500px */
+
+
+
+/* media query 360px */
+
+/* media query 1366 px */
+
+
+/* media query 1920 */
