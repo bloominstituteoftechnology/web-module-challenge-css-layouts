@@ -65,6 +65,10 @@ vertical-align: baseline;
  text-align:center; 
   }
 
-#contact{
-  
+.contacts{
+ font-size:20px;
+ text-align:center;
+ }
+.contacts a{
+  padding:10px;
 }
