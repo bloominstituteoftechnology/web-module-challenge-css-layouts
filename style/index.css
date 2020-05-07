@@ -152,11 +152,12 @@ footer {
     background: slategray;
     padding:2% 0%;
     border-top: 5px black solid;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer div {
     text-align: center;
-
 }
 
 footer a {
