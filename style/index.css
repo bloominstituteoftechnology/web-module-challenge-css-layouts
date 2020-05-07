@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0 /* 3px red solid; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* background coloring */
+
 * {
     box-sizing: border-box;
 }
@@ -55,45 +57,108 @@ body {
     background: lightgrey;
 }
 
-/* header styling */
+/* HEADER STYLING */
 
 header {
     display: flex;
+    align-items: center;
+    background: slategray;
     justify-content: space-between;
-    width: 100%;
     box-sizing: border-box;
 }
 
 h1 {
     font-size: 50px;
-    padding-left: 5%;
+    margin-left: 4%;
 }
 
-header div {
+nav {
     display: flex;
-    justify-content: space-between;
+    /* width: 1000px; */
+    margin-right: 4%;
+
 }
 
+nav div button {
+    /* width: 200px; */
+}
+/* general styles */
 
+/* a {
+    padding: 0 5% 0 5%;
+    background: lightblue;
+} */
+
+img {
+    object-fit: cover;
+    opacity: 80%;
+}
 
 /* first section */
 
-
-
-/* second section */
-
-section .tileContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+.cover {
+    position: relative;
+    text-align: center;
 }
 
+.coverImage {
+    max-width: 100%;
+    opacity: 50%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+.coverTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.coverTitle h2 {
+    font-size: 40px;
+}
+.coverTitle a {
+    font-size: 25px;
+}
+/* second section */
+
+.tileContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 30%;
+    /* height: 50px; */
+    /* background: hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile img, .tile h3 {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.tile h3 {
+    padding: 3% 0% 10% 0%;
+}
 
 /* footer styling */
 
-/* button style */
+footer {
+    background: slategray;
+    padding:2% 0%;
+    border-top: 5px black solid;
+}
 
-button {
-    padding: 0 5% 0 5%;
+footer div {
+    text-align: center;
+
+}
+
+footer a {
+ background: slategray;
 }
