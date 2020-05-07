@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    background: #98FB98;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5em;
+    width: 95%;
+    padding: 2em;
+}
+header h1{
+    font-size: 1.5em;  
+    color: orangered;
+}
+.links{ 
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.links a {
+    color:rgb(14, 43, 29);
+    background: orangered;
+    text-align: center;
+    width: 8em;
+    height:20px;
+    border: 1px solid lightgray;
+}
+.links a:hover{
+    background: rgb(230, 117, 76);
+}
+
+.mainFoto{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    /* align-content: center; */
+    margin: 1% 15% 1% 10%;
+    background: url('../images/backgr.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 80%;
+    font-size: 6em;  
+    color: orangered;
+}
+.item{
+    display: flex;
+    flex-direction:column;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fotos img  {
+    width:40vh;
+    height:40vh;
+    margin: 20px;
+}
+button{
+   width:100px;
+   background: orangered;
+ }
+.niz{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+    background-color: #3CB371;
+}
+.niz h4{
+    font-size: 1em; 
+    text-align: center; 
+    color: orangered;
+}
+
+ 
