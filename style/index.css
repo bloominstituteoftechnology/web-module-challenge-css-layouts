@@ -1,1 +1,39 @@
 /* Add CSS styling here */
+
+* { padding:0; margin:0; box-sizing:border-box; max-width:100%; }
+
+/* Google Fonts */
+
+body { line-height:1.2; background-color:darkBlue; width:100%; height:100vh; }
+
+.page-container { width:80%; border:1px dashed white; margin:10vh 10%; padding:12px; }
+
+header { width:100%; display:flex; font-family:'Pacifico',cursive; }
+h1 { width:70%; color:white; }
+.navigation { width:30%; display:flex; flex-direction:row-reverse; align-items:center; }
+.box { font-size:1.5em; width:calc(100% / 3); text-align:center; font-family:'Indie Flower',cursive; height:100%; color:darkBlue; background-color:lightBlue; }
+.box a { color:darkBlue; text-decoration:none; display:block; height:100%; justify-content:center; align-items:center; display:flex; }
+.box a:hover { color:lightBlue; background-color:darkBlue; text-decoration:none; border:1.5px solid lightBlue; }
+
+.main-section { display:flex; margin:96px 24px 64px; align-items:center; }
+.main-image { width:40%; }
+.main-content { width:60%; align-items:center; justify-content:center; margin:12px 48px; }
+.main-name {  }
+
+.projects-button { max-width:180px; font-size:1.5em; text-align:center; font-family:'Indie Flower',cursive; margin:12px 0; border-radius:12px; display:block; color:darkBlue; background-color:lightBlue; }
+.projects-button a { padding:6px; color:darkBlue; text-decoration:none; display:block; background-color:lightBlue; }
+.projects-button a:hover { padding:6px; color:lightBlue; text-decoration:none; background-color:darkBlue; border:1px solid lightBlue; }
+
+.main-name h3 { color:lightBlue; font-family:'Pacifico',cursive; letter-spacing:0.35em; }
+
+.about { color:white; letter-spacing:0.15em; font-family:'Indie Flower',cursive; font-size:1.2em; }
+
+section.images { flex-wrap:wrap; display:flex; max-width:100%; justify-content:space-around; }
+.images div { width:22%; }
+
+footer { width:100%; background-color:lightBlue; width:100%; padding:24px; border-radius:12px; }
+footer h3 { font-family:'Indie Flower',cursive; text-align:center; }
+.contact-button { text-decoration:none; padding:6px; color:lightBlue; background-color:darkBlue; display:block; text-align:center; font-family:'Indie Flower',cursive; border-radius:8px; margin:12px auto; width:180px; }
+footer .contact-button a { color:lightBlue; background-color:darkBlue; text-decoration:none; }
+.contact-button:hover { color:darkBlue; background-color:lightBlue; border:1px solid darkBlue; font-weight:bold; text-decoration:none; }
+ img.icon { width:48px; height:48px; margin:4px calc(50% - 24px); }
