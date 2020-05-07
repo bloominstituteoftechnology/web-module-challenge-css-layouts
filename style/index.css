@@ -23,7 +23,6 @@ vertical-align: baseline;
   padding:0;
   margin:0;
   max-width:100%;
-  border:1px solid grey;
 }
 .one{
   display:flex;
@@ -32,43 +31,80 @@ vertical-align: baseline;
 .name{
  display:flex;
  justify-content:flex-start;
- font-size:50px;
-  
-}
+ font-size:5rem;
+ background-color:red;
+  }
 .links{
     display: flex;
     justify-content:flex-end;
-    font-size:30px;
+    font-size:3rem;
+    background-color:red;
 }
 .links a{
- padding:10px; 
+ padding:1rem; 
 }
 .opener{
-    background-color: #00CED1;
+    background-color:blue;
+    font-size:1.5rem;
     padding: 5%;
     text-align: center;
     width: 100%
-  
-}
-.followup{
-  
-}
+  }
 .picrow{
   display:flex;
   flex-direction:row;
   justify-content:space-around;
-  padding:20px;
+  padding:2rem;
+  background-color:blue;
 }
 .picbox{
  display:flex;
  flex-direction:column;
- text-align:center; 
+ justify-content:space-between;
+ text-align:center;
   }
 
 .contacts{
- font-size:20px;
+ font-size:2rem;
  text-align:center;
+ background-color:red;
  }
 .contacts a{
-  padding:10px;
+  padding:1rem;
+}
+@media(max-width: 800px){
+  #title {
+    width:100%;
+  }
+  .about{
+    display:flex;
+    text-align:center;
+  }
+  
+}
+
+@media(max-width: 500px){
+  #title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .links{
+    width:100%;
+  }
+  #about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  #projects .picrow{
+    width:90%;
+  }
+  .picbox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:7% 0;
+    width:90%
+  }
 }
