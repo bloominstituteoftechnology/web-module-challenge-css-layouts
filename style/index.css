@@ -59,12 +59,19 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding: 1% 0 1% 0.5%;
 }
 
 nav h2 {
     font-size: 2rem;
 }
+
+@media(max-width: 800px){
+    nav h2 {
+        font-size: 1.6rem;
+}
+
 
 ul {
     display: flex;
@@ -77,6 +84,12 @@ li {
     margin: 0 3%; 
     text-decoration: none;
 }
+
+@media(max-width: 800px){
+    li {
+        font-size: 0.8rem;
+}
+
 a {
     color: black;
 }
@@ -113,6 +126,18 @@ h1 {
     font-weight: 550;
 }
 
+@media(max-width: 800px){
+    h1 {
+        font-size: 6vh;
+        font-weight: 500;
+}
+
+@media(max-width: 500px){
+    h1 {
+        font-size: 4vh;
+        font-weight: 500;
+}
+
 button {
     margin-top: 10%;
     width: 100%;
@@ -122,6 +147,19 @@ button {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+@media(max-width: 800px){
+    button {
+        font-size: 1.3rem;
+}
+
+@media(max-width: 800px){
+    button {
+        font-size: 0.8rem;
+}
+
+
+
+
 #projects {
     display: flex;
     width: 100%;
@@ -130,15 +168,32 @@ button {
     justify-content: center;
 }
 
+@media(max-width: 800px){
+    #projects {
+        flex-direction: column;
+}
+
 .firstDivs {
     width: 25%;
     padding: 0 3%;
     text-align: center;
 }
 
+@media(max-width: 800px){
+    .firstDivs {
+        width: 75%;
+        margin-top: 5%;
+    }
+}
+
+
 .firstDivs h2 {
     font-size: 2rem;
     margin-top: 4%;
+}
+@media(max-width: 800px){
+    .firstDivs h2 {
+        font-size: 1.4rem;
 }
 
 .firstDivs img {
@@ -158,6 +213,12 @@ button {
     margin: 3% 0 1% 0;
     width: 5%;
 }
+@media(max-width: 800px){
+    .secondDivs {
+        margin: 8% 1%;
+        width: 8%;
+}
+
 
 .secondDivs img {
     object-fit: fill;
