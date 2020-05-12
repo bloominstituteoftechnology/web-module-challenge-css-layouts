@@ -3,16 +3,15 @@
     color: #efefef;
     font-style: normal;
     font-weight: 100;
-    font-family: monospace;
+    font-family: t26-carbon, monospace;
 }
 
-body {
+body{
+    background-color: #071921;
     box-sizing: border-box;
-    /*background-image: url("../images/cover.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;*/
-    background-color: #051015;
 }
+
+/* Header and Navigation bar styling */
 
 header { 
     display: flex; 
@@ -35,7 +34,6 @@ h1 {
 .navLinks, li, a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color: #efefef;
 }
 
 .navLinks, li, a:hover {
@@ -44,19 +42,90 @@ h1 {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: #57416d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: #efefef;
 }
 
 button:hover{
     background-color: rgba(0,136,169,0.8);
 }
 
-img {
-    width: 80%;
-    display: flex; align-items:center; justify-content: center;
+/* Cover image, Gallery images, and Vignette effect*/
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 1200px;
 }
+
+.imageRow{
+    display: flex; justify-content: space-evenly;
+    padding: 40px;
+}
+
+.img1{
+    background-image: url(../images/img1.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+.img2{
+    background-image: url(../images/img2.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+.img3{
+    background-image: url(../images/img3.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+.img4{
+    background-image: url(../images/img4.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+.img5{
+    background-image: url(../images/img5.jpg);
+    width: 400px;
+    height: 200px;
+}
+
+.img6{
+    background-image: url(../images/img6.jpg);
+    width: 400px;
+    height: 200px;
+    
+}
+
+/* I received help from this site https://una.im/vignettes/ and my programming friend, Zach, to achieve a subtle vignette effect on the images! */
+
+.vignette {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.vignette::after {
+    position: absolute;
+    content: '';
+    top: 0; left: 0; bottom: 0; right: 0;
+    box-shadow: inset 0px 0px 150px #071921;
+}
+
+/* Footer */
+
+footer{
+    margin: 100px;
+    padding: 100px;
+    background-color: rgba(0,136,169,0.8);
+}
+
