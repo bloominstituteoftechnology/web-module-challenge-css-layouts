@@ -1,12 +1,17 @@
 /* For the Nav bar I worked through this tutorial https://youtu.be/PwWHL3RyQgk */
-
-* {
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
+*{
+    color: #efefef;
     font-style: normal;
     font-weight: 100;
     font-family: monospace;
+}
+
+body {
+    box-sizing: border-box;
+    /*background-image: url("../images/cover.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    background-color: #051015;
 }
 
 header { 
@@ -30,6 +35,7 @@ h1 {
 .navLinks, li, a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    color: #efefef;
 }
 
 .navLinks, li, a:hover {
@@ -43,8 +49,14 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: #efefef;
 }
 
 button:hover{
     background-color: rgba(0,136,169,0.8);
+}
+
+img {
+    width: 80%;
+    display: flex; align-items:center; justify-content: center;
 }
