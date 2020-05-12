@@ -1,1 +1,50 @@
-/* Add CSS styling here */
+/* For the Nav bar I worked through this tutorial https://youtu.be/PwWHL3RyQgk */
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+header { 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%; 
+}
+
+h1 {
+   margin-right: auto; 
+   cursor: pointer;
+}
+
+.navLinks, li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks, li, a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.navLinks, li, a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
