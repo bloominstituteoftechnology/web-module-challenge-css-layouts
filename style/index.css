@@ -1,1 +1,71 @@
-/* Add CSS styling here */
+body {
+  border: 20px solid #00CED1;
+  }
+  h1 {
+    color: #778899;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  h2, h3 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  #p1 {
+    background-color: #7FFFD4;
+    color: #2F4F4F;
+    padding: 60px 50px;
+    margin: 0 100px;
+  }
+  #title {
+    background-color: #2F4F4F;
+    color: #00CED1;
+    padding: 80px 75px;
+    margin: 0 100px;
+    }
+  
+  section {
+    color: #2F4F4F;
+    margin: 0 100px;
+  }
+  .last {
+    font-family: Courier;
+    line-height: 1.5;
+    font-size: 19px;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    color: #778899;
+  }
+  h1:hover {
+    color: #BC8F8F;
+  }
+  #p1:hover {
+    background-color: #DEB887;
+  }
+  #title:hover {
+    background-color: #696969;
+    color: #E9967A;
+  }
+  h3:hover {
+    color: #E9967A;
+    text-transform: capitalize;
+  }
+  div:hover {
+    color: #E9967A;
+  }
+  img:hover {
+    border: 5px dashed red;
+  }
+  footer {
+    margin: 75px
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
