@@ -134,6 +134,7 @@ div.container{
   h1:hover{
     color: rgb(102, 20, 255);
     border-color: rgb(255, 0, 149);
+    text-transform:uppercase;
   }
 
   .intro{
@@ -154,7 +155,7 @@ div.container{
     font-style:italic;
     border: 10px groove rgb(7, 255, 222);
     border-radius: 12px;
-    width:600px;
+    width:450px;
     padding: 10px;
     margin-bottom: 50px;
   }
@@ -168,4 +169,43 @@ div.container{
  .content p{
      color:rgb(255, 192, 229);
  }
+
+.bigpic{
+  display: flex;
+  width: 100%;
+  margin: 5% 0;
+  justify-content: center;
+  align-items:center;
+}
+
+
+ .bigpic img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.smallpics{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  padding:10% 0;
+  margin: 0 10%;
+  text-align: center;
+}
+
+.smallpics img{
+  height: 300px;
+  max-width: 150px;
+}
+
+.smallpics p{
+  color:rgb(253, 117, 102);
+  background-color: #ffff99;
+  height: 250px;
+  max-width: 200px;
+}
+
+
+
   
