@@ -1,1 +1,240 @@
-/* Add CSS styling here */
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
+
+ body {
+     line-height: 1;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ blockquote,
+ q {
+     quotes: none;
+ }
+
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
+
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+
+ /* Add CSS styling here */
+ body {
+     background-color: rgb(218, 196, 196);
+ }
+
+ h1 {
+     font-family: "Pacifico", cursive;
+     font-size: 50px;
+     text-align: center;
+ }
+
+ h2 {
+     font-family: "Satisfy", cursive;
+     text-align: center;
+     font-size: 35px;
+ }
+
+ div {
+     display: block;
+     margin: 20px;
+     padding: 20px;
+     border: 0;
+ }
+
+ .intro {
+     font-size: 20px;
+ }
+
+ p {
+     font-family: "Merriweather", serif;
+     display: flex;
+     margin: 20px;
+     padding: 20px;
+     border: 0;
+ }
+
+ .about {
+     font-size: 20px;
+ }
+
+ nav {
+     width: 100%;
+     margin: 20px;
+     padding: 20px;
+     border: 0;
+     background: rgb(55, 123, 128);
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ a {
+     font-size: 16px;
+     color: rgb(88, 89, 97);
+ }
+
+ button {
+     color: gray;
+     background-color: cornflowerblue;
+     padding: 10px;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+
+ button:hover {
+     color: cornflowerblue;
+     background-color: whitesmoke;
+ }
+
+ .latest {
+     display: block;
+ }
+
+ .projects {
+
+     display: flex;
+     flex-direction: row;
+     align-items: start;
+     justify-content: space-around;
+
+ }
+
+ img {
+     padding: 10px;
+
+ }
+
+ footer nav {
+     margin: 0 auto;
+     padding: 10px;
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     height: 30px;
+     width: 100%;
+     background: #999;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     height: 40px;
+ }
+
+ address {
+     font-size: large;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
