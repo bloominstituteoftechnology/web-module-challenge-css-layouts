@@ -1,1 +1,27 @@
 /* Add CSS styling here */
+*{
+    background-color: #2a2a2a;
+    color: snow;
+}
+h1{
+    margin: 5px auto;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.vertical-navigation{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    
+}
+.vertical-navigation a{
+    padding: 0px;
+    margin: 50px;
+}
+.vertical-navigation a:hover{
+    filter: grayscale(0%);
+    }
+.logo{
+    width: 100px;
+}
