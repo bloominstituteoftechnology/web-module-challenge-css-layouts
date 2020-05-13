@@ -63,14 +63,13 @@ h2{
     flex-shrink:;
     justify-content: center;
     margin: auto;
+    width: 500px;
 }
 .smallphotos{
     display:flex;
     flex-direction:row;
     justify-content:flex-start;
-    padding:10% 0;
-    object-fit: scale-down;
-    flex-shrink: inherit;
+    max-width: 500px;
 }
 .container {
     /*======= create a width property. Set the value to 600px */
