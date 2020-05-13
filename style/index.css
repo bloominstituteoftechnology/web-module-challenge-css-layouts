@@ -46,9 +46,9 @@ table {
 
 
 body{
-    border: 20px dotted turquoise;
+    border: 20px dotted #ffff99;
     font-size:20px;
-    background-color: hotpink;
+    background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
     display: block;
     margin: 8px;
 }
@@ -68,14 +68,7 @@ div.container{
     margin-inline-end: 0px;
     font-weight: bold;
   }
-
-  }
-  h1 {
-    color:rgb(7, 255, 243);
-    display:block;
-    font-size:40px;
-    text-align:center;
-  }
+ 
   
  
   .container header nav{
@@ -118,24 +111,61 @@ div.container{
   }
   
 
+  .name{
+    display: flex;
+    width: 100%;
+    margin: 5% auto;
+    justify-content: center;
+  }
+  
   h1{
-    color:rgb(7, 255, 243);
-    display:flex;
+    color:rgb(7, 255, 172);
+    text-align: center;
     font-size:40px;
     font-family: "courier new", courier, monospace;
     font-style:italic;
-    text-align:center;
-    padding: 5%;
-    justify-content:center;
     border:10px;
     border-style: dotted;
-    border-color:#CCFF99;
-    margin:30px;
+    border-color:rgb(7, 255, 222);
+    width:300px;
+    justify-content: center;
   }
-
-
 
   h1:hover{
     color: rgb(102, 20, 255);
+    border-color: rgb(255, 0, 149);
   }
+
+  .intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5% auto;
+    justify-content: center;
+    align-items:center;
+  }
+  
+ h2{
+    color:rgb(255, 0, 149);
+    background-color: rgb(133, 15, 133);
+    text-align: center;
+    font-size:40px;
+    font-family: Georgia, serif;
+    font-style:italic;
+    border: 10px groove rgb(7, 255, 222);
+    border-radius: 12px;
+    width:600px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+
+ p{
+     color:white;
+     font-style: italic;    
+ }
+
+ .content p{
+     color:rgb(255, 192, 229);
+ }
   
