@@ -1,1 +1,9 @@
 /* Add CSS styling here */
+section {
+  background: #282928;
+}
+
+h1.heading {
+  text-decoration: underline;
+  color: #f2f6fa;
+}
