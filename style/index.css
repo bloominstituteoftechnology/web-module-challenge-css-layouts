@@ -26,66 +26,81 @@ body{
     margin: 10px;
     border: 20px dotted red;
 }
-
 div.container{
     width: 90%;
     margin: auto;
-   
 }
-
 h1{
     text-align: center;
-    font-size: 48px;
-    padding: 2.5%;
-    
+    font-size: 52px;
+    padding: 20px;
+}
+.container{ 
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    padding: 20px; 
+}
+.item{
+    border: 2px solid black;
+    padding: 10px;
+    background: lightgrey;    
 }
 
+.item:hover{
+    background:darkgrey;
+}
 h2{
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
-}
-
+    padding: 20px;
 }
 .intro{
-    font-size: 20px;
     text-align: center;
-    padding: 2.5%
+    padding: 10px;
 }
-
 .intro p{
-    font-size: 16px;
+    font-size: 26px;
     text-align: center;
-    padding: 5%;
+    padding: 20px;
 }
-
 .mainphoto{
     display:flex;
-    flex-shrink:;
+    padding: 20px;
     justify-content: center;
     margin: auto;
-    width: 500px;
+    width: 80%;
 }
 .smallphotos{
-    display:flex;
+    display:flex; 
     flex-direction:row;
-    justify-content:flex-start;
-    max-width: 500px;
-}
-.container {
-    /*======= create a width property. Set the value to 600px */
-    margin: 0 auto;
-    width: 600px;
-  }
-  
-  .container header nav a{
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    background: rgb(61, 54, 55);
-    display: flexbox;
     justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.pictures{
+    padding:20px;
+    align-content:center;
+}
+.text p{
+    color:black;
+    font-style: italic;
+    font-size: 24px;
+}
+.footer{
+    display: flex;
+    background: rgb(119, 139, 128);
+    padding: 50px;
+    justify-content: center;
+}
+.contact{
+    border: 5px solid black;
+    padding: 20px;
+    background: rgb(109, 147, 179);
+    border-radius: 20px;
+}
+.contact:hover{
+    background: khaki;
+    color: blue;
+}
