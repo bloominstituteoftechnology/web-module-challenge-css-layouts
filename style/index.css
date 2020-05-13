@@ -1,1 +1,171 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my styling below*/
+
+
+body{
+    border: 20px dotted #ffff99;
+    font-size:20px;
+    background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
+    display: block;
+    margin: 8px;
+}
+
+div.container{
+    width:80%;
+    margin:0 auto;
+  }
+
+  header {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+ 
+  
+ 
+  .container header nav{
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container header nav a {
+    margin: 0 10px;
+    border: 1px solid rgb(205, 247, 18);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: rgb(80, 7, 109);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    margin-bottom: 20px;
+    background-color: rgb(150, 123, 248);
+  }
+  
+  .container header nav a:hover {
+    background-color: white;
+    color: rgb(247, 68, 172);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% {background-color:rgb(202, 255, 116); transform: translate(1px, 1px) rotate(0deg); } 
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { background-color:rgb(105, 255, 67); transform: translate(3px, 2px) rotate(0deg); } 
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { background-color:rgb(50, 255, 228); transform: translate(-3px, 1px) rotate(0deg); } 
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { background-color:rgb(104, 220, 255); transform: translate(1px, 2px) rotate(0deg); } 
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+  .name{
+    display: flex;
+    width: 100%;
+    margin: 5% auto;
+    justify-content: center;
+  }
+  
+  h1{
+    color:rgb(7, 255, 172);
+    text-align: center;
+    font-size:40px;
+    font-family: "courier new", courier, monospace;
+    font-style:italic;
+    border:10px;
+    border-style: dotted;
+    border-color:rgb(7, 255, 222);
+    width:300px;
+    justify-content: center;
+  }
+
+  h1:hover{
+    color: rgb(102, 20, 255);
+    border-color: rgb(255, 0, 149);
+  }
+
+  .intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5% auto;
+    justify-content: center;
+    align-items:center;
+  }
+  
+ h2{
+    color:rgb(255, 0, 149);
+    background-color: rgb(133, 15, 133);
+    text-align: center;
+    font-size:40px;
+    font-family: Georgia, serif;
+    font-style:italic;
+    border: 10px groove rgb(7, 255, 222);
+    border-radius: 12px;
+    width:600px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+
+ p{
+     color:white;
+     font-style: italic;    
+ }
+
+ .content p{
+     color:rgb(255, 192, 229);
+ }
+  
