@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  font: 16px/1.8 'Quicksand', sans-serif;
+  color: #333;
+}
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #e74c3c;
+  transition: color .3s linear;
+}
+#header{
+  background: #fff;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+#header .logo{
+  float: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 20px 0 0;
+}
+#nav{
+  float: right;
+  padding-right: 50px;
+}
+#nav li{
+  float: left;
+  margin: 0 0 0 40px;
+}
+#nav a{
+  color: #333;
+}
+#nav a:hover{
+  color: #e74c3c;
+}
+main{
+  padding: 76px 0 0;
+ }
