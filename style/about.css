@@ -1,22 +1,33 @@
 /* Add CSS styling here */
- 
+ html {
+    border: 20px solid black;
+   background-color: whitesmoke;
+}
+
 header {
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px 5px 10px;
     background-color: black;
     text-align: center;
     margin: 10px auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 10px solid white;
+    font-family: cursive;
+    border: 15px solid orange;
+    width: 50%;
+    color: whitesmoke;
+    font-size: 30px;
     border-radius: 25%;
-    width: 60%;
 }
-
-header nav {
+header:hover {
+    /* background-color: whitesmoke;
+    color: black; */
+    font-size: 31px;
+}
+nav {
     display: inline-block;
     background: whitesmoke;
     padding: 5px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-size: 20px;
     /* display: inline-block;
     border-radius: 25%;
     font-size: 16px;
@@ -26,20 +37,30 @@ header nav {
     text-decoration: none; */
 
   }
+  nav:hover{
+      background-color: orange;
+      font-size: 25px;
+      border: 3px solid white;
+  }
 
 
-header h1 {
+/* header h1 {
     font-size: 80px;
     color: whitesmoke;
     background-color: black;
-    padding: 10px 25px 10px 25px;
+    /* padding: 10px 25px 10px 25px; 
     font-family: cursive;
     
 
 }
+ header h1:hover {
+    background-color: darkgray;
+} */
 
 
 h2 {
+   font-style: italic;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -70,21 +91,33 @@ h2 {
     padding: 20px 40px 20px 40px;
     color: darkblue;
     font-family: cursive;
-
+   
 }
 
 .container p {
     text-align: center;
     padding: 120px 0px 0px 10px;
-    color: darkblue
+    color: darkblue;
+    
 }
 
-
+h3 {
+    font-style: italic;
+    font-size: 30px;
+}
 footer {
     padding: 25px;
     color: whitesmoke;
     background-color: black;
     text-align: center;
     margin: 0px auto;
+    border: 10px solid orange;
 
+}
+footer nav {
+    display: inline-block;
+    background: whitesmoke;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 10px;
 }
