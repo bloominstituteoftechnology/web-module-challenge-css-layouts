@@ -1,1 +1,55 @@
 /* Add CSS styling here */
+
+
+
+/* Nav Stuff */
+nav {
+      display: flex;
+      flex-direction: column;
+      background-color: chartreuse;
+  }
+
+
+  /* Header Section */
+header {
+     display: flex;
+     flex-direction: row;
+     background-color: aquamarine;
+ }
+
+ header img {
+     width: 50%;
+     margin: 10px;
+     border-radius: 10px;
+ }
+
+ .about-me {
+     margin: 20px;
+     padding: 10px;
+ }
+
+ /* image section */
+ .gallery-projects {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: darkorchid;
+ }
+
+ .gallery-projects div {
+     padding: 10px;
+     margin: 10px 10px;
+ }
+
+
+ .desc {
+     text-align: center;
+ }
+
+ /* footer stuff */
+footer {
+     display: flex;
+     flex-direction: column;
+     background-color:tomato;
+     text-align: center;
+ }
