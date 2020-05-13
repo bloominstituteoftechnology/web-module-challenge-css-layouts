@@ -9,6 +9,14 @@
 body{
     background-color: #071921;
     box-sizing: border-box;
+    margin: 0;
+}
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-size: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
 }
 
 /* Header and Navigation bar styling */
@@ -51,23 +59,25 @@ button {
 }
 
 button:hover{
-    background-color: rgba(0,136,169,0.8);
+    background-color: #479eb2;
 }
-/*
+
 .myProj button{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 9%;
+    height: 6%;
 }
 
 /* Cover image, Gallery images, and Vignette effect*/
 
-.cover {
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
-    height: 550px;
-    width: 1200px;
+.emptySpace {
+    /* background-image: url(../images/cover.jpg);
+    background-size: cover; */
+    height: 600px;
+    width: 100%;*/
 }
 
 .imageRow{
