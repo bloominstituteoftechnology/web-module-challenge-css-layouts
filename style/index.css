@@ -148,8 +148,8 @@
 
  div {
      display: block;
-     margin: 20px;
-     padding: 20px;
+     margin: 5%;
+     padding: 2%;
      border: 0;
  }
 
@@ -160,8 +160,8 @@
  p {
      font-family: "Merriweather", serif;
      display: flex;
-     margin: 20px;
-     padding: 20px;
+     margin: 2%;
+     padding: 2%;
      border: 0;
  }
 
@@ -171,9 +171,8 @@
 
  nav {
      width: 100%;
-     margin: 20px;
-     padding: 20px;
-     border: 0;
+     margin:0 auto;
+     padding: 2%;
      background: rgb(55, 123, 128);
      display: flex;
      align-items: center;
