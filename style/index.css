@@ -56,6 +56,7 @@ section {
 }
 
 h1.heading {
-  text-decoration: underline;
   color: #f2f6fa;
+  font-weight: 900;
+  font-size: 36px;
 }
