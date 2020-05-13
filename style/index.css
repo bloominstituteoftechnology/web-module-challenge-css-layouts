@@ -1,1 +1,7 @@
-/* Add CSS styling here */
+.top {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    
+
+}
