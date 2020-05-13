@@ -54,6 +54,13 @@ button:hover{
     background-color: rgba(0,136,169,0.8);
 }
 
+.myProj {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Cover image, Gallery images, and Vignette effect*/
 
 .cover {
@@ -124,30 +131,22 @@ button:hover{
 
 /* Footer */
 
-footer{
-    background-color: rgba(0,136,169,0.8);
-    height: 150px;
-}
-
-/* Can't figure these out yet.
-.buttonFooter {
-    margin: 0 auto;
+footer {
+    background-color: #665585;
+    display: flex; justify-content: center; flex-direction: column; 
     display: block;
+    text-align: center;
+    padding: 10px;
 }
 
-.twitter {
-    background-image: url(../images/twitter.png);
-    
-    width: 100;
-    height: 100;
-} */
 
 /* About Page */
-.profile {
+p.profile{
     display: block;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
+    padding: 20px;
 }
 
 #aboutImg {
