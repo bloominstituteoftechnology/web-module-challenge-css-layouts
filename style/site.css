@@ -1,0 +1,91 @@
+@import "normalize.css";
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.heading {
+    background-color: rgb(238, 232, 232);
+    height: 150px;
+    width: 100%;
+}
+
+.navbar {
+    margin: 0 0 0 30px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.nav-item a {
+    border: 1px solid black;
+    padding: 10px;
+    color: rgb(5, 40, 54);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-item.active a {
+    color: white;
+    background-color: peru;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro-image {
+    width: 400px;
+}
+.text {
+    width: calc(100% - 400px);
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+.text #name {
+    font-size: 22px;
+}
+
+.text #link {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+.content-projects {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.grid {
+    display: flex;
+    flex-flow: column;
+}
+
+.content-title {
+    text-align: center;
+}
