@@ -60,7 +60,7 @@ button:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-*/
+
 /* Cover image, Gallery images, and Vignette effect*/
 
 .cover {
@@ -73,6 +73,16 @@ button:hover{
 .imageRow{
     display: flex; justify-content: space-evenly;
     padding: 40px;
+}
+
+.img1Text, .img2Text, .img3Text, .img4Text, .img5Text, .img6Text {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    padding: 0.75em 1em;
+    box-sizing: border-box;
+    background-color: rgba(0,136,169,0.8);
 }
 
 .img1{
@@ -122,11 +132,46 @@ button:hover{
     text-align: center;
 }
 
-.vignette::after {
+.vignette:after {
     position: absolute;
     content: '';
     top: 0; left: 0; bottom: 0; right: 0;
     box-shadow: inset 0px 0px 150px #071921;
+}
+
+.vignette:hover .img1Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .img2Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .img3Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .img4Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .img5Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .img6Text{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vignette:hover .coverText{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
 }
 
 /* Footer */
@@ -141,12 +186,13 @@ footer {
 
 
 /* About Page */
-p.profile{
+.profile p {
     display: block;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
     padding: 20px;
+    font-size: 18px;
 }
 
 #aboutImg {
