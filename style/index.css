@@ -1,1 +1,71 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body{
+    border: 100px red;
+}
+
+div.container{
+    width: 90%;
+    margin: auto;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    padding: 2.5%;
+    
+}
+
+h2{
+    font-size: 32px;
+}
+nav{
+    text-align: center;
+    padding: 2.5;
+
+}
+.intro{
+    font-size: 20px;
+    text-align: center;
+    padding: 2.5%
+}
+
+.intro p{
+    font-size: 16px;
+    text-align: center;
+    padding: 5%;
+}
+
+.mainphoto{
+    display:flex;
+    justify-content: center;
+}
+.smallphotos{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:10% 0;
+    margin: auto;
+}
