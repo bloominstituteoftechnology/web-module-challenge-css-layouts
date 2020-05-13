@@ -1,0 +1,90 @@
+/* Add CSS styling here */
+ 
+header {
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 10px solid white;
+    border-radius: 25%;
+    width: 60%;
+}
+
+header nav {
+    display: inline-block;
+    background: whitesmoke;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    /* display: inline-block;
+    border-radius: 25%;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px;
+    background: blue;
+    text-decoration: none; */
+
+  }
+
+
+header h1 {
+    font-size: 80px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 25px 10px 25px;
+    font-family: cursive;
+    
+
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.picture {
+    text-align: center;
+    width: 100%;
+    height:auto;
+
+}
+.container {
+   
+        margin: 50px;
+        align-items: left;
+        display: inline-flex;
+        justify-content: space-between;
+
+}
+.container img {
+    max-width:20%;
+    height:auto;
+    justify-content: space-between;
+}
+
+
+.class p {
+    width: 90%;
+    text-align: left;
+    padding: 20px 40px 20px 40px;
+    color: darkblue;
+    font-family: cursive;
+
+}
+
+.container p {
+    text-align: center;
+    padding: 120px 0px 0px 10px;
+    color: darkblue
+}
+
+
+footer {
+    padding: 25px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    margin: 0px auto;
+
+}
