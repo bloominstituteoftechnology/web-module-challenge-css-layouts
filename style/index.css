@@ -51,10 +51,11 @@ nav a {
 
 .gallery {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
-    width: 15%
+	width: 15%;
+	justify-content: center;
+	padding: 30%;
 }
 
 .container {
