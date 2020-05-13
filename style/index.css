@@ -22,7 +22,9 @@ vertical-align: baseline;
 }
 
 body{
-    border: 100px red;
+    background-color: cadetblue;
+    margin: 10px;
+    border: 20px dotted red;
 }
 
 div.container{
@@ -40,10 +42,8 @@ h1{
 
 h2{
     font-size: 32px;
-}
-nav{
     text-align: center;
-    padding: 2.5;
+}
 
 }
 .intro{
@@ -60,12 +60,33 @@ nav{
 
 .mainphoto{
     display:flex;
+    flex-shrink:;
     justify-content: center;
+    margin: auto;
 }
 .smallphotos{
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:flex-start;
     padding:10% 0;
-    margin: auto;
+    object-fit: scale-down;
+    flex-shrink: inherit;
 }
+.container {
+    /*======= create a width property. Set the value to 600px */
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  .container header nav a{
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: rgb(61, 54, 55);
+    display: flexbox;
+    justify-content: center;
