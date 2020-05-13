@@ -53,14 +53,14 @@ button {
 button:hover{
     background-color: rgba(0,136,169,0.8);
 }
-
-.myProj {
+/*
+.myProj button{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+*/
 /* Cover image, Gallery images, and Vignette effect*/
 
 .cover {
