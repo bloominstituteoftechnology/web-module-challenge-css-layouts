@@ -121,3 +121,23 @@ footer nav {
     border: 5px solid white;
     border-radius: 10px;
 }
+
+.about  {
+    margin: 50px;
+    align-items: left;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 25px;
+    text-align: end;
+    color: blue;
+    }
+.about img {
+    max-width:20%;
+    height:auto;
+    justify-content: space-between;
+}
+.aboutme {
+    color: blue;
+    padding: 25px 30px 25px 35px;
+    
+}
