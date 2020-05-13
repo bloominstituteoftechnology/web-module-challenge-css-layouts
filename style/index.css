@@ -133,6 +133,7 @@
  * {
      box-sizing: border-box;
  }
+
  body {
      width: 100%;
      max-width: 100%;
@@ -158,118 +159,128 @@
      border: 0;
  }
 
-     p {
-         font-size: 20px;
-         width: 75%;
-         font-family: "Merriweather", serif;
-         display: block;
-         margin: 0 auto;
-         padding: 1%;
-         border: 0;
-     }
+ p {
+     font-size: 20px;
+     width: 75%;
+     font-family: "Merriweather", serif;
+     display: block;
+     margin: 0 auto;
+     padding: 1%;
+     border: 0;
+ }
 
 
 
 
-     nav {
-         height: 40px;
-         width: 100%;
-         margin: 0 auto;
-         padding: 2%;
-         /* background: rgb(55, 123, 128); */
-         display: flex;
-         align-items: center;
-         flex-direction: row;
-         justify-content: center;
-     }
-    nav button {
-        margin: 0 10px;
-    }
+ nav {
+     height: 40px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 2%;
+     /* background: rgb(55, 123, 128); */
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: center;
+ }
 
-     footer nav {
-         margin: 0 auto;
-         padding: 2%;
-         /* position: fixed; */
-         left: 0px;
-         bottom: 0px;
-         height: 40px;
-         width: 100%;
-         background: rgb(55, 123, 128);
-         /* display: flex;
+ nav button {
+     margin: 0 10px;
+ }
+
+ footer nav {
+     margin: 0 auto;
+     padding: 2%;
+     /* position: fixed; */
+     left: 0px;
+     bottom: 0px;
+     height: 40px;
+     width: 100%;
+     background: rgb(55, 123, 128);
+     /* display: flex;
          flex-direction: row;
          justify-content: space-around; */
-         height: 40px;
-     }
-footer button {
-    margin: 0 10px;
-}
-     a {
-         font-size: 16px;
-         color: rgb(88, 89, 97);
-     }
+     height: 40px;
+ }
 
-     button {
-         width:150px;
-         color: gray;
-         background-color: cornflowerblue;
-         padding: 10px;
-         border-radius: 10px;
-         font-size: 16px;
-     }
+ footer button {
+     margin: 0 10px;
+ }
 
-     button:hover {
-         color: cornflowerblue;
-         background-color: whitesmoke;
-     }
+ a {
+     font-size: 16px;
+     color: rgb(88, 89, 97);
+ }
 
-     img {
-         padding: 10px;
-         overflow: hidden;
-     }
-img:hover{
-    overflow: hidden;
-    transition: transform .5s ease;
-    transform:scale(1.10,1.10);
-    
-}
+ button {
+     width: 150px;
+     color: gray;
+     background-color: cornflowerblue;
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 16px;
+ }
 
-     address {
-         font-size: large;
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-     }
-     /* .upper {
+ button:hover {
+     color: cornflowerblue;
+     background-color: whitesmoke;
+ }
+
+img {
+     /* padding: 10px; */
+     overflow: hidden;
+ }
+.projects img{
+     padding: 20px;
+ }
+ img:hover {
+
+     transition: transform .5s ease;
+     transform: scale(1.10, 1.10);
+
+ }
+
+ address {
+     font-size: large;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ /* .upper {
          display: inline-block;
 
      } */
 
-     .latest {
-        overflow: hidden;
-        height: 600px;
+ .latest {
+     padding: 0;
+     overflow: hidden;
+     height: 600px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 1800px;
+ }
 
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-         width: 1800px;
-     }
+ .projects {
+     margin: 40px;
+     overflow: hidden;
+     height: 400px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
 
-     .projects {
-         overflow: hidden;
-height: 400px;
-         display: flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
+ }
 
-     }
-/* .projects p {
+ /* .projects p {
     width: 0px;
 } */
-     .about {
-         font-size: 20px;
-     }
- 
+ .about {
+     font-size: 20px;
+ }
+
 
  .intro {
      font-size: 20px;
