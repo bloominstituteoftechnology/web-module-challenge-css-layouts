@@ -141,12 +141,17 @@
  }
 
  h1 {
+     padding: .3em; 
+     background-color: linen;
      font-family: "Satisfy", cursive;
      font-size: 60px;
      text-align: center;
+     width: 100%;
  }
 
  h2 {
+     border-bottom: 4px solid #1e3354;
+     margin: 30px;
      font-family: "Satisfy", cursive;
      text-align: center;
      font-size: 40px;
@@ -155,7 +160,6 @@
  div {
      display: block;
      /* margin: 5%; */
-     padding: 1%;
      border: 0;
  }
 
@@ -164,7 +168,7 @@
      width: 75%;
      font-family: "Merriweather", serif;
      display: block;
-     margin: 0 auto;
+     margin: 5em auto;
      padding: 1%;
      border: 0;
  }
@@ -175,7 +179,7 @@
  nav {
      height: 40px;
      width: 100%;
-     margin: 0 auto;
+     margin: 20px auto;
      padding: 2%;
      /* background: rgb(55, 123, 128); */
      display: flex;
@@ -185,7 +189,7 @@
  }
 
  nav button {
-     margin: 0 10px;
+     margin: 10px;
  }
 
  footer nav {
@@ -196,7 +200,7 @@
      bottom: 0px;
      height: 40px;
      width: 100%;
-     background: rgb(55, 123, 128);
+     background: #4c525c;
      /* display: flex;
          flex-direction: row;
          justify-content: space-around; */
@@ -209,21 +213,20 @@
 
  a {
      font-size: 16px;
-     color: rgb(88, 89, 97);
+     color: antiquewhite;
  }
 
  button {
      width: 150px;
      color: gray;
-     background-color: cornflowerblue;
-     padding: 10px;
+     background-color: #1e3354;
+     padding: .3em;
      border-radius: 10px;
      font-size: 16px;
  }
 
  button:hover {
-     color: cornflowerblue;
-     background-color: whitesmoke;
+     background-color: #4682B4;
  }
 
 img {
