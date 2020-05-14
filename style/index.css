@@ -1,1 +1,12 @@
 /* Add CSS styling here */
+.body {
+    background-color: #062a3a;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container {
+    background-image: <img src="https://i.picsum.photos/id/1019/5472/3648.jpg">;
+    background-size: 50%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
