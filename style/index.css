@@ -277,9 +277,17 @@ img {
 
  }
 
- /* .projects p {
-    width: 0px;
-} */
+ /* .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: left;   
+ }
+
+ .social {
+    display: flex;
+    flex-direction: row;
+    align-items: right;   
+ } */
  .about {
      font-size: 20px;
  }
