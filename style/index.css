@@ -214,38 +214,44 @@ footer {
     background-repeat: no-repeat;
 }
 
-/* I copied the form CSS from w3schools but I understand how it works*/
+/* Contact Form. I made this by following this tutorial https://youtu.be/f0DcnrpeBv8 and some of the CSS is copied from w3schools, but I understand how it works. */ 
+.contactForm {
+    border-radius: .5rem;
+    background-color: #c4c4c4;
+    padding: 2%;
+    margin: 0% 10%;
+}
 
-input[type=text], select, textarea {
+.textBox {
+    padding: 1%;
+}
+
+label {
+    color: black;
+}
+
+  input[type=text], select, textarea {
+    color: black;
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    padding: 1%; /* Some padding */ 
+    border: .1rem solid #bfbfbf; /* Gray border */
+    border-radius: .4rem; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: .5rem; /* Add a top margin */
+    margin-bottom: .8rem; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
+}
+
+/* Submit Button */
+input[type=submit] {
+    background-color: rgba(0,136,169,0.8);
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: .5rem;
     cursor: pointer;
-  }
+}
   
-  /* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 0px 500px;
-  }
+    background-color: #01728e;
+}
