@@ -4,24 +4,39 @@
     color: snow;
 }
 h1{
-    margin: 5px auto;
+    margin: 0px auto;
+    padding: 4px;
     font-size: 90px;
     text-align: center;
     letter-spacing: 3px;
 }
-.vertical-navigation{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    
+header{
+    display: inline;
 }
-.vertical-navigation a{
+nav{
+    display: inline;
+}
+
+.vertical-navigation{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100px;
+}
+.item{
     padding: 0px;
-    margin: 50px;
+    margin: 80px 30px;
 }
 .vertical-navigation a:hover{
     filter: grayscale(0%);
     }
 .logo{
-    width: 100px;
+    display: inline;
+}
+body{
+    display: inline;
+}
+.container{
+    
 }
