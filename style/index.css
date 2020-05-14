@@ -6,11 +6,7 @@
     font-family: t26-carbon, monospace;
 }
 
-@media(min-width:800px) {
-    .container {
-        margin: 0% 20%;
-    }
-}
+
 
 @media(max-width:500px){
     ul.navLinks {
@@ -164,4 +160,10 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #01728e;
+}
+
+@media(min-width:800px) {
+    .contactForm {
+        margin: 0% 30%;
+    }
 }
