@@ -1,71 +1,92 @@
-body {
-  border: 20px solid #00CED1;
-  }
-  h1 {
-    color: #778899;
+* {
+  background-color: #FFF8DC;
+}
+
+h1, h2 {
+  color: #556B2F;
+  font-size: 60px;
+  text-align: center;
+  line-height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.item {
+  border: 2px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+.item:hover {
+  background-color: grey;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: grey;
+}
+
+.img1 {
+  width: 100%;
+}
+
+p {
+  margin: 0 100px;
+  border: 50px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.flex-container .p2 img {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: 5px; 
+  flex-wrap: wrap;
+}
+.container2 {
+  width:100%;
+  display: flex;
+  padding: 40px;
+}
+.container2 img {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+}
+.p2 {
+  width: 400px;
+  font-size: 25px;
+  margin: 40px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+  .contact {
     text-align: center;
-    font-size: 40px;
-    padding-top: 10px;
+    font-size: 25px;
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 50px
   }
-  h2, h3 {
-    font-size: 30px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  #p1 {
-    background-color: #7FFFD4;
-    color: #2F4F4F;
-    padding: 60px 50px;
-    margin: 0 100px;
-  }
-  #title {
-    background-color: #2F4F4F;
-    color: #00CED1;
-    padding: 80px 75px;
-    margin: 0 100px;
-    }
-  
-  section {
-    color: #2F4F4F;
-    margin: 0 100px;
-  }
-  .last {
-    font-family: Courier;
-    line-height: 1.5;
-    font-size: 19px;
-  }
-  
-  h3 {
-    text-transform: uppercase;
-    color: #778899;
-  }
-  h1:hover {
-    color: #BC8F8F;
-  }
-  #p1:hover {
-    background-color: #DEB887;
-  }
-  #title:hover {
-    background-color: #696969;
-    color: #E9967A;
-  }
-  h3:hover {
-    color: #E9967A;
-    text-transform: capitalize;
-  }
-  div:hover {
-    color: #E9967A;
-  }
-  img:hover {
-    border: 5px dashed red;
-  }
-  footer {
-    margin: 75px
-  }
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
+button {
+  border: solid black;
+  margin: 0 auto;
+  padding 0 auto;
+  margin: 30px;
+}
+button a:hover {
+  background-color: grey;
+}
