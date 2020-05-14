@@ -15,7 +15,7 @@ header {
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
 	display:flex;
 	flex-direction:row;
-	justify-content:center;
+	justify-content:left;
 	flex-wrap:wrap;
 	padding:20px;
 }
@@ -99,7 +99,8 @@ h2{
 	overflow:hidden;
 }
 .workHistory{
-	width:100%;
+	width:90%;
+	max-width:100%;
 }
 @media(min-width:900px){
 .container1{
