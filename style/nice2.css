@@ -22,6 +22,9 @@ header {
 h1 {
 	width:40%;
 }
+.nav:hover {
+	color:white;
+}
 .nav{
 	width:300px;
 	color:black;
