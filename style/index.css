@@ -165,6 +165,14 @@ div.container{
 
 footer{
   background-color: burlywood;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.footer-content nav{
+  display:flex;
+  justify-content: center;
 }
 
 .footer-content nav a {
@@ -200,10 +208,42 @@ footer{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.linkedin nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background-color: #F87B99;
+}
+.linkedin nav a:hover {
+  background-color: white;
+  color: rgb(247, 68, 172);
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 
+@keyframes shake {
+  0% {background-color:rgb(202, 255, 116); transform: translate(1px, 1px) rotate(0deg); } 
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { background-color:rgb(105, 255, 67); transform: translate(3px, 2px) rotate(0deg); } 
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { background-color:rgb(50, 255, 228); transform: translate(-3px, 1px) rotate(0deg); } 
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { background-color:rgb(104, 220, 255); transform: translate(1px, 2px) rotate(0deg); } 
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
-
-
+.linkedin nav{
+  display:flex;
+  justify-content: center;
+}
 
   /*
 
