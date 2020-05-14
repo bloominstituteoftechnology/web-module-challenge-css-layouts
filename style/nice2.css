@@ -1,72 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-body {
-  font-family: 'Muli', sans-serif;
-  }
-body{
-	background: linear-gradient(to bottom right ,rgba(255,255,255,0),dodgerblue,skyblue,lightblue);
-}
-header {
-	width:100%;
-	background:linear-gradient(to bottom right, rgba(255,255,255,0), lightgrey, darkgrey, grey);
-	display:inline-block;
-}
-h1 {
-	width:20%;
-	float:left;
-}
-nav{
-		float:right;
-	}
-.nav{
-	width:300px;
-	color:black;
-	text-decoration:none;
-	text-align:center;
-	background-color:transparent !important;
-	box-shadow:0px 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-	background-image:linear-gradient(grey,darkgrey);
-	display:inline-block;
-	padding:10px;
-	margin:10px;
-}
-.myPicture{
-	display:inline-block;
-	float:left;
-}
-.intro{
-	display:inline-block;
-	float:right;
-	width:40%;
-}
-.why{
-	display:inline-block;
-	margin:20px;
-	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-	width:25%;
-	float:left;
-	clear:both;
-	}
-.skills{
-display:inline-block;
-margin:20px;
-background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-float:right;
-clear:none;
-}
-.workHistory{
-	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-}
-table  { overflow-y: auto; height: 100px; }
-.workhistory.table thead th { position: sticky; top: 0; }
-
-table  { border-collapse: collapse; width: 100%; }
-th, td { padding: 8px 16px; }
-th     { background:#eee; }
-*/
-
 	@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+	overflow-x:hidden;
+}
 body {
   font-family: 'Muli', sans-serif;
   }
@@ -77,50 +13,69 @@ body{
 header {
 	width:100%;
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-	display:inline-block;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	padding:20px;
 }
 h1 {
-	width:20%;
-	float:left;
+	width:40%;
 }
-nav{
-		float:right;
-	}
 .nav{
 	width:300px;
 	color:black;
-	text-decoration:none;
-	text-align:center;
 	background-color:transparent !important;
 	box-shadow:0px 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 	background-image:linear-gradient(grey,darkgrey);
-	display:inline-block;
 	padding:10px;
 	margin:10px;
+	text-decoration:none;
+	text-align:center;
+}
+nav ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	list-style:none;
+}
+nav a{
+text-decoration:none;
+}
+img{
+	max-width:100%;
+	height:auto;
 }
 .myPicture{
+	width:100%;
 }
 .intro{
 	
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+	width:100%;
 }
 .why{
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-
+width:100%;
 	}
 .skills{
 background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
-
+width:80%;
 }
-div{
-width:40%;
+.container2{
+width:100%;
+}
+.container2{
+width:100%;
 }
 .container1{
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-evenly;
+	justify-content:space-between;
 	flex-direction:row;
-	width:auto;
+	align-items:center;
+	margin:50px;
 }
 .workHistory{
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
@@ -136,7 +91,38 @@ h2{
 	background-image:linear-gradient(grey,darkgrey);
 	padding:10px;
 	margin:10px;
+	overflow:hidden;
 }
 .workHistory{
 	width:100%;
+}
+@media(min-width:900px){
+.container1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	flex-direction:row;
+	align-items:center;
+	margin:50px;
+} 
+.myPicture{
+	width:40%;
+}
+.intro{
+	
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+	width:40%;
+}
+.why{
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:40%;
+	}
+.skills{
+background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:40%;
+
+}
+.container2{
+width:100%;
+}
 }
