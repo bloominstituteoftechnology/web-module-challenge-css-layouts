@@ -135,6 +135,7 @@
  }
 
  body {
+     font-size: 62.5%;
      width: 100%;
      max-width: 100%;
      background-color: rgb(218, 196, 196);
@@ -144,7 +145,7 @@
      padding: .3em; 
      background-color: linen;
      font-family: "Satisfy", cursive;
-     font-size: 60px;
+     font-size: 6rem;
      text-align: center;
      width: 100%;
  }
@@ -154,7 +155,7 @@
      margin: 30px;
      font-family: "Satisfy", cursive;
      text-align: center;
-     font-size: 40px;
+     font-size: 4rem;
  }
 
  div {
@@ -164,7 +165,7 @@
  }
 
  p {
-     font-size: 20px;
+     font-size: 1.6rem;
      width: 75%;
      font-family: "Merriweather", serif;
      display: block;
@@ -177,9 +178,9 @@
 
 
  nav {
-     height: 40px;
+     height: 4rem;
      width: 100%;
-     margin: 20px auto;
+     margin: 2rem auto;
      padding: 2%;
      /* background: rgb(55, 123, 128); */
      display: flex;
@@ -189,40 +190,40 @@
  }
 
  nav button {
-     margin: 10px;
+     margin: 1rem;
  }
 
  footer nav {
      margin: 0 auto;
      padding: 2%;
      /* position: fixed; */
-     left: 0px;
-     bottom: 0px;
-     height: 40px;
+     left: 0rem;
+     bottom: 0rem;
+     height: 4rem;
      width: 100%;
      background: #4c525c;
      /* display: flex;
          flex-direction: row;
          justify-content: space-around; */
-     height: 40px;
+     height: 6rem;
  }
 
  footer button {
-     margin: 0 10px;
+     margin: 0 1rem;
  }
 
  a {
-     font-size: 16px;
+     font-size: 1.6rem;
      color: antiquewhite;
  }
 
  button {
-     width: 150px;
+     width: 10rem;
      color: gray;
      background-color: #1e3354;
      padding: .3em;
-     border-radius: 10px;
-     font-size: 16px;
+     border-radius: 1rem;
+     font-size: 1.6rem;
  }
 
  button:hover {
@@ -234,7 +235,7 @@ img {
      overflow: hidden;
  }
 .projects img{
-     padding: 20px;
+     padding: 2rem;
  }
  img:hover {
 
@@ -258,7 +259,7 @@ img {
  .latest {
      padding: 0;
      overflow: hidden;
-     height: 600px;
+     height: 60rem;
      margin: 0 auto;
      display: flex;
      flex-direction: row;
@@ -267,9 +268,9 @@ img {
  }
 
  .projects {
-     margin: 40px;
+     margin: 4rem;
      overflow: hidden;
-     height: 400px;
+     height: 40rem;
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -277,22 +278,23 @@ img {
 
  }
 
- /* .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: left;   
- }
 
- .social {
-    display: flex;
-    flex-direction: row;
-    align-items: right;   
- } */
  .about {
-     font-size: 20px;
+     font-size: 2.0rem;
  }
 
+ #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
 
  .intro {
-     font-size: 20px;
+     font-size: 2rem;
+ }
+
+ address {
+     font-size: 2rem;
+     margin-top: 30%;
  }
