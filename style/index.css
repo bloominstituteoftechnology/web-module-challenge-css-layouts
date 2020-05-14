@@ -23,7 +23,6 @@
     }
 }
 
-
 body{
     background-color: #071921;
     box-sizing: border-box;
@@ -95,17 +94,6 @@ button:hover{
     margin: 5%;
 }
 
-/*
-.img1Text {
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    top: 40%;
-    padding: 0.75em 1em;
-    box-sizing: border-box;
-    background-color: rgba(0,136,169,0.8);
-}
-*/
 
 /* Footer */
 
@@ -117,7 +105,6 @@ footer {
     padding: 2%;
     margin: 3% 0 0 0;
 }
-
 
 /* About Page */
 .profile p {
@@ -137,12 +124,27 @@ footer {
     background-repeat: no-repeat;
 }
 
-/* I copied the form CSS from w3schools but I understand how it works*/
+/* Contact Form. I made this by following this tutorial https://youtu.be/f0DcnrpeBv8 and some of the CSS is copied from w3schools, but I understand how it works. */ 
+.contactForm {
+    border-radius: .5rem;
+    background-color: #c4c4c4;
+    padding: 2%;
+    margin: 0% 10%;
+}
+
+.textBox {
+    padding: 1%;
+}
+
+label {
+    color: black;
+}
 
   input[type=text], select, textarea {
+    color: black;
     width: 100%; /* Full width */
     padding: 1%; /* Some padding */ 
-    border: .1rem solid #ccc; /* Gray border */
+    border: .1rem solid #bfbfbf; /* Gray border */
     border-radius: .4rem; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: .5rem; /* Add a top margin */
@@ -150,10 +152,9 @@ footer {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+/* Submit Button */
+input[type=submit] {
+    background-color: rgba(0,136,169,0.8);
     padding: 1rem 2rem;
     border: none;
     border-radius: .5rem;
@@ -162,13 +163,5 @@ footer {
   
 /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
-}
-  
-/* Add a background color and some padding around the form */
-  .container {
-    border-radius: .5rem;
-    background-color: #f2f2f2;
-    padding: 2%;
-    margin: 0% 10%;
+    background-color: #01728e;
 }
