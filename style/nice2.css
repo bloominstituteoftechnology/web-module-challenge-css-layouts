@@ -1,7 +1,7 @@
 	@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 *{
-	overflow-x:hidden;
+	max-width:100%;
 }
 body {
   font-family: 'Muli', sans-serif;
@@ -11,7 +11,7 @@ body{
 }
 
 header {
-	width:100%;
+	max-width:99.9%;
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
 	display:flex;
 	flex-direction:row;
@@ -34,12 +34,12 @@ h1 {
 	padding:10px;
 	margin:10px;
 	text-decoration:none;
-	text-align:center;
+	text-align:center
 }
 nav ul{
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:left;
 	flex-wrap:wrap;
 	list-style:none;
 }
@@ -84,7 +84,7 @@ width:100%;
 	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
 }
 table  { overflow-y: auto; height: 100px; }
-.workhistory.table thead th { position: sticky; top: 0; }
+thead th { position: sticky; top: 0; }
 
 table  { border-collapse: collapse; width: 100%; 
 			max-width:100%;	
@@ -99,7 +99,7 @@ h2{
 	overflow:hidden;
 }
 .workHistory{
-	width:90%;
+	width:100%;
 	max-width:100%;
 }
 @media(min-width:900px){
@@ -131,5 +131,9 @@ width:40%;
 .container2{
 width:100%;
 }
+
+.workHistory{
+	width:100%;
+	max-width:100%;
 }
 
