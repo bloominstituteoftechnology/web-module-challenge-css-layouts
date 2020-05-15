@@ -133,7 +133,9 @@ table {
 * {
     box-sizing: border-box;
 }
-
+html{
+    width: 100%;
+}
 body {
     font-size: 62.5%;
     width: 100%;
@@ -142,7 +144,7 @@ body {
 }
 
 h1 {
-    padding: .3em; 
+    /* padding: .3em;  */
     background-color: linen;
     font-family: "Satisfy", cursive;
     font-size: 6rem;
@@ -152,7 +154,7 @@ h1 {
 
 h2 {
     border-bottom: 4px solid #1e3354;
-    margin: 30px;
+    /* margin: 30px; */
     font-family: "Satisfy", cursive;
     text-align: center;
     font-size: 4rem;
@@ -169,7 +171,7 @@ p {
     width: 75%;
     font-family: "Merriweather", serif;
     display: block;
-    margin: 5em auto;
+    /* margin: 5em auto; */
     padding: 1%;
     border: 0;
 }
@@ -180,7 +182,7 @@ p {
 nav {
     height: 4rem;
     width: 100%;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     padding: 2%;
     /* background: rgb(55, 123, 128); */
     display: flex;
@@ -264,11 +266,11 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1800px;
+    /* width: 1800px; */
 }
 
 .projects {
-    margin: 4rem;
+    /* margin: 4rem; */
     overflow: hidden;
     /* height: 40rem; */
     display: flex;
@@ -297,4 +299,22 @@ address {
 address {
     font-size: 2rem;
     /* margin-top: 30%; */
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+
+}
+@media(max-width: 800px){
+    #footer, nav, .projects, .latest, .intro, h1, h2{
+      transform: scale(0.75)
+;    }
+  }
+  
+  @media(max-width: 500px){
+      
+    #footer, nav, .projects, .latest, .intro, h1, h2{
+        transform: scale(0.6)
+  ;    }
 }
