@@ -43,96 +43,105 @@ table {
 }
 
 /*my styling below*/
-
-
-body{
-    border: 20px dotted #ffff99;
-    font-size:20px;
-    background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
-    display: block;
-    margin: 15px;
+html {
+  font-size: 62.5%;
 }
 
-div.container{
-    width:80%;
-    margin:0 auto;
-  }
-
-  header {
-    text-align: center;
-    display: block;
-    font-size: 20px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-  }
- 
-  
- 
-  .container header nav{
-    width: 600px;
-    margin: 0 auto;
-  }
-  
-  .container header nav a {
-    margin: 0 10px;
-    border: 1px solid rgb(205, 247, 18);
-    padding: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    color: rgb(80, 7, 109);
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    margin-bottom: 20px;
-    background-color: rgb(150, 123, 248);
-  }
-  
-  .container header nav a:hover {
-    background-color: rgb(131, 255, 234);
-    color: rgb(247, 68, 172);
-    animation: glowing 1500ms infinite;
-  }
-    
-  @keyframes glowing {
-    0% { box-shadow: 0 0 -10px #ffe97b; }
-    40% { box-shadow: 0 0 40px #ffe97b; }
-    60% { box-shadow: 0 0 40px #ffe97b; }
-    100% { box-shadow: 0 0 -10px #ffe97b; }
-  }
-  
+body{
+  border: 2rem dotted #ffff99;
+  font-size: 2rem;
+  background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
+  margin: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
   .name{
     display: flex;
-    width: 100%;
+    width:25%;
+    height:25%;
     margin: 5% auto;
     justify-content: center;
-  }
-  
-  h1{
-    color:rgb(7, 255, 172);
-    text-align: center;
-    font-size:40px;
-    font-family: "courier new", courier, monospace;
-    font-style:italic;
-    border:10px;
-    border-style: dotted;
-    border-color:rgb(7, 255, 222);
-    width:300px;
-    justify-content: center;
+    box-sizing: border-box;
   }
 
-  h1:hover{
-    color: rgb(102, 20, 255);
-    border-color: rgb(255, 0, 149);
-    text-transform:uppercase;
-  }
+
+    h1{
+      color:rgb(7, 255, 172);
+      text-align: center;
+      font-size:4rem;
+      font-family: "courier new", courier, monospace;
+      font-style:italic;
+      border:1rem;
+      border-style: dotted;
+      border-color:rgb(7, 255, 222);
+      width:30rem;
+      justify-content: center;
+      padding: 5% 10%;
+    }
+
+    h1:hover{
+      color: rgb(102, 20, 255);
+      border-color: rgb(255, 0, 149);
+      text-transform:uppercase;
+    }
+
+  .container{
+      width:100%;
+      height:100%;
+      margin: 1% auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    header {
+      text-align: center;
+      display: flex;
+      font-size: 2rem;
+      font-weight: bold;
+      flex-direction: column;
+      justify-content: center;
+    }
+ 
+    .container header nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .container header nav a {
+      margin: 0 1rem;
+      border: 0.25rem solid rgb(205, 247, 18);
+      padding: 2rem;
+      display: flex;
+      border-radius: 20px;
+      color: rgb(80, 7, 109);
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      margin-bottom: 2rem;
+      background-color: rgb(150, 123, 248);
+    }
+    
+    .container header nav a:hover {
+      background-color: rgb(131, 255, 234);
+      color: rgb(247, 68, 172);
+      animation: glowing 1500ms infinite;
+    }
+    
+    @keyframes glowing {
+      0% { box-shadow: 0 0 -10px #ffe97b; }
+      40% { box-shadow: 0 0 40px #ffe97b; }
+      60% { box-shadow: 0 0 40px #ffe97b; }
+      100% { box-shadow: 0 0 -10px #ffe97b; }
+    }
+  
 
   .intro{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     margin: 5% auto;
     justify-content: center;
     align-items:center;
@@ -148,62 +157,64 @@ div.container{
     border: 10px groove rgb(7, 255, 222);
     border-radius: 12px;
     width:450px;
-    padding: 10px;
-    margin-bottom: 50px;
+    padding: 1rem;
+    margin-bottom: 5rem;
   }
 
 .bigpic {
   background-color: blueviolet;
   display: flex;
   justify-content: center;
-  margin: 50px;
+  box-sizing: border-box;
+  margin: 5rem;
 }
 
 .smallpics {
   background-color: rgb(253, 71, 156);
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  padding: 25px;
-  margin-top: 25px;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 2.5rem;
+  margin-top: 2.5rem;
   border: 3px solid rgb(98, 2, 253);
   border-radius: 12px;
 }
 
 .smallpics img {
-  width: 150px;
-  margin: 10px;
+  width: 15rem;
+  margin: 10rem;
 }
 
 .smallpics #dogbeach {
   border:10px dotted rgb(247, 159, 100);
-  margin: 10px;
-  padding: 10px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .smallpics #diamond {
   border:10px dotted rgb(255, 249, 192);
-  margin: 10px;
-  padding: 10px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .smallpics #calico {
   border:10px dotted rgb(166, 255, 0);
-  margin: 10px;
-  padding: 10px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .smallpics #crystals {
   border:10px dotted rgb(1, 255, 221);
-  margin: 10px;
-  padding: 10px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 
 .smallpics p {
-  width: 150px;
-  margin: 10px;
-  padding: 10px;
+  width: 15rem;
+  margin: 1rem;
+  padding: 1rem;
   border:10px dotted rgb(194, 119, 255);
 }
 
@@ -217,12 +228,12 @@ footer{
   display: flex;
   flex-flow: column;
   justify-content: center;
-  padding: 20px;
+  padding: 2rem;
   width: 40%;
-  margin-bottom: 50px;
-  margin-top: 25px;
+  margin-bottom: 5rem;
+  margin-top: 2.5rem;
   border: 3px solid rgb(2, 255, 116);
-  border-radius: 12px;
+  border-radius: 12px;`
 }
 
 .footer-content nav{
@@ -231,14 +242,14 @@ footer{
 }
 
 .footer-content nav a {
-  margin: 10px 10px;
+  margin: 1rem 1rem;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 2rem;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-color: #F87B99;
   text-decoration-line: underline;
   text-decoration-style: dotted;
@@ -259,14 +270,14 @@ footer{
 
 
 .linkedin nav a {
-  margin: 0 10px ;
+  margin: 0 1rem ;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 2rem;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 2rem;
   color: white;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-color: #F87B99;
   text-decoration-line: underline;
   text-decoration-style: dotted;
@@ -289,9 +300,19 @@ footer{
   justify-content: center;
 }
 
+*/
+
+ /*
+@media(max-width: 800px){
+  .smallpics{
+    flex-direction: column;
+  }
+
+@media(max-width: 500px){
+  .smallpics{
+    background-color: rgb(0, 4, 253);
+  }
 
 
-
-
-
-  
+  Header: margin-inline-start: 0px;
+    margin-inline-end: 0px; */
