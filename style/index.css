@@ -10,6 +10,11 @@ h1{
     text-align: center;
     letter-spacing: 3px;
 }
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+}
 header{
     display: inline;
 }
@@ -20,16 +25,23 @@ nav{
 .vertical-navigation{
     display: inline-flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: #181818;
+    width: 60px;
     height: 100%;
-    width: 100px;
+    position: absolute;
+    top: 0;
+    min-height: 500px;
 }
 .item{
-    padding: 0px;
-    margin: 80px 30px;
+    margin: 0px auto;
+}
+.item a{
+    background-color: #181818;
+
 }
 .vertical-navigation a:hover{
-    filter: grayscale(0%);
+    color: darkcyan;
     }
 .logo{
     display: inline;
@@ -37,6 +49,31 @@ nav{
 body{
     display: inline;
 }
-.container{
+main{
+    display: flex;
+}
+.content{
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 290px;
+}
+.img-circle{
+    clip-path: circle(200px at center);
+    margin: 0px auto;
     
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+.gallery img{
+    margin: 5px;
+}
+.social img{
+    background-color: #181818;
+    display: inline;
 }
