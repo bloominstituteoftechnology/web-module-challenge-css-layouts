@@ -1,7 +1,87 @@
-.top {
+/* * {
+border: 1px solid black;
+} */
+
+html {
+    font-size: 62.5%;
+}
+/* this is my hero image, (main image) */
+.heroImage {
     display: flex;
-    justify-content: left;
-    margin: 20px;
-    
+    justify-content: center;
+    align-items: center;
+background-image: url("https://i.pinimg.com/originals/77/58/d2/7758d2c6a5e31da1f3d46c3be662967c.jpg");
+width: 80%;
+height: 50vh;
 
 }
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* hero image */
+.top {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+header {
+    font-size: 3.6rem;
+    width: 100%;
+    
+}
+
+h1 {
+    margin-top: 0;
+    color: darkslategray;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .button {
+    color:darkslategray;
+    text-decoration: none;
+    margin-bottom: 0px;
+    
+}
+
+nav .button:hover {
+
+    display: flex;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img img {
+    width: 350px;
+    height: 75%;
+    background-color: darkslategray;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: darkslategrey;
+}
+
+
+
+    
+
+
