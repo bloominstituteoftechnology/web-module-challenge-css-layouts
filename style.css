@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+
+* {
+  text-align: center;
+  background-color: #FCEAE0;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Pacifico';
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%, rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+
+@keyframes slide  {
+  0%  {
+    background-position-x: 0%;
+  }
+  100%  {
+    background-position-x: 600vw;
+  }
+}
+
+.aboutMe  {
+  font-size: 19px;
+  color: #609864;
+  font-weight: bold;
+}
+
+span {
+  color: red;
+  font-family: 'Bungee';
+}
+
+.navigation {
+  margin: 0 auto;
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.navigation a {
+  margin: 0 40px;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #5CDCE4;
+  color: black;
+}
+
+.navigation a:hover {
+  background-color: #E17065;
+  color: white;
+}
+
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery img  {
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.gallery img:hover {
+  border: 20px dotted orange;
+}
+
+.bttn {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bttn button {
+  border: 0px solid #A4EFF3;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #A4EFF3;
+  color: white;
+}
+
+.bttn button:hover {
+  background-color: orange;
+  
+}
+
+.Message  {
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+}
+
+.Message p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.Message p:hover {
+  color: red;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  width: 60px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav2 a {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav2 a:hover {
+  text-transform: uppercase;
+}
