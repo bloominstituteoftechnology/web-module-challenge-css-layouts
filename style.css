@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+button {
+    color: aqua;
+    background-color: black;
+}
+.container {
+    height: 200px;
+    padding: 15px;
+    margin: 20px, 20px, 20px, 100px;
+    width: 50px;
+    display: flex;  
+    border: 100px; 
+     
+}
