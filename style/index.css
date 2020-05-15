@@ -21,86 +21,158 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+html{
+    font-size: 62.5%;
+}
+    
 body{
-    background-color: cadetblue;
-    margin: 10px;
-    border: 20px dotted red;
-}
-div.container{
-    width: 90%;
-    margin: auto;
-}
-h1{
-    text-align: center;
-    font-size: 52px;
-    padding: 20px;
-}
-.container{ 
-    display:flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: center;
-    padding: 20px; 
-}
-.item{
-    border: 2px solid black;
-    padding: 10px;
-    background: lightgrey;    
+    background: rgb(6, 228, 217);
+    margin: 0 auto;
+    border: 1rem solid rgb(201, 13, 13);
+    border-radius: 2rem;
 }
 
-.item:hover{
-    background:darkgrey;
-}
-h2{
-    font-size: 40px;
-    text-align: center;
-    padding: 20px;
-}
-.intro{
-    text-align: center;
-    padding: 10px;
-}
-.intro p{
-    font-size: 26px;
-    text-align: center;
-    padding: 20px;
-}
-.mainphoto{
-    display:flex;
-    padding: 20px;
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    background: rgb(138, 138, 165);
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2rem solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 40%;
     justify-content: center;
-    margin: auto;
-    width: 80%;
 }
-.smallphotos{
-    display:flex; 
-    flex-direction:row;
+
+.firstbox .name{
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav .home{
+    display: flex;
+    border: .25rem solid black;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.nav .about{
+    display: flex;
+    border: .25rem solid black;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.nav .contact{
+    display: flex;
+    border: .25rem solid black;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.nav .projects{
+    display: flex;
+    border: .25rem solid black;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    background: rgb(138, 138, 165);
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2rem solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: center;
+}
+
+.intro h2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.intro p{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    background: rgb(138, 138, 165);
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2rem solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 80%;
+    justify-content: center;
+}
+
+.secondbox .mainphoto{
+    display: flex;
+    justify-content: center;
+}
+
+.thirdbox{
+    display: flex;
+    flex-direction: row;
+    background: rgb(138, 138, 165);
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2rem solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 95%;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.thirdbox .smallphotos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+.thirdbox .smallphotos .picture{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 1rem solid black;
+    margin: 2rem
+}
+
+.thirdbox .smallphotos .text {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
-}
-.pictures{
-    padding:20px;
-    align-content:center;
-}
-.text p{
-    color:black;
-    font-style: italic;
-    font-size: 24px;
-}
-.footer{
-    display: flex;
-    background: rgb(119, 139, 128);
-    padding: 50px;
-    justify-content: center;
-}
-.contact{
-    border: 5px solid black;
-    padding: 20px;
-    background: rgb(109, 147, 179);
-    border-radius: 20px;
-}
-.contact:hover{
-    background: khaki;
-    color: blue;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.75rem;
+    line-height: 2rem;
 }
