@@ -1,20 +1,38 @@
 /* Add CSS styling here */
 
-
+* {
+    font-family: 'Pangolin', cursive;
+}
 
 /* Nav Stuff */
 nav {
       display: flex;
       flex-direction: column;
-      background-color: chartreuse;
+      background-color: grey;
+      height: 120px;
   }
-
+nav h1 {
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 30px;
+}
+nav .links {
+    margin-left: 40px;
+    display: flex;
+}
+nav .links a {
+    padding: 10px 50px;
+    border: 2px solid black;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+}
 
   /* Header Section */
 header {
      display: flex;
      flex-direction: row;
-     background-color: aquamarine;
+     background-color: teal;
  }
 
  header img {
@@ -23,24 +41,45 @@ header {
      border-radius: 10px;
  }
 
- .about-me {
+ header .about-me {
      margin: 20px;
      padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
  }
-
+ header .about-me h2 {
+     font-size: 25px;
+ }
+ header .about-me p {
+     line-height: 1.7em;
+ }
+ header .about-me button {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+     width: 200px;
+ }
  /* image section */
  .gallery-projects {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-evenly;
-     background-color: darkorchid;
+     background-color: teal;
  }
 
  .gallery-projects div {
      padding: 10px;
      margin: 10px 10px;
  }
-
+ .gallery-projects div p {
+    padding-top: 20px;
+ }
+ .gallery-projects div img {
+     border-radius: 10px;
+ }
 
  .desc {
      text-align: center;
@@ -50,6 +89,33 @@ header {
 footer {
      display: flex;
      flex-direction: column;
-     background-color:tomato;
-     text-align: center;
+     background-color:grey;
+     align-items: center;
+     /* height: 150px; */
+ }
+ footer h2 {
+     font-size: 20px;
+     padding: 50px 0 15px 0;
+ }
+ footer button {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+ }
+ footer ul {
+     display: flex;
+     justify-content: space-evenly;
+     width: 50%;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ footer ul li {
+     list-style: none;
+ }
+ footer ul li a {
+     font-size: 25px;
+     color: white;
  }
