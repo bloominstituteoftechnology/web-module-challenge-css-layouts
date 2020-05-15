@@ -21,9 +21,12 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer, header, hgroup, menu, nav, section 
+
+html {
+	font-size: 62.5%;
 }
+
 body {
 	line-height: 1;
 }
@@ -42,23 +45,89 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-nav a {
+* {
+	box-sizing: border-box;
+	border: 80%;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	width:25%
+}
+.nav-bar {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+	justify-content: flex-end;
 }
 
-.gallery {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-	width: 15%;
+h1{
+	font-size: 2rem;
+}
+
+a {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 1.5rem;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.gallery img {
+	display: flex;
 	justify-content: center;
-	padding: 30%;
+	flex-direction: column;
+	width: 20%;
+	margin: 0 auto;
+} 
+
+.gallery h2 {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding:2rem;
 }
 
+h2 {
+	font-size: 1.8rem;
+	width: 40%;
+	margin-left: 3rem;
+}
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+/* * {
+	border: 1px solid !important;
+} */
+
+span:hover {
+	width: 70%%
+}
+
+.mvp {
+	box-sizing: border-box;
+	margin-left: 10%;
+	margin-top: 7%;
+}
+
+p {
+	width: 40%;
+	padding:3rem;
+	font-size:20px;
+}
+
+.button {
+	display:flex;
+	justify-content: flex-end;
+	margin-right: 20rem;
+}
+.intro .button {
+	display: flex;
+	justify-content: flex-end;
+	border:15%;
 }
