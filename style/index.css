@@ -1,10 +1,11 @@
-/* Add CSS styling here */
 
 
-.h1{
-    color: blue;
+* {
+    background-color: aqua;
 }
 
-.section-one h2{
-    background-color: aqua;
+
+
+.images p {
+    color: blue;
 }
