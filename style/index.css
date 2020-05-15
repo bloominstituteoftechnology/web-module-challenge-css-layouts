@@ -11,15 +11,17 @@
 	vertical-align: baseline;
 }
 
+
+
 /* Nav Links */
+
 #nav-div
 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 #nav
 {
-    display: flex;
-    flex-direction: row;
+   
 }
