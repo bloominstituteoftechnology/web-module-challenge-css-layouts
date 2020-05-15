@@ -11,9 +11,12 @@ button {
 .container {
     height: 200px;
     padding: 15px;
-    margin: 20px, 20px, 20px, 100px;
+    margin: 1em;
     width: 50px;
     display: flex;  
     border: 100px; 
-     
+}
+footer {
+    text-align: center;
+
 }
