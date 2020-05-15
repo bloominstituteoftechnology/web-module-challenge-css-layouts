@@ -1,43 +1,56 @@
-
-
-
 *{
 	box-sizing: border-box;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 0 0 0 auto;
+	max-width: 100%;
 	max-width: 1100px;
+	
+  }
+  #home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
   }
   
   html{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: auto;
+	margin: 0 0 0 0 auto;
 	align-items: baseline;
 	background: linear-gradient(#FFE5F2,  #FFE5E5, #FFFFE5, #E5FFE5,  #E5F2FF,  #E5E5FF, #F2E5FF);
 	flex-wrap: wrap;
 	margin: auto;
-	padding: 10px;
+	padding: 0.625em;
   } 
+  
+  .title-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+   
+  }
   
    .title-container h1{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	font-size: 60px;
-	padding: 30px;
+	align-self: center;
+	font-size: 3.75em;
+	padding: 1em;
 	max-width: 90%;
   }
   
   nav{
 	display: flex;
 	justify-content: center;
+	align-self: center;
 	max-width: 90%; 
   }
   
   li{
 	background: black;
 	color: white;
-	padding: 2rem;
+	padding: 1em;
   }
   
   .links {
@@ -45,83 +58,85 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	list-style: none;
-	padding:10px; 
+	padding: 0.623em; 
   }
   
   .links li{
 	display: inline-block;
-	padding: 5px 30px 5px 30px;
+	padding: .313em 1.875em .313em 1.875em;
 	margin: 0;
 	color: black;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	background-color: white;
   } 
   
   .links .home li{
-	border: 4px solid;
+	border: 0.25em solid;
 	border-image: linear-gradient( 90deg,  #E5E5FF,#F2E5FF)10;
 	
   }
   
   
   .links .about li{
-	border: 4px solid;
+	border: 0.25em solid;
 	border-image: linear-gradient( 90deg, #F2E5FF, #E5FFE5)10;
   }
   
   .links .contact li{
-	border: 4px solid;
+	border: 0.25em solid;
 	border-image: linear-gradient( 90deg,  #E5FFE5, #E5F2FF)10;
   }
   .links .projects li{
-	border: 4px solid;
+	border: 0.25em solid;
 	border-image: linear-gradient( 90deg, #E5F2FF, #E5FFE5)10;
   }
   
   .links li:hover{
-	border: 4px solid black; 
+	border: 0.25em solid black; 
   }
   
   .smallProjectsSummary li:hover, li:hover{
 	color: white;
 	background: black;
-	border: 4px solid black;
+	border: 0.25em solid black;
   }
   
   .aboutThis{
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
+	flex-wrap: nowrap;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 10px;
-	max-width: 90%;
-	padding: 5px;
+	margin-bottom: 0.623em;
+	padding: .313em;
+	
   }
   
   .aboutThis h2{
 	text-align: center;
 	font: "Fira Sans", serif;
-	padding: 5px;
+	padding: .313em;
+	font-size: 1.5em;  
   }
   
   .aboutThis p{
 	display: flex;
 	align-content: center;
 	text-align: center;
-	max-width: 90%;
-	padding: 5px;
-	margin: 5px;
+	padding: .313em;
+	margin .313em;
 	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1em;
   }
   
   .aboutThis img {
 	display: flex;
 	object-fit: contain;
-	max-width: 100%;
-	padding: 10px;
-	margin 5px;
+	padding: 0.623em;
+	margin .313em;
   }
   
   .aboutThis .imgWrap1:hover img{
@@ -132,8 +147,8 @@
   .imgWrap1{
 	position: relative;
 	object-fit: contain;
-	margin: 5px; 
-	padding: 5px;
+	margin: .313em; 
+	padding: .313em;
   }
   
   .aboutThis img{
@@ -148,10 +163,10 @@
   }
   
   .imgWrap1:hover img{
-	filter: blur(2px);
+	filter: blur(0.125em);
   }
   
-  .description {
+  .imgWrap1 .description{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -160,42 +175,41 @@
 	visibility: hidden;
 	opacity: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center; 
   }
   
-  .smallProjectsContainer{
+  
+  
+   .smallProjectsContainer{
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
 	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 5px;
-	max-width: 90%;
-	padding: 10px;
-	margin 5px;
+	flex-wrap: nowrap;
+	max-width: 100%;
   }
   
   
   
+  .smallProjectsContainer.imgWrap{
+	max-width: 18%;
+	margin: .313em; 
+  }
   .imgWrap{
 	position: relative;
-	max-width: 18%;
-	margin: 5px; 
-	padding: 5px;
-	background: linear-gradient(#F2E5FF, #E5E5FF, #E5F2FF, #E5FFE5);
-	
   }
   
-  .imgWrap:hover img{
+  .smallProjectsContainer .imgWrap:hover img{
 	background: white;
-	opacity: .50;
-	
+	opacity: .50; 
   }
   
   .smallProjectsContainer img{
 	max-width: 100%;
-	object-fit: contain;
+	object-fit: contain; 
+	border: .313em solid;
+	border-image: linear-gradient( 90deg,  #8B8BFF, #C58BFF)10;
   }
   
   .imgWrap:hover .img__description {
@@ -204,10 +218,10 @@
   }
   
   .imgWrap:hover img{
-	filter: blur(2px);
+	filter: blur(0.125em);
   }
   
-  .img__description {
+  .imgWrap .img__description{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -220,18 +234,16 @@
 	font-size: 1em;
   }
   
-  .smallProjectsSummary{
+  .smallProjectsContainer .smallProjectsSummary{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column; 
-	margin: 5px; 
-	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-color: black;
 	text-align: center;
 	max-width: 18%; 
-	background: linear-gradient(#F2E5FF, #E5E5FF, #E5F2FF, #E5FFE5);
+	
   }
   
   .smallProjectsSummary .content{
@@ -241,20 +253,23 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	position: relative;
-	margin: 5px;
-	padding: 5px;
+	margin: .313em;
+	padding: .313em;
 	background: white;
 	flex-basis: auto;
 	box-sizing: border-box;
 	flex-grow: 1;
 	display: inline-block;
 	vertical-align: middle;
+	border: .313em solid;
+	border-image: linear-gradient( 90deg,  #8B8BFF, #C58BFF)10;
   }
   
   
   .smallProjectsSummary p{
 	display: inline-block;
 	vertical-align: middle;
+	font-size: 1em;  
   }
   
   .smallProjectsSummary a{
@@ -263,13 +278,13 @@
   }
   
   .smallProjectsSummary li{
-	font-size: 15px;
+	font-size: 1em;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	border: 4px solid;
+	border: 0.25em solid;
 	border-image: linear-gradient( 90deg,  #8BFF8B, #8BC5FF)10;
-	padding: 10px;
-	margin: 5px;
+	padding: 0.623em;
+	margin: .313em;
 	display: inline-block;
 	color: black;
 	text-decoration: none;
@@ -282,10 +297,11 @@
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	font-size: 25px;
+	font-size: 1.5em;
 	font-family: Arial, Helvetica, sans-serif;
-	max-width: 90%;
-	padding: 15px;
+	max-width: 100%;
+	padding: 0.938em;
+	
   }
   
   footer nav a{
@@ -293,31 +309,99 @@
 	align-items: center;
 	display: flex;
 	flex-flow: row nowrap;
-	max-width: 90%;
-	padding: 15px;
+	
+	padding: 0.938em;
 	text-decoration: none;
   }
   
    footer li{
 	border: 4px solid;
 	border-image: linear-gradient( 90deg,  #8B8BFF, #C58BFF)10;
-	padding: 10px 50px 10px 50px;
+	padding: 0.623em 3.125em 0.623em 3.125em;
 	display: inline-block;
 	color: black;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	margin: 15px;
+	font-size: 1em;
+	margin: 0.938em;
 	background-color: whitesmoke;
   }
   
   footer i {
-	font-size: 2rem;
+	font-size: 1.5em;
 	color: #8BC5FF;
-	padding: 15px;
+	padding: 1em;
   }
   
   footer i:hover{
 	color: #8BFF8B;
   }
   
+  
+  @media(max-width: 800px) {
+	
+	html{
+	  
+	}
+	
+	.smallProjectsContainer{
+	  display: flex;
+	  flex-direction: row-reverse;
+	  flex-wrap: wrap;
+	  
+	}
+	
+	.imgWrap{
+	  max-width: 20%;
+	}
+  ///////////////////  
+	img{
+	  border: .313em solid;
+	  border-image: linear-gradient( 90deg,  #8B8BFF, #C58BFF)10;
+	}
+	
+	.smallProjectsSummary{
+	  max-width: 20%;
+	} 
+  }
+  
+  @media(max-width: 500px) {
+	
+	html{
+	  
+	  font-size: 1.5vw;
+	}
+	
+	.links li{
+	  font-size: 1.8em;
+	}
+	
+	.smallProjectsContainer{
+	  display: flex;
+	  flex-wrap: wrap-reverse;
+	}
+	
+	  .aboutThis h2{
+	  font-size: 2.5em;
+	  padding: 0;
+	}
+	
+	.aboutThis p{
+	  font-size: 1.5em;
+	}
+	
+	.imgWrap{
+	  max-width: 20%;
+	}
+	
+	.smallProjectsSummary{
+	  max-width: 20%;
+	  }
+	
+	footer i{
+	  font-size: 3.5em;
+	  color: #8BC5FF;
+	  padding: 0;
+	}
+	
+  }
