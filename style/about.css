@@ -46,39 +46,53 @@ table {
 
 
  html {
-    
+    /* box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 blue inset; */
     border: 20px solid black;
    background-color: whitesmoke;
    
-   background-image: url(https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80);
+   background-image: url(https://images.unsplash.com/photo-1511731287071-d365cf9ed8ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+ }
+ 
+h1 {
+    padding-right: 40%;
 }
-
 header {
-    padding: 55px 10px 55px 10px;
+    margin-top: 0px;
+    padding: 0px 10px 10px 10px;
     background-color: black;
     text-align: center;
-    margin: 10px auto;
+    margin: 0px auto;
     font-family: cursive;
-    border: 15px solid rgb(9, 94, 146);
-    width: 50%;
+    border: 10px solid rgb(9, 94, 146);
+    width: 95%;
     color: whitesmoke;
     font-size: 45px;
-    border-radius: 25%;
+    /* border-radius: 25%; */
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 header:hover {
     /* background-color: whitesmoke;
     color: black; */
     font-size: 49px;
 }
+
+
 nav {
+    color: white;
     display: inline-block;
     background: whitesmoke;
-    padding: 5px;
-    border: 1px solid grey;
-    border-radius: 10px;
+    padding: 1px;
+    padding-bottom: 3px;
+
+
+    /* border: 1px solid grey; */
+    /* border-radius: 10px; */
     font-size: 20px;
     /* display: inline-block;
     border-radius: 25%;
@@ -90,9 +104,11 @@ nav {
 
   }
   nav:hover{
-      background-color: orange;
+    cursor: pointer;
+      background-color: lightskyblue;
       font-size: 25px;
       border: 3px solid white;
+      border-radius: 2px;
   }
 
 
@@ -111,6 +127,9 @@ nav {
 
 
 h2 {
+    
+    padding-top: 15%;
+    padding-bottom: 5%;
    font-style: italic;
     font-size: 30px;
     text-align: center;
@@ -120,6 +139,7 @@ h2 {
     text-align: center;
     width: 100%;
     height:auto;
+     
 
 }
 .container {
@@ -131,6 +151,7 @@ h2 {
 
 }
 .container img {
+    max-width: 800px;
     max-width:20%;
     height:auto;
     justify-content: space-between;
@@ -141,10 +162,11 @@ h2 {
     width: 90%;
     text-align: left;
     padding: 20px 40px 20px 80px;
-    color: white;
+    color: black;
     font-family: cursive;
     font-size: 20px;
     justify-content: space-around;
+
     
 }
 
@@ -199,6 +221,59 @@ footer nav:hover {
     padding: 25px 30px 25px 35px;
     
 }
-/* @media (max-width: 800px) {
-header h1 
-} */
+/* @media (max-width: 500px) {
+    /* <meta name="viewport" content="width=device-width, initial-scale=1"> */
+/* html {
+   border: none;
+   width: 300px;
+   
+}
+h1 {
+    padding: 0px 10px 10px 0px;
+    font-size: 25px;
+    text-align: left;
+    
+}
+    header {
+        justify-content: space-around;
+        width: 85%;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+       
+        background-position: left;
+        position: initial;
+        align-items: center;
+        
+    }
+    nav { 
+    flex-direction: column;
+    padding: 2px;
+    margin-right: 50px;
+    align-items: flex-start;
+    text-align: left;
+
+}
+h2 {
+    padding-top: 180px;
+}
+.class {
+    text-align: left;
+    align-content: left;
+    justify-content: none;
+    position: center;
+
+}
+body .picture {
+   display: none;
+}
+.container {
+    height: auto;
+}
+} */ */
+
+@media (max-width: 800px) {
+    html {
+        max-width:100%;
+    }
+
+}
