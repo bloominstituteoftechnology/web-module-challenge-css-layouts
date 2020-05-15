@@ -13,7 +13,7 @@
 
 
 
-/* Nav Links */
+/* NAV LINKS */
 
 #nav-div
 {
@@ -21,7 +21,32 @@
     justify-content: space-between;
 }
 
-#nav
+/* HEADER SECTION */
+
+#header-section
 {
-   
+    margin: 10% auto;
+}
+
+.intro
+{
+    margin: auto 500px;
+}
+
+#greet
+{
+    font-size: 1.3rem;
+    margin-left: 570px;
+}
+
+#header-name
+{
+    font-size: 55px;
+}
+
+#header-btn
+{
+    margin-left: 600px;
+    margin-top: 25px;
+    padding: 10px;
 }
