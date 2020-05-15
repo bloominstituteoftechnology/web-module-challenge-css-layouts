@@ -1,1 +1,25 @@
 /* Add CSS styling here */
+
+/* CSS Reset Settings */
+*
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Nav Links */
+#nav-div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav
+{
+    display: flex;
+    flex-direction: row;
+}
