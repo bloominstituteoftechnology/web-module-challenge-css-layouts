@@ -180,3 +180,58 @@ nav.footer a:hover {
   background: gray;
   color: #f2f6fa;
 }
+
+@media (max-width: 1100px) {
+  div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	nav.heading a {
+	  margin: 10px;
+	  padding: 10px;
+	  font-weight: 900;
+	  border-radius: 5px;
+	  transition: .6s;
+	}
+}
+
+@media (max-width: 800px) {
+  div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	nav.heading a {
+	  margin: 10px;
+	  padding: 10px;
+	  font-weight: 900;
+	  border-radius: 5px;
+	  transition: .6s;
+	}
+}
+
+@media (max-width: 500px) {
+  div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	nav.heading a {
+	  margin: 10px;
+	  padding: 10px;
+	  font-weight: 900;
+	  border-radius: 5px;
+	  transition: .6s;
+	}
+
+	h1.heading {
+	  padding: 0px 0px 40px 0px;
+	  color: #f2f6fa;
+	  font-weight: 900;
+	  font-size: 2em;
+	}
+}
