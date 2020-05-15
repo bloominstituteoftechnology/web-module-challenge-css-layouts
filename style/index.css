@@ -78,7 +78,45 @@ footer {
     align-items: center;
     height: 200px;
     background-color: darkslategrey;
+    flex-wrap: wrap;
+    
+    
 }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 6.0rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    
+  }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #f09433;
+    }
+
+    .fa-github {
+        background: #24292e
+    }
+
+
 
 
 
