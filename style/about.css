@@ -322,11 +322,41 @@ body .picture {
         
     }
     .container {
-       flex-direction: column;
-       width: 50%;
+      display: inline-block;
+       width: 60%;
+       height: auto;
        align-items: center;
+       padding-left: 20%;
+       font-size: 1rem;
+        text-align: center;
+    }
+    .container p {
+        padding-left: 25%;
+        width: 50%;
+        padding-top: 0%;
     }
     .container img {
+        width: 50%;
+    }
+    /* .container {
         width: 40%;
-        display: block;
+        margin-right: 40% auto;
+        /* margin-left: 10%; */
+        /* margin-top: 10%;
+        align-content: flex-start;
+        background-color: khaki; */
+     } 
+
+    @media(max-width:800px) {
+        .container img {
+            display: inline-block;
+            justify-content: space-between;
+            /* margin-left: 45%; */
+            /* justify-content: space-around;
+            width: 100%; */
+            border: 2px solid black; 
+
+
+        }
+        
     }
