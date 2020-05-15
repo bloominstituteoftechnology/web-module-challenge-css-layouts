@@ -55,6 +55,7 @@ body{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -74,9 +75,7 @@ body{
       font-size:4rem;
       font-family: "courier new", courier, monospace;
       font-style:italic;
-      border:1rem;
-      border-style: dotted;
-      border-color:rgb(7, 255, 222);
+      border:1rem dotted rgb(7, 255, 222);
       width:30rem;
       justify-content: center;
       padding: 5% 10%;
@@ -114,9 +113,9 @@ body{
     .container header nav a {
       margin: 0 1rem;
       border: 0.25rem solid rgb(205, 247, 18);
-      padding: 2rem;
+      padding: 1.5rem 2rem;
       display: flex;
-      border-radius: 20px;
+      border-radius: 2rem;
       color: rgb(80, 7, 109);
       text-decoration-line: underline;
       text-decoration-style: dotted;
@@ -141,71 +140,94 @@ body{
   .intro{
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin: 5% auto;
     justify-content: center;
     align-items:center;
+    margin: 1rem;
   }
   
  h2{
     color:rgb(255, 0, 149);
     background-color: rgb(133, 15, 133);
     text-align: center;
-    font-size:40px;
+    font-size:4rem;
     font-family: Georgia, serif;
     font-style:italic;
-    border: 10px groove rgb(7, 255, 222);
-    border-radius: 12px;
-    width:450px;
+    border: 1rem groove rgb(7, 255, 222);
+    border-radius: 1.2rem;
+    width:45rem;
     padding: 1rem;
     margin-bottom: 5rem;
   }
+
+  .cloud{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 5%;
+  }
+
+    .cloud p{
+      color:rgb(5, 238, 255);
+      border: 3rem 0 1rem 0;
+      justify-content: center;
+    }
 
 .bigpic {
   background-color: blueviolet;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  margin: 5rem;
+  margin: 5%;
+  height: 25%;
+  border: 1rem groove rgb(94, 7, 255);
+  border-radius: 1rem;
 }
+
+  .bigpic img{
+    display: flex;
+    padding: 5%;
+    width:75%;
+    height:5%;
+    max-height: 45rem;
+  }
 
 .smallpics {
   background-color: rgb(253, 71, 156);
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  margin: 1rem;
+  margin: 2.5rem;
   padding: 2.5rem;
-  margin-top: 2.5rem;
-  border: 3px solid rgb(98, 2, 253);
-  border-radius: 12px;
+  border: .25rem solid rgb(4, 0, 241);
+  border-radius: 1.2rem;
 }
 
 .smallpics img {
   width: 15rem;
   margin: 10rem;
+  box-sizing: border-box;
 }
 
 .smallpics #dogbeach {
-  border:10px dotted rgb(247, 159, 100);
+  border: .5rem dotted rgb(253, 179, 119);
   margin: 1rem;
   padding: 1rem;
 }
 
 .smallpics #diamond {
-  border:10px dotted rgb(255, 249, 192);
+  border:.5rem dotted rgb(255, 249, 192);
   margin: 1rem;
   padding: 1rem;
 }
 
 .smallpics #calico {
-  border:10px dotted rgb(166, 255, 0);
+  border:.5rem dotted rgb(166, 255, 0);
   margin: 1rem;
   padding: 1rem;
 }
 
 .smallpics #crystals {
-  border:10px dotted rgb(1, 255, 221);
+  border:.5rem dotted rgb(1, 255, 221);
   margin: 1rem;
   padding: 1rem;
 }
@@ -215,7 +237,7 @@ body{
   width: 15rem;
   margin: 1rem;
   padding: 1rem;
-  border:10px dotted rgb(194, 119, 255);
+  border:.5rem dotted rgb(194, 119, 255)
 }
 
 .footer {
@@ -224,7 +246,7 @@ body{
 }
 
 footer{
-  background-color: burlywood;
+  background-color: rgb(253, 179, 119);
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -300,19 +322,43 @@ footer{
   justify-content: center;
 }
 
-*/
 
- /*
+
 @media(max-width: 800px){
   .smallpics{
+    background-color: lawngreen;
     flex-direction: column;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border: .25rem solid rgb(4, 0, 241);
+    border-radius: 1.2rem;
+    width: 40%;
+    }
+    
+    .smallpics img {
+      box-sizing: border-box;
+    }
+
+    .smallpics p {
+      box-sizing: border-box;
+    }
   }
+}
 
 @media(max-width: 500px){
   .smallpics{
-    background-color: rgb(0, 4, 253);
+    background-color: rgb(85, 87, 194);
   }
-
-
-  Header: margin-inline-start: 0px;
-    margin-inline-end: 0px; */
+    .smallpics img {
+      box-sizing: border-box;
+    }
+    .smallpics p {
+      box-sizing: border-box;
+    }
+  }
+}
