@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* **************home************** */
+html{
+  margin: 3%;
+  font-family: sans-serif;
+}
+p{
+  line-height: 1.6;
+}
+.head{
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head h1,h2{
+  margin: 2%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.head ul{
+  display: flex;
+  justify-content: center;
+}
+
+.head ul li{
+  border: solid transparent;
+  background-color: lightskyblue;
+  padding: 2%;
+  margin: 1%;
+}
+
+.head ul li:hover{
+  border: solid transparent;
+  background-color: mediumaquamarine;
+  color: white;
+  padding: 2%;
+}
+
+.head ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.head p{
+  display: flex;
+  padding: 1.6%;
+}
+.head img{
+  max-height: 200px;
+}
+
+.bottom{
+  display: flex;
+}
+.bottom div {
+  width: 16%;
+  height: auto;
+  margin: 1%;
+  position: relative;
+}
+.bottom div a img{
+  width: 100%;
+  height: auto;
+  margin: 1%;
+  border: solid transparent 1px;
+}
+.bottom div p{
+  margin: 1.6%;
+}
+.bottom div a img:hover{
+  border: solid lightskyblue 1px;
+}
+
+footer{
+  background-color: lightskyblue;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  justify-content: center;
+  align-items:center;
+}
+
+footer button{
+  height: 30px;
+  padding: auto;
+  border: solid 
+  transparent;
+  background-color: aqua;
+}
+
+footer button:hover{
+  border: solid transparent;
+  background-color: mediumaquamarine;
+  color: white;
+}
+
+/*************tablet view***********/
+@media(max-width: 900px){
+  .bottom{
+    flex-wrap: wrap;
+  }
+.bottom .projectDescription{
+  margin: 1.6%;
+  width: 100%;
+} 
+}
+
+/*************mobile view***********/
+@media(max-width: 600px){
+  .bottom{
+    flex-direction: column-reverse;
+  }
+  .bottom div {
+  width: 100%;
+  height: auto;
+  margin: 1%;
+}
+}
