@@ -1,1 +1,89 @@
-/* Add CSS styling here */
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: black;
+  background-size: auto;
+  font-family: "andale mono", monospace;
+}
+
+header {
+  background-color: gray;
+  background-size: auto;
+  margin: auto;
+  padding: 40px;
+  border: 10px;
+  border-color: white;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-position: 0px 0px;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.projects {
+  margin: 10px;
+  border: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: white;
+  background-color: grey;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  margin: 10px;
+  padding: 3px;
+  border: 0.5px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: grey;
+  font-size: 18px;
+  color: white;
+}
+
+a {
+  margin: 0;
+  padding: 3px;
+  border: 0.5px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+}
+
+footer {
+  margin: 10px;
+  padding: 3px;
+  border: 0.5px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: grey;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
