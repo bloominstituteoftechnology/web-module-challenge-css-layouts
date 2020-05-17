@@ -85,6 +85,7 @@ body{
       text-transform:uppercase;
     }
 
+
 .container{
     width:100%;
     height:100%;
@@ -351,5 +352,330 @@ body{
 
 
 
+@media(max-width: 800px){
+  body{
+    border: 1rem dotted #ffff99;
+    font-size: 2rem;
+    background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
+    margin: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+  }
+    .name{
+      width:90%;
+      display: flex;
+      margin: 5% auto;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      font-size: 3rem;
+    }
+      h1{
+        color:rgb(7, 255, 172);
+        text-align: center;
+        font-family: "courier new", courier, monospace;
+        font-style:italic;
+        border:1rem dotted rgb(7, 255, 222);
+        justify-content: center;
+        padding: 2% 4%;
+        display: flex;
+      }
+  
+      h1:hover{
+        color: rgb(102, 20, 255);
+        border-color: rgb(255, 0, 149);
+        text-transform:uppercase;
+      }
+  
+  
+  .container{
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    header {
+      text-align: center;
+      display: flex;
+      font-size: 2rem;
+      font-weight: bold;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container header nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      align-items: center;
+    }
+      .container header nav a {
+        margin: 0 1rem;
+        border: 1rem solid rgb(205, 247, 18);
+        padding: 1rem 1rem;
+        display: flex;
+        border-radius: 1rem;
+        color: rgb(80, 7, 109);
+        margin: 2rem 5rem;
+        background-color: rgb(150, 123, 248);
+        text-decoration: underline dotted;
+        text-underline-position: under;
+        font-size: 2rem;
+      }
+  
+      .container header nav a:hover {
+        background-color: rgb(131, 255, 234);
+        color: rgb(247, 68, 172);
+        animation: glowing 1500ms infinite;
+      }
+  
+  
+    .intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      margin: 5% 10%;
+      box-sizing: border-box;
+    } 
+  
+      h2{
+        color:rgb(255, 0, 149);
+        background-color: rgb(133, 15, 133);
+        text-align: center;
+        font-size: 3rem;
+        font-family: Georgia, serif;
+        font-style:italic;
+        border: 2rem groove rgb(7, 255, 222);
+        border-radius: 1rem;
+        padding: 2% 5%;
+        margin-bottom: 5%;
+        box-sizing: border-box;
+      }
+  
+      .cloud{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: 0 5%;
+      }
+        .cloud p{
+          color:rgb(5, 238, 255);
+          background-color: rgb(250, 100, 200);
+          justify-content: center;
+          text-align: center;
+          font-family: Georgia, serif;
+          border: 2rem groove rgb(7, 255, 139);
+          border-radius: 1rem;
+          padding: 2rem;
+        }
+  
+    .bigpic {
+      background-color: blueviolet;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      border: 2rem groove rgb(94, 7, 255);
+      border-radius: 3rem;
+      margin: 0 5%;
+      width: 70%;
+      height:25%;
+    }
+      .bigpic img{
+        display: flex;
+        padding: 5%;
+        box-sizing: border-box;
+        width:75%;
+        height:5%;
+      }
+  
+    .smallpics {
+      background-color: rgb(191, 7, 247);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin:3% 5%;
+      padding: 2.5rem;
+      border: 1.5rem solid rgb(253, 179, 119);
+      border-radius: 3rem;
+    }
+      .smallpics img {
+        width: 75%;
+        margin: 1rem;
+        box-sizing: border-box;
+      }
+        #dogbeach {
+          border: 1rem dotted rgb(253, 179, 119);
+          padding: 1rem;
+        }
+          #dogbeach:hover {
+            background-color:rgb(253, 179, 119);
+            border-color: rgb(255, 130, 28);
+            animation: glowing 1500ms infinite;
+          }
+  
+        #diamond {
+          border:1rem dotted rgb(255, 244, 126);
+          padding: 1rem;
+        }
+          #diamond:hover {
+            background-color:rgb(255, 244, 126);
+            border-color: rgb(250, 212, 0);
+            animation: glowing 1500ms infinite;
+          }
+  
+        #calico {
+          border:1rem dotted rgb(166, 255, 0);
+          padding: 1rem;
+        }
+          #calico:hover {
+            background-color:rgb(166, 255, 0);
+            border-color: rgb(0, 170, 65);
+            animation: glowing 1500ms infinite;
+          }
+  
+        #crystals {
+          border:1rem dotted rgb(1, 255, 221);
+          padding: 1rem;
+        }
+          #crystals:hover {
+            background-color:rgb(1, 255, 221);
+            border-color: rgb(1, 132, 255);
+            animation: glowing 1500ms infinite;
+          }
+  
+  
+      .smallpics p {
+        width: 75%;
+        height: 20rem;
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+        padding-top: 2rem;
+        color: rgb(72, 0, 155);
+        border: 1rem dotted rgb(82, 0, 150);
+        box-sizing: border-box;
+        text-align: center;
+        align-items: center;
+        font-size: 2.5rem;
+      }
+  
+        .smallpics p:hover {
+          background-color:rgb(197, 134, 255);
+          border-color: rgb(82, 0, 150);
+          animation: glowing 1500ms infinite;
+        }
+  
+    .footer {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(247, 209, 139);
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 2rem;
+      width: 70%;
+      margin-bottom: 10%;
+      margin-top: 2.5rem;
+      border: 2rem solid rgb(2, 255, 116);
+      border-radius: 3rem;
+    }
+      .footer-content nav{
+        display:flex;
+        justify-content: center;
+      }
+        .footer-content nav a {
+          margin: 5rem;
+          border: 1rem solid aqua;
+          padding: 5rem;
+          display: flex;
+          border-radius: 20rem;
+          color: aqua;
+          text-decoration: none;
+          margin-bottom: 2rem;
+          background-color: rgb(255, 0, 119);
+          text-decoration-line: underline;
+          text-decoration-style: dotted;
+          text-align: center;
+        }
+        
+  
+      
+      .linkedin nav{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+      }
+        
+        .linkedin nav a {
+          margin: 5rem;
+          border: 1rem solid aqua;
+          padding: 5rem;
+          display: flex;
+          border-radius: 20rem;
+          color: aqua;
+          text-decoration: none;
+          background-color: rgb(255, 0, 179);
+          text-decoration-line: underline;
+          text-decoration-style: dotted;
+          justify-content: center;
+        }
+  
+        .linkedin nav a:hover {
+          background-color: rgb(131, 255, 234);
+          color: rgb(255, 0, 179);
+          border-color:rgb(255, 0, 179);
+          animation: glowing 1500ms infinite;
+        }
+        
+        @keyframes glowing {
+          0% { box-shadow: 0 0 -20px #1bffce; }
+          40% { box-shadow: 0 0 60px #1bffce; }
+          60% { box-shadow: 0 0 60px #1bffce; }
+          100% { box-shadow: 0 0 -20px #1bffce; }
+        }
+        
+        .linkedin nav{
+          display:flex;
+          justify-content: center;
+          text-align: center;
+        }
+  
 }
 
+@media (max-width: 500px){
+  .container header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigpic {
+    background-color: rgb(224, 50, 240);
+  }
+
+  .smallpics{
+    background-color: rgb(85, 87, 194);
+    flex-direction: column;
+    flex-flow: column;
+    border: .25rem solid rgb(253, 255, 147);
+    border-radius: 1.2rem;
+    width: 40%;
+  }
+    .smallpics img {
+      box-sizing: border-box;
+    }
+    .smallpics p {
+      box-sizing: border-box;
+      font-size: 60%;
+    }
+}
