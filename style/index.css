@@ -26,10 +26,15 @@ html{
 }
     
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: rgb(6, 228, 217);
-    margin: 0 auto;
+    margin: 2rem;
     border: 1rem solid rgb(201, 13, 13);
     border-radius: 2rem;
+    box-sizing: border-box
 }
 
 .firstbox{
@@ -59,6 +64,7 @@ body{
 .nav .home{
     display: flex;
     border: .25rem solid black;
+    background: lightgrey;
     padding: .5rem;
     margin: 1rem;
     font-size: 2rem;
@@ -68,6 +74,7 @@ body{
 .nav .about{
     display: flex;
     border: .25rem solid black;
+    background: lightgrey;
     padding: .5rem;
     margin: 1rem;
     font-size: 2rem;
@@ -77,6 +84,7 @@ body{
 .nav .contact{
     display: flex;
     border: .25rem solid black;
+    background: lightgrey;
     padding: .5rem;
     margin: 1rem;
     font-size: 2rem;
@@ -86,6 +94,7 @@ body{
 .nav .projects{
     display: flex;
     border: .25rem solid black;
+    background: lightgrey;
     padding: .5rem;
     margin: 1rem;
     font-size: 2rem;
@@ -134,6 +143,7 @@ body{
 .secondbox .mainphoto{
     display: flex;
     justify-content: center;
+    
 }
 
 .thirdbox{
@@ -163,6 +173,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    border-radius: 1rem;
     border: 1rem solid black;
     margin: 2rem
 }
@@ -175,4 +186,269 @@ body{
     color: rgb(0, 0, 0);
     font-size: 1.75rem;
     line-height: 2rem;
+}
+
+.fourthbox{
+    display: flex;
+    flex-direction: row;
+    background: rgb(138, 138, 165);
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2rem solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 95%;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.fourthbox .contact{
+    display: flex;
+    border: .25rem solid black;
+    background: lightgrey;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+@media(max-width: 800px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(228, 6, 6);
+        margin: 2rem;
+        border: 1rem solid rgb(132, 13, 201);
+        border-radius: 2rem;
+        box-sizing: border-box;
+    }
+    .firstbox{
+        display: flex;
+        flex-direction: column;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .firstbox .name{
+        display: flex;
+        font-size: 5rem;
+        justify-content: center;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .nav .home{
+        display: flex;
+        border: .25rem solid black;
+        background: lightgrey;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+    
+    .nav .about{
+        display: flex;
+        border: .25rem solid black;
+        background: lightgrey;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+    
+    .nav .contact{
+        display: flex;
+        border: .25rem solid black;
+        background: lightgrey;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+    
+    .nav .projects{
+        display: flex;
+        border: .25rem solid black;
+        background: lightgrey;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .intro h2{
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+    }
+    
+    .intro p{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .secondbox{
+        display: flex;
+        flex-direction: column;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .secondbox .mainphoto img{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: auto;
+    }
+    
+    .thirdbox{
+        display: flex;
+        flex-direction: row;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 95%;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .thirdbox .smallphotos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    
+    .thirdbox .smallphotos .picture{
+        display: flex;
+        align-content: center;
+        border-radius: .5rem;
+        border: 1rem solid black;
+        margin: 2rem auto;
+    }
+    
+    .thirdbox .smallphotos .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    
+    .fourthbox{
+        display: flex;
+        flex-direction: row;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 95%;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .fourthbox .contact{
+        display: flex;
+        border: .25rem solid black;
+        background: lightgrey;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background: rgb(0, 255, 55);
+    }
+
+    .firstbox{
+        width: 95%;
+    }
+    
+    .firstbox .name{
+        font-size: 4rem;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        background: rgb(138, 138, 165);
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 2rem solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        box-sizing: border-box;
+        width: 70%;
+        justify-content: center;
+    }
+    
+    .intro h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: bold;
+    }
+    
+    .intro p{
+        font-size: 1.5rem;
+    }
+
+    .secondbox .mainphoto img{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: auto;
+    }
 }
