@@ -48,8 +48,8 @@ html {
 }
 
 body{
-  border: 2rem dotted #ffff99;
-  font-size: 2rem;
+  border: 5rem dotted #ffff99;
+  font-size: 10rem;
   background: linear-gradient(to bottom,hotpink 0%, #33ccff 100%);
   margin: 1.5rem;
   box-sizing: border-box;
@@ -58,7 +58,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-
   .name{
     display: flex;
     width:25%;
@@ -67,298 +66,211 @@ body{
     justify-content: center;
     box-sizing: border-box;
   }
+  h1{
+    color:rgb(7, 255, 172);
+    text-align: center;
+    font-family: "courier new", courier, monospace;
+    font-style:italic;
+    border:3rem dotted rgb(7, 255, 222);
+    justify-content: center;
+    padding: 5% 10%;
+  }
 
+  h1:hover{
+    color: rgb(102, 20, 255);
+    border-color: rgb(255, 0, 149);
+    text-transform:uppercase;
+  }
 
-    h1{
-      color:rgb(7, 255, 172);
-      text-align: center;
-      font-size:4rem;
-      font-family: "courier new", courier, monospace;
-      font-style:italic;
-      border:1rem dotted rgb(7, 255, 222);
-      width:30rem;
-      justify-content: center;
-      padding: 5% 10%;
-    }
+.container{
+    width:100%;
+    height:100%;
+    margin: 1% auto;
+    display: flex;
+    justify-content: center;
+  }
 
-    h1:hover{
-      color: rgb(102, 20, 255);
-      border-color: rgb(255, 0, 149);
-      text-transform:uppercase;
-    }
-
-  .container{
-      width:100%;
-      height:100%;
-      margin: 1% auto;
-      display: flex;
-      justify-content: center;
-    }
-
-    header {
-      text-align: center;
-      display: flex;
-      font-size: 2rem;
-      font-weight: bold;
-      flex-direction: column;
-      justify-content: center;
-    }
- 
-    .container header nav{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-  
+  header {
+    text-align: center;
+    display: flex;
+    font-size: 7rem;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
     .container header nav a {
       margin: 0 1rem;
-      border: 0.25rem solid rgb(205, 247, 18);
-      padding: 1.5rem 2rem;
+      border: 1rem solid rgb(205, 247, 18);
+      padding: 5rem 5rem;
       display: flex;
-      border-radius: 2rem;
+      border-radius: 4rem;
       color: rgb(80, 7, 109);
-      text-decoration-line: underline;
-      text-decoration-style: dotted;
-      margin-bottom: 2rem;
+      margin: 2rem 5rem;
       background-color: rgb(150, 123, 248);
+      text-decoration: underline dotted;
+      text-underline-position: under;
     }
-    
+
     .container header nav a:hover {
       background-color: rgb(131, 255, 234);
       color: rgb(247, 68, 172);
       animation: glowing 1500ms infinite;
     }
-    
     @keyframes glowing {
       0% { box-shadow: 0 0 -10px #ffe97b; }
       40% { box-shadow: 0 0 40px #ffe97b; }
       60% { box-shadow: 0 0 40px #ffe97b; }
       100% { box-shadow: 0 0 -10px #ffe97b; }
     }
-  
-
   .intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin: 1rem;
-  }
-  
- h2{
-    color:rgb(255, 0, 149);
-    background-color: rgb(133, 15, 133);
-    text-align: center;
-    font-size:4rem;
-    font-family: Georgia, serif;
-    font-style:italic;
-    border: 1rem groove rgb(7, 255, 222);
-    border-radius: 1.2rem;
-    width:45rem;
-    padding: 1rem;
-    margin-bottom: 5rem;
-  }
-
-  .cloud{
-    display: flex;
-    justify-content: center;
+    margin: 5% 10%;
     box-sizing: border-box;
-    margin: 0 5%;
-  }
+  } 
 
-    .cloud p{
-      color:rgb(5, 238, 255);
-      border: 3rem 0 1rem 0;
-      justify-content: center;
+    h2{
+      color:rgb(255, 0, 149);
+      background-color: rgb(133, 15, 133);
+      text-align: center;
+      font-size:150%;
+      font-family: Georgia, serif;
+      font-style:italic;
+      border: 5rem groove rgb(7, 255, 222);
+      border-radius: 3rem;
+      padding: 2% 5%;
+      margin-bottom: 5%;
+      box-sizing: border-box;
     }
 
-.bigpic {
-  background-color: blueviolet;
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: 5%;
-  height: 25%;
-  border: 1rem groove rgb(94, 7, 255);
-  border-radius: 1rem;
-}
+    .cloud{
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      margin: 0 5%;
+    }
+      .cloud p{
+        color:rgb(5, 238, 255);
+        background-color: rgb(250, 100, 200);
+        justify-content: center;
+        text-align: center;
+        font-family: Georgia, serif;
+        border: 5rem groove rgb(7, 255, 139);
+        border-radius: 3rem;
+        padding: 7%;
+      }
 
-  .bigpic img{
-    display: flex;
-    padding: 5%;
-    width:75%;
-    height:5%;
-    max-height: 45rem;
-  }
-
-.smallpics {
-  background-color: rgb(253, 71, 156);
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  margin: 2.5rem;
-  padding: 2.5rem;
-  border: .25rem solid rgb(4, 0, 241);
-  border-radius: 1.2rem;
-}
-
-.smallpics img {
-  width: 15rem;
-  margin: 10rem;
-  box-sizing: border-box;
-}
-
-.smallpics #dogbeach {
-  border: .5rem dotted rgb(253, 179, 119);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.smallpics #diamond {
-  border:.5rem dotted rgb(255, 249, 192);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.smallpics #calico {
-  border:.5rem dotted rgb(166, 255, 0);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.smallpics #crystals {
-  border:.5rem dotted rgb(1, 255, 221);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-
-.smallpics p {
-  width: 15rem;
-  margin: 1rem;
-  padding: 1rem;
-  border:.5rem dotted rgb(194, 119, 255)
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
-footer{
-  background-color: rgb(253, 179, 119);
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  padding: 2rem;
-  width: 40%;
-  margin-bottom: 5rem;
-  margin-top: 2.5rem;
-  border: 3px solid rgb(2, 255, 116);
-  border-radius: 12px;`
-}
-
-.footer-content nav{
-  display:flex;
-  justify-content: center;
-}
-
-.footer-content nav a {
-  margin: 1rem 1rem;
-  border: 1px solid lightgray;
-  padding: 2rem;
-  display: inline-block;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 2rem;
-  background-color: #F87B99;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-
-.footer-content nav a:hover {
-  background-color: rgb(131, 255, 234);
-  color: rgb(247, 68, 172);
-  animation: glowing 1500ms infinite;
-}
-
-@keyframes glowing {
-  0% { box-shadow: 0 0 -10px #7bff98; }
-  40% { box-shadow: 0 0 40px #7bff98; }
-  60% { box-shadow: 0 0 40px #7bff98; }
-  100% { box-shadow: 0 0 -10px #7bff98; }
-}
-
-
-.linkedin nav a {
-  margin: 0 1rem ;
-  border: 1px solid lightgray;
-  padding: 2rem;
-  display: inline-block;
-  border-radius: 2rem;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 2rem;
-  background-color: #F87B99;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-.linkedin nav a:hover {
-  background-color: rgb(131, 255, 234);
-  color: rgb(247, 68, 172);
-  animation: glowing 1500ms infinite;
-}
-
-@keyframes glowing {
-  0% { box-shadow: 0 0 -10px #7bff98; }
-  40% { box-shadow: 0 0 40px #7bff98; }
-  60% { box-shadow: 0 0 40px #7bff98; }
-  100% { box-shadow: 0 0 -10px #7bff98; }
-}
-
-.linkedin nav{
-  display:flex;
-  justify-content: center;
-}
-
-
-
-@media(max-width: 800px){
-  .smallpics{
-    background-color: lawngreen;
-    flex-direction: column;
-    flex-flow: column;
+  .bigpic {
+    background-color: blueviolet;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+    border: 2rem groove rgb(94, 7, 255);
+    border-radius: 1rem;
+    margin: 0 5%;
+    width: 70%;
+    height:25%;
+  }
+    .bigpic img{
+      display: flex;
+      padding: 5%;
+      box-sizing: border-box;
+      width:75%;
+      height:5%;
+    }
+
+  .smallpics {
+    background-color: rgb(253, 71, 156);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin:3% 5%;
     padding: 2.5rem;
     border: .25rem solid rgb(4, 0, 241);
     border-radius: 1.2rem;
-    width: 40%;
+    width:80%;
+  }
+    .smallpics img {
+      width: 15%;
+      margin: 5rem;
+      box-sizing: border-box;
     }
+
+    .smallpics p {
+      width: 15%;
+      margin: 5rem;
+      padding: 2rem;
+      border: 3rem dotted rgb(67, 0, 122);
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 60%;
+    }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 179, 119);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 20%;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+    border: 1rem solid rgb(2, 255, 116);
+    border-radius: 3rem;
+  }
+    .footer-content nav{
+      display:flex;
+      justify-content: center;
+    }
+      .footer-content nav a {
+        margin: 5rem;
+        border: 1rem solid aqua;
+        padding: 5rem;
+        display: flex;
+        border-radius: 20rem;
+        color: aqua;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        background-color: rgb(255, 0, 119);
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-align: center;
+      }
+
     
-    .smallpics img {
-      box-sizing: border-box;
+  .linkedin nav{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+    
+    .linkedin nav a {
+      margin: 5rem;
+      border: 1rem solid aqua;
+      padding: 5rem;
+      display: flex;
+      border-radius: 20rem;
+      color: aqua;
+      text-decoration: none;
+      background-color: rgb(255, 0, 179);
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      justify-content: center;
     }
 
-    .smallpics p {
-      box-sizing: border-box;
-    }
-  }
+
 }
 
-@media(max-width: 500px){
-  .smallpics{
-    background-color: rgb(85, 87, 194);
-  }
-    .smallpics img {
-      box-sizing: border-box;
-    }
-    .smallpics p {
-      box-sizing: border-box;
-    }
-  }
-}
