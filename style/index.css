@@ -132,6 +132,17 @@ p {
 	border:15%;
 }
 
-@media (max: 500px) {
-	h1: 1rem;
+@media(max-width: 500px) {
+	header a {
+		width: 50%;
+		font-size: .5rem;
+	}
+
+	h1 {
+		font-size: 1rem;
+	}
+
+	.button {
+		margin-left: 80%;
+	}
 }
