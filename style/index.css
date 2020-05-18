@@ -4,8 +4,74 @@
     background-color: aqua;
 }
 
+  .name, h2 {
+    display: flex;
+    align-items: center;
+   
+    color: blue;
+}
 
+ .section-one h2 {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .images p {
     color: blue;
+}
+
+.main-image img {
+    width:100%;
+    height: 300px;
+}
+
+header {
+    border: solid;
+  display: flex;
+  justify-content: content;
+  align-items: center;
+}
+
+.first-part .images {
+    
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 80%;
+}
+
+.first-part {
+    display: flex;
+    width: 100%;
+    flex-direction:row ;
+    align-items: center;
+}
+
+.text p {
+    margin-top: 3%;
+    padding-left: 42%;
+}
+
+* {
+    background-color: burlywood;
+}
+
+.contact-informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: cyan;
+    background-color: darkgoldenrod;
 }
