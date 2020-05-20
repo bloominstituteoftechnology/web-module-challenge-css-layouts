@@ -75,3 +75,58 @@ header {
     color: cyan;
     background-color: darkgoldenrod;
 }
+
+.contact-informations button {
+    text-decoration: none;
+
+}
+
+.contact-informations button:hover {
+    background-color: brown;
+    color: blueviolet;
+    text-decoration: solid;
+  animation: anim 2s infinite;
+}
+
+.first-part .images {
+    animation: anim 3s initial;
+}
+
+.my-projects-button button:hover {
+    color: black;
+    background-color: Pink;
+    width:100%;
+  
+}
+.my-projects-button button {
+    background-attachment: local;
+    animation-play-state: running;
+    animation: anim 4s 4s none 3 right auto;
+}
+
+@media (max-width: 500) {
+	.first-part .images {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		border:  2px black;
+		padding: 5%;
+		margin: 30px 0 30px 50%;
+		transform: translate(-50%);
+    }
+   
+}
+
+@media (max-width: 500) {
+	.text p{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		border:  2px black;
+		padding: 5%;
+		margin: 30px 0 30px 50%;
+		transform: translate(-50%);
+    }
+   
+}
+
