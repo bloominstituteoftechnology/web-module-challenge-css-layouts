@@ -4,8 +4,6 @@ The module challenge is the afternoon project or assignment that students work t
 
 ## User Interface and Git
 
-## User Interface II
-
 ## Objectives
 
 - implement a CSS reset and understand why it’s important for cross-browser development
