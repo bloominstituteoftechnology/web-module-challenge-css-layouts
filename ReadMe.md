@@ -43,7 +43,7 @@ Once your repository is set up, practice what you learned today to create a port
 
 ### Task 2b: Exit Ticket
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/M94mbzuHGQoMg6F3e/w9GqZYCQ2YoZZf).
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/W7cjgvDN6BnmcCAJN/deNjYNsatrYjaN).
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability *without* using external references.
 
