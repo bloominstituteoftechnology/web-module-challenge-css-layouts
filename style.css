@@ -64,6 +64,21 @@ header{
     margin: 2rem;
 
 }
+.about{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.about h1{
+	width: 100%;
+}
+.abouttxt{
+	width: 40%;
+}
+.aboutimg{
+	width: 40%;
+
+}
 
 .contact{
 	display: flex;
