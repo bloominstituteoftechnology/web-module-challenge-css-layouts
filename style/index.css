@@ -3,6 +3,7 @@ body {
     border: 1px solid grey;
     box-sizing: border-box;
     font-size: 2rem;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 a {
@@ -10,6 +11,8 @@ a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+    opacity: .5;
+    padding: 1%;
 }
 
 nav {
@@ -20,10 +23,10 @@ nav {
 
 header nav h1 {
     font-size: 3rem;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     padding-top: 2%;
     padding-left: 2%;
-    width: 100%;
+    width: 50%;
 }
 
 .hero-container {
@@ -41,7 +44,6 @@ header nav h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid purple;
     width: 100%;
 }
 
@@ -50,7 +52,17 @@ header nav h1 {
     display: flex;
     justify-content: center;
 }
+.portfolio-l1 div {
+    font-size: .5rem;
+    text-align: center;
+    margin: 2%;
+}
 
+.portfolio-l2 div {
+    font-size: .5rem;
+    text-align: center;
+    margin:2%;
+}
 .portfolio-l2 {
     display: flex;
     justify-content: center;
