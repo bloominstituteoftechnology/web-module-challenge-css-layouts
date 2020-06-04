@@ -32,19 +32,19 @@ vertical-align: baseline;
  display:flex;
  justify-content:flex-start;
  font-size:5rem;
- background-color:red;
+ background-color:orange;
   }
 .links{
     display: flex;
     justify-content:flex-end;
     font-size:3rem;
-    background-color:red;
+    background-color:orange;
 }
 .links a{
  padding:1rem; 
 }
 .opener{
-    background-color:blue;
+    background-color:teal;
     font-size:1.5rem;
     padding: 5%;
     text-align: center;
@@ -55,7 +55,7 @@ vertical-align: baseline;
   flex-direction:row;
   justify-content:space-around;
   padding:2rem;
-  background-color:blue;
+  background-color:teal;
 }
 .picbox{
  display:flex;
@@ -67,7 +67,7 @@ vertical-align: baseline;
 .contacts{
  font-size:2rem;
  text-align:center;
- background-color:red;
+ background-color:orange;
  }
 .contacts a{
   padding:1rem;
