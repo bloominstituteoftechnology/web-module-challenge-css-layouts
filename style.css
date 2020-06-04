@@ -61,7 +61,8 @@ header{
 .container .item{
     width: 25%;
     height: 100px;
-    margin: 2rem;
+	margin: 10px;
+	text-align: center;
 
 }
 .about{
@@ -87,6 +88,7 @@ header{
 .photo{
 	width: 30%;
 	padding: 5%;
+	margin:10px;
 }
 footer{
     display: flex;
