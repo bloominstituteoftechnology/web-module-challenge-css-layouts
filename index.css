@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    maz-width:100%;
+    box sizing: border-box;
+    /*border: 1px solid gray;*/
+  
+  }
+  html{
+    font-size:62.5%;
+  }
+
+  header{
+      padding:2%;
+      font-size: 5rem;
+      display:flex;
+      justify-content:center;
+
+  }
+
+  .section-1{
+      display:flex;
+
+
+
+  }
+
+  .section-1 h1{
+      display:flex;
+      font-size:3rem;
+      padding:1%
+  }
+
+  .section-1 nav{
+      display:flex;
+      justify-content:flex-end;
+      padding:1%;
+
+  }
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+    width:50%;
+    font-size:3rem;
+    padding:1%;
+    
+
+  }
+
+  .section-2{
+      background-image:'./assets/me.jpg';
+      height: 800px;
+
+
+
+  }
+
+  .section-2 img{
+      width: 80%;
+      display:flex;
+      justify-content: center;
+
+
+
+  }
+
+
+  .section-3 img{
+      widows: 400px;
+      height: 300px;
+
+
+  }
+
+
