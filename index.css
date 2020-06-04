@@ -1,0 +1,46 @@
+body {
+    font-size: 62.5%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+h1 {
+    
+    font-size: 3rem;
+}
+
+button {
+    background-color: slategray;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.portfolio-l1 {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.portfolio-l2 {
+    display: flex;
+    justify-content: center;
+}
