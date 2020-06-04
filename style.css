@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid gray;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -94,3 +93,18 @@ footer{
     display: flex;
     justify-content: center;
 }
+#page-container {
+	position: relative;
+	min-height: 100vh;
+  }
+  
+  #content-wrap {
+	padding-bottom: 2.5rem;    
+  }
+  
+  #footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;            
+  }
