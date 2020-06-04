@@ -34,11 +34,11 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
-- [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages (need link)
+- [x]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages (need link)
 - [ ]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
-- [ ]  Information about you in place of the given placeholder
-- [ ]  A `My Projects` button that links to the projects page
-- [ ]  A `Contact Me` button that links to the contact page
+- [x]  Information about you in place of the given placeholder
+- [x]  A `My Projects` button that links to the projects page
+- [x]  A `Contact Me` button that links to the contact page
 - [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 2b: Exit Ticket
@@ -53,7 +53,7 @@ The following goals are designed to stretch your knowledge and may require addit
 
 - [ ] Make your webpage work at different browser widths, including mobile
 - [ ] Add CSS animations
-- [ ] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
+- [x] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
 - [ ] Host your website on Netlify.com
 
 ## FAQs
