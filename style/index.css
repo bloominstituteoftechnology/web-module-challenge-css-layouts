@@ -1,1 +1,114 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0; 
+/*border: 0;*/
+font-size: 100%;  
+/*font: inherit; */
+vertical-align: baseline;  
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid red; */
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px;
+}
+#home{
+    height: 400px;
+}
+.header{
+    display: flex;
+    height: 10%;
+    padding: 2% 2% 2% 2%;
+    justify-content: space-between;
+}
+h1{
+    font-size: 1;
+}
+nav a{
+    /* border: 1px solid red;   */
+    padding: 8px;
+    background-color: black;
+    color: white;
+    /* justify-content: space-evenly; */
+    text-decoration: none;
+}
+.big-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://themillions.com/wp-content/uploads/2019/03/david-jorre-712468-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:wrap;
+    height: 300px;
+    margin: 0 90px 0 90px
+    
+}
+.name2, .button{
+    display: flex;
+    align-content: center;
+}
+h2{
+    font-size: 32px;
+     color: white;
+}
+.button a{
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+p{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+#projects{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+footer{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+footer .contact a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+}
+  @media (max-width: 800) {
+   
+  }
+  @media (max-width: 400) {
+   
+  }
+  
