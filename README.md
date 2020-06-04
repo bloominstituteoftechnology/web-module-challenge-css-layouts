@@ -43,6 +43,12 @@ Use the checklist below to guide your work today. Your final product should be p
 - [ ] Add accessability features to your webpage
 - [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
+### Task 2b: Exit Ticket
+
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR)
+
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
+
 ### Task 3: Stretch Goals
 
 Once you finish the minimum viable project, work on any of the following stretch goals:
