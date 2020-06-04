@@ -41,3 +41,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.container .item{
+    width: 25%;
+    height: 100px;
+    margin: 2rem;
+
+}
