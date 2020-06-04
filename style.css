@@ -60,10 +60,12 @@ header{
 .container .item{
     width: 25%;
     height: 100px;
-	margin: 10px;
+	margin: 40px;
 	text-align: center;
 
 }
+
+
 .about{
 	display: flex;
 	justify-content: space-around;
