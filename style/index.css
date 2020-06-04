@@ -27,21 +27,22 @@ vertical-align: baseline;
 .one{
   display:flex;
   justify-content:space-between;
+  background-color:orange;
 }
 .name{
  display:flex;
  justify-content:flex-start;
  font-size:5rem;
- background-color:orange;
   }
 .links{
     display: flex;
     justify-content:flex-end;
     font-size:3rem;
-    background-color:orange;
 }
 .links a{
- padding:1rem; 
+ padding:1rem;
+ text-decoration: none;
+ color: black; 
 }
 .opener{
     background-color:teal;
@@ -71,6 +72,8 @@ vertical-align: baseline;
  }
 .contacts a{
   padding:1rem;
+  text-decoration: none;
+  color: black;
 }
 @media(max-width: 800px){
   #title {
