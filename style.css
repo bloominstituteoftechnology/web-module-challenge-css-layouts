@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 5.6rem;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+.buttons  {
+    display: flex;
+    justify-content: center;
+    
+    
+    margin:0 auto;
+    
+
+}
+
+.buttons a {
+    
+    font-size: 2.6rem;
+    width: 20%;
+    height: 40%;
+    border: solid black;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkmagenta;
+    color: cornsilk;
+}
+
+h2 {
+    font-size:4.6rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.info-description {
+    
+    font-size:3.6rem;
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    
+}
+
+.big-container {
+    display: flex;
+    justify-content: center;
+    background: url(https://travelismyreligion.club/wp-content/uploads/2020/02/Sunset-in-Krabi-3-min-2-1200x671.jpg);
+    background-size: stretch;
+    margin-bottom: 2%;
+}
+
+.four-containers {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content:space-between;
+    
+    
+    
+}
+
+
+
+.four-containers p {
+   display:flex;
+    width: 5%;
+    font-size: 1.8rem;
+    justify-content:center;
+    
+
+}
+footer footer-image {
+background-image: url("https://travelismyreligion.club/wp-content/uploads/2020/02/Rice-fields-in-Bohol-min-2-1200x671.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
