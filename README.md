@@ -40,8 +40,8 @@ Use the checklist below to guide your work today. Your final product should be p
 
 - [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
 - [ ] Introduce max-width media queries into your project at 800px and 500px
-- [ ] Change CSS styles from hard-coded `px` to any one of the responsive units learned today
 - [ ] Add accessability features to your webpage
+- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 ### Task 3: Stretch Goals
 
