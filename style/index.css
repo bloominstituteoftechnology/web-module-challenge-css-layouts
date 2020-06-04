@@ -1,1 +1,67 @@
-/* Add CSS styling here */
+body {
+    font-size: 62.5%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+a {
+    background-color: slategray;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav h1 {
+    font-size: 3rem;
+    border: 2px solid purple;
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 100%;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 3%;
+}
+
+.hero-container div h1 {
+    font-size: 4.5rem;
+}
+.hero-container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid purple;
+    width: 100%;
+}
+
+
+.portfolio-l1 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-l2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+}
+
+footer div {
+    width: 40%;
+    margin: 4% auto;
+    text-align: center;
+}
