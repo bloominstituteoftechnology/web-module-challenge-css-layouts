@@ -65,10 +65,34 @@
 
   }
 
+  .section-3 .one{
+      padding:2%;
+
+  }
+
+  .section-3 .two{
+    padding:2%;
+    
+}
+
+  .section-3{
+      width:95%;
+      display:flex;
+      flex-direction: column;
+
+
+  }
+  .section-3 div{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+  }
+
 
   .section-3 img{
-      widows: 400px;
-      height: 300px;
+      width: 500px;
+      height: 330px;
 
 
   }
