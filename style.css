@@ -65,6 +65,14 @@ header{
 
 }
 
+.contact{
+	display: flex;
+	justify-content: space-around;
+}
+.photo{
+	width: 30%;
+	padding: 5%;
+}
 footer{
     display: flex;
     justify-content: center;
