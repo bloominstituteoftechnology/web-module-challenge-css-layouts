@@ -82,25 +82,26 @@ h2 {
 .four-containers {
     display: flex;
     margin-bottom: 2%;
-    justify-content:space-between;
+    justify-content:space-around;
     
     
     
 }
 
 .four-containers p {
-   display:flex;
-    width: 5%;
-    font-size: 1.8rem;
+    display:flex;
+    width: 10%;
+    font-size: 2rem;
     justify-content:center;
+    text-align: center;
+    align-items: center;
+    
     
 
 }
 
-.footer-image { 
- height: 50vh;
-  background-image: url(https://travelismyreligion.club/wp-content/uploads/2020/02/Rice-fields-in-Bohol-min-2-1200x671.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.footer { 
+width: 20%;
+height: 25%;
+background-color: greenyellow;
 }
