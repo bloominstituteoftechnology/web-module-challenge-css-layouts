@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #9C89B8;
+	color: #F0E6EF;
 }
 ol, ul {
 	list-style: none;
@@ -74,6 +76,7 @@ header{
 	padding: 20px;
 	text-align: center;
 	margin: 10px;
+	background-color: #B8BEDD;
   }
   
   .item:hover {
