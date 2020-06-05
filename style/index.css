@@ -1,1 +1,166 @@
 /* Add CSS styling here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: cursive;
+}
+body{
+    /* background-image: url("https://i.ibb.co/FY21zn2/photo-1515549832467-8783363e19b6.jpg");
+     */
+     background: rgb(238,222,222);
+     background: linear-gradient(90deg, rgba(238,222,222,1) 6%, rgba(140,119,112,0.8491771708683473) 45%, rgba(36,33,78,1) 100%);
+
+    background-size: cover;
+}
+
+.nav-container{ 
+display: flex;
+justify-content: flex-end;
+justify-content: space-around;
+align-items: center;
+}
+
+nav{
+    padding:1%;
+    margin-left: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%
+    
+}
+nav  button{
+    background-color: #393131;
+    color: tomato;
+  
+    border-radius: 20px;
+    padding:5%;
+    width: 100%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+   
+}
+nav button:hover{
+    box-shadow: 5px 10px #888888;
+    background-color: tomato;
+    color: #393131;
+
+    border-radius: 20px;
+    padding:5%;
+    width: 100%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    background-color: #393131;
+    color: tomato;
+    border-radius: 10px;
+    padding: 4.3%;
+}
+.button button:hover{
+    box-shadow: 5px 10px #888888;
+    background-color: tomato;
+    color: #393131;
+    border-radius: 10px;
+
+}
+.heading-container{
+     display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    margin: 1% 5% 1% 5%;
+}
+.img-container{
+
+    position: relative;
+    object-fit: cover;
+    /* background-image: url('https://i.ibb.co/zZ7gyFf/download-1.png'); */
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    object-fit: cover; 
+    opacity: 0.85;
+}
+.htext-container{
+
+    display: flex;
+    object-fit: cover;
+ 
+}
+.htext-container div{
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.6
+    
+}
+
+
+button{
+    margin: 10% 10% 25% 22%;
+    width: 50%;
+    padding: 3.5%;
+
+}
+
+.main-body-container{
+    margin-top: 2%;
+}
+
+.top-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+h2{
+    position: absolutes;
+}
+
+.box{
+    text-align: center;
+}
+.box h3{
+    font-weight: 500;
+    font-family: cursive;
+    margin-bottom: 5%;
+}
+
+footer { 
+margin-top: 3%;
+padding-top: 10%;
+background: rgb(238,222,222);
+background: linear-gradient(90deg, rgba(238,222,222,1) 6%, rgba(36,33,78,1) 21%, rgba(213,65,16,0.8491771708683473) 83%);
+display: flex;
+justify-content: center;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 110%;
+}
+.github a{
+    text-decoration: none;
+}
+nav a{
+    background-color: #393131;
+    color: tomato;
+    border-radius: 20px;
+    padding:5%;
+    width: 100%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
