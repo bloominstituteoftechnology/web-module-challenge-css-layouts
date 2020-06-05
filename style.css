@@ -53,17 +53,28 @@ header{
 }
 
 .container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-.container .item{
-    width: 25%;
-    height: 100px;
-	margin: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+	padding: 10px;
+	justify-content: space-around;
+	align-content: space-between;
 	text-align: center;
-
+  }
 }
+.item {
+	transition: 0.3s;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .item:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+	border-radius: 5px;
+  }
 
 
 .about{
