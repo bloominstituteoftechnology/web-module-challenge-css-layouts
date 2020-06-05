@@ -17,7 +17,8 @@ header {
 }
 
 .box h3 {
-    font-family: 'Brush Script MT', cursive;
+    color: black;
+    font-family: 'Crimson Text';
     font-size: 2.8rem;
     padding: 10px;
     text-align: center;
@@ -34,8 +35,12 @@ a {
 }
 
 .logo h1 {
+    font-family: 'Inconsolata';
+    font-weight: 100;
+    letter-spacing: -0.1rem;
+    padding: 10px;
     margin: 0% auto;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .nav {
@@ -65,14 +70,20 @@ a {
     border-radius: 50%;
 }
 
-
-
 .big-image h1 {
     font-family: "Crimson Text";
     font-size: 10.0rem;
     opacity: 0.7;
     margin: 35%;
     margin-bottom: 0%;
+    letter-spacing: 1.5rem;
+}
+
+.big-image h2 {
+    font-family: "Crimson Text";
+    font-size: 6.0rem;
+    margin-top: 0;
+    opacity: 0.7;
 }
 
 /* styles the image gallery */
