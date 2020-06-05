@@ -1,13 +1,16 @@
 
+* {  
+    padding:0;
+    margin:0;
+    max-width:100%;
+  /*   border:1px solid grey; */
+  }
+
 body {
-    background-color: #F9F7F3;
+    background-color: #CDEDF6;
 }
 
-body div {
-    border: 1px solid black;
-}
-
-html{
+html {
     font-size:62.5%;
   }
 
@@ -15,11 +18,12 @@ html{
 
 header {
     display: flex;
-    background-color: #EE6352;
+    background-color: #7D98A1;
 }
 
 a {
     text-decoration: none;
+    color: #2AB7CA;
 }
 
 .logo {
@@ -33,7 +37,7 @@ a {
     letter-spacing: -0.1rem;
     padding: 10px;
     margin: 0% auto;
-    font-size: 5rem;
+    font-size: 4.8rem;
     color: #F9F7F3;
     opacity: 0.6;
 }
@@ -48,18 +52,27 @@ header .nav {
 .button {
     width: 10%;
     height: 60%;
-    font-family: "Inconsolata";
+    font-family: "Brush Script MT", cursive;
+    font-size: 3.0rem;
     text-align: center;
     padding: 15px 10px;
 }
 
-.button a {
-    font-size: 1.8rem;
+nav .button a {
+    color: #F9F7F3;
+    font-size: 2.8rem;
+}
 
+.button:hover {
+    background-color: #CDEDF6;
+}
+
+.button a:hover {
+    color: #7D98A1;
 }
 
 .body-top {
-    background-color: #F9F7F3;
+    background-color: #CDEDF6;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -76,29 +89,34 @@ header .nav {
     margin-top: 2%;
     text-align: center;
     border-radius: 50%;
-    opacity: 0.8;
 }
 
 .big-image h1 {
     font-family: "Crimson Text";
     font-size: 10.0rem;
     opacity: 0.7;
-    margin: 35%;
+    margin: 30%;
     margin-bottom: 0%;
-    letter-spacing: 1.5rem;
+    text-align: center;
 }
 
 .big-image h2 {
+    color: black;
     font-family: "Crimson Text";
     font-size: 6.0rem;
     margin-top: 0;
-    opacity: 0.7;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.big-image h2:hover {
+    opacity: 0.5;
 }
 
 /* styles the image gallery */
 
 .directory {
-    background-color:#EE6352;
+    background-color:#7D98A1;
     width: 100%;
     margin: 0%;
 }
@@ -129,10 +147,14 @@ header .nav {
 .box h3 {
     color: black;
     font-family: 'Crimson Text';
-    font-size: 2.9rem;
-    padding: 10px;
+    font-size: 3.0rem;
+    padding: 15px;
     text-align: center;
     margin: 25%;
+}
+
+h3:hover {
+    color: #2AB7CA;
 }
 
 .box1 {
@@ -191,11 +213,11 @@ footer {
     width: 10%;
     height: 100px;
     margin: 0% auto;
-    margin-top: 15px;
+    margin-top: 2%;
 }
 
 .contact a {
-    font-size: 4.8rem;
-    color: #EE6352;
+    font-size: 2.8rem;
+    color: #2AB7CA;
     text-align: center;
 }
