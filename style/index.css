@@ -1,3 +1,76 @@
-/* Add CSS styling here */
 
-stuff here 
+body div {
+    border: 1px solid black;
+}
+
+html{
+    font-size:62.5%;
+  }
+
+header {
+    display: flex;
+}
+
+
+
+.logo {
+  display: flex;
+  width: 20%;
+}
+
+.logo h1 {
+    margin: 0% auto;
+    font-size: 4rem;
+}
+
+.nav {
+  width:30%;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.body-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+}
+
+.big-image {
+    background-image: url("https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 60%;
+    height: 800px;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* styles the image gallery */
+
+.top-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 300px;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.box1 {
+    background-image: url("https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
