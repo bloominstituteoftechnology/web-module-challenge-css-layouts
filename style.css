@@ -43,7 +43,8 @@ table {
 
 header{
     display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
+	height: 10vh;
 }
 
 .bigun{
