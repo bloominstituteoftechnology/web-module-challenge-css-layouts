@@ -1,4 +1,8 @@
 
+body {
+    background-color: #F9F7F3;
+}
+
 body div {
     border: 1px solid black;
 }
@@ -9,9 +13,20 @@ html{
 
 header {
     display: flex;
+    background-color: #0FA3B1;
 }
 
+.box h3 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.8rem;
+    padding: 10px;
+    text-align: center;
+    margin: 25%;
+}
 
+a {
+    text-decoration: none;
+}
 
 .logo {
   display: flex;
@@ -31,26 +46,42 @@ header {
 }
 
 .body-top {
+    background-color: #F9F7F3;
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 900px;
+    height: 1000px;
 }
 
 .big-image {
-    background-image: url("https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     width: 60%;
-    height: 800px;
+    height: 900px;
     margin-top: 2%;
     text-align: center;
     border-radius: 50%;
 }
 
+
+
+.big-image h1 {
+    font-family: "Crimson Text";
+    font-size: 10.0rem;
+    opacity: 0.7;
+    margin: 35%;
+    margin-bottom: 0%;
+}
+
 /* styles the image gallery */
 
+.directory {
+    background-color: #0FA3B1;
+    width: 100%;
+    margin: 0%;
+}
 .top-box {
     display: flex;
     justify-content: space-evenly;
@@ -66,6 +97,8 @@ header {
     height: 300px;
     width: 20%;
     border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .box1 {
