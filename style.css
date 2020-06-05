@@ -44,6 +44,11 @@ table {
 	border-spacing: 0;
 }
 
+
+body{
+	font-family: 'Seaweed Script', cursive;
+}
+
 header{
     display: flex;
 	justify-content: space-around;
@@ -52,6 +57,13 @@ header{
 	align-items: center;
 }
 
+h1{
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2.0rem;
+}
 .bigun{
     display: flex;
 	flex-direction: column;
