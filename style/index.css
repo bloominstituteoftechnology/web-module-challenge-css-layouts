@@ -1,1 +1,132 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 1px;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+
+
+
+}
+
+body{
+    background-color: rgb(137, 136, 199);
+}
+.name {
+
+    font-family: 'Chelsea Market', cursive;
+    font-size:40px;
+  float: left;
+ height: 40px;
+
+}
+
+.bottons{
+    
+    justify-content: flex-end;
+}
+.links{
+    display:flex;
+  text-decoration: none;
+    justify-content: flex-end;
+    text-align:center;
+
+}
+.index{
+    color: yellow;
+    background-color: darkgray;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+color: yellow;
+background-color: darkgray;
+}
+
+.links a{
+    display: center;
+    height:25px;
+   padding-top: 1%;
+border: 3px solid black;
+text-decoration: none;
+width: 10%;
+
+}
+.principal{
+    display:flex;
+    justify-content: center;
+}
+.big-image{
+    padding: 8% 20%;
+    background-image:url("https://picsum.photos/1400/800");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4% 0 0 0
+  
+}
+
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:40px;    
+}
+
+.big-image a{
+    padding: 1%;
+    text-align:center;
+width: 25%;
+margin-left: 35%;
+border: 3px solid black;
+}
+
+
+.blocks-one{
+    padding: 1%;
+    margin: 4%;
+    text-align:center;
+    display:flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+
+.bottom{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(134, 90, 63);
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{ 
+border: 3px solid black;
+text-align:center;
+background-color: white;
+
+}
+
+
+
+
