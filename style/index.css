@@ -1,4 +1,5 @@
 body {
+    background-color: #1C2128;
     font-size: 62.5%;
     border: 1px solid grey;
     box-sizing: border-box;
@@ -7,18 +8,33 @@ body {
 }
 
 a {
-    background-color: slategray;
-    color: white;
+    background-color: none;
+    color: #676F76;
     text-decoration: none;
-    font-size: 1.5rem;
-    opacity: .5;
-    padding: 1%;
+    font-size: 1rem;
+    /* opacity: .5; */
+    /* padding: 1%; */
+}
+
+
+a:hover {
+    color: white;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid white;
+}
+
+.menu div {
+    margin-right: 5%;
 }
 
 header nav h1 {
@@ -27,6 +43,7 @@ header nav h1 {
     padding-top: 2%;
     padding-left: 2%;
     width: 50%;
+    color: #46515C;
 }
 
 .hero-container {
@@ -34,6 +51,18 @@ header nav h1 {
     text-align: center;
     color: white;
     margin: 3%;
+}
+
+.hero-container div a {
+    background-color: slategrey;
+    color: white;
+    opacity: .5;
+}
+
+.hero-container div a:hover {
+    background-color: slategrey;
+    color: white;
+    opacity: 1;
 }
 
 .hero-container div h1 {
@@ -53,16 +82,35 @@ header nav h1 {
     justify-content: center;
 }
 .portfolio-l1 div {
-    font-size: .5rem;
+    font-size: .75rem;
     text-align: center;
     margin: 2%;
+    color: #46515C;
+    
 }
 
+.portfolio-l1 div img:hover {
+    border: 2px solid white;
+}
 .portfolio-l2 div {
-    font-size: .5rem;
+    font-size: .75rem;
     text-align: center;
     margin:2%;
+    color: #46515C;
 }
+
+.portfolio-l2 div img:hover {
+    border: 2px solid white;
+}
+
+.portfolio-l1 div p {
+    margin-top: 3%;
+}
+
+.portfolio-l2 div p {
+    margin-top: 3%;
+}
+
 .portfolio-l2 {
     display: flex;
     justify-content: center;
