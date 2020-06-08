@@ -1,147 +1,116 @@
-*{
-    padding:0;
-    margin:0;
-    maz-width:100%;
+* {
+    padding: 0;
+    margin: 0;
+    maz-width: 100%;
     box sizing: border-box;
     /*border: 1px solid gray;*/
-  
-  }
-  html{
-    font-size:62.5%;
-    background-color:black;
-  }
-
- 
-
-  header{
-      padding:2%;
-      font-size: 5rem;
-      color:white;
-      display:flex;
-      justify-content:center;
-
-  }
-
-  .section-1{
-      display:flex;
-      justify-content: space-between;
-
-  }
-
-  .section-1 a{
-      background-color: blue;
-      color: cornsilk;
-      width:15%;
-      display:flex;
-      flex-direction: row;
-      justify-content: space-around;
-  }
-
-  .section-1 h1{
-      font-size:3rem;
-      color:white;
-      padding:1%
-  }
-
-  .section-1 nav{
-      display:flex;
-      justify-content:flex-end;
-      padding:1%;
-
-  }
-
-  nav{
-    display:flex;
-    justify-content: space-evenly;
-    width:50%;
-    font-size:3rem;
-    padding:1%; 
-
-  }
-
-  nav a{
-      padding:1%;
-
-      
-
-
-  }
-
-  .name{
-      display:flex;
-      justify-content: center;
-  }
-
-
-  .section-2{
-      background-image: url(assets/me.jpg);
-      background-size: 80vw 130vh;
-      width:80%;
-      color: snow;
-      font-size: 4rem;
-      padding:15%;
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-  }
-  .section-2 a{
-      padding: 1%;
-      color: white;
-      background-color: steelblue;
-      border-radius: 8px;
-
-  }
-
-
- 
-
-  .section-3 .one{
-      padding:2%;
-
-  }
-
-  .section-3 .two{
-    padding:2%;
-    
 }
 
-  .section-3{
-      width:95%;
-      display:flex;
-      flex-direction: column;
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
 
 
-  }
-  .section-3 div{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+}
+header {
+    padding: 2%;
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 a {
+    background-color: blue;
+    color: cornsilk;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-1 h1 {
+    font-size: 3rem;
+    color: white;
+    padding: 1%
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 3rem;
+    padding: 1%;
+}
+nav a {
+    padding: 1%;
+}
+.name {
+    display: flex;
+    justify-content: center;
+}
+.section-2 {
+    background-image: url(assets/me.jpg);
+    background-size: 80vw 130vh;
+    width: 80%;
+    color: snow;
+    font-size: 4rem;
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 a {
+    padding: 1%;
+    color: white;
+    background-color: steelblue;
+    border-radius: 8px;
+}
+.section-3 .one {
+    padding: 2%;
+}
+.section-3 .two {
+    padding: 2%;
+}
+.section-3 {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.section-3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.section-3 img {
+    width: 25vw;
+    height: 25vh;
+}
+footer {
+    height: 150px;
+    background-color: steelblue;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: white;
+}
 
-  }
-
-
-  .section-3 img{
-      width: 25vw;
-      height: 25vh;
-
-
-  }
-
-  footer{
-      height:150px;
-      background-color: steelblue;
-      font-size: 4rem;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-
-  }
-
-  footer a{
-      color:white;
-
-  }
-
-
+/*responsive syling*/
+@media(max-width:800px) {
+    .section-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .section-1 h1 {}
+    
+    .section-1 nav {}
+}
