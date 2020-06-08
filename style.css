@@ -55,7 +55,7 @@ header{
 	height: 10vh;
 	background-color: #F0A6CA;
 	align-items: center;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 
@@ -153,10 +153,12 @@ nav a{
 
 .contact{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-content: center;
 }
 .photo img{
 	width: 100%;
+	height: 90vh;
 }
 .photo{
 	width: 30%;
@@ -165,7 +167,6 @@ nav a{
 }
 .info{
 	width: 45%;
-	padding: 5%;
 	margin: 3%;
 	text-align: center;
 }
