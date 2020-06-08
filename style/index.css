@@ -1,7 +1,6 @@
 body {
     background-color: #1C2128;
     font-size: 62.5%;
-    border: 1px solid grey;
     box-sizing: border-box;
     font-size: 2rem;
     font-family: 'Lexend Zetta', sans-serif;
@@ -12,10 +11,8 @@ a {
     color: #676F76;
     text-decoration: none;
     font-size: 1rem;
-    /* opacity: .5; */
-    /* padding: 1%; */
+    padding:0 2%;
 }
-
 
 a:hover {
     color: white;
@@ -23,14 +20,17 @@ a:hover {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
+nav div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .menu {
     display: flex;
     justify-content: flex-end;
-    border: 2px solid white;
 }
 
 .menu div {
@@ -38,7 +38,7 @@ nav {
 }
 
 header nav h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     /* border: 2px solid purple; */
     padding-top: 2%;
     padding-left: 2%;
@@ -68,6 +68,7 @@ header nav h1 {
 .hero-container div h1 {
     font-size: 4.5rem;
 }
+
 .hero-container div {
     position: absolute;
     top: 50%;
@@ -75,7 +76,6 @@ header nav h1 {
     transform: translate(-50%, -50%);
     width: 100%;
 }
-
 
 .portfolio-l1 {
     display: flex;
@@ -86,7 +86,6 @@ header nav h1 {
     text-align: center;
     margin: 2%;
     color: #46515C;
-    
 }
 
 .portfolio-l1 div img:hover {
