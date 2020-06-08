@@ -23,6 +23,8 @@ header {
 .section-1 {
     display: flex;
     justify-content: space-between;
+    font-size:4rem;
+
 }
 .section-1 a {
     background-color: blue;
@@ -89,8 +91,8 @@ nav a {
 }
 .section-3 img {
     margin:4%;
- max-height:100%;
- max-width:100%;
+    width: 100%;
+    height:auto;
 }
 footer {
     height: 150px;
@@ -152,13 +154,22 @@ footer a {
     }
 
     }
+    .section-2{
+        background-size: 100vw 45vh;
+        font-size: 1.5rem;
+    }
   
       
       
     }
-    .section-3 img{
-        height:10vh
+    .section-3{
+        width:100;
+        height:auto;
     }
+    .section-3 img{
+        width:25vw;
+        height:10vh;
+        
     
  
 }
