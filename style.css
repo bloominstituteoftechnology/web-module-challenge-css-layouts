@@ -55,7 +55,9 @@ header{
 	height: 10vh;
 	background-color: #F0A6CA;
 	align-items: center;
+	margin-bottom: 10%;
 }
+
 
 h1{
 	font-size: 2.5rem;
@@ -162,9 +164,10 @@ nav a{
 	margin: 3%;
 }
 .info{
-	width: 30%;
+	width: 45%;
 	padding: 5%;
 	margin: 3%;
+	text-align: center;
 }
 
 .info img{
@@ -243,5 +246,81 @@ footer img{
 	.item img{
 		width: 90%;
 		height: 90%;
+	}
+
+	.aboutimg img{
+		width: 100%;
+		height: 90vh;
+		margin: 5%;
+		padding: 2%;
+	}
+	.info iframe{
+		width: 100%;
+		height: 25vh;
+		margin: 5%;
+	}
+}
+
+@media(max-width: 800px){
+	header{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		height: 35vh;
+	}
+	.header{
+	position: relative;
+	top: 0;
+	height: 11vh;
+	margin-top: 10%;
+	}
+	header nav{
+		display: flex;
+		flex-direction: column;
+		align-content: space-around;
+		margin: 5%;
+	}
+	.bigun{
+		margin: 10%;
+	}
+
+	.bigun img{
+		width: 100%;
+		height: 40vh;
+	}
+
+	.midtext {
+		position: absolute;
+		top: 40%;
+		left: 42%;
+	}
+	.container{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.container .item{
+		width: 60%;
+		height: 60%;
+	}
+
+	.item img{
+		width: 90%;
+		height: 90%;
+	}
+
+	.aboutimg img{
+		width: 100%;
+		height: 80vh;
+		margin: 5%;
+		padding: 2%;
+	}
+	.info iframe{
+		width: 100%;
+		height: 25vh;
+		margin: 15%;
+	}
+	footer{
+		height: 20vh;
 	}
 }
