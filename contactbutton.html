@@ -25,41 +25,38 @@
   </header>
 
     
-    <div id="after_submit"></div>
+  <div class ="form">
 
-    <form id="contact_form" action="mail.php" method="POST" enctype="multipart/form-data">
-      <div class="row">
-        <label class="required" for="name">Your name:</label><br>
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br>
-      </div>
-      <div class="row">
-        <label class="required" for="email">Your email:</label><br>
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br>
-      </div>
-      <div class="row">
-        <label class="required" for="message">Your message:</label><br>
-        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br>
-      </div>
-        
-        <input id="submit_button" type="submit" value="Send email">
-    </form>
+    <form action="mail.php" method="post">
+        <div class = "line">
+        First Name: <input type="text" name="first_name"><br>
+    </div>
+        <div class ="line">
+        Last Name: <input type="text" name="last_name"><br>
+        </div>
+        <div class="line">
+        Email: <input type="text" name="email"><br>
+        </div>
+        <div class = "line">
+        Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+        </div>
+        <input class ="button" type="submit" name="submit" value="Submit">
+        </form>
+        </div>
 
-    <?php 
-  {
-  $name=$_REQUEST['name'];
-  $email=$_REQUEST['email'];
-  $message=$_REQUEST['message'];
-  if (($name=="")||($email=="")||($message==""))
-      {
-      echo "All fields are required, please fill the form again.";
-      }
-  else{        
-      $from="From: $name $email \r\nReturn-path: $email";
-      $subject="Message sent using your contact form";
-      mail("avelinewingfield@gmail.com", $subject, $message, $from);
-      echo "Email sent!";
-      }
-  }  
+<?php 
+if(isset($_POST['submit'])){
+    $to = "avelinewingfield@gmail.com";
+    $from = $_POST['email'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Thank you for your interest" . $first_name . ", we will contact you shortly.";
+    }
 ?>
 <footer id = "footer">
   <a href = "contact.html"><img src="https://img.icons8.com/clouds/100/000000/email.png" alt = "Contact"/></a>

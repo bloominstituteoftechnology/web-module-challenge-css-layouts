@@ -121,9 +121,7 @@ h2{
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-.about h1{
-	width: 100%;
-}
+
 .abouttxt{
 	width: 40%;
 	height: 90vh;
@@ -178,6 +176,7 @@ nav a{
 	width: 50%;
 	height: 25vh;
 }
+
 footer{
     display: flex;
 	justify-content: center;
@@ -261,14 +260,6 @@ footer img{
 		height: 25vh;
 		margin: 5%;
 	}
-	footer{
-	display: flex;
-	justify-content: center;
-	background-color: #F0A6CA;
-	position: absolute;
-	top: 99%;
-	width: 100%;  
-	}
 }
 
 @media(max-width: 800px){
@@ -276,7 +267,7 @@ footer img{
 		display: flex;
 		flex-direction: column;
 		align-content: space-between;
-		height: 35vh;
+		height: 30vh;
 	}
 	.header{
 	position: relative;
@@ -327,6 +318,51 @@ footer img{
 	}
 	.info iframe{
 		width: 100%;
+		height: 25vh;
+		margin: 15%;
+	}
+	footer{
+		height: 20vh;
+		position: absolute;
+		top: 99%;
+	}
+}
+
+@media(min-width:360px) and (min-height: 640px){
+
+	.header{
+	height: 10vh;
+	}
+
+	.bigun{
+		margin: 10%;
+	}
+
+	.bigun img{
+		width: 100%;
+		height: 30vh;
+	}
+
+	.midtext {
+		position: absolute;
+		top: 40%;
+		left: 42%;
+	}
+	.aboutimg img {
+		width: 100%;
+		height: 100%;
+		margin: 5%;
+		padding: 2%;
+	}
+
+	.info{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
+	.info iframe{
+		width: 75%;
 		height: 25vh;
 		margin: 15%;
 	}
