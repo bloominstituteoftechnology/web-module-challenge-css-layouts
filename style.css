@@ -72,6 +72,11 @@ h2{
 	position: relative;
 	text-align: center;
 }
+
+.bigun img{
+	width: 90%;
+	height: 80vh;
+}
 .midtext {
 	position: absolute;
 	top: 50%;
@@ -81,11 +86,11 @@ h2{
 .container{
     display: grid;
     grid-template-columns: auto auto auto;
-	padding: 10px;
+	padding: 5%;
 	justify-content: space-around;
-	align-content: space-between;
+	align-content: space-evenly;
 	text-align: center;
-	margin: 10px;
+	margin-bottom: 4%;
 }
 .item {
 	transition: 0.3s;
@@ -98,6 +103,10 @@ h2{
   
   .item:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .item img{
+	  height: 33vh;
   }
   
   img {
@@ -115,9 +124,21 @@ h2{
 }
 .abouttxt{
 	width: 40%;
+	height: 90vh;
+	margin: 5%;
+	padding: 2%;
+
 }
 .aboutimg{
-	width: 40%;
+	width: 45%;
+	justify-content: space-around;
+}
+
+.aboutimg img{
+	width: 100%;
+	height: 100vh;
+	margin: 5%;
+	padding: 2%;
 }
 a{
 	color: #B8BEDD;
@@ -146,7 +167,11 @@ footer{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 12vh;   
+	height: 11vh;   
+}
+
+footer img{
+	width: 75%;
 }
 #page-container {
 	position: relative;
