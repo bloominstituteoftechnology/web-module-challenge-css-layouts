@@ -372,3 +372,52 @@ footer img{
 		top: 99%;
 	}
 }
+
+@media(min-width:1366px) and (min-height:768px){
+	header{
+		display: flex;
+		align-content: space-between;
+	}
+	.header{
+	position: relative;
+	top: 0;
+	height: 11vh;
+	margin-top: 5%;
+	}
+	header nav{
+		display: flex;
+		align-content: space-around;
+		margin: 5%;
+	}
+	.bigun{
+		margin: 5%;
+	}
+
+	.bigun img{
+		width: 100%;
+		height: 80vh;
+	}
+
+	.midtext {
+		position: absolute;
+		top: 40%;
+		left: 47%;
+	}
+
+	.aboutimg img{
+		width: 100%;
+		height: 80vh;
+		margin: 5%;
+		padding: 2%;
+	}
+	.info iframe{
+		width: 70%;
+		height: 25vh;
+		margin: 15%;
+	}
+	footer{
+		height: 20vh;
+		position: absolute;
+		top: 99%;
+	}
+}
