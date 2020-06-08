@@ -41,11 +41,14 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    font-size: 3rem;
     padding: 1%;
 }
 nav a {
     padding: 1%;
+    margin:.5%;
+    border-radius: 10%;
+    font-size:1.5rem
+    
 }
 .name {
     display: flex;
@@ -54,7 +57,6 @@ nav a {
 .section-2 {
     background-image: url(assets/me.jpg);
     background-size: 80vw 130vh;
-    width: 80%;
     color: snow;
     font-size: 4rem;
     padding: 15%;
@@ -68,17 +70,17 @@ nav a {
     color: white;
     background-color: steelblue;
     border-radius: 8px;
+    margin:2%;
 }
-.section-3 .one {
-    padding: 2%;
-}
-.section-3 .two {
-    padding: 2%;
-}
+
 .section-3 {
     width: 95%;
     display: flex;
-    flex-direction: column;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content:center;
+
+  
 }
 .section-3 div {
     display: flex;
@@ -86,8 +88,9 @@ nav a {
     justify-content: space-evenly;
 }
 .section-3 img {
-    width: 25vw;
-    height: 15vh;
+    margin:4%;
+ max-height:100%;
+ max-width:100%;
 }
 footer {
     height: 150px;
@@ -102,7 +105,10 @@ footer a {
 }
 
 /*responsive syling*/
+
+
 @media(max-width:800px) {
+
     .section-1 {
         display: flex;
         flex-wrap: wrap;
@@ -110,11 +116,8 @@ footer a {
         align-content: center;
     }
     
-    .section-1 h1 {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-content: center;
+
+      
     }
     
     .section-1 nav {
@@ -125,12 +128,12 @@ footer a {
     .section-2 {
         display: flex;
         flex-wrap: wrap;
-        max-width: 100%;
         justify-content: center;
         align-content: center;
-        font-size: 3rem;
+        font-size: 2rem;
         background-size: 100vw 65vh;
     }
+    
     .section-3 img{
         width:25vw;
         height:15vh;
@@ -147,5 +150,15 @@ footer a {
         align-items:center;
         margin:2%;
     }
+
+    }
+  
+      
+      
+    }
+    .section-3 img{
+        height:10vh
+    }
     
+ 
 }
