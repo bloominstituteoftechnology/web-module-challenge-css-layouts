@@ -196,3 +196,52 @@ footer img{
   #content-wrap {
 	padding-bottom: 2.5rem;
 }
+
+@media(max-width: 500px){
+	header{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		height: 25vh;
+	}
+	.header{
+	position: relative;
+	top: 0;
+	height: 11vh;
+	margin-top: 10%;
+	}
+	header nav{
+		display: flex;
+		flex-direction: column;
+		align-content: space-around;
+		margin: 5%;
+	}
+	.bigun{
+		margin: 10%;
+	}
+
+	.bigun img{
+		width: 100%;
+		height: 20vh;
+	}
+
+	.midtext {
+		position: absolute;
+		top: 40%;
+		left: 40%;
+	}
+	.container{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.container .item{
+		width: 60%;
+		height: 60%;
+	}
+
+	.item img{
+		width: 90%;
+		height: 90%;
+	}
+}
