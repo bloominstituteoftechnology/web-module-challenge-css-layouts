@@ -2,7 +2,7 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 html {
@@ -134,8 +134,9 @@ nav a:hover {
 }
 
 .box img {
-  width: 100%;
+  width: 90%;
   height: 40vh;
+  border-radius: 50%;
 }
 
 .project {
@@ -145,10 +146,13 @@ nav a:hover {
 
 .top-row a {
   font-family: "Shadows Into Light", cursive;
+  color: #252422;
   font-size: 2.0rem;
+  padding: 5%;
 }
 
 .top-row a:hover {
+  font-size: 2.5rem;
   font-weight: bold;
 }
 /*gallery styling ends*/
@@ -179,15 +183,67 @@ nav a:hover {
 
 /*Breakpoint coding begins here*/ 
 
-@media(max-width:800px){
+@media(max-width:800px) {
+  .top-container {
 
+  }
+
+  .name {
+    width: 30%;
+    font-size: 1.0rem;
+  }
+
+  nav {
+    width: 60%;
+    justify-content: space-evenly;
+  }
+  /*image banner styling*/
+
+  
+  .image-banner {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .image-box {
+    width: 90%;
+    height: 70vh;
+  }
+
+  /*gallery*/
+
+  .gallery {
+    width: 100%;
+    height: 120vh;
+    margin: 0 auto;
+    background-color: #E8CA46;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-row {
+    width: 90%;
+    margin: 5% 0%;
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 40%;
+    height: 30vh;
+    margin-bottom: 10%;
+    padding: 0%;
+  }
+  
 }
+
 
 @media(max-width:500px) {
   .top-container {
     background-color:#56B2B1;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
   }
@@ -198,7 +254,7 @@ nav a:hover {
     align-items: center;
     color: #403D39;
     font-family: "Lexend Tera", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.0em;
   }
 
   nav {
@@ -207,13 +263,16 @@ nav a:hover {
     flex-direction: column;
     align-self: center;
     width: 30%;
+    border: 1px solid black;
   }
 
   nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
     font-size: 1.0rem;
+    padding: 3%;
   }
   /*ends nav style*/
   /*begins image banner styling*/
@@ -232,7 +291,7 @@ nav a:hover {
   
   .gallery {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     margin: 0 auto;
     background-color: #E8CA46;
     display: flex;
@@ -241,21 +300,31 @@ nav a:hover {
   }
 
   .top-row {
-    width: 900%;
+    width: 90%;
     margin: 5% 0%;
     justify-content: space-around;
   }
 
+
   .box {
     width: 45%;
     height: 30vh;
+    margin-bottom: 10%;
     padding: 0%;
   }
 
   .box img {
     width: 100%;
     height: 25vh;
+    border-radius: 50%;
+  }
+
+  /* begins footer styling*/
+
+  .footer a {
+    font-size: 2.0rem;
+    font-family: "Lexend Tera", sans-serif;
+    color: #403D39;
   }
 }
   
-/*begins gallery styling*/
