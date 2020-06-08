@@ -58,7 +58,7 @@ nav a {
 }
 .section-2 {
     background-image: url(assets/me.jpg);
-    background-size: 80vw 130vh;
+    background-size: cover;
     color: snow;
     font-size: 4rem;
     padding: 15%;
@@ -116,6 +116,7 @@ footer a {
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
+        font-size:3rem;
     }
     
 
@@ -133,7 +134,7 @@ footer a {
         justify-content: center;
         align-content: center;
         font-size: 2rem;
-        background-size: 100vw 65vh;
+      
     }
     
     .section-3 img{
@@ -155,7 +156,7 @@ footer a {
 
     }
     .section-2{
-        background-size: 100vw 45vh;
+       
         font-size: 1.5rem;
     }
   
