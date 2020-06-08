@@ -1,7 +1,8 @@
 * {
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 html {
@@ -16,7 +17,7 @@ body {
 }
 
 .top-container {
-  background-color: #EB5E28;
+  background-color:#56B2B1;
   width: 100%;
   height: 5vh;
   margin: 0 auto;
@@ -25,6 +26,7 @@ body {
 }
 
 .name {
+  width: 70%;
   display: flex;
   flex-direction: flex-start;
   align-items: center;
@@ -67,7 +69,7 @@ nav a:hover {
 }
 
 .image-box {
-  width: 60%;
+  width: 80%;
   height: 80vh;
   margin: 0 auto;
   display: flex;
@@ -104,106 +106,50 @@ nav a:hover {
 /*begins gallery styling*/ 
 
 .gallery {
-  width: 70%;
+  width: 90%;
+  height: 100vh;
   margin: 0 auto;
   background-color: #E8CA46;
-}
-
-.gallery-top, .gallery-bottom {
-  width: 100%;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-}
-
-.top-row, .bottom-row {
-  height: 30vh;
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .top-row {
-  margin-top: 1%;
-}
-
-.project1, .project2, .project3, .project4, .project5, .project6 {
-  width: 25%;
-  border-radius: 3%;
-  padding-bottom: 2%;
-}
-
-.project1 {
-  background-image: url('https://images.unsplash.com/photo-1426869884541-df7117556757?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
-  background-size: cover;
-}
-
-.project2 {
-  background-image: url('https://images.unsplash.com/photo-1543058871-74a1d669ba70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project3 {
-  background-image: url('https://images.unsplash.com/photo-1543334270-24bb46642afe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project4 {
-  background-image: url('https://images.unsplash.com/photo-1526920929362-5b26677c148c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project5 {
-  background-image: url('https://images.unsplash.com/photo-1505941625782-5f8710bdd9f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project6 {
-  background-image: url('https://images.unsplash.com/photo-1537215781824-73d7761029e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1215&q=80');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.links-bar {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 1%;
-  margin-bottom: 2%;
-  display: flex;
-}
-
-.links {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.links a {
+.box{
+  width: 30%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-row a {
   font-family: "Shadows Into Light", cursive;
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: #252422;
+  font-size: 2.0rem;
 }
 
-.links a:hover {
-  text-decoration: underline;
+.top-row a:hover {
+  font-weight: bold;
 }
 /*gallery styling ends*/
 
 /*footer styling begins*/
 
 .footer {
-  background-color: #EB5E28;
+  background-color: #56B2B1;
   width: 100%;
   height: 15vh;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -218,6 +164,74 @@ nav a:hover {
   color: #E3BD04;
 }
 
-.top-container, .footer {
-  background-color: #56B2B1;
-}
+
+
+/*Breakpoint coding begins here*/ 
+
+@media(max-width:500px) {
+  .top-container {
+    background-color:#56B2B1;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #403D39;
+    font-family: "Lexend Tera", sans-serif;
+    font-size: 1.5em;
+  }
+
+  nav {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+  }
+  /*ends nav style*/
+  /*begins image banner styling*/
+
+  .image-banner {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .image-box {
+    width: 90%;
+    height: 60vh;
+  }
+
+  /*begins gallery styling*/
+  
+  .gallery {
+    width: 100%;
+    height: 150vh;
+    margin: 0 auto;
+    background-color: #E8CA46;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .top-row {
+    width: 900%;
+    margin: 2% auto;
+  }
+
+  .box {
+    width: 45%;
+  }
+  
+/*begins gallery styling*/
