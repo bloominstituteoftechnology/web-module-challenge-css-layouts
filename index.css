@@ -137,9 +137,7 @@ footer a {
       
     }
     
-    .section-3 img{
-        width:25vw;
-        height:15vh;
+   
     }
     footer{
         height:75px;
@@ -164,12 +162,14 @@ footer a {
       
     }
     .section-3{
-        width:100;
+        max-width: 100%;
         height:auto;
     }
     .section-3 img{
-        width:25vw;
-        height:10vh;
+        width:40%;
+        height:auto;
+    }
+
         
     
  
