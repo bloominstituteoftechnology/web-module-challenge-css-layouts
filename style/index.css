@@ -13,12 +13,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
-margin: 1px;  
+margin: none;  
 padding: 0;  
 border: 0;  
-font-size: 100%;  
+font-size:62.5%; 
 font: inherit;  
 vertical-align: baseline;  
+
 
 
 
@@ -79,7 +80,7 @@ width: 10%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin: 4% 0 0 0
+    margin: 8% 0 0 0
   
 }
 
@@ -127,6 +128,58 @@ background-color: white;
 
 }
 
+@media(max-width: 800px){
 
+    .name{
+        text-align: center;
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+        margin-top: 3%;
+        font-size:7vh;
+    }
+    
+    
+    .links {
+    width: 180%;
+flex-direction: column;
+display: center;
+  margin-left: 40%; 
+  margin-top: 5%;
+    }
+    .big-image{
+width: 100%;
+margin-left: 2%;
 
+    }
 
+    h1{
+font-size: 7vh;
+
+    }
+
+    .bottom{
+
+        width: 102%;
+
+    }
+    p{
+margin-bottom: 20%;
+    }
+
+    @media(max-width: 500px){ 
+
+        h1{
+        font-size: 4.5vh;
+        }
+
+     
+.size{
+
+    width: 200px;
+    height: 200px;
+}
+
+        }
+    
+    }
