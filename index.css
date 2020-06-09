@@ -21,15 +21,24 @@ header {
     justify-content: center;
 }
 .section-1 {
-    display: flex;
-    justify-content: space-between;
-    font-size:4rem;
+    display:flex;
+    justify-content:space-between;
+    
+    
 
+}
+#h1{
+    display:flex;
+    justify-content: center;
+    align-content:flex-start;
+    width:60%;
+    color:white;
+    font-size:3rem;
 }
 .section-1 a {
     background-color: blue;
     color: cornsilk;
-    width: 15%;
+    width: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -41,8 +50,9 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content: flex-end;
+    align-items:center;   
+    width: 20%;
     padding: 1%;
 }
 nav a {
@@ -116,7 +126,7 @@ footer a {
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        font-size:3rem;
+        font-size:5rem;
     }
     
 
@@ -124,8 +134,10 @@ footer a {
     }
     
     .section-1 nav {
+       
         width: 100%;
         font-size: 2rem;
+        justify-content: center;
     }
     
     .section-2 {
@@ -144,10 +156,16 @@ footer a {
         font-size: 3rem;
     }
 }
-@media(max-width:500px){
-    .section-1 nav{
+@media(max-width:500px) {
+    .section-1{
         display:flex;
         flex-direction:column;
+
+    }
+    nav{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
         align-items:center;
         margin:2%;
     }
