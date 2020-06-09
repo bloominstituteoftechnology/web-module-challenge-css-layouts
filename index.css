@@ -105,7 +105,8 @@ nav a {
     height:auto;
 }
 footer {
-    height: 150px;
+    margin:2%;
+    padding:2%;
     background-color: steelblue;
     font-size: 4rem;
     display: flex;
@@ -151,10 +152,7 @@ footer a {
     
    
     }
-    footer{
-        height:75px;
-        font-size: 3rem;
-    }
+ 
 }
 @media(max-width:500px) {
     .section-1{
