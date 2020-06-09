@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #9C89B8;
+	background-color: #7209b7;
 	color: #F0E6EF;
 	
 }
@@ -53,7 +53,7 @@ header{
     display: flex;
 	justify-content: space-around;
 	height: 10vh;
-	background-color: #F0A6CA;
+	background-color: #f72585;
 	align-items: center;
 	margin-bottom: 5%;
 }
@@ -77,7 +77,7 @@ h2{
 
 .bigun img{
 	width: 90%;
-	height: 80vh;
+	height: 90vh;
 }
 .midtext {
 	position: absolute;
@@ -100,7 +100,7 @@ h2{
 	padding: 20px;
 	text-align: center;
 	margin: 10px;
-	background-color: #B8BEDD;
+	background-color: #4361ee;
   }
   
   .item:hover {
@@ -144,10 +144,13 @@ a{
 	color: #B8BEDD;
 }
 
-nav a{
-	background-color:#EFC3E6;
-	border: 1px solid black;
+nav {
+	background-color:#3a0ca3;
+	padding: 2%;
+	display: flex;
+	justify-content: space-around;	
 }
+
 
 .contact{
 	display: flex;
@@ -180,7 +183,7 @@ nav a{
 footer{
     display: flex;
 	justify-content: center;
-	background-color: #F0A6CA;
+	background-color: #f72585;
 	align-items: center;
 	position: absolute;
 	bottom: 0;
@@ -328,7 +331,7 @@ footer img{
 	}
 }
 
-@media(min-width:360px) and (min-height: 640px){
+@media(max-width:360px) and (max-height: 640px){
 
 	.header{
 	height: 10vh;
@@ -373,7 +376,7 @@ footer img{
 	}
 }
 
-@media(min-width:1366px) and (min-height:768px){
+@media(max-width:1366px) and (max-height:768px){
 	header{
 		display: flex;
 		align-content: space-between;
