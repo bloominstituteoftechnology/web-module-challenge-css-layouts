@@ -143,12 +143,12 @@ h2{
 a{
 	color: #B8BEDD;
 }
-
+a:hover{
+	color:#4cc9f0;
+}
 nav {
 	background-color:#3a0ca3;
-	padding: 2%;
-	display: flex;
-	justify-content: space-around;	
+	padding: 2%;	
 }
 
 
@@ -170,14 +170,17 @@ nav {
 	width: 45%;
 	margin: 3%;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .info img{
-	width: 15%;
+	width: 10%;
 }
 .info iframe{
 	width: 50%;
-	height: 25vh;
+	height: 40vh;
 }
 
 footer{
