@@ -1,3 +1,19 @@
-h1 {
-    color: blue;
+html {
+    color: hotpink;
+    background-color: black;
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 2;
+    font-size: 2.5rem;
+    font-family: Georgia; 
+}
+
+.ashley {
+    text-align: center;
+}
+
+.main-title {
+    text-align: center;
 }
