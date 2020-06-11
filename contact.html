@@ -6,6 +6,40 @@
     <title>Document</title>
 </head>
 <body>
+
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">My Projects</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    
     <h1> CONTACT </h1>
+
+    <div class="container">
+         
+            <label for='firstName'>First Name</label>
+            <input type="text" id="firstName" name="frstname" placeholder="Your first name...">
+
+            <label for='lastName'>Last Name</label>
+            <input type="text" id="lastName" name="lastname" placeholder="Your last name...">\
+
+            <label for='email'>Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Your email address...">
+
+            <label for='option'>How can I help you?</label>
+            <select id="option" name="options">
+                <option value="question">I have a general question...</option>
+                <option value="call">I would like to call and talk about...</option>
+                <option value="create">I am looking to have a web page created...</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="What are you interested in/looking for?..."></textarea>
+            
+            <button onclick="window.location.href='index.html';">
+                Send
+            </button>
+
+    </div>
 </body>
 </html>
