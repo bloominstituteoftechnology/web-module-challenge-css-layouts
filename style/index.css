@@ -1,1 +1,10 @@
 /* Add CSS styling here */
+.about{
+    font-family: 'Montserrat', sans-serif;
+}
+#name{
+    font-family: 'Lexend Tera', sans-serif;
+}
+.container{
+    font-family: 'Raleway', sans-serif;
+}
