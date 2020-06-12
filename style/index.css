@@ -1,10 +1,171 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html{
+    font-size: 62.5%;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.img-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+img{
+    padding:  1rem;
+    margin: 1rem;
+    border: 1px solid lightgrey;
+}
+header{
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+}
+header h1{
+    padding: 1rem;
+    margin-bottom: 1rem;;
+    font-size: 260%;
+}
+header nav a{
+    font-size: 180%;
+    text-decoration: none;
+    color: rgb(72, 86, 100);
+    text-align: center;
+    background: #FFD5C2;
+    border: 1px solid rgb(72, 86, 100);
+    
+}
+a{
+    padding: 0.5rem;
+}
+    a:hover{
+        transform: scale(2);
+    }
+
+nav{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.first-section{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.first-section h2{
+    font-size: 210%;
+    padding: 1rem;
+}
+.first-section p{
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+}
+/*#align{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;*/
+}
+.align-text{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#button{
+    text-decoration: none;
+    color: rgb(72, 86, 100);
+    font-size: 80%;
+    padding: 0.5rem;
+    border: border: 1px solid rgb(72, 86, 100);
+   /* text-align: center;*/
+    
+}
+#button:hover{
+    color: #588B8B;
+}
+#me-img{
+    width: 200px;
+    height: 200px;
+   
+    
+}
+
+ .contact h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: #588B8B;
+    font-size: 260%;
+    padding: 2rem;
+    margin: 2rem;
+}
 .about{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.about h1{
+    background: #588B8B;
+    padding: 2rem;
+    margin:2rem;
+    font-size: 260%;
+}
+.about p{
+    padding: 2rem;
+    font-size: 200%;   
+}
+.project{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.project h1{
+    background: #588B8B;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 260%;
+}
+.project p{
+    padding: 2rem;
+    font-size: 200%;
 }
 #name{
     font-family: 'Lexend Tera', sans-serif;
 }
-.container{
+.small-intro{
     font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background: #588B8B;
+}
+.container{
+    background: white;
+}
+footer{
+    background: #FFD5C2;
 }
