@@ -154,8 +154,6 @@ footer{
     background: #FFD5C2;
     font-size: 200%;
     text-align: center;
-    padding: 1rem;
-    margin: 0.5rem;
     width: 100%;
 }
 .info h3{
@@ -170,8 +168,10 @@ footer{
     color: rgb(72, 86, 100);
 }
 .contact-form{
+    font-family: 'Raleway', sans-serif;
     padding: 2rem;
     margin: 2rem;
+    margin-bottom: 390px;
     width: 300px;
     display: flex;
     flex-direction:column;
@@ -187,4 +187,8 @@ footer{
 }
 #send{
     width:100px;
+    background: #FFD5C2
+}
+#contact{
+    width: 100%;
 }
