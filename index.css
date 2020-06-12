@@ -109,7 +109,7 @@ button.navin{
 .middle img{
 	display: flex;
 	justify-content: space-evenly;
-	width: 100%;
+	width: 102%;
 	height: 50rem;
 	
 }
@@ -118,9 +118,22 @@ button.navin{
 
 .bottom {
 	display: flex; 
-	width: 10%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
 	margin: 2rem;
+	
+}
 
+img {
+	width: 10%;
 
+}
 
+.bottom p {
+	display: flex;
+	font-size: 5rem;
+	align-items: center;
+	
+	
 }
