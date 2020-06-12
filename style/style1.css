@@ -1,0 +1,272 @@
+
+
+
+
+marquee{
+    
+    font-size:4rem;
+    background-color: blue;
+}
+
+
+div.item-1 button{
+    height:50px;
+    width:100px;
+    background: linear-gradient(
+          to bottom, 
+          #d3d33e 0%, 
+          #af671f 50%, 
+          #b6701e 50%, 
+          #b6701e 100%
+        );
+    font-size: x-large;
+    
+  }
+  
+  html > body> div.container.container-1 > div.item-1 button:hover{
+    height:50px;
+    width:100px;
+    background: linear-gradient(
+          to bottom, 
+          #87f10cd2 5%, 
+        #05f805 50%, 
+        #0ddb0d 50%, 
+        #0aec83 100%
+        );
+      color:white;
+        
+    font-size: medium;
+  }
+  
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  a:visited{
+    color:black;
+  text-decoration: none;
+  }
+  body > #title{
+      display:block;
+    box-sizing: border-box;
+ 
+    width:100%;
+    height:4rem;
+
+   
+     
+  }
+  
+  #title h1{
+      
+      display:block;
+      box-sizing: border-box;
+      
+ /*     background: -webkit-linear-gradient(rgb(145, 26, 168), rgb(32, 20, 206));*/
+  -webkit-background-clip: text;
+  background-clip: border-box;
+  -webkit-text-fill-color:forestgreen;
+      text-align: center;
+       
+      }
+  
+  
+  .containerA{
+        background: linear-gradient(
+          to right, 
+          #f8f8f7 0%, 
+          #f8f7f6 50%, 
+          #b6701e 50%, 
+          #b6701e 100%
+        );
+        border: 1px solid black;
+        margin: 30px 0;
+        height: 200px;
+        
+        
+  
+  
+  
+      }
+    
+  
+      h2{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        margin: 40px;
+      }
+    div  img{
+      margin:30px 90px 30px 90;
+     
+  
+    }
+  
+    .container1 {
+      
+      margin: 30px 0;
+      height: 200px;
+      background: linear-gradient(
+        to bottom, 
+        #dfd0dad2 5%, 
+        #af9e9a 50%, 
+        #a79394 50%, 
+        #524748 100%
+      );
+      
+    
+    }
+  
+  
+  .container .foot{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .container1 .foot{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+    .foot{
+      background-color: bisque;
+      width: 80px;
+      height: 50px;
+    }
+    
+    
+    .container {
+        border: 1px solid black;
+        margin: 30px ;
+        margin-top: 0px;
+        height: 200px;
+        background: linear-gradient(
+          to bottom, 
+          #11e1f0d2 5%, 
+          #cf4523 50%, 
+          #dd1922 50%, 
+          #ad0d1a 100%
+        );
+        
+      
+      }
+      
+      .container div {
+        height: 55px;
+        width: 150px;
+      }
+      .container1 div {
+        height: 55px;
+        width: 150px;
+      }
+  
+      .container .item-2 {
+        border: 2px solid black;
+        height: 255px;
+        width: 150px;
+      }
+      .container1 .item-2 {
+        border: 2px solid black;
+        height: 255px;
+        width: 150px;
+      }
+      .container .item-3 {
+        border: 2px solid black;
+        height: 150px;
+        width: 180px;
+        
+      }
+      .container1 .item-3 {
+        border: 2px solid black;
+        height: 150px;
+        width: 180px;
+        
+      }
+      .item-1 {
+        font-size: 4rem;
+          text-align: center;
+          background: linear-gradient(
+            to bottom, 
+            #3abfe7 0%, 
+            #cf2365 50%, 
+            #c92096 50%, 
+            #b6701e 100%
+          );
+      }
+      
+      
+      .item-2 {
+        font-size: 2rem;
+          text-align: center;
+        background-color: slategray;
+      
+      }
+      
+      .item-3 {
+        font-size: 4rem;
+          text-align: center;
+        background-color: lavender;
+        position: absolute;
+      }
+      
+      .item-4 {
+        font-size: 4rem;
+          text-align: center;
+        background-color: darkgray;
+      }
+      
+      
+      .container-3 {
+        display:flex;
+      
+        flex-direction: column;
+        justify-content: space-evenly;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+        
+      }
+      
+      
+    
+      
+      .container-1 {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+      }
+      
+    
+      
+      .container-2 {
+        display:flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items:center;
+      }
+      
+      
+  
+      
+      .container-4 {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+  
+      
+      .container-5 {
+        display:flex;
+        flex-direction:row;
+        align-items:flex-end;
+      }
+  
+  
+      #cD{
+        color:blue;
+      }
