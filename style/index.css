@@ -1,1 +1,156 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* My Code */
+ 
+*  {
+	box-sizing: border-box;
+}
+
+html body {
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header h1 {
+    padding-left: 2%;
+    font-size: 3rem;
+}
+
+.header {
+    padding: 2% 0 2% 1.5%;
+    background: gray;
+}
+
+.header h1 {
+    padding-left: 2%;
+    font-size: 3rem;
+}
+
+.header nav {
+    padding: 2% 0 2% 3%;
+    display: flex;
+    justify-content: start;
+    font-size: 1rem;
+}
+
+.header nav a {
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container .aboutMe {
+    display: flex;
+    padding: 5% 0;
+}
+
+.container .aboutMe .aInfo h2 {
+    font-size: 1.8rem;
+    padding-top: 20%;
+}
+
+.container .aboutMe .aInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: 0 15% 0 10%;
+    font-size: 1rem;
+}
+
+.container .aboutMe .aInfo button {
+    width: 40%;
+    padding: 1.5%;
+}
+
+.container .projects h2 {
+    font-size: 1.5rem;
+    padding: 1% 0;
+}
+
+.container .projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2.5% 0;
+    background: grey;
+    margin-top: 2.5%;
+}
+
+footer p {
+    padding: 2% 0;
+}
+
+footer button {
+    width: 25%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
