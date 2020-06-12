@@ -49,7 +49,7 @@ table {
 }
 
 /* My Code */
- 
+
 *  {
 	box-sizing: border-box;
 }
@@ -62,100 +62,43 @@ html body {
     margin: 0 auto;
 }
 
-.header h1 {
-    padding-left: 2%;
-    font-size: 3rem;
-}
-
-.header {
-    padding: 2% 0 2% 1.5%;
-    background: gray;
-}
-
-.header h1 {
-    padding-left: 2%;
-    font-size: 3rem;
-}
-
-.header nav {
+nav {
     padding: 2% 0 2% 3%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     font-size: 1rem;
+    background: grey;
 }
 
-.header nav a {
-    border: 2px solid black;
+nav a {
+    border: 1px solid black;
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 2% 1.5%;
+    padding: 1% 2%;
 }
 
-.header nav a:hover {
-    background: white;
-    color: black;
+h1 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
 }
 
 .container {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.container .aboutMe {
     display: flex;
-    padding: 5% 0;
-}
-
-.container .aboutMe .aInfo h2 {
-    font-size: 1.8rem;
-    padding-top: 20%;
-}
-
-.container .aboutMe .aInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: flex-end;
-    padding: 0 15% 0 10%;
-    font-size: 1rem;
-}
-
-.container .aboutMe .aInfo button {
-    width: 40%;
-    padding: 1.5%;
-}
-
-.container .projects h2 {
-    font-size: 1.5rem;
-    padding: 1% 0;
-}
-
-.container .projects {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5% 0; 
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.container .project {
     font-size: 1.6rem;
     padding: 2.5% 0;
-    background: grey;
-    margin-top: 2.5%;
 }
 
-footer p {
-    padding: 2% 0;
-}
-
-footer button {
-    width: 25%;
-    padding: 2% 0;
+.container .project h2 {
     display: flex;
     justify-content: center;
-    align-self: center;
+    padding: 1.5% 0;
 }
