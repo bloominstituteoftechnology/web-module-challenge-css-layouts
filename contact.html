@@ -8,9 +8,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="contact">
-        <h1> CONTACT </h1>
+    <header>
+        <h1 id="name">Adela Zalewski</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+
+        </nav>
+    </header>
+    <div class="form">
+        <p>SEND E-MAIL</P>
+        <form class="contact-form" action="contactform.php" method="post">
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="text" name="mail" placeholder="your e-mail">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" rows="8" cols="80"></textarea>
+            <button id="send" type="submit" name="submit">SEND MAIL</button>
+        </form>
     </div>
-    
+    <footer>
+        <h2>Thank you!</h2>
+    </footer>
 </body>
 </html>

@@ -23,7 +23,6 @@ html{
     font-size: 62.5%;
     width: 800px;
     margin: 0 auto;
-    padding: 20px;
 }
 .img-section{
     display: flex;
@@ -77,43 +76,30 @@ nav{
 }
 .first-section h2{
     font-size: 210%;
-    padding: 1rem;
+    
 }
 .first-section p{
     width: 300px;
-    padding: 2rem;
     text-align: center;
 }
-/*#align{
+.align-text{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;*/
-}
-.align-text{
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    
 }
 #button{
     text-decoration: none;
     color: rgb(72, 86, 100);
     font-size: 80%;
-    padding: 0.5rem;
-    border: border: 1px solid rgb(72, 86, 100);
-   /* text-align: center;*/
-    
+    padding: 0.05rem;
 }
 #button:hover{
     color: #588B8B;
 }
 #me-img{
     width: 200px;
-    height: 200px;
-   
-    
+    height: 200px;  
 }
 
  .contact h1{
@@ -156,9 +142,6 @@ nav{
 #name{
     font-family: 'Lexend Tera', sans-serif;
 }
-.small-intro{
-    font-family: 'Raleway', sans-serif;
-}
 
 header{
     background: #588B8B;
@@ -167,5 +150,41 @@ header{
     background: white;
 }
 footer{
+    font-family: 'Raleway', sans-serif;
     background: #FFD5C2;
+    font-size: 200%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+}
+.info h3{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+#info{
+    text-decoration: none;
+    color:#588B8B;
+}
+#info:hover{
+    color: rgb(72, 86, 100);
+}
+.contact-form{
+    padding: 2rem;
+    margin: 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.form p{
+    padding: 2rem;
+    margin:2rem;
+    font-size: 200%;
+    font-family: 'Raleway', sans-serif;
+}
+#send{
+    width:100px;
 }
