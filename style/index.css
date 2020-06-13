@@ -42,3 +42,60 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/****END RESET****/
+@@import "<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">";
+
+html{
+  width: 62.5%;
+}
+
+body{
+  width:100%;
+
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  height: 8rem;
+  background-color: #E6C49C;
+}
+.container .header h1{
+  /*border: 5px solid red;*/
+  width: 70%;
+  height: 4rem;
+  font-size: 2rem;
+  font-family: 'Balsamiq Sans', cursive;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+
+}
+nav a{
+  margin: 1rem 0.5rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+
+
+}
+.menu nav a{
+  background-color: #5ED3EB;
+  border-radius: 1rem;
+  color:white;
+}
+
+.header{
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+/*  border: 5px solid red;*/
+  height: 5rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+
+
+
+
+}
