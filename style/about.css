@@ -47,3 +47,66 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* My Code */
+
+*  {
+	box-sizing: border-box;
+}
+
+html body {
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 2% 0 2% 3%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    background: grey;
+}
+
+nav a {
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+}
+
+.aboutMe {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2.5% 0;
+}
+
+.img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5% 0;
+}
+
+.otherInfo {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.otherInfo p {
+    width: 35%;
+    padding: 2.5% 5%;
+    text-align: center;
+}
