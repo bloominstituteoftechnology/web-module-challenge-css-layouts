@@ -145,20 +145,28 @@ button{
  display:flex;
  flex-wrap: wrap;
  justify-content: space-between;
- border: 5px solid red;
  flex-direction: row;
 
-
+}
+.image-section{
+  display:flex;
+  flex-direction:column;
+  margin:2rem;
+}
+li{
+  list-style: none;
+}
+.info{
+  text-align: center;
 }
 
-
-.img-list ul li img{
+/*.img-list ul li img{
   list-style: none;
   display: flex;
   flex-direction:column-reverse;
   flex-wrap: wrap;
   width: 90%;
-}
+}*/
 
 
 }
