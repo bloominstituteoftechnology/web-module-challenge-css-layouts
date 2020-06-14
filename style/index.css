@@ -116,6 +116,7 @@ display: flex;
   margin-left: 15rem;
   text-align: justify;
 
+
 }
 .favs h2{
   font-size: 2rem;
@@ -140,19 +141,27 @@ button{
 
 .middle-section{
   width: 80%;
-  margin: 1rem;
+  margin: 1rem auto;
  display:flex;
  flex-wrap: wrap;
  justify-content: space-between;
+ border: 5px solid red;
+ flex-direction: row;
 
 
 }
-.middle-section img{
-/*  position:fixed;*/
-  margin: 1rem 1rem;
+
+
+.img-list ul li img{
+  list-style: none;
+  display: flex;
+  flex-direction:column-reverse;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
 
+}
 footer{
   width: 80%;
   margin: 0 auto;
