@@ -167,10 +167,17 @@ li{
   flex-wrap: wrap;
   width: 90%;
 }*/
-
-
-}
-footer{
+.foot{
+  display: flex;
   width: 80%;
-  margin: 0 auto;
+  border: 5px solid red;
+  margin:1rem auto;
+  justify-content: center;
+}
+
+.foot .down-footer h1{
+  font-size: 1.2rem;
+}
+.btn button{
+  background-color:#5ED3EB;
 }
