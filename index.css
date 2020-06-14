@@ -1,0 +1,74 @@
+h1 { 
+    text-align: center;
+  font-size: 50px;
+  font-family: verdana, sans-serif;
+  color: purple;
+ background-color: yellow;
+  padding:10px;
+  
+}
+a {
+  text-decoration: none;
+  color: purple;
+  display: flex; 
+  border: 2px solid black;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: yellow;
+  padding: 15px; 
+  font-family: verdana, sans-serif
+}
+
+a:hover {
+  color: black;
+}
+
+.end {
+  color: green;
+  background-color: yellow;
+  justify-content: center;
+  font-size: 26px;
+}
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+ 
+nav {
+  display: flex;
+ justify-content: center;
+  align-content: center;
+  flex-grow: 1; 
+  
+}
+
+img {
+  width: 70%;
+  padding: 2%;
+  margin: 20%;
+  display: flex; 
+  flex-wrap: wrap; 
+  
+}
+.imageText {
+  display: flex;
+}
+
+.container .flexbox {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  font-size: 22px;
+  padding: 10px;
+  font-family: verdana, sans serif;
+}
+   
+  
