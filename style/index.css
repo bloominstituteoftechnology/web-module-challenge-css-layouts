@@ -1,1 +1,98 @@
-/* Add CSS styling here */
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.header__ul {
+   display: flex;
+}
+
+.header__li {
+    margin: 0 .5rem;
+}
+
+.banner {
+    background-image: 
+    url('https://www.webfx.com/blog/images/assets/images.sixrevisions.com/2010/12/17-01_should_use_cssresets_ld_img.png');
+    height: 15rem;
+    border: black 1px solid;
+}
+
+.projects1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects1__img {
+    width: 15rem;
+    margin: 2rem 0;
+}
+
+.projects1__div {
+    text-align: center;
+}
+
+.projects1__img:hover {
+    width: 20rem;
+}
+
+.footer {
+    background-color: cadetblue;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__div {
+    background-color: black;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.footer__h3 {
+    color: white;
+}
+
+.banner__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner__h1 {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.banner__h2 {
+    border: black 2px solid;
+}
