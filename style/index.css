@@ -74,6 +74,12 @@ html body {
     font-size: 3rem;
 }
 
+@media(max-width: 500px) {
+    .header h1 {
+        text-align: center;
+    }
+}
+
 .header {
     padding: 2% 0 2% 1.5%;
     background: gray;
@@ -91,12 +97,29 @@ html body {
     font-size: 1rem;
 }
 
+@media(max-width: 500px) {
+    .header nav {
+        width: 35%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+        padding-top: 3.5%;
+    }
+}
+
 .header nav a {
     border: 2px solid black;
     color: white;
     text-decoration: none;
     text-align: center;
     padding: 2% 1.5%;
+}
+
+@media(max-width: 500px) {
+    .header nav a {
+        padding: 7% 1.5%;
+    }
 }
 
 .header nav a:hover {
@@ -116,14 +139,39 @@ html body {
 
 }
 
+@media(max-width: 500px) {
+    .container {
+        width: 98%;
+    }
+}
+
 .container .aboutMe {
     display: flex;
     padding: 5% 0;
 }
 
+@media(max-width: 500px) {
+    .container .aboutMe {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px) {
+    .container .aboutMe .aImg {
+        margin: 0 auto;
+    }
+}
+
 .container .aboutMe .aInfo h2 {
     font-size: 1.8rem;
     padding-top: 20%;
+}
+
+@media(max-width: 500px) {
+    .container .aboutMe .aInfo h2 {
+        font-size: 2.5rem;
+        padding-top: 2.5%;
+    }
 }
 
 .container .aboutMe .aInfo {
@@ -141,14 +189,36 @@ html body {
     }
 }
 
+@media(max-width: 500px) {
+    .container .aboutMe .aInfo {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+}
 .container .aboutMe .aInfo button {
     width: 40%;
     padding: 1.5%;
 }
 
+@media(max-width: 500px) {
+    .container .aboutMe .aInfo button {
+        margin: 5% 0;
+        padding: 3.5% 1.5%;
+        font-size: 1.15rem;
+    }
+}
+
 .container .projects h2 {
     font-size: 1.5rem;
     padding: 1% 0;
+}
+
+@media(max-width: 500px) {
+    .container .projects h2 {
+        text-align: center;
+        padding: 5% 0 25% 0;
+    }
 }
 
 .container .projects {
@@ -159,9 +229,22 @@ html body {
 
 @media(max-width: 800px) {
     .container .projects {
-        width: 75%;
         margin: 0 auto;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 500px) {
+    .container .projects div{
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: space-around;
+    }
+}
+
+@media(max-width: 500px) {
+    .container .projects img {
+        width: 200px;
     }
 }
 
