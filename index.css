@@ -69,7 +69,7 @@ html {
 
 .navflex {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	width:100%;
 
 }
@@ -146,10 +146,12 @@ img {
 
 .Contact {
 	display:flex;
+	flex-direction: column;
 	justify-content: center;
 	width: 97%;
 	background-color:black;
 	padding:30px;
+	align-items: center;
 	
 }
 
@@ -160,4 +162,23 @@ img {
 	font-size: 2rem;
 	background-color: yellow;
 	border-radius: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* contact */
+
+
+.media {
+	display:flex;
+	justify-content: center;
+	margin: 40px;
 }
