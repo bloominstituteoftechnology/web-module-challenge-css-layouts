@@ -48,14 +48,17 @@ table {
 	border-spacing: 0;
 }
 
-html {
-	font-size: 62.5%;
-	background-color: black;
+/* .container {
 	width:100%;
+	font-size: 62.5%;
+	background-color: cornflowerblue;
+} */
 
+body {
+	width:100%;
+	font-size: 62.5%;
+	background-color: cornflowerblue;
 }
-
-
 
 .first-flex .name{
 	display: flex;
@@ -109,10 +112,9 @@ a.navin{
 
 
 .middle img{
-	display: flex;
-	justify-content: space-evenly;
-	width: 102%;
-	height: 500px;
+	
+	width: 100%;
+	/* height: 500px; */
 	
 }
 
@@ -121,7 +123,7 @@ a.navin{
 .bottom {
 	display: flex; 
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	width: 100%;
 	margin: 2rem;
 	
@@ -129,6 +131,9 @@ a.navin{
 
 .bottom p{
 	color:yellow;
+	display: flex;
+	font-size: 5rem;
+	align-items: center;
 }
 
 img {
@@ -136,19 +141,12 @@ img {
 
 }
 
-.bottom p {
-	display: flex;
-	font-size: 5rem;
-	align-items: center;
-	
-	
-}
 
 .Contact {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 97%;
+	width: 100%;
 	background-color:black;
 	padding:30px;
 	align-items: center;
@@ -165,7 +163,9 @@ img {
 
 }
 
-
+.twitter-follow-button {
+	margin: 30px;
+}
 
 
 
