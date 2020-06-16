@@ -21,7 +21,7 @@ time, mark, audio, video {
 }
 html{
     font-size: 62.5%;
-    width: 800px;
+    width: 80vw;
     margin: 0 auto;
 }
 .img-section{
@@ -79,7 +79,7 @@ nav{
     
 }
 .first-section p{
-    width: 300px;
+    width: 30vw;
     text-align: center;
 }
 .align-text{
@@ -115,7 +115,7 @@ nav{
     text-align: center;
 }
 .about h1{
-    background: #588B8B;
+    
     padding: 2rem;
     margin:2rem;
     font-size: 260%;
@@ -148,21 +148,22 @@ header{
 }
 .container{
     background: white;
+    
 }
 footer{
     font-family: 'Raleway', sans-serif;
     background: #FFD5C2;
     font-size: 200%;
     text-align: center;
-    width: 100%;
+    width: 80vw;
 }
 .info h3{
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 1rem;  
 }
 #info{
     text-decoration: none;
     color:#588B8B;
+    padding: 2rem;
 }
 #info:hover{
     color: rgb(72, 86, 100);
@@ -172,12 +173,13 @@ footer{
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 390px;
-    width: 300px;
+    width: 70%;
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
+    cursor: pointer;
 }
 .form p{
     padding: 2rem;
@@ -191,4 +193,9 @@ footer{
 }
 #contact{
     width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+#contact h2{
+    padding: 2rem;
 }
