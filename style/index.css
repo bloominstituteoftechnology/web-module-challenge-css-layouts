@@ -13,8 +13,8 @@ body {
 .links {
     width: 100%;
     display: flex;
-    justify-content: center;
-    border: 3px blue;
+    justify-content: space-evenly;
+    border: 2px blue;
 }
 
 .links :hover {
@@ -74,6 +74,10 @@ nav {
 .picture-row img {
     width: 36rem;
     height: 45rem;
+}
+
+.pictureabout {
+    padding: 3rem;
 }
 
 footer {
