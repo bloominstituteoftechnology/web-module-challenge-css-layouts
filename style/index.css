@@ -85,17 +85,21 @@ html body {
     background: gray;
 }
 
+
+
 .header h1 {
     padding-left: 2%;
     font-size: 3rem;
 }
 
 .header nav {
-    padding: 2% 0 2% 3%;
+    padding: 2% 0;
+    margin-left: 3.5%;
     display: flex;
     justify-content: start;
     font-size: 1rem;
 }
+
 
 @media(max-width: 500px) {
     .header nav {
@@ -150,11 +154,19 @@ html body {
     padding: 5% 0;
 }
 
+@media(max-width: 800px) {
+    .container .aboutMe {
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
+    }
+}
 @media(max-width: 500px) {
     .container .aboutMe {
         flex-direction: column;
     }
 }
+
 
 @media(max-width: 500px) {
     .container .aboutMe .aImg {
@@ -165,6 +177,14 @@ html body {
 .container .aboutMe .aInfo h2 {
     font-size: 1.8rem;
     padding-top: 20%;
+}
+
+@media(max-width: 800px) {
+    .container .aboutMe .aInfo h2 {
+        font-size: 3.5rem;
+        text-align: center;
+        padding: 5% 0;
+    }
 }
 
 @media(max-width: 500px) {
@@ -189,6 +209,14 @@ html body {
     }
 }
 
+@media(max-width: 800px) {
+    .container .aboutMe .aInfo p {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 4%;
+    }
+}
+
 @media(max-width: 500px) {
     .container .aboutMe .aInfo {
         margin: 0 auto;
@@ -199,6 +227,13 @@ html body {
 .container .aboutMe .aInfo button {
     width: 40%;
     padding: 1.5%;
+}
+
+@media(max-width: 800px) {
+    .container .aboutMe .aInfo button {
+        margin: 0 auto;
+        font-size: 1.6rem
+    }
 }
 
 @media(max-width: 500px) {
@@ -212,6 +247,12 @@ html body {
 .container .projects h2 {
     font-size: 1.5rem;
     padding: 1% 0;
+}
+
+@media(max-width: 800px) {
+    .container .projects h2 {
+        text-align: center;
+    }
 }
 
 @media(max-width: 500px) {
@@ -230,7 +271,7 @@ html body {
 @media(max-width: 800px) {
     .container .projects {
         margin: 0 auto;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 }
 
@@ -239,6 +280,11 @@ html body {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
+    }
+}
+@media(max-width: 800px) {
+    .container .projects img {
+        width: 300px;
     }
 }
 
