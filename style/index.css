@@ -68,24 +68,39 @@ nav{
 }
 nav a{
     font-size:1.8rem;
+    text-decoration: none;
+    padding:1%;
+    color:black;
 }
 h2{
     font-size:3rem;
     margin:1%;
 }
-header p{
+ p{
     font-size:1.5rem;
     margin:2%;
+    width:80%;
     text-align: center;
 }
-.middle-img{
-    width:90%;
-    margin:2%;
-    margin-left:2.5%;
+.text-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    
+.middle-img{
+    width:100%;
+    margin-left:10%;
+    margin-bottom:2%;
+    height:auto;
+    max-width:720px;
+}
+.tablet-photo{
+    display:none;
+}   
 .gallery{
 display:flex;
+flex-direction: row-reverse;
 justify-content:center;
 align-items: center;
 
@@ -95,9 +110,8 @@ align-items: center;
     margin:2%;
 }
 .gallery p{
-    width:15%;
-    text-align: center;
     font-size:1.5rem;
+    text-align: center;
     
     
 }
@@ -112,3 +126,64 @@ footer{
 footer h3{
     font-size:2rem;
 }
+@media(max-width:800px){
+    h1{
+        font-size:4rem;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a{
+        font-size:2rem;
+    }
+    header p{
+        font-size:2rem;
+        }
+    .tablet-photo{
+        display:inline-block
+    }
+    .desktop-photo{
+        display:none;
+    }
+    .tablet-photo{
+        display:inline;
+    }
+   
+    .gallery p{
+        width:100%;
+        font-size:2rem;
+        padding:1%;
+        margin:2%;
+    }
+    .gallery{
+        flex-wrap:wrap-reverse;
+    }
+    .gallery img{
+        width:40%;
+    }
+    footer{
+    background-color:lightslategray;
+    }
+    @media(max-width:500px){
+        nav a{
+            margin:2%;
+            border: black 1px solid;
+            width: 80%;
+            text-align: center;
+        }
+        p{
+            margin:2%;
+        }
+        .middle-img{
+            display:none;
+        }
+        .gallery{
+            flex-direction: column-reverse;
+        }
+        .gallery img{
+            margin:2%;
+            width:70%;
+        }
+    }
