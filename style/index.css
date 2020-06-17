@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     color: hotpink;
     background-color: black;
@@ -5,37 +9,40 @@ html {
 }
 
 body {
-    line-height: 2;
-    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
     font-family: Georgia; 
 }
 
-.links {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px blue;
+.container {
+    width: 1300px;
+    margin: 20px auto;
 }
-
-.links :hover {
-    color:green;
-}
-
 
 nav {
-    width:100%;
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
+}
+
+nav a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+nav :hover {
+    color:purple;
 }
 
 .ashley {
     text-align: center;
+    font-size: 5rem;
 }
 
 .main-title {
     text-align: center;
     color:aquamarine;
+    font-size: 2.6rem;
 }
 
 .dog {
@@ -78,6 +85,7 @@ nav {
 
 .pictureabout {
     padding: 3rem;
+    font-size: 2.5rem;
 }
 
 footer {
@@ -88,11 +96,18 @@ footer {
 }
 
 button {
-    background-color: palevioletred;
+    background-color: dodgerblue;
     color: greenyellow;
     text-align: center;
-    padding: 3rem 3rem;
-    border: 10rem;
+    padding: 2.4rem;
+    border: 8rem;
 }
 
+footer a:link, a:visited {
+    background-color: dodgerblue;
+    color: greenyellow;
+    text-align: center;
+    padding: 2.6rem;
+    border: 8rem;
+}
 
