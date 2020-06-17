@@ -97,6 +97,35 @@ h1 {
     padding: 2.5% 0;
 }
 
+@media(max-width: 800px) {
+    .img {
+        width: 75%;
+        margin: 0 auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 800px) {
+    img {
+        padding-bottom: 2.5%;
+    }
+}
+
+@media(max-width: 500px) {
+    .img {
+        width: 98%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px) {
+    img {
+        padding-bottom: 2.5%;
+    }
+}
 .otherInfo {
     font-size: 1.1rem;
     display: flex;
@@ -105,8 +134,25 @@ h1 {
     padding: 5% 0;
 }
 
+@media(max-width: 500px) {
+    .otherInfo {
+        width: 98%;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
 .otherInfo p {
     width: 35%;
     padding: 2.5% 5%;
     text-align: center;
+}
+
+@media(max-width: 500px) {
+    .otherInfo p {
+        width: 98%;
+        margin: 0 auto;
+        
+    }
 }
