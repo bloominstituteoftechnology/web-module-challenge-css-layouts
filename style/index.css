@@ -23,6 +23,65 @@ time, mark, audio, video {
 
 /* My CSS */
 
-html {font-size: 62.5%;
+* {
+	box-sizing: border-box;
+ } 
+ html {
+	font-size: 62.5%;
+ }
+h1 {
+	color: blue;
+	margin: 2%; 
+	font-size: 4em;
+}
+nav a {
+	display: inline-flex;
+	flex-direction: row;
+	flex-grow: initial;
+	margin: 2% auto;
+	background-color: silver;
+	margin: 2%;
+	padding: 2%;
+	font-size: 2.5rem;
+	color: orangered; 
+	margin: 2% auto;
+}
+ body {
+	margin: 2%;
+	padding: 4%;
+	background-color: silver;
 }
 
+img {
+  width: 50%;
+  display:flex;
+  margin: 2%;
+	padding: 4%;
+	background-color: white;
+  
+}
+
+.container {
+  display: flex-wrap;
+  
+  width: auto;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px;
+}
+
+section  h2 { color: darkblue;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+
+@media(max-width: 800px){
+  .container {
+	 padding: 20px;
+  }  
+  
+
+  
+
+}
