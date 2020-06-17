@@ -48,24 +48,18 @@ table {
 	border-spacing: 0;
 }
 
-/* .container {
-	width:100%;
-	font-size: 62.5%;
-	background-color: cornflowerblue;
-} */
-
 body {
 	width:100%;
 	font-size: 62.5%;
-	background-color: cornflowerblue;
+	background-color: gray;
 }
 
 .first-flex .name{
 	display: flex;
 	justify-content: center;
-	font-size: 6rem;
+	font-size: 5rem;
 	width: 100%;
-	color: yellowgreen;
+	color: black;
 	margin-top: 30px;
 	margin-bottom:10px;
 }
@@ -79,15 +73,38 @@ body {
 
 a.navin{
 
-	font-size: 3rem;
+	font-size: 2rem;
 	text-decoration: none;
-	background-color:transparent;
-	color:black;
-	background-color:yellow;
-	padding: 2%;
+	color:white;
+	background-color: transparent;
+	padding: 1%;
 	border-radius: 25%;
-	
-	
+}
+
+.navin.home:hover {
+	background-color: red;
+	color:black;
+}
+
+.navin.about:hover {
+	background-color: yellow;
+	color:black;
+}
+
+.navin.contact:hover {
+	background-color: blue;
+	color:black;
+}
+
+.navin.projects:hover {
+	background-color: green;
+	color:black;
+}
+
+
+.intro{
+	margin-bottom: 40px;
+	margin-top: 18px;
 }
 
 .intro h2{
@@ -95,49 +112,53 @@ a.navin{
 	justify-content: space-evenly;
 	width: 100%;
 	flex-direction: row;
-	color: yellowgreen;
+	color: black;
 	font-size: 4rem;
-	margin-top:20px;
+
 }
 
-.intro p {
+
+.middle{
+	background-image: url("wireframe options/nother.jpg");
+	width:100%;
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.middle p {
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	color: yellow;
-	font-size: 3rem;
-	margin-top:20px;
-	margin-bottom: 20px;
-}
+	height:600px;
+	color:white;
+	font-size: 2.5rem;
 
-
-.middle img{
-	
-	width: 100%;
-	/* height: 500px; */
-	
 }
 
 
 
 .bottom {
 	display: flex; 
-	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 100%;
-	margin: 2rem;
+	margin: 1.5rem;
+	align-items: center;
+	height: 600px;
+
 	
 }
 
 .bottom p{
-	color:yellow;
-	display: flex;
-	font-size: 5rem;
-	align-items: center;
+	color:black;
+	font-size: 2rem;
 }
 
-img {
-	width: 10%;
+.bottom img {
+	width: 15%;
+	height: 500px;
 
 }
 
@@ -146,7 +167,7 @@ img {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
+	/* width: 100%; */
 	background-color:black;
 	padding:30px;
 	align-items: center;
@@ -155,21 +176,24 @@ img {
 
 .conbutt {
 	padding: 2rem;
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 2rem;
-	background-color: yellow;
+	background-color: none;
 	border-radius: 25%;
 
 }
 
-.twitter-follow-button {
-	margin: 30px;
+.conbutt:hover {
+	background-color: blue;
 }
 
 
 
 
+.twitter-follow-button {
+	margin: 30px;
+}
 
 
 
