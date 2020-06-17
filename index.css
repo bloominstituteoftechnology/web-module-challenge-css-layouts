@@ -225,21 +225,3 @@ a.navin{
   }
   
 
-  @media(max-width:800px) {
-	.first-flex .name{
-		font-size: 3rem;
-	}
-
-	a.navin{
-	font-size: 1.5rem;	
-}
-
-	.intro h2{
-		font-size: 3rem;
-	}
-
-	.bottom {
-		flex-wrap: wrap;
-	}
-
-  }
