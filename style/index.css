@@ -149,3 +149,58 @@ footer a:link, a:visited {
         padding: 3rem;
       }
 }
+
+@media(max-width: 500px){
+    .container {
+        margin: 0 auto;
+        width: 45rem;
+      }
+      header nav {
+        flex-direction: column;
+        align-items: center;
+        height: 13rem;
+        margin-bottom: 10rem;
+      }
+      
+      .main-title {
+        font-size: 1.8rem;
+      }
+      
+      .dog {
+        width: 40rem;
+      }
+      
+      .picture-row {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      
+      #picturethree {
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      
+      #picturefour {
+        margin-top: 2rem;
+        margin-right: 2rem;
+      }
+      
+      .pictureabout {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+      
+      footer {
+        height: 35rem;
+      }
+      
+      button a{
+        width: 7rem;
+      }
+      
+      footer nav a {
+        width: 5rem;
+        display: none;
+      }
+}
