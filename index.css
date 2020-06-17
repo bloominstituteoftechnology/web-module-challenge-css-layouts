@@ -167,7 +167,6 @@ a.navin{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	/* width: 100%; */
 	background-color:black;
 	padding:30px;
 	align-items: center;
@@ -188,21 +187,48 @@ a.navin{
 	background-color: blue;
 }
 
-
-
-
-.twitter-follow-button {
-	margin: 30px;
-}
-
-
-
-
-/* contact */
-
-
-.media {
-	display:flex;
+.socialflex {
+	display: flex;
 	justify-content: center;
-	margin: 40px;
+	width: 100%;
+	height: 60px;
 }
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin:5px 2px;
+  } 
+  .fa:hover {
+    opacity: 0.7;
+}
+	.fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+
+  .fa-github {
+	  background: white;
+	  color:black;
+  }
+  
+
+  @media(max-width:800px) {
+
+
+
+
+	
+  }
