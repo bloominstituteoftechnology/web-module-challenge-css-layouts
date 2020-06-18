@@ -3,12 +3,13 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    border: 1px solid black;
 }
 
-
-body {
-    background-color: bisque;
+html {
+    font-size: 65.2%;
 }
 
 a {
@@ -16,83 +17,92 @@ a {
 }
 
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
-}
-
-.header__ul {
+/* PRIMARY CSS */
+.body {
+   width: 100%;
    display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
-.header__li {
-    margin: 0 .5rem;
-}
-
-.banner {
-    background-image: 
-    url('https://www.webfx.com/blog/images/assets/images.sixrevisions.com/2010/12/17-01_should_use_cssresets_ld_img.png');
-    height: 15rem;
-    border: black 1px solid;
-}
-
-.projects1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projects1__img {
-    width: 15rem;
-    margin: 2rem 0;
-}
-
-.projects1__div {
-    text-align: center;
-}
-
-.projects1__img:hover {
-    width: 20rem;
-}
-
-.footer {
-    background-color: cadetblue;
-    height: 3rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__div {
-    background-color: black;
-    width: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-}
-
-.footer__h3 {
-    color: white;
-}
-
-.banner__div {
+.meta {
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__h1 {
+    font-size: 7rem;
+}
+
+nav {
+  display: flex;
+  color: 216, 30, 91;
+  justify-content: center;
+  font-size: 2rem;
+  justify-content: space-evenly;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(https://static.techspot.com/images2/news/bigimage/2019/10/2019-10-25-image-5.jpg);
+    height: 55rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem black;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
 }
 
-.banner__h1 {
-    font-weight: bold;
-    font-size: 5rem;
+.projects__h1 {
+    font-size: 3rem;
 }
 
-.banner__h2 {
-    border: black 2px solid;
+.projects__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
 }
+
+.projects__img {
+    margin: 2rem 3rem;
+    box-shadow: 1rem 1rem lightgray;
+}
+
+
+
+
+
+
+@media (max-width : 800px) {
+  body {
+      background-color: pink;
+  }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: blue;
+    }
+
+    .projects__img {
+        width: 80%;
+    }
+
+    .header__span {
+        display: none;
+    }
+}
+ 
