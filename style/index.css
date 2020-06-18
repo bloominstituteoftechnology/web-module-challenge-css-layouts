@@ -26,52 +26,86 @@ time, mark, audio, video {
 * {
 	box-sizing: border-box;
  } 
+
+body {
+	background-image: url("data:image/jpeg;base64,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");
+	background-color: #cccccc;
+  }
  html {
 	font-size: 62.5%;
+
  }
 h1 {
-	color: blue;
+	color: white;
 	margin: 2%; 
 	font-size: 4em;
 }
+
+p {
+	
+	margin: 2%;
+	padding: 2%;
+	font-size: 2.5rem;
+	color: goldenrod; 
+	margin: 2% auto;
+}
+
 nav a {
 	display: inline-flex;
 	flex-direction: row;
 	flex-grow: initial;
+	color: gold;
 	margin: 2% auto;
-	background-color: silver;
-	margin: 2%;
 	padding: 2%;
 	font-size: 2.5rem;
-	color: orangered; 
+	color: transparent gold; 
 	margin: 2% auto;
 }
+
  body {
 	margin: 2%;
 	padding: 4%;
-	background-color: silver;
+	
 }
 
 img {
-  width: 50%;
+  width: 40% ;
   display:flex;
+  border-radius: 50%;
+  flex-grow: 2%;
   margin: 2%;
 	padding: 4%;
-	background-color: white;
-  
+}
+
+
+address{
+	
+	margin: 2%;
+	padding: 2%;
+	font-size: 2.5rem;
+	color: gold; 
+	margin: 2% auto;
 }
 
 .container {
   display: flex-wrap;
-  
-  width: auto;
+  width: 100%;
   justify-content: center;
   border-style: solid;
   border-width: 3px;
 }
 
-section  h2 { color: darkblue;
+section  h2 { color:white;
   display: inline-flex;
+  justify-content: space-between;
+}
+
+h2 {
+	padding: 2%;
+	font-size: 2.5rem;
+	color: white;  
+	margin: 2% auto;
+	display: inline-flex;
   justify-content: space-between;
 }
 
@@ -80,8 +114,4 @@ section  h2 { color: darkblue;
   .container {
 	 padding: 20px;
   }  
-  
-
-  
-
-}
+  }
