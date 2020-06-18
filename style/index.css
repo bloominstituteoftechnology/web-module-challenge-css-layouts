@@ -21,15 +21,15 @@ time, mark, audio, video {
 }
 html{
     font-size: 62.5%;
-    width: 800px;
+    width: 80vw;
     margin:0 auto;
-    min-height: 100vh;
 }
-body{
-    min-height: 100vh;
+.container{
+    background: white;
+    
 }
 #me-img{
-    max-width: 100%;
+    max-width: 100vw;
 }
 .img-section{
     display: flex;
@@ -38,7 +38,7 @@ body{
     align-items: center;
 }
 img{
-    max-width: 100%;
+    max-width: 100vw;
     padding:  1rem;
     margin: 1rem;
     border: 1px solid lightgrey;
@@ -46,11 +46,12 @@ img{
 img:hover{
 cursor: pointer;
 }
-
 header{
+    background: #588B8B;
+    max-width: 100vw;
+}
+header nav{
     padding: 1rem;
-    margin: 0.5rem;
-    width: 100%;
 }
 header h1{
     padding: 1rem;
@@ -73,35 +74,33 @@ header nav a{
         transform: scale(2);
     }
 
-nav{
+header nav{
     margin-left: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.first-section{
+.align-text{
     font-family: 'Raleway', sans-serif;
     font-size: 200%;
-    box-sizing: border-box;
     padding: 1rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+
+}
+#align{
+    padding: 2rem;
+    margin: 1rem;
 }
 .first-section h2{
-    font-size: 210%;
-    
+   font-weight: bold; 
 }
 .first-section p{
     width: 30vw;
-    text-align: center;
+    text-align: center;  
 }
-.align-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
+
 #button{
     text-decoration: none;
     color: rgb(72, 86, 100);
@@ -148,19 +147,12 @@ nav{
     font-family: 'Lexend Tera', sans-serif;
 }
 
-header{
-    background: #588B8B;
-}
-.container{
-    background: white;
-    
-}
 footer{
     font-family: 'Raleway', sans-serif;
     background: #FFD5C2;
     font-size: 200%;
     text-align: center;
-    width: 100%;
+    max-width: 100vw;
     padding: 1rem;
 }
 .info h3{
@@ -178,11 +170,14 @@ footer{
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 39vh;
-    width: 50vw;
+    width: 50%;
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
-    align-items: space-between;
+    align-items: space-between;   
+}
+textarea{
+    width: 100%;
 }
 .form p{
     padding: 2rem;
@@ -195,32 +190,69 @@ footer{
     background: #FFD5C2
 }
 #contact{
-    width: 100%;
-    border-
+    max-width: 100vw;
 }
 #contact h2{
     padding: 2rem;
 }
-
-@media(max-width: 500px){
-    html{
-        width: 30vh;
+.white-space{
+    display: none;
+}
+@media(max-width: 800px){
+    .first-section p{
+        width: 35vw; 
     }
+}
+@media(max-width: 500px){
     .img-section{
         flex-direction: column;
         justify-content: space-between;
         align-items: space-between;
     }
-    .first-section{
+    .align-text{
         flex-direction: column-reverse;
-        justify-content: space-evenly;
-        align-items: space-evenly;
+        justify-content: center;
+        align-items: center;
     }
-.contact-form{
-    width: 10%;
+    .contact-form{
+        width: 50%;
+    }
+    
+    textarea{
+        width: 100%;
+    }
+    #button{
+        display: none;
+    }
+    .white-space{
+        font-family: 'Raleway', sans-serif;
+        font-size: 160%;
+        padding: 2rem;
+        display: block;
+        text-align: center;
+    }
+    .white-space a{
+        text-decoration: none;
+        color: #588B8B;
+        
+    }
+    .white-space a:hover{
+        color: red;
+        transform: scale(2);
+    }
+    .first-section p{
+        width: 60vw;
+        
+    }
+    .display{
+        display: none;
+    }
 }
-.first-section p{
-    width: 60vw;
-    height: 40vh;
+@media(max-width: 360px){
+    header nav{
+        flex-flow: column wrap;
+    }
+    .nav-a:hover{
+        transform: initial;
     }
 }
