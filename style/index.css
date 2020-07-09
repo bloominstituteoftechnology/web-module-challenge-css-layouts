@@ -1,1 +1,51 @@
-/* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:3%;
+    margin:0 5%;
+    max-width:100%;
+    border:1px solid white;
+    background-color: #666666;
+  } 
+
+  h1{
+    display:flex;
+    justify-content:center;
+  }
+  
+  h1:hover{
+    color:#bb0000;
+  }
+  
+  .links{
+    display:flex;
+    justify-content:space-around;
+   
+  }
+
+  a{
+      border-radius: 25%;
+  }
+  
+  h2{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .headimg{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .container{
+    display:flex;
+    justify-content:flex-start;
+  }
+  
+  p{
+    text-align:center;
+  }
+  
+  .bottom{
+    display:flex;
+    justify-content:center;
+  } 
