@@ -1,0 +1,75 @@
+/* Add CSS styling here */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+}
+
+header{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+header nav .links a{
+    width:10%;
+    padding: 1%;
+    border-style: solid;
+    border-color: blue;
+    color: black;  
+}
+
+header nav .links a:hover{
+    background-color: yellow;
+    color:blue;
+}
+
+header img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#projects .projimg{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#projects .projinfo{
+    width:50%;
+    text-align: center;
+}
+
+#projects .projimg img{
+    margin-right: 1%;
+}
+
+#projects{
+    display: flex;
+}
+
+footer{
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin:2.5%;
+}
+
+footer .links a{
+    width:10%;
+    padding: 1%;
+    border-style: solid;
+    border-color: blue;
+    color: black; 
+    
+}
+
+footer .links a:hover{
+    background-color: yellow;
+    color:blue;
+}
