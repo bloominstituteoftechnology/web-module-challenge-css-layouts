@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  border-left: 35rem solid black;
+  border-right: 34rem solid black;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.125rem;
+  background-color: #0099cc;
+  display: flex;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 4px;
+  padding: 7% 4%;
+  margin-bottom: -3%;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+}
+nav a {
+  padding: 0.5%;
+  background-color: lightgrey;
+  border: 2px solid black;
+  text-decoration: none;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.pictureone {
+  width: 40rem;
+  height: 30rem;
+  border: 0.5rem solid black;
+  display: flex;
+  margin: 2rem 1rem;
+}
+h2 {
+  display: flex;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.5rem;
+  flex-direction: row;
+  text-align: left;
+  margin-top: -30%;
+  margin-left: 45%;
+  padding: 5%;
+  letter-spacing: 4px;
+}
+
+img {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.alotofpictures {
+  width: 20rem;
+  height: 20rem;
+  border: 0.5rem solid black;
+  display: flex;
+  margin: 4rem 1rem;
+  flex-direction: row;
+}
+.morepictures {
+  width: 20rem;
+  height: 20rem;
+  border: 0.5rem solid black;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+}
+.cats {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  margin-top: 6rem;
+  justify-content: space-around;
+}
+
+.catstwo {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  margin-top: 8rem;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+
+.box1 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box2 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box3 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box4 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box5 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box6 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box7 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+.box8 {
+  height: 20rem;
+  width: 20rem;
+  border: 0.5rem solid black;
+}
+
+footer {
+  font-size: 3.125rem;
+  background-color: #0099cc;
+  display: flex;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 4px;
+  padding: 7% 4%;
+
+  text-align: center;
+}
+p {
+  margin-left: 25rem;
+}
+.button1 {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: -21rem;
+  margin-top: 5rem;
+}
+
+.buttonrow {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: -5rem;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.button2 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  margin-left: -2rem;
+  text-decoration: none;
+}
+.button3 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+.button4 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+.button5 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+
+.buttonrowtwo {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.button6 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+.button7 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+.button8 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
+.button9 {
+  background-color: lightgrey;
+  padding: 1rem;
+  border: 3px solid black;
+  text-decoration: none;
+}
