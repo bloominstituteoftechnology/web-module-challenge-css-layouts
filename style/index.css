@@ -26,6 +26,7 @@ time, mark, audio, video {
 body{
     background-color: aquamarine;
     border-bottom: black;
+    border:2rem solid aquamarine
 }
     
         .title{
@@ -52,6 +53,11 @@ body{
         padding:1% 2%;
         border-radius: 10px; 
         text-decoration: none;
+        
+    }
+    .Intro .buttons:hover{
+        color:red;
+        border:3px black dashed;
     }
     section{
         
@@ -69,7 +75,7 @@ body{
         font-weight: 200;
     }
     .main{
-        height: 27rem;
+        height: 26rem;
         margin-top: 5rem;
     }
     .main img{
@@ -86,15 +92,37 @@ body{
 
     }
     .tower div{
+        display: flex;
+        justify-content: space-evenly;
         width:18%;
         align-content: stretch;
     }
     .tower .water img{
+      
         border:1px solid red;
         object-fit: cover;
-        margin-bottom: 10rem;
+        height: 21rem;
     }
-    .lava{
-        object-fit: fill;
-        box-sizing: content-box;
+    .project{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 5rem;
+        
+    }
+    .biss{
+        display: flex;
+        justify-content: center;
+        background: chartreuse;
+        color:black;
+        font-size:1.5rem;
+        border:1px black;
+        padding:1% 2%;
+        border-radius: 10px; 
+        text-decoration: none;
+        margin-top: 2rem;
+       
+    }
+   .biss:hover{
+        color:red;
+        border:3px black dashed;
     }
