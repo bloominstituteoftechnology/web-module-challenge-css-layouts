@@ -1,28 +1,52 @@
 /* Add CSS styling here */
 
-*   {
-    border: 1px solid gray;
+*{
+    border: solid 1px gray;
+    align-content: space-around;
+   
 }
+ /*----------------- border: solid 1px gray;----------------------*/
 
 .intro{
     display: flex;
+    align-content: center;
     justify-content: space-evenly;
 }
+
+
+/*---------------ROW 1------------------------*/
 
 .pic-one {
     display: flex;
     justify-content: space-evenly;
     }
 
+/*----------------ROW 2-----------------------*/
+
 .pic-two {
         display: flex;
         justify-content: space-evenly;
     }
 
-p { 
+/*---------------------------------------*/
+
+.directory { 
+    
+    align-items: f;
+}
+
+/*---------------------------------------*/
+
+
+.nav-head {
+
+    
 
 }
 
+
+
+/*---------------------------------------*/
 .sec1 {
     display: flex;
     justify-content: space-evenly;
