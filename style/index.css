@@ -1,1 +1,6 @@
 /* Add CSS styling here */
+
+*{
+    border: 1px solid gray;
+}
+
