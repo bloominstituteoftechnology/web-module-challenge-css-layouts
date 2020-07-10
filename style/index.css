@@ -4,3 +4,8 @@
     border: 1px solid gray;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
