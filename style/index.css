@@ -1,11 +1,36 @@
 /* Add CSS styling here */
 
-*{
+*   {
     border: 1px solid gray;
 }
 
-.container {
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic-one {
     display: flex;
     justify-content: space-evenly;
     }
 
+.pic-two {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+p { 
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
