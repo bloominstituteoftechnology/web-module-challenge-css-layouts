@@ -1,0 +1,48 @@
+
+
+
+.container {
+    display: flex;
+    color: #DDB9A3;
+    border: solid black;
+}
+
+ h1, h2, h3 {
+    display: flex;
+    color: black;
+    text-align: center;
+}
+
+.square {
+    display: flex;
+    background-color: #FF764E;
+    width: 100px;
+}
+
+.square0 {
+    display: flex;
+    background-color: #5ED3EB;
+    top: 50%;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.square1 {
+    display: flex;
+    background-color: #FFCD69;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+}
+
+.truck {
+    display: flex;
+    background-color: palevioletred;
+    width: 10%; 
+    height: 25px;
+}
+
+.pic-container {
+    display: flex;
+    color: #F9E7DC;
+}

@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+  font-size: 50px;
+  }
+p {
+  color: orange;
+  font-family: serif;
+}
+body {
+  background: url( 'https://i.pinimg.com/originals/31/dc/b4/31dcb405514cec149769eb810beb174f.jpg') ;
+}
