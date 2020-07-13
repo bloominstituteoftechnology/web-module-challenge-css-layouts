@@ -35,16 +35,21 @@ body{
         font-weight:bold;
         border-bottom:5px solid black;
     }
+
     .name{
         display:flex;
         justify-content: center;
         font-size: 4rem;
     }
+
     .Intro{
         display:flex;
         justify-content:center;
-        border-radius: 10px;  
+        border-radius: 10px;
+        /* border:1px solid red; */
+         
     }
+
     .Intro .buttons{
          background: chartreuse;
         color:black;
@@ -55,60 +60,65 @@ body{
         text-decoration: none;
         
     }
+
     .Intro .buttons:hover{
         color:red;
         border:3px black dashed;
     }
+
+   
     section{
         
         text-align: center;
         width:100%;
     }
+
     section p{
         font-size: 1.5rem;
         margin:0 15%
     }
+
     h2{
         display: flex;
         justify-content: center;
         font-size: 4.5rem;
         font-weight: 200;
     }
+/* Image 1 */
     .main{
         height: 26rem;
         margin-top: 5rem;
     }
+
     .main img{
         width:100%;
         height:25rem;
         margin:auto auto;
         overflow: hidden;
-        /* border:5px solid red */
     }
+/*99-120 Bottom images (2-5) and text*/
     .tower{
         display:flex;
-        
-        border:5px solid red;
-
     }
+
     .tower div{
         display: flex;
         justify-content: space-evenly;
         width:18%;
         align-content: stretch;
     }
+
     .tower .water img{
-      
-        border:1px solid red;
         object-fit: cover;
         height: 21rem;
     }
+
     .project{
         font-size: 1.5rem;
         text-align: center;
         margin-left: 5rem;
-        
     }
+/*121-138 contact me */
     .biss{
         display: flex;
         justify-content: center;
@@ -119,10 +129,58 @@ body{
         padding:1% 2%;
         border-radius: 10px; 
         text-decoration: none;
-        margin-top: 2rem;
-       
+        margin-top: 2rem; 
     }
+
    .biss:hover{
         color:red;
         border:3px black dashed;
+    }
+     @media(max-width:800px){
+        
+        .Intro{
+            width:25%;
+            margin:0 37%;
+        
+        }
+
+        .Intro, .buttons{
+            display:flex;
+            text-align: center;
+            justify-content: center;
+        flex-direction: column;
+        }
+
+        .tower{
+            flex-wrap: wrap;
+        }
+
+          .watero, .watertw, .watert, .waterf{
+            flex:50%;           
+            flex-direction: column;
+        }
+
+        .waterf{
+            height:120%;
+            padding:5% 0;
+            margin:auto 0;
+        }
+
+        .project{
+            margin:0 auto;
+            
+        }
+    }
+    @media(max-width:500px){
+        h2{
+            font-size: 3rem;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    @media(max-width:320px){
+        .project{
+         
+        }
     }
