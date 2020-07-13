@@ -24,9 +24,10 @@ header {
 	background-attachment: scroll;
 }
 
- nav{
+ #nav-bar{
 	 display: flex;
 	 margin: 2%;
+	
 } 
 
 li {
@@ -103,9 +104,25 @@ footer {
 	border-radius: 3%;
 }
 
+/* Media Queries */
 
+@media(max-width: 800px) {
+	body {
+		background-color: lightpink;
+	}
+	#main-image {
+		width: 130%;
+		height: 70%;
+	}
 
+	.section-one{
+		display: flex;
+		align-items: center;
+	}
 
+	img {
+		width: 50%;
+		height: 50%;
+	}
 
-
-
+}
