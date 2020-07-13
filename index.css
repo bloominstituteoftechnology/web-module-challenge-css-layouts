@@ -127,236 +127,122 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  border-left: 35rem solid black;
-  border-right: 34rem solid black;
-  margin: 0;
-}
-
-h1 {
-  font-size: 3.125rem;
-  background-color: #0099cc;
+header {
   display: flex;
-  font-family: "Fjalla One", sans-serif;
-  letter-spacing: 4px;
-  padding: 7% 4%;
-  margin-bottom: -3%;
+  justify-content: center;
+  padding: 2%;
+  background-color: #333;
+  color: white;
 }
-.link {
+.navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #555;
 }
-nav a {
-  padding: 0.5%;
-  background-color: lightgrey;
-  border: 2px solid black;
+.navbar a {
+  padding: 3.125rem;
+  color: white;
   text-decoration: none;
-  display: inline-block;
-  width: 10%;
+  font-size: 1.0625rem;
+  width: 25%;
   text-align: center;
-  margin-left: 1rem;
 }
-
-.pictureone {
-  width: 40rem;
-  height: 30rem;
-  border: 0.5rem solid black;
-  display: flex;
-  margin: 2rem 1rem;
+.navbar a:hover {
+  background-color: #000;
 }
-h2 {
-  display: flex;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 1.5rem;
-  flex-direction: row;
-  text-align: left;
-  margin-top: -30%;
-  margin-left: 45%;
+.navbar a.active {
+  background-color: darkcyan;
+}
+h1 {
+  font-size: 5rem;
+  margin-top: 1.5%;
+}
+.picture1 {
   padding: 5%;
-  letter-spacing: 4px;
+  display: flex;
+  color: white;
+  padding: 1rem;
+  margin: 15rem;
 }
 
-img {
+.picture1 p {
+  color: black;
   display: flex;
-  flex-direction: row-reverse;
-}
-.alotofpictures {
-  width: 20rem;
-  height: 20rem;
-  border: 0.5rem solid black;
-  display: flex;
-  margin: 4rem 1rem;
-  flex-direction: row;
-}
-.morepictures {
-  width: 20rem;
-  height: 20rem;
-  border: 0.5rem solid black;
-  display: inline-flex;
-  flex-direction: row;
-  text-align: center;
-}
-.cats {
-  display: flex;
-  flex-direction: row;
-  height: 8%;
-  margin-top: 6rem;
-  justify-content: space-around;
-}
-
-.catstwo {
-  display: flex;
-  flex-direction: row;
-  height: 8%;
-  margin-top: 8rem;
-  justify-content: space-around;
-  margin-bottom: 4rem;
-}
-
-.box1 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box2 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box3 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box4 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box5 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box6 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box7 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
-}
-.box8 {
-  height: 20rem;
-  width: 20rem;
-  border: 0.5rem solid black;
+  font-size: 5rem;
+  padding-left: 5%;
 }
 
 footer {
-  font-size: 3.125rem;
-  background-color: #0099cc;
   display: flex;
-  font-family: "Fjalla One", sans-serif;
-  letter-spacing: 4px;
-  padding: 7% 4%;
-
-  text-align: center;
+  justify-content: center;
+  color: #333;
+  background-color: #333;
+  padding: 5.2rem;
 }
-p {
-  margin-left: 25rem;
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  background-color: #333;
+  padding: 5.2rem;
 }
 .button1 {
-  background-color: #4caf50;
-  border: none;
+  background-color: darkcyan;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
+  font-size: 5rem;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-left: -21rem;
-  margin-top: 5rem;
-}
-
-.buttonrow {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  margin-top: 5rem;
-  margin-bottom: -5rem;
-  font-size: 16px;
-  cursor: pointer;
-  justify-content: space-around;
+  border: 2px solid black;
 }
 
 .button2 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  margin-left: -2rem;
+  background-color: darkcyan;
+  width: 0%;
+  color: white;
+  font-size: 2rem;
   text-decoration: none;
+  border: 2px solid black;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.button3 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
-}
-.button4 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
-}
-.button5 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
+.buttonrow a {
+  width: 24.6%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.buttonrowtwo {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+.cats img {
+  width: 15%;
+  height: 15rem;
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
-  font-size: 16px;
-  cursor: pointer;
   justify-content: space-around;
 }
 
-.button6 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
+.cats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.button7 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
-}
-.button8 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
-}
-.button9 {
-  background-color: lightgrey;
-  padding: 1rem;
-  border: 3px solid black;
-  text-decoration: none;
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .navbar {
+    flex-direction: column;
+    padding-left: 250px;
+  }
+  .picture1 {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    align-items: left;
+  }
 }
