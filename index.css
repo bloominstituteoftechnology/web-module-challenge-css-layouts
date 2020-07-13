@@ -25,7 +25,7 @@ html{
 }
 
 header{
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@ header{
 }
 
 header nav .links a{
-    width:10%;
+    width: 100%;
     padding: 1%;
     border-style: dotted;
     border-width:1%;
@@ -51,39 +51,42 @@ header nav .links a:hover{
 }
 
 header img{
-    margin-top: 1%;
-    margin-bottom: 1%;
+   margin:1%
 }
 
-#projects .projimg{
-    width:50%;
+#projects {
+    width:100%;
     display: flex;
-    justify-content: space-evenly;
+    margin: 1%;
 }
 
-#projects .projinfo{
-    width:50%;
+
+
+
+#projects p{
+    margin:1%;
+}
+
+/* #projects .projinfo{
+    width:25%;
     text-align: center;
-}
-
+} */
+/* 
 #projects .projimg img{
     margin-right: 1%;
-}
+} */
 
-#projects{
-    display: flex;
-}
 
-footer{
-    width: auto;
-    text-align: center;
+.footer-container{
     display: flex;
+    min-height: 14vh;
     flex-direction: column-reverse;
-    margin:2.5%;
+    justify-content: center;
+    text-align: center;
 }
 
 footer .links a{
-    width:10%;
+    width:100%;
     padding: 1%;
     border-style: dotted;
     border-color: blue;
@@ -95,4 +98,60 @@ footer .links a:hover{
     transition: .5s;
     background-color: yellow;
     color:blue;
+}
+
+@media (max-width:800px){
+
+    header nav .links a{
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   /* .projimg {
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  .projinfo{
+        width: 100%;
+        display:flex;
+        flex-direction: column-reverse;
+    } */
+
+
+    #projects{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:500px){
+    header nav .links a{
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   /* .projimg {
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  .projinfo{
+        width: 100%;
+        display:flex;
+        flex-direction: column-reverse;
+    } */
+
+
+    #projects{
+        flex-direction: column;
+        text-align: center;
+    }
+}
 }
