@@ -14,35 +14,30 @@
 }
 
 .square {
-    display: flex;
     background-color: #FF764E;
-    width: 100px;
+    width: 30px;
+    height:30px;
 }
 
 .square0 {
-    display: flex;
     background-color: #5ED3EB;
-    top: 50%;
-    width: 100px;
-    margin: 0 auto;
+    height: 30px;
+    width: 30px;
 }
 
 .square1 {
-    display: flex;
     background-color: #FFCD69;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     margin-left: auto;
 }
 
 .truck {
-    display: flex;
     background-color: palevioletred;
     width: 10%; 
     height: 25px;
 }
 
 .pic-container {
-    display: flex;
     color: #F9E7DC;
 }

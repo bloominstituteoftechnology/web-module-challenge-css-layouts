@@ -1,1 +1,37 @@
-/* Add CSS styling here */
+html, body{ 
+	height: 100%; 
+} 
+	
+body{ 
+	margin: 0px; 
+	padding: 0px; 
+	background: #64ABD1; 
+	font-family: 'Roboto'; 
+	font-size: 12pt; 
+} 
+		
+h1, h2, h3{ 
+	margin: 0; 
+	padding: 0; 
+	color: #404040; 
+} 
+	
+p, ol, ul{ 
+	margin-top: 0; 
+} 
+
+p { 
+	line-height: 180%; 
+} 
+
+ol, ul{ 
+	padding: 0; 
+	list-style: none; 
+} 
+	
+.container{	 
+	/* Set width of container to 
+		1200px and align center */
+	margin: 0px auto; 
+	width: 1200px; 
+} 
