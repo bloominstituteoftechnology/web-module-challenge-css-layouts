@@ -52,7 +52,7 @@ header {
 h1 {
     font-size: 4rem;
     color: black;
-    font-family:righteous;
+    font-family: 'Righteous', cursive;
     font-weight: bolder;
     text-shadow: 3px 3px 5px lightgray;
 }
@@ -84,7 +84,7 @@ h1 {
     color:white ;
     font-weight: bolder;
     text-align: center;
-    font-family: righteous;
+    font-family: 'Righteous', cursive;
     font-size: 1rem;
 }
 
@@ -93,7 +93,7 @@ h1 {
     color:black ;
     font-weight: bolder;
     text-align: center;
-    font-family: righteous;
+    font-family: 'Righteous', cursive;
     font-size: 1rem;
 }
 
@@ -152,7 +152,7 @@ button  {
    width: 160px;
    background-color: olive;
    color: white;
-   font-family:righteous;
+   font-family: 'Righteous', cursive;
    font-weight: bolder;
    border-color: white;
    border-width: 3px;
@@ -164,7 +164,7 @@ button:hover  {
     width: 160px;
     background-color: lightpink;
     color: black;
-    font-family:righteous;
+    font-family: 'Righteous', cursive;
     font-weight: bolder;
     border-color: white;
     border-width: 3px;
@@ -173,6 +173,7 @@ p{
     font-size: 1.1rem;
     
 }
+
 
 /* ------NEW SECTION--------- */
 
@@ -197,7 +198,7 @@ width: 20%;
 .box1 {
     text-align:center;
     font-weight: bolder;
-    font-family:righteous;
+    font-family: 'Righteous', cursive;
 }
 
 /* ------FOOTER--------- */
@@ -228,7 +229,7 @@ footer{
 h3 {
     font-size: 40px;
     font-weight: bolder;
-    font-family: righteous;
+    font-family: 'Righteous', cursive;
     letter-spacing: 3px;
 }
 
@@ -238,6 +239,21 @@ button .contact  {
     width: 160px;
 
  }
+
+ .socialLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+a.instagram {
+padding-right:8px;
+}
+
+a.linkedin {
+padding-left:8px;
+}
+
+
 
  /* ------MEDIA QUEARIES--------- */
 
