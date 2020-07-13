@@ -45,11 +45,12 @@ header {
 }
 
 .boxWithinHeader {
-    width: 45%;
+    width: 100%;
+   
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 4rem;
     color: black;
     font-family:righteous;
     font-weight: bolder;
@@ -59,13 +60,15 @@ h1 {
     display: flex;
     flex-direction: row;
     margin-left: 20px;
+    text-align: center;
 }
 .link1 {
    border:solid;
    border-width: 2px;
    border-color: white;
    background-color:olive;
-   padding: 2% 5% 2% 5%;
+   padding: 1% 3% 1% 3%;
+   text-align: center;
 }
 
 .link1:hover {
@@ -73,7 +76,7 @@ h1 {
    border-width: 2px;
    border-color: white;
    background-color:lightpink;
-   padding: 2% 5% 2% 5%;
+   padding: 1% 3% 1% 3%;
 }
 
 .link1 a {
@@ -82,7 +85,7 @@ h1 {
     font-weight: bolder;
     text-align: center;
     font-family: righteous;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .link1 a:hover{
@@ -91,7 +94,7 @@ h1 {
     font-weight: bolder;
     text-align: center;
     font-family: righteous;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 /* ------NEW SECTION--------- */
@@ -140,7 +143,7 @@ h1 {
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 button  {
@@ -167,7 +170,8 @@ button:hover  {
     border-width: 3px;
 }
 p{
-    font-size: 20px;
+    font-size: 1.1rem;
+    
 }
 
 /* ------NEW SECTION--------- */
@@ -177,6 +181,7 @@ width:100%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+justify-content: center;
 }
 
 .imageBox1 {
@@ -233,3 +238,84 @@ button .contact  {
     width: 160px;
 
  }
+
+ /* ------MEDIA QUEARIES--------- */
+
+
+ @media (max-width:800px){
+    .allTheLinks {
+        justify-content: center;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    p {
+        text-align: left;
+    }
+ }
+
+
+
+
+ @media (max-width:500px){
+    header {
+        width:100%;
+    }
+    
+    body {
+        width:100%;
+    }
+    .boxWithinHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .allTheLinks {
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .firstSectionBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstSectionBox:hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#DAA520;
+    }
+    .introBox {
+     width: 100%;
+     text-align: center;
+    }
+    h2{
+    font-size: 2rem;
+    
+    }
+    p {
+    text-align: center;
+    }
+    .mainImageBox {
+    width:100%;
+    }
+    .secondSectionBox {
+    justify-content: center;
+    }
+
+    .imageBox1 {
+        width: 40%;
+    }
+}
