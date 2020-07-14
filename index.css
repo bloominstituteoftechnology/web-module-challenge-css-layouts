@@ -364,6 +364,8 @@ footer {
     width: 5px;
   }
   button {
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 80px;
   }
