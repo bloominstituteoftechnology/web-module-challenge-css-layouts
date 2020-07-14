@@ -164,7 +164,7 @@ h1 {
 .picture1 {
   display: flex;
   padding: 1rem;
-  margin: 15rem;
+  margin: 5rem;
 }
 
 .picture1 p {
@@ -187,22 +187,22 @@ h1 {
   color: white;
   font-size: 5rem;
   text-decoration: none;
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  
+
 }
 
 .flex-container div {
   background-color: darkcyan;
-  width: 800px;
-  margin: 10px;
+  width: 50rem;
+  margin: 4rem;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  line-height: 4.6875rem;
+  font-size: 1.875rem;
   border: .5rem solid black;
 }
 
@@ -212,7 +212,7 @@ h1 {
   color: black;
   font-size: 2rem;
   text-decoration: none;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -222,6 +222,14 @@ h1 {
 .button2:hover {
   background-color: #008CBA;
   color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  background-color: #333;
+  padding: 2rem;
 }
 
 
