@@ -119,3 +119,34 @@ h1 {
     font-family: Cabin Sketch; 
     padding-top: 7%;
 }
+.projectGrid{
+    display:flex;
+    width:100%; 
+}
+.col{
+    flex:1;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    
+}
+.title {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-weight: bold;
+    border-radius: .5rem;
+    font-family: Cabin Sketch;
+}
+.end {
+   text-align: center;
+}
+footer{
+    background-color: black;
+    height: 8rem;
+}
+.end a {
+    color:white;
+    font-family: Cabin Sketch;
+    font-size:1.5rem;
+}
