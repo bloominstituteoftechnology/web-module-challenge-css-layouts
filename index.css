@@ -155,14 +155,14 @@ header {
 .navbar a.active {
   background-color: darkcyan;
 }
+
 h1 {
   font-size: 5rem;
   margin-top: 1.5%;
 }
+
 .picture1 {
-  padding: 5%;
   display: flex;
-  color: white;
   padding: 1rem;
   margin: 15rem;
 }
@@ -174,21 +174,14 @@ h1 {
   padding-left: 5%;
 }
 
-footer {
+/*footer {
   display: flex;
   justify-content: center;
   color: #333;
   background-color: #333;
-  padding: 5.2rem;
+  padding: 3rem;
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  color: #333;
-  background-color: #333;
-  padding: 5.2rem;
-}
+*/
 .button1 {
   background-color: darkcyan;
   color: white;
@@ -197,52 +190,77 @@ footer {
   border: 2px solid black;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.flex-container div {
+  background-color: darkcyan;
+  width: 800px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: .5rem solid black;
+}
+
 .button2 {
   background-color: darkcyan;
-  width: 0%;
-  color: white;
+  width: 2;
+  color: black;
   font-size: 2rem;
   text-decoration: none;
   border: 2px solid black;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
-}
-.buttonrow a {
-  width: 24.6%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 2.5rem;
 }
 
-.cats img {
-  width: 15%;
-  height: 15rem;
-  display: flex;
-  flex-direction: row;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  justify-content: space-around;
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
-.cats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-@media (max-width: 800px) {
+
+
+
+
+@media (max-width: 500px) {
   header h1 {
     font-size: 20px;
     text-align: left;
   }
   .navbar {
     flex-direction: column;
-    padding-left: 250px;
+    /* padding-left: 250px; */
   }
   .picture1 {
     display: flex;
-    width: 800px;
+    /* width: 1500px; */
     flex-direction: column;
+    /* margin-left: 200px; */
+  }
+  /*
+  .picture1 p {
+    font-size: 35px;
+    float: left;
+    padding-top: 50px;
+    margin-right: 1200px;
     align-items: left;
+  }
+
+  footer {
+    padding-left: 5px;
+  }
+  .buttonrow a {
+    display: flex;
+    flex-direction: row;
+  }
+  img {
+    display: flex;
+    flex-direction: row;
   }
 }
