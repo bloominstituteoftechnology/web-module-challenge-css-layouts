@@ -234,6 +234,77 @@ footer {
   padding: 2rem;
 }
 
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+  }
+
+  .navbar a {
+    justify-content: center;
+    text-align: center;
+  }
+  .picture1 {
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+  .picture1 p {
+    font-size: 25px;
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+  }
+
+  .flexcontainer div {
+    display: flex;
+  }
+
+  .flexcontainer.button {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+  }
+  .buttonbutton2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .button1 {
+    text-align: center;
+    align-items: center;
+  }
+  .container .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-container {
+    width: 500px;
+  }
+  button {
+    align-items: center;
+    margin-left: 260px;
+    width: 80px;
+  }
+  .flex-container div {
+    width: 240px;
+    align-items: center;
+    width: 600px;
+  }
+}
+
 @media (max-width: 500px) {
   header h1 {
     font-size: 20px;
