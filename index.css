@@ -127,6 +127,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
 header {
   display: flex;
   justify-content: center;
@@ -169,19 +174,10 @@ h1 {
 
 .picture1 p {
   color: black;
-  display: flex;
   font-size: 5rem;
   padding-left: 5%;
 }
 
-/*footer {
-  display: flex;
-  justify-content: center;
-  color: #333;
-  background-color: #333;
-  padding: 3rem;
-}
-*/
 .button1 {
   background-color: darkcyan;
   color: white;
@@ -192,8 +188,6 @@ h1 {
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
-
 }
 
 .flex-container div {
@@ -203,7 +197,7 @@ h1 {
   text-align: center;
   line-height: 4.6875rem;
   font-size: 1.875rem;
-  border: .5rem solid black;
+  border: 0.5rem solid black;
 }
 
 .button2 {
@@ -220,7 +214,7 @@ h1 {
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
@@ -231,10 +225,6 @@ footer {
   background-color: #333;
   padding: 2rem;
 }
-
-
-
-
 
 @media (max-width: 500px) {
   header h1 {
@@ -250,25 +240,5 @@ footer {
     /* width: 1500px; */
     flex-direction: column;
     /* margin-left: 200px; */
-  }
-  /*
-  .picture1 p {
-    font-size: 35px;
-    float: left;
-    padding-top: 50px;
-    margin-right: 1200px;
-    align-items: left;
-  }
-
-  footer {
-    padding-left: 5px;
-  }
-  .buttonrow a {
-    display: flex;
-    flex-direction: row;
-  }
-  img {
-    display: flex;
-    flex-direction: row;
   }
 }
