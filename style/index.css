@@ -119,6 +119,12 @@ h1 {
     font-family: Cabin Sketch; 
     padding-top: 7%;
 }
+@media screen and (max-width: 500px) {
+.projectGrid {
+float: none;
+width: 100%;
+}
+}
 .projectGrid{
     display:flex;
     width:100%; 
