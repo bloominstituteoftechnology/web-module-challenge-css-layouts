@@ -1,1 +1,158 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+h1 {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-left: 2rem;
+}
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.introNav {
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+
+}
+.introFlex {
+    font-weight: bold;
+    border:3px solid black;
+    border-radius: .5rem;
+    font-family: Cabin Sketch; 
+}
+.introOne {
+    position: relative;
+    display:inline-block;
+    margin-left: 14%;
+    margin-right:auto;
+    margin-top: 5%;
+    width:70%;
+    height: 450px;
+    
+}
+.introOne a {
+    position: absolute;
+    z-index:999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+}
+.introOne h2 {
+    position: absolute;
+    z-index:999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    font-size: 4rem;
+}
+.introOne img {
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:450px;
+}
+.myProjects{
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: .5rem;
+    font-family: Cabin Sketch; 
+    padding-top: 7%;
+}
+@media screen and (max-width: 500px) {
+.projectGrid {
+float: none;
+width: 100%;
+}
+}
+.projectGrid{
+    display:flex;
+    width:100%; 
+}
+.col{
+    flex:1;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    
+}
+.title {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-weight: bold;
+    border-radius: .5rem;
+    font-family: Cabin Sketch;
+}
+.end {
+   text-align: center;
+}
+footer{
+    background-color: black;
+    height: 8rem;
+}
+.end a {
+    color:white;
+    font-family: Cabin Sketch;
+    font-size:1.5rem;
+}
