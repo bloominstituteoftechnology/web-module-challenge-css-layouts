@@ -1,7 +1,7 @@
 *{
     box-sizing:border-box;
     padding:3%;
-    margin:0 5%;
+    margin:0 0%;
     max-width:100%;
     border:1px solid white;
     background-color: #666666;
@@ -10,6 +10,7 @@
   h1{
     display:flex;
     justify-content:center;
+    color:white;
   }
   
   h1:hover{
@@ -19,13 +20,24 @@
   .links{
     display:flex;
     justify-content:space-around;
-   
   }
 
   a{
-      border-radius: 25%;
+      border-radius: 35%;
+      background-color: crimson;
+      color:white;
+      text-decoration: none;
+
   }
   
+a:hover{
+  background-color: white;
+  color:crimson;
+  text-decoration: none;
+}
+
+
+
   h2{
     display:flex;
     justify-content:center;
@@ -36,16 +48,21 @@
     justify-content:center;
   }
   
-  .container{
+  .pics{
     display:flex;
-    justify-content:flex-start;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    width: 40%;
   }
+  
   
   p{
     text-align:center;
   }
   
-  .bottom{
+  .bottom {
     display:flex;
     justify-content:center;
+    align-content: center;
   } 
+
