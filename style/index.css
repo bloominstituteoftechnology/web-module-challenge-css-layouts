@@ -50,19 +50,20 @@ nav > button.navK{
     justify-self: flex-end;
 }
 header{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    width:88%;
-    height: 30vh;
-    background-color: red;
+    width:98%;
+    height: 70vh;
+    background-color: silver;
 
-    margin:10px;
+    margin:1px;
 }
 header > div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-self: center;
     width:88%;
     height: 30vh;
     background-color: red;
