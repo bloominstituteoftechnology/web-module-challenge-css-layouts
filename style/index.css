@@ -1,0 +1,39 @@
+*{
+    display: flex;
+    
+}
+
+.nav1{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+}
+
+#banner{ 
+    
+        display: flex;
+        flex-direction: row;
+        
+}
+
+
+.project-pics{
+        display: flex;
+        flex-direction: row;
+}
+
+.pic{
+        display: flex;
+        flex-direction: row;
+
+}
+
+.image{
+    
+
+}
+
+p{ 
+    display:flex;
+}
