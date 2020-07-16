@@ -15,7 +15,7 @@ time, mark, audio, video {
 margin: 0;  
 padding: 0;  
 border: 0;  
-font-size: 100%;  
+font-size: 62.5%;  
 font: inherit;  
 vertical-align: baseline;  
 }
@@ -24,17 +24,27 @@ article, aside, details, figcaption, figure,
 footer, hgroup, menu, section {
     display: block;
 }
-/* every element is a border-box */
-* {
-    box-sizing: border-box;
-}
 
 
 /* Add CSS styling here */
 
 nav{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
     height: 100%;
+}
+#nav{
+    margin:11px;
+    border: 2px solid black;
+    width:94vw;
+    height:20vh;
+    background-color: blue;
+}
+nav > h2.navK{
+    margin-right:50%;
+    justify-self: flex-start;
+}
+nav > button.navK{
+    
+    justify-self: flex-end;
 }
