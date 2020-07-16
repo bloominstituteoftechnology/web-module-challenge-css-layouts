@@ -55,19 +55,38 @@ header{
     align-items: center;
     justify-content: center;
     width:98%;
-    height: 70vh;
+    height: 80vh;
     background-color: silver;
 
     margin:1px;
 }
 header > div{
     display: flex;
+    text-align:center;
     flex-direction: column;
-    justify-self: center;
+    justify-content: center;
     width:88%;
-    height: 30vh;
+    height: 36vh;
     background-color: red;
 
     margin:10px;
 
+}
+.K{
+    
+    align-self:center;
+    width:5rem;
+    height: 6rem;
+}
+
+.projCon{
+    display:flex;
+    flex-direction: row;
+}
+
+.projectBoxes{
+    margin:1px;
+    background-color: antiquewhite;
+    width:12rem;
+    height: 14rem;
 }
