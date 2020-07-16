@@ -40,11 +40,33 @@ nav{
     height:20vh;
     background-color: blue;
 }
-nav > h2.navK{
-    margin-right:50%;
+h2.navK{
+    text-align: left;
+    width:100%;
     justify-self: flex-start;
 }
 nav > button.navK{
     
     justify-self: flex-end;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:88%;
+    height: 30vh;
+    background-color: red;
+
+    margin:10px;
+}
+header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:88%;
+    height: 30vh;
+    background-color: red;
+
+    margin:10px;
+
 }
