@@ -39,6 +39,19 @@ nav{
     height:20vh;
     background-color: blue;
 }
+h1{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
+    color: white;
+    font: 2.5em Georgia, serif;
+}
+h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
+    margin-left: 12px;
+   display: flex;
+    align-items: center; 
+}
 h2.navK{
     text-align: left;
     width:100%;
@@ -47,6 +60,14 @@ h2.navK{
 nav > button.navK{
     
     justify-self: flex-end;
+}
+button.navK{
+    box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
+    background-color: black;
+    text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
+    color: orange;
+    font-size:1rem Arial, serif;
+    margin:12px;
 }
 header{
     display: inline-flex;
