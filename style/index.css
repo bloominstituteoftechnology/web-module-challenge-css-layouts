@@ -25,7 +25,7 @@
     nav {
         display: inline;
         float: right;
-        background-color: plum;
+        background-color: rgba(221, 57, 126, 0.795);
         padding: 5px;
         margin-right: 5px;
         border-radius: 0px;
@@ -55,8 +55,7 @@
         background-color: white;
     }
     
-    .flexContainer1,
-    .flexContainer2 {
+    .flexContainer1, .flexContainer2 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
