@@ -1,1 +1,82 @@
-/* Add CSS styling here */
+.mainContent{
+  background:#dfdfdfc7;
+  color: #000000;
+  display: flex;
+  margin:auto;
+  padding:1rem;
+  margin-right 1rem;
+  flex-flow: column;
+  justify-content: center;
+  font-family: El Messiri, sans-serif;
+
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top:0;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top:auto;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  margin-top:auto;
+}
+
+.buttonWrapper{
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  margin:auto;
+  margin-left:auto;
+  
+}
+
+#buttonProjects{
+  border-radius: .4rem;
+  width:6rem;
+  height:3rem;
+  outline: none;
+  color:#000000;
+  margin: .2rem;
+  background: #ff6262
+
+}
+#buttonContact{
+  color:#000000;
+  margin: .1rem;
+  background:#58c2ff;
+  border-radius:50%;
+  outline: none;
+}
+
+#buttonAbout{
+  color:#000000;
+  margin: .2rem;
+  background:#7fff6e;
+  outline: none;
+}
+
+
+
+
+
+#buttermilk{
+  height: 12rem;
+  width: 10rem;
+  border-radius:35%;
+  margin-left: 4rem;
+  filter: grayscale(10%);
+  display:flex;
+  margin-top:10rem;
+
+
+}
+
+
