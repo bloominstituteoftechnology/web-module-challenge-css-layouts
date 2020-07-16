@@ -87,3 +87,41 @@ div img{
 	width:10rem;
 }
 
+.main p{
+	margin-left: 48rem;
+}
+
+.project{
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: purple;
+	background-color: black;
+	border-radius: 6px;
+	outline: none;
+	height:3rem;
+}
+
+.main section{
+	margin-left: 60rem;
+	margin-right: 13rem;
+	margin-bottom: 3rem;
+}
+
+.gallary{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	height: 8rem;
+	margin-top:1rem;
+}
+
