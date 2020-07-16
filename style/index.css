@@ -9,7 +9,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,  
 table, caption, tbody, tfoot, thead, tr, th, td,  
 article, aside, canvas, details, embed,  
-figure, figcaption, footer, hgroup,  
+figure, figcaption, hgroup,  
 menu, output, ruby, section, summary,  
 time, mark, audio, video {  
 margin: 0;  
@@ -20,8 +20,7 @@ font: inherit;
 vertical-align: baseline;  
 }
 /* HTML5 display-role reset */
-article, aside, details, figcaption, figure,
-footer, hgroup, menu, section {
+article, aside, details, figcaption, figure, hgroup, menu, section {
     display: block;
 }
 
@@ -33,7 +32,7 @@ nav{
     flex-direction: row-reverse;
     height: 100%;
 }
-#nav{
+.nav{
     margin:11px;
     border: 2px solid black;
     width:94vw;
@@ -82,6 +81,7 @@ header > div{
 .projCon{
     display:flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .projectBoxes{
@@ -89,4 +89,8 @@ header > div{
     background-color: antiquewhite;
     width:12rem;
     height: 14rem;
+}
+footer > nav{
+    display: flex;
+    justify-content: center;
 }
