@@ -37,7 +37,11 @@ nav{
     border: 2px solid black;
     width:94vw;
     height:20vh;
-    background-color: blue;
+    background: rgb(5,4,77);
+background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
+rgba(9,9,121,1) 21%, 
+rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%, rgba(2,0,36,1) 89%);
+   
 }
 h1{
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
