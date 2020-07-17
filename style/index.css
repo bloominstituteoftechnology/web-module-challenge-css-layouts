@@ -1,27 +1,50 @@
-h1{     
-    display: flex;
-    font-family: 'Bangers';
+html{ font-size: 1.2em;
+
+}
+
+header{
+    display: block;
+    padding-block-start: 3%;
+    text-shadow: -5px -5px 6px black;
+    background-color: #5E17EB;
+}
+
+h1{
+    display:flex;
     justify-content: center;
-    flex-direction: row;
+    color: white;
+    font-family: 'Bangers';
+    letter-spacing: 0.1em;
+    font-size: 4em;
 }
 
-.banner{
+#intro{
     display: flex;
-    flex-direction: column; 
+    flex-wrap: nowrap;
 }
 
-.banner img{
-    display: flex;
-    align-self: center;
-    width: 90%;
-    height: auto; 
+#intro img{
+    display: block;
+    height: auto;
+    max-width: 25%;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
-
-.nav1 {
+#about{
     display: flex;
+    flex-flow: column wrap;
     justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 1rem;
 }
+
+
+
+header nav{
+    text-align: right;
+    margin-right: 1em;
+}
+
 
 .row1, .row2{
     display: flex;
