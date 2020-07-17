@@ -1,15 +1,18 @@
 body{
     display:flex;
     flex-flow: column;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #5e17eb;
+    max-width: 60%;
+    min-width: 60%;
+    height: auto;
 
 }
 
 button{        
     color:#5E17EB;
-    font-weight: ;
+    font-weight: lighter;
     font-family: fantasy;
     border-color: #000000;
     border-style: inset;
@@ -19,54 +22,63 @@ button{
 }
 
 header{
-    display: block;
-    padding-block-start: 3%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
     text-shadow: -5px -5px 6px black;
-    margin-bottom: 3%;
+    margin-bottom: 1em;
     background-color: #ffffff69;
     border-color: #ffffff;
     border-style: inset;
     border-width: 8px;
     box-shadow: 8px -6px 5px;
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
 }
 
 h1{
     display:flex;
     justify-content: center;
     color: white;
-    font-family: 'Bangers';
+    font-family: 'Bangers';    
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
     letter-spacing: 0.1em;
     font-size: 4em;
 }
 
 #intro {
     display: flex;
-    flex-direction: row-reverse;;
+    justify-content: center;
+    flex-direction: row-reverse;
     background-color: #ffffff69;
     border-color: #ffffff;
     border-style: inset;
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
     border-width: 8px;
     box-shadow: 8px -6px 5px;
 }
 
 #intro img{ 
-    display: flex;
-    justify-self: right;
-    padding: 22px;
-    width: 30%;
-    height: auto;
-}
+    padding: 2%;}
 
 #about{
     display: flex;
+
 }
 
 #about p{
     padding-left: 22px;
     display: flex;
-    font-size: 24px;
     text-align: right;
     color:white;
+    max-width: 80%;
+    min-width: 80%;
+    height: 80%;
 }
 
 #pic-container{
@@ -78,17 +90,20 @@ h1{
     color:white;
     text-align: center;
     margin-top: 2rem;
-    box-shadow: 8px -6px 5px;
+    box-shadow: 8px -6px 5px black;
     border-style: inset;
     border-color: #ffffff;
     border-width: 8px;
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
 }
 
 
 header nav{
     text-align: right;
     margin-right: 1em;
-}
+    }
 
 
 .row1, .row2{
@@ -106,15 +121,15 @@ header nav{
     background-color: #ffffff69;
     border-color: #ffffff;
     border-style: inset;
-    border-width: 8px;
+    border-width: 2%; 
     max-width: 15%;
     min-width: 15%;
     height: auto;
     margin-top: 10px;
 }
 
-.foot {
+.foot a{
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: flex-start;
+    color: white;
 }
