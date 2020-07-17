@@ -23,18 +23,16 @@ h1{
     flex-wrap: nowrap;
 }
 
-#intro img{
-    display: block;
+#intro img{    
+    isplay: block;
     height: auto;
-    max-width: 25%;
-    margin: 1rem 2rem 1rem 2rem;
+    max-width: 20%;
+    margin: 2rem 3rem 2rem 
 }
 
 #about{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-end;
-    align-items: flex-start;
+    font-size: 25px;
     margin-right: 1rem;
 }
 
