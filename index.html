@@ -7,25 +7,66 @@
     <link rel="stylesheet" href="./style/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>Main Page</title>
 </head>
+<STYLE>
+    A {
+        text-decoration: none;
+    }
+</STYLE>
 
 <body>
 
     <div class="mainContent">
-        <!--<img id="buttermilk" src="me1.jpg">-->
-        <h1>hello, World.</h1>
-        <h2>I am Johnathan Barnes</h2>
-        <h3>Based out of Appleton, Wisconsin</h3>
-        <!--</div>-->
-        <nav class="buttonWrapper">
-            <button id="buttonProjects">Projects</button>
-            <button id="buttonContact">Contact</button>
-            <button id="buttonAbout">About Me</button>
+        <div class="flexboxPhoto">
+            <img id="photo" src="ME2020.jpg">
+        </div>
+        <div class="flexMyName">
+            <a href="https://www.github.com/JohnathanBarnes" style="color:white target=" _blank" id="one">Johnathan F.
+                Barnes</a>
+        </div>
 
+        <nav class="buttonWrapper">
+            <button onclick="window.location.href='projects.html';" id="buttonProjects">Projects</button>
+            <!--<button onclick="window.location.href='contact.html';" id="buttonContact">Contact</button>-->
+            <button onclick="window.location.href='about.html';" id="buttonAbout">About Me</button>
         </nav>
     </div>
+    <div class="flexContainer">
+        <div class="leftFlexChild">
+            <img id="lf1"
+                src="https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y">
+            <img id="lf2"
+                src="https://images.unsplash.com/photo-1586326709898-0a344840a314?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80">
+        </div>
+        <div class="rightFlexChild">
+            <p id="Myblurb">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br>
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br>
+                deserunt mollit anim id est laborum.</p>
+            <div>
+                <button onclick="window.location.href='contact.html';" id="buttonContactBottom">Contact Me</button>
+            </div>
+        </div>
+    </div>
+    <section>
+        <img id="bottomPhoto"
+            src="https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/12466192_203617203316457_7565825682990994373_o.jpg?_nc_cat=100&_nc_sid=e007fa&_nc_ohc=5mGEjibCuFgAX-Xgky8&_nc_ht=scontent-ort2-2.xx&oh=33196ca41279a5d20ad81b55542749b3&oe=5F358457">
+    </section>
+
+
+
+    <!--<img id="lf2" src="https://i.picsum.photos/id/1062/5092/3395.jpg?hmac=o9m7qeU51uOLfXvepXcTrk2ZPiSBJEkiiOp-Qvxja-k">-->
+
+    </div>
+
 
 
 </body>
