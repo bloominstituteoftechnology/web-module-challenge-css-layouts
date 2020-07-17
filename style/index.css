@@ -1,12 +1,33 @@
-html{ font-size: 1.2em;
+body{
+    display:flex;
+    flex-flow: column;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: #5e17eb;
 
+}
+
+button{        
+    color:#5E17EB;
+    font-weight: ;
+    font-family: fantasy;
+    border-color: #000000;
+    border-style: inset;
+    background-color: #ffffff;
+    border-width: 2px;
+    box-shadow: 5px -5px 0px black;
 }
 
 header{
     display: block;
     padding-block-start: 3%;
     text-shadow: -5px -5px 6px black;
-    background-color: #5E17EB;
+    margin-bottom: 3%;
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 8px;
+    box-shadow: 8px -6px 5px;
 }
 
 h1{
@@ -18,24 +39,50 @@ h1{
     font-size: 4em;
 }
 
-#intro{
+#intro {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row-reverse;;
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 8px;
+    box-shadow: 8px -6px 5px;
 }
 
-#intro img{    
-    isplay: block;
+#intro img{ 
+    display: flex;
+    justify-self: right;
+    padding: 22px;
+    width: 30%;
     height: auto;
-    max-width: 20%;
-    margin: 2rem 3rem 2rem 
 }
 
 #about{
     display: flex;
-    font-size: 25px;
-    margin-right: 1rem;
 }
 
+#about p{
+    padding-left: 22px;
+    display: flex;
+    font-size: 24px;
+    text-align: right;
+    color:white;
+}
+
+#pic-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff69;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 8px -6px 5px;
+    border-style: inset;
+    border-color: #ffffff;
+    border-width: 8px;
+}
 
 
 header nav{
@@ -47,16 +94,21 @@ header nav{
 .row1, .row2{
     display: flex;
     flex-direction: row;
+    margin-top: 5em;
     justify-content: space-evenly;
-    }
+    
+    
+}
 
 
 .row1 img, .row2 img{
     display: flex;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #000000;
-    max-width: 10%;
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 8px;
+    max-width: 15%;
+    min-width: 15%;
     height: auto;
     margin-top: 10px;
 }
