@@ -39,3 +39,9 @@ h1{
     height: auto;
     margin-top: 10px;
 }
+
+.foot {
+    display: flex;
+    justify-content: flex-end;
+
+}
