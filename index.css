@@ -1,0 +1,144 @@
+/* Universal */
+
+*{
+    box-sizing: border-box;
+}
+/* Elements */
+body{
+    margin: 0;
+}
+footer{
+    background-color: gray;
+    font-size: 2.5rem;
+    height: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+h1{
+    font-size: 7.2rem;
+    margin: 1rem;
+}
+h2{
+    font-size: 3rem;
+}
+header{
+    background-color: gray;
+    margin: 0;
+    padding: 2rem;
+}
+html{
+    font-size: 10px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    margin-left: 5rem;
+}
+/* Classes */
+.aboutP{
+    font-size:3rem;
+    margin-left: 2rem;
+    width:80vw;
+}
+.active{
+    color: white;
+    background-color: black;
+}
+.heroP{
+    font-size: 2rem;
+    width: 50rem;
+}
+.image{
+    background-color: black;
+    height: 25rem;
+    margin: 3rem;
+    width: 25rem;
+}
+.menButton{
+    padding: 1rem;
+    text-align: center;
+    width: 12rem;
+}
+
+
+/* ID's */
+#footBut{
+    padding: 1rem 3rem;
+}
+#footP{
+    padding-top: 4rem;
+}
+#heroButton{
+    width: 13rem;
+    height: 3rem;
+}
+#heroImage{
+    background-color: black;
+    background-image: url('./assests/B&W.jpg');
+    background-position: 90% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    margin: 2rem;
+    width: 70rem;
+}
+#heroText{
+    margin-left: 7rem;
+}
+#image1{
+    background-image: url(./assests/Bearded.png);
+    background-position: center;
+    background-size: cover;
+
+}
+#image2{
+    background-image: url(./assests/Glimmer\ 1\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+#image3{
+    background-image: url(./assests/Monica\ 1\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+#image4{
+    background-image: url(./assests/pomo.png);
+    background-position: center;
+    background-size: cover;
+}
+#image5{
+    background-image: url(./assests/Simon.png);
+    background-position: center;
+    background-size: cover;
+}
+#image6{
+    background-image: url(./assests/Tatu\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+#image7{
+    background-image: url(./assests/tic.png);
+    background-position: center;
+    background-size: cover;
+}
+#image8{
+    background-image: url(./assests/trivia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#section1{
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroP {
+      width: 90%;
+    }
+  }
