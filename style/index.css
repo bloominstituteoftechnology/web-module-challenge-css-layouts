@@ -1,0 +1,23 @@
+.nav-container {
+    display: flex;
+    
+}
+
+.container-pics1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 20%;
+  }
+
+  .container-pics1 {
+      margin: flex: 1 1 auto;
+      border: 300px solid #000000;
+  }
+
+
+.banner {
+
+}
+
