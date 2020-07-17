@@ -1,1 +1,78 @@
 /* Add CSS styling here */
+
+
+/*Main Body Page */
+
+.topB
+{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+form
+{
+    margin-right: 20px;
+}
+
+.ProfilePic
+{
+    width: 400px;
+    height:auto;
+    object-fit: cover;
+}
+
+.projectPic
+{
+    width: 200px;
+    height:auto;
+}
+
+.myProjects
+{
+    margin-left:380px;
+    margin-top: 20px;
+}
+.MyName
+{
+    display: flex;
+}
+
+.MynameText
+{
+    margin-left: 20px;
+    width: 400px;
+}
+
+.projectsLinks1
+{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.projectLinks2
+{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+img
+{
+    margin-right: 20px;
+}
+
+footer
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.LinkedIn
+{
+    margin-right: 20px;
+}
+
+/*end of main body page*/
+
+/*Start of About me page/
+
