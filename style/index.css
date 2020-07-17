@@ -40,7 +40,8 @@ nav{
     background: rgb(5,4,77);
 background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
 rgba(9,9,121,1) 21%, 
-rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%, rgba(2,0,36,1) 89%);
+rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%,
+ rgba(2,0,36,1) 89%);
    
 }
 h1{
@@ -68,6 +69,14 @@ nav > button.navK{
 button.navK{
     box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
     background-color: black;
+    text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
+    color: orange;
+    font-size:1rem Arial, serif;
+    margin:12px;
+}
+button.navK:hover{
+    box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
+    background-color: green;
     text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
     color: orange;
     font-size:1rem Arial, serif;
@@ -102,6 +111,31 @@ background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
 
     margin:10px;
 
+}
+a{
+    color:orange;
+    text-decoration: none;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color:orange;
+}
+a:after{
+    color:orange;
+    text-decoration: none;
+}
+button.K:hover{
+    font-weight: 600;
+    color:black;
+    background: green;
+
+}
+button.K{
+    font-weight: 600;
+    color:black;
+    background: rgb(203,118,38);
+background: linear-gradient(5deg, rgba(203,118,38,1) 0%,
+ rgba(137,173,92,1) 34%, rgba(180,57,32,0.9022852793461135) 100%);
 }
 .K{
     
