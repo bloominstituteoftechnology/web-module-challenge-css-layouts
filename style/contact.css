@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#container {
+    background-color: #3282b8;
+    height: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+#myname {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 40%;
+}
+#myname a{
+    text-decoration: none;
+    font-family: 'Open-Sans', sans-serif;
+    color: #0f4c75;
+}
+#myname:hover a{
+    color: white;
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #bbe1fa;
+    margin: 0px 20px 0px 20px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#button1 {
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+  } 
+  #button1 a {
+    position: relative;
+    transition: all .25s ease-Out;
+    text-decoration: none;
+    color: #1b262c;
+  }
+
+#button1:hover {
+    background-color: #0f4c75;
+}
+
+#button1:hover a {
+    color: white;
+}
+
+body {
+    background-color: #bbe1fa;
+}
+
+.main-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body img {
+    height: 30rem;
+    margin: 1% 1% 1% 1%;
+    border-radius: 5%;
+}
+
+.main-text {
+    text-align: center;
+    text-justify: inter-word;
+    align-items: center;
+    padding: 0 0 1rem 1.5rem;
+    width: 650px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.main-text h1 {
+    font-size: 2.75rem;
+}
+
+footer {
+    background-color: #3282b8;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    font-family: "Open-Sans", sans-serif;
+}
