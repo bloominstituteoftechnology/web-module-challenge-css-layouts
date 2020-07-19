@@ -1,1 +1,161 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#container {
+    background-color: #3282b8;
+    height: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+#myname {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 40%;
+}
+#myname a{
+    text-decoration: none;
+    font-family: 'Open-Sans', sans-serif;
+    color: #bbe1fa;
+}
+#myname:hover a{
+    color: #0f4c75;
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #bbe1fa;
+    margin: 0px 20px 0px 20px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#button1 {
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+  } 
+  #button1 a {
+    position: relative;
+    transition: all .25s ease-Out;
+    text-decoration: none;
+    color: #1b262c;
+  }
+
+#button1:hover {
+    background-color: #0f4c75;
+}
+
+#button1:hover a {
+    color: white;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2%;
+    font-family: "Open-Sans", sans-serif;
+  }
+
+.intro img{
+    width: 25%;
+    margin: 1% 1% 1% 1%;
+    border-radius: 5%;
+}
+
+.intro .bio {
+    width: 600px;
+    margin: 0 2%;
+}
+
+.intro .bio h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding-bottom: 1.2%;
+    margin-bottom: 1.2%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.projects-heading h2{
+    font-size: 2.5rem;
+    margin-bottom: 0.5%;
+}
+
+.projects-heading {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.projects-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-family: "Open-Sans", sans-serif;
+
+}
+
+.project-item {
+    text-align: center;
+    margin: 0 1% 2%;
+}
+
+.project-thumbnail {
+    border-radius: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #3282b8;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    font-family: "Open-Sans", sans-serif;
+}
