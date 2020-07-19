@@ -22,34 +22,47 @@ vertical-align: baseline;
 header{
   width: 100%;
   height: auto;
-  border: 2px solid;
   margin: 1%;
-  dislay: flex;
+  display: flex;
   justify-content: center;
   text-align: center;
+  border-bottom: 2px solid lightgray;
   
 }
 
 h1{
   font-family: 'arial', bold;
-  font-size: 30px;
+  font-size: 4em;
 }
 
+h2 {
+  font-family: 'arial', bold;
+  font-size: 20px;
+}
+
+
 section {
-  width: 50%;
+  width: 100%;
   height: 40em;
   margin: 0 auto;
-  border: 2px solid;
+  border-bottom: 2px solid lightgray;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+div .a{
+  margin: 2%;
 }
 
 
 footer{
   width: 100%;
   height: 3em;
-  border: 2px solid;
+  border: 2px;
   margin: 1%;
   text-align: center;
+  background-color: lightslategrey;
   
 }
