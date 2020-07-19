@@ -91,66 +91,36 @@ body {
     background-color: #bbe1fa;
 }
 
-.intro {
+.container {
     display: flex;
-    flex-flow: row wrap;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 2%;
-    font-family: "Open-Sans", sans-serif;
-  }
+    color: 
+}
 
-.intro img{
-    width: 25%;
-    margin: 1% 1% 1% 1%;
+.container img {
+    height: 30rem;
+    margin: 0 0 0 0;
     border-radius: 5%;
 }
 
-.intro .bio {
-    width: 600px;
-    margin: 0 2%;
-}
-
-.intro .bio h2 {
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    padding-bottom: 1.2%;
-    margin-bottom: 1.2%;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.projects-heading h2{
-    font-size: 2.5rem;
-    margin-bottom: 0.5%;
-}
-
-.projects-heading {
+.main-text {
     text-align: center;
-    margin-bottom: 2%;
-    font-family: "Open-Sans", sans-serif;
-}
-
-.projects-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: center;
+    text-justify: inter-word;
     align-items: center;
+    padding: 0 0 1rem 1.5rem;
+    width: 650px;
     font-family: "Open-Sans", sans-serif;
-
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.project-item {
-    text-align: center;
-    margin: 0 1% 2%;
+.main-text h1 {
+    font-size: 2.75rem;
 }
 
-.project-thumbnail {
-    border-radius: 5%;
-    margin-bottom: 2%;
-    overflow: hidden;
-}
+
+
 
 footer {
     background-color: #3282b8;
