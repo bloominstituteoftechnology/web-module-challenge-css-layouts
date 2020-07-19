@@ -19,20 +19,17 @@ font: inherit;
 vertical-align: baseline;  
 }
 
-* {
-
-}
 
 .text-div{
   display: flex;
   flex-direction: column;
-  border: 2px solid; 
+  border: 2px; 
 }
 
 header{
     width: 100%;
     height: auto;
-    border: 2px solid;
+    border: 2px;
     display: inline-block;
     margin: 2%;
     
@@ -44,11 +41,14 @@ h1 {
     line-height: 40px;
     color: Black;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid;
+    border: 2px;
     margin: 0;
     display: inline-block;
 
+}
 
+h2{
+  font-size: 1.5em;
 }
 
 nav{
@@ -57,14 +57,34 @@ nav{
    margin-right: 3%;
 }
 
+.nav-bar{
+  border: 2px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+  
+}
+
+#nav-bar1{
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: black;
+    color: White;
+    font-size: 1.2em;
+  
+}
+
 .container{
     width: 100%;
     height: 300px;
     margin: 1%;
-    border: 2px solid;
+    border: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+  
     
 
 }
@@ -72,11 +92,13 @@ nav{
 .My-Name{
     width: 80%;
     height: 80%;
-    border: 2px solid;
+    border: 2px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #ADD8E6;
+    border-radius: 2%;
 
 
 }
@@ -87,7 +109,7 @@ div.box {
     text-align: center;
     width: 30%;
     height: 50%;
-    border: 2px solid;
+    border: 2px;
   
 }
 
@@ -104,6 +126,7 @@ img {
     width: 100%;
     height: 150px;
     background-color: blue;
+    border-radius: 2%;
 }
 .caption {
 
@@ -114,8 +137,26 @@ img {
 footer{
   width: 100%;
   height: 50px;
+  text-align:center;
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: gray;
+  background-color: #D3D3D3;
+  flex-wrap: wrap;
+}
+
+button{
+  width: 7em;
+  height: 2em;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
