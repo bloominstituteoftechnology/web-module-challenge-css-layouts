@@ -47,15 +47,93 @@ table {
 	border-spacing: 0;
 }
 
-.topnav{
-    display: flex;
-    justify-content: space-around;
-    background-color: pink;
-    font-size: 20px;
-    padding: 10px;
+* {
+	box-sizing: border-box;
 }
 
-h1{
-    font-size: 40px;
-    font-family: cursive;
+body {
+	background-color: lavender;
+	margin: 3em;
+	border: 2px dotted purple;
+	padding: 1em;
+}
+
+nav.navBar{
+display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin: 5%;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+a:hover{
+	background-color: indigo;
+	color: whitesmoke;
+}
+
+.myNavBar{
+	padding: 2%;
+}
+
+header{
+	padding: 3%;
+	margin: .05em;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: background: rgb(194,39,74);
+	background: linear-gradient(90deg, rgba(194,39,74,1) 0%, rgba(175,98,226,1) 25%, rgba(246,80,61,1) 46%, rgba(255,251,139,1) 70%, rgba(253,29,29,1) 99%);
+}
+
+h1, h2, h3 {
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	padding: 3%;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#mypic {
+	border-radius: 40%;
+	width: 25rem;
+	padding: 3rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.randomPics > img {
+	display: inline-block;
+	text-align: center;
+	line-height: 75px;
+	margin: 4px;
+}
+
+footer{
+	padding: 3%;
+	margin: .05em;
+	text-align: center;
+	background-color: background: rgb(194,39,74);
+	background: linear-gradient(90deg, rgba(194,39,74,1) 0%, rgba(175,98,226,1) 25%, rgba(246,80,61,1) 46%, rgba(255,251,139,1) 70%, rgba(253,29,29,1) 99%);
+}
+
+button{
+	border: 5px dotted yellow;
+	padding: 1%;
+	background-color: #9c95c9;
+}
+
+button:hover{
+	background-color: indigo;
+	color: whitesmoke;
 }
