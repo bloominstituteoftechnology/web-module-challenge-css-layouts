@@ -115,4 +115,7 @@ hr{
 	text-align: center;
 }
 
-
+.socials{
+	display: flex;
+	justify-content: center;
+}
