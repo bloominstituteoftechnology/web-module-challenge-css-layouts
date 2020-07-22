@@ -20,6 +20,10 @@ vertical-align: baseline;
 }
 
 
+html {
+  font-size: 62.5;
+}
+
 .text-div{
   display: flex;
   flex-direction: column;
@@ -161,3 +165,19 @@ button{
   background: #125688;
   color: white;
 }
+
+
+@media only screen and (max-width: 800px) {
+body{
+  background-color: pink;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  body{
+    background-color: teal; 
+  }
+}
+
