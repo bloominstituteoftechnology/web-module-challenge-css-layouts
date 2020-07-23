@@ -1,1 +1,285 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 10px;
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 5px;
+  }
+}
+header {
+  background-color: mediumseagreen;
+  background-size: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    background-size: 20px;
+  }
+}
+
+h1 {
+  font-family: Courgette;
+  font-size: 4rem;
+  margin: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+.Home {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #f87b99;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.About {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Project {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Contact {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 5%;
+  text-align: center;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 100px;
+  font-family: Merriweather;
+  font-size: 1.6rem;
+  text-align: right;
+  text-indent: auto;
+}
+
+.Aboutme {
+  display: inline-block;
+  text-align: right;
+  border-top: 2px solid black;
+  text-decoration: none;
+}
+
+.name-button {
+  text-align: right;
+  font-size: 2rem;
+  padding: 30px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.name-button button {
+  background-color: seagreen;
+}
+
+.name-button a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  float: left;
+  padding-left: 10px;
+}
+
+footer {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: mediumseagreen;
+  background-size: auto;
+  text-decoration: none;
+}
+
+.Like h4 {
+  padding: 40px 0px 0px 0px;
+  font-size: 3rem;
+}
+
+.Like button {
+  margin: 5px;
+  background-color: sandybrown;
+  cursor: pointer;
+}
+
+.Like a {
+  text-decoration: none;
+  color: black;
+}
+
+.Projects ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Projects li {
+  margin: 30px 0 100px 10px;
+  padding: 1px 0 0 0;
+}
+
+.Projects {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 81%;
+}
+
+.navlinks ul {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  list-style: none;
+}
+@media only screen and (max-width: 800px) {
+  .navlinks ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
+}
+
+.navlinks li {
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 5%;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: #f87b99;
+}
+
+@media only screen and (max-width: 800px) {
+  .navlinks li {
+    width: 8%;
+    margin: 0;
+    border: 1px solid black;
+  }
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons i {
+  width: 70px;
+  font-size: 5rem;
+  padding: 15px;
+  cursor: pointer;
+}
