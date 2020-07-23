@@ -46,6 +46,7 @@ table {
 	border-spacing: 0;
 }
 * {
+	max-width: 100%;
 	box-sizing: border-box;
 	border: 80%;
 }
@@ -121,20 +122,35 @@ p {
 	font-size:20px;
 }
 
+a {
+	text-decoration: none;
+
+}
+
 .button {
 	display:flex;
 	justify-content: flex-end;
 	margin-right: 20rem;
 }
 button {
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+	width: 3.5rem;
+	height: 3.5rem;
 	border: none;
-	border-radius: 30%;
+	border-radius: 100%;
+	color: black;
 }
 
 button:hover {
-	animation: expand .9s infinite;
+	animation: expand .3s linear forwards;
+	color: white;
+}
+
+footer div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+	padding-top: 2%;
 }
 
 @keyframes expand {
@@ -142,16 +158,24 @@ button:hover {
 		padding: 3%;
 		background-color: black;
 	}
-	50% {
+	25% {
 		padding: 4%;
 		background-color: black;
 	}
+	50% {
+		padding: 5%;
+		background-color: black;
+	}
+	75% {
+		padding: 6%;
+		background-color: black;
+	}
 	100% {
-		padding:5%;
+		padding:7%;
 		background-color: black;
 	}
 	}
-}
+
 .intro .button {
 	display: flex;
 	justify-content: flex-end;
@@ -168,7 +192,13 @@ button:hover {
 		font-size: 1rem;
 	}
 
-	.button {
+	/* .button {
 		margin-left: 80%;
-	}
+	} */
+}
+
+/* Media Queries */
+
+@media (max-width:500px) {
+
 }
