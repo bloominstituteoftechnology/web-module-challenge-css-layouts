@@ -157,20 +157,22 @@ p{
 
 @media (max-width: 500px){
  .topbtns{
-	 flex-direction: column;
- }
+	display: flex;
+	max-width: 100%;
+	}
 
  h1{
 	text-align: center;
 }
 
 .me{
-	margin-left: -75px;
+max-width: 100%;
 }
 
 .container2, .container3 {
 	display: flex;
 	justify-content: space-evenly;
+    width: 100%;
 }
 
 
@@ -190,14 +192,48 @@ p{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+}
+
+.container1 a{
+width: 50%;
+}
+}
+
+@media (max-width: 800px){
+.topbtns{
+	display: flex;
+	flex-direction: column;
+	max-width: 25%;
+	justify-content: center;
+	margin-left: 35%;
+}
+
+h1{
+	text-align: center;
+	margin-right: 5%;
+}
+
+.container2, .container3 {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.container1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	margin-right: 5%;
 }
 
 .container1 a{
-	margin-left: 50px;
+	margin-left: 33%;
 }
+
+.me{
+	margin-left: 1%;
+	max-width: 100%;
 }
 
-
-
-
+}
