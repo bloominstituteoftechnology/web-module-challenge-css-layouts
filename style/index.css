@@ -76,10 +76,10 @@ h2{
 
 .container1{
 	display: flex;
-	text-align: left;
 	width: 80%;
 	margin-left: 10px;
 	font-size: 20px;
+
 }
 
 .container1 a{
@@ -92,7 +92,6 @@ h2{
 	color: white;
 	font-size: 16px;
 	padding: 15px 32px;
-
 }
 
 .container1 .topcontent{
@@ -105,22 +104,18 @@ hr{
     visibility: hidden;
 }
 
-.container2{
+.container2, .container3{
 	font-family: 'Roboto';
 	display: flex;
 	text-align: center;
-	justify-content: space-evenly;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
-}
-
-.container3{
-	display: flex;
+	width: 90%;
+	margin: 0 auto;
 	justify-content: space-evenly;
-	text-align: center;
-	font-family: 'Roboto';
 
 }
+
 
 .socials{
 	display: flex;
@@ -143,28 +138,35 @@ p{
 
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
  .topbtns{
 	 flex-direction: column;
  }
-}
 
-@media (min-width: 500px){
-h1{
+ h1{
 	text-align: center;
 }
+
+.me{
+	display: flex;
+	margin-left: 30px;
 }
 
-@media (min-width: 500px){
-	.me{
-		display: flex;
-		margin-left: 30px;
-	}
+.container2, .container3 {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-@media (min-width: 500px){
-	.gallarytext {
-		display: flex;
-		justify-content: center;
-	}
+
+.container2 img{
+	justify-content: space-evenly;
 }
+
+.container3 img{
+	justify-content: space-evenly;
+}
+}
+
+
+
+
