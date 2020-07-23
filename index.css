@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 /* Elements */
+a{
+    color: #D7D9CE;
+
+}
 body{
     margin: 0;
+    background-color: #D7D9CE;
+    color: #091F20;
+    font-family: 'Lato', sans-serif;
+
+}
+button{
+    border: 1px solid #091F20;
+    background-color: #D7D9CE;
+    color: #040404;
 }
 footer{
-    background-color: gray;
+    background-color: #040404;
+    color: #D7D9CE;
     font-size: 2.5rem;
     height: 20rem;
     margin-top: 2rem;
@@ -17,12 +31,17 @@ footer{
 h1{
     font-size: 7.2rem;
     margin: 1rem;
+    color: #119DA4;
+    font-family: 'Raleway', sans-serif;
 }
 h2{
     font-size: 3rem;
+    color: #0C7489;
+    font-family: 'Raleway', sans-serif;
 }
 header{
-    background-color: gray;
+    background-color: #040404;
+    color: #D7D9CE;
     margin: 0;
     padding: 2rem;
 }
@@ -36,16 +55,16 @@ nav{
 }
 /* Classes */
 .aboutP{
-    font-size:3rem;
+    font-size:2rem;
     margin-left: 2rem;
     width:80vw;
 }
 .active{
-    color: white;
-    background-color: black;
+    color: #D7D9CE;
+    background-color: #13505B;
 }
 .heroP{
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 50rem;
 }
 .image{
@@ -71,10 +90,13 @@ nav{
 #heroButton{
     width: 13rem;
     height: 3rem;
+    background-color: #13505B;
+    color: #D7D9CE;
+    border: none;
 }
 #heroImage{
     background-color: black;
-    background-image: url('./assests/B&W.jpg');
+    background-image: url('./assests/imageedit_19_7192569185.jpg');
     background-position: 90% 25%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,6 +152,7 @@ nav{
     align-items: flex-end;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #section2{
     display: flex;
@@ -137,8 +160,63 @@ nav{
     justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 600px) {
-    .heroP {
-      width: 90%;
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 12vw;
     }
+    h2{
+        font-size: 7.5vw;
+    }
+
+    header{
+        background-color: #D7D9CE;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .menButton{
+        padding: 1.5rem;
+        width: 15rem;
+        font-size: 1.75rem;
+        margin: 0;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    #heroImage{
+        width: 90vw;
+        margin: 2rem auto;
+        height: 65vw;
+    }
+    #heroText{
+        margin:  0;
+    }
+    #heroButton{
+        padding: 1.5rem;
+        width: 15rem;
+        font-size: 1.75rem;
+        height: inherit;
+    }
+    .heroP {
+      width: inherit;
+      margin: 4rem !important;
+      text-align: center;
+    }
+    #section1{
+        text-align: center;
+
+    }
+    .image{
+        margin: 0;
+        margin-bottom: 7rem;
+        margin-right: 1px;
+        margin-left: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+
   }
