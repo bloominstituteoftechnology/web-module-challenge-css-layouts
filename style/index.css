@@ -1,2 +1,109 @@
-/* Add CSS styling here */
-/* halp */
+body{
+
+}
+.container{
+    background-color: #cceabb;
+    width: auto;
+}
+p{
+    
+}
+h1,
+h2{
+
+}
+
+/*  */
+footer,
+header{
+    background-color: #fdcb9e;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:0px 4px 10px gray;
+}
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 50px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 100px;
+    padding:10px 27px;
+    margin: 9%;
+    background-color:#f7f7f7;
+    border: none;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #3f3f44;
+}
+
+/*  */
+.intro{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.intro h2{
+    display: flex;
+    align-items:flex-start;
+    margin: 20px 3%;
+}
+
+
+/*  */
+
+.largeImage{
+    display: flex;
+
+    width: 100%;
+
+}
+
+/*  */
+
+#imageWinfo{
+    display: flex;
+    margin: 30px 2%;
+}
+#imageWinfo .images{
+    display:flex;
+}
+.projectA,
+.projectB,
+.projectC{
+    display: flex;
+}
+.projectA img{
+    display: flex;
+    height: 90%;
+    align-items: baseline;
+}
+.projectB img{
+    display: flex;
+    height: 90%;
+    margin-top: 20px;
+}
+.projectC img{
+    display: flex;
+    height: 90%;
+    margin-top: 30px;
+}
+.projectInfo{
+    display: flex;
+    text-align: center;
+}
+/*  */
+
+footer{
+    display: flex;
+}
+
+button a{
+    text-decoration: none;
+}
