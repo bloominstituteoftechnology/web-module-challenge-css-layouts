@@ -105,8 +105,8 @@ h2 {
 	border: 1px solid !important;
 } */
 
-span:hover {
-	width: 70%%
+img:hover {
+	width: 30%;
 }
 
 .mvp {
@@ -125,6 +125,32 @@ p {
 	display:flex;
 	justify-content: flex-end;
 	margin-right: 20rem;
+}
+button {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	border: none;
+	border-radius: 30%;
+}
+
+button:hover {
+	animation: expand .9s infinite;
+}
+
+@keyframes expand {
+	0% {
+		padding: 3%;
+		background-color: black;
+	}
+	50% {
+		padding: 4%;
+		background-color: black;
+	}
+	100% {
+		padding:5%;
+		background-color: black;
+	}
+	}
 }
 .intro .button {
 	display: flex;
