@@ -72,7 +72,92 @@ footer
     margin-right: 20px;
 }
 
+
 /*end of main body page*/
 
-/*Start of About me page/
+/*Start of About me page*/
 
+@media (max-width:800px)
+
+   
+{
+    .myProjects
+    {
+        margin-left: 100px;
+    }
+    .ProfilePic
+    {
+        width: 50%;
+        height: auto;
+        margin:0;
+
+    }
+    .projectsLinks1
+    {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .projectLinks2
+    {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .projectPic
+    {
+        margin: 0;
+        width: 200px;
+        height: 150px;
+
+    }
+}
+
+@media (max-width:501px)
+{
+    .ProfilePic
+    {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .MyName
+    {
+        display: inline;
+    }
+
+    header h1 
+    {
+        margin-left: 120px;
+    }
+
+    .topB
+    {
+        display: block;
+        margin-left: 200px;
+    }
+    .HeaderButton
+    {
+        margin-bottom: 20px;
+    }
+
+    .projectsLinks1
+    {
+        margin-left: 20px;
+    }
+
+    .projectLinks2
+    {
+        margin-left: 20px;
+    }
+    
+    footer
+    {
+        margin-left: 150px;
+    }
+
+    html
+    {
+        font-size: 100%;
+    }
+}
