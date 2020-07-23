@@ -195,7 +195,7 @@ max-width: 100%;
 }
 
 .container1 a{
-width: 50%;
+	max-width: 100%;
 }
 }
 
