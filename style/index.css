@@ -78,6 +78,7 @@ header h1{
 
 .largeImage{
     display: flex;
+    margin: 0 auto;
 }
 
 /*  */
