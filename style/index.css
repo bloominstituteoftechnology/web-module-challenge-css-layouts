@@ -4,20 +4,17 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     background-color: #5e17eb;
-    max-width: 60%;
-    min-width: 60%;
-    height: auto;
 
 }
 
 button{        
     color:#5E17EB;
+    text-align: center;
     font-weight: lighter;
     font-family: fantasy;
     border-color: #000000;
     border-style: inset;
     background-color: #ffffff;
-    border-width: 2px;
     box-shadow: 5px -5px 0px black;
 }
 
@@ -32,9 +29,6 @@ header{
     border-style: inset;
     border-width: 8px;
     box-shadow: 8px -6px 5px;
-    max-width: 80%;
-    min-width: 80%;
-    height: auto;
 }
 
 h1{
@@ -42,29 +36,29 @@ h1{
     justify-content: center;
     color: white;
     font-family: 'Bangers';    
-    max-width: 80%;
-    min-width: 80%;
-    height: auto;
-    letter-spacing: 0.1em;
-    font-size: 4em;
+    width: 70%;
+    padding: 0%;
+    margin-left: 15%;
+    padding-left: 0%;
+    letter-spacing: 4px;
 }
 
 #intro {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+
     background-color: #ffffff69;
     border-color: #ffffff;
     border-style: inset;
-    max-width: 80%;
-    min-width: 80%;
-    height: auto;
     border-width: 8px;
-    box-shadow: 8px -6px 5px;
 }
 
-#intro img{ 
-    padding: 2%;}
+
+.me img{
+    
+    width: 70%;
+    padding: 0%;
+    margin-left: 15%;
+    padding-left: 0%;
+}
 
 #about{
     display: flex;
@@ -72,13 +66,9 @@ h1{
 }
 
 #about p{
-    padding-left: 22px;
     display: flex;
     text-align: right;
     color:white;
-    max-width: 80%;
-    min-width: 80%;
-    height: 80%;
 }
 
 #pic-container{
@@ -94,15 +84,6 @@ h1{
     border-style: inset;
     border-color: #ffffff;
     border-width: 8px;
-    max-width: 80%;
-    min-width: 80%;
-    height: auto;
-}
-
-
-header nav{
-    text-align: right;
-    margin-right: 1em;
     }
 
 
@@ -111,7 +92,6 @@ header nav{
     flex-direction: row;
     margin-top: 5em;
     justify-content: space-evenly;
-    
     
 }
 
@@ -132,4 +112,12 @@ header nav{
     display: flex;
     justify-content: flex-start;
     color: white;
+}
+
+@media(max-width: 800px){
+    
+}
+
+@media(max-width: 500px){
+    
 }
