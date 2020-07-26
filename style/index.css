@@ -164,9 +164,15 @@ footer {
 }
 
 @media only screen and (max-width: 800px){
-
+    .button {
+        width: 110px;
+        margin: 0px 5px 0px 5px;
+    }
+    .intro img {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-
+    
 }
