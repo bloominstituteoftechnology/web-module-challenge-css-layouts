@@ -54,9 +54,9 @@ footer, header, hgroup, menu, nav, section {
 .button {
     display: inline-flex;
     height: 40px;
-    width: 150px;
+    width: 120px;
     border: 1px solid #bbe1fa;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 5px 0px 5px;
     color: darkgrey;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -97,7 +97,7 @@ body {
 }
 
 .main-body img {
-    height: 30rem;
+    width: 30%;
     margin: 1% 1% 1% 1%;
     border-radius: 5%;
 }
@@ -127,4 +127,11 @@ footer {
     justify-content: center;
     height: 20px;
     font-family: "Open-Sans", sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .button {
+        width: 120px;
+        margin: 0px 5px 0px 5px;
+    }
 }
