@@ -29,19 +29,18 @@ footer, header, hgroup, menu, nav, section {
     height: 1rem;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
+    padding: 25px 0 50px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Open-Sans', sans-serif;
 }
 
 #myname {
     font-size: 2.5rem;
-    text-align: center;
-    margin-right: 40%;
+    /* margin-right: 40%; */
 }
 #myname a{
     text-decoration: none;
