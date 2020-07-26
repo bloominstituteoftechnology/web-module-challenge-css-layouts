@@ -131,13 +131,47 @@ footer {
     font-family: "Open-Sans", sans-serif;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px){
+    #container {
+        display: inline-flex;
+        height: auto;
+        padding: 15px 0 15px 0;
+    }
     .button {
-        width: 120px;
-        margin: 0px 5px 0px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 60px;
+        font-size: 0.5rem;
+        height: 30px;
+        margin: 0;
+        text-align: center;
+    }
+    #myname {
+        font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
-
+    #container {
+        height: auto;
+        padding: 10px 0 10px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+    }
+    .button {
+        font-size: 0.8rem;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+    }
+    #myname {
+        font-size: 2.5rem;
+    }
 }
