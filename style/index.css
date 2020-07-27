@@ -4,6 +4,11 @@ body{
 .container{
     background-color: #cceabb;
     width: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 p{
     font-family: 'Lexend Zetta', Regular; 
@@ -36,6 +41,7 @@ header{
     display: flex; 
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
 }
 .headerNav a{
     text-decoration: none;
@@ -84,7 +90,7 @@ intro p{
 .largeImage{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -133,11 +139,52 @@ button a{
     text-decoration: none;
 }
 
+/*  */
 @media (max-width:800px) {
+    .container{
+        width:auto;
+    }
+    
     .largeImage{
         justify-content: center;
     }
-    .topContent #intro p{
+
+    #imageWinfo{
+        flex-direction:column;
+    }
+    #imageWinfo img{
+        display: flex;
+        flex-direction:column;
+        width:100%;
+    }
+    #imageWinfo p{
+        flex-direction:column;
+    }
+  
+    /* .topContent #intro p{
         justify-content: center;
+    } */
+}
+
+@media(max-width:500px) {
+    .container{
+        width:auto;
+    }
+    
+    .largeImage img{
+        justify-content: center;
+        width:auto
+    }
+
+    #imageWinfo img{
+        display: flex;
+        flex-direction:column;
+        width:100%;
     }
 }
+
+/* The large image- I can't get to move fluidly
+
+The image and paragraph- I can't get them to stack at 500
+
+Look for the bottom button and the space of the items in the header after a certain point*/
