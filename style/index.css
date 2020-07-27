@@ -104,32 +104,26 @@ intro p{
     display:flex;
     justify-content: flex-end;
 }
-/* .projectA,
+.projectA,
 .projectB,
 .projectC{
-    display: flex;
 }
 .projectA img{
-    display: flex;
     height: 90%;
     align-items: baseline;
 }
 .projectB img{
-    display: flex;
     height: 90%;
     margin-top: 20px;
 }
 .projectC img{
-    display: flex;
     height: 90%;
     margin-top: 40px;
 }
 .projectInfo{
-    display: flex;
     text-align: center;
     margin-top: 70px;
-} */
-/*  */
+} 
 
 footer{
     display: flex;
@@ -137,4 +131,13 @@ footer{
 
 button a{
     text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .largeImage{
+        justify-content: center;
+    }
+    .topContent #intro p{
+        justify-content: center;
+    }
 }
