@@ -4,9 +4,9 @@ body{
 .container{
     background-color: #cceabb;
     width: auto;
-    display:flex;
+    /* display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 
 
 }
@@ -95,18 +95,16 @@ intro p{
 }
 
 /*  */
-
-#imageWinfo{
+#twoBlock{
     display: flex;
-    flex-direction: row;
-    margin: 30px 2%;
+    justify-content: space-evenly;
 }
-#imageWinfo .images{
+.images{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-#imageWinfo p{
+.projectInfo p{
     display:flex;
     justify-content: flex-end;
 }
@@ -149,15 +147,17 @@ button a{
         justify-content: center;
     }
 
-    #imageWinfo{
-        flex-direction:column;
+    #twoBlock{
+        flex-direction: column;
     }
-    #imageWinfo img{
+    .images{
+        flex-direction:row;
         display: flex;
-        flex-direction:column;
+        justify-content: center;
+        margin-top: 8%;
         width:100%;
     }
-    #imageWinfo p{
+    .projectInfo p{
         flex-direction:column;
     }
   
@@ -173,14 +173,8 @@ button a{
     
     .largeImage img{
         justify-content: center;
-        width:auto
     }
 
-    #imageWinfo img{
-        display: flex;
-        flex-direction:column;
-        width:100%;
-    }
 }
 
 /* The large image- I can't get to move fluidly
