@@ -39,6 +39,7 @@ font-size: 46px;
 .bodyImgs{
     display: flex;
     justify-content: center;
+   
 }
 .bodyImgs img{
    max-width: 750px;
