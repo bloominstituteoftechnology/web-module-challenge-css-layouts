@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.navDiv{
+    background-color: #d5dbd6;
+}
+.navBar{
+    display:flex;
+    background-color: #d5dbd6;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+.navBar a{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    padding: .6%;
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.navBar a:hover{
+    background-color: black;
+    color: white;
+}
+.navBar:visited{
+    text-decoration: none;
+}
+.myName{
+margin: 0px;
+padding: 25px;
+font-family: 'Lobster', cursive;
+font-size: 46px;
+}
