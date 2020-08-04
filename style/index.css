@@ -20,7 +20,9 @@ body{
     border: 1px solid black;
     padding-left: 20px;
     padding-right: 20px;
+    color: black;
 }
+
 .navBar a:hover{
     background-color: black;
     color: white;
@@ -65,6 +67,8 @@ font-size: 46px;
     padding-left: 200px;
     padding-right: 200px;
     flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
 }
 .imgGroups img{
     padding: 10px;
