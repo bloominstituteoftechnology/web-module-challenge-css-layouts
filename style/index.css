@@ -1,1 +1,119 @@
-/* Add CSS styling here */
+/* Option 1 Wireframe Layout */
+
+/* CSS Reset (Meyer) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0;  UNCOMMENT WHEN SUBMIT */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Styling Defaults */
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid gray;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    color: teal;
+    /*font-family: */
+    line-height: 1.2;
+}
+a{
+    text-decoration:none;
+}
+
+
+/* Header Section */
+header{
+    background-color:lightblue;
+}
+
+h1{
+    font-size: 3rem;
+    font-variant:small-caps;
+    margin: 2.5% 2.5% 0 2.5%;
+}
+
+nav{
+    font-size: 1.5rem;
+    margin: 1% 1% 1% 5%;
+}
+
+/* Main Section - Intro */
+section{
+    background-color:lightgoldenrodyellow;
+}
+
+#intro-subsect{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#main-pic{
+    width:45%;
+    margin:2.5%;
+}
+
+#intro-txt{
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    align-content: flex-end; 
+    margin: 10% 5% 1% 5%;
+}
+h2{
+    font-size: 2rem;
+    font-variant:small-caps;
+}
+
+/* Main Section - Pic */
+
+#pic-subsect{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.profile-line1{
+    display:flex;
+    text-align:center;
+}
+
+.profile-line2{
+    display:flex;
+    text-align:center;
+}
+
+/* .catOne img{
+    width:50%;
+} */
+
+/* Footer */
+footer{
+    background-color:lightblue;
+    padding: 5%;
+    text-align: center;
+}
+
+p.footer{
+    font-size: 2rem;
+}
