@@ -1,0 +1,219 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /*border: 0;*/
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Above is the reset text, not design text */
+
+* {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+/* Universal Selector */
+/* This is the header section */
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  align-content: flex-start;
+}
+
+.links {
+  display: flex;
+  align-content: flex-end;
+}
+a {
+  text-decoration: none;
+}
+
+.headBG {
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  height: 60vh;
+  padding-bottom: 5%;
+}
+
+/*  This is the projects section */
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 2%;
+    margin-left: 20%;
+}
+
+.boxOne {
+    display: flex;
+    width: 33%;
+    
+ 
+}
+
+.boxTwo {
+    display: flex;
+    width: 33%;
+
+}
+
+.boxThree {
+    width: 33%;
+  display: flex;
+
+}
+.wrap {
+    display: flex;
+}
+.boxFour {
+    width: 33%;
+  display: flex;
+ 
+}
+
+.boxFive {
+  display: flex;
+  width: 33%; 
+}
+
+.boxSix {
+  display: flex;
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+/* This ends the projects section */
+
+/*This is the footer section */
+
+footer {
+  background-color: #253346;
+}
