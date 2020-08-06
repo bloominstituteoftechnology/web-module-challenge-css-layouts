@@ -14,26 +14,50 @@ time, mark, audio, video {
 margin: 0;  
 padding: 0;  
 border: 1px solid maroon;
-/* border: none;   */
+border: none;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 box-sizing: border-box;
-
+text-decoration: none;
 }
 /* Add CSS styling here */
 * {
-    background-color: white;
+    background-color: #EFBE93;
+    color: #100110;
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    font-size: 300%;
+    margin: 1rem;
 }
 
 nav {
     display: flex;
+    width: 100%;
     justify-content: center;
+}
+
+.nav_width {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+a {
+    background-color: #C9806A;
+    padding: 1rem;
+    border: 0.1rem solid #5A1838;
+    border-radius: 1rem;
+    box-shadow: -2px 2px #100110;
+
+}
+
+a:hover {
+    background-color: #A44849;
+    color: #100110;
 }
 
 .section1 {
@@ -41,10 +65,15 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 1rem;
+}
+
+.section1 h2 {
+    font-size: 200%
 }
 
 .section1 p {
-    width: 60%;
+    width: 40%;
 }
 
 .section3 {
@@ -52,13 +81,24 @@ nav {
     align-items: center;
 }
 
+.project_images {
+    display: flex;
+    justify-content: right;
+}
+
 .project_paragraph {
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
+    width: 50%;
+    background: none;
 }
+
+.project_images img {
+    width: 40%;
+    margin: 0.5rem;
+}
+
 
 
 footer {
@@ -68,3 +108,4 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
