@@ -1,1 +1,78 @@
 /* Add CSS styling here */
+/*Minimal CSS Reset*/
+/*https://www.digitalocean.com/community/tutorials/css-minimal-css-reset*/
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 01;
+    padding: 01;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    height: auto;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .navbar{
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+  
+  }
+  a{
+   
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border:5px black solid;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+  .detroit1{
+  width: 100%;
+  }
+  
+  .flex-container{
+    display: flex;
+    align-items: row;
+  
+  }
+  .detroit2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 16rem;
+    margin: 1rem;
+  }
+  .p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    padding:25px ;
+    background-color: gray;
+  }
+  .contact{
+    color:black;
+    background-color: white;
+    border: 3px solid black;
+  }
+  
+  #d1{
+    height:10.8em ;
+  }
