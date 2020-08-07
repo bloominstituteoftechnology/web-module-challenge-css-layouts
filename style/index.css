@@ -15,14 +15,10 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-
-* {
-    border: 1px solid black;
 }
 
 img {
@@ -72,26 +68,37 @@ h2, p {
 
 .header-text {
     margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 /* SECTION 1 */
 
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
 .laptop-img {
     background-image: url(/photos/laptop.jpg);
     background-size: cover;
-    background-position:bottom;
-    height: 40vh;
+    background-position: center;
+    height: 30vh;
+    width: 80%;
+    margin-bottom: .5%;
 }
 
 /* SECTION 2 */
 
 .section2 {
-    display:flex;
-
+    display: flex;
+    justify-content: center;
 }
 
-.vertical-images {
+.section2-text {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
 }
 
 /* FOOTER */
@@ -102,8 +109,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.footer-contact {
-
 }
