@@ -84,7 +84,7 @@ video {
   /*border: 0;*/
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  /*vertical-align: baseline;*/
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -127,7 +127,7 @@ table {
 
 * {
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 2px solid black; 
 }
 
 /* Universal Selector */
@@ -160,54 +160,17 @@ a {
 }
 
 /*  This is the projects section */
+
+
+section.two {
+    width: 90%;
+}
+
 .projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    width: 50%;
-    padding: 2%;
-    margin-left: 20%;
-}
 
-.boxOne {
-    display: flex;
-    width: 33%;
-    
- 
-}
-
-.boxTwo {
-    display: flex;
-    width: 33%;
-
-}
-
-.boxThree {
-    width: 33%;
-  display: flex;
-
-}
-.wrap {
-    display: flex;
-}
-.boxFour {
-    width: 33%;
-  display: flex;
- 
-}
-
-.boxFive {
-  display: flex;
-  width: 33%; 
-}
-
-.boxSix {
-  display: flex;
-  width: 33%;
-  flex-wrap: wrap;
 }
 
 /* This ends the projects section */
