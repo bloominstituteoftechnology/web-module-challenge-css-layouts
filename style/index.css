@@ -110,6 +110,7 @@ section h2 {
 /*==============================================================*/
 
 footer {
-    padding:2% 5%;
-
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;  
 }
