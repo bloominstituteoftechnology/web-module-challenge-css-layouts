@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kaushan+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #C3E0E5;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 2.5rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.5;
+}
+
+
+h1{
+  font-family:'Kaushan Script', cursive;
+  font-size: 8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: none;
+}
+
+section {
+  padding: 4%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1rem 10rem;
+  background-color: #5885AF;
+}
+
+li, a{
+  color: #274472; 
+  text-decoration: none;
+  background: none;
+}
+
+.logo{
+  width:15%;
+  cursor: pointer;
+  background: none;
+}
+
+.nav-links{
+  list-style: none;
+  background: none;
+}
+
+.nav-links, li{
+  display: inline-block;
+  padding: 0 5rem;
+  background: none;
+}
+
+.button{
+  font-weight: 500;
+  font-size: 4rem;
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 1rem;
+  color: black;
+  background: none;
+}
+
+.main-text{
+  width: 91%;
+  height: 70vh;
+  margin:0% 4%;
+  background: url(images/main_background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-row > img{
+  width: 50rem;
+  height: 50rem;
+}
+
+.top-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+img:hover {
+	border: 5px dotted #274472;
+}
+
+.bottom-row > img{
+  width: 50rem;
+  height: 50rem;
+}
+
+.bottom-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+  border: 2px solid black;
+  background-color: #5885AF;
+}
