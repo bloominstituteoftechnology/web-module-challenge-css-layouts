@@ -1,1 +1,127 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header{
+    display:flex;
+    margin: 2% 0%;
+}
+
+#title{
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+nav{
+    display:flex;
+    width: 70%;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+a{
+    width: 20%;
+    text-align: center;
+    border-radius: 1%;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#banner{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 50%;    
+}
+
+#backpic{
+width: 100%;
+}
+
+#description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  #name1 {
+      font-size: 200%;
+      color: white;
+  }
+
+  #projects{
+      text-decoration:none;
+      margin: 30px;
+      color: white;
+      align-items: stretch;
+      background-color: black;
+      padding: 4%;;
+  }
+
+  h4{
+      text-align: center;
+  }
+
+  .line{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+  }
+
+  footer {
+      display:flex;
+      justify-content: center;
+  }
+  #footcontact{
+      margin: 5% 0% 0% 0%;
+
+      text-align: center;
+  }
+
+  .home {
+      border-color: black;
+      background-color: green;
+  }
+
+  .contact {
+    border-color: black;
+    background-color: grey;
+  }
+
+  .about {
+    border-color: black;
+    background-color: grey;
+  }
+
+.projects {
+    border-color: black;
+    background-color: grey;
+}
