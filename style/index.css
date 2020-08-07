@@ -1,1 +1,126 @@
+
 /* Add CSS styling here */
+.body{
+    background-color: #EAD2AC;
+}
+.title{
+    height: 75px;
+    border: solid 2px purple;
+    font-family: 'Leckerli One', cursive;
+    font-weight: bold;
+    background-color: #463532;
+    color: salmon;
+    display: flex;
+    justify-content: center;
+}
+.topnav{
+    height: 50px;
+    border: solid 2px cyan;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    font-family: "Leckerli One", cursive;
+    background-color: #B5838D;
+}
+.home{
+    border:2px solid #6D6875;
+    border-radius: 15px;
+    background-color: #4281a4;
+    color: white;
+    transition: 2s;
+}
+.home:hover{
+    background-color: white;
+    color: #4281A4;
+}
+.about{
+    border:2px solid blue;
+    border-radius: 15px;
+    background-color: #6D6875;
+    color: white;
+    transition: 2s;
+}
+.about:hover{
+    background-color: white;
+    color: #6D6875;
+}
+.projects{
+    border: 2px solid gold;
+    border-radius: 15px;
+    background-color: #B76E79;
+    color:white;
+    transition: 2s;
+}
+.projects:hover{
+    background-color: white;
+    color: #B76E79;
+}
+.contact{
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: #C4B7CB;
+    color:white;
+    transition: 2s;
+}
+.contact:hover{
+    background-color: white;
+    color: #C4B7CB;
+}
+.intro h1{
+    border: solid 2px blue;
+    margin: 0 auto;
+    background-color: #FB4D3D;
+    color: #463532;
+    display: flex;
+    justify-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    background-color: #FB4D3D;
+}
+.intro p{
+    border: solid 2px green;
+    height: 75px;
+    background-color: #EEE4E1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-home{
+    border: solid 2px navy;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.gallery {
+    border: solid 2px red;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, h3{
+    border: 2px solid brown;
+    color: coral;
+    font-family: 'Berkshire swash', cursive;
+    display: flex;
+}
+p{
+    border: 2px solid cyan;
+    color: #143642;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottomnav{
+    height: 50px;
+    border: solid 2px cyan;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    font-family: "Leckerli One", cursive;
+    background-color: #B5838D;
+}
