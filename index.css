@@ -1,0 +1,88 @@
+/* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    border: 1px solid grey;
+}
+a{
+    border: 2px black solid;
+}
+.head{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    height:70%;
+}
+.head h1{
+    font-size: larger;
+    text-align: center;
+}
+.head nav{
+    text-align: center;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+.onehh{
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    height:30vh;
+    margin-top: 40px;
+}
+body div {
+    justify-content: flex-end;
+    display:inline-block;
+
+}
