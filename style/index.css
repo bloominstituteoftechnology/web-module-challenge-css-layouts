@@ -30,7 +30,7 @@ section {
   padding: 4%;
 }
 
-header{
+#container{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,7 +57,7 @@ li, a{
 
 .nav-links, li{
   display: inline-block;
-  padding: 0 5rem;
+  padding: 0 2rem;
   background: none;
 }
 
@@ -119,4 +119,72 @@ img:hover {
   height: 13vh;
   border: 2px solid black;
   background-color: #5885AF;
+}
+
+/* Media Queries Start Here */
+@media (max-width: 800px){
+  header{
+    width:100%;
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo{
+    width: 35%;
+  }
+  .top-row{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .top-row > img{
+    width: 20rem;
+    height: 20rem;
+  }
+  .bottom-row > img{
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+/* Moible starts here */
+@media (max-width: 400px){
+  .nav-links{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .logo{
+    width: 10rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  .button{
+    font-size: 1.8rem;
+  }
+
+  .img-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .top-row > img{
+    width: 10rem;
+    height: 10rem;
+  }
+  .top-row{
+    display: flex;
+    flex-direction: column;
+    width:50%
+  }
+
+  .bottom-row > img{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .bottom-row{
+    display: flex;
+    flex-direction: column;
+  }
 }
