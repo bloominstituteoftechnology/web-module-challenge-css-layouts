@@ -158,6 +158,14 @@ h3 {
   margin: 0 auto;
 }
 
+.main-text-wrap {
+    margin: 3% 0;
+}
+
+#bottom-target {
+    margin-bottom: 3%;
+}
+
 .resume {
   padding-top: 1rem;
 }
