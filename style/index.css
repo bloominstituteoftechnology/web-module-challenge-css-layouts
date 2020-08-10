@@ -185,3 +185,10 @@ p {
         background-color: #fb4d3d;
         flex-wrap: wrap;
     }
+@media (max-width: 800px){
+    .h1, .h2, .h3{
+        background-color: coral;
+        color: black;
+        flex-wrap: wrap;
+    }
+}
