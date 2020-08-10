@@ -5,14 +5,14 @@
     margin:0;
     padding:0;
     max-width:100%;
-    border:1px solid grey;
+    
 }
 
 h1{
     font-family: 'Acme', sans-serif;
 }
 body{
-    margin:1%;
+    margin:5%;
     background-color:#6b7b8c62
 }
 h3{
@@ -37,14 +37,14 @@ nav {
     flex-direction:row-reverse;
     text-align:center;
     align-items: center;
-    width:65%;
-    padding:rem;
+    /* width:50%; */
+    /* padding:rem; */
 
 }
 nav a{
     padding:1rem;
 }
-/* header{ 
+ /* header{  
     height:90vh;
     margin-top:1rem;
     background-color:#E0FFFF;
@@ -53,16 +53,28 @@ nav a{
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
-
-   */
-.landing{
-    position:relative; 
+*/
+   
+.landing {
+    display:flex;
+    justify-content: center;
+    position:center;
+    
     text-align:center;
+    
+   padding-bottom:350px;
+    align-content: center ;
+    
 }
 .landing .name{
     position:absolute;
-    top:50%; left:50%; 
-    transform:translate(-50%, -50%)
+        
+    background-image:url('https://picsum.photos/500/300');
+    background-position: center;
+    width:500px;
+    height:300px;
+    text-align:center;
+    padding:150px;
 }
 
 
@@ -71,21 +83,24 @@ nav a{
   flex-direction:row;
   flex-wrap:wrap;
   justify-content: space-evenly;
-  align-content:space-between;  
-  object-fit: contain;
+  align-content:space-around;  
+  /* object-fit: contain; */
   height:auto;
+  width:1000px;
 }
 
 .gallery1 div{
-    width:33%;
+    width:900 px; 
     height:auto;
 }
 .gallery img{
     display:center;
+    width: 200px; 
+    height: 200px;
 }
 .box1 {
-    max-width:30% ;
-    max-height:30% ;
+    width:200px ;
+    height:200px ;
     display:flex;
     flex-direction: column;
     object-fit: cover; 
@@ -103,16 +118,16 @@ footer nav a{
 footer{
   
     background-color: #f9d10f;
-    position:absolute ;
+    /* position:absolute; */
     bottom: 0;
     width: 98%;
-    height: 6.5rem; 
+    height: 5rem; 
 
 }
 
 /* Button stuff */
 
-.button13{
+.button24{
     background-color: #3b4d61 ;
     color:#f9d10f;
     border:solid 2px #f9d10f;
@@ -121,20 +136,20 @@ footer{
 }
 
 
-.button24{
+.button13{
     background-color:#f9d10f;
     color:#3b4d61;
     border:solid 2px #3b4d61;
     border-radius: 20%;
     transition: 1s;
 }
-.button13:hover{
+.button24:hover{
     background-color:#f9d10f;
     color:#3b4d61;
     border:solid 2px #3b4d61;
     border-radius: 20%;
 }
-.button24:hover{
+.button13:hover{
     background-color: #3b4d61 ;
     color:#f9d10f;
     border:solid 2px #f9d10f;
@@ -152,4 +167,54 @@ footer nav a:hover{
     color:#3b4d61;
     border:solid 2px #3b4d61;
     border-radius: 20%;
+}
+/* media stuff */
+
+@media (max-width:800px){
+    .title{
+        
+        margin:1rem;
+    }
+   header nav{
+        
+        
+        justify-content: center;
+        align-content:space-around;
+        width:300px;
+        margin:1rem;
+    }
+    .gallery1 div{
+        flex-direction: column;
+        justify-content: center;
+        width:300px;
+
+}
+
+
+@media (max-width:500px){
+.title{
+    flex-direction: column;
+    margin:1rem;
+    justify-content: center;
+}
+nav{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery1 div{
+    flex-direction: column;
+    justify-content: center;
+    width:300px;
+}
+nav a{
+    padding:1rem;
+    margin:1rem;
+    align-content:space-between;
+}
+
+h1{
+    text-align:center;
+}
+}
 }
