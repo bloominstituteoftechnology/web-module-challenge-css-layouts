@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    width: 700px;
+    height: 100px;
+    color: white;
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px black;
+    margin: 90px;
+  }
+  
+  h1 {
+    color: lightblue;
+  }
+  img {
+    border-radius: 20px;
+    margin: 0px;
+  }
+  
+  nav {
+    margin: 20 px;
+    text-decoration: none; 
+  }
+  
+  h3 {
+    color: black;
+  }
+  
+  footer {
+      text-align: center;
+  }
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
