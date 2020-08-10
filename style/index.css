@@ -112,13 +112,14 @@ footer nav a{
     justify-content: center;
     text-align:center;
     align-items: center;
-    width:35%;
-    padding:rem;
+    width:90%;
+    padding:1rem;
 }
 footer{
-  
+    display:flex;
+    justify-content: center;
     background-color: #f9d10f;
-    /* position:absolute; */
+    
     bottom: 0;
     width: 98%;
     height: 5rem; 
@@ -200,7 +201,7 @@ footer nav a:hover{
 nav{
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .gallery1 div{
     flex-direction: column;
@@ -211,6 +212,7 @@ nav a{
     padding:1rem;
     margin:1rem;
     align-content:space-between;
+    justify-content: center;
 }
 
 h1{
