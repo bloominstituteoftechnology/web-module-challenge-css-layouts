@@ -18,6 +18,7 @@ body{
     font-family:'Roboto Mono', monospace;
     line-height:1.25; 
     background-color:#4f4f4f;
+    color:white;
 }
 
 h1{
@@ -41,7 +42,7 @@ section{
   }
 
 header {
-    height:90vh;
+    height:115vh;
     background-color:#E0FFFF;
     background-repeat:no-repeat;
     background-size:cover;
@@ -56,22 +57,66 @@ header nav {
     justify-content:space-between;
   }
 
-  .links{
+.links{
       width:60%;
       display:flex;
-      justify-content:space-around;
+      justify-content:space-evenly;
       align-items:center;
+      padding:1% 0;
   }
 
-  nav button{
-    color:#00CED1;
+nav button{
+    font-size:1.6rem;
     text-decoration:none;
     letter-spacing:3px;
-  }
+    background-color:pink;
+    padding:1%;
   
-  nav button:hover{
-    color:#AFEEEE;
   }
+
+nav a:hover{
+  color:#AFEEEE;
+}
+
+/*nav styles end here*/
+
+.top section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:40%;
+}
+
+.hero-image{
+  justify-content:center;
+  width:60%;
+  margin:4% 20%;
+}
+.titletwo{
+  
+}
+
+/* End Of Header Styles */
+
+/* Portfolio Section Styles */
+
+#portfolio{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  justify-content:space-around;
+  justify-content:space-evenly;
+}
+
+.one{
+  margin:3%;
+  padding:2%;
+  border:2px solid white;
+}
+
+.one p{
+  font-weight: bold;
+}
 
 
 
