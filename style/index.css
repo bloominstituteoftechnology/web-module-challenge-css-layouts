@@ -3,222 +3,90 @@
 
 *{
     box-sizing:border-box;
-    margin:0;
     padding:0;
-    max-width:100%;
+    margin:0;
+    max-width:100%; 
     border:1px solid grey;
 }
+
 html{
     font-size:62.5%;
 }
+
 body{
     font-size:1.6rem;
-    font-family: 'Roboto Mono', monospace;
-    line-height:1.25;
+    font-family:'Roboto Mono', monospace;
+    line-height:1.25; 
+    background-color:#4f4f4f;
 }
-h2{
-    font-size:1.6rem;
-    font-weight:normal;
-}
+
 h1{
-    font-family: 'Chelsea Market', cursive;
+    font-size:6rem;
+    letter-spacing:3px;
+    padding:4% 0;  
+    background-color:pink;
+    color:white;
+  }
+
+h1:hover{
+    color:darkblue;
+}
+
+section{
+    padding:4% 0;
+  }
+
+  i{
     font-size:4rem;
-    letter-spacing:2px;
-}
-section, footer{
-    padding:4% 0;
-}
-.top {
+  }
+
+header {
+    height:90vh;
+    background-color:#E0FFFF;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+  }
+
+header nav {
+    width:100%;
+    background-color:#69bafd;
     display:flex;
-    justify-content:space-around;
-    padding:4% 0;
-    margin:5%;
-}
-.top left h1{
-    align-content:left;
-    padding:4% 0;
-}
-.top right a{
-    align-content:right;
-    width:20%;
-    border-radius:10px;
-}
-.right headermenu{
+    justify-content:space-between;
+  }
+
+  .links{
+      width:60%;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+  }
+
+  nav button{
+    color:#00CED1;
     text-decoration:none;
-    color:#fff;
-    text-align:center;
-}
-
-.top right a:hover{
-    color:yellow;
-}
-
-.hero-image{
-    background-image:url('#');
-    background-size:cover;
-    background-position:top;
-    height:40vh;
-    margin:5%;
-}
-
-.portfolio{
-    display:flex;
-    justify-content:center;
-    margin:1%;
-}
-
-.one{
-    
-}
-
-/*header section styles
-nav{
-    display:inline-block;
-    margin top:20%;
-    margin bottom;20%;
-    padding:2% 0;
-}
-*/
-
-.one{
-    background-color:#FF764E;
-}
-.one:hover{
-color:#FF764E;
-border:2px solid #FF764E;
-background-color:#fff;
-}
-.two{
-    background-color:#5ED3EB;
-}
-
-.two:hover{
-    color:#5ED3EB;
-    border:2px solid #5ED3EB;
-    background-color:#fff;
-    }
-
-.three{
-    background-color:#FFCD69;
-}
-.three:hover{
-    color:#FFCD69;
-    border:2px solid #FFCD69;
-    background-color:#fff;
-    }
-
-/* "alternative version with flexbot"
-.headpiece{
-    display:flex;
-    justify-content:space-around;
-    padding:4% 0;
-
-    */
-
-.left{
-    display:inline-block;
-    width:40%; 
-    padding:4% 0;
-}
-.img{
-    width:60%;
-}
-.left img{
-    border-radius:50%;
-}
-.right{
-    display:inline-block;
-    width:50%;  
-    padding:4% 0;
-}
-.right .text{
-    text-align:center;
-    width:90%;
-}
-/*about section styles*/
-/* "alternative version"
-#about{
-    display:flex;
-    justify-content:center;
-}
-*/
-.textone{
-    width:95%;
-    background-color:#DDB9A3;
-    margin:0 auto;
-    padding:2%;
-    color:#fff;
-}
-/*plan section style*/
-/* "alt version"
-#plan{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    don't ever want to give sections a height**
-} */
-
-.plan{
-    width:95%;
-    margin:0 auto;
-}
-.box{
-    display:block;
-    width:35%;
-    margin:0 auto;
-    text-align:center;
-}
-/*
-display:flex;
-flex-direction:column;
-align-items:center;
-*/
-
-.box img{
-    width:80%;
-    margin:0 auto;
-}
-
-/*hero image section */
-.hero-image{
-    background-image:url('/Users/simoneballard/Desktop/LP2/web-module-project-intro-css/assets/footer_img.jpg');
-    background-size:cover;
-    background-position:top;
-    height:40vh;
-}
-
-footer{
-    background-color:#F9E7DC;
-}
-
-span{
-    font-weight:bolder;
-}
-.textone p{
-    margin: 2% 0;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+    letter-spacing:3px;
   }
   
-  .fa:hover {
-    opacity: 0.7;
+  nav button:hover{
+    color:#AFEEEE;
   }
+
+
+
+
+
+
+
   
-  /* Facebook */
+  /* Facebook 
   .fa-facebook {
     background: #3B5998;
     color: white;
   }
   
-  /* Twitter */
+  /* Twitter 
   .fa-twitter {
     background: #55ACEE;
-    color: white;
-  }
+    color: white;*/
