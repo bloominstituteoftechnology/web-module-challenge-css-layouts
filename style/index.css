@@ -71,6 +71,11 @@ h1 {
     margin-top: 2rem;
 
 }
+@media (max-width: 500px) {
+ .introNav{
+     width:100%;
+ }
+}
 .introFlex {
     font-weight: bold;
     border:3px solid black;
@@ -119,7 +124,7 @@ h1 {
     font-family: Cabin Sketch; 
     padding-top: 7%;
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
 .projectGrid {
 float: none;
 width: 100%;
