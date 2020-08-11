@@ -37,6 +37,12 @@ h2:hover{
   color:darkblue;
 }
 
+@media (max-width:500px){
+h1, h2{
+  font-size:3rem;
+}
+}
+
 section{
   padding:4% 0;
 }
@@ -78,6 +84,32 @@ nav a:hover{
 color:#AFEEEE;
 }
 
+@media (max-width:500px){
+header{
+  height:100%;
+}
+
+header nav{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  flex-wrap:nowrap;
+}
+header nav .links{
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:center;
+  margin:20%;
+  padding:2% 0;
+  
+}
+.links button{
+  justify-content:space-evenly;
+  width:100%;
+  
+}
+}
+
 /*nav styles end here*/
 
 .top section{
@@ -88,15 +120,22 @@ width:40%;
 }
 
 .hero-image{
-justify-content:center;
 width:70%;
 margin:10% 15%;
 margin-top:5%
 }
+
 .hero-image:hover{
 opacity: 0.7;
 }
 
+@media (max-width:500px){
+.hero-image{
+  width:100%;
+  margin:5% 5%;
+  justify-content:center;
+}
+}
 
 /* End Of Header Styles */
 
@@ -115,6 +154,7 @@ margin:3%;
 padding:2%;
 border:2px solid white;
 text-align:center;
+max-width:100%;
 
 }
 
@@ -127,26 +167,50 @@ font-weight: bold;
 border:1px dotted white;
 }
 
+@media (max-width:800px){
+#portfolio {
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+justify-content:space-around;
+justify-content:space-evenly;
+}
+}
+
+@media (max-width:500px){
+#portfolio .one{
+  justify-content:center;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  width:35%;
+}
+}
+
 /*end of portfolio section*/
 
 /*footer section styles below*/
 
 footer{
+height:20vh;
 background-color:#E0FFFF;
 padding: 3% 0;
 text-align:center;
-display:flex;
+}
+
+footer nav{
+ display: flex;
 }
 
 .footermenu button{
-padding:8% 0;
-margin-top:10%;
+padding:1% 5%;
+margin:0 3%;
+margin-top:1%;
 }
 
 .fa {
-padding: 10px;
-font-size: 30px;
-width: 50px;
+padding: 1rem;
+font-size: 3rem;
+width: 5rem;
 text-align: center;
 text-decoration: none;
 }
@@ -163,6 +227,16 @@ color: white;
 .fa-twitter {
 background: #55ACEE;
 color: white;
+}
+
+@media (max-width:500px;){
+footer nav{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  
+}
 }
 
 /*end*/
