@@ -78,14 +78,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset */
 
@@ -100,124 +99,140 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    /* height: 100%; */
-    font-family: "Roboto Mono", monospace;
-    background-color: #f1f1f1;
-    width: 70%;
-    margin: auto;
-    padding: 1rem;
+  /* height: 100%; */
+  font-family: "Roboto Mono", monospace;
+  background-color: #f1f1f1;
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
 }
 
 nav {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h1 {
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 h3 {
-    font-size: 1.3rem;
-    padding-bottom: 1rem;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
 }
 
 .feature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
 }
 
 #willPicture {
-    width: 16rem;
-    height: auto;
+  width: 16rem;
+  height: auto;
 }
 
 .wrap {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-text-wrap {
+    margin: 3% 0;
+}
+
+#bottom-target {
+    margin-bottom: 3%;
 }
 
 .resume {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .row {
-    margin: 8px -16px;
+  margin: 8px -16px;
 }
 
 .row,
-.row>.column {
-    padding: 8px;
+.row > .column {
+  padding: 8px;
 }
 
 .column {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .content {
-    background-color: white;
-    padding: 10px;
-}
-
-@media screen and (max-width: 1300px) {
-    .column {
-        width: 100%;
-    }
-    .menu {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .iLi {
-        padding: 2% 25%;
-        text-align: center;
-        width: 100%;
-        border: 1px solid lightgray;
-    }
-    #aRemove {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 952px) {
-    #willPicture {
-        display: none;
-    }
-}
-
-.note-title {
-    line-height: 2rem;
+  background-color: white;
+  padding: 10px;
 }
 
 .note-list {
-    line-height: 1.5rem;
+  margin-top: 1%;
+}
+
+.codepen {
+    height: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+  .column {
+    width: 100%;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .iLi {
+    padding: 2% 25%;
+    text-align: center;
+    width: 100%;
+    border: 1px solid lightgray;
+  }
+  #aRemove {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  #willPicture {
+    display: none;
+  }
+}
+
+.note-title {
+  line-height: 2rem;
+}
+
+.note-list {
+  line-height: 1.5rem;
 }
