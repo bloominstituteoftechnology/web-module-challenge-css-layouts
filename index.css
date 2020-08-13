@@ -134,7 +134,7 @@ ul {
   justify-content: space-around;
   margin: 10px 0;
 }
-li {
+li a{
   background-color: blueviolet;
   border: none;
   color: white;
@@ -172,11 +172,9 @@ span h2 {
 .groupA {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   max-width: 100%;
   margin: 10px auto;
   justify-content: space-between;
-
 }
 .groupA img{
 display: flex;
@@ -184,8 +182,18 @@ width: 25%;
 height:100%;
 flex-flow: row;
 justify-content: center;
-
-
+}
+.button a{
+	background-color: blueviolet;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 2rem;
+	margin:10px 0 10px;
+	max-width: 15%;
 }
 .second h3 {
   font-size: x-large;
