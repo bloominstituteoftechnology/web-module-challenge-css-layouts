@@ -4,16 +4,23 @@ h1{
     text-align: center
 }
 nav {
-    
-    text-align: center ;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
 }
-nav a {
-    padding: 10px;
-    margin: 2%;
+nav a{
+    
     border: solid black 2px;
     color: black; 
     border-radius: 20px;
-    background-color: rgb(105, 33, 33)
+    background-color: rgb(105, 33, 33);
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: 1%;
+
 }
 
 a {
@@ -36,6 +43,29 @@ h2 {
 }
 
  p {
-    text-align: right;
-    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: normal;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    text-align: end ;
+    
+}
+
+.bottom{ 
+    background-color: rgb(105, 33, 33);
+}
+footer{
+    background-color: rgb(65, 63, 63);
+}
+.middle img {
+    border: dotted  rgb(105, 33, 33) 10px ;
+    border-radius: 50%;
+    shape-outside: circle()
+
 }
