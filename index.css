@@ -134,7 +134,7 @@ ul {
   justify-content: space-around;
   margin: 10px 0;
 }
-li a{
+li a {
   background-color: blueviolet;
   border: none;
   color: white;
@@ -149,25 +149,26 @@ li a{
 }
 .first {
   display: flex;
-  
 }
 .first img {
   height: 30%;
   width: 45%;
   margin-top: 20px;
 }
-span {
-  margin: 25% 10%;
-  text-align: center;
-}
-span h2 {
-  font-size: x-large;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.second, .third {
+.top {
   display: flex;
-  width:100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+}
+.second,
+.third {
+  display: flex;
+  width: 100%;
 }
 .groupA {
   display: flex;
@@ -176,63 +177,57 @@ span h2 {
   margin: 10px auto;
   justify-content: space-between;
 }
-.groupA img{
-display: flex;
-width: 25%;
-height:100%;
-flex-flow: row;
-justify-content: center;
+.groupA img {
+  width: 25%;
+  height: 100%;
 }
-.button a{
-	background-color: blueviolet;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-	border-radius: 2rem;
-	margin:10px 0 10px;
-	max-width: 15%;
-}
-.second h3 {
-  font-size: x-large;
-  font-weight: bold;
-}
-.third {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 100%;
-	margin: 0 auto;
-	justify-content: space-around;
-	text-align: center;
-  }
-.third p {
-	margin: 10px 0 10px;
+.button a {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 2rem;
+  margin: 10px 0 10px;
 }
 
-Footer {
-	display: flex;
-	flex-flow:column;
-	justify-content: center;
-	background-color: #bd9b16;
-	color: blueviolet;
-	text-align: center;
-  }
-h4{
-	font-size: x-large;
-	margin: 10px 0 10px;
+.second,
+.third {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
 }
-footer p{
-	background-color: blueviolet;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-	border-radius: 2rem;
-	margin:10px 0 10px;
-	max-width: 15%;
+.second,
+.third p {
+  margin: 10px 0 10px;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #bd9b16;
+  color: blueviolet;
+  text-align: center;
+}
+h4 {
+  font-size: x-large;
+  margin: 10px 0 10px;
+}
+footer a {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 2rem;
+  margin: 10px 40%;
 }
