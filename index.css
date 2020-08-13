@@ -175,11 +175,11 @@ span h2 {
   flex-wrap: wrap;
   max-width: 100%;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .groupA img{
 	display: flex;
 	flex-flow:row wrap;
-	justify-content: space-evenly;
 	width:25%;
 	
 }
