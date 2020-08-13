@@ -155,6 +155,7 @@ li {
 .first img {
   height: 30%;
   width: 45%;
+  margin-top: 20px;
 }
 span {
   margin: 25% 10%;
@@ -172,8 +173,11 @@ span h2 {
 }
 .groupA {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+}
+.groupA img{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-evenly;
 }
 .second h3 {
   font-size: x-large;
