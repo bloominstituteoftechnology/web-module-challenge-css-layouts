@@ -1,0 +1,41 @@
+h1{
+    font-size: 30px;
+    font-family:  sans-serif;
+    text-align: center
+}
+nav {
+    
+    text-align: center ;
+}
+nav a {
+    padding: 10px;
+    margin: 2%;
+    border: solid black 2px;
+    color: black; 
+    border-radius: 20px;
+    background-color: rgb(105, 33, 33)
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    background-color: rgb(172, 172, 172)
+}
+h2 {
+    border: dotted black 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(172, 172, 172);
+}
+.middle {
+    background-color:rgb(65, 63, 63);
+}
+
+ p {
+    text-align: right;
+    flex-wrap: wrap;
+}
