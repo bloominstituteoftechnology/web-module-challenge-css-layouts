@@ -1,3 +1,7 @@
+body {
+  background-color: #1c2833;
+}
+
 .top {
   background-color: #39576e;
   border-style: solid;
@@ -32,10 +36,10 @@ nav a:visited {
   padding: 14px 25px;
 }
 
-.home-link,
-.about-link,
-.contact-link,
-.projects-link {
+.first-link,
+.second-link,
+.third-link,
+.fourth-link {
   border: solid white 1px;
   border-radius: 4px;
   background-color: gray;
@@ -57,6 +61,9 @@ main {
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -107,4 +114,39 @@ button {
   /* border: 1px solid purple; */
   padding-left: 35%;
   max-width: 1000px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.gallery img {
+  transition: all 0.1s ease-in-out;
+  height: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #39576e;
+  border-style: solid;
+  border-width: 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.bottom {
+  margin-top: 20px;
+  padding-top: 20px;
 }
