@@ -167,26 +167,39 @@ span h2 {
 }
 .second, .third {
   display: flex;
-  width:100%
+  width:100%;
 }
 .groupA {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   justify-content: space-between;
+
 }
 .groupA img{
-	display: flex;
-	flex-flow:row wrap;
-	width:25%;
-	
+display: flex;
+width: 25%;
+height:100%;
+flex-flow: row;
+justify-content: center;
+
+
 }
 .second h3 {
   font-size: x-large;
   font-weight: bold;
 }
+.third {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin: 0 auto;
+	justify-content: space-around;
+	text-align: center;
+  }
 .third p {
 	margin: 10px 0 10px;
 }
@@ -214,5 +227,4 @@ footer p{
 	border-radius: 2rem;
 	margin:10px 0 10px;
 	max-width: 15%;
-	
 }
