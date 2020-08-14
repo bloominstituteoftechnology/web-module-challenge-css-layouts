@@ -1,0 +1,138 @@
+body {
+  background-color: #1c2833;
+}
+
+.top {
+  background-color: #39576e;
+  border-style: solid;
+  border-width: 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+}
+
+nav {
+  justify-content: space-evenly;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 25px;
+}
+
+.first-link,
+.second-link,
+.third-link,
+.fourth-link {
+  border: solid white 1px;
+  border-radius: 4px;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding-left: 0%;
+}
+
+main {
+  background-color: #39576e;
+  border-style: solid;
+  border-width: 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  max-width: 500px;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+
+.yellow {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.cyan {
+  color: White;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid cyan; */
+}
+
+.email {
+  border: solid white 1px;
+  border-radius: 4px;
+  background-color: gray;
+  margin-bottom: 20px;
+  margin-left: -30px;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 25px;
+}
+
+.green {
+  max-width: 850px;
+  margin: 0 auto;
+  display: block;
+  /* border: 1px solid green; */
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.purple {
+  justify-content: right;
+  /* border: 1px solid purple; */
+  padding-left: 35%;
+  max-width: 1000px;
+}
+
+footer {
+  background-color: #39576e;
+  border-style: solid;
+  border-width: 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.bottom {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
