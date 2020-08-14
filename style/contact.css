@@ -36,19 +36,24 @@ h1{
     align-content: center;
     font-size: 4rem;
 }
-h2{
+h3{
     font-family: 'Lemonada', cursive;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    align-content: center;
+    font-size: 1em;
+}
+script{
+    margin-bottom: 5%;
+   
 }
 p{
     font-family: 'Lemonada', cursive;
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
+    max-width: 25%;
+    }
 .headerimg{
     margin-bottom: 2rem;
 }
@@ -91,29 +96,12 @@ p{
     margin-bottom: 2rem;
     font-family: 'Lemonada', cursive;
 }
-
 .home{
     background: #000000;
     padding: 1rem 2rem;
     text-align: center;
     border: 1px solid black;
     color: white;
-}
-.home:hover{
-    background-color: white;
-    color: black;
-}
-.about:hover{
-    background-color: white;
-    color: black;
-}
-.contact:hover{
-    background-color: white;
-    color: black;
-}
-.projects:hover{
-    background-color: white;
-    color: black;
 }
 .about{
     background: slategrey;
@@ -280,3 +268,22 @@ p{
     background: #ff6600;
     color: white;
   }
+  .home:hover{
+    background-color: white;
+    color: black;
+}
+.about:hover{
+    background-color: white;
+    color: black;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+}
+.projects:hover{
+    background-color: white;
+    color: black;
+}
+a:visited{
+    color: white;
+}

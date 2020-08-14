@@ -91,29 +91,12 @@ p{
     margin-bottom: 2rem;
     font-family: 'Lemonada', cursive;
 }
-
 .home{
     background: #000000;
     padding: 1rem 2rem;
     text-align: center;
     border: 1px solid black;
     color: white;
-}
-.home:hover{
-    background-color: white;
-    color: black;
-}
-.about:hover{
-    background-color: white;
-    color: black;
-}
-.contact:hover{
-    background-color: white;
-    color: black;
-}
-.projects:hover{
-    background-color: white;
-    color: black;
 }
 .about{
     background: slategrey;
@@ -280,3 +263,19 @@ p{
     background: #ff6600;
     color: white;
   }
+  .home:hover{
+    background-color: white;
+    color: black;
+}
+.about:hover{
+    background-color: white;
+    color: black;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+}
+.projects:hover{
+    background-color: white;
+    color: black;
+}
