@@ -1,1 +1,391 @@
-/* Add CSS styling here */
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+HTML {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 5px;
+  margin-top: 25px;
+  font-size: 3em;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navigation a {
+  background: orangered;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5%;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+#navigation a:hover {
+  background: white;
+  color: orangered;
+}
+
+.wrapper {
+  margin: 3%;
+  font-size: 2rem;
+}
+
+#profile {
+  border-radius: 50%;
+  border: 5px solid black;
+  height: 450px;
+  width: 450px;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  background: #f0ead6;
+}
+
+#aboutMe {
+  text-align: center;
+  margin: 20px;
+  font-size: 3rem;
+}
+
+#aboutMe h2 {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.button {
+  margin: 2.8em;
+}
+
+.my-button {
+  font-size: 1em;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out, color 0.2s 0.3s;
+  letter-spacing: 0;
+  border-radius: 45px;
+  height: auto;
+  padding: 0.8em 2.1em;
+  background: orangered;
+  margin: 2.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.my-button:hover {
+  cursor: pointer;
+  padding: 0.8em 2.7em;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+  background-image: none;
+
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.beforeContent {
+  width: 100%;
+  background-color: #4c6d86;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  font-size: 5rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.beforeContent h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.experienceImage {
+  height: 200px;
+  width: 200px;
+}
+
+#frontEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#experienceList h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2.5rem 2.8rem;
+  color: white;
+}
+
+#experienceList ul {
+  font-size: 2rem;
+  margin: 0 5rem;
+  color: white;
+}
+
+#backEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tools h2 {
+  margin: 2.5rem 8rem;
+}
+
+#tools ul {
+  margin: 0 8.5rem;
+}
+
+#experienceList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10rem 15rem;
+  padding-bottom: 20rem;
+}
+
+#work {
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 7rem;
+  color: orangered;
+  padding-bottom: 2rem;
+}
+
+.myWork {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  padding-bottom: 7rem;
+}
+
+#projectImage {
+  height: 300px;
+  width: 550px;
+}
+
+.projectList h3 {
+  font-size: 5rem;
+  color: orangered;
+  font-weight: bold;
+  font-variant: small-caps;
+  width: 550px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.projectList p {
+  font-size: 2.5rem;
+  width: 550px;
+  text-align: left;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+#project1,
+#project2,
+#project3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #4c6d86;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 3rem;
+}
+
+#contact p {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#email {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footerButton {
+  font-size: 3rem;
+}

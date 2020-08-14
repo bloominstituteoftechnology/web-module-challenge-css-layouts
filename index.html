@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" type="text/css" href="style/index.css" />
+  </head>
+  <header>
+    <div id="header">
+      <h1>Alex Motor</h1>
+      <nav id="navigation">
+        <a id="home" href="#image">Home</a>
+        <a id="about" href="#experience">About</a>
+        <a id="projects" href="#Projects">Projects</a>
+        <a id="contact" href="#email">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <div class="wrapper">
+      <section id="image">
+        <img id="profile" src="Assets/profile.jpg" />
+      </section>
+      <div id="aboutMe">
+        <h2>My Name Is Alex, And I Love To Code!</h2>
+        <div class="button">
+          <a class="my-button" href="#">Projects</a>
+        </div>
+      </div>
+
+      <section id="experience">
+        <div class="beforeContent">
+          <div class="content">
+            <h2>My Experience</h2>
+          </div>
+          <div>
+            <h3>Passionate Student. Lifelong Learner.</h3>
+          </div>
+
+          <div id="experienceList">
+            <div id="frontEnd">
+              <img class="experienceImage" src="Assets/laptop.png" />
+              <h2>Front End</h2>
+              <ul>
+                <li>html(5)</li>
+                <li>css(3)</li>
+                <li>Javascript</li>
+                <li>Jquery</li>
+              </ul>
+            </div>
+
+            <div id="backEnd">
+              <img class="experienceImage" src="Assets/server.png" />
+              <h2>Back End</h2>
+              <ul>
+                <li>NodeJS</li>
+                <li>SQL</li>
+                <li>Database</li>
+                <li>API</li>
+              </ul>
+            </div>
+
+            <div id="tools">
+              <img class="experienceImage" src="Assets/wrench.png" />
+              <h2>Tools</h2>
+              <ul>
+                <li>Github</li>
+                <li>Brackets</li>
+                <li>VS Code</li>
+                <li>SSH</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Projects">
+        <div id="container">
+          <div id="work">
+            <h2>Projects</h2>
+          </div>
+          <div class="myWork">
+            <p>Here are a few of my projects.</p>
+          </div>
+
+          <div class="projectList">
+            <div id="project1">
+              <img id="projectImage" src="Assets/project1.png" />
+              <h3>Bitcoin ATM locator</h3>
+              <p>
+                This was a fun project. I was trying to work with API's and
+                decided to build a locator for the Bitcoin ATM's in my area. A
+                lot of work went into this one but I am pleased with the overall
+                result. This was my first time implementing and calling an API.
+                To my surprise it was a lot easier that I thought it would be.
+                this project allowed me to brush up on CSS and javascript. This
+                project also implements both a moz scrollbar and a webkit
+                scrollbar to hide the scrollbar.
+              </p>
+              <p>
+                <a
+                  class="my-button"
+                  target="_blank"
+                  href="https://github.com/amotor-AM/Google-Maps-2-"
+                  .
+                  >View Code</a
+                >
+              </p>
+              <p>
+                <a
+                  class="my-button"
+                  target="_blank"
+                  href="https://bitcoinatmlocator.imfast.io/"
+                  .
+                  >Visit Website</a
+                >
+              </p>
+            </div>
+
+            <div id="project2">
+              <img id="projectImage" src="Assets/project2.png" />
+              <h3>Guess The Number</h3>
+              <p>
+                This was my first Javascript Challenge. Coding this game really
+                grounded my understanding of javascript. The game randomly
+                generates a number from 1-100 and prompts the user to guess what
+                it is. It then prompts the user wether their guess is too high,
+                too low, or correct and stores their guess history. The user can
+                reset the game at any time which causes the game to generate a
+                new random number and clear the guess history. You can view the
+                code I used for this project
+              </p>
+              <p>
+                <a
+                  class="my-button"
+                  target="_blank"
+                  href="https://github.com/amotor-AM/Guess-The-Number"
+                  >View Code</a
+                >
+              </p>
+              <p>
+                <a
+                  class="my-button"
+                  target="_blank"
+                  href="https://numbergame.imfast.io/"
+                  >Play Game</a
+                >
+              </p>
+            </div>
+
+            <div id="project3">
+              <img id="projectImage" src="Assets/project4.png" />
+              <h3>Coin News Network</h3>
+              <p>
+                This is my current website. I originally had it set up to be a
+                news syndication site. It was originally scraping data from
+                several different websites and publishing them via RSS, but I
+                recently started publishing my own news content. It is built off
+                of Wordpress. A LOT of work has been put into the look and feel
+                of This website to get it to where it is now. This website
+                really tested my understanding of HTML, CSS, and Javascript.
+                Although it is built off of wordpress, almost everything is
+                tweaked using CSS and javascript. <br />
+              </p>
+              <p>
+                <a
+                  class="my-button"
+                  target="_blank"
+                  href="https://coinnewsnetwork.com"
+                  >Visit Website</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          If you would like to reach out to me feel free to send me an email
+          using the button below
+        </p>
+      </div>
+      <div id="email">
+        <a id="footerButton" class="my-button" href="mailto:As64660@gmail.com"
+          >Email Me</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
