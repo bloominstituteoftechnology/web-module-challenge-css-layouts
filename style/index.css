@@ -1,1 +1,87 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+html{
+    font-size:62.5%;
+  }
+
+ 
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+nav a{
+    color: blue;
+    text-decoration:none;
+    margin-left: 200px;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  p{
+      font-size: 25px;
+     width: 50%;
+     text-align: right;
+     height: 100px;
+     margin-top: 50px;
+     margin-left: 300px;
+  }
+
+
+  .AboutMe{
+      width: 100%;
+      margin-top: 50px;
+  }
+
+  .headerpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .images{
+      display:flex;
+      justify-content: space-around;
+  }
+  
+
+  .footernav{
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+
+  .footernav a{
+      margin-left: 600px;
+  }
+
