@@ -32,6 +32,7 @@ body{
     text-decoration: none;
 }
 .myName{
+text-shadow: 1px 1px 1px ;
 margin: 0px;
 padding: 25px;
 font-family: 'Lobster', cursive;
