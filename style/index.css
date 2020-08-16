@@ -1,1 +1,50 @@
 /* Add CSS styling here */
+body{
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 270%;
+}
+
+nav {
+    margin: 3%;
+}
+
+.button {
+    background: white;
+    color: grey;
+    font-family: sans-serif;
+    display: inline-flex;
+}
+
+.pic {
+    max-width: 50%;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: left; 
+}
+
+div {
+    order: 8;
+    flex: 0 0 80%;
+    border: none;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects .item {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    background: lightgray;
+    text-align: center;
+    flex-basis: content; 
+  }
