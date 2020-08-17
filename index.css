@@ -1,0 +1,108 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+</style>
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Shadows Into Light', cursive;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    color:rebeccapurple;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+section{
+    padding:2%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+h2 {
+    align-content: center;
+    text-align: center;
+    font-size: 6rem;   
+}
+
+p {
+   width: 60%;
+   line-height: 2; 
+   color: red; 
+   padding-left: 20%; 
+}
+
+
+#image-container {
+    border:1px solid black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+#image-container img {
+    height: 300px;
+    flex-basis: 100%;
+
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    line-height: 3;
+    padding: 2% auto;
+    font-size: larger;
+    max-width: 100%;
+    
+}
+
+.projects img{
+    padding: 0 1%;
+    height:100vh;
+    max-width: 60vw;
+    }
+
+footer {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:15vh;
+}
