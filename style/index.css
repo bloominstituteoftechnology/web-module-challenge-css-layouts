@@ -1,1 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+#border{
+    border: 2px solid black;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Name{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    text-align: center;
+width: 6%;
+padding: 2%;
+}
+
+.website{
+    margin-top: 1%;
+    text-align: center;
+    padding: 0.8%;
+}
+
+.site-text{
+    text-align: center;
+    padding: 0.8%;
+    margin-bottom: 1.6%;
+}
+
+.big-img-div{
+    /*padding: 0.4%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.big-img{
+
+}
+
+.pic-text{
+    display: flex;
+    align-items: center;
+    padding: 0.6%;
+    justify-content: space-evenly;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding: 0.8%;
+    justify-content: center;
+}
+
+.button-style{
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 1%;
+    background: wheat;
+}
