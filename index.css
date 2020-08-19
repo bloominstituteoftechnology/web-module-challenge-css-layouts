@@ -230,7 +230,7 @@ footer a {
   background-color: blueviolet;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1.5% 4.2%;
   text-align: center;
   text-decoration: none;
   font-size: 1.6rem;
@@ -239,7 +239,30 @@ footer a {
 }
 
 @media (max-width: 800px){
- nav{
-   flex-direction:column
+ ul{
+   flex-direction:column;
  }
-}
+ li{
+   margin:0 auto;
+ }
+ .first{
+   flex-direction: column;
+ }
+ .first img{
+   margin: 2rem auto;
+ }
+ .top{
+   margin: 2rem 
+ }
+ .top h2{
+   margin: 2rem;
+ }
+ .top p {
+   margin: 2rem 0 2rem;
+ }
+ }
+ @media(max-width:500px){
+   .social{
+     display:none;
+   }
+ }
