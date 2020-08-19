@@ -48,6 +48,7 @@ table {
 }
 /* Add CSS styling here */
 a {
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
@@ -55,13 +56,28 @@ a {
 a:hover{
     color: red;
 }
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
 #border{
     border: 2px solid black;
 }
 
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.text-text{
+    margin-left: 0.5%;
+    padding: 1%;
+    text-align: center;
 }
 
 .Name{
@@ -106,14 +122,13 @@ padding: 2%;
 }
 
 .big-img{
-
 }
 
 .pic-text{
     display: flex;
     align-items: center;
     padding: 0.6%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .button{
@@ -128,4 +143,27 @@ padding: 2%;
     border-radius: 6px;
     padding: 1%;
     background: wheat;
+}
+
+.imag{
+    border: red solid 2px;
+    
+}
+
+/*.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.icon-size{
+    width: 13.5%;
+    margin-left: 42%;
+}
+
+.icon-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.6%;
 }
