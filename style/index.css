@@ -1,1 +1,140 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset end */
+h1 {
+	font-size: 300%;
+}
+h2 {
+	font-size: 200%;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	max-height: 20%;
+	background: lightgray;
+	padding: 2%;
+}
+header nav {
+	display: flex;
+	padding: 1% 1% 0% 1%;
+}
+header nav a { 
+	text-decoration: none;
+	border: black 1px;
+}
+header nav button:hover {
+	background: black;
+	text-decoration-color: white;
+}
+.Words {
+	padding: 1%;
+}
+.Info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.Pic-of-me {
+	max-width: 45%;
+	max-height: 20%;
+}
+.Info .Pic-of-me img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.Info p {
+	font-size: 110%;
+}
+.projects {
+	max-width: 100%;
+	max-height: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.projects .project {
+	max-width: 30%;
+}
+.projects .project img {
+	max-width: 100%;
+	max-width: 100%;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: lightgray;
+	padding: 5%;
+}
+/* Phone Screen */
+@media screen and (max-width: 400px)
+{
+header nav {
+	flex-direction: column;
+} 
+.projects .project{
+	max-width: 45%;
+	padding: 5% 0% 5% 0%;
+}
+header {
+	align-items: center;
+}
+button {
+	max-width: 100%;
+}
+.Words .Info {
+	flex-direction: column;
+}
+.Pic-of-me {
+	max-width: 80%;
+}
+}
+/* End of Phone screen */
