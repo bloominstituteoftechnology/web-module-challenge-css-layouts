@@ -26,6 +26,10 @@ html{
 
  
 
+.container{
+    width: 100%;
+}
+
 
 h1{
     text-align: center;
@@ -47,27 +51,23 @@ nav a{
   }
 
   p{
-      font-size: 25px;
+    font-size: 25px;
      width: 50%;
      text-align: right;
      height: 100px;
-     margin-top: 50px;
-     margin-left: 300px;
+     margin: 0 auto;
   }
 
 
   .AboutMe{
-      width: 100%;
       margin-top: 50px;
+      margin-bottom: 50px;
   }
 
   .headerpic{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: 300px;
+    margin: 0 auto;
   }
 
   .images{
@@ -85,3 +85,85 @@ nav a{
       margin-left: 600px;
   }
 
+
+
+  @media screen and (max-width: 500px){
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        color: black;
+        font-size: 30px;
+  }
+
+  nav a{
+    color: blue;
+    text-decoration:none;
+    margin; 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+
+  .AboutMe{
+    margin-top: 25px;
+}
+
+p{
+    font-size: 15px;
+   height: 100px;
+   margin: 0 auto;
+}
+
+.headerpic{
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.images{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.footernav a{
+    margin-left: 175px;
+}
+
+  }
+
+@media screen and (max-width: 800px){
+
+   
+
+    nav a{
+        color: blue;
+        text-decoration:none;
+        margin-left: 120px;
+        font-size: 20px;
+      }
+     
+     
+      p{
+        font-size: 18px;
+       height: 50px;
+       margin: 0 auto;
+    }
+
+    .headerpic{
+        display: block;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .images{
+        display: block;
+        margin-left: 195px;
+    }
+
+    .footernav a{
+        margin-left: 300px;
+    }
+
+}
