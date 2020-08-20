@@ -1,1 +1,211 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* make sure they include box-sizing: border-box */
+* {
+  box-sizing: border-box;
+}
+/* use flexbox space-between to get these items at opposite sides of the page */
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+h2 {
+  font-size: 2.2rem;
+}
+/* whatever is containing their nav needs to use flexbox */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+/* if their nav boxes are hanging off the page, they need to use display: inline-block */
+nav ul li a {
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  min-width: 15%;
+  text-decoration: none;
+  display: inline-block;
+}
+/* align-items/justify-content both being center here will allow them to get their text/button on the image */
+.background-img {
+  height: 60vh;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('https://www.solidbackgrounds.com/images/3840x2160/3840x2160-dark-gray-solid-color-background.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 2%;
+}
+button {
+  height: 40px;
+  width: 150px;
+  font-size: 1.2rem;
+}
+/* display flex, making sure flex wrap is on*/
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+/* if they want them to wrap make sure the projects have an assigned width */
+.project {
+  width: 30%;
+  margin: 15px 20px;
+}
+.project img {
+  width: 100%;
+  overflow: hidden;
+}
+.project h3 {
+  text-align: center;
+}
+/* justify-content/align-items center coming in handy again here with the button centering */
+footer {
+  height: 100px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+Collapse
+
+
+
 /* Add CSS styling here */
