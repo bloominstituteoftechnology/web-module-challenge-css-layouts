@@ -93,6 +93,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -107,17 +108,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -125,10 +130,15 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* @media (max-width: 800px) {}
+Need 800px and 500px  */
+
 
 HTML {
   font-size: 62.5%;
@@ -148,6 +158,7 @@ h1 {
   margin-top: 25px;
   font-size: 3em;
 }
+
 
 #navigation {
   display: flex;
@@ -213,9 +224,9 @@ h1 {
   letter-spacing: 0;
   border-radius: 45px;
   height: auto;
-  padding: 0.8em 2.1em;
+  padding: 0.5em 2.1em;
   background: orangered;
-  margin: 2.2em;
+  margin: 1em;
   color: white;
   text-decoration: none;
 }
@@ -238,6 +249,12 @@ h1 {
 .beforeContent {
   width: 100%;
   background-color: #4c6d86;
+  border-radius: 5px;
+  ;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .content {
@@ -326,8 +343,8 @@ h1 {
 }
 
 #projectImage {
-  height: 300px;
-  width: 550px;
+  height: 250px;
+  width: 500px;
 }
 
 .projectList h3 {
@@ -335,14 +352,14 @@ h1 {
   color: orangered;
   font-weight: bold;
   font-variant: small-caps;
-  width: 550px;
+  width: 500px;
   text-align: center;
   padding-bottom: 2rem;
 }
 
 .projectList p {
   font-size: 2.5rem;
-  width: 550px;
+  width: 500px;
   text-align: left;
   padding-bottom: 2rem;
   margin-bottom: 3rem;
@@ -388,4 +405,128 @@ footer {
 
 #footerButton {
   font-size: 3rem;
+}
+
+
+
+@media (max-width: 1510px) {
+  .projectList {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 85%
+  }
+
+  #projectImage {
+    margin: 5em;
+  }
+
+  #project1,
+  #project2,
+  #project3 {
+    flex-direction: row;
+    margin-bottom: 5em;
+    padding-top: 2em;
+    width: 100vw;
+  }
+
+  #project2 {
+    background-color: #4c6d86;
+    color: white;
+  }
+
+  #project2 h3 {
+    color: white;
+  }
+
+}
+
+@media (max-width: 1265px) {
+
+  #project1,
+  #project2,
+  #project3 {
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .projectList {
+    width: 100%;
+  }
+
+  .projectList h3,
+  .projectList p {
+    margin: 0 auto;
+  }
+
+  #projectImage {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .my-button {
+    padding: 0.5rem 1rem;
+  }
+
+  #experienceList {
+    margin: 10rem 2rem;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #header {
+    flex-direction: column;
+    margin: 1px;
+  }
+
+  h1 {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  #navigation {
+    margin: 2rem auto;
+    font-size: 2.5rem;
+  }
+
+  #experienceList {
+    flex-direction: column;
+  }
+
+  #frontEnd,
+  #backEnd,
+  #tools {
+    margin: 2rem auto;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .projectList h3 {
+    font-size: 4rem;
+    width: auto;
+    text-align: center;
+  }
+
+  .projectList p {
+    font-size: 2rem;
+    width: auto;
+    max-width: 450px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .beforeContent {
+    display: none;
+  }
+
+  #aboutMe a {
+    display: none;
+  }
 }
