@@ -86,58 +86,12 @@ nav a{
   }
 
 
-
-  @media screen and (max-width: 500px){
-    h1{
-        text-align: center;
-        margin-top: 30px;
-        color: black;
-        font-size: 30px;
-  }
-
-  nav a{
-    color: blue;
-    text-decoration:none;
-    margin; 0 auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    margin-top: 25px;
-  }
-
-  .AboutMe{
-    margin-top: 25px;
-}
-
-p{
-    font-size: 15px;
-   height: 100px;
-   margin: 0 auto;
-}
-
-.headerpic{
-    display: block;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-.images{
-    display: inline-block;
-    margin-left: 50px;
-}
-
-.footernav a{
-    margin-left: 175px;
-}
-
-  }
-
 @media screen and (max-width: 800px){
 
    
 
     nav a{
-        color: blue;
+        color: red;
         text-decoration:none;
         margin-left: 120px;
         font-size: 20px;
@@ -166,4 +120,31 @@ p{
         margin-left: 300px;
     }
 
+}
+
+@media screen and (max-width: 500px){
+
+
+
+    nav a{
+        color: purple;
+        text-decoration: none;
+        display: block;
+        margin-left: 225px;
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .images{
+        display: block;
+        margin-left: 65px;
+    }
+
+    .footernav a{
+        margin-left: 200px;
+        }
+    }
 }
