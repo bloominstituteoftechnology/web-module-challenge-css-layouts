@@ -233,7 +233,7 @@ h1 {
 
 .my-button:hover {
   cursor: pointer;
-  padding: 0.8em 2.7em;
+  padding: 0.2em 1em;
 }
 
 .my-button:active,
@@ -492,6 +492,7 @@ footer {
   #navigation {
     margin: 2rem auto;
     font-size: 2.5rem;
+    width: auto;
   }
 
   #experienceList {
@@ -528,5 +529,14 @@ footer {
 
   #aboutMe a {
     display: none;
+  }
+
+  #header {
+    justify-content: flex-end;
+  }
+
+  #navigation {
+    margin-right: 0px;
+    padding-right: 0px;
   }
 }
