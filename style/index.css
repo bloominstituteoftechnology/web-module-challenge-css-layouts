@@ -154,7 +154,7 @@ h1 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 5px;
+  margin: 3%;
   margin-top: 25px;
   font-size: 3em;
 }
@@ -181,7 +181,8 @@ h1 {
 }
 
 .wrapper {
-  margin: 3%;
+  margin: 0 auto;
+  width: 90%;
   font-size: 2rem;
 }
 
@@ -200,8 +201,8 @@ h1 {
 
 #aboutMe {
   text-align: center;
-  margin: 20px;
-  font-size: 3rem;
+  margin: 3%;
+  padding-bottom: 4%;
 }
 
 #aboutMe h2 {
@@ -210,7 +211,7 @@ h1 {
 }
 
 .button {
-  margin: 2.8em;
+  margin: 2.8%;
 }
 
 .my-button {
@@ -233,7 +234,7 @@ h1 {
 
 .my-button:hover {
   cursor: pointer;
-  padding: 0.2em 1em;
+  padding: 1% 4%;
 }
 
 .my-button:active,
@@ -260,7 +261,7 @@ h1 {
 .content {
   display: flex;
   justify-content: center;
-  padding-top: 7rem;
+  padding-top: 7%;
   font-size: 5rem;
   color: white;
   font-weight: bolder;
@@ -269,7 +270,7 @@ h1 {
 .beforeContent h3 {
   display: flex;
   justify-content: center;
-  padding-top: 7rem;
+  padding-top: 5%;
   font-size: 3rem;
   color: white;
 }
@@ -279,11 +280,6 @@ h1 {
   width: 200px;
 }
 
-#frontEnd {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 #experienceList h2 {
   font-size: 3rem;
@@ -323,7 +319,11 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   margin: 10rem 15rem;
-  padding-bottom: 20rem;
+  padding-bottom: 15%;
+}
+
+#container {
+  max-width: 100%;
 }
 
 #work {
@@ -332,19 +332,19 @@ h1 {
   font-variant: small-caps;
   font-size: 7rem;
   color: orangered;
-  padding-bottom: 2rem;
+  padding-bottom: 3%;
 }
 
 .myWork {
   text-align: center;
   text-transform: capitalize;
   font-size: 3rem;
-  padding-bottom: 7rem;
+  padding-bottom: 6%;
 }
 
 #projectImage {
   height: 250px;
-  width: 500px;
+  width: 492px;
 }
 
 .projectList h3 {
@@ -352,17 +352,16 @@ h1 {
   color: orangered;
   font-weight: bold;
   font-variant: small-caps;
-  width: 500px;
+  width: 492px;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 3%;
 }
 
 .projectList p {
   font-size: 2.5rem;
-  width: 500px;
+  width: 492px;
   text-align: left;
-  padding-bottom: 2rem;
-  margin-bottom: 3rem;
+  padding-bottom: 7%;
 }
 
 #project1,
@@ -376,10 +375,12 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
 }
 
 footer {
   background-color: #4c6d86;
+  width: 100%;
 }
 
 #contact h2 {
@@ -388,14 +389,14 @@ footer {
   color: white;
   font-variant: small-caps;
   text-align: center;
-  padding: 3rem;
+  padding: 3%;
 }
 
 #contact p {
   font-size: 2rem;
   color: white;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2%;
 }
 
 #email {
@@ -404,7 +405,7 @@ footer {
 }
 
 #footerButton {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 
@@ -413,7 +414,8 @@ footer {
   .projectList {
     flex-direction: column;
     justify-content: flex-start;
-    width: 85%
+    width: 100%;
+    margin: 0 auto;
   }
 
   #projectImage {
@@ -426,16 +428,21 @@ footer {
     flex-direction: row;
     margin-bottom: 5em;
     padding-top: 2em;
-    width: 100vw;
+    width: 100%;
   }
 
   #project2 {
     background-color: #4c6d86;
     color: white;
+    max-width: 100%;
   }
 
   #project2 h3 {
     color: white;
+  }
+
+  .wrapper {
+    width: 100%;
   }
 
 }
@@ -450,9 +457,7 @@ footer {
 
   }
 
-  .projectList {
-    width: 100%;
-  }
+
 
   .projectList h3,
   .projectList p {
@@ -520,6 +525,11 @@ footer {
     max-width: 450px;
     text-align: center;
   }
+
+  #projectImage {
+    height: 150px;
+    width: 300px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -538,5 +548,18 @@ footer {
   #navigation {
     margin-right: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (max-width: 440px) {
+  #navigation {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  #profile {
+    height: 250px;
+    width: 250px;
   }
 }
