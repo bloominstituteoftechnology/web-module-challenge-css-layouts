@@ -126,25 +126,22 @@ header #section1 {
   width: 45%;
 }
 
-.smalls nav{
+.smalls nav {
   max-width: 100%;
 }
 .smalls nav a {
   text-decoration: none;
   color: black;
 }
-.small1{
-  
-  margin: 0 auto;
-  padding: 1px;
-} 
-.small2{
-  
+.small1 {
   margin: 0 auto;
   padding: 1px;
 }
- .small3 {
-  
+.small2 {
+  margin: 0 auto;
+  padding: 1px;
+}
+.small3 {
   margin: 0 auto;
   padding: 1px;
 }
@@ -154,7 +151,7 @@ header #section1 {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin; 0 5%;
+  margin: 5% 5%;
 }
 
 .title {
@@ -163,12 +160,12 @@ header #section1 {
   justify-content: space-evenly;
 }
 
-h1{
+h1 {
   letter-spacing: 15px;
   text-align: center;
   margin: 0 auto;
   padding: 20px;
-  font-size: 3.0rem;
+  font-size: 3rem;
 }
 
 .links {
@@ -176,8 +173,6 @@ h1{
   display: flex;
   justify-content: center;
 }
-
-
 
 .one {
   border: 1px solid black;
@@ -187,7 +182,6 @@ h1{
   display: flex;
   justify-content: center;
   text-decoration: none;
-
 }
 
 .two {
@@ -242,13 +236,14 @@ h2 {
 }
 
 .p-content p {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 .main-image {
   width: 100%;
   display: flex;
   justify-content: stretch;
+  margin: 0 auto;
 }
 
 .main-image img {
@@ -258,29 +253,64 @@ h2 {
   padding: 5% 0;
 }
 
-.images img{
-  height: 15vh;
-  width: 15;
+.container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
- 
+  justify-content: space-evenly;
+  margin: 1% auto;
 }
 
-.img1 {
-  width: 15%;
+.images {
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
+.img1 {
+  width: 22%;
+  height: 50vh;
+  border: 5px solid dodgerblue;
+}
 
-footer{
+.img2 {
+  width: 22%;
+  height: 50vh;
+  border: 5px solid dodgerblue;
+}
+
+.img3 {
+  width: 22%;
+  height: 50vh;
+  border: 5px solid dodgerblue;
+}
+
+.img4 {
+  width: 22%;
+  height: 50vh;
+  border: 5px solid dodgerblue;
+}
+
+.info p {
+  margin: 150% auto;
+}
+.contacto {
   background-color: dodgerblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-footer nav a {
-  text-decoration: none;
+nav .contact-me {
+  border: 1px solid yellow;
+  background-color: white;
   color: black;
-  margin: 0 auto;
-  
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
-
+.contact-me {
+  margin: 4% auto;
+}
