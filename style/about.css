@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+	body {
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+ }
+ html{
+     font-size: 10px;
+     font-family: "Roboto",sans-serif;
+ }
+ 
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  background-color: #1f2325;
+}
+
+ a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .conatinernav{
+    /* border:red solid 1px; */
+    font-family: "montserrat",sans-serif;
+    border-radius: 10px;
+    padding: .012rem;
+    width: 100%;
+    font-size: 14px;
+    background-color: #1f2325;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+           0 10px 10px rgba(0,0,0,0.22);
+ }
+.navbar{
+    background-color: #1f2325;
+    color: #679437;
+    padding: 1.55em;
+}
+
+
+ section{
+    padding: 1.1rem ;
+    background-color: #679437;
+ }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #eee;
+    }
+    .heading{
+        font-size: 20px;
+        letter-spacing: 2rem;
+        /* border: 1px solid red; */
+    }
+
+ .card-wrapper{
+     display: flex;
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+ }
+ .card{
+     width: 32rem;
+     background-color: #1f2325;;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 2rem 0;
+     border-radius: 10px;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+           0 10px 10px rgba(0,0,0,0.22);
+ }
+ .card .card-img{
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0,100% 78%, 0% 100% );
+    border-radius: 10px;
+ }
+ .profile-img{
+     width: 15rem;
+     height: 15rem;
+     object-fit: cover;
+     border-radius:50%;
+     margin-top: -10rem;
+     z-index: 999;
+     border: 1rem solid #ebeef8;
+ }
+
+ .card{
+     font-size: 1.5rem;
+     color: #333;
+     margin: 1.5rem;
+     
+ }
+
+ .job-title{
+     color: #777;
+     font-size: 1.5rem;
+     font-weight: 300;
+ }
+  
+ .about{
+     font-size: 1.5rem;
+     margin: 1.5rem 0;
+     font-style: italic;
+     text-align: center;
+     color: #eee;
+ }
+
+ .card .btn{
+    padding:1rem 2.5rem;
+    background-color: #679437;
+    border-radius:  1rem ; 
+    /* changes button */
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+    transition: all .5s;
+ }
+ .card .btn .hover{
+     transform: translateY(-2px);
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+     0 10px 10px rgba(0,0,0,0.22);
+ }
+ .card .btn:active{
+     transform: translateY(0);
+     box-shadow: none;
+ }
+
+ .social-media{
+     width: 100%;
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 2em 0;
+     margin-top: 1.5rem;
+     border-top: 1px solid rgba(0,0,0,.1) ;
+    
+ }
+ .social-media i{
+     font-size: 3rem;
+ }
+ 
+ 
+ .fa-linkedin-in{
+     color:#2867B2;
+     display: block;
+     height: 42px;
+     width: 42px;
+     line-height: 42px;
+     -moz-border-radius: 50%;
+     border-radius: 50%; 
+     background-color:#2867B2;
+     color: white;
+     text-align: center;
+ }
+
+ .fa-github{
+    display: block;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    background-color:#211F1F;
+    color: white;
+    text-align: center;
+}
+.fa-twitter{
+    display: block;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    background-color: #1EA1F1;;
+    color: white;
+    text-align: center;
+}
+.fa-envelope{
+    display: block;
+    height: 42px;
+     width: 42px;
+     line-height: 42px;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    background-color: #B92022;;
+    color: white;
+    text-align: center;
+}
+ 
+.profile-img{
+    background-color: black;
+}
+/* add hover state */
+/* .fa-linkedin-in:hover
+.fa-github:hover
+.fa-twitter:hover
+.fa-envelope:hover{
+   color:red;
+} */
+
+
+@media screen and (min-width:800px){
+.card-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: space-evenly;
+    
+}
+.card{
+   margin:2em; 
+   transition: transform .5s;
+}
+}
+@media screen and (min-width:1000px){
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: space-around;
+        
+    }
+    .card{
+       margin:2em; 
+       transition: transform .5s;
+    }
+    }
