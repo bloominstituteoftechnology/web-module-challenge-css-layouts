@@ -24,7 +24,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,7 +54,7 @@ table {
 }
 
 box-sizing:border-box;
-  border:1px solid grey;
+  /* border:1px solid grey; */
   max-width:100%;
 }
 
@@ -68,14 +68,16 @@ html{
     padding: 2%;
   }
 
-#myname-top p {
+#myname-top{
     font-family: 'Fredoka One', cursive;
 }
 
 .name-nav-container{
+    margin: 3%;
     display: flex;
     justify-content: space-between;
 }
+
 
 .header-main{
     font-size: 5.0rem;
@@ -109,11 +111,40 @@ img{
     flex-direction: column;
     width: 27%;
     height: 27%;
-    border: 1px solid black;
     margin: 20px;
     align-items: center;
     justify-content: center;
 }
 
+.button{
+    border: solid 3px rgb(228, 231, 230);
+    padding: 5px;
+    
+}
 
+a{
+    text-decoration: none;
+    color: rgb(36, 38, 38);
+}
+
+#location{
+    font-size: .7rem;
+    color: rgb(107, 105, 105);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 241, 241);
+    margin: 3%;
+    padding: 8%;
+}
+
+.button:hover {
+    background-color: rgb(90, 197, 244);
+    color: white;
+    
+}
 
