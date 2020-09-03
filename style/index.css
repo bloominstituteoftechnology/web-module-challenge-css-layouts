@@ -91,12 +91,29 @@ html{
     font-size: 1.2rem;
 }
 
+img{
+    width: 90%;
+}
+
 
 .gallery{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
-#first-div{
-    background-color: black;
+.gallery .item{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 27%;
+    border: 1px solid black;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
