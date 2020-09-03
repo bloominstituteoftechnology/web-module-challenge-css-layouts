@@ -9,30 +9,44 @@ body {
     max-width: 100%;
 }
 
+
+/* header */
+
 header {
     background-color: lightgray;
-}
-
-h1 {
-    margin-left: 1%;
-}
-
-section {
     display: flex;
     flex-direction: column;
 }
 
+h1 {
+    margin-left: 1%;
+    font-size: 40px;
+}
+
 header nav {
+    font-size: 30px;
     display: flex;
     margin-left: 2%;
     margin-bottom: 1%;
+    width: 27%;
+    height: 20%;
+}
+
+nav div {
     width: 25%;
-    height: 10%;
 }
 
 nav a {
     display: flex;
-    justify-content: stretch;
+}
+
+
+/* Intro section */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid orange;
 }
 
 .intro {
@@ -40,8 +54,38 @@ nav a {
 }
 
 .logo {
-    height: 30%;
-    width: 200%;
+    height: 99%;
+    width: 99%;
+    padding: 1%;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+}
+
+
+/* here goes middle part */
+
+section .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 49%;
+    height: 49%;
+    border: 4px solid green;
+}
+
+.topPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomPart {
+    border: 1px solid red;
+    display: flex;
+    justify-content: stretch;
 }
 
 
