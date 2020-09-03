@@ -5,6 +5,10 @@
    License: none (public domain)
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@100&display=swap');
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,4 +56,22 @@ table {
 box-sizing:border-box;
   border:1px solid grey;
   max-width:100%;
+}
+
+html{
+    font-size:62.5%;
+  }
+  body{
+    font-size:1.8rem;
+    line-height:1.5;
+    font-family: 'Raleway', sans-serif; 
+  }
+
+#myname-top p {
+    font-family: 'Fredoka One', cursive;
+}
+
+.name-nav-container{
+    display: flex;
+    justify-content: space-between;
 }
