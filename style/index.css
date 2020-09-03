@@ -1,1 +1,80 @@
 /* Add CSS styling here */
+
+body {
+    margin: 0%;
+}
+
+* {
+    border: 2px solid black;
+    max-width: 100%;
+}
+
+header {
+    background-color: lightgray;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    width: 25%;
+    height: 10%;
+}
+
+nav a {
+    display: flex;
+    justify-content: stretch;
+}
+
+.intro {
+    display: flex;
+}
+
+.logo {
+    height: 30%;
+    width: 200%;
+}
+
+
+/* here all about footer */
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer div h2 {
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    padding: 1%;
+}
+
+footer {
+    background-color: grey;
+}
+
+.like {
+    margin: 5%;
+}
+
+footer div button {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    font-size: 100%;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
