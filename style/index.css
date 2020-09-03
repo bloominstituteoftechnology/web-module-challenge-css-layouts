@@ -13,13 +13,13 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-    /* border: 0; */
+    border: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 html{
     font-size:62.5;
@@ -53,6 +53,7 @@ a{
     width: 20%;
     text-align: center;
     padding: 1.5%;
+    margin:0 auto;
     
 }
 #home{
@@ -136,15 +137,8 @@ padding: 2%;
 background-color: #008000;
 }
 footer{
-    
+    display:flex;
+    justify-content: center;
     width: 100%;
     background-color: #00bfff;
-}
-#contact button{
-    
-    width: 10%;
-    margin: 2% auto;
-    padding: 1%;
-      
-   
 }
