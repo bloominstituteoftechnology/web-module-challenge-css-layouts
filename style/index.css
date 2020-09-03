@@ -1,1 +1,186 @@
-/* Add CSS styling here */
+/* h1 font Pacifico Cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* body font Markazi Text */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+
+/* h2 font Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&family=Montserrat&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ******************* CSS Meyer's Reset Above This Line ******************* */
+
+* {
+    box-sizing: border-box;  /*border and padding included in element size calculation, not in addition to. Margin is still not included.*/
+    padding: 0; /*defaults everything to zero*/
+    margin: 0; /*defaults everything to zero*/
+    max-width: 100%; /*won't try to expand outside of its box, can't be bigger than parent*/
+}
+/* 1 rem = 10px instead of 16px browser default. */
+html {
+    font-size:62.5%;
+}
+
+/* ******************* Section above this line is housekeeping ****************** */
+body{
+    font-size: 2rem;
+    font-family: 'Markazi Text', serif;
+}
+
+/* heading */
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color:whitesmoke;
+    padding:1%;
+}
+.top_directory nav a{
+    text-decoration:none; /*removes line under links*/
+    display: inline-block;
+    color:#04312D;
+    background-color:rgb(187, 187, 187);
+    border-radius:3px;
+    width:4%;
+    padding:.2%;
+    text-align:center;
+}
+.top_directory nav a:hover {
+    background-color: #04312D;
+    color:rgb(187, 187, 187);
+  }
+.top_directory nav a:first-child{
+    margin-left: .9%;
+}
+.name_nav{
+    padding:1%;
+    border-bottom: 3pt rgb(187, 187, 187) dotted;
+
+}
+.name_nav,.introduction{
+    background-color:#04312D ;
+}
+/* Introduction */
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color:whitesmoke;
+    padding-bottom:5%;
+    text-align:center;
+}
+.introduction{
+    display:flex;
+    justify-content:flex-start;
+    padding: 2% 0% 2% 2%;
+    align-items: center;
+    color:whitesmoke;
+}
+.intro {
+    display:inline-block;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+.intro_img{
+    display: inline-block;
+    width:50%;
+
+}
+.intro_nav button {
+    color:#04312D ; 
+    background-color: rgb(187, 187, 187);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius:3px;
+    width:auto;
+    padding:1.5%;
+    text-align:center;
+    margin-bottom:5%;
+}
+.intro_nav button:hover {
+    background-color: #04312D;
+    color:rgb(187, 187, 187);
+  }
+.intro p{
+    font-size: 2.5rem;
+    text-align:justify;
+}
+.italics {
+    font-size: larger;
+    /* color:rgb(151, 151, 151); */
+    color:#0BC0C0;
+}
+.one,.two{
+    margin-bottom:3%;
+}
+
+/* Projects */
+.projects{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+.projects img {   
+    width: 21%;
+   }
+set.one{
+    display:inline-block;
+    margin:4% 0;
+}
+set.two{
+    display:inline-block;
+    margin:0 0 4% 0;
+}
