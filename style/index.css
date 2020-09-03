@@ -46,12 +46,13 @@ section{
     padding:2% 0;
 }
 a{
+    display: inline-block;
     text-decoration:none;
     color:#008000;
     background-color:yellow;
     width: 20%;
     text-align: center;
-    padding: 2%;
+    padding: 1.5%;
     
 }
 #home{
@@ -94,10 +95,8 @@ header{
 button{
     color: white;
     background-color: maroon;
-    margin: 0 auto;
-    width: 20%;
-    margin: 2%;
-
+    font-size:1.3rem;
+        font-family: 'Cedarville Cursive', cursive;
 }
 #about{
     display:flex;
@@ -105,10 +104,23 @@ button{
     justify-content: center;
     align-items: center;
 }
+#about button{
+    margin: 2% auto;
+    width: 20%;
+    
+    padding: 2%;
+
+}
 #projects{
     display:flex;
     justify-content: space-around;
     text-align: center;
+}
+#projects .bridge {
+    margin-top: 2%;
+}
+#projects .senior{
+    margin-top: 5%;
 }
 .me{
     display:flex;
@@ -116,6 +128,23 @@ button{
     text-align: center;
 
 }
+.me .armor img{
+    display:flex;
+    justify-content: center;
+margin: 20%;
+padding: 2%;
+background-color: #008000;
+}
 footer{
+    
+    width: 100%;
     background-color: #00bfff;
+}
+#contact button{
+    
+    width: 10%;
+    margin: 2% auto;
+    padding: 1%;
+      
+   
 }
