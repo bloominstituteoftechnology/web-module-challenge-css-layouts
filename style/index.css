@@ -90,10 +90,6 @@
         vertical-align: baseline;
     }
     
-    body {
-        margin: 0%;
-    }
-    
     * {
         font-family: 'Indie Flower', cursive;
         max-width: 100%;
@@ -135,6 +131,7 @@
         display: flex;
         justify-content: center;
         border-radius: 10px;
+        text-decoration: none;
     }
     /* Intro section */
     
