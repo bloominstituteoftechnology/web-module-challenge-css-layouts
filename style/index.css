@@ -159,26 +159,96 @@ h2{
 }
 .italics {
     font-size: larger;
-    color:#0BC0C0;
+    color:#29a5a5;
 }
 .one,.two{
     margin-bottom:3%;
 }
 
 /* Projects */
-.all_projects{
-
+.all_projects {
     display:flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
     align-content:space-evenly;
     height:90vh;
-
 }
 .all_projects img {   
     width: 21%;
    }
 
+.all_projects .dog {
+    position: absolute;
+    bottom: -2%;
+    left: 12%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .cat {
+    position: absolute;
+    bottom: -2%;
+    right: 36%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .bird {
+    position: absolute;
+    bottom: -2%;
+    left: 36%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .mouse {
+    position: absolute;
+    bottom: -2%;
+    right: 10.5%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .flora {
+    position: absolute;
+    bottom: -45%;
+    left: 12%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .fauna {
+    position: absolute;
+    bottom: -45%;
+    right: 36%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .fungi {
+    position: absolute;
+    bottom: -45%;
+    left: 36%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.all_projects .monera {
+    position: absolute;
+    bottom:-45%;
+    right: 10.5%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* Footer */
 .bottom_directory{
