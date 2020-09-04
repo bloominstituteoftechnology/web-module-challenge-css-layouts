@@ -57,10 +57,10 @@ border-collapse: collapse; border-spacing: 0;
             <h1>Scarlet's Apotheke</h1>
             <header>
                 <nav>
-                    <a class="box1"href="#Home">Home</a>
-                    <a class="box2"href="#About">About</a>
-                    <a class="box3"href="#Contact">Contact</a>
-                    <a class="box4"href="#Projects">Projects</a>
+                    <a class="box1"href="Home">Home</a>
+                    <a class="box2"href="About">About</a>
+                    <a class="box3"href="Contact">Contact</a>
+                    <a class="box4"href="Projects">Projects</a>
                 </nav>
             </header>
 
@@ -86,16 +86,17 @@ border-collapse: collapse; border-spacing: 0;
                 <img src="">
             </nav>
 
-            <p>QUOTE</p>
+            <p class="quote">"Nature always wears the colors of the spirit" - Emerson</p>
         </div>
     </section>
 
     <!--Footer Section-->
-<div>
     <footer>
-<button> Contact Me</button>
+        <div class="button">
+           <button><a href="https://twitter.com/NicoleKenney10" target="_blank">Contact Me</a></button>
+        </div>
     </footer>
-
+    
   .header {
 text-align: center;
   }  
@@ -199,4 +200,25 @@ p{
 nav img{
     border:solid black 1px;
     width:140px;
+}
+
+.quote{
+    color:#4a0552;
+    margin-top:110px;
+    font-style: italic;
+}
+
+/*Footer*/
+
+footer{
+    background-color:#4a0552;
+}
+
+.button{
+    text-align:center;   
+}
+
+button:hover{
+    background-color:#daf7e2;
+    border-radius:5px;
 }
