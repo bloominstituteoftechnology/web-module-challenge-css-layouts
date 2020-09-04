@@ -139,10 +139,9 @@
     
     .like {
         display: flex;
-        margin: 5%;
-        height: 50%;
+        margin-top: 5%;
+        margin-bottom: 2%;
         border: 3px solid red;
-        align-items: ;
     }
     
     footer div button {
@@ -156,10 +155,12 @@
         display: flex;
         text-align: center;
         align-items: flex-start;
+        margin-bottom: 2%;
+        padding: 20px;
     }
     
     .contact button {
         display: flex;
-        padding: 1% 8%;
+        padding: 20px 100px;
         font-size: 15px;
     }
