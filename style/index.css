@@ -171,13 +171,19 @@ h2{
     justify-content:space-evenly;
     flex-wrap: wrap;
     align-content:space-evenly;
-    height:90vh;
+    align-items:space-evenly;
+    margin:1.5% 0 1.5% 0;
 }
-.all_projects img {   
-    width: 21%;
+.all_projects figure img {   
+    width: 400px;
+    margin-top:5%;
    }
+.all_projects figcaption {
+    text-align:center;
 
-.all_projects .dog {
+}
+
+/* .all_projects .dog {
     position: absolute;
     bottom: -2%;
     left: 12%;
@@ -248,7 +254,7 @@ h2{
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 /* Footer */
 .bottom_directory{
