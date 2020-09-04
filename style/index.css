@@ -159,7 +159,6 @@ h2{
 }
 .italics {
     font-size: larger;
-    /* color:rgb(151, 151, 151); */
     color:#0BC0C0;
 }
 .one,.two{
@@ -167,20 +166,45 @@ h2{
 }
 
 /* Projects */
-.projects{
+.all_projects{
+
     display:flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    align-content:space-evenly;
+    height:90vh;
 
 }
-.projects img {   
+.all_projects img {   
     width: 21%;
    }
-set.one{
-    display:inline-block;
-    margin:4% 0;
+
+
+/* Footer */
+.bottom_directory{
+    text-align:center;
+    padding:1%;
+    background-color:#04312D;
 }
-set.two{
-    display:inline-block;
-    margin:0 0 4% 0;
+.bottom_directory button {
+    color:#04312D; 
+    background-color:rgb(187, 187, 187);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius:3px;
+    width:auto;
+    padding:.5%;
+    text-align:center;
+}
+.bottom_directory button:hover {
+    background-color:#04312D;
+    color:rgb(187, 187, 187);
+}
+h3{
+font-size: 3rem;
+margin-bottom:1%;
+color:rgb(187, 187, 187);
 }
