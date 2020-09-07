@@ -1,353 +1,380 @@
-/* Add CSS styling here */
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 62.5%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-* {
-    font-family: 'Indie Flower', cursive;
-    max-width: 100%;
-}
-
-
-/* header */
-
-a:hover {
-    background-color: darkred;
-    color: whitesmoke;
-}
-
-header {
-    font-family: 'Indie Flower', cursive;
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    margin: 2%;
-    font-size: 3rem;
-}
-
-header nav {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.8rem;
-    display: flex;
-    margin-left: 2%;
-    margin-bottom: 1%;
-    width: 27%;
-    height: 20%;
-}
-
-nav div {
-    width: 25%;
-}
-
-nav a {
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-
-/* Intro section */
-
-.topPart,
-.bottomPart,
-.middle {
-    font-family: 'Indie Flower', cursive;
-}
-
-.middle {
-    display: flex;
-    flex-direction: column;
-}
-
-.intro {
-    display: flex;
-}
-
-.logo {
-    display: flex;
-    justify-content: ;
-    height: 99%;
-    width: 150%;
-    padding: 1%;
-}
-
-.mainInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-.myProjects button {
-    display: flex;
-    padding: 1% 8%;
-    font-size: 25px;
-    border-radius: 10px;
-}
-
-.myProjects button:hover {
-    background-color: darkred;
-    color: whitesmoke;
-    border-radius: 10px;
-}
-
-.aboutMe p {
-    display: flex;
-    width: 70%;
-    font-size: 20px;
-}
-
-
-/* here goes middle part */
-
-.projects {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.topPart {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 20rem;
-}
-
-.projects img {
-    width: 200px;
-    height: 200px;
-}
-
-.projects p {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-.bottomPart {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 4%;
-}
-
-
-/* here all about footer */
-
-footer div {
-    display: flex;
-    align-items: center;
-}
-
-footer div h2 {
-    margin: 0 auto;
-    margin-top: 2%;
-    text-align: center;
-    padding: 1%;
-}
-
-footer {
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.like {
-    font-family: 'Indie Flower', cursive;
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 2%;
-}
-
-footer div button {
-    max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 1%;
-    font-size: 100%;
-}
-
-.contact {
-    display: flex;
-    text-align: center;
-    align-items: flex-start;
-    margin-bottom: 2%;
-    padding: 20px;
-}
-
-.contact button {
-    display: flex;
-    padding: 20px 100px;
-    font-size: 15px;
-}
-
-.contact button:hover {
-    background-color: darkred;
-    color: whitesmoke;
-}
-
-
-/* media queries */
-
-@media (max-width: 500px) {
-    /* all about Header */
-    header,
-    .middle,
-    footer,
-    header nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 2px solid yellow;
-    }
-    nav {
-        justify-content: stretch;
-    }
-    nav div {
-        display: flex;
-        justify-content: center;
-        width: 98%;
-        background-color: #808080;
-        border: 2px solid black;
-        border-radius: 10px;
-    }
-    div a {
-        color: darkred;
-    }
-    /* Middle section */
-    .middle * {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid red;
-        margin-bottom: 1.5%;
-    }
-    .logo {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .mainH2,
-    .myProjects {
-        border: 2px solid green;
-        width: 50%;
-        margin: 0 auto;
-        align-items: center;
-    }
-    .aboutMe p {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    /* sections with pictures */
-    .projects {
-        border: 3px solid purple;
-        display: flex;
-        flex-direction: row;
-    }
-    .topPart,
-    .bottomPart {
-        border: 1px solid blue;
-        flex-wrap: wrap;
-        height: 100%;
-    }
-    .projects p {
-        margin-bottom: 10%;
-    }
-    /* footer part */
-    footer {
-        height: 10%;
-        border: 1px solid greenyellow;
-    }
-}
+      /* Add CSS styling here */
+      
+      @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-size: 62.5%;
+          font: inherit;
+          vertical-align: baseline;
+      }
+      
+      * {
+          font-family: 'Indie Flower', cursive;
+          max-width: 100%;
+      }
+      /* header */
+      
+      a:hover {
+          background-color: darkred;
+          color: whitesmoke;
+      }
+      
+      header {
+          font-family: 'Indie Flower', cursive;
+          background-color: grey;
+          display: flex;
+          flex-direction: column;
+      }
+      
+      h1 {
+          margin: 2%;
+          font-size: 3rem;
+      }
+      
+      header nav {
+          font-family: 'Indie Flower', cursive;
+          font-size: 1.8rem;
+          display: flex;
+          margin-left: 2%;
+          margin-bottom: 1%;
+          width: 50%;
+          height: 20%;
+      }
+      
+      nav div {
+          width: 25%;
+      }
+      
+      nav a {
+          display: flex;
+          justify-content: center;
+          border-radius: 10px;
+          text-decoration: none;
+      }
+      /* Intro section */
+      
+      .topPart,
+      .bottomPart,
+      .middle {
+          font-family: 'Indie Flower', cursive;
+      }
+      
+      .middle {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .intro {
+          display: flex;
+      }
+      
+      .logo {
+          display: flex;
+          justify-content: ;
+          height: 99%;
+          width: 150%;
+          padding: 1%;
+      }
+      
+      .mainInfo {
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+      }
+      
+      h2 {
+          font-size: 35px;
+      }
+      
+      .myProjects button {
+          display: flex;
+          padding: 1% 8%;
+          font-size: 25px;
+          border-radius: 10px;
+      }
+      
+      .myProjects button:hover {
+          background-color: darkred;
+          color: whitesmoke;
+          border-radius: 10px;
+      }
+      
+      .aboutMe p {
+          display: flex;
+          width: 70%;
+          font-size: 20px;
+      }
+      /* here goes middle part */
+      
+      .projects {
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+      }
+      
+      .topPart {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 20rem;
+      }
+      
+      .projects img {
+          width: 200px;
+          height: 200px;
+      }
+      
+      .projects p {
+          display: flex;
+          justify-content: center;
+          margin: 0;
+      }
+      
+      .bottomPart {
+          display: flex;
+          justify-content: space-evenly;
+          margin-bottom: 4%;
+      }
+      /* here all about footer */
+      
+      footer div {
+          display: flex;
+          align-items: center;
+      }
+      
+      footer div h2 {
+          margin: 0 auto;
+          margin-top: 2%;
+          text-align: center;
+          padding: 1%;
+      }
+      
+      footer {
+          background-color: grey;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .like {
+          font-family: 'Indie Flower', cursive;
+          display: flex;
+          margin-top: 5%;
+          margin-bottom: 2%;
+      }
+      
+      footer div button {
+          max-width: 100%;
+          margin: 0 auto;
+          margin-bottom: 1%;
+      }
+      
+      .contact {
+          display: flex;
+          text-align: center;
+          align-items: flex-start;
+          margin-bottom: 2%;
+          padding: 20px;
+      }
+      
+      .contact button {
+          display: flex;
+          padding: 20px 100px;
+          font-size: 15px;
+      }
+      
+      .contact button:hover {
+          background-color: darkred;
+          color: whitesmoke;
+      }
+      /* media queries */
+      
+      @media (max-width: 500px) {
+          /* all about Header */
+          header,
+          .middle,
+          footer,
+          header nav {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          nav div {
+              display: flex;
+              justify-content: center;
+              width: 35%;
+              background-color: #808080;
+              border: 2px solid black;
+              border-radius: 10px;
+          }
+          div a {
+              color: darkred;
+          }
+          /* Middle section */
+          .middle * {
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 1.5%;
+          }
+          .logo {
+              width: 90%;
+              margin: 0 auto;
+          }
+          .mainH2,
+          .myProjects {
+              width: 50%;
+              margin: 0 auto;
+              align-items: center;
+          }
+          .aboutMe p {
+              width: 90%;
+              margin: 0 auto;
+              text-align: center;
+          }
+          /* sections with pictures */
+          .projects {
+              display: flex;
+              flex-direction: row;
+          }
+          .topPart,
+          .bottomPart {
+              flex-wrap: wrap;
+              height: 100%;
+          }
+          .projects p {
+              margin-bottom: 10%;
+          }
+          /* footer part */
+          .like h2 {
+              display: flex;
+              justify-content: center;
+              font-size: 25px;
+              width: 20rem;
+          }
+          .contact {
+              padding: 0;
+          }
+      }
+      /* media for 800px */
+      
+      @media (max-width: 800px) {
+          header h1 {
+              margin: 0 auto;
+          }
+          header nav {
+              border: 2px solid green;
+              width: 90%;
+          }
+          .middle * {
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 1.5%;
+          }
+          .logo {
+              width: 90%;
+              margin: 0 auto;
+          }
+          .mainH2,
+          .myProjects {
+              width: 50%;
+              margin: 0 auto;
+              align-items: center;
+          }
+          .aboutMe p {
+              width: 90%;
+              margin: 0 auto;
+              text-align: center;
+          }
+          .like h2 {
+              display: flex;
+              justify-content: center;
+              font-size: 2.3rem;
+              width: 20rem;
+          }
+          .contact button {
+              font-size: 1.2rem;
+              padding: 0.6rem 4rem;
+          }
+      }
