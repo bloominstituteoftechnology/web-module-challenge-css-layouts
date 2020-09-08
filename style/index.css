@@ -13,16 +13,17 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-    border: 0;
+    /* border: 0; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 *{
     box-sizing:border-box;
     max-width:100%;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }
 html{
     font-size:62.5;
+
 }
 body{
     font-size:1.6rem;
@@ -46,14 +47,18 @@ section{
     padding:2% 0;
 }
 a{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #008000;
     text-decoration:none;
     color:#008000;
     background-color:yellow;
     width: 20%;
     text-align: center;
-    padding: 1.5%;
+    padding: 1%;
     margin:0 auto;
+    
     
 }
 #home{
@@ -71,7 +76,8 @@ a{
     
 }
 #home nav{
-   width: 50%;
+    
+   width: 40%;
    margin-left: 20%;
    margin-right: 1%;
 }
@@ -142,3 +148,50 @@ footer{
     width: 100%;
     background-color: #00bfff;
 }
+@media (max-width: 800px){
+    #home{
+      /* flex-direction: column;
+      justify-content: column;
+      align-items: flex-start;
+      width: 20%; */
+      
+  }
+  @media (max-width: 500px){
+    #home{
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;      
+    }
+    #home h2{
+      font-size: 1rem;
+      width:100%;
+    }
+    #home nav{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+     font-size: 0.5rem;
+      width: 100%;
+    }
+    button{
+      font-size: 0.8rem;
+    }
+    h1{
+      font-size:3rem;
+    }
+    .me .armor img{
+      display: none;
+    }
+     .me .armor p{
+      display: none;
+    }
+    #projects, .bridge, .senior, p{
+        font-size: 0.5rem;
+      }
+    #projects .water img{
+      display: none;
+    }
+    #projects .water p{
+      display: none;
+    }
+  }
