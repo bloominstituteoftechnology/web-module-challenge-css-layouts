@@ -171,6 +171,10 @@ footer{
         justify-content: center;
     }
 
+    .nav div a {
+        font-size: 1.3rem;
+    }
+
     .parent {
         display: flex;
         flex-wrap: wrap;
@@ -187,4 +191,9 @@ footer{
         margin: 0 auto;
         
     }
+
+    .contact a {
+        font-size: 1.3rem;
+    }
+
 }
