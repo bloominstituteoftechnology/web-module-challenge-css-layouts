@@ -1,55 +1,13 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 
-.container {
+* {
     
     box-sizing: border-box;
-    width: 100%;
+    max-width: 100%;
+    border: 5px red solid;
     
 }
-/* General Styles */
+ General Styles 
 html {
     font-size: 62.5%;
     
@@ -121,7 +79,7 @@ a {
 
     width: 60%;
     justify-content: flex-start;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     padding: 1%;
     
 
@@ -132,19 +90,16 @@ a {
     justify-content: space-around;
 
 }
-.img_row {
+#row {
+    width: 100%;
     display: flex;
-   
-    height: 40vh;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 .description {
     display: flex;
     font-size: 1.8rem;
    
-    width: 10%;
+    width: 30%;
     justify-content: flex-end;
     align-items: right;
     padding-top: 1%;
@@ -162,4 +117,84 @@ footer div a {
     background: red;
     margin: 2%;
     border: 5px solid grey;
+}
+@media(max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+    .header_heading h1{
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: .5rem;
+        word-spacing: 2rem;
+        
+    
+    }
+
+}
+
+@media(max-width: 800px){
+    body{
+        background: green;
+    }
+    .header_navbar nav a{
+        
+       
+    
+       
+        border: 5px #E3B505 solid;
+        padding: 1%;
+        background:#DB504A;
+        color: purple;
+        margin: 9% 1%;
+        
+        
+    }
+    .header_navbar nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5%;
+        
+    }
+    #home {
+        display: flex;
+        justify-content: center;
+    }
+    .img_column {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 500px){
+    body{
+        background: pink;
+    }
+    .header_navbar nav a{
+        
+       
+    
+       
+        border: 5px #E3B505 solid;
+        padding: 1%;
+        background:#DB504A;
+        color: whitesmoke;
+        margin: 9% 1%;
+        
+        
+    }
+    .header_navbar nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5%;
+        
+    }
+    #home {
+        display: flex;
+        justify-content: center;
+    }
+    .img_column {
+        display: flex;
+        flex-direction: column;
+    }
 }
