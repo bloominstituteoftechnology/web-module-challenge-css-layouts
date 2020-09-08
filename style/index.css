@@ -88,12 +88,103 @@ h2 {
     height: 560px;
     width: 90%;
     margin: 3% auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-.parent div {
- 
+.parent {
+
     display: flex;
     flex-flow: wrap;
-    width: 20%;
+    
 }
 
+
+.parent div {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 5% 0;
+
+}
+
+.parent div img {
+    width: 95%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer{
+    border: 1px solid black;
+    height: 100px;
+    background-color: #d1d1c0;
+
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact a {
+
+    text-decoration: none;
+    padding: 1% 1%;
+    background-color: grey;
+    font-size: 1.6rem;
+    font-family: 'Lexend Peta', sans-serif;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*Accessibility code*/
+
+@media (max-width: 800px) {
+  .parent {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .parent div {
+      display: flex;
+      width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .parent div {
+        display: flex;
+        width: 49%;
+        
+    }
+
+    .parent .p {
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+}
