@@ -1,1 +1,62 @@
 /* Add CSS styling here */
+
+
+
+/*CSS reset goes above this line*/
+html{
+
+width:100%;
+}
+
+
+body {
+    background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    backface-visibility:visible;
+    width:90%;
+    margin:0 5%;
+
+}
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    height:10%;
+    width:100%;
+    border:inset 2px black;
+    background-color:rgba(125, 201, 234, 0.32);
+    
+}
+
+nav{
+    display:flex;
+    flex-wrap:inherit;
+    justify-content:space-evenly;
+    width:100%;
+    
+}
+
+nav a{
+    
+    margin:3%;
+    border:solid 1px black;
+    background-color:transparent;
+    color:black;
+    text-decoration:none;
+    font-size:80%;
+    padding:1%;
+    width:10%;
+    text-align:center;
+    
+    border-radius:30%;
+   
+}
+
+h1{
+    font-size:32px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 25% 1% 25%;
+   
+}
