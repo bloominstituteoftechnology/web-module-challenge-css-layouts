@@ -63,12 +63,6 @@ nav a{
     background-color:#685b61;
 
 }
-
-ul{
-    display:flex;
-list-style:none;
-}
-
 nav a:hover{
     color: #685b61;
     background-color: wheat;
