@@ -1,1 +1,191 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+h1{
+    display:flex;
+    font-size: 100%;
+    flex-flow: nowrap;
+    width:40%;
+    margin-top: 5%;
+    margin-left: 2%; 
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 40%;
+    margin-left:2%;
+    margin-top:1.5%;
+    margin-bottom: 2%;
+}
+nav a{
+    border-right: 1px solid wheat;
+    text-decoration: none;
+    color: wheat;
+    font-size:auto;
+    background-color:#685b61;
+
+}
+
+ul{
+    display:flex;
+list-style:none;
+}
+
+nav a:hover{
+    color: #685b61;
+    background-color: wheat;
+}
+
+header{
+    border-bottom: .3px solid #685b61;
+   
+}
+
+.mainContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.mainContent img{
+    width: 45%;
+}
+.mainContent p{
+    width: 50%
+}
+
+
+.exampleItems {
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.exampleItems figure{
+    width: 30%;
+}
+.exampleItems figure img{
+    width: 100%;
+}
+.exampleItems figure figcaption{
+    text-align: center;
+}
+.exampleItems figure .discount{
+    text-decoration: line-through;
+}
+footer{
+    margin-top: 2%;
+    padding: 2% 0;
+    background-color: #2E3B3B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .icons{
+    font-size: 300%;
+}
+footer .fa-facebook-square:hover{
+    color: #8088f7;
+}
+footer .fa-twitter-square:hover{
+    color: #cbeef3;
+}
+footer .fa-instagram-square:hover{
+    color: #dd7db7;
+}
+footer .fa-facebook-square{
+    color:#3138A6;
+}
+footer .fa-twitter-square{
+    color: #36E7FF;
+}
+footer .fa-instagram-square{
+    color:#E51D96;
+}
+footer .copyright{
+margin: 1% 0;
+}
+
+@media (max-width: 750px){
+    header {
+        flex-direction: row;
+
+    }
+    header h1{
+        display:flex;
+        margin-left: 2%; 
+        line-height: 2;
+        margin-bottom:2%;
+        width:100%;
+    }
+    header nav {
+        width: 100%;
+        margin-left: 2%;
+    }
+   
+   
+    
+    .mainContent img{
+        width: 40%;
+        margin-bottom: 2%;
+        margin-left:2%;
+    }
+    .mainContent p{
+        width: 85%;
+    }
+}
+
+@media (max-width: 500px){
+    header ul {
+        display:flex;
+        justify-content: center;
+    }
+    nav a{
+        flex-direction:column;
+        margin:2%;
+    }
+    
+h1{
+    justify-content: center;}
+
+}
