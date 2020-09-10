@@ -39,28 +39,30 @@ body {
 
 
 h1{
-    display:flex;
-    font-size: 100%;
-    flex-flow: nowrap;
+    display: flex;
+    font-size: 200%;
     width:40%;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 2%; 
+    color:#685b61;
 }
 
 header nav {
     display: flex;
     justify-content: flex-start;
-    max-width: 40%;
+    width: 40%;
     margin-left:2%;
     margin-top:1.5%;
     margin-bottom: 2%;
 }
 nav a{
+    display: flex;
+    justify-content: center;
     border-right: 1px solid wheat;
     text-decoration: none;
     color: wheat;
-    font-size:auto;
     background-color:#685b61;
+    padding: 1.5%;
 
 }
 nav a:hover{
@@ -70,46 +72,44 @@ nav a:hover{
 
 header{
     border-bottom: .3px solid #685b61;
-   
+    max-width: 100%;
 }
 
 .mainContent{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: start;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 .mainContent img{
-    width: 45%;
+    width: 30%;
+    margin-left: 2%;
 }
 .mainContent p{
-    width: 50%
+    justify-content: center;
+
 }
 
 
 .exampleItems {
     margin: 2% 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
-.exampleItems figure{
-    width: 30%;
+
+
+.exampleItems img{
+    display:flex;
+    width: 18%;
+    justify-items: space-evenly;
 }
-.exampleItems figure img{
-    width: 100%;
-}
-.exampleItems figure figcaption{
-    text-align: center;
-}
-.exampleItems figure .discount{
-    text-decoration: line-through;
-}
+
+
+
 footer{
-    margin-top: 2%;
-    padding: 2% 0;
-    background-color: #2E3B3B;
+    margin:1% 0;
+    padding: 2%;
+    background-color: #61565b93;
     color: white;
     display: flex;
     flex-direction: column;
@@ -141,15 +141,12 @@ margin: 1% 0;
 }
 
 @media (max-width: 750px){
-    header {
-        flex-direction: row;
+    
 
     }
     header h1{
         display:flex;
         margin-left: 2%; 
-        line-height: 2;
-        margin-bottom:2%;
         width:100%;
     }
     header nav {
@@ -167,19 +164,13 @@ margin: 1% 0;
     .mainContent p{
         width: 85%;
     }
-}
+
 
 @media (max-width: 500px){
-    header ul {
+    header nav{
         display:flex;
+        flex-direction: column;
         justify-content: center;
+        width:50%
     }
-    nav a{
-        flex-direction:column;
-        margin:2%;
-    }
-    
-h1{
-    justify-content: center;}
-
 }
