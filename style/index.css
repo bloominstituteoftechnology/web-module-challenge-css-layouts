@@ -130,24 +130,25 @@ section p {
 }
 
 #img-container-vert {
-    flex-direction: row nowrap;
+    justify-content: space-around;
+    margin: 3rem 0
 }
 
-#img-container-vert div {
-    margin: 1rem;
-    width: 25%;
-
+#text {
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20rem;
 }
 
+#text>p {
+    font-size: 2rem;
+    
+}
 
-
-
-
-
-
-
-
-
+#text span {
+    font-size: 6rem;
+}
 
 
 
