@@ -109,7 +109,6 @@ body {
     flex-flow: column;
     background-image: url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
-    border: 1px solid black;
     background-repeat: no-repeat;
     background-position: center;
     width: 90%;
@@ -119,8 +118,9 @@ body {
 .header-primary {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 60px;
     text-transform: uppercase;
+    letter-spacing: 15px;
 }
 
 .header-name {
@@ -129,6 +129,7 @@ body {
 
 .header-title {
     display: block;
+    margin-top: 50px;
 }
 
 .header-button {
@@ -137,4 +138,53 @@ body {
     background-color: black;
     color: white;
     border-radius: 100px;
+}
+
+.section-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 30%;
+    width: 30%;
+    margin: 10px;
+}
+
+.project-title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 5px ;
+    margin-bottom: 1.3rem;
+    text-transform: uppercase;
+}
+
+.section-button {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
+.intro-css-pic {
+    background-image: url('../images/project-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.git-hub-dev-pic {
+    background-image: url('../images/projects-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
