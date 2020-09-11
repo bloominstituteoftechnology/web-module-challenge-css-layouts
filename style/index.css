@@ -1,1 +1,169 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End reset*/
+
+/*Font-size reset*/
+html {
+	font-size: 62.5%;
+}
+
+/*End font-size reset*/
+
+.flex {
+    display: flex;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    margin: 2rem auto;
+    font-weight: 100;
+}
+
+nav {
+    justify-content: center;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav div {
+    border: .2rem black solid;
+    padding: 1rem 2.5rem;
+    margin: 0 .5rem;
+}
+
+hr {
+    width: 70vw;
+}
+
+a {
+    color: #f45852;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.main {
+    width: 70vh;
+    margin: 3rem auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem auto;
+    font-weight: 400;
+}
+
+section p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#img-container-horiz {
+
+}
+
+#img-container-horiz img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#img-container-vert {
+    flex-direction: row nowrap;
+}
+
+#img-container-vert div {
+    margin: 1rem;
+    width: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
