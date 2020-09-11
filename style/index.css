@@ -1,1 +1,121 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	background-color: #6441a4;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: .8rem;
+	color: white;
+	width: 70%;
+}
+
+.container a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+    width:  100%;
+	font-family: "Ethnocentric";
+	font-size: 10px;
+}
+
+body h1 {
+	font-family: "Alien Encounters";
+	font-size: 2.5rem;
+	color: white;
+	padding: 5px;
+}
+
+#BigBox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 3rem;
+}
+
+#BigBox a {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+#BigBox a div {
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	right: 0%;
+	top: 50%;
+	left: 25%;
+	font-size: 2.5rem;
+	text-shadow: 2px 2px 2px thistle;
+	width: 50%;
+	text-align: center;
+	vertical-align: middle;
+	flex-direction: column;
+}
+
+#BigBox a div a button {
+	position: relative;
+	right: 50%;
+	top: 30%;
+}
+
+#main {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: space-between;
+	margin:3rem 1.5rem;
+	justify-content: space-between;
+}
+
+
+#main div p {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #6441a4;
+	height: 8rem;
+	align-items: center;
+}
+
+footer a button {
+	background-color: white;
+	color: 	black;
+	font-family: "Ethnocentric";
+	text-align: center;
+	vertical-align: middle;
+}
