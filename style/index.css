@@ -148,7 +148,9 @@ h1 {
     opacity:0.8;
     padding:10px;
     margin-top:-10%;
-    height:7%;
+    height:50px;
+    width:200px;
+    text-align:center;
     margin-bottom:30%;
 }
 .myProjects:hover {
@@ -253,11 +255,12 @@ footer {
     }
     h1 {
         text-align:center;
-        height:20%;
+        height:140px;
+        width:300px;
     }
     .myProjects {
         margin:5%;
-        width:50%;
+        width:200px;
     }
 }
 /* MEDIA QUERY FOR TABLET END */
@@ -335,3 +338,8 @@ footer {
 }
 }
 /* MEDIA QUERY FOR PHONE END */
+@media(max-width:1004px){
+    h1 {
+        height:130px;
+    }
+}
