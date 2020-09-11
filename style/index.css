@@ -1,1 +1,337 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}/* CSS RESET END */
+
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Frank Ruhl Libre', serif; */
+html {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+a {
+    text-decoration:none;
+}
+h1 {
+    font-size:4rem;
+    font-family: 'Abril Fatface', cursive;
+}
+/* TOP bar BEGINS */
+.topBar {
+    margin:1%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.myName {
+    font-size:40px;
+    font-weight:900;
+}
+.topButtons {
+    font-size:28px;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.about {
+    border:1px solid black;
+    border-radius:20px;
+    padding:10px;
+}
+.about:hover {
+    border:1px solid #FF0000;
+    background-color:#FF0000;
+    color:white;
+}
+.contact {
+    border:1px solid #171796;
+    background-color:#171796;
+    color:white;
+    border-radius:20px;
+    padding:10px;
+}
+.contact:hover {
+    border:1px solid #71C5E8;
+    background-color:#71C5E8;
+    color:white;
+}
+.projects {
+    border:1px solid #FF0000;
+    background-color:#FF0000;
+    color:white;
+    border-radius:20px;
+    padding:10px;
+}
+.projects:hover {
+    border:1px solid #FFCD00;
+    background-color:#FFCD00;
+    color:black;
+}
+/* TOPPY SECTION ENDS */
+/* MAIN SPLASH SECTION BEGINS */
+.bigSplash {
+    margin:2% 10% 1% 10%;
+    background-image:url(/assets/stMark.jpg);
+    border-radius:20px;
+    height:700px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:column;
+    border:1px solid black;
+}
+.stMark {
+    display:none;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size:60px;
+    color:white;
+    background-color:black;
+    padding:10px;
+    opacity:0.8;
+    border-radius:20px;
+    margin-top:20%;
+    height:11%;
+    text-align:center;
+    width:60%;
+}
+.myProjects {
+    font-size:40px;
+    border:1px solid black;
+    background-color:#FF0000;
+    color:white;
+    border-radius:20px;
+    opacity:0.8;
+    padding:10px;
+    margin-top:-10%;
+    height:7%;
+    margin-bottom:30%;
+}
+.myProjects:hover {
+    background-color:#171796;
+    opacity:0.8;
+}
+/* MAIN SPLASH SECTION END */
+/* GIGANTO DIV GRID SECTION START */
+.hello {
+    font-size:24px;
+    margin:2% 9% 2% 9%;
+    text-align:center;
+    padding:10px;
+}
+.bigDiv {
+    margin:1%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.container1 {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    margin:1%;
+    width:95%;
+}
+.container1 img {
+    max-width:95%;
+    max-height:auto;
+    border:1px solid black;
+    border-radius:20px;
+}
+.mostarGym {
+    text-align:center;
+}
+.mostarBridge {
+    text-align:center;
+}
+.sarajevoFood {
+    text-align:center;
+}
+.container2 {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    margin:1%;
+    width:95%;
+}
+.container2 img {
+    max-width:95%;
+    max-height:auto;
+    border:1px solid black;
+    border-radius:20px;
+}
+.sarajevoMosque {
+    text-align:center;
+}
+.zagrebStation {
+    text-align:center;
+}
+.mostarBurger {
+    text-align:center;
+}
+footer {
+    background-color:#FF0000;
+    padding:3%;
+    text-align:center;
+}
+.contactMe {
+    border:1px solid #171796;
+    background-color:#171796;
+    color:white;
+    border-radius:20px;
+    padding:10px;
+    font-size:26px;
+}
+.contactMe:hover{
+    border:1px solid #71C5E8;
+    background-color:#71C5E8;
+}
+/* MEDIA QUERY FOR TABLET START */
+@media (max-width:800px){
+.topBar {
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    }
+    .myName {
+        justify-content:center;
+    }
+    .topButtons {
+        flex-direction:column;
+        justify-content:space-between;
+        margin:3%;
+    }
+    .bigSplash {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+        background-image:url(/assets/stMark.jpg);
+    }
+    h1 {
+        text-align:center;
+        height:20%;
+    }
+    .myProjects {
+        margin:5%;
+        width:50%;
+    }
+}
+/* MEDIA QUERY FOR TABLET END */
+/* MEDIA QUERY FOR PHONE START */
+@media (max-width:500px){
+.topBar {
+flex-direction:column;
+align-items:center;
+justify-content:space-between;
+}
+.topButtons {
+    margin:3%;
+    display:flex;
+    flex-flow:column wrap;
+}
+.about {
+    width:90%;
+    text-align:center;
+}
+.contact {
+    width:90%;
+    margin:1%;
+    text-align:center;
+}
+.projects {
+    width:90%;
+    margin:1%;
+    text-align:center;
+}
+.stMark {
+    display:flex;
+    margin-top:20%;
+    width:100%;
+    border-radius:20px;    
+}
+.bigSplash {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    max-height:300px;
+    border:1px solid white;
+    margin-top:23%;
+    margin-bottom:8%;
+    background-image:none;
+}
+h1 {
+    width:90%;
+    margin:2%;
+    text-align:center;
+    justify-content:center;
+    height:45%;
+}
+.myProjects{
+    display:flex;
+    width:90%;
+    justify-content:center;
+    height:15%;
+    margin-bottom:40%;
+}
+.bigDiv {
+    display:flex;
+    flex-wrap:wrap;
+}
+.container1 {
+    display:flex;
+    flex-wrap:wrap;
+}
+.container2 {
+    display:flex;
+    flex-wrap:wrap;
+}
+footer {
+    padding:5%;
+}
+}
+/* MEDIA QUERY FOR PHONE END */
