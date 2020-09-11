@@ -53,6 +53,10 @@ table {
 
 /* AFTER CSS RESET */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #F0F0F0;
     font-family: 'Lato', sans-serif;
@@ -71,7 +75,7 @@ body {
     height: 50px;
 }
 
-.nav-bar > h2 {
+.my-name {
     font-size: 2rem;
     width: 30%;
     text-align: center;
@@ -188,3 +192,43 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #d4d4d4;
+}
+
+.footer-button {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #ecb7bf;
+    color: white;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .my-name {
+        display: none;
+    }
+    body {
+        margin: 0;
+    }
+
+    .nav-links {
+        padding-right: 0;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .nav-bar {
+        justify-content: center;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+  }
