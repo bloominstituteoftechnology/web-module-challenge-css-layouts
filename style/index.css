@@ -1,1 +1,215 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* every element is a border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
 /* Add CSS styling here */
+
+html {
+    background: #FFB5C5;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(226, 6, 61);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+        font-size: 1.8rem;
+}
+
+.topdiv, h4, h3 {
+    font-family: 'Kite One', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background: rgb(14, 173, 221);
+    height: 15vh;
+}
+
+/*Button Animation Here*/
+button {
+    width: 150px;
+    height: 50px;
+    border: rgb(7, 131, 214) solid 2px;
+    border-radius: 25px;
+    animation-name: button;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+@keyframes button {
+    from {background: rgb(10, 228, 20);}
+    to {background: rgb(226, 6, 61);}
+}
+
+button:hover {
+    color: whitesmoke;
+}
+/*End Button Animation*/
+
+
+/*Social Media Links*/
+address {
+    line-height: 2.3;
+    font-size: 1rem;
+    text-decoration: none;
+    align-content: space-around;
+    margin: 2em 0 2em;
+  }
+
+  address a {
+      border: 3px dashed rgb(31, 247, 49);
+      border-radius: 5rem;
+      background: darksalmon;
+      align-content: space-around;
+      padding: 3px;
+  }
+
+  address a:hover {
+      color: whitesmoke;
+  }
+/*End links*/
+
+.topsection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headimage {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.topdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Quote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectcard {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 1.5rem;
+    width: 25%;
+    border: rgb(9, 238, 123) 2px dashed;
+    margin: 1px 0;
+}
+
+.projectcard p:hover {
+    background: wheat;
+}
+
+.projectcard img {
+    width: 100%;
+}
+
+.projectcard p {
+        text-align: center;
+}
+
+.contact-section {
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
+  
+  .contact-section h4 {
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+
+footer {
+    height: 30vh;
+    background: #40E0D0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid darkslateblue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
