@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nico's Portfolio</title>
+    <title>Nico Herrera | Full Stack Web Developer</title>
     <link rel='stylesheet' href="./style/index.css"\>
+    <script src="./javascript/index.js"></script>
 </head>
 <body>
-    <header class='header-container'>
-        <nav class='nav-bar'>
+    <header class='header-container' id='home'>
+        <nav class='nav-bar navbar-fixed'>
             <h2 class='my-name'>Nico Herrera</h2>
             <div class='nav-links'>
-            <a href='index.html'>Home</a>
-            <a href='about.html'>About</a>
-            <a href='contact.html'>Contact</a>
-            <a href='projects.html'>Projects</a>
+            <a href='#home'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#my-projects-button'>Projects</a>
+            <a href='#'>Contact</a>
             </div>
         </nav>
         <div class='text-box'>
@@ -31,7 +32,31 @@
             </div>
         </div>
     </header>
-    <section id='my-projects-button' class='section-container'>
+
+
+    <section id='about' class='about-container'>
+        <div class='about-me'>
+            <h2 class='about-me-name'>
+                About Me
+            </h2>
+            <p class='about-me-title'>
+                Full Stack Web Developer
+            </p>
+            <p class='about-me-text'>
+                Full-Stack Development student learning new tricks every day. Currently getting
+                familiarized with CSS layouts, and some knowledge of JS.
+                My hobbies consist of exercising, e-sports, and working on side projects.
+            </p>
+        </div>
+        <div class='about-what-i-offer'>
+            <h3 class='what-i-offer-title'>
+                What I Offer
+            </h3>
+        </div>
+    </section>
+
+
+    <section id='my-projects-button' class='project-container'>
         <div class='project intro-css-pic'>
             <p class='project-title'>Intro CSS</p>
             <a class='section-button' href='https://github.com/nico-herrera/web-module-project-intro-css'>Code</a>
@@ -54,7 +79,7 @@
         </div> -->
     </section>
     <footer class='footer-container'>
-        <a class='footer-button' href='contact.html'>Contact Me</a>
+        <h3 class='footer-name'>© Nico Herrera 2020</h3>
     </footer>
 </body>
 </html>

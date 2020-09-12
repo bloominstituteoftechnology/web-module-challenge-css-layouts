@@ -72,24 +72,31 @@ body {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    align-items: center;
+    height: 100px;
 }
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
 
 .my-name {
     font-size: 2rem;
     width: 30%;
     text-align: center;
-    padding-top: 10px;
 }
 
 .nav-links{
     font-size: 1.3rem;
     text-align: center;
     display: flex;
-    width: 70%;
+    width: 50%;
     justify-content: flex-end;
-    padding-right: 75px;
-    padding-top: 10px;
+    padding-right: 10%;
 }
 
 .nav-links a {
@@ -144,7 +151,80 @@ body {
     border-radius: 100px;
 }
 
-.section-container {
+/* 
+//////////
+/* ABOUT SECTION */
+/* ///////// */
+
+
+.about-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    text-align: end;
+    border: 1px solid red;
+    height: 70vh;
+    margin-right: 15px;
+}
+
+.about-me {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    text-align: end;
+    height: 50%;
+    width: 100%;
+}
+
+.about-me-name {
+    display: flex;
+    font-weight: bold;
+    font-size: 2.5rem;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding-bottom: 18px;
+    height: 40%;
+    letter-spacing: 2px;
+}
+
+.about-me-title {
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+
+.about-me-text {
+    letter-spacing: 1.1px;
+    line-height: 23px;
+    width: 85%;
+    font-size: 1.1rem;
+}
+
+.about-what-i-offer {
+    border: 1px solid green;
+    height: 50%;
+    width: 100%;
+}
+
+.what-i-offer-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.big-can {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 40px;
+}
+
+/* /////////////
+PROJECT SECTION
+///////////// */
+
+.project-container {
     display: flex;
     height: 100vh;
     justify-content: space-around;
@@ -201,11 +281,10 @@ body {
     background-color: #d4d4d4;
 }
 
-.footer-button {
+.footer-name {
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #ecb7bf;
-    color: white;
+    color: #21211f;
     border-radius: 100px;
 }
 
@@ -221,10 +300,18 @@ body {
         padding-right: 0;
         justify-content: space-evenly;
         width: 95%;
+        padding-bottom: 15px;
+        opacity: 1;
     }
 
     .nav-bar {
         justify-content: center;
+    }
+
+    .navbar-fixed {
+        padding-top: 10px;
+        height: 25px;
+        opacity: .75;
     }
 
     .project {
@@ -239,6 +326,10 @@ body {
         width: 100%;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .footer-container {
+        height: 50px;
     }
 
   }
