@@ -60,16 +60,58 @@ button{
   background-color: black;
 }
 
-code {
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+.intro img {
+  width: 40%;
+  height: auto;
   float: left;
-  width: 60rem;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
   height: auto;
 }
 
-.right {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  width: 30rem;
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 100%;
   height: auto;
+}
+
+div.desc2 {
+  padding: 15px;
+  text-align: center;
 }
