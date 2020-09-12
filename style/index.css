@@ -1,1 +1,6 @@
 /* Add CSS styling here */
+*{
+    font-size: 2px; 
+    font-family: arial; 
+}
+
