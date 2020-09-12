@@ -64,9 +64,14 @@ body {
 }
 
 .header-container {
+    position: relative;
     display: flex;
     height: 100vh;
     flex-flow: column;
+}
+
+#home {
+    position: absolute;
 }
 
 .nav-bar {
@@ -74,6 +79,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    z-index: 1000;
 }
 
 .navbar-fixed {
@@ -106,6 +112,11 @@ body {
     color: black;
 }
 
+.nav-links a:hover {
+    color: #6288AC;
+
+}
+
 .text-box {
     display: flex;
     justify-content: center;
@@ -129,7 +140,7 @@ body {
 .header-primary {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 123px;
     text-transform: uppercase;
     letter-spacing: 15px;
 }
@@ -138,10 +149,12 @@ body {
     display: block;
 }
 
+
 .header-title {
     display: block;
     margin-top: 50px;
 }
+
 
 .header-button {
     text-decoration: none;
@@ -151,6 +164,11 @@ body {
     border-radius: 100px;
 }
 
+.header-button:hover {
+    background-color: #CCE3EB;
+    color: black;
+}
+
 /* 
 //////////
 /* ABOUT SECTION */
@@ -158,13 +176,18 @@ body {
 
 
 .about-container {
+    position: relative;
     display: flex;
     flex-flow: column;
     align-items: flex-end;
     text-align: end;
-    border: 1px solid red;
     height: 70vh;
     margin-right: 15px;
+}
+
+#about {
+    top: -100px;
+    position: absolute;
 }
 
 .about-me {
@@ -174,6 +197,7 @@ body {
     text-align: end;
     height: 50%;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .about-me-name {
@@ -201,7 +225,6 @@ body {
 }
 
 .about-what-i-offer {
-    border: 1px solid green;
     height: 50%;
     width: 100%;
 }
@@ -212,19 +235,13 @@ body {
     font-size: 2.5rem;
 }
 
-.big-can {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    font-size: 4rem;
-    margin-top: 40px;
-}
 
 /* /////////////
 PROJECT SECTION
 ///////////// */
 
 .project-container {
+    position: relative;
     display: flex;
     height: 100vh;
     justify-content: space-around;
@@ -242,6 +259,11 @@ PROJECT SECTION
     margin: 10px;
 }
 
+#my-projects-button {
+    top: -100px;
+    position: absolute;
+}
+
 .project-title {
     text-align: center;
     background-color: black;
@@ -257,6 +279,10 @@ PROJECT SECTION
     background-color: black;
     color: white;
     border-radius: 100px;
+}
+
+.section-button:hover {
+    background-color: #6288AC;
 }
 
 .intro-css-pic {
