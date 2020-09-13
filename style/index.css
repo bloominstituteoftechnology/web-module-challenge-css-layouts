@@ -1,4 +1,36 @@
 /* Add CSS styling here */
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex($values) {
+-webkit-box-flex: $values;
+-moz-box-flex:  $values;
+-webkit-flex:  $values;
+-ms-flex:  $values;
+flex:  $values;
+}
+
+@mixin order($val) {
+-webkit-box-ordinal-group: $val;  
+-moz-box-ordinal-group: $val;     
+-ms-flex-order: $val;     
+-webkit-order: $val;  
+order: $val;
+}
+
+.wrapper {
+@include flexbox();
+}
+
+.item {
+@include flex(1 200px);
+@include order(2);
+  }
 
 html, body {
     margin: 0;
@@ -17,12 +49,11 @@ main {
 
 .flex-container-1 {
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 65%);
+    flex-direction: column;
     display: flex;
-    
-    flex-direction: ;
-      
+    justify-content: flex-start;
+    height: 150px;     
 }
-
 
 button{
     color: white;
@@ -35,31 +66,11 @@ button{
     border: none;
 }
 
-h1 {
-    
-    color: red;
+h1 { 
+    color: rgb(122, 113, 113);
     font-size: 30px;
     margin: 13px;
-   
-}
-
-.mid-flex {
-    background-color: darkcyan;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.left-box {
-    height: 325px;
-    width:480px;
-    margin: 1%;
-    border: 2px solid black;
-}
-
-#right-box {
-    height: 325px;
-    width:480px;
-    margin: 1%;
+    margin-top: 20px;  
 }
 
 .flex-container-2 {
@@ -67,40 +78,38 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;  
-    align-content: flex-start;
-    margin: auto;
 }
 
-.flex-container-2-1 {
-    display: flex;
-    padding:
-  
+.mid-box {
+    height: 325px;
+    width:500px;
+    margin: 5px;
+    border: 2px solid black;
+   
 }
+
 .body-box {
     background-image: url("https://picsum.photos/200/200");
     border-radius: 5px;
-    margin: 20px 20px;
+    margin: 5px;
     height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    align-self: space-evenly;
-    
+    width: 250px;
+    border: 2px solid black;    
 }
 
 .flex-container-3 {
     background-color: cadetblue;
     display: flex;
+    flex-direction:column;
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding: 2%
 }
 
-.footer-contact{
-    margin: 20px auto;
-    height: 30px;
-    width: 80px;
-    border: 1px solid black;
-    align-self: center;
+.flex-container-3 p {
+    padding: ;
+    font-size: 30px;
 }
 
 
