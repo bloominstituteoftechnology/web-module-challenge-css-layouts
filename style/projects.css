@@ -40,12 +40,12 @@ html {
   }
   
   header nav a {
-      padding:8px;
+      padding:0 30px;
       color:white;
       text-decoration:none;
       background-color:rgb(87, 78, 207);
       border:solid black 2px;
-      margin:30px 25px;
+      margin:30px 30px;
   }
 
   nav a:hover {
@@ -59,14 +59,14 @@ html {
     opacity:0.9;
   }
   
-  .stretch {
+  .ux {
     width:800px;
     height: auto;
     border-radius:15px;
     margin:2px 20px;
   }
   
-  .welcome {
+  .projects {
     height:800px;
     width:800px;
     height: auto;
@@ -85,12 +85,12 @@ html {
     align-items:stretch;
   }
   
-  .developer{
+  .neoelectronics{
     height:400px;
     width:1500px;
   }
   
-  .coding{
+  .rentarobot{
     height:400px;
     width:1500px;
   }
@@ -111,6 +111,7 @@ html {
     flex-grow:4;
     
   }
+
 
   .image5{
     height:400px;
@@ -135,7 +136,7 @@ html {
      height:400px;
      width:230px;
   }
-  
+
   .bottom {
     background-color:grey;
     padding:8px 50px;

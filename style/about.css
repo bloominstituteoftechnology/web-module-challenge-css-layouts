@@ -40,12 +40,12 @@ html {
   }
   
   header nav a {
-      padding:8px;
+      padding:0 30px;
       color:white;
       text-decoration:none;
       background-color:rgb(87, 78, 207);
       border:solid black 2px;
-      margin:30px 25px;
+      margin: 30px 30px;
   }
 
   nav a:hover {
@@ -59,14 +59,14 @@ html {
     opacity:0.9;
   }
   
-  .stretch {
+  .stack {
     width:800px;
     height: auto;
     border-radius:15px;
     margin:2px 20px;
   }
   
-  .welcome {
+  .about {
     height:800px;
     width:800px;
     height: auto;
@@ -85,15 +85,6 @@ html {
     align-items:stretch;
   }
   
-  .developer{
-    height:400px;
-    width:1500px;
-  }
-  
-  .coding{
-    height:400px;
-    width:1500px;
-  }
   
   .image1{
     margin-left: 20px;
@@ -135,7 +126,7 @@ html {
      height:400px;
      width:230px;
   }
-  
+
   .bottom {
     background-color:grey;
     padding:8px 50px;
