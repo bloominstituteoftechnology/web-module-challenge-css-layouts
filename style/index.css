@@ -1,1 +1,108 @@
 /* Add CSS styling here */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+main {
+    background:#2d3436;
+    max-width: 1080px;
+    min-width: 1080px;
+    margin: auto;
+    font-family: "Cookie";
+}
+
+.flex-container-1 {
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 65%);
+    display: flex;
+    
+    flex-direction: ;
+      
+}
+
+
+button{
+    color: white;
+    background: #222;
+    font-family: inherit;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 40px;
+    min-width: 120px;
+    border: none;
+}
+
+h1 {
+    
+    color: red;
+    font-size: 30px;
+    margin: 13px;
+   
+}
+
+.mid-flex {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left-box {
+    height: 325px;
+    width:480px;
+    margin: 1%;
+    border: 2px solid black;
+}
+
+#right-box {
+    height: 325px;
+    width:480px;
+    margin: 1%;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-content: flex-start;
+    margin: auto;
+}
+
+.flex-container-2-1 {
+    display: flex;
+    padding:
+  
+}
+.body-box {
+    background-image: url("https://picsum.photos/200/200");
+    border-radius: 5px;
+    margin: 20px 20px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    align-self: space-evenly;
+    
+}
+
+.flex-container-3 {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-contact{
+    margin: 20px auto;
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    align-self: center;
+}
+
+
+
+
