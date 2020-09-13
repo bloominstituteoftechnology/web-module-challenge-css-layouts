@@ -6,11 +6,6 @@ html, body {
     
 }
 
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
-
 main {
     color: white;
     background:#2d3436;
@@ -22,14 +17,16 @@ main {
 
 .flex-container-1 {
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 65%);
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-    justify-content: flex-start;
-    flex-shrink: 1;
-    height: 150px;     
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;  
+    padding: 5px;   
 }
 
-button{
+button {
+    align-self:;
     color: white;
     background: #222;
     font-family: inherit;
@@ -44,11 +41,12 @@ button:hover {
     background: transparent;
 }
 
+
 h1 { 
     color: rgb(122, 113, 113);
-    font-size: 40px;
+    font-size: 30px;
     margin: 13px;
-    margin-top: 20px;  
+    margin-top: 20px; 
 }
 
 .flex-container-2 {
@@ -56,47 +54,34 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center; 
-    font-size: large; 
+    justify-content: center;  
 }
 
 .mid-box {
     background-image: url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/117355061_3732968676717673_7613081693682315515_o.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=itiwnAmdKWoAX-sN4Nf&_nc_ht=scontent-lga3-2.xx&oh=60ff555f1db8422fcbbe32c96eff1acf&oe=5F85894D');
     background-size: cover;
     height: 325px;
-    width:515px;
-    margin: 5px;
-    margin-left:3px;
+    width:505px;
+    margin: auto;
     border: 2px solid black;
-    border-radius: 5px;
    
 }
 
 .midr-box {
     height: 325px;
-    width:450px;
-    margin: 5px;
-    margin-left: 75px;
-    align-self: center;
-}
-
-.midr-box p {
-    font-size: 40px;
-    text-align: left;
-    
-    
+    width:500px;
+    margin: 5px
 }
 
 #button-center{
-    justify-self: right;
+    justify-self: center;
 }
 .body-box {
-    justify-self: space-evenly;
     background-image: url("https://picsum.photos/200/200");
     border-radius: 5px;
-    margin: 7px;
-    height: 200px;
-    width: 250px;
+    margin: 5px;
+    height: 400px;
+    width: 500px;
     border: 2px solid black;    
 }
 
@@ -107,15 +92,13 @@ h1 {
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 90px;
-    padding: 4%
+    padding: 2%
 }
 
 .flex-container-3 p {
     padding: ;
     font-size: 30px;
 }
-
 
 
 
