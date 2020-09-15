@@ -1,8 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* Add CSS styling here */
+/* Add CSS styling here */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,102 +13,181 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 
-html {
-  font-size: 62.5%;
+* {
+    box-sizing: border-box;
+
+    max-width: 100%;
 }
 
-*{
-  box-sizing: border-box;
-}
-
-.head {
-  background-color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-header{
-  font-size: 4.5rem;
-  font-style: oblique;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-size: 2.5rem;
-  width: 25%;
-}
-
-button{
-  color: antiquewhite;
-  background-color: black;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: right;
-}
-.intro img {
-  width: 40%;
-  height: auto;
-  float: left;
-}
-
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 24%;
+#home {
+    background-color: blue;
+    height: ;
 
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+#home h1 {
+font-size: 45px;
+color: orange;
+font-family: 'Sacramento', cursive;
+margin: 20px;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+
+
+
+
+nav.links  {
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+margin-left: 20px;
+
+
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+nav.links a {
+
+background-color: grey;
+text-decoration: none;
+border: solid 5px blue;
+
 }
 
-div.gallery2 {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 24%;
+
+
+section.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-div.gallery2:hover {
-  border: 1px solid #777;
+
+div.aboutme {
+    display: flex;
+     flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px;
+      margin-right: 80px;
+      text-align: center;
+  }
+
+
+.aboutme h2 {
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Sacramento', cursive;
+
+
+
+}
+.aboutme button {
+    margin: 10px;
+    color: lightskyblue;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+.aboutme p {
+    background-color: #AFEEEE;
+    border-radius: 15px ;
+    font-family: 'Sacramento', cursive;;
+   padding: 20px;
+}
+body {
+    background-color:whitesmoke;
 }
 
-div.gallery2 img {
-  width: 100%;
-  height: auto;
+
+
+section img {
+    width: 425px;
+    position: relative;
+    border-radius: 15px;
+
 }
 
-div.desc2 {
-  padding: 15px;
-  text-align: center;
+div.selfie {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: flex-start;
+
+}
+
+.firstrow img {
+    width: 300px ;
+    height: 300px;
+
+    }
+
+    div.firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .secondrow img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    div.secondrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+footer {
+    background-color: blue;
+
+}
+
+footer h3 {
+font-size: 2rem;
+color: orange;
+}
+
+
+footer  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+div.contactme button {
+    padding: 10px;
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+
+
+
+}
+
+.contactme a {
+    padding: 5px;
+    border-radius: 20px;
+    color: green;
+    font-weight: bold;
+    background-color: lightgreen;
+    margin: 6px;
+
 }
