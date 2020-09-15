@@ -181,7 +181,7 @@ body {
     flex-flow: column;
     align-items: flex-end;
     text-align: end;
-    height: 70vh;
+    height: 100vh;
     margin-right: 15px;
 }
 
@@ -227,12 +227,115 @@ body {
 .about-what-i-offer {
     height: 50%;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .what-i-offer-title {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
+    margin-bottom: 75px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80%;
+    width: 100%;
+}
+
+.cog-text {
+    text-align: center;
+    margin-top: 25px;
+    height: 75%;
+    width: 100%;
+    letter-spacing: 1.1px;
+    line-height: 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.palette-text {
+    text-align: center;
+    margin-top: 25px;
+    height: 75%;
+    width: 100%;
+    letter-spacing: 1.1px;
+    line-height: 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.asterisk-text {
+    text-align: center;
+    margin-top: 25px;
+    height: 75%;
+    width: 100%;
+    letter-spacing: 1.1px;
+    line-height: 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.cog-container:hover {
+color: #6288AC;
+}
+
+.cog-icon {
+    height: 35%;
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+}
+
+.palette-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.palette-container:hover {
+    color: #6288AC;
+}
+
+.palette-icon {
+    height: 35%;
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+}
+
+.asterisk-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.asterisk-container:hover {
+    color: #6288AC;
+}
+
+.asterisk-icon {
+    height: 35%;
+    font-size: 4.5rem;
+    margin-bottom: 15px;
 }
 
 
@@ -240,13 +343,16 @@ body {
 PROJECT SECTION
 ///////////// */
 
-.project-container {
-    position: relative;
-    display: flex;
+.main-project-container {
     height: 100vh;
+    position: relative;
+}
+
+.project-container {
+    display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-
+    height: 85%;
 }
 
 .project {
@@ -257,6 +363,19 @@ PROJECT SECTION
     height: 30%;
     width: 30%;
     margin: 10px;
+}
+
+.head-project-title {
+    height: 15%;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 #my-projects-button {
