@@ -477,4 +477,8 @@ PROJECT SECTION
         height: 50px;
     }
 
+    .about-container {
+        height: 70vh;
+    }
+
   }
