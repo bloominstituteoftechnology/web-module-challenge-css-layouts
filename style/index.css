@@ -475,15 +475,15 @@ PROJECT SECTION
     }
 
     .cog-text {
-        letter-spacing: none;
+        letter-spacing: 1px;
     }
 
     .palette-text {
-        letter-spacing: none;
+        letter-spacing: 1px;
     }
 
     .asterisk-text {
-        letter-spacing: none;
+        text-transform: 1px;
     }
 
     .footer-container {
