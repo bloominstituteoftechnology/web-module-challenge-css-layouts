@@ -474,23 +474,38 @@ PROJECT SECTION
         -webkit-overflow-scrolling: touch;
     }
 
+    .what-i-offer-title {
+        margin-bottom: 25px;
+    }
+
+    .cog-icon {
+        font-size: 4rem;
+    }
+
     .cog-text {
         font-size: 0.8rem;
         margin-top: 10px;
     }
 
-    .what-i-offer-title {
-        margin-bottom: 25px;
-    }
-
     .palette-text {
         font-size: 0.8rem;
         margin-top: 10px;
+        border-right: 1px dotted grey;
+        border-left: 1px dotted grey;
+    }
+
+    .palette-icon {
+        font-size: 4rem;
     }
 
     .asterisk-text {
         font-size: 0.8rem;
         margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .asterisk-icon {
+        font-size: 4rem;
     }
 
     .footer-container {
