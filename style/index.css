@@ -463,6 +463,7 @@ PROJECT SECTION
         width: 100%;
     }
 
+
     .nav-links a {
         width: auto;
     }
@@ -471,6 +472,18 @@ PROJECT SECTION
         width: 100%;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .cog-text {
+        letter-spacing: none;
+    }
+
+    .palette-text {
+        letter-spacing: none;
+    }
+
+    .asterisk-text {
+        letter-spacing: none;
     }
 
     .footer-container {
