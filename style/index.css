@@ -475,15 +475,22 @@ PROJECT SECTION
     }
 
     .cog-text {
-        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .what-i-offer-title {
+        margin-bottom: 25px;
     }
 
     .palette-text {
-        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin-top: 10px;
     }
 
     .asterisk-text {
-        text-transform: 1px;
+        font-size: 0.8rem;
+        margin-top: 10px;
     }
 
     .footer-container {
