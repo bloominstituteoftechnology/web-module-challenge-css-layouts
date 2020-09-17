@@ -1,0 +1,65 @@
+/* Add CSS styling here */
+nav {
+    display: flex;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: grey;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 7%;
+}
+
+header {
+    padding: 4rem;
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+
+
+.topHalf {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topHalf .topHalfRight {
+    margin: 0 auto;
+    max-width: 20%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.topHalf .topHalfRight .name {
+    margin-bottom: 2rem;
+}
+
+.topHalf .topHalfRight .journey {
+    margin-top: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.galsection {
+    min-width: 25%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: lightblue;
+    border-top: 1px solid black;
+    text-align: center;
+    padding-bottom: 5rem;
+    max-width: 100%;
+}
+
+@media
