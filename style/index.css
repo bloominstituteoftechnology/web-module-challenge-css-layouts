@@ -83,7 +83,6 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -92,8 +91,8 @@ main {
     font-size: 100%;
     color: white;
     background: #2d3436;
-    max-width: 1080px;
-    min-width: 1080px;
+    max-width: 1048px;
+    min-width: 1048px;
     margin: auto;
     font-family: "Cookie";
 }
@@ -134,7 +133,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: large;
     justify-items: center;
 }
@@ -142,29 +141,31 @@ h1 {
 .mid-box {
     background-image: url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/117355061_3732968676717673_7613081693682315515_o.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=itiwnAmdKWoAX-sN4Nf&_nc_ht=scontent-lga3-2.xx&oh=60ff555f1db8422fcbbe32c96eff1acf&oe=5F85894D');
     background-size: cover;
-    height: 325px;
-    width: 515px;
-    margin: 5px;
+    height: 20rem;
+    width: 47%;
+    margin: auto;
     margin-left: 3px;
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .midr-box {
-    height: 325px;
-    width: 450px;
-    margin: 5px;
-    margin-left: 75px;
+    display: flex;
+    height: 20rem;
+    width:47%; 
+    margin: auto;
     align-self: center;
 }
 
 .midr-box p {
+    display:flex;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 #button-center {
-    justify-self: right;
+    justify-self: center;
 }
 
 .body-box {
@@ -173,7 +174,7 @@ h1 {
     border-radius: 5px;
     margin: 7px;
     height: 200px;
-    width: 250px;
+    width: 23%;
     border: 2px solid black;
 }
 
@@ -224,6 +225,7 @@ h1 {
 @media (max-width: 768px) {
     body {
         max-width: 80%;
+        min-width: 718px;
         position: center;
 
     }
@@ -263,6 +265,7 @@ h1 {
     }
 
     .midr-box {
+        margin: 1%;
         width: 95%;
         margin: auto;
         text-align: center;
@@ -276,7 +279,7 @@ h1 {
     .body-box {
         width: 47%;
         margin: 1%;
-        justify-self: space-evenly;
+        justify-self: center;
     }
 
 
