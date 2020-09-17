@@ -483,13 +483,13 @@ PROJECT SECTION
     }
 
     .cog-text {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-top: 10px;
     }
 
 
     .palette-text {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-top: 10px;
         border-right: 1px dotted grey;
         border-left: 1px dotted grey;
@@ -503,7 +503,7 @@ PROJECT SECTION
 
 
     .asterisk-text {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-top: 10px;
         margin-left: 6px;
     }
