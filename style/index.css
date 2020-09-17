@@ -478,6 +478,10 @@ PROJECT SECTION
         margin-bottom: 25px;
     }
 
+    .cog-container {
+        width: 31%;
+    }
+
     .cog-icon {
         font-size: 4rem;
     }
@@ -487,22 +491,32 @@ PROJECT SECTION
         margin-top: 10px;
     }
 
+    .palette-container {
+        width: 31%;
+    }
+
     .palette-text {
         font-size: 0.8rem;
         margin-top: 10px;
         border-right: 1px dotted grey;
         border-left: 1px dotted grey;
-        margin-left: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .palette-icon {
         font-size: 4rem;
     }
 
+    .asterisk-container {
+        width: 31%;
+    }
+
+
     .asterisk-text {
         font-size: 0.8rem;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 6px;
     }
 
     .asterisk-icon {
