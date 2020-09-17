@@ -1,19 +1,97 @@
 /* Add CSS styling here */
-html, body {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
-    height: 100%;
-    
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
-
 main {
+    font-size: 100%;
     color: white;
-    background:#2d3436;
+    background: #2d3436;
     max-width: 1080px;
     min-width: 1080px;
     margin: auto;
@@ -26,10 +104,10 @@ main {
     display: flex;
     justify-content: flex-start;
     flex-shrink: 1;
-    height: 150px;     
+    height: 150px;
 }
 
-button{
+button {
     color: white;
     background: #222;
     font-family: inherit;
@@ -44,37 +122,37 @@ button:hover {
     background: transparent;
 }
 
-h1 { 
+h1 {
     color: rgb(122, 113, 113);
     font-size: 40px;
     margin: 13px;
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
 .flex-container-2 {
-    background-image: radial-gradient(circle,#2d3436,  #000000 );
+    background-image: radial-gradient(circle, #2d3436, #000000);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center; 
-    font-size: large; 
+    justify-content: space-evenly;
+    font-size: large;
+    justify-items: center;
 }
 
 .mid-box {
     background-image: url('https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/117355061_3732968676717673_7613081693682315515_o.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=itiwnAmdKWoAX-sN4Nf&_nc_ht=scontent-lga3-2.xx&oh=60ff555f1db8422fcbbe32c96eff1acf&oe=5F85894D');
     background-size: cover;
     height: 325px;
-    width:515px;
+    width: 515px;
     margin: 5px;
-    margin-left:3px;
+    margin-left: 3px;
     border: 2px solid black;
     border-radius: 5px;
-   
 }
 
 .midr-box {
     height: 325px;
-    width:450px;
+    width: 450px;
     margin: 5px;
     margin-left: 75px;
     align-self: center;
@@ -83,13 +161,12 @@ h1 {
 .midr-box p {
     font-size: 40px;
     text-align: left;
-    
-    
 }
 
-#button-center{
+#button-center {
     justify-self: right;
 }
+
 .body-box {
     justify-self: space-evenly;
     background-image: url("https://picsum.photos/200/200");
@@ -97,13 +174,13 @@ h1 {
     margin: 7px;
     height: 200px;
     width: 250px;
-    border: 2px solid black;    
+    border: 2px solid black;
 }
 
 .flex-container-3 {
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 65%);
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -112,11 +189,100 @@ h1 {
 }
 
 .flex-container-3 p {
-    padding: ;
     font-size: 30px;
 }
 
+.flex-container-1a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.flex-container-2a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.body-box2 {
+    width: 47%;
+}
+
+.body-box2 img {
+    width: 100%
+}
+
+.body-box2 p {
+    padding: 0 2%;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 80%;
+        position: center;
+
+    }
+
+    .flex-container-1 {
+        background-image: linear-gradient(315deg, #2d3436 0%, #000000 65%);
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        flex-shrink: 1;
+        height: 150px;
+        align-items: center
+    }
+
+    .flex-container-2 {
+        background-image: radial-gradient(circle, #2d3436, #000000);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    .flex-container-2a {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid-box {
+        margin: 1%;
+        width: 95%;
+        justify-items: center
+    }
+
+    .midr-box {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .midr-box p {
+        text-align: center;
+    }
+
+    .body-box {
+        width: 47%;
+        margin: 1%;
+        justify-self: space-evenly;
+    }
 
 
 
+}
 
+@media (max-width: 992px) {}
+
+@media (max-width: 1488px) {}
