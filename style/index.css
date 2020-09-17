@@ -478,10 +478,6 @@ PROJECT SECTION
         margin-bottom: 25px;
     }
 
-    .cog-container {
-        width: 31%;
-    }
-
     .cog-icon {
         font-size: 4rem;
     }
@@ -491,9 +487,6 @@ PROJECT SECTION
         margin-top: 10px;
     }
 
-    .palette-container {
-        width: 31%;
-    }
 
     .palette-text {
         font-size: 0.8rem;
@@ -506,10 +499,6 @@ PROJECT SECTION
 
     .palette-icon {
         font-size: 4rem;
-    }
-
-    .asterisk-container {
-        width: 31%;
     }
 
 
