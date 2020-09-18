@@ -49,3 +49,46 @@ table {
 }
 
 /* css */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.header {
+	width: 100%;
+	padding: 20px 5%;
+	margin-bottom: auto;
+}
+
+.head nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 2%;
+    font-size: 16 px;
+}  
+
+.head nav a {
+    color: black;
+    text-decoration: black;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 20px 2%;
+   font-size: 16 px;
+   margin: 20px;
+  }
+  
