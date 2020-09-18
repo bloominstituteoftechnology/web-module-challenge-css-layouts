@@ -1,1 +1,92 @@
-/* Add CSS styling here */
+h1 {
+color: darkslategrey;
+font-size: 50px;
+font-family: "Grandstander", cursive;
+text-align: center;
+}
+
+body {
+    background-color: #F5F6F8;
+}
+header {
+    width: 100%;
+}
+ul { 
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+
+ul li a:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.b1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.b2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.b3 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.b4 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+.bodyimg {
+    display: block;
+    width: 100%;
+    height: 750px;
+    margin: 0 25px 25px 0;
+
+}
+
+.fp {
+    display: flex;
+}
+
+footer {
+margin-top: 40px;
+}
+
+footer ul button {
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
