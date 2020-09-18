@@ -106,6 +106,10 @@ footer ul button {
         color: white;
     }
 
+    h2 {
+        color: white;
+    }
+    
     .fp {
         display: flex;
         flex-wrap: wrap;
