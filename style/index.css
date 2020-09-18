@@ -1,1 +1,447 @@
-/* Add CSS styling here */
+*/ html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CSS starts from here */
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    background: grey;
+    height: 20vh;
+    width: 90%;
+}
+
+nav {
+    margin: auto;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 2rem;
+    background: crimson;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: flex-start;
+}
+
+#mainpic img {
+    width: 450px;
+    height: 400px;
+    margin: 0 0;
+    float: left;
+}
+
+#container {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+#pro {
+    display: flex;
+    float: center;
+    text-align: center;
+    width: 90px;
+    background-color: crimson;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+    font-style: bolder;
+}
+
+#mainpic {
+    display: flex;
+    float: left;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.firstsection {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.secondsection {
+    width: 100%;
+}
+
+.secondsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.divison {
+    flex: 50%;
+}
+
+p {
+    margin: 2% 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    background: grey;
+    height: 20vh;
+    width: 90%;
+    background: rgb(97, 92, 92);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#least {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    background-color: crimson;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+    font-style: bolder;
+}
+
+.last {
+    width: 180px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        border: 5px;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    #btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #mainpic {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    #mainpic img {
+        width: 90%;
+    }
+    #container {
+        width: 100%;
+    }
+    .firstsection {
+        margin: auto;
+    }
+    .secondsection {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .pics img {
+        margin: 50px;
+        width: 100%;
+    }
+    #least {
+        display: flex;
+        float: center;
+        text-align: center;
+        width: 130px;
+        background-color: crimson;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: large;
+        font-style: bolder;
+    }
+    .last {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        border: 5px;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    #btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #mainpic {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    #container {
+        width: 100%;
+    }
+    .secondsection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .pics img {
+        margin: 0;
+        width: 100%;
+    }
+    .pics {
+        width: 48%;
+    }
+    #least {
+        display: flex;
+        float: center;
+        text-align: center;
+        width: 130px;
+        background-color: crimson;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: large;
+        font-style: bolder;
+    }
+    .last {
+        width: 180px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        border: 5px;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    #btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #mainpic {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    #container {
+        width: 100%;
+    }
+    .secondsection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .pics img {
+        margin: 0;
+        width: 100%;
+    }
+    .pics {
+        width: 48%;
+    }
+    #least {
+        display: flex;
+        float: center;
+        text-align: center;
+        width: 130px;
+        background-color: crimson;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: large;
+        font-style: bolder;
+    }
+    .last {
+        width: 180px;
+        text-align: center;
+    }
+}
