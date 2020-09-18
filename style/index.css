@@ -80,6 +80,11 @@ h2 {
     display: flex;
 }
 
+.fp p {
+    margin-left: 100px;
+    font size: 20px;
+}
+
 footer {
 margin-top: 40px;
 }
