@@ -71,7 +71,7 @@ p {
 	width: 100%;
 	padding: 20px 5%;
 	margin-bottom: auto;
-	background: aqua;
+	background: teal;
 }
 
 .header nav {
@@ -79,7 +79,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 2%;
-    font-size: 16 px;
+    font-size: 16px;
 }  
 
 .header nav a {
@@ -89,7 +89,7 @@ p {
    justify-content: space-evenly;
    align-items: center;
    padding: 20px 2%;
-   font-size: 16 px;
+   font-size: 16px;
    margin: 20px;
   }
 
@@ -146,5 +146,5 @@ footer nav {
 	justify-content: center;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
