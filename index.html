@@ -1,90 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles's Portfolio</title>
+    <title>Charles Barclay | Software Engineer | Portfolio</title>
     <link rel="stylesheet" href="./style/index.css">
+    <!--CSS Reset File-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!--Font Awesome Import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-  <section>
-      <header ID="home">
-          <h1>Charles Barclay</h1>
-          <nav class="links">
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="contact.html">Contact</a>
-              <a href="projects.html">Projects</a>
-          </nav>
-      </header>
-  </section>
-  <section class="bio">
-     <div class="selfie">
-      <img src="./pictures/coding.jpeg" alt="Lines of Code">
-     </div>
-     <div class="biowriting">
-      <div class="aboutme">
+    <header>
+        <nav class="flex-container">
+            <h1 class="logo"><a href="#" alt="Charles Barclay">Charles Barclay</a></h1>
+            <ul class="navigation">
+                <li><a href="index.html" alt="Home Link">Home</a></li>
+                <li><a href="./projects.html" alt="Projects Link">Projects</a></li>
+                <li><a href="./contact.html" alt="Contact Link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flexbox">
+    <section class="media_box">
+        <div class="hero_text">
+            <h1>Charles Barclay</h1>
+            <a href="./projects.html"> <button>My Projects</button>  </a>
+        </div>
+    </section>
+    <section class="mobile_only">
+        <a href="./projects.html" alt="Projects Link">Projects</a>
         <h2>Charles Barclay</h2>
-        <button>My Projects</button>
-        <p>So far my travels in the coding world have been...how do i say...local. With that being said I am well
-          versed in HTML and CSS and working my way through Javascript and Swift. Stay tuned for updates on my
-          many quests.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div  class="firstrow">
-      <a target="_blank" href="./pictures/IMG_1229.jpeg">
-          <img src="./pictures/IMG_1229.jpeg" alt="Picture of Dog" width="1200" height="800">
-        </a>
-        <div class="desc">Canine Photography Website</div>
-        <a target="_blank" href="./pictures/IMG_1013.jpeg">
-          <img src="./pictures/IMG_1013.jpeg" alt="Truss picture" width="1200" height="800">
-        </a>
-        <div class="desc">Truss Installer Website</div>
-        <a target="_blank" href="./pictures/IMG_0925.jpeg">
-          <img src="./pictures/IMG_0925.jpeg" alt="Jellyfish" width="1200" height="800">
-        </a>
-        <div class="desc">Aquarium Website</div>
-        <a target="_blank" href="./pictures/IMG_0843.jpeg">
-          <img src="./pictures/IMG_0843.jpeg" alt="Food" width="1200" height="800">
-        </a>
-        <div class="desc">Food Blog Website</div>
-      </div>
-  </section>
-
-  <Section>
-    <div class="secondrow">
-        <a target="_blank" href="./pictures/IMG_0782.jpeg">
-          <img src="./pictures/IMG_0782.jpeg" alt="Glass Art" width="1200" height="800">
-        </a>
-        <div class="desc2">Stain Glass Art Website</div>
-        <a target="_blank" href="./pictures/IMG_0618.jpeg">
-          <img src="./pictures/IMG_0618.jpeg" alt="Alligator" width="1200" height="800">
-        </a>
-        <div class="desc2">Wildlife Trapper Website</div>
-        <a target="_blank" href="./pictures/IMG_0349.jpeg">
-          <img src="./pictures/IMG_0349.jpeg" alt="Necklace Pendant" width="1200" height="800">
-        </a>
-        <div class="desc2">Homemade Jewelery Website</div>
-        <a target="_blank" href="./pictures/IMG_0019.jpeg">
-          <img src="./pictures/IMG_0019.jpeg" alt="Torch" width="1200" height="800">
-        </a>
-        <div class="desc2">Welding Services Website</div>
-      </div>
-  </section>
-
-  <footer>
-    <div class="contactme">
-   <h3>Like what you see?</h3>
-   <button>Contact Me</button>
-   <a href="https://www.instagram.com" target="_blank">Instagram</a>
-   <a href="https://www.twitter.com" target="_blank">Twitter</a>
-   <a href="https://www.facebook.com" target="_blank">Facebook</a>
-    </div>
-   </footer>
-
-
+    </section>
+    <section>
+        <div id="portfolio" class="card_box">
+            <!--Card One-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/dog.jpeg" alt="Canine Photography Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Canine Photography Website</h4>
+                    <p>
+                      Would love to create a website for someone interested in showing
+                      off their pet and working dog photos.
+                    </p>
+                </div>
+            </div>
+            <!--Card Two-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/truss.jpeg" alt="Truss Installer Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Truss Installer Website</h4>
+                    <p>
+                      I know quite a bit about the industry and could create a website
+                      that would showcase their skills.
+                    </p>
+                </div>
+            </div>
+            <!--Card Three-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/food.jpeg" alt="Food Blog Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Food Blog Website</h4>
+                    <p>
+                      Eating is a favorite hobby of mine and wouldn't mind actually starting a
+                      food blog for my foodie adventures.
+                    </p>
+                </div>
+            </div>
+            <!--Card Four-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/stain.jpeg" alt="Stain Glass Art Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Stain Glass Art Website</h4>
+                    <p>
+                     I enjoy the art immensley and think that the practitioners are extremely
+                     talented.
+                    </p>
+                </div>
+            </div>
+            <!--Card Five-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/weld.jpeg" alt="Welding Services Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Welding Services Website</h4>
+                    <p>
+                      I have dabbled in the welding industries and have found that I do not
+                      like to do this type of work and will happily pay for the services.
+                    </p>
+                </div>
+            </div>
+            <!--Card Six-->
+            <div class="card">
+                <div class="cardheader">
+                    <h3>Demo Project</h3>
+                </div>
+                <div class="cardphoto">
+                    <img src="./assets/images/jelly.jpeg" alt="Aquarium Website">
+                </div>
+                <div class="cardcont">
+                    <h4>Aquarium Website</h4>
+                    <p>
+                      Aquariums are a favorite pastime of mine and I try to visit any time
+                      I am around a new one.
+                    </p>
+                </div>
+            </div>
+    </section>
+</div>
+    <footer>
+        <nav class="footer-flex-container">
+            <ul>
+                <li>
+                    <a href="./contact.html" alt="Contact Link">Contact</a>
+                </li>
+            </ul>
+            <div class="icon_container">
+                <div class="social_icon">
+                    <a class="github" href="https://github.com/BarclayC" alt="Github Link"><i class="fa fa-github fa-2x"></i></a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/charles-barclay-19a5b71b5/" alt="Linked In link"><i
+                            class="fa fa-linkedin fa-2x">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
+
 </html>
