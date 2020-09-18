@@ -95,3 +95,35 @@ footer ul button {
     color: white;
     padding: 10px;
 }
+
+@media (max-width: 800px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    
+    h1 {
+        color: white;
+    }
+
+    .fp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .topnav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin: 25px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
