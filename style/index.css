@@ -77,20 +77,21 @@ p {
 
 .header nav {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px 2%;
 }  
 
-.header nav a {
+.header nav button {
     color: black;
-    text-decoration: black;
+	text-decoration: black;
+	background-color: violet;
     display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
    align-items: center;
    padding: 10px 2%;
-   font-size: 26px;
-   margin: 20px;
+   font-size: 16px;
+   margin: 10px;
   }
 
 .container-2 {
