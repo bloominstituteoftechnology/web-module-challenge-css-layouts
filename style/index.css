@@ -184,6 +184,15 @@ footer nav {
 		justify-content: center;
 		align-items: center;
 	}
+	.middle-content .boxes {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.box {
+		width: 45%;
+	}
 	.container-2 {
 		width: 75%;
 		display: flex;
