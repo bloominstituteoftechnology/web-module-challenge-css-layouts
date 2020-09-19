@@ -70,7 +70,7 @@ p {
 }
 
 .header {
-	width: 100%;
+	max-width: 100%;
 	padding: 1.25em 5%;
 	margin-bottom: auto;
 	background: teal;
@@ -96,7 +96,7 @@ p {
   }
 
 .container-2 {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -124,7 +124,7 @@ img#river {
 .middle-content {
 	margin-bottom: 30px;
 	height: 75%;
-	width: 100%;
+	max-width: 100%;
 	padding: 0 2%;
 	margin: 0.625em;
 	padding: 0.625em;
@@ -160,14 +160,14 @@ img {
 }
 
 footer {
-	width: 100%;
+	max-width: 100%;
 	padding: 1.25em 5%;
 	margin-top: auto;
 	background: teal;
 }
 
 footer nav {
-	width: 50%;
+	max-width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -191,6 +191,18 @@ footer nav {
 		justify-content: center;
 		align-items: center;
 	}
+	footer {
+		width: 75%;
+	}
+	footer nav {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
 
 }
 
@@ -203,6 +215,16 @@ footer nav {
 		align-items: center;
 	}
 	.container-2 {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	footer {
+		width: 50%;
+	}
+	footer nav {
 		width: 50%;
 		display: flex;
 		flex-direction: column;
