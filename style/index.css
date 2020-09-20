@@ -56,6 +56,7 @@ table {
 
 html, body {
 	height: 100%;
+	width: 100%;
 	font-size: 62.5%;
 }
 
@@ -68,6 +69,7 @@ p {
 	line-height: 1.5;
 	font-size: 1.8rem;
 }
+
 
 .header {
 	max-width: 100%;
@@ -131,27 +133,20 @@ img#river {
 
 }
 
-.middle-content .boxes {
+.boxes {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
-.middle-content .boxes .box{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-evenly;
+.box{
 	box-sizing: border-box;
 	width: 25%;
 	height: 50vh;
 }
 
-.box {
-	height: 50vh;
-	width: 50vh;
-}
 
 img {
 	height: 100%;
@@ -160,9 +155,9 @@ img {
 }
 
 footer {
+	margin-top: 2%;
 	max-width: 100%;
 	padding: 1.25em 5%;
-	margin-top: auto;
 	background: teal;
 }
 
@@ -177,64 +172,84 @@ footer nav {
 }
 
 @media (max-width: 800px) {
-	.header {
-		width: 75%;
+	.header nav {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-	.middle-content .boxes {
-		flex-wrap: wrap;
+	.top-content {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
 
-	}
-	.box {
-		width: 45%;
-	}
-	.container-2 {
-		width: 75%;
+	.boxes {
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
+		
 		justify-content: center;
 		align-items: center;
+		width: 100%;
 	}
+	
+	.box {
+		width: 50%;
+	}
+
 	footer {
-		width: 75%;
+		width: 100%;
 	}
 	footer nav {
-		width: 75%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-
+	
 
 
 }
 
 @media (max-width: 500px) {
 	.header {
-		width: 50%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-	.container-2 {
-		width: 50%;
+	.top-content {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.box {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.boxes {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
 	}
 	footer {
-		width: 50%;
+		width: 100%;
 	}
+
 	footer nav {
-		width: 50%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
