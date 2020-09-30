@@ -202,13 +202,14 @@ header nav a:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	align-items: center;
+    align-items: flex-end;
 }
 .pics {
 	width: 24%;
 	padding: 2%;
 	text-align: center;
 }
+
 /* Begin Footer Styling */
 .foot {
 	display: flex;
@@ -227,14 +228,13 @@ header nav a:hover {
 	font-size: 2rem;
     padding: 1%;
     text-shadow: 1px 1px black;
-    /* transform: rotate(-10deg); */
-	/* width: 35% */
 }
 .foot a:hover {
     color: white;
     background-color: dodgerblue;
-    /* transform: rotate(10deg); */
 }
+
+
 /* Begin Media Queries */
 @media (max-width: 800px) {
     .middle-content{
