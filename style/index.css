@@ -1,18 +1,86 @@
 /* Add CSS styling here */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,22 +89,35 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
 	content: none;
 }
 table {
@@ -50,7 +131,7 @@ table {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-    border: 1px solid grey; 
+	/* border: 1px solid red; */
 }
 
 html {
@@ -60,7 +141,7 @@ body {
 	font-size: 1.8rem;
 	line-height: 1.5;
 	color: #4f4f4f;
-    font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	background-color: #fffafa;
 }
 h1,
@@ -70,5 +151,115 @@ h4,
 h5,
 h6 {
 	letter-spacing: 3px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
+}
+a {
+	text-decoration: none;
+}
+
+/* Begin Header Styling */
+header {
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	font-size: 4rem;
+}
+header nav a {
+	padding: 1%;
+	margin: 1%;
+}
+header nav a:hover {
+	color: red;
+}
+.top {
+	display: flex;
+}
+.top-pic {
+	width: 50%;
+}
+.top-text {
+	padding: 2%;
+	border: 2%;
+}
+.top-text p {
+	padding-top: 10%;
+}
+.top-text a {
+	border: 3px solid black;
+	padding: 1%;
+}
+.top-text a:hover {
+	color: red;
+}
+.top-text h2 {
+	padding-bottom: 5%;
+	font-size: 2.5rem;
+}
+/* Begin Middle Content Styling */
+.middle-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.pics {
+	width: 24%;
+	padding: 2%;
 	text-align: center;
+}
+/* Begin Footer Styling */
+.foot {
+	display: flex;
+	flex-direction: column;
+	/* width:30%; */
+	align-content: center;
+	background-color: tan;
+}
+.foot h3 {
+	font-size: 3rem;
+	text-align: center;
+}
+.foot a {
+	text-align: center;
+	font-size: 2rem;
+	padding: 1%;
+	/* width: 35% */
+}
+.foot a:hover {
+	color: white;
+}
+/* Begin Media Queries */
+@media (max-width: 800px) {
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        }
+        .pics{
+            width: 100%;
+        }
+}
+
+@media (max-width: 500px) {
+	
+	header nav a {
+		text-align: center;
+    }
+    .top{
+        display:flex;
+        flex-direction: column;
+    }
+    .top-pic{
+        width: 100%;
+    }
+    .top-text {
+        text-align: center;
+    }
+    .middle-content{
+    display: flex;
+    flex-direction: column;
+    }
+    .pics{
+        width: 100%;
+    }
+}
