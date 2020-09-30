@@ -187,7 +187,8 @@ header nav a:hover {
 }
 .top-text a {
 	border: 3px solid black;
-	padding: 1%;
+    padding: 1%;
+    background-color: dodgerblue
 }
 .top-text a:hover {
 	color: red;
@@ -218,16 +219,21 @@ header nav a:hover {
 }
 .foot h3 {
 	font-size: 3rem;
-	text-align: center;
+    text-align: center;
+    text-shadow: 1px 1px black;
 }
 .foot a {
 	text-align: center;
 	font-size: 2rem;
-	padding: 1%;
+    padding: 1%;
+    text-shadow: 1px 1px black;
+    /* transform: rotate(-10deg); */
 	/* width: 35% */
 }
 .foot a:hover {
-	color: white;
+    color: white;
+    background-color: dodgerblue;
+    /* transform: rotate(10deg); */
 }
 /* Begin Media Queries */
 @media (max-width: 800px) {
