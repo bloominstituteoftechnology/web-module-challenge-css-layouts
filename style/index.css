@@ -1,14 +1,13 @@
 /* Add CSS styling here */
 
 .container {
-    width: 100%;
-    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /* Header */
 header {
     margin: 10px;
-    border: 1px solid blue;
     background-image: url("https://i.pinimg.com/originals/52/70/16/527016e4e3dfdd806da99161e91f1d50.jpg");
     background-size: cover;
     padding: 20px 0 20px 0;
@@ -40,7 +39,6 @@ nav button {
 main {
     padding: 50px;
     margin: 10px;
-    border: 2px solid purple;
 }
 
 /* Showcase Project */
@@ -93,7 +91,15 @@ main {
 
 /* Footer */
 footer {
+    background-color: #31C5CA;
     margin: 10px;
-    border: 1px solid palevioletred;
+    padding-top: 30px;
     text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
 } 
+footer button {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 150px;
+    font-family: "Lucida Console", Courier, monospace;
+}
