@@ -5,32 +5,50 @@
     border: 1px solid black;
 }
 
-header, nav, main, footer {
-    margin: 1%;
-    border: 1px solid black;
-} 
 
 header {
     /* display: flex; */
+    margin: 10px;
     border: 1px solid blue;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-blue-business-technology-circuit-diagram-banner-background-image_251156.jpg");
-    background-size: 100% 100%;
+    background-image: url("https://i.pinimg.com/originals/52/70/16/527016e4e3dfdd806da99161e91f1d50.jpg");
+    background-size: cover;
 }
 h1 {
     color: yellow;
     margin-left: 10px;
     margin-bottom: -5px;;
-    border: 1px solid green;
+    border: 2px solid red;
     width: 20%;
 }
 nav {
     display: flex;
     margin-left: 20px;
-    width: 33%;
+    margin-top: 10px;
+    width: 300px;
     align-items: center;
+    border: 2px solid greenyellow;
+}
+/* Main Content */
+main {
+    padding: 50px;
+    margin: 10px;
+    border: 2px solid purple;
 }
 
+/* Showcase Project */
+.showcase {
+    display: flex;
+    height: 275px;
+    margin-bottom: 30px;
+    border: 2px solid goldenrod;
 
+}
+.showcase_project {
+    border: 1px solid red;
+    width: 40%;
+}
+
+/* Additional Project */
 .projects {
     display: flex;
     flex-flow: row wrap;
@@ -45,3 +63,8 @@ nav {
     vertical-align: baseline;
 }
 
+/* Footer */
+footer {
+    margin: 10px;
+    border: 1px solid palevioletred;
+} 
