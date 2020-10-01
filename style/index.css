@@ -1,1 +1,73 @@
-/* Add CSS styling here */
+*{
+    max-width: 1200px;
+    height: auto;
+    border
+}
+.header{
+    
+    background-color: green;
+}
+header{
+    Font-size: 48px;
+    font-family:Impact, Charcoal, sans-serif;
+    text-shadow: 1px 1px wheat;    
+}
+.buttons {   
+    display: flex;
+    justify-content:flex-start;  
+    align-content: center;     
+}
+.buttons a{
+    font-size: 24px; 
+    color:orangered;
+    background-color: black;
+    text-decoration: none; 
+    margin-left: 10px;
+    padding: 5px 3px 5px 4px;
+    border: 2px solid red;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.picture{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.smoke{
+    max-width: auto;
+    height: 500px;
+}
+.section{
+    display: flex; 
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+.section h1{
+    border: 2px solid green;
+    max-width:120px;
+    height: auto;
+    text-align: center;
+    
+}
+.section a{
+    border: 10px solid red;
+    padding: 5px 5px;
+    background-color: darkgrey;
+    color:white;
+    font-weight: bolder;
+    font-size:20px;
+    max-width:100px;
+    height:auto;
+    text-align: center;
+    
+}
+.section p{
+    border:1px solid black;
+    max-width: 500px;
+    height:auto;
+    font-size: 18px;
+    font-family:"Lucida Console", Monaco, monospace ;
+}
