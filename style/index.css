@@ -1,1 +1,47 @@
-/* Add CSS styling here */
+
+a {
+    border: pink;
+    color: pink;
+    background-color: purple;
+    font-family: fantasy;
+    padding: 12%;
+    border-radius: 25%;  
+    height: 10%;
+    margin: 10%;
+    }
+
+h1 {
+    font-family: fantasy;
+    padding: 5%;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 38px;
+}
+
+.topper {
+    display: flex;
+    
+    background-color: pink;
+}
+
+.body {
+    background-color: honeydew;
+    display: flex;
+    font-family: fantasy;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.
+
+nav {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+img {
+    padding: 15px;
+    border: 10px solid purple;
+    max-width: 200px;
+    max-height: 200px;
+}
+
