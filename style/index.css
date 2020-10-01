@@ -1,1 +1,162 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}    
+
+*{
+    background-color:#000000;
+}
+body{
+    background-color:#000000;
+}
+.content{
+    max-width:1200px;
+    margin:auto;
+}
+
+.projects img{
+    width:200px;
+}
+
+h1{
+    font-size:70px;
+    color:#551a8b;
+    margin:0 25px;
+}
+
+header a{
+    padding:10px;
+    margin: 0 0 0 20px;
+}
+
+a{
+    text-decoration:none;
+    color:#551a8b;
+    font-size:25px;
+}
+
+.projects{
+    display:flex;
+    flex-flow:wrap row;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.project1{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project2{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project3{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project4{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project5{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.project6{
+    width:200px;
+    margin:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.biography{
+    display:flex;
+    flex-flow: nowrap row;
+    margin:50px;
+    justify-content:space-between;
+    align-items:center;
+}
+h2{
+    font-size:50px;
+    color:#551a8b;
+    margin:0 0 20px 0;
+}
+
+.biopicture img{
+    width:400px;
+}
+
+.mybio{
+    width:400px;
+    color:#551a8b;
+    margin:0 100px 0 0;
+}
+
+.mybio p{
+    font-size:20px;
+    margin:20px 0px;
+}
+.mybio a{
+    margin: 20px 0px;
+}
+
+.foot{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+}
+
+h3{
+    font-size:25px;
+    color:#551a8b;
+}
+
+a:hover{
+    color:#cccccc;
+}
