@@ -7,32 +7,33 @@
 
 /* Header */
 header {
-    /* display: flex; */
     margin: 10px;
     border: 1px solid blue;
     background-image: url("https://i.pinimg.com/originals/52/70/16/527016e4e3dfdd806da99161e91f1d50.jpg");
     background-size: cover;
+    padding: 20px 0 20px 0;
 }
 h1 {
     color: yellow;
     margin-left: 10px;
-    margin-bottom: -5px;;
-    border: 2px solid red;
-    width: 20%;
+    margin-bottom: -5px;
+    width: 30%;
+    font-family: "Lucida Console", Courier, monospace;
+    vertical-align: middle;
 }
 nav {
     display: flex;
     margin-left: 20px;
     margin-top: 10px;
-    width: 300px;
+    width: 360px;
     align-items: center;
-    border: 2px solid greenyellow;
     justify-content: stretch;
 }
 nav button {
     padding-right: 10px;
     padding-left: 10px;
-    width: 75px;
+    width: 90px;
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 /* Main Content */
@@ -57,31 +58,37 @@ main {
     border-radius: 12px;
 }
 .bio {
-    border: 1px solid orangered;
     display: flex;
-    width: 250px;
+    flex-direction: column;
+    width: 3000px;
     height: 150px;
-    margin-left: 80px; 
-    align-items: center;
+    margin-left: 40px; 
+    align-items: left;
     padding: 40px;
+    font-size: 20px;
+    font-family: "Lucida Console", Courier, monospace;
+    line-height: 1.2;
+}
+.bio button {
+    width: 100px;
 }
 
 /* Additional Project */
 .projects {
-    border: 3px solid green;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     
 }
 .project {
-    border: 1px solid red;
-    padding: 20px;
-    width: 145px;
-    height: 145px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     vertical-align: baseline;
     margin-bottom: 30px;
+}
+.project img {
+    border-radius: 12px;;
 }
 
 /* Footer */
