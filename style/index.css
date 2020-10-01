@@ -1,1 +1,47 @@
 /* Add CSS styling here */
+
+.container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+header, nav, main, footer {
+    margin: 1%;
+    border: 1px solid black;
+} 
+
+header {
+    /* display: flex; */
+    border: 1px solid blue;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-blue-business-technology-circuit-diagram-banner-background-image_251156.jpg");
+    background-size: 100% 100%;
+}
+h1 {
+    color: yellow;
+    margin-left: 10px;
+    margin-bottom: -5px;;
+    border: 1px solid green;
+    width: 20%;
+}
+nav {
+    display: flex;
+    margin-left: 20px;
+    width: 33%;
+    align-items: center;
+}
+
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.project {
+    border: 1px solid red;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    vertical-align: baseline;
+}
+
