@@ -54,12 +54,11 @@ body{
   box-sizing: border-box;
 }
 
-.container{
+.nav{
   background-color: darkslategrey;
 }
 
 .first{
-  margin-top: 10px;
   margin-left: 10px;
   padding-top: 10px;
   color: white;
@@ -85,11 +84,15 @@ body{
 
 .items a:hover{
   color: darkslategray;
-
 }
 
 .items:hover a{
   background-color: wheat;
   color: darkslategray;
   border-radius: 5px;
-} 
+}
+
+.main-section{
+  display: flex;
+  flex-flow: row wrap;
+}
