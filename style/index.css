@@ -1,1 +1,56 @@
 /* Add CSS styling here */
+*{
+    border: 1px solid black;
+}
+a{
+    text-decoration:none;
+    border:1px solid black;
+    color:black;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline solid black;
+    font-weight: bolder;
+}
+.navinfo{
+    display:flex;
+    justify-content: flex-start;
+    order:integer;
+    color:red;
+}
+.name{
+    order:integer;
+    margin-right:70%;
+    margin-left: 3%;
+} 
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order:integer;
+}
+.a{
+    order:integer;
+}
+.b{
+    order:integer;
+}
+.c{
+    order:integer;
+}
+.d{
+    order:integer;
+}
+.e{
+    order:integer;
+}
+.f{
+    order:integer;
+}
