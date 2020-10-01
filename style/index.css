@@ -8,7 +8,8 @@ a {
     border-radius: 25%;  
     height: 10%;
     margin: 10%;
-    }
+    
+}
 
 h1 {
     font-family: fantasy;
@@ -31,7 +32,17 @@ h1 {
     justify-content: space-evenly;
     margin: auto;
 }
-.
+.Pictures1 {
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Pictures2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: honeydew;
+}
+ 
 
 nav {
     display:flex;
@@ -39,9 +50,19 @@ nav {
 }
 
 img {
-    padding: 15px;
+    margin: 15px;
     border: 10px solid purple;
     max-width: 200px;
     max-height: 200px;
 }
-
+footer {
+    background-color: honeydew;
+    flex-direction: column;
+    font-family: fantasy;
+    }
+h3 {
+    text-align: center;
+}
+button{
+    text-align: center;
+}
