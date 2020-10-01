@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background-color: #d65e5e;
+}
+
+.name {
+    color: red;
+}
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+.header {
+    display: flex;
+}
+h1 {
+    color: #e2de00
+}
+
+.bryan {
+    border: 1px solid blue;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    background: url(https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+
+}
+.navbar {
+    display: flex;
+    position: relative;
+    left: 39%;
+    margin-bottom: 10px;
+}
+.nav {
+    background-color: #bb1515;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    transition: 1s;
+    position: relative;
+    bottom: 20px;
+    border: 1px solid black;
+}
+
+nav {
+    height: 48px;
+}
+.nav:hover {
+    transform: scale(1.1);
+}
+
+
+h3 {
+    margin-right: 0px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+   
+}
+.link {
+    color: yellow;
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid black;
+}
+.img {
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.foot {
+    margin-top: 50px;
+    background-color: #d1002d;
+    padding-top: 50px;
+}
+
+button {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    background-color: #e2de00;
+}
+
+button:hover {
+    opacity: 75%;
+}
