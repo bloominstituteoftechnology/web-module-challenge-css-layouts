@@ -1,1 +1,160 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1.2em;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+header h3 {
+    font-size: 1.5em;
+    margin-left: 7%;
+}
+
+nav {
+    margin-right: 7%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    padding: 1% 4.5%;
+}
+
+nav a:hover{
+    background-color: black;
+    color:white
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.title img{
+    width: 80%;
+}
+
+.titlecontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 3em;
+    margin-bottom: 40%;
+}
+
+.title btn {
+    border: 1px solid white;
+    padding: 2% 7%;
+}
+
+.title btn:hover{
+    background-color: black;
+    color:white
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.content div {
+    width: 27%;
+    margin-top: 5%;
+    border: 2px solid black;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content h5 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+    padding: 5% 10%;
+    background-color: lightgray;
+}
+
+footer btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1.5% 4%;
+}
+
+footer btn:hover{
+    background-color: black;
+    color:white
+}
+
+
+
