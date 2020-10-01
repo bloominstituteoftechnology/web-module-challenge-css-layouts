@@ -1,1 +1,108 @@
 /* Add CSS styling here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 11, 11);
+    color: green;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+
+/* utilites */
+.nav-bar .current, 
+.nav-bar li:hover,
+.btn:hover{
+    background-color: brown;
+    font-style: 1245px;
+}
+.btn{
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    width: 150px;
+}
+
+/* Main header */
+#main-Header{
+    width: 100%;
+}
+
+#main-Nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    background-color: blueviolet;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.hero{
+    width: 100%;
+    padding-top: 20px;
+    /* background-color: orange; */
+}
+.hero-content{
+    max-width: 1400px;
+    background: ghostwhite url(https://picsum.photos/1150) no-repeat center center/cover;
+    margin: 0 auto;
+    height: 500px;
+}
+.hero-content .hero-words{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content .hero-words .hero-title{
+    font-size: 3rem;
+    text-shadow: 1px 1px black;
+    padding-bottom: 2rem;
+}
+/* Project files */
+#projectSection{
+    /* background-color: gold; */
+    max-width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#projectSection > article{
+    width: 300px;
+    height: 200px;
+    /* background-color: grey; */
+    text-align: center;
+}
+#projectSection article img{
+    width: 100%;
+    height: 90%;
+}
+
+#mainFooter{
+    background-color: grey;
+    text-align: center;
+    padding: 50px;
+}
