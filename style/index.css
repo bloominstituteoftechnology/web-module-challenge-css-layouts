@@ -1,1 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+/* Header design */
+header{
+background-color: thistle;
+border: 1px solid green;
+width: 100%;
+}
+header h1{
+    font-size: 2rem;
+    padding: 2% 5%;
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+.nav-container{
+display: flex;
+margin-left: 7%;
+height: 10vh;
+align-items: center;
+padding-bottom: 1%;
+}
+
+.nav-container a{
+   display: block;
+   padding: 1.7%;
+   text-decoration: none;
+   color: grey;
+   text-shadow: 0.5px 0.5px black;
+   background-color: honeydew;
+   border-left: 0.5px solid thistle;
+}
+
+.nav-container a:nth-of-type(1){
+    background-color: darkorchid;
+    color: white;
+    
+}
+.nav-container a:hover
+{
+ background-color:whitesmoke;
+ color: thistle;
+
+}
+/* first section design */
+.sec1{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 96%;
+    justify-content: space-between;
+    margin: 2%;
+    border: 1px solid green;
+}
+.sec1 img{
+    width: 100%;  
+}
+.sec1 div{
+    width: 46.5%;
+    border: 1px solid grey; 
+}
+.sec1div h3{
+    font-size: 1.7rem;
+    font-family: 'Architects Daughter', cursive ;
+    line-height: 2;
+}
+.sec1div a{
+    display: block;
+    text-decoration: none;
+    padding: 4%; 
+    width: 40%;
+    font-size: 1em;
+    border: 0.5px solid grey;
+    box-shadow: 1px 2px grey;
+    text-align: center;
+    color: grey;
+    text-shadow: 0.1px 0.1px black;
+
+}
+.sec1div a:hover{
+    background-color:whitesmoke;
+    color: thistle;
+}
+.sec1div p{
+  border:1px solid red; 
+  padding: 5%; 
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+.sec2{
+    display:flex;
+    width: 96%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin: 2%;
+}
+
+.sec2 .item{
+    width: 20%;
+    border: 1px solid orange;
+    
+}
+.item img{
+    width: 100%;
+    height: 80%;
+}
+.item p{
+    text-align: center;
+}
