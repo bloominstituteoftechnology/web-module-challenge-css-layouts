@@ -394,7 +394,22 @@ body  {
     margin: 20px;
     
 }
+
+.contact-head a { 
+    text-decoration: none;
+    color: #fffffa;
+    border: 2px solid #fffffa;
+    padding: 10px;
+}
     
+.contact-head a:hover { 
+    text-decoration: none;
+    color: #171716;;
+    border: 2px solid #fffffa;
+    padding: 10px;
+    background-color: #fffffa;
+}
+
 .insta { 
     background-color: #F05B4F; 
 }
@@ -425,7 +440,7 @@ body  {
 }
 
 footer { 
-    background-color: black;
+    background-color: #171716;;
     margin: 0;
     padding: 0;
 }
