@@ -95,4 +95,106 @@ body{
 .main-section{
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.first-half{
+  margin-left: 10px;
+  width: 48%;
+  height: 150px;
+  background-color: darkviolet;
+}
+
+.second-half{
+  margin-right: 10px;
+  width: 48%;
+  height: 150px;
+  background-color: lightpink;
+}
+
+.second-section{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.section-a-b{
+  width: 48%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.box-a{
+  width: 48%;
+  height: 75px;
+  background-color: lightskyblue;
+}
+
+.box-b{
+  width: 48%;
+  background-color: lightcyan;
+}
+
+.section-c-d{
+  width: 48%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.box-c{
+  width: 48%;
+  background-color: lightskyblue;
+}
+
+.box-d{
+  width: 48%;
+  background-color: lightcyan;
+}
+
+.section-e-f{
+  width: 48%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.box-e{
+  width: 48%;
+  background-color: lightcyan;
+}
+
+.box-f{
+  width: 48%;
+  height: 75px;
+  background-color: lightskyblue;
+}
+
+.section-g-h{
+  width: 48%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.box-g{
+  width: 48%;
+  background-color: lightcyan;
+}
+
+.box-h{
+  width: 48%;
+  background-color: lightskyblue;
 }
