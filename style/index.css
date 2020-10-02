@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+
+/* Add CSS styling here */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,15 +50,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Add CSS styling here */
+
 /* Header design */
 *{
     color: #6d6a6a;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
+
 header{
 background-color: peru;
 width: 100%;
 }
+
 header h1{
     font-size: 2.1rem;
     padding: 2% 5%;
@@ -64,6 +70,7 @@ header h1{
     color: whitesmoke;
     text-shadow: 1px 1px black;
 }
+
 .nav-container{
 display: flex;
 margin-left: 7%;
@@ -71,9 +78,11 @@ height: 10vh;
 align-items: center;
 padding-bottom: 1%;
 }
+
 a{
     text-decoration: none;
 }
+
 .nav-container a{
    display: block;
    padding: 2%;
@@ -151,6 +160,7 @@ a{
   height: 80%;
   margin: 3% 0; 
   font-size: 1.2rem;
+  font-family: 'Architects Daughter', cursive;
   letter-spacing: 1px;
   box-sizing: border-box;
 }
