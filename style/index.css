@@ -20,9 +20,10 @@ time, mark, audio, video {
 }
 
 header {
-    background-color: cyan;
+    background-color: darkgray;
     padding-top: 2%;
     padding-bottom: 1%;
+    
 }
 
 h1 {
@@ -59,17 +60,53 @@ a {
     text-decoration: none;
 }
 
-
-#mainimg {
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 1%;
     margin-left: 1%;
-    
+        
 }
 
-.firstrow {
+.desc2 {
     display: flex;
-    
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
 }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.row p {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+   
+}
+
+.secondgallery{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8%;
+         
+}
+
+footer {
+    background-color: cyan;
+    padding: 5%
+}
+
+
+
+
+
     
     
 
