@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+{MobileAppHeaders}
+        <meta charset="utf-8">
+        <title>{Title}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} — {PostSummary}{/block:PostSummary}{/block:PermalinkPage}</title>
+        {block:Description}
+        <meta name="description" content="{MetaDescription}">
+        {/block:Description}
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<left><h1>Jirina Jordan</h1></left>
+</body>
+
+<div class="topnav">
+<a href="Projects"> About</a>>
+<a href="Contact">Projects</div>
+<div class="item">Contact</div>
+​</div></a>
+
+<button class="btn"><i class="My Projects"></i> My Projects</button>
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+<button class="btn"><i class="Contact"></i> Contact</button>
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+
+.topnav {
+    background-color #333;
+    overflow:hidden;
+}
+
+.topnav a {
+    float:left;
+    color: #f2f2f2
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #dddddd
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+
+.container {
+  width:75%;
+  height:500px;
+  border:1px solid black;
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content:center;
+  align-items:center;
+}
+
+.container {
+    width:75%;
+    height:500px;
+    border:1px solid black;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+  }
+
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+</style>
+</head>
+<body>
+
+<img src="<img src="https://picsum.photos/200/300" alt="" width="500" height="500">
+    
+    
+    align-items:stretch;
+    align-items:flex-start;
+    alihn-items:flex-end;
+    align-items:center;
+    align-item:baseline;
+    
+    
+    justify-content:flex-start;
+    
+    
+    justify-content:flex-end;
+    justify-content:center;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:space-evenly; 
+    
+    
+    lex-wrap:wrap;
+    flex-wrap:wrap-reverse;
+    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+  }
+  
+  .container .item {
+    width: 50px;
+    height: 50px;
+    background: lightgray;
+    border: 1px solid black;
+    /*margin: 20px;*/
+  }
+    .item:nth-of-type(1){
+      order:2;
+      
+    }
+    .item:nth-of-type(2){
+      order:3;
+      
+    }
+    .item:nth-of-type(3){
+      order:4;
+     
+      
+    }
+
+
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .button {
+      position: relative;
+      background-color: #4CAF50;
+      border: none;
+      font-size: 28px;
+      color: pink;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .button:after {
+      content: "";
+      background: grey;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+    .nwse-resize {cursor: nwse-resize;}
+
