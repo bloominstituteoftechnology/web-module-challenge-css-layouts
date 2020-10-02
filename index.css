@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    font-family:'Peddana', serif;
+
+}
+
+.header h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: goldenrod;
+   
+}
+
+.header .navbar a {
+    display:flex;
+    display: inline-flex;
+    margin-left: 15%;
+    color:goldenrod;
+    text-decoration: none;
+    padding:2%;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+img{
+    width:300px;
+}
+.bio {
+    display: flex;
+    align-content: center;;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.bio .bioimg{
+    padding: 2%;
+}
+
+.bio h3{
+    font-size: 25px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.bio a{
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: goldenrod;
+    font-size: 20px;
+    color:gray;
+    
+
+}
+
+.bio p{
+    margin-top: 10%;
+
+}
+footer{
+    background-color: gray;
+    margin-top: 25%;
+    padding: 3%;
+    
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: goldenrod
+    
+    
+     
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-bottom: 3%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-size: 22px;
+    
+
+
+}
