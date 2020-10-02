@@ -109,7 +109,18 @@ body{
   margin-right: 10px;
   width: 48%;
   height: 150px;
-  background-color: lightpink;
+  background-color: transparent;
+}
+
+.second-half h1,p,button{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.button-class{
+  margin-left: 10px;
 }
 
 .second-section{
@@ -197,4 +208,16 @@ body{
 .box-h{
   width: 48%;
   background-color: lightskyblue;
+}
+
+.footer-container{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: darkslategray;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
 }
