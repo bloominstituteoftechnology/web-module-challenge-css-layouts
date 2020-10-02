@@ -1,1 +1,431 @@
 /* Add CSS styling here */
+
+/*fonts*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+/*
+
+font-family: 'Lobster Two', cursive;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Source+Sans+Pro&display=swap')
+/*
+    
+font-family: 'Lobster Two', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+    
+*/
+
+/* CSS RESET -- Removes ALL browser formatting */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: #171716;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BEGINNING OF CUSTOM CSS CODE */
+
+body  {
+    background: #fffffa;
+    font-size: 62.4%; 
+    width: 100%;
+}
+
+.head-content{ 
+/*    border: 1px solid grey;*/
+    width: 100%;
+    text-align:center;
+}
+
+.title { 
+    margin-top: 10px; 
+}
+
+.title h1 { 
+    margin: 1.5%;
+    font-size: 4rem; 
+    font-family: 'Lobster Two', cursive;
+   
+   
+}
+
+.navigation { 
+    width: 50%;
+    margin: auto;
+}
+
+.navigation nav { 
+    margin: auto;
+    display:flex;
+    width: 80%; 
+    flex-flow: wrap row;
+    justify-content: center;
+    
+}
+
+.navigation nav a { 
+    font-size: 1.1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white; 
+    width: 60px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 5px;
+/*  border: 2px solid darkgrey; */
+    background: #F04A2B;
+}
+
+.navigation nav a:hover {
+    background: #d93416; 
+}
+
+/* This property prevents bordee lines
+    between the buttons from being doubled */
+
+/*
+.navigation nav a:not(:last-child) {
+    border-right: none;
+}
+
+.navigation nav a:first-child{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.navigation nav a:last-child{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}*/
+
+.intro-content { 
+    width: 50%; 
+    padding: 1%;
+    padding-bottom: 0%;
+    margin: auto;
+    padding: 1%;
+}
+
+.intro-title { 
+    width: 40%;
+    margin: auto;
+}
+
+.intro-title h2 {
+    margin: auto;
+    font-size: 2.5rem;
+    font-family: 'Lobster Two', cursive;
+    padding-top: 1%;
+}
+
+.intro-body { 
+    font-size: .9rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 3%;
+    width: 80%;
+    margin: auto;
+    line-height: 150%;
+}
+
+.jumbotron { 
+/*    border: 1px solid grey;*/
+    width: 100%;
+    height: 500px;
+    background: antiquewhite;
+    background-image: url("https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+  
+}
+
+.jumbo { 
+    
+}
+
+.projects { 
+    display: inline;
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+/*    border: 1px solid grey; */
+
+}
+
+.proj { 
+/*    border: 1px solid black; */
+    height: 100%;
+}
+
+.project-gallery { 
+    width: 80%;
+    display: flex; 
+    flex-flow: wrap row;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: space-around;
+    margin: 50px auto 25px auto;
+}
+
+
+.project-links { 
+    display: flex; 
+    flex-flow: wrap row;
+    flex: 1 1 auto;
+    width: 60%;
+    min-width: 500px;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+.project-links a { 
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8rem;
+    font-weight: 1000;
+    color: #fffffa;
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px
+}
+
+.proj1 { 
+    background-color: #F0D659; 
+}
+.proj2 { 
+    background-color: #275C49;
+}
+.proj3 { 
+    background-color: #F0A94D; 
+}
+.proj4 { 
+    background-color: #524CF0; 
+}
+
+.proj1:hover { 
+    background-image: url("https://picsum.photos/id/1002/200/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.proj2:hover { 
+    background-image: url("https://picsum.photos/id/1025/200/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.proj3:hover { 
+    background-image: url("https://picsum.photos/seed/picsum/200/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.proj4:hover { 
+    background-image: url("https://picsum.photos/id/0/200/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.project-gallery .project-desc { 
+    width: 20%;
+    min-width: 360px;
+    display: flex; 
+    flex-grow: 1;
+    flex-flow: wrap column; 
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.project-desc h2{ 
+    font-size: 2.5rem; 
+    font-family: 'Lobster Two', cursive;
+    margin: 20px;
+}
+.project-desc p { 
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 80%;
+    font-size: .9rem; 
+    line-height: 150%;
+    margin: 20px;
+}
+
+.contact { 
+    display: inline;
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+/*    border: 1px solid grey; */
+
+}
+
+.contact-d { 
+    width: 80%;
+    display: flex; 
+    flex-flow: wrap row;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: space-around;
+    align-content: center;
+    margin: 25px auto 0px auto;
+}
+.cont { 
+    display: flex; 
+    flex-flow: wrap row;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin: auto;
+/*
+    margin:auto;
+    text-align: center;
+*/
+}
+
+
+.contact-links { 
+    display: flex; 
+    flex-flow: wrap row;
+    flex: 1 1 auto;
+    width: 60%;
+    min-width: 500px;
+    justify-content:flex-start;
+    align-content: center;
+    margin: 10px 0px;
+    
+}
+
+.contact-links a { 
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8rem;
+    font-weight: 1000;
+    color: #fffffa;
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px
+}
+
+.contact-head { 
+    width: 20%;
+    min-width: 360px;
+    display: flex; 
+    flex-grow: 1;
+    flex-flow: wrap row; 
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: auto;
+}
+
+.contact-head h3{ 
+    font-size: 2.5rem; 
+    color: #fffffa;
+    font-family: 'Lobster Two', cursive;
+    margin: 20px;
+    
+}
+    
+.insta { 
+    background-color: #F05B4F; 
+}
+    
+.twitter { 
+    background-color: #4195F0;
+}
+.linkedin { 
+    background-color: #62F09F; 
+}
+.git { 
+    background-color: #4A315C; 
+}
+
+
+.insta:hover { 
+    background-color: #BD473E; 
+}
+    
+.twitter:hover { 
+    background-color: #3376BD;
+}
+.linkedin:hover { 
+    background-color: #4DBD7E; 
+}
+.git:hover { 
+    background-color: #352342; 
+}
+
+footer { 
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
