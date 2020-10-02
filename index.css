@@ -1,9 +1,9 @@
 * {
 	margin: 0;
     padding: 0;
-    border:1px solid black;
+    /* border:1px solid black; */
     font-family: monospace;
-}
+} 
 body{
     height:100%;
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ header{
     background-image: linear-gradient(white, lightgray);
     padding: 2% 0%;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.247);
+    border:1px solid lightgray; 
     border-radius: 25px;
 }
 header h1{
@@ -30,14 +31,16 @@ header nav{
     width:20%;
     margin-left:2%;
 }
-header nav button{
-    background-color: whitesmoke;
+header nav a{
+    color:black;
+    background-image: linear-gradient(white, lightgray);
     padding: 7px 10px;
     flex-grow:1;
+    text-decoration:none;
 }
-header nav button:hover{
+header nav a:hover{
     color:white;
-    background-color:black;
+    background-image: linear-gradient(gray,black);
 
 }
 /*SECTION 1 STYLING*/
@@ -45,7 +48,6 @@ header nav button:hover{
     display: flex;
 }
 .galleryTop img{
-    background-image: linear-gradient(white, lightgray);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.247);
     border-radius: 25px;
     width:100%;
@@ -62,6 +64,7 @@ header nav button:hover{
     min-width: 500px;
 }
 .galleryTop .topInfo{
+    border:1px solid gray;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.247);
     width:100%;
     border-radius: 25px;
@@ -75,13 +78,21 @@ header nav button:hover{
     flex-direction:column;
     align-items: center;
 }
-.galleryTop .topInfo button{
-    background-color: lightgray;
-    padding: 7px 10px;
+.galleryTop .topInfo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-image: linear-gradient(white, lightgray);
+    height:50px;
+    width:10%;
+    border-radius: 25px;
+    text-decoration: none;
 }
-.galleryTop .topInfo button:hover{
+.galleryTop .topInfo a:hover{
     color:white;
-    background-color:black;
+    text-shadow: 1px 1px black;
+    background-image: linear-gradient(gray,black);
 }
 /* SECTION 2 STYLING */
 .galleryOther{
@@ -92,8 +103,8 @@ header nav button:hover{
 }
 .galleryOther a{
     align-content: flex-start;
-    height:20%;
-    width:20%;
+    height:21%;
+    width:21%;
     margin-bottom: 50px;
     border-radius: 25px;
 }
