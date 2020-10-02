@@ -1,140 +1,86 @@
-/* Add CSS styling here */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
+a {
     vertical-align: baseline;
+    background-color: darkred;
+    color: white;
+    padding: .5em 1.5em;
+    margin-top: 1em;
+    text-decoration: none;
+    display: inline-block;
 }
 
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+a:hover {
+    background: red;
 }
 
-body {
-    line-height: 1;
+a.selected {
+    background: black;
 }
 
-ol,
-ul {
-    list-style: none;
+h1 {
+    font-size: 2em;
 }
 
-blockquote,
-q {
-    quotes: none;
+h2 {
+    font-size: 1.5em;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
+p {
+    line-height: 1.5em;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+header {
+    background: #dadada;
+    padding: 1em;
+}
+
+.header-title {
+    margin-left: .5em;
+    margin-top: .5em;
+}
+
+footer {
+    background: #dadada;
+    padding: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+nav {
+    display: flex;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.top-section {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    margin: 1em;
+}
+
+.top-section-content {
+    flex: 1;
+}
+
+.top-text {
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.gallery>* {
+    margin-bottom: 2em;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
