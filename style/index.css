@@ -1,1 +1,144 @@
-/* Add CSS styling here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://background-tiles.com/overview/grey/textures/large/5024.png);
+    color: #fff;
+    font-family: Arial;
+}
+header{
+    width: 100%;
+    /* background-color: darkred; */
+    text-align: center;
+    padding: 10px;
+}
+/* Nav Bar */
+nav h1{
+    font-size: 3rem;
+    font-weight:800;
+    color: maroon;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid maroon;
+    display: inline-block;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 10px;
+    color: white;
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border:1px solid black;
+    padding: 5px;
+    background-color: maroon;
+}
+nav ul li a:hover{
+background-color: maroon;
+transition: .3s;
+border-radius: 50px ;
+margin-right: 25%;
+}
+/*Description Starts Here*/
+.description{
+    text-align: center;
+    font-weight: 600;
+}
+/*Second Header Starts Here*/
+.description h2{
+text-align: center;
+color:maroon;
+border-bottom: 5px solid maroon;
+display: inline-block;
+}
+.description p{
+    padding-top: 25px;
+    font-size: 18px;
+    color: maroon;
+    margin-top: 20 px;
+}
+/*First Image Starts Here at 1080px*/
+.Banner{
+background-image: url(https://picsum.photos/1080);
+width: 100%;
+height:500px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+/*Bottom Half Of the Page Starts Here. 4 images and P tag*/
+.Bottom{
+    display: flex;
+    align-items: center;
+    padding:5px;
+    justify-content: space-evenly;
+}
+/*First image*/
+.Box-1{
+    background-image: url(https://picsum.photos/500);
+    width: 250px;
+    height: 500px;
+    
+}
+/*Second Image*/
+.Box-2{
+    background-image: url(https://picsum.photos/500);
+    width: 250px;
+    height: 500px;
+    
+}
+/*Third Image*/
+.Box-3{
+    background-image: url(https://picsum.photos/500);
+    width: 250px;
+    height: 500px;
+    
+}
+/*Fourth Image*/
+.Box-4{
+    background-image: url(https://picsum.photos/500);
+    width: 250px;
+    height: 500px;
+    
+}
+/*Bottom side P tag*/
+.Bottom p{
+    width: 200px;
+    color: maroon;
+    font-weight: 600;
+    font-size: 17px;
+}
+/*Footer Starts Here*/
+footer{
+text-align: center;
+font-size: 18px;
+font-weight: 600px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgba(194, 194, 194, 0.815);
+color: maroon;
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    border: 1px solid black;
+    background-color: maroon;
+    padding: 10px;
+}
+footer a:hover{
+background-color: maroon;
+border-radius: 50px;
+}
