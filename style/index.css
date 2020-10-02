@@ -1,1 +1,138 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+}/* Add CSS styling here */
+*{
+    /*border:1px black solid;*/
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+html{
+    font-family: 'Caveat', cursive;
+}
+h1 {
+    font-size:42px;
+    font-weight:bolder;
+    text-shadow:2px 2px violet;
+}
+.htwo{
+    font-size:32px;
+    font-weight:bold;
+    text-shadow:2px 2px violet;
+}
+.nav{
+    font-size:20px;
+}
+#head{
+    width:100%;
+    height:130px;
+    margin:1% 0% 4% 0%;
+    padding:16px 0px;
+    
+
+
+}
+.hone .nav {
+    width:100%;
+    height:130px;
+    margin:2% 0% 2% 0%;
+    padding:10px 0px;
+    height:300px;
+}
+.nav a{
+    margin:2%;
+    padding:2px 15px;
+    text-decoration: none;
+    background-color: darkslateblue;
+    color:violet;
+    border-radius:10px;
+}
+.nav a:hover{
+    background-color:violet;
+    color:darkslateblue;
+    transition:.3s;
+}
+.htwo {
+    margin:1rem;
+    padding:10px;
+}
+.pone{
+    padding:20px;
+    font-size:20px;
+}
+.butone{
+    width:100%;
+    height:170px;
+    background:url(https://image.freepik.com/free-vector/ultra-wide-wallpaper-abstract-topographic-background_87538-1076.jpg)
+}
+.butone{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lowbod {
+    padding:16px;
+    font-size:16px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.lowbod img{
+    margin:2%;
+    width:10rem;
+    height:15rem;
+}
+footer{
+    height:60px;
+    padding-top:35px;
+    background-color: indigo;
+}
+button{
+    width:12rem;
+    height:2rem;
+    background-color:violet;
+    border:2px solid green;
+    border-radius:10px;
+}
