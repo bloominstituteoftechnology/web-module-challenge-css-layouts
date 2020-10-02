@@ -18,15 +18,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+body {
+    background-color:  rgb(97, 97, 97);
+}
 
 header {
-    background-color: darkgray;
+    background-color: #383838;
     padding-top: 2%;
     padding-bottom: 1%;
     
 }
 
 h1 {
+    color: white;
     font-size: 300%;
     margin-left: 2%;
        
@@ -34,11 +38,14 @@ h1 {
 
 
 ul {
-    margin-left: 10%;
+    
+    margin-left: 8.2%;
     margin-top: 1%;
     display: flex;
-    background-color: gray;
+    background-color:black;
     width: 17.2%;
+    padding-bottom: .1%;
+    padding-top: .1%;
        
 }
 
@@ -60,6 +67,9 @@ a {
     text-decoration: none;
 }
 
+p{
+    color: white;
+}
 .desc {
     display: flex;
     align-items: center;
@@ -75,7 +85,30 @@ a {
     flex-direction: column;
     align-items: start;
     width: 50%;
+    font-size: 130%;
+    margin-top: 5%;
 }
+.desc2 h2 {
+    color: white;
+    font-size: 250%;
+}
+
+.desc2 button {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: .85% 3%;
+    border-style: none;
+    color: white;
+    background-color: black;
+    
+}
+
+.desc2 p {
+    width: 90%;
+    font-size: 80%;
+    font-style: italic;
+}
+
 
 .row {
     display: flex;
@@ -91,17 +124,27 @@ a {
    
 }
 
-.secondgallery{
+
+.foot {
+    font-size: 200%;
+    line-height: 200%;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 8%;
-         
+    flex-direction: column;
+    align-items: center;
+    background-color:  #383838;
+    color:white;
+    padding: 5%
+    
 }
 
-footer {
-    background-color: cyan;
-    padding: 5%
+.foot button {
+    color: white;
+    background-color: black;
+    border-style: none;
+    padding: .8% 4%
+    
 }
+
 
 
 
