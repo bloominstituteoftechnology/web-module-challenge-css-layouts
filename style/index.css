@@ -170,6 +170,7 @@ footer {
     font-size: 20px;
 }
 .contact {
+    border:2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,9 +236,23 @@ footer button:hover {
     .projects {
         display: flex;
         flex-flow: row wrap;
-        
     }
-    .project: {
-        width: 5%;
+    .project {
+        width: 50%;
+        padding: 0 4%;
+        margin: 4% 0;
+    }
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 90%;
+    }
+    .contact button {
+        width:50%;
     }
 } /* End 500px media query */
