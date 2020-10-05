@@ -6,13 +6,57 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 .header{    
-    background-color: green;   
+    background-color: rgb(43, 101, 187);   
 }
-.header name{
+.header .name{
     Font-size: 48px;
     font-family:Impact, Charcoal, sans-serif;
     text-shadow: 1px 1px wheat; 
 }
+/* adding media tags for header at 800px and 500px with changes to css */
+
+@media(max-width:800px){
+    .header{
+        display: flex;  
+        align-items: center; 
+        flex-direction: column                 
+    }
+    .buttons{
+        flex-direction: column;
+        width:100px;            
+    }
+    .buttons a{
+        margin:5%;
+
+    }
+    .name{
+        color:black;    
+        margin: 20px;
+        text-align: center;
+}
+}
+@media(max-width:500px){
+    .header{
+        display: flex;  
+        align-items: center; 
+        flex-direction: column                 
+    }
+    .buttons{
+        flex-direction: column;
+        width:100px;            
+    }
+    .buttons a{
+        margin:5%;
+
+    }
+    .name{
+        color:black;    
+        margin: 20px;
+        text-align: center;
+}
+}
+
+
 .buttons {   
     display: flex;
     justify-content:flex-start;  
@@ -25,7 +69,7 @@ body{
     text-decoration: none; 
     margin-left: 10px;
     padding: 5px 3px 5px 4px;
-    border: 2px solid red;
+    border: 2px solid rgb(211, 185, 185);
     border-radius: 10%;
     text-align: center;
 }
@@ -41,7 +85,7 @@ body{
     flex-flow: column wrap;
     align-content: center;
     justify-content: space-around;
-    background-color: slateblue;
+    background-color: rgb(135, 123, 216);
 }
 .section h1{   
     max-width:300px;
@@ -71,32 +115,33 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    background-color: slategrey;
+    background-color: rgb(16, 49, 82);
     padding-top: 5%;
 }
 .multiple{
     text-align: center;
 }
 .multiple img{
-    border: 2px dotted red;
+    border: 4px dotted red;
     padding:3px;
 }
 .multiple p{
     text-align: center;
     font-size: 24px;
-    border:4px solid springgreen;
+    border-radius: 50%;
     margin:5%;
-    background-color: steelblue;
-    color: white;
+    background-color: rgb(233, 222, 72);
+    color: rgb(13, 6, 71);
 }
 .footer{
     border:1px solid black;
     background-color: teal;
     display:flex;
     justify-content: center;
-    align-content: space-around; 
+    align-content: space-around;
+    height:auto; 
 }
-.contact-me p{
+.contact-me h1{
     font-size: 36px;
     font-family:"Arial Black", Gadget, sans-serif;
     background-color: yellow;
@@ -113,6 +158,7 @@ body{
     text-wrap: wrap;
     margin:10%;
     text-align:center;
+    margin-left: 50px;
 }
 
 
