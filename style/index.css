@@ -146,3 +146,54 @@ button{
     border:2px solid green;
     border-radius:10px;
 }
+
+@media(max-width:800px){
+    .hone .nav {
+        margin:5%;
+        
+    }
+    .htwo{
+       margin-top:15%;
+   }
+   .ptwo {
+       font-size:1.5rem;
+   }
+   .bottom {
+       display:flex;
+       justify-content:center;
+   }
+   .lowbod {
+       width:100%;
+       display:flex;
+       flex-wrap: nowrap;
+       justify-content:space-around;
+   }
+   .lowbod img {
+       width:17%;
+   }
+}
+
+@media(max-width:500px){
+    h1 {
+        font-size:2.5rem;
+    }
+    nav a {
+        font-size:1.2rem;
+    }
+    .htwo{
+        font-size:1.8rem;
+    }
+    .ptwo {
+        font-size:1.2rem;
+    }
+    .butone {
+        height:6rem;
+    }
+    .bottom img{
+        height:9rem;
+    }
+    .lowbod {
+        width:98%;
+        font-size:1.2rem;
+    }
+}
