@@ -18,8 +18,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
 body {
     background-color:  rgb(97, 97, 97);
+    box-sizing: border-box;
+    
 }
 
 header {
@@ -70,12 +75,13 @@ a {
 p{
     color: white;
 }
+
 .desc {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1%;
-    margin-left: 1%;
+    margin-left: 1.5%;
         
 }
 
@@ -84,10 +90,11 @@ p{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: start;
-    width: 50%;
+    width: 58%;
     font-size: 130%;
     margin-top: 5%;
 }
+
 .desc2 h2 {
     color: white;
     font-size: 250%;
@@ -107,6 +114,7 @@ p{
     width: 90%;
     font-size: 80%;
     font-style: italic;
+    line-height: 2 px;
 }
 
 
@@ -145,7 +153,98 @@ p{
     
 }
 
+@media (max-width: 800px) {
 
+    
+    
+    header {
+        width: 100%;
+    }
+
+    
+    h1 {
+        font-size: 300%;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    ul {
+        flex-direction: column;
+        margin-left: 42%;
+
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        border-right: none;
+        border-bottom: 1px solid white;
+        color: white;
+        text-align: center;
+    }
+
+    li:first-child {
+        border-top: 1px solid white;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .desc img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .desc2 {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4%;
+        
+    }
+
+    .row {
+        flex-wrap: wrap;
+        width: 88%;
+        height: auto;
+        justify-content: space-around;
+        margin-left: .8%;
+        margin-bottom: 2%;
+       
+    }
+    
+    .row img {
+        width: 80%;
+        height: auto;
+       
+    }
+
+    .row p {
+        font-size: 130%;
+        margin-bottom: 3%;
+        width: 79%;
+    }
+
+    footer {
+        width: 80.75%;
+        
+    }
+}
+
+@media (max-width: 500px) {
+
+    footer {
+        width: 80.75%;
+    }
+}
 
 
 
