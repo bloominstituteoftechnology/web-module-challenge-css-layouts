@@ -76,6 +76,10 @@ h1{
     font-size: 40px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 h1, nav, p{
     margin: 10px 10px;
 }
@@ -162,11 +166,14 @@ p{
     
     #intro{
         flex-direction: column;
-        flex-wrap: nowrap;
     }
 
     #intro p{
         text-align: center;
+    }
+    
+    h2{
+        font-size: 35px;
     }
 
     #mainimg{
