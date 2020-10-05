@@ -1,86 +1,161 @@
-a {
-    vertical-align: baseline;
-    background-color: darkred;
-    color: white;
-    padding: .5em 1.5em;
-    margin-top: 1em;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    background: red;
-}
-
-a.selected {
-    background: black;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-p {
-    line-height: 1.5em;
-}
-
-header {
-    background: #dadada;
-    padding: 1em;
-}
-
-.header-title {
-    margin-left: .5em;
-    margin-top: .5em;
-}
-
-footer {
-    background: #dadada;
-    padding: 1em;
-    text-align: center;
-    line-height: 2em;
-}
-
-nav {
-    display: flex;
-    margin-left: 1em;
-    margin-bottom: 1em;
-}
-
-.top-section {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: left;
-    margin: 1em;
-}
-
-.top-section-content {
-    flex: 1;
-}
-
-.top-text {
-    margin-top: 2em;
-    line-height: 2em;
-}
-
-.gallery {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.gallery>* {
-    margin-bottom: 2em;
-}
-
-img:hover {
-    transform: scale(1.1);
-    transition: .3s ease-in-out;
-}
+        a {
+            vertical-align: baseline;
+            background-color: darkred;
+            color: white;
+            padding: .5em 1.5em;
+            margin-top: 1em;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover {
+            background: red;
+        }
+        
+        a.selected {
+            background: black;
+        }
+        
+        h1 {
+            font-size: 2em;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+        }
+        
+        p {
+            line-height: 1.5em;
+        }
+        
+        header {
+            background: #dadada;
+            padding: 1em;
+        }
+        
+        .header-title {
+            margin-left: .5em;
+            margin-top: .5em;
+        }
+        
+        footer {
+            background: #dadada;
+            padding: 1em;
+            text-align: center;
+            line-height: 2em;
+        }
+        
+        .tabs {
+            display: flex;
+            margin-left: 1em;
+            margin-bottom: 1em;
+        }
+        
+        .tab {
+            padding: .5em 1.5em;
+            margin-top: 1em;
+            /*  */
+        }
+        
+        .top-section {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: left;
+            margin: 1em;
+        }
+        
+        .top-section-content {
+            flex: 1;
+        }
+        
+        .top-text {
+            margin-top: 2em;
+            line-height: 2em;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            text-align: center;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        
+        .gallery>* {
+            margin-bottom: 2em;
+        }
+        
+        img:hover {
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
+        }
+        /* media queries */
+        /* close of 800px media query */
+        
+        @media(max-width: 800px) and (min-width: 501px) {
+            .header-title {
+                text-align: center;
+            }
+            .top-section {
+                flex-direction: column;
+                align-items: center;
+                flex-grow: 1;
+                margin-top: 1em;
+            }
+            .top-section-content {
+                text-align: center;
+            }
+            .top-text {
+                text-align: center;
+                margin-left: 8em;
+                margin-right: 8em;
+            }
+            .top-text a {
+                margin-bottom: 1em;
+            }
+            .tabs {
+                flex-direction: column;
+                align-items: center;
+                flex-grow: 1;
+                margin-top: 1em;
+            }
+            .tab {
+                width: 4em;
+                text-align: center;
+                margin: 0;
+            }
+            .gallery {
+                align-items: center;
+                flex-grow: 1;
+                margin-top: 1em;
+                margin-left: 10em;
+                margin-right: 10em;
+            }
+        }
+        
+        @media(max-width: 500px) {
+            .header-title {
+                text-align: center;
+            }
+            .top-section-content {
+                text-align: center;
+            }
+            .top-text {
+                text-align: center;
+            }
+            .top-text a {
+                margin-bottom: 1em;
+            }
+            .tabs {
+                flex-direction: column;
+                align-items: center;
+                flex-grow: 1;
+                margin-top: 1em;
+            }
+            .tab {
+                width: 4em;
+                text-align: center;
+                margin: 0;
+            }
+        }
