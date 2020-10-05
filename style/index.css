@@ -100,6 +100,27 @@ ul{
     padding: 50px;
 }
 /* media query */
+@media(max-width: 500px){
+    /* header nav */
+    #main-Nav{
+        flex-direction: column;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar li{
+        text-align: center;
+        margin-top: 10%;
+    }
+    #name-logo{
+        font-size: 3rem;
+    }
+    /* project tiles */
+    #projectSection > article{
+        width: 200px;
+    }
+}
+
 @media(max-width: 375px){
     #main-Nav{
         flex-direction: column;
