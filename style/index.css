@@ -64,7 +64,7 @@ main {
     flex-direction: column;
     width: 3000px;
     height: 150px;
-    margin-left: 40px; 
+    margin-left: 40px;
     align-items: left;
     padding: 40px;
     font-size: 20px;
@@ -78,18 +78,19 @@ main {
 }
 .bio button:hover {
     background-color: greenyellow;
-    
+
 }
 
 /* Additional Project */
 .projects {
+    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     font-family: "Lucida Console", Courier, monospace;
-    
 }
 .project {
+    border: 1px solid red;
     width: 200px;
     height: 200px;
     text-align: center;
@@ -108,7 +109,7 @@ footer {
     text-align: center;
     font-family: "Lucida Console", Courier, monospace;
     font-size: 20px;
-} 
+}
 footer button {
     height: 50px;
     width: 175px;
