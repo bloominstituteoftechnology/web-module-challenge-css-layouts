@@ -124,7 +124,7 @@ section {
     line-height: 1.4;
 }
 .bio button {
-    width: 30%;
+    width: 40%;
     font-family: "Lucida Console", Courier, monospace;
     font-size: 16px;
     padding: 20px 10px;
@@ -189,7 +189,6 @@ footer button:hover {
 /* Phone */ 
 @media(max-width:500px){
     header {
-        border:2px solid red;
         width: 100%;
         margin: 0 auto;
         display: flex;
@@ -198,14 +197,12 @@ footer button:hover {
         justify-content: center;
     }
     header h1 {
-        border:2px solid red;
         width: 30%;
         text-align: center;
         font-size: 20px;
         background-color:lightgray;
         color: blue;
         border-radius: 12px;
-        margin: 0 auto;
     }
     nav {
         display: flex;
