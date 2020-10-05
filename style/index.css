@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -125,4 +125,53 @@ footer{
 
 p{
     font-size: 18px;
+}
+
+/* Tablet view(max 800px) */
+
+@media(max-width:800px){
+    
+    div{
+        width: 100%;
+    }
+
+    div img{
+        width:100%;
+        }
+    }
+
+    footer{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/* Mobile view(max 500px) */
+
+@media(max-width:500px){
+    
+    #intro{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    div img{
+        margin-left:10%;
+    }
+
+    nav{
+    
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    #images{
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        width: auto;
+    }
 }
