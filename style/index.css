@@ -141,6 +141,7 @@ section {
     flex-flow: row wrap;
     justify-content: space-between;
     font-family: "Lucida Console", Courier, monospace;
+    margin-bottom: -5%;
 }
 .project {
     width: 25%;
@@ -187,9 +188,6 @@ footer button:hover {
 /* Media Queries */ 
 /* Phone */ 
 @media(max-width:500px){
-    .main-container{
-        margin: 0 auto;
-    }
     header {
         width: 100%;
         margin: 0 auto;
