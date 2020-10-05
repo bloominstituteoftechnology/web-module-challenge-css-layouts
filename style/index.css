@@ -49,10 +49,13 @@ table {
 }
 /* End CSS Reset */
 
+* {
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+}
 
-
-.container {
-    width: 1000px;
+.main-container {
     margin: 0 auto;
 }
 
@@ -61,13 +64,13 @@ header {
     margin: 10px;
     background-image: url("https://i.pinimg.com/originals/52/70/16/527016e4e3dfdd806da99161e91f1d50.jpg");
     background-size: cover;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
 }
 h1 {
     color: yellow;
     margin-left: 10px;
     margin-bottom: -5px;
-    width: 30%;
+    width: 20%;
     font-family: "Lucida Console", Courier, monospace;
     vertical-align: middle;
 }
@@ -91,21 +94,21 @@ nav button:hover {
 }
 
 /* Main Content */
-main {
-    padding: 50px;
+section {
+    padding: 25px;
     margin: 10px;
 }
 
 /* Showcase Project */
 .showcase {
+    border:1px solid red;
     display: flex;
-    height: 275px;
     margin-bottom: 30px;
     align-items: center;
 
 }
 .showcase_project {
-    width: 408px;
+    width: 200%;
 }
 .showcase_project img {
     border-radius: 12px;
@@ -113,19 +116,20 @@ main {
 .bio {
     display: flex;
     flex-direction: column;
-    width: 3000px;
-    height: 150px;
+    width: 200%;
     margin-left: 40px;
     align-items: left;
     padding: 40px;
     font-size: 20px;
     font-family: "Lucida Console", Courier, monospace;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 .bio button {
-    width: 125px;
-    height: 35px;
+    width: 30%;
     font-family: "Lucida Console", Courier, monospace;
+    font-size: 16px;
+    padding: 20px 10px;
+    border-radius: 12px;
 }
 .bio button:hover {
     background-color: greenyellow;
@@ -140,31 +144,100 @@ main {
     font-family: "Lucida Console", Courier, monospace;
 }
 .project {
-    width: 200px;
-    height: 200px;
+    border:1px solid red;
+    width: 25%;
     text-align: center;
     vertical-align: baseline;
     margin-bottom: 60px;
+    padding: 2% 1%;
+    font-size: 22px;
 }
 .project img {
-    border-radius: 12px;;
+    border-radius: 12px;
+    border:2px solid blue;
 }
 
 /* Footer */
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #31C5CA;
     margin: 10px;
-    padding: 30px 0 50px 0;
-    text-align: center;
+    padding: 30px 50px;
     font-family: "Lucida Console", Courier, monospace;
     font-size: 20px;
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 footer button {
-    height: 50px;
-    width: 175px;
+    width: 75%;
     font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
     font-size: 20px;
+    padding: 1% 0;
+    margin-top: 5%;
 }
 footer button:hover {
     background-color: greenyellow;
 }
+
+/* Media Queries */ 
+/* Phone */ 
+@media(max-width:500px){
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header h1 {
+        width: 30%;
+        text-align: center;
+        font-size: 20px;
+        background-color:lightgray;
+        color: blue;
+        border-radius: 12px;
+        margin: 0 auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .bio button {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .bio span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 75%;
+    }
+    .projects {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .project: {
+        width: 5%;
+    }
+} /* End 500px media query */
