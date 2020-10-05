@@ -79,15 +79,24 @@ h3 {
     .topper {
         display: flex;
         flex-direction: column;
- 
-        
-        
+        align-content: center;
     }
     nav {
             display: flex;
-            flex-direction: column;
-            max-width: 25%;
-            font-size: x-small;   
+            flex-direction: column;    
+    }
+
+    a {
+        border: pink;
+        color: pink;
+        background-color: purple;
+        font-family: fantasy;
+        padding: 0%;
+        margin: 0%;
+        max-width: 10%;
+        display: flex;
+        align-content: space-between;
+  
     }
     .Pictures1 {
         display: flex;
@@ -106,6 +115,52 @@ h3 {
 }
 
 @media (max-width:800px){
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        max-width: 30%;
+    }
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+    }
+    .topper {
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+            display: flex;
+            flex-direction: column;    
+    }
+
+    a {
+        border: pink;
+        color: pink;
+        background-color: purple;
+        font-family: fantasy;
+        padding: 0%;
+        margin: 0%;
+        max-width: 10%;
+        display: flex;
+        align-content: space-between;
+  
+    }
+    .Pictures1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Pictures2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bodytext {
+        background-image: url(https://www.newportmansions.org/images/content-pages/gold-room.jpg);
+        font-weight: bolder;
+        color: powderblue;
+        padding: 2em;
+        margin-top: 2em;
 
 
 }
