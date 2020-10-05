@@ -177,23 +177,45 @@ button{
     h1 {
         font-size:2.5rem;
     }
+    .nav {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     nav a {
         font-size:1.2rem;
+        width:20%;
+        display:flex;
+        flex-direction: column;
     }
     .htwo{
+        margin-top: 36%;
         font-size:1.8rem;
     }
+    .pone {
+        height: 7rem;
+    }
     .ptwo {
+        height:6rem;
+        margin-top:-5%;
         font-size:1.2rem;
     }
     .butone {
         height:6rem;
     }
-    .bottom img{
-        height:9rem;
-    }
     .lowbod {
         width:98%;
         font-size:1.2rem;
+        
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .lowbod img {
+        width:40%;
+        margin:4%;
+    }
+    .lowerbod {
+        margin-top:2%;
     }
 }
