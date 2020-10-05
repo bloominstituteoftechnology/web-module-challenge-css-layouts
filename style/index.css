@@ -108,7 +108,6 @@ body{
 .second-half{
   margin: auto 0;
   width: 49%;
-  height: 150px;
   background-color: transparent;
 }
 
@@ -245,5 +244,91 @@ body{
 } /* end 800px media query*/
 
 @media(width:500px){
-  
+
+  *{
+    border: 1px solid black;
+  }
+
+  .nav{
+    text-align: center;
+  }
+
+  .list{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-section{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-half{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .second-half{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .second-half h1{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .button-class{
+    margin-left: 40%;
+  }
+
+  .second-half-p{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  .second-section{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-a-b{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-c-d{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 77px;
+    margin-bottom: 10px;
+  }
+
+  .third-section{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-e-f{
+    margin-top: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-g-h{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 77px;
+  }
 }
