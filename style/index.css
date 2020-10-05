@@ -52,6 +52,10 @@ body{
     .buttons a{
         margin:5%;
     }
+    .header .buttons a{
+        color: rgb(47, 186, 221);
+        background-color: black;
+    }
     .name{
         color:black;    
         margin: 20px;
@@ -98,26 +102,27 @@ body{
         margin-right: 40%;
     }
     .section p{
-        border:2px solid black;
+        margin-top: 5%;
     }
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
+@media(max-width:500px){
+    .picture{
+        display: flex;
+        flex-direction: column;
+    }
+    .picture .section{ 
+        align-items: center;
+        background-color: bisque;
+    }
+    .picture .section a{
+        color:black;
+        text-align: center;
+        margin-right: 40%;
+    }
+    .section p{
+        margin-top: 5%;
+    }
+}
 
 .picture{ 
     display: flex;
@@ -154,11 +159,12 @@ body{
 .section a:hover{
     color:white;
     text-decoration: none;
-    background-color: blue;
+    background-color:purple;
     font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: line-through;
-
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 20px;
+    text-align: center;
 }
 .section p{
     font-size: 24px;
@@ -189,12 +195,10 @@ body{
     color: rgb(13, 6, 71);
 }
 .footer{
-    border:1px solid black;
-    background-color: teal;
+    background-color: rgb(94, 27, 100);
     display:flex;
     justify-content: center;
-    align-content: space-around;
-    height:auto; 
+
 }
 .contact-me h1{
     font-size: 36px;
@@ -202,18 +206,31 @@ body{
     background-color: yellow;
     border: 2px solid black;
     border-radius: 20%;
-    max-width: 250px;    
+    max-width: 50%;    
     text-align: center;
-    margin:10%;
+    
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5% 0;
+}
+.contact-me h1, a{
+    margin:5% 0;
 }
 .contact-me a{
     font-size:30px;
-    border:5px dotted lightcoral;
-    background-color: lightgoldenrodyellow;   
-    text-wrap: wrap;
-    margin:10%;
-    text-align:center;
-    margin-left: 50px;
+    text-decoration: none;     
+    text-wrap: wrap;   
+    text-align:center; 
+    color:rgb(221, 208, 208); 
+    font-weight: bold;
+}
+.contact-me a:hover{
+    background-color: blueviolet;
+    color:white;
 }
 
 
