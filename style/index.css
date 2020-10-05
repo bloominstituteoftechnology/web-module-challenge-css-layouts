@@ -47,7 +47,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header h2{
-    font-size:20px;
-    margin-left: 6%
+
+body{
+    text-align: center;
+    display:flex;
+    border: 1px solid black;
+}
+header{
+    display:flex column;
+    width:100%;
+}
+title{
+    width:100%;
+    padding:10px;
+    text-align: center;
 }
