@@ -19,18 +19,21 @@ body{
     .header{
         display: flex;  
         align-items: center; 
-        flex-direction: column                 
+        flex-direction: column;
+        background-color: chocolate;               
     }
     .buttons{
         flex-direction: column;
-        width:100px;            
+        width:100px;          
     }
-    .buttons a{
+    .header .buttons a{
         margin:5%;
-
+        color:black;
+        background-color: aliceblue;
+        font-weight: bolder;
     }
     .name{
-        color:black;    
+        color:blue;    
         margin: 20px;
         text-align: center;
 }
@@ -39,7 +42,8 @@ body{
     .header{
         display: flex;  
         align-items: center; 
-        flex-direction: column                 
+        flex-direction: column;
+        background-color: chartreuse;               
     }
     .buttons{
         flex-direction: column;
@@ -47,17 +51,14 @@ body{
     }
     .buttons a{
         margin:5%;
-
     }
     .name{
         color:black;    
         margin: 20px;
-        text-align: center;
+        text-align: center;       
 }
 }
-
-
-.buttons {   
+.buttons{   
     display: flex;
     justify-content:flex-start;  
     align-content: center;     
@@ -73,6 +74,53 @@ body{
     border-radius: 10%;
     text-align: center;
 }
+.buttons a:hover{
+    background-color:purple;
+}
+
+
+@media(max-width:800px){
+    .picture{
+        display: flex;
+        border:2px solid green;
+        flex-direction: column;
+    }
+    .picture .section{
+        border:5px solid black;
+        align-items: center;
+        background-color: bisque;
+    }
+    .picture .section h1{
+        color:blueviolet;
+        margin-top: 5%;
+        border:2px solid black;             
+    }
+    .picture .section a{
+        border:2px solid pink;
+        color:black;
+    }
+    .section p{
+        border:2px solid black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 .picture{ 
     display: flex;
 }
