@@ -63,7 +63,7 @@ header {
     margin: 10px;
     background-image: url("https://i.pinimg.com/originals/52/70/16/527016e4e3dfdd806da99161e91f1d50.jpg");
     background-size: cover;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 h1 {
     color: yellow;
@@ -224,6 +224,7 @@ footer button:hover {
     .bio button {
         width: 60%;
         margin: 0 auto;
+        padding: 0 2%;
     }
     .bio span {
         display: flex;
