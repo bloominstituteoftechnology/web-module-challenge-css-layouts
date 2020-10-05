@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -56,9 +56,11 @@ table {
 body{
     font-family: "Poppins", cursive;
 }
+
 button{
     font-family: "Poppins", monospace;
 }
+
 #intro{
     width: auto;
     display:flex;
@@ -78,6 +80,7 @@ h1, nav, p{
     margin: 10px 10px;
 }
 nav{
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0px;
@@ -94,7 +97,13 @@ button{
     margin: 0px;
     width: 100px;
 }
-img{
+
+button:hover{
+    background-color:black;
+    color: white;
+}
+
+#mainimg{
     width:100%;
 }
 
@@ -103,6 +112,7 @@ img{
     display:flex;
     justify-content: space-between;
 }
+
 #images img{
     width: 17%;
 }
@@ -130,21 +140,20 @@ p{
 /* Tablet view(max 800px) */
 
 @media(max-width:800px){
-    
+
     div{
         width: 100%;
     }
 
-    div img{
+    #mainimg{
         width:100%;
-        }
     }
 
     footer{
     width: auto;
     justify-content: center;
     align-items: center;
-}
+    }
 }
 
 /* Mobile view(max 500px) */
@@ -156,19 +165,27 @@ p{
         flex-wrap: nowrap;
     }
 
-    div img{
+    #mainimg{
         margin-left:10%;
+        margin-right:10%;
+        width:85%;
     }
 
-    nav{
-    
+    nav {
     flex-direction: column;
     justify-content: center;
     }
 
     #images{
-        width: auto;
         flex-wrap: wrap;
+    }
+
+    #images img{
+        width: 40%;
+        margin: 3%;
+    }
+    #images #text{
+        width:auto;
     }
 
     footer{
