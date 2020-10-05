@@ -227,22 +227,25 @@ header nav a:hover {
     text-shadow: 1px 1px black;
 }
 
-.foot a:hover {
+.foot .foot-icon:hover {
     color: white;
     background-color: dodgerblue;
 }
 .foot.social{
 	display:flex;
-	flex-flow: row nowrap
+	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;	
 }
 .foot-icon{
-	font-size: 4rem;
-	
+	font-size: 4rem;	
 }
-
+.foot button a{
+color: white;
+background-color: black;
+padding: 
+}
 
 /* Begin Media Queries */
 @media (max-width: 800px) {
