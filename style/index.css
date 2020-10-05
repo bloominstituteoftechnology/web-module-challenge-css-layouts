@@ -52,7 +52,6 @@ table {
 * {
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
 }
 
 .main-container {
@@ -101,7 +100,6 @@ section {
 
 /* Showcase Project */
 .showcase {
-    border:1px solid red;
     display: flex;
     margin-bottom: 30px;
     align-items: center;
@@ -144,7 +142,6 @@ section {
     font-family: "Lucida Console", Courier, monospace;
 }
 .project {
-    border:1px solid red;
     width: 25%;
     text-align: center;
     vertical-align: baseline;
@@ -154,7 +151,6 @@ section {
 }
 .project img {
     border-radius: 12px;
-    border:2px solid blue;
 }
 
 /* Footer */
@@ -170,7 +166,6 @@ footer {
     font-size: 20px;
 }
 .contact {
-    border:2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
