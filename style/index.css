@@ -83,7 +83,7 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -131,7 +131,7 @@ table {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 html {
 	font-size: 62.5%;
@@ -172,6 +172,7 @@ header nav a {
 header nav a:hover {
 	color: red;
 }
+/* Top Section Styling */
 .top {
 	display: flex;
 }
@@ -216,7 +217,6 @@ header nav a:hover {
 .foot {
 	display: flex;
 	flex-direction: column;
-	/* width:35%; */
 	align-items: center;
 	background-color: tan;
 }
@@ -226,15 +226,7 @@ header nav a:hover {
     text-align: center;
     text-shadow: 1px 1px black;
 }
-/* .foot.foot-contact{
-	width: 30%;
-} */
-/* .foot a {
-	text-align: center;
-	font-size: 2rem;
-    padding: 1%;
-    text-shadow: 1px 1px black; */
-}
+
 .foot a:hover {
     color: white;
     background-color: dodgerblue;
@@ -246,39 +238,42 @@ header nav a:hover {
 	align-items: center;
 	font-size: 3rem;	
 }
+.foot-icon{
+	font-size: 4rem;
+	
+}
 
 
 /* Begin Media Queries */
 @media (max-width: 800px) {
-    .middle-content{
-        display: flex;
-        flex-direction: column;
-        }
-        .pics{
-            width: 100%;
-        }
+	header {
+		justify-content: center;
+		align-items: center;
+	}
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+	.top-text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.pics {
+		width: 48%;
+		padding: 2%;
+		text-align: center;
+	}	
 }
 
 @media (max-width: 500px) {
+.top{
+	flex-direction: column;
+}
+.top-pic{
+	width: 100%;
+}
+.dog{
 	
-	header nav a {
-		text-align: center;
-    }
-    .top{
-        display:flex;
-        flex-direction: column;
-    }
-    .top-pic{
-        width: 100%;
-    }
-    .top-text {
-        text-align: center;
-    }
-    .middle-content{
-    display: flex;
-    flex-direction: column;
-    }
-    .pics{
-        width: 100%;
-    }
+}
 }
