@@ -78,26 +78,24 @@ body{
     background-color:purple;
 }
 
-
+/*  media query below for title picture and text */
 @media(max-width:800px){
     .picture{
         display: flex;
-        border:2px solid green;
         flex-direction: column;
     }
-    .picture .section{
-        border:5px solid black;
+    .picture .section{ 
         align-items: center;
         background-color: bisque;
     }
     .picture .section h1{
         color:blueviolet;
-        margin-top: 5%;
-        border:2px solid black;             
+        margin-top: 5%;             
     }
     .picture .section a{
-        border:2px solid pink;
         color:black;
+        text-align: center;
+        margin-right: 40%;
     }
     .section p{
         border:2px solid black;
@@ -153,6 +151,15 @@ body{
     height:auto; 
     margin-left: 40%;    
 } 
+.section a:hover{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: line-through;
+
+}
 .section p{
     font-size: 24px;
     text-align: center;
