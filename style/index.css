@@ -187,6 +187,9 @@ footer button:hover {
 /* Media Queries */ 
 /* Phone */ 
 @media(max-width:500px){
+    .main-container{
+        margin: 0 auto;
+    }
     header {
         width: 100%;
         margin: 0 auto;
@@ -327,3 +330,82 @@ footer button:hover {
         width:50%;
     }
 }/* End 800px media query */
+
+/* 360px */
+@media(max-width:360px){
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header h1 {
+        width: 60%;
+        text-align: center;
+        font-size: 20px;
+        background-color:lightgray;
+        color: blue;
+        border-radius: 12px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 125%;
+        margin-bottom: -30%;
+        margin-top: -10%;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .bio h4 {
+        font-size: 115%;
+    }
+    .bio button {
+        width: 100%;
+        line-height: 1.3;
+    }
+    .bio span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 85%;
+        width: 100%;
+    }
+    .projects {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: -10%;
+    }
+    .project {
+        width: 50%;
+        padding: 0 4%;
+        margin: 4% 0;
+    }
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 90%;
+    }
+    .contact button {
+        width:100%;
+        padding: 5% 0;
+    }
+} /* End 360px media query */
+
