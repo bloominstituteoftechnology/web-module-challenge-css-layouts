@@ -156,5 +156,114 @@ footer btn:hover{
     color:white
 }
 
+@media (max-width: 500px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 6% 0 0 0;
+    }
+    
+    header h3 {
+        font-size: 1.5em;
+        margin: 0%;
+    }
+    
+    nav {
+        margin-right: 0;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    nav a {
+        padding: 2% 20%;
+        margin-top: 2%;
+        
+    }
+
+    .title {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-top: 5%;
+    }
+    
+    .title img{
+        width: 90%;
+    }
+    
+    .titlecontent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .title h1 {
+        font-size: 2.5em;
+        margin-bottom: 40%;
+    }
+    
+    .title btn {
+        border: 1px solid white;
+        padding: 2% 7%;
+    }
+    
+    .title btn:hover{
+        background-color: black;
+        color:white
+    }
+    
+    .content {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .content div {
+        width: 45%;
+        margin-top: 5%;
+        border: 2px solid black;
+    }
+    
+    .content img{
+        width: 100%;
+    }
+    
+    .content h5 {
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        margin: 5% 0 5% 0;
+        padding: 5% 10%;
+        background-color: lightgray;
+    }
+    
+    footer btn {
+        background-color: white;
+        border: 1px solid black;
+        padding: 1.5% 4%;
+    }
+    
+    footer btn:hover{
+        background-color: black;
+        color:white
+    }
+}
+
 
 
