@@ -165,6 +165,10 @@ p{
         flex-wrap: nowrap;
     }
 
+    #intro p{
+        text-align: center;
+    }
+
     #mainimg{
         margin-left:10%;
         margin-right:10%;
@@ -186,6 +190,7 @@ p{
     }
     #images #text{
         width:auto;
+        text-align: center;
     }
 
     footer{
