@@ -256,3 +256,78 @@ footer button:hover {
         width:50%;
     }
 } /* End 500px media query */
+
+/* 800px */
+@media(max-width:800px){
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header h1 {
+        text-align: center;
+        font-size: 110%;
+        background-color:lightgray;
+        color: blue;
+        border-radius: 12px;
+        padding: 1% 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav button {
+        font-size: 100%;
+        width: 65%;
+    }
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .bio h4 {
+        font-size: 125%;
+    }
+    .bio button {
+        width: 50%;
+        margin: 0 auto;
+        font-size: 125%;
+    }
+    .bio span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 100%;
+    }
+    .projects {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .project {
+        width: 50%;
+        padding: 0 4%;
+        margin: 4% 0;
+    }
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 125%;
+    }
+    .contact button {
+        width:50%;
+    }
+}/* End 800px media query */
