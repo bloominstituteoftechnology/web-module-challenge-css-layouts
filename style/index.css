@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -93,21 +92,22 @@ body{
 }
 
 .main-section{
+  width: 98%;
+  margin: auto 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: space-between;
 }
 
 .first-half{
-  margin-left: 10px;
-  width: 48%;
-  height: 150px;
+  margin: 0 auto;
+  width: 49%;
   background-color: darkviolet;
 }
 
 .second-half{
-  margin-right: 10px;
-  width: 48%;
+  margin: auto 0;
+  width: 49%;
   height: 150px;
   background-color: transparent;
 }
@@ -125,7 +125,7 @@ body{
 
 .second-section{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .section-a-b{
@@ -147,6 +147,11 @@ body{
 .box-b{
   width: 48%;
   background-color: lightcyan;
+}
+
+.third-section{
+  display: flex;
+  flex-flow: row;
 }
 
 .section-c-d{
@@ -220,4 +225,25 @@ body{
   justify-content: center;
   align-items: center;
   color: antiquewhite;
+}
+
+@media(max-width:800px){
+  body{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .first-half{
+    border: 1px solid black;
+    height: 200px;
+  }
+
+  .main-section{
+    margin-bottom: 10px;
+    align-items: center;
+  }
+} /* end 800px media query*/
+
+@media(width:500px){
+  
 }
