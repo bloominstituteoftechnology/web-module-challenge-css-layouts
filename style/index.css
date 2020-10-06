@@ -15,7 +15,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -23,140 +22,159 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }    
-
 *{
-    background-color:#000000;
+    box-sizing:border-box;
+    max-width:100%;
+    /*border:1px solid grey;*/
+    background-color:#111111;
+}
+/*general styling*/
+html{
+    font-size:62.5%;
 }
 body{
-    background-color:#000000;
+    line-height:1.5;
+    font-size:1.8rem;
 }
-.content{
-    max-width:1200px;
-    margin:auto;
+h1, h2, h3{
+    color:#cccccc;
 }
-
-.projects img{
-    width:200px;
-}
-
 h1{
-    font-size:70px;
-    color:#551a8b;
-    margin:0 25px;
-}
-
-header a{
-    padding:10px;
-    margin: 0 0 0 20px;
-}
-
-a{
-    text-decoration:none;
-    color:#551a8b;
-    font-size:25px;
-}
-
-.projects{
-    display:flex;
-    flex-flow:wrap row;
-    align-items:center;
-    justify-content:space-evenly;
-}
-
-.project1{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.project2{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.project3{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.project4{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.project5{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.project6{
-    width:200px;
-    margin:60px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.biography{
-    display:flex;
-    flex-flow: nowrap row;
-    margin:50px;
-    justify-content:space-between;
-    align-items:center;
+    font-size:5rem;
+    margin:2%;
 }
 h2{
-    font-size:50px;
-    color:#551a8b;
-    margin:0 0 20px 0;
+    font-size:4rem;
 }
-
-.biopicture img{
-    width:400px;
+h3{
+    font-size:2.5rem;
 }
-
-.mybio{
-    width:400px;
-    color:#551a8b;
-    margin:0 100px 0 0;
+a{
+    text-decoration:none;
+    color:#cccccc;
+    font-size:2.5rem;
 }
-
-.mybio p{
-    font-size:20px;
-    margin:20px 0px;
+p{
+    color:#cccccc;
+    font-size:2rem;
 }
-.mybio a{
-    margin: 20px 0px;
+/*header styling*/
+header{
+    height:25vh;
 }
-
-.foot{
+.navbar{
+    margin:0 1.25%;
+}
+header nav a{
+    padding:1%;
+}
+/*About Me Styling*/
+#about{
+    height:55vh;
+}
+.myinfo{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logopic{
+    width:40%;
+    margin:0 5%;
+    padding:0 6%;
+}
+.biography{
+    width:40%;
+    margin:0 5%;
+    padding: 0 5%;
+}
+.logopic img{
+    width:70%;
+}
+/*projects styling*/
+.project-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: baseline;
+}
+.portfolio{
+    width:20%;
+    margin:4% 6%;
     display:flex;
     flex-direction:column;
-    justify-content:center;
     align-items:center;
-    margin:20px;
 }
-
 h3{
-    font-size:25px;
-    color:#551a8b;
+    margin:2% 0;
 }
-
-a:hover{
-    color:#cccccc;
+/*footer styling*/
+.contactme{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:2%;
+}
+.contactme a{
+    margin:1%;
+}
+/*tablet styling*/
+@media(max-width:800px){
+    h2{
+        font-size:3rem;
+    }
+    h3{
+        font-size:2rem;
+    }
+    .logopic{
+        margin:0 5%;
+        padding:0 3%;
+    }
+    .logopic img{
+        width:100%;
+    }
+    .portfolio{
+        width:33%;
+    }
+}
+@media(max-width:500px){
+    header{
+        text-align:center;
+        height:35vh;
+    }
+    .navbar nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .myinfo{
+        flex-direction:column;
+    }
+    .biography{
+        width:100%;
+        text-align:center;
+    }
+    .portfolio{
+        width:40%;
+        margin:4%;
+    }
 }
