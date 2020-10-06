@@ -52,89 +52,248 @@ table {
 
 }
 
+
+
+/*This is where the code starts*/
+
+body{
+    background-color: lightslategray;
+}
+.header {
+    width: 100%;
+}
 .header h1{
-    font-size: 40px;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    color: goldenrod;
-   
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 6rem;
 }
 
-.header .navbar a {
+.navbar{
     display:flex;
-    display: inline-flex;
-    margin-left: 15%;
-    color:goldenrod;
+    justify-content: center;
+    
+}
+.navbar a{
     text-decoration: none;
-    padding:2%;
-    background-color: gray;
-    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 3rem;
+    color:goldenrod;
 }
 
-
-img{
-    width:300px;
-}
 .bio {
     display: flex;
-    align-content: center;;
-    margin-top: 6%;
-    margin-left: 3%;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
-.bio .bioimg{
-    padding: 2%;
+.bio img{
+    width: 500px;
+    padding:9%;
+    margin-left: 4%;  
+    
 }
 
 .bio h3{
-    font-size: 25px;
-    margin-top: 7%;
-    margin-bottom: 7%;
-}
-
-.bio a{
-    text-decoration: none;
-    padding: 2%;
-    border-radius: 20px;
-    background-color: goldenrod;
-    font-size: 20px;
-    color:gray;
-    
-
-}
-
-.bio p{
-    margin-top: 10%;
-
-}
-footer{
-    background-color: gray;
-    margin-top: 25%;
-    padding: 3%;
-    
-}
-footer p{
-    display: flex;
-    justify-content: center;
-    color: goldenrod
-    
-    
-     
-}
-
-footer a{
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-    margin-left: 30%;
-    margin-right: 33%;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 4rem;
     margin-bottom: 3%;
-    text-decoration: none;
-    border-radius: 10px;
-    background-color: greenyellow;
-    font-size: 22px;
     
+}
+.bio a{
+    margin-left:2%;
+    
+    
+    font-size: 4rem;
+    text-decoration: none;
 
 
 }
+.bio p{
+    margin-left: 2%;
+    font-size: 2rem;
+    margin-top: 3%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13%;
+    margin-bottom: 3%;
+}
+footer p  {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+footer a {
+    font-size: 2rem;
+}
+
+.picturesection{
+    display:flex;
+    justify-content: center;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.picture {
+    
+    padding: 1%;
+}
+
+.picture p{
+    margin-right: 20%;
+    
+    font-size: 2rem;
+}
+
+button{
+    padding: 1%;
+    font-size: 2rem;
+    margin-top: 1%;
+}
+  
+
+
+
+
+/*Media Queries*/
+
+  @media(max-width:500px){
+
+      .header{ 
+         margin-left: 6%;
+         margin-top: 2%;
+         width: 100%;
+        }
+
+      .header h1{
+          font-size: 2rem;}
+
+      .navbar a{ 
+          font-size: 1rem;}
+    
+      .bio{
+            display: flex;
+            flex-direction: column;
+            }
+
+        .bio img{
+                width: 500px;
+                margin-left: -2%;
+               
+            }   
+        .bio p {
+            font-size: 1rem;
+            margin-left: 8%;
+            margin-right: 8%;
+            } 
+
+        .bio a{
+            width: 100%;
+            margin-left: 8%;
+            }
+
+        .bio h3{
+            margin-left: 8%;
+            font-size: 2rem;
+        }
+        .picturesection { 
+              margin-left: 11%;
+              margin-top: 1%;
+
+        }
+        .picturesection img{
+            width: 100px;
+            }
+        
+        
+        .picturesection p{
+            font-size: 1rem;
+        }
+        
+        button{
+            padding: none;
+
+        }
+    }
+        
+    @media (max-width:800px){
+
+    .header{ 
+        width: 100%;
+        margin-left: -15%;
+        margin-right: 8%;
+        margin-top: 2%;
+        margin-bottom: -5%;}
+
+     .header h1{
+         font-size: 2rem;
+        }
+
+     .navbar a{ 
+         font-size: 1rem;
+        }
+   
+     .bio {
+           display: flex;
+           flex-direction: column;
+           }
+
+    .bio img{
+               width:500px;
+               margin-left: -7%;
+             
+            }
+
+    .bio p {
+           font-size: 1rem;
+           margin-left: 8%;
+           margin-right: 20%;
+           } 
+
+    .bio a{
+           width: 100%;
+           margin-left: 8%;
+           }
+
+    .bio h3{
+           margin-left: 8%;
+           font-size: 2rem;
+           }
+
+    .picturesection { 
+             margin-left: 11%;
+             margin-top: 1%;
+             margin-right: 15%;
+            }
+
+    .picturesection img{
+           width: 100px;
+           }
+            
+    .picturesection p{
+           font-size: 1rem;
+           }
+       
+    button{
+           padding: none;
+          }
+
+    footer{
+           margin-right: 25%;
+          }
+
+
+}
+
+       
+        
+           
+            
+            
+    
