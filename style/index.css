@@ -215,8 +215,9 @@ p{
         flex-wrap: wrap;
         width: 88%;
         height: auto;
-        justify-content: space-around;
-        margin-left: .8%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
         margin-bottom: 2%;
        
     }
@@ -234,16 +235,14 @@ p{
     }
 
     footer {
-        width: 80.75%;
+        width: 100%;
         
     }
 }
 
 @media (max-width: 500px) {
 
-    footer {
-        width: 80.75%;
-    }
+
 }
 
 
