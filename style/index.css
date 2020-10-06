@@ -1,1 +1,310 @@
-/* Add CSS styling here */
+/* Add CSS styling here *//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width: 100%;
+}
+html{
+    font-size:62.5%;
+}
+
+
+
+
+
+/* BEGINNING OF NON-UNIVERSAL CONDITIONS */
+h1{ 
+   font-family:"Times New Roman", sans-serif;
+   color:wheat;
+   text-shadow: 4px 4px rgba(255, 255, 255, 0.301);
+    font-size: 5vh;
+}
+/ bg-color /
+.bg-clr{
+    background-color:rgb(83, 27, 27);
+    height:100%;
+}
+
+
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    /* background image for website */
+    background-image: url(https://background-tiles.com/overview/red/patterns/large/1056.png);
+}
+
+/ nav bar */
+.item:nth-of-type(1){
+  order:2;
+}
+
+
+
+
+.container1{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    color:wheat;
+}
+.container1 .item{
+    width: 30%;
+    height: 25vh;
+    background: url(https://picsum.photos/250) no-repeat center center/cover;
+    border:1px solid black;
+    margin:1px;
+}
+.container1 .myname a{
+    width:7vw;
+    margin: 1.5vh 0;
+    background-color:black;
+    color:white;
+}
+
+
+section{
+    padding: 0.5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+section div{
+    display:baseline;
+    margin:0.5%;
+    width:10%;
+}
+.yosemite{
+    display:inline-block;
+    width:73%;
+}
+.button1{
+    width:100%;
+    color:white;
+}
+.button2{
+    width:100%;
+    color:white;
+}
+.button3{
+    width:100%;
+    color:white;
+}
+
+.button4{
+    width:100%;
+    color:white;
+}
+.buttons{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.b1{
+    display: inline-block;
+    width: 15%;
+    background-color: black;
+}
+.b2{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;
+}
+
+.b3{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;
+}
+
+.b4{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    width:15%;
+    text-align:center;
+}
+.sec1{
+    color:white;
+    padding:2%;
+    margin:2%;
+}
+
+footer{
+    width: 100%;
+    padding: 1vh;
+}
+.bottomimg{
+    height: 22vh;
+    width: 100%;
+    padding: 0.8%;
+}
+.bottomimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer .buttons{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contactBar{
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:wheat;
+
+}
+.btn{
+    background-color:black;
+    color:white;
+
+}
+.contactbar p{
+    padding-bottom: 0.2vh;
+}
+
+
+/* Everything below here will convert any screen
+that is shorter than 980px to my mobile lay out */
+@media only screen and (max-width:980px){
+    html{
+        height:200vh;
+    }
+    body{
+        height: 200vh;
+    }
+/* below here is the restyling for mobile devices */
+#pgContainer{
+    height:100%;
+    width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+    #header{
+        width:100%;
+        height:5%;
+    }
+        .buttons{
+            height: 14vh;
+            background-color: black;
+            width: 100%;
+            display:flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+            .buttons div{
+                background-color: yellow;
+                height: 2vh;
+                margin: 1% 25%;
+                width: 50%;
+                align-items: center;
+                text-align: center;
+            }
+                .buttons div a{
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin:0;
+                }
+        h1{
+            font-size:3vh;
+        }
+.container1{
+    position:relative;
+    height: 38vh;
+    width:100vw;
+}
+    .item{
+        position: absolute;
+        top:2.5%;
+        width:100vw;
+    }
+    .myname{
+        position:absolute;
+        bottom:1.5%;
+        width:100%;
+    }
+    /* no longer inside .container1 */
+section{
+    height: 55vh;
+}
+    section div{
+        height: 10vh;
+        width: 50%;
+    }
+    /* end of 'section' */
+footer{
+    height:13vh;
+}
+    .bottomimg img{
+        width: 100%;
+        height: 100%;
+    }
+    .bottomimg{
+        width:100%;
+        height:100%;
+    }
+}
