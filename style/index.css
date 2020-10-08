@@ -68,7 +68,6 @@ header {
     padding: 30px;
     background: url("https://images.unsplash.com/photo-1544769283-3a288a25d496?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
     background-size: cover;
-    border: black 2px solid;
 }
 
 h1 {
@@ -77,11 +76,9 @@ h1 {
     font-family: 'Dancing Script', cursive;
     align-self: flex-start;
     padding-bottom: 10px;
-    border: red 2px solid;
 }
 
 nav {
-    border: red 2px solid;
     height: 80px;
     align-self: flex-start;
 }
@@ -128,7 +125,6 @@ nav ul li a:hover {
 /* -----------------Large image intro section----------------- */
 .large-image-intro-section {
     display: flex;
-    border: 2px blue solid;
     height: 400px;
 }
 
@@ -136,7 +132,6 @@ nav ul li a:hover {
 
 .intro-image {
     flex-direction: row;
-    border: 2px yellow solid; /* default is row */
     width: 50%;
     padding: 30px;
     background-size: cover;
@@ -147,7 +142,6 @@ h2 {
     font-size:  2.5em;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
-    border: 2px red solid;
 }
 .my-projects-button {
     color: black;
@@ -177,7 +171,6 @@ p {
     height: 400px;
     width: 50%;
     padding: 30px 30px 30px 60px;
-    border: 2px black solid;
     align-items: flex-start;
 }
 
@@ -187,7 +180,6 @@ p {
 .intro-text {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    border: 2px red solid;
     align-self: left;
 }
 
@@ -204,7 +196,6 @@ p {
     height: 800px;
     width: 100%;
     padding: 30px;
-    border: 2px blue solid;
 }
 
 /* flex: 0 0 200px;  controls if it grows or shrinks */
@@ -216,7 +207,6 @@ p {
     width: 25%;
     height: 230px;
     padding: 30px;
-    border: 2px red solid;
     align-items: center;
 }
 
@@ -301,7 +291,6 @@ footer {
     border-radius: 10px;
     text-align: center;
     width: 200px;
-    border: 2px red solid;
     align-self: center;
     text-decoration: none;
 }
@@ -315,7 +304,6 @@ footer {
 
 .social {
     display: flex;
-    border: 2px red solid;
     height: 3em;
     width: 200px;
     align-self: center;
@@ -338,8 +326,28 @@ nav {
 
 }
 
+.large-image-intro-section {
+    flex-direction: column;
+}
+
+
 .project-tiles-section {
     flex-direction: column;
 }
 
 }
+
+
+
+/* ------------------------------ PROJECT PAGE ------------------------ */
+#project-page-background-image-container.background-image-container {  /*  BROKEN */
+    /* background: url("https://images.unsplash.com/photo-1544769283-3a288a25d496?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
+    background-size: cover; */
+    background: url("https://cdn.pixabay.com/photo/2019/11/24/05/22/green-4648611_1280.jpg"); 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+}
+
+
