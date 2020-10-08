@@ -1,1 +1,172 @@
-/* Add CSS styling here */
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background: black;
+background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511.jpg");
+}
+  
+/* containers */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-container {
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  margin-top: 60px;
+}
+
+.div-cascade-box {
+  width: 100%;
+  height: 220px;
+  background: #59a2e5;
+  margin-bottom: 30px;
+  opacity: 0.8;
+  border: 10px solid white;
+  max-width: 99%;
+}
+
+main div {
+  display: flex;
+}
+
+/* element items */
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1 {
+  font-family: Rock Salt;
+  font-size: 72px;
+  text-shadow: 3px 2px #000;
+  color: white;
+   
+}
+
+h2 {
+  font-size: 52px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #333;
+  opacity: 0.8;
+  color: white;
+  border: 10px solid white;
+}
+
+span {
+  align-content: center;
+  font-size: 18px;
+  color: #FFF;
+  
+}
+
+header {
+  display: flex;
+  align-content: sp
+}
+
+footer {
+  display: flex;
+  margin: 75px auto;
+  width: 100%;
+  height: 150px;
+  background: #59a2e5;
+  align-items: end;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+
+video {
+  border: 15px solid white;
+}
+
+/* Media */
+
+.splash-video {
+  right: 0;
+  bottom: 0;
+  width: 100.6%;
+  height: 100%;
+  display: flex;
+  max-width: 98%;
+}
+
+.project1 {
+ background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
+ width: 250px;
+ height: 750px;
+ border: 10px solid white;
+}
+.project1:hover{
+  background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
+}
+.project2 {
+  background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
+  width: 250px;
+  border: 10px solid white;
+}
+.project2:hover {
+  background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
+}
+.project3 {
+ background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
+  width: 250px;
+  border: 10px solid white;
+}
+.project3:hover {
+  background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
+}
+.project4 {
+ background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
+  width: 250px;
+  border: 10px solid white;
+}
+.project4:hover{
+  background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
+}
+/* direct styling */
+
+.flex-container a p {
+  background: linear-gradient(
+  0deg,
+  #444,
+  #222,
+  #444);
+  padding: 20px 50px;
+  color: #FFF;
+}
+
+.flex-container a {
+  display: flex;
+  text-decoration: none;
+  color: #EEE;
+  background: linear-gradient(
+  0deg,
+  #444,
+  #222,
+  #444);
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  border: 7px solid white;
+}
+
+block {
+  display: flex;
+  opacity: 0.7;
+}
+
+.projects-container p {
+  border: 10px solid white;
+  background: #333;
+  font-size: 26px;
+  color: #FFF;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  opacity: 0.9;
+  margin-left: 10px;
+  max-width: 35%;
+}
