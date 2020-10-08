@@ -1,6 +1,6 @@
 body {
   font-family: 'Quattrocento Sans', sans-serif;
-  background: #EEE;
+  background: white;
   color: #111;
 }
   
@@ -14,7 +14,9 @@ body {
   width: 100%;
   display: flex;
   align-content: space-around;
+  margin-top: 20px
 }
+
 
 /* element items */
 
@@ -39,6 +41,16 @@ h2 {
   padding-bottom: 20px;
 }
 
+span {
+  font-size: 24px;
+  color: #AAA;
+  opacity: 0.7;
+}
+
+footer {
+  margin: 75px auto;
+}
+
 /* Media */
 
 .splash-video {
@@ -47,6 +59,27 @@ h2 {
   width: 100.6%;
   height: 100%;
   display: block;
+}
+
+.project1 {
+ background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
+ width: 250px;
+ height: 750px;
+}
+
+.project2 {
+  background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
+  width: 250px;
+}
+
+.project3 {
+ background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
+  width: 250px;
+}
+
+.project4 {
+ background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
+  width: 250px;
 }
 
 /* direct styling */
