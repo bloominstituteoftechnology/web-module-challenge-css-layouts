@@ -1,1 +1,37 @@
-/* Add CSS styling here */
+/* ----------Navbar ---------- */
+header {
+    
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    height: 3rem;
+    /* position: fixed; */
+    align-self: center;
+
+}
+header * {
+    display: inline; 
+    font-size: 1.3rem;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+}
+
+header a:hover {
+    color: lightblue;
+}
+
+.links {
+    float: right;
+    margin-right: 2rem;
+    top: 0;
+}
+
+header .logo {
+    margin: 2rem;
+}
+/* -----x----Navbar -----x---- */
