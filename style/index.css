@@ -198,3 +198,24 @@ header .logo {
 }
 
 /* -----x---- Projects -----x---- */
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #00A398;
+    padding: 2rem;
+}
+
+.accounts {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.img-hover:hover {
+    color: #00CCBE;
+}
+
+/* -----x---- Footer -----x---- */
