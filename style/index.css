@@ -41,7 +41,7 @@ h1 {
 .navigation {
     width: 100%;
     margin: auto 0;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -77,5 +77,20 @@ button .My-Projects {
 div .gallery {
     display: flex;
     flex-direction: row;
+}
+
+.gallery img {
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #C1AE9F;
+    width: 100%;
+    height: 5px;
+    padding: 5%;
+    text-align: center;
 }
 
