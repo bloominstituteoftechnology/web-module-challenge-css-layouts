@@ -27,3 +27,11 @@ section {
   margin-left: 30px;
   margin-top: 0;
 }
+
+.pictures {
+  flex-wrap: wrap;
+  width: 450px;
+  align-content: space-around;
+  justify-content: space-between;
+  height: 250px;
+}
