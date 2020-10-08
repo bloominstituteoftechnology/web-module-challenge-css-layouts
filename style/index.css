@@ -1,4 +1,3 @@
-
 /* Classes */
 
 .flex-container {
@@ -48,8 +47,25 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 p {
     margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+ul {
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
 
 /* Header */
@@ -61,10 +77,6 @@ header {
     height: 100px;
     padding: 0 20px;
     margin-bottom: 20px;
-}
-
-nav {
-
 }
 
 nav a {
@@ -87,6 +99,19 @@ main section {
     flex-wrap: wrap;
 }
 
+.about-image {
+    height: 20%;
+    width: 20%;
+    align-self: center;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+main article {
+    width: 50%;
+    align-self: center;
+}
+
 main section .main-img {
     width: 40%;
 }
@@ -95,10 +120,19 @@ main section div {
     flex-direction: column;
     justify-content: center;
     width: 40%;
+    margin: 20px;
+}
+
+main section div p {
+    text-align: center;
 }
 
 main section figure {
     margin: 20px;
+}
+
+figcaption {
+    text-align: right;
 }
 
 /* Footer */
@@ -116,3 +150,154 @@ footer nav {
     align-items: center;
     justify-content: center;
 }
+
+footer nav img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/* Screen Size: >= 885px */
+
+@media screen and (max-width: 885px) {
+        /* Classes */
+
+        .flex-container {
+            display: flex;
+        }
+    
+        .a-button {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+    
+        .a-button:hover {
+            background-color: grey;
+            transition: 0.2s;
+        }
+    
+        .a-button:active {
+            color: black;
+            background-color: white;
+        }
+    
+        .a-button-current {
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    
+        /* Inline Styles */
+    
+        body {
+            font-family: 'Oswald', sans-serif;
+        }
+    
+        h1 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+    
+        p {
+            margin-bottom: 20px;
+        }
+    
+        strong {
+            font-weight: bolder;
+        }
+    
+        /* Header */
+    
+        header {
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            height: 100px;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+    
+        nav a {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            background-color: black;
+        }
+    
+        /* Main */
+    
+        main {
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+    
+        main section {
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+    
+        main section div {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            margin: 20px;
+        }
+
+        main section div p {
+            text-align: center;
+        }
+
+        main section div a {
+            width: 200px;
+        }
+    
+        main section figure {
+            margin: 20px;
+        }
+
+        figcaption {
+            text-align: right;
+        }
+
+        /* Footer */
+    
+        footer {
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            height: 200px;
+        }
+    
+        footer nav {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        footer nav img {
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+        }
+  }
