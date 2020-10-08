@@ -1,7 +1,8 @@
 body {
   font-family: 'Quattrocento Sans', sans-serif;
-  background: white;
-  color: #111;
+  background: black;
+  color: #FFF;
+background-image: url("https://assets.codepen.io/4996277/pexels-mitchell-luo-3694708_4.jpg");
 }
   
 /* containers */
@@ -14,9 +15,16 @@ body {
   width: 100%;
   display: flex;
   align-content: space-around;
-  margin-top: 20px
+  margin-top: 60px
 }
 
+.div-cascade-box {
+  width: 100%;
+  height: 220px;
+  background: #333;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
 
 /* element items */
 
@@ -65,23 +73,39 @@ footer {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
  height: 750px;
+ border: 2px solid black;
 }
-
+.project1:hover{
+  background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
+  opacity: 0.8;
+}
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
   width: 250px;
+  border: 2px solid black;
 }
-
+.project2:hover {
+  background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
+  opacity: 0.8;
+}
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
   width: 250px;
+  border: 2px solid black;
 }
-
+.project3:hover {
+  background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
+  opacity: 0.8;
+}
 .project4 {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
   width: 250px;
+  border: 2px solid black;
 }
-
+.project4:hover{
+  background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
+  opacity: 0.8;
+}
 /* direct styling */
 
 .flex-container a p {
@@ -106,4 +130,10 @@ footer {
   padding: 20px 40px;
   margin-bottom: 40px;
   border: 3px solid black;
+}
+block p {
+  color: #DDD;
+  opacity: 0.6;
+  padding-left: 30px;
+  padding-right: 30px;
 }
