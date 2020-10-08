@@ -52,7 +52,7 @@ table {
 
 
 * {
-	border:1px solid black !important; 
+	/* border:1px solid black !important;  */
 }
 html {
 	margin: 0 5%;
@@ -71,6 +71,8 @@ main {
 /* body {
 
 } */
+
+
 h1 {
 	padding: 2rem;
 	font-size: 3rem;
@@ -98,8 +100,6 @@ footer {
 	display:flex;
 	justify-content: center;
 	padding: 2rem 0;
-	/* background: rgb(204, 204, 204);
-    background: rgba(204, 204, 204, 0.5); */
 }
 
 button:hover {
@@ -129,13 +129,20 @@ button {
 .indexgallery {
 	display:flex;
 	flex-direction: row;
-
+	flex-wrap: wrap;
 }
 
 .galleryimg {
 	display: flex;
 	margin:2rem 1rem;
+	max-width:100%;
+
 }
+
+
+/* .gallerytext {
+
+} */
 
 .socialmedia {
 	text-align:center;
