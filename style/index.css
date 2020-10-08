@@ -1,20 +1,39 @@
-:root {
-    --font-play:'Playfair Display', serif;;
-  }
+/* ----------Global ---------- */
 strong {
     font-weight: 700;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+htlml  {
+    scroll-behavior: smooth
+}
+
+/* -----x---- Global -----x---- */
+
 /* ----------Navbar ---------- */
 header {
     
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 1.5rem;
     height: 3rem;
-    /* position: fixed; */
+    position: fixed;
     align-self: center;
-
+    top: 0;
+    right: 0rem;
+    background: white;
 }
 header * {
     display: inline; 
@@ -26,10 +45,12 @@ header a {
     text-decoration: none;
     color: #05668D;
     margin-right: 2rem;
+    font-family: 'Playfair Display', serif;
 }
 
 header a:hover {
     color: #00CCBE;
+    border-bottom: 2px solid #00CCBE;
 }
 
 .links {
@@ -44,35 +65,43 @@ header .logo {
 /* -----x----Navbar -----x---- */
 
 /* ----------Home ---------- */
-#home {
+.home-section {
     width: 80%;
     margin: 4rem auto;
     display: flex;
-    font-family: var(--font-play);
+    font-family: 'Playfair Display', serif;;
+    justify-content: space-around;
 }
-#home img {
+.home-section img {
     height: 18rem;
 }
 .text {
     margin-top: 2rem;
     padding-left: 2rem;
 }
-#home h1 {
-    font-size: 3rem;
+.home-section h1 {
+    
     text-align: center;
 }
 
-#home h1 strong {
+.home-section h1 strong {
     color: #00CCBE;
 }
 
-#home h2 {
-    font-size: 1.5rem;
+.home-section h2 {
     margin-top: 2rem;
     text-align: center;
+    line-height: 1.5;
 }
 
-#home button {
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-section button {
+    
     color: white;
     border-radius: 0.9rem;
     padding: 0.625rem;
@@ -81,7 +110,91 @@ header .logo {
     text-transform: capitalize;
     border: none;
     background-color:  #00CCBE; 
-    margin: 2rem 10rem;
+    margin: 2rem auto;
+   
+}
+
+.home-section button:hover {
+    filter: brightness(120%);
+    cursor: pointer;
 }
 
 /* -----x----Home -----x---- */
+
+/* ---------- About ---------- */
+
+.about {
+    display: flex;
+    background-color: #D6FFFC;
+}
+
+.about img {
+    padding: 5rem 0;
+    margin: 0 auto;
+    height: 15rem;
+}
+
+.about h1 {
+    font-family: 'Playfair Display', serif;;
+    padding-bottom: 1.5rem;
+}
+
+.about h1 span {
+    border-bottom: 2px solid #00CCBE;
+}
+
+.about .about-text {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 0;
+    line-height: 1.3;
+ }
+
+
+/* -----x---- About -----x---- */
+
+/* ---------- Projects ---------- */
+.project-text {
+    width: 80%;
+    margin: 3rem auto ;
+    text-align: center;
+    font-family: 'Playfair Display', serif;;
+}
+
+.project-text span {
+    border-bottom: 2px solid #00CCBE;
+}
+
+.projects {
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.projects .item {
+    box-sizing: border-box;
+    border: solid 2px black;
+    width: 280px;
+    height: 280px;
+    flex-direction: row;
+    flex-basis: 25%;
+    ;
+
+}
+
+.projects .item img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* -----x---- Projects -----x---- */
