@@ -129,6 +129,20 @@ button {
     width: 5em;
 }
 
+.aboutme {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 60em;
+    /* justify-content: space-evenly; */
+}
+
+.aboutme > p {
+    flex-grow: 1;
+    margin: 6em 2em;
+    width: 5em;
+}
+
 .container {
     margin: 0 auto;
     display: flex;
@@ -156,7 +170,7 @@ footer {
     width: 100%;
     text-align: center;
     margin: 0;
-    /* padding: 0.625em 0; */
+    padding: 0.625em 0;
     background-color: #383b3d;
     position: absolute;
     bottom: 0;
