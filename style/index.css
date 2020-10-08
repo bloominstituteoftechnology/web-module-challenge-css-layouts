@@ -48,13 +48,18 @@ body {
     background: #1d1f20;
     color: #cccccc;
     font-family: sans-serif;
-    /* padding: 0.625em; */
+    padding: 0.625em;
     margin: 0;
     /* border: 1px solid white; */
   }
 
+.maincontainer {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .headercontainer {
-    width: 100vw;
     margin: 0;
     padding: 0;
     overflow: auto;
@@ -102,6 +107,7 @@ button {
 }
 
 .intro {
+    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     width: 60em;
@@ -122,6 +128,7 @@ button {
 }
 
 .container {
+    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     width: 60em;
@@ -133,7 +140,6 @@ button {
 }
 
 .footercontainer {
-    width: 100vw;
     margin: 0;
     padding: 0;
     overflow: auto;
