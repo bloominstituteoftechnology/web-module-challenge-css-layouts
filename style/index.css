@@ -1,1 +1,129 @@
-/* Add CSS styling here */
+header {
+    background-color: lightblue;
+    padding: 3% 0% 2.5% 2%;
+}
+
+header h1 {
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+header nav {
+    padding: 20px 0px 0px 10px;
+}
+
+header nav a {
+    background-color: white;
+    border: 1px solid black;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+header nav a.a2 {
+    margin-left: -5px;
+}
+/* header */
+
+
+main {
+    display: flex;
+}
+
+main img {
+    margin: 25px 0px 0px 25px;
+}
+
+main div {
+    margin-left: 100px;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+main div h2 {
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+main div a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 7px 20px;
+    transition: 0.3s;
+}
+
+main div a:hover {
+    background-color: black;
+    color: white;
+}
+
+main div p {
+    margin-top: 30px;
+    font-size: larger;
+}
+/* main */
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 350px;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery div span {
+    border: 1px solid brown;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/* gallery */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    padding: 3%;
+    margin-top: 70px;
+}
+
+footer h2 {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+footer a {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding: 7px 20px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+}
