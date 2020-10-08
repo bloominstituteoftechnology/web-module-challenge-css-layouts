@@ -120,7 +120,6 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     background-size: contain;
-    background-position: fixed;
 }
 
 /* -----------------Large image intro section----------------- */
@@ -351,4 +350,14 @@ nav {
     background-size: contain;
 }
 
+div a .languages-spoken-text {
+    color: black;
+    font-size: 1.025em;
+    text-align: left;
+}
 
+div a .training-text {
+    color: black;
+    font-size: 1.025em;
+    text-align: left;
+}
