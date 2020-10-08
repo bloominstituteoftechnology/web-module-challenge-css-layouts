@@ -1,1 +1,11 @@
-/* Add CSS styling here */
+header {
+    /*background-color: dodgerblue;*/
+}
+
+h1 {
+    color: white;
+}
+
+.header-nav {
+    border: 5px solid red;
+}
