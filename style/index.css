@@ -120,6 +120,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     background-size: contain;
+    background-position: fixed;
 }
 
 /* -----------------Large image intro section----------------- */
