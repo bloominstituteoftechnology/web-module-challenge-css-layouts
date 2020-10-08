@@ -52,15 +52,63 @@ table {
 
 
 * {
-    border: 1px solid black !important;
+	/* border:1px solid black !important; */
 }
-
+html {
+	margin: 0 5%
+}
 main {
-    text-align:center;
+	text-align:center;
+	background-color: cornsilk
 }
 
+body {
+	background-color:beige
+}
+h1 {
+	padding: 2rem;
+}
+
+h2 {
+	padding: 2rem
+}
 ul {
     display:flex;
-    justify-content: center;
+	justify-content: center;
+	padding: 1rem
 }
 
+footer {
+	display:flex;
+	justify-content: center;
+	background-color:white;
+	padding: 2rem 0 
+}
+
+button:hover {
+	color:red
+}
+button {
+	padding: 1rem 2rem;
+	margin: 1rem;
+	background:none;
+	border-radius: 40%;
+
+}
+
+.indexmain {
+	display: flex;
+	justify-content: left;
+	background-color: chartreuse;
+}
+
+.indexgallery {
+	display:flex;
+	justify-content: space-between;
+	margin: 0 0 0 1rem;
+}
+
+.indexgallery img {
+	justify-content: space-around;
+	margin: 2rem 1rem
+}
