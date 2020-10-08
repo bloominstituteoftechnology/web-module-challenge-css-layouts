@@ -47,8 +47,25 @@ table {
     max-width: 100%
 }
 
+html {
+    
+}
+/* CSS START */
+
+header {
+    margin: 2% 15% 5% 5%;
+    
+    
+}
+
+#container{
+    border: black solid 2px;
+    
+}
+
 body {
     margin: 2% 15% 5% 15%;
+    
 }
  /* HEADING */
 #h1 {
@@ -76,5 +93,56 @@ nav > a{
     margin: 0 2.5% 0 2.5%;
     background-color: lightseagreen;
     font-size: 1.5rem;
-    color:whitesmoke;
+    color:whitesmoke;   
+}
+
+/* MAIN INFO */
+
+.mainInfo {
+    display:flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 35%;
+    height: auto;
+    margin: 3%
+}
+
+.moreInfo{
+    margin: 10% 5% 5% 5%;
+}
+
+.moreInfo> h2{
+    font-size:2em;
+}
+
+.moreInfo > button{
+    margin-top: 3%;
+    font-size: 1.2em;
+    border-color: white;
+    color: lightseagreen;
+}
+
+.moreInfo > p{
+    margin-top: 6%;
+    font-size: 1.1em;
+}
+
+/* IMGS */
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: ;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.images > img {
+    width: 15%;
+    height: auto;
+    margin: 10% 6% 0 0;
 }
