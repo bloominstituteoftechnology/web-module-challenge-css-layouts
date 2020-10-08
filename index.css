@@ -13,9 +13,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video
 */
-* {
-    border: 1px solid black !important;
-    }
+
 html, body, div, img {
     margin: 0;
     padding: 0;
@@ -26,6 +24,8 @@ html, body, div, img {
 }   
 
 h1{
+    flex-wrap: wrap;
+    margin: auto 0;
     display: flex;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
@@ -33,6 +33,7 @@ h1{
     justify-content: center;
     padding: 5%;
     background-color: #4dffff
+   
 }
 
 
@@ -45,6 +46,8 @@ h1{
     height: 2em;
     background-color:#1a75ff;
     color: #ffffff;
+    margin: auto 0;
+    flex-wrap: wrap;
     
 }
 
@@ -72,6 +75,7 @@ h2 {
     justify-content: center;
     padding:5%;
     background-color:#66ffcc;
+    margin: auto 0;
 }
 
 .text-container {
@@ -81,6 +85,7 @@ h2 {
     padding: 5%;
     font-family: 'Arial, Helvetica, sans-serif';
     background-color: #ff8c1a;
+    margin: auto 0;
 }
 
  
@@ -96,10 +101,26 @@ h2 {
 .image-gallery{
     display: flex;
     flex-direction: row;
-    text-align: center
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 p{
     font-family:'Sansita Swashed', cursive; 
-    padding: 15%
+    text-align: center;
+    padding:15%;
+    margin: auto 0;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.contact-2 {
+display: flex;
+justify-content: center;
+align-self: center;
+padding: 5%;
+width:100%;
+height: 100%;
 }
