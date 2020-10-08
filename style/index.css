@@ -1,1 +1,6 @@
-/* Add CSS styling here */
+body{
+    background-color: red;
+}
+.main_top{
+    display: flex;
+}
