@@ -1,1 +1,80 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background-color:#715B64;
+    color: #89937C;
+}
+
+header {
+    border: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px 25px;
+}
+
+h1 {
+    color: #89937C;
+    font-size: 25px;
+}
+
+.navigation {
+    width: 100%;
+    margin: auto 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-content: space-between;
+    
+}
+
+section {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    margin: auto 0;
+    padding: 1em;
+}
+
+img {
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+div.top-info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+button .My-Projects {
+    width: 10%;
+}
+
+div .gallery {
+    
+}
+
