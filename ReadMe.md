@@ -47,7 +47,7 @@ The following goals are designed to stretch your knowledge and may require addit
 - [X] Make your webpage work at different browser widths, including mobile
 - [X] Add CSS animations
 - [X] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
-- [ ] Host your website on Netlify.com
+- [X] Host your website on Netlify.com
 
 ## FAQs
 
@@ -69,5 +69,5 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
