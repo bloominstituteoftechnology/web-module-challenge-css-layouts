@@ -1,8 +1,7 @@
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   background: black;
-  color: #FFF;
-background-image: url("https://assets.codepen.io/4996277/pexels-mitchell-luo-3694708_4.jpg");
+background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511.jpg");
 }
   
 /* containers */
@@ -15,15 +14,15 @@ background-image: url("https://assets.codepen.io/4996277/pexels-mitchell-luo-369
   width: 100%;
   display: flex;
   align-content: space-around;
-  margin-top: 60px
+  margin-top: 60px;
 }
 
 .div-cascade-box {
   width: 100%;
   height: 220px;
-  background: #333;
+  background: #59a2e5;
   margin-bottom: 30px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* element items */
@@ -33,30 +32,43 @@ h1, h2, p {
 }
 
 h1 {
+  font-family: Rock Salt;
   display: flex;
   font-size: 72px;
-  text-shadow: 3px 2px #AAA;
-  padding: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  text-shadow: 3px 2px #000;
+  padding-top: 25px;
+  align-content: center;
   opacity: 0.9;
   justify-content: center;
   background-repeat: no-repeat;
+  color: white;
+  
 }
 
 h2 {
-  font-size: 48px;
-  padding-bottom: 20px;
+  font-size: 52px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #333;
+  opacity: 0.8;
+  color: white;
 }
 
 span {
-  font-size: 24px;
-  color: #AAA;
-  opacity: 0.7;
+  align-content: center;
+  font-size: 18px;
+  color: #FFF;
+  
 }
 
 footer {
+  display: flex;
   margin: 75px auto;
+  width: 100%;
+  height: 150px;
+  background: #59a2e5;
+  align-items: end;
+  opacity: 0.8;
 }
 
 /* Media */
@@ -77,7 +89,6 @@ footer {
 }
 .project1:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
-  opacity: 0.8;
 }
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
@@ -86,7 +97,6 @@ footer {
 }
 .project2:hover {
   background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
-  opacity: 0.8;
 }
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
@@ -95,7 +105,6 @@ footer {
 }
 .project3:hover {
   background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
-  opacity: 0.8;
 }
 .project4 {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
@@ -104,7 +113,6 @@ footer {
 }
 .project4:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
-  opacity: 0.8;
 }
 /* direct styling */
 
@@ -115,13 +123,13 @@ footer {
   #222,
   #444);
   padding: 20px 50px;
-  color: #fff;
+  color: #FFF;
   opacity: 0.7;
 }
 
 .flex-container a {
   text-decoration: none;
-  color: white;
+  color: #EEE;
   background: linear-gradient(
   0deg,
   #444,
@@ -131,9 +139,21 @@ footer {
   margin-bottom: 40px;
   border: 3px solid black;
 }
-block p {
-  color: #DDD;
-  opacity: 0.6;
+
+block {
+  display: flex;
+  opacity: 0.7;
+}
+
+.projects-container p {
+  border: 2px solid black;
+  background: #333;
+  font-size: 26px;
+  color: #FFF;
+  padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
+  opacity: 0.7;
 }
+
+
