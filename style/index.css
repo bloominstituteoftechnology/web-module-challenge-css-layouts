@@ -1,3 +1,10 @@
+:root {
+    --font-play:'Playfair Display', serif;;
+  }
+strong {
+    font-weight: 700;
+}
+
 /* ----------Navbar ---------- */
 header {
     
@@ -17,12 +24,12 @@ header * {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #05668D;
     margin-right: 2rem;
 }
 
 header a:hover {
-    color: lightblue;
+    color: #00CCBE;
 }
 
 .links {
@@ -35,3 +42,46 @@ header .logo {
     margin: 2rem;
 }
 /* -----x----Navbar -----x---- */
+
+/* ----------Home ---------- */
+#home {
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    font-family: var(--font-play);
+}
+#home img {
+    height: 18rem;
+}
+.text {
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+#home h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#home h1 strong {
+    color: #00CCBE;
+}
+
+#home h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#home button {
+    color: white;
+    border-radius: 0.9rem;
+    padding: 0.625rem;
+    width: 9.3rem;
+    height: 3.75rem;
+    text-transform: capitalize;
+    border: none;
+    background-color:  #00CCBE; 
+    margin: 2rem 10rem;
+}
+
+/* -----x----Home -----x---- */
