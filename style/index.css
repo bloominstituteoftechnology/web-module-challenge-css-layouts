@@ -46,3 +46,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Start My Style */
+
+
+
+h1 {
+ font-size: 40px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;   
+ color: black;
+ background: tan;
+ padding: 10px;
+ padding-left: 50px;
+}
+
+h2 {
+    color: slategray;
+    background: whitesmoke;
+    text-align: center;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+} 
+.nav-flex-container{
+    height: 120px;
+    background: tan;
+}
+nav {
+    display: flex;
+    align-content: center;
+   
+    
+}
+a {
+    
+    background: white;
+    font-size: 20px;
+    margin: 0px;
+    padding-left: 50px;
+    border: 3px solid black;
+    
+    
+}
+
