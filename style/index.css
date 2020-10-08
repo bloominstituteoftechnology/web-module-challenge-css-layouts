@@ -55,18 +55,22 @@ table {
 	/* border:1px solid black !important; */
 }
 html {
-	margin: 0 5%
+	margin: 0 5%;
+	background-image: url(../images/pizzadough.jpg);
 }
 main {
 	text-align:center;
-	background-color: cornsilk
+
 }
 
 body {
-	background-color:beige
+	background-color:beige;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
 }
 h1 {
 	padding: 2rem;
+	
 }
 
 h2 {
@@ -99,16 +103,21 @@ button {
 .indexmain {
 	display: flex;
 	justify-content: left;
-	background-color: chartreuse;
+	background-color: beige;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
 }
 
 .indexgallery {
 	display:flex;
 	justify-content: space-between;
 	margin: 0 0 0 1rem;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
 }
 
 .indexgallery img {
 	justify-content: space-around;
-	margin: 2rem 1rem
+	margin: 2rem 1rem;
+	
 }
