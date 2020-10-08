@@ -75,6 +75,7 @@ button .My-Projects {
 }
 
 div .gallery {
-    
+    display: flex;
+    flex-direction: row;
 }
 
