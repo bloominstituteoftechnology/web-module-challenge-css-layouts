@@ -57,6 +57,8 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 0;
+    position: relative;
+    min-height: 100vh;
 }
 
 .headercontainer {
@@ -139,17 +141,26 @@ button {
     margin: 1em 0;
 }
 
+.contentwrap {
+    padding-bottom: 7rem;    /* Footer height */
+  }
+
 .footercontainer {
     margin: 0;
     padding: 0;
     overflow: auto;
+    height: 7rem;
 }
 
 footer {
+    width: 100%;
     text-align: center;
     margin: 0;
-    padding: 0.625em;
+    padding: 0.625em 0;
     background-color: #383b3d;
+    position: absolute;
+    bottom: 0;
+    height: 7rem;
 }
 
 h2 {
@@ -158,3 +169,34 @@ h2 {
     font-family: 'Amatic SC';
     padding-bottom: 0.3em;
 }
+
+h3 {
+    color: #ff78bd;
+    font-size: 1.5rem;
+    font-family: 'Amatic SC';
+    padding-bottom: 0.5em;
+}
+
+.contactcontainer {
+    max-width: 31.250em;
+    width: 100%;
+    margin: 2em auto;
+    padding: 0.625em;
+    position: relative;
+    background-color: #383b3d;
+  }
+
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 0.725em;
+    border: 1px solid #1D1F20;
+    /* border-radius: 0.313em; */
+    box-sizing: border-box;
+    margin-top: 0.438em;
+    margin-bottom: 0.438em;
+    /* resize: vertical; */
+  }
+
+  textarea {
+      height: 12.500em;
+  }
