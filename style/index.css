@@ -219,3 +219,54 @@ footer {
 }
 
 /* -----x---- Footer -----x---- */
+
+/* ---------- Media Queries ---------- */
+
+@media screen and (max-width: 980px) {
+    .home-section h1 strong {
+        color: orange;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    body {
+        width: 163%;
+    }
+  
+    .links {
+        display: none;
+    }
+
+    .home-section {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 0 auto;
+
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .about-text {
+        font-size: 1.5rem;
+        width: 150%;
+    }
+     .about h1 {
+         font-size: 5rem;
+         display: block;
+     }
+
+     .projects {
+         flex-direction: column;
+         margin: 0 auto;
+     }
+  }
+
+/* -----x---- Media Queries -----x---- */
