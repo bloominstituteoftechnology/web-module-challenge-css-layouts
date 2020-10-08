@@ -1,1 +1,29 @@
-/* Add CSS styling here */
+h2,
+h5 {
+  color: palevioletred;
+}
+
+nav button {
+  margin-bottom: 20px;
+  color: purple;
+  background-color: lightskyblue;
+}
+
+.me p {
+  width: 200px;
+  color: violet;
+}
+
+.me button {
+  color: grey;
+  background-color: lightcoral;
+}
+
+section {
+  display: flex;
+}
+
+.me {
+  margin-left: 30px;
+  margin-top: 0;
+}
