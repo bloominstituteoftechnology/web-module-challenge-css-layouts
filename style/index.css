@@ -52,30 +52,42 @@ table {
 
 
 * {
-	/* border:1px solid black !important; */
+	border:1px solid black !important; 
 }
 html {
 	margin: 0 5%;
 	background-image: url(../images/pizzadough.jpg);
+	color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: auto;
 }
 main {
 	text-align:center;
-
+	opacity: 70%;
 }
 
-body {
-	background-color:beige;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(204, 204, 204, 0.5);
-}
+/* body {
+
+} */
 h1 {
 	padding: 2rem;
+	font-size: 3rem;
+	font-weight: bold;
 	
 }
 
 h2 {
-	padding: 2rem
+	padding: 2rem;
+	font-size: 2rem;
+	font-weight: bold;
 }
+
+.intro {
+	font-size: 1.5rem
+}
+
 ul {
     display:flex;
 	justify-content: center;
@@ -85,39 +97,47 @@ ul {
 footer {
 	display:flex;
 	justify-content: center;
-	background-color:white;
-	padding: 2rem 0 
+	padding: 2rem 0;
+	/* background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5); */
 }
 
 button:hover {
-	color:red
+	color:white;
+	background-color: black
 }
 button {
 	padding: 1rem 2rem;
-	margin: 1rem;
+	margin: -1rem 1rem;
 	background:none;
-	border-radius: 40%;
-
+	border-radius: 10px;
 }
 
 .indexmain {
 	display: flex;
 	justify-content: left;
-	background-color: beige;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+	color: black;
+	border-radius: 2%;
+	background: rgb(204, 204, 204);
     background: rgba(204, 204, 204, 0.5);
+}
+
+.indexmain p {
+	font-size: 1.25rem;
 }
 
 .indexgallery {
 	display:flex;
-	justify-content: space-between;
-	margin: 0 0 0 1rem;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(204, 204, 204, 0.5);
+	flex-direction: row;
+
 }
 
-.indexgallery img {
-	justify-content: space-around;
-	margin: 2rem 1rem;
-	
+.galleryimg {
+	display: flex;
+	margin:2rem 1rem;
+}
+
+.socialmedia {
+	text-align:center;
+	font-size:2rem;
 }
