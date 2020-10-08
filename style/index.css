@@ -1,5 +1,5 @@
 h2,
-h5 {
+h3 {
   color: palevioletred;
 }
 
@@ -16,7 +16,7 @@ nav button {
 
 .me button {
   color: grey;
-  background-color: lightcoral;
+  background-color: yellow;
 }
 
 section {
@@ -33,5 +33,28 @@ section {
   width: 450px;
   align-content: space-around;
   justify-content: space-between;
-  height: 250px;
+  height: 300px;
+}
+
+header,
+footer {
+  background-color: thistle;
+  width: 450px;
+}
+
+h4 {
+  color: deeppink;
+  align-self: center;
+}
+
+footer button {
+  color: blueviolet;
+  background-color: lightpink;
+  width: 80px;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
 }
