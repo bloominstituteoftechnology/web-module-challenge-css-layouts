@@ -16,6 +16,15 @@ time, mark, audio, video
 * {
     border: 1px solid black !important;
     }
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}   
+
 h1{
     display: flex;
     text-align: center;
@@ -23,9 +32,9 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 5%;
+    background-color: #4dffff
 }
 
-* {box-sizing: border-box;}
 
 .nav-bar{
     display: flex;
@@ -34,6 +43,8 @@ h1{
     justify-content: center;
     justify-content: space-evenly;
     height: 2em;
+    background-color:#1a75ff;
+    color: #ffffff;
     
 }
 
@@ -60,6 +71,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding:5%;
+    background-color:#66ffcc;
 }
 
 .text-container {
@@ -67,6 +79,27 @@ h2 {
     text-align: center;
     flex-direction: row;
     padding: 5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
+    background-color: #ff8c1a;
 }
+
  
+.project-1{
+    display:flex;
+    height: 75%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+
+p{
+    font-family:'Sansita Swashed', cursive; 
+    padding: 15%
+}
