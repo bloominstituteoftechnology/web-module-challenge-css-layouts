@@ -25,6 +25,8 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
   opacity: 0.8;
   border: 10px solid white;
   max-width: 99%;
+  display: flex;
+  justify-content: center;
 }
 
 main div {
