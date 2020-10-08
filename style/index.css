@@ -23,6 +23,12 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
   background: #59a2e5;
   margin-bottom: 30px;
   opacity: 0.8;
+  border: 10px solid white;
+  max-width: 99%;
+}
+
+main div {
+  display: flex;
 }
 
 /* element items */
@@ -33,16 +39,10 @@ h1, h2, p {
 
 h1 {
   font-family: Rock Salt;
-  display: flex;
   font-size: 72px;
   text-shadow: 3px 2px #000;
-  padding-top: 25px;
-  align-content: center;
-  opacity: 0.9;
-  justify-content: center;
-  background-repeat: no-repeat;
   color: white;
-  
+   
 }
 
 h2 {
@@ -52,6 +52,7 @@ h2 {
   background: #333;
   opacity: 0.8;
   color: white;
+  border: 10px solid white;
 }
 
 span {
@@ -59,6 +60,11 @@ span {
   font-size: 18px;
   color: #FFF;
   
+}
+
+header {
+  display: flex;
+  align-content: sp
 }
 
 footer {
@@ -69,6 +75,11 @@ footer {
   background: #59a2e5;
   align-items: end;
   opacity: 0.8;
+  border: 10px solid white;
+}
+
+video {
+  border: 15px solid white;
 }
 
 /* Media */
@@ -78,14 +89,15 @@ footer {
   bottom: 0;
   width: 100.6%;
   height: 100%;
-  display: block;
+  display: flex;
+  max-width: 98%;
 }
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
  height: 750px;
- border: 2px solid black;
+ border: 10px solid white;
 }
 .project1:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
@@ -93,7 +105,7 @@ footer {
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
   width: 250px;
-  border: 2px solid black;
+  border: 10px solid white;
 }
 .project2:hover {
   background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
@@ -101,7 +113,7 @@ footer {
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
   width: 250px;
-  border: 2px solid black;
+  border: 10px solid white;
 }
 .project3:hover {
   background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
@@ -109,7 +121,7 @@ footer {
 .project4 {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
   width: 250px;
-  border: 2px solid black;
+  border: 10px solid white;
 }
 .project4:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
@@ -124,10 +136,10 @@ footer {
   #444);
   padding: 20px 50px;
   color: #FFF;
-  opacity: 0.7;
 }
 
 .flex-container a {
+  display: flex;
   text-decoration: none;
   color: #EEE;
   background: linear-gradient(
@@ -137,7 +149,7 @@ footer {
   #444);
   padding: 20px 40px;
   margin-bottom: 40px;
-  border: 3px solid black;
+  border: 7px solid white;
 }
 
 block {
@@ -146,14 +158,15 @@ block {
 }
 
 .projects-container p {
-  border: 2px solid black;
+  border: 10px solid white;
   background: #333;
   font-size: 26px;
   color: #FFF;
   padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  opacity: 0.7;
+  padding-bottom: 50px;
+  opacity: 0.9;
+  margin-left: 10px;
+  max-width: 35%;
 }
-
-
