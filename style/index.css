@@ -71,7 +71,7 @@ h2 {
     display: flex;
     height: 120px;
     flex-direction: column;
-    background: whitesmoke;
+    background: snow;
     border: solid black;
 }   
 h1 {
@@ -98,8 +98,10 @@ nav a {
     
 }
 .top-picture {
-   margin: 15px;
-   border-radius: 12px;   
+   margin: 40px;
+   border-radius: 20px;  
+   width: 50%;
+   border: solid slategray 3px;
 }
 .right-side {
     display: flex;
@@ -119,7 +121,20 @@ button {
     height: 30px;
     background: slategray;
     color:whitesmoke;
+    
        
+}
+
+
+a {
+    text-decoration: none;
+    color: snow;
+    
+}
+
+a:visited {
+color: snow;
+
 }
 
 p {
@@ -127,4 +142,29 @@ p {
     text-align: left;
     font-size: 25px;
     width: 65%;
+}
+.gallery-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85% auto;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+.gallery-items {
+    border-radius: 20px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    border: solid slategray 3px;
+}
+
+footer {
+    background: slateblue;
+    height: 120px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+h4 {
+    padding-top: 20px;
 }
