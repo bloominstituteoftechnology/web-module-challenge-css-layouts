@@ -70,6 +70,7 @@ main div a:hover {
 main div p {
     margin-top: 30px;
     font-size: larger;
+    line-height: 30px;
 }
 /* main */
 
@@ -79,6 +80,12 @@ main div p {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: black;
 }
 
 .gallery img {
@@ -88,13 +95,18 @@ main div p {
 .gallery div {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.gallery div:hover {
+    box-shadow: 7px 5px 5px gray;
 }
 
 .gallery div span {
     border: 1px solid brown;
     text-align: center;
     padding: 10px;
-    margin-bottom: 20px;
 }
 /* gallery */
 
