@@ -1,1 +1,58 @@
-/* Add CSS styling here */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.navbutton1 {background-color: pink;}
+.navbutton2 {background-color: blue;}
+.navbutton3 {background-color: red;}
+main {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    border: 20px dotted pink;
+    height: 300px;
+    width: 55%
+}
+
+.main-text {
+    color: pink;
+    font-size: 150%;
+
+}
+
+body {background: gray;
+   }
+
+.main-image img {
+    border-radius: 50%;
+    max-width: 100%;
+	height: 100%;
+}
+
+.content-image img {
+    max-width: 300%;
+	max-height: 300px;
+}
+
+
+.content-text {
+    color: pink;
+    font-size: xx-large; 
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    color: pink;
+    padding: 30px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
