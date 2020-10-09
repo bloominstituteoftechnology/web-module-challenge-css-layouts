@@ -49,43 +49,82 @@ table {
 
 /* Start My Style */
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
 
-
-h1 {
- font-size: 40px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;   
- color: black;
- background: tan;
- padding: 10px;
- padding-left: 50px;
 }
+
+
+
+
+
 
 h2 {
-    color: slategray;
-    background: whitesmoke;
-    text-align: center;
+    background: slateblue;
     height: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 5px;
-} 
-.nav-flex-container{
-    height: 120px;
-    background: tan;
-}
-nav {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+}    
+.nav-container-flex {
     display: flex;
-    align-content: center;
-   
+    height: 120px;
+    flex-direction: column;
+    background: whitesmoke;
+    border: solid black;
+}   
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 60px;
+}    
+nav {
+    padding: 5px;
+    padding-left: 60px;
+}
+nav a {
+    text-decoration: none;
+    border: solid black 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background: slategrey;
+    color: snow;
+    font-size: 20px;
+}
+.section-flex-wrapper {
+    display: flex;
+    background: slateblue;
+    height: 400px;
     
 }
-a {
-    
-    background: white;
-    font-size: 20px;
-    margin: 0px;
-    padding-left: 50px;
-    border: 3px solid black;
-    
-    
+.top-picture {
+   margin: 15px;
+   border-radius: 12px;   
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 100px;
+}
+h3 {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 40px;
+
+} 
+button {
+    width: 100px;
+    height: 30px;
+    background: slategray;
+    color:whitesmoke;
+       
 }
 
+p {
+    padding-top: 40px;
+    text-align: left;
+    font-size: 25px;
+    width: 65%;
+}
