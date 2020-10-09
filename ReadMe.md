@@ -19,7 +19,7 @@ Portfolio websites are a great way to show off your work to friends, family, and
 
 ## Instructions
 
-### Task 1: Set Up The Project With Git
+### Task 1: Set Up The Project With Git 
 
 Follow these steps to set up and work on your project:
 
