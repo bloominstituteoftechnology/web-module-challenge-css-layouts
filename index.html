@@ -4,44 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <h1>Hello!</h1>
-        <nav>
-            <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
-            <button>Projects</button>
+        <h1>WireFrameWorld!</h1>
+        <nav id="top">
+            <button onclick="window.location.href='index.html';">Home</button>
+            <button onclick="window.location.href='about.html';">About</button>
+            <button onclick="window.location.href='contact.html';">Contact</button>
+            <button onclick="window.location.href='projects.html';">Projects</button>
         </nav>
     </header>
+
+
     <div class="main">
         <div class="main_top">
-            <img src="https://picsum.photos/200">
-            <div class="main_top_content">
-                <h2>Hello Again!</h2>
-                <button>My Projects!</button>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="bigbox">
+                <img class ="banner" src="assets/wireframe.png"/>
             </div>
-            
+            <div class="main_top_content">
+                <h2>Welcome to WireFrameWorld!</h2>
+                <button>WireFrame Projects</button>
+                <p id="aboutText">Here at WireFrameWorld, we are a bunch of WireFrame People whom are absolutely
+                   <b>BURSTING</b> at the seams to create an entire experience based off of the 
+                   grandeur of the WireFrame. 
+                </p>
+                <h2>All Hail The WireFrame!</h2>
+            </div>  
         </div>
         <div class="gallery">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
-            <img src="https://picsum.photos/200">
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>The Wonder</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>Be Amazed</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>Glorious</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>So Majestic</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>What Splendor</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>Magnificent</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>The Grandeur</h6></div>
+            <div class="box"><img class ="galleryimg" src="assets/wireframe.png"/><h6>Astonishing</h6></div>
         </div>
     </div>
+
+
     <footer>
-        <h2>Like what you see?</h2>
+        <img src="assets/stickdance.jpg" style="height: 400px; width: 400px;">
+        <div class="questionbox">
+        <h2 id="question">Would you like to<br>WireFrame?</h2>
         <nav>
             <button>Contact Me</button>
         </nav>
+        </div>
+        <img src="assets/stickdance.jpg" style="height: 400px; width: 400px;">
     </footer>
 </body>
 </html>
