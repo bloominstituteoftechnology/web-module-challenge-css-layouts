@@ -1,8 +1,6 @@
 /* Add CSS styling here */
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
-* {
-    border: 1px solid green;
-}
+
 body {
     background-color: black;
 }
@@ -10,11 +8,13 @@ body {
     border: 1px solid white;
     padding-left: 10%;
     padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .name {
     padding: 10px;
-    width: 30%;
+    padding-bottom: 0%;
+    width: 40%;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 100px;
 
@@ -22,11 +22,23 @@ body {
 .nav-container {
 
     display: flex;
-
-    border: 1px solid white;
+    align-items: flex-start;
     margin: 0 auto;
-    width: 25%;
-    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-radius: 75%;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #e2d3a6;
 }
 li {
     display: inline;
@@ -35,14 +47,25 @@ li {
 a {
     display: inline-block;
     padding: 8px;
+    text-decoration: none;
+    color: black;
     
 
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 h2 {
     color: white;
+    
+}
+p {
+    color: white 
+}
+.main-body {
+    background-color: grey;
+    height: 100%;
 }
