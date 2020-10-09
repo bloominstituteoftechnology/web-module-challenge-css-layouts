@@ -32,7 +32,7 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 5%;
-    background-color: #4dffff
+    background-color: #999966;
    
 }
 
@@ -44,7 +44,7 @@ h1{
     justify-content: center;
     justify-content: space-evenly;
     height: 2em;
-    background-color:#1a75ff;
+    background-color:#e0e0d1;
     color: #ffffff;
     margin: auto 0;
     flex-wrap: wrap;
@@ -56,15 +56,15 @@ h1{
 }
 
 .about{
-    background-color: #ffcc00;
+    background-color: #2c8bb8;
 }
 
 .contact{
-    background-color: #cc00ff;
+    background-color:#666699;
 }
 
 .projects{
-    background-color: #cc0000;
+    background-color: #a33434;
 }
 
 h2 {
@@ -74,7 +74,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding:5%;
-    background-color:#66ffcc;
+    background-color:#6e654c;
     margin: auto 0;
 }
 
@@ -84,7 +84,7 @@ h2 {
     flex-direction: row;
     padding: 5%;
     font-family: 'Arial, Helvetica, sans-serif';
-    background-color: #ff8c1a;
+    background-color: #9c6936;
     margin: auto 0;
 }
 
@@ -118,11 +118,12 @@ h2 {
 }
 
 .contact-2 {
-display: flex;
-justify-content: center;
-align-self: center;
-padding: 5%;
-height: 100%;
-width: 100%;
-background-color:#996633;
+    display: flex;
+    padding: 10%;
+    height: auto 0;
+    width: auto 0;
+    background-color:#996633;
+    margin: auto 0;
+    align-content: center;
+    flex-direction: column
 }
