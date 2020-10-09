@@ -8,6 +8,7 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
 .flex-container {
   display: flex;
   justify-content: space-around;
+  max-width: 99%;
 }
 
 .projects-container {
@@ -19,12 +20,15 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
 
 .div-cascade-box {
   width: 100%;
-  height: 220px;
+  height: 100%;
   background: #59a2e5;
   margin-bottom: 30px;
   opacity: 0.8;
   border: 10px solid white;
   max-width: 99%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 main div {
@@ -42,7 +46,6 @@ h1 {
   font-size: 72px;
   text-shadow: 3px 2px #000;
   color: white;
-   
 }
 
 h2 {
@@ -64,7 +67,7 @@ span {
 
 header {
   display: flex;
-  align-content: sp
+  align-content: center;
 }
 
 footer {
@@ -78,25 +81,20 @@ footer {
   border: 10px solid white;
 }
 
-video {
-  border: 15px solid white;
-}
-
 /* Media */
 
-.splash-video {
-  right: 0;
-  bottom: 0;
-  width: 100.6%;
-  height: 100%;
-  display: flex;
-  max-width: 98%;
+.splash-picture {
+  background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
+  width: 100%;
+  height: 580px;
+  max-width: 99%;
+  border: 10px solid white;
+  box-shadow: 
 }
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
- height: 750px;
  border: 10px solid white;
 }
 .project1:hover{
@@ -170,3 +168,4 @@ block {
   margin-left: 10px;
   max-width: 35%;
 }
+
