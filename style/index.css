@@ -54,6 +54,13 @@ table {
 /* * {
 	border:1px solid black !important;
 } */
+
+@media (max-width: 900px){
+	.indexmain {
+		background-color:red
+	}
+}
+
 html {
 	margin: 0 5%;
 	background-image: url(../images/pizzadough.jpg);
@@ -62,6 +69,7 @@ html {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: auto;
+	font-size:62.5%;
 }
 main {
 	text-align:center;
