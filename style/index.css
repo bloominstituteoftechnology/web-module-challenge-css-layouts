@@ -28,7 +28,6 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
   max-width: 99%;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
 }
 
 main div {
