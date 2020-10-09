@@ -51,9 +51,9 @@ table {
 /* Add CSS styling below */
 
 
-* {
-	/* border:1px solid black !important;  */
-}
+/* * {
+	border:1px solid black !important;
+} */
 html {
 	margin: 0 5%;
 	background-image: url(../images/pizzadough.jpg);
@@ -68,9 +68,11 @@ main {
 	opacity: 70%;
 }
 
-/* body {
-
-} */
+body {
+	font-family: 'Indie Flower', cursive;
+	letter-spacing: .05rem;
+	line-height: 2rem;
+}
 
 
 h1 {
@@ -104,13 +106,14 @@ footer {
 
 button:hover {
 	color:white;
-	background-color: black
+	background-color: black;
 }
 button {
 	padding: 1rem 2rem;
 	margin: -1rem 1rem;
 	background:none;
 	border-radius: 10px;
+	font-size:1.20rem;
 }
 
 .indexmain {
@@ -119,7 +122,8 @@ button {
 	color: black;
 	border-radius: 2%;
 	background: rgb(204, 204, 204);
-    background: rgba(204, 204, 204, 0.5);
+	background: rgba(204, 204, 204, 0.5);
+	margin: 1rem 0 0 0;
 }
 
 .indexmain p {
@@ -140,9 +144,10 @@ button {
 }
 
 
-/* .gallerytext {
+.gallerytext {
+	font-size:2rem;
 
-} */
+}
 
 .socialmedia {
 	text-align:center;
