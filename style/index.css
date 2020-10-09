@@ -113,6 +113,8 @@ button {
     display: flex;
     flex-flow: row wrap;
     width: 60em;
+    max-width:100%;
+    height:auto;
     /* justify-content: space-evenly; */
 }
 
@@ -120,6 +122,8 @@ button {
     flex-grow: 0;
     margin: 0 2em;
     margin-top: 1em;
+    max-width:100%;
+    height:auto;
     /* width: 9.5em; */
 }
 
@@ -147,12 +151,16 @@ button {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
-    width: 60em;
+    /* width: 60em; */
+    max-width:100%;
+    height:auto;
     justify-content: space-evenly;
 }
 
 .container > img {
     margin: 1em 0;
+    max-width:100%;
+    height:auto;
 }
 
 .contentwrap {
@@ -174,7 +182,7 @@ footer {
     background-color: #383b3d;
     position: absolute;
     bottom: 0;
-    height: 7rem;
+    height: auto;
 }
 
 h2 {
@@ -213,4 +221,11 @@ input[type=text], input[type=email], textarea {
 
 textarea {
     height: 12.500em;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    max-width:100%;
+    height:auto;
+    }
 }
