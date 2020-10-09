@@ -133,7 +133,7 @@ a {
 }
 
 a:visited {
-color: snow;
+    color: snow;
 
 }
 
@@ -146,15 +146,17 @@ p {
 .gallery-flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 85% auto;
+    width: 50% auto;
     justify-content: space-evenly;
     margin: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .gallery-items {
     border-radius: 20px;
     margin: 20px;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border: solid slategray 3px;
 }
 
@@ -167,4 +169,9 @@ footer {
 }
 h4 {
     padding-top: 20px;
+}
+.contact-footer-button {
+    border: solid slategrey 4px;
+    background: slategrey;
+    text-emphasis: 400;
 }
