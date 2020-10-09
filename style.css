@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  font-family: "Calibri", "Helvetica", "Arial", sans;
+  background-color: rgb(13, 9, 22);
+}
+/*
+** HEADER
+** -------------------- */
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: rgb(120, 167, 118);
+  color: black;
+  border-bottom: 2px solid #f1f1f3;
+  font-style: oblique;
+}
+
+.bop {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px;
+  text-align: right;
+  color: grey;
+  max-width: 100%;
+  width: 500px;
+  margin: auto;
+}
+/*
+** FOOTER
+** -------------------- */
+.appFooter {
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #0b1412;
+}
+/*
+** CONTAINER
+** -------------------- */
+.container {
+  padding: 20px;
+}
+/*
+** GRID
+** - using CSS flexbox
+** - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+** -------------------- */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -0.5rem;
+}
+.grid-col {
+  width: 33.33333333%;
+  box-sizing: border-box;
+  padding: 0 0 0.5rem 0.5rem;
+}
+/*
+** HERO
+** -------------------- */
+.hero {
+  width: 100%;
+  height: 400px;
+  margin: 0 0 15px 0;
+  background: url("https://wallpapermemory.com/uploads/307/samurai-champloo-background-hd-1080p-341930.jpg")
+    transparent no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: left;
+}
+
+p {
+  background: rgba(1, 1, 2, 0.8);
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/*
+** CARD
+** -------------------- */
+.card {
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #8d8d6e;
+  position: relative;
+  overflow: hidden;
+}
+.card-image {
+  width: 150%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-label {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-align: right;
+  background-color: rgba(1, 1, 2, 0.8);
+  color: #1ac28a;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #dfdfdf;
+}
