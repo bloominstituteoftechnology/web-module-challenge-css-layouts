@@ -200,7 +200,7 @@ h3 {
     background-color: #383b3d;
   }
 
-  input[type=text], input[type=email], textarea {
+input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 0.725em;
     border: 1px solid #1D1F20;
@@ -209,8 +209,8 @@ h3 {
     margin-top: 0.438em;
     margin-bottom: 0.438em;
     /* resize: vertical; */
-  }
+}
 
-  textarea {
-      height: 12.500em;
-  }
+textarea {
+    height: 12.500em;
+}
