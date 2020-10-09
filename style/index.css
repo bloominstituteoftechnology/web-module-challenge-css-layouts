@@ -1,1 +1,134 @@
-/* Add CSS styling here */
+
+header {background-color: #050801;}
+
+header h1 {color:#03e9f4;
+    display:flex;
+    justify-content: center;
+        font-size:80px ;}
+
+nav {margin:0;
+    padding:0;
+    font-family: 'Architects Daughter', cursive;
+    box-sizing: border-box;}
+
+nav {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 20vh;
+    background:#050801; }
+
+a {position: relative;
+    display: inline-block;
+    padding:25px 30px;
+    margin:40px 0;
+    color:#03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    overflow:hidden;
+}
+a:hover {background:#03e9f4;
+color:#050801;
+box-shadow: 0 0 5px #03e9f4
+            0 0 25px #03e9f4
+            0 0 50px #03e9f4
+            0 0 200px #03e9f4;
+transition-delay: 1s;}
+
+a span{position: absolute;
+display:block}
+
+a span:nth-child(1)
+{top:0;
+left:-100%;
+width:100%;
+height:2px;
+
+}
+
+a:hover span:nth-child(1){left:100%;
+transition:1s;
+background: linear-gradient(90deg,transparent,#03e9f4);
+}
+
+a span:nth-child(3)
+{bottom:0;
+right:-100%;
+width:100%;
+height:2px;
+
+}
+
+a:hover span:nth-child(3){right:100%;
+transition:1s;
+transition-delay: 00.5s;
+background: linear-gradient(90deg,transparent,#03e9f4);
+}
+
+a span:nth-child(2)
+{ top:-100%;
+right:0;
+width:2px;
+height:100%;
+;
+}
+
+a:hover span:nth-child(2){top:100%;
+transition:1s;
+transition-delay: 00.25s;
+background: linear-gradient(90deg,transparent,#03e9f4);
+}
+
+a span:nth-child(4)
+{ bottom:-100%;
+left:0;
+width:2px;
+height:100%;
+
+}
+
+a:hover span:nth-child(4){bottom:100%;
+transition:1s;
+transition-delay: 00.75s;
+background: linear-gradient(90deg,transparent,#03e9f4);
+}
+
+body {background-color: #050801;}
+
+.mainimg{ width:100%}
+
+
+.container1 {
+    width:100%;
+    display:flex;
+        color:#03e9f4 ;
+}
+
+.imgcont{width: 75%; 
+    flex-direction: row;
+    justify-content:space-evenly;
+    float:right;
+    overflow:scroll;
+        
+ }
+
+ .container1 p{
+     align-content: center;
+     background-color: pink;
+ }
+
+.container1 img {
+        padding:5px;
+
+
+    }
+
+    footer{ height:10%;
+    background-color: #03e9f4;}
+
+    footer button{background-color: #050801;
+    color:#03e9f4}
+              
