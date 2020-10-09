@@ -21,24 +21,29 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
 body {
     background-color:#715B64;
     color: #89937C;
 }
 
-header {
+header { /*container holding, h1, .navigation, and button.top*/
+    margin: auto 0;
     border: 20px;
-    border-radius: 20px;
     box-sizing: border-box;
-    padding: 25px 25px;
+    padding: 40px;
 }
 
 h1 {
     color: #89937C;
-    font-size: 25px;
+    font-size: 5vh;
+    
 }
 
-.navigation {
+.navigation { /*container for all the header buttons*/
     width: 100%;
     margin: auto 0;
     padding: 10px;
@@ -50,47 +55,98 @@ h1 {
     
 }
 
-section {
-    display: flex;
-    align-items: right;
-    justify-content: center;
-    margin: auto 0;
-    padding: 1em;
+button.top { /*the nav buttons*/
+    padding: 10px;
+    width: 25%;
+    background-color:#EDFFD9;
+    border: solid 2px orange;
 }
 
-img {
-    width: 25%;
-    margin: 5%;
+main {
+    display: flex;
+
+}
+
+div.moon {
+    padding: 50px;
+}
+
+div.moon img { /*container for moon picture*/
+    width: 100%;
+    margin: 5% 10%;
+   
+    border: solid orange;
     border-radius: 10px;
 }
 
-div.top-info {
+section.top-info { /*container for right side text next to moon picture*/
+    padding: 100px;
+    text-align: justify;
+    width: 50%;
+    float: right;
     display: flex;
-    width: 100%;
     flex-direction: column;
 }
 
-button .My-Projects {
-    width: 10%;
+.top-info p {
+    padding: 15px;
+    font-size: 16px;
+    letter-spacing: 3px;
 }
 
-div .gallery {
+h2 {
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+}
+
+button.myProjects {
+    width: 200px;
+    height: 50px;
+    border: solid orange 3px;
+    border-radius: 5px;
+    background-color:#EDFFD9;
+    margin: 5px 10px;
+    padding:15px;
+       
+}
+
+.gallery  {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.gallery .item {
+    padding: 0 5%;
+    width: 22%;
+    overflow: hidden;
+    justify-content: space-around;
+    margin-bottom: 35px;
 }
 
 .gallery img {
-    width: 25%;
-    margin: 5%;
-    border-radius: 10px;
+    width: 100%;
 }
-
 
 footer {
     background-color: #C1AE9F;
     width: 100%;
-    height: 5px;
-    padding: 5%;
     text-align: center;
+    padding: 50px;
+}
+
+footer p {
+    padding: 30px;
+    font-size: 16px;
+}
+
+button.contactMe {
+    width: 200px;
+    height: 50px;
+    border: solid orange 3px;
+    border-radius: 5px;
+    background-color:#EDFFD9;
 }
 
