@@ -3,18 +3,49 @@
 
 
 
-body {
-	line-height: 1;
-}
+
 
 header {
-    /*background-color: dodgerblue;*/
+    flex-direction: column;
+
+    background-color: dodgerblue;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+
+section {
+    margin: auto;
+}
+
+.project-images {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-descriptions{
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.header-nav {
-    border: 5px solid red;
+header nav a {
+    font-family: Geneva;
+    font-size: 20px;
+    color:  navy;
+    text-decoration-line: none;
+}
+
+
+footer{
+    background-color: dodgerblue;
 }
