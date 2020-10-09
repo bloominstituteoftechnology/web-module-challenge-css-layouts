@@ -85,10 +85,11 @@ header{
 
 .spacecake{
     background-image:url("/images/cosmictouch.jpg")
-    /* width:1rem;
-    height:1rem;
-     background-size:cover;
-    background-repeat:no-repeat;  */
+    /* object-fit:cover;
+    widows: 100px;;
+    height:100px;
+    background-size:cover;
+    background-repeat:no-repeat;*/
 } 
 
 h1{
