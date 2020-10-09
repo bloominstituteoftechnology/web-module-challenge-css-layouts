@@ -121,13 +121,16 @@ button {
 	justify-content: left;
 	color: black;
 	border-radius: 2%;
-	background: rgb(204, 204, 204);
-	background: rgba(204, 204, 204, 0.5);
 	margin: 1rem 0 0 0;
 }
 
+/* .mainimg {
+	
+} */
+
 .indexmain p {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
+	margin: 10%
 }
 
 .indexgallery {
@@ -139,7 +142,7 @@ button {
 .galleryimg {
 	display: flex;
 	margin:2rem 1rem;
-	max-width:100%;
+	/* max-width:100%; */
 
 }
 
