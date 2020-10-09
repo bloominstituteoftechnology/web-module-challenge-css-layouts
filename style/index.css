@@ -21,8 +21,9 @@ font: inherit; vertical-align: baseline;
 /* Add CSS styling here */
 
 body{
-    background-color:#14134d;
+    background-color:#01011a;
 }
+
 
 .title{
     text-align:center;
@@ -30,18 +31,28 @@ body{
     background:#ddc7f0;
 }
 
-p{
+h2{
     color:white;
+    font-size:1.5rem;
+    margin:20px;
 }
 .intro{
     display:flex;
     justify-content:space-between; 
 }
 
+nav{
+    margin:20px;
+}
 
 nav a{
     text-decoration:none;
     border-radius:15%;
+}
+
+nav a:hover{
+    background:#31023b;
+    color:white;
 }
 
 .box1 {
@@ -64,21 +75,47 @@ nav a{
     background-color:#ddc7f0;
 }
 
+header{
+    margin:20px 20px 100px 20px;
+}
+
+/* .spacecake{
+    text-align:center;
+} */
+
 .spacecake{
+    background-image:url("/images/cosmictouch.jpg")
+    /* width:1rem;
+    height:1rem;
+     background-size:cover;
+    background-repeat:no-repeat;  */
+} 
+
+h1{
+    color:white;
+    font-size:3rem;
+    text-align:center;
+}
+
+h3{
+    color:white;
+    font-size:2rem;
     text-align:center;
 }
 
 .spacecake img{
-    width:60rem;
-    height:30rem;
-    margin-top:20px;
+    /* width:10rem;
+    height:10rem; */
+    margin:20px 20px 100px 20px;
 }
+
 .gallery{
     width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     align-items:center; 
+    margin-bottom:40px;
 }
 
 .gallery img{
@@ -87,6 +124,58 @@ nav a{
     margin:10px;
 }
 
+.cosmos{
+    color:white;
+    text-align:center;
+}
+
+.nebulae{
+    color:white;
+    text-align:center;
+}
+
+.stardust{
+    color:white;
+    text-align:center;
+}
+
+.singularity{
+    color:white;
+    text-align:center;
+}
+
+.wormhole{
+    color:white;
+    text-align:center;
+}
+
+.eventhorizon{
+    color:white;
+    text-align:center;
+}
+
 .button{
     text-align:center;
+}
+
+button{
+    background-color:#ddc7f0;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+button:hover{
+    background:#31023b;
+}
+
+.button a{
+    text-decoration:none;
+}
+
+.button a:hover{
+    color:white;
+}
+
+footer{
+    background-color:#5c0341;
 }
