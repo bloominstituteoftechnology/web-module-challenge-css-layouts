@@ -21,6 +21,7 @@ font: inherit; vertical-align: baseline;
 /* Add CSS styling here */
 
 body{
+    
     background-color:#01011a;
 }
 
@@ -79,35 +80,28 @@ header{
     margin:20px 20px 100px 20px;
 }
 
-/* .spacecake{
-    text-align:center;
-} */
-
 .spacecake{
-    background-image:url("/images/cosmictouch.jpg")
-    /* object-fit:cover;
-    widows: 100px;;
-    height:100px;
+    background-image:url("/images/cosmictouch.jpg");
+    min-height:500px;
+    max-width:850px;
+    margin:0 auto;
+    margin-top:20px;
     background-size:cover;
-    background-repeat:no-repeat;*/
+    background-repeat:no-repeat;
 } 
+
 
 h1{
     color:white;
     font-size:3rem;
     text-align:center;
+    padding:30px;
 }
 
 h3{
     color:white;
     font-size:2rem;
     text-align:center;
-}
-
-.spacecake img{
-    /* width:10rem;
-    height:10rem; */
-    margin:20px 20px 100px 20px;
 }
 
 .gallery{
