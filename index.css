@@ -45,7 +45,6 @@ h1{
     justify-content: space-evenly;
     height: 2em;
     background-color:#e0e0d1;
-    color: #ffffff;
     margin: auto 0;
     flex-wrap: wrap;
     
@@ -53,6 +52,11 @@ h1{
 
 .home{
     background-color: #00cca3;
+
+}
+
+button{
+    color: white;
 }
 
 .about{
@@ -119,11 +123,30 @@ h2 {
 
 .contact-2 {
     display: flex;
-    padding: 10%;
-    height: auto 0;
-    width: auto 0;
-    background-color:#996633;
-    margin: auto 0;
+    flex-direction: row;
     align-content: center;
-    flex-direction: column
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    background-color:#808024;
+    color: #ffffff;
+    margin: auto 0;
+    flex-wrap: wrap;
+}
+.facebook {
+    background-color: peru;
+}
+
+.instagram{
+    background-color:#666633;
+}
+
+.twitter {
+    background-color: rgb(73, 66, 66);
+}
+
+.contact-me {
+    background-color:#666633 ;
 }
