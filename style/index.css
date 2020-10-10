@@ -1,14 +1,20 @@
 /* Add CSS styling here */
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
+
 body {
-    background-color: black;
+    background-color: rgb(5, 6, 19);
+  
 }
 .head-container {
-    border: 1px solid white;
+    background-color: rgb(5, 6, 19);
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 1%;
+    height: 50%;
+    box-sizing: border-box;
+    border-bottom: solid 5px #1DA1F2; 
+    
 }
 
 .name {
@@ -27,6 +33,7 @@ body {
     width: 100%;
     padding-bottom: 1%;
     padding-left: 5%;
+    box-sizing: border-box;
 }
 
 button {
@@ -38,7 +45,10 @@ button {
     text-decoration: none;
 }
 button:hover{
-    background-color: #e2d3a6;
+    background-color: #1DA1F2; 
+}
+a:hover {
+    color: white;
 }
 li {
     display: inline;
@@ -60,12 +70,120 @@ nav {
 
 h2 {
     color: white;
-    
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 p {
-    color: white 
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 .main-body {
     background-color: grey;
-    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    border: 50px solid grey;
+}
+.khan {
+    color:#1DA1F2;
+    box-sizing: border-box;
+}
+.recent {
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 50px;
+    height: ;
+
+}
+.para {
+    border: 1px solid yellow;
+    height: 50%;
+    padding: 10%;
+}
+.pic1 {
+    width: 200px;
+    height: 4px;
+    box-sizing: border-box;
+}
+.projects {
+    
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: space-between;
+    padding: 2.250em;
+    
+}
+.pic1 {
+    height: 300px;
+    width: 400px;
+
+}
+.project {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row; 
+    flex: wrap;
+    justify-content: space-between;
+    padding: 2.250em;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 30px 10px 30px;
+    padding-right: 30%;
+}
+.lambda {
+    color: crimson;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.250em;
+    margin: 0;
+    list-style: none;
+    border-top;: 1px solid white
+  }
+  .flex-item:hover {
+      border: 1px solid white;
+  }
+  h3{
+      display: flex;
+      flex-direction: row;
+      padding-left: 5%;
+      color: white;
+      font-family: 'Sedgwick Ave Display', cursive;
+ 
+  }
+  
+  .aws {
+      width: 200px;
+      height: 150px;
+      box-sizing: border-box;
+  }
+  .project-gallery {
+      flex-direction: row;
+      border-top: 1px solid #1DA1F2;
+    
+  }
+  h4 {
+      color: white;
+  }
+  .project-titles {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px 10px 10px;
+      margin: 10px 10px 10px 10px;
+  }
+  .proj {
+      color: white;
+  }
+* {
 }
