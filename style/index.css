@@ -1,10 +1,17 @@
 
-header {background-color: #050801;}
+.fullpage{ Height:1000px; 
+width:1000px;
+background:#050801}
+
+header {background-color: #050801;
+height:25%;
+}
 
 header h1 {color:#03e9f4;
     display:flex;
     justify-content: center;
-        font-size:80px ;}
+        font-size:80px ;
+        font-family: 'Architects Daughter', cursive;}
 
 nav {margin:0;
     padding:0;
@@ -96,39 +103,70 @@ transition-delay: 00.75s;
 background: linear-gradient(90deg,transparent,#03e9f4);
 }
 
-body {background-color: #050801;}
-
-.mainimg{ width:100%}
-
-
-.container1 {
-    width:100%;
-    display:flex;
-        color:#03e9f4 ;
+body{height:50%;
+background-color: #050801;
 }
 
-.imgcont{width: 75%; 
-    flex-direction: row;
-    justify-content:space-evenly;
-    float:right;
-    overflow:scroll;
+.container {height:25%;
+    width:100%;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: #050801;
+    
+}
+
+ 
+.txt{font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    color:#bdfcff;
+    padding-left: 80px;
+    text-align: center;
+    
+}
+
+.container img{ 
+    height:40rem;
+    width:85%;
+padding:10px 5px 5px 80px}
+
+
+.container2 {height:50%;
+    width:100%;
+    display:flex;
+        color:#03e9f4;
+}
+
+
+
+
+ .container2 img{ height:100%;
+width:90%;
+border: solid 5px black
+
+}
+
+ .container2 p{
+     
+     font-family: 'Architects Daughter', cursive;
+     font-size: 20px;
+  
+ }
+
+
+
+    footer{ height:8%;
+        margin:20px;
+        padding:2px;
+        border: solid 2px #03e9f4;
+        font-family: 'Architects Daughter', cursive;
+        box-sizing: border-box;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        background:#050801;
         
- }
-
- .container1 p{
-     align-content: center;
-     background-color: pink;
- }
-
-.container1 img {
-        padding:5px;
-
-
+        ;
     }
 
-    footer{ height:10%;
-    background-color: #03e9f4;}
-
-    footer button{background-color: #050801;
-    color:#03e9f4}
+   
               
