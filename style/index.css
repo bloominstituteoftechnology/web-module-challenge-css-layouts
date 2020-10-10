@@ -48,3 +48,251 @@ table {
 	border-spacing: 0;
 }
 
+/*This is where my code starts.This project is still in progress. It is not complete*/
+body{box-sizing: border-box;
+padding:10px;
+border-style: solid;
+border-color: #4dffb8;
+border-width: 10px;}
+
+/*The header with home button, navigation links, and main titles*/
+#home
+{display: flex;
+box-sizing: border-box;
+background-color:black;
+padding: 50px;
+border-style: solid;
+border-color: #4dffb8;
+border-width: 10px;
+}
+
+/*Logo class is inside the header nav div with id of home. It has an img inside it*/
+	.logo{
+		  padding: 10px;
+		  border-style: solid;
+		  border-color:blue;
+		  border-width: 5px;
+		  width: 58%
+		  }
+
+/*links class is inside the header nav div with id of home. It contains the button with class of home and anchor nav links*/
+    .links{display: flex;
+		   display: inline;
+		   width: 1%;
+		   height: 1%;
+	       padding: 20px;
+	       border-style: solid;
+	       border-color: #c6dbd3;
+	       border-width: 5px;}
+
+		.home{color:#dfe6e3;
+			  background-color: black;
+			  border-style: solid;
+              border-color: #d11473;
+			  border-width: 5px;
+			  padding: 5px;
+			  width: 20%;
+			  box-sizing: border-box;
+		    }
+/*Main titles class is inside the header nav with id of home.*/
+	.maintitles{display: flex; 
+		        display: inline-block;
+				width: 95%;
+				height: 20%;
+				border-style: solid;
+				border-color: #e4cf10;
+				border-width: 5px;
+				padding: 20px;
+				text-align: center;
+				font-size: 50px;
+				color: rgb(204, 204, 219);
+			    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}	
+
+/*site intro class is an h2 inside the header*/ 		
+	.siteintro{display: flex;
+	           display: inline;
+               border-style: solid;
+               border-color: #f30ccc;
+			   border-width: 5px;
+			   padding: 20px;
+			   text-align: center;
+			   font-size: 30px;
+			   color: #e4cf10;
+			   width:25%}
+
+/*This is the about me section*/
+#about{display: flex;
+	   display: inline-block;
+	   width: 100%;
+	   box-sizing: border-box;
+	   border-style: solid;
+	   border-color: #ae0edf;
+	   border-width: 5px;
+	   padding: 5px;}
+
+	.aboutme{text-align: center;
+		     width: 100%;
+		     box-sizing: border-box;
+		     border-style: solid;
+		     border-color: #131111;
+		     border-width: 1px;
+			 padding: 5px;
+			 font-weight: bolder;
+			 font-size: 20px;
+			background-color: rgb(95, 204, 144);}
+
+	.text p{background-color: #0c0c0c;
+	        color: #c6dbd3;}		
+
+/*This is the skills section with HTML, CSS, and JavaScript*/
+#skills{display: flex;
+		display: inline-block;
+		box-sizing: border-box;
+		width: 100%;
+	    border-style: solid;
+	    border-color: #eb0a15;
+	    border-width: 5px;
+		padding: 5px;}
+		
+    .myskills{text-align: center;
+		      width: 100%;
+		      box-sizing: border-box;
+		      border-style: solid;
+		      border-color: #131111;
+		      border-width: 1px;
+			  padding: 5px;
+			  font-weight: bolder;
+			  font-size: 20px;
+			  background-color: rgb(97, 212, 212);}
+			  
+	.container{text-align: center;
+		       width: 100%;
+		       box-sizing: border-box;
+		       border-style: solid;
+		       border-color: #d10c0c;
+		       border-width: 1px;
+			   padding: 5px;
+			   background-color: black;
+		       color: #c6dbd3;}
+			   
+		.container h3{font-weight: bolder;
+			          border-style: solid;
+			          border-color: #47dd39;
+			          border-width: 1px;
+			          padding: 5px;}	   
+
+/*This is the projects section*/
+#projecta{display: flex;
+	      display: inline-flexbox;
+		  padding: 100px;
+		  text-align: center;
+		  box-sizing: border-box;
+		  border-style: solid;
+		  border-color: #490eec;
+		  border-width: 5px;
+		  font-weight: bolder;
+		  font-size: 20px;
+		  background-color: black;
+		  color: blanchedalmond;}
+		  
+	.project1{width: 100%;
+		      height: 100%;
+		      border-style: solid;
+		      border-color: #e6e1f3;
+		      border-width: 1px;}	  
+
+	.project2{width: 100%;
+		      height: 100%;
+		      border-style: solid;
+		      border-color: #e6e1f3;
+		      border-width: 1px;}
+
+	.project3{width: 100%;
+		      height: 100%;
+		      border-style: solid;
+		      border-color: #e6e1f3;
+		      border-width: 1px;}
+
+	.project4{width: 100%;
+		      height: 100%;
+		      border-style: solid;
+		      border-color: #e6e1f3;
+		      border-width: 1px;}
+
+/*This is my experience section*/
+#experience{display: flex;
+			display: inline-block;
+			width: 100%;
+			box-sizing: border-box;
+	        border-style: solid;
+	        border-color: #ae08bd;
+			border-width: 5px;
+			padding: 5px;}
+			
+	.myexperience{text-align: center;
+		          width: 100%;
+		          box-sizing: border-box;
+		          border-style: solid;
+	     		  border-color: #131111;
+		          border-width: 1px;
+				  padding: 1px;
+				  font-weight: bolder;
+				  font-size: 20px;
+				  background-color: rgb(228, 211, 179);}
+				  
+	.bigcontainer{text-align: center;
+		          width: 100%;
+		          box-sizing: border-box;
+		          border-style: solid;
+		          border-color: #ca1111;
+		          border-width: 3px;
+				  padding: 5px;
+				  background-color: black;
+			      color: cornsilk;}
+				  
+		.one{border-style: solid;
+			 border-color: #cf1717;
+			 border-width: 1px;
+			 padding: 5px;}
+
+		.two{border-style: solid;
+			 border-color: #e01a1a;
+			 border-width: 1px;
+			 padding: 5px;}
+
+		.three{border-style: solid;
+			   border-color: #b31414;
+			   border-width: 1px;
+			   padding: 5px;}
+
+/*This is the footer section with how to reach me form*/
+#contactinfo{display: flex;
+			  display: inline-block;
+			  box-sizing: border-box;
+			  width: 100%;
+	          border-style: solid;
+	          border-color: #220de2;
+			  border-width: 5px;
+			  padding: 5px;}
+	 
+	footer h2{border-style: solid;
+			  border-color: #111312;
+			  box-sizing: border-box;
+			  width: 100%;
+			  border-width: 1px;
+			  padding: 5px;
+			  background-color: beige;
+			  font-weight: bolder;
+			  font-size: 20px;
+			text-align: center;}
+	
+	.formdiv{display: flex;
+		     display: inline-block;
+		     border-style: solid;
+		     border-color: #0c0c0c;
+			 border-width: 5px;
+			 box-sizing: border-box;
+			 width: 100%;
+			 padding: 20px;
+			background-color: rgb(14, 15, 15);
+		    color: blanchedalmond;}

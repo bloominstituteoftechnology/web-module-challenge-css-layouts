@@ -7,60 +7,69 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- This is where the project starts. The header contains the navigation links and main titles. This project is still in progress. It is not complete  -->
     <header id="home">
         <nav>
             <div class="logo">
-            <img src="https://picsum.photos/200/" alt="logo">
+            <img src="./style/sphere.jpg" width="600" height="300" alt="logo">
             </div>
             <div class="links">
-            <button class="home">HOME</button>
-                <a href="./about.html">ABOUT</a>
-                <a href="./projects.html">PROJECTS</a>
-                <a href="./contact.html">CONTACT</a>
+                <button class="home">HOME</button>
+                <button class="home"><a href="./about.html"style="color:#dfe6e3;">ABOUT</a></button>
+                <button class="home"><a href="./projects.html"style="color:#dfe6e3;">PROJECTS</a></button>
+                <button class="home"><a href="./contact.html"style="color:#dfe6e3;">CONTACT</a></button>
             </div>
-            <div class="title-container">
-                    <div class="main titles">
-                        <h1>Mariam Addy</h1>
-                        <h2>Upcoming Developer</h2>
-                        <h3>My Location</h3>
+            <div class="maintitles">
+                <h1>MARIAM ADDY</h1>
+                <h2>UPCOMING FULLSTACK WEB DEVELOPER</h2>
             </div>
         </nav>
-        <h2> INTRODUCING MY SITE </h2>
+        <h2 class="siteintro"> INTRODUCING MY SITE </h2>
     </header>
+    <!--This is the all about me section-->
     <section id="about">
             <div class="text">
-                <h2>About Me</h2>
+                <h2 class="aboutme">ABOUT ME</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, corrupti voluptas est soluta nostrum, eaque velit perspiciatis nisi laboriosam facilis libero nihil ipsum repudiandae eius omnis molestiae! Incidunt, error cupiditate.</p>
             </div>
     </section>
-
+<!--This is the skills section (HTML, CSS, and JavaScript)-->
     <section id="skills">
-            <h2>My Skills/Projects</h2>
+            <h2 class="myskills">MY SKILLS</h2>
             <div class="container">
                 <div>
-                    <i class="fas fa-code"></i>
+                    <i class="fasfacode"></i>
                     <h3>HTML</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quidem autem sapiente at accusantium blanditiis aliquam magnam odit, sunt, tempore recusandae consectetur dolor nostrum omnis facere excepturi! Voluptatibus, unde neque?</p>
                 </div>    
                 <div>
-                    <i class="fas fa-code"></i>
+                    <i class="fasfacode"></i>
                     <h3>CSS</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quidem autem sapiente at accusantium blanditiis aliquam magnam odit, sunt, tempore recusandae consectetur dolor nostrum omnis facere excepturi! Voluptatibus, unde neque?</p>
                 </div>
                 <div>
-                    <i class="fas fa-code"></i>
+                    <i class="fasfacode"></i>
                     <h3>JavaScript</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quidem autem sapiente at accusantium blanditiis aliquam magnam odit, sunt, tempore recusandae consectetur dolor nostrum omnis facere excepturi! Voluptatibus, unde neque?</p>
                 </div> 
             </div>
     </section>
+
+<!--This is the projects section*/-->
+    <section id="projecta">
+            <div class="project1"><section><h2>PROJECT 1</h2></section></div>
+            <div class="project2"><section><h2>PROJECT 2</h2></section></div>
+            <div class="project3"><section><h2>PROJECT 3</h2></section></div>
+            <div class="project3"><section><h2>PROJECT 4</h2></section></div>
+    </section>
+
+    <!--This is the experience section-->
     <section id="experience">
-        <h2>My Experience</h2>
-        <div class="big-container">
-            <div>
+        <h2 class="myexperience">MY EXPERIENCE</h2>
+        <div class="bigcontainer">
                 <div class="one">
-                    <h2>Title of Company</h2>
-                    <h3>Position Title</h3>
+                    <h2>COMPANY</h2>
+                    <h3>POSITION</h3>
                 </div>
                 <div class="two">
                     <h2>Put something here</h2>
@@ -70,12 +79,12 @@
                     <h2>Put something here</h2>
                     <h3>Put something here</h3>
                 </div>
-            </div>
         </div>
     </section>
-         <footer>
-             <h2>Reach Out</h2>
-             <div class="form-div">
+    <!--This footer contains a form for contact -->
+         <footer id="contactinfo">
+             <h2>REACH OUT TO ME</h2>
+             <div class="formdiv">
                 <form method="POST" action="https://formspree.io/mariamaddy2@outlook.com">
                  <label for="name">Your Name</label>
                  <input type="name" name="name">
@@ -84,13 +93,6 @@
                  <label for="message">Your Message</label>
                  <textarea name="message"></textarea>
                 </form>
-              </div>
-              <div class="center">
-                  <nav>
-                      <a href="http://facebook.com">
-                          <i class="fab fa-facebook-f" target="_blank"></i>
-                      </a>
-                  </nav>
               </div>
          </footer>
 </body>
