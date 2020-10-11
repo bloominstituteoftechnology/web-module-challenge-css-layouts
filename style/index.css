@@ -1,1 +1,224 @@
 /* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.content_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: colo;
+}
+
+.content_section .flexy_box {
+  width: 32.33333333333333333333333333%;
+  background-color: lightsteelblue;
+  margin: auto;
+  border: solid lightgrey;
+  text-align: center;
+}
+
+.table_of_contents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom: solid lightgrey;
+  padding-bottom: 2%;
+}
+
+a {
+  border-radius: 12px;
+  border: 2px;
+  background-color: rgb(56, 56, 56);
+  border-color: rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+  text-align: center;
+  font-size: 16px;
+  padding: 9px;
+  margin: 4px 2px;
+  width: 10%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(219, 219, 219);
+  border-color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+}
+
+.button_contact {
+  border-radius: 12px;
+  border: 2px;
+  background-color: rgb(56, 56, 56);
+  border-color: rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+  text-align: center;
+  font-size: 16px;
+  padding: 9px;
+  margin: 4px 2px;
+  width: 158px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button_contact:hover {
+  background-color: rgb(219, 219, 219);
+  border-color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+}
+
+.left_side {
+  width: 50%;
+  text-align: left;
+}
+.right_side {
+  width: 50%;
+  text-align: right;
+}
+
+.introduction_splash {
+  text-align: center;
+  border: 5px;
+  border-style: outset;
+  padding: 20%;
+  margin: 3%;
+}
+
+h1 {
+  margin: 3%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.end_section {
+  text-align: center;
+}
