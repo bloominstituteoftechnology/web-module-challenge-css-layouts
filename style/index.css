@@ -112,8 +112,6 @@ nav ul li a:hover {
     transition: 2s ease;
 }
 
-
-
 /* ----------------- Background Image Container ---------------------- */
 .background-image-container {
     /* background: url("https://images.unsplash.com/photo-1544769283-3a288a25d496?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
@@ -341,11 +339,17 @@ a .social-media-icon {
 
 
 /* ----------------------------- MOBILE DEVICE STYLES -----------------*/
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
+
+body {
+    line-height: 1;
+    width: 100vw;
+    height: 100vh;
+}
 
 header {
-    height: 45vh;
-    
+    height: 50vh;
+    width: 100vw;
 }
 
 h1 {
@@ -392,13 +396,16 @@ ul {
     flex-direction: column;
 }
 /* --------------MOBILE Begin body section -----*/
+
+
 .background-image-container {
     background-image: url("../images/monstera.jpg"); 
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-size: 100vw;
-    background-position: center -10vh;
+    background-position: center 0vh;
     margin-top: 1em;
+    background-repeat: no-repeat;
 }
 
 .large-image-intro-section {
@@ -411,14 +418,11 @@ ul {
     margin-right: auto;
     padding: 30px;
     background-size: cover;
+    align-self: flex-end;
     /* polaroid effect here  */
     background: white;
-    display: inline-block;
     padding: 15px 15px 30px;
-    margin-bottom: 30px;
-    border-radius: 0px;
     text-align: center;
-    text-decoration: none;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -428,11 +432,64 @@ ul {
     z-index: 0;
     position: relative;
 }
+h2 {
+    color: black;
+    font-size:  4em;
+}
+.my-projects-button:hover {
+    background: green;
+    color: black;
+    transform: scale(1.2);
+    transition: 2s ease;
+    padding: 1em 2em;
+
+}
+
+p {
+    letter-spacing: .05em;
+    line-height: 1.5;
+    margin-top: 20vh
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column; /* default is row */
+    height: 60vh;
+    width: 100vw;
+    align-items: flex-start;
+}
 
 .project-tiles-section {
     flex-direction: column;
+    height:  500vh;
+    margin-top: 70vh;
+    flex-flow: wrap;
+    justify-content: space-evenly;
 }
 
+footer {
+    height: 60vh;
+    align-self: flex-end;
+}
+
+footer p {
+    margin-top: 0;
+}
+
+.text-above-button {
+    font-size: 3.5em;
+}
+.contact-me-button {
+    width: 300px;
+    padding: 1em 2em;
+    margin: 1em;
+}
+.contact-me-button:hover {
+    width: 300px;
+}
+.social {
+    margin-bottom: 2em;
+}
 }
 
 
