@@ -3,33 +3,49 @@
 
 
 /*CSS reset goes above this line*/
+*{
+    box-sizing:border-box;
+    /* border:1px solid red; */
+}
 html{
-
+background-image: url(thomas-vitali-OpMnsO9vWWE-unsplash.jpg);
+background-size: cover;
+background-attachment: fixed;
+/* z-index: -2; */
 width:100%;
 }
 
 
 body {
-    background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    backface-visibility:visible;
-    width:90%;
-    margin:0 5%;
-
-}
-
-header{
-    display:flex;
-    flex-wrap:wrap;
-    height:10%;
-    width:100%;
-    border:inset 2px black;
-    background-color:rgba(125, 201, 234, 0.32);
+    border-left: 1px solid black;;
+    border-right: 1px solid black;
+    width: 80%;
+    margin: 0 10%;
+    
     
 }
 
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+    width: 100%;
+    
+    background: rgba(160, 172, 163, 0.521);
+    /* background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+header #mButton{
+    display:none;
+}
+
+.dropDown-Content a{
+    display:none;
+}
 nav{
     display:flex;
     flex-wrap:inherit;
@@ -41,22 +57,609 @@ nav{
 nav a{
     
     margin:3%;
-    border:solid 1px black;
-    background-color:transparent;
-    color:black;
+    /* border:solid 1px black; */
+    background-color:steelblue;
+    color:white;
     text-decoration:none;
     font-size:80%;
     padding:1%;
     width:10%;
     text-align:center;
+    box-shadow: 5px 8px rgb(48, 48, 51, .4);
+    border-radius:5px;
+    cursor: pointer;
     
-    border-radius:30%;
-   
 }
 
+nav a:active{
+    box-shadow: none;
+    border: solid 1t px black;
+}
+nav a:hover{
+background-color: rgba(187, 187, 187, 0.295);
+}
+
+
 h1{
-    font-size:32px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin:0 25% 1% 25%;
+    font-size:45px;
+    font-family: 'Sansita Swashed', cursive;
+    margin:0% 25% 1% 30%;
+    color:white;
+    
+}
+
+.SlideShow-Container{
+    width:100%;
+    margin-top:1%;
+    margin-bottom:10%; 
+    position: relative;
+
+}
+ .mySlides{
+    text-align: center;
+    display: inline-flex;
+    font-size: 20px;
+    justify-content: center;
+ }
+
+ img{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.one h2, .one p{
+    position: absolute;
+    color: white;
+}
+
+.one h2{
+    top:10%;
+    left:28%;
+    font-size:45px;
+
+}
+
+.one p{
+    bottom:15%;
+    left:13%;
+    font-size:24px
+}
+
+.two h2, .two p{
+    position:absolute;
+    color:white;
+}
+
+.two h2{
+    font-size: 45px;
+    top:10%;
+    left:45%;
+}
+
+.two p{
+    font-size:24px;
+    bottom:15%;
+}
+
+.three h2, .three p{
+    color:white;
+    position:absolute;
+}
+
+.three h2{
+    font-size:45px;
+    top:10%;
+    left:44%;
+}
+
+.three p{
+    font-size:24px;
+    bottom:15%;
+}
+
+.nextButton{
+    position: absolute;
+    right:0;
+    top:40%;
+    font-size:3rem;
+    color:rgba(177, 143, 143, 0.4);
+    cursor: pointer;
+}
+
+.previousButton{
+    position: absolute;
+    top:40%;
+    font-size: 3rem;
+    color: rgba(177, 143, 143, 0.4);
+    cursor: pointer;
+}
+
+.Num-Text{
+    display: none;
+}
+
+.dot{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 21px;
+    width:28px;
+    cursor: pointer;
+    margin: 0 2px;
+    background-color: rgba(219, 208, 208, 0.253);
+    display: inline-block;
+    position: relative;
+    left: 45%;
+    top:0;
+    transition:background-color 0.6s ease;
+    border: none;
+
+}
+
+.fade, .active{
+    background-color: #4e45454f;
+}
+.dot:hover{
+    background-color: #4e45454f;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity:1;}
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+.nextButton:hover, .previousButton:hover{
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-image:url(jess-bailey-l3N9Q27zULw-unsplash.jpg);
+    height: 20vh;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
    
+    
+}  
+footer a{
+    text-decoration: none;
+    height: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color:rgba(95, 106, 156, 0.726);
+    text-shadow: 1px 2px rgb(40, 25, 97);
+}
+
+footer a:hover{
+    color:black;
+    text-transform: uppercase;
+}
+
+#announcement{
+    font-size:4rem;
+    width:100%;
+}
+
+/* Styling for the contact page */
+
+
+input[type=text], textarea, select{
+    width:100%;
+    padding: 12px;
+    border: 1px solid steelblue ;
+    border-radius:4px;
+    margin-top: 6px;
+    margin-bottom:16px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background: #4CF5A0 ;
+    color:white;
+    padding:4px;
+    cursor: pointer;
+    border-radius:4px;
+    border:none;
+    margin-bottom: 3px;
+
+}
+
+input[type=submit]:hover{
+    background: #45a049;
+    
+}
+
+.mainContent{
+    background:#f2f2f2;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+                                    /* About page styling */
+.about1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: 10px;
+    
+}
+
+.who, .what, .Qual, .Why{
+    border: 1px solid black;
+    color:white;
+    background-color: rgba(10, 10, 10, .5);
+    text-align: center;
+    width: 40%;
+    margin-bottom:15px;
+}
+
+.what a{
+    color:black
+}
+
+
+hr.solid{
+    border-top: 1px solid black;
+    width: 80%;
+}
+
+/* Project Styling */
+
+.proContent{
+    height: 100vh;
+}
+                                    /* Mobile Styling */
+@media screen and (max-width:500px) and (min-width:300px){
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        height: 15vh;
+        width: 100%;
+        
+        background: rgba(160, 172, 163, 0.521);
+        /* background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; */
+    }
+
+    
+
+   nav a{
+       display: none;
+   }
+
+  header #mButton{
+       display: inline-block;        
+       width: 30%;
+       background-color:rgba(120, 120, 161, 0.712);
+       color:white;
+       margin-left:10px;
+       font-size: 20px;
+       border: none;
+       position: absolute;
+       top:11%;
+       left:8%;
+       
+      
+   }
+
+    #mButton:hover{
+        background-color: darkgreen;
+    }
+    
+   .dropDown-Content {
+        display:none;
+        position: absolute;
+      min-width:30%;
+       background-color: darkslategray;
+       z-index: 5;
+
+        
+    }
+    
+    .dropDown-Container{
+        width:30%;
+    }
+
+    .dropDown-Content a{
+        
+        padding:12px 16px;
+        border-bottom: 1px solid black;
+        color:white;
+        text-decoration:none;
+        display: block;
+        cursor: pointer;
+    }
+    .dropDown-Content a:hover{
+        background-color: beige;
+        color:black
+    }
+
+   .dropDown-Container:hover .dropDown-Content  {
+       display: block;
+   }
+    
+    
+    h1{
+        font-size: 18px;
+        font-family: 'Sansita Swashed', cursive;
+        margin:0% 25% 1% 30%;
+        
+    }
+    
+    .SlideShow-Container{
+        width:100%;
+        margin-top:1%;
+        margin-bottom:10%; 
+        position: relative;
+    
+    }
+     .mySlides{
+        text-align: center;
+        display: inline;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+     }
+    
+     img{
+        width: 100%;
+        height: 60vh;
+        z-index: -1;
+    }
+
+   .one h2,p{
+        position: absolute;
+        color:white;
+
+    }
+    .one h2{
+        top:10%;
+        left:7%;
+    }
+    
+    .one p{
+        bottom:20%;
+    }
+
+    .two h2,p{
+        position: absolute;
+        color:white;
+
+    }
+
+    .two h2{
+        top:10%;
+        left:40%;
+    }
+
+    .two p{
+        bottom:10%;
+    }
+
+    .three h2, p{
+        position: absolute;
+        color:white;
+    }
+
+    .three h2{
+        top:10%;
+        left:38%;
+    }
+
+    .three p{
+        bottom:10%;
+    }
+    
+    .nextButton{
+        position: absolute;
+        right:0;
+        top:40%;
+        font-size:3rem;
+        color:rgba(177, 143, 143, 0.4);
+        cursor: pointer;
+    }
+    
+    .previousButton{
+        position: absolute;
+        top:40%;
+        font-size: 3rem;
+        color: rgba(177, 143, 143, 0.4);
+        cursor: pointer;
+    }
+    
+    .Num-Text{
+        display: none;
+    }
+    
+    .dot{
+        cursor: pointer;
+        border-radius: 100%;
+        height: 21px;
+        width:28px;
+        cursor: pointer;
+        margin: 0 2px;
+        background-color: rgba(219, 208, 208, 0.253);
+        display: inline-block;
+        position: relative;
+        left: 45%;
+        top:0;
+        transition:background-color 0.6s ease;
+        border: none;
+    
+    }
+    
+    .fade, .active{
+        background-color: #4e45454f;
+    }
+    .dot:hover{
+        background-color: #4e45454f;
+    }
+    
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade{
+        from{opacity: .4;}
+        to{opacity:1;}
+    }
+    
+    @keyframes fade{
+        from{opacity: .4;}
+        to{opacity: 1;}
+    }
+    
+    .nextButton:hover, .previousButton:hover{
+        color: black;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-image:url(jess-bailey-l3N9Q27zULw-unsplash.jpg);
+        height: 20vh;
+        background-size: contain;
+        width: 100%;
+        background-position: center;
+        
+        
+    }  
+    footer a{
+        text-decoration: none;
+        height: 20%;
+        margin-left: 1%;
+        margin-right: 1%;
+        color:rgba(95, 106, 156, 0.726);
+        text-shadow: 1px 2px rgb(40, 25, 97);
+    }
+    
+    footer a:hover{
+        color:black;
+        text-transform: uppercase;
+    }
+    
+    #announcement{
+        font-size:4rem;
+        width:100%;
+    }
+    
+                                     /* Styling for the contact page */
+    
+    
+    input[type=text], textarea, select{
+        width:100%;
+        padding: 12px;
+        border: 1px solid steelblue ;
+        border-radius:4px;
+        margin-top: 6px;
+        margin-bottom:16px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+    
+    input[type=submit]{
+        background: #4CF5A0 ;
+        color:white;
+        padding:4px;
+        cursor: pointer;
+        border-radius:4px;
+        border:none;
+        margin-bottom: 3px;
+    
+    }
+    
+    input[type=submit]:hover{
+        background: #45a049;
+        
+    }
+    
+                                                /* About Page */
+
+    .mainContent{
+        background:#f2f2f2;
+        border-radius: 5px;
+        padding: 15px;
+    
+    }
+    
+    .about1{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    .who, .what{
+        border: 1px solid black;
+        color:white;
+        background-color: rgba(10, 10, 10, .5);
+        text-align: center;
+        width: 40%;
+        cursor:pointer;
+    }
+
+    .who p, .what p, .Qual p, .Qual ul, .Why p{display: none;}
+    
+    .who:hover p, p:hover  {
+        display: block;
+        position: absoulute;
+        background-color: rgba(20, 20, 20, .8);
+        border: 1px solid black;
+        left:0;
+    }
+    
+    .what:hover p {
+        display: block;
+        position: absoulute;
+        background-color: rgba(20, 20, 20, .8);
+        border: 1px solid black;
+        left:0;
+    }
+
+    .Qual:hover p{
+        display: block;
+        position: absoulute;
+        background-color: rgba(20, 20, 20, .8);
+        border: 1px solid black;
+        left:0;
+    }
+    
+    .Why:hover p{
+        display: block;
+        position: absoulute;
+        background-color: rgba(20, 20, 20, .8);
+        border: 1px solid black;
+        left:0;
+    }
+
+    hr.solid{
+        border-top: 1px solid black;
+        width: 80%;
+    }
+
+    .mainContent p{
+        display: none;
+    }
+
+
+
 }

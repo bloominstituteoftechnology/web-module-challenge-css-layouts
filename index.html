@@ -2,30 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Austin' Portfolio</title>
-    <link rel="stylesheet" href="style\index.css" />
+    <link rel="stylesheet" href="style/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <h1>Austin Jansen's Portfolio Website</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About Me</a>
             <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>
-            <a href="funfacts.html">Fun Facts</a>
+            <a href="projects.html" >Projects</a>
+            <a href="funfacts.html"  ">Fun Facts</a>
         </nav>
+        <div class="dropDown-Container">
+        <button id="mButton">Menu</button>
+        <div class="dropDown-Content">
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About Me</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html" >Projects</a>
+            <a href="funfacts.html"  >Fun Facts</a>
+            </div>
+        </div>
     </header>
 
+     <div class="ancmnt">
+        <marquee id="announcement"></marquee>
+
+     </div>
+
+
     <!--slideshow will go here, hero image slideshow featuring Welcome, Intro, and Hobbies-->
+    
     <div class="SlideShow-Container">
-
-        <div class="MySlides fade">
+        
+        <div class="mySlides fade" >
             <div class="Num-Text"> 1 / 3 </div>
-            <img src="\style\assets\casey-horner-fsJB3KT2rj8-unsplash.jpg" altId="Night Sky with Space Burst Anomaly" style="width:100%;" />
-            <div class="Text">
-
+                         
+            <div class="one">
+                <img src='style\kevin-ku-aiyBwbrWWlo-unsplash.jpg'>
                 <h2>Welcome to My Portfolio</h2>
                 <p>I hope you enjoy my page, I will be regularly updating as I progress in my journey!</p>
 
@@ -33,12 +52,12 @@
 
         </div>
 
-        <div class="MySlides fade">
+        <div class="mySlides fade">
             <div class="Num-Text"> 2 / 3 </div>
-            <img src="\style\assets\jess-bailey-l3N9Q27zULw-unsplash.jpg" altId="White paper with colored pencils bottom border" style="width:100%;" />
             
-            <div class="Text">
-
+            
+            <div class="two">
+                <img src='style\nasa-Q1p7bh3SHj8-unsplash.jpg'>
                 <h2>Intro</h2>
                 <p>My name is Austin Jansen, I'm a novice programmer. I am currently attending Lambda School
                 for Full Stack Web Development. I have some previous experience with Java, Python, SQL,
@@ -48,20 +67,42 @@
 
         </div>
 
-        <div class="MySlides fade">
+        <div class="mySlides fade">
             <div class="Num-Text"> 3 / 3 </div>
-            <img src="\style\assets\lucas-leon-IsS7vIQa898-unsplash.jpg" altId="Guitar rendered in a burning red neon stlye" style="width:100%;" />
-            <div class="Text">
-
+            
+            <div class="three">
+                <img src='style\natasha-connell-byp5TTxUbL0-unsplash.jpg'>
                 <h2>Hobbies</h2>
                 <p>I enjoy many hobbies such as playing guitar, listening to music, 
-                researching fields of science, coding; course, and watching Mr.Robot.</p>
+                researching fields of science, coding; of course, and watching Mr.Robot.</p>
 
             </div>
 
         </div>
 
+        <!--Previous and Next Buttons-->
+        <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
+        <a class="previousButton" onclick="plusSlides(-1)">&#10094;</a>
 
+    
+    <br />
+
+    
+        <!--Dots at the bottom of carosel, depicting frame.-->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    
+    <footer>
+            <a href="index.html" >Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+            <a href="funfacts.html">Fun Facts</a>
+    </footer>
+
+    <script src="Script1.js"></script>
+
 </body>
 </html>
