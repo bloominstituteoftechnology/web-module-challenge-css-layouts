@@ -411,7 +411,7 @@ ul {
 
 .large-image-intro-section {
     flex-direction: column;
-    height: 100vh;
+    height: 200vh;
 }
 
 .intro-image {
@@ -457,14 +457,14 @@ p {
 .intro-container {
     display: flex;
     flex-direction: column; /* default is row */
-    height: 60vh;
+    height: 200vh;
     width: 100vw;
     align-items: flex-start;
 }
 
 .project-tiles-section {
     flex-direction: column;
-    height:  600vh;
+    height:  800vh;
     margin-top: 70vh;
     flex-flow: wrap;
     justify-content: space-evenly;
