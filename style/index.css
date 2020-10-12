@@ -401,15 +401,17 @@ ul {
 .background-image-container {
     background-image: url("../images/monstera.jpg"); 
     width: 100vw;
-    height: 200vh;
+    height: 400vh;
     background-size: 100vw;
     background-position: center 0vh;
     margin-top: 1em;
     background-repeat: no-repeat;
+    border-bottom: solid blue 10px;
 }
 
 .large-image-intro-section {
     flex-direction: column;
+    height: 50vh;
 }
 
 .intro-image {
