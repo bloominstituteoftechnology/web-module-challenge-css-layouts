@@ -55,6 +55,7 @@ table {
 body {
     font-family: Roboto Mono;
     box-sizing: border-box;
+    width: 100%;
 } 
 
 /* ------------------------------------------Header section-------------------------------------- */
@@ -117,32 +118,35 @@ nav ul li a:hover {
     /* background: url("https://images.unsplash.com/photo-1544769283-3a288a25d496?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
     background-size: cover; */
     background-image: url("../images/monstera.jpg"); 
-    width: 100%;
-    height: 100vh;
+    align-self: right;
+    height: 200vh;
     display: flex;
     flex-direction: column;
-    background-size: 90%;
-    background-position: center;
-    background-repeat: repeat-y;
-    margin-top: 1em;
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin-top: 10px;
 }
+
 /* -----------------Large image intro section----------------- */
 .large-image-intro-section {
     display: flex;
     height: 400px;
+    padding: 20px;
 }
 /* Children of .large-image-intro HAVE FLEX */
 
 .intro-image {
     flex-direction: row;
-    width: 35%;
+    width: 45%;
+    margin: 1em;
     padding: 30px;
     background-size: cover;
     /* polaroid effect here  */
-    background: rgb(201, 241, 201);
+    background: white;
     display: inline-block;
     padding: 15px 15px 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     border-radius: 0px;
     text-align: center;
     text-decoration: none;
@@ -174,7 +178,7 @@ h2 {
 
 .my-projects-button:hover {
     background: green;
-    color: black;
+    color: white;
     transform: scale(1.2);
     transition: 2s ease;
 }
@@ -290,9 +294,18 @@ footer {
     width: 100%;
     display: flex;
     height: 12em;
-    padding: 30px;
+    padding: 1em;
     flex-direction: column;
     justify-items: center;
+    justify-content: space-between;
+    /* shadow */
+    -webkit-box-shadow: 10px -10px 0px rgba(0, 0, 0, .3);
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
 }
 
 .text-above-button {
@@ -327,14 +340,16 @@ footer {
     height: 3em;
     width: 200px;
     align-self: center;
-    margin: 0;
-    padding: 10px;
+    margin-top: 5px;
+    /* padding: 10px; */
     align-items: center;
+    justify-content: space-around;
+
 }
 
 a .social-media-icon {
-    align-self: flex-start;
-    align-items: center;
+    align-self: center;
+
 }
 
 
@@ -344,7 +359,6 @@ a .social-media-icon {
 body {
     line-height: 1;
     width: 100vw;
-    height: 800vh;
 }
 
 header {
@@ -472,7 +486,7 @@ p {
 
 footer {
     height: 60vh;
-    align-self: flex-end;
+    justify-content: flex-end;
 }
 
 footer p {
