@@ -411,7 +411,7 @@ ul {
 
 .large-image-intro-section {
     flex-direction: column;
-    height: 50vh;
+    height: 100vh;
 }
 
 .intro-image {
