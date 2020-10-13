@@ -151,6 +151,7 @@ footer {
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
   position: absolute;
+  margin: 20px auto;
 }
 
 .project1 {
