@@ -48,7 +48,11 @@ table {
 	border-spacing: 0;
 }
 /* @media queries */
-
+@media only screen and (max-width: 600px {
+	.projects-container {
+	flex-flow: column wrap;
+	}
+}
 
 /* containers */
 
@@ -64,7 +68,7 @@ table {
   display: flex;
   justify-content: center; 
   align-content: center;
-  flex-direction: column wrap;
+  flex-direction: row wrap;
   margin-top: 50px;  
 }
 
@@ -148,7 +152,7 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   height: 77%;
   width: 94%;
-  min-width: 94%;
+  min-width: 34%;
   border: 10px solid white;
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
