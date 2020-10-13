@@ -82,10 +82,10 @@ table {
 }
 
 .gallery-container {
-width:65%;
+max-width: 65%;
 display: flex;
 flex-flow: column wrap;
-justify-content: space-around;
+justify-content: center;
 
 }
 
