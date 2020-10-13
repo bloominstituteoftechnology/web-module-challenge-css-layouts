@@ -1,10 +1,57 @@
-body {
-  font-family: 'Quattrocento Sans', sans-serif;
-  background: black;
-background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511.jpg");
+/*CSS Style Reset Snipet*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* @media queries */
   
+
 /* containers */
+
 .flex-container {
   display: flex;
   justify-content: space-around;
@@ -14,6 +61,7 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
 .projects-container {
   width: 100%;
   display: flex;
+  flex-flow: column wrap;
   align-content: space-around;
   margin-top: 60px;
 }
@@ -30,12 +78,14 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
   justify-content: center;
 }
 
-main div {
-  display: flex;
-}
-
 /* element items */
 
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background: black;
+background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511.jpg");
+}
+  
 h1, h2, p {
   text-align: center;
 }
@@ -69,6 +119,11 @@ header {
   align-content: center;
 }
 
+main {
+  display: flex;
+  background-repeat: no-repeat;
+}
+
 footer {
   display: flex;
   margin: 75px auto;
@@ -88,13 +143,14 @@ footer {
   height: 580px;
   max-width: 99%;
   border: 10px solid white;
-  box-shadow: 
+  box-shadow: 0 0 10px black;
 }
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
  border: 10px solid white;
+ background-repeat: no-repeat;
 }
 .project1:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
@@ -103,6 +159,7 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
   width: 250px;
   border: 10px solid white;
+  background-repeat: no-repeat;
 }
 .project2:hover {
   background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
@@ -111,6 +168,7 @@ footer {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
   width: 250px;
   border: 10px solid white;
+  background-repeat: no-repeat;
 }
 .project3:hover {
   background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
@@ -119,21 +177,12 @@ footer {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
   width: 250px;
   border: 10px solid white;
+  background-repeat: no-repeat;
 }
 .project4:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
 }
 /* direct styling */
-
-.flex-container a p {
-  background: linear-gradient(
-  0deg,
-  #444,
-  #222,
-  #444);
-  padding: 20px 50px;
-  color: #FFF;
-}
 
 .flex-container a {
   display: flex;
@@ -149,9 +198,14 @@ footer {
   border: 7px solid white;
 }
 
-block {
-  display: flex;
-  opacity: 0.7;
+.flex-container a p {
+  background: linear-gradient(
+  0deg,
+  #444,
+  #222,
+  #444);
+  padding: 20px 50px;
+  color: #FFF;
 }
 
 .projects-container p {
@@ -167,4 +221,8 @@ block {
   margin-left: 10px;
   max-width: 35%;
 }
-
+/*
+block {
+  display: flex;
+  opacity: 0.7;
+}*/
