@@ -79,6 +79,12 @@ table {
 	
 }
 
+.splash-flexbox {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
 /* element items */
 
 body {
