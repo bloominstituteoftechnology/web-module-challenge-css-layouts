@@ -61,7 +61,7 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
-  align-content: space-around;
+  flex-flox: row wrap;
   margin-top: 50px;
 }
 
@@ -152,7 +152,7 @@ footer {
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
- width: 50%;
+ width: 100%;
  height: 100%;
  background-repeat: no-repeat;
  /*background-repeat: no-repeat;*/
