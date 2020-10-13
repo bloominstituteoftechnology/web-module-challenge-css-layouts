@@ -61,7 +61,9 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
-  
+  justify-content: center; 
+  align-content: center;
+  flex-direction: row wrap;
   margin-top: 50px;  
 }
 
