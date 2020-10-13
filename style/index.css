@@ -63,19 +63,25 @@ table {
   display: flex;
   flex-flow: column wrap;
   align-content: space-around;
-  margin-top: 60px;
+  margin-top: 3.5em;
 }
 
 .div-cascade-box {
   width: 100%;
   height: 100%;
   background: #59a2e5;
-  margin-bottom: 30px;
+  margin-bottom: 1.625em;
   opacity: 0.8;
   border: 10px solid white;
   max-width: 99%;
   display: flex;
   justify-content: center;
+  padding: 3m auto;
+}
+
+main div {
+  display: flex;
+  background-repeat: no-repeat;
 }
 
 /* element items */
@@ -92,24 +98,24 @@ h1, h2, p {
 
 h1 {
   font-family: Rock Salt;
-  font-size: 72px;
-  text-shadow: 3px 2px #000;
+  font-size: 4.5;
+  text-shadow: 0.5em 0.5em #444;
   color: white;
 }
 
 h2 {
-  font-size: 52px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 5.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   background: #333;
   opacity: 0.8;
   color: white;
-  border: 10px solid white;
+  border: 0.625em solid white;
 }
 
 span {
   align-content: center;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #FFF;
   
 }
@@ -119,37 +125,36 @@ header {
   align-content: center;
 }
 
-main div {
+main {
   display: flex;
   background-repeat: no-repeat;
 }
 
 footer {
   display: flex;
-  margin: 75px auto;
+  margin: 4.668em auto;
   width: 100%;
-  height: 150px;
+  height: 9.375em;
   background: #59a2e5;
   align-items: end;
   opacity: 0.8;
-  border: 10px solid white;
+  border: 0.625em solid white;
 }
 
 /* Media */
 
 .splash-picture {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
-  width: 95%;
-  height: 580px;
+  max-height: 99%;
   max-width: 99%;
-  border: 10px solid white;
-  box-shadow: 0 0 10px black;
+  border: 0.625em solid white;
+  box-shadow: 0 0 0.625em black;
 }
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
- width: 250px;
- border: 10px solid white;
+ width: 100%;
+ border: 0.625em solid white;
  /*background-repeat: no-repeat;*/
 }
 .project1:hover{
@@ -157,8 +162,8 @@ footer {
 }
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
-  width: 250px;
-  border: 10px solid white;
+  width: 100%;
+  border: 0.625em solid white;
   background-repeat: no-repeat;
 }
 .project2:hover {
@@ -166,8 +171,8 @@ footer {
 }
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
-  width: 250px;
-  border: 10px solid white;
+  width: 100%;
+  border: 0.625em solid white;
   background-repeat: no-repeat;
 }
 .project3:hover {
@@ -175,8 +180,8 @@ footer {
 }
 .project4 {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
-  width: 250px;
-  border: 10px solid white;
+  width: 100%;
+  border: 0.625em solid white;
   background-repeat: no-repeat;
 }
 .project4:hover{
@@ -193,9 +198,9 @@ footer {
   #444,
   #222,
   #444);
-  padding: 20px 40px;
-  margin-bottom: 40px;
-  border: 7px solid white;
+  padding: 1.25em 2.5em;
+  margin-bottom: 2.5em;
+  border: 0.438em solid white;
 }
 
 .flex-container a p {
@@ -204,21 +209,21 @@ footer {
   #444,
   #222,
   #444);
-  padding: 20px 50px;
+  padding: 1.25em 50em ;
   color: #FFF;
 }
 
 .projects-container p {
-  border: 10px solid white;
+  border: 0.625em solid white;
   background: #333;
-  font-size: 26px;
+  font-size: 1.6em;
   color: #FFF;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
+  padding-top: 3em;
+  padding-left: 1.625em;
+  padding-right: 1.625em;
+  padding-bottom: 3em;
   opacity: 0.9;
-  margin-left: 10px;
+  margin-left: 0.625em;
   max-width: 35%;
 }
 /*
