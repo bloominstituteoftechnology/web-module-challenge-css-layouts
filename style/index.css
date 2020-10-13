@@ -61,9 +61,8 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
-  flex-flow: column wrap;
   align-content: space-around;
-  margin-top: 3.5em;
+  margin-top: 50px;
 }
 
 .div-cascade-box {
@@ -101,7 +100,7 @@ h1, h2, p {
 h1 {
   font-family: Rock Salt;
   font-size: 4em;
-  text-shadow: 0.5em 0.5em #444;
+  text-shadow: 0.1em 0.1em #444;
   color: white;
 }
 
@@ -128,7 +127,9 @@ header {
 }
 
 main {
+  width: 100%;
   display: flex;
+  flex-flow: row wrap;
   background-repeat: no-repeat;
   justify-content: center;
 }
