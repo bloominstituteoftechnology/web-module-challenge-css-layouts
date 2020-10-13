@@ -125,12 +125,6 @@ header {
   align-content: center;
 }
 
-main  {
-  width: 100%;	
-  display: flex;
-   justify-content: center;
-}
-
 footer {
   display: flex;
   margin: 4.668em auto;
