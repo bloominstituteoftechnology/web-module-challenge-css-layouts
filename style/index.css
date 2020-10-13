@@ -171,8 +171,8 @@ footer {
 }
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
-  max-width: 15%;
-  max-height: 20%;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
 }
 .project3:hover {
