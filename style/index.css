@@ -82,8 +82,10 @@ table {
 }
 
 .gallery-container {
+width:65%;
 display: flex;
 flex-flow: row wrap;
+
 }
 
 main div {
