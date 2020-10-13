@@ -67,6 +67,7 @@ table {
   display: flex;
   flex-flow: row wrap;
   margin-top: 50px;
+  position: absolute;
 }
 
 .div-cascade-box {
