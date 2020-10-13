@@ -65,9 +65,7 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
   margin-top: 50px;
-  position: absolute;
 }
 
 .div-cascade-box {
