@@ -120,6 +120,11 @@ span {
   
 }
 
+main { 
+  display: flex;
+  justify-content: center;
+}
+
 header {
   display: flex;
   align-content: center;
@@ -142,7 +147,6 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   height: 99%;
   width: 99%;
-  border: 0.625em solid white;
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
 }
