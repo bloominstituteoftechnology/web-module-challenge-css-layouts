@@ -148,6 +148,7 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   height: 77%;
   width: 94%;
+  min-width: 94%;
   border: 10px solid white;
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
