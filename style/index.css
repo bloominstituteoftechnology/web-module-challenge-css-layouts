@@ -61,7 +61,6 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
-  flex-flow: column wrap;
   align-content: space-around;
   align-items: stretch;
   margin-top: 50px;
@@ -80,6 +79,11 @@ table {
   padding-top: 1.625em;
   padding-bottom: 1.625em;
 	
+}
+
+.gallery-container {
+display: flex;
+flex-flow: row wrap;
 }
 
 main div {
