@@ -76,7 +76,9 @@ table {
   max-width: 99%;
   display: flex;
   justify-content: center;
-  padding: 2em auto;
+  padding-top: 1.625em;
+  padding-bottom: 1.625em;
+	
 }
 
 main div {
@@ -128,6 +130,7 @@ header {
 main {
   display: flex;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 
 footer {
