@@ -84,7 +84,8 @@ table {
 .gallery-container {
 width:65%;
 display: flex;
-flex-flow: row wrap;
+flex-flow: column wrap;
+justify-content: space-around;
 
 }
 
