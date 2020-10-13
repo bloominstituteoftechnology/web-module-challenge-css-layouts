@@ -3,18 +3,15 @@
 
 
 
-
-
 header {
-    flex-direction: column;
-
+    text-align: center;
     background-color: dodgerblue;
 }
 
 
 
-.container {
-    display: flex;
+body .container {
+    text-align: center;
 }
 
 
@@ -29,6 +26,7 @@ section {
 }
 
 .project-descriptions{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,13 +37,21 @@ h1 {
 }
 
 header nav a {
+    padding: 5px;
     font-family: Geneva;
     font-size: 20px;
-    color:  navy;
+    color:  white;
     text-decoration-line: none;
+
+}
+
+header nav a:hover {
+    color: red;
 }
 
 
-footer{
+footer {
+    Padding: 20px;
+    text-align: center;
     background-color: dodgerblue;
 }
