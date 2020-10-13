@@ -346,8 +346,10 @@ a .social-media-icon {
 }
 
 
-/* ----------------------------- GO TO MEDIA QUERY -----------------*/
-@media all and (max-width: 600px) {
+/* ----------------------------- GO TO MEDIA QUERY --------------------------------*/
+
+/* ----------------------------- GO TO IPHONE MAX WIDTH 360 X HEIGHT 640 -----------------------*/
+@media all and (max-width: 360px) {
 
 header {
     height: 60vh;
@@ -394,12 +396,11 @@ nav ul li a {
 
 /* --------------MOBILE Begin body section -----*/
 
-
 .background-image-container {
     background-position: center 0vh;
     background-repeat: no-repeat;
-    background-color: #181b1f;
     height: 90%;
+    align-self: flex-start;
 }
 
 .large-image-intro-section {
@@ -425,6 +426,7 @@ nav ul li a {
     z-index: 0;
     position: relative;
 }
+
 h2 {
     color: black;
     font-size:  4em;
@@ -439,7 +441,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: black;
     letter-spacing: .05em;
     line-height: 1.5;
     margin-top: 90px;
@@ -461,19 +463,9 @@ p {
     margin-top: 200px;
 }
 
-.polaroid a {
-    -webkit-box-shadow: 0 4px 6px #555555;
-    -moz-box-shadow: 0 4px 6px #555555;
-    box-shadow: 0 4px 6px #555555;
-  }
-
 footer {
     height: 50vh;
     justify-content: flex-end;
-    -webkit-box-shadow: 0px -4px 6px #24292e;
-    -moz-box-shadow: 0 -4px 6px #24292e;
-    box-shadow: 0 -4px 6px #24292e;
-    -webkit-transition: all .20s linear;
 }
 
 footer p {
@@ -496,6 +488,7 @@ footer p {
 }
 }
 
+/* ----------------------------- GO TO MEDIA QUERY -----------------*/
 @media all and (max-width: 1064px) {
 .large-image-intro-section {
     flex-direction: column;
