@@ -35,17 +35,27 @@ body {
     padding-left: 5%;
     box-sizing: border-box;
 }
+li:active{
+    background-color: #1DA1F2;
+}
 
 button {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     background-color: white;
     color: black;
     border-radius: 75%;
     text-decoration: none;
 }
+button:active {
+    background-color:#1DA1F2;
+}
 button:hover{
     background-color: #1DA1F2; 
+}
+a:active{
+    background-color: #1DA1F2;
 }
 a:hover {
     color: white;
@@ -148,10 +158,12 @@ p {
     padding: 2.250em;
     margin: 0;
     list-style: none;
-    border-top;: 1px solid white
   }
   .flex-item:hover {
       border: 1px solid white;
+  }
+  h1 {
+      color: white;
   }
   h3{
       display: flex;
@@ -160,6 +172,14 @@ p {
       color: white;
       font-family: 'Sedgwick Ave Display', cursive;
  
+  }
+  .about {
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
   }
   
   .aws {
@@ -194,11 +214,11 @@ p {
       padding: 10px 10px 10px;
       margin: 10px 10px 10px 10px;
   }
-  .footer {
+  footer {
       
       border-top: 1px solid #1DA1F2;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       margin: 0 auto;
   }
@@ -217,6 +237,7 @@ p {
   .contact {
     display: flex;
     border-radius: 75%;
+    padding: auto;
     font-size: 15px;
     width: 500px;
     height: 50px;
@@ -225,4 +246,10 @@ p {
   }
   .contact:hover {
       color: white;
+  }
+  .atags {
+      margin: auto;
+  }
+  .button1 {
+      margin: auto;
   }
