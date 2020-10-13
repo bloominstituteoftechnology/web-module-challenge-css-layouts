@@ -64,7 +64,7 @@ table {
   display: flex;
   justify-content: center; 
   align-content: center;
-  flex-direction: row wrap;
+  flex-direction: column wrap;
   margin-top: 50px;  
 }
 
