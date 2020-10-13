@@ -153,10 +153,8 @@ footer {
 
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
- width:100%;
- height: 100%;
- min-width: 100%;
- min-height: 100%;
+ max-width: 15%;
+ max-height: 20%;
  background-repeat: no-repeat;
  /*background-repeat: no-repeat;*/
 }
@@ -165,8 +163,8 @@ footer {
 }
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 15%;
+  max-height: 20%;
   background-repeat: no-repeat;
 }
 .project2:hover {
@@ -174,8 +172,8 @@ footer {
 }
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 15%;
+  max-height: 20%;
   background-repeat: no-repeat;
 }
 .project3:hover {
