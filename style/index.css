@@ -139,7 +139,7 @@ footer {
 
 .splash-picture {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
-  width: 100%;
+  width: 95%;
   height: 580px;
   max-width: 99%;
   border: 10px solid white;
@@ -150,7 +150,7 @@ footer {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
  border: 10px solid white;
- background-repeat: no-repeat;
+ /*background-repeat: no-repeat;*/
 }
 .project1:hover{
   background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
