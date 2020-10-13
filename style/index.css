@@ -60,6 +60,7 @@ table {
 
 .projects-container {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center; 
   align-content: center;
@@ -83,7 +84,10 @@ table {
 }
 
 .splash-flexbox {
-
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-shrink: 1;
 }
 
 /* element items */
