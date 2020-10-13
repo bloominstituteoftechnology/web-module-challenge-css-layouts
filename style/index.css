@@ -61,7 +61,9 @@ table {
 .projects-container {
   width: 100%;
   display: flex;
+  justify-content;
   margin-top: 50px;
+  
 }
 
 .div-cascade-box {
@@ -82,7 +84,6 @@ table {
 .splash-flexbox {
   display: flex;
   justify-content: center;
-  flex-shrink: 1;
 }
 
 /* element items */
@@ -143,6 +144,7 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   height: 77%;
   width: 94%;
+  border: 10px solid white;
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
   margin: 20px auto;
