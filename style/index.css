@@ -128,8 +128,7 @@ header {
 main {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+   justify-content: center;
 }
 
 footer {
@@ -167,7 +166,7 @@ footer {
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
   width: 100%;
-  height: 1000%;
+  height: 100%;
   background-repeat: no-repeat;
 }
 .project2:hover {
