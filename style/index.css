@@ -98,19 +98,19 @@ h1, h2, p {
 
 h1 {
   font-family: Rock Salt;
-  font-size: 4.5;
+  font-size: 4em;
   text-shadow: 0.5em 0.5em #444;
   color: white;
 }
 
 h2 {
-  font-size: 5.5em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  font-size: 3.25em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
   background: #333;
   opacity: 0.8;
   color: white;
-  border: 0.625em solid white;
+  border: 10px solid white;
 }
 
 span {
@@ -147,6 +147,8 @@ footer {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   max-height: 99%;
   max-width: 99%;
+  min-width: 99%;
+  min-height: 99%		  
   border: 0.625em solid white;
   box-shadow: 0 0 0.625em black;
 }
