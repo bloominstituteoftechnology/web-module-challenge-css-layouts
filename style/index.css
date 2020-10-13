@@ -123,6 +123,7 @@ span {
 main { 
   display: flex;
   justify-content: center;
+  flex-flow: column wrap;
 }
 
 header {
