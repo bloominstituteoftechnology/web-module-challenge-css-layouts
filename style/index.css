@@ -119,7 +119,7 @@ header {
   align-content: center;
 }
 
-main {
+main div {
   display: flex;
   background-repeat: no-repeat;
 }
