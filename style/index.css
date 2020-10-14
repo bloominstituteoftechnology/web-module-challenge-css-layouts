@@ -82,6 +82,7 @@ table {
   display: flex;
   justify-content: space-around;
   max-width: 99%;
+  margin-bottom: 1em;
 }
 
 .projects-container {
