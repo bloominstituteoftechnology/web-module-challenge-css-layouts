@@ -124,6 +124,7 @@ h1 {
   color: white;
   opacity: 0.8;
   width: 99rem;
+  text-align: center;
 }
 
 h2 {
@@ -134,6 +135,7 @@ h2 {
   opacity: 0.8;
   color: white;
   border: 10px solid white;
+  text-align: center;
 }
 
 span {
