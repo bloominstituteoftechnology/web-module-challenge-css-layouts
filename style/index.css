@@ -53,12 +53,7 @@ table {
 
 /* * {
 	border:1px solid black !important;
-} */
 
-/* @media (max-width: 900px){
-	.indexmain {
-		background-color:red
-	}
 } */
 
 html {
@@ -71,10 +66,17 @@ html {
 	background-size: auto;
 	font-size:62.5%;
 }
+/* will probably need to change the top margin for the main container */
+
 main {
 	text-align:center;
 	opacity: 70%;
 	margin: 0 0 5% 0;
+}
+main p {
+	font-size: 3rem;
+	line-height: 3rem;
+
 }
 
 body {
@@ -88,8 +90,13 @@ h1 {
 	padding: 2rem;
 	font-size: 5rem;
 	font-weight: bold;
-	margin: 15% 0 5% 0;
+	margin: 5% 0 2% 0;
 	
+}
+
+nav {
+	border-bottom: solid 1px black;
+	border-top: solid 1px black;
 }
 
 h2 {
@@ -103,10 +110,10 @@ h2 {
 	font-size: 2.5rem
 }
 
-ul {
+.navcontainer {
     display:flex;
 	justify-content: center;
-	padding: 1rem
+	padding: 1rem;
 }
 
 footer {
@@ -115,19 +122,22 @@ footer {
 	padding: 2rem 0;
 }
 
-button:hover {
+a:hover {
 	color:white;
 	background-color: black;
 }
-button {
+a {
 	padding: 1.5rem 2.5rem;
 	margin: 0 2rem;
 	background:none;
 	border-radius: 10px;
 	font-size:2rem;
+	text-decoration: none;
+	color:black;
+	font-family: 'Staatliches', cursive;
 }
 
-.indexmain {
+#indexmain {
 	display: flex;
 	justify-content: left;
 	color: black;
@@ -135,26 +145,23 @@ button {
 	margin: 1rem 0 0 0;
 }
 
-/* .mainimg {
-	
-} */
 
-.indexmain p {
+
+#indexmain p {
 	font-size: 3rem;
-	margin: 10%;
+	margin: 2%;
 	line-height: 4rem;
 }
 
-.indexgallery {
+#indexgallery {
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .galleryimg {
-	display: flex;
 	margin:2rem 1rem;
-	/* max-width:100%; */
 
 }
 
@@ -167,4 +174,36 @@ button {
 .socialmedia {
 	text-align:center;
 	font-size:2rem;
+}
+
+
+/* MEDIA QUERY BELOW */
+
+@media all and (max-width:800px) {
+	nav ul {
+		flex-direction: column;
+	}
+	#indexmain p {
+		display:none;
+
+	}
+	#indexmain div {
+		display: block;
+		margin: 0 auto;
+		height: 100%;
+
+	}
+
+	nav ul a {
+		margin: 0 auto;
+	}
+		
+	}
+
+
+
+
+@media (max-width:500) {
+
+	
 }

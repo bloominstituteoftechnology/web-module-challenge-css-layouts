@@ -6,31 +6,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <main>
     <h1>Joshua Jacques</h1>
-    <ul>
-        <li><button class='navbut' onclick="window.location.href='index.html'" target='_blank'>Home</li>
-        <li><button class='navbut' onclick="window.location.href='about.html'" target='_blank'>About</button></li>
-        <li><button class='navbut' onclick="window.location.href='projects.html'" target='_blank'>Projects</button></li>
-        <li><button class='navbut' onclick="window.location.href='contact.html'" target='_blank'>Contact</button></li>
-    </ul>
+    <nav>
+        <ul class='navcontainer'>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</button></a>
+            <a href="projects.html">Projects</button></a>
+            <a href="contact.html">Contact</button></a>
+        </ul>
+    </nav>
     <h2>Welcome!</h2>
 
-    <p class='intro'>You can find my work experience, current/past projects and contact information here!<br>I hope you enjoy your stay! :)</p>
+    <p>You can find my work experience, current/past projects and contact information here!<br>I hope you enjoy your stay! :)</p>
 </main>
 
 <body>
-    <div class='indexmain'>
-        <img class='mainimg' src="https://picsum.photos/500/500"/>
-        <p>Hey, thanks for stopping by! My name is Josh and I've recently taken up a Web Development course at Lambda School. Currently I am a store manager for Domino's, I'm hoping I can take what I learn at Lambda and secure a corporate position with them.
-            <br>
-        In my free time I enjoy coding (obviously), playing video games, listening to SCP readings and audio books! 
+    <div id='indexmain'>
+        <div>
+           <img class='mainimg' src="https://picsum.photos/400/400"/>
+        </div>
+        <p class="indexintro">Hey, thanks for stopping by! My name is Josh and I've recently taken up a Web Development course at Lambda School. I've been in food service most of my life and am currently looking to move into the tech field.
         </p>
     </div>
 
-    <div class='indexgallery'>
+    <div id='indexgallery'>
         <img class='galleryimg' src="https://picsum.photos/200/300"/>
         <img class='galleryimg' src="https://picsum.photos/200/300"/>
         <img class='galleryimg' src="https://picsum.photos/200/300"/>
@@ -43,9 +46,7 @@
 
 <footer>
     <div class='socialmedia'>
-        Social Media
-        <br>
-        <a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <p>Social Media</p>
         <a class='socialbuttons' href='#'>Facebook</a>
     </div>
 </footer>
