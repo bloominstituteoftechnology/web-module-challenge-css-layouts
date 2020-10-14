@@ -72,13 +72,7 @@ body {
   justify-content: space-around;
   max-width: 99%;
 }
-
-.projects-container {
-  max-width: 100%;
-  display: flex;
-  align-content: space-around;
-  flex-direction: column;
-  flex-wrap: wrap;
+  
   margin-top: 60px;
 }
 
@@ -91,6 +85,14 @@ body {
   border: 10px solid white;
   display: flex;
   justify-content: center;
+}
+
+.column1 {
+ width: 60%;
+}
+
+.column2 {
+ width: 35%;
 }
 
 /* element items */
@@ -135,10 +137,9 @@ header {
   align-content: center;
 }
 
-section {
+main {
   display: flex;
-  justify-content: center;
-}
+  flex-direction: row;
 
 footer {
   display: flex;
