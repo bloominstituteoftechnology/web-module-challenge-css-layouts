@@ -59,7 +59,7 @@ table {
      height: auto;
 }
    .column2 {
-     min-width: 95%;
+     width: 95%;
 }
 }
 
@@ -76,7 +76,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     min-width: 95%%;
+     width: 95%%;
      margin: 0 auto;
 }
 }
