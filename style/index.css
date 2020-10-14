@@ -219,7 +219,7 @@ footer a {
   border: 7px solid white;
 }
 
-main p {
+main  div.flex-container p {
   border: 10px solid white;
   background: #333;
   font-size: 26px;
