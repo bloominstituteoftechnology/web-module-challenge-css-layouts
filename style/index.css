@@ -71,7 +71,10 @@ body {
   display: flex;
   justify-content: space-around;
   max-width: 99%;
-  margin-top: 60px;
+  margin: 20px auto;
+  padding: 5px 5px; 
+  background: black;
+  color: white;
 }
 
 .div-cascade-box {
