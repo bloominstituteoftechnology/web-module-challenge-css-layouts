@@ -560,11 +560,9 @@ nav ul li a {
     height: 90%;
     align-self: flex-start;
 }
-
 .large-image-intro-section {
     flex-direction: column;
 }
-
 .intro-image {
     width: 80vw;
     margin-left: auto;
@@ -584,27 +582,23 @@ nav ul li a {
     z-index: 0;
     position: relative;
 }
-
 h2 {
     color: black;
     font-size:  4em;
     margin-top: 250px;
 }
-
 .my-projects-button {
     background: black;
     color: white;
     padding: 1em 2em;
     
 }
-
 p {
     color: black;
     letter-spacing: .05em;
     line-height: 1.5;
     margin-top: 90px;
 }
-
 .intro-container {
     display: flex;
     flex-direction: column; /* default is row */
@@ -612,7 +606,6 @@ p {
     width: 100vw;
     align-items: flex-start;
 }
-
 .project-polaroids-section {
     flex-direction: column;
     /* height:  900vh; */
@@ -620,16 +613,13 @@ p {
     flex-flow: column wrap;
     margin-top: 200px;
 }
-
 footer {
     height: 50vh;
     justify-content: flex-end;
 }
-
 footer p {
     margin-top: 0;
 }
-
 .text-above-button {
     font-size: 3.5em;
 }
