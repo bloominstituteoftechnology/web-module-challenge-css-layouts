@@ -200,24 +200,24 @@ footer {
 /* Media */
 
 img.project1 {
- max-width: 60%;
+ width: 125px;
  height: 100%;
 
 }
 
 img.project2 {
-  max-width: 60%;
+  width: 125px;
   height: 100%;
  
 }
 
 img.project3 {
-  max-width: 60%;
+  width: 125px;
   height: 100%;
 } 
 
 img.project4  {
-  max-width: 60%;
+  width: 125px;
   height: 100%;
   }
 
