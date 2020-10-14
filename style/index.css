@@ -151,6 +151,11 @@ header {
   align-content: center;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -230,20 +235,6 @@ footer a {
   margin-bottom: 40px;
   padding: 20px 30px;
   border: 7px solid white;
-}
-
-main  div.flex-container p {
-  border: 10px solid white;
-  background: #333;
-  font-size: 26px;
-  color: #FFF;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  opacity: 0.9;
-  margin-left: .625em;
-  max-width: 35%;
 }
 
 
