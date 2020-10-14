@@ -99,10 +99,9 @@ body {
 
 .column1 {
  width: 60%;
- height: 400px;
+ height: 70%;
  border: 5px solid black;
- margin-top: 20px;
-
+ margin-top: 10px;
 }
 
 .column2 {
