@@ -32,7 +32,7 @@ git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
 - [X] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [X] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -78,5 +78,5 @@ Once you finish the minimum viable project, work on any of the following stretch
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
