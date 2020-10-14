@@ -70,13 +70,10 @@ table {
   margin-bottom: 1.625em;
   opacity: 0.8;
   border: 10px solid white;
+  min-width: 99%;
   max-width: 99%;
   display: flex;
   justify-content: center;
-  padding-top: 1.625em;
-  padding-bottom: 1.625em;
-  padding-left: auto;
-  padding-right: auto;
 	
 }
 
