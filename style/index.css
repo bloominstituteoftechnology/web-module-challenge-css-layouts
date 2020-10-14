@@ -183,7 +183,7 @@ section {
 
 main {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 
 footer {
   display: flex;
