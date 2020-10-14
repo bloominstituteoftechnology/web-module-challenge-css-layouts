@@ -225,7 +225,18 @@ textarea {
     height: 12.500em;
 }
 
+
+/* 800px screens */
+
 @media screen and (max-width: 800px) {
+
+    button {
+        padding: 0.900em;
+    }
+
+    .maincontainer {
+        width: 100%;
+    }
 
     .container {
         max-width: 100%;
@@ -239,27 +250,35 @@ textarea {
     }
 
     .intro {
-        /* margin: 0 auto; */
         display: flex;
         flex-flow: row wrap;
-        /* width: 60em; */
         max-width: 100%;
         height: auto;
     }
 
     .intro > img {
-        /* flex-grow: 0; */
         margin: 1em;
         max-width:45%;
         height:auto;
     }
     
     .intro > p {
-        /* flex-grow: 1; */
         margin: 1em;
         width: 2.5em;
         max-width: 45%;
-    }
-    
+    }  
 }
 
+
+/* 500px screens */
+
+@media screen and (max-width: 500px) {
+
+    .maincontainer {
+        width: 100%;
+    }
+
+    .contactcontainer {
+        width: 90%;
+    }
+}
