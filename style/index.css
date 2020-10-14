@@ -73,10 +73,11 @@ table {
      flex-flow: column wrap;	
 }
    .column1 {
-     width: 95%;
+     max-width: 95%;
      height: auto;
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
+     margin: 0 auto;
 }
    .column2 {
      width: 95%%;
