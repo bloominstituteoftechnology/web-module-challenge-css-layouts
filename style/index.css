@@ -51,74 +51,70 @@ table {
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
 
 }
 
-
-
-
-
-
 h2 {
     background: slateblue;
-    height: 20px;
+    height: 2rem;
     color: whitesmoke;
     text-align: center;
-    font-size: 15px;
-    padding: 2px;
+    font-size: 1.5rem;
+    padding: .2rem;
 }    
 .nav-container-flex {
     display: flex;
-    height: 120px;
+    height: 12rem;
     flex-direction: column;
     background: snow;
     border: solid black;
 }   
 h1 {
-    font-size: 40px;
-    padding: 20px;
-    padding-left: 60px;
+    font-size: 4rem;
+    padding: 2rem;
+    padding-left: 6rem;
 }    
 nav {
-    padding: 5px;
-    padding-left: 60px;
+    padding: .5rem;
+    padding-left: 6rem;
 }
 nav a {
     text-decoration: none;
-    border: solid black 2px;
+    border: solid black .2rem;
     font-family: 'Courier New', Courier, monospace;
     background: slategrey;
     color: snow;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .section-flex-wrapper {
     display: flex;
     background: slateblue;
-    height: 400px;
+    height: 40rem;
     
 }
 .top-picture {
-   margin: 40px;
-   border-radius: 20px;  
+   margin: 4rem;
+   border-radius: 2rem;  
    width: 50%;
-   border: solid slategray 3px;
+   border: solid slategray .33rem;
 }
 .right-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-left: 100px;
+    padding-left: 10rem; 
 }
 h3 {
     text-align: left;
-    font-size: 50px;
-    padding-bottom: 40px;
+    font-size: 5rem;
+    padding-bottom: 4rem;
 
 } 
 button {
-    width: 100px;
-    height: 30px;
+    width: 18rem;
+    height: 3rem;
     background: slategray;
     color:whitesmoke;
     
@@ -138,9 +134,9 @@ a:visited {
 }
 
 p {
-    padding-top: 40px;
+    padding-top: 4rem;
     text-align: left;
-    font-size: 25px;
+    font-size: 2.8rem;
     width: 65%;
 }
 .gallery-flex-container {
@@ -148,30 +144,59 @@ p {
     flex-wrap: wrap;
     width: 50% auto;
     justify-content: space-evenly;
-    margin: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin: 2.5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
 }
 .gallery-items {
-    border-radius: 20px;
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    border: solid slategray 3px;
+    border-radius: 2rem;
+    margin: 2rem;
+    width: 40rem;
+    height: 40rem;
+    border: solid slategray .33rem;
 }
 
 footer {
     background: slateblue;
-    height: 120px;
+    height: 12rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     
 }
 h4 {
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 .contact-footer-button {
-    border: solid slategrey 4px;
+    border: solid slategrey .4rem;
     background: slategrey;
-    text-emphasis: 400;
+    font-weight: 400;
+}
+
+@media all and (max-width: 1562px) {
+    .section-flex-wrapper {
+        flex-direction: column;
+    }
+    .top-picture {
+        display: none;
+    }
+}
+@media all and (max-width: 930px) {
+   p {
+        font-size: 2.1rem;
+        padding-top: 0;
+    }
+}
+@media all and (max-width: 800px) {
+    .nav-container-flex {
+        text-align: center;
+    }
+    h3 {
+        display: none;
+    }
+    p {
+        text-align: center;
+    }
+    .projects-button {
+        display: none;
+    }
 }
