@@ -59,7 +59,7 @@ table {
      height: auto;
 }
    .column2 {
-     width: 100%;
+     width: 95%;
      min-width: 95%;
      height: auto
 }
@@ -81,7 +81,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     width: 100;
+     width: 100%;
      min-width: 95%%;
      height: auto;
      margin: 0 auto;
@@ -182,7 +182,7 @@ main {
 footer {
   display: flex;
   margin: 75px auto;
-  max-width: 96%;
+  max-width: 100%;
   height: 150px;
   background: #59a2e5;
   align-items: end;
