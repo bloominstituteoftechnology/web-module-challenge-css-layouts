@@ -55,7 +55,8 @@ table {
      flex-direction: column;	
 }
    .column1 {
-     width: 100%;      
+     width: 100%;
+     height: auto;
 }
    .column2 {
      width: 100%;
@@ -69,6 +70,7 @@ table {
 }
    .column1 {
      width: 100%;
+     height: auto;
      display: flex;
      flex-direction: column;
 }
