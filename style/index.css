@@ -89,8 +89,8 @@ body {
 
 .column1 {
  width: 60%;
- height: 35%;
- border: 50px solid black;
+ height: 100%;
+ border: 5px solid black;
  margin-top: 20px;
 
 }
