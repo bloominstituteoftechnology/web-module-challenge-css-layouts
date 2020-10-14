@@ -59,7 +59,7 @@ table {
      height: auto;
 }
    .column2 {
-     width: 95%;
+     min-width: 95%;
      height: auto
 }
    .flex-container {
@@ -80,7 +80,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     width: 95%%;
+     min-width: 95%%;
      height: auto;
      margin: 0 auto;
 }
