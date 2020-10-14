@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 /* @media queries */
-@media all and (max-width: 370px)
+@media all and (max-width: 320px)
 {
 	.flex-container {
 	flex-direction: column;
