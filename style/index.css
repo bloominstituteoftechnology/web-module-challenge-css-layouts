@@ -116,6 +116,11 @@ h2 {
   border: 10px solid white;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 span {
   align-content: center;
   font-size: 18px;
@@ -141,15 +146,9 @@ footer {
 
 /* Media */
 
-.splash-picture {
-  background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
-  width: 100%;
- height: 4em;
-}
-
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
- width: 250px;
+ max-width: 250px;
  border: 10px solid white;
 }
 .project1:hover{
@@ -157,7 +156,7 @@ footer {
 }
 .project2 {
   background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
-  width: 250px;
+  max-width: 250px;
   border: 10px solid white;
 }
 .project2:hover {
@@ -165,7 +164,7 @@ footer {
 }
 .project3 {
  background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
-  width: 250px;
+  max-width: 250px;
   border: 10px solid white;
 }
 .project3:hover {
@@ -173,7 +172,7 @@ footer {
 }
 .project4 {
  background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
-  width: 250px;
+  max-width: 250px;
   border: 10px solid white;
 }
 .project4:hover{
