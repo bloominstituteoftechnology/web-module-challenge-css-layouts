@@ -117,7 +117,7 @@ h2 {
 }
 
 img {
-  max-width: 94%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -220,7 +220,7 @@ footer {
   padding-right: 30px;
   padding-bottom: 50px;
   opacity: 0.9;
-  margin-left: 10px;
+  margin-left: .625em;
   max-width: 35%;
 }
 
