@@ -190,7 +190,7 @@ footer {
 }
 /* direct styling */
 
-.flex-container a span {
+footer a span {
   background: linear-gradient(
   0deg,
   #444,
@@ -199,7 +199,7 @@ footer {
   color: #FFF;
 }
 
-.flex-container a {
+footer a {
   display: flex;
   text-decoration: none;
   color: #EEE;
