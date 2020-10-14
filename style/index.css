@@ -113,7 +113,7 @@ body {
 }
 
 .column2 {
-  min-width: 30%;
+  width: 35%;
   border: 10px solid white;
   background: #333;
   font-size: 26px;
