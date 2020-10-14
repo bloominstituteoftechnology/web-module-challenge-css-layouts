@@ -73,7 +73,7 @@ table {
      width: 95%;
      height: auto;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      margin: 0 auto;
 }
    .column2 {
@@ -108,7 +108,7 @@ body {
 }
 
 .column1 {
- max-width: 57%;
+ width: 57%;
  min-height: 600px;
  margin-top: 10px;
  display: flex;
