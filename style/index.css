@@ -76,7 +76,7 @@ table {
      width: 95%;
      height: auto;
      display: flex;
-     flex-flow: row wrap;
+     flex-direction: row;
 }
    .column2 {
      width: 95%%;
