@@ -200,28 +200,26 @@ footer {
 /* Media */
 
 img.project1 {
- max-width: 75%;
- height: 400px;
+ max-width: 100%;
+ height: 100%;
 
 }
 
 img.project2 {
-  max-width: 75%;
-  height: 400px;
-  border: 10px solid black;
+  max-width: 100%;
+  height: 100%;
+ 
 }
 
 img.project3 {
   max-width: 75%;
-  height: 400px;
-  border: 10px solid white;
-}
+  height: 100%;
+} 
 
 img.project4  {
   max-width: 75%;
-  height: 400px;
-  border: 10px solid white;
-}
+  height: 100%;
+  }
 
 /* direct styling */
 
