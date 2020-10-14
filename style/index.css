@@ -73,9 +73,11 @@ table {
      height: auto;
      display: flex;
      flex-direction: column;
+     margin: 0 auto;
 }
    .column2 {
      width: 100%;
+     margin: 0 auto;
 }
 }
 body {
