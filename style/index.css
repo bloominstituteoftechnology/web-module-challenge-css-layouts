@@ -190,6 +190,9 @@ footer {
   align-items: end;
   opacity: 0.8;
   border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Media */
