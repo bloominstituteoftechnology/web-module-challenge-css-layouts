@@ -68,12 +68,12 @@ html {
 }
 /* will probably need to change the top margin for the main container */
 
-main {
+.main1 {
 	text-align:center;
 	opacity: 70%;
 	margin: 0 0 5% 0;
 }
-main p {
+.main1 p {
 	font-size: 3rem;
 	line-height: 3rem;
 
