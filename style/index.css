@@ -76,7 +76,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     width: 95%%;
+     min-width: 95%%;
      margin: 0 auto;
 }
 }
@@ -113,6 +113,7 @@ body {
 }
 
 .column2 {
+  max-width: 35%
   border: 10px solid white;
   background: #333;
   font-size: 26px;
