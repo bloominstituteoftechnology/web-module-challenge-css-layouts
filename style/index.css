@@ -65,7 +65,7 @@ main {
     flex-direction: column;
 }
 
-/* ------------------------------------------Header section-------------------------------------- */
+/* ------------------------------------------ GO TO HEADER SECTION -------------------------------------- */
 header {
     display: flex;
    /*  background-color: rgb(201, 241, 201); */
@@ -220,9 +220,8 @@ p {
     padding: 30px;
 }
 
-/* flex: 0 0 200px;  controls if it grows or shrinks */
-/* Children of .project-tiles-section HAVE FLEX */
 
+/* Children of .project-polaroids-section HAVE FLEX */
 
 .polaroid a {
     background: #ffffff;
@@ -279,7 +278,7 @@ h3 { /* styles ALL project titles */
 
 
 
-/* --------------------Footer section------------------- */
+/* -------------------- GO TO FOOTER SECTION ------------------- */
 footer {
     background: green;
     width: 100%;
@@ -345,10 +344,49 @@ a .social-media-icon {
 
 }
 
-
 /* ----------------------------- GO TO MEDIA QUERY --------------------------------*/
 
-/* ----------------------------- GO TO IPHONE MAX WIDTH 360 X HEIGHT 640 -----------------------*/
+/* ----------------------------- GO TO MEDIA QUERY for WIDESCREEN 1920 x 1080 ----------------*/
+@media all and (max-width: 1920) {
+
+}
+
+/* ----------------------------- GO TO MEDIA QUERY for LAPTOP 1366 x 768 ---------------------*/
+@media all and (max-width: 1366) {
+    
+}
+/* ----------------------------- GO TO MEDIA QUERY for 1064 ----------------------------------*/
+@media all and (max-width: 1064px) {
+    .large-image-intro-section {
+        flex-direction: column;
+        height: 5%;
+    
+    }
+    
+    .intro-container {
+        width: 100%;
+        height: 300px;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+    
+    .project-polaroids-section {
+        justify-content: space-evenly;
+    }
+    }
+
+
+/* ----------------------------- GO TO MEDIA QUERY FOR 800 -----------------------*/
+@media all and (max-width: 800px) {
+
+
+}
+/* ----------------------------- GO TO MEDIA QUERY FOR 500 -----------------------*/
+@media all and (max-width: 500px) {
+
+
+}
+/* ----------------------------- GO TO IPHONE 360 x 640 -----------------------*/
 @media all and (max-width: 360px) {
 
 header {
@@ -487,25 +525,9 @@ footer p {
     margin-bottom: 2em;
 }
 }
+/* ------------------------------ GO TO MEDIA QUERY SPEECH ------------------------ */
+@media speech {
 
-/* ----------------------------- GO TO MEDIA QUERY -----------------*/
-@media all and (max-width: 1064px) {
-.large-image-intro-section {
-    flex-direction: column;
-    height: 5%;
-
-}
-
-.intro-container {
-    width: 100%;
-    height: 300px;
-    justify-content: space-evenly;
-    padding: 30px;
-}
-
-.project-polaroids-section {
-    justify-content: space-evenly;
-}
 }
 
 /* ------------------------------ GO TO PROJECT PAGE ------------------------ */
