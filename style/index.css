@@ -89,14 +89,8 @@ background-image: url("https://assets.codepen.io/4996277/pexels-shonejai-1227511
   margin-bottom: 30px;
   opacity: 0.8;
   border: 10px solid white;
-  max-width: 99%;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-}
-
-main div {
-  display: flex;
 }
 
 /* element items */
@@ -110,6 +104,8 @@ h1 {
   font-size: 72px;
   text-shadow: 3px 2px #000;
   color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 h2 {
@@ -209,11 +205,6 @@ footer {
   padding: 20px 40px;
   margin-bottom: 40px;
   border: 7px solid white;
-}
-
-block {
-  display: flex;
-  opacity: 0.7;
 }
 
 .projects-container p {
