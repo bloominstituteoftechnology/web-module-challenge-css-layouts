@@ -50,12 +50,15 @@ table {
 /* @media queries */
 @media all and (max-width: 370px)
 {
+	.flex-container {
 	flex-direction: column;
 }
-
-@media all and (max-width: 650)
+}
+@media all and (max-width: 650px)
 {
+	.flex-container {
 	justify-content: space-around;
+}
 }
 /* containers */
 
