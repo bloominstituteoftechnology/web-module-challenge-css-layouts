@@ -150,10 +150,7 @@ footer {
 .splash-picture {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
   width: 100%;
-  border: 10px solid white;
-  top: 0;
-  left: 0;
-  position: absolute;
+ height: 4em;
 }
 
 .project1 {
