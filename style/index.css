@@ -48,7 +48,8 @@ table {
 	border-spacing: 0;
 }
 /* @media queries */
-@media all and (max-width: 320px)
+
+@media only screen and (max-width: 320px)
 {
    main {
      flex-direction: column;	
@@ -60,7 +61,8 @@ table {
      width: 100%;
 }
 }
-@media all and (max-width: 650px)
+
+@media only screen and (max-width: 650px)
 {
 	  main {
      flex-direction: column;	
@@ -68,7 +70,7 @@ table {
    .column1 {
      width: 100%;
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
 }
    .column2 {
      width: 100%;
@@ -101,7 +103,7 @@ body {
 
 .column1 {
  width: 60%;
- height: 500px;
+ min-height: 600px;
  border: 5px solid black;
  margin-top: 10px;
  background: #444;
@@ -192,43 +194,31 @@ footer {
 }
 
 /* Media */
-
+/*
 .project1 {
- background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
- width: 15%;
+ width: 200px;
  height: 400px;
 
 }
-.project1:hover{
-  background-image: url("https://assets.codepen.io/4996277/pexels-skitterphoto-675960.jpg");
-}
+
 .project2 {
-  background-image: url("https://assets.codepen.io/4996277/C7539D66-13F9-449F-B7A3-26AA31D3B831_1.jpg");
-  width: 15%;
+  width: 200px;
   height: 400px;
   border: 10px solid black;
 }
-.project2:hover {
-  background-image: url("https://assets.codepen.io/4996277/429E3FA7-CFE3-44F1-8AB5-BA41A6DB0EC5_1.jpg");
-}
+
 .project3 {
- background-image: url("https://assets.codepen.io/4996277/75472897_10218861658119941_7003741669950488576_o_1.jpg"); 
-  width: 15%;
+  width: 200px;
   height: 400px;
   border: 10px solid white;
 }
-.project3:hover {
-  background-image: url("https://assets.codepen.io/4996277/pexels-cottonbro-3296280.jpg");
-}
-.project4 {
- background-image: url("https://assets.codepen.io/4996277/pexels-jiarong-deng-1034662_1.jpg"); 
-  width: 15%;
+
+.project4  
+  width: 200px;
   height: 400px;
   border: 10px solid white;
 }
-.project4:hover{
-  background-image: url("https://assets.codepen.io/4996277/pexels-pixabay-531880_1.jpg");
-}
+*/
 /* direct styling */
 
 nav a {
