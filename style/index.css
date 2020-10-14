@@ -106,14 +106,14 @@ body {
 }
 
 .column1 {
- width: 60%;
+ width: 57%;
  min-height: 600px;
  margin-top: 10px;
  display: flex;
 }
 
 .column2 {
-  width: 35%;
+  width: 32%;
   border: 10px solid white;
   background: #333;
   font-size: 26px;
