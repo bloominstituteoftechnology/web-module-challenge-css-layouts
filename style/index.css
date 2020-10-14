@@ -80,4 +80,31 @@ footer {
 }
 
 @media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  header nav button {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+  h2 {
+    text-align: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .pictures div img {
+    width: 150px;
+  }
+  .pictures div {
+    margin-bottom: 20px;
+  }
 }
