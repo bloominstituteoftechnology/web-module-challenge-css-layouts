@@ -319,10 +319,32 @@ hr.solid{
 }
 
 /* Project Styling */
-
 .proContent{
-    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+.proBox{
+    color: white;
+    background-color: rgba(10, 10, 10, .5);
+    width:35%;
+    margin: 3%;
+    padding: 4%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.proBox a{
+    color: white;
+}
+
+.proBox h3{
+    text-decoration: underline;
+}
+
+
+
+
                                     /* Mobile Styling */
 @media screen and (max-width:500px) and (min-width:300px){
     header {
