@@ -109,6 +109,7 @@ body {
  border: 5px solid black;
  margin-top: 10px;
  background: #444;
+ display: flex;
 }
 
 .column2 {
