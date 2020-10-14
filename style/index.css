@@ -197,31 +197,31 @@ footer {
 }
 
 /* Media */
-/*
+
 img.project1 {
- width: 100px;
+ max-width: 100px;
  height: 400px;
 
 }
 
 img.project2 {
-  width: 100px;
+  max-width: 100px;
   height: 400px;
   border: 10px solid black;
 }
 
 img.project3 {
-  width: 100px;
+  max-width: 100px;
   height: 400px;
   border: 10px solid white;
 }
 
 img.project4  {
-  width: 100px;
+  max-width: 100px;
   height: 400px;
   border: 10px solid white;
 }
-*/
+
 /* direct styling */
 
 nav a {
