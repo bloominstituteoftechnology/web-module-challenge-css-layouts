@@ -133,6 +133,11 @@ header {
   align-content: center;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   display: flex;
   margin: 75px auto;
