@@ -499,9 +499,10 @@ li {
 }
 
 }
-
 /* ----------------------------- GO TO IPHONE X 375 x 812 -----------------------*/
 @media all and (max-width: 375px) {
+
+/* empty */
 
 }
 
@@ -642,7 +643,6 @@ footer p {
 }
 .social {
     margin-bottom: 2em;
-}
 }
 }
 /* ------------------------------ GO TO MEDIA QUERY SPEECH ------------------------ */
