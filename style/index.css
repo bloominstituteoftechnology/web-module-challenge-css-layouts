@@ -73,9 +73,7 @@ body {
   max-width: 99%;
   margin: 20px auto;
   padding: 20px 20px; 
-  background: black;
   color: white;
-  text-decoration: none;
 }
 
 .div-cascade-box {
@@ -151,6 +149,7 @@ span {
   #444,
   #222,
   #444);
+  font-size: 20px;
 }
 
 header {
