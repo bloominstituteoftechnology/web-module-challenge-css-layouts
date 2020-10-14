@@ -276,9 +276,7 @@ h3 { /* styles ALL project titles */
     object-fit: cover;
 }
 
-
-
-/* -------------------- GO TO FOOTER SECTION ------------------- */
+/* ---------------------------------- GO TO FOOTER SECTION --------------------------------- */
 footer {
     background: green;
     width: 100%;
@@ -347,13 +345,67 @@ a .social-media-icon {
 /* ----------------------------- GO TO MEDIA QUERY --------------------------------*/
 
 /* ----------------------------- GO TO MEDIA QUERY for WIDESCREEN 1920 x 1080 ----------------*/
-@media all and (max-width: 1920) {
+@media all and (max-width: 1920px) {
 
+.large-image-intro-section {
+    width: 100%;
+    justify-content: center;
+    background: whitesmoke;
+    }
+
+h2 {
+    font-size: 4rem;
+}
+
+.my-projects-button {
+    padding: 1em 2em;
+    width: 400px;
+    font-size: 1em;
+}
+
+.my-projects-button:hover {
+    transform: scale(1.2);
+    transition: 2s ease;
+}
+
+.intro-text {
+    font-size: 1.3em;
+}
+
+.project-polaroids-section {
+    width: 90%;
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding-right: 10%;
+}
+
+.polaroid {
+    margin: 2em;
+}
+}
+/* ----------------------------- GO TO MEDIA QUERY for 1884 ---------------------*/
+@media all and (max-width: 1884px) {
+.intro-container p {
+    font-size: .9em;
+}
 }
 
 /* ----------------------------- GO TO MEDIA QUERY for LAPTOP 1366 x 768 ---------------------*/
-@media all and (max-width: 1366) {
-    
+@media all and (max-width: 1366px) {
+h2 {
+    font-size: 3rem;
+}
+.intro-container p {
+    font-size: 1em;
+}
+.project-polaroids-section {
+    width: 100%;
+    justify-content: space-around;
+    padding: 30px;
+}
+.polaroid {
+    margin: 7px;
+}
 }
 /* ----------------------------- GO TO MEDIA QUERY for 1064 ----------------------------------*/
 @media all and (max-width: 1064px) {
@@ -375,16 +427,213 @@ a .social-media-icon {
     }
     }
 
-
 /* ----------------------------- GO TO MEDIA QUERY FOR 800 -----------------------*/
 @media all and (max-width: 800px) {
 
 
 }
+/* ----------------------------- GO TO MEDIA QUERY FOR 600 -----------------------*/
+@media all and (max-width: 600px) {
+header {
+    width: 100%;
+    height: 260px;
+}
+
+nav {
+    height: 80px;
+    align-self: flex-start;
+    justify-content: space-between;  
+}
+
+ul {
+    display: flex; /* lets the <a> tags display in a row */
+    flex-flow: row wrap;
+    justify-content: space-between;  
+
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+nav ul li a {
+    padding: 1em 2em;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 8em;
+    text-align: center;
+    align-self: flex-start;  
+}
+
+.large-image-intro-section {
+background: none;
+}
+.intro-image {
+    width: 90%;
+    margin: 0, auto;
+
+}
+}
 /* ----------------------------- GO TO MEDIA QUERY FOR 500 -----------------------*/
 @media all and (max-width: 500px) {
+h1 {
+    font-size: 2.5em;
+}
 
+li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
 
+.intro-container {
+    margin-top: 20px;
+}
+
+}
+
+/* ----------------------------- GO TO IPHONE X 375 x 812 -----------------------*/
+@media all and (max-width: 375px) {
+    @media all and (max-width: 360px) {
+
+        header {
+            height: 60vh;
+            width: 100vw;
+        }
+        
+        h1 {
+            color: white;
+            font-size:  2.5em;
+            font-family: 'Dancing Script', cursive;
+            align-self: flex-start;
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+        
+        nav {
+            height: 80px;
+            align-self: flex-start;
+            justify-content: space-between;  
+        }
+        
+        ul {
+            display: flex; /* lets the <a> tags display in a row */
+            flex-flow: column wrap;
+            justify-content: space-between;  
+        
+        }
+        
+        li {
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: row wrap;
+        }
+        
+        nav ul li a {
+            padding: 1em 2em;
+            color: white;
+            background-color: green;
+            border-radius: 10px;
+            width: 8em;
+            text-align: center;
+            align-self: flex-start;  
+        }
+        
+        /* --------------MOBILE Begin body section -----*/
+        
+        .background-image-container {
+            background-position: center 0vh;
+            background-repeat: no-repeat;
+            height: 90%;
+            align-self: flex-start;
+        }
+        
+        .large-image-intro-section {
+            flex-direction: column;
+        }
+        
+        .intro-image {
+            width: 80vw;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: cover;
+            align-self: flex-start;
+            /* polaroid effect here  */
+            background: white;
+            padding: 15px 15px 30px;
+            text-align: center;
+            -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+            -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+            -webkit-transition: all .20s linear;
+            -moz-transition: all .20s linear;
+            transition: all .20s linear;
+            z-index: 0;
+            position: relative;
+        }
+        
+        h2 {
+            color: black;
+            font-size:  4em;
+            margin-top: 250px;
+        }
+        
+        .my-projects-button {
+            background: black;
+            color: white;
+            padding: 1em 2em;
+            
+        }
+        
+        p {
+            color: black;
+            letter-spacing: .05em;
+            line-height: 1.5;
+            margin-top: 90px;
+        }
+        
+        .intro-container {
+            display: flex;
+            flex-direction: column; /* default is row */
+            height: 250vh;
+            width: 100vw;
+            align-items: flex-start;
+        }
+        
+        .project-polaroids-section {
+            flex-direction: column;
+            /* height:  900vh; */
+            /* margin-top: 70vh; */
+            flex-flow: column wrap;
+            margin-top: 200px;
+        }
+        
+        footer {
+            height: 50vh;
+            justify-content: flex-end;
+        }
+        
+        footer p {
+            margin-top: 0;
+        }
+        
+        .text-above-button {
+            font-size: 3.5em;
+        }
+        .contact-me-button {
+            width: 300px;
+            padding: 1em 2em;
+            margin: 1em;
+        }
+        .contact-me-button:hover {
+            width: 300px;
+        }
+        .social {
+            margin-bottom: 2em;
+        }
 }
 /* ----------------------------- GO TO IPHONE 360 x 640 -----------------------*/
 @media all and (max-width: 360px) {
