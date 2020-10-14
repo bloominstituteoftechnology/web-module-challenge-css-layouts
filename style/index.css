@@ -96,7 +96,7 @@ body {
 /* containers */
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   max-width: 99%;
   margin: 20px auto;
   padding: 20px 20px; 
