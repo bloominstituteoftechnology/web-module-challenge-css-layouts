@@ -92,6 +92,7 @@ body {
 .column1 {
  width: 60%;
  height: 35%;
+ border: 50px solid black;
 
 }
 
@@ -144,7 +145,12 @@ span {
   align-content: center;
   font-size: 18px;
   color: #FFF;
-  
+  padding: 20px 30px;
+  background: linear-gradient(
+  0deg,
+  #444,
+  #222,
+  #444);
 }
 
 header {
