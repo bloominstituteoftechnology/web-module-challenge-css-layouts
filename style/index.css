@@ -190,13 +190,15 @@ footer {
 }
 /* direct styling */
 
-footer a span {
+nav a  {
   background: linear-gradient(
   0deg,
   #444,
   #222,
   #444);
   color: #FFF;
+  padding: 1.1em 1.65em;
+  text-decoration: none;
 }
 
 footer a {
