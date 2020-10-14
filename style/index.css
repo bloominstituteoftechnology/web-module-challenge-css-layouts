@@ -73,13 +73,13 @@ table {
      flex-flow: column wrap;	
 }
    .column1 {
-     max-width: 95%;
+     width: 95%;
      height: auto;
      display: flex;
      flex-flow: row wrap;
 }
    .column2 {
-     max-width: 95%%;
+     width: 95%%;
      height: auto;
      margin: 0 auto;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 .column2 {
-  max-width: 35%;
+  width: 35%;
   border: 0px solid white;
   background: #333;
   font-size: 26px;
