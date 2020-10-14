@@ -75,6 +75,8 @@ table {
   justify-content: center;
   padding-top: 1.625em;
   padding-bottom: 1.625em;
+  padding-left: auto;
+  padding-right: auto;
 	
 }
 
