@@ -159,7 +159,7 @@ footer {
 .project1 {
  background-image: url("https://assets.codepen.io/4996277/pexels-josh-sorenson-995301.jpg"); 
  width: 250px;
- max-height: 35%;
+ max-height:auto;
  border: 10px solid white;
 }
 .project1:hover{
