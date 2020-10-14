@@ -119,11 +119,12 @@ h1 {
   font-size: 3.5em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+  border: 10px solid white;
   text-shadow: 0.1em 0.1em #444;
   background: #59a2e5;
   color: white;
   opacity: 0.8;
-  width: 100%;
+  width: 99%;
   text-align: center;
   margin-bottom: 1em;
 }
