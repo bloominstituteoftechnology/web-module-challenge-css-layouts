@@ -164,6 +164,7 @@ footer {
   border: 10px solid white;
   box-shadow: 0 0 0.625em black;
   background-repeat: no-repeat;
+  background-resize: auto;
   margin: 20px auto;
 }
 
