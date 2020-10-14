@@ -156,21 +156,6 @@ section img {
   margin: 0 auto;
 }
 
-span {
-  align-content: center;
-  font-size: 18px;
-  color: #FFF;
-  padding: 20px 30px;
-  background: linear-gradient(
-  0deg,
-  #444,
-  #222,
-  #444);
-  font-size: 20px;
-  margin-top: 50px;
-  text-decoration: none;
-}
-
 header {
   display: flex;
   align-content: center;
