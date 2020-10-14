@@ -79,7 +79,7 @@ table {
      max-width: 95%;
      max-height: 60%;
      display: flex;
-     flex-flow: row wrap;
+     flex-direction: column;
      margin: 0 auto;
 }
    .column2 {
