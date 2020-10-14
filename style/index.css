@@ -57,11 +57,13 @@ table {
    .column1 {
      width: 95%;
      height: auto;
+     margin: 0 auto;
 }
    .column2 {
      width: 90%;
      min-width: 95%;
-     height: auto
+     height: auto;
+     margin: 0 auto;
 }
    .flex-container {
      flex-direction: column;
@@ -81,7 +83,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     width: 100%;
+     width: 90%;
      min-width: 95%%;
      height: auto;
      margin: 0 auto;
