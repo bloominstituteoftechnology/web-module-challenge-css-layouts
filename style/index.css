@@ -117,8 +117,12 @@ h1, h2, p {
 h1 {
   font-family: Rock Salt;
   font-size: 4em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   text-shadow: 0.1em 0.1em #444;
+  background: #59a2e5;
   color: white;
+  opacity: 0.8;
 }
 
 h2 {
