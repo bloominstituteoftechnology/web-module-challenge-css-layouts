@@ -96,7 +96,17 @@ body {
 }
 
 .column2 {
- width: 35%;
+  width: 35%;
+  border: 10px solid white;
+  background: #333;
+  font-size: 26px;
+  color: #FFF;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  opacity: 0.9;
+  margin-left: .625em;
 }
 
 /* element items */
