@@ -74,6 +74,7 @@ table {
   max-width: 99%;
   display: flex;
   justify-content: center;
+  padding: 2em auto;
 	
 }
 
