@@ -55,11 +55,11 @@ table {
      flex-flow: column wrap;	
 }
    .column1 {
-     width: 100%;
+     width: 95%;
      height: auto;
 }
    .column2 {
-     min-width: 100%;
+     min-width: 95%;
 }
 }
 
@@ -69,14 +69,14 @@ table {
      flex-flow: column wrap;	
 }
    .column1 {
-     width: 100%;
+     width: 95%;
      height: auto;
      display: flex;
      flex-direction: column;
      margin: 0 auto;
 }
    .column2 {
-     min-width: 100%;
+     min-width: 95%%;
      margin: 0 auto;
 }
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .column2 {
-  max-width: 3.5em;
+  max-width: 35%;
   border: 10px solid white;
   background: #333;
   font-size: 26px;
