@@ -59,7 +59,7 @@ table {
      height: auto;
 }
    .column2 {
-     width: 100%;
+     min-width: 100%;
 }
 }
 
@@ -76,7 +76,7 @@ table {
      margin: 0 auto;
 }
    .column2 {
-     width: 100%;
+     min-width: 100%;
      margin: 0 auto;
 }
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .column2 {
-  width: 35%;
+  width: 5em;
   border: 10px solid white;
   background: #333;
   font-size: 26px;
