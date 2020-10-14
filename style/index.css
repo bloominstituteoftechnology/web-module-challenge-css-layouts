@@ -74,8 +74,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    height: 100px;
-    padding: 0 20px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -157,9 +156,9 @@ footer nav img {
     margin-top: 20px;
 }
 
-/* Screen Size: >= 885px */
+/* Screen Size: >= 800x */
 
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 800px) {
         /* Classes */
 
         .flex-container {
@@ -230,9 +229,7 @@ footer nav img {
             justify-content: space-between;
             align-items: center;
             background-color: black;
-            height: 100px;
-            padding: 0 20px;
-            margin-bottom: 20px;
+            padding: 20px;
         }
     
         nav a {
@@ -299,5 +296,21 @@ footer nav img {
             width: 30px;
             height: 30px;
             margin-top: 20px;
+        }
+  }
+
+/* Screen Size: >= 500x */
+
+  @media screen and (max-width: 500px) {
+        h1 {
+            margin-bottom: 20px;
+        }    
+    
+    header , nav {
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
         }
   }
