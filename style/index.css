@@ -229,7 +229,7 @@ footer {
 }
 /* direct styling */
 
-nav.flex-container a  {
+nav a  {
   background: linear-gradient(
   0deg,
   #444,
