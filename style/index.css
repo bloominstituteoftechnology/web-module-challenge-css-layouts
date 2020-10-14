@@ -51,13 +51,15 @@ table {
 @media all and (max-width: 320px)
 {
 	.flex-container {
+	display: flex;
 	flex-direction: column;
 }
 }
 @media all and (max-width: 650px)
 {
 	.flex-container {
-	justify-content: space-around;
+	display: flex;
+	justify-content: center;
 }
 }
 /* containers */
