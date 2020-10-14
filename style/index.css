@@ -167,8 +167,8 @@ footer {
 
 .splash-picture {
   background-image: url("https://assets.codepen.io/4996277/pexels-yente-van-eynde-2403392.jpg");
-  max-height:100%;
-  min-width: 94%;
+  max-height:40%;
+  max-width: 94%;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 20px auto;
