@@ -78,6 +78,7 @@ body {
   display: flex;
   align-content: space-around;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 
