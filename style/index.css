@@ -183,7 +183,7 @@ footer {
 }
 /* direct styling */
 
-.flex-container a p {
+.flex-container a span {
   background: linear-gradient(
   0deg,
   #444,
@@ -202,7 +202,7 @@ footer {
   #444,
   #222,
   #444);
-  padding: 20px 40px;
+  padding: 20px 30px;
   margin-bottom: 40px;
   border: 7px solid white;
 }
