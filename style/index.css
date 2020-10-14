@@ -50,16 +50,26 @@ table {
 /* @media queries */
 @media all and (max-width: 320px)
 {
-	.flex-container {
-	display: flex;
-	flex-direction: column;
+   main {
+     flex-direction: column;	
+}
+   .column1 {
+     width: 100%;      
+}
+   .column2 {
+     width: 100%;
 }
 }
 @media all and (max-width: 650px)
 {
-	.flex-container {
-	display: flex;
-	justify-content: center;
+	  main {
+     flex-direction: column;	
+}
+   .column1 {
+     width: 100%;      
+}
+   .column2 {
+     width: 100%;
 }
 }
 body {
