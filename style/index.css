@@ -106,7 +106,7 @@ body {
 }
 
 .column1 {
- width: 50%;
+ width: 45%;
  min-height: 600px;
  margin-top: 10px;
  display: flex;
@@ -199,25 +199,25 @@ footer {
 /* Media */
 
 img.project1 {
- max-width: 15%;
+ max-width: 10%;
  height: 400px;
 
 }
 
 img.project2 {
-  max-width: 15%;
+  max-width: 10%;
   height: 400px;
   border: 10px solid black;
 }
 
 img.project3 {
-  max-width: 15%;
+  max-width: 10%;
   height: 400px;
   border: 10px solid white;
 }
 
 img.project4  {
-  max-width: 15%;
+  max-width: 10%;
   height: 400px;
   border: 10px solid white;
 }
