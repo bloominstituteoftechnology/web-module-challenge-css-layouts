@@ -90,7 +90,7 @@ table {
   display: flex;
   justify-content: center; 
   align-content: center;
-  flex-direction: row wrap;
+  flex-direction: row;
   margin-top: 50px;  
 }
 
@@ -123,6 +123,7 @@ h1 {
   background: #59a2e5;
   color: white;
   opacity: 0.8;
+  width: .9rem;
 }
 
 h2 {
