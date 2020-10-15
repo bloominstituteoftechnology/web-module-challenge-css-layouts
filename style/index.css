@@ -253,3 +253,91 @@ p {
   .button1 {
       margin: auto;
   }
+
+
+  @media all and (max-width: 480px)
+  {
+      html {
+          width: 480px;
+      }
+      body {
+          width: 100%;
+      }
+      .nav {
+
+      }
+      .name {
+          display: flex;
+          flex-direction: row;
+          font-size: 75px;
+          padding-top: 0%;
+          margin-left: 8%;
+      }
+      .head-container {
+          display: flex;
+          flex-direction: column;
+          border-bottom-width: 100%;
+      }
+      .projects {
+          display: flex;
+          flex-direction: column;
+      }
+      .column {
+          display: flex;
+          flex-direction: column;
+      }
+      .pic1 {
+          display: none;
+      }
+      nav {
+          padding-top: 0%;
+          margin-bottom: 5%;
+      }
+      .nav-container {
+          display: flex;
+          flex-direction: column;
+
+      }
+      .button {
+          padding: auto; 
+      }
+      h2 {
+          text-align: center;
+          display: none;
+      }
+      .mywork {
+          border-radius: 0%;
+          padding-top: 5%;
+          margin-left: 5%;
+          
+      }
+      nav {
+          display: flex;
+          flex-direction: column;
+          border-radius: 0%;
+      }
+      .nav-container {
+          display: flex;
+          flex-direction: column;
+          border-radius: 0%;
+        
+      }
+      .projects {
+        display: none;
+      }
+      .lambda {
+          display: none;
+      }
+      .main-section {
+          display: none;
+      }
+      .project-gallery1 {
+          text-align: center;
+          padding-left: 38%;
+      }
+      .contact {
+          border-radius: 0%;
+          padding-top: 2.5%;
+          margin: auto;
+      }
+  }
