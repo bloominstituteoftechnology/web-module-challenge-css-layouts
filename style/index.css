@@ -1,5 +1,4 @@
-/* Add CSS styling here */
-
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,20 +20,28 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-* {
+:root {
+    --primary-color: #715B64;
+}
+
+
+
+
+
+body {
+    background-color: var(--primary-color);
+    color: #89937C;
+    width: 100%;
     font-family: 'Quicksand', sans-serif;
 }
 
-body {
-    background-color:#715B64;
-    color: #89937C;
-}
-
 header { /*container holding, h1, .navigation, and button.top*/
+    background-color:#3A3042;
     margin: auto 0;
     border: 20px;
     box-sizing: border-box;
     padding: 40px;
+    width: 100%;
 }
 
 h1 {
@@ -69,12 +76,13 @@ main {
 
 div.moon {
     padding: 50px;
+    
 }
 
 div.moon img { /*container for moon picture*/
     width: 100%;
+    
     margin: 5% 10%;
-   
     border: solid orange;
     border-radius: 10px;
 }
@@ -83,9 +91,10 @@ section.top-info { /*container for right side text next to moon picture*/
     padding: 100px;
     text-align: justify;
     width: 50%;
-    float: right;
+    
     display: flex;
     flex-direction: column;
+
 }
 
 .top-info p {
@@ -132,7 +141,6 @@ button.myProjects {
 
 footer {
     background-color: #C1AE9F;
-    width: 100%;
     text-align: center;
     padding: 50px;
 }
@@ -148,5 +156,54 @@ button.contactMe {
     border: solid orange 3px;
     border-radius: 5px;
     background-color:#EDFFD9;
+}
+
+@media (max-width: 800px) {
+
+    header {
+        background-color: var(--primary-color);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .navigation { /*container for all the header buttons*/
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+
+
+
+    main {
+        flex-direction: column;
+
+    }
+    div.moon {
+        padding-top: 0;
+    }
+    div.moon img {
+        margin: 0;
+    }
+
+    section.top-info {
+        padding: 0;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .gallery .item {
+        padding: 5% 5%;
+        width: 30%;
+    
+    }
+
+    .gallery p {
+        text-align: center;
+    }
+
+
 }
 
