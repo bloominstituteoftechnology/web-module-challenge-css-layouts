@@ -1,1 +1,190 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+html{
+    font-size: 62.5%;
+}
+.nav-section{
+    /* border: solid red 2px; */
+    padding: 2%;
+    padding-left: 14%;
+    background-color: beige;
+   
+}
+.name-container{
+    /* border: solid black 1px; */
+    width: 20%;
+    font-size: 5.0rem;
+    font-family: 'Oswald', sans-serif;
+}
+.navigation-buttons{
+    /* border: solid black 2px; */
+    width: 30%;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+a{
+    background-color: white;
+    border: solid 1px black; 
+    font-size: 2.0rem;
+    text-decoration: none;
+    color: black;
+    padding: 5px 13px 5px 13px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.top-content-container{
+    display: flex;
+    /* border: solid 2px black; */
+    align-self: center;
+    width: 80%;
+    align-content: space-around;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+/* .top-image{ */
+    /* border: solid blue 1px; */
+
+
+.top-image-txt{
+    /* border: solid black 1px; */
+    display: flex;
+    /* width: 25% 10px;
+    flex-wrap: wrap; */
+    align-content: flex-start;
+    flex-flow: column wrap;
+    padding-left: 10%;
+    
+   
+}
+h2{
+    padding: 20% 0 2% 25px;
+    font-size: 2.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+.bottom-btn{
+    width: 15%;
+    font-size: 2.0rem;
+    padding-left: 7px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    
+    
+    
+}
+.under-btn-txt{
+    /* border: solid black 2px; */
+    font-size: 3.3rem;
+    padding-top: 2%;
+    width: 65%;
+    display: flex;
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* end of the top section */
+
+/* beggining of main content */
+/* .main-container{
+    
+    border: solid red 2px;
+    width: 70%;
+}
+.pictures{
+    padding: 10px;
+    
+}
+.img-txt{
+    display: flex;
+    align-items: center;
+} */
+.gallery-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 1px; */
+    padding-left: 3%;
+    align-content: center;
+    text-align: center;
+    
+}
+.pictures{
+    padding: 20% 85px 15px;
+    
+}
+.img-txt{
+    display: block;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* end of the main content */
+
+/* start of the footer */
+footer{
+    padding-top: 5%;
+}
+.footer-container{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border: black solid 2px; */
+}
+.footer-txt{
+    font-size: 3.3rem;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-btn{
+    font-size: 3.3rem;
+    padding-top: 5%;
+    width: 90%;
+    display: flex;
+    padding-left: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
