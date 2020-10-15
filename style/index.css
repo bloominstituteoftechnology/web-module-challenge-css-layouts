@@ -1,4 +1,29 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+
 /* ----------Global ---------- */
+
+
 strong {
     font-weight: 700;
 }
@@ -222,69 +247,99 @@ footer {
 
 /* ---------- Media Queries ---------- */
 
-@media screen and (max-width: 980px) {
-    /* .home-section h1 strong {
-        color: orange;
-    } */
+@media screen and (max-width: 800px) {
+   header  {
+   right: initial;
+   padding-left: 25%;
+       
+   } 
+
+   header .links ul li {
+    width: 80%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+   }
+
+   header div img  {
+    height: 15%;
+   }
+    
+    div.logo {
+     display: none;
   }
+
+  .links {
+      float: none;
+    }
 
   @media screen and (max-width: 500px) {
 
     body {
-        width: 115%;
+        width: 100%;
     }
 
     header {
         position: static;
+        height: 20rem;
     }
 
-    /* header * {
-        display: flex; 
-       
+    header * {
+        display: block;
+        font-size: 1.3rem;
+        text-align: center;
         
-    } */
+    }
+
+    header a {
+        margin-right: 0;
+    }
+
+    div.logo {
+        position: sticky;
+    }
+
+    .logo a {
+            font-size: 3rem;
+            background-color: white;
+            position: sticky;
+    }
 
     nav ul {
-        border: solid 1px black;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-sizing: border-box
+        box-sizing: border-box;
+        width: 100vw;
+        
     }
 
-    /* nav {
-        display: block;
-    } */
-  
+    nav ul li {
+        margin-top: 2rem;
+    }
+   
     .links {
-
+        margin-right: 0;
         flex-direction: column;
     }
 
-.links ul li {
-        display: block;
-        box-sizing: border-box
-    }
 
     .home-section {
-        /* display: inline-block; */
+       
         width: 80%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
 
-    div img {
-        width: 16rem;
+    header div img {
+        width: 24rem;
+        margin: 0 auto;
     }
 
-    .text {
-        
-        width: 90%;
-        margin-top: 0 auto;
-
-    }
+  
 
     .about {
         flex-direction: column-reverse;
@@ -296,15 +351,22 @@ footer {
         font-size: 1.5rem;
         width: 100%;
     }
+    .about .about-text {
+        padding: 2rem 0;
+    }
      .about h1 {
-         font-size: 5rem;
+         font-size: 4rem;
          display: block;
      }
 
      .projects {
          flex-direction: column;
          margin: 0 auto;
+         align-items: center;
+         justify-content: center;
      }
+
   }
+}
 
 /* -----x---- Media Queries -----x---- */
