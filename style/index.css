@@ -91,7 +91,6 @@ section.top-info { /*container for right side text next to moon picture*/
     padding: 100px;
     text-align: justify;
     width: 50%;
-    
     display: flex;
     flex-direction: column;
 
@@ -173,7 +172,10 @@ button.contactMe {
         
     }
 
-
+    button.top:hover {
+        background-color:#3A3042; 
+        color: #EDFFD9;
+    }
 
     main {
         flex-direction: column;
@@ -204,6 +206,14 @@ button.contactMe {
         text-align: center;
     }
 
+
+}
+
+@media (max-width: 500px){
+
+    .gallery .item {
+        width: 50%;
+    }
 
 }
 
