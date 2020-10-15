@@ -282,3 +282,10 @@ textarea {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 420px) {
+
+    button {
+        padding: 0.600em;
+    }
+}
