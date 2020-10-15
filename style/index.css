@@ -228,6 +228,23 @@ h4 {
     
 }
 @media all and (max-width: 500px) {
+    .nav-container-flex {
+        display: flex;
+        height: 22rem;
+        flex-direction: column;
+        background: snow;
+        border: solid black;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    nav a {
+        width: 15rem;
+        height: 2.5rem;
+        
+    }   
     .gallery-flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -237,4 +254,18 @@ h4 {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-  
+    .projects-button {
+        display: block;
+        align-self: center;
+       
+    }
+    p {
+        display: none;
+    }
+    .section-flex-wrapper {
+        background-image: url("https://picsum.photos/536/354");
+    }
+    h4 {
+        display: none;
+    }
+}
