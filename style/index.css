@@ -13,6 +13,8 @@ header h1 {color:#03e9f4;
         font-size:80px ;
         font-family: 'Architects Daughter', cursive;}
 
+
+
 nav {margin:0;
     padding:0;
     font-family: 'Architects Daughter', cursive;
@@ -37,6 +39,7 @@ a {position: relative;
     transition: 0.5s;
     overflow:hidden;
 }
+
 a:hover {background:#03e9f4;
 color:#050801;
 box-shadow: 0 0 5px #03e9f4
@@ -125,7 +128,7 @@ background-color: #050801;
 }
 
 .container img{ 
-    height:40rem;
+    height:30rem;
     width:85%;
 padding:10px 5px 5px 80px}
 
@@ -163,10 +166,13 @@ border: solid 5px black
         display:flex;
         justify-content:center;
         align-items: center;
-        background:#050801;
-        
-        ;
-    }
+        background:#050801;       
+}
 
-   
+@media (max-width:650px){
+    header h1 {color:#3CB371}
+    nav {display:flex;
+        flex-direction: column;}
+       
+}
               
