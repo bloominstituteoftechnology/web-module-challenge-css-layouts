@@ -1,1 +1,173 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    padding: 3% 7% 0 7%;
+    background-color: #FEFEE3;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;    
+    }
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* ------- NAV STYLING -------- */
+
+nav{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 3%;
+    width: 70%;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    padding-right: 65%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 20%;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ------- ABOUT ME STYLING -------- */
+
+h2{
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    text-align: center;    
+}
+.topImg{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.divButton{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.projects{
+    background-color: #0E1C36;
+    border: none;
+    color: #FEFEE3;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.backgroundImg{
+    display: block;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    object-fit: cover;    
+}
+
+
+/* ------- PROJECTS STYLING -------- */
+
+img{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+    padding: 5% 2% 5% 2%;
+}
+
+.divImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5% 10% 15% 5%;
+    width: auto;
+}
+
+.txt{
+    font-size: 2.6rem;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+
+/* ------- CONTACT STYLING -------- */
+
+.divButton{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.contactButton{
+    background-color: #0E1C36;
+    border: none;
+    color: #FEFEE3;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
