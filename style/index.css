@@ -232,7 +232,7 @@ h4 {
         display: flex;
         height: 22rem;
         flex-direction: column;
-        background: snow;
+        background: aliceblue;
         border: solid black;
     }
     nav {
@@ -264,6 +264,10 @@ h4 {
     }
     .section-flex-wrapper {
         background-image: url("https://picsum.photos/536/354");
+    }
+    
+    h3 {
+        display: inline;
     }
     h4 {
         display: none;
