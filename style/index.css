@@ -177,6 +177,11 @@ button.contactMe {
         color: #EDFFD9;
     }
 
+    button.myProjects:hover {
+        background-color:#3A3042; 
+        color: #EDFFD9;
+    }
+
     main {
         flex-direction: column;
 
