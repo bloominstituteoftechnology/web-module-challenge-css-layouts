@@ -21,6 +21,7 @@ main {
 .main-text {
     color: pink;
     font-size: 150%;
+   
 
 }
 
@@ -35,7 +36,8 @@ body {background: gray;
 
 .content-image img {
     max-width: 300%;
-	max-height: 300px;
+    max-height: 300px;
+    
 }
 
 
@@ -48,11 +50,45 @@ body {background: gray;
     display: flex;
     justify-content: space-around;
     color: pink;
-    padding: 30px;
+    padding: 100px;
 }
 
 button {
     display: block;
     margin-left: auto;
     margin-right: auto 
+}
+
+@media screen and (max-width: 500px) {
+
+    nav {
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+    }
 }
