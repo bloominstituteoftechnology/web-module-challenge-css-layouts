@@ -7,11 +7,10 @@ body {
 }
 html, body{
     height: 100%;
-    fill-rule: inherit;
 }
-#header {
+.header {
     width: 100%;
-    height: 150px;
+    height: 9.375em;
 }
 #content {
     height: 100%;
@@ -25,8 +24,8 @@ title {
 }
 .container {
     align-content: center;
-    margin-top: 100px;
-    margin-bottom: 5px;
+    margin-top: 6.25em;
+    margin-bottom: 3.125em;
 }
 
 #button1{
@@ -67,7 +66,7 @@ title {
     font-family: 'Roboto Mono',monospace;
 }
 #night-sky {
-    size: 150px;
+    size: 937.5%;
     margin-top: -50x;
 
 }
@@ -81,7 +80,7 @@ title {
     flex-wrap: wrap;
     -ms-flex-wrap: initial;
     margin-top: 300px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 h1 {
     margin-left: 65%;
@@ -103,7 +102,7 @@ p {
     margin-left: 65%;
 }
 footer {
-    margin-top: 400px;
+    margin-top: 100px;
     align-content: center;
 }
 .foot {
@@ -115,5 +114,399 @@ footer {
     text-align: center;
     display: inline-block;
     border-radius: .5rem;
-    font-family: 'Roboto Mono',monospace
+    font-family: 'Roboto Mono',monospace;
+}
+#button5 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    background-color: mediumorchid;
+    border-radius: .5rem;
+    margin-right: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-style: normal;
+}
+#contact {
+    margin-left: 65%;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+    font-size: 15px;
+    font-style: normal;
+}
+.foot {
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
+}
+@media (max-width: 800px) {
+    html, body{
+        height: 98%;
+}
+.header {
+    width: 30px;
+    height: 30px;
+}
+title {
+    size: 33%;
+    height: 5px;
+    width: 5px;
+    font-family: fantasy;
+    font-size: 30%;
+    text-align: right;
+    text-shadow: 3.56em;
+}
+#content {
+    height: 33%;
+    width: 33%;
+}
+
+#button1{
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+    color: white;
+    padding: 2em 4em;
+    justify-content: center;
+    display: inline-block;
+    margin: .25em .125em;
+    background-color: mediumorchid;
+    border-radius: .5rem;
+    margin-right:auto;
+    font-family: 'Roboto Mono', monospace;
+    width: 200px;
+}
+#button2 {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    border: none;
+    padding: 2em 4em;
+    background-color: mediumorchid;
+    display: inline-block;
+    justify-content: center;
+    margin: .25em .125em;
+    border-radius: .5rem;
+    margin-right: auto;
+    font-family:'Roboto Mono',monospace;
+    width: 200px;
+  
+}
+#button3 {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    border: none;
+    padding: 2em 4em;
+    background-color: mediumorchid;
+    display: inline-block;
+    justify-content: center;
+    margin: .25em .125em;
+    border-radius: .5rem;
+    margin-left: auto;
+    font-family: 'Roboto Mono',monospace;
+    width: 200px;
+}
+nav {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: inline-block;
+    align-content: center;
+    margin-top: 6.25em;
+    margin-bottom: 0.3125em;
+    margin-left: auto;
+}
+body {
+    size: 65%;
+    display: flex;
+    display: inline-block;
+}
+#night-sky{
+    height: 200px;
+    width: 250px;
+    margin-top: 25px;
+}
+h1 {
+    size: 33%;
+    margin-left: 50%;
+    font-size: 25px;
+    margin-top: -190px;
+}
+p {
+    margin-left: 50%;
+}
+#button4 {
+    margin-left: 50%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+}
+.project-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    -ms-flex-wrap: initial;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-content: center;
+}
+.foot {
+    display: flex;
+    margin-left: 65%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+}
+#button5 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    background-color: mediumorchid;
+    border-radius: .5rem;
+    margin-right: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+.button #contact{
+    margin-left: 65%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+    font-size: 15px;
+}
+}
+
+@media all and (max-width: 500px) {
+    html, body{
+        height: 98%;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    size: 33%;
+    width: 30px;
+    height: 30px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+title {
+    size: 33%;
+    height: 5px;
+    width: 5px;
+    font-family: fantasy;
+    font-size: 30%;
+    text-align: right;
+    text-shadow: 3.56em;
+}
+#content {
+    height: 33%;
+    width: 33%;
+}
+#name {
+    margin-bottom: 50px;
+    margin-right: 200px
+}
+#button1{
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+    color: white;
+    padding: 2em 4em;
+    justify-content: center;
+    display: inline-block;
+    margin: .25em .125em;
+    background-color: mediumorchid;
+    border-radius: .5rem;
+    margin-right:auto;
+    font-family: 'Roboto Mono', monospace;
+    width: 200px;
+}
+#button2 {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    border: none;
+    padding: 2em 4em;
+    background-color: mediumorchid;
+    display: inline-block;
+    justify-content: center;
+    margin: .25em .125em;
+    border-radius: .5rem;
+    margin-right: auto;
+    font-family:'Roboto Mono',monospace;
+    width: 200px;
+  
+}
+#button3 {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    border: none;
+    padding: 2em 4em;
+    background-color: mediumorchid;
+    display: inline-block;
+    justify-content: center;
+    margin: .25em .125em;
+    border-radius: .5rem;
+    margin-left: auto;
+    font-family: 'Roboto Mono',monospace;
+    width: 200px;
+}
+nav {
+    size: 33%;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: inline-block;
+    align-content: center;
+    margin-top: 6.25em;
+    margin-bottom: 0.3125em;
+    margin-left: auto;
+}
+body {
+    size: 65%;
+    display: flex;
+    display: inline-block;
+}
+#night-sky{
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+}
+h1 {
+    size: 33%;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#button4 {
+    margin-left: 50px;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+}
+.project-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    -ms-flex-wrap: initial;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    align-content: center;
+}
+.foot {
+    display: flex;
+    margin-left: 65%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+}
+#button5 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    background-color: mediumorchid;
+    border-radius: .5rem;
+    margin-right: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+#contact{
+    margin-left: 65%;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: mediumorchid;
+    text-align: center;
+    display: inline-block;
+    border-radius: .5rem;
+    font-family: 'Roboto Mono',monospace;
+    font-size: 15px;  
+}
 }
