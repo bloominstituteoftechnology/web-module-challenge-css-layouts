@@ -119,7 +119,12 @@ h3{
     margin:10px;
 }
 
-.cosmos{
+.universe{
+    color:white;
+    text-align:center;
+}
+/* long format or if I ever need to select them individually */
+/* .cosmos{
     color:white;
     text-align:center;
 }
@@ -147,7 +152,7 @@ h3{
 .eventhorizon{
     color:white;
     text-align:center;
-}
+} */
 
 .button{
     text-align:center;
@@ -175,7 +180,75 @@ footer{
     background-color:#5c0341;
 }
 
-@media (max-width:800px) {
+@media (max-width:800px) 
+{
+    nav{
+        display:flex;
+        flex-direction:row-reverse;
+}
+
+    gallery img{
+       width:10rem;
+       height:10rem;
+       margin:5px; 
+       flex-direction:wrap-reverse;
+}
+
+    h1, h2, h3{
+        color:rgb(238, 173, 227);
+    }
+
+    .universe{
+        color:rgb(238, 173, 227);
+    }
+
+
+@media (max-width:500px)
+{
+    nav{
+        flex-direction:row;
+    }
+
+    nav a{ 
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin-right:10px;
+    }         
+
+
+    h2{
+        color:rgb(2, 0, 2);
+    }
+
+    h1, h3{
+        display:none;
+    }
     
 
+
+.universe{
+    color:rgb(2, 0, 2);
+}
+
+.spacecake{
+    min-height:20rem;
+    max-width:200rem;
+    margin:0 auto;
+    margin-top:20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+} 
+}
+
+@media (hover:hover)
+{
+    h1:hover,h2:hover,h3:hover{
+        color:white;
+    }
+
+    .universe:hover{
+        color:white;
+    }  
+}
 }
