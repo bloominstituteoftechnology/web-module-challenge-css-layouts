@@ -21,7 +21,10 @@ vertical-align: baseline;
 body{
     background-color: white;
     font-family: 'Chilanka', cursive;
-
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 header{
     margin: 10px 0px 10px 0px;
@@ -46,9 +49,12 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    text-align: center;
 }
 #aboutText{
     margin: 15px;
+    max-width: 80%;
+    text-align: center;
 }
 .bigbox{
     width: 400px;
@@ -90,4 +96,109 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer img {
+    height: 400px;
+    width: 400px;
+}
+  
+ 
+/* Smartphones (portrait) */
+@media only screen and (max-width : 800px) {
+    
+    h1 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #top {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_top{
+        flex-direction: column;
+    }
+
+    .main_top_content{
+        margin: auto;
+    }
+
+    body {
+        background: red;
+    }
+
+    .bigbox{
+        margin: auto;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+
+    .stickdance1 {
+        display: none;
+    }
+
+    .questionbox{
+        margin-bottom: 15px;
+    }
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 500px) {
+    h1 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #top {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_top{
+        flex-direction: column;
+    }
+
+    .main_top_content{
+        margin: auto;
+    }
+
+    body {
+        background: blue;
+    }
+
+    .bigbox{
+        margin: auto;
+    }
+    
+    .gallery {
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+
+    .stickdance1 {
+        display: none;
+    }
+
+    .questionbox{
+        margin-bottom: 15px;
+    }
 }
