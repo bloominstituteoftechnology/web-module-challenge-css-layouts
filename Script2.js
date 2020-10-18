@@ -35,7 +35,7 @@ const projectList = [
         "link":"https://github.com/BrinkofDusk/DOM-I/tree/Austin-Jansen",
             "description":"Assignment to assess understanding of how to use the DOM,"},
 
-            
+        
             
 ];
 

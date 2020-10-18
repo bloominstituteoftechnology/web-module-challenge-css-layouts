@@ -8,10 +8,9 @@
     /* border:1px solid red; */
 }
 html{
-background-image: url(thomas-vitali-OpMnsO9vWWE-unsplash.jpg);
-background-size: cover;
-background-attachment: fixed;
+background-color: ghostwhite;
 /* z-index: -2; */
+box-shadow: 3px 5px;
 width:100%;
 }
 
@@ -29,10 +28,10 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
-    height: 10%;
+    height: 5%;
     width: 100%;
     
-    background: rgba(160, 172, 163, 0.521);
+    background: #CAF0F8;
     /* background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,49 +50,54 @@ nav{
     flex-wrap:inherit;
     justify-content:space-evenly;
     width:100%;
-    
+    background-color: #00B4D8;
+    text-align: center;
+    height: 50%;
 }
 
 nav a{
     
-    margin:3%;
+    /* margin:3%; */
     /* border:solid 1px black; */
-    background-color:steelblue;
+   
     color:white;
     text-decoration:none;
-    font-size:80%;
-    padding:1%;
+    
+    font-size:1.3rem;
+    margin-top:1%;
+    margin-bottom:1%;
     width:10%;
     text-align:center;
-    box-shadow: 5px 8px rgb(48, 48, 51, .4);
-    border-radius:5px;
+    height:100%;
     cursor: pointer;
     
 }
 
-nav a:active{
-    box-shadow: none;
-    border: solid 1t px black;
-}
+
 nav a:hover{
-background-color: rgba(187, 187, 187, 0.295);
+border-top: rgb(5, 43, 75) solid 1px;
+border-bottom: rgb(5, 43, 75) solid 1px;
 }
 
 
 h1{
-    font-size:45px;
+    font-size:36px;
     font-family: 'Sansita Swashed', cursive;
-    margin:0% 25% 1% 30%;
+    margin-left:27%;
     color:white;
-    
+    width:auto
 }
 
 .SlideShow-Container{
-    width:100%;
+    width:43%;
     margin-top:1%;
     margin-bottom:10%; 
     position: relative;
-
+    left:10%;
+    top:10%;
+    box-shadow: rgb(90, 67, 67) 3px 3px;
+    border-radius: 5px;
+    border: darkolivegreen solid 1px;
 }
  .mySlides{
     text-align: center;
@@ -104,7 +108,7 @@ h1{
 
  img{
     width: 100%;
-    height: 100vh;
+    height: 25%;
     z-index: -1;
 }
 
@@ -114,15 +118,15 @@ h1{
 }
 
 .one h2{
-    top:10%;
-    left:28%;
+    top:1%;
+    left:3%;
     font-size:45px;
 
 }
 
 .one p{
-    bottom:15%;
-    left:13%;
+    bottom:13%;
+    left:3%;
     font-size:24px
 }
 
@@ -133,13 +137,13 @@ h1{
 
 .two h2{
     font-size: 45px;
-    top:10%;
-    left:45%;
+    top:1%;
+    left:40%;
 }
 
 .two p{
     font-size:24px;
-    bottom:15%;
+    bottom:10%;
 }
 
 .three h2, .three p{
@@ -149,13 +153,13 @@ h1{
 
 .three h2{
     font-size:45px;
-    top:10%;
-    left:44%;
+    top:1%;
+    left:35%;
 }
 
 .three p{
     font-size:24px;
-    bottom:15%;
+    bottom:10%;
 }
 
 .nextButton{
@@ -347,19 +351,29 @@ hr.solid{
 
                                     /* Mobile Styling */
 @media screen and (max-width:500px) and (min-width:300px){
+   *{
+       font-size: 12px;
+   }
+   
     header {
         display: flex;
         flex-wrap: wrap;
         height: 15vh;
         width: 100%;
         
-        background: rgba(160, 172, 163, 0.521);
+        background-color:#CAF0F8;
         /* background-image: url(kenrick-mills-1h2Pg97SXfA-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; */
     }
 
+
+        nav{
+            position: relative;
+            background-color:#CAF0F8;
+            top:12%;
+        }
     
 
    nav a{
@@ -375,14 +389,15 @@ hr.solid{
        font-size: 20px;
        border: none;
        position: absolute;
-       top:11%;
+       top:7.5%;
        left:8%;
+       height: 7.5%;
        
       
    }
 
     #mButton:hover{
-        background-color: darkgreen;
+        background-color: #023E8A;
     }
     
    .dropDown-Content {
@@ -411,6 +426,7 @@ hr.solid{
     .dropDown-Content a:hover{
         background-color: beige;
         color:black
+        display: inline-block;
     }
 
    .dropDown-Container:hover .dropDown-Content  {
@@ -427,9 +443,11 @@ hr.solid{
     
     .SlideShow-Container{
         width:100%;
-        margin-top:1%;
+        margin-top:10%;
         margin-bottom:10%; 
         position: relative;
+        left:0;
+        box-shadow:none;
     
     }
      .mySlides{
@@ -683,5 +701,28 @@ hr.solid{
     }
 
 
+    /*                      Project Page Styling */
+
+    .proBox{
+        text-align: center;
+        width:80%;
+        height: fit-content;
+        
+    }
+
+    .proBox h3{
+        font-size: 1rem;
+
+
+    }
+
+    .proBox a{
+        font-size: .75rem;
+        left:0;
+    }
+
+    .proBox p{
+        display: none;
+    }
 
 }
