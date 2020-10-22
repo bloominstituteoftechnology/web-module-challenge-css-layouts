@@ -33,15 +33,17 @@
     <div class="mainContent">
         <p>Since your here, I would love to hear from you! Please submit a contact form.</p>
 
-            <form action="/action_page.php">
+            <form method="post" action="contact.php">
                 <label for="fName">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Enter first name...">
                 <label for="lName">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Enter last name...">
+                <label for="returnEmail">Email</label>
+                <input type="text" id="rEmail" name="rEmail" placeholder="Please enter your contact email">
                 <label for="subjct">Subject</label>
                     <select id="subjct" name="subject">
                         <option value="gmsg">General Message</option>
-                        <option value="pac">Props/Complaints/Tips/Requests</option>
+                        <option value="Props/Complaints/Tips/Request">Props/Complaints/Tips/Requests</option>
                         <option value="jobs">Job Request/Consultations</option>
                     </select>
 
