@@ -3,7 +3,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Turret+Road&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,7 +56,7 @@ table {
 	/* border: 1px solid red; */
 }
 body{
-	background-color: black;
+	background-color: rgb(22, 22, 22);
 }
 
 section{
@@ -63,14 +64,18 @@ section{
 }
 
 p{
-color: whitesmoke;
+color: rgb(170, 170, 170);
 text-align: center;
 margin-top: 6%;
+font-family:turret road;
+font-size:1.5rem
 }
 
 h1{
-	color:whitesmoke;
+	color:rgb(146, 146, 146);
 	font-size: 3rem;
+	font-family:Oswald;
+	text-decoration: underline gold;
 }
 
 header h1{
@@ -87,16 +92,15 @@ header{
 header nav {
 	margin: 3% 2%;
 	display:flex;
-	/* justify-content: space-around; Don't think I need this.*/
 	width:40%;
 }
 
 header nav a{
-	background-color: whitesmoke;
+	background-color: rgb(9, 14, 43);
 	padding:2% 5%;
-	border: 1px solid goldenrod;
+	border: 2px solid goldenrod;
 	text-decoration: none;
-	color:black;
+	color:rgb(132, 230, 255);
 	font-size: 1.3rem;
 }
 
@@ -118,30 +122,34 @@ background-position: center;
 display:flex;
 justify-content: center;
 align-items: flex-end;
-/* height: ; */
+font-family: Oswald;
 }
 
 button{
 	font-size: 1.5rem;
 	width:20%;
 	padding:1%;
-	margin:1.5%;
+	margin:2%;
+	border-radius:5%;
+	border: 3px solid black;
+	color: rgb(195, 215, 255);
+	background-color: rgb(12, 17, 39);
 }
 
 .gallery{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-
-
 }
 
+.gallery-image{
+	border:4px outset rgb(32, 218, 94);
+}
 
 .gallery div{
 	margin-bottom:4%;
 	margin-left: 2%;
 	margin-right: 2%;
-	
 }
 
 .top-section{
@@ -151,7 +159,13 @@ justify-content: center;
 footer{
 	display: flex;
 	justify-content: center;
-	margin-top:4%;
-	background-color: tomato;
-	padding:4%
+	margin-top:1%;
+	background-color: goldenrod;
+	padding:2%;
+	border: 20px double rgb(14, 14, 48);
+}
+
+.second-h1{
+color: rgb(233, 230, 230);
+padding:1%
 }
