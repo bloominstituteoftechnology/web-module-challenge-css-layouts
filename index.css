@@ -62,6 +62,12 @@ section{
 	padding:1% 0%;
 }
 
+p{
+color: whitesmoke;
+text-align: center;
+margin-top: 6%;
+}
+
 h1{
 	color:whitesmoke;
 	font-size: 3rem;
@@ -120,4 +126,32 @@ button{
 	width:20%;
 	padding:1%;
 	margin:1.5%;
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+
+.gallery div{
+	margin-bottom:4%;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+}
+
+.top-section{
+	margin-bottom:2%;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin-top:4%;
+	background-color: tomato;
+	padding:4%
 }
