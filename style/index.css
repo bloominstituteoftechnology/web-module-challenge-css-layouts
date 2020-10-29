@@ -199,13 +199,12 @@
                             }
                             
                             .img {
-                                width: 40%;
+                                width: 60%;
+                                margin-left: 1%;
                             }
                             
                             .imgWrap {
                                 display: flex;
-                                justify-content: center;
-                                align-items: center;
                             }
                             
                             .imgWrap img {
@@ -213,12 +212,14 @@
                             }
                             
                             .topText {
-                                width: 60%;
+                                width: 80%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                             }
                             
                             .textArea {
-                                width: 40%;
+                                width: 80%;
+                                justify-content: center;
+                                align-items: center;
                             }
