@@ -64,6 +64,7 @@ body{
     font-size:1.6rem;
     font-family: 'Ubuntu', sans-serif;
     line-height:1.5;
+    background-color: aquamarine; 
 }
 h1{
     font-family: 'Comfortaa', cursive;
@@ -91,7 +92,20 @@ a{
 
 
 /*img box styles*/
+.gallery{
+    width:80wh;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:4% 0;
+}
+.gallery div{
+    width:20wh;
+    height:20vh;
 
+
+}
 
 
 
@@ -102,13 +116,22 @@ footer{
     background: coral;
     height:20vh;
     width:100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.bottompage{
+    display:flex;
+
 }
 .contact{
-    border-radius: 30%;
-    background-color: darkgoldenrod;
+    border-radius: 10%;
+    background-color: yellow;
     color:black;
-    border:goldenrod;
-    padding: 15px 32px;
+    margin:0 auto;
+    padding: 5% 5%;
     text-align: center;
     text-decoration: none;
+    display:flex;
 }
