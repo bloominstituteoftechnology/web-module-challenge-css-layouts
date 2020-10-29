@@ -51,7 +51,10 @@ table {
 
 *{
     border: 1px solid gray;
+    max-width: 100%;
+    background-color: lightgray;
 }
+
 
 .sectionA{
     display:flex;
@@ -73,6 +76,13 @@ h2{
 
 nav{
     margin:1%;
+    
+}
+
+nav a{
+    color: white;
+    background-color: black;
+    
 }
 
 .headerP{
@@ -93,6 +103,36 @@ nav{
     background-position:center;
     }
 
-.sectionC{
-    font-family: 'Syne Mono', monospace;
+    .sectionC{
+        font-family: 'Syne Mono', monospace;
+        display:flex;
+        justify-content:space-between;
+        padding: 20px 0;
+                
+        
+    }
+    .sectionC div img{
+        width: 80%;
+        height: 100%;
+        
+
+    }
+
+p{
+    display:flex;
+    align-items: center;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+footer a{
+    border:5px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
 }
