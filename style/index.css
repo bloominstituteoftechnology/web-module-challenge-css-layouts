@@ -1,1 +1,188 @@
 /* Add CSS styling here */
+
+/* font-family: 'Signika', sans-serif; */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	/* font-family: inherit; */
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	/* background: white; */
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	/* text-align: left; */
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+    
+/* My work below */
+
+
+html{
+    font-size:62.5%;
+  }
+
+.container {
+    border: 1px solid grey;
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #000080;
+    box-shadow: 0 .8rem .6rem -.6rem black;
+    text-align: center;
+}
+
+a {
+    Height: 2.5rem;
+}
+
+.navbar h3{
+    height: 5rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    
+}
+
+.top h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.navlink {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.links {
+    width: 75rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.button1{
+    Width: 20rem;
+    text-decoration: none;
+    Color: #FFF5EE;
+    background-color:  #000080;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.button2 {
+    Height: 2.5rem;
+    Width: 20rem;
+    text-decoration: none;
+    Color: #FFF5EE;
+    background-color:  #000080;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.button3 {
+    Height: 2.5rem;
+    Width: 20rem;
+    text-decoration: none;
+    Color: #FFF5EE;
+    background-color:  #000080;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button4 {
+    Height: 2.5rem;
+    Width: 20rem;
+    text-decoration: none;
+    Color: #FFF5EE;
+    background-color:  #000080;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text{
+    width:100%;
+    text-align: center;
+}
+
+.text p{
+    width: 50%;
+    margin: auto;
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+.blank{
+    width: 100%;
+    height: 50vh;
+}
+
+.portfolio {
+    width:100%;
+    display:flex;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    Margin:2rem;
+    width: 75%;
+}
+
+.text2{
+    font-size:2rem;
+    width:35%;
+    height: 25%;
+}
+
+footer{
+
+    height: 5rem;
+    text-align: center;
+    background-color: #000080;
+    padding-top: 1%;
+     
+   
+}
+
+
