@@ -57,6 +57,30 @@ table {
     display:flex;
     flex-direction: column;
     align-items: center;
+    
+}
 
+h1{
+    font-size: xx-large;
+    margin:1%;
+}
+
+h2{
+    margin:1%;
+}
+
+nav{
+    margin:1%;
+}
+
+.headerP{
+    margin:1%;
+}
+
+
+.riley1{    
+    width:100%;
+    height:300px;
+    object-fit: cover;
 }
 
