@@ -107,7 +107,18 @@ button {
 
 /* project preview section */
 
-.project-previews {
+section .project-previews {
     display: flex; 
-    
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    justify-content: space-around;
+    border: 1px solid red; 
+}
+
+.project-previews img {
+    width: 20%; 
+    height: 30vh; 
+    margin: 2rem; 
+    border: 1px solid blue; 
+
 }
