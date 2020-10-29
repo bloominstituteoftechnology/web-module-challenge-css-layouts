@@ -192,3 +192,33 @@
                                 text-align: left;
                                 padding: .1%;
                             }
+                            /* main area */
+                            
+                            .topSection {
+                                display: flex;
+                            }
+                            
+                            .img {
+                                width: 40%;
+                            }
+                            
+                            .imgWrap {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .imgWrap img {
+                                width: 80%;
+                            }
+                            
+                            .topText {
+                                width: 60%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .textArea {
+                                width: 40%;
+                            }
