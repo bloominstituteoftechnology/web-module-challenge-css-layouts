@@ -50,7 +50,7 @@ table {
 /*This is the beginning of my style*/
 
 *{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     max-width: 100%;
     background-color: lightgray;
 }
@@ -103,24 +103,25 @@ nav a{
     background-position:center;
     }
 
-    .sectionC{
-        font-family: 'Syne Mono', monospace;
-        display:flex;
-        justify-content:space-between;
-        padding: 20px 0;
+.sectionC{
+    font-family: 'Syne Mono', monospace;
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 20px;
                 
         
-    }
-    .sectionC div img{
-        width: 80%;
-        height: 100%;
-        
+}
+.sectionC div img{
+    width: 80%;
+    height: 100%;       
 
-    }
+}
 
-p{
+.textC{
     display:flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 footer{
