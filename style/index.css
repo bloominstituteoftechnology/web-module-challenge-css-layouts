@@ -14,12 +14,11 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, summary,
 time, mark, audio, video {
-	margin: 0;
+    margin: 0; 
 	padding: 0;
     font-size: 100%;
-    border: 0; 
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -107,18 +106,38 @@ button {
 
 /* project preview section */
 
+.project-container {
+
+}
 section .project-previews {
     display: flex; 
     flex-wrap: wrap; 
     flex-direction: row; 
-    justify-content: space-around;
-    border: 1px solid red; 
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
 .project-previews img {
-    width: 20%; 
+    width: 23%; 
     height: 30vh; 
-    margin: 2rem; 
-    border: 1px solid blue; 
+    margin-bottom: 2%; 
+}
 
+/* FOOTER */
+
+footer {
+    margin: 0; 
+    background-color:  #d9bebd; 
+}
+
+.footer-container {
+    border: 1px red solid; 
+}
+
+footer .footer-container .footer-text {
+border: olivedrab 1px solid;
+}
+
+footer .footer-container .footer-button{
+    border: 1px blue solid; 
 }
