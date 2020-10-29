@@ -106,16 +106,17 @@ nav{
 
  .gallery{
     display:flex;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: space-around;
     flex-wrap:wrap;
  }
 
 .gallery div{
     width:20%;
+    padding-left:5%;
 }
 .gallery div img{
     width:50%;
+    height:75%;
 }
 
 
