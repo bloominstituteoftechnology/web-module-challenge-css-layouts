@@ -18,32 +18,10 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	font-size: 100%;
+    font-size: 100%;
+    border: 0; 
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 /* CSS RESET */
@@ -51,14 +29,85 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid blue;
 }
+
 html {
     font-size: 62.5%;
 }
 
 body {
  font-size: 1.6rem;
- font-family: 'Raleway', sans-serif;
+ font-family: 'Noto Sans TC', sans-serif;
  line-height: 1.5; 
+}
+
+/*HEADER SECTION*/
+
+header {
+    background-color: #d9bebd;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-left: 2%;
+    box-sizing: border-box; 
+    padding: 2%;  
+}
+
+nav {
+    display: flex;
+    width: 22%; 
+    padding-bottom: 2%; 
+    padding-left: 6%;  
+}
+
+nav a{ 
+    text-decoration: none;
+    border: 2px black solid; 
+    border-radius: 1%;
+    text-align: center; 
+    font-size: 2rem;
+    padding: 5% 10%; 
+}
+
+/* TOP PROFILE SECTION */
+
+.main {
+    display: flex; 
+    margin: 2%; 
+    align-content: flex-end;
+}
+
+.main-left {
+    width: 50%; 
+    height: 50%; 
+    margin: 0 auto;
+    display: flex; 
+}
+
+.main-right {
+    width: 40%; 
+    padding-top: 10%; 
+    padding-right: 5%; 
+    display:flex; 
+    flex-direction: column-reverse; 
+}
+
+h2 {
+    font-size: 2.5rem; 
+}
+
+button {
+    align-items: left; 
+    padding: 4%; 
+    width: 13vw; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
+
+/* project preview section */
+
+.project-previews {
+    display: flex; 
+    
 }
