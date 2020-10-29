@@ -165,6 +165,13 @@
                             
                             a {
                                 text-decoration: none;
+                                border: 1px solid black;
+                                color: black;
+                            }
+                            
+                            a:hover {
+                                color: white;
+                                background-color: black;
                             }
                             /*nav section*/
                             
@@ -187,12 +194,10 @@
                             
                             nav a {
                                 display: inline-block;
-                                border: 1px solid black;
-                                color: black;
                                 text-align: left;
                                 padding: .1%;
                             }
-                            /* main area */
+                            /* main upper area */
                             
                             .topSection {
                                 display: flex;
@@ -222,4 +227,49 @@
                                 width: 80%;
                                 justify-content: center;
                                 align-items: center;
+                            }
+                            
+                            .textArea h2 {
+                                font-size: x-large;
+                                font-weight: bold;
+                                margin: 1%;
+                            }
+                            
+                            .textArea a {
+                                margin: 1%;
+                            }
+                            
+                            .textArea p {
+                                margin: 1%;
+                            }
+                            
+                            .bold {
+                                font-weight: bold;
+                            }
+                            /* main middle area */
+                            
+                            .middleTop {
+                                display: flex;
+                            }
+                            
+                            .topM {
+                                display: flex;
+                                justify-content: space-around;
+                            }
+                            
+                            .topM img {
+                                width: 20%;
+                            }
+                            
+                            .middleBottom {
+                                display: flex;
+                            }
+                            
+                            .bottomM {
+                                display: flex;
+                                justify-content: space-around;
+                            }
+                            
+                            .bottomM img {
+                                width: 20%;
                             }
