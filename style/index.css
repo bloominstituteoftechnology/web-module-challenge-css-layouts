@@ -49,3 +49,58 @@ table {
 }
 
 /******RESET ABOVE THIS POINT *******/
+* {
+  margin: 0 auto;
+}
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 5em;
+  text-align: center;
+}
+header nav {
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+header nav a {
+  padding: 2% 6%;
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 0;
+}
+header nav a:hover {
+  background: black;
+  color: white;
+}
+header h2 {
+  font-size: 3em;
+  text-align: center;
+}
+section.intro p {
+  font-size: 1.5em;
+  margin: 3%;
+  text-align: center;
+}
+.main-img {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 40em;
+  overflow: hidden;
+}
+section.preview {
+  
+}
