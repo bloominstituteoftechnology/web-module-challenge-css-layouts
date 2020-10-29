@@ -57,6 +57,7 @@ table {
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -85,3 +86,13 @@ nav{
     object-fit: cover;
 }
 
+.sectionB{
+    background-image: url("https://iili.io/3O0tbR.md.jpg");
+    height:40vh;
+    background-size: cover;
+    background-position:center;
+    }
+
+.sectionC{
+    font-family: 'Syne Mono', monospace;
+}
