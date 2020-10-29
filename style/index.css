@@ -138,7 +138,7 @@
                             * {
                                 box-sizing: border-box;
                                 max-width: 100%;
-                                border: 1px solid grey;
+                                /* border: 1px solid grey; */
                             }
                             /* Default Styles */
                             
@@ -167,6 +167,7 @@
                                 text-decoration: none;
                                 border: 1px solid black;
                                 color: black;
+                                background-color: white;
                             }
                             
                             a:hover {
@@ -254,11 +255,12 @@
                             
                             .topM {
                                 display: flex;
-                                justify-content: space-around;
+                                justify-content: space-between;
+                                margin-left: 1%;
                             }
                             
                             .topM img {
-                                width: 20%;
+                                width: 95%;
                             }
                             
                             .middleBottom {
@@ -267,9 +269,40 @@
                             
                             .bottomM {
                                 display: flex;
-                                justify-content: space-around;
+                                margin-left: 1%;
                             }
                             
                             .bottomM img {
-                                width: 20%;
+                                width: 95%;
+                            }
+                            
+                            footer {
+                                height: 25vh;
+                                width: 90%;
+                                margin: 0 auto;
+                                background-color: lightgrey;
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            footer nav {
+                                padding: 5%;
+                            }
+                            
+                            h3 {
+                                font-weight: bold;
+                                margin: 1% 0;
+                            }
+                            
+                            footer nav a {
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                                color: black;
+                                background-color: white;
+                            }
+                            
+                            footer nav a:hover {
+                                color: white;
+                                background-color: black;
                             }
