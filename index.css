@@ -59,7 +59,7 @@ body{
 }
 
 section{
-	padding:3% 0%;
+	padding:1% 0%;
 }
 
 h1{
@@ -79,7 +79,7 @@ header{
 }
 
 header nav {
-	margin: 3% 5%;
+	margin: 3% 2%;
 	display:flex;
 	/* justify-content: space-around; Don't think I need this.*/
 	width:40%;
@@ -94,10 +94,30 @@ header nav a{
 	font-size: 1.3rem;
 }
 
-/* .main-image{
+.main-image{
+background-image: url(https://picsum.photos/1000);
+background-repeat: no-repeat;
+height: 60vh;
+background-position: center;
+}
+
+.main-image-text{
 	display: flex;
 	justify-content: center;
-	width:80%;
-} */
+	align-items: flex-end;
+	height:30vh;
+}
 
+.button{
+display:flex;
+justify-content: center;
+align-items: flex-end;
+/* height: ; */
+}
 
+button{
+	font-size: 1.5rem;
+	width:20%;
+	padding:1%;
+	margin:1.5%;
+}
