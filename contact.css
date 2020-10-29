@@ -1,0 +1,11 @@
+ body {
+     background-color: gray;
+ }
+ 
+ .box1 {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     color: goldenrod;
+     font-size: 4rem;
+ }

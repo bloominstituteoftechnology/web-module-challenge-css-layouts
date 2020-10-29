@@ -1,0 +1,9 @@
+body {
+    background-color: gray;
+}
+
+p {
+    font-size: 4rem;
+    color: goldenrod;
+    text-align: center;
+}
