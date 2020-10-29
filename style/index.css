@@ -66,7 +66,7 @@ header {
   margin: 0 auto;
 }
 header h1 {
-  font-size: 5em;
+  font-size: 5rem;
   text-align: center;
   margin-top: 3rem;
   font-family: 'Alegreya', serif;
@@ -76,14 +76,14 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 60em;;
+  max-width: 60rem;;
 }
 header nav a {
   padding: 2% 6%;
   border: 1px solid black;
   text-decoration: none;
   margin: 1% 0;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: black;
 }
 header nav a:hover {
@@ -92,27 +92,27 @@ header nav a:hover {
   border: #d32847;
 }
 header h2 {
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
 }
 section.intro p {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin: 3%;
   text-align: center;
 }
 .main-img {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 1% auto;
   overflow: hidden;
 }
 .main-img img {
   width: 100%;
 }
 #preview {
-  margin: 1% 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
 }
 .preview-img {
   height: 35em;
@@ -132,13 +132,27 @@ section.intro p {
 }
 .preview-text {
   display: inline-block;
-  padding: 25% 0 0 1%;
+  padding: 10% 0 0 1%;
   width: 25%;
   font-size: 3rem;
   text-align: right;
   line-height: 2;
   color: #d32847;
   transition-duration: 1s;
+  transition-delay: 1s;
+}
+.preview-text a {
+  padding: 2% 6%;
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+.preview-text a:hover {
+  border: #d32847;
+  color: white;
+  background: #d32847;
 }
 .close {
   display: none;
@@ -170,11 +184,11 @@ footer{
   border-top: 1px solid black;
 }
 #contact {
-  padding: 2% 6%;
+  padding: 3% 6%;
   border: 1px solid black;
   text-decoration: none;
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.5rem;
   color: black;
   text-align: center;
 }
