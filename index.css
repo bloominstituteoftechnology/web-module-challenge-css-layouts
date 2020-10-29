@@ -1,0 +1,40 @@
+
+html {display:flex;
+background-color: lightgoldenrodyellow;}
+
+body{display: flex;
+	background-color: pink;
+	
+	}
+h1{color: white;
+}
+
+nav{
+   
+    justify-content:space-around;
+}
+nav a{
+    display:inline-block;
+    border-radius:10px;
+    text-align:center;
+    padding:1% 2%;
+    color:#fff;}
+.about {
+	color: blue;
+	background-color:
+	lightblue;
+	text-decoration:none;width: 30px; height: 30px;
+	padding: 50px;
+	
+}
+.contact{color: blue;
+	background-color:
+	lightblue;
+	text-decoration:none;width: 30px; height: 30px;
+	padding: 50px;}
+
+.projects{color: blue;
+background-color:
+lightblue;
+text-decoration:none;width: 30px; height: 30px;
+padding: 50px;}
