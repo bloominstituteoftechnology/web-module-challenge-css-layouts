@@ -1,1 +1,245 @@
 /* Add CSS styling here */
+* {
+    max-width: 100%;
+}
+
+/*colors to use:
+    #0B0C10 : black
+    #1F2833 : dark gray
+    #C5C6C7 : light gray (text)
+    #66FCF1 : aqua (main headers)
+    #45A29E : muted aqua (buttons?)
+
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0b0c10;
+    font-size: 1.8rem;
+    color: #C5C6C7;
+    font-family: "Montserrat";
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header p {
+    text-align: center;
+    font-family: "Itim";
+    font-size: 2rem;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links button {
+    font-family: "Montserrat";
+    background-color: #1F2833;
+    padding: 3% 5%;
+    transition-duration: 0.4s;
+    margin: 1%;
+} 
+
+.links button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.links a:hover {
+    color: #1F2833;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 5rem;
+    color: #66FCF1;
+}
+
+a {
+    font-family: "Montserrat";
+    color: #C5C6C7;
+    font-size: 1.6rem;
+}
+
+.headyimage {
+   max-width: 100%;
+   background-image: url("https://cdn.hipwallpaper.com/i/54/17/RMtPDn.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 60vh;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gcontainer1 {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.gcontainer1 video, img {
+    width: 20%;
+}
+
+.gcontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.projectbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectbutton button {
+    padding: 10% 10%;
+    background-color: #1F2833;
+}
+
+.projectbutton button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.projectbutton a:hover {
+    color: #1F2833;
+}
+
+.gallery p {
+    /* border: 1px solid black; */
+    font-family: "Itim";
+    background-color: #45A29E;
+    width: 80%;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.gallery p:hover {
+    background-color: #1F2833;
+    transition-duration: 0.3s;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.footy {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactm {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.contactm button {
+    font-family: "Montserrat";
+    background-color: #1F2833;
+    padding: 1% 1%;
+    margin: 1%;
+}
+
+.contactm button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.contactm a:hover {
+    color: #1F2833;
+}
+
+.socials {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-links button {
+    font-family: "Montserrat";
+    background-color: #1F2833;
+    padding: 1% 1%;
+}
+
+.social-links button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.social-links a:hover {
+    color: #1F2833;
+}
+
+.page-split {
+    width: 100%;
+}
+
+@media(max-width:800px){
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gcontainer1 video, img {
+        width: 20%;
+    }
+}
+
+@media(max-width:500px) {
+    .gcontainer2 {
+        width: 90%;
+    }
+
+    .gcontainer1 video, img {
+        width: 20%;
+    }
+
+    .gallery {
+        display: flex;
+        align-items: center;
+    }
+
+    .headyimage {
+        height: 30vh;
+    }
+}
+
