@@ -49,12 +49,12 @@ table {
 }
 
 /******RESET ABOVE THIS POINT *******/
-* {
-  margin: 0 auto;
-}
+
 html {
   font-size: 10px;
   box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 .container {
   width: 100%;
@@ -68,39 +68,128 @@ header {
 header h1 {
   font-size: 5em;
   text-align: center;
+  margin-top: 3rem;
+  font-family: 'Alegreya', serif;
 }
 header nav {
-  max-width: 60%;
-  margin: 0 auto;
+  margin: 5rem auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  max-width: 60em;;
 }
 header nav a {
   padding: 2% 6%;
   border: 1px solid black;
   text-decoration: none;
-  margin: 0;
+  margin: 1% 0;
+  font-size: 1.5em;
+  color: black;
 }
 header nav a:hover {
-  background: black;
+  background: #d32847;
   color: white;
+  border: #d32847;
 }
 header h2 {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
 }
 section.intro p {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin: 3%;
   text-align: center;
 }
 .main-img {
   max-width: 1200px;
   margin: 0 auto;
-  height: 40em;
   overflow: hidden;
 }
-section.preview {
-  
+.main-img img {
+  width: 100%;
+}
+#preview {
+  margin: 1% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.preview-img {
+  height: 35em;
+  overflow: hidden;
+  display: inline-block;
+  height: 100%;
+  margin-right: .5%;
+  transition-duration: 1s;
+  opacity: .7;
+  width: 10%;
+  min-width: 1rem;
+
+}
+.preview-img:hover {
+  width: 35%;
+  opacity: 1;
+}
+.preview-text {
+  display: inline-block;
+  padding: 25% 0 0 1%;
+  width: 25%;
+  font-size: 3rem;
+  text-align: right;
+  line-height: 2;
+  color: #d32847;
+  transition-duration: 1s;
+}
+.close {
+  display: none;
+  width: 5%;
+  font-size: 2.5rem;
+  padding-left: .5%;
+}
+.preview-img:hover ~ .preview-text{
+  display: none;
+  transition-duration: 1s;
+  transition-delay: 1s
+}
+.preview-img:hover ~ .close{
+  display: inline-block;
+  transition-duration: 1s;
+  transition-delay: 1s
+}
+.footer-content{
+  width: 50%;
+  min-width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+footer{ 
+  width: 100%;
+  padding: 3rem;
+  border-top: 1px solid black;
+}
+#contact {
+  padding: 2% 6%;
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 0;
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+}
+#contact:hover {
+  background: #d32847;
+  color: white;
+  border: #d32847;
+}
+.socials {
+  height: 5rem;
+}
+.socials img {
+  height: 80%;
+  margin-left: 2rem;
+}
+.socials img:hover {
+  opacity: .5
 }
