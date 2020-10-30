@@ -1,1 +1,100 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: #008B8B;
+}
+#top h1{
+    font-size: 5rem;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+#buttons{
+justify-content: center;
+    display: flex;
+width: 100%;    
+  }
+
+.b1{
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.b2{
+    display: inline-block;
+}
+
+.b3{
+    display: inline-block;
+}
+
+.b4{
+    display: inline-block;
+}
+
+#Intro h2{
+    font-size: 3rem;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+#Intro p{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 2%;
+    
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  .column p{
+      text-align: center;
+    padding: 10%;
+  }
+
+
+#main_img{
+    height:40vh;
+    background-image:url('https://i.picsum.photos/id/1004/5616/3744.jpg?hmac=Or7EJnz-ky5bsKa9_frdDcDCR9VhCP8kMnbZV6-WOrY');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.fa {
+    margin: 10;
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+ 
