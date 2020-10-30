@@ -23,17 +23,32 @@ Portfolio websites are a great way to show off your work to friends, family, and
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [ Done ] Create a forked copy of this project.
+- [ Done ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ Done ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ Done ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ Done ] Push commits: git push origin `<firstName-lastName>`.
  
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
-- [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
+Option 3
+
+# Wireframes
+
+From the images above, chose a wireframe to guide your design for today's project. Remember that your final project must include:
+
+- [ X]  A navigation bar with `About`, `Projects`, and `Contact` pages
+- [x]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you.
+- [x ]  Information about you in place of the given placeholder
+- [x ]  A `My Projects` button (doesn't need to be functional)
+- [x ]  A `Contact Me` button (doesn't need to be functional)
+- [x ]  Link navigation items to new HTML pages
+
+Some choices are easier than others, pick something that feels right to you. 
+
+- [X ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
 - [ ]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
 - [ ]  Information about you in place of the given placeholder
 - [ ]  A `My Projects` button that links to the projects page

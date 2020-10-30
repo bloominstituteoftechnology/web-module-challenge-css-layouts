@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 100%;
+    border: 0px;
+
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        font-family: 'Trispace', sans-serif;
+        line-height: 1.5;
+    }
+    
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    border: 1px darkgrey;
+    width: 100%;
+}
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header{
+    width: 100%;
+}
+
+    h1{
+        text-align: center;
+        width:100%;
+        justify-content: center;
+
+}
+
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+  
+
+    }
+
+    .navbar a{
+        background-color: lightslategray;
+        text-decoration: none;
+        color: black;
+        border: 1px solid white;
+    }
+    
+    .navbar .Home {
+        background-color: olive;
+        color: white;
+    }
+
+    header p{
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+
+    .MainBackgrnd{
+        background-image: url("https://picsum.photos/1200/300");
+        height: 15vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0 0 5% 0;
+    }    
+
+    .Portfolio{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+        .Thumbnails{
+          display: flex;
+          justify-content: space-between;
+    }
+
+            img{
+                width: 18.5%;
+            }
+
+            .Thumbnails p{
+                vertical-align: middle;
+                width: 16%;
+                text-align: left;
+                padding: 15% 0%;
+
+    
+        }       
+         .Thumbnails p span{
+                    font-weight: bold;
+
+    }
+                .Thumbnails span.killingit {
+                color: crimson;
+                font-size: 150%;
+                text-justify: auto;
+
+}
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: teal;
+        margin: 5% 0 0 0;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+
+    }
+
+
+
+        footer a{       
+            text-align: center;
+            font-size: 90%;
+            border-radius: 10%;
+            text-decoration: none;
+            background-color:lightblue;
+            color: black;
+            padding: 10px;
+        }
