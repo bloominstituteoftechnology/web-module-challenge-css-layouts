@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+<!-- /* HTML5 display-role reset for older browsers */ -->
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-size: 20px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body {
+
+    width: 100%;
+ 
+ }
+*{
+   /* border-color: red; */
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+  height: auto;
+}
+/* ----------nav bar */
+h3{
+    font-family: 'Indie Flower', cursive;
+}
+h1{
+    padding-top: 40px;
+    font-size: 5rem;
+    margin-left: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 5rem;
+    border-bottom:solid black 4px;
+    max-width: 100vw;
+}
+.navbaricons{
+    display: flex;
+    margin: 1.3rem 0px;
+    border: solid black;
+    border-width: 2px;
+    padding: 1rem 2rem;
+    background-color: white;
+    color:black;
+}
+.navbaricons:hover{
+    display: flex;
+    margin: 1.3rem 0px;
+    border: solid black;
+    border-width: 2px;
+    padding: 1rem 2rem;
+    background-color:black;
+    color:white;
+}
+/* body block-----------body block below */
+
+
+.bodyblock {
+       /* background-image: url("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80");
+       border: solid black;
+       position: absolute; */
+}
+.redgall{
+    display: flex;
+    
+}
+
+.gallary{
+    display:flex;
+    : ;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+
+
+/* ------------top part */
+.cap{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    margin: 3px;
+    padding: 0 35px;
+    max-width: 20%;
+    text-align: center;
+}
+.toppart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1121px;
+    height: 450px;
+}
+.moneytreebox{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 100%vw;
+}
+.next2photo{
+    padding-top: 5rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+h2{
+    font-size: 40px;
+    padding:  2rem 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+.prolink{
+  max-width: 50%;
+  text-align: center;
+  padding: 0;
+  color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(0, 179, 119), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    
+}
+p{
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+}
+
+/* ------glary------- */
+
+.gallerysub{
+    max-width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+
+/* --------foooter------ */
+.footnote{
+    padding-top: 30px 10px 0 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100vw;
+    height: 30%;
+    border-top:solid black 4px;
+}
+.container{
+    margin-top:5%;
+    margin-bottom:0%;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.container1{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 3%;
+    color:black;
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    
+}
+.box{
+    width:40%;
+    /* border:3px solid #4f4f4f; */
+    text-align:center;
+    margin: 15px;
+
+
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    max-width: 100%vw;
+}
+.box2{
+    width:20%;
+    text-align:center;
+    /* padding:5%; */
+    margin: 15px;
+}
+.box1{
+    max-width: 40%;
+    padding:10%;
+    margin: 15px;
+    font-size: 1.7rem;
+}
+.box h3{
+    margin: 15% 0;
+}
