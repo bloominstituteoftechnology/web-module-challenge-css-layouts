@@ -1,4 +1,5 @@
 /* Add CSS styling here */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,18 +47,27 @@ table {
 	border-spacing: 0;
 }
 
-/*General Styles!*/
+/*General Styles/ Probably the best thing i've learn today
+make all the notes you need inside the things */
 /* my three fonts to format with:
 font-family: 'Comfortaa', cursive;
 font-family: 'Staatliches', cursive;
 font-family: 'Ubuntu', sans-serif;
 */
 
+/*
+Color Palette: found some random colour pallet generater. reference them here so you dont have to tab out! 
+Periwinkle Crayola: #C9DDFF
+Orchid Crayola: #ECB0E1
+Blush: #DE6C83
+Lilac Luster: #C1AAC0
+Seagreen Crayola: #2CF6B3
+*/
 
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid black;
+    /*border:1px solid black;*/
 }
 
 html{
@@ -65,64 +75,88 @@ html{
 }
 
 body{
-    font-size:1.6rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-size:2rem;
+    font-family: 'Staatliches', cursive;
+    font-stretch: semi-expanded;
     line-height:1.5;
     background-color: #C9DDFF;
     display:flex;
+    color:#DE6C83;
     flex-direction: column;
 
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Comfortaa', cursive;
-    font-size:5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:6.5rem;
 }
 section{
-    padding:4% 0;
-
-    height:auto;
-    margin:0 auto;
+    padding:0% 2%;
+    margin:0% auto;
 }
 a{
-    text-decoration:none;
+    text-decoration:none;/* questioning if this is needed*/
 }
 
-/*header/ navbar styles*/
+/* i dont know if this working...
+p{
+    font-family: 'Staatliches', cursive;
+}
+*/
+
+/* header/ navbar styles/ go take outside */
 .headerContainer{
     width:100%;
-    top:0;
-    align-items:center;
-    height:20vh;
-    display: inline-block;
-    justify-content: space-between;
+    height:25vh;
+    display:flex;
+    flex-direction: column;
 }
 .headerContainer div{
-    margin:2%;
+    margin:2% 0 0 2%;
 }
 .navbar{
-    width:40%;
+    width:50%;
     display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin:0 5%;
-    color: white;
-    background-color: forestgreen;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin:0 5%; /*i realized that the width of the navbar is smaller than the total size of header.container. moving margin to left or right will scoot it over. same top & bottom*/
+    padding-right: 10%;/**/
+    border: 1px solid black;
+    /*color: white;
+    background-color:#C1AAC0;*/
 }
 .navbar a:hover{
-    color:forestgreen;
-    background-color: ghostwhite;
-
+    color:#2CF6B3;
+    background-color: #DE6C83;
 }
+/* this little bit of .links gave me fits! i thought 'button instead of class would be so mean. learn to disable code and mark it up. throw borders anywhere to see the code. WTF padding TOP RIGHT BOTTOM DOWN*/
+
 .links{
-    width:30%;
+    padding:0% 0% 0% 10%;
+    border:1px solid black;
+    background-color: red;
+}
+/* storage for code/ things that need testing: 
+
+.navbar div{
+    width:50%;
+    height:0%;
     display:flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;   
 }
+.links{
+    font-stretch: ultra-expanded;
+    padding:10% 10%;
+    width:50%;
+    height:0%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+*/
 
 
-
-/*top section styles*/
+/*top section styles/ do some push ups*/
 .topsection{
     width:95%;
     height:50%;
@@ -141,15 +175,19 @@ a{
 }
 .textbody{
     display:flex;
-    margin:0 10%;
+    margin:0 7%;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .buttonPro{
-    border-radius: 10%;
-    color: 
+    border-radius:30%;
+    color:black;
+    background-color: #DE6C83;
+    display:flex;
+    justify-content: space-evenly;
 }
-/*img box styles*/
+
+/*img box styles/ also drink some water*/
 
 .gallery{
     display:flex;
@@ -174,32 +212,37 @@ a{
     text-transform: uppercase;
 }
 
+/* this is cool targeting individually or as a group, but i found out gallery div did the exact same thing... cool story bro!
 .box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box7 img, .box8 img{
-    border: 1px solid red;
+    border: 1px solid red;<<<<------- this random border helped finding what the things were doing
 }
-
-
-/*footer styles*/
+*/
+/*footer styles/ go pee and eat a snack*/
 footer{
-    background: coral;
+    background:#ECB0E1;
+    color:black;
     height:20vh;
     width:100%;
     display:flex;
     justify-content: center;
     align-content: center;
-
 }
 .bottompage{
-    display:inline-block;
-
+    display:inline;
 }
 .contact{
-    border-radius: 10%;
-    background-color: yellow;
+    border-radius:50%;
+    background-color:#ECB0E1;
     color:black;
-    margin:0 auto;
-    padding: 5% 5%;
-    text-align: center;
-    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    margin:auto;
+    padding:3% 3%;/* even now i forget what goes in which order width height */
     display:flex;
+}
+.contact:hover{
+    background-color:#DE6C83;
+    color:black;
+    transition: 1.5s;
+    border: 2px dotted white;
 }
