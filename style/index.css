@@ -53,6 +53,8 @@ h1 {
 
 .bottonRow {
 	display: flex;
+	width: 10%;
+	height: auto;
 }
 
 .button1 {
