@@ -62,6 +62,7 @@ Orchid Crayola: #ECB0E1
 Blush: #DE6C83
 Lilac Luster: #C1AAC0
 Seagreen Crayola: #2CF6B3
+Maya Blue: #6CBEED
 */
 
 *{
@@ -90,50 +91,54 @@ h1, h2, h3, h4, h5, h6{
     font-size:6.5rem;
 }
 section{
-    padding:0% 2%;
+    padding:0%;
     margin:0% auto;
 }
 a{
     text-decoration:none;/* questioning if this is needed*/
 }
-
-/* i dont know if this working...
 p{
-    font-family: 'Staatliches', cursive;
+    font-size:2.2rem;
 }
-*/
 
 /* header/ navbar styles/ go take outside */
 .headerContainer{
     width:100%;
-    height:25vh;
+    height:20vh;
     display:flex;
     flex-direction: column;
 }
 .headerContainer div{
-    margin:2% 0 0 2%;
+    margin:0% 2%;
+}
+h1:hover{
+    color:black;
+    transition:1.5s;
 }
 .navbar{
     width:50%;
     display:flex;
     justify-content: space-between;
-    align-content: flex-start;
-    margin:0 5%; /*i realized that the width of the navbar is smaller than the total size of header.container. moving margin to left or right will scoot it over. same top & bottom*/
-    padding-right: 10%;/**/
-    border: 1px solid black;
-    /*color: white;
-    background-color:#C1AAC0;*/
+    margin:0 8%; /*i realized that the width of the navbar is smaller than the total size of header.container. moving margin to left or right will scoot it over. same top & bottom*/
+    padding:0%;/**/
+    color: white;
 }
 .navbar a:hover{
-    color:#2CF6B3;
+    color:#6CBEED;
     background-color: #DE6C83;
+    text-transform: 1.5s;
 }
-/* this little bit of .links gave me fits! i thought 'button instead of class would be so mean. learn to disable code and mark it up. throw borders anywhere to see the code. WTF padding TOP RIGHT BOTTOM DOWN*/
+/* this little bit of .links gave me fits! i thought 'button instead of class would be so mean. learn to disable code and mark it up. throw borders anywhere to see the code. WTF padding TOP RIGHT BOTTOM LEFT*/
 
 .links{
-    padding:0% 0% 0% 10%;
-    border:1px solid black;
-    background-color: red;
+    padding:0% 5% 0% 5%; /* theres the short version of 'w & h' but i needed to figit with the boundaries*/
+    margin:0%;
+    border:1px solid grey;
+    color:#DE6C83;
+    display: flex;
+    justify-content: stretch;/* not sure whats happening here, i want the text to strecth the font closer to its boundaries*/
+    font-size: 2.6rem;
+
 }
 /* storage for code/ things that need testing: 
 
@@ -146,7 +151,6 @@ p{
 }
 .links{
     font-stretch: ultra-expanded;
-    padding:10% 10%;
     width:50%;
     height:0%;
     display:flex;
@@ -165,26 +169,42 @@ p{
     display:flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
     margin:0%;
+    border:5px solid black;
 }
 .topimage{
     width:40%;
     height:40%;
     display: flex;
     align-content: center;
+   
 }
 .textbody{
-    display:flex;
-    margin:0 7%;
+    display:flexbox;
+    margin:2% auto;
     flex-direction: column;
     justify-content: space-evenly;
+    vertical-align: middle;
+    border: 3px solid black;
+    text-align: center;
 }
 .buttonPro{
-    border-radius:30%;
+    border-radius:3%;
+    width:10vw; /* spend the last three days using wh as vw... cool beans, thats why you'll see % on most width css */
+    height:7vh;
+    font-size:4rem;
     color:black;
     background-color: #DE6C83;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    border: 3 px solid black;
+    margin:10% auto;
+}
+.buttonPro:hover{
+    background-color:#6CBEED;
+    color:#DE6C83;
+    transition:1.5s;
 }
 
 /*img box styles/ also drink some water*/
@@ -195,7 +215,6 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items:center;
-    
     width: 100%;
     height:60%;
 }
@@ -241,8 +260,8 @@ footer{
     display:flex;
 }
 .contact:hover{
-    background-color:#DE6C83;
-    color:black;
+    background-color:black;
+    color:#6CBEED;
     transition: 1.5s;
-    border: 2px dotted white;
+    border: 2px solid#6CBEED ;
 }
