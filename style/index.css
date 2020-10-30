@@ -37,7 +37,7 @@ html {
 body {
  font-size: 1.6rem;
  font-family: 'Noto Sans TC', sans-serif;
- line-height: 1.5; 
+ line-height: 2; 
 }
 
 /*HEADER SECTION*/
@@ -96,19 +96,8 @@ h2 {
     font-size: 2.5rem; 
 }
 
-button {
-    align-items: left; 
-    padding: 4%; 
-    width: 13vw; 
-    margin-top: 5%; 
-    margin-bottom: 5%; 
-}
-
 /* project preview section */
 
-.project-container {
-
-}
 section .project-previews {
     display: flex; 
     flex-wrap: wrap; 
@@ -128,16 +117,29 @@ section .project-previews {
 footer {
     margin: 0; 
     background-color:  #d9bebd; 
+    padding: 7% 40%; 
 }
 
 .footer-container {
-    border: 1px red solid; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
 }
 
-footer .footer-container .footer-text {
-border: olivedrab 1px solid;
+.footer-text {
+    font-size: 2em; 
+    margin: 2% auto; 
 }
 
-footer .footer-container .footer-button{
-    border: 1px blue solid; 
+/* BUTTONS */
+button.footer-button {
+    display: flex; 
+    margin: 2% auto; 
+    padding: 5% 10%;    
+    font-size: 1.2em;  
+}
+
+button.my-projects {
+    padding: 2% 5%;    
+    font-size: 1.2em;  
 }
