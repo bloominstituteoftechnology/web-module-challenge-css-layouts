@@ -122,7 +122,7 @@ footer{
 
 }
 .bottompage{
-    display:flex;
+    display:inline-block;
 
 }
 .contact{
