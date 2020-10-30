@@ -1,1 +1,26 @@
 /* Add CSS styling here */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: #d793ff;
+}
+
+.body1 {
+    display: flex;
+    justify-content:center;
+    height: 300px;
+    background: blue;
+    width: 40%;
+
+}
+.h2 {
+    
+
+}
+
+.projects {
+    display:flex;
+    justify-content: space-evenly;
+
+}
