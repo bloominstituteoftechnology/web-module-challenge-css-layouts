@@ -47,10 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/*{
-    border:1px solid black;
-}
-*/
 body{
 	background-color: cadetblue;
 	margin:2% 2%;
@@ -89,12 +85,24 @@ body{
 	text-decoration:none;
 }
 
+#buttons a:hover{
+	background: white;
+	color: tomato;
+	animation: pulse 1.5s infinite;
+}
+
+
 .main{
 	font-size:48px;
 	display: flex;
 	flex-direction:column;
 	text-align: center;
-	padding: 2% 2%;
+	padding: 4% 2%;
+	background-image: url("https://picsum.photos/id/1022/200/300") ;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	color: #fff;
+
 }
 .main .projects{
 	font-size: 36px;
@@ -107,6 +115,7 @@ body{
 
 .main p{
 	padding:4% 4%;
+	font-size: 36px;
 	
 }
 
@@ -120,7 +129,17 @@ body{
 	font-size:24px;
 	background-color: burlywood;
 	text-decoration: none;
+	font-family:'Merriweather Sans', sans-serif;
+	color:#4F4F4F;
 }
+
+.my_projects a:hover {
+	background: white;
+	color: tomato;
+	animation: pulse 1.5s infinite;
+  }
+
+
 .middle{
 	display:flex;
 	flex-direction:column;
@@ -169,7 +188,7 @@ body{
 .facts h2{
 	display: flex;
 	justify-content: center;
-	margin 3%;
+	margin: 3%;
 }
 
 
