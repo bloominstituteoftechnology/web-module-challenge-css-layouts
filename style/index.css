@@ -178,19 +178,28 @@ h1:hover{
     height:40%;
     display: flex;
     align-content: center;
-   
+    border: solid grey;
 }
 .textbody{
     display:flexbox;
     margin:2% auto;
+    padding:10% 0 0 10;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     vertical-align: middle;
     text-align: center;
+
+}
+.textbody h2{
+    padding-bottom:10%;
+}
+.textbody p{
+    padding-top: 10%;
 }
 .buttonPro{
     border-radius:3%;
     width:10vw; /* spend the last three days using wh as vw... cool beans, thats why you'll see % on most width css */
+    padding:2%;
     font-size:4rem;
     color:black;
     background: #DE6C83;
