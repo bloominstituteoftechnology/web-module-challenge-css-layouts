@@ -47,97 +47,135 @@ table {
 	border-spacing: 0;
 }
 
-*{
+/*{
     border:1px solid black;
 }
-
+*/
 body{
 	background-color: cadetblue;
-	margin: 2% 2%;
-	padding:2% 2%;
+	margin:2% 2%;
 }
 
 .top{
     display:flex;
     justify-content:space-around;
-    padding: 2% 2%;
+    padding:2% 2%;
 }
 
 .top #buttons {
-	width: 50%;
+	width:50%;
 	display:flex;
 	text-align: center;
 	align-content: space-between;
 	font-family:'Merriweather Sans', sans-serif;
 }
 .top h2{
-	width: 50%;
-	font-size: 24px;
+	width:50%;
+	font-size:24px;
 	font-family:'Merriweather Sans', sans-serif;
 
 }
+
 #buttons a{
 	width:25% 25%;
 	display:flex;
-	margin: 2% 5%;
-	padding: 0% 5%;
-	justify-content: space-between;
-	font-size: 24px;
+	margin:2% 5%;
+	padding:0% 5%;
+	justify-content:space-between;
+	font-size:24px;
 	color:#4F4F4F;
-	background-color: burlywood;	
-	border-radius: 25%;
-	text-decoration: none;
+	background-color:burlywood;	
+	border-radius:25%;
+	text-decoration:none;
 }
 
 .main{
 	font-size:48px;
 	display: flex;
-	flex-direction: column;
+	flex-direction:column;
 	text-align: center;
+	padding: 2% 2%;
 }
-.main p{
+.main .projects{
 	font-size: 36px;
-	padding: 4%;
-	margin:2%;
+	padding:4%;
+	margin:4%;
 	display:flex;
-	flex-direction: column;
-	text-align: center;	
+	flex-direction:column;
+	text-align:center;	
 }
 
+.main p{
+	padding:4% 4%;
+	
+}
+
+.my_projects{
+	padding:4%;
+	margin: 2% 2%;
+}
+.my_projects a{
+	padding: 2rem;
+	border-radius:40%;
+	font-size:24px;
+	background-color: burlywood;
+	text-decoration: none;
+}
 .middle{
 	display:flex;
-	flex-direction: column;
+	flex-direction:column;
 	flex-wrap: wrap;
 }
 
 .project_images{
 	display:flex;
-	justify-content: space-around;	
+	justify-content:space-around;
+	padding:4% 4%;	
 }
 
-.projects{
+.project_images .projects{
 	display:flex;
-	flex-direction: column;
-	justify-content: space-around;
+	flex-direction:column;
+	
 }
 .projects h2{
-	background-color: burlywood;	
+	background-color: burlywood;
+	display: flex;
+	justify-content:center;	
 }
 
 .some_info{
 	display:flex;
-	justify-content: space-around;
+	justify-content:space-around;
 	background-color: cadetblue;
 }
 
 .facts{
-	display:flex;
+	background-color: burlywood;
+	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	background-color: burlywood;	
+	border-radius: 15%;
+	max-width: 15rem;
+}
 
+
+.facts p{
+	display:flex;
+	align-content: center;
+	justify-content: center;
+	padding:8% 8%;
 }
 
 .facts h2{
-	color:#4F4F4F;
+	display: flex;
+	justify-content: center;
+	margin 3%;
+}
+
+
+.social_media{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 1% 2%;
 }
