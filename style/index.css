@@ -51,19 +51,28 @@ h1 {
     color: purple;
 }
 
-nav {
+.bottonRow {
+    display: flex;
+}
 
+.header {
+	display: flex;
+	height: auto;
+    background-color: #F9E7DC;
 }
 
 .mainImg-Txt {
-
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
 }
 
 .projectImgs {
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 
 }
 
@@ -83,7 +92,10 @@ img {
 }
 
 .footer {
-	width: 100%;
 	display: flex;
 	align-content: center;
+	justify-content: center;
+	width: 100%;
+    height: auto;
+    background-color: #F9E7DC;
 }
