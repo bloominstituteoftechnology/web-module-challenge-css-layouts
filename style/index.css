@@ -83,5 +83,7 @@ img {
 }
 
 .footer {
-
+	width: 100%;
+	display: flex;
+	align-content: center;
 }
