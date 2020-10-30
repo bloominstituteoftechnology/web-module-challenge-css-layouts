@@ -68,7 +68,7 @@ body{
     font-size:1.6rem;
     font-family: 'Ubuntu', sans-serif;
     line-height:1.5;
-    background-color: aquamarine;
+    background-color: #C9DDFF;
     display:flex;
     flex-direction: column;
 
@@ -144,7 +144,10 @@ a{
     margin:0 10%;
     flex-direction: column;
     justify-content: space-evenly;
-
+}
+.buttonPro{
+    border-radius: 10%;
+    color: 
 }
 /*img box styles*/
 
