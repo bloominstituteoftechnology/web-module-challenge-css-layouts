@@ -133,14 +133,14 @@ h1:hover{
 .links{
     padding:0% 5% 0% 5%; /* theres the short version of 'w & h' but i needed to figit with the boundaries*/
     margin:0%;
-    border:1px solid grey;
+    border:4px dashed grey;/* modifiers to consider: dotted,dashed, grooved*/
     color:#DE6C83;
     display: flex;
     justify-content: stretch;/* not sure whats happening here, i want the text to strecth the font closer to its boundaries*/
-    font-size: 2.6rem;
+    font-size: 2.6rem;/*2.6rem- pls hold*/
 
 }
-/* storage for code/ things that need testing: 
+/* storage for code/ things that needed testing: 
 
 .navbar div{
     width:50%;
@@ -186,23 +186,22 @@ h1:hover{
     flex-direction: column;
     justify-content: space-evenly;
     vertical-align: middle;
-    border: 3px solid black;
     text-align: center;
 }
 .buttonPro{
     border-radius:3%;
     width:10vw; /* spend the last three days using wh as vw... cool beans, thats why you'll see % on most width css */
-    height:7vh;
     font-size:4rem;
     color:black;
-    background-color: #DE6C83;
-    display:flex;
+    background: #DE6C83;
+    display:flexbox;
+    vertical-align: middle;
     justify-content: center;
-    border: 3 px solid black;
-    margin:10% auto;
+    border: 4px solid black;
+    /*margin:10% auto;*/
 }
 .buttonPro:hover{
-    background-color:#6CBEED;
+    background:#6CBEED;
     color:#DE6C83;
     transition:1.5s;
 }
@@ -240,14 +239,17 @@ h1:hover{
 footer{
     background:#ECB0E1;
     color:black;
-    height:20vh;
+    height:30vh;
     width:100%;
     display:flex;
     justify-content: center;
     align-content: center;
+
 }
 .bottompage{
-    display:inline;
+    display:inline-block;
+    margin-top: 2%;
+
 }
 .contact{
     border-radius:50%;
@@ -256,8 +258,10 @@ footer{
     font-weight: bold;
     font-size: 3rem;
     margin:auto;
-    padding:3% 3%;/* even now i forget what goes in which order width height */
+    padding:3% 3%;/* even now, i forget what goes in which order: width height */
     display:flex;
+    
+
 }
 .contact:hover{
     background-color:black;
@@ -265,3 +269,136 @@ footer{
     transition: 1.5s;
     border: 2px solid#6CBEED ;
 }
+
+
+
+
+
+
+/*  ## still working on how to apply this code portion of social media tags to the webpage ##
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css'
+
+.btn-size = 90px
+.socialnav{
+  'facebook': #3B5998
+  'twitter': #3CF
+  'google': #DC4A38
+  'dribbble': #F26798
+  'skype': #00AFF0
+}
+
+$animate {
+  transition: all .35s
+  transition-timing-function: cubic-bezier(
+    0.310,
+    -0.105,
+    0.430,
+    1.590
+  )
+}
+
+$btn__inactive {
+  
+  &:before {
+    top: 90%
+    left: -110%
+  }
+  
+  .fa {
+    transform: scale(.8)
+  }
+  
+  // variants
+  for name, color in sites {
+    
+    &.{name} {
+      
+      &:before {
+        background-color: color
+      }
+      
+      .fa {
+        color: color
+      }
+    }
+  }
+}
+
+$btn__active {
+
+  &:before {
+    top: -10%
+    left: -10%
+  }
+
+  .fa {
+    color: #fff
+    transform: scale(1)
+  }
+}
+
+.social-btns {
+  height: btn-size
+  margin: auto
+  font-size: 0
+  text-align: center
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+
+.btn {
+    @extends $btn__inactive
+    @extends $animate
+    display: inline-block
+    background-color: #fff
+    width: btn-size
+    height: btn-size
+    line-height: btn-size
+    margin: 0 10px
+    text-align: center
+    position: relative
+    overflow: hidden
+    border-radius: 28%
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1)
+    //overflow bug fix
+    opacity: .99
+
+    &:before {
+      @extends $animate
+      content: ''
+      width: 120%
+      height: 120%
+      position: absolute
+      transform: rotate(45deg)
+    }
+
+    .fa {
+      @extends $animate
+      font-size: 38px
+      vertical-align: middle
+    }
+
+    &:focus,
+    &:hover {
+      @extends $btn__active
+    }
+  }
+}
+##this was the html to link with the css right above##
+
+    <section class="Socialnav"> 
+      <a class='btn' href="facebook",
+      'twitter',
+     'google',
+     'dribbble',
+      'skype'
+    
+    </section>
+    .social-btns
+      each site in sites
+        a(href='#', class='btn ' + site)
+          i(class='fa fa-' + site)
+    
+*/
