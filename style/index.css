@@ -28,23 +28,34 @@ body{
 	width: 50%;
 }
 .aboutme{
-	display:flex;
-
+	display: flex;
+	width:100%
 }
-.pics{
-	display:flex;
-	flex-wrap: wrap;
-	align-content: center;
-
+.cb{
+	width:50%;
+	line-height:2.5 ;
 }
-.pics img{
+.gallery img{
 	width:20%;
 	display:flex;
 	flex-wrap: wrap;
-	align-items:center;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	text-align: center;
 }
-.p{
-	display: block;
-
-
+.pics{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: flex-start;
+}
+.contact{
+	background-color: lightblue;
+	align-items: center;
+	text-align: center;	
+}
+.pictext{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
