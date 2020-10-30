@@ -53,13 +53,14 @@ table {
 img{
     width: 350px;
     height: 150px;
+    margin: 1%;
 }
 .column  { 
     
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly; 
-   align-items: center;
+  
    
   
         
