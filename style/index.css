@@ -50,18 +50,19 @@ table {
     max-width:100%;
     /* border:1px solid grey; */
 }
-.column {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-}
-
-.column img{
-    flex-wrap: wrap;
-    width: 200px;
+img{
+    width: 350px;
     height: 150px;
+}
+.column  { 
     
-    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly; 
+   align-items: center;
+   
+  
+        
   }
   
     
