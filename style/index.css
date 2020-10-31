@@ -77,12 +77,18 @@ a{
 /* main fonts for site use
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif; */
-*{
+/* *{
     border: 2px solid grey;
-}
+} */
 
 /*nav section styles*/
+body{
+    /* background-image: url(/images/dogCookies.jpeg); */
+    /* background-repeat: no-repeat, repeat; */
+    background-color: antiquewhite;
+}
 h1{
+    color: ;
     display: flex;
     justify-content: center;
 }
@@ -92,13 +98,16 @@ nav{
     justify-content:center;
 }
 nav a{
+    font-size: 2rem;
     border-radius:10px;
     padding:1% 5%;
+    border:1px solid black;
     color: white;
-    background-color: red;
+    background-color: blue;
     display: flex;
     justify-content: center;
 }
+
 /* style for intro */
 .intro h2{
     font-size: 5rem;
@@ -126,9 +135,11 @@ nav a{
 }
 .projects img{
     width: 20%;
+    padding: 0 1%;
 }
 .projects p{
     width: 20%;
+    padding:1% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,9 +149,10 @@ footer .contact{
     justify-content: center;
 }
 footer .contact a{
-    width: 25%;
+    width: 15%;
+    border:1px solid black;
     border-radius:10px;
-    padding:1% 5%;
+    padding:1% 2%;
     color: white;
     background-color: blue;
     display: flex;
