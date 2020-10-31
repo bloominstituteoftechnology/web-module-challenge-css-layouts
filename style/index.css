@@ -1,6 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+
+/*General Styles!*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height:1.5;
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-size:10rem;
+}
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
+a{
+    text-decoration:none;
+}
 /* Add CSS styling here */
 
 /* main fonts for site use
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif; */
+*{
+    border: 2px solid grey;
+}
+
+/*nav section styles*/
+h1{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    /* padding:2% 0; */
+    display:flex;
+    justify-content:center;
+}
+nav a{
+    border-radius:10px;
+    padding:1% 2%;
+    color: white;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+/* style for intro */
+.intro h2{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.intro p{
+    font-size: 2rem;
+}
+.titleImg{
+    /* margin: 1% auto; */
+    display: flex;
+    justify-content: center;
+}
+.titleImg img{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.projects img{
+    width: 20%;
+}
+.projects p{
+    width: 20%;
+}
+footer{
+    padding: 5% auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 
