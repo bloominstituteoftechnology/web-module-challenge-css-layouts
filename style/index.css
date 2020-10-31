@@ -17,7 +17,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	/* padding: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -88,7 +88,7 @@ body{
     background-color: antiquewhite;
 }
 h1{
-    color: ;
+    text-shadow: 6px 2px blue;
     display: flex;
     justify-content: center;
 }
@@ -115,15 +115,21 @@ nav a{
     justify-content: center;
 }
 .intro p{
+    /* width: 75%; */
+    /* border: 2px solid black; */
     font-size: 2rem;
+    display: flex;
+    align-items: center;
 }
 .titleImg{
-    /* margin: 1% auto; */
+    margin: 1% auto;
     display: flex;
     justify-content: center;
 }
 .titleImg img{
     width: 100%;
+    padding: 3%;
+    border: 3px solid black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -135,7 +141,9 @@ nav a{
 }
 .projects img{
     width: 20%;
-    padding: 0 1%;
+    /* padding: 0 1%; */
+    border: 2px solid black;
+    margin: 1px  auto;
 }
 .projects p{
     width: 20%;
@@ -161,9 +169,15 @@ footer .contact a{
 footer .social{
     display: flex;
     justify-content: center;
+    font-size: 5rem;
+    
 }
 footer .social a{
-    padding: 1% 5%;
+    /* padding: 1% 5%; */
+    margin: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+footer .social a:hover{
+    color: yellow;
 }
