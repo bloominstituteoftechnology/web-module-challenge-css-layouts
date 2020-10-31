@@ -93,9 +93,9 @@ nav{
 }
 nav a{
     border-radius:10px;
-    padding:1% 2%;
+    padding:1% 5%;
     color: white;
-    background-color: dodgerblue;
+    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -114,7 +114,7 @@ nav a{
     justify-content: center;
 }
 .titleImg img{
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -129,12 +129,29 @@ nav a{
 }
 .projects p{
     width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer{
-    padding: 5% auto;
+footer .contact{
     display: flex;
     justify-content: center;
 }
-
-
-
+footer .contact a{
+    width: 25%;
+    border-radius:10px;
+    padding:1% 5%;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+}
+footer .social a{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+}
