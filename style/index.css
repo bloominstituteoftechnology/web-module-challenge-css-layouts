@@ -119,7 +119,7 @@ section.intro p {
   width: 75%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .preview-right {
   width: 25%;
