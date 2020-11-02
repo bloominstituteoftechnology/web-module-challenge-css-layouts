@@ -138,7 +138,7 @@
                             * {
                                 box-sizing: border-box;
                                 max-width: 100%;
-                                /* border: 1px solid grey; */
+                                border: 1px solid grey;
                             }
                             /* Default Styles */
                             
@@ -176,28 +176,20 @@
                             }
                             /*nav section*/
                             
-                            header {
-                                padding: 1% 0;
-                                width: 90%;
-                                margin: 0 auto;
-                                background-color: lightgrey;
+                            header{
+                                display:flex;
+                                width:100%;
                             }
-                            
-                            nav .title {
-                                display: inline-block;
-                                margin-left: 1%;
+
+                            nav{
                             }
-                            
-                            nav .navLinks {
+
+                            .title{
                                 display: flex;
-                                margin-left: 2%;
+                                width: 100%;
                             }
-                            
-                            nav a {
-                                display: inline-block;
-                                text-align: left;
-                                padding: .1%;
-                            }
+
+
                             /* main upper area */
                             
                             .topSection {
@@ -260,7 +252,7 @@
                             }
                             
                             .topM img {
-                                width: 95%;
+                                width: 100%;
                             }
                             
                             .middleBottom {
@@ -273,7 +265,7 @@
                             }
                             
                             .bottomM img {
-                                width: 95%;
+                                width: 100%;
                             }
                             
                             footer {
