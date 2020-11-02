@@ -142,31 +142,30 @@ h2{
     justify-content: center;
     align-content: center;
 }
+
 .projects{
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-}
-.projects img{
-    width:20%;
-    height: 600px;
+    width:100%;
     /* padding: 0 1%; */
     border: 2px solid black;
     margin: auto 2px;
     display: flex;
     justify-content: flex-start;
+    background: url(/images/maliRamp.jpeg) no-repeat;
 }
-.projects p{
+/* .projects */
+/* .projects p{
     width: 20%;
     padding:1% 2%;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
+
 footer .contact{
     display: flex;
     justify-content: center;
+    
 }
 footer .contact a{
     width: 15%;
@@ -197,3 +196,13 @@ footer .social a:hover{
 footer .social a:visited{
     color: white;
 }
+/********* MOBILE STYLES**********/
+
+@media(max-width:800px) {/* anything less than 800px will inherit these styles */
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%
+    }
+
+
