@@ -164,7 +164,7 @@ nav {
     align-content: center;
     justify-content:center;
     flex-direction: column;
-    width: 50%; 
+    margin:0 auto;
 }
 
 nav a{ 
