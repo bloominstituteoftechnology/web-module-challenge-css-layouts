@@ -123,8 +123,8 @@ section.intro p {
 }
 .preview-right {
   width: 25%;
-  font-size: 3rem;
-  text-align: right;
+  font-size: 2.5rem;
+  text-align: left;
   line-height: 2;
   color: #d32847;
 }
@@ -140,23 +140,7 @@ section.intro p {
   min-width: 1rem;
 
 }
-.preview-img:hover ~ .preview-img {
-  width: 5%;
-}
-.preview-img:hover {
-  width: 70%;
-  opacity: 1;
-}
-.preview-img:hover ~ .preview-text{
-  display: none;
-  transition-duration: 1s;
-  transition-delay: 1s
-}
-.preview-img:hover ~ .close{
-  display: inline-block;
-  transition-duration: 1s;
-  transition-delay: 1s
-}
+
 footer{ 
   width: 100%;
   padding: 3rem 0;
@@ -221,6 +205,7 @@ footer{
     font-size: 2.5rem;
     text-align: center;
     line-height: 2;
+    width: 50%;
   }
   .preview-img {
     border-right: none;
@@ -244,7 +229,9 @@ footer{
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: 1.25rem;
-    color: #d32847;
+    background: #d32847;
+    border: #d32847;
+    color: white;
   }
 } /*End of 800px max-width styles*/
 
@@ -294,3 +281,26 @@ footer{
     border-top: 1px solid black;
   }
 } /*End of 500px max-width styles*/
+
+
+/*Hover styles that will only happen on 900px and above*/
+@media (min-width: 801px) {
+  .preview-img:hover ~ .preview-img {
+    width: 5%;
+  }
+  .preview-img:hover {
+    width: 70%;
+    opacity: 1;
+  }
+  .preview-img:hover ~ .preview-text{
+    display: none;
+    transition-duration: 1s;
+    transition-delay: 1s
+  }
+  .preview-img:hover ~ .close{
+    display: inline-block;
+    transition-duration: 1s;
+    transition-delay: 1s
+  }
+
+}
