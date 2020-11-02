@@ -151,6 +151,7 @@ button.my-projects {
 
 header {
     background-color: #d9bebd;
+    padding-bottom: 3%;
 }
 
 h1 {
@@ -208,8 +209,8 @@ h2 {
 }
 
 .main-right-text p{
-    padding-top: 2%; 
-
+    padding: 100 auto 10;
+    text-align: center;
 }
 
 /* project preview section */
