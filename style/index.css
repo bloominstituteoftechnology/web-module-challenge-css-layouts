@@ -75,11 +75,14 @@ h2 {
 
 nav {
     margin:1%;
+    
 }
 
 nav a {
     color: white;
     background-color: black;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 .headerP {
