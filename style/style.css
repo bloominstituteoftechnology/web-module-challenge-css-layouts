@@ -151,8 +151,8 @@ header:hover > .brand h1 {
     margin-bottom: 5%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(https://picsum.photos/900);
+    background-size: 100% 100%;
+    background-image: url(https://picsum.photos/100);
     -webkit-transition: background-size 0.4s ease-in;
     transition: background-size 0.4s ease-in;
 }
@@ -163,12 +163,12 @@ header:hover > .brand h1 {
 }
 
 
-.projects .project:hover {
-    background-size: 150%;
+.projects .project:hover, .projects .project:focus {
+    background-size: 150% 150%;
     -webkit-transition: background-size 0.5s ease-in;
     transition: background-size 0.5s ease-in;
 }
-.projects .project:hover > .info div h2 {
+.projects .project:hover > .info div h2, .projects .project:focus > .info div h2 {
     transition-duration: 1s;
     color: ROYALBLUE !important;
 }
@@ -176,9 +176,10 @@ header:hover > .brand h1 {
 
 .projects .project .info {
     margin-left: -3%;
-    margin-top: 10vh;
+    margin-top: 25vh;
     width: 70%;
-    height: 40vh;
+    height: 30vh;
+    text-align: left;
     background-color: #FFF;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     display: flex;
@@ -258,7 +259,7 @@ footer span i:nth-child(2) {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     header {
         padding: 3% 0;
         justify-content: center;
@@ -273,7 +274,7 @@ footer span i:nth-child(2) {
         display: none;
     }
     .intro {
-        margin-top: 100px;
+        margin-top: 130px;
         margin-bottom: 40px;
     }
     .intro div {
@@ -286,20 +287,48 @@ footer span i:nth-child(2) {
         background-color: transparent;
     }
     .projects .project {
-        margin-bottom: 8%;
+        /* margin-bottom: 8%;
         width: 80%;
-        height: 40vh;
+        height: 40vh; */
     }
     .projects .project .info {
-        margin-top: 7vh;
-        height: 25vh;
+        margin-top: 32vh;
+        width: 90%;
+        height: 20vh;
     }
     .projects .project .info div h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 600;
     }
     .projects .project .info div p {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 600;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    .intro {
+        margin-top: 110px;
+        margin-bottom: 10px;
+        width: 90%;
+        border-radius: 0;
+    }
+    .projects .project {
+
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 5%;
+    }
+    .projects .project .info {
+        margin-left: -3%;
+        margin-top: 32vh;
+        width: 90%;
+        height: 14vh;
+    }
+    .projects .block {
+        display: none
     }
   }
