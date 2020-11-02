@@ -5,6 +5,7 @@
     background-color: #008B8B;
 }
 #top h1{
+  padding-bottom: 3%;
     font-size: 5rem;
     color: blueviolet;
     display: flex;
@@ -13,33 +14,35 @@
 }
 
 #buttons{
-justify-content: center;
-    display: flex;
-width: 100%;    
-  }
-
-.b1{
-    font-size: 3rem;
-    display: inline-block;
+  display: flex;
+justify-content: space-around;
+flex-direction: row;
+width: 100%;  
 }
 
-.b2{
-    display: inline-block;
+#buttons nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
-.b3{
-    display: inline-block;
+#buttons nav ul li a{
+  font-size: 1.5rem;
+  margin: 0 50px;
+  text-decoration: none;
+  color: black;
+
 }
 
-.b4{
-    display: inline-block;
-}
+
 
 #Intro h2{
     font-size: 3rem;
     color: blueviolet;
     display: flex;
     justify-content: center;
+    padding: 5%;
 }
 
 #Intro p{
@@ -97,4 +100,90 @@ width: 100%;
     text-decoration: none;
   }
 
+ @media(max-width: 800px){
  
+  #top h1{
+    padding-bottom: 2%;
+      font-size: 3rem;
+  }
+  
+  #buttons{
+    display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;    
+  }
+  
+  #buttons nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    line-height: 300%;
+  }
+  
+  #buttons nav ul li a{
+    padding: 5%;
+    border: 2px solid black;
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  #Intro h2{
+      padding: 1%;
+  }
+  
+  #Intro p{
+    font-size: 1.5rem;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      padding: 2%;
+      
+  }
+  
+  
+  .column {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+  
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+  
+    .column p{
+      display: flex;
+      flex-wrap: wrap;
+        text-align: center;
+    }
+  
+  
+  #main_img{
+      height:40vh;
+      background-image:url('https://i.picsum.photos/id/1004/5616/3744.jpg?hmac=Or7EJnz-ky5bsKa9_frdDcDCR9VhCP8kMnbZV6-WOrY');
+      background-size:cover;
+      background-position:center;
+      background-repeat: no-repeat;
+  }
+  
+  .fa {
+      margin: 10;
+      background-color: black;
+      display: flex;
+      padding: 30px;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+    }
+  
+ }
