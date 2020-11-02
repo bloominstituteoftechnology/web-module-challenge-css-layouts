@@ -76,7 +76,7 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 60rem;;
+  max-width: 60rem;
 }
 header nav a {
   padding: 1.5rem 3rem;
@@ -101,52 +101,51 @@ section.intro p {
   text-align: center;
 }
 .main-img {
-  max-width: 1200px;
-  margin: 1% auto;
-  overflow: hidden;
+  width: 95%;
+  margin: 1% auto 2% auto;
 }
 .main-img img {
   width: 100%;
 }
 #preview {
-  margin: 0;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto 1% auto;
+}
+.preview-left {
+  width: 75%;
   display: flex;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
+}
+.preview-right {
+  width: 25%;
+  font-size: 3rem;
+  text-align: right;
+  line-height: 2;
+  color: #d32847;
 }
 .preview-img {
-  height: 35em;
+  height: 50vw;
   overflow: hidden;
   display: inline-block;
   height: 100%;
   border-right: .3rem solid white;
   transition-duration: 1s;
   opacity: .7;
-  width: 10%;
+  width: 20%;
   min-width: 1rem;
 
 }
-.preview-img:hover {
-  width: 35%;
-  opacity: 1;
-}
-.preview-text {
-  display: inline-block;
-  padding: 10% 0 0 1%;
-  width: 25%;
-  font-size: 3rem;
-  text-align: right;
-  line-height: 2;
-  color: #d32847;
-  transition-duration: 1s;
-  transition-delay: 1s;
-}
-
-.close {
-  display: none;
+.preview-img:hover ~ .preview-img {
   width: 5%;
-  font-size: 2.5rem;
-  padding-left: .5%;
+}
+.preview-img:hover {
+  width: 70%;
+  opacity: 1;
 }
 .preview-img:hover ~ .preview-text{
   display: none;
@@ -158,24 +157,17 @@ section.intro p {
   transition-duration: 1s;
   transition-delay: 1s
 }
-.footer-content{
-  width: 50%;
-  min-width: 30rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  font-size: 2rem;
-}
 footer{ 
   width: 100%;
-  padding: 3rem;
+  padding: 3rem 0;
   border-top: 1px solid black;
+  text-align: center;
 }
 #contact {
   padding: 1.5rem 3rem;
   border: 1px solid black;
   text-decoration: none;
-  margin: 0;
+  margin: 0 auto;
   font-size: 1.5rem;
   color: black;
   text-align: center;
@@ -185,13 +177,120 @@ footer{
   color: white;
   border: #d32847;
 }
-.socials {
-  height: 5rem;
-}
-.socials img {
-  height: 80%;
-  margin-left: 2rem;
-}
-.socials img:hover {
-  opacity: .5
-}
+
+/* MOBILE STYLES */
+
+@media (max-width: 800px) {
+  
+
+  header h1 {
+    font-size: 4rem;
+    margin-top: 2.5rem;
+  }
+  header nav {
+    margin: 3rem auto;
+  }
+  header nav a {
+    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    color: #d32847;
+  }
+  header h2 {
+    font-size: 3rem;
+  }
+  section.intro p {
+    font-size: 2rem;
+    margin: 5%;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  #preview {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 1% auto;
+  }
+  .preview-left {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+  }
+  .preview-right {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 2;
+  }
+  .preview-img {
+    border-right: none;
+    opacity: 1;
+    width: 46%;
+    margin-bottom: 2%;
+  }
+  .footer-content{
+    width: 50%;
+    min-width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+  footer{ 
+    padding: 3rem 0;
+    border-top: 1px solid black;
+  }
+  #contact {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #d32847;
+  }
+} /*End of 800px max-width styles*/
+
+/* 500px width */
+
+@media (max-width: 500px) {
+  
+
+  header h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  header nav {
+    margin: 5% auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a {
+    width: 35%;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2.5rem;
+  }
+  section.intro p {
+    font-size: 1.6rem;
+  }
+  #preview {
+    width: 95%;
+  }
+  .preview-left {
+    justify-content: space-between;
+  }
+  .preview-right {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  .preview-img {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+  .preview-text {
+    padding-bottom: 2%;
+  }
+  footer{ 
+    padding: 3rem 0;
+    border-top: 1px solid black;
+  }
+} /*End of 500px max-width styles*/
