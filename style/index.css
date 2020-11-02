@@ -191,8 +191,15 @@ footer a {
         padding: 20px;
     }
     
+    .sectionC div{
+        display: flex;
+        flex-flow: column;
+        width:80%;
+
+    }
+
     .sectionC div img {
-        width: 80%;
+        width: 40%;
         height: 100%;       
     }
     
