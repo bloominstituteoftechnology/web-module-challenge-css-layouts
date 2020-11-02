@@ -51,15 +51,15 @@ h1 {
     color: purple;
 }
 
-.bottonRow {
+.buttonRow {
 	display: flex;
-	width: 10%;
-	height: auto;
+	flex-wrap: wrap;
 }
 
 .button1 {
 	background-color: orange;
 	border: beige;
+	width: 100%;
 	padding: 10%;
 	border-radius: 10%;
 }
@@ -87,8 +87,11 @@ h1 {
 
 .header {
 	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 	height: auto;
-    background-color: #F9E7DC;
+	background-color: #F9E7DC;
+	
 }
 
 .mainImg-Txt {
