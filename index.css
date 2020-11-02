@@ -3,8 +3,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Turret+Road&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,11 +66,11 @@ section{
 }
 
 p{
-color: rgb(170, 170, 170);
-text-align: center;
-margin-top: 6%;
-font-family:turret road;
-font-size:1.5rem
+	color:rgb(132, 230, 255);
+	text-align: center;
+	margin-top: 6%;
+	font-family:turret road;
+	font-size:1.5rem
 }
 
 h1{
@@ -103,6 +105,12 @@ header nav a{
 	text-decoration: none;
 	color:rgb(132, 230, 255);
 	font-size: 1.7rem;
+	transition: .5s;
+}
+
+header nav a:hover{
+transform:scale(1.2);
+border:none;
 }
 
 .main-image{
@@ -133,8 +141,17 @@ button{
 	margin:2%;
 	border-radius:5%;
 	border: 3px solid black;
-	color: rgb(195, 215, 255);
+	color:rgb(132, 230, 255);
 	background-color: rgb(12, 17, 39);
+	transition: .3s;
+}
+
+button:hover{
+	transform:scale(1.2);
+	color:white;
+	border-color:gold;
+	background-color: rgb(23, 33, 80);
+	
 }
 
 .gallery{
@@ -172,18 +189,269 @@ color: rgb(233, 230, 230);
 padding:1%
 }
 
-footer a{
-	text-decoration: none;
-	color:rgb(187, 187, 187);
-	font-size: 1.4rem;
-	background-color: rgb(14, 14, 48);
-	height:3%;
-	padding: 2%;
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 50%;
-	position: absolute;
-	top: 238%;
-	right:70%;
+
+
+
+@media(max-width:800px){
+
+	section{
+		padding:1% 0%;
+	}
+	
+	p{
+	text-align: center;
+	margin-top: 6%;
+	font-size:1.5rem;
+	width:100%;
+	}
+	
+	h1{
+		font-size: 5rem;
+	}
+	
+	header h1{
+	margin:2% auto;
+	}
+	
+	header{
+		display:flex;
+		width:100%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	header nav {
+		margin: 2% auto;
+		display:flex;
+		flex-direction: column;
+		width:20%;
+		font-family: turret-road;
+		align-items: center;
+
+	}
+	
+	header nav a{
+		padding:2% 5%;
+		width:100%;
+		border: 2px solid goldenrod;
+		text-decoration: none;
+		color:rgb(132, 230, 255);
+		font-size: 1.7rem;
+		text-align: center;
+	}
+	
+	.main-image{
+	background-image: url(https://picsum.photos/800);
+	background-repeat: no-repeat;
+	height: 60vh;
+	background-position: center;
+	width:90%;
+	margin: 0 auto;
+	}
+	
+	.main-image-text{
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		height:30vh;
+	}
+	
+	.button{
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 0 auto;
 	font-family: Oswald;
-	text-decoration: underline;
+	}
+	
+	button{
+		font-size: 1.5rem;
+		width:20%;
+		padding:1%;
+		margin:5% auto;
+		border-radius:5%;
+		border: 3px solid goldenrod;
+		color: rgb(195, 215, 255);
+		background-color: rgb(12, 17, 39);
+		width:25%
+	}
+	
+	.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+	section img{
+		width:100%
+	}
+
+	.image{
+		width:40%;
+	}
+
+	.gallery-image{
+		border:4px outset rgb(32, 218, 94);
+	}
+	
+	.gallery div{
+		margin-top: 2%;
+		margin-bottom:12%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	
+	.top-section{
+		margin-bottom:2%;
+	}
+	
+	footer{
+		display: flex;
+		justify-content: center;
+		margin-top:0%;
+		margin-right:0%;
+		background-color: goldenrod;
+		padding:1.5% 2.2%;
+		border: 20px double rgb(14, 14, 48);
+		width:90%;
+	}
+	
+	.second-h1{
+	color: rgb(233, 230, 230);
+	padding:1%
+	}
+	
+}
+
+
+
+@media(max-width:500px){
+	
+	section{
+		padding:1% 0%;
+	}
+	
+	p{
+	text-align: center;
+	margin-top: 6%;
+	font-size:1.5rem;
+	width:100%;
+	}
+	
+	h1{
+		font-size: 3rem;
+	}
+	
+	header h1{
+	margin:2% auto;
+	}
+	
+	header{
+		display:flex;
+		width:100%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	header nav {
+		margin: 4% auto;
+		display:flex;
+		flex-direction: column;
+		width:20%;
+		font-family: turret-road;
+		align-items: center;
+
+	}
+	
+	header nav a{
+		padding:4% 5%;
+		width:100%;
+		border: 2px solid goldenrod;
+		text-decoration: none;
+		color:rgb(132, 230, 255);
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	
+	.main-image{
+	background-image: url(https://picsum.photos/800);
+	background-repeat: no-repeat;
+	height: 60vh;
+	background-position: center;
+	width:90%;
+	margin: 0 auto;
+	}
+	
+	.main-image-text{
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		height:30vh;
+	}
+	
+	.button{
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 0 auto;
+	font-family: Oswald;
+	}
+	
+	button{
+		font-size: 1.5rem;
+		width:20%;
+		padding:1%;
+		margin:7% auto;
+		border-radius:5%;
+		border: 3px solid goldenrod;
+		color: rgb(195, 215, 255);
+		background-color: rgb(12, 17, 39);
+		width:40%
+	}
+	
+	.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+	section img{
+		width:100%
+	}
+
+	.image{
+		width:40%;
+	}
+
+	.gallery-image{
+		border:4px outset rgb(32, 218, 94);
+	}
+	
+	.gallery div{
+		margin-top: 6%;
+		margin-bottom:18%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	
+	.top-section{
+		margin-bottom:2%;
+	}
+	
+	footer{
+		display: flex;
+		justify-content: center;
+		margin-top:0%;
+		margin-right:0%;
+		background-color: goldenrod;
+		padding:1.5% 2.2%;
+		border: 20px double rgb(14, 14, 48);
+		width:90%;
+	}
+	
+	.second-h1{
+	color: rgb(233, 230, 230);
+	padding:1%
+	}
+	
 }
