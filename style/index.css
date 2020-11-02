@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 2px black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -63,9 +63,8 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	height: auto;
 	background-color: #F9E7DC;
-	
+
 }
 
 .mainImg-Txt {
@@ -73,6 +72,7 @@ h1 {
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-around;
+
 }
 
 .projectImgs {
