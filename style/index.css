@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 2px black;
 	font-size: 100%;
-	font: inherit;
+	font: font-family: 'Heebo', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -64,6 +64,7 @@ h1 {
 	flex-wrap: wrap;
 	width: 100%;
 	background-color: #F9E7DC;
+	justify-content: center;
 
 }
 
@@ -80,7 +81,7 @@ h1 {
 	flex-direction: column;
 	width: 30%;
 	height: auto;
-	align-items: center;
+	align-items: left;
 	margin: 5% 0%;
 
 }
@@ -90,6 +91,10 @@ h1 {
     flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+
+}
+
+button {
 
 }
 
@@ -112,9 +117,9 @@ img {
 
 .footer {
 	display: flex;
-	align-content: center;
-	justify-content: center;
+	flex-direction: column;
 	width: 100%;
-    height: auto;
-    background-color: #F9E7DC;
+	height: auto;
+	align-items: center;
+	background-color: #F9E7DC;
 }
