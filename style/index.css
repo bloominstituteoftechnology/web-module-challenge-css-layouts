@@ -75,6 +75,16 @@ h1 {
 
 }
 
+.textContainer {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+	align-items: center;
+	margin: 5% 0%;
+
+}
+
 .projectImgs {
     display: flex;
     flex-direction: row;
