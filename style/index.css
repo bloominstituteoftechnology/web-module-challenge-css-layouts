@@ -54,36 +54,10 @@ h1 {
 .buttonRow {
 	display: flex;
 	flex-wrap: wrap;
+	width: 50%;
+	justify-content: space-evenly;
 }
 
-.button1 {
-	background-color: orange;
-	border: beige;
-	width: 100%;
-	padding: 10%;
-	border-radius: 10%;
-}
-
-.button2 {
-	background-color: orange;
-	border: beige;
-	padding: 10%;
-	border-radius: 10%;
-}
-
-.button3 {
-	background-color: orange;
-	border: beige;
-	padding: 10%;
-	border-radius: 10%;
-}
-
-.button4 {
-	background-color: orange;
-	border: beige;
-	padding: 10%;
-	border-radius: 10%;
-}
 
 .header {
 	display: flex;
