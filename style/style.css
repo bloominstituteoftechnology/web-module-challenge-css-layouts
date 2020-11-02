@@ -258,6 +258,40 @@ footer span i:nth-child(2) {
 
 
 
+@media only screen and (min-width: 1350px) {
+
+    .intro {
+        height: 25vh;
+        margin-top: 210px;
+        width: 94%;
+    }
+    .projects {
+    }
+    .projects .project {
+        width: 21.5%;
+        justify-content: space-between;
+        margin: 0;
+        height: 45vh;
+        /* 
+        margin-bottom: 5%; */
+    }
+    .projects .project .info {
+        margin-left: -3%;
+        margin-top: 26vh;
+        width: 90%;
+        height: 14vh;
+    }
+    .projects .block {
+        margin-top: 60px;
+    }
+    footer.block {
+        width: 86%;
+
+    }
+  }
+
+
+
 
 @media only screen and (max-width: 800px) {
     header {
@@ -310,10 +344,16 @@ footer span i:nth-child(2) {
 
 
   @media only screen and (max-width: 500px) {
+    header {
+        margin-top: 6%;
+        padding: 6% 0;
+
+    }
     .intro {
-        margin-top: 110px;
+        margin-top: 125px;
         margin-bottom: 10px;
         width: 90%;
+        height: 65vh;
         border-radius: 0;
     }
     .projects .project {
