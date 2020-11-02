@@ -143,3 +143,116 @@ button.my-projects {
     padding: 2% 5%;    
     font-size: 1.2em;  
 }
+
+/* *********** MEDIA QUERIES: 800PX ***************/
+
+/*HEADER SECTION*/
+@media(max-width: 900px){
+
+header {
+    background-color: #d9bebd;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 2%;  
+    display:flex;
+    justify-content: center;
+}
+
+nav {
+    align-content: center;
+    justify-content:center;
+    flex-direction: column;
+    width: 50%; 
+}
+
+nav a{ 
+    text-decoration: none;
+    border: 2px black solid; 
+    border-radius: 1%;
+    text-align: center; 
+    font-size: 2rem;
+    padding: 5% 10%; 
+    display:flex;
+    justify-content: center;
+}
+
+/* TOP PROFILE SECTION */
+
+.main {
+    display: flex; 
+    margin: 2%; 
+    align-content: flex-end;
+}
+
+.main-left {
+    width: 50%; 
+    height: 50%; 
+    margin: 0 auto;
+    display: flex; 
+}
+
+.main-right {
+    width: 40%; 
+    padding-top: 10%; 
+    padding-right: 5%; 
+    display:flex; 
+    flex-direction: column-reverse; 
+}
+
+h2 {
+    font-size: 2.5rem; 
+}
+
+/* project preview section */
+
+section .project-previews {
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.project-previews img {
+    width: 23%; 
+    height: 30vh; 
+    margin-bottom: 2%; 
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0; 
+    background-color:  #d9bebd; 
+    padding: 7% 40%; 
+}
+
+.footer-container {
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.footer-text {
+    font-size: 2em; 
+    margin: 2% auto; 
+}
+
+/* BUTTONS */
+button.footer-button {
+    display: flex; 
+    margin: 2% auto; 
+    padding: 5% 10%;    
+    font-size: 1.2em;  
+}
+
+button.my-projects {
+    padding: 2% 5%;    
+    font-size: 1.2em;  
+}
+
+} /*THIS IS THE CLOSING BRACKET!!!!!*
+
+/* *********** MEDIA QUERIES: 500PX ***************/
