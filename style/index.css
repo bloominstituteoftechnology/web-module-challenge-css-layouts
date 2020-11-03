@@ -51,78 +51,74 @@ body{
 	background-color: cadetblue;
 	margin:2% 2%;
 }
-
+header{
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
 .top{
     display:flex;
-    justify-content:space-around;
+	justify-content:center;
     padding:2% 2%;
 }
 
 .top #buttons {
-	width:50%;
+	width:100%;
 	display:flex;
-	text-align: center;
-	align-content: space-between;
+	justify-content: center;
 	font-family:'Merriweather Sans', sans-serif;
 }
 .top h2{
-	width:50%;
+	width:100%;
 	font-size:24px;
 	font-family:'Merriweather Sans', sans-serif;
-
+	margin-bottom: 2%;
 }
 
 #buttons a{
-	width:25% 25%;
+	width: 100%;
 	display:flex;
-	margin:2% 5%;
-	padding:0% 5%;
-	justify-content:space-between;
+	justify-content:space-around;
+	margin:2% 2%;
+	padding:1% 1%;
 	font-size:24px;
 	color:#4F4F4F;
 	background-color:burlywood;	
-	border-radius:25%;
+	border-radius:20%;
 	text-decoration:none;
 }
 
 #buttons a:hover{
 	background: white;
 	color: tomato;
-	animation: pulse 1.5s infinite;
 }
-
 
 .main{
-	font-size:48px;
 	display: flex;
 	flex-direction:column;
-	text-align: center;
-	padding: 4% 2%;
+	justify-content: center;
+	align-items: center;
+	padding: 4% 4%;
 	background-image: url("https://picsum.photos/id/1022/200/300") ;
-	background-size: 100% 100%;
+	background-size: 100%;
 	border-radius: 50%;
 	color: #fff;
-
 }
-.main .projects{
-	font-size: 36px;
-	padding:4%;
-	margin:4%;
-	display:flex;
-	flex-direction:column;
-	text-align:center;	
+
+.main h1{
+	font-size: 48px;
 }
 
 .main p{
 	padding:4% 4%;
 	font-size: 36px;
-	
 }
 
 .my_projects{
-	padding:4%;
+	display:flex;
+	justify-content: center;
 	margin: 2% 2%;
 }
+
 .my_projects a{
 	padding: 2rem;
 	border-radius:40%;
@@ -139,28 +135,20 @@ body{
 	animation: pulse 1.5s infinite;
   }
 
-
-.middle{
-	display:flex;
-	flex-direction:column;
-	flex-wrap: wrap;
-}
-
-.project_images{
+.middle .project_images{
 	display:flex;
 	justify-content:space-around;
-	padding:4% 4%;	
+	margin-bottom: 2%;	
 }
 
-.project_images .projects{
-	display:flex;
-	flex-direction:column;
-	
-}
 .projects h2{
 	background-color: burlywood;
 	display: flex;
-	justify-content:center;	
+	justify-content: center;
+	max-width: 12.5rem;
+	border-radius:2%;
+	margin-top: 2%;
+	margin-bottom: 8%;
 }
 
 .some_info{
@@ -175,19 +163,138 @@ body{
 	flex-direction: column;
 	border-radius: 15%;
 	max-width: 15rem;
+	margin: 5%;
+	padding: 3% 2%;
 }
 
 
 .facts p{
-	display:flex;
-	align-content: center;
+	margin: 5%;
+}
+
+.facts h2{
+	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+
+.social_media{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 1% 2%;
+}
+
+/*Accessible view*/
+@media(max-width: 800px){
+
+body{
+	margin: 1% 1%;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.top{
+    display:flex;
+	flex-direction: column;
+}
+
+#buttons a{
+	width: 100%;
+	display:flex;
+	justify-content:space-between;
+	margin:2% 5%;
+	padding:0% 5%;
+	font-size:24px;
+	color:#4F4F4F;
+	background-color:burlywood;	
+	border-radius:25%;
+	text-decoration:none;
+}
+
+.main{
+	font-size:48px;
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	padding: 4% 2%;
+	background-image: url("https://picsum.photos/id/1022/200/300") ;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	color: #fff;
+}
+
+.main h1{
+	font-size: 100%;
+}
+
+.main p{
+	padding:4% 4%;
+	font-size: 36px;
+}
+
+.my_projects{
+	display:flex;
+
+	justify-content: center;
+	margin: 2% 2%;
+}
+
+.my_projects a{
+	padding: 2rem;
+	border-radius:40%;
+	font-size:24px;
+	background-color: burlywood;
+	text-decoration: none;
+	font-family:'Merriweather Sans', sans-serif;
+	color:#4F4F4F;
+}
+
+.projects h2{
+	display: flex;
+	flex-direction: column;
+}
+
+.middle{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.middle .project_images{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	margin-bottom: 2%;	
+}
+
+.some_info{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	background-color: cadetblue;
+}
+
+.facts{
+	background-color: burlywood;
+	display: flex;
+
+	border-radius: 15%;
+	
+}
+
+
+.facts p{
 	padding:8% 8%;
 }
 
 .facts h2{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: 3%;
 }
 
@@ -197,4 +304,5 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	margin: 1% 2%;
+}
 }
