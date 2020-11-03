@@ -147,7 +147,7 @@ button.my-projects {
 /* *********** MEDIA QUERIES: 800PX ***************/
 
 /*HEADER SECTION*/
-@media(max-width: 900px){
+@media(max-width: 800px){
 
 header {
     background-color: #d9bebd;
@@ -256,3 +256,62 @@ button.my-projects {
 } /*THIS IS THE CLOSING BRACKET!!!!!*
 
 /* *********** MEDIA QUERIES: 500PX ***************/
+
+/*HEADER SECTION*/
+@media(max-width: 500px){
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    nav a{ 
+        font-size: 1rem;
+    }    
+    
+    /* TOP PROFILE SECTION */
+
+    .main-right-text p{
+    margin: 0 auto; 
+    width: 60%;
+    font-size: 1rem;
+    padding-top: 5%; 
+    }
+    
+    /* project preview section */
+    
+    section .project-previews {
+        display: flex; 
+        flex-wrap: wrap; 
+        max-width: 100%;
+        align-content: space-around;
+    }
+    
+    .project-previews img {
+        width: 35%; 
+    }
+    
+    /* FOOTER */
+    
+    footer {
+        padding: 7% 20%; 
+    }
+    .footer-text {
+        font-size: 2em; 
+        margin: 0 auto; 
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* BUTTONS */
+    button.footer-button {
+        display: flex; 
+        margin: 2% auto; 
+        padding: 5% 10%;    
+        font-size: 1em;  
+        text-align: center;
+    }
+    
+    button.my-projects {
+        padding: 1% 3%;    
+        font-size: .7em;  
+    }
