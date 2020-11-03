@@ -44,7 +44,7 @@ table {
 /*************End of Reset!*****************/
 
 *{
-	/* border:1px solid grey; */
+	border:1px solid grey;
 	background-color: rgb(180, 176, 176);
 }
 
@@ -53,6 +53,7 @@ header{
 	flex-flow: wrap;
 	justify-content: center;
 	padding:5px;
+	font-family: 'Archivo Narrow', sans-serif;
 	
 }
 
@@ -86,21 +87,46 @@ header h1{
 	background:url("https://iili.io/3O0tbR.md.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 45vh;
+	height: 40vh;
 }
 
 h2{
 	font-size: 2rem;
 	margin-top: 5px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.div1{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.div2{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
 .section2 div img{
 	width:15%;
+	padding:2%;		
 }
 
 footer{
 	text-align: center;
 	padding:10px;
 	background-color: rgb(102, 102, 102);
+	font-family: 'Archivo Narrow', sans-serif;
+	
 }	
+
+.section2{
+	display:flex;
+	justify-content: space-evenly;
+	padding:0 10px;
+}
+
+p{
+	font-family: 'Archivo Narrow', sans-serif;
+}
