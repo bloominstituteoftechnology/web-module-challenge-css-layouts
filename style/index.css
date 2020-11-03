@@ -344,6 +344,7 @@ footer{
 .social-icons .li .icon1:hover{
   background:url(/assets/PNG/CircleColor/Facebook.png);
 }
+
 /********************MEDIA QUERIES*************************/
 
 @media(max-width:800px){/* anything less than 800px will inherit the styles*/
