@@ -163,53 +163,61 @@ h1:hover{
 /*top section styles/ do some push ups*/
 .topsection{
     width:95%;
-    height:50%;
-}
-.mainbody{
+    height:35%;
     display:flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    margin:0%;
+    align-items: center;
     border:5px solid black;
-}
+}/*
+.mainbody{   // HTML:<div class="mainbody"></div>// found out this was an unnessasary div and just added most of the code to topsection//
+    width:100%;
+    height:35%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:5px solid black;
+}*/
 .topimage{
     width:40%;
-    height:40%;
+    height:35%;
     display: flex;
     align-content: center;
     border: solid grey;
 }
 .textbody{
-    display:flexbox;
-    margin:2% auto;
-    padding:10% 0 0 10;
+    width:45%;
+    height:35%;
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
-    vertical-align: middle;
+    justify-items: center;
     text-align: center;
-
 }
 .textbody h2{
-    padding-bottom:10%;
+    margin-bottom: 10%;
 }
 .textbody p{
-    padding-top: 10%;
+    margin-top: 10%;
 }
-.buttonPro{
+.textbody div{
     border-radius:3%;
-    width:10vw; /* spend the last three days using wh as vw... cool beans, thats why you'll see % on most width css */
-    padding:2%;
+    width:30%;
+    height:auto;
+    padding:4%;
+    margin:0% auto;
     font-size:4rem;
     color:black;
     background: #DE6C83;
-    display:flexbox;
-    vertical-align: middle;
+    border: 4px dashed black;
+    display: flex;
     justify-content: center;
-    border: 4px solid black;
-    /*margin:10% auto;*/
+
 }
-.buttonPro:hover{
+.textbody div:hover{
     background:#6CBEED;
     color:#DE6C83;
     transition:1.5s;
@@ -223,7 +231,7 @@ h1:hover{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items:center;
-    width: 100%;
+    width:100%;
     height:60%;
 }
 .gallery div{
@@ -256,7 +264,10 @@ footer{
 
 }
 .bottompage{
-    display:inline-block;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 2%;
 
 }
