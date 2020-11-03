@@ -156,7 +156,8 @@ p{
 
 header{
 	display:flex;
-	flex-flow: wrap;
+	flex-flow: column;
+	justify-content: center;
 	justify-content: center;	
 	font-family: 'Archivo Narrow', sans-serif;
 	background-color: darkslategray;
@@ -164,6 +165,8 @@ header{
 }
 
 header a{
+	display: flex;
+	justify-content: center;
 	text-decoration: none;
 	font-size: 1.5rem;
 	border-radius: 10%;
@@ -206,6 +209,7 @@ h2{
 
 .div1{
 	display:flex;
+	flex-direction: column;
 	justify-content: space-evenly;
 }
 
