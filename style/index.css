@@ -78,8 +78,8 @@ html{
 body{
     font-size:2rem;
     font-family: 'Staatliches', cursive;
-    font-stretch: semi-expanded;
     line-height:1.5;
+    letter-spacing: 1px;
     background-color: #C9DDFF;
     display:flex;
     color:#DE6C83;
@@ -95,13 +95,14 @@ section{
     margin:0% auto;
 }
 a{
-    text-decoration:none;/* questioning if this is needed*/
+    text-decoration:none;
 }
 p{
-    font-size:2.2rem;
+    font-size:2.3rem;
 }
 
 /* header/ navbar styles/ go take outside */
+
 .headerContainer{
     width:100%;
     height:20vh;
@@ -110,6 +111,7 @@ p{
 }
 .headerContainer div{
     margin:0% 2%;
+    text-shadow: 1px 1px black;
 }
 h1:hover{
     color:black;
@@ -128,16 +130,18 @@ h1:hover{
     background-color: #DE6C83;
     text-transform: 1.5s;
 }
-/* this little bit of .links gave me fits! i thought 'button instead of class would be so mean. learn to disable code and mark it up. throw borders anywhere to see the code. WTF padding TOP RIGHT BOTTOM LEFT*/
+/* this little bit of .links gave me fits! i thought button instead of class would be so mean. learn to disable code and mark it up. throw borders anywhere to see the code. WTF padding TOP RIGHT BOTTOM LEFT*/
 
 .links{
     padding:0% 5% 0% 5%; /* theres the short version of 'w & h' but i needed to figit with the boundaries*/
     margin:0%;
-    border:4px dashed grey;/* modifiers to consider: dotted,dashed, grooved*/
+    border:4px dashed grey;/* modifiers to consider: dotted, dashed, grooved*/
     color:#DE6C83;
-    display: flex;
-    justify-content: stretch;/* not sure whats happening here, i want the text to strecth the font closer to its boundaries*/
     font-size: 2.6rem;/*2.6rem- pls hold*/
+    text-shadow: 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 /* storage for code/ things that needed testing: 
@@ -158,7 +162,6 @@ h1:hover{
     align-items: center; 
 }
 */
-
 
 /*top section styles/ do some push ups*/
 .topsection{
@@ -196,16 +199,26 @@ h1:hover{
     justify-content: space-between;
     justify-items: center;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 .textbody h2{
     margin-bottom: 10%;
 }
+.textbody h2:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
 .textbody p{
     margin-top: 10%;
+    letter-spacing: 1.5;
+}
+.textbody p:hover{
+  transition: 1s;
+  transform: scale(1.2);
 }
 .textbody div{
     border-radius:3%;
-    width:30%;
+    width:200px;
     height:auto;
     padding:4%;
     margin:0% auto;
@@ -215,12 +228,13 @@ h1:hover{
     border: 4px dashed black;
     display: flex;
     justify-content: center;
-
+    text-shadow: 1px 1px  #DE6C83;
 }
 .textbody div:hover{
     background:#6CBEED;
     color:#DE6C83;
     transition:1.5s;
+    text-shadow:1px 1px black;
 }
 
 /*img box styles/ also drink some water*/
@@ -235,28 +249,36 @@ h1:hover{
     height:60%;
 }
 .gallery div{
-    display:inline-block;
+    display:flexbox;
     margin:4% 0;
-    
 }
-    
+.gallery div img:hover{
+  transition: 1s;
+  transform: scale(1.2);
+}    
 .gallery p{
     display:flex;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
+    font-size: 2.8rem;
+    text-shadow: 1px 1px black;
 }
-
+.gallery div p:hover{
+  transition: 1s;
+  transform: scale(1.2);
+}
 /* this is cool targeting individually or as a group, but i found out gallery div did the exact same thing... cool story bro!
 .box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box7 img, .box8 img{
     border: 1px solid red;<<<<------- this random border helped finding what the things were doing
 }
 */
 /*footer styles/ go pee and eat a snack*/
+
 footer{
     background:#ECB0E1;
     color:black;
-    height:30vh;
+    height:30%;
     width:100%;
     display:flex;
     justify-content: center;
@@ -264,161 +286,299 @@ footer{
 
 }
 .bottompage{
+    width: 100%;
+    height: auto;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-
+}
+.bottompage h2:hover{
+  color: black;
+  text-shadow:2px 2px #6CBEED;
 }
 .contact{
-    border-radius:50%;
+    width:15%;
+    height: auto;
+    border-radius:5%;
     background-color:#ECB0E1;
     color:black;
     font-weight: bold;
     font-size: 3rem;
-    margin:auto;
-    padding:3% 3%;/* even now, i forget what goes in which order: width height */
     display:flex;
-    
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:1% auto;
+    padding: 1% 1%;
 }
 .contact:hover{
     background-color:black;
     color:#6CBEED;
     transition: 1.5s;
-    border: 2px solid#6CBEED ;
+    border: 2px solid#6CBEED;
 }
 
+/* Social Media Icon Style Section*/
+
+.social-icons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin:0 auto;
+  }  
+
+.social-icons li img {
+  width:70px;
+  height:70px;
+  display: flex;
+  justify-content: space-between;
+  margin:0% 1vw;
+}
+/**     was trying to transition the icons into different icons and got stuck
+.social-icons .li .icon1{
+  background-image:url(/assets/PNG/CircleGrey/Facebook_1.png);
+}
+.social-icons .li .icon1:hover{
+  background:url(/assets/PNG/CircleColor/Facebook.png);
+}
+/********************MEDIA QUERIES*************************/
+
+@media(max-width:800px){/* anything less than 800px will inherit the styles*/
 
 
-
-
-
-/*  ## still working on how to apply this code portion of social media tags to the webpage ##
-@import '//codepen.io/chrisdothtml/pen/ojLzJK.css'
-
-.btn-size = 90px
-.socialnav{
-  'facebook': #3B5998
-  'twitter': #3CF
-  'google': #DC4A38
-  'dribbble': #F26798
-  'skype': #00AFF0
+*{
+  box-sizing:border-box;
+  max-width:100%;
 }
 
-$animate {
-  transition: all .35s
-  transition-timing-function: cubic-bezier(
-    0.310,
-    -0.105,
-    0.430,
-    1.590
-  )
+html{
+  font-size:62.5%;
 }
 
-$btn__inactive {
-  
-  &:before {
-    top: 90%
-    left: -110%
-  }
-  
-  .fa {
-    transform: scale(.8)
-  }
-  
-  // variants
-  for name, color in sites {
-    
-    &.{name} {
-      
-      &:before {
-        background-color: color
-      }
-      
-      .fa {
-        color: color
-      }
-    }
-  }
+body{
+  font-size:2rem;
+  line-height:1.5;
+  letter-spacing: 1px;
+  color:#DE6C83;
+  flex-direction: column;
+
+}
+h1, h2, h3, h4, h5, h6{
+  font-size:6.5rem;
+}
+section{
+  padding:0%;
+  margin:0% auto;
+}
+p{
+  font-size:2.3rem;
 }
 
-$btn__active {
+/* header/ navbar styles/ go take outside */
 
-  &:before {
-    top: -10%
-    left: -10%
-  }
-
-  .fa {
-    color: #fff
-    transform: scale(1)
-  }
+.headerContainer{
+  width:100%;
+  height:20vh;
+  display:flex;
+  flex-direction: column;
+}
+.headerContainer div{
+  margin:0% 2%;
+  text-shadow: 1px 1px black;
+}
+h1:hover{
+  color:black;
+  transition:1.5s;
+}
+.navbar{
+  width:50%;
+  display:flex;
+  justify-content: space-between;
+  margin:0 8%;
+  padding:0%;
+  color: white;
+}
+.navbar a:hover{
+  color:#6CBEED;
+  background-color: #DE6C83;
+  text-transform: 1.5s;
 }
 
-.social-btns {
-  height: btn-size
-  margin: auto
-  font-size: 0
-  text-align: center
-  position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-
-.btn {
-    @extends $btn__inactive
-    @extends $animate
-    display: inline-block
-    background-color: #fff
-    width: btn-size
-    height: btn-size
-    line-height: btn-size
-    margin: 0 10px
-    text-align: center
-    position: relative
-    overflow: hidden
-    border-radius: 28%
-    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1)
-    //overflow bug fix
-    opacity: .99
-
-    &:before {
-      @extends $animate
-      content: ''
-      width: 120%
-      height: 120%
-      position: absolute
-      transform: rotate(45deg)
-    }
-
-    .fa {
-      @extends $animate
-      font-size: 38px
-      vertical-align: middle
-    }
-
-    &:focus,
-    &:hover {
-      @extends $btn__active
-    }
-  }
+.links{
+  padding:0% 5% 0% 5%;
+  border:4px dashed grey;
+  color:#DE6C83;
+  font-size: 2.6rem;
+  text-shadow: 1px 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-##this was the html to link with the css right above##
 
-    <section class="Socialnav"> 
-      <a class='btn' href="facebook",
-      'twitter',
-     'google',
-     'dribbble',
-      'skype'
-    
-    </section>
-    .social-btns
-      each site in sites
-        a(href='#', class='btn ' + site)
-          i(class='fa fa-' + site)
-    
-*/
+/*top section styles/ do some push ups*/
+
+.topsection{
+  width:95%;
+  height:35%;
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:5px solid black;
+}
+
+.topimage{
+  width:40%;
+  height:35%;
+  display: flex;
+  align-content: center;
+  border: solid grey;
+}
+.textbody{
+  width:45%;
+  height:35%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+.textbody h2{
+  margin-bottom: 10%;
+}
+.textbody h2:hover{
+  transition: 1s;
+  transform: scale(1.2);
+}
+.textbody p{
+  margin-top: 10%;
+  letter-spacing: 1.5;
+}
+.textbody p:hover{
+transition: 1s;
+transform: scale(1.2);
+}
+.textbody div{
+  border-radius:3%;
+  width:200px;
+  height:auto;
+  padding:4%;
+  margin:0% auto;
+  font-size:4rem;
+  color:black;
+  background: #DE6C83;
+  border: 4px dashed black;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px  #DE6C83;
+}
+.textbody div:hover{
+  background:#6CBEED;
+  color:#DE6C83;
+  transition:1.5s;
+  text-shadow:1px 1px black;
+}
+
+/*img box styles/ also drink some water*/
+
+.gallery{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  width:100%;
+  height:60%;
+}
+.gallery div{
+  display:flexbox;
+  margin:4% 0;
+}
+.gallery div img:hover{
+transition: 1s;
+transform: scale(1.2);
+}    
+.gallery p{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  text-shadow: 1px 1px black;
+}
+.gallery div p:hover{
+transition: 1s;
+transform: scale(1.2);
+}
+
+/*footer styles/ go pee and eat a snack*/
+
+footer{
+  background:#ECB0E1;
+  color:black;
+  height:30%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.bottompage{
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.bottompage h2:hover{
+color: black;
+text-shadow:2px 2px #6CBEED;
+}
+.contact{
+  width:15%;
+  height: auto;
+  border-radius:5%;
+  background-color:#ECB0E1;
+  color:black;
+  font-weight: bold;
+  font-size: 3rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:1% auto;
+  padding: 1% 1%;
+}
+.contact:hover{
+  background-color:black;
+  color:#6CBEED;
+  transition: 1.5s;
+  border: 2px solid#6CBEED;
+}
+
+/* Social Media Icon Style Section*/
+
+.social-icons {
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin:0 auto;
+}  
+
+.social-icons li img {
+width:70px;
+height:70px;
+display: flex;
+justify-content: space-between;
+margin:0% 1vw;
+}
+
+} /************END OF MEDIA QUERIES*************/
