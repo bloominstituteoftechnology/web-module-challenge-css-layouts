@@ -143,24 +143,56 @@ h2{
     align-content: center;
 }
 
+/* Project images section */
 .projects{
-    width:100%;
-    /* padding: 0 1%; */
-    border: 2px solid black;
-    margin: auto 2px;
+    
     display: flex;
-    justify-content: flex-start;
-    background: url(/images/maliRamp.jpeg) no-repeat;
 }
-/* .projects */
-/* .projects p{
+.project1{
     width: 20%;
-    padding:1% 2%;
-    border: 2px solid black;
+    height: 70vh;
+    margin-left: 10px; 
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/maliRamp.jpeg')
+}
+.project2{
+    width: 20%;
+    height: 70vh;
+    margin-left: 10px; 
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/rottiePuppyWinking.jpeg')
+}
+.project3{
+    width: 20%;
+    height: 70vh;
+    margin-left: 10px; 
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/meAndDino.jpg')
+}
+.project4{
+    width: 20%;
+    height: 70vh;
+    margin-left: 10px; 
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/ciscoHoldandBark.jpg')
+}
+.project5{
+    width: 20%;
+    height: 70vh;
+    margin-left: 10px;
+    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-} */
+}
+
 
 footer .contact{
     display: flex;
@@ -204,5 +236,12 @@ footer .social a:visited{
         justify-content: space-evenly;
         width: 100%
     }
-
-
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .project5{
+        width: 100%;
+        max-width: ;
+    }
