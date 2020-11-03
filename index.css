@@ -44,33 +44,38 @@ table {
 /*************End of Reset!*****************/
 
 *{
-	border:1px solid grey;
+	/* border:1px solid grey; */
 	background-color: rgb(180, 176, 176);
+	box-sizing: border-box;
 }
 
 header{
 	display:flex;
 	flex-flow: wrap;
-	justify-content: center;
-	padding:5px;
+	justify-content: center;	
 	font-family: 'Archivo Narrow', sans-serif;
+	background-color: darkslategray;
 	
 }
 
 header a{
 	text-decoration: none;
+	color:black;
 	font-size: 1.5rem;
 	border-radius: 10%;
-	padding:3px;
+	margin-bottom: 5px;
+	background-color: darkslategray;
+	padding:5px 5px;
 	
 }
 
 header h1{
 	width:100%;
 	text-align: center;
-	padding:5px;
+	
 	font-size: 3rem;
 	margin-bottom: 5px;
+	background-color: darkslategray;
 	
 }
 
@@ -116,10 +121,17 @@ h2{
 footer{
 	text-align: center;
 	padding:10px;
-	background-color: rgb(102, 102, 102);
+	background-color: darkslategray;
 	font-family: 'Archivo Narrow', sans-serif;
 	
 }	
+
+footer a{
+	background-color: darkslategray;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: none;
+}
 
 .section2{
 	display:flex;
@@ -129,4 +141,107 @@ footer{
 
 p{
 	font-family: 'Archivo Narrow', sans-serif;
+}
+
+/**************Media Break!***************/
+
+@media (max-width:800px){
+
+
+
+*{
+	border:1px solid grey;
+	background-color: rgb(180, 176, 176);
+}
+
+header{
+	display:flex;
+	flex-flow: wrap;
+	justify-content: center;	
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: darkslategray;
+	
+}
+
+header a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	border-radius: 10%;
+	margin-bottom: 5px;
+	background-color: darkslategray;
+	
+}
+
+header h1{
+	width:100%;
+	text-align: center;
+	
+	font-size: 3rem;
+	margin-bottom: 5px;
+	background-color: darkslategray;
+	
+}
+
+.section1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.rileyBlanket{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	background:url("https://iili.io/3O0tbR.md.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+}
+
+h2{
+	font-size: 2rem;
+	margin-top: 5px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.div1{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.div2{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.section2 div img{
+	width:15%;
+	padding:2%;		
+}
+
+footer{
+	text-align: center;
+	padding:10px;
+	background-color: darkslategray;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+}	
+
+footer a{
+	background-color: darkslategray;
+	font-size: 1.5rem;
+}
+
+.section2{
+	display:flex;
+	justify-content: space-evenly;
+	padding:0 10px;
+}
+
+p{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
 }
