@@ -348,30 +348,12 @@ footer{
 
 @media(max-width:800px){/* anything less than 800px will inherit the styles*/
 
-
-*{
-  box-sizing:border-box;
-  max-width:100%;
-}
-
-html{
-  font-size:62.5%;
-}
-
 body{
-  font-size:2rem;
-  line-height:1.5;
-  letter-spacing: 1px;
-  color:#DE6C83;
+  font-size:1.3rem;
   flex-direction: column;
-
 }
 h1, h2, h3, h4, h5, h6{
-  font-size:6.5rem;
-}
-section{
-  padding:0%;
-  margin:0% auto;
+  font-size:4.5rem;
 }
 p{
   font-size:2.3rem;
@@ -380,205 +362,43 @@ p{
 /* header/ navbar styles/ go take outside */
 
 .headerContainer{
-  width:100%;
-  height:20vh;
-  display:flex;
+  height:30vh;
   flex-direction: column;
-}
-.headerContainer div{
-  margin:0% 2%;
-  text-shadow: 1px 1px black;
-}
-h1:hover{
-  color:black;
-  transition:1.5s;
+  align-items: center;
 }
 .navbar{
   width:50%;
-  display:flex;
-  justify-content: space-between;
-  margin:0 8%;
-  padding:0%;
-  color: white;
+  height: 30%;
+  flex-direction: column;
 }
-.navbar a:hover{
-  color:#6CBEED;
-  background-color: #DE6C83;
-  text-transform: 1.5s;
-}
-
 .links{
-  padding:0% 5% 0% 5%;
-  border:4px dashed grey;
-  color:#DE6C83;
-  font-size: 2.6rem;
-  text-shadow: 1px 1px black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 2.3rem;
 }
 
 /*top section styles/ do some push ups*/
 
 .topsection{
-  width:95%;
-  height:35%;
-  display:flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border:5px solid black;
-}
-
-.topimage{
-  width:40%;
-  height:35%;
-  display: flex;
-  align-content: center;
-  border: solid grey;
-}
-.textbody{
-  width:45%;
-  height:35%;
-  display:flex;
   flex-direction: column;
-  justify-content: space-between;
-  justify-items: center;
-  text-align: center;
-  text-shadow: 1px 1px black;
 }
-.textbody h2{
-  margin-bottom: 10%;
-}
-.textbody h2:hover{
-  transition: 1s;
-  transform: scale(1.2);
-}
-.textbody p{
-  margin-top: 10%;
-  letter-spacing: 1.5;
-}
-.textbody p:hover{
-transition: 1s;
-transform: scale(1.2);
-}
-.textbody div{
-  border-radius:3%;
-  width:200px;
-  height:auto;
-  padding:4%;
-  margin:0% auto;
-  font-size:4rem;
-  color:black;
-  background: #DE6C83;
-  border: 4px dashed black;
-  display: flex;
-  justify-content: center;
-  text-shadow: 1px 1px  #DE6C83;
-}
-.textbody div:hover{
-  background:#6CBEED;
-  color:#DE6C83;
-  transition:1.5s;
-  text-shadow:1px 1px black;
-}
-
-/*img box styles/ also drink some water*/
-
-.gallery{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items:center;
-  width:100%;
-  height:60%;
-}
-.gallery div{
-  display:flexbox;
-  margin:4% 0;
-}
-.gallery div img:hover{
-transition: 1s;
-transform: scale(1.2);
-}    
-.gallery p{
-  display:flex;
-  justify-content: center;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2.8rem;
-  text-shadow: 1px 1px black;
-}
-.gallery div p:hover{
-transition: 1s;
-transform: scale(1.2);
+.topimage{
+  width:50%;
+  height:50%;
 }
 
 /*footer styles/ go pee and eat a snack*/
 
-footer{
-  background:#ECB0E1;
-  color:black;
-  height:30%;
-  width:100%;
-  display:flex;
-  justify-content: center;
-  align-content: center;
-
-}
 .bottompage{
-  width: 100%;
-  height: auto;
-  display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2%;
-}
-.bottompage h2:hover{
-color: black;
-text-shadow:2px 2px #6CBEED;
 }
 .contact{
-  width:15%;
-  height: auto;
-  border-radius:5%;
-  background-color:#ECB0E1;
-  color:black;
-  font-weight: bold;
-  font-size: 3rem;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin:1% auto;
-  padding: 1% 1%;
-}
-.contact:hover{
-  background-color:black;
-  color:#6CBEED;
-  transition: 1.5s;
-  border: 2px solid#6CBEED;
+  width:25%;
+  font-size: 2.5rem;
 }
 
 /* Social Media Icon Style Section*/
 
 .social-icons {
-display:flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
-margin:0 auto;
+  flex-direction: column;
 }  
-
-.social-icons li img {
-width:70px;
-height:70px;
-display: flex;
-justify-content: space-between;
-margin:0% 1vw;
-}
 
 } /************END OF MEDIA QUERIES*************/
