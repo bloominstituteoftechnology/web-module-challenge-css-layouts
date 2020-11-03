@@ -48,13 +48,10 @@ table {
 	border-spacing: 0;
 }
 body{
-    margin:5%;
     font-size:1.5rem;
-    background:url("https://images.unsplash.com/photo-1507499739999-097706ad8914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1835&q=80");
-    background-repeat: no-repeat;
+    background:linear-gradient(rgb(0, 0, 61), rgb(255, 169, 184));
+    background-size: cover;
     background-size: 100%;
-    
-    
 }
 h1{
     font-size:10rem;
@@ -68,20 +65,22 @@ nav{
     flex-direction: row;
     text-align: center;
     justify-content:space-evenly;
-   
+   background:linear-gradient(black, grey, lightgrey)
 }
 
 .links{
     display: flex;
     width: 150px;
     height: 150px;
-    background: white;
+    background:navy;
     border:grey 5px;
     margin:5%;
     justify-content: center;
-    align-items: center; 
-    border: 3px grey;
+    align-items: center;
     border-radius: 30%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
 }
 h2{
     font-size: 3rem;   
@@ -102,21 +101,38 @@ h2{
     margin-top: 5%;
 
 }
-.skinnyPic{
+.contentContainer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tallBoys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height:45vh;
-    width: 15%;
-    margin: 5% 0 5% 0;
+    margin: 1%;
+    height: auto;
     
 }
-span{
+.skinnyPic{
     display: flex;
+    height: 25rem;
+    width: 10rem;
+    flex-direction: row;
+    
+    margin: 1%;
+    
+}
+.hobbies{
+    display: flex;
+    flex-direction: row;
     width: 10%;
     font-size: 2rem;
     align-items: center;
-    background-color:;
+    justify-content: center;
+    margin-left: 2.5%;
+    
 }
 body{
     border: 1px grey;
@@ -124,10 +140,59 @@ body{
 footer{
     background-color: pink;
     text-align: center;
-    margin:0 30%;
+    margin:5% 30%;
     border-radius: 30%;
+
 }
 div{
     display:flex;
     justify-content: space-between;
+}
+/*stylish mobile css for stylish mobile users*/
+@media(max-width:800px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+    
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+    .mobileOne{
+
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin:2.5%;
+        position: relative;
+    }
+    .mobileTwo{
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: row nowrap;
+        margin:2.5%;
+        position: relative;
+    }
+    .hobbies{
+        align-self: flex-end;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+        
+    }
 }
