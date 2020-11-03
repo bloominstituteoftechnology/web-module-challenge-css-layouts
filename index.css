@@ -66,7 +66,6 @@ header a{
 	margin-bottom: 5px;
 	background-color: darkslategray;
 	padding:5px 5px;
-	
 }
 
 header h1{
@@ -89,10 +88,11 @@ header h1{
 	display:flex;
 	flex-direction: column;
 	text-align: center;
-	background:url("https://iili.io/3O0tbR.md.jpg") no-repeat;
+	background:url("https://iili.io/34Am0B.md.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 40vh;
+	border: 2px solid darkslategray;
 }
 
 h2{
@@ -112,10 +112,11 @@ h2{
 	justify-content: center;
 }
 
-
 .section2 div img{
 	width:15%;
-	padding:2%;		
+	margin:2%;	
+	border: 2px solid darkslategray;
+	border-radius: 10%;
 }
 
 footer{
@@ -172,13 +173,11 @@ header a{
 	border-radius: 10%;
 	margin-bottom: 5px;
 	background-color: darkslategray;
-	
 }
 
 header h1{
 	width:100%;
-	text-align: center;
-	
+	text-align: center;	
 	font-size: 3rem;
 	margin-bottom: 5px;
 	background-color: darkslategray;
@@ -195,10 +194,11 @@ header h1{
 	display:flex;
 	flex-direction: column;
 	text-align: center;
-	background:url("https://iili.io/3O0tbR.md.jpg") no-repeat;
+	background:url("https://iili.io/34Am0B.md.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 40vh;
+	
 }
 
 h2{
