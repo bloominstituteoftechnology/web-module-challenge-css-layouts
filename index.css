@@ -66,7 +66,7 @@ header a{
 	margin-bottom: 5px;
 	background-color: darkslategray;
 	padding:5px 5px;
-}
+	}
 
 header h1{
 	width:100%;
@@ -151,7 +151,7 @@ p{
 
 
 *{
-	border:1px solid grey;
+	/* border:1px solid grey; */
 	background-color: rgb(180, 176, 176);
 }
 
@@ -209,8 +209,8 @@ h2{
 
 .div1{
 	display:flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	flex-direction: row;
+	flex-flow: wrap;	
 }
 
 .div2{
@@ -219,10 +219,9 @@ h2{
 	justify-content: center;
 }
 
-
 .section2 div img{
-	width:15%;
-	padding:2%;		
+	width:45%;
+	
 }
 
 footer{
@@ -239,9 +238,10 @@ footer a{
 }
 
 .section2{
-	display:flex;
-	justify-content: space-evenly;
+	display:flex;	
+	flex-direction: column;
 	padding:0 10px;
+	text-align: center;
 }
 
 p{
