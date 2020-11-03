@@ -231,17 +231,38 @@ footer .social a:visited{
 /********* MOBILE STYLES**********/
 
 @media(max-width:800px) {/* anything less than 800px will inherit these styles */
+    h1{
+        text-align: center;
+    }
+    
     nav{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
     }
     .projects{
-        display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .project1{
+        width: 40%
+    }
+    .project2{
+        width: 40%;
+    }
+    .project3{
+        width: 40%;
+    }
+    .project4{
+        width: 40%;
     }
     .project5{
-        width: 100%;
-        max-width: ;
+        width: 80%;
+        height: 20vh;
+    }
+    .contact{
+        text-align: center;
     }
