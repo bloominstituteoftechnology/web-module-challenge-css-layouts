@@ -190,7 +190,7 @@ nav a{
 
 .main-left {
     width: 90%; 
-    height: 90vh; 
+    height: 60vh; 
 }
 
 .main-right {
@@ -209,8 +209,9 @@ h2 {
 }
 
 .main-right-text p{
-    padding: 100 auto 10;
-    text-align: center;
+margin: 0 auto; 
+width: 60%;
+padding-top: 2%; 
 }
 
 /* project preview section */
@@ -218,34 +219,24 @@ h2 {
 section .project-previews {
     display: flex; 
     flex-wrap: wrap; 
-    flex-direction: row; 
-    justify-content: space-evenly;
-    align-content: flex-start;
+    max-width: 100%;
+    align-content: space-around;
 }
 
 .project-previews img {
-    width: 23%; 
-    height: 30vh; 
-    margin-bottom: 2%; 
+    width: 35%; 
 }
 
 /* FOOTER */
 
 footer {
-    margin: 0; 
-    background-color:  #d9bebd; 
-    padding: 7% 40%; 
+    padding: 7% 20%; 
 }
-
-.footer-container {
-    margin: 0 auto; 
-    display: flex; 
-    flex-wrap: wrap; 
-}
-
 .footer-text {
     font-size: 2em; 
-    margin: 2% auto; 
+    margin: 0 auto; 
+    width: 100%;
+    text-align: center;
 }
 
 /* BUTTONS */
@@ -253,7 +244,8 @@ button.footer-button {
     display: flex; 
     margin: 2% auto; 
     padding: 5% 10%;    
-    font-size: 1.2em;  
+    font-size: 1em;  
+    text-align: center;
 }
 
 button.my-projects {
