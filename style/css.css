@@ -8,6 +8,78 @@
 body {
   background-color: black;
 }
+
+#name {
+  color: black;
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+  animation: name 8s linear;
+  animation-fill-mode: forwards;
+}
+#jr {
+  top: -20%;
+  z-index: 1;
+  position: absolute;
+  animation: jun 3s linear;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+#not {
+  left: -20%;
+  z-index: 1;
+  position: absolute;
+  animation: not 2s linear;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes name {
+  0% {
+    color: black;
+    top: -10%;
+  }
+  30% {
+    color: black;
+    transform: translateX(60px);
+  }
+
+  70% {
+    color: black;
+    transform: translateX(-60px);
+  }
+  99.99% {
+    color: black;
+  }
+
+  100% {
+    color: silver;
+    transform: translateX(0px);
+  }
+}
+@keyframes jun {
+  0% {
+  }
+  99.99% {
+    color: black;
+  }
+  100% {
+    color: silver;
+    top: 43%;
+  }
+}
+@keyframes not {
+  0% {
+  }
+  99.99% {
+    color: black;
+  }
+  100% {
+    color: gold;
+    transform: translateX(970px);
+    top: 48%;
+  }
+}
+
 section {
   position: relative;
   z-index: 0;
