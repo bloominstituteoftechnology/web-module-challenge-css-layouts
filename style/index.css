@@ -69,6 +69,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	font-size: 100%;
+	text-decoration: none;
 
 }
 
@@ -87,7 +88,7 @@ h1 {
 }
 
 .mainImg-Txt button {
-    width: 30%
+    max-width: 30%
 }
 
 .textContainer {
@@ -127,4 +128,38 @@ h1 {
 	height: auto;
 	align-items: center;
 	background-color: #F9E7DC;
+}
+
+@media (max-width:768px) {
+	.header {
+		flex-direction: column;
+		height: 30vh;
+		justify-items: center;
+	}
+
+	.buttonRow {
+		flex-direction: column;
+		width: 10%;
+	}
+
+	.buttonRow a {
+		background-color: orange;
+		padding: 2%;
+	}
+
+	.header button {
+		padding: 2%;
+	}
+
+	.footer {
+		flex-direction: column;
+		height: 20vh;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.footer button {
+		padding: 2%;
+	}
 }
