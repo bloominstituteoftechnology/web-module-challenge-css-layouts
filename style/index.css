@@ -18,10 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 2px black;
+	border: 2px solid black;
 	font-size: 100%;
-	font: font-family: 'Heebo', sans-serif;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -58,22 +56,38 @@ h1 {
 	justify-content: space-evenly;
 }
 
+* {
+	box-sizing: border-box;
+}
 
 .header {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	height: 6vh;
 	background-color: #F9E7DC;
 	justify-content: center;
+	align-items: center;
+	font-size: 100%;
 
 }
 
 .mainImg-Txt {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-around;
+	max-width: 100%;
+	justify-content: space-evenly;
 
+}
+
+.mainImg-Txt img {
+    width: 500px;
+	height: 30vh;
+	object-fit: cover;
+}
+
+.mainImg-Txt button {
+    width: 30%
 }
 
 .textContainer {
@@ -94,14 +108,9 @@ h1 {
 
 }
 
-button {
-
-}
-
-img {
-    width: 300px;
+.projectImgs img {
+	width: 300px;
 	height: 30vh;
-	object-fit: cover;
 }
 
 .box {
@@ -110,10 +119,6 @@ img {
 	align-items: center;
 }
 
-.projectImgs .box {
-
-
-}
 
 .footer {
 	display: flex;
