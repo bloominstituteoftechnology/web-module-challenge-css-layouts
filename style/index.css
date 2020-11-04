@@ -222,6 +222,14 @@ button a {
     .gcontainer1 video, img {
         width: 20%;
     }
+
+    .gcontainer2 {
+        width: 80%;
+    }
+
+    .footy {
+        width: 88%;
+    }
 }
 
 @media(max-width:500px) {
@@ -239,7 +247,11 @@ button a {
     }
 
     .headyimage {
-        height: 30vh;
+       height: 40vh;
+    }
+
+    .footy {
+        width: 75%;
     }
 }
 
