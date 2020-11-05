@@ -17,12 +17,17 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: flex;
+}
+
+/* Universal anchor */
+a{
+    text-decoration: none;
 }
 
 /* Header */
@@ -43,10 +48,8 @@ header nav button{
     border: none; 
     margin: 1%;  
     font-size: large;
-    text-decoration: none;
     background: none;
 }
-
 
 /* Container */
 #prjContainer{
