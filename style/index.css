@@ -51,22 +51,24 @@ table {
 /* Add CSS styling below */
 
 
-/* * {
-	border:1px solid black !important;
-
-} */
+*{
+  color: white;
+}
 
 html {
 	margin: 0 5%;
-	background-image: url(../images/pizzadough.jpg);
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e5ae09b0-a69f-4795-a0e8-6cb6a65ebd31/d8dbnac-4e140102-df75-48f0-9c53-880cce859497.jpg/v1/fill/w_1600,h_900,q_75,strp/chalkboard_texture_mc2015_by_mattiamc_d8dbnac-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDAiLCJwYXRoIjoiXC9mXC9lNWFlMDliMC1hNjlmLTQ3OTUtYTBlOC02Y2I2YTY1ZWJkMzFcL2Q4ZGJuYWMtNGUxNDAxMDItZGY3NS00OGYwLTljNTMtODgwY2NlODU5NDk3LmpwZyIsIndpZHRoIjoiPD0xNjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.oyGfshKhrTNM8sHOTB9XJQPwil2e9zCFSMyQfuSZJ7M);
 	color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: auto;
+	background-size: cover;
 	font-size:62.5%;
 }
-/* will probably need to change the top margin for the main container */
+body{
+  color:white
+}
+
 
 .main1 {
 	text-align:center;
@@ -95,8 +97,8 @@ h1 {
 }
 
 nav {
-	border-bottom: solid 1px black;
-	border-top: solid 1px black;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
 }
 
 h2 {
@@ -133,7 +135,7 @@ a {
 	border-radius: 10px;
 	font-size:2rem;
 	text-decoration: none;
-	color:black;
+	color:white;
 	font-family: 'Staatliches', cursive;
 }
 
@@ -180,7 +182,18 @@ a {
 /* MEDIA QUERY BELOW */
 
 @media all and (max-width:800px) {
+
+	html {
+		display:flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	h1 {
+		flex-wrap: wrap;
+	}
 	nav ul {
+		display: flex;
 		flex-direction: column;
 	}
 	#indexmain p {
@@ -194,16 +207,32 @@ a {
 
 	}
 
+
 	nav ul a {
 		margin: 0 auto;
 	}
+
+	.galleryimg {
+		margin:1rem;
+	
+	}
+
+	#indexgallery p {
+		text-align: center;
+	}
+
 		
 	}
 
 
 
 
-@media (max-width:500) {
-
+@media (max-width:300px) {
 	
-}
+	main .name {
+		font-size:3rem;
+	}
+	
+	nav ul a {
+		font-size:1.2rem;
+	}}
