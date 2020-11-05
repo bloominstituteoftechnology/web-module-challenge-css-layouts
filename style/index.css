@@ -63,5 +63,11 @@ header nav button{
 #prjContainer button{
     width:15%;
     border:none;
+    background: none;
     font-size: 1.5rem;
+}
+
+#prjContainer a:hover{
+    text-decoration: underline;
+    color: white;
 }
