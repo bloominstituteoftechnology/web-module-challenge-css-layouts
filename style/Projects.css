@@ -1,0 +1,9 @@
+body {
+display: flex;
+flex-flow: wrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: space-evenly;
+height: 200px;
+width: 200px;
+}
