@@ -47,3 +47,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/**/
+
+html {font-size:62.5%;
+}
+
+body { font-size: 2rem;
+line-height:1.5;
+}
+header {display:flex;
+flex-direction: row;
+background-color:black;
+color:white;
+border: 5px solid white;
+
+padding:5%
+}
+div.links a {display:inline-block;
+    padding:1rem;
+    background: gray;
+text-decoration: none;
+color:black;
+
+}
+section.main {display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+ }
+div.text {text-align:right;
+    padding-left:20%;
+    padding-top:10%;
+
+}
+.images {display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+padding-top:10%;
+
+}
