@@ -54,18 +54,20 @@ html {font-size:62.5%;
 
 body { font-size: 2rem;
 line-height:1.5;
+background-color: gray;
 }
 header {display:flex;
 flex-direction: row;
 background-color:black;
 color:white;
-border: 5px solid white;
+border: 5px solid gray;
 
 padding:5%
 }
+h1 {font-size:4rem;}
 div.links a {display:inline-block;
     padding:1rem;
-    background: gray;
+    background: lightgray;
 text-decoration: none;
 color:black;
 
@@ -77,11 +79,52 @@ flex-direction: row;
 div.text {text-align:right;
     padding-left:20%;
     padding-top:10%;
+    font-size: 3rem
 
+}
+.myprojects { padding:1rem;
+margin: 2rem;
+font-size:2rem;
 }
 .images {display:flex;
 flex-direction:row;
 flex-wrap:nowrap;
 padding-top:10%;
-
+padding-left: 10%;
+padding-right: 10%;
+}
+.images img {padding-left:33%;
+padding-right:33%
+}
+.images2 {display:flex;
+flex-direction: row;
+flex-wrap:nowrap;
+padding-top: 5%;
+padding-left:10%;
+padding-right:10%;
+}
+.images2 img{
+    padding-left:33%;
+    padding-right:33%;
+}
+footer { background: black;
+color:white;
+text-align:center;
+padding:4%;
+border:5px solid gray;
+margin:2%;
+}
+.footerbutton { padding:1rem;
+margin:2rem;
+font-size:2rem;
+}
+h3 {font-size:3rem;
+}
+footer a {text-decoration:none;
+color:white;
+font-size:2rem;
+}
+footer a:hover {text-transform: uppercase;
+    color: pink;
+font-size:3rem;
 }
