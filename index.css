@@ -1,0 +1,58 @@
+
+
+/* HOME STYLING */
+
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px 6px gray;
+    margin-bottom: 0;
+}
+
+.intro {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home a {
+    text-decoration: none;
+    border: solid white 3px;
+    padding: .5em 1em;
+    color: white;
+}
+
+.home a:hover{
+    padding: .75em 1.5em;
+    font-size: 125%;
+}
+
+/* NAVBAR STYLING */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: darkslategray;
+    padding: .75em;
+    margin: 0;
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0 .5em;
+    font-size: 125%;
+}
+
+.navbar a:hover {
+    color: dimgray;
+    font-size: 150%
+}
+
+/* ABOUT STYLING */
