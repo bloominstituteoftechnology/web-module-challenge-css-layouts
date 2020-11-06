@@ -1,10 +1,18 @@
 
 body{
     background-color: lavender;
+    font-family: 'Courier New';
    
 }
 h1{
     text-align: center;
+    font-style: italic;
+    font-size: 64px;
+}
+button{
+    background: lavender;
+    border-radius: 15px;
+    font-size: 24px;
 }
 
 
@@ -12,11 +20,12 @@ header{
     display: flex column;
     text-align: center;
     justify-content: center;
+    background-color: lightgrey;
     
 }
 header img{
     height: 600px;
-    width:93%;
+    width:100%;
 }
 
 .projects{
@@ -26,6 +35,17 @@ header img{
    width: 100%;
 
   
+}
+.projects p{
+    display: flex wrap;
+    justify-content: center;
+    border: 1px solid green;
+    width: 300px;
+    text-align: center;
+    align-self: center;
+    
+    
+
 }
 .projects img{
     width: 300px;
@@ -43,5 +63,6 @@ footer{
 footer nav{
     display: flex;
     align-items: center;
-    justify-content: left;
+    
 }
+
