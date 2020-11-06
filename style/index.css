@@ -1,1 +1,322 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+{
+  max-width: 100%
+}
+
+/*
+colors to use:
+#F30F0F- red
+#0FF3EF- teal
+#F3700F- orange
+#0FAFF3- sky blue
+#45A29E- greyish green
+#1F2833- black
+*/
+
+html {
+  font-size:60%;
+}
+
+body{
+  background-color: #0FAFF3;
+    font-size:1.7rem;
+      color:white;
+  font-family: "Montserrat";
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  .header p {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links button {
+    font-family: "Montserrat";
+    background-color: #F30F0F;
+    padding: 4% 6%;
+    transition-duration: 0.8s;
+    margin: 2%;
+} 
+
+.links button:hover {
+  background-color: #F3700F
+}
+
+.links a:hover {
+  color:#000000
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "montserrat";
+  font-size:4rem;
+  color:#66FCF1;
+}
+
+a {
+    font-family: "Montserrat";
+    color: #C5C6C7;
+    font-size: 1.4rem;
+}
+
+.headimage {
+  max-width: 100%;
+  background-image: url("http://allhdwallpapers.com/wp-content/uploads/2016/07/Yin-Yang-3-1024x768.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  margin:1%;
+  margin-bottom: 1%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gcontainer1 {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.gcontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%
+}
+
+.projectbutton {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectbutton button {
+    padding: 10% 10%;
+    background-color: #1F2833;
+}
+
+.projectbutton button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.projectbutton a:hover {
+    color: #1F2833;
+}
+
+.gallery p {
+    font-family: "Itim";
+    background-color: #F3700F;
+    width: 80%;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.gallery p:hover {
+    background-color: #1F2833;
+    transition-duration: 0.3s;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactme {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.contactme button {
+    font-family: "Montserrat";
+    background-color: #1F2833;
+    padding: 1% 1%;
+    margin: 1%;
+}
+
+.contactme button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.contactme a:hover {
+    color: #1F2833;
+}
+
+.social media {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-links button {
+    font-family: "Montserrat";
+    background-color: #1F2833;
+    padding: 1% 1%;
+}
+
+.social-links button:hover {
+    background-color: #45A29E;
+    transition-duration: 0.3s;
+}
+
+.social-links a:hover {
+    color: #1F2833;
+}
+
+.page-split {
+    width: 100%;
+}
+
+.gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.gcontainer1 img {
+        width: 20%;
+}
+
+.gcontainer2 {
+        width: 90%;
+}
+
+.gcontainer2  img {
+        width: 20%;
+}
+
+   .gallery {
+        display: flex;
+        align-items: center;
+}
+
+    .headimage {
+        height: 30vh;
+}
