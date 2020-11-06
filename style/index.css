@@ -192,7 +192,7 @@ nav a {
   background-color: #fff;
   padding: 1rem 2rem;
   border-left: 1px solid cadetblue;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 nav a:last-child {
@@ -211,4 +211,73 @@ nav a:hover {
   background: url('../assets/pexels-eberhard-grossgasteiger-572897.jpg')
     no-repeat center center/cover;
   margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-project a {
+  background-color: cadetblue;
+  padding: 2rem 4rem;
+  font-size: 4rem;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+}
+
+#main-project a:hover {
+  background-color: #fff;
+  color: #333;
+  font-size: 4.2rem;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
+}
+
+#projects {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.projects {
+  width: 300px;
+  height: 600px;
+  transition: 0.4s;
+}
+
+.projects-description {
+  width: 200px;
+}
+
+.projects-description p {
+  text-align: right;
+}
+
+.project1 {
+  background: url('../assets/pexels-ali-pazani-2811087.jpg') no-repeat center
+    center/cover;
+}
+
+.project2 {
+  background: url('../assets/pexels-steve-johnson-1585325.jpg') no-repeat center
+    center/cover;
+}
+
+.project3 {
+  background: url('../assets/pexels-daria-shevtsova-704569.jpg') no-repeat
+    center center/cover;
+}
+
+.project4 {
+  background: url('../assets/pexels-cottonbro-5081971.jpg') no-repeat center
+    center/cover;
+}
+
+.projects:hover {
+  transform: scale(1.1);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
