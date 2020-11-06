@@ -30,6 +30,15 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color:#5700EE;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
 /* Header */
 header, .heading, nav{
     align-items: center;
@@ -51,7 +60,8 @@ header nav button{
     background: none;
 }
 
-/* Container */
+
+/* Containers */
 #prjContainer{
     flex-direction: column;
     font-size: 3.5rem;
@@ -67,7 +77,38 @@ header nav button{
     font-size: 1.5rem;
 }
 
-#prjContainer a:hover{
-    text-decoration: underline;
-    color: white;
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.container #todo{
+    width: 85%;
+}
+
+.container img{
+    width: 25%;
+    margin: 20px;
+    padding: 1%;
+}
+
+.container p{
+    flex-direction: column;
+    visibility: hidden;
+}
+
+/* Footer */
+footer{
+    background-color: #a9c9d6;
+    padding: 3%;
+}
+
+footer button{
+    margin-left: 43%;
+    font-size: 2.4rem;
+    background: none;
+    border:none;
+    color:#5700EE;
 }
