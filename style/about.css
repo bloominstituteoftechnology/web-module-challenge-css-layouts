@@ -60,54 +60,26 @@ header nav button{
     background: none;
 }
 
-
-/* Containers */
-#imgContainer{
-    background: url("https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
-    padding: 250px;
-}
-
-#prjContainer{
-    flex-direction: column;
-    font-size: 3.5rem;
-    align-items: center;
-    margin: 5%;
-}
-
-#prjContainer button{
-    width:15%;
-    border:none;
-    background: none;
-    font-size: 1.5rem;
-    margin-left: 30%;
-}
-
-#prjContainer a{
-    background-color: lightgray;
-}
-
-.container{
-    box-sizing: border-box;
+/* Section */
+section{
+    padding: 10%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 
-.container #todo{
-    width: 85%;
+section h1{
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 
-.container img{
-    width: 25%;
-    margin: 20px;
-    padding: 1%;
+section p{
+    font-size: 2rem;
 }
 
-.container p{
-    flex-direction: column;
-    visibility: hidden;
-}
+
+
+
 
 /* Footer */
 footer{
