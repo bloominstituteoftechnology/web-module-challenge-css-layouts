@@ -1,1 +1,168 @@
 /* Add CSS styling here */
+body{
+    background-color:#BAA0C4;
+    opacity:0.9;
+    
+  }
+  
+  h2{
+    font-family:american typewriter;
+    font-size:30px;
+    margin:-3px;
+    color:black;
+  }
+  
+  .h1{
+   width:760px;
+   height:40px;
+   padding:5px;
+   margin:0px;
+   border:0px solid ;
+    opacity:0.8;
+  }
+  .nav{
+    display:flex;
+    height:90px;
+    width:95%;
+    margin:2px;
+    padding:20px;
+    justify-content:flex-end;
+    border:12px solid #DBA6A9;
+    background-color:#D4FF39;
+    opacity:0.7;
+    
+    
+  }
+  
+  .links{
+    display:flex;
+    margin-right:55px;
+    margin-left:55px
+    width:0px;
+     height:40px
+    
+  }
+  
+  .container{
+    display: flex;
+    margin:5px;
+    border:5px;
+    padding:5px;
+    height: 850px;
+   
+  } 
+  
+  p1 {
+    width:90px;
+    height:10px;
+    border:1px solid black;
+    padding: 20px;
+    margin:5px;
+    text-align:center;
+    background-color: #A9B4DB;
+    opacity: 0.8;
+   }
+  
+  
+  a:link{
+    color:white;
+    font-family:american typewriter;
+  }
+  p2{
+    width:90px;
+    height:10px;
+    border:1px solid black;
+    padding: 20px;
+    margin:5px;
+    text-align:center;
+    background-color: #A1D1C9;
+    opacity: 0.8;
+  }
+  
+  p3{
+    width:90px;
+    height:10px;
+    border:1px solid black;
+    padding: 20px;
+    margin:5px;
+    text-align:center;
+    background-color:#BAA0C4;
+    opacity:0.8;
+  }
+  
+  p4{
+    
+    width:90px;
+    height:10px;
+    border:1px solid black;
+    padding: 20px;
+    margin:5px;
+    text-align:center;
+    background-color: #C0D1A1;
+    opacity:0.8;
+    
+    
+  }
+  
+  innerearth{
+    height:390px;
+    width:100%;
+    border:1px solid;
+    padding: 20px;
+   
+  }
+  
+  .center {
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    padding: 152px;
+    height:500px;
+    width:1030px;
+    
+   
+  }
+  
+  center p {
+    height: 60px;
+    width:200px;
+    border: 2px soli
+    text-align:center;
+    justify-content:space-between;
+    padding:65px;
+  
+    
+  }
+  
+  .centerbox{
+    width: 300px;
+    height:150px;
+    border: 2px solid black;
+    padding:40px;
+    margin: 10px;
+    text-align:center;
+   
+  }
+  
+  .socialbar {
+    display:flex;
+    margin:5px;
+    padding:30px;
+    justify-content:center;
+    height:0px;
+    width:95%;
+  }
+  
+  p9 {
+    margin:00px;
+    
+  }
+  
+  .footer{
+    height:;
+    width:98%;
+    text-align: center;
+    background-color:#DBA6A9;
+    border:10px solid #D4FF39;
+      
+  }
