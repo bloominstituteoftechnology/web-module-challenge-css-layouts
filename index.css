@@ -52,6 +52,7 @@ html {
 }
 
 body {
+	background: 
 	font-family: "Syne Mono";
 	line-height: 1.5;
 	text-align: center;
@@ -60,7 +61,7 @@ body {
 
 h1 {
 	font-family: "Indie Flower";
-	font-size: 4rem;
+	font-size: 8rem;
 	letter-spacing: 1.5rem;
 	margin: 8rem 0rem 2rem 0rem;
 
@@ -81,14 +82,15 @@ h1 {
 	color: white;
 	box-sizing: border-box;
 	border-radius: 1.2rem;
-	font-size: 1.8rem;
+	font-size: 3rem;
+	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
 	margin: auto 1rem;
 		
 }
 
 h2 {
 	font-family: "Indie Flower";
-	font-size: 3rem;
+	font-size: 4rem;
 	margin: 4rem;
 
 }
@@ -97,7 +99,8 @@ h2 {
 	background: #ececd9;
 	padding: 4rem;
 	color: white;
-	font-size: 1.6rem;
+	font-size: 2.5rem;
+	text-shadow: 0 0 3px #a5a597, 0 0 5px #d9d9ec;
 	font-weight: 700;
 	letter-spacing: .2rem;
 	margin: auto 20% 2rem 20%;
@@ -114,27 +117,28 @@ h2 {
 
 .portfolio {
 	display: flex;
+	flex-flow: wrap;
 	justify-content: space-around;
 	
 }
 
 .projects {
-	height: 16rem;
+	height: 25rem;
 	width: auto;
 	margin: 2.5rem 0rem 3rem 0rem;
 	border-radius: 1.5rem;
 	
 }
 .text {
-	width: 20%;
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 3rem;
 	background: #ececd9;
 	color: white;
-	font-size: 1.6rem;
+	font-size: 2.5rem;
+	text-shadow: 0 0 3px #a5a597, 0 0 5px #d9d9ec;
 	font-weight: 700;
 	letter-spacing: .2rem;
-	margin: 4rem 0rem 2rem 0rem;
+	margin: 4rem 20% 2rem 20%;
 }
 
 .foot  {
@@ -142,7 +146,8 @@ h2 {
 	text-decoration: none;
 	background: #d9ecec;
 	color: white;
-	font-size: 1.8rem;
+	font-size: 3rem;
+	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
 	margin: 5rem 0rem 0rem 0rem;
 	
 }
