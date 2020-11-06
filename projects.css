@@ -1,13 +1,15 @@
 
 body{
-    background-color: blanchedalmond;
+    background-color: #c7ecf1;
     font-family: 'Lora', serif;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
-
 }
+
 
 /* NAVBAR STYLING */
 
@@ -15,10 +17,10 @@ h1 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    background-color: darkslategray;
+    background-color: lightsalmon;
     padding: .75em;
     margin: 0;
-    border: darkslategray 3px solid;
+    border: lightsalmon 3px solid;
 }
 
 .navbar a {
@@ -38,9 +40,9 @@ h1 {
 /* PROJECTS STYLING*/
 
 .projects {
-    padding-bottom: 1em;
+    padding: 1em;
     margin-bottom: 0;
-
+    background-color: antiquewhite;
 }
 
 .portfolio {
@@ -107,7 +109,7 @@ h1 {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: darkslategray;
+    background-color: lightsalmon;
     padding: 0 1em;
     color: white;
 }
@@ -118,7 +120,7 @@ h1 {
 }
 
 .footer button {
-    background-color: darkslategray;
+    background-color: lightsalmon;
     border: solid white 2px;
     border-radius: 25px;
     padding: .5em;
@@ -131,16 +133,16 @@ h1 {
     text-decoration: none;
     padding-bottom: 0;
     text-align: center;
-    background-color: darkslategray;
+    background-color: lightsalmon;
 }
 
 .contact h3 {
-    background-color: darkslategray;
+    background-color: lightsalmon;
 
 }
 
 .contact {
-    background-color: darkslategray;
+    background-color: lightsalmon;
     margin-top: 0;
-    border: solid 1px darkslategray;
+    border: solid 1px lightsalmon;
 }

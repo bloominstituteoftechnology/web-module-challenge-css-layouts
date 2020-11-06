@@ -3,10 +3,18 @@
     -updating project posts with actual projects.
     -adding more animation and action to the page.
 */
+body{
+    margin: auto;
+    background-color: #c7ecf1;
+    max-width: 1000px;
+
+}
 
 *{
     font-family: 'Lora', serif;
 }
+
+
 
 /* HOME STYLING */
 
@@ -15,10 +23,9 @@
     text-align: center;
     color: white;
     text-shadow: 2px 2px 6px gray;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 3px solid darkslategray;
+    margin: 0;
 }
+
 
 .intro {
     position: absolute;
@@ -45,10 +52,10 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    background-color: darkslategray;
+    background-color: lightsalmon;
     padding: .75em;
-    margin: 0;
-    border: darkslategray 3px solid;
+    margin-top: 0;
+    border: lightsalmon 3px solid;
 }
 
 .navbar a {
@@ -67,39 +74,46 @@
 
 /* ABOUT STYLING */
  .about {
-    border-bottom: solid darkslategray 3px;
+    border-bottom: solid lightsalmon 3px;
+    background-color: white;
+    border-top: white 3px solid;
+    margin-top: 0;
+    padding-bottom: 1.5em;
  }
 
  .profile {
      display: flex;
      flex-flow: row wrap;
-     justify-content: space-evenly;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
  }
 
  h2 {
      text-align: center;
      font-size: 2em;
      text-decoration: underline;
+     margin: 1em 1em .25em;
     }
 
  .avatar img {
      width: 250px;
      height: auto;
      border-radius: 50%;
-     box-shadow: 10px 10px 10px gray;
-     margin: 1em;
+     /*box-shadow: 10px 10px 10px gray;*/
+     margin: auto;
     }
 
  .avatar {
      width: 50%;
      height: auto;
-     margin: 1em 1em;
+     margin: auto;
  }
 
  .description {
-     width: 250px;
+     width: 400px;
      height: auto;
-     margin: 1em;
+     margin: auto;
      padding-top: 2em;
      text-align: center;
  }
@@ -120,7 +134,7 @@
  .description img{
      width: 25%;
      height: auto;
-     margin: 0 1em;
+     margin: 0 3em;
  }
 
  .description button{
@@ -130,9 +144,9 @@
  /* FEATURED PROJECTS STYLING */
 
  .projects {
-     padding-bottom: 1em;
-     background-color: blanchedalmond;
-     border-bottom: solid black 3px;
+     padding: 1em;
+     background-color: antiquewhite;
+     border-bottom: solid dimgrey 3px;
      margin-bottom: 0;
 
  }
@@ -201,7 +215,7 @@
      flex-flow: row wrap;
      justify-content: space-evenly;
      align-items: center;
-     background-color: darkslategray;
+     background-color: lightsalmon;
      padding: 0 1em;
      color: white;
  }
@@ -212,7 +226,7 @@
      }
 
  .footer button {
-     background-color: darkslategray;
+     background-color: lightsalmon;
      border: solid white 2px;
      border-radius: 25px;
      padding: .5em;
@@ -227,7 +241,7 @@
  }
 
  .contact {
-     background-color: darkslategray;
+     background-color: lightsalmon;
      margin-top: 0;
-     border: solid 1px darkslategray;
+     border: solid 1px lightsalmon;
  }
