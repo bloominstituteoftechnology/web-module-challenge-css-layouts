@@ -1,7 +1,7 @@
 
 body{
     background-color: lavender;
-    border: 93% solid green;
+   
 }
 h1{
     text-align: center;
@@ -29,4 +29,19 @@ header img{
 }
 .projects img{
     width: 300px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    margin-top: 10px;
+    height: 60px;
+    width: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
