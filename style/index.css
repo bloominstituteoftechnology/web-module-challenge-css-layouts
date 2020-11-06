@@ -256,6 +256,11 @@ nav a:hover {
   text-align: right;
 }
 
+.projects-description p a {
+  color: blue;
+  text-decoration: underline;
+}
+
 .project1 {
   background: url('../assets/pexels-ali-pazani-2811087.jpg') no-repeat center
     center/cover;
@@ -280,4 +285,27 @@ nav a:hover {
   transform: scale(1.1);
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 60px;
+  height: 400px;
+  width: 100vw;
+  background: #222;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer .contact a {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+
+footer .social a {
+  color: #fff;
+  font-size: 4rem;
+  margin: 0 40px;
 }
