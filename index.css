@@ -39,7 +39,6 @@ header img{
 .projects p{
     display: flex wrap;
     justify-content: center;
-    border: 1px solid green;
     width: 300px;
     text-align: center;
     align-self: center;
