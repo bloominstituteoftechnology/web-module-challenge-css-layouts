@@ -43,6 +43,13 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	box-sizing: border-box;
+	font-size: 62.5%;
+
+
+}
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -58,7 +65,7 @@ table {
 .header-container h1 {
 	margin-bottom: 20px;
 	font-size: 50px;
-	padding-bottom: 46px;
+	/* padding-bottom: 46px; look more into this, this seemed to cause some shrinking issues */
 	
 
 }
@@ -70,13 +77,67 @@ table {
 .header-container-two a {
     border: 3px solid black;
     width: 100px;
-	height: 20px;
+	/* height: 20px; do not set heights, this drove the text down*/
 	padding: 10px;
 	text-align: center;
 	text-decoration: none;
 	color: black;
 }
 
-.header-container-two a:hover{
+.header-container-two a:hover {
 	background-color: blanchedalmond;
 }
+
+.intro-start {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+	border: 3px solid transparent;
+  }
+
+  .intro-start a {
+	text-decoration: none;
+	border: 3px solid black;
+	/* width: 100px; */
+	padding: 14px;
+	color: black;
+	text-align: center;
+	background-color: darkgrey;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	
+  }
+
+  .intro-start a:hover {
+	  background-color: blanchedalmond;
+  }
+
+  .far-left {
+	width: 850px;
+	height: 350px;
+	border: 3px solid black;
+	text-align: center;
+	
+	
+  }
+
+  .far-right {
+	width: 350px;
+	height: 150px;
+	border: 5px transparent;
+	text-align: center;
+	padding-top: 15px;
+  }
+
+  .far-right-two {
+	width: 350px;
+	height: 150px;
+	border: 5px transparent;
+	text-align: center;
+	padding-top: 45px;
+	font-size: 45px;
+	font-family: 'Playfair Display', serif;
+  }
