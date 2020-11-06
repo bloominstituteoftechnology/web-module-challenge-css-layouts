@@ -64,7 +64,6 @@ h1 {
 }
 .intro {
   display: flex;
-  flow-flex: row wrap;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 40px;
