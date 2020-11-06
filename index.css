@@ -1,6 +1,5 @@
 /* Issues I'd like to address later
     -fixing the alignment between .avatar and .description on mobile view.
-    -fixing white space between home and navbar.
     -updating project posts with actual projects.
     -adding more animation and action to the page.
 */
@@ -17,7 +16,8 @@
     color: white;
     text-shadow: 2px 2px 6px gray;
     margin-bottom: 0;
-    border-bottom: 3px solid black;
+    padding-bottom: 0;
+    border-bottom: 3px solid darkslategray;
 }
 
 .intro {
@@ -48,6 +48,7 @@
     background-color: darkslategray;
     padding: .75em;
     margin: 0;
+    border: darkslategray 3px solid;
 }
 
 .navbar a {
@@ -201,15 +202,14 @@
      justify-content: space-evenly;
      align-items: center;
      background-color: darkslategray;
-     padding: 1em;
+     padding: 0 1em;
      color: white;
  }
 
  .footer img {
      width: 75px;
      height: auto;
-     filter: invert(100%);
- }
+     }
 
  .footer button {
      background-color: darkslategray;
@@ -223,6 +223,7 @@
  .contact h2 {
      color: white;
      text-decoration: none;
+     padding-bottom: 0;
  }
 
  .contact {

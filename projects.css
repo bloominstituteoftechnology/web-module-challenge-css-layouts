@@ -1,0 +1,146 @@
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+/* NAVBAR STYLING */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: darkslategray;
+    padding: .75em;
+    margin: 0;
+    border: darkslategray 3px solid;
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0 .5em;
+    font-size: 125%;
+}
+
+.navbar a:hover {
+    color: dimgray;
+    font-size: 150%
+}
+
+/* PROJECTS STYLING*/
+
+.projects {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 1em;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-header a {
+    text-align: center;
+    margin: 1em;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: .5em;
+    color: black;
+    font-weight: bold;
+}
+
+.item {
+    position: relative;
+}
+
+.item a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.item:hover a {
+    visibility: visible;
+
+}
+
+.item:hover img{
+   opacity: 75%;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+}
+
+/* FOOTER STYLING */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkslategray;
+    padding: 0 1em;
+    color: white;
+}
+
+.footer img {
+    width: 75px;
+    height: auto;
+}
+
+.footer button {
+    background-color: darkslategray;
+    border: solid white 2px;
+    border-radius: 25px;
+    padding: .5em;
+    color: white;
+    font-weight: bold;
+}
+
+.contact h2 {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.contact h3 {
+    background-color: darkslategray;
+
+}
+
+.contact {
+    background-color: darkslategray;
+    margin-top: 0;
+    border: solid 1px darkslategray;
+}
