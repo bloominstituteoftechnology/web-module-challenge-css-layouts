@@ -108,3 +108,62 @@
  .description button{
      margin: 1em 3em;
  }
+
+ /* FEATURED PROJECTS STYLING */
+
+ .portfolio {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-evenly;
+     text-align: center;
+     margin: 1em;
+ }
+
+ .project-header {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .project-header a {
+     text-align: center;
+     margin: 1em;
+     text-decoration: none;
+     border: 2px solid black;
+     padding: .5em;
+     color: black;
+ }
+
+ .item {
+     position: relative;
+ }
+
+ .item a {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     text-decoration: none;
+     color: black;
+     font-size: 1.5em;
+     width: 100%;
+     font-weight: bold;
+     visibility: hidden;
+ }
+
+ .item:hover a {
+     visibility: visible;
+
+ }
+
+ .item:hover img{
+    opacity: 75%;
+ }
+
+ .item img {
+     width: 250px;
+     height: 250px;
+     
+ }
