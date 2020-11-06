@@ -46,19 +46,37 @@ table {
 .header-container {
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 150px;
     width: 100%;
-    border: 3px solid lightseagreen;
-    background-color: lightsalmon;
+    border: 3px solid black;
+	background-color: darkgrey;
+	padding: 26px;
+	justify-content: center;
+	font-family: 'Playfair Display', serif;
 }
 
-.header-container-two{
+.header-container h1 {
+	margin-bottom: 20px;
+	font-size: 50px;
+	padding-bottom: 46px;
+	
+
+}
+
+.header-container-two {
 	display: flex;
 }
 
-.header-container-two p{
+.header-container-two a {
     border: 3px solid black;
     width: 100px;
-    height: 20px;
-    text-align: center;
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.header-container-two a:hover{
+	background-color: blanchedalmond;
 }
