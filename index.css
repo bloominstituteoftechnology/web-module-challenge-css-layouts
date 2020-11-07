@@ -11,15 +11,14 @@ h1{
     text-decoration: underline;
 }
 h4 {
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 1%;
+    padding: 5% 0% 0%;
     text-decoration: underline;
-
 }
 header p {
-    font-size: 26px;
+    font-size: 30px;
 }
 header {
     background-color: #EDCF44;
@@ -29,22 +28,20 @@ header:hover {
 }
 .intro {
     justify-content: center;
-    /* background-color: rgb(229, 240, 10); */
     padding: 2% 5% 2% 5%;
 }
 .button1 {
-    margin: 2% 0% 0% 40%;
+    margin: 2% 0% 0% 42%;
 }
 .button2 {
     text-align: center;
 }
 button {
     font-size: 24px;
-    margin: 1%;
     padding: 18px 24px;
-    font-style: italic;
     border-radius: 8px;
     font-style: italic;
+    /* text-decoration: none; */
 }
 .top-section {
     display: flex;
