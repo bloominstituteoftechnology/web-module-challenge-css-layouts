@@ -1,1 +1,25 @@
 /* Add CSS styling here */
+*{background-color:;
+width: 100%;}
+.name{text-align:center;
+   display:flex;
+   font-size: 200%;
+   text-decoration:underline;
+   color: crimson;
+   font-family:cursive;
+   letter-spacing: 3px;
+display: block;}
+   
+nav{ text-align:center;
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.5px;
+    font-size:100%; 
+   text-transform:uppercase;
+   display: inline-block;
+  
+  
+
+   
+   
+}
