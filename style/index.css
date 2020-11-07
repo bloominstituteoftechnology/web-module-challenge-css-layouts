@@ -1,23 +1,43 @@
 /* Add CSS styling here */
 *{background-color:rgb(75, 74, 74);
-width: 100%;
-height: auto;}
+    width: 100%;
+    height: max-content;}
 .name{text-align:center;
    display:flex;
-   font-size: 200%;
+   font-size: 150%;
    text-decoration:underline;
    color: crimson;
    font-family:cursive;
    letter-spacing: 3px;
-display: block;}
-   
-nav{ text-align:center;
+}
+a:hover
+{
+	color: #030;
+	border: 1px solid crimson;
+}
+a:active
+{
+	color: rgb(4, 63, 4);
+	border-left: 2px solid #030;
+	border-top: 2px solid #030;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+nav{display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.5em;
+    padding: 6px 4px;
+    margin: 4px;
+    border-right: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+    border-top-width: 0px;
+    border-left-width: 0px;	 text-align:center;
     display:flex;
     width: 100%;
     text-transform: uppercase;
-    font-size: 150%;
-    border-radius: 3em;
-padding-bottom: 1em;}
+    font-size: 125%;
+    border-radius: 3em;}
     .introduction{
         text-align: center;
         width: 100%;
@@ -26,7 +46,27 @@ padding-bottom: 1em;}
        margin-bottom: 2rem;
     color: crimson;}
     .image-container{
-      }
+        width:100;
+        height:75%;
+    padding-bottom: 10px;}
+      .image-container img{
+    width:25%;
+    height:15em;
+    padding-left: 600px;
+padding-bottom:10px;
+text-align: center;}
+      .project-links{ 
+          display: flex;
+      width:100vw;}
+.project-links img{
+    width: 75%;
+    height: 20rem;
+.footer-button{padding-top:10px;
+    text-align: center;
+    display:flex;}
+    
+        
+   
     
 
         
