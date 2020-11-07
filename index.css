@@ -1,24 +1,24 @@
 /* Add CSS styling here */
 nav {
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Courier New', Courier, monospace;
 }
 h1{
-    font-size: 76px;
+    font-size: 64px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 2% 0% 3% 0%;
     text-decoration: underline;
 }
 h4 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 5% 0% 0%;
     text-decoration: underline;
 }
 header p {
-    font-size: 30px;
+    font-size: 24px;
 }
 header {
     background-color: #EDCF44;
@@ -37,7 +37,7 @@ header:hover {
     text-align: center;
 }
 button {
-    font-size: 24px;
+    font-size: 21px;
     padding: 18px 24px;
     border-radius: 8px;
     font-style: italic;
@@ -60,7 +60,7 @@ button {
     align-content: space-evenly;
 }
 p {
-    font-size: 24px;
+    font-size: 21px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin: 2% 8% 2% 8%;
