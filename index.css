@@ -23,30 +23,62 @@ html {
     font-size: 16px;
 }
 
-nav {
-    display: inline-flex;
-	flex-flow: wrap-reverse;
-	align-items: stretch;
-	align-content: space-evenly;
-	justify-content: space-evenly;
-    border: 3px solid green;
+body {
     padding: 0.5rem;
 }
 
-img {
+button {
+    border: none;
+}
+
+nav {
     display: inline-flex;
-	flex-flow: wrap-reverse;
+	flex-flow: wrap;
 	align-items: stretch;
 	align-content: space-evenly;
 	justify-content: space-evenly;
-    border: 3px solid green;
+    padding: 0.5rem;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+nav button {
+    background-color: #00a3ff;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+.upper-image {
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.upper-content {
+    display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+	align-content: space-evenly;
+	justify-content: flex-start;
+    border: 3px solid #00a3ff;
+    padding: 0.5rem;
+    margin: auto 0;
+}
+
+img {
+    display: flex;
+	flex-flow: wrap;
+	align-items: flex-start;
+	align-content: space-evenly;
+	justify-content: space-evenly;
+    border: 3px solid #00a3ff;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
 .row-tiles {
-    display: inline-flex;
-	flex-flow: wrap-reverse;
+    display: flex;
+	flex-flow: wrap;
 	align-items: stretch;
 	align-content: space-evenly;
 	justify-content: space-evenly;
@@ -59,4 +91,15 @@ img {
 
 h1 {
 font-size: 2rem;
+}
+    
+.bottom {
+    display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+    border: 3px solid #00a3ff;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
