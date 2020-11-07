@@ -1,4 +1,8 @@
 /* Add CSS styling here */
+nav {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
 h1{
     font-size: 76px;
     font-family: 'Courier New', Courier, monospace;
@@ -6,35 +10,41 @@ h1{
     margin: 2% 0% 3% 0%;
     text-decoration: underline;
 }
+h4 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1%;
+    text-decoration: underline;
+
+}
 header p {
-    font-size: 22px;
+    font-size: 26px;
+}
+header {
+    background-color: #EDCF44;
 }
 header:hover {
-    background-color: rgb(229, 240, 10);
+    background-color: rgb(255, 255, 255);
+}
+.intro {
+    justify-content: center;
+    /* background-color: rgb(229, 240, 10); */
+    padding: 2% 5% 2% 5%;
 }
 .button1 {
-
-    margin-left: 47%;
+    margin: 2% 0% 0% 40%;
 }
 .button2 {
     text-align: center;
-    align-items: center;
-    text-decoration: none;
-    background-color: #333;
 }
 button {
     font-size: 24px;
-    margin: 2%;
-}
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: #333;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-evenly;
-
+    margin: 1%;
+    padding: 18px 24px;
+    font-style: italic;
+    border-radius: 8px;
+    font-style: italic;
 }
 .top-section {
     display: flex;
@@ -43,25 +53,30 @@ button {
     justify-content: center;
     padding: 5% 10% 5% 10%;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: #333; */
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
 p {
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin: 2% 10% 2% 10%;
-}
-.intro {
-    display: flex;
-    justify-content: center;
-    margin: 2% 5% 2% 5%;
+    margin: 2% 8% 2% 8%;
+    padding: 1%;
+    font-weight: 400;
+
 }
   .myphoto {
    border-radius: 50%;
-   align-items: center;
    width: 350px;
    height: 350px;
 }
 div {
-margin: 1%;
 padding: 2%;
 }
 ul {
@@ -87,5 +102,22 @@ li a:hover {
     background-color: #111;
 }
 footer {
-    margin: 1% 1% 1% 1%;
+    background-color: #EDCF44;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-bottom: 5%;
 }
