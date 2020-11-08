@@ -1,24 +1,27 @@
 /* Add CSS styling here */
+/* * {
+    box-sizing: border-box;
+} */
 nav {
-    font-size: 18px;
+    font-size: 21px;
     font-family: 'Courier New', Courier, monospace;
 }
 h1{
     font-size: 64px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    margin: 2% 0% 3% 0%;
+    margin: 0% 0% 3% 0%;
     text-decoration: underline;
 }
 h4 {
-    font-size: 21px;
+    font-size: 32px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 5% 0% 0%;
-    text-decoration: underline;
+    padding: 3% 0% 0%;
+    /* text-decoration: underline; */
 }
 header p {
-    font-size: 21px;
+    font-size: 24px;
 }
 header {
     background-color: #EDCF44;
@@ -30,36 +33,40 @@ header:hover {
     justify-content: center;
     padding: 2% 5% 2% 5%;
 }
-.button1 {
+.btn-primary {
+    /* text-align: center; */
     margin: 2% 0% 0% 42%;
-}
-.button2 {
-    text-align: center;
+    text-decoration: none;
+
 }
 button {
     font-size: 21px;
     padding: 18px 24px;
     border-radius: 8px;
-    font-style: italic;
-    /* text-decoration: none; */
+    text-decoration: none;
+    /* font-style: italic; */
 }
 .top-section {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-top: 1%;
     padding: 5% 10% 5% 10%;
 }
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* background-color: #333; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
     justify-content: space-evenly;
-    align-items: center;
-    align-content: space-evenly;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
 }
+.lazyloaded1 {
+width: 350px;
+}
+.lazyloaded2 {
+    width: 350px;
+    }
 p {
-    font-size: 18px;
+    font-size: 21px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin: 2% 8% 2% 8%;
@@ -71,7 +78,7 @@ p {
    border-radius: 50%;
    width: 350px;
    height: 350px;
-position: sticky;
+  display: block;
 }
 div {
 padding: 2%;
@@ -99,15 +106,16 @@ li a:hover {
     background-color: #111;
 }
 footer {
+    text-align: center;
     background-color: #EDCF44;
 }
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+  /* font-size: 40px; */
+  /* width: 30px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* margin: 5px 2px; */
   border-radius: 50%;
 }
 .fa:hover {
@@ -116,5 +124,5 @@ footer {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-  margin-bottom: 5%;
+  margin: 2%;
 }
