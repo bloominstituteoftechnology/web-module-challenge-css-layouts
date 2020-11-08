@@ -5,11 +5,30 @@ h1 {
 }
 
 h4 {
-    size: 30px;
+    font-size: 65px;
 }
 
-.container {
-display: flex;
+.container1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+} 
+.container2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+.item {
+    margin: 2%;
+    padding: 2%;
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 /* css not loading */
