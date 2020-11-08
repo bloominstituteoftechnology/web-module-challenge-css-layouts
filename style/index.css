@@ -1,1 +1,84 @@
 /* Add CSS styling here */
+* {
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p{
+    margin: 15px;
+    display: flex;
+    
+  }
+  .container {
+    padding: 10px 0px 20px 20px;
+    background: #D8BFD8;
+    border-radius: 35px;
+    border: 5px solid grey;
+  }
+  .container .nav1, .nav2, .nav3, .nav4 {
+    padding: 5px 15px 5px 15px;
+    border: 5px solid black;
+    border-radius: 35px;
+    font-size: 1.5rem;
+  }
+  .container .nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover {
+    color: #800080;
+    font-size: 20px;
+  }
+  .content-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: 1.3rem;
+  }
+  .content-container img {
+    height: 35rem;
+    width: 25rem;
+    border-radius: 35px 35px 35px 35px;
+    margin: 10px;
+  }
+  h2 {
+    margin: 15px;
+    font-size: 2em;
+  }
+  .nav5 {
+    margin: 15px;
+    background: black;
+    color: white;
+    border: 5px solid grey;
+    padding: 0px 5px 0px 5px;
+  }
+  .nav5:hover {
+    font-size: 1.5rem;
+  }
+  .image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 30px 80px;
+    padding: 0px 0px 0px 0px;
+    border: 5px solid grey;
+    height: 300px;
+    width: 300px;
+    
+  }
+  .image-container img:hover {
+    border: 10px solid #800080;
+  }
+  .container .nav6 {
+    border: 5px solid grey;
+    background: black;
+    color: white;
+    font-size: 1.3rem;
+    margin: 15px;
+    padding: 0px 5px 0px 5px;
+  }
+  .container .nav6:hover {
+    font-size: 1.5rem;
+  }
