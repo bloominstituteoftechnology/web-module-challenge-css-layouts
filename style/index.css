@@ -1,1 +1,58 @@
-/* Add CSS styling here */
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add CSS styling here */
+  #container {
+    margin: auto;
+    width: 999px;
+  }
+  
+  h1 {
+    padding: 25px 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    margin-bottom: 35px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .banner img {
+    margin-bottom: 20px;
+    margin-right: 30%;   
+  }
+  
+  .banner {
+    display: flex;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .projects img {
+    margin-bottom: 25px;
+  }
+  
+  footer {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 20px
+  }
