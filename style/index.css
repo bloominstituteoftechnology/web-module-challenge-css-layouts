@@ -1,19 +1,20 @@
- * {
+* {
   background-color: pink;
   text-decoration:none;
 }
 header {
-  margin: 0;
+  margin: 0 auto;
   padding:0px;
   border:11px solid red;
+  width:100%;
 }
 
 h1 {
   display:flex;
   background-color: ;
-  margin:0px;
+  margin:0 auto;
   padding:30px;
-  height:30px;
+  height:30px auto;
   border:11px solid black;
   font-size:40px;
   justify-content:center;
@@ -52,7 +53,7 @@ li {
 .container {
   display:flex;
   border: 100px solid black;
-  margin:0;
+  margin:0 auto;
   padding:20px;
   justify-content:center;
  
@@ -60,7 +61,7 @@ li {
 }
 
 pz {
-  margin:0;
+  margin:0 auto;
   padding:0;
   font-size:22px;
 }
@@ -70,9 +71,9 @@ pz {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  margin:em;
+  margin:0 auto;
   padding:10px;
-  height: 370px;
+  height: 370px auto;
   justify-content: center;
   align-items:space-between;
   
@@ -83,7 +84,7 @@ pic{
  display:flex;
   flex-wrap:wrap;
   flex-direction:row;
-  margin:px;
+  margin:0 auto;
   padding:0px;
   height:
   justify-content:space-between;
@@ -107,12 +108,12 @@ a:hover {
 footer {
   display:flex;
   background-color:red ;
-  margin:0px;
+  margin:0 auto;
   padding:40px;
   height:40px;
   border:11px solid black;
   font-size:40px;
-  justify-content:center;
+  justify-content:center; 
 }
 
 .footer:hover {
