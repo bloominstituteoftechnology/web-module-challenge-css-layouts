@@ -51,3 +51,48 @@ table {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Titillium Web";
 }
+
+p, a, button {
+	font-family: "Roboto";
+}
+
+#nav-color {
+	background-color: lightgray;
+}
+
+.my-name {
+	display: flex;
+	justify-content: flex-end;
+	width: 35%;
+	Font-size: 4em;
+	font-weight: bold;
+	padding-top: 1%;
+}
+
+.nav-bar {
+	display: flex;
+	width: 40%;
+	justify-content: space-around;
+	justify-content: flex-end;
+	padding-top: 1%;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 2em;
+	background-color: blue;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+.home {
+	border-top-left-radius: 50%;
+}
+
+#projects {
+	border-top-right-radius: 50%;
+}
