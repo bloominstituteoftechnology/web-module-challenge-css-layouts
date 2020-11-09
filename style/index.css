@@ -49,7 +49,8 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Titillium Web";
+	font-family: "Titillium Web";
+	color: #66FCF1
 }
 
 p, a, button {
@@ -57,7 +58,7 @@ p, a, button {
 }
 
 #nav-color {
-	background-color: lightgray;
+	background-color: #0B0C10;
 }
 
 .my-name {
@@ -79,14 +80,15 @@ p, a, button {
 
 nav a {
 	text-decoration: none;
-	color: white;
+	color: #45A29E;
 	font-weight: bold;
 	padding: 2em;
-	background-color: blue;
+	background-color: #1F2833;
 }
 
 nav a:hover {
-	background-color: black;
+	background-color: #45A29E;
+	color: white;
 }
 
 .home {
@@ -101,10 +103,14 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	margin: auto;
+	background-color: #1F2833
+}
+
+.header p{
+	color: #45A29E;
 }
 
 .not-me {
-	display: flex;
 	width: 40%;
 	padding: 10%;
 	border-radius: 70em;
@@ -125,17 +131,17 @@ nav a:hover {
 
 button {
 	border: 2px solid black;
-	color: black;
+	color: #66FCF1;
 	width: 150px;
 	height: 35px;
-	background-color: white;
+	background-color: #0B0C10;
 	font-size: 1.1em;
 }
 
 button:hover {
 	cursor: pointer;
 	color: white;
-	background: black;
+	background: #45A29E;
 }
 
 hr {
@@ -167,6 +173,10 @@ hr {
 	height: 400px;
 }
 
+.prj p {
+	color: #45A29E
+}
+
 .prj-img {
 	width: 85%;
 }
@@ -176,7 +186,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: lightgray;
+	background-color: #0B0C10;
 	padding: 4%;
 	line-height: 2;
 }
@@ -189,6 +199,7 @@ footer h2 {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: bold;
+	background-color: #1F2833;
 }
 
 p {
