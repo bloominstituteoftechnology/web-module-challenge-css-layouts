@@ -170,6 +170,8 @@ button:hover {
 
 .prj p {
 	color: #66FCF1;
+	text-align: center;
+	padding-right: 15%;
 }
 
 .prj-img {
