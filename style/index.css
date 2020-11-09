@@ -144,28 +144,23 @@ button:hover {
 	background: #45A29E;
 }
 
-hr {
-	border-top: 5px solid lightgray;
-	border-radius: 5px;
-	margin: auto;
-	padding: 0;
-}
-
 #prj-content {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	padding-top: 100px;
 	padding-bottom: 50px;
-	margin-left: 3%;
+	background-color: #1F2833
 }
 
 .upper-section {
 	display: flex;
+	margin-left: 3%;
 }
 
 .lower-section {
 	display: flex;
+	margin-left: 3%;
 }
 
 .prj {
@@ -187,7 +182,7 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	background-color: #0B0C10;
-	padding: 4%;
+	padding: 3%;
 	line-height: 2;
 }
 
