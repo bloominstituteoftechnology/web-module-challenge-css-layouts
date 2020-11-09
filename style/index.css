@@ -90,9 +90,49 @@ nav a:hover {
 }
 
 .home {
-	border-top-left-radius: 50%;
+	border-top-left-radius: 35%;
 }
 
 #projects {
-	border-top-right-radius: 50%;
+	border-top-right-radius: 35%;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.not-me {
+	display: flex;
+	width: 30%;
+	padding: 10%;
+	border-radius: 70em;
+}
+
+.also-my-name {
+	font-size: 3em;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	width: 30%;
+	line-height: 1.6;
+}
+
+button {
+	border: 2px solid black;
+	color: black;
+	width: 150px;
+	height: 35px;
+	background-color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	color: white;
+	background: black;
 }
