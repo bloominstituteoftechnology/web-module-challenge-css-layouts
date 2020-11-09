@@ -72,3 +72,73 @@ nav a:hover {
   color: #fff;
   background: #000;
 }
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.intro img, .intro .details {
+  width: 47%;
+}
+.intro .details {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.intro .details h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.intro .details a {
+  margin: 20px 0;
+  width: 90px;
+  padding: 8px 20px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.intro .details a:hover {
+  color: #fff;
+  background: #000;
+}
+.intro .details p {
+  line-height: 20px;
+}
+.gallery {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.gallery .item {
+  margin: 20px 0;
+  width: 23%;
+  text-align: center;
+}
+.gallery .item img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.gallery .item .title {
+  font-weight: bold;
+  font-size: 18px;
+}
+footer {
+  padding: 50px 0;
+  background: #DEDEDE;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: .5px;
+  line-height: 40px;
+}
+footer a {
+  padding: 8px 20px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+}
+footer a:hover {
+  color: #fff;
+  background: #000;
+}
