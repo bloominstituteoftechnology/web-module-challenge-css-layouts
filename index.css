@@ -52,7 +52,6 @@ html {
 }
 
 body {
-	background: 
 	font-family: "Syne Mono";
 	line-height: 1.5;
 	text-align: center;
@@ -68,23 +67,24 @@ h1 {
 }
 
 .nav {
-	margin: 2rem; 0rem 5rem 0rem;
 	display: flex;
+	flex-flow: wrap;
 	justify-content: space-evenly;
+	width: 100%;
 		
 }
 
-.items {
-	align-content: center;
+.link-items {
 	width: 15rem;
+	padding: 1rem;
 	text-decoration: none;
 	background: #d9ecec;
 	color: white;
 	box-sizing: border-box;
 	border-radius: 1.2rem;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
-	margin: auto 1rem;
+
 		
 }
 
@@ -95,7 +95,7 @@ h2 {
 
 }
 
-.about {
+.about, .truncate {
 	background: #ececd9;
 	padding: 4rem;
 	color: white;
@@ -103,11 +103,12 @@ h2 {
 	text-shadow: 0 0 3px #a5a597, 0 0 5px #d9d9ec;
 	font-weight: 700;
 	letter-spacing: .2rem;
-	margin: auto 20% 2rem 20%;
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 3rem;
+	margin: 0 20% 0 20%;
 	
 }
+  
 
 .beauty {
 	height: 30rem;
@@ -150,4 +151,78 @@ h2 {
 	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
 	margin: 5rem 0rem 0rem 0rem;
 	
+}
+
+@media (max-width: 800px) {
+
+	 .project1, .project2 {
+		 width: 17rem;
+
+	 }
+	 .about, .text {
+		 margin: 4rem 10% 2rem 10%;
+	 }
+	 .link-items {
+		 margin-top: 1rem;
+		 margin-right: .5rem;
+	 }
+	
+}
+
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 4rem;
+		margin: 4rem 0rem 5rem 0rem;
+	}
+
+	.nav {
+		display: flex;
+		flex-flow: wrap;
+		margin-top: 1.5rem;
+	}
+
+	h2 {
+		margin: 1rem;
+		font-size: 2.5rem;
+	}
+	.about {
+			width: 25rem;
+			overflow: hidden;
+			background: white;
+			color:  #acc9c4;
+			text-shadow: none;
+			box-shadow: 0;
+			margin-top:0rem;
+			padding-top:.5rem;
+	
+	}
+	html {
+		--lh: 1.6rem;
+		line-height: var(--lh);
+	  }
+	.overflow {
+		--max-lines: 5;
+		position: relative;
+		max-height: calc(var(--lh) * var(--max-lines));
+		overflow: hidden;
+		padding-right: 3.2rem; /* space for ellipsis */
+	  }
+	  .overflow::before {
+		position: absolute;
+		content: "...";
+	  /*   inset-block-end: 0;
+		inset-inline-end: 0; */
+		bottom: 1rem;
+		right: 0;
+	  }
+	  .overflow::after {
+		content: "";
+		position: absolute;
+	  /*   inset-inline-end: 0; */
+		right: 0;
+		width: 1rem;
+		height: 1rem;
+		background: white;
+	  }
 }
