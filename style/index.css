@@ -202,3 +202,84 @@ footer h2 {
 p {
 	font-size: 1.5em;
 }
+
+@media(max-width: 800px) {
+	.nav-bar{ 
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		text-align: center;
+		margin-left: 25%;
+		}
+
+	.home {
+		border-top-left-radius: 0%;
+		border-bottom: 1px solid #0B0C10;
+	}
+
+	.contact {
+		border-bottom: 1px solid #0B0C10;
+	}
+
+	.about {
+		border-bottom: 1px solid #0B0C10;
+	}
+
+	#projects {
+		border-top-right-radius: 0%;
+		border-bottom: 1px solid #0B0C10;
+	}
+
+	.my-name{
+		text-align: center;
+		width: 72%;
+	}
+
+	.also-my-name{
+		display: none;
+	}
+
+	.not-me {
+		display: none;
+	}
+
+	.about-me {
+		justify-content: center;
+		text-align: center;
+		width: 90%;
+	}
+
+	button {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.upper-section {
+		flex-direction: column;
+		width: 70%;
+		margin-left: 10%;
+	}
+
+	.lower-section {
+		flex-direction: column;
+		width: 70%;
+		margin-left: 10%;
+	}
+
+	.prj {
+		width: 100%;
+	}
+
+	.prj p {
+		padding-right: 15%;
+	}
+	
+}
+
+@media(max-width: 500px) {
+	.my-name {
+		width: 85%;
+		padding-bottom: 0.5em;
+	}
+}
