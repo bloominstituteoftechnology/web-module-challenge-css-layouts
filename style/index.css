@@ -233,7 +233,7 @@ p {
 
 	.my-name{
 		text-align: center;
-		width: 72%;
+		width: 100%;
 	}
 
 	.also-my-name{
@@ -278,8 +278,13 @@ p {
 }
 
 @media(max-width: 500px) {
-	.my-name {
-		width: 85%;
-		padding-bottom: 0.5em;
+	.my-name{
+		margin-left: -15%;
+	}
+}
+
+@media(max-width: 400px) {
+	.my-name{
+		margin-left: -5%;
 	}
 }
