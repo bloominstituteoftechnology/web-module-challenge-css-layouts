@@ -100,7 +100,7 @@ body{
      width: 75%;
      height: auto;
      border-radius: 50%;
-     /*box-shadow: 10px 10px 10px gray;*/
+     box-shadow: 10px 10px 10px gray;
      margin: auto;
     }
 
@@ -140,7 +140,6 @@ body{
  .description img{
      width: 20%;
      height: auto;
-     margin: ;
  }
 
  .description button{
@@ -256,6 +255,65 @@ body{
 
  /* MEDIA QUERIES */
 
+ @media only screen and (max-width: 800px) {
+    
+    .navbar {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        background-color: lightsalmon;
+        padding: .75em;
+        margin-top: 0;
+        border: lightsalmon 3px solid;
+    }
+
+    .avatar img {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px gray;
+        margin: auto;
+    }
+   
+    .avatar {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-right: 3em;
+    }
+    
+    .description {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 2em 0em 1em 0em;
+        text-align: center;
+    }
+
+    .item img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: lightsalmon;
+        padding: 0 1em 1em 1em;
+        color: white;
+    }
+ }
+    
+
+
  @media only screen and (max-width: 500px) {
     .navbar {
         display: flex;
@@ -310,4 +368,6 @@ body{
         padding: 0 1em 1em 1em;
         color: white;
     }
+ }
+   
  }
