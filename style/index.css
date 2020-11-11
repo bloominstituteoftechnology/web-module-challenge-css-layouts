@@ -408,9 +408,9 @@ footer .social a {
   }
 }
 
-/* RESPONSIVE 500px */
+/* RESPONSIVE 624px project says 500px but I had to take some liberty */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 624px) {
   header {
     height: 100%;
   }
