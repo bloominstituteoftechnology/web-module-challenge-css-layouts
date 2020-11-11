@@ -309,3 +309,88 @@ footer .social a {
   font-size: 4rem;
   margin: 0 40px;
 }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  p {
+    line-height: 1.4rem;
+  }
+
+  header {
+    margin-top: 2rem;
+    height: 400px;
+  }
+
+  .heading h1 {
+    font-size: 4rem;
+    margin-top: 15px;
+  }
+
+  .description p {
+    padding: 0 2rem;
+  }
+
+  #main-project {
+    height: 300px;
+    margin-top: 1.4rem;
+  }
+
+  #main-project a {
+    font-size: 2rem;
+  }
+
+  #main-project a:hover {
+    font-size: 2.2rem;
+  }
+
+  #projects {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .projects {
+    height: 300px;
+    margin-top: 3rem;
+  }
+
+  .project1 {
+    order: 5;
+  }
+
+  .project2 {
+    order: 4;
+  }
+
+  .project3 {
+    order: 3;
+  }
+
+  .project4 {
+    order: 2;
+  }
+
+  .projects-description {
+    order: 1;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .projects-description p {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 30px;
+    height: 300px;
+    flex-direction: column;
+  }
+
+  footer .social a {
+    font-size: 2rem;
+  }
+}
