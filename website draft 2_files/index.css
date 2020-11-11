@@ -1,0 +1,249 @@
+/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	font-size: 62.5%
+}
+
+body {
+	font-family: "Syne Mono";
+	line-height: 1.5;
+	text-align: center;
+	color: #8E6A95;
+}
+
+h1 {
+	font-family: "Indie Flower";
+	font-size: 8rem;
+	letter-spacing: 1.5rem;
+	margin: 2rem 0rem 2rem 0rem;
+
+}
+
+.nav {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+		
+}
+
+.link-items {
+	width: 15rem;
+	padding: 1rem;
+	text-decoration: none;
+	background: #006666;
+	color: white;
+	box-sizing: border-box;
+	border-radius: 1.2rem;
+	font-size: 2.5rem;
+
+		
+}
+
+h2 {
+	font-family: "Indie Flower";
+	font-size: 4rem;
+	margin: 4rem;
+
+}
+
+.about, .truncate {
+	background: 	#e7f3f3;
+	padding: 4rem;
+	color: #2D3B2A;
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 3rem;
+	margin: 0 20% 2rem 20%;
+	
+}
+  
+
+.beauty {
+	height: 30rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+.portfolio {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	
+}
+
+.projects {
+	height: 25rem;
+	width: auto;
+	margin: 2.5rem 0rem 3rem 0rem;
+	border-radius: 1.5rem;
+	
+}
+.text {
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 3rem;
+	background: #e7f3f3;
+	color: #2D3B2A;
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	margin: 4rem 20% 2rem 20%;
+}
+
+.foot  {
+	padding: 1.5rem;
+	text-decoration: none;
+	background: #006666;
+	color: white;
+	font-size: 3rem;
+	margin: 5rem 0rem 0rem 0rem;
+	
+}
+
+@media (max-width: 800px) {
+
+	.nav {
+		max-width: 800px;
+		
+	}
+
+	 .project1, .project2 {
+		 width: 170px;
+
+	 }
+	 .about, .text {
+		 margin: 40px 10% 20px 10%;
+	 }
+	 .link-items {
+		 margin:0 5px 10px 5px;
+	 }
+	
+}
+@media (max-width: 750px) {
+	.nav {
+		max-width: 400px;
+		margin: auto;
+	}
+	.projects {
+		padding: 20px;
+		border-radius: 55px;
+	}
+}
+
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 40px;
+		margin: 40px 0rem 50px 0rem;
+	}
+
+	.nav {
+		display: flex;
+		flex-flow: wrap;
+		margin-top: 15px;
+	}
+
+	h2 {
+		margin: auto;
+		padding: 10px;
+		font-size: 25px;
+	}
+	.about {
+			width: 250px;
+			overflow: hidden;
+			background: white;
+			color:  #acc9c4;
+			text-shadow: none;
+			box-shadow: 0;
+			margin: auto;
+			padding-top:.5rem;
+	
+	}
+
+	/*eventually switch to javascript to make text visible when hovering over the elipses*/
+	html {
+		--lh: 1.6rem;
+		line-height: var(--lh);
+	  }
+	.overflow {
+		--max-lines: 5;
+		position: relative;
+		max-height: calc(var(--lh) * var(--max-lines));
+		overflow: hidden;
+		padding-right: 3.2rem; /* space for ellipsis */
+	  }
+	  .overflow::before {
+		position: absolute;
+		content: "...";
+	  /*   inset-block-end: 0;
+		inset-inline-end: 0; */
+		bottom: 1rem;
+		right: 0;
+	  }
+	  .overflow::after {
+		content: "";
+		position: absolute;
+	  /*   inset-inline-end: 0; */
+		right: 0;
+		width: 1rem;
+		height: 1rem;
+		background: white;
+	  }
+	
+	  .projects {
+		  padding: 2px;
+	  }
+	  .project1, .project2 {
+		  max-width: 150px;
+		  border-radius: 40px;
+	  }
+}
