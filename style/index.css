@@ -310,6 +310,22 @@ footer .social a {
   margin: 0 40px;
 }
 
+/* RESPONSIVE 1100px */
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading h1 {
+    font-size: 5rem;
+  }
+
+  .description p {
+    padding: 0 2rem;
+  }
+}
+
 /* RESPONSIVE 800px */
 
 @media only screen and (max-width: 800px) {
@@ -329,10 +345,6 @@ footer .social a {
   .heading h1 {
     font-size: 4rem;
     margin-top: 15px;
-  }
-
-  .description p {
-    padding: 0 2rem;
   }
 
   #main-project {
