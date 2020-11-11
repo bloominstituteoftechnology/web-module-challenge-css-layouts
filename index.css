@@ -55,14 +55,14 @@ body {
 	font-family: "Syne Mono";
 	line-height: 1.5;
 	text-align: center;
-	color: #d4c3d4;
+	color: #8E6A95;
 }
 
 h1 {
 	font-family: "Indie Flower";
 	font-size: 8rem;
 	letter-spacing: 1.5rem;
-	margin: 8rem 0rem 2rem 0rem;
+	margin: 2rem 0rem 2rem 0rem;
 
 }
 
@@ -78,12 +78,11 @@ h1 {
 	width: 15rem;
 	padding: 1rem;
 	text-decoration: none;
-	background: #d9ecec;
+	background: #006666;
 	color: white;
 	box-sizing: border-box;
 	border-radius: 1.2rem;
 	font-size: 2.5rem;
-	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
 
 		
 }
@@ -96,16 +95,15 @@ h2 {
 }
 
 .about, .truncate {
-	background: #ececd9;
+	background: 	#e7f3f3;
 	padding: 4rem;
-	color: white;
+	color: #2D3B2A;
 	font-size: 2.5rem;
-	text-shadow: 0 0 3px #a5a597, 0 0 5px #d9d9ec;
 	font-weight: 700;
 	letter-spacing: .2rem;
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 3rem;
-	margin: 0 20% 0 20%;
+	margin: 0 20% 2rem 20%;
 	
 }
   
@@ -133,10 +131,9 @@ h2 {
 .text {
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 3rem;
-	background: #ececd9;
-	color: white;
+	background: #e7f3f3;
+	color: #2D3B2A;
 	font-size: 2.5rem;
-	text-shadow: 0 0 3px #a5a597, 0 0 5px #d9d9ec;
 	font-weight: 700;
 	letter-spacing: .2rem;
 	margin: 4rem 20% 2rem 20%;
@@ -145,58 +142,74 @@ h2 {
 .foot  {
 	padding: 1.5rem;
 	text-decoration: none;
-	background: #d9ecec;
+	background: #006666;
 	color: white;
 	font-size: 3rem;
-	text-shadow: 0 0 3px #97A5A5, 0 0 5px #ecd9d9;
 	margin: 5rem 0rem 0rem 0rem;
 	
 }
 
 @media (max-width: 800px) {
 
+	.nav {
+		max-width: 800px;
+		
+	}
+
 	 .project1, .project2 {
-		 width: 17rem;
+		 width: 170px;
 
 	 }
 	 .about, .text {
-		 margin: 4rem 10% 2rem 10%;
+		 margin: 40px 10% 20px 10%;
 	 }
 	 .link-items {
-		 margin-top: 1rem;
-		 margin-right: .5rem;
+		 margin:0 5px 10px 5px;
 	 }
 	
+}
+@media (max-width: 750px) {
+	.nav {
+		max-width: 400px;
+		margin: auto;
+	}
+	.projects {
+		padding: 20px;
+		border-radius: 55px;
+	}
 }
 
 
 @media (max-width: 550px) {
 	h1 {
-		font-size: 4rem;
-		margin: 4rem 0rem 5rem 0rem;
+		font-size: 40px;
+		margin: 40px 0rem 50px 0rem;
 	}
 
 	.nav {
 		display: flex;
 		flex-flow: wrap;
-		margin-top: 1.5rem;
+		margin-top: 15px;
 	}
 
 	h2 {
-		margin: 1rem;
-		font-size: 2.5rem;
+		margin: auto;
+		padding: 10px;
+		font-size: 25px;
 	}
 	.about {
-			width: 25rem;
+			width: 250px;
 			overflow: hidden;
 			background: white;
 			color:  #acc9c4;
 			text-shadow: none;
 			box-shadow: 0;
-			margin-top:0rem;
+			margin: auto;
 			padding-top:.5rem;
 	
 	}
+
+	/*eventually switch to javascript to make text visible when hovering over the elipses*/
 	html {
 		--lh: 1.6rem;
 		line-height: var(--lh);
@@ -224,5 +237,13 @@ h2 {
 		width: 1rem;
 		height: 1rem;
 		background: white;
+	  }
+	
+	  .projects {
+		  padding: 2px;
+	  }
+	  .project1, .project2 {
+		  max-width: 150px;
+		  border-radius: 40px;
 	  }
 }
