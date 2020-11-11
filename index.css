@@ -97,7 +97,7 @@ body{
     }
 
  .avatar img {
-     width: 250px;
+     width: 75%;
      height: auto;
      border-radius: 50%;
      /*box-shadow: 10px 10px 10px gray;*/
@@ -105,16 +105,21 @@ body{
     }
 
  .avatar {
-     width: 50%;
+     width: 45%;
      height: auto;
      margin: auto;
+     padding: 2em 0em 1em 2em;
  }
 
  .description {
-     width: 400px;
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 45%;
      height: auto;
      margin: auto;
-     padding-top: 2em;
+     padding: 2em 2em 1em 0em;
      text-align: center;
  }
 
@@ -132,13 +137,15 @@ body{
  }
 
  .description img{
-     width: 25%;
+     width: 20%;
      height: auto;
-     margin: 0 3em;
+     margin: ;
  }
 
  .description button{
-     margin: 1em 3em;
+     margin: 1em 10em;
+     font-size: 1rem;
+     width: 150px;
  }
 
  /* FEATURED PROJECTS STYLING */
@@ -244,4 +251,47 @@ body{
      background-color: lightsalmon;
      margin-top: 0;
      border: solid 1px lightsalmon;
+ }
+
+ /* MEDIA QUERIES */
+
+ @media only screen and (max-width: 500px) {
+    .navbar {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        background-color: lightsalmon;
+        padding: .75em;
+        margin-top: 0;
+        border: lightsalmon 3px solid;
+    }    
+
+    .avatar img {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px gray;
+        margin: auto;
+       }
+   
+    .avatar {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-right: 3em;
+       }
+    
+    .description {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 2em 0em 1em 0em;
+        text-align: center;
+    }
  }
