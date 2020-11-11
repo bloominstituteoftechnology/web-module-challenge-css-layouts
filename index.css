@@ -130,6 +130,7 @@ body{
     padding: .5em;
     color: black;
     font-weight: bold;
+    font-size: 2em;
  }
 
  .description h3 {
@@ -293,5 +294,20 @@ body{
         margin: auto;
         padding: 2em 0em 1em 0em;
         text-align: center;
+    }
+
+    .item img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: lightsalmon;
+        padding: 0 1em 1em 1em;
+        color: white;
     }
  }
