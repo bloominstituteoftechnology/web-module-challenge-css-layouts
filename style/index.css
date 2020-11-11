@@ -310,7 +310,7 @@ footer .social a {
   margin: 0 40px;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE 800px */
 
 @media only screen and (max-width: 800px) {
   .container {
@@ -356,6 +356,7 @@ footer .social a {
   .projects {
     height: 300px;
     margin-top: 3rem;
+    width: 50%;
   }
 
   .project1 {
@@ -392,5 +393,36 @@ footer .social a {
 
   footer .social a {
     font-size: 2rem;
+  }
+}
+
+/* RESPONSIVE 500px */
+
+@media only screen and (max-width: 500px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+  }
+
+  .subheading h2 {
+    font-size: 1.4rem;
+  }
+
+  #projects {
+    width: 100vw;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+
+  .projects {
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    transition: 0.4s;
   }
 }
