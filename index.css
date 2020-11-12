@@ -21,10 +21,16 @@ vertical-align: baseline;
 
 html {
     font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
     padding: 0.5rem;
+}
+
+h1 {
+    font-size: 6vh;
+    text-align: center;
 }
 
 h2 {
@@ -34,54 +40,62 @@ h2 {
 
 button {
     border: none;
+    background-color: black;
+    color: white;
+    border: 2px black solid;
+    border-radius: 0.4rem;
+    margin: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
 }
 
 .top-section {
     display: flex;
     flex-direction: row;
     padding: 2px;
-    margin-bottom: 2px;;
+    margin-bottom: 2px;
+    padding-top: 2rem;
+    padding-left: 4rem;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 4rem;
+    justify-content: center;
 }
 
 nav button {
-    background-color: #00a3ff;
+    background-color: black;
     color: white;
-    border-radius: 1rem;
-    padding: 0.6rem;
+    font-size: 20px;
+    border-radius: 0.4rem;
+    padding: 2vh;
+    margin: 1.2rem;
 }
 
-.top-section {
-    padding-top: 2rem;
-    padding-left: 4rem;
+.top-section .upper-image img {
+    border-radius: 50%;
 }
 
 .top-section .upper-content {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    padding-left: 2rem;
+    width: 35%;
+    padding-left: 4rem;
 }
 
 .project-gallery {
     display: flex;
-    flex-flow: wrap;
-	align-items: flex-start;
+    flex-direction: row wrap;
     align-content: space-evenly;
 }
 
-.row-tiles {
-    padding: 2rem;
-}
-
 .row-tiles img {
-    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2vh;
+    margin-top: 3vh;
 }
 
 .bottom {
@@ -93,3 +107,55 @@ nav button {
 footer p {
     text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav button {
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        border-radius: 0.4rem;
+        padding: 1vh;
+        margin: 0.8rem;
+    }
+
+    .top-section .upper-image img {
+      width: 80%;
+    }
+
+    .top-section .upper-content {
+        padding: 0;
+        margin: auto 0;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: center;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column wrap;
+        justify-content: stretch;
+        width: 80%;
+    }
+
+    .row-tiles img {
+        width: 30%;
+        padding: 1rem;
+        align-items: center;
+    }
