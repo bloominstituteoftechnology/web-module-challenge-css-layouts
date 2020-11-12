@@ -16,7 +16,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    font: inherit;
+    font-family: 'Kalam', cursive;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -39,6 +40,7 @@ a:hover{
     color: black;
 }
 
+
 /* Header */
 header, .heading, nav{
     align-items: center;
@@ -52,7 +54,6 @@ header{
     justify-content: space-between;
 }
 
-
 header nav button{
     border: none; 
     margin: 1%;  
@@ -61,53 +62,82 @@ header nav button{
 }
 
 
-/* Containers */
-#imgContainer{
+/* First Container */
+ #imgHdr{
     background: url("https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
     padding: 250px;
-}
+    width: 1000px;
+    margin: auto;
+} 
 
 #prjContainer{
     flex-direction: column;
     font-size: 3.5rem;
     align-items: center;
-    margin: 5%;
+    margin: auto;
+}
+
+#prjContainer h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 #prjContainer button{
-    width:15%;
-    border:none;
-    background: none;
+    border-radius: 10%;
     font-size: 1.5rem;
-    margin-left: 30%;
+    justify-content: right;
 }
 
-#prjContainer a{
-    background-color: lightgray;
-}
+
+/* Main body Container */
 
 .container{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 
-.container #todo{
-    width: 85%;
-}
-
-.container img{
+/* .container img{
     width: 25%;
     margin: 20px;
     padding: 1%;
+} */
+/* #prjContainer div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px;
+    align-content: space-between;
+} */
+/* .container{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: baseline; 
+    margin: 20px; 
+    align-content: space-between; 
 }
+ */
+ .gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+ img{
+    width: 500px;
+    height: 350px;
+    margin: 30px 0;
+ }
 
-.container p{
-    flex-direction: column;
-    visibility: hidden;
-}
+
+
+
+
+
+
+
 
 /* Footer */
 footer{
