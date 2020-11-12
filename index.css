@@ -169,7 +169,11 @@ footer p {
 
     @media only screen and (max-width: 500px) {
         h1 {
-            font-size: 2rem;
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            display: none;
         }
     
         header {
@@ -182,6 +186,7 @@ footer p {
             display: flex;
             flex-direction: column;
             align-items: center;
+            align-content: center;
         }
     
         nav button {
@@ -189,6 +194,7 @@ footer p {
             color: white;
             font-size: 16px;
             border-radius: 0.4rem;
+            padding: 0.5rem;
         }
     
         .top-section {
@@ -200,17 +206,15 @@ footer p {
     
         .top-section .upper-image img {
           width: 40%;
-          margin-bottom: 2rem;
+          align-content: center;
         }
       
         p {
-          font-size: 1rem;
+          display: none;
         }
     
         .bottom {
-            display: flex;
-            flex-direction: row wrap;
-            justify-content: center;
+            display: none;
         }
     
         .top-section {
@@ -218,10 +222,6 @@ footer p {
             flex-direction: column wrap;
         }
     
-        .row-tiles .img {
-            width: 50%;
-            padding: 2rem;
-            display: flex;
-            flex-wrap: nowrap;
-            align-items: center;
+        .project-gallery {
+            display: none;
         }
