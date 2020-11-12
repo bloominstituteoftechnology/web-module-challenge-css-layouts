@@ -150,12 +150,10 @@ footer p {
     .top-section {
         display: flex;
         flex-direction: column wrap;
-        justify-content: stretch;
-        width: 80%;
     }
 
     .row-tiles img {
-        width: 30%;
-        padding: 1rem;
+        width: 10%;
+        padding: 2rem;
         align-items: center;
     }
