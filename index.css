@@ -47,6 +47,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 4rem;
 }
 
 nav button {
@@ -54,6 +55,11 @@ nav button {
     color: white;
     border-radius: 1rem;
     padding: 0.6rem;
+}
+
+.top-section {
+    padding-top: 2rem;
+    padding-left: 4rem;
 }
 
 .top-section .upper-content {
