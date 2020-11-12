@@ -110,7 +110,13 @@ footer p {
 
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     nav {
@@ -124,17 +130,18 @@ footer p {
         color: white;
         font-size: 16px;
         border-radius: 0.4rem;
-        padding: 1vh;
-        margin: 0.8rem;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
     }
 
     .top-section .upper-image img {
-      width: 80%;
-    }
-
-    .top-section .upper-content {
-        padding: 0;
-        margin: auto 0;
+      width: 40%;
+      margin-bottom: 2rem;
     }
   
     p {
@@ -152,8 +159,69 @@ footer p {
         flex-direction: column wrap;
     }
 
-    .row-tiles img {
-        width: 10%;
+    .row-tiles .img {
+        width: 50%;
         padding: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
         align-items: center;
     }
+
+    @media only screen and (max-width: 500px) {
+        h1 {
+            font-size: 2rem;
+        }
+    
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        nav button {
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            border-radius: 0.4rem;
+        }
+    
+        .top-section {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+        }
+    
+        .top-section .upper-image img {
+          width: 40%;
+          margin-bottom: 2rem;
+        }
+      
+        p {
+          font-size: 1rem;
+        }
+    
+        .bottom {
+            display: flex;
+            flex-direction: row wrap;
+            justify-content: center;
+        }
+    
+        .top-section {
+            display: flex;
+            flex-direction: column wrap;
+        }
+    
+        .row-tiles .img {
+            width: 50%;
+            padding: 2rem;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
