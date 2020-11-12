@@ -115,3 +115,39 @@ footer {
 .footer:hover {
   color:white;
 }
+@media only screen and (max-width: 1029px) {
+  .bottom {
+    display:none;
+  }
+  
+  ul {
+    justify-content:center;
+  }
+  
+  
+  
+ 
+  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:
+  }
+  
+  h1 {
+    font-size:16px;
+  }
+  
+  li {
+    font-size: 14px;
+  }
+  
+  pz {
+    font-size: 12px;
+  }
+  
+  .bottom {
+    display:none;
+  }
+  
+  .foot {
+    font-size:16px;
