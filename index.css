@@ -278,7 +278,7 @@ body{
     }
    
     .avatar {
-        width: 90%;
+        width: 75%;
         height: auto;
         margin: auto;
         padding-right: 3em;
@@ -296,10 +296,10 @@ body{
         text-align: center;
     }
 
-    .item img {
+   /* .item img {
         width: 150px;
         height: 150px;
-    }
+    }*/
 
     .footer {
         display: flex;
@@ -309,6 +309,24 @@ body{
         background-color: lightsalmon;
         padding: 0 1em 1em 1em;
         color: white;
+    }
+
+    .item a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        width: 100%;
+        font-weight: bold;
+        visibility: visible;
+    }
+
+    .item img {
+        opacity: 75%;
     }
  }
     
@@ -367,6 +385,24 @@ body{
         background-color: lightsalmon;
         padding: 0 1em 1em 1em;
         color: white;
+    }
+
+    .item a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        width: 100%;
+        font-weight: bold;
+        visibility: visible;
+    }
+
+    .item img {
+        opacity: 75%;
     }
  }
    
