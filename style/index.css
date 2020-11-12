@@ -115,6 +115,9 @@ footer {
 .footer:hover {
   color:white;
 }
+
+
+
 @media only screen and (max-width: 1029px) {
   .bottom {
     display:none;
@@ -134,7 +137,7 @@ footer {
   }
   
   h1 {
-    font-size:16px;
+    font-size:25px;
   }
   
   li {
@@ -142,7 +145,7 @@ footer {
   }
   
   pz {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .bottom {
@@ -150,4 +153,23 @@ footer {
   }
   
   .foot {
-    font-size:16px;
+    font-size:19px;
+    padding:22px;
+   
+  }
+ 
+  
+  header {
+  padding:0px;
+  border:10px solid red;
+  width:auto;
+}
+  
+  .container {
+  display:flex;
+  border: 80px solid black;
+  margin:10px auto;
+  padding:20px;
+  justify-content:center;}
+
+  
