@@ -1,12 +1,12 @@
 * {
+  
   background-color: pink;
   text-decoration:none;
 }
 header {
-  margin: 0 auto;
   padding:0px;
   border:11px solid red;
-  width:100%;
+  width:auto;
 }
 
 h1 {
@@ -25,10 +25,9 @@ h1 {
 ul{
   display:flex;
   list-style:none;
-  margin:0px;
   padding:0px;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content:flex-end;
   
  
 }
@@ -36,11 +35,11 @@ ul{
 li {
   margin:0.5em;
   padding:0.5em;
-  border:4px solid black;
+  border:3px solid black;
   flex-direction:row;
   flex-wrap:wrap;
   width: 90px;
-  background-color:;
+  background-color:
   text-align: center;
   font-size:18px;
   background-color:red;
@@ -67,6 +66,7 @@ pz {
 }
   
 
+
 .bottom {
   display:flex;
   flex-direction:row;
@@ -82,21 +82,17 @@ pz {
 
 pic{
  display:flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   flex-direction:row;
   margin:0 auto;
   padding:0px;
   height:
   justify-content:space-between;
-  border:3px 
+  border:0px; 
   
   
 }
 
-.goo {
-  margin:0;
-  padding:0;
-}
 a {
   color:black;
   background-color:red;
@@ -119,3 +115,39 @@ footer {
 .footer:hover {
   color:white;
 }
+@media only screen and (max-width: 1029px) {
+  .bottom {
+    display:none;
+  }
+  
+  ul {
+    justify-content:center;
+  }
+  
+  
+  
+ 
+  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:
+  }
+  
+  h1 {
+    font-size:16px;
+  }
+  
+  li {
+    font-size: 14px;
+  }
+  
+  pz {
+    font-size: 12px;
+  }
+  
+  .bottom {
+    display:none;
+  }
+  
+  .foot {
+    font-size:16px;
