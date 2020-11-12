@@ -5,7 +5,6 @@
 
 nav {
     font-size: 1.3rem;
-    font-family: 'Courier New', Courier, monospace;
 }
 ul {
     padding: 0.8em;
@@ -26,44 +25,32 @@ li a:hover {
     padding: 0.8em;
     color: black;
 }
-/* 
-h1{
-    font-size: 64px;
-    font-family: 'Courier New', Courier, monospace;
+
+h2 {
+    font-size: 1.5rem;
     text-align: center;
-    margin: 0% 0% 3% 0%;
-    text-decoration: underline;
-} */
-h4 {
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     padding-top: 3em;
 }
 p {
-    /* margin: 2em 5em 2em 5em; */
-    /* font-size: 1.7rem;
-    text-align: center; */
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 
 header {
     background-color: #EDCF44;
 }
-header:hover {
-    background-color: rgb(255, 255, 255);
-}
 
 .hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background-color: #EDCF44;
-    padding: 4em;
+    padding: 5em;
     align-items: center;
     font-weight: 600;
-    font-size: 2rem;
     text-align: center;
+}
+
+.hero p {
+    font-size: 1.7rem;
 }
 
 .child {
@@ -74,35 +61,36 @@ img.myphoto {
     width: 100%;
     border-radius: 50%;
     height: auto;
+    margin: 10%;
 }
 
  .intro {
-    margin: 1em 5em 1em 5em;
+    margin: 5em 10em 1em 10em;
 }
 
 .btn-primary {
     padding: 1rem;
-    font-size: 0.8em;
+    font-size: 1.5em;
     background-color: #EDCF44;
-    margin-top: 2rem;
-    text-decoration: none;
+    margin: 2rem;
 }
 .btn-primary:hover {
     background-color: #ffffff;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-/* ... */
 body section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .main p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     padding: 1em 5em 1em 5em;
 }
+
 article {
     margin: 1em;
     padding: 1em;
@@ -111,6 +99,7 @@ article {
 .btn-secondary {
     font-size: 21px;
     padding: 18px 24px;
+    margin-top: 2%;
     border-radius: 8px;
     text-decoration: none;
     font-style: italic;
@@ -140,33 +129,47 @@ footer {
   padding: 1rem;
 }
 
-/* media queries */
-
-@media only screen and (min-width: 800px) {
-    
+/* _______NOTEPAD_______ */
+@media (max-width: 800px) {
+    nav {
+        font-size: 1rem;
+    }
+    img.myphoto {
+        width: 50%;
+    }
     .hero {
-        display: flex;
-    } 
-
-    /* p {
-        margin: 2em 2em 2em 2em;
-        font-size: 1.3rem;
-    } */
-    
-    .hero-section {
-        display: flex;
+        padding: 0em;
+    }
+    .intro {
+        margin: 3em;
+    }
+    .intro p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .main p {
+        font-size: 1rem;
+        text-align: center;
+        margin: 1%;
+        padding: 1em;
     }
 }
-
-@media only screen and (min-width: 500px) { 
-
-    .hero {
-        display: flex;
+/* _______MOBILE_______ */
+@media (max-width: 500px) { 
+    img.myphoto {
+        width: 35%;
     }
-
-    /* p {
-        margin: 2em 2em 2em 2em;
-        font-size: 1.2rem;
-    } */
+    .intro {
+        margin: 3em;
+    }
+    .intro p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .main p {
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 1%;
+        padding: 1em;
+    }
 }
-  /* ... */
