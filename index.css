@@ -27,79 +27,63 @@ body {
     padding: 0.5rem;
 }
 
+h2 {
+    padding: 1rem 0rem;
+    font-size: 24px;
+}
+
 button {
     border: none;
 }
 
+.top-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin-bottom: 2px;;
+}
+
 nav {
-    display: inline-flex;
-	flex-flow: wrap;
-	align-items: stretch;
-	align-content: space-evenly;
-	justify-content: space-evenly;
-    padding: 0.5rem;
-    margin: 0rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 nav button {
     background-color: #00a3ff;
     color: white;
-    font-size: 1.1rem;
-    border-radius: 5rem;
-    padding: 1rem;
+    border-radius: 1rem;
+    padding: 0.6rem;
 }
 
-.upper-image {
-    border-radius: 50%;
-    margin: 1rem;
-}
-
-.upper-content {
+.top-section .upper-content {
     display: flex;
-	flex-flow: wrap;
-	align-items: flex-start;
-	align-content: space-evenly;
-	justify-content: flex-start;
-    border: 3px solid #00a3ff;
-    padding: 0.5rem;
-    margin: auto 0;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 2rem;
 }
 
-img {
+.project-gallery {
     display: flex;
-	flex-flow: wrap;
+    flex-flow: wrap;
 	align-items: flex-start;
-	align-content: space-evenly;
-	justify-content: space-evenly;
-    border: 3px solid #00a3ff;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    align-content: space-evenly;
 }
 
 .row-tiles {
-    display: flex;
-	flex-flow: wrap;
-	align-items: stretch;
-	align-content: space-evenly;
-	justify-content: space-evenly;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
-.row-tiles p {
-    display: inline-flex;
+.row-tiles img {
+    margin: 2rem;
 }
 
-h1 {
-font-size: 2rem;
-}
-    
 .bottom {
     display: flex;
-	flex-flow: wrap;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-    border: 3px solid #00a3ff;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    flex-direction: row wrap;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
 }
