@@ -56,3 +56,19 @@ footer section {
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+  
+}
+@media (max-width: 500px) {
+    body {
+        background-color: darkmagenta;
+       
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+}
