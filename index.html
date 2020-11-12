@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Home Page</title>
 </head>
 <body>
@@ -17,24 +19,29 @@
         </nav>
     </header>
 
-    <section id="prjContainer">
-        <div id="imgContainer">
-            <h2>Andrew Castillo</h2>
-            <button><a href="projects.html">Projects</a></button>
-        </div>
-
-    </section>
+        <section>
+            <div id="imgHdr">
+                <div id="prjContainer">
+                    <h1>Andrew Castillo</h1>
+                    <button><a href="projects.html">Projects</a></button>
+                </div>
+            </div>
+        </section>
 
     <section>
         <div class="container">
-            <a href='https://myjstodolist.netlify.app/'><img src="pictures/todolist.png" alt="Todo list" id="todo"></a><p>My to-do list</p>
-            <img src="https://images.unsplash.com/photo-1520848315518-b991dd16a625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="husky"><p>Doggie</p>
-            <img src="https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="gundam"><p>Gundam</p>
-            <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="japanese restaurant"><p>Fujiden</p>
-            <img src="https://images.unsplash.com/photo-1565354613834-3fe89de516d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="jinja"><p>神社</p>
-            <img src="https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1926&q=80" alt="kyoto"><p>Kyoto alley shops</p>
+            <div class="gallery">
+                <div class="image"><img src="https://images.unsplash.com/photo-1536689318884-9ee850c4c095?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80" alt="vending machine"></div>
+                <div class="image"><img src="https://images.unsplash.com/photo-1520848315518-b991dd16a625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="husky"></div>
+                <div class="image"><img src="https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="gundam"></div>
+                <div class="image"><img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="japanese restaurant"></div>
+                <div class="image"><img src="https://images.unsplash.com/photo-1565354613834-3fe89de516d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="shrine"></div>
+                <div class="image"><img src="https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1926&q=80" alt="kyoto"></div>
+            </div>
         </div>
     </section>
+    
+ 
 
     <footer>
         <button><a href="contact.html">Contact Me!</a></button>
