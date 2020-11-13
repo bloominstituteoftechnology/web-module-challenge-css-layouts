@@ -1,6 +1,6 @@
 * {
   
-  background-color: pink;
+  background-color: ;
   text-decoration:none;
 }
 header {
@@ -11,7 +11,8 @@ header {
   margin-left:30px;
   margin-right:30px;
   width:90%
-    justify-content:center;
+  justify-content:center;
+  opacity: 0.9;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
   font-size:40px;
   justify-content:center;
   background-color:red;
+
   
 }
 
@@ -29,8 +31,7 @@ ul1{
   display:flex;
   list-style:none;
   padding:0px;
-  margin-left:20px;
-  margin-right:20px;
+  margin:0px;
   flex-direction: row;
   justify-content:flex-end;
   text-align: center;
@@ -38,17 +39,22 @@ ul1{
 }
 
 li {
-  
+  display:flex;
   margin:0.5em;
   padding:0.5em;
   border:3px solid black;
   flex-direction:row;
   flex-wrap:wrap;
   width: 90px;
-  background-color:
-  font-size:18px;
+  justify-content:center;
   font-family:Berkshire Swash;
 
+}
+
+.button-area {
+  display:flex;
+  padding:25px;
+  margin:0px;
 }
 
 
@@ -64,6 +70,7 @@ li {
   height:400px auto;
   width:60%;
    line-height:1.5;
+  border-top:2px dotted black;
   
    
 }
@@ -135,23 +142,28 @@ a:hover {
 
 footer {
   display:;
-  background-color: red;
+  background-color:red;
   margin:0 auto;
   padding:40px;
   height:40px auto;
   border:11px solid black;
   font-size:35px;
   justify-content: center; 
+  opacity:0.9;
 }
 
 .footer1 {
  text-align:center;
   font-size:30px;
+  height:30px;
   padding:0px;
   width:90%;
   margin-right:5%;
   margin-left:5%;
   background-color:red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
  }
 
 footer:hover {
