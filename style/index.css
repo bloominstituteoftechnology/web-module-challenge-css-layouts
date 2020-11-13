@@ -9,8 +9,6 @@ section {
 
     display: flex;
     flex-wrap: wrap;
-    /* height: 200px; */
-    /* width: 100px; */
     flex-direction: row;
     
 }
@@ -26,7 +24,7 @@ a {
     text-decoration: none;
     line-height: 30px;
     color: blueviolet;
-    
+    font-weight: bolder;
 }
 button {
     background-color: coral;
