@@ -11,61 +11,62 @@
         <link rel="stylesheet" href="css/index.css">
  </head>     
 <body>
-    <header class="heading">
-        <h1>Pape Ndiaye</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <a href="projects.html">Projects</a>
-        </nav>
-      </header>
-      <section class="intro">
-        <img src="https://picsum.photos/200/300"/>
-        <div class="intro-txt">
-        <h2>Pape Ndiaye</h2>
-        <button onclick="location.href='projects.html'">My Projects</button>
-        <p>I cry at night. These words are authentic and inspiring, these words tell my story</p>
-        </div>
-      </section>
-      <section class="image-row">
-        <div class="pic1">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 1</p>
-        </div>
-          <div class="pic2">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 2</p>
-        </div>
-        <div class="pic3">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 3</p>
-        </div>
-        <div class="pic4">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 4</p>
-        </div>
-        <div class="pic5">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 5</p>
-        </div>
-        <div class="pic6">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 6</p>
-        </div>
-        <div class="pic7">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 7</p>
-        </div>
-        <div class="pic8">
-        <img src="https://picsum.photos/200"/>
-        <p>Pic 8</p>
-        </div>
-      </section>
-      <footer class="foot">
-        <h3>Like what you see?</h3>
-        <a href="Contact.html"> Contact</a>
-      </footer>
+  <header class="heading">
+    <h1>Pape Ndiaye</h1>
+    <nav class="heading-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+  <section class="intro">
+    <img src="https://picsum.photos/200/300"/>
+    <div class="intro-txt">
+    <h2>Pape Ndiaye</h2>
+    <a href="Projects.html">My Projects</a>
+    <p>I cry at night. These words are authentic and inspiring, these words tell my story</p>
+    </div>
+  </section>
+  <section class="image-row">
+    <div class="pic1">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 1</p>
+    </div>
+      <div class="pic2">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 2</p>
+    </div>
+    <div class="pic3">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 3</p>
+    </div>
+    <div class="pic4">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 4</p>
+    </div>
+    <div class="pic5">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 5</p>
+    </div>
+    <div class="pic6">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 6</p>
+    </div>
+    <div class="pic7">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 7</p>
+    </div>
+    <div class="pic8">
+    <img src="https://picsum.photos/200"/>
+    <p>Pic 8</p>
+    </div>
+  </section>
+  <footer class="foot">
+    <h3>Like what you see?</h3>
+    <a href="Contact.html"> Contact</a>
+  </footer>
+    
       <style>
         html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -112,46 +113,71 @@ table {
 }
 html {
   font-size: 16px;
+  font-family: sans-serif;
+  background: url('https://images.photowall.com/products/52946/divine-cherry-blossoms.jpg?h=699&q=85') no-repeat;
 }
-.heading {
-  background-color: #FFEFBF;
-  height: 120px;
-}
+
 h1 {
-  font-size: 3.7rem;
+  font-size: 4.1rem;
+  text-align: center;
+  text-shadow: 5px -5px 5px #5D3EFF;
+  opacity: .8;
 }
-.heading a {
-  border: 2px solid black;
+
+
+.heading-nav {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: url('https://s3-us-west-2.amazonaws.com/collections.lacma.org-images/remote_images/ma-69153-WEB.jpg?538DSbItnI0aTqcUg9MBcHsT9TdSLc7S');
+  outline: 7px dashed pink;
+}
+
+.heading-nav a {
   text-decoration: none;
   color: black;
-  padding: 5px 5vw 5px 5vw;
+  border-left: 5px solid #D2FFFF;
+  padding: 30px;
+  border-right: 5px solid #FFE8E8;
+  color: #FFFFFF;
 }
-.heading nav {
-  display: flex;
-  margin: 20px 60vw 20px 5vw;
-}
+
 .intro {
   display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-.intro img {
-  height: 350px;
-  width: 45vw;
-  margin-left: 3vw;
-}
-.intro-txt{
-  text-align: center;
+  justify-content: center;
+  width: 90vw;
   margin: 0 auto;
 }
+
+.intro-txt {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.intro img {
+  height: 500px;
+  width: 600px;
+  margin-top: 50px;
+}
+
 .intro h2 {
-  font-size: 3.1rem;
+  font-size: 2.7rem;
   margin: 20px;
 }
-.intro button {
-  padding: 10px;
+.intro a {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  background: url('https://s3-us-west-2.amazonaws.com/collections.lacma.org-images/remote_images/ma-69153-WEB.jpg?538DSbItnI0aTqcUg9MBcHsT9TdSLc7S');
+  outline: 7px dashed pink;
 }
+
 .intro p {
   font-size: 1.8rem;
   margin: 20px;
@@ -159,9 +185,10 @@ h1 {
 .image-row {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 .image-row img {
-  margin: 48px
+  margin: 48px;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
   display: flex;
@@ -169,14 +196,21 @@ h1 {
   text-align: center;
 }
 .foot {
-  background-color: #FFEFBF;
+  background: url('https://s3-us-west-2.amazonaws.com/collections.lacma.org-images/remote_images/ma-69153-WEB.jpg?538DSbItnI0aTqcUg9MBcHsT9TdSLc7S');
   height: 150px;
   text-align: center;
   margin-top: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  outline: 7px dashed pink;
 }
 h3 {
   font-size: 1.4rem;
   margin: 20px;
+  color: white;
 }
 .foot a {
   text-decoration: none;
@@ -185,6 +219,7 @@ h3 {
   padding: 5px; 
   background-color: black;
 }
+
 
 @media only screen and (max-width: 600px){
           html, body, div, span, applet, object, iframe,
