@@ -88,13 +88,13 @@ body section {
 }
 
 .main p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     padding: 1em 10em 1em 10em;
 }
 
 article {
-    margin: 1em;
+    /* margin: 0.5em; */
     padding: 1em;
 }
 
