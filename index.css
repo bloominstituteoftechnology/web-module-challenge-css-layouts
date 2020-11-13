@@ -50,7 +50,7 @@ header {
 }
 
 .hero p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .child {
@@ -61,7 +61,7 @@ img.myphoto {
     width: 100%;
     border-radius: 50%;
     height: auto;
-    margin: 10%;
+    margin: 30%;
 }
 
  .intro {
@@ -70,7 +70,9 @@ img.myphoto {
 
 .btn-primary {
     padding: 1rem;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    /* text-decoration: none; */
+    font-weight: 600;
     background-color: #EDCF44;
     margin: 2rem;
 }
@@ -88,7 +90,7 @@ body section {
 .main p {
     font-size: 1.3rem;
     text-align: center;
-    padding: 1em 5em 1em 5em;
+    padding: 1em 10em 1em 10em;
 }
 
 article {
@@ -136,6 +138,8 @@ footer {
     }
     img.myphoto {
         width: 50%;
+        margin: 20%;
+
     }
     .hero {
         padding: 0em;
@@ -158,6 +162,8 @@ footer {
 @media (max-width: 500px) { 
     img.myphoto {
         width: 35%;
+        margin: 10%;
+
     }
     .intro {
         margin: 3em;
