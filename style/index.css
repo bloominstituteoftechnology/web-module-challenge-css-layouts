@@ -1,6 +1,6 @@
 * {
   
-  background-color: ;
+  background-color:pink ;
   text-decoration:none;
 }
 header {
@@ -53,8 +53,9 @@ li {
 
 .button-area {
   display:flex;
-  padding:25px;
-  margin:0px;
+  padding:10px;
+  margin-left:0px;
+  margin-right:10px;
 }
 
 
@@ -278,8 +279,16 @@ ul3 {
     font-size:19px;
   }
   
+   .button-area {
+     justify-content:center;
+  padding:0px;
+  margin-left:15%;
+  margin-right:3%;
+}
+      
   li {
     font-size: 14px;
+    width:80px;
     
   }
   
@@ -291,13 +300,11 @@ ul3 {
         font-size: 16px;
       }
       
-  container {
-    margin:auto;
-    font-size:13px;
-      }
       
       .projects {
         font-size: 15px;
+margin-right:10px;
+        margin-left:10px;
       }
   
    
@@ -312,11 +319,11 @@ ul3 {
   margin:10px auto;
   padding:20px;
     justify-content:center;
+    margin:auto;
+    font-size:13px;
+      }
   }
    
- .bottom2 {
-   display:none;
-
-   
-}
-
+    .pic {
+      margin:2px;
+    }
