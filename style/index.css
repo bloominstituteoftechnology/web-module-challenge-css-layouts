@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font: inherit;
   vertical-align: baseline;
   text-decoration: none;
+  color: inherit;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -45,7 +46,7 @@ table {
 /* DONE RESET */
 
 .head_cont, .page {
-  width: 1080px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -62,13 +63,13 @@ nav ul {
   display: flex;
   padding: 10px;
 }
-nav a {
+nav li {
   padding: 8px 20px;
   color: #000;
   background: #fff;
   border: 1px solid #000;
 }
-nav a:hover {
+nav li:hover {
   color: #fff;
   background: #000;
 }
@@ -141,4 +142,32 @@ footer a {
 footer a:hover {
   color: #fff;
   background: #000;
+}
+
+/*------------------ MEDIA QUERIES ------------------*/
+@media (max-width: 800px) {
+  .head_cont {
+    text-align: center;
+  }
+  nav ul {
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .intro .details {
+    font-size: 14px;
+  }
+    .intro .details a {
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    flex-direction: column;
+    max-width: 130px;
+    margin: 0 auto;
+  }
 }
