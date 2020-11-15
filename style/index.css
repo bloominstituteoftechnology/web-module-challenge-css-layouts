@@ -79,7 +79,7 @@ nav li:hover {
   align-items: flex-end;
 }
 .intro img, .intro .details {
-  width: 47%;
+  max-width: 47%;
 }
 .intro .details {
   display: flex;
@@ -163,7 +163,20 @@ footer a:hover {
     width: 80px;
   }
 }
-
+@media (max-width: 650px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro img, .intro .details {
+    max-width: 90%;
+  }
+  .intro .details {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   nav ul {
     flex-direction: column;
