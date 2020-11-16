@@ -4,10 +4,10 @@
 }
 
 nav {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 ul {
-    padding: 0.8em;
+    padding: 1em;
     overflow: hidden;
     background-color: #333;
 }
@@ -17,17 +17,17 @@ li {
 }
 li a {
     color: white;
-    margin-right: 2em;
+    margin-right: 3em;
     text-decoration: none;
 }
 li a:hover {
     background-color: #EDCF44;
-    padding: 0.8em;
+    padding: 0.9em;
     color: black;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     padding-top: 3em;
 }
