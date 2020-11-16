@@ -39,7 +39,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 3em;
+    padding: 10em;
     align-items: center;
     font-weight: 600;
     text-align: center;
@@ -61,7 +61,7 @@ img.myphoto {
     width: 100%;
     border-radius: 50%;
     height: auto;
-    margin: 20%;
+    margin: auto;
 }
 
  .intro {
@@ -94,7 +94,7 @@ body section {
 }
 
 article {
-    /* margin: 0.5em; */
+    margin: 0.5em;
     padding: 0.5em;
 }
 
@@ -141,7 +141,7 @@ footer {
     }
     img.myphoto {
         width: 50%;
-        margin: 10%;
+        margin: 5%;
 
     }
     .hero {
