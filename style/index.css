@@ -246,6 +246,7 @@ button.footer-button {
     padding: 5% 10%;    
     font-size: 1em;  
     text-align: center;
+    max-width:100%;
 }
 
 button.my-projects {
@@ -304,7 +305,6 @@ button.my-projects {
     /* BUTTONS */
     button.footer-button {
         margin: 2% auto; 
-        padding: 2% 5%;    
         font-size: .7em;  
         text-align: center;
     }
