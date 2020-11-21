@@ -1,1 +1,195 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+
+}
+.topShelf {
+	display: flex;
+	justify-items: space-around;
+	width: 100%;
+	height: 50px;
+}
+.topShelf h1 {
+	font-weight: bolder;
+	font-size: xx-large;
+	width: 30%;
+	margin-left: 15%;
+
+}
+.topShelf nav {
+    display: flex;
+	justify-self: start;
+	width: 60%;
+	height: 50px;
+	justify-items: space-between;
+	align-items: center;
+}
+nav a {
+	
+	border-radius: 10%;
+	padding: .4rem;
+	
+	margin: 6%;
+	height: 35px;
+	text-decoration: none;
+	width: 90px;
+	align-content: center;
+	background-color: cadetblue;
+	text-justify: auto;
+}
+x
+.topSection {
+	display: flex;
+	flex-direction: row;
+
+	height: 450px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.topSection article div:nth-of-type(1){
+	display: inline-block;
+	width: 30%;
+	height: 175px;
+	margin: 5px;
+	
+
+
+}
+.topSection article div:nth-of-type(2)  {
+	display: block;
+	align-items: center;
+	flex-direction: flex-column;
+	width: 50%;
+	height: 350px;
+	float: right;
+}
+.topSection div:nth-of-type(2) h3 {
+text-align: center;
+ 
+ width: 80%;
+ height: 20px;
+ 
+ margin: 10px;
+}
+.topSection div:nth-of-type(2) a button {
+	height: 10%;
+	width: 80%;
+	border-radius: 20%;
+	align-self: center;
+	background-color: coral;
+	 border: 2px solid red;
+	 padding-top:  1%;
+	 padding-bottom: 1%;
+	
+	 margin: 10px;
+	}
+	div:nth-of-type(2) p {
+		padding: 5%;
+		width: 90%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	article{
+		width: 90%;
+		height: 350px;
+	
+	}
+.mainSection {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	}
+	.mainSection div   {
+		width: 300px;
+	;
+		margin: 10px;
+	}
+/*	.mainSection div  {
+		width: 30%;
+		height:220px;
+		border: 2px solid black;		
+		margin: 10px;
+	}
+	.mainSection div  {
+		width: 30%;
+		height:120px;
+		border: 2px solid black;
+		margin: 10px;
+	}
+	.mainSection div  {
+		width: 30%;
+		height:120px;
+		border: 2px solid blue;
+		margin: 10px;
+	}
+	.mainSection div  {
+		width: 30%;
+		height:120px;
+		border: 2px solid blue;
+		margin: 10px;
+	}
+	.mainSection div  {
+		width: 30%;
+		height:120px;
+		
+	}*/
+	footer {
+		padding-top: 10px;
+		background-color: chocolate;
+		display: flex;
+		justify-content: space-evenly;
+		
+	}
