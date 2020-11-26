@@ -47,7 +47,7 @@ h1 {
     text-decoration: none;
     justify-content: center;
     border-radius: 5%;
-    border: 2px solid white;
+    border: 2px solid black;
   
 
 }
@@ -80,6 +80,7 @@ nav {
     display: flex;
     width: 45%;
     height: 45%;
+    
     
 }
 
@@ -120,7 +121,7 @@ footer .link {
     color: black;
     margin: 2%;
     border-radius: 5%;
-    border: 2px solid white;
+    border: 2px solid black;
     text-decoration: none;
 }
 
