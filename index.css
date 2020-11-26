@@ -23,7 +23,12 @@ vertical-align: baseline;
     background-color: aliceblue;
 }
 
-
+h1 {
+    font-family: "Hijrnotes Personal Use Only";
+    font-size: 200%;
+    padding: 2%;
+    
+}
 
 .navigation
 {
@@ -45,6 +50,11 @@ vertical-align: baseline;
     border: 2px solid white;
   
 
+}
+
+.navigation .link:hover
+{
+    opacity: 0.5;
 }
 
 .navigation a {
@@ -73,18 +83,6 @@ nav {
     
 }
 
-h2 {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/543dbce6e4b0fbb2b13fa5d8/1466648667937-WMVXFS8KFJJ03FU4I6FF/ke17ZwdGBToddI8pDm48kMWpMBywIIZNCL1nY-ufzqR7gQa3H78H3Y0txjaiv_0foACs49-HBkG_F4C3fTziOwCvjvxRDOQvYnFbaJd85ojwLv1ylhc9WxeIva5tjENnOqpeNLcJ80NK65_fV7S1UTwqFNz-1wIUUQUN_BmFpm_Jc0JX1bsMxZuUQGh7aS7xI71t-C_VvFs-IhUhkanjUQ/Photo+Jun+20%2C+10+00+58+AM+%281%29.jpg);
-    padding: 100px;
-    margin: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    color: white;
-    font-size: 500%;
-    text-align: center;
-    font-family: cursive;
-}
 
 .container {
     display: flex;
@@ -100,6 +98,32 @@ h2 {
     height: 25%;
     width: 25%;
     margin: 2%;
-    
+}
 
+.image:hover {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+footer .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: black;
+    margin: 2%;
+    border-radius: 5%;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+footer .link:hover {
+    opacity: 0.5;
 }
