@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    background-color: aliceblue;
+}
+
+
+
+.navigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.navigation .link {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    color: black;
+    margin: 2%;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 5%;
+    border: 2px solid white;
+  
+
+}
+
+.navigation a {
+    display: flex;
+    justify-self: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img{
+    display: flex;
+    width: 45%;
+    height: 45%;
+    
+}
+
+h2 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/543dbce6e4b0fbb2b13fa5d8/1466648667937-WMVXFS8KFJJ03FU4I6FF/ke17ZwdGBToddI8pDm48kMWpMBywIIZNCL1nY-ufzqR7gQa3H78H3Y0txjaiv_0foACs49-HBkG_F4C3fTziOwCvjvxRDOQvYnFbaJd85ojwLv1ylhc9WxeIva5tjENnOqpeNLcJ80NK65_fV7S1UTwqFNz-1wIUUQUN_BmFpm_Jc0JX1bsMxZuUQGh7aS7xI71t-C_VvFs-IhUhkanjUQ/Photo+Jun+20%2C+10+00+58+AM+%281%29.jpg);
+    padding: 100px;
+    margin: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.image {
+    height: 25%;
+    width: 25%;
+    margin: 2%;
+    
+
+}
