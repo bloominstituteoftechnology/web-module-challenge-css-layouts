@@ -37,6 +37,7 @@ body{
 	font-size:1.8rem;
 	color:#4F4F4F;
 	box-sizing:border-box;
+	background-color:#e1f7f2;
 }
 h1,h2,h3,h4,h5,h6{
 	letter-spacing:3px;
@@ -48,7 +49,7 @@ a{
 
 /* Code Begins*/
 header{
-	background-color:#bdffe9;
+	background-color:#b4fae3;
 }
 
 .header{
@@ -97,7 +98,7 @@ nav a:hover{
 	background-position:center;
 	background-repeat:no-repeat;
 	height:95%;
-	margin: 5px;
+	margin: 7px;
 }
 .bio_info{
 	display:flex;
@@ -143,7 +144,7 @@ img{
 }
 
 footer{
-	background-color:#bdffe9;
+	background-color:#b4fae3;
 	height: 110px;
 	display:flex;
 	justify-content: center;
@@ -155,4 +156,10 @@ footer{
 	font-size: 2rem;
 	display:flex;
 	flex-direction:column;
+}
+
+.contact_info a{
+	background-color: #d9d9d9;
+	border:1px solid black;
+	margin: 5px;
 }
