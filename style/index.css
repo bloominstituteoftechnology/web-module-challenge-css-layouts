@@ -1,2 +1,106 @@
-/* Add CSS styling here */
-/* temp line */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Rubik:wght@300;500&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    border: 1px solid black;
+}
+
+/* General */
+body {
+    display:flex; /* necessary to make header box support multi-reso */
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #1D1E23;
+    font-family: 'Quicksand';
+    color: lightgray;
+    border: 1px solid red;
+}
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* pixel cap in case of extra large reso */
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 2.3rem;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav a {
+    padding: 5px 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: lightgray;
+    transition: 75ms;
+}
+header nav a:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+/* Top Section */
+#content-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid black;
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    margin-top: 2.5%;
+    text-align: center;
+}
+#content-top h1 {
+    font-size: 3.5rem;
+}
+#content-top a {
+    padding: 3%;
+    border: 2px solid lightgray;
+    border-radius: 16px; /* curve will look similar to navbar */
+    color: limegreen;
+    text-align: center; /* maintains compatibility with smaller screens */
+    transition: 100ms;
+}
+#content-top a:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+/* Bottom Section */
