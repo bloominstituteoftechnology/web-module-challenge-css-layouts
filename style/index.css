@@ -22,7 +22,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -73,10 +73,14 @@ h1{
 	align-items:center;
 }
 nav a{
-	background-color:#b3f2dc;
 	font-weight:bold;
+	padding: 5px;
+	transition:.3s;
 }
 
+nav a:hover{
+	background-color: #03fcdb;
+}
 
 .bio{
 	display:flex;
@@ -103,15 +107,17 @@ nav a{
 	align-items:flex-start;
 }
 
-.bio_info button{
+button{
 	display:inline-block;
 	margin: 10px 0;
 	width:200px;
+	padding: 5px;
 }
 .gallery{
 	display:flex;
 	flex-direction:column;
 	justify-content: space-evenly;
+	text-align:center;
 }
 .row1{
 	display:flex;
@@ -129,4 +135,24 @@ nav a{
 	width: 100%;
 	padding:10px;
 	justify-content: space-evenly;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+footer{
+	background-color:#bdffe9;
+	height: 110px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contact_info {
+	font-size: 2rem;
+	display:flex;
+	flex-direction:column;
 }
