@@ -81,26 +81,47 @@ h1 {
 .introText{
 	display:flex;
 	justify-content:center;
-	margin: 5%;
+	margin: 3% 0% 0% 0%;
 	font-size:2.5em;
 }
 
 .introParaText{
 	display:flex;
 	justify-content:center;
+	margin: 2% 0% 0% 0%;
 }
 
 .heroSection{
 	background-size:cover;
 	max-width:100%;
 	background-position:fixed;
-	margin:3% 0% 0% 0%;
+	margin:2% 0% 0% 0%;
 }
 
 .pokeBallImg{
 	width:100%;
 	height:40vh;
 	object-fit:cover;
+}
+
+.projectSection{
+	margin: 2% 0% 0% 0%;
+	display:flex;
+	max-width:100%;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.projectText{
+	width:20%;
+	text-align:center;
+	margin:0% auto;
+}
+
+.footerContainer{
+	display:flex;
+	background-color:lightgray;
+	justify-content:center;
 }
 
 
