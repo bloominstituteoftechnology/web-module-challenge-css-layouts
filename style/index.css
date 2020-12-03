@@ -1,19 +1,83 @@
 /* css reset */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
   
   /* Add CSS styling here */
+
+  /* Font Info:
+  font-family: 'Epilogue', sans-serif;
+  font-family: 'Staatliches', cursive;
+*/
+
   #container {
     margin: auto;
     width: 999px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   
   h1 {
-    padding: 25px 0;
+    padding: 25px 16px;
+    font-family: 'Staatliches', cursive;
+    font-size: 130px;
+  }
+
+  .logo {
+    width: auto;
+    height: 100%;
   }
   
   a {
@@ -22,6 +86,52 @@
   
   nav {
     margin-bottom: 35px;
+    justify-content: center;
+  }
+
+  .navMenu{
+    overflow:hidden;
+    background-color:#a3cb38
+  }
+  
+  .navMenu a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px
+  }
+  .navMenu a.active {
+    background-color:#a3cb38;
+    color:#FFF
+  }
+  
+  .main_links {
+    background-color:#a3cb38;
+    color:#FFFFFF;
+    line-height:1
+  }
+  
+  .main_links:hover {
+    background-color:#ffffff;
+    color:#a3cb38
+  }
+  
+  .navMenu .navbar a:hover, {
+    background-color:#ffffff;
+    color:#a3cb38;
+  }
+  
+  .navMenu.mobileView{
+    position:relative
+  }
+  
+  .navMenu.mobileView a{
+    float:none;
+    display:block;
+    text-align:left
   }
   
   ul {
@@ -30,12 +140,56 @@
   }
   
   .banner img {
+    width: 30%;
+    height: auto;
     margin-bottom: 20px;
     margin-right: 5%;   
+    border-radius: 50%;
+    filter: grayscale(100%);
   }
   
   .banner {
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .wrapper{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .banner h2 {
+    font-size: 65px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    width: 100%;
+  }
+
+  .banner h3 {
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    background-color: #a3cb38;
+    color: white
+  }
+
+  .banner p {
+    line-height: 150%;
+  }
+
+  .banner a {
+    font-weight: bold;
+    color: #a3cb38;
+  }
+
+  .banner a:hover {
+    text-transform: uppercase;
   }
   
   .projects {
@@ -47,6 +201,11 @@
   .projects img {
     margin-bottom: 25px;
   }
+
+  .projects img:hover {
+    filter: none;
+    -webkit-filter: grayscale(100%);
+  }
   
   footer {
     margin: 50px 0;
@@ -55,4 +214,24 @@
   
   footer p {
     margin-bottom: 20px
+  }
+
+  button {
+    background-color: #a3cb38;
+    color: white;
+    font-size: 30px;
+    padding: 15px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Staatliches', cursive;
+  }
+
+  button:hover {
+    font-weight: bold;
+  }
+
+  .socialmedia {
+    margin-top: 30px;
   }
