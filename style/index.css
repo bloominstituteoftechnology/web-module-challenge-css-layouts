@@ -100,7 +100,7 @@ header nav a:hover {
 }
 #content-top a:hover {
     background-color: darkslategray;
-    color: whitesmoke;
+    color: whitesmoke; /**/
 }
 
 /* Bottom Section */
