@@ -1,0 +1,137 @@
+*{
+    max-width: 93.75rem;
+}
+body{
+    border: solid black .125rem;
+    height: 123.438rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topSiteName{
+    width: 46.87rem;
+    margin-left: 1.3rem;
+}
+
+.topSiteName h1{
+    align-content: flex-start;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+}
+.topNavBar{
+    width: 46.87rem;
+    height: 7.438rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+    
+}
+.topNavBar a{
+    align-content: flex-end;
+    margin: 0 .1rem;
+}
+.home{
+    border: solid red .1rem;
+    padding: 1rem 2rem;
+}
+.about{
+    border: solid blue .1rem;
+    padding: 1rem 2rem;
+}
+.contact{
+    border: solid greenyellow .1rem;
+    padding: 1rem 2rem;
+}
+.projects{
+    border: solid  black .1rem;
+    padding: 1rem 2rem;
+    
+}
+.topPicSection{
+    background-image: url(https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/65277533_10220576274863350_8008591475493306368_o.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_ohc=Ajn7qXXQmH0AX8OM_EA&_nc_ht=scontent-mia3-1.xx&oh=a175368161112e857f4d526f83db91fe&oe=5FEE6FBE);
+    background-size: cover;
+    background-position:50% 50%;
+    background-attachment: fixed;
+    width: 56.25rem;
+    height: 28.125rem;
+    border: solid  black .2rem;
+    display: flex;
+    justify-content: center;
+}
+.nameInPic{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 9.375rem 0 12.5rem 0;
+    height: 6.25rem;
+}
+.nameInPic h1{
+    font-size: 3.125rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    color: white;
+}
+.nameInPic a{
+    border: dotted  white .1rem;
+    padding: .3rem .2rem;
+    text-decoration: none;
+    text-align: center;
+    width: 9.375rem;
+    align-self: center;
+    font-size: 1.875rem;
+    color: white;
+
+}
+.gallery1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100vw;
+    margin-top: 3.125rem;
+    text-align: center;
+}
+.gallery1 img{
+    width: 28.125rem;
+    height: 25rem;
+}
+.gallery2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100vw;
+    margin-top: 1.875rem;
+    text-align: center;
+}
+.gallery2 img{
+    width: 28.125rem;
+    height: 25rem;
+}
+.caption p{
+    font-size: 1.875rem;
+}
+footer{
+    background-color: black;
+    width: 92.688rem;
+    height: 18.75rem;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: white;
+    border: solid  white .1rem;
+    padding: 1rem 2rem;
+    height: 1.25rem;
+    align-self: center;
+    text-decoration: none;
+}
