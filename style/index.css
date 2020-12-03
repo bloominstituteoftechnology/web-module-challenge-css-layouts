@@ -1,5 +1,33 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 body {
     background-color: lightgray;
-  }
+    border: solid black;
+    height:1000px;
+    weight:100%; 
+}
 
+h1{
+  margin:30px;
+})
+
+nav{
+  height:30px;
+  background-color:white;
+  width:100%;
+  padding-top:10px;
+}
+
+nav a{
+  text-decoration:none;
+  font-family: 'Chelsea Market',    cursive;
+  color:black;
+  background-color:white;
+  font-size:12px;
+  padding:12px 30px;  
+}
+.Home{border-style:ridge;}
+.About{border-style:ridge;}
+.Contact{border-style:ridge;}
+.Projects{border-style:ridge;}
