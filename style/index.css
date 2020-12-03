@@ -19,3 +19,16 @@ font: inherit;
 vertical-align: baseline;  
 }/* Add CSS styling here */
 
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+section{
+    display:flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    
+}
+
