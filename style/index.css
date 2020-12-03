@@ -18,6 +18,58 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }/* Add CSS styling here */
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
 body{
     display:flex;
@@ -29,6 +81,20 @@ section{
     display:flex;
     justify-content:space-evenly;
     align-content:space-evenly;
-    
+    flex-wrap:wrap;
+    width:70%;
+    border:3px solid black;
+    height:80vh;
 }
+
+.image{
+    background:url(https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/s150x150/126524212_203653637949509_7124540840951904409_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=Ftw7D8l-vHcAX9Slenq&tp=1&oh=3222544ab58606215494d87fd2ee163b&oe=5FF23F60);
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
 
