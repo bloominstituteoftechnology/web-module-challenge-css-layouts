@@ -21,18 +21,29 @@ justify-content: center;
 background-repeat: no-repeat;
 }
 .container {
+	border:2px solid black ;
+	width:100% ;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row wrap;
 	max-width: 100%;
-	
-	/*justify-content: space-between;
-	align-items: stretch;*/
+	justify-content:space-between ;
+	align-items: stretch;
 }
 .image {
-	width: 80px;
+	height:600px ;
+	width:80px;
+	display:flex;
+	justify-content:space-between;  
+
+	
 }
-.text {
-	width: 80px;
+ .text p{
+	 margin-top:170px ;
+	border:2px solid red;
+	display:flex;
+	justify-content:flex-end ;
+	width: 400px;
+	height:200px ;
 	text-align: center;
 }
 footer {
