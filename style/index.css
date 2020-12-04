@@ -8,6 +8,8 @@ body{
 }
 header{
      background-color:#e0e1dd;
+     padding-top:10px;
+     padding-bottom:10px;
 }
 h1{
      margin-left:20px;
@@ -27,24 +29,85 @@ nav{
 nav a{
      text-align:center;
      text-decoration:none;
+     text-shadow: 1px 1px black;
      background-color:#415a77;
      color:white;
-     padding-top: 10px;
-     height:30px;
-     width:75px;
+     padding-top: 20px;
+     height:40px;
+     width:100px;
+     border-radius: 10px;
+}
+.main-page{
+     margin:15px;
+}
+
+.info-section{
+     display:flex;
+     flex-flow:row wrap;
+     flex-shrink:0;
+     justify-content: space-evenly;
 }
 .big-pic{
      width:40vw;
      height:50vh;
-     margin:10px;
+     /* margin:10px; */
+     background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png);
+     background-position: center;
+}
+.info{
+     display:flex;
+     flex-flow:column nowrap;
+     justify-content:flex-end;
+     width:40vw;
+}
+.info p{
+     font-size:20px;
+     line-height:35px;
+     letter-spacing: 1px;
+}
+.project-button{
+     width:150px;
+     height:40px;
+     border-radius: 10px;
+     background-color:#415a77;
+     color:white;
+     text-shadow: 1px 1px black;
+}
+
+.project-container{
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:space-evenly;
+     align-content:space-around;
+     align-items:center;
+}
+
+.project{
+     width:250px;
+     height:250px;
+     margin:25px;
      background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png);
      background-position: center;
 }
 
-
 footer{
-     height:20vh;
+     height:25vh;
      display:flex;
      flex-flow: column wrap;
      align-items: center;
+     background-color:#e0e1dd;
+     /* padding-top:40px; */
+     padding-bottom: 30px;;
+     justify-content: center;
+}
+.contact-button{
+     width:200px;
+     height:60px;
+     border-radius: 10px;
+     background-color: #415a77;
+     color:white;
+     text-shadow:1px 1px black;
+}
+h3{
+     font-size:36px;
 }
