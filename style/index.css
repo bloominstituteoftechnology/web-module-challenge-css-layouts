@@ -76,22 +76,27 @@ header nav a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid black; /* temporary */
+    border: 2px solid lightgray; /* temporary */
+    border-radius: 10px;
     width: 100%;
     max-width: 1200px;
     height: 500px;
     margin: 2.5% auto;
     text-align: center;
+    background-image: url(https://picsum.photos/1200/500);
 }
 #content-top h1 {
     font-size: 3.5rem;
+    text-shadow:2px 2px #000000;
 }
 #content-top a {
     padding: 3%;
     border: 2px solid lightgray;
     border-radius: 16px; /* curve will look similar to navbar */
     color: limegreen;
+    text-shadow:2px 2px #000000;
     text-align: center; /* maintains compatibility with smaller screens */
+    background-color: rgba(0, 0, 0, 0.5);
     transition: 100ms;
 }
 #content-top a:hover {
@@ -112,7 +117,7 @@ header nav a:hover {
 }
 #content-bot img {
     border: 3px solid lightgray;
-    border-radius: 35%;
+    border-radius: 35px;
 }
 #content-bot h3 {
     border: 2px solid #1D1E23; /* a hack to prevent text from moving spots when hovering over and giving it new border */
