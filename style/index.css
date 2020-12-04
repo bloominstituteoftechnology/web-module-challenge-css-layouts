@@ -1,1 +1,124 @@
 /* Add CSS styling here */
+
+.head {
+    display:flex;
+    
+  }
+  
+  .myname {
+    display:flex;
+    width:100%;
+    justify-content:flex-end;
+    background-color:#dfc5ff;
+    color: white;
+  }
+  
+  h1 {
+    display:flex;
+    justify-content:flex-start;
+    width:45%;
+  }
+  
+  nav {
+    display:flex;
+    justify-content:flex-end;
+    width:45%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.box1 {
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+    
+
+}
+
+.box1 img {
+    width: 90%;
+    height: 300px;
+}
+
+.button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 650px;
+    font-size: 80px;
+    font-family: comfortaa;
+    color:#dfc5ff;
+    letter-spacing: 12px;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    
+    
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#dfc5ff;
+    height: 100px;
+}
+
+.button2 {
+    background:#dfc5ff;
+    border:none;
+    color: white;
+    font-size: 30px;
+    font-family: comfortaa;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    object-fit: cover; 
+   
+}
+
+.one {
+    display:flex;
+    flex-basis:33.33%;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
