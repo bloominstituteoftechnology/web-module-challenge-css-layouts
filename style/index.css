@@ -32,7 +32,7 @@ time, mark, audio, video {
 
 *{
     max-width: 100%;
-    border:1px solid black;
+    /* border:1px solid black; */
     text-decoration: none;
     box-sizing: border-box;
     
@@ -48,13 +48,13 @@ body{
 font-family: 'Righteous', cursive;
 font-family: 'Teko', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-90F1EF - Electric Blue
-FFD6E0 - Mimi Pink
-FFEF9F - Green Yellow Crayola
-C1FBA4 - Mint Green
-7BF1A8 - Light Green
-285238 - Brunswich Green
-0D0A0B - Rich Black FORGRA 39
+#90F1EF - Electric Blue
+#FFD6E0 - Mimi Pink
+#FFEF9F - Green Yellow Crayola
+#C1FBA4 - Mint Green
+#7BF1A8 - Light Green
+#285238 - Brunswich Green
+#0D0A0B - Rich Black FORGRA 39
 */
 
 header{
@@ -78,6 +78,7 @@ nav{
 }
 nav a{
     border:2px dashed black;
+    border-radius: 10px;
     font-size: 1.3rem;
     font-family: 'Righteous', cursive;
     padding:10px;
@@ -107,8 +108,6 @@ nav a{
     height:50%;
     align-self: center;
     text-align: center;
-    background-o;
-
 }
 .hero-image-container h1{
     display: flex;
@@ -119,14 +118,14 @@ nav a{
     font-size: 2.6rem;
 }
 .proButton{
+    
     width:50%;
-    font-size: 2rem;       
-    background:coral;
-    align-self: center;
+    font-size: 2rem;
+    background:#7BF1A8;
+    border-radius: 7px;
     text-align: center;
     font-weight: bolder;
     margin:2% auto;
-
 }
 .portfolio{
     display: flex;
@@ -152,5 +151,8 @@ footer{
 .footerContactMe{
     padding: 15px;
     font-size: 1rem;
-    background-color: #90F1EF;
+    background-color: #7BF1A8;
+    color:#FFEF9F;
+    border-radius: 10px;
+    border:1px solid #FFEF9F;
 }
