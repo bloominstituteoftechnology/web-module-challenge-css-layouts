@@ -17,6 +17,8 @@
     display:flex;
     justify-content:flex-start;
     width:45%;
+    
+    
   }
   
   nav {
@@ -48,7 +50,7 @@ nav a {
 
 .button {
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -72,6 +74,7 @@ h2 {
     font-family: comfortaa;
     color:#dfc5ff;
     letter-spacing: 12px;
+    padding-top: 10%;
 }
 
 .box2 {
