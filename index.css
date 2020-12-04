@@ -1,20 +1,41 @@
-header{
-  
+body{
+  display:flex;
+  flex-flow:column;
+  background-color:lightgrey;
+  width:vh;
 }
-.site-banner{
-  
+header{
+  display:flex;
+  border:1px solid black;
+  flex-flow:column;
+  }
+/* .site-banner{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+    border:1px solid black;
 }
 .site-title{
   
-}
-.banner{
   
+} */
+.banner{
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  background-color:white;
 }
 .banner h1{
-  
+  border:2px solid red;
+}
+.banner nav{
+  display:flex;
+  border:2px solid green;
+  justify-content:;/*   change this */
+  margin-left:5%;
 }
 .banner a{
-  
+  margin-bottom:10px;
 }
 .body{
   
@@ -34,4 +55,13 @@ header{
 .lower-body a{
  text-decoration:none; background:url("https://picsum.photos/");
   color:black
+}
+footer{
+  
+}
+.contact{
+  
+}
+.personal{
+  
 }
