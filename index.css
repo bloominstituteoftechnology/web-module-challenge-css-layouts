@@ -1,0 +1,84 @@
+
+html{
+    font-size:62.5%;
+    font-family:sans-serif;
+    color:black;
+   }
+   
+body {
+    background-color:gainsboro;
+    }
+h1{
+    font-size: 3rem;
+}
+.nav-section{
+width:40%;
+ }
+nav{
+display:flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content:center;
+text-align:center;
+font-size: 20px;
+color:black;
+background-color:maroon;
+border-radius: 5px;
+padding:10px;
+}
+nav a{
+    margin-right:10%;
+    text-decoration:none;
+    color:white;
+    transition:.5s;
+    border-radius: 5px;
+}
+nav a:hover{
+    color:black;
+    background: gainsboro;
+    margin-left:20 px;
+    border-radius: 5px;
+}
+   
+.container{
+    display:flex;
+    margin:0 auto;
+    width:50%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%; 
+    box-sizing:border-box;
+    background:url(https://picsum.photos/150);
+    background-position:center; 
+    height:60vh;
+  /*   width:100vw; */
+  }
+   .projects{
+    display:flex;
+    align-content: center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width:100%;
+    height:80vh;
+  }
+  .image{
+    background:url(https://picsum.photos/150);
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .text{
+    font-family:arial;
+    font-size:1.2 rem;
+    opacity:.8;
+    transition:.3s;
+  }
+  .text a{
+   text-decoration:none;
+   color:white;
+   text-shadow:1px 1x black;
+  }
+ 
