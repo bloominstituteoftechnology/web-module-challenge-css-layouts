@@ -1,1 +1,111 @@
-/* Add CSS styling here */
+/* Add CSS styling here
+
+
+
+.container .item {
+    width: 50px;
+    height: 50px;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .container {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+  }*/
+
+  body {
+      margin: 0 20px;
+  }
+
+
+  .header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+  }
+  .navbar button{
+    width: 200px;
+    height: 50px;
+    background: lightgray;
+    border: 1px solid black;
+  } 
+
+  .introBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+  }
+  .paragraphBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    padding: 0 20px;
+  }
+
+  .imageBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    margin: 20px 0;
+  }
+  .imageBox img {
+    width: 100%;
+    max-height: 400px;
+  }
+
+  .imageBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    margin: 20px 0;
+  }
+
+  .imageBar img {
+    width: 18%;
+    margin: 0 1%;
+  }
+  
+  .imageBar .textFootnote {
+    width: 18%;
+    margin: 0 1%;
+  }
+
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    background: grey;
+    height: 100px;
+  }
+  .footer button{
+    width: 200px;
+    height: 50px;
+    background: lightgray;
+    border: 1px solid black;
+  } 
