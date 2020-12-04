@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* start of davids code */
+
+header {
+	padding: 20px;
+	background-color: darkgrey;
+}
+.nav{
+	display: flex;
+    width: 100%;
+	flex-flow: wrap row;
+	align-items: center;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	color: black;
+}
+.name{
+	margin-bottom: 30px;
+}
+.break{
+	flex-basis: 100%;
+	height: 0;
+}
+.nav-buttons{
+	margin-left: 20px;
+	display: flex;
+}
+.nav .buttons{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 8px;	
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0 3px;
+	border-radius: 5px;
+}
+.nav .buttons:hover{
+	background-color: black;
+	color: white;
+}
+.buttons:first-child {
+	background-color: black;
+	color: white;
+}
+.buttons:first-child:hover{
+	background-color: white;
+	color: black;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+.container2{
+	display: flex;
+	flex-flow: nowrap row;
+}
+.david{
+	width: 300px;
+	margin: 20px 20px 20px 5px;
+	box-shadow: 0 10px 10px -10px #555;
+	border-radius: 5px;
+}
+.david-ramirez{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.personal-info{
+	padding: 150px 30px 0px 30px;
+}
+.projects-btn{
+	padding: 5px 15px;
+	text-decoration: none;
+	color: white;
+	background-color: darkgray;
+	border-radius: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.david-info{
+	margin-top: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 18px;
+	font-size: 14px;
+}
+.thumbnails{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.projects-row-1, .projects-row-2{
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	margin-bottom: 30px;
+}
+.project-card{
+	padding: 10px;
+}
+.item{
+	width:100%;
+	box-shadow: 0 10px 10px -10px #555;
+	border-radius: 5px;
+}
+.project-name{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+footer {
+	display: flex;
+	padding: 40px;
+	background-color: darkgrey;
+}
+.contact-me{
+	display: flex;
+	width:100%;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+.like{
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+}
+.likebtn{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 5px 15px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.social-media-icon a{
+text-decoration: none;
+transform: 3s;
+}
+.icon{
+	width: 50px;
+	margin: 20px;
+}
+.icon:hover{
+	width: 60px;
+	transform: rotate(10deg);
+}
