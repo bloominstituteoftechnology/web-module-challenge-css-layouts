@@ -93,7 +93,7 @@ nav a{
 footer{
      height:25vh;
      display:flex;
-     flex-flow: column wrap;
+     flex-flow: column nowrap;
      align-items: center;
      background-color:#e0e1dd;
      /* padding-top:40px; */
