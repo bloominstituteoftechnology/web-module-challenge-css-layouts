@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* *{
      border:1px solid black;
 } */
@@ -28,7 +71,8 @@ nav{
      align-items:center;
      margin-left:40px;
      margin-bottom:20px;
-     
+     margin-top:20px;
+     transition:.3s;
 }
 nav a{
      text-align:center;
@@ -40,6 +84,11 @@ nav a{
      height:40px;
      width:100px;
      border-radius: 10px;
+}
+nav a:hover{
+     background-color:#1b263b;
+     color:white;
+
 }
 .main-page{
      margin:15px;
@@ -61,8 +110,14 @@ nav a{
 .info{
      display:flex;
      flex-flow:column nowrap;
-     justify-content:flex-end;
+     justify-content:space-evenly;
      width:40vw;
+     transition:.3s;
+}
+h2{
+     font-size:24px;
+     font-weight:bold;
+     
 }
 .info p{
      font-size:20px;
@@ -77,7 +132,10 @@ nav a{
      color:white;
      text-shadow: 1px 1px black;
 }
-
+.project-button:hover{
+     background-color:#1b263b;
+     color:white;
+}
 .project-container{
      display:flex;
      flex-flow:row wrap;
@@ -90,12 +148,14 @@ nav a{
      width:250px;
      height:250px;
      margin:25px;
-     background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png);
+     /* background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png); */
+     background-image: url(https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png);
      background-position: center;
 }
 .project p{
-     margin-top:250px;
+     margin-top:253px;
      margin-left:125px;
+     font-size:20px;
 }
 
 footer{
@@ -109,12 +169,17 @@ footer{
      justify-content: center;
 }
 .contact-button{
+     margin-top:30px;
      width:200px;
      height:60px;
      border-radius: 10px;
      background-color: #415a77;
      color:white;
      text-shadow:1px 1px black;
+}
+.contact-button:hover{
+     background-color:#1b263b;
+     color:white;
 }
 h3{
      font-size:36px;
