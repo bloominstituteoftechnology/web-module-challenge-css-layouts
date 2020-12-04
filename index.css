@@ -9,7 +9,7 @@ body {
     background-color:gainsboro;
     }
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .nav-section{
 width:40%;
@@ -20,7 +20,7 @@ flex-wrap: nowrap;
 align-items: center;
 justify-content:center;
 text-align:center;
-font-size: 20px;
+font-size: 2rem;
 color:black;
 background-color:maroon;
 border-radius: 5px;
@@ -72,7 +72,7 @@ nav a:hover{
   }
   .text{
     font-family:arial;
-    font-size:1.2 rem;
+    font-size:2rem;
     opacity:.8;
     transition:.3s;
   }
@@ -81,4 +81,9 @@ nav a:hover{
    color:white;
    text-shadow:1px 1x black;
   }
- 
+ .contact{
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    align-content: center;
+ }
