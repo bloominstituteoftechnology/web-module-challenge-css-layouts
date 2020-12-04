@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 /* *{
      border:1px solid black;
 } */
 body{
     margin:0; 
+}
+p{
+     font-family: 'Vollkorn', serif;
 }
 header{
      background-color:#e0e1dd;
@@ -62,7 +66,7 @@ nav a{
 }
 .info p{
      font-size:20px;
-     line-height:35px;
+     line-height:30px;
      letter-spacing: 1px;
 }
 .project-button{
@@ -88,6 +92,10 @@ nav a{
      margin:25px;
      background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png);
      background-position: center;
+}
+.project p{
+     margin-top:250px;
+     margin-left:125px;
 }
 
 footer{
