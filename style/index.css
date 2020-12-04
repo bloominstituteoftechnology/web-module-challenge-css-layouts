@@ -1,1 +1,92 @@
-/* Add CSS styling here */
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
+}
+
+
+nav a{
+    font-size: 25px;
+     margin-top:20px;
+    margin-bottom:20px;
+    padding: 18px;
+    border-radius: 35px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+    .home{
+    color: white;
+    background: rgb(4, 4, 190);
+    }
+
+    .about{
+        color:white;
+        background-color: rgb(5, 105, 5);
+    }
+    
+    .contact{
+        color:white;
+        background-color:rgb(102, 102, 4);
+    }
+
+    .projects{
+        color:white;
+        background-color:rgb(131, 1, 1);
+    }
+
+    .mainpicture{
+        width: 45%;
+    }
+
+    .rightside{
+        width: 45%;
+    }
+
+    .middle{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .topside{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .bottomside{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .pic1{
+        width: 20%;
+    }
+    .pic2{
+        width: 20%;
+    }
+    .pic3{
+        width: 20%;
+    }
+    .pic4{
+        width: 20%;
+    }
+    .pic5{
+        width: 20%;
+    }
+    .pic6{
+        width: 20%;
+    }
+    .pic7{
+        width: 20%;
+    }
+    .pic8{
+        width: 20%;
+    }
+
+    p{
+        font-style: inherit;
+        font-size: 20px;
+        font-weight: bold;
+    }
