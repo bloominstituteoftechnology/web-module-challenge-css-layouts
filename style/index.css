@@ -1,1 +1,49 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Yeon+Sung&display=swap');
+/* font-family: 'Major Mono Display', monospace; */
+/* font-family: 'Yeon Sung', cursive; */
+
+*{
+    margin: 0;
+    padding:0;
+    max-width:100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+a{
+    text-decoration:none;
+}
+header h1 {
+    font-family: 'Yeon Sung', cursive;
+}
+
+nav{
+    display:flex;
+    justify-content:flex-end;
+    width:50%;
+}
+
+nav a{
+    border: 1px solid black;
+    padding: 3px 15px;
+    font-size:15px;
+    text-align:center;
+} 
+
+.container1{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.home{
+    background-color:black;
+    color:white;
+}
+
+.Pic{
+    background-image:url(https://i.picsum.photos/id/178/2592/1936.jpg?hmac=lW1JtHlmevwr41pQSILng2JYKGlX7fLMmptsz45JKZ0);
+}
+
+
