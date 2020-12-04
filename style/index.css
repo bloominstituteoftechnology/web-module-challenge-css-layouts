@@ -1,1 +1,100 @@
-/* Add CSS styling here */
+/* Font Styles */
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* Header Styles */
+header {
+    background-color: #000000;
+}
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #DDDDDD;
+}
+header nav a button {
+    font-family: 'Oswald', sans-serif;
+    color: #898989;
+    border: 0;
+    outline: none;
+    background-color: #000000;
+    transition: 0.35s;
+}
+header nav a:hover button {
+    color: #FFFFFF;
+}
+
+/* Content Section Styles */
+section {
+    background-color: #282727;
+}
+/* Main Body Styles*/
+.intro-body {
+    background-color: #282727;
+    padding-left: 2.5%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.main-body-img {
+    width: 50%;
+}
+.main-body-container {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main-body-container h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #DDDDDD;
+}
+.main-body-container a button{
+    font-family: 'Oswald', sans-serif;
+    color: #2F61A0;
+    border: 0;
+    outline: none;
+    border-radius: 15%;
+    background-color: #151515;
+    transition: 0.35s;
+}
+.main-body-container a:hover button {
+    color: #FFFFFF;
+}
+.main-body-container p {
+    font-family: 'Oswald', sans-serif;
+    color: #DDDDDD;
+}
+
+/* Project Gallery Styles*/
+.project-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #DDDDDD;
+}
+footer a button{
+    font-family: 'Oswald', sans-serif;
+    color: #2F61A0;
+    border: 0;
+    outline: none;
+    border-radius: 15%;
+    background-color: #151515;
+    transition: 0.35s;
+}
+footer a:hover button {
+    color: #FFFFFF;
+}
