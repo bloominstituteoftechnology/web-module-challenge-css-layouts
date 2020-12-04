@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+/*font-family: 'East Sea Dokdo', cursive;*/
+
+*{
+	font-family: 'East Sea Dokdo', cursive;
+	font-size:25px ;
+	color:darkblue;
+	
+}
+
+
+
 header {
 	text-align: center;
 }
+h1{
+	font-size:80px;
+}
 nav a{
+	text-decoration:none ;
     display:inline-block ;
     text-align: center;
     padding:1% 2% ;
@@ -9,7 +25,7 @@ nav a{
 	border: 2px solid;
 	}
 	a:hover {
-		background-color: black;
+		background-color:blue;
 		color: white;
 	}
 .main {
