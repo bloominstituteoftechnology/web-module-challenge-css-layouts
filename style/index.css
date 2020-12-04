@@ -1,1 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Teko:wght@500&family=Ubuntu&display=swap');
+
+
+*{
+    max-width: 100%;
+    border:1px solid black;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size:62.5%;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    color:#0D0A0B;
+    background: #FFD6E0;
+}
+/* Holding some different fonts:
+font-family: 'Righteous', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+90F1EF - Electric Blue
+FFD6E0 - Mimi Pink
+FFEF9F - Green Yellow Crayola
+C1FBA4 - Mint Green
+7BF1A8 - Light Green
+285238 - Brunswich Green
+0D0A0B - Rich Black FORGRA 39
+*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:100%;
+    height:100%;
+    margin-bottom: 5px;
+}
+.head-container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+nav a{
+    border:2px dashed black;
+    font-size: 1.3rem;
+    font-family: 'Righteous', cursive;
+    padding:10px;
+}
+.NamePlate{
+    display: flex;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+}
+.hero-image-container{
+    display:flex;
+    width:100%;
+    height: 60vh;
+    background-image: url("https://picsum.photos/1000/800?random=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    justify-content: center;
+}
+.hero-text-body{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:50%;
+    align-self: center;
+    text-align: center;
+    background-o;
+
+}
+.hero-image-container h1{
+    display: flex;
+    font-family: 'Righteous', cursive;
+    width:50%;
+    align-self: center;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.proButton{
+    width:50%;
+    font-size: 2rem;       
+    background:coral;
+    align-self: center;
+    text-align: center;
+    font-weight: bolder;
+    margin:2% auto;
+
+}
+.portfolio{
+    display: flex;
+    width: 100%;
+    height:60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.portfolio div p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    /* text-shadow: 0px 0px 1px 1px; */
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footerContactMe{
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #90F1EF;
+}
