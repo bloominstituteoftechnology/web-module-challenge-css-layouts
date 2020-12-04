@@ -32,7 +32,7 @@ h2 {
 }
 .imgArea {
   display: flex;
-  border: 1px solid black;
+
   justify-content: space-around;
   margin: 0px;
 }
@@ -43,7 +43,6 @@ h2 {
 }
 
 footer {
-  border: 1px solid black;
   padding: 4rem;
   text-align: center;
   background-color: gray;
@@ -58,8 +57,7 @@ footer {
   margin-right: auto;
 }
 .sideCom {
-  display: inline;
-  text-align: right;
-  color: red;
-  border: 1px solid black;
+  color: gray;
+
+  padding: 250px 10px 0px 10px;
 }
