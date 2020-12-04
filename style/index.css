@@ -1,1 +1,301 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: white;
+  color: green;
+}
+
+header {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  width: 50%;
+  border: 2px solid red;
+}
+
+nav a {
+  border: 3px solid blue;
+  margin: 1rem 0;
+  height: 2rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  background-color: royalblue;
+  transition: 0.5s;
+}
+
+.name {
+  width: 100%;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+.name h1 {
+  border: 2px solid blue;
+  width: 50%;
+  padding-left: 3rem;
+  font-size: 2rem;
+  padding-top: 0.8rem;
+}
+
+/*Everything above is the header*/
+
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+
+.bioImage {
+  width: 40%;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+}
+
+.bioImage img {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid blue;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.bio h2 {
+  font-size: 2rem;
+}
+
+.bio p {
+  display: flex;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.bio a {
+  text-decoration: none;
+  border: 2px solid springgreen;
+  margin: 0.7rem 0;
+  height: 2rem;
+  display: flex;
+
+  align-items: center;
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+
+.bio a:hover {
+  background-color: royalblue;
+  transition: 0.5s;
+}
+
+.secondSection {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  border: 2px solid blue;
+  padding: 1rem;
+}
+
+.secondSection div {
+  margin: 2rem;
+  width: 15%;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.secondSection div img {
+  width: 100%;
+}
+
+footer {
+  border: 2px solid green;
+  background-color: grey;
+  display: flex;
+  height: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  border: 2px solid green;
+  width: 25%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  border: 2px solid springgreen;
+  margin-top: 1rem 0;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  background-color: #145d83;
+}
+
+footer a:hover {
+  background-color: royalblue;
+  transition: 0.5s;
+}
