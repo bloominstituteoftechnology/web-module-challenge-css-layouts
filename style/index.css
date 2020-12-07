@@ -111,6 +111,7 @@ header nav a:hover {
     justify-content: space-between;
     align-items: space-between;
     align-content: space-between;
+    overflow: hidden;
     width: 100%;
     max-width: 1200px;
     height: 500px;
@@ -129,6 +130,14 @@ header nav a:hover {
 }
 
 /* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2% 0;
+    background-color: #2D2E32;
+}
 footer a {
     font-size: 1.5rem;
     color: lightgray;
