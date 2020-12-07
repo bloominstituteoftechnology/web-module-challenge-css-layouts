@@ -80,7 +80,8 @@ header nav a:hover {
     border-radius: 10px;
     width: 100%;
     max-width: 1200px;
-    height: 500px; /* px required due to img size */
+    height: 40vh;
+    max-height: 500px; /* don't want img to repeat */
     margin: 2.5% auto;
     text-align: center;
     background-image: url(https://picsum.photos/1200/500);
@@ -145,6 +146,7 @@ footer a {
     border: 3px solid lightgray;
     border-radius: 50px;
     padding: 3%;
+    margin: 1.5% 0;
     background-color: slategray;
 }
 footer a:hover {
@@ -195,8 +197,7 @@ footer a:hover {
     }
 
     footer a {
-        padding: 3%;
-        margin: 3% 0;
         font-size: 1rem;
+        margin: 3% 0;
     }
 }
