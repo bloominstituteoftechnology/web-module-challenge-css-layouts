@@ -71,7 +71,7 @@ header nav a:hover {
 }
 
 /* Top Section */
-#content-top {
+.content-top {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -80,16 +80,16 @@ header nav a:hover {
     border-radius: 10px;
     width: 100%;
     max-width: 1200px;
-    height: 500px;
+    height: 500px; /* px required due to img size */
     margin: 2.5% auto;
     text-align: center;
     background-image: url(https://picsum.photos/1200/500);
 }
-#content-top h1 {
+.content-top h1 {
     font-size: 3.5rem;
     text-shadow:2px 2px #000000;
 }
-#content-top a {
+.content-top a {
     padding: 3%;
     border: 2px solid lightgray;
     border-radius: 16px; /* curve will look similar to navbar */
@@ -99,32 +99,32 @@ header nav a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     transition: 100ms;
 }
-#content-top a:hover {
+.content-top a:hover {
     background-color: slategray;
     color: whitesmoke;
 }
 
 /* Bottom Section */
-#content-bot {
+.content-bot {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: space-between;
     align-content: space-between;
-    overflow: hidden;
     width: 100%;
     max-width: 1200px;
-    height: 500px;
 }
-#content-bot img {
+.content-bot img {
     border: 3px solid lightgray;
     border-radius: 35px;
+    width: 20vh;
+    max-width: 1200px;
+    margin: 5px; /* quick-fix */
 }
-#content-bot h3 {
+.content-bot h3 {
     border: 2px solid #1D1E23; /* a hack to prevent text from moving spots when hovering over and giving it new border */
     text-align: center;
 }
-#content-bot h3:hover {
+.content-bot h3:hover {
     border: 2px dotted lightgray;
     border-radius: 10px;
 }
@@ -135,7 +135,8 @@ footer {
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    padding: 2% 0;
+    padding: 1% 0;
+    margin-top: 2%;
     background-color: #2D2E32;
 }
 footer a {
@@ -143,9 +144,59 @@ footer a {
     color: lightgray;
     border: 3px solid lightgray;
     border-radius: 50px;
-    padding: 15px;
+    padding: 3%;
     background-color: slategray;
 }
 footer a:hover {
     background-color: #1D1E23;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media Query Breakpoints */
+/* 1920x1080 */
+@media (max-width:1920px){
+    /* looks great */
+}
+/* 1920x1080 */
+@media (max-width:1366px){
+    /* looks great */
+    /* resolutions between this and the one below would be the ultimate scalability test, though */
+}
+/* 360x640 */
+@media (max-width:360px){
+    header {
+        flex-direction: column;
+    }
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        line-height: 2.33; /* sleeker */
+        margin-top: 1.75%; /* sleeker */
+    }
+    header h1 {
+        font-size: 2rem; /* sleeker */
+    }
+
+    .content-top {
+        height: 25vh;
+    }
+
+    .content-bot {
+        justify-content: space-evenly;
+        margin: 5% 0;
+        height: 82.5vh; /* sleeker */
+    }
+    .content-bot img {
+        width: 20vh;
+    }
+
+    footer a {
+        padding: 3%;
+        margin: 3% 0;
+        font-size: 1rem;
+    }
 }
