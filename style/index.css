@@ -27,6 +27,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Oxygen', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 html{
@@ -48,6 +50,7 @@ a{
 }
 
 /* Code Begins*/
+/*Header and Navigation*/
 header{
 	background-color:#b4fae3;
 }
@@ -82,7 +85,7 @@ nav a{
 nav a:hover{
 	background-color: #03fcdb;
 }
-
+/*Bio and main project*/
 .bio{
 	display:flex;
 	height: 400px;
@@ -107,13 +110,14 @@ nav a:hover{
 	justify-content:flex-end;
 	align-items:flex-start;
 }
-
 button{
 	display:inline-block;
 	margin: 10px 0;
 	width:200px;
 	padding: 10px;
 }
+
+/*Image Gallery*/
 .gallery{
 	display:flex;
 	flex-direction:column;
@@ -142,7 +146,7 @@ img{
 	height:200px;
 	width:200px;
 }
-
+/*Footer*/
 footer{
 	background-color:#b4fae3;
 	height: 110px;
@@ -156,4 +160,27 @@ footer{
 	font-size: 2rem;
 	display:flex;
 	flex-direction:column;
+}
+
+/*Media Queries*/
+
+@media (max-width:800px){
+	.row1{
+		height: 40%;
+		width: 95%;
+		padding: 5px;
+	}
+	.row2{
+		height: 40%;
+		width: 95%;
+		padding: 5px;
+	}
+	img{
+		width:80%;
+		height: 60%;
+	}
+}
+
+@media (max-width:500px){
+
 }
