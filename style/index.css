@@ -28,10 +28,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Oxygen', sans-serif;
-	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
+* {
+	max-width: 100%;
+}
 html{
 	font-size:62.5%;
 }
@@ -165,20 +167,23 @@ footer{
 
 /*Media Queries*/
 
-@media (max-width:800px){
+@media (max-width:799px){
+	.gallery{
+		max-width: 95%;
+	}
 	.row1{
 		height: 40%;
-		width: 95%;
+		width: 90%;
 		padding: 5px;
 	}
 	.row2{
 		height: 40%;
-		width: 95%;
+		width: 90%;
 		padding: 5px;
 	}
 	img{
-		width:80%;
-		height: 60%;
+		width:70%;
+		height: 50%;
 	}
 }
 
