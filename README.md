@@ -22,13 +22,13 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 ### Task 1: Set up Project
 
-New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
+New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from Thursday:
 
 - [ ] `cd` into your personal portfolio folder
 - [ ] Create a new branch from `<firstName-lastName>`:
 
 ```bash
-git checkout -b <firstName-lastName-day2> <firstName-lastName>.
+git checkout -b <firstName-lastName-day2>
 ```
 
 - [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
