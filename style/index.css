@@ -16,7 +16,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -44,56 +44,72 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* *{
+/* end of CSS Reset */
+
+/* Universal selector */
+*{
      border:1px solid black;
-} */
-body{
-    margin:0; 
+     max-width:100%;
 }
-p{
+
+/* General styles */
+html{
+     font-size:62.5%;
+}
+body{
+     margin:0; 
      font-family: 'Vollkorn', serif;
 }
+
+/* Header Bar */
 header{
      background-color:#e0e1dd;
-     padding-top:10px;
-     padding-bottom:10px;
+     padding-top:2%;
+     padding-bottom:1%;
 }
 h1{
-     margin-left:20px;
-     font-size:60px;
+     margin-left:2%;
+     font-size:6rem;
      color:#00171f;
      font-family: 'Yeseva One', cursive;
 }
+/* Navigation Bar */
 nav{
      display: flex;
      flex-flow: row nowrap;
      justify-content:flex-start;
      align-items:center;
-     margin-left:40px;
-     margin-bottom:20px;
-     margin-top:20px;
-     transition:.3s;
+     margin-left:4%;
+     margin-bottom:2%;
+     margin-top:2%;
+     
 }
 nav a{
+     font-size:1.9rem;
      text-align:center;
      text-decoration:none;
      text-shadow: 1px 1px black;
      background-color:#415a77;
      color:white;
-     padding-top: 20px;
-     height:40px;
-     width:100px;
+     padding-top: 1.1%;
+     height:35px;
+     width:9%;
      border-radius: 10px;
+     transition:.3s;
 }
 nav a:hover{
      background-color:#1b263b;
      color:white;
+     width:10%;
 
 }
+
+/* Main Content of Page */
 .main-page{
-     margin:15px;
+     margin:2%;
 }
 
+/* Info section containing big picture and about section */
 .info-section{
      display:flex;
      flex-flow:row wrap;
@@ -102,29 +118,33 @@ nav a:hover{
 }
 .big-pic{
      width:40vw;
-     height:50vh;
-     /* margin:10px; */
-     background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png);
+     height:30vw;
      background-position: center;
+}
+.big-pic img{
+     width:100%;
+     height:30vw;
 }
 .info{
      display:flex;
      flex-flow:column nowrap;
      justify-content:space-evenly;
      width:40vw;
+     
      transition:.3s;
 }
 h2{
-     font-size:24px;
+     font-size:2.4rem;
      font-weight:bold;
      
 }
 .info p{
-     font-size:20px;
-     line-height:30px;
+     font-size:2rem;
+     line-height:3rem;
      letter-spacing: 1px;
 }
 .project-button{
+     font-size:1.7rem;
      width:150px;
      height:40px;
      border-radius: 10px;
@@ -136,6 +156,9 @@ h2{
      background-color:#1b263b;
      color:white;
 }
+/* END of info section containing big pic */
+
+/* start of project section containing list of projects */
 .project-container{
      display:flex;
      flex-flow:row wrap;
@@ -145,19 +168,25 @@ h2{
 }
 
 .project{
-     width:250px;
-     height:250px;
-     margin:25px;
-     /* background-image: url(https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png); */
-     background-image: url(https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png);
-     background-position: center;
+     width:20vw;
+     height:20vw;
+     margin:2% 1%;
+     background-position: center; 
 }
-.project p{
-     margin-top:253px;
-     margin-left:125px;
-     font-size:20px;
+.project img{
+     height:20vw;
+     width:20vw;
 }
 
+/* project titles */
+.project p{
+     /* margin-top:253px; */
+     text-align:center;
+     font-size:2rem;
+}
+
+
+/* footer section */
 footer{
      height:25vh;
      display:flex;
@@ -165,12 +194,12 @@ footer{
      align-items: center;
      background-color:#e0e1dd;
      /* padding-top:40px; */
-     padding-bottom: 30px;;
+     padding-bottom: 3%;
      justify-content: center;
 }
 .contact-button{
-     margin-top:30px;
-     width:200px;
+     margin-top:3%;
+     width:20%;
      height:60px;
      border-radius: 10px;
      background-color: #415a77;
@@ -182,5 +211,11 @@ footer{
      color:white;
 }
 h3{
-     font-size:36px;
+     font-size:3.6rem;
+}
+
+@media(max-width:800px){
+     nav a{
+          
+     }
 }
