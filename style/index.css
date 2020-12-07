@@ -62,19 +62,20 @@ header{
     flex-direction: column;
     flex-wrap: nowrap;
     width:100%;
-    height:100%;
     margin-bottom: 5px;
 }
 .head-container{
     display: flex;
     width:100%;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    border:3px solid yellow;   
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 55%;
+    width: 60%;
+    border:5px solid green;
 }
 nav a{
     border:2px dashed black;
@@ -86,11 +87,12 @@ nav a{
 }
 .NamePlate{
     display: flex;
+    width:30%;
     font-size: 2.7rem;
-    text-transform: capitalize;
     line-height: 1.5;
     text-align: center;
-    padding-left: 1%;
+    padding-left: 5%;
+    border:3px solid red;
 }
 .hero-image-container{
     display:flex;
@@ -100,34 +102,38 @@ nav a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    align-self: center;
     justify-content: center;
+
 }
 .hero-text-body{
     display: flex;
     flex-direction: column;
     width:50%;
-    height:50%;
+    color:rgb(31, 26, 26);
     align-self: center;
+    align-items: center;
     text-align: center;
+
 }
 .hero-image-container h1{
     display: flex;
     font-family: 'Righteous', cursive;
-    width:25%;
-    align-self: center;
-    text-align: center;
-    font-size: 2.6rem;
+    width:50%;
+    justify-content: center;
+    text-shadow:1px 2px white;
+    font-size: 2.5rem;
 }
 .proButton{
-    width:45%;
-    font-size: 2rem;
+    width:38%;
+    font-size: 1.6rem;
     letter-spacing: 3px;
     background:#7BF1A8;
-    border-radius: 7px;
+    border-radius: 12px;
     text-align: center;
     font-weight: bolder;
-    margin:2% auto;
+    padding:1% 0%;
+    margin: 4% auto;
+
 }
 .portfolio{
     display: flex;
@@ -135,7 +141,7 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin:5% auto;
-    padding: 1% 10%;
+    padding: 1% 5%;
 
 }
 .portfolio div{
