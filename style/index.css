@@ -80,8 +80,7 @@ header nav a:hover {
     border-radius: 10px;
     width: 100%;
     max-width: 1200px;
-    height: 40vh;
-    max-height: 500px; /* don't want img to repeat */
+    height: 500px; /* px required due to img size */
     margin: 2.5% auto;
     text-align: center;
     background-image: url(https://picsum.photos/1200/500);
