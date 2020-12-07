@@ -221,7 +221,7 @@ table {
   }
   
   footer {
-    margin: 50px 0;
+    margin: 0;
     text-align: center;
   }
   
@@ -465,4 +465,123 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+
+
+/*responsive design*/
+
+@media screen and (max-width: 800px){
+  #container {
+    width: 100%;
+  }
+
+  #head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  /*
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  */
+
+  .banner {
+    width: 100%;
+  }
+
+  .banner p{
+    font-size: 130%;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #projects img{
+    width: 50%;
+    padding: 4%;
+  }
+
+  .learnmore {
+    font-size: 130%;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  #container {
+    width: 100%;
+  }
+
+  #head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+
+  .navMenu a{
+    font-size: 130%;
+  }
+
+
+  .banner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .banner img{
+    width: 100%;
+    padding: 5%;
+  }
+
+  .banner p{
+    font-size: 130%;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #projects img{
+    width: 100%;
+    padding: 8%;
+  }
+
+  .learnmore {
+    font-size: 130%;
+  }
+
 }
