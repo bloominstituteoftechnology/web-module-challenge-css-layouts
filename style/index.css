@@ -188,7 +188,7 @@ h2{
 
 /* footer section */
 footer{
-     height:25vh;
+     height:24vh;
      display:flex;
      flex-flow: column nowrap;
      align-items: center;
