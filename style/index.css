@@ -1,6 +1,7 @@
 /* Add CSS styling here */
 body {
-  border: 2px solid green;
+  padding: 0 5%;
+  max-width: 100%;
 }
 h1 {
   color: lightseagreen;
@@ -20,6 +21,7 @@ nav a {
 section {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
 }
 h2 {
   font-size: 3rem;
@@ -29,6 +31,9 @@ h2 {
 .info {
   text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imgArea {
   display: flex;
@@ -36,10 +41,12 @@ h2 {
   justify-content: space-around;
   margin: 0px;
 }
+.imgArea .singleImage {
+  padding: 2% 2% 2% 0;
+}
 
 .longPic {
-  object-fit: cover;
-  width: 70%;
+  width: 60%;
 }
 
 footer {
@@ -60,4 +67,32 @@ footer {
   color: gray;
 
   padding: 250px 10px 0px 10px;
+}
+
+/*Tablet*/
+
+@media (max-width: 800px) {
+  section h2 {
+    width: 100%;
+  }
+  section .info {
+    width: 100%;
+  }
+
+  .makeSmall {
+    height: 6rem;
+    object-fit: cover;
+  }
+  .imgArea {
+    height: 50%;
+  }
+  .imageArea {
+  }
+}
+/*Phone*/
+
+@media (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+  }
 }
