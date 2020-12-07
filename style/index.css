@@ -22,7 +22,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
+	border: 1px solid black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -182,5 +183,52 @@ footer{
 }
 
 @media (max-width:500px){
-
+	/*Header Section*/
+	.header{
+		margin-left: 0px;
+		height: 200px;
+		text-align: center;
+		justify-items: center;
+		align-content: center;
+	}
+	
+	.header nav{
+		margin-left: 0;
+		flex-direction: column;
+		justify-content: column;
+		font-size: 2rem;
+		padding: 0;
+	}
+	/*Bio Section*/
+	.bio{
+		flex-direction: column;
+		align-items: center;
+		height: 60vh;
+	}
+	.bio div{
+		width: 95%;
+	}
+	.main_img{
+		height: 50%;
+	}
+	.bio_info{
+		justify-content: center;
+		align-items: center;
+		padding: 1% 0;
+	}
+	.bio_info h2{
+		font-size: 3rem;
+	}
+	/*Gallery*/
+	.gallery{
+		flex-wrap: wrap;
+	}
+	.row1{
+		flex-flow:row wrap;
+		padding: 0;
+	}
+	.row2{
+		flex-flow:row wrap;
+		padding: 0;
+	}
 }
