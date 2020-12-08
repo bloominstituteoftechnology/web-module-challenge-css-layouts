@@ -41,7 +41,7 @@ h2 {
   justify-content: space-around;
   margin: 0px;
 }
-.imgArea .singleImage {
+.imgArea img {
   padding: 2% 2% 2% 0;
 }
 
@@ -86,13 +86,26 @@ footer {
   .imgArea {
     height: 50%;
   }
-  .imageArea {
-  }
 }
 /*Phone*/
 
 @media (max-width: 500px) {
   * {
     box-sizing: border-box;
+  }
+  .imgArea {
+    flex-flow: row wrap;
+  }
+  .imgArea .oneImg {
+    height: 20%;
+    width: 20%;
+  }
+  div.singleImage {
+    border: 1px solid black;
+    height: -20%;
+  }
+  .sideCom {
+    border: 1px solid blue;
+    padding: 0 0 10% 0;
   }
 }
