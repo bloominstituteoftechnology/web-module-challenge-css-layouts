@@ -1,30 +1,194 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+    box-sizing:border-box; /*this rule says, if I give an element a width I want it to respect that width - if I add padding or a border, apply it within the width given not in addition to it*/
+    border:1px solid grey;
+    max-width:100%; /*this says you can never be bigger than your parent*/
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    color:#4F4F4F;
+}
+
+.page-container {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 12px aqua solid;
+    padding: 5px;
+    border: green;
+}
+
+#index-header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+    padding-top: 50px;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
 nav {
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#transition {
+nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    transition: .5s;
+    }
+
+nav a:hover {
+    font-family: 'Roboto', sans-serif;
+    color: aqua;
+}
+
+#intro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 40px;
+}
+
+.midpage-image {
     background: url("https://i1.wp.com/adrianamjgarcia.com/wp-content/uploads/2017/04/AdrianaMGarcia_UnCamino_MuralDetail_sm.jpg?fit=2000%2C672&ssl=1​");
-    height: 400px;
-    width: 900px;
-    padding: 10px;
+    height: 320px;
+    width: 100%;
     background-position: center;
     background-size: 100%; 
     background-repeat: no-repeat;
     background-color: black;
   }
+  
 p {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+    font-size:14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#projects {
+    display: flex;
+}
+
+#project-sample-container {
+    display: flex;
+}
+
+.project-sample {
+
+}
+
+.project-sample-text {
+
+}
+
+
+/*Media Queries*/
+/*Tablet View*/
+@media (max-width:800px){
+   nav a{
+       width:15%;
+   }
+   /*header section styles*/
+   .image img{
+       width:80%;
+   }
+   /*camp section styles*/
+   .camp div{
+    width:45%;
+   }
+   /*background image section*/
+   .bg-img{
+       height:60vh;
+       background-position:center;
+   }
+}
+
+/*Phone View*/
+@media (max-width:500px){
+  nav{
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+  }
+  nav a{
+      width:50%;
+      margin:2% 0;
+  }
+  .blue{
+      order:-1;
+  }
+  /*header styles*/
+  header{
+      flex-wrap:wrap;
+  }
+  .image{
+      width:80%;
+  }
+  .title{
+      width:80%;
+      margin-top:4%;
+  }
+  .title div{
+      width:100%;
+  }
+  /*camp section styles*/
+  .camp div{
+      width:80%;
+  }
+  .camp div img{
+      width:60%;
+  }
+  /*bg img section*/
+  .bg-img{
+      height:40vh;
+      /* display:none; */
+  }
 }
