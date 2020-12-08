@@ -94,6 +94,7 @@ a {
 
 }
 .text{
+    
     display:flex;
     align-items: center;
     color:white;
@@ -106,7 +107,8 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    border: white solid;
+    padding:10px;
 }
 
 .text a{
