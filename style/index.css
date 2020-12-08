@@ -8,9 +8,10 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     margin-top:20px;
     margin-bottom:20px;
-    margin-right: 660px;
+    margin-right: 60%;
     padding: 18px;
     font-size: 30px;
+    text-align: center;
 }
 
 nav a{
@@ -49,6 +50,10 @@ nav a{
 
     .rightside{
         width: 45%;
+    }
+    .footer{
+        background-color: moccasin;
+        color: black;
     }
 
     .middle{
@@ -98,4 +103,59 @@ nav a{
         font-style: inherit;
         font-size: 20px;
         font-weight: bold;
+    }
+
+    footer{
+        background-color: cornflowerblue;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+    .button{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* Media Queries */
+
+    /* Tablet View */
+    @media(max-width:800px){
+        h2{
+            margin-right:33%;
+            text-align: center;
+        }
+    }
+
+    /* Phone View */
+
+    @media(max-width:500px){
+        nav{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        nav a{
+            width: 30%;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            margin-right: 22%;
+            margin-left: 22%;
+            font-size: 25px;
+            text-align: center;
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .mainpicture{
+            width: 80%;
+        }
+        .rightside{
+            width: 80%;
+        }
     }
