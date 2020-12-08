@@ -139,3 +139,12 @@ nav a:hover{
     text-align: center;
     margin-top: 10px;
  }
+ @media (max-width:500px){
+  nav{
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+
+      
+  }
+}
