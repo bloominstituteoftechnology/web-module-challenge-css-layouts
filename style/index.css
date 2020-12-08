@@ -45,13 +45,20 @@ header{
     background-attachment: fixed;
     align-items: center;
 }
+ 
 
 h2{
     display:flex;
     justify-content: center;
-    text-align: center;
-    
+    align-content: center;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+
+
 .button{
     display:flex;
     align-items: center;
@@ -93,6 +100,7 @@ a {
     position: relative;
 
 }
+
 .text{
     
     display:flex;
@@ -134,4 +142,14 @@ footer{
     font-weight: lighter;
     text-align: center;
     background-color:silver;
+}
+
+
+
+
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
