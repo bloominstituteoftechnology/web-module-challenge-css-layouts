@@ -3,10 +3,19 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 660px;
+    padding: 18px;
+    font-size: 30px;
+}
 
 nav a{
     font-size: 25px;
-     margin-top:20px;
+    margin-top:20px;
     margin-bottom:20px;
     padding: 18px;
     border-radius: 35px;
@@ -16,22 +25,22 @@ nav a{
 
     .home{
     color: white;
-    background: rgb(4, 4, 190);
+    background-color: midnightblue;
     }
 
     .about{
         color:white;
-        background-color: rgb(5, 105, 5);
+        background-color: darkgoldenrod;
     }
     
     .contact{
         color:white;
-        background-color:rgb(102, 102, 4);
+        background-color: darkcyan;
     }
 
     .projects{
         color:white;
-        background-color:rgb(131, 1, 1);
+        background-color: gold;
     }
 
     .mainpicture{
