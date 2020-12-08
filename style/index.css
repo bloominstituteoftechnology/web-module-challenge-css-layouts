@@ -1,30 +1,78 @@
 /* Add CSS styling here */
 
-.head {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
     display:flex;
-    
+
   }
   
-  .myname {
+.myname {
     display:flex;
-    width:100%;
-    justify-content:flex-end;
+    width: 100%;
     background-color:#dfc5ff;
     color: white;
+    padding: 2%;
   }
   
-  h1 {
+.myname h1 {
     display:flex;
-    justify-content:flex-start;
-    width:45%;
-    
-    
+    justify-content:center;
+    width:30%;
+    font-size: 3rem;
   }
   
-  nav {
+nav {
     display:flex;
-    justify-content:flex-end;
-    width:45%;
+    width:70%;
     justify-content:space-evenly;
     align-items: center;
 }
@@ -32,68 +80,57 @@
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: black;
+    transition: 1s;
+    font-size: 1.5rem;
 }
 
 .box1 {
     display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding-top:20px;
-    
-
+    height: 30vh;
+    background: url("https://giffiles.alphacoders.com/371/3712.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing:content-box;
+    margin-top: 2%;
 }
 
-.box1 img {
-    width: 90%;
-    height: 400px;
-}
-
-.button {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+.box1 button{
     color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
+    font-size: 1rem;
     border-radius: 5px;
+    cursor: pointer;
+    background-color: #555;
+    padding: 1vh;
+    margin:2%;
 }
-
-h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding-bottom: 650px;
-    font-size: 80px;
-    font-family: comfortaa;
+.box1 button:focus{
+    outline:none;
+}
+.box1 h2{
+    font-size:7vh;
     color:#dfc5ff;
-    letter-spacing: 12px;
-    padding-top: 10%;
+    letter-spacing: 2px;
+    font-family: comfortaa;
+    margin: 2%;
 }
-
-.box2 {
+section.box2 {
     display: flex;
     flex-wrap:wrap;
+    width:100%;
     justify-content: space-evenly;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-    
-    
-    
+    margin-top:5%;
+    margin-bottom:5%;      
 }
-
-h3 {
-    text-align: center;
-}
-
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +138,7 @@ h3 {
     height: 100px;
 }
 
-.button2 {
+footer button {
     background:#dfc5ff;
     border:none;
     color: white;
@@ -109,19 +146,95 @@ h3 {
     font-family: comfortaa;
 }
 
-img {
-    float: left;
+footer button:hover {
+    cursor: pointer;
+    color: black;
+    transition: 1s;
+}
+.one img {
     width: 300px;
     height: 200px;
-    object-fit: cover; 
-   
 }
-
 .one {
     display:flex;
     flex-basis:33.33%;
     flex-direction: column;
     align-items: center;
-    
-    
+    margin-top: 2%;
 }
+.one h3{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: Georgia;
+}
+
+.one h3:hover {
+    font-size:1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.one h3 button {
+    color:black;
+    border: none;
+    font-size: 1rem;
+    background-color:white;
+}
+
+.one h3 button:hover {
+    background: lavender;
+    transition:0.2s;
+    font-size: 1.2rem;
+    color: honeydew;
+}
+
+@media (max-width:800px){
+    header .myname {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .myname nav {
+        flex-direction: column;
+    }
+
+    .one {
+        display:flex;
+        flex-basis:50%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+}
+
+@media (max-width:500px){
+    header .myname {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .myname nav {
+        flex-direction: column;
+    }
+
+    header .myname h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .one {
+        display:flex;
+        flex-basis:100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+}
+
