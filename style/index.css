@@ -1,18 +1,30 @@
 * {
+    width: 100%;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {  
-    margin: 20px 10px;  
+    width: 96%;
+    margin: 20px 2%;  
     display: flex;
     justify-content: space-between;
 }
 
+.top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .top-container img {
-    width: 900px;
+    
+    width: 800px;
     height: 400px;
-    margin: 20px 30px;
+    margin: 0 10%;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .topSec {
@@ -34,12 +46,19 @@ header {
     
 }
 
-.centered {
+.centered{ 
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    bottom: 50%;
+    line-height: 2;
+    
 }
+
+h1{
+    font-size: 30px;
+}
+
+
 
 .first-mid {
     display: flex;
@@ -61,8 +80,10 @@ header {
 }
 
 button {
+    width: 20vw;
     font-size: 15px;
     padding: 5px;
+    background: white;
 }
 
 footer {
@@ -70,5 +91,25 @@ footer {
     background-color: lightgray;
     justify-content: center;
     padding: 50px;
+}
 
+.center-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 800px)/*anything under 800px will inherit*/ {   
+    .top-container img {
+        margin: 0;
+    }
+    
+    button {
+        width: 20vw;
+    }
+}/*closing media bracket*/
+
+@media(max-width: 500px) {
+    button {
+        width: 60vw;
+    }
 }
