@@ -1,1 +1,68 @@
 /* Add CSS styling here */
+*{
+    border: 1px solid:black
+}
+
+.container-header{
+    display:flex;
+   justify-content: center;
+   font-family: 'Langar',
+   cursive;
+   ;
+}
+h1{
+    text-align: center;
+    font-family: 'lanar';
+    color:purple
+}
+.main-img img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+img{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+display:flex;
+justify-content: center;
+/* border: 1px solid:black; */
+margin: 20px;
+border-radius: 40px;
+background-color: yellow;
+}
+nav a {
+    margin:10px;
+    border: 1px;
+    text-decoration: none;
+    background-color:pink;
+    border-radius: 40px;
+} 
+/* .img-container img{ */
+    /* display: flex; */
+   /* justify-content:space-between; */
+    
+/* } */
+.second-container{
+    display:flex;
+    justify-content: center;
+}
+.about-me {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+p{
+    float: right;
+    font-family: cursive;
+    color:
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color:violet;
+    background-color: red;
+    border-radius:25%;
+    
+}
