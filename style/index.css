@@ -1,1 +1,41 @@
 /* Add CSS styling here */
+header{
+    display:flex;
+    background:teal;
+    flex-direction: column;
+    padding-left:50px;
+    margin-bottom:10px;
+  
+}
+
+h1{
+    font-family:Roboto;
+    text-transform:uppercase;
+}
+
+nav{
+    display:flex;
+flex:wrap;
+padding-bottom:20px;
+}
+
+a.navitem {
+    border:1px solid teal;
+    padding:10px;
+    background:white;
+    color:teal;
+    text-decoration:none;
+}
+
+a.navitem:hover {
+    background:black;
+    color:white;
+}
+
+a.current{
+    border:1px solid teal;
+    padding:10px;
+    background:black;
+    color:white;
+    text-decoration:underline;
+}
