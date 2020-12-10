@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* RESET IS ABOVE */
+
+/* BODY AND HTML STYLING */
+html {
+    font-size:62.5%;
+}
+
+body {
+    margin:0 20rem;
+    background-color:#4d5a61;
+    background-image: url(assets/flourdough.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* HEADER STYLING BELOW */
+
+
+header{
+    margin-bottom:5rem
+}
+
+.headerNav {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:5rem;
+}
+.headingName {
+    color:white;
+}
+
+.navBarTop {
+    display:flex;
+    margin-top: 2rem;
+}
+
+.navBarTop li {
+    list-style-type: none;
+}
+.navBarTop a {
+    color:#b5d6e6;
+    background:#2f5161;
+}
+
+.headerImageFlexContainer {
+    display:flex;
+}
+
+.headerImage {
+    /* display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; */
+    background-color: #4d5a61;
+    padding:4rem 0;
+    margin:0 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6); 
+    box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6);;
+}
+
+.headerImage p {
+    text-align:center;
+    color:#6ebce0;
+    font-size:2rem;
+    margin:5rem 10%;
+}
+
+p.headP2 {
+    margin:0 20%;
+}
+
+header h1 {
+    font-size:6rem;
+}
+
+header nav a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    border:solid black 1px;
+    padding:0 3rem;
+    transition: .5s;
+
+}
+
+header li a:hover{
+    background-color:white;
+    opacity:.5;
+    color: #4d5a61;
+    margin:0 1rem;
+}
+header li:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition:.5s;
+  }
+
+/* MAIN BODY STYLING BELOW */
+
+.caption {
+    display:block;
+    text-align:center;
+}
+
+.projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 20rem;
+}
+
+.projects img {
+    margin: 0 3rem;
+}
+
+.projects a {
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+/* FOOTER STYLING BELOW */
+
+footer {
+    text-align:center;
+    margin-top:5rem;
+}
+
+footer nav a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    border:solid black 1px;
+    padding:0 3rem;
+}
+
+.navBarBottom {
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.navBarBottom a {
+    color:#b5d6e6;
+    background:#2f5161;
+}
