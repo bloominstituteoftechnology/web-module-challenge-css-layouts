@@ -1,13 +1,12 @@
 /* Add CSS styling here */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html{
     font-size:20px;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color:cyan;
+    font-family: 'arial', sans-serif;
+    background-color: #00CED1;
 }
 
 
@@ -17,15 +16,15 @@ h1{
     justify-content: center;
     font-size:60px;
     font-weight:bold;
-    font-family: 'Roboto', sans-serif;
-    background:silver;
+    font-family: 'arial', sans-serif;
+    background:#00ced1;
 }
 nav{
     display:flex;
     align-items: center;
     justify-content: center;
 }
-/* .banner{
+ .banner{
      display:flex;
      justify-content: center;
      align-content: center;
@@ -33,7 +32,7 @@ nav{
      width:100%;
      height:auto;
      
-} */
+} 
 
 header{
     display:flex;
@@ -42,7 +41,7 @@ header{
     width:91%;
     height:auto;
     padding:5%;
-    background:url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
+    background-color:#00ced1;
     background-attachment: fixed;
     align-items: center;
 }
@@ -54,7 +53,7 @@ h2{
     align-content: center;
     font-size:30px;
     font-weight:bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'arial', sans-serif;
 }
 
 
@@ -75,7 +74,7 @@ h2{
 
 button:hover{
     background:black;  
-    color:white;
+    color:red;
 
 }
 a {
@@ -106,10 +105,10 @@ a {
 
     display:flex;
     align-items: center;
-    color:white;
+    color:lightcoral;
     font-weight: lighter;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'arial', sans-serif;
     opacity:0;
     transition: 0.5s;
     position: absolute;
@@ -122,7 +121,7 @@ a {
 
 .text a{
     text-decoration:none;
-    color:white;
+    color:lightseagreen;
     text-shadow:1px 1px black;
 
 }
@@ -139,10 +138,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items:center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'arial' sans-serif;
     font-weight: lighter;
     text-align: center;
-    background-color:silver;
+    background-color:#00CED1;
 }
 
 
