@@ -90,5 +90,6 @@ a.project-btn:hover{
 
 div.gallery{
     display:flex;
-    flex:wrap;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
 }
