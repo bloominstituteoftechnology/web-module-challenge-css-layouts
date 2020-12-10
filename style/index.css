@@ -117,7 +117,7 @@ main p {
 
 main img {
     height:500px;
-    width:1250px;
+    width:100%;
     object-fit: cover;
     object-position:100% 20%;
     margin:0 0 3rem 0;
