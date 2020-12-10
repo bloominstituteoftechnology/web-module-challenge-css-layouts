@@ -1,1 +1,190 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET ENDS HERE. PAGE STYLING BELOW*/
+
+body {
+    background-color: #edf2ef;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* END OF BODY STYLING. HEADER START BELOW */
+
+h1 {
+    text-align:center;
+    font-size: 3.2rem;
+}
+
+header h1:first-child{
+    margin-top: 20px;
+}
+
+.navbar {
+    text-align:center;
+    padding: 56px;
+    margin: 10px;
+}
+
+header a {
+    border: 1px #475a63 solid;
+    padding: 20px 40px;
+    margin: -1.5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:first-child{
+    background-color: #7e99a6;
+    border-top-left-radius: 60px 40px;
+    border-bottom-left-radius: 60px 40px;
+}
+
+.navbar a:nth-child(2){
+    background-color: #7e99a6;
+}
+
+.navbar a:nth-child(3){
+    background-color: #7e99a6;
+}
+
+.navbar a:last-child{
+    background-color: #7e99a6;
+    border-top-right-radius: 60px 40px;
+    border-bottom-right-radius: 60px 40px;
+}
+
+.navbar a:hover{
+    background-color: #475a63;
+    padding: 40px 80px;
+}
+
+/* END OF HEADER STYLING. MAIN STYLING BELOW. */
+
+main p {
+    font-size: 1.0rem;
+    text-align: center;
+    margin: 20px; 
+}
+
+main img {
+    height:500px;
+    width:1250px;
+    object-fit: cover;
+    object-position:100% 20%;
+    margin:0 0 3rem 0;
+}
+
+/* MAIN TEXT ENDS HERE. GALLERY STARTS HERE */
+
+section.gallery{
+    display: flex;
+    width: 1250px;
+    height: 500px;
+}
+
+section img {
+    width: 200px;
+    height: 450px;
+    margin: 0 10px;
+}
+
+section p {
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+/* END OF GALLERY SECTION. FOOTER STARTS HERE. */
+
+footer {
+    height: 300px;
+}
+
+
+.contact {
+    text-align:center;
+    padding: 56px;
+    margin: 10px;
+}
+
+footer a {
+    background-color:#475a63;
+    padding: 20px 40px;
+    margin: -1.5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: #7e99a6;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
