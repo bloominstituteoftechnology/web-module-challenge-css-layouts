@@ -92,4 +92,13 @@ div.gallery{
     display:flex;
     flex-flow:row wrap;
     justify-content:space-evenly;
+    
+}
+
+div.image-gallery{
+ text-align:center;
+ font-family:roboto;
+ color:teal;
+ font-weight:100;
+ font-size:10px;
 }
