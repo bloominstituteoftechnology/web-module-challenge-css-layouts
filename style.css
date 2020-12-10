@@ -1,96 +1,73 @@
-.header {
-    margin: auto;
-    padding: 15px;
-    background-color: honeydew;
-    background-size: contain;
+body {
+    margin: 0; 
+    background: #222;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+    width: 175px;
+}
+
+header {
+    background: #55d6aa;
+}
+nav {
+    float: right;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 50px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
     text-decoration: none;
-    color: blue;
-    font-family: mv boli;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bolder;
+nav a:hover {
+    color: black;
 }
 
-.navbuttons {
-    display: flex;
-    margin: auto;
-    padding: 25px;
-    justify-content: flex-end;
-    color: white;
-}
-
-#home {
-    
-    background: gray;
-    text-align: center;
-    padding: 30px;
-    max-width: 50px;
-    max-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 15px;
-    border: solid white 1px;
-}
-
-#about {
-    
-    background: gray;
-    text-align: center;
-    padding: 30px;
-    max-width: 50px;
-    max-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 15px;
-    border: solid white 1px;
-}
-
-#contact {
-    
-    background: gray;
-    text-align: center;
-    padding: 30px;
-    max-width: 50px;
-    max-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 15px;
-    border: solid white 1px;
-}
-
-#projects {
-    
-    background: gray;
-    text-align: center;
-    padding: 30px;
-    max-width: 50px;
-    max-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 15px;
-    border: solid white 1px;
-}
-
-.nav > button:hover {
-    background: black;
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+    position: absolute;
 }
 
 .second {
-    display: flex;
-}
-
-#seals {
-    border-radius: 20px;
-    padding: 15px;
-    background: darkgray;
-    margin: 20px;
+    color: white;
+    display: inline-block;
 }
 
 .toptext {
-    text-align: right;
-    padding: 150px;
-    display: inline;
+    display: inline-block;
     justify-content: right;
 }
