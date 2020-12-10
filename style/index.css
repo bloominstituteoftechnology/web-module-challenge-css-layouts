@@ -17,6 +17,7 @@ nav{
     display:flex;
 flex:wrap;
 padding-bottom:20px;
+font-family:roboto;
 }
 
 a.navitem {
@@ -38,4 +39,56 @@ a.current{
     background:black;
     color:white;
     text-decoration:underline;
+}
+
+div.intro {
+    display:flex;
+    flex:wrap;
+    justify-content:flex-start;
+    margin-bottom:20px;
+}
+
+img.main-img {
+  height:50%;
+  width:50%;  
+}
+
+div.lead-text{
+    padding:10%;
+
+}
+
+h2 {
+    font-family:roboto;
+    font-size:35px;
+    font-weight:100;
+}
+
+p { 
+    font-family:roboto;
+    font-weight:100;
+    font-size:14px;
+}
+
+a.project-btn{
+    color:white;
+    text-decoration:none;
+    background:teal;
+    font-family:roboto;
+    font-weight:400;
+    text-transform:uppercase;
+    padding:10px;
+    margin-bottom:50px;
+
+}
+
+a.project-btn:hover{
+    border:1px solid teal;
+    color:teal;
+    background:white;
+}
+
+div.gallery{
+    display:flex;
+    flex:wrap;
 }
