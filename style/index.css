@@ -145,3 +145,13 @@ div.about{
     padding-right:10px;
     font-family:roboto;
 }
+
+a {
+    color:teal;
+}
+
+p{
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:15%;
+}
