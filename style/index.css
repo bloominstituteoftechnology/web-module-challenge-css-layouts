@@ -135,3 +135,13 @@ a.contact-btn:hover {
     background:teal;
     color:white;
 }
+
+div.mainarea{
+    padding-bottom:10px;
+    display:flex;
+}
+
+div.about{
+    padding-right:10px;
+    font-family:roboto;
+}
