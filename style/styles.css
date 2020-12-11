@@ -65,7 +65,7 @@ body {
     -webkit-box-shadow: 1px 0px 50px 50px #000000; 
     box-shadow: 1px 0px 50px 50px #000000;
     font-family: 'Poiret One', cursive;
-    letter-spacing: 1rem;
+    letter-spacing: .75rem;
 
 }
 
@@ -73,19 +73,12 @@ h1 {
     font-size:6rem;
 }
 
-.divider {
-    margin-top: 6rem;
-    opacity: 0%;
-    border:solid black 1px;
-}
-
 
 /* HEADER STYLING BELOW */
 
 
 header{
-    margin-bottom:5rem;
-    line-height:7rem;
+    line-height:5rem;
 }
 
 .headerNav {
@@ -128,29 +121,32 @@ header{
 
 }
 
-.headerImageFlexContainer {
+/* .headerImageFlexContainer {
     display:flex;
-}
+    height:38vw;
+} */
 
 .headerImage {
+    display:flex;
+    flex-direction: column;
+    height:38vw;
     background-color:#212529;
-    opacity:80%;
-    padding:4rem 0;
     margin:0 10%;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6); 
-    box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6);;
-    opacity:.8;
+    box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6);
 }
 
 .headerImage p {
     text-align:center;
     color:#F8F9FA;
     font-size:2rem;
-    margin:5rem 10%;
+    margin:6rem 0;
+
 }
 
-.headP2 {
-    margin:0 20%;
+p.headP2 {
+    line-height: 6rem;
+    margin:15rem 20rem 0;
 }
 
 
@@ -158,9 +154,16 @@ header{
 /* ABOUT ME STYLING BELOW */
 
 .about {
-    margin-top:5rem;
+    margin-top:20rem;
     display:flex;
     justify-content: space-evenly;
+    color:whitesmoke;
+}
+
+.about p {
+    border-top:solid 1px white;
+    border-left:solid 1px white;
+    text-align:center;
 }
 
 .aboutHeaderContainer {
@@ -168,14 +171,13 @@ header{
     width:500px;
     height:auto;
     background-color: #212529;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6); 
-    box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6);;
     opacity:.8;
     height:20vw;
     margin:auto 0;
 }
 
 .about .aboutImage img {
+    margin:10rem 0;
     border-radius: 3%;
 }
 
@@ -185,7 +187,15 @@ header{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+}
+
+#projects h1 { 
+    border-bottom:1px solid whitesmoke; 
+    border-right:1px solid whitesmoke;
+    margin:0 auto;
+    text-align: center;
+    color:whitesmoke;
+    width:25%;
 }
 
 .project1, .project2, .project3 {
