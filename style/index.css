@@ -51,6 +51,82 @@ table {
 	background: lightgray;
 }
 
+.intro h1 {
+	text-align: center; 
+	}
+
+.intro p{
+	text-align: center;
+}
+
+
+
+.name{
+	text-align: center;
+}
+
+/* .navbar{
+	background-color: none; 
+	color: black;
+	padding: 0px 30%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}  */
+
+.navbar a{
+	background-color: gray;
+	border: 1px black solid;
+}
+
+
+.navbar
+
+
+
+
+
+
+
+
+
+
+
+.imgtop img{
+	height: 250px;
+	width: 100%;
+
+	
+}
+	
+
+
+
+header a {
+	text-align: right;
+}
+
+.paragraph2{
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+
+
+
+
+.box2{
+	text-align: center;
+}
+
+
+
+
+
 
 
 
