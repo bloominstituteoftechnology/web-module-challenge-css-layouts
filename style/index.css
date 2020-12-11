@@ -1,1 +1,109 @@
 /* Add CSS styling here */
+
+body{
+	font-family: 'Crimson Text', serif;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.name {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 40px;
+	
+}
+nav{
+	padding: 15px 8px;
+}
+.navLink{
+	border: 1px solid #E50003;
+	background: white;
+	padding: 10px 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: #E50003;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.navLink1{
+	border: 1px solid black;
+	background: #E50003;
+	padding: 10px 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: white;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.largePhotoBox{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+}
+.largePhotoBox img{
+	width: 100%;
+	height: auto;
+	padding: 5px 100px;
+}
+
+.textAndButton{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #E50003;
+	font-size: 25px;
+	-webkit-text-stroke: 0.11px black; 
+	-webkit-font-smoothing: antialiased;
+	}
+.textAndButton > button{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+ 	-ms-transform: translate(-50%, 100%);
+ 	transform: translate(-50%, 100%);
+	border: 1px solid #E50003;
+	background: white;
+	padding: 10px 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: #E50003;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.projectDisplay{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-wrap: wrap;
+}
+.projectDisplay img{
+	padding: 10px;
+	cursor: pointer;
+}
+.projectTxt{
+	font-family: 'Crimson Text', serif;
+	font-size:25px;
+	text-align: center;
+}
+footer{
+	display: flex;
+	background: grey;
+	height: 100px;
+	padding: 50px
+}
+footer > button{
+    margin-left:46%;
+    margin-right:50%;
+}
+
+
