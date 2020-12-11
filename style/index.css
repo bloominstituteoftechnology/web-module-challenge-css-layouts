@@ -1,1 +1,132 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #5affb2;
+    color: white;
+    font-size: 20px;
+
+}
+.header h1 {
+    display:flex;
+    justify-content:flex-start;
+    padding: 10px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.header nav a{
+    padding: 10px;
+}
+
+.thumbnail {
+ flex: 0 32%;
+ height: 300px;
+ margin-bottom: 2%;
+}
+
+.thumbnail img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.caption{
+    display: block;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.image-container{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://ichef.bbci.co.uk/images/ic/1200x675/p08l068m.jpg);
+  background-size: cover;
+  width: 954px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-container h2 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.image-container p {
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 1rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .footer {
+    padding: 15px;
+    text-align: center;
+    background: #5affb2;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+  }
