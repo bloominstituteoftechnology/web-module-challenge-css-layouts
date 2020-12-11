@@ -52,6 +52,7 @@ table {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 15px;
+    font-family: 'langar', cursive;
 }
 
 .navbar{
@@ -65,26 +66,31 @@ table {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: 'langar', cursive;
 }
 
 .about{
+    text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-family: 'langar', cursive;
 }
 
 .imgs{
     display: flex;
+    
 }
 
 .imgs p{
-    justify-content: center;
+    margin-top: 180px;
+    margin-left: 100px;
+    font-family: 'Nerko One', cursive;
 }
 
 
 .footer{
     text-align: center;
-    margin-top: 50px;
     padding-bottom: 50px;
     background-color: lightseagreen;
 }
