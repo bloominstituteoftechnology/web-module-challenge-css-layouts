@@ -45,3 +45,120 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/******* General Styles *******/
+
+body p{
+    font-family: Space Mono;
+    
+}
+
+
+/******* Header Section Styles *******/
+
+.my-name {
+    font-family: Roboto;
+    font-size: 65px;
+    margin: 20px;
+}
+
+.nav-bar .item {
+    
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline-block;
+    /* height: 50px; */
+    width: 120px;
+    /* color: black; */
+    font-family: Roboto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.nav-bar{
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+
+
+
+
+}
+
+/******* Main Section Styles *******/
+.main-content-container {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+   
+}
+
+.main-image {
+    width: 600px;
+}
+
+.main-right {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    margin-right: 120px;
+    padding: 45px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: Roboto;
+    padding-bottom: 25px;
+}
+
+.main-paragraph p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/******* Gallery Section Styles *******/
+
+.gallery-container .boxes {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/******* Footer Styles *******/
+
+.footer-container .like-me{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* .contact-me-container {
+    border: 1px solid pink:
+}
+
+.like-me {
+    border: 1px solid orange;
+} */
