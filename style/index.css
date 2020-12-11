@@ -1,1 +1,61 @@
-/* Add CSS styling here */
+h2 {
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+
+}
+
+.nav a {
+    padding: 12px 20px;
+    border-style: solid;
+    color: black;
+    border-radius: 0.69px;
+    width: 10vh;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.contact {
+    padding: 10px;
+    border-style: solid;
+    color: black;
+    border-radius: 1.69px;
+    width: 10px;
+    text-decoration: none;
+    text-align: center;
+
+.topBox {
+    display: flex;
+    border-style: solid;
+}
+
+.topBox h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 12.69px;
+    text-align: center;
+}
+
+.boxy {
+
+}
+
+.nav {
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin: 12.69px;
+
+}
+
+.nav .img {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    align-content:flex-end;
+}
