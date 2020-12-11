@@ -4,3 +4,12 @@ body{
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
