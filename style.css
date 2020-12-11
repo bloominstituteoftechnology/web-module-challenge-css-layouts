@@ -9,9 +9,8 @@ h1 {
     font-family: monospace;
     font-weight: 1500;
     font-size: 30px;
-    border: groove gray 2px;
-    border-radius: 18px;
-    background-color: white;
+    border: solid white 2px;
+    color: white;
     text-align: center;
 
 }
@@ -40,21 +39,21 @@ header::after {
     clear: both;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 35px;
+    padding-top: 40px;
     position: relative;
 }
 
-nav a {
-    color: #444;
+a {
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
@@ -79,32 +78,238 @@ nav a:hover::before {
     width: 100%;
 }
 
+.first {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: groove whitesmoke 7px;
+    border-radius: 18px;
+    background-color: gray;
+    margin: 30px;
+    position: center relative;
+    font-family: monospace;
+}
+
 .second {
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    border: solid whitesmoke 2px;
+    border: groove whitesmoke 7px;
     border-radius: 18px;
     background-color: gray;
     margin: 30px;
     position: center relative;
-
+    font-family: monospace;
 }
 
-.toptext {
-    display: inline-block;
-    justify-content: right;
-    text-align: center;
-    padding: 50px;
-    border: 55px;
-    margin: 53px;
+.third {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: groove whitesmoke 7px;
+    border-radius: 18px;
+    background-color: gray;
+    margin: 30px;
+    position: center relative;
+    font-family: monospace;
+}
+
+.fourth {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: groove whitesmoke 7px;
+    border-radius: 18px;
+    background-color: gray;
+    margin: 30px;
+    position: center relative;
+    font-family: monospace;
 }
 
 #seals {
     border-radius: 30px;
     border: groove white 3px;
     position: center;
+    width: 550px;
+    height: auto;
     padding: 15px;
     background-color: blanchedalmond;
+}
+
+#dolphin {
+    border-radius: 30px;
+    border: groove white 3px;
+    position: center;
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+
+#jelly {
+    border-radius: 30px;
+    border: groove white 3px;
+    position: center;
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+
+#ocean {
+    border-radius: 30px;
+    border: groove white 3px;
+    position: center;
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+.toptext {
+    display: inline-block;
+    justify-content: right;
+    text-align: right;
+    padding: 50px;
+    border: 55px;
+    margin: 53px;
+}
+
+.secondtext {
+    display: inline-block;
+    justify-content: left;
+    text-align: left;
+    padding: 50px;
+    border: 55px;
+    margin: 53px;
+}
+
+.thirdtext {
+    display: inline-block;
+    justify-content: right;
+    text-align: right;
+    padding: 50px;
+    border: 55px;
+    margin: 53px;
+}
+
+.fourthtext {
+    display: inline-block;
+    justify-content: left;
+    text-align: left;
+    padding: 50px;
+    border: 55px;
+    margin: 53px;
+}
+
+.topimages {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+
+}
+
+#chevy {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#moon {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#books {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+.secondimages {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+
+}
+
+#stairs {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#dude {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#temple {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+.thirdimages {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+
+}
+
+#glacier {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#point {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+#city {
+    height: 750px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
+footer {
+    background: #55d6aa;
+    padding: 35px;
+}
+
+.foot {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottomclick {
+    border: solid white 2px;
+    background-color: black;
+    padding: 12px 40px;
+}
+
+#havequestions {
+    text-align: center;
 }
