@@ -1,1 +1,91 @@
-/* Add CSS styling here */
+
+.header-container {
+    background-color: lightgrey;
+    height: 200px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.header-container h1{
+    font-size: 50px;
+    font-family: Roboto;
+    
+    
+}
+
+.header-container nav a {
+    background-color: rgb(241, 240, 158);
+    padding: 40px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+    box-shadow: 5px 10px;
+}
+
+.header-container nav a:hover {
+    background-color: rgb(75, 156, 66);
+    color: whitesmoke;
+}
+
+.header-container nav {
+    
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+    margin-left: 30%;
+
+}
+
+.img-bio-container img {
+    width: 600px;
+}
+
+.img-bio-container {
+    display: flex;
+    margin: 10%;
+
+}
+
+.bio  {
+    color: lightgrey;
+    margin: 40px;
+
+}
+
+.projects  {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+.things {
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+.text-button {
+    background-color:white;
+    color:  rgb(48, 39, 48);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding-bottom: 2%;
+}
+
+.text-button button {
+    box-shadow: 2.5px 5px;
+}
+
+body {
+    background-color: rgb(48, 39, 48);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
