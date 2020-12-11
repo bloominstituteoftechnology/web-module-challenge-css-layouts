@@ -33,26 +33,38 @@ nav {
     float: right;
 }
 
+#bottomclick {
+    border: solid white 2px;
+    background-color: black;
+    padding: 12px 40px;
+    text-decoration: none;
+    list-style: none;
+    display: table;
+    content: '';
+    clear: both;
+    text-transform: lowercase;
+}
+
 header::after {
     content: '';
     display: table;
     clear: both;
 }
 
-ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-li {
+nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 40px;
     position: relative;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -75,6 +87,51 @@ nav a::before {
 }
 
 nav a:hover::before {
+    width: 100%;
+}
+
+footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 40px;
+    position: relative;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer a:hover {
+    color: #55d6aa;
+}
+
+footer a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: relative;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+footer a:hover::before {
     width: 100%;
 }
 
@@ -212,25 +269,25 @@ nav a:hover::before {
 
 }
 
+.boxshadow {
+    box-shadow: 5px 5px #B3B6B7;
+    border: solid white 2px;
+}
+
 #chevy {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
+
 }
 
 #moon {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 #books {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 .secondimages {
@@ -243,22 +300,16 @@ nav a:hover::before {
 #stairs {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 #dude {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 #temple {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 .thirdimages {
@@ -271,27 +322,22 @@ nav a:hover::before {
 #glacier {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 #point {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 #city {
     height: 750px;
     border-radius: 25px;
-    box-shadow: 5px 5px #B3B6B7;
-    border: solid white 2px;
 }
 
 footer {
     background: #55d6aa;
     padding: 35px;
+    position: bottom relative;
 }
 
 .foot {
@@ -302,14 +348,87 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#bottomclick {
-    border: solid white 2px;
-    background-color: black;
-    padding: 12px 40px;
+    position: bottom relative;
 }
 
 #havequestions {
     text-align: center;
+}
+
+#contacth1 {
+    font-size: 100px;
+    text-decoration: wavy;
+    text-decoration-color: white;
+}
+
+.contacts {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+#contacttext {
+    font-size: 100px;
+    text-decoration: wavy;
+    text-decoration-color: white;
+    text-align: center;
+    color: white;
+    border: solid white 5px;
+}
+
+#address {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 45px;
+}
+.contacts li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.overlay {
+
+}
+
+#abouthead {
+    text-align: center;
+    border-radius: 18px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+#aboutwords {
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: center;
+    padding: 45px;
+    border: solid white 1px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 36px;
 }
