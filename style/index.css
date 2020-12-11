@@ -11,5 +11,12 @@ a {
 .top-nav{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.my-name{
+    font-size: 2.2em;
+    margin-bottom: 0px;
 }
