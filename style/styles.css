@@ -72,7 +72,7 @@ h1 {
 }
 
 .divider {
-    margin:10rem 0;
+    margin-top: 6rem;
     opacity: 0%;
     border:solid black 1px;
 }
@@ -171,10 +171,11 @@ header{
     opacity:.8;
     height:20vw;
     margin:auto 0;
-    
-
 }
 
+.about .aboutImage img {
+    border-radius: 3%;
+}
 
 /* PROJECTS STYLING BELOW */
 
@@ -188,9 +189,9 @@ header{
 .project1, .project2, .project3 {
     display:flex;
     justify-content: space-around;
-    font-size:4rem;
+    font-size:3rem;
     color:white;
-
+    margin:6rem;
 }
 
 .project1, .project3 {
@@ -203,6 +204,7 @@ header{
 
 #projects img {
     margin: 0 3rem;
+    border-radius: 3%;
 }
 
 #projects a {
