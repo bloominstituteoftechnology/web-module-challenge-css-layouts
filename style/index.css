@@ -1,1 +1,125 @@
 /* Add CSS styling here */
+div.maincontainer {
+    width: 100%;
+    margin:0 auto;
+    padding: 0px;
+    background-color:#29B6F6;
+}
+
+h1 {
+    font-family:Thorsley;
+    font-size: 60px;
+
+}
+
+h2 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+}
+
+p {
+    font-family:  roboto mono;
+    font-size:  18px;
+}
+
+footer {
+text-align: center;
+background-color:#CE93D8 ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+div.header {
+    text-align:center;
+    background-color:#EC4076;
+}
+    
+
+button.home:hover {
+    background-color: coral;
+}
+
+button.pro:hover {
+    background-color: coral;
+}
+
+button.abo:hover {
+    background-color: coral;
+}
+
+button.cont:hover {
+    background-color: coral;
+}
+
+
+    button {
+    border:none;
+    color:black;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:turquoise;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+div.code {
+    margin: 10px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    /* align-items: baseline; */
+    
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
