@@ -1,1 +1,95 @@
 /* Add CSS styling here */
+
+body { 
+    width: 100%;
+}
+
+
+h2 {
+    font-family: 'Antic Slab';
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.navitem {
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Antic Slab';
+    text-align: center;
+    background-color: #2f3831;
+    color: white;
+}
+
+#introtext {
+    padding: 5px;
+    margin: 5%;
+}
+
+
+
+.mainimg {
+    background-image: url(https://picsum.photos/1400/600) ;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner {
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: auto;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+#lowertext {
+    width: 20%;
+    margin-left: 50px;
+}
+
+
+
+.footerdiv {
+    height: 100px;
+    width: 100%;
+    background-color: #2f3831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactbutton, #projectsbutton {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #white;
+  
+}
