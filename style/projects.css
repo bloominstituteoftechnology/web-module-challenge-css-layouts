@@ -123,70 +123,25 @@ table {
   border-spacing: 0;
 }
 h1 {
+  font-size: 2em;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3%;
-  margin-bottom: 0;
-  font-size: 2em;
-  font-weight: bolder;
 }
-nav ul {
+p {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 3%;
+  font-size: 1.5em;
 }
-nav ul a {
-  text-decoration: none;
-  color: black;
-  border: solid black 1px;
-  padding: 15%;
-  border-radius: 30%;
-  background-color: beige;
-}
-nav ul a:hover {
-  background-color: grey;
-}
-.para1 {
+a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.para1 h2 {
-  font-weight: bolder;
-  margin-bottom: 3%;
-  font-size: 1.5em;
-}
-.para1 p {
-  font-weight: bold;
-  font-size: 1.2em;
-  margin-bottom: 3%;
-}
-.topPic {
-  margin-bottom: 3%;
-}
-.bottomPics {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 3%;
-}
-.bottomPics .para2 {
-  max-width: 300px;
-}
-.contact {
-  margin-left: 50%;
-  padding: 0%;
+  margin-top: 3%;
   text-decoration: none;
-  color: black;
-  border: solid black 1px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  background-color: beige;
-}
-.contact:hover {
-  background-color: grey;
 }
