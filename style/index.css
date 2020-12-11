@@ -1,6 +1,7 @@
-/* Add CSS styling here */
-*{
-    border: 1px solid:black
+* Add CSS styling here 
+*  {
+    border: 1px solid black;
+    
 }
 
 .container-header{
@@ -12,8 +13,9 @@
 }
 h1{
     text-align: center;
-    font-family: 'lanar';
-    color:purple
+    font-family: 'Langar';
+    color:purple;
+    font-size: 50px;
 }
 .main-img img{
     display: flex;
@@ -38,12 +40,24 @@ nav a {
     text-decoration: none;
     background-color:pink;
     border-radius: 40px;
+    font-size: 30px;
+    color: purple;
 } 
-/* .img-container img{ */
-    /* display: flex; */
-   /* justify-content:space-between; */
+.main-img img{
+    width:100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.img-container { 
+     display: flex;
+    justify-content:space-between; 
+    margin:20px;
     
-/* } */
+ } 
+
+ .img-container div{
+     width: 10%;
+ }
 .second-container{
     display:flex;
     justify-content: center;
@@ -57,7 +71,7 @@ nav a {
 p{
     float: right;
     font-family: cursive;
-    color:
+    color:black;
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
