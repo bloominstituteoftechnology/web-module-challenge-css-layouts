@@ -41,11 +41,11 @@
 
 }
 
-.img-bio-container img {
+#img-bio-container img {
     width: 600px;
 }
 
-.img-bio-container {
+#img-bio-container {
     display: flex;
     margin: 10%;
 
@@ -57,7 +57,7 @@
 
 }
 
-.projects  {
+#projects  {
     
     display: flex;
     justify-content: space-between;
