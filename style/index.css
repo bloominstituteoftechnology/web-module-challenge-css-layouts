@@ -37,7 +37,7 @@
 	display:flex;
 	justify-content:flex-start;
 	margin:75px;
-	width:50%;
+	width:808px;
 	height:400px;
 }
 header {
@@ -81,8 +81,6 @@ footer {
 	padding:1%;
 }
 .sidebutton {
-	display:flex;
-	align-items:center;
 	background-color:#EEEEEE;
 	color:#333333;
 	padding:5px 20px 15px 20px;
@@ -92,4 +90,12 @@ footer {
 body {
 	border:15px solid silver;
 	margin:-1px;
+}
+.onside {
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	background-color:silver;
+	padding:30px 30px 160px 70px;
+	margin:20px;
 }
