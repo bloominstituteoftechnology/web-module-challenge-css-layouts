@@ -21,6 +21,7 @@ a {
 .my-name{
     font-size: 2.2em;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .tabs{
@@ -36,4 +37,14 @@ a {
 
 .nav-btn{
     padding: 10px;
+}
+
+.about{
+    display: inline-flex;
+    justify-content: flex-start;
+    background-color: grey;
+}
+
+.about img{
+    
 }
