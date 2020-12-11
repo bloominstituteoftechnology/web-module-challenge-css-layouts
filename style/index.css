@@ -1,1 +1,34 @@
-/* Add CSS styling here */
+.info {
+	display:flex;
+	flex-wrap:wrap;
+	text-align:right;
+	margin:auto;
+}
+.name {
+	font-weight:bold;
+	font-size:3.5em;
+	color:#46FCFF;
+	text-align:right;
+	padding:5px;
+	
+}
+nav{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	margin:auto;
+	
+}
+div {
+	border:solid black 1px;
+}
+main {
+	display:flex;
+	flex-direction:row;
+	margin:50px;
+}
+main > div {
+	width:150px;
+	height:150px;
+	justify-content:space-between;
+}
