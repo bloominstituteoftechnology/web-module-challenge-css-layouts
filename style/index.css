@@ -60,10 +60,17 @@ body{
     font-family: 'langar', cursive;
 }
 
+
 .navbar{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+.navbar a{
+    background-color: black;
+    color: white;
+    border: solid red;
 }
 
 
@@ -97,9 +104,44 @@ body{
 
 .footer{
     text-align: center;
+    padding-top: 37px;
     padding-bottom: 50px;
     background-color: lightseagreen;
 }
+
+.socialM{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.socialM a:hover{
+    opacity: 0.4;
+}
+
+.socialM a:nth-first-child{
+    background: #55ACEE;
+    color: white;
+    font-size: 5px;
+    margin-left: 50px;
+}
+
+.socialM a:nth-child(2){
+    margin-left: 100px;
+}
+
+.socialM a:nth-child(3){
+    margin-left: 100px;
+}
+
+
+
+
+
 
 
 
