@@ -107,6 +107,7 @@ header a {
     padding: 40px 80px;
 }
 
+
 /* END OF HEADER STYLING. MAIN STYLING BELOW. */
 
 main p {
@@ -150,6 +151,7 @@ section p {
 
 footer {
     height: 300px;
+    background-color:#a8b3ab;
 }
 
 
