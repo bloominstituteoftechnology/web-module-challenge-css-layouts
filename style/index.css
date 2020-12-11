@@ -1,1 +1,96 @@
 /* Add CSS styling here */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.one {
+    padding: 10px;
+}
+.two {
+    padding: 10px;
+}
+.three {
+    padding: 10px;
+}
+.four {
+    padding: 10px;
+}
+h1 {
+    color: brown;
+    font-family: 'ranchers';
+    font-style: italic;
+}
+h1:hover {
+text-transform: uppercase; 
+color: darkblue;
+}
+.part2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+.img1 {
+    width: 60%;
+    height: 100%;
+}
+.myjourney {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+.secondrow {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+justify-content: space-between;
+}
+.thirdrow {
+    display: flex;
+flex-direction: row;
+margin-top: 30px;
+justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: indigo;
+}
+a:hover {
+    color: #ff3333
+}
+.footer {
+    text-align: center;
+    margin-top: 3px;
+    background-color: beige;
+}
+h3 {
+    font-family: Nerko One;
+}
+.button1 {
+    background-color: #660099;
+    color: white;
+}
+.button1:hover {
+    color: #ff00cc
+}
+p {
+    font-family: Ubuntu;
+}
+.button2 {
+    background-color: #330033;
+    color: wheat;
+}
+.button2:hover {
+    background-color: #ccccff;
+    color: black;
+}
