@@ -64,6 +64,8 @@ body {
     background-attachment: fixed;
     -webkit-box-shadow: 1px 0px 50px 50px #000000; 
     box-shadow: 1px 0px 50px 50px #000000;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 1rem;
 
 }
 
@@ -104,7 +106,6 @@ header{
 }
 
 #navBarTop a {
-
     color:#F8F9FA;
     background:#212529;
     opacity:80%;
@@ -112,6 +113,7 @@ header{
     text-decoration: none;
     padding:0 3rem;
     transition: .5s;
+    margin:0 auto;
 }
 
 #navBarTop li a:hover{
