@@ -1,1 +1,67 @@
-/* Add CSS styling here */
+/* html{
+    font-size: 62.5%;
+} */
+
+h1, h3, header, button, a {
+    font-family: 'Playfair Display', serif;
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width:100%;   
+    align-items: center; 
+    justify-content: space-evenly;
+    background: red;
+    color: white;
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+    
+}
+ 
+a:hover {
+    color:white;
+    transition: 3s;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    width: 30%;
+    height: 25px;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    
+}
+
+.button {
+    width:30%;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.projectformat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.project {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2.5px;
+}
