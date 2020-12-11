@@ -73,7 +73,21 @@ table {
     margin-top: 10px;
 }
 
+.imgs{
+    display: flex;
+}
 
+.imgs p{
+    justify-content: center;
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightseagreen;
+}
 
 
 
