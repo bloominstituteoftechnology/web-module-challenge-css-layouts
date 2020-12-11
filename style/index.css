@@ -14,9 +14,18 @@ a {
     padding: 20px;
     background-color: grey;
     margin-bottom: 20px;
+    height: 140px;
+    
 }
 
 .my-name{
     font-size: 2.2em;
     margin-bottom: 0px;
+}
+
+.tab{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    padding: 20px;
 }
