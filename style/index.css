@@ -23,9 +23,17 @@ a {
     margin-bottom: 30px;
 }
 
-.tab{
-    height: 20px;
-    width: 20px;
-    background-color: red;
-    padding: 20px;
+.tabs{
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 400px;
+}
+
+.nav-btn{
+    background-color: white;
+}
+
+.nav-btn{
+    padding: 10px;
 }
