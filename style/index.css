@@ -1,1 +1,103 @@
-/* Add CSS styling here */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #a5694f;
+    margin:5px;
+    padding:5px 5px;
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+h1 {
+    display: flex;
+    color: rgb(127, 146, 255);
+    font-family: 'ranchers';
+    font-style: italic;
+    text-align: center;
+}
+h1:hover {
+    text-transform: uppercase;
+    color:rgb(250, 215, 217)
+}
+.authentic {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+}
+.some-box {
+    width: 40%;
+    height: 100%;
+}
+.inspiring {
+    width: 40%;
+    height: 100%;
+    padding:3em;
+    text-align: center;
+}
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.third-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;  
+}
+.footer {
+    width:100%;
+    height: 15%;
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+}
+h3 {
+    color:wheat;
+    font-style: italic;
+}
+.button1 {
+    color: red;
+    background-color:purple;
+    padding:3 0px;
+    border:0px;
+    padding: 5px 10px;
+     
+}
+.button2 {
+    color:white;
+    background-color: rgb(98, 0, 255);
+    border: 0px;
+    padding: 5px 10px;
+}
+.button1:hover {
+    color:white;
+    background-color:#0000cc;
+}
+.button2:hover {
+    color: wheat;
+    background-color: blue;
+}
+p {
+    font-family: 'ubuntu';
+    color: wheat;
+}
