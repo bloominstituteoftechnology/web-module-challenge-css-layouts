@@ -122,3 +122,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
