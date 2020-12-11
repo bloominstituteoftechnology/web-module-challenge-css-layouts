@@ -5,6 +5,17 @@ body {
     font-weight: 300;
 }
 
+h1 {
+    font-family: monospace;
+    font-weight: 1500;
+    font-size: 30px;
+    border: groove gray 2px;
+    border-radius: 18px;
+    background-color: white;
+    text-align: center;
+
+}
+
 .container {
    width: 80%;
    margin: 0 auto;
@@ -38,7 +49,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 50px;
+    padding-top: 35px;
     position: relative;
 }
 
@@ -57,17 +68,43 @@ nav a::before {
     content: '';
     display: block;
     height: 5px;
-    width: 100%;
+    width: 0%;
     background-color: #444;
     position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
 }
 
 .second {
     color: white;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: solid whitesmoke 2px;
+    border-radius: 18px;
+    background-color: gray;
+    margin: 30px;
+    position: center relative;
+
 }
 
 .toptext {
     display: inline-block;
     justify-content: right;
+    text-align: center;
+    padding: 50px;
+    border: 55px;
+    margin: 53px;
+}
+
+#seals {
+    border-radius: 30px;
+    border: groove white 3px;
+    position: center;
+    padding: 15px;
+    background-color: blanchedalmond;
 }
