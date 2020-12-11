@@ -72,6 +72,7 @@ nav > div {
     max-width: 72%;
     margin: auto;
     border: dotted blue 12px;
+    height: 300px;
 }
 
 .container-content {
@@ -83,6 +84,7 @@ nav > div {
 
     border: dashed green 3px;
     margin: auto;
+    height: 300px;
 }
 
 .container-content > div {
@@ -92,11 +94,11 @@ nav > div {
     justify-content: center;
 
     padding: 2px;
+    max-height: inherit;
 }
 
 .container-item > img {
     margin: auto;
-    max-height: 270px;
 }
 
 footer {
