@@ -1,7 +1,8 @@
+/*GENERAL SETUP */
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
-del, dfn, em, img, ins, kbd, q, s, samp,  
+del, dfn, em, ins, kbd, q, s, samp,  
 small, strike, strong, sub, sup, tt, var,  
 b, u, i, center,  
 dl, dt, dd, ol, ul, li,  
@@ -18,10 +19,11 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
+/*APPLIED TO EVERYTHING */
 *{
-    box-sizing:border-box; /*this rule says, if I give an element a width I want it to respect that width - if I add padding or a border, apply it within the width given not in addition to it*/
-    border:1px solid grey;
-    max-width:100%; /*this says you can never be bigger than your parent*/
+    box-sizing:border-box;
+    max-width:100%;
 }
 
 html{
@@ -34,33 +36,34 @@ body{
     color:#4F4F4F;
 }
 
-.page-container {
-    width: 900px;
+#veronica {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 12px aqua solid;
-    padding: 5px;
-    border: green;
-}
-
-#index-header {
-    display: flex;
-    flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-    align-items: center;
-    /*border: 2px solid red;*/
-    padding-top: 50px;
+    border: green 3px solid;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 4px red solid;
 }
 
 nav {
-    width: 60%;
-    height: 30px;
+    width: 80%;
+    height: 10%;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
@@ -70,6 +73,7 @@ nav {
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 4px blue solid;
 }
 
 nav a {
@@ -85,13 +89,45 @@ nav a:hover {
     color: aqua;
 }
 
-#intro {
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+    font-size:14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.page-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 12px aqua solid;
+    padding: 5px;
+}
+
+#index-header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+    padding-top: 50px;
+}
+
+.about {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding-bottom: 40px;
+    text-align: justify;
+    border: 4px blueviolet solid;
 }
 
 .midpage-image {
@@ -103,92 +139,70 @@ nav a:hover {
     background-repeat: no-repeat;
     background-color: black;
   }
-  
-p {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.3;
-    font-size:14px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-}
 
-#projects {
+.portfolio {
+    width: 100%
     display: flex;
+    border: 5px yellow solid;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
 }
 
-#project-sample-container {
+.project-image-container {
     display: flex;
+    width: 60%;
+    height: 100%;
+    border: 3px orange solid;
+    text-align: center;
 }
 
-.project-sample {
-
+#project-text-container {
+    width: 35%;
+    text-align: justify;
 }
 
-.project-sample-text {
+/*MEDIA QUERIES*/
 
-}
-
-
-/*Media Queries*/
-/*Tablet View*/
+/*TABLET VIEW*/
 @media (max-width:800px){
-   nav a{
-       width:15%;
-   }
-   /*header section styles*/
-   .image img{
-       width:80%;
-   }
-   /*camp section styles*/
-   .camp div{
-    width:45%;
-   }
-   /*background image section*/
-   .bg-img{
-       height:60vh;
-       background-position:center;
-   }
+
 }
 
-/*Phone View*/
+/*PHONE VIEW*/
 @media (max-width:500px){
-  nav{
-      flex-direction:column;
-      justify-content: center;
-      align-items: center;
-  }
-  nav a{
-      width:50%;
-      margin:2% 0;
-  }
-  .blue{
-      order:-1;
-  }
-  /*header styles*/
-  header{
-      flex-wrap:wrap;
-  }
-  .image{
-      width:80%;
-  }
-  .title{
-      width:80%;
-      margin-top:4%;
-  }
-  .title div{
-      width:100%;
-  }
-  /*camp section styles*/
-  .camp div{
-      width:80%;
-  }
-  .camp div img{
-      width:60%;
-  }
-  /*bg img section*/
-  .bg-img{
-      height:40vh;
-      /* display:none; */
-  }
+
+    .midpage-image {
+        background: url("https://i1.wp.com/adrianamjgarcia.com/wp-content/uploads/2017/04/AdrianaMGarcia_UnCamino_MuralDetail_sm.jpg?fit=2000%2C672&ssl=1​");
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;}
+
+       }
+      .portfolio {
+        width: 80%
+        display: flex;
+        flex-flow: column nowrap;
+        border: 5px yellow solid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .project-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        border: 3px orange solid;
+        text-align: center;
+    }
+    
 }
