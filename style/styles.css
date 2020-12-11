@@ -57,11 +57,12 @@ html {
 
 body {
     margin:0 20rem;
-    background-color:#4d5a61;
-    background-image: url(../assets/flourdough.jpg);
-    background-size:100%;
+    /* background-image: url(../assets/flourdough.jpg); */
+    background-color:#212529;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-box-shadow: 1px 0px 50px 50px #000000; 
+    box-shadow: 1px 0px 50px 50px #000000;
 }
 
 
@@ -73,8 +74,6 @@ header{
 }
 
 .headerNav {
-    display:flex;
-    justify-content: space-between;
     margin-bottom:5rem;
 }
 .headingName {
@@ -82,16 +81,37 @@ header{
 }
 
 #navBarTop {
+    margin-top:7rem;
     display:flex;
-    margin-top: 2rem;
+    justify-content: center;
 }
 
 #navBarTop li {
     list-style-type: none;
+    margin-top:2rem;
 }
+
 #navBarTop a {
-    color:#b5d6e6;
-    background:#2f5161;
+
+    color:#F8F9FA;
+    background:#212529;
+    opacity:80%;
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding:0 3rem;
+    transition: .5s;
+}
+
+#navBarTop li a:hover{
+    background-color:#F8F9FA;
+    color: #212529;
+    opacity:80%;
+    margin:0 3rem;
+}
+#navBarTop li:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition:.5s;
+
 }
 
 .headerImageFlexContainer {
@@ -99,11 +119,8 @@ header{
 }
 
 .headerImage {
-    /* display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column; */
-    background-color: #4d5a61;
+    background-color:#212529;
+    opacity:80%;
     padding:4rem 0;
     margin:0 10%;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6); 
@@ -113,12 +130,12 @@ header{
 
 .headerImage p {
     text-align:center;
-    color:#6ebce0;
+    color:#F8F9FA;
     font-size:2rem;
     margin:5rem 10%;
 }
 
-p.headP2 {
+.headP2 {
     margin:0 20%;
 }
 
@@ -126,38 +143,35 @@ header h1 {
     font-size:6rem;
 }
 
-header nav a {
-    font-size: 3.5rem;
-    text-decoration: none;
-    /* border:solid black 1px; */
-    padding:0 3rem;
-    transition: .5s;
-
-}
-
-header li a:hover{
-    background-color:white;
-    opacity:.5;
-    color: #4d5a61;
-    margin:0 1rem;
-}
-header li:hover {
-    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    transition:.5s;
-  }
 
 /* MAIN BODY STYLING BELOW */
 
-.caption {
+/* .caption {
     display:block;
     text-align:center;
-}
+} */
 
 .projects {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     margin:0 20rem;
+    flex-direction: column;
+}
+
+.project1, .project2, .project3 {
+    display:flex;
+    font-size:4rem;
+    color:white;
+
+}
+
+.project1, .project3 {
+    flex-direction: row-reverse;
+}
+
+.project2 {
+    flex-direction: row;
 }
 
 .projects img {
@@ -175,6 +189,7 @@ header li:hover {
 footer {
     text-align:center;
     margin-top:5rem;
+    margin-bottom:7rem;
 }
 
 footer nav a {
