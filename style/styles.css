@@ -197,6 +197,7 @@ footer nav a {
 .fab {
     font-size:5rem;
     color:#6ebce0;
-    margin:0 3rem;
+    margin-bottom:5rem;
     text-align: center;
+    margin:0 3rem 5rem;
 }
