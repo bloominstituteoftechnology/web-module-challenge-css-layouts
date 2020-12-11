@@ -1,1 +1,149 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+
+box-sizing:border-box;
+ max-width:100%;
+/* border:1px solid grey; */
+}
+/*general styles*/
+html{
+
+  font-size:62.5%;
+}
+body{
+  background-color: rgb(182, 211, 216);
+ border:5px solid black;
+font-size:1.6rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 1.5;
+}
+.pagehead {
+  text-align: left ;
+}
+h1 {
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.header-name {
+  background:grey;
+  font-size: 1em;
+  color:black;
+  margin-left: 0;
+  padding :1em;
+  
+  }
+.header-name nav ul {
+  list-style-type: none;
+  
+ 
+  display:flex;
+}
+.header-name nav li{
+  
+  border: 10px solid lightgray;
+  padding: 5px;
+  
+  
+  color: blue;
+  background: orange;
+}
+.summary {
+  margin-top: 1em;
+  margin-bottom:2em;
+  text-align: center;
+}
+
+.summary {
+  display:flex;
+}
+.summary div {
+  margin:5%;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content:space-around;
+}
+h2 {font-style: italic;
+font-family: cursive;
+font-size: 2em;
+font-weight: 600;
+}
+
+h3 {
+  font-size:30px;
+}
+h4{
+  font-size:30px;
+  text-align:center;
+  
+}
+footer {
+  text-align: center;
+  background-color:grey;
+  margin:0%;
+  padding:3em;
+}
+button{
+  
+  background-color: orange; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+}
+a:hover, button:hover {
+  background-color: rgb(163, 31, 82);
+}
+
+
