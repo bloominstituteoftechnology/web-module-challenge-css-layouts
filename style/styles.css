@@ -53,6 +53,7 @@ table {
 /* BODY AND HTML STYLING */
 html {
     font-size:62.5%;
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -63,6 +64,17 @@ body {
     background-attachment: fixed;
     -webkit-box-shadow: 1px 0px 50px 50px #000000; 
     box-shadow: 1px 0px 50px 50px #000000;
+
+}
+
+h1 {
+    font-size:6rem;
+}
+
+.divider {
+    margin:10rem 0;
+    opacity: 0%;
+    border:solid black 1px;
 }
 
 
@@ -139,28 +151,43 @@ header{
     margin:0 20%;
 }
 
-header h1 {
-    font-size:6rem;
+
+
+/* ABOUT ME STYLING BELOW */
+
+.about {
+    margin-top:5rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.aboutHeaderContainer {
+    font-size:2rem;
+    width:500px;
+    height:auto;
+    background-color: #212529;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6); 
+    box-shadow: 5px 5px 15px 5px rgba(229,229,229,0.6);;
+    opacity:.8;
+    height:20vw;
+    margin:auto 0;
+    
+
 }
 
 
-/* MAIN BODY STYLING BELOW */
+/* PROJECTS STYLING BELOW */
 
-/* .caption {
-    display:block;
-    text-align:center;
-} */
-
-.projects {
+#projects {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin:0 20rem;
     flex-direction: column;
+    
 }
 
 .project1, .project2, .project3 {
     display:flex;
+    justify-content: space-around;
     font-size:4rem;
     color:white;
 
@@ -174,15 +201,18 @@ header h1 {
     flex-direction: row;
 }
 
-.projects img {
+#projects img {
     margin: 0 3rem;
 }
 
-.projects a {
+#projects a {
     font-size:2rem;
     margin-bottom:1rem;
     color:white;
 }
+
+
+
 
 /* FOOTER STYLING BELOW */
 
@@ -216,3 +246,8 @@ footer nav a {
     text-align: center;
     margin:0 3rem 5rem;
 }
+
+
+
+
+
