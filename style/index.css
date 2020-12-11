@@ -47,9 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
+.box{
+	display: flex;
+	justify-content: flex-end;
+}
 
 
 
