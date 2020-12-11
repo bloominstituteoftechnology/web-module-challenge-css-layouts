@@ -47,10 +47,33 @@ table {
 	border-spacing: 0;
 }
 
-.box{
-	display: flex;
-	justify-content: flex-end;
+.myname{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.mysite{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px
+}
+
+.about{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
 
 
 
