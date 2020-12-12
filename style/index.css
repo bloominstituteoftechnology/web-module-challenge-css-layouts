@@ -7,15 +7,18 @@ body{
     justify-content: space-between;
 }
 
-a {
+a{
+    color: #000;
     text-decoration: none;
+}
+a:visited{
+    color: none;
 }
 
 .top-nav{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: grey;
     margin-bottom: 20px;
     height: 140px;
     
@@ -45,7 +48,6 @@ a {
 .about{
     display: inline-flex;
     justify-content: flex-start;
-    background-color: grey;
 }
 
 .about img{
@@ -67,12 +69,12 @@ a {
 .tiles{
     padding: 80px;
     margin: 10px;
-    background-color: red;
+    border: solid 1px blue;
+
    
 }
 
 .footer{
-    background: grey;
     display: flex;
     flex-flow: column;
 }
@@ -88,3 +90,4 @@ a {
     padding: 20px;
     margin: auto;
 }
+
