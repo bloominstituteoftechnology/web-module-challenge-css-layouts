@@ -1,1 +1,94 @@
 /* Add CSS styling here */
+
+.name{
+    font-size: 50px;
+    color: #bf9c12;
+}
+
+body nav{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: ;
+width: auto;
+}
+
+.button1 
+{
+    background-color: transparent;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: #bf9c12;
+    font-size: 20px;
+}
+
+.button2 
+{
+    background-color: transparent;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: #bf9c12;
+    font-size: 20px;
+}
+
+.button3 
+{
+    background-color: transparent;
+    padding: 6px;
+    
+   
+    text-align: center;
+    text-decoration: none;
+    color: #bf9c12;
+    font-size: 20px;
+}
+
+.button4 
+{
+    background-color: transparent;
+    padding: 6px;
+    
+ 
+    text-align: center;
+    text-decoration: none;
+    color: #bf9c12;
+    font-size: 20px;
+}
+
+.mainpic{
+    height:500px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.gallery {
+   
+   margin: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    padding:20px;
+    justify-content: flex-end;
+    
+  }
+
+ .img-container {
+    
+     
+     flex: 1 0 30%;
+  }
+  
+ .desc{
+     color:white;
+     display: flex;
+     justify-content: flex-start;
+ }
+     
+    
+  
+  
