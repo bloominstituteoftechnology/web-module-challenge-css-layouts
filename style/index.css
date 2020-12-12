@@ -30,7 +30,10 @@ a:visited{
     margin-bottom: 30px;
     margin-left: 10px;
 }
-
+.my-info p{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 .tabs{
    display: inline-flex;
    flex-direction: row;
