@@ -2,6 +2,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 a {
@@ -56,8 +59,14 @@ a {
 
 .projects{
     display: flex;
-    background-color: grey;
-    flex-direction: row;
+    flex-flow: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.tiles{
+    padding: 80px;
+    margin: 10px;
+    background-color: red;
+   
+}
