@@ -1,1 +1,104 @@
-/* Add CSS styling here */
+html {
+    font-size: 62.5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    text-align: center;
+    font-size: 2rem;
+}
+
+body > h1 {
+    max-width: 50%;
+    margin: auto;
+    padding: 1%;
+}
+
+nav {
+    max-width: 63%;
+    align-items: center;
+    margin: auto;
+    padding: 24px;
+}
+
+nav > div {
+    max-width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    margin: auto;
+}
+
+.nav-item {
+    border: solid black 3px;
+    background-color: olivedrab;
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+}
+
+.intro {
+    width: 66%;
+    margin: auto;
+    padding: 3%;
+    font-size: 2rem;
+}
+
+.intro a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.main-content {
+    background-color: sienna;
+    max-width: 72%;
+    margin: auto;
+    padding: 3px;
+}
+
+.main-content > img {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.container {
+    max-width: 72%;
+    margin: auto;
+    height: 300px;
+}
+
+.container-content {
+    display: flex;
+    flex-wrap: row nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+
+    border: dashed green 3px;
+    margin: auto;
+    height: inherit;
+}
+
+.container-content > div {
+    border: dashed darkred 3px;
+    max-height: 300px;
+    max-width: 200px;
+    align-content: center;
+    justify-content: center;
+
+    padding: 2px;
+    margin: inherit;
+}
+
+.container-item > img {
+    margin: auto;
+}
+
+footer {
+    margin: 3%;
+    background-color: slategrey;
+}
