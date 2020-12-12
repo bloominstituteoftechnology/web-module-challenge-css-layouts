@@ -70,3 +70,21 @@ a {
     background-color: red;
    
 }
+
+.footer{
+    background: grey;
+    display: flex;
+    flex-flow: column;
+}
+
+.footer h2{
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.footer a{
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
