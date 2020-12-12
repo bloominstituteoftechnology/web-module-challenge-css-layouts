@@ -48,5 +48,14 @@ a {
 .about img{
     width: 400px;
     height: 100%;
-    margin-right: 50px;
+    margin-right: 20px;
 }
+.about p{
+    align-content: flex-start;
+}
+
+.projects{
+    display: flex;
+    background-color: grey;
+}
+
