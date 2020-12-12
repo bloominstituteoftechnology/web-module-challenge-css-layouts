@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
@@ -8,17 +9,12 @@ body {
 }
 
 body > h1 {
-    background-color: ghostwhite;
     max-width: 50%;
     margin: auto;
     padding: 1%;
-    border: dotted green 3px;
 }
 
 nav {
-    background-color: grey;
-    border: dotted purple 3px;
-    
     max-width: 63%;
     align-items: center;
     margin: auto;
@@ -27,7 +23,6 @@ nav {
 
 nav > div {
     max-width: 100%;
-    border: dotted grey 3px;
 
     display: flex;
     justify-content: space-between;
@@ -44,15 +39,18 @@ nav > div {
 }
 
 .intro {
-    border: dotted orange 3px;
     width: 66%;
     margin: auto;
     padding: 3%;
     font-size: 2rem;
 }
 
+.intro a {
+    color: orangered;
+    text-decoration: none;
+}
+
 .main-content {
-    border: dotted purple 3px;
     background-color: sienna;
     max-width: 72%;
     margin: auto;
@@ -71,30 +69,29 @@ nav > div {
 .container {
     max-width: 72%;
     margin: auto;
-    border: dotted blue 12px;
     height: 300px;
 }
 
 .container-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: row nowrap;
     align-content: center;
     justify-content: space-evenly;
 
     border: dashed green 3px;
     margin: auto;
-    height: 300px;
+    height: inherit;
 }
 
 .container-content > div {
     border: dashed darkred 3px;
-    max-height: 150px;
+    max-height: 300px;
+    max-width: 200px;
     align-content: center;
     justify-content: center;
 
     padding: 2px;
-    max-height: inherit;
+    margin: inherit;
 }
 
 .container-item > img {
@@ -102,6 +99,6 @@ nav > div {
 }
 
 footer {
-    margin: auto;
+    margin: 3%;
     background-color: slategrey;
 }
