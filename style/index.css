@@ -59,18 +59,20 @@ a:visited{
     align-content: flex-start;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.tiles{
-    padding: 80px;
-    margin: 10px;
-    border: solid 1px blue;
+.projects img{
+    width: 260px; 
+    height: 260px;
+    object-fit: cover;
+    margin-top: 20px;
 }
+
 
 .footer{
     display: flex;
@@ -88,4 +90,5 @@ a:visited{
     padding: 20px;
     margin: auto;
 }
+
 
