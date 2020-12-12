@@ -1,1 +1,28 @@
-/* Add CSS styling here */
+a{
+    font-size:100px;
+}
+.main-container{
+    display:flex;
+border: red solid 2px;
+width:100%;
+justify-content: space-between;
+}
+
+.me{
+border:red solid 2px;
+}
+
+.proj1{
+    border:red solid 2px;
+}
+
+.proj2{
+    border:red solid 2px;
+}
+
+.proj3{
+    border:red solid 2px;
+}
+.proj4{
+    border:red solid 2px;
+}
