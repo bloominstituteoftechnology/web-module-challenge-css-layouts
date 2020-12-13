@@ -1,1 +1,36 @@
 /* Add CSS styling here */
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    width: 60px;
+    justify-content: center;
+}
+
+.images{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+div{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottombutton{
+    justify-content: center;
+    display: flex;
+
+}
+
+p{
+    justify-content: center;
+    display: flex;
+}
