@@ -1,1 +1,169 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    font-size: 10px;
+}
+/* CSS for the top options */
+
+
+
+h1 {
+    font-family: Roboto Mono;
+    font-size: 6rem;
+    Padding: 3%;
+    background-color: darkcyan;
+    /* border: 4px solid red; */
+}
+ 
+.menu {
+    /* border: 4px solid red; */
+    display: flex-start;
+    font-family: Roboto Mono;
+    padding: 2%;
+    justify-content: space-around;
+    font-family: Roboto Mono;
+    font-size: 5rem;
+    background-color: darkcyan;
+}
+
+button {
+    font-size: 4rem;
+    background-color:skyblue;
+    padding: 1% 2%;
+    border-radius: 25%;
+}
+
+/* CSS for the body */
+
+/* CSS for the header */
+
+header {
+    display: flex;
+}
+
+.zerah {
+    border-radius: 20%;
+    margin: 15%;
+    border: 20px dotted rgb(96, 192, 192);
+    height: auto;
+    opacity: 90%; 
+    max-width: 100%;
+}
+
+
+.name {
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 9rem;
+    padding: 2%;
+    margin-left: 20%;
+    padding-top: 10%;
+    max-width: 100;
+    font-family: Roboto Mono;
+    font-style: unset;
+}
+
+.p1 {
+    /* border: 4px solid red; */
+    font-size: 4rem;
+    text-align: center;
+    font-family: Roboto Mono;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2%;
+    line-height: normal;
+    font-weight: bolder;
+    display: block;
+}
+
+
+.project-pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 2%;
+    flex-wrap: wrap;
+    /* border: 3px solid red; */
+}
+
+.zpic {
+    /* max-width: 20%;
+    max-height: 25%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 1%;
+}
+
+
+/* CSS for the footer */
+
+.information {
+    font-family: Roboto Mono;
+    font-size: 5rem;
+    padding: 2%;
+    line-height: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
