@@ -5,7 +5,7 @@
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifgit;
 }
-#body {
+body {
   background-image: url("img/road-1072823.jpg");
 
   background-repeat: no-repeat;
