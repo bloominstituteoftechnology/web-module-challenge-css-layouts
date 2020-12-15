@@ -1,10 +1,26 @@
 h2 {
     border-style: solid;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
     color:black;
     font-size: 20px;
+    display:flex;
+    flex-direction: row-reverse;
+    flex: 1;
+
+}
+
+.mainTitle {
+    flex: 1;
+    
+}
+
+.dots {
+    display:flex;
+    flex-flow: wrap;
+    /* align-self:flex-start; */
+    /* flex-direction: row-reverse; */
 
 }
 
