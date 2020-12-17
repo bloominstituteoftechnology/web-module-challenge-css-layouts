@@ -190,7 +190,10 @@ nav ul a:hover {
 .contact:hover {
   background-color: grey;
 }
-@media (max-width: 600px) {
+.topPic img {
+  width: 100%;
+}
+@media (max-width: 670px) {
   .topPic img {
     width: 100%;
   }
