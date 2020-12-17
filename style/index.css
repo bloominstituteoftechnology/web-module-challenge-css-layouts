@@ -28,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    /* background-color: tan; */
+    line-height: 1;
+    color: #945555;
 }
 ol, ul {
 	list-style: none;
@@ -88,10 +90,6 @@ a:hover {
     display: flex;
     margin: 20px;
     padding: 15px;
-
-
-
-
 }
 
 /******* Main Section Styles *******/
@@ -99,9 +97,7 @@ a:hover {
     /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-    
-   
+    margin: 20px;    
 }
 
 .main-image {
@@ -115,7 +111,7 @@ a:hover {
     justify-content: flex-end;
     width: 400px;
     margin-right: 120px;
-    padding: 45px;
+    padding-top: 75px;
 }
 
 h2 {
@@ -125,8 +121,9 @@ h2 {
 }
 
 .main-paragraph p {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    line-height: 30px;
 }
 
 
@@ -141,24 +138,132 @@ h2 {
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+span {
+    display: inline-block;
+    /****??? - How do I get text to show - ???***/
+
 }
 
 
 /******* Footer Styles *******/
 
-.footer-container .like-me{
+.footer-container {
+    /* border: 1px solid black; */
     border-top: 1px solid black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
     
 }
 
-/* .contact-me-container {
-    border: 1px solid pink:
+.contact-me-container {
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    width: 25%
 }
 
 .like-me {
-    border: 1px solid orange;
-} */
+    /* border: 1px solid orange; */
+    margin: 0 auto;
+} 
+
+/****  Media Query Styles ****/
+
+@media (max-width: 800px)
+{
+    body {
+        /* background-color: orange; */
+      }
+
+      .nav-bar{
+        /* border: 1px solid green; */
+        display: flex;
+        margin: 20px;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .main-content-container {
+        /* border: 1px solid yellow; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+    }
+  
+    .main-right {
+        /* border: 1px solid purple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin-left: 15%;
+        padding-top: 75px;   
+    }
+   h2 button {
+       margin: 0 auto;
+       justify-content: center;
+        /****??? - How do I center this - ???***/
+   }
+    .gallery-container {
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 60px 60px 60px;
+        /* padding-right: 60px; */
+        align-content: center;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    body {
+        /* background-color: olive; */
+      }
+  
+  .nav-bar{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+.main-right {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-left: 15%;
+    padding-top: 75px;   
+}
+
+.main-paragraph {
+    margin: 0 auto;
+}
+
+.gallery-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 60px 60px 60px;
+}
+
+.boxes {
+    /* border: 5px solid red; */
+    width: 25px;
+    height: 25px;
+    /****??? - How do I size my boxes - ???***/
+}
+
+}
+
