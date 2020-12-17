@@ -94,3 +94,23 @@ p {
     background-color: #ccccff;
     color: black;
 }
+@media all and (max-width: 650px)
+{
+.part2 {
+    flex-direction: column;
+}
+.secondrow {
+    flex-direction: column;
+}
+.thirdrow {
+    flex-direction: column;
+}
+}
+@media all and (max-width: 370px)
+{
+    
+    .nav {
+        flex-direction: column;
+    }
+
+}
