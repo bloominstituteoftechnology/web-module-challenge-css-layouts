@@ -1,14 +1,17 @@
+<!-- I choose frame option 2 and took "mvp" literally -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
+    initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="style/index.css"/>
 </head>
 <body>
+<main>
 
+    <div class ="hide">
 <h2> 
     <mainTitle class="mainTitle" >Site Title</mainTitle>
     <div class="dots">
@@ -16,7 +19,7 @@
 width="75" height="25">
     </div>
 </h2>
-
+</div>
 <!--pretty stuck on this. I'm afraid I'm rather thick headed-->
 
 <topBox class="topBox">
@@ -27,9 +30,22 @@ width="75" height="25">
         <a href="contact.html">Contact</a>
         <a href="projects.html">Projects</a>
     </nav>
-    <img class="boxy" src="/assets/box.png" alt="A box.">
+
+    <div class="whateverclassnameyoulike">
+        <img class="boxy" src="/assets/box.png" alt="A box." 
+             style="width: 500px" 
+        onmouseover="this.src='assets/muchBg.png';" 
+        onmouseout="this.src='assets/MuchGif.gif';">
+
+        <p class="centered">MY NAME</p>
+    </div>
 </topBox>
 
+
+
+<div class ="gallery">
+    <img src="/assets/box.png" alt="A box." 
+    width="500" height="600">
 <img src="/assets/box.png" alt="A box." 
 width="500" height="600">
 <img src="/assets/box.png" alt="A box." 
@@ -40,8 +56,7 @@ width="500" height="600">
 width="500" height="600">
 <img src="/assets/box.png" alt="A box." 
 width="500" height="600">
-<img src="/assets/box.png" alt="A box." 
-width="500" height="600">
+</gallery>
 
 <footer>
     <a class="contact" href="contact.html">Contact Me</a>
@@ -51,5 +66,6 @@ width="40" height="40">
     </a>
 </footer>
 
+</main>
 </body>
 </html>

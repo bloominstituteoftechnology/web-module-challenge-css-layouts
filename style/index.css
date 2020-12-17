@@ -1,3 +1,60 @@
+/* Day2 */
+@media (max-width: 800px) and (min-width: 500px) {
+    h3 {
+        font-size: 400%;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    head {
+        color: pink;
+    }
+    .gallery {
+    display:flex;
+    flex-basis: auto;
+    }
+    nav {
+    padding: 2%;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;;
+    }
+    a {
+        margin: -1px;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+.whateverclassnameyoulike {
+    position: relative;
+    text-align: center;
+    transition: width 2s;
+}
+
+.whateverclassnameyoulike .centered {
+    top: 28%;
+    left: 33%;
+    position: absolute;
+    font-size: 50px;
+    transition: width 2s;
+}
+
+nav a:hover {
+    color: white;
+    background-color:black;
+}
+
+/* iPhone: 360×640
+ Laptop: 1366×768
+ Widescreen: 1920×1080 */
+
+/* Add accessability features to your webpage 
+Design should closely follow the mobile wireframe given for your chosen layout */
+
+
+/* Day1 */
 h2 {
     border-style: solid;
     text-align: center;
