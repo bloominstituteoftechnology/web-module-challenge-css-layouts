@@ -1,0 +1,102 @@
+html, body{
+    height: 100%
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    line-height: 1.4;
+    color:navy;
+    font-size: 2em;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: start;
+    padding: 10px 10px 10px 10px;
+    }
+
+.container header nav a{
+    margin: 15px;
+    color: seashell;
+    border: 1px solid white;
+    font-size: 1.1em;
+}
+
+.start1{
+    width: 80%;
+    padding-left: 100px;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 50;
+}
+
+
+button{
+    background-color: rgb(212, 226, 236);
+    color: navy;
+    font-size: 2em;
+    border-radius: 15px;
+    
+}
+
+  
+a:hover {
+    background-color: lightgreen;
+    }
+ 
+
+header{
+    background-color: navy
+    }
+
+
+h1{ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: seashell;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+p{
+    padding-top: 150px;
+    border-bottom: 4px dotted blue;
+    width: 2000px;
+    margin-right: 50px;
+
+}
+
+.flex-container{ 
+    display: inline-block;
+    width: 100%;
+    flex-flow:row-reverse;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    height: 300px;
+
+    
+    
+    
+}
+
+.flex-container img{
+    margin: 10px;
+    margin-left: 50px;
+    max-width: 25%;
+    height: auto;
+    
+}
+
+.last img{
+    margin-left: 560px;
+}
