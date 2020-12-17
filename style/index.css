@@ -25,16 +25,26 @@ body{
     }
 
     .nav-btn{
-        height: 20px;
-        width: 80px;
         text-align: center;
     }
 
     .about{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
     }
+
+    .my-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    
+    
+
    
 }
 
@@ -74,7 +84,6 @@ nav{
 
 .nav-btn{
     padding: 2%;
-    font-size: 1em;
     border: 2.5px solid #FCCC76;
     border-radius: 8px;
     
