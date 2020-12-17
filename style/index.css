@@ -12,18 +12,21 @@ body {
     flex-direction: column;
     width: 40%;
     height: 20%;
+    /*background-color: darkkhaki;*/
+    padding: 10px;
 }
 ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
     justify-content: space-around;
+    list-style: none;
 }
 
 a {
     color: white;
     font-size: 23px;
     text-decoration: none;
+    padding: 10px;
 }
 h1 {
     display: flex;
@@ -100,4 +103,33 @@ h3 {
 p {
     font-family: 'ubuntu';
     color: wheat;
+}
+@media all and ( max-width : 650px) 
+{
+body {
+    background-color: darkkhaki;
+}
+.authentic {
+    flex-direction: column;
+}
+.second-row {
+    flex-direction: column;
+}
+.third-row {
+    flex-direction: column;
+}
+}
+@media all and (max-width:370px)
+{
+    body {
+        background-color: #a5694f;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+    } 
+        }
+    }
 }
