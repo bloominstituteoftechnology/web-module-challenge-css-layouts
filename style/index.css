@@ -6,7 +6,9 @@
 
 .container-header{
     display:flex;
+    flex-direction: row;
    justify-content: center;
+
    font-family: 'Langar',
    cursive;
    ;
@@ -29,12 +31,13 @@ img{
 nav{
 display:flex;
 justify-content: center;
-/* border: 1px solid:black; */
 margin: 20px;
 border-radius: 40px;
 background-color: yellow;
 }
-nav a {
+nav a{
+    Display: flex;
+    justify-content: space-between;
     margin:10px;
     border: 1px;
     text-decoration: none;
@@ -80,4 +83,15 @@ h2{
     border-radius:25%;
     
 }
-@media(max-width)
+@media(max-width: 800px) {
+    .heading{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}
