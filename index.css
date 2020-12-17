@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 html, body{
     height: 100%
     font-family: 'Roboto', sans-serif;
@@ -7,6 +59,7 @@ p{
     line-height: 1.4;
     color:navy;
     font-size: 2em;
+    
 }
 
 .container{
@@ -23,17 +76,18 @@ p{
 
 .container header nav a{
     margin: 15px;
-    color: seashell;
+    background-color: white;
+    color: navy;
     border: 1px solid white;
     font-size: 1.1em;
 }
 
 .start1{
     width: 80%;
-    padding-left: 100px;
+    padding-left: 0px;
     text-align: center;
-    padding-top: 100px;
-    margin-left: 50;
+    padding-top: 50px;
+    margin-left: 50px;
 }
 
 
@@ -42,7 +96,7 @@ button{
     color: navy;
     font-size: 2em;
     border-radius: 15px;
-    
+    margin-left: 280px;
 }
 
   
@@ -52,7 +106,8 @@ a:hover {
  
 
 header{
-    background-color: navy
+    background-color: navy;
+    height
     }
 
 
@@ -61,6 +116,8 @@ h1{
     color: seashell;
     font-size: 1.5em;
     padding-left: 10px;
+    margin-bottom: 10px;
+    
 }
 
 h2{
@@ -69,10 +126,11 @@ h2{
 
 
 p{
-    padding-top: 150px;
-    border-bottom: 4px dotted blue;
-    width: 2000px;
+    padding-top: 70px;
+    width: 400px;
     margin-right: 50px;
+    float:right;
+    padding-right: 75px;
 
 }
 
@@ -81,7 +139,7 @@ p{
     width: 100%;
     flex-flow:row-reverse;
     flex-wrap: wrap;
-    padding-top: 200px;
+    padding-top: 100px;
     height: 300px;
 
     
@@ -99,4 +157,29 @@ p{
 
 .last img{
     margin-left: 560px;
+}
+
+footer{
+    background-color: navy;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+ h3{
+    color: seashell;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+button{
+    float: right;
+    margin-right: 450px;
+    font-size: 25px;
+    margin-bottom: 150px;
+    
+    color:mediumblue;
+    border: yellow:
+    
 }
