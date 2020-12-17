@@ -89,3 +89,110 @@ body {
     background-color: rgb(48, 39, 48);
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+
+
+@media all and (max-width: 800px) {
+
+    .header-container {
+        text-align: left;
+    }
+
+    nav {
+        display: flex;
+        height: 2px;
+        width: 2px;
+        margin-right: 20%;
+        justify-content: flex-start;
+    }
+
+    nav a {
+        display: flex;
+        margin: 2%;
+        padding: 1px;
+    }
+
+    #img-bio-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #img-bio-container img {
+        height: 200px;
+        width: 300px;
+    }
+
+    #projects .things {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2% 1%;
+       
+    }
+
+    #project img .things img {
+        margin: 5%;
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width : 500px) {
+
+    .header-container {
+        text-align: center;
+        
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 3px;
+        width: 3px;
+        margin: 0;
+        
+    }
+
+    nav a {
+        width: .5%;
+        height: .5%;
+        margin: 1%;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    #img-bio-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        
+    }
+
+    
+
+    #img-bio-container img {
+        width: 250px;
+        height: 150px;
+    }
+
+    #projects, .things {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2% 1%;
+       
+    }
+    
+    #projects img, .things img {
+         margin: 2% 0;
+       
+    }
+
+
+}
