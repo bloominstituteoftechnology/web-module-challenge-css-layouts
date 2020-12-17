@@ -6,27 +6,23 @@ body{
     flex-flow: column;
     justify-content: space-between;
 }
-@media (max-width: 460px){
+@media all and (max-width: 460px){
     .my-name a{
         font-size: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
-    .nav-btn, .tabs{
-        display: flex;
-        flex-direction: column;
-        
-
-    }
-
     .about{
         display: flexbox;
         flex-direction: column;
         flex-wrap: wrap;
     }
+    nav{
+        flex-direction: column;
+    }
 }
+
 a{
     color: #000;
     text-decoration: none;
@@ -55,7 +51,8 @@ a:visited{
     font-weight: 400;
     letter-spacing: 1px;
 }
-.tabs{
+
+nav{
    display: inline-flex;
    flex-direction: row;
    justify-content: space-around;
