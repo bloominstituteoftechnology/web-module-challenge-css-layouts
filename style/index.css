@@ -9,17 +9,25 @@ body{
 
 /* smart phone size */
 @media all and (max-width: 460px){
-    .my-name a{
-        font-size: 50px;
+    .my-name{
+        font-size: 40px;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
+    
 
-    nav{
+    .top-nav nav{
         display: flex;
         flex-direction: column;
-        background-color: red;
+        margin: auto;
+        align-items: center;
+    }
+
+    .nav-btn{
+        height: 20px;
+        width: 80px;
+        text-align: center;
     }
 
     .about{
@@ -46,16 +54,17 @@ a:visited{
     padding: 20px;
     margin-bottom: 20px;
     height: 140px;
+    
 }
 nav{
-    display: inline;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
  }
  
 .my-name{
     font-size: 2.2em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 10px;
 }
 .my-info p{
@@ -64,8 +73,8 @@ nav{
 }
 
 .nav-btn{
-    padding: 15px 25px 15px 25px;
-    font-size: 1.2em;
+    padding: 2%;
+    font-size: 1em;
     border: 2.5px solid #FCCC76;
     border-radius: 8px;
     
