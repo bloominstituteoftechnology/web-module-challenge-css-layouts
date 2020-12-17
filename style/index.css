@@ -64,7 +64,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 line-height: 1.5;
 }
 .pagehead {
-  text-align: left ;
+  text-align: center ;
 }
 h1 {
   font-size: 3em;
@@ -87,8 +87,8 @@ h1 {
 }
 .header-name nav li{
   
-  border: 10px solid lightgray;
-  padding: 5px;
+  border: 1em solid rgb(19, 4, 4);
+  padding: 0.5em;
   
   
   color: blue;
@@ -118,10 +118,10 @@ font-weight: 600;
 }
 
 h3 {
-  font-size:30px;
+  font-size:5rem;
 }
 h4{
-  font-size:30px;
+  font-size:1em;
   text-align:center;
   
 }
@@ -136,7 +136,7 @@ button{
   background-color: orange; 
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: auto;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -145,5 +145,40 @@ button{
 a:hover, button:hover {
   background-color: rgb(163, 31, 82);
 }
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+
+  .header-name nav ul {
+  flex-direction: column;
+  text-align: center;
+    margin:auto;
+    padding:0 6em;
+  }
+  }
+    @media only screen and (max-width: 500px) {
+      .summary {flex-direction:column;
+      padding:2em;}
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .header-name {text-align:center;}
+    }
+     @media only screen and (max-width: 500px) {
+       .portfolio-container{justify-content:space-evenly;
+       padding:0.5em;}
+    }
+    @media only screen and (max-width: 800px) {
+      .summary h3{font-size:2.5em;}
+         }
+  .summary {
+    padding:01em;
+  }
+  
+  .portfolio-container{
+    padding:0.5em;
+  }
+  
+
+
 
 
