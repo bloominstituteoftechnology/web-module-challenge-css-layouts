@@ -6,11 +6,32 @@ body{
     flex-flow: column;
     justify-content: space-between;
 }
+@media (max-width: 460px){
+    .my-name a{
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    .nav-btn, .tabs{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .about{
+        display: flexbox;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 a{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+
 }
 a:visited{
     color: none;
