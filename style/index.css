@@ -78,7 +78,7 @@ p {
     width: 25%;
 }
 
-
+ 
 @media (max-width: 650px) {
     #lowertext {
         width: 100%;
