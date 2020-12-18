@@ -118,3 +118,35 @@ footer{
 	text-align: center;
 	background-color: gray;
 }
+@media (min-width: 370px) and (max-width: 800px){
+ header{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-content: flex-start;
+}
+ .building{
+	 max-width: 100%;
+	 height: auto;
+ }
+ .myName{
+	 display: flex;
+	 flex-direction: column;
+ }
+ figcaption{
+	 display: inline;
+	 padding: 2%;
+ }
+ .flex-pic1{
+	 display: flex;
+	 flex-flow: row wrap;
+	 justify-content: space-evenly;
+	 margin-left: 2%;
+ }
+ .flex-pic2{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	margin-left: 2%;
+ }
+}
