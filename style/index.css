@@ -184,3 +184,85 @@ button{
     border: yellow:
     
 }
+
+
+
+
+@media all and ( max-width : 800px)  
+{
+
+    header {
+        width: 600px;
+        margin: 60px;
+    }     
+    
+    header nav {
+        
+        
+        float: right;
+
+    .container{
+        border-style: border-box;
+        margin: auto;
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+    
+        }
+
+    img{
+        width: 150px;
+        height: 200px;
+        style: float-left; 
+         margin-right: 200px;
+         
+    }
+
+    .top-content {
+        padding-top: 20px;
+        text-align: center;
+        display: inline-flex;
+    
+    }
+
+    .bottom-content{
+        display: inline-flexbox;
+        justify-content: space-evenly;
+        background-color: #F9E7DC;
+        height: 100px;
+    }
+
+
+    
+
+        @media all and ( max-width : 500px)
+    {
+
+    
+    header{
+        background-color: lightgreen;
+    }
+    
+    
+    .container{
+
+        flex-flow: wrap-reverse;
+
+        
+        font-size: 10x;
+        text-align: left;
+      }
+
+
+    .top-content{
+        padding-top: 20px;
+        text-align: start;
+    
+    }
+
+    .bottom-content{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #F9E7DC;
+        height: 100px;
+    }
