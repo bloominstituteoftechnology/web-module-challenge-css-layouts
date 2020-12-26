@@ -214,7 +214,7 @@ color:white;
 }
 
 
-.fa-snapchat-ghost {
+.fa-github {
   background: red;
   color: black;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -222,7 +222,7 @@ color:white;
   
 }
 
-.fa-snapchat-ghost:hover {
+.fa-github:hover {
   color:white;
 }
 
