@@ -50,8 +50,7 @@ body{
     }
 
     .projects img{
-        width: 50%;
-        height: 50%;
+        
     }
     
 
@@ -122,8 +121,8 @@ nav{
 }
 
 .projects img{
-    width: 260px;
-    height: 260px;
+    /*width: 260px;
+    height: 260px;*/
     
 }
 
