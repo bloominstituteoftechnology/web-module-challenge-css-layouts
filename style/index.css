@@ -425,7 +425,7 @@ hr.solid{
     }
     .dropDown-Content a:hover{
         background-color: beige;
-        color:black
+        color:black;
         display: inline-block;
     }
 

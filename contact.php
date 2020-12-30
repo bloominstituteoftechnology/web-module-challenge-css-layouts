@@ -16,7 +16,64 @@ if(isset($_POST["submit"])) {
  
 
    mail($recipient, $subject, $text, $header);
-   header("Location: index.html?mailsent");
+   echo "Contact form sent, I will be reaching out to you soon! Thank you.";
    
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+
+<h1>Contact Me</h1>
+
+ <div id="cc">
+
+
+<form id="cf" action="contact.php">
+
+    
+    <div id="fname">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Enter your first name...">
+</div>
+
+<div id="lname">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
+</div>
+
+<div id="email">
+<label for="email">Email</label>
+<input type="text" id="email" name="email" placeholder="Enter your email...">
+</div>
+
+<label for="subject">Subject</label>
+<select id="subject" name="subject">
+    <option value="Website Build">Website Build</option>
+    <option value="Program/App Build">Program/App Build</option>
+    <option value="Feedback">Feedback</option>
+    <option value="Team Up!">Team Up!</option>
+    <option value="Information Request">Information Request</option>
+   
+</select>
+
+<input type="submit" value="Submit">
+
+
+
+
+
+</form>
+</div>
+
+
+    
+</body>
+</html>
