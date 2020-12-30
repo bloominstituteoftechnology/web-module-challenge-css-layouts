@@ -71,6 +71,31 @@ if(isset($_POST["submit"])) {
 
 
 </form>
+
+<form id="webbuild">
+<!-- Need fields for the type of website, what type of content will be shared on the site, what features will be how many pages,  -->
+
+</form>
+
+<form id="prap">
+
+
+</form>
+
+<form id="feed">
+
+
+</form>
+
+<form id="team">
+
+
+</form>
+
+<form id="info">
+
+
+</form>
 </div>
 
 
