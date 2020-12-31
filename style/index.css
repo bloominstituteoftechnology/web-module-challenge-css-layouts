@@ -46,7 +46,7 @@ nav {
   text-align: center;
   padding: 19px 30px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -95,7 +95,7 @@ pz8 {
 .pz-container-about {
  
   font-family:Berkshire Swash;
-  font-size:1px;
+  font-size:20px;
   display:flex;
   margin:5px auto;
   padding:10px;
@@ -107,10 +107,10 @@ pz8 {
   
 }
 
-pz-about {
+.pz-about {
   margin:0 auto;
   padding:0;
-  font-size:20px;
+  font-size:5px;
 }
 
 .pz-container-contact {
@@ -294,15 +294,27 @@ ul3 {
  h1 {
     font-size:30px;
   }
+
+  .topnav { 
+    font-size:5px;
+
+    word-spacing: 10px;
+  }
   
   .container {
     margin:auto;
    
   }
   
-  pz {
+  
+  .pz-container-about {
+    margin:30px :
+    height:400px;;
+    padding: 40px;
     font-size:20px;
   }
+
+  
   
   .projects {
     font-size:19px;
@@ -323,6 +335,19 @@ ul3 {
   
   @media only screen and (max-width:860px){
     
+    .topnav { 
+      font-size:5px;
+      word-spacing: 10px;
+    }
+
+    .pz-container-about {
+      margin:30px :
+      height:400px;;
+      padding: 40px;
+      font-size:15px;
+    }
+  
+
     .bottom2 {
       display:none;
     }
@@ -330,32 +355,25 @@ ul3 {
 
  
     @media only screen and (max-width: 700px){
-  
+      .topnav { 
+        font-size:5px;
+        word-spacing: 10px;
+      }
  
   h1 {
     font-size:19px;
   }
   
-   .button-area {
-     justify-content:center;
-  padding:0px;
-  margin-left:15%;
-  margin-right:3%;
-}
+  
       
   li {
     font-size: 14px;
     width:80px;
     
   }
-  
-   pz {
-    font-size: 20px;
+  .nav {
+    font-size:10px;
   }
-  
-   ul3 {
-        font-size: 16px;
-      }
       
       
       .projects {
@@ -367,7 +385,7 @@ margin-right:10px;
    
  header {
   padding:0px;
-  border:10px solid black;
+  
   width:auto;
 }
   
@@ -384,3 +402,24 @@ margin-right:10px;
     .pic {
       margin:2px;
     }
+
+    @media only screen and (max-width: 500px){
+      .nav { 
+        
+        border: 1px solid;
+        
+      }
+
+      .topnav {
+        height: 50px;
+        font-size: 20px;
+        margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: auto;
+
+      }
+     .pz-about{
+
+     font-size:5px;
+     }
