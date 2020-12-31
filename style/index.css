@@ -411,12 +411,12 @@ margin-right:10px;
       }
 
       .topnav {
-        height: 50px;
-        font-size: 20px;
+        height: 150px;
+        font-size: 10px;
         margin: 0;
   padding: 0;
   width: 100%;
-  overflow: auto;
+  
 
       }
      .pz-about{
