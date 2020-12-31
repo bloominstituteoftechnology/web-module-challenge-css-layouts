@@ -290,6 +290,12 @@ ul3 {
 
 
 @media only screen and (max-width: 1100px) {
+
+ header {
+    padding:0px;
+    
+    width:auto;
+  }
   
  h1 {
     font-size:30px;
@@ -334,6 +340,12 @@ ul3 {
   
   
   @media only screen and (max-width:860px){
+
+    header {
+      padding:0px;
+      
+      width:auto;
+    }
     
     .topnav { 
       font-size:5px;
@@ -410,6 +422,13 @@ ul3 {
     }
 
     @media only screen and (min-width: 400px){
+
+      header {
+        padding:0px;
+        
+        width:auto;
+      }
+
       .nav { 
         
         border: 1px solid;
@@ -424,8 +443,8 @@ ul3 {
         height: 50px;
         font-size: 5px;
         margin: 0;
-  padding: 0;
-  width: 100%;
+        padding: 0;
+        width: 100%;
   
 
       }
