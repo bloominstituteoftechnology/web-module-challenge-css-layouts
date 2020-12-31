@@ -356,23 +356,16 @@ ul3 {
  
     @media only screen and (max-width: 700px){
       .topnav { 
-        font-size:5px;
-        word-spacing: 10px;
+        font-size:8px;
+        word-spacing: 5px;
       }
  
   h1 {
     font-size:19px;
   }
   
-  
-      
-  li {
-    font-size: 14px;
-    width:80px;
-    
-  }
   .nav {
-    font-size:10px;
+    font-size:7px;
   }
       
       
