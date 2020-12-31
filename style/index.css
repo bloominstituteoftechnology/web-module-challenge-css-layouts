@@ -403,7 +403,7 @@ margin-right:10px;
       margin:2px;
     }
 
-    @media only screen and (max-width: 500px){
+    @media only screen and (max-width: 400px){
       .nav { 
         
         border: 1px solid;
