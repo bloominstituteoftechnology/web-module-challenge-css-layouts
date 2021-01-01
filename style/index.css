@@ -385,7 +385,7 @@ ul3 {
   }
   
   nav {
-  
+    overflow: hidden;
     width: auto;
   }
       
@@ -439,12 +439,9 @@ ul3 {
       }
 
       nav { 
-        
+        overflow: hidden;
         width:auto;
-        border: 1px solid;
-
-        
-        
+      
       }
       a {
         padding:0px;
