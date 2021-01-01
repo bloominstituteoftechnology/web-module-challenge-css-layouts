@@ -29,13 +29,14 @@ h1 {
 
 nav {
   height:100px;
+  width: auto;
  
 }
 
 
 .topnav {
   background-color:#EAB4CF;
-  overflow: hidden;
+  overflow:;
   font-family:Berkshire Swash;
   word-spacing: 0px;
  
@@ -143,7 +144,7 @@ pz-contact {
   border:2px solid black;
   margin:0 auto;
   padding:0;
-  font-size:45px;
+  font-size:35px;
   text-align:center;
  
 }
@@ -317,7 +318,7 @@ ul3 {
 
   .topnav { 
     font-size:5px;
-    word-spacing: 10px;
+   
   }
   
   .container {
@@ -361,12 +362,12 @@ ul3 {
     }
 
     nav {
-      width:100%;
+      width:auto;
     }
     
     .topnav { 
       font-size:5px;
-      word-spacing: 10px;
+    
     }
 
     .pz-container-about {
@@ -386,7 +387,7 @@ ul3 {
     @media only screen and (max-width: 700px){
       .topnav { 
         font-size:2px;
-        word-spacing: 5px;
+       
       }
  
   h1 {
@@ -395,7 +396,7 @@ ul3 {
   
   nav {
     overflow: none;
-    width:100%;
+    width:auto;
     
   }
       
@@ -450,7 +451,7 @@ ul3 {
 
       nav { 
         overflow: none;
-        width:100%;
+        width:auto;
       
       }
       a {
