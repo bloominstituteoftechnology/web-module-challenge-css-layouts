@@ -30,17 +30,19 @@ h1 {
 nav {
   height:50px;
   width: auto;
-  overflow: visible;
+  overflow:none;
 
  
 }
 
 
 .topnav {
-  background-color:#EAB4CF;
-  overflow:hidden;
+  background-color:#e11d7f;
+  overflow:none;
   font-family:Berkshire Swash;
-  word-spacing: 0px;
+  width:100%;
+  background: none;
+  
  
   
   
@@ -319,6 +321,7 @@ ul3 {
   }
 
   .topnav { 
+    overflow: none;
     font-size:5px;
    
   }
@@ -369,6 +372,7 @@ ul3 {
     
     .topnav { 
       font-size:5px;
+      overflow:none;
     
     }
 
@@ -387,8 +391,9 @@ ul3 {
 
  
     @media only screen and (max-width: 700px){
-      .topnav { 
+      topnav { 
         font-size:2px;
+        overflow:none;
        
       }
  
@@ -397,7 +402,7 @@ ul3 {
   }
   
   nav {
-    overflow: none;
+   
     width:auto;
     
   }
@@ -464,9 +469,10 @@ ul3 {
       .topnav {
         height: 50px;
         font-size: 5px;
-        margin: 0;
-        padding: 0;
+        margin:0;
+        padding:0;
         width: 100%;
+        overflow:none;
   
 
       }
