@@ -197,6 +197,7 @@ pz-contact {
 
 a {
   color:black;
+ 
 }
 a:hover {
   color:red;
@@ -307,7 +308,6 @@ ul3 {
 
   .topnav { 
     font-size:5px;
-
     word-spacing: 10px;
   }
   
@@ -352,7 +352,7 @@ ul3 {
     }
 
     nav {
-      width: auto;
+      width:100%;
     }
     
     .topnav { 
@@ -376,7 +376,7 @@ ul3 {
  
     @media only screen and (max-width: 700px){
       .topnav { 
-        font-size:8px;
+        font-size:2px;
         word-spacing: 5px;
       }
  
@@ -387,6 +387,7 @@ ul3 {
   nav {
     overflow: none;
     width:100%;
+    
   }
       
       
