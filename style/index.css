@@ -386,7 +386,7 @@ ul3 {
   
   nav {
     overflow: none;
-    width: auto;
+    width:100%;
   }
       
       
@@ -440,7 +440,7 @@ ul3 {
 
       nav { 
         overflow: none;
-        width:auto;
+        width:100%;
       
       }
       a {
