@@ -440,7 +440,9 @@ ul3 {
 
       nav { 
         font-size: 15px;
-        width:auto;
+        width:90%;
+        border: 1px solid;
+
         
         
       }
