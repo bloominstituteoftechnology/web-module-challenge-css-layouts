@@ -29,6 +29,7 @@ h1 {
 
 nav {
   height:100px;
+ 
 }
 
 
@@ -36,6 +37,8 @@ nav {
   background-color:#EAB4CF;
   overflow: hidden;
   font-family:Berkshire Swash;
+  word-spacing: 0px;
+ 
   
   
 }
@@ -47,6 +50,7 @@ nav {
   padding: 19px 30px;
   text-decoration: none;
   font-size: 20px;
+ 
 }
 
 
@@ -346,6 +350,10 @@ ul3 {
       
       width:auto;
     }
+
+    nav {
+      width: auto;
+    }
     
     .topnav { 
       font-size:5px;
@@ -376,8 +384,9 @@ ul3 {
     font-size:19px;
   }
   
-  .nav {
-    font-size:7px;
+  nav {
+    
+    width: auto;
   }
       
       
@@ -429,9 +438,10 @@ ul3 {
         width:auto;
       }
 
-      .nav { 
+      nav { 
         
-        border: 1px solid;
+        width: auto;
+        
         
       }
       a {
