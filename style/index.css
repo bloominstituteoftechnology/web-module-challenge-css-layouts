@@ -108,6 +108,7 @@ pz8 {
   height:350px;
   width:60%;
    line-height:1.5; 
+   
   
 }
 
@@ -115,6 +116,7 @@ pz8 {
   margin:0 auto;
   padding:0;
   font-size:5px;
+
 }
 
 .pz-container-contact {
@@ -138,7 +140,7 @@ pz-contact {
   font-family:Berkshire Swash;
   width: 400px;
   height: 370px;
-  border:2px solid greenyellow;
+  border:2px solid black;
   margin:0 auto;
   padding:0;
   font-size:45px;
