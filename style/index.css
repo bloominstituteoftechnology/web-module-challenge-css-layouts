@@ -30,7 +30,7 @@ h1 {
 nav {
   height:50px;
   width: auto;
-  overflow: hidden;
+  overflow: visible;
 
  
 }
@@ -38,7 +38,7 @@ nav {
 
 .topnav {
   background-color:#EAB4CF;
-  overflow:;
+  overflow:hidden;
   font-family:Berkshire Swash;
   word-spacing: 0px;
  
