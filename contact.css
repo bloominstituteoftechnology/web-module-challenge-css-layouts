@@ -82,13 +82,26 @@ input[type=text]:hover{
     font-size: larger;
 }
 
-label{
-    display: none;
-}
+
   
 
 
 
 #fname, #lname, #email{
 width:100%;
+}
+
+.vf{
+width: 100%;
+position: relative;
+top: 5%;
+border: 1px red solid;
+margin-top:10%;
+background-color: rgba(120, 120, 196, 0.5);
+height: auto;
+
+}
+
+#timeline, #date{
+    margin-left:20px;
 }

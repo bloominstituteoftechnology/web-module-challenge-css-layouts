@@ -40,17 +40,17 @@ if(isset($_POST["submit"])) {
 
     
     <div id="fname">
-<label for="fname">First Name</label>
+
 <input type="text" id="fname" name="firstname" placeholder="Enter your first name...">
 </div>
 
 <div id="lname">
-<label for="lname">Last Name</label>
+
 <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
 </div>
 
 <div id="email">
-<label for="email">Email</label>
+
 <input type="text" id="email" name="email" placeholder="Enter your email...">
 </div>
 
@@ -64,7 +64,7 @@ if(isset($_POST["submit"])) {
    
 </select>
 
-<input type="submit" value="Submit">
+<input type="submit" value="submit">
 
 
 
@@ -72,33 +72,61 @@ if(isset($_POST["submit"])) {
 
 </form>
 
-<form id="webbuild">
+<form class="vf">
 <!-- Need fields for the type of website, what type of content will be shared on the site, what features will be how many pages,  -->
+<div class="fcontainer">
+    <label for="genre">Website Type</label>
+<select name="genre" class="">
+<option value=""> Market/Store </option>
+<option value="">Blog</option>
+<option value="">Business</option>
+<option value="">Promotional Sit</option>
+<option value="">Entertainment</option>
+<option value="">Informational</option>
+</select>
+
+
+
+<label for="timeline" id="timeline">Build Timeline</label>
+<input type="date" id="date" ></input>
+ 
+<label for="media">Do you have any media to bee uploaded?</label>
+<input type="checkbox" id="mediabox"></input>
+
+<label for="db">Will you need database integration? Check for yes.</label>
+<input type="checkbox" id="db"></input>
+
+<label for="ui" id="ui">Do you have a UI template?</label>
+<input type="checkbox" id="uibox"></input>
+
+
+
+</div>
+</form>
+
+<form class="vf">
+
 
 </form>
 
-<form id="prap">
+<form class="vf">
 
 
 </form>
 
-<form id="feed">
+<form class="vf">
 
 
 </form>
 
-<form id="team">
-
-
-</form>
-
-<form id="info">
+<form class="vf">
 
 
 </form>
 </div>
 
 
-    
+   <script src="contact.js"></script> 
+
 </body>
 </html>
