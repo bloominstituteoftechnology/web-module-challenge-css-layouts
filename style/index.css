@@ -124,18 +124,25 @@ pz8 {
   display:flex;
   margin:5px auto;
   padding:10px;
-  justify-content:center;
+  justify-content:right;
   align-items:center;
-  height:350px;
+  height:550px;
   width:60%;
    line-height:1.5;
+   border: 2px solid hotpink;
+   
   
 }
 
 pz-contact {
+  font-family:Berkshire Swash;
+  width: 400px;
+  height: 370px;
+  border:2px solid greenyellow;
   margin:0 auto;
   padding:0;
-  font-size:25px;
+  font-size:45px;
+  text-align:center;
  
 }
 
