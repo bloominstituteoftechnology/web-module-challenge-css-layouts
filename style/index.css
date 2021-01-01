@@ -128,7 +128,7 @@ pz8 {
   padding:10px;
   justify-content:right;
   align-items:center;
-  height:550px;
+  height:750px;
   width:60%;
    line-height:1.5;
    border: 2px solid hotpink;
@@ -139,7 +139,7 @@ pz8 {
 pz-contact {
   font-family:Berkshire Swash;
   width: 400px;
-  height: 370px;
+  height: 470px;
   border:2px solid black;
   margin:0 auto;
   padding:0;
