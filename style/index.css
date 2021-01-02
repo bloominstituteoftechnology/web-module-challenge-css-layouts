@@ -106,13 +106,14 @@ pz8 {
   font-family:Berkshire Swash;
   font-size:20px;
   display:flex;
-  margin:5px auto;
-  padding:10px;
+  margin:auto;
+  padding:100px;
   justify-content:center;
   align-items:center;
   height:350px;
   width:60%;
    line-height:1.5; 
+  
    
   
 }
@@ -121,24 +122,32 @@ pz8 {
   margin:0 auto;
   padding:0;
   font-size:5px;
+  justify-content:center;
 
 }
 
 .pz-container-contact {
  
   font-family:Berkshire Swash;
-  font-size:15px;
+  font-size:20px;
   display:flex;
-  margin:5px auto;
-  padding:10px;
-  justify-content:right;
+  margin:auto;
+  padding:100px;
+  justify-content:center;
   align-items:center;
-  height:750px;
+  height:350px;
   width:60%;
+   line-height:1.5; 
    line-height:1.5;
-   border: 2px solid hotpink;
+
    
   
+}
+
+.pz-container-projects {
+  height:500px;
+  margin:20px;
+  padding:50px;
 }
 
 pz-contact {
@@ -164,6 +173,7 @@ pz-contact {
   padding:0px;
   justify-content:center;
   font-family:berkshire swash;
+  
  
 }
 
