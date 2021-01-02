@@ -452,9 +452,15 @@ ul3 {
      
     }
 
+    .pz-contact {
+      width 100%;
+      padding:20;
+     border:2px solid;
+    }
+
     .pz-container-contact {
-      height: 500px;
-      width:40%;
+      height: 200px;
+      width:30%;
       
       
     }
