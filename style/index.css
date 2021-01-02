@@ -4,11 +4,6 @@
   text-decoration:none;
 }
 
-.button {
-  font-family:Berkshire Swash;
-  
-
-}
 
 header {
   display:flex;
@@ -88,14 +83,16 @@ nav {
   font-family:Berkshire Swash;
   font-size:25px;
   display:flex;
-  margin:5px auto;
+  margin:50px auto;
   padding:20px;
   justify-content:center;
   align-items:center;
   height:350px;
   width:60%;
    line-height:1.5;
- 
+   border:2px solid greenyellow;
+
+
   
 }
 
@@ -149,6 +146,19 @@ pz8 {
    line-height:1.5;
    border:2px solid black;
    
+}
+.button {
+  font-family:Berkshire Swash;
+  color:white;
+  background-color:red;
+  width:90px;
+  
+  
+
+}
+
+.clear {
+  width: 40px;
 }
 
 
