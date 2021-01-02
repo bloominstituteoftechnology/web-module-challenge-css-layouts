@@ -149,7 +149,7 @@ pz8 {
   height:500px;
   margin:20px;
   padding:50px;
-  border:2px solid yellow
+
 }
 
 pz-contact {
@@ -175,7 +175,7 @@ pz-contact {
   padding:0px;
   justify-content:center;
   font-family:berkshire swash;
-  border:2px solid yellow
+
   
  
 }
@@ -404,9 +404,10 @@ ul3 {
 
  
     @media only screen and (max-width: 700px){
-      topnav { 
+      .topnav { 
         font-size:2px;
         overflow:none;
+        
        
       }
  
@@ -415,8 +416,10 @@ ul3 {
   }
   
   nav {
-   
+ 
     width:auto;
+    height:100px;
+    text-align:center;
     
   }
       
@@ -462,6 +465,8 @@ ul3 {
     }
 
     .projects {
+
+
       
     }
 
@@ -510,11 +515,11 @@ ul3 {
     }
 
     .pz-container-projects {
-      border: 2px solid green;
+     
     }
 
     .projects {
-      border: 2px solid red;
+      
       justify-content:center;
       height:90px;
     }
