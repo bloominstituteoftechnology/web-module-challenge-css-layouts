@@ -465,8 +465,8 @@ ul3 {
     }
 
     .projects {
-      border:2px solid yellow;
-  width:100%;
+      
+        width:100%;
   
 
       
@@ -524,7 +524,7 @@ ul3 {
       
       justify-content:center;
       height:90px;
-      border:2px solid yellow;
+      
     }
 
 
