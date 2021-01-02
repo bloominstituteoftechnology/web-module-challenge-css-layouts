@@ -71,6 +71,7 @@ nav {
   height:350px;
   width:60%;
    line-height:1.5;
+ 
 
   
    
@@ -148,6 +149,7 @@ pz8 {
   height:500px;
   margin:20px;
   padding:50px;
+  border:2px solid yellow
 }
 
 pz-contact {
@@ -173,6 +175,7 @@ pz-contact {
   padding:0px;
   justify-content:center;
   font-family:berkshire swash;
+  border:2px solid yellow
   
  
 }
@@ -453,9 +456,13 @@ ul3 {
 
 
     .pz-container-projects {
-      height: 500px;
-      padding: 30px;
+      height: 650px;
+      padding: 0px;
      
+    }
+
+    .projects {
+      
     }
 
     @media only screen and (min-width: 400px){
@@ -501,4 +508,16 @@ ul3 {
       height: 500px;
      
     }
+
+    .pz-container-projects {
+      border: 2px solid green;
+    }
+
+    .projects {
+      border: 2px solid red;
+      justify-content:center;
+      height:90px;
+    }
+
+
 
