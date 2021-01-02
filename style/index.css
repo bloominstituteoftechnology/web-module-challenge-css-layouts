@@ -3,6 +3,12 @@
   background-color:#EAB4CF;
   text-decoration:none;
 }
+
+.button {
+  font-family:Berkshire Swash;
+
+}
+
 header {
   display:flex;
   padding:0px;
@@ -420,6 +426,7 @@ ul3 {
     width:auto;
     height:100px;
     text-align:center;
+    overflow:hidden;
     
   }
       
