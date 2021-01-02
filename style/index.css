@@ -6,6 +6,7 @@
 
 .button {
   font-family:Berkshire Swash;
+  
 
 }
 
@@ -146,10 +147,10 @@ pz8 {
   width:60%;
    line-height:1.5; 
    line-height:1.5;
-
+   border:2px solid black;
    
-  
 }
+
 
 .pz-container-projects {
   height:500px;
@@ -167,6 +168,7 @@ pz-contact {
   padding:0;
   font-size:35px;
   text-align:center;
+ 
  
 }
 
