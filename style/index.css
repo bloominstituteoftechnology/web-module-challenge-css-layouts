@@ -466,7 +466,8 @@ ul3 {
 
     .projects {
       border:2px solid yellow;
-
+  width:60%;
+  justify-content: center;
 
       
     }
