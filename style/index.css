@@ -354,12 +354,14 @@ ul3 {
   .pz-container-about {
     margin:30px :
     height:400px;;
-    padding: 40px;
+    padding: 20px;
     font-size:20px;
   }
 
   
-  
+  pz-contact {
+    border:20px solid;
+  }
   .projects {
     font-size:19px;
   }
