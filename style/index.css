@@ -455,6 +455,8 @@ ul3 {
     .pz-container-contact {
       height: 500px;
       width:60%;
+      justify-content: center;
+      border: 14px solid blueviolet;
       
     }
 
