@@ -85,8 +85,7 @@ nav {
   display:flex;
   margin:px auto;
   padding:5px;
-justify-content:center;
-  align-items:center;
+
   height:550px;
   width:100%;
    line-height:1.5;
@@ -168,18 +167,24 @@ pz8 {
   width: 40px;
 }
 
+pic {
+  width:250px;
+  height:250px;
+  border:2px solid;
+}
 
 .pz-container-projects {
-  height:500px;
+ 
   margin:20px;
   padding:50px;
+  width:auto;
 
 }
 
 pz-contact {
   font-family:Berkshire Swash;
   width: 400px;
-  height: 470px;
+  height: 500px;
   border:2px solid black;
   margin:0 auto;
   padding:0;
@@ -195,17 +200,35 @@ pz-contact {
 
 .projects {
   display:flex;
+  width:auto;
   font-size:25px;
   margin:0px;
   padding:0px;
   justify-content:center;
   font-family:berkshire swash;
 
+
   
  
 }
 
-.bottom1 {
+bottom1 {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin-left:5%;
+  margin-right:5%;
+  padding:10px;
+  height: 370px auto;
+  width:140px, auto;
+  justify-content: center;
+  align-items:space-between;
+  border:2px solid;
+
+   
+}
+
+bottom2 {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -215,34 +238,23 @@ pz-contact {
   height: 370px auto;
   justify-content: center;
   align-items:space-between;
-
-   
-}
-
-.bottom2 {
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  margin-left:5%;
-  margin-right:5%;
-  padding:10px;
-  height: 370px auto;
-  justify-content: center;
-  align-items:space-between;
+  width:auto;
+  border:2px solid;
 
    
 }
 
 
-.pic{
+pic{
  display:flex;
   flex-wrap: wrap;
   flex-direction:row;
   margin:0 auto;
+  width:40px, auto;
   padding:0px;
   height:00px
   justify-content:space-around;
-  border:5 px solid black; 
+
   
   
 }
