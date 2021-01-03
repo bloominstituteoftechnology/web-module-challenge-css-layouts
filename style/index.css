@@ -83,23 +83,30 @@ nav {
   font-family:Berkshire Swash;
   font-size:25px;
   display:flex;
-  margin:50px auto;
-  padding:20px;
-  justify-content:center;
+  margin:px auto;
+  padding:5px;
+justify-content:center;
   align-items:center;
-  height:350px;
-  width:60%;
+  height:550px;
+  width:100%;
    line-height:1.5;
-   border:2px solid greenyellow;
-
-
-  
+   align-content:center;
+   
 }
 
-pz-home {
-  margin:0 auto;
-  padding:0;
+img {
+  height:300px;
+  width:100%;
+  align-content:center;
+
+}
+.pz-home {
+  margin:10px auto;
+  padding:50px;
   font-size:32px;
+  height:300px;
+  width:100%;
+ 
 }
 
 pz8 {
