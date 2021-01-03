@@ -56,6 +56,7 @@ if(isset($_POST["submit"])) {
 
 <label for="subject">Subject</label>
 <select id="subject" name="subject">
+    <option value="holder">Select project type...</option>
     <option value="Website Build">Website Build</option>
     <option value="Program/App Build">Program/App Build</option>
     <option value="Feedback">Feedback</option>
@@ -77,6 +78,7 @@ if(isset($_POST["submit"])) {
 <div class="fcontainer">
     <label for="genre">Website Type</label>
 <select name="genre" class="">
+
 <option value=""> Market/Store </option>
 <option value="">Blog</option>
 <option value="">Business</option>
@@ -86,19 +88,31 @@ if(isset($_POST["submit"])) {
 </select>
 
 
-
+<div class="cc">
 <label for="timeline" id="timeline">Build Timeline</label>
 <input type="date" id="date" ></input>
- 
+ </div>
+
+<div class="cc">
 <label for="media">Do you have any media to bee uploaded?</label>
 <input type="checkbox" id="mediabox"></input>
+</div>
 
+<div class="cc">
 <label for="db">Will you need database integration? Check for yes.</label>
 <input type="checkbox" id="db"></input>
+</div>
 
+<div class="cc">
 <label for="ui" id="ui">Do you have a UI template?</label>
 <input type="checkbox" id="uibox"></input>
+</div>
 
+
+<div class="cc">
+<label for="">Project Details</label>
+<textarea id="pd" name="pd"></textarea>
+</div>
 
 
 </div>

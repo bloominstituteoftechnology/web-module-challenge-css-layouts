@@ -97,6 +97,7 @@ position: relative;
 top: 5%;
 border: 1px red solid;
 margin-top:10%;
+margin-bottom: 10%;
 background-color: rgba(120, 120, 196, 0.5);
 height: auto;
 
@@ -105,3 +106,23 @@ height: auto;
 #timeline, #date{
     margin-left:20px;
 }
+
+.fcontainer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-right: 25px;
+ 
+}
+
+.cc{
+    width:100%
+}
+
+
+#pd{
+    height: 250px;
+
+}
+
+
