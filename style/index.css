@@ -82,21 +82,23 @@ nav {
 .pz-container-home {
   font-family:Berkshire Swash;
   font-size:25px;
-  display:flex;
-  margin:px auto;
-  padding:5px;
-
-  height:550px;
-  width:100%;
+  position: relative;
+  margin-right:50px, auto;
+  margin-left:120px,auto;
+  padding:100px, auto;
+   height:350px;
+  width:70%;
    line-height:1.5;
-   align-content:center;
+   align-items:center;
+   border: 2px solid;
+   
    
 }
 
-img {
-  height:300px;
-  width:50%;
-  align-content:center;
+.img {
+  height:10px;
+  width:10px;
+
 
 }
 .pz-home {
@@ -115,15 +117,15 @@ pz8 {
 .pz-container-about {
  
   font-family:Berkshire Swash;
-  font-size:20px;
+  font-size:40px;
   display:flex;
-  margin:auto;
+  margin:100px;
   padding:100px;
-  justify-content:center;
   align-items:center;
-  height:350px;
-  width:60%;
+  height:250px;
+  width:100%, ;
    line-height:1.5; 
+   
   
    
   
@@ -131,9 +133,11 @@ pz8 {
 
 .pz-about {
   margin:0 auto;
-  padding:0;
-  font-size:5px;
+  padding:30px;
+  font-size:15px;
   justify-content:center;
+  
+ 
 
 }
 
@@ -195,7 +199,7 @@ pz-contact {
 }
 
  main {
-   height: 854px;
+   height: 954px;
  }
 
 .projects {
@@ -212,7 +216,7 @@ pz-contact {
  
 }
 
-bottom1 {
+.bottom1 {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -223,12 +227,12 @@ bottom1 {
   width:140px, auto;
   justify-content: center;
   align-items:space-between;
-  border:2px solid;
+
 
    
 }
 
-bottom2 {
+.bottom2 {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -239,13 +243,13 @@ bottom2 {
   justify-content: center;
   align-items:space-between;
   width:auto;
-  border:2px solid;
+
 
    
 }
 
 
-pic{
+.pic{
  display:flex;
   flex-wrap: wrap;
   flex-direction:row;
