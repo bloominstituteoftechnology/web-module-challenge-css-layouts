@@ -83,6 +83,10 @@ input[type=text]:hover{
 }
 
 
+input[type=textarea]{
+    height:15px ;
+}
+
   
 
 
@@ -116,13 +120,26 @@ height: auto;
 }
 
 .cc{
-    width:100%
+    width:100%;
+    margin-left:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 
 #pd{
+    margin: 15px;
+    margin-top:30px;
     height: 250px;
+    width: 250px;
+    
 
+}
+
+.cc label{
+    font-size:1rem;
 }
 
 

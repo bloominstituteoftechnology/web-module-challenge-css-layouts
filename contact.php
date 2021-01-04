@@ -110,7 +110,7 @@ if(isset($_POST["submit"])) {
 
 
 <div class="cc">
-<label for="">Project Details</label>
+<label for="pd">Project Details</label>
 <textarea id="pd" name="pd"></textarea>
 </div>
 
