@@ -65,28 +65,33 @@ if(isset($_POST["submit"])) {
    
 </select>
 
-<input type="submit" value="submit">
 
 
 
 
 
+</div>
 </form>
 
 <form class="vf">
 <!-- Need fields for the type of website, what type of content will be shared on the site, what features will be how many pages,  -->
 <div class="fcontainer">
-    <label for="genre">Website Type</label>
-<select name="genre" class="">
 
+<div id="hc1">
+    <label for="genre" id="tyl" >Website Type</label>
+
+    <select name="genre" class="">
+
+<option value="">Please select website type...</option>
 <option value=""> Market/Store </option>
 <option value="">Blog</option>
 <option value="">Business</option>
 <option value="">Promotional Sit</option>
 <option value="">Entertainment</option>
 <option value="">Informational</option>
-</select>
 
+    </select>
+    </div>
 
 <div class="cc">
 <label for="timeline" id="timeline">Build Timeline</label>
@@ -110,10 +115,13 @@ if(isset($_POST["submit"])) {
 
 
 <div class="cc">
-<label for="pd">Project Details</label>
+<label for="pd" id="pdl">Project Details</label>
 <textarea id="pd" name="pd"></textarea>
 </div>
 
+<div class="cc">
+<input type="submit" value="submit">
+</div>
 
 </div>
 </form>

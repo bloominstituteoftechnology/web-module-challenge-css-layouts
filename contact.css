@@ -68,10 +68,14 @@ label{
     margin-right: 10px;
 }
 
+#cf input{
+    margin-bottom:5%;
+}
+
 input{
     font-size: 1rem;
     width: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     background-color: transparent;
     border-top: none;
     border-left:none;
@@ -96,14 +100,13 @@ width:100%;
 }
 
 .vf{
-width: 100%;
-position: relative;
-top: 5%;
-border: 1px red solid;
-margin-top:10%;
-margin-bottom: 10%;
-background-color: rgba(120, 120, 196, 0.5);
-height: auto;
+width: 83%;
+margin-left:9%;
+
+margin-top:1%;
+margin-bottom: 33px;
+/* background-color: rgba(120, 120, 196, 0.5); */
+
 
 }
 
@@ -116,26 +119,53 @@ height: auto;
     flex-wrap:wrap;
     justify-content: center;
     margin-right: 25px;
- 
+    width:100%;
 }
 
 .cc{
     width:100%;
     margin-left:10px;
+    margin-top:7px;
+    margin-bottom:7px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+   
+    border-radius: 3px;
+    padding: 5px;
 
+}
+
+.cc label{
+    margin-top:7px;
+    margin-bottom:7px;
 }
 
 
 #pd{
     margin: 15px;
+    
     margin-top:30px;
-    height: 250px;
+    height: 125px;
     width: 250px;
     
 
+}
+
+#pdl{
+    width: 100%;
+    z-index: 5;
+    margin-left:40% ;
+}
+
+#tyl{
+   
+    font-size: 1.3rem;
+}
+
+#hc1{
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .cc label{
