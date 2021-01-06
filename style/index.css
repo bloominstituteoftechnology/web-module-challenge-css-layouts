@@ -41,22 +41,6 @@ body{
         align-items: center;
         margin: auto;
     }
-
-    .projects{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .project-img{
-        width: 200px;
-        height: 200px;
-    }
-    
-    
-
-   
 }
 
 a{
@@ -122,10 +106,9 @@ nav{
     justify-content: space-evenly;
 }
 
-.projects img{
-    /*width: 260px;
-    height: 260px;*/
-    
+.project-tiles{
+    width: 260px;
+    height: 260px;
 }
 
 .footer{
