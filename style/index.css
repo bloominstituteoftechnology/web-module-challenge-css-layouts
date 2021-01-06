@@ -49,9 +49,11 @@ body{
         justify-content: space-between;
     }
 
-    .projects img{
-        
+    .project-img{
+        width: 200px;
+        height: 200px;
     }
+    
     
 
    
