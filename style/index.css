@@ -16,7 +16,6 @@ body{
         justify-content: center;
     }
     
-
     .top-nav nav{
         display: flex;
         flex-direction: column;
@@ -40,6 +39,14 @@ body{
         flex-direction: column;
         align-items: center;
         margin: auto;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
     }
 }
 
@@ -82,7 +89,6 @@ nav{
     padding: 2%;
     border: 2.5px solid #FCCC76;
     border-radius: 8px;
-    
 }
 
 
@@ -98,17 +104,23 @@ nav{
 }
 .about p{
     align-content: flex-start;
+    margin-top: 40px;
 }
 
 .projects{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
-.project-tiles{
+.projects img{
     width: 260px;
     height: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .footer{
