@@ -51,7 +51,7 @@ h1{
     background-color: rgba(120, 120, 196, 0.5);
     border-radius:5px;
     width: 80%;
-    height: 40vh;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -91,7 +91,10 @@ input[type=textarea]{
     height:15px ;
 }
 
-  
+ input[type=submit]:hover{
+     cursor: pointer;
+
+ } 
 
 
 
@@ -99,16 +102,10 @@ input[type=textarea]{
 width:100%;
 }
 
-.vf{
-width: 83%;
-margin-left:9%;
-
-margin-top:1%;
-margin-bottom: 33px;
-/* background-color: rgba(120, 120, 196, 0.5); */
 
 
-}
+
+
 
 #timeline, #date{
     margin-left:20px;

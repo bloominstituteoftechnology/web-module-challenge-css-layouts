@@ -10,7 +10,7 @@ if(isset($_POST["submit"])) {
    $subject=$_POST["subject"];
    $sender=$_POST["rEmail"];
    $message=$_POST["message"];
-
+   $wtype = $_POST["genre"]; 
    $header = "From: " .$rEmail;
    $text = "You have recieved an email from " .$name .\n\n .$message;
  
@@ -35,7 +35,7 @@ if(isset($_POST["submit"])) {
 
  <div id="cc">
 
-
+<!-- Main form, variant forms will branch from this one. This is to ensure that the php can access variables necessary. -->
 <form id="cf" action="contact.php">
 
     
@@ -66,89 +66,19 @@ if(isset($_POST["submit"])) {
 </select>
 
 
+<BR></BR>
 
 
+<input type="submit" value="submit" id="submit">
 
 
-</div>
-</form>
-
-<form class="vf">
-<!-- Need fields for the type of website, what type of content will be shared on the site, what features will be how many pages,  -->
-<div class="fcontainer">
-
-<div id="hc1">
-    <label for="genre" id="tyl" >Website Type</label>
-
-    <select name="genre" class="">
-
-<option value="">Please select website type...</option>
-<option value=""> Market/Store </option>
-<option value="">Blog</option>
-<option value="">Business</option>
-<option value="">Promotional Sit</option>
-<option value="">Entertainment</option>
-<option value="">Informational</option>
-
-    </select>
-    </div>
-
-<div class="cc">
-<label for="timeline" id="timeline">Build Timeline</label>
-<input type="date" id="date" ></input>
- </div>
-
-<div class="cc">
-<label for="media">Do you have any media to bee uploaded?</label>
-<input type="checkbox" id="mediabox"></input>
-</div>
-
-<div class="cc">
-<label for="db">Will you need database integration? Check for yes.</label>
-<input type="checkbox" id="db"></input>
-</div>
-
-<div class="cc">
-<label for="ui" id="ui">Do you have a UI template?</label>
-<input type="checkbox" id="uibox"></input>
-</div>
-
-
-<div class="cc">
-<label for="pd" id="pdl">Project Details</label>
-<textarea id="pd" name="pd"></textarea>
-</div>
-
-<div class="cc">
-<input type="submit" value="submit">
-</div>
-
-</div>
-</form>
-
-<form class="vf">
 
 
 </form>
-
-<form class="vf">
-
-
-</form>
-
-<form class="vf">
+</div> 
 
 
-</form>
-
-<form class="vf">
-
-
-</form>
-</div>
-
-
-   <script src="contact.js"></script> 
+   <script src="contact.js"></script>
 
 </body>
-</html>
+</html> 
