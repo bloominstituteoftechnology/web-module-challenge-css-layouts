@@ -9,6 +9,10 @@ if(isset($_POST["submit"])) {
    $name = $fName + $lName;
    $subject=$_POST["subject"];
    $sender=$_POST["rEmail"];
+   $timeLine=$_POST["timeline"];
+   $media-$_POST["mediaIn"];
+   $db=$_POST["databse"];
+   $ui=$_POST["ui"];
    $message=$_POST["message"];
    $wtype = $_POST["genre"]; 
    $header = "From: " .$rEmail;
