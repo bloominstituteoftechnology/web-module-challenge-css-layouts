@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.8em;
   line-height: 1.2;
 }
 
@@ -108,11 +108,13 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: auto;
+  max-width: 1600px;
 }
 
 #projects div {
-  margin: 0.6%;
-  padding: 0.4%;
+  margin: 1%;
+  padding: 0.5%;
   transition: all 0.2s ease;
 }
 
@@ -128,11 +130,12 @@ a:hover {
 
 footer p {
   font-family: 'Patrick Hand', cursive;
-  font-size: 2.5em;
+  font-size: 3em;
   letter-spacing: 0.01em;
 }
 
 footer a {
+  border-radius: 3px;
   font-size: 2em;
-  padding: 8px 16px;
+  padding: 16px 40px;
 }
