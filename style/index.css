@@ -43,6 +43,38 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	font-size: 62.5%;
+	font-family: 'Fira Sans', sans-serif;
+	line-height: 1.3;
+	background: #fafafa;
+
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+header{
+	background:#ffcc00;
+	padding-top: 30px;
+	border-bottom: 5px solid black;
+}
+
+header a{
+	color:#29465b;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+
+}
+
+h1{
+	color:#29465b;
+	font-size: 2rem;
+}
+
 
 
 
