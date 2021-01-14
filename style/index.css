@@ -25,17 +25,6 @@ body img {
     width:50px;
 }
 
-button a{
-    font-size: 2.25rem;
-    font-family: 'Share Tech Mono', monospace;
-    /* text-shadow: .5px .5px white; */
-    transition: .3s;
-}
-
-button:hover a{
-    color: #fff8e9;
-}
-
 footer {
     background-color: #d6efc7;
     justify-content: center;
@@ -87,7 +76,7 @@ nav {
     margin-right: 2rem;
 }
 
-nav button {
+nav a {
     background-color:#184d47;
     border:0;
     width: 12%;
@@ -95,6 +84,24 @@ nav button {
     margin: 0 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px #96bb7c;
+    text-align:center;
+    font-size: 2.25rem;
+    font-family: 'Share Tech Mono', monospace;
+    transition: .3s;
+}
+
+
+button a{
+
+    /* text-shadow: .5px .5px white; */
+    transition: .3s;
+    
+}
+
+a:hover{
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff8e9;
+    font-variant: small-caps;
 }
 
 ul {
