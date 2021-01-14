@@ -95,6 +95,7 @@ ul {
     margin: auto;
     width: 80%;
     border: 5px solid #184d47;
+    font-family: 'Gentium Book Basic', serif;
     /* height: 50vh;     */
 }
 
@@ -134,16 +135,24 @@ ul {
     width: 80%;
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projects img {
     height: 60vh;
-    margin: 0 2rem;
+    margin: 2rem;
     /* border: 3px solid #96bb7c; */
 }
 
 .projects img:hover {
     border: 6px solid #184d47;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 4rem;
+    font-size:3rem;
 }
 
 /* .setup {
