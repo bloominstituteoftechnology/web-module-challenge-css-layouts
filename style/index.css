@@ -1,1 +1,130 @@
-/* Add CSS styling here */
+/* font-family: 'Gentium Book Basic', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Padauk', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Spectral', serif; */
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+a:hover {
+    font-weight:bold;
+    color: #184d47
+}
+
+body {
+    background-color: #fff8e9;
+    font-family: 'Spectral', serif;
+    padding: 0 0 2rem;
+    margin: 0;
+}
+
+button a{
+    font-size: 2.25rem;
+    font-family: 'Share Tech Mono', monospace;
+    /* text-shadow: .5px .5px white; */
+}
+
+button:hover a{
+    color: #fff8e9;
+}
+
+footer {
+    background-color: #d6efc7;
+    justify-content: center;
+    box-sizing:border-box;
+    margin: 4rem 0 0;
+    padding: 1rem 0;
+    /* border-top: 3px solid #184d47; */
+
+    /* position: absolute; */
+    /* bottom: 0px;
+    width: 100%; */
+}
+
+footer img {
+    width:25px;
+}
+
+footer p{
+    text-align:center;
+    display:block;
+    margin: .5rem;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size:5rem;
+    margin: 1rem 2rem 3rem;
+    text-align:right;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-variant: small-caps;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+nav button {
+    background-color:#184d47;
+    border:0;
+    width: 12%;
+    padding: .5rem 0;
+    margin: 0 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px #96bb7c;
+}
+
+.about {
+    margin: auto;
+    width: 80%;
+}
+
+.about p{
+
+}
+
+.icons {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.information {
+    margin: auto;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+}
+
+.projects {
+    margin: auto;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+}
+
+.projects img {
+    height: 60vh;
+    margin: 0 2rem;
+    /* border: 3px solid #96bb7c; */
+}
+
+.projects img:hover {
+    border: 6px solid #184d47;
+}
+
+/* .setup {
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+} */
