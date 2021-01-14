@@ -67,6 +67,10 @@ h2 {
     font-variant: small-caps;
 }
 
+li {
+    margin: 1rem 0 0;
+}
+
 nav {
     display:flex;
     justify-content: flex-end;
@@ -83,14 +87,30 @@ nav button {
     box-shadow: 2px 2px #96bb7c;
 }
 
+ul {
+    margin: 1rem 0 0 2rem;
+}
+
 .about {
     margin: auto;
     width: 80%;
+    border: 5px solid #184d47;
+    /* height: 50vh;     */
 }
 
-.about p{
-
+.aboutme {
+    margin: 2rem;
+    font-size: 1.2rem;
+    /* text-indent: 2rem; */
 }
+
+.aboutme img {
+    /* float:right;
+    clear:right; */
+    width: 20%;
+    margin-top:1rem;    
+}
+
 
 .icons {
     display:flex;
@@ -103,6 +123,10 @@ nav button {
     width: 80%;
     display:flex;
     justify-content: center;
+}
+
+.no-indent {
+    text-indent: 0;
 }
 
 .projects {
