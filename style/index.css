@@ -21,10 +21,15 @@ body {
     margin: 0;
 }
 
+body img {
+    width:50px;
+}
+
 button a{
     font-size: 2.25rem;
     font-family: 'Share Tech Mono', monospace;
     /* text-shadow: .5px .5px white; */
+    transition: .3s;
 }
 
 button:hover a{
@@ -45,7 +50,7 @@ footer {
 }
 
 footer img {
-    width:25px;
+    width:50px;
 }
 
 footer p{
@@ -60,11 +65,16 @@ h1 {
     font-size:5rem;
     margin: 1rem 2rem 3rem;
     text-align:right;
+    transition: .3s;
 }
 
 h2 {
     font-size: 3.5rem;
     font-variant: small-caps;
+}
+
+img {
+    margin: auto .5rem;
 }
 
 li {
@@ -93,7 +103,7 @@ ul {
 
 .about {
     margin: auto;
-    width: 80%;
+    width: 70%;
     border: 5px solid #184d47;
     font-family: 'Gentium Book Basic', serif;
     /* height: 50vh;     */
@@ -112,6 +122,21 @@ ul {
     margin-top:1rem;    
 }
 
+.homepage {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.homepage h1 {
+    display:flex;
+}
+
+.homepage .icons {
+    display:flex;
+    width: 5%;
+    margin-right: 2rem;
+}
 
 .icons {
     display:flex;
@@ -121,7 +146,7 @@ ul {
 
 .information {
     margin: auto;
-    width: 80%;
+    width: 70%;
     display:flex;
     justify-content: center;
 }
