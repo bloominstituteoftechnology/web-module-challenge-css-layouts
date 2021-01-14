@@ -1,1 +1,138 @@
 /* Add CSS styling here */
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0.25em 0;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+html {
+  color: #363533;
+  font-size: 62.5%;
+}
+
+header {
+  background-color:#ede9e1;
+  padding: 40px;
+}
+
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 0.02em;
+  margin: 0.2em 0;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+footer {
+  background-color:#ede9e1;
+  padding: 3%;
+  text-align: center;
+}
+
+a {
+  background-color: white;
+  border: 2px solid #363533;
+  color: inherit;
+  display: inline-block;
+  font-family: 'Patrick Hand', cursive;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+}
+
+#navbar {
+  display: flex;
+}
+
+#navbar a {
+  border-left: none;
+  font-size: 2em;
+  padding: 8px 16px;
+}
+
+#navbar a:first-child {
+  border-left: 1px solid black;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#navbar a:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#navbar a.selected {
+  background-color: #363533;
+  color: white;
+}
+
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1%;
+}
+
+#intro img {
+  flex: 1 0;
+  max-width: 600px;
+  width: 40%
+}
+
+#intro div {
+  padding: 2%;
+  max-width: 600px;
+}
+
+#intro h1 {
+  font-size: 3.5em;
+}
+
+#intro a {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 1.8em;
+  margin: 20px 0;
+  padding: 8px 16px;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#projects div {
+  margin: 0.6%;
+  padding: 0.4%;
+  transition: all 0.2s ease;
+}
+
+#projects div:hover {
+  box-shadow: 5px 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+  background-color: white;
+  transform: scale(1.2);
+}
+
+#projects div p {
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.5em;
+  letter-spacing: 0.01em;
+}
+
+footer a {
+  font-size: 2em;
+  padding: 8px 16px;
+}
