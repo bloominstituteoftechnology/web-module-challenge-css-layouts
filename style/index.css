@@ -1,1 +1,118 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rock+Salt&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: 35%;
+    display:flex;
+    flex-direction: column;
+    flex-direction: space-evenly;
+}
+h1{
+    font-family: 'Rock Salt', cursive;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    border: 2px solid black;
+    padding:1%;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+.middle img{
+    width: 100%;
+}
+.projects{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projects div{
+    height: 50%;
+    width: 15%;
+    border-radius: 10%;
+}
+.projects .project1{
+    background: url("https://www.hudsonyardsnewyork.com/sites/default/files/styles/experience_details/public/2018-12/wright_20160427_0367_High_Line_webresized.jpg?itok=l24i9mhv");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.projects .project2{
+    background: url("https://streetartnyc.org/wp-content/uploads/2018/09/python-2.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.projects .project3{
+    background: url("https://untappedcities.com/wp-content/uploads/2018/09/central-park-aerial-untapped-cities1-1-1.jpg");
+    background-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.projects .project4{
+    background: url("https://cache-graphicslib.viator.com/graphicslib/page-images/742x525/806736_Viator_Shutterstock_460886.jpg");
+    background-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    text-shadow:3px 3px black;
+    opacity: 0;
+    transition: .3s;
+}
+.projects a:hover{
+    opacity: 1;
+}
+.projects .descrip{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+footer{
+    background: url("https://vastphotos.com/files/uploads/photos/10208/high-resolution-new-york-city-skyline-panorama-l.jpg");
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    font-size: 1.5rem;
+    background-color: black;
+    width: 10%;
+    text-align: center;
+}
+.end a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
