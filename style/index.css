@@ -1,1 +1,109 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    margin: 30px 10px 10px 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.cta {
+    height: 20%;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+.nav {
+    display: flex;
+}
+
+.item{
+    width:100px;
+    height:40px;
+    background:whitesmoke;
+    border:1px solid black;
+    margin:1px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rhinoSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+ .rhinoPic {
+    width: 50%;
+    border: 1px solid black;
+    padding: 0px 0px 0px 0%;
+}
+
+.rhinoText {
+    border: 1px solid black;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+.rhinoButton {
+    font-size: 80%;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid black;
+    content: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+}
+
+.content2 {
+    display: flex;
+    text-align: center;
+}
+
+.rhinoBottom {
+    width: 80%
+}
+
+.footer {
+    border-top: 3px solid black;
+    padding-top: 50px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.footer div {
+    width: 170px;
+    font-size: 80%;
+    padding: 15px 32px;
+    border: 1px solid black;
+    content: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    transform: 1s;
+    border-radius: 10px;
+}
+
+.footer div:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
