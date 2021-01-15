@@ -64,7 +64,7 @@ header{
 	
 }
 
-header a{
+a{
 	color: #ffcc00;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -90,6 +90,10 @@ h1:hover{
 	color: black;
 }
 
+h3{
+	font-size: 2rem;
+}
+
 ul{
 	display: flex;
 	flex-direction: row;
@@ -107,7 +111,7 @@ ul{
 }
 
 #intro .container{
-	background: url(https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	background: url(./Images/Background.jpg);
 	background-repeat: none;
 	height: 60vh;
 	/* opacity: 0.5; */
@@ -130,6 +134,56 @@ ul{
 	text-shadow: 1px 1px grey;
 	font-size: 1.5rem;
 }
+
+#projects{
+	margin: 2rem;
+}
+
+#projects .container{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.project{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin: 5px
+}
+
+.project p{
+	font-size: .8rem;
+
+}
+
+footer{
+	border-top: 5px solid black;
+	background:#ffcc00;
+	width: 100%;
+	height 100px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;	
+	margin-top: 3rem;
+}
+
+.social img {
+	width: 30px;
+	background: none;
+}
+
+.social a{
+	background: none;
+}
+
+
+
+
 
 	
 
