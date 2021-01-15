@@ -64,8 +64,9 @@ header{
 	
 }
 
-a{
+li a{
 	color: #ffcc00;
+	text-shadow: 1px 1px gray;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.3rem;
@@ -111,7 +112,7 @@ ul{
 }
 
 #intro .container{
-	background: url(./Images/Background.jpg);
+	background: url(./images/Background.jpg);
 	background-repeat: none;
 	height: 60vh;
 	/* opacity: 0.5; */
@@ -172,14 +173,32 @@ footer{
 	margin-top: 3rem;
 }
 
+.social{
+	width: 80%;
+	margin-left: 50px;
+}
+
 .social img {
 	width: 30px;
 	background: none;
 }
 
 .social a{
-	background: none;
+	/* background: none; */
+	
 }
+
+#projectIntro .container{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#projectIntro .container 
 
 
 
