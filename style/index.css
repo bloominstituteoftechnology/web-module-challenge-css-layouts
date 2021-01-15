@@ -56,7 +56,7 @@ table {
 } */
 header{
     background:border-box;
-    border: 1px solid green;
+    background-color: rgb(255, 211, 203);
 }
 .MyName{
     display: block;
@@ -66,6 +66,8 @@ header{
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+    background-color: rgb(232, 230, 255);
+    padding: 20px 20px;
 }
 Header nav{
     /* border: 1px solid grey; */
@@ -73,7 +75,7 @@ Header nav{
     width: 100%;
     justify-content:space-evenly;
     /* align-content:center; */
-    margin-top: 10px;
+    margin-top: 20px;
 }
 nav a{
     display: flex;
@@ -83,8 +85,7 @@ nav a{
     color:rgb(12, 130, 156);
     font-size: 2rem;
     padding:20px 20px;
-    border:1px solid black;
-    background-color: grey;
+    background-color: rgb(212, 255, 226);
 }
 .MySite h2{
     display: flex;
@@ -94,20 +95,20 @@ nav a{
     margin-top: 20px;
 }
 .IntroContent p{
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
-    font-family:monospace;
+    font-family:Bodoni Moda;
     font-size: 2rem;
-    /* align-content: center; */
-    /* text-align: center; */
-    /* margin-top: 50px; */
-    /* padding:40px 40px 40px 40px; */
-    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding:40px 40px 40px 40px;
+    width: auto;
+    background-color: rgb(255, 229, 217);
 }
 .heroImage {
     width: 100%;
-    height: 50vh;
+    height: 25vh;
 }
 .image{
     background:url(https://picsum.photos/200/300);
@@ -122,12 +123,32 @@ section {
     justify-content:space-evenly;
 }
 section img {
-    width:100%;
+    width:200px;
+    margin: 50px 10px;
 }
 section div{
-    width:23%;
+    width:13%;
+}
+section .rightText{
+    font-size: 2rem;
+    padding: 40px;
+    margin-top: 10px;
+    font-family:
 }
 section div p{
     text-align:center;
-    padding: 15px;
+    padding: 30px;
+    font-family: 'Bodoni Moda', serif;
+}
+footer{
+    background-color: cornsilk;
+    font-size: 2rem;
+    padding:10%;
+}
+footer p{
+    display: flex;
+    justify-content: flex-start;
+   
+    
+
 }
