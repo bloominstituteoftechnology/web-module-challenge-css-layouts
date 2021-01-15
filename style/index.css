@@ -1,1 +1,148 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of css reset*/
+
+html{
+    background-color: #56d0df;
+}
+
+body{
+    width:1080px;
+    background-color: #5298FA;
+    margin:0 auto;
+}
+p{
+    font-size: 24px;
+}
+
+section p{
+    display:flex;
+    height:fit-content;
+    width:15%;
+    margin:250px auto;
+    align-content: center;
+}
+
+h1{
+    width:100%;
+    text-align: center;
+    background-color: #57FFE4;
+    font-size: 50px;
+    padding: 10px 0;
+    margin: 30px 
+}
+h2{
+    font-size: 40px;
+    margin:20px;
+}
+nav{
+    display:flex;
+    background-color:#3EBEE0;
+    width:fit-content;
+    height: fit-content;
+}
+
+a{
+    justify-content: center;
+    border: 1px solid darkslateblue;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a{
+    padding:20px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.currentPage{
+
+}
+
+.banner{
+    width : 100%;
+}
+
+section{
+    display:flex;
+    height:600px;
+    width: 100%;
+}
+
+.content{
+    height: 500px;
+    width: 15%;
+    margin: 10px 5px;
+    overflow:hidden;
+    border-radius: 30px;
+    border: 1px solid #1A25F0;
+}
+header p{
+    width:50%;
+}
+
+.cutoff{
+    width:100%;
+    height: 300px;
+    overflow:hidden;
+}
+footer{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #3EBEE0;
+    height: 150px;
+}
+footer a{
+    margin:auto;
+    text-decoration: none;
+    height:fit-content;
+    padding: 20px;
+    background-color: #5298FA;
+}
