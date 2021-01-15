@@ -1,1 +1,259 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+    box-sizing:border-box; 
+    max-width:100%; 
+}
+
+*{
+ /*  border: 1px solid black;  <--- border for box model */
+}
+
+img {
+  height: 40vh;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px; 
+}
+
+.heading {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  margin-left: -5px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  /* justfiy-content: space-evenly; */
+  display: inline-block;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.navbar:hover {
+  color: white;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+#home {
+  background-color: #b078b0;
+}
+#about {
+  background-color: #b078b0;
+}
+#contact {
+  background-color: #b078b0;
+}
+#projects {
+  background-color: #b078b0;
+}
+
+#bannerimg {
+  width: 100%;
+  max-height: 20%;
+  margin-top: 2vh;
+  padding-right: 10%;
+  margin-bottom: 3vh;
+  padding-left: 10%;
+}
+
+.picrow {
+  display: flex;
+}
+
+#pic1 {
+  width: 20vw;
+  border-radius: 12px;
+  margin-left: 1vw;
+}
+
+#pic2 {
+  width: 20vw;
+  border-radius: 12px;
+  margin-left: 1vw;
+}
+
+#pic3 {
+  width: 20vw;
+  border-radius: 12px;
+  margin-left: 1vw;
+}
+
+#pic4 {
+  width: 20vw;
+  border-radius: 12px;
+  margin-left: 1vw;
+}
+
+.p1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 16;
+  line-height: 1.2;
+}
+
+#p2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#pHidden {
+  display: none;
+}
+
+#bottom {
+  display: inline-block;
+  background-color: #b078b0;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 45%;
+}
+
+/*about me*/
+
+#aboutMe {
+  display: flex;
+}
+
+#placeHolder {
+  display: flex;
+  max-width: 100%;
+  align: center;
+  display: inline-block;
+}
+
+/*contact page*/
+
+p3 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 16;
+}
+
+address{
+  margin-top: 4vh;
+}
+
+/*projects page*/
+p4{ 
+  text-align: center;
+}
+
+/*media query 800px*/
+
+@media (max-width:800px){
+
+  .navbar > #home {
+    width: 100%;
+    margin-bottom: .5em;
+  }
+  .navbar > #about {
+    width: 100%;
+    margin-bottom: .5em;
+  }
+  .navbar > #contact {
+    width: 100%;
+    margin-bottom: .5em;
+  }
+  .navbar > #projects {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  #bannerimg {
+    max-width: 100%;
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+
+  .picrow{
+    max-width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    flex-wrap: wrap;
+  }
+  
+  .picrow > #pic1 {
+    width: 45%;
+    margin-left: 0vw;
+   
+  }
+
+  .picrow > #pic2 {
+    width: 45%;
+    margin-left: 0vw;
+
+  }
+  
+  .picrow > #pic3 {
+    width: 45%;
+    margin-left: 0vw;
+  }
+
+  .picrow > #pic4 {
+    width: 45%;
+    margin-left: 0vw;
+  }
+
+
+  .picrow > #p2 {
+    display: none;
+  }
+
+  .picrow > #pHidden {
+    display: block;
+  
+  }
+}
+
+@media (max-width:500px){
+
+  #aboutMe { 
+    max-width: 60%;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  div {
+    max-width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: center;
+  }
+
+  #bannerimg {
+    max-width: 100%;
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+}
