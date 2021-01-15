@@ -130,9 +130,25 @@ body{
 }
 
 .introText{
-    margin-top:11%;
+    margin-top:5%;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color:#261d1f;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 20%;
+    margin-left:20%;
 }
 
+a{
+    color:rgb(101, 245, 255);
+}
 p{
     display: flex;
     justify-content: center;
@@ -144,6 +160,7 @@ p{
     font-weight:bolder;
     text-emphasis: shadow 20px;
     text-shadow:  #f2955e;
+    
     
 
     
