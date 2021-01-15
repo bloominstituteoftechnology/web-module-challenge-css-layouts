@@ -112,7 +112,7 @@ ul{
 }
 
 #intro .container{
-	background: url(./images/Background.jpg);
+	background: url(../Images/Background.jpg);
 	background-repeat: none;
 	height: 60vh;
 	/* opacity: 0.5; */
@@ -166,7 +166,7 @@ footer{
 	border-top: 5px solid black;
 	background:#ffcc00;
 	width: 100%;
-	height 100px;
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;	
@@ -183,9 +183,13 @@ footer{
 	background: none;
 }
 
-.social a{
-	/* background: none; */
+/* .social a{
+	background: none;
 	
+} */
+
+#projectIntro{
+	margin: 3rem;
 }
 
 #projectIntro .container{
@@ -198,7 +202,19 @@ footer{
 	text-align: center;
 }
 
-#projectIntro .container 
+#projectIntro .container p{
+	font-size: 1.5rem;
+	margin: 3rem;
+}
+
+#email{
+	transform: .3s;
+
+}
+
+#contact .container{
+	height: 75vh;
+}
 
 
 
