@@ -1,1 +1,186 @@
 /* Add CSS styling here */
+/* Add CSS styling here */
+/* Navigation grouping */
+body{
+    background-image: url(https://photos.smugmug.com/Collages/i-TTTXbTD/0/4714b418/X3/ImageFractal%20SKULL%204-X3.png);
+    background-position: left;
+}
+
+.navies{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;  
+    
+}
+/* Nav section & buttons */
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+    
+    }
+
+.homeButton{
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color:#261d1f;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 2%;
+    margin-left:2%;
+    
+    
+
+}    
+.aboutButton{
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color:#f2561d;
+    border: none;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left:2%;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+  }
+  .contactButton{
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: white;
+      background-color: #50bfbf;
+      border: none;
+      border-radius: 15px;
+      margin-right: 2%;
+      margin-left:2%;
+      font-family: 'Press Start 2P', cursive;
+      
+      
+
+  }
+  .projectsButton{
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: white;
+      background-color: #f2955e;
+      border: none;
+      border-radius: 15px;
+      margin-right: 20%;
+      margin-left:2%;
+      font-family: 'Press Start 2P', cursive;
+      
+      
+  }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5%;
+    
+
+}
+
+.header h1{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color:#261d1f;
+    border: none;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left:2%;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+
+}
+
+.introText{
+    margin-top:11%;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: .06%;
+    color: rgb(245, 252, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-size:16px;
+    font-weight:bolder;
+    text-emphasis: shadow 20px;
+    text-shadow:  #f2955e;
+    
+
+    
+}    
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 4%;
+}
+
+.gallery1{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.text{
+    font-family: arial;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: .3s;
+
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1 px black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-right: 6.5%;
+}
