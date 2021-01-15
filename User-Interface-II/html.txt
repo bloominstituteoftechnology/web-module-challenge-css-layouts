@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- Link your CSS stylesheet -->
+    <link rel="stylesheet" href="index.css" type = "text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>

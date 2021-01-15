@@ -1,0 +1,154 @@
+/* Add CSS styling here *//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code starts here */
+
+
+h1{
+  font-size: 55px;
+  text-align: center;
+  font-family: font-family: 'Roboto Mono', monospace; 
+  padding: 2%;
+}
+.flexbox{
+ display:flex;
+ border: 2px solid black;
+
+ width:20%;
+ font-size: 120%;
+ font-decoration: none;
+ justify-content:space-between;
+ background:lightgrey;
+ height:25px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Roboto Mono', monospace;
+ padding:1%;
+}
+
+.flexbox a:hover{
+  
+  background-color:lightgrey;
+  color: black;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  padding: 2%;
+}
+.portinfo p{
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  height: 100px;
+  width: 800px;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5%;
+}
+.centerpic img{
+  /* border: 2px solid black; */ 
+  height: 500px;
+  width: 99%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2%;
+}
+
+.flexbox2 {
+  display: flex;
+ 
+ justify-content: space-between;
+ margin: center;
+ padding: 2%;
+
+ /* border : 2px solid black; */
+
+}
+.flexitem p{
+  font-size: 20px;
+  text-align: center;
+  /* border: 2px solid black; */
+  height: 90%;
+  width: 35%;
+  padding: 2%;
+  
+  /* float: right; */
+}
+  .button{
+    font-size:120%; 
+    border: 2px solid black;
+    background:lightgrey;
+    height:25px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: 50%;
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    padding:1%;
+}
+.container{
+  
+ border: 2px solid white;
+ background:lightgrey;
+ height:100px;
+ width:100%;
+ margin-left: auto;
+ margin-right: auto;
+ padding:3%;
+ text-align: center;
+}
+
+.button a:hover{
+  
+  background-color:lightgrey;
+  color: black;
+}
