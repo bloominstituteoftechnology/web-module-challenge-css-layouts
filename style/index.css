@@ -1,11 +1,113 @@
-/* Add CSS styling here */
-/* Add CSS styling here */
-/* Navigation grouping */
+/* Responsive Accessibility Control  */
+
+/* Responsive 500px*/
+
+  
+  @media(max-width: 500px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 2%;;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    
+    .container header nav {
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      margin-left: 0 auto;
+      
+    }
+
+    .
+    
+   .container header nav a {
+        display: flex;
+        flex-direction: space-evenly;
+        align-items:center;
+        margin-bottom: 10%;
+
+    }
+
+    .container .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+    .container .gallery1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+
+    .container header h1{
+        display: none;
+        }
+  }
+
+  /* Responsive 800px*/
+
+  
+  @media(max-width: 800px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2%;;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    
+    .container header nav {
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      margin-left: 0 auto;
+      
+    }
+
+    .
+    
+   .container header nav a {
+        display: flex;
+        flex-direction: space-evenly;
+        align-items:center;
+        margin-bottom: 10%;
+
+    }
+
+    .container .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .container .gallery1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .container header h1{
+        display: none;
+        }
+  }
+
+  
+
+
+
+/* body */
 body{
     background-image: url(https://photos.smugmug.com/Collages/i-TTTXbTD/0/4714b418/X3/ImageFractal%20SKULL%204-X3.png);
     background-position: left;
 }
-
+/* Navigation grouping */
 .navies{
     display: flex;
     justify-content: space-evenly;
@@ -92,7 +194,7 @@ body{
       
       
   }
-
+/* header */
 .header{
     display: flex;
     justify-content: space-between;
@@ -120,7 +222,7 @@ body{
     font-family: 'Press Start 2P', cursive;
     
 }
-
+/* slide-show controls */
 .slideshow{
     display: flex;
     justify-content: center;
@@ -128,7 +230,7 @@ body{
     margin-top: 2%;
 
 }
-
+/* top intro message */
 .introText{
     margin-top:5%;
     padding: 15px 25px;
@@ -145,7 +247,7 @@ body{
     margin-right: 20%;
     margin-left:20%;
 }
-
+/* links */
 a{
     color:rgb(101, 245, 255);
 }
@@ -165,6 +267,8 @@ p{
 
     
 }    
+
+/* gallery options */
 .gallery{
     display: flex;
     justify-content: center;
@@ -173,7 +277,7 @@ p{
     width: auto;
     margin-top: 4%;
 }
-
+/* bottom galleries */
 .gallery1{  
     display: flex;
     justify-content: space-between;
@@ -195,7 +299,7 @@ p{
     color: white;
     text-shadow: 1px 1 px black;
 }
-
+/* footer nav options */
 footer{
     display: flex;
     justify-content: center;
