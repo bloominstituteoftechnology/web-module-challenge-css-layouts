@@ -68,7 +68,7 @@ body{
 header{
 	background:#ffcc00;
 	padding-top: 30px;
-	border-bottom: 5px solid black;
+	border-bottom: 5px solid rgb(19, 69, 82);
 	
 	
 }
@@ -110,8 +110,8 @@ ul{
 	align-items: center;
 	/* border: 1px solid black; */
 	height: 4rem;
-
 }
+
 
 .containerOne{
 	display: flex;
@@ -125,20 +125,26 @@ ul{
 #intro .container{
 	background: url(../Images/Background.jpg);
 	background-repeat: none;
+	background-position: center;
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .button{
-	background:#ffcc00;
+	background: rgba(255,255,255,0.2);
 	color: rgb(19, 69, 82);
+	border-radius: 15px;
 }
 
-.button 
+.button a{
+	text-decoration: none;
+	color: rgb(19, 69, 82);
+}
 
 .container h2{
 	font-size: 3rem;
@@ -172,8 +178,10 @@ ul{
 	align-content: center;
 	justify-content: center;
 	margin: .5rem;
-	width:30%;
+	width:28%;
 	text-align: center;
+	padding: 1rem;
+	border-bottom: 1px dashed rgb(19, 69, 82);
 	
 }
 
@@ -199,7 +207,7 @@ footer{
 	margin-left: 5rem;
 	margin-right: 5rem;
 	display: flex;
-	/* justify-content: space-around; */
+	
 	align-items: center;
 	width: 60%;
 
@@ -213,7 +221,7 @@ footer{
 } */
 
 .social img {
-	width: 30px;
+	width: 3rem;
 	background: none;
 	margin: 3rem;
 }
@@ -242,7 +250,7 @@ footer{
 	margin: 3rem;
 }
 
-#email{
+.email{
 	transform: .3s;
 
 }
@@ -258,10 +266,6 @@ footer{
 }
 
 @media(max-width: 500px){
-	body{
-		background:red;
-	}
-
 	header{
 		height: 100vh;
 	}
