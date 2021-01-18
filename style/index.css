@@ -145,16 +145,19 @@ Still messing around with the scaling
 
 /* Hover Code for Project Gallery*/
 .box a{
+    display: flex;
     color: #4f4f4f;
     text-shadow:#2a3439;
     text-decoration: none;
     opacity: 1;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    flex-flow: row wrap;
+    justify-content: center;
    
 }
 
 .box:hover{
-    opacity:0.05;
+    opacity:0.25;
     transition-duration: 0.5s;
 }
 
