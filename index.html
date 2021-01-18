@@ -7,35 +7,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Padauk:wght@400;700&family=Share+Tech+Mono&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
+    
 </head>
 
 <body>
-    <div class="homepage">
-        <h1><a href="index.html">Connie Reynolds</a></h1>
-        <div class="icons">
-            <a href="https://github.com/bukit3point0"><img src="images/gitcat.svg" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/connie-reynolds-b1183b1ab/"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        </div>
-    </div>
+    <!-- Header -->
+    <header id="home"><h1>Connie Reynolds</h1>
     
     <nav>
-        <button><a href="about.html">About</a></button>
-        <button><a href="projects.html">Projects</a></button>
-        <button><a href="contact.html">Contact</a></button>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+
     </nav>
 
-    <div class="welcome">
-
-        <p> [I see the assassins failed. Well, come on in.] </p>
-
+    </header>
+    <!-- Intro -->
+    <section>
+    <div id="about" class="intro">
+        <h2>Introducing My Site</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate minima nisi libero consectetur quas recusandae. Quas odio aspernatur eos, laboriosam cum in doloribus, officiis, porro praesentium soluta ut eaque possimus!</p>
     </div>
-    
+    </section>
+    <section class="spooky">
+    <img  class="spooky-image" src="images/Panel.jpg" alt="Spooky Empire panel of speakers">
+    </section>
+    <!-- Image Row -->
+    <section>
+    <div id="projects" class="bottom-row">
+        <div class="image-row">
+            <img class="portfolio left" src="images/DMTT HTML.png" alt="Dead Men Tell Tales HTML">
+            <img src="images/DMTT display.png" alt="" class="portfolio">
+            <img src="images/Marni main page.png" alt="" class="portfolio right">
+            <img src="images/Marni zombies.png" alt="" class="portfolio">
+        </div>
+        <div class="lorem">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque totam esse nemo praesentium nisi consequatur, harum laborum minus vero. Est assumenda error illo corporis sequi consequuntur quidem nesciunt, voluptas delectus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus odit voluptatum molestiae dolore sint, facilis magni corporis fuga minus, eum eveniet itaque asperiores vero? Minus, blanditiis! Nesciunt, adipisci impedit.</p>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <button id="contact"><a href="mailto:conniechenreynolds@gmail.com"></a>Contact Me</button>
+    </footer>
+        
 </body>
-<!-- <footer>
-    <p>© Connie Reynolds 2021</p>
-    <div class="icons">
-        <a href="https://github.com/bukit3point0"><img src="images/gitcat.svg" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/connie-reynolds-b1183b1ab/"><img src="images/linkedin.png" alt="LinkedIn"></a>
-    </div>
-</footer> -->
+
 </html>

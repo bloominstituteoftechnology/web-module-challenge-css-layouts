@@ -1,17 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Gentium Book Basic', serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* font-family: 'Gentium Book Basic', serif;
 font-family: 'Merriweather', serif;
 font-family: 'Padauk', sans-serif;
 font-family: 'Share Tech Mono', monospace;
 font-family: 'Spectral', serif; */
 
-a {
+body {
+    background-color:background-color: #fff8e9;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    margin-top: 2rem;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size:5rem;
+    text-align:center;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    margin:1% 0;
+}
+
+nav a {
+    background-color:#184d47;
+    border:0;
+    margin: 0 .5%;
+    padding: .5% 2%;
+    border-radius: 1rem;
+    box-shadow: 2px 2px #96bb7c;
+    text-align:center;
+    font-size: 2rem;
+    font-family: 'Share Tech Mono', monospace;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #fff8e9;
+}
+
+
+/* Intro */
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size:3rem;
+    text-align:center;
+}
+
+.intro p {
+    font-size:1.2rem;
+    margin: 2% 10%;
+}
+/* Wide Image */
+.spooky {
+    /* object-fit: cover;
+    width: 100%;
+    align-items: center; */
+    object-fit:cover;
+    object-position: 0% 0%;
+    /* height:360px; */
+    height:40rem;
+    width:100%;
+}
+
+.spooky-image {
+    width: 100%;
+    object-fit:cover;
+    object-position: 0%;
+    height:40rem;
+}
+
+/* Image Row */
+
+.bottom-row {
+    display:flex;
+    flex-direction: row;
+    wrap: no-wrap;
+    height: 30rem;
+    margin: 5% 2%;
+}
+
+.image-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 40rem; */
+}
+
+.portfolio {
+    width: 20%; /* width of container */
+    height: 100%; /* height of container */
+    object-fit: cover;
+    border: 5px solid black;
+    object-position: 50% 50%;
+}
+
+.left {
+    /* width: 20%;
+    object-fit:cover; */
+    object-position: 5% 0%;
+}
+
+.right {
+    object-position: 100% 100%;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    margin: 0 0 0 2%;
+    text-align:justify;
+}
+
+.lorem p {
+    margin: 1%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #fff8e9;
+    padding: 2rem;
+    text-align:center;
+    display:block;
+    /* margin: .5rem; */
+}
+
+footer button {
+        background-color:#184d47;
+        border:0;
+        margin: 0 .5%;
+        padding: .5% 2%;
+        border-radius: 1rem;
+        box-shadow: 2px 2px #96bb7c;
+        text-align:center;
+        font-size: 2rem;
+        font-family: 'Share Tech Mono', monospace;
+        transition: .3s;
+    }
+    
+    footer button:hover {
+        color: #fff8e9;
+    }
+
+
+/* a {
     text-decoration:none;
     color:inherit;
 }
 
-a:hover {
-    font-weight:bold;
-    color: #184d47
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size:5rem;
+    margin: 1rem 2rem 3rem;
+    text-align:center;
+    transition: .3s;
 }
 
 body {
@@ -31,11 +238,6 @@ footer {
     box-sizing:border-box;
     margin: 4rem 0 0;
     padding: 1rem 0;
-    /* border-top: 3px solid #184d47; */
-
-    /* position: absolute; */
-    /* bottom: 0px;
-    width: 100%; */
 }
 
 footer img {
@@ -46,15 +248,6 @@ footer p{
     text-align:center;
     display:block;
     margin: .5rem;
-}
-
-h1 {
-    font-family: 'Merriweather', serif;
-    font-weight: normal;
-    font-size:5rem;
-    margin: 1rem 2rem 3rem;
-    text-align:right;
-    transition: .3s;
 }
 
 h2 {
@@ -92,10 +285,7 @@ nav a {
 
 
 button a{
-
-    /* text-shadow: .5px .5px white; */
-    transition: .3s;
-    
+    transition: .3s;    
 }
 
 a:hover{
@@ -113,18 +303,14 @@ ul {
     width: 70%;
     border: 5px solid #184d47;
     font-family: 'Gentium Book Basic', serif;
-    /* height: 50vh;     */
 }
 
 .aboutme {
     margin: 2rem;
     font-size: 1.2rem;
-    /* text-indent: 2rem; */
 }
 
 .aboutme img {
-    /* float:right;
-    clear:right; */
     width: 20%;
     margin-top:1rem;    
 }
@@ -173,7 +359,6 @@ ul {
 .projects img {
     height: 60vh;
     margin: 2rem;
-    /* border: 3px solid #96bb7c; */
 }
 
 .projects img:hover {
@@ -183,13 +368,7 @@ ul {
 .welcome {
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
-    margin-top: 4rem;
+    margin-top: 15%;
     font-size:3rem;
-}
-
-/* .setup {
-    width: 80%;
-    display:flex;
-    justify-content: center;
-    margin:auto;
-} */
+    transition: .3s;
+}   */
