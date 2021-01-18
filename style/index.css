@@ -92,6 +92,7 @@ nav a {
     font-size: 2rem;
     font-family: 'Share Tech Mono', monospace;
     transition: .3s;
+    color:#96bb7c;
 }
 
 nav a:hover {
@@ -108,7 +109,7 @@ h2 {
 }
 
 .intro p {
-    font-size:1.2rem;
+    font-size:1.5rem;
     margin: 2% 10%;
     text-align: justify;
 }
@@ -177,6 +178,7 @@ h2 {
     align-content: center;
     margin: 0 0 0 2%;
     text-align:justify;
+    font-size: 1.5rem;
 }
 
 .lorem p {
@@ -204,6 +206,7 @@ footer button {
         font-size: 2rem;
         font-family: 'Share Tech Mono', monospace;
         transition: .3s;
+        color:#96bb7c;
     }
     
     footer button:hover {
