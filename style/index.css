@@ -34,7 +34,8 @@ Hopefully make this look acceptable most nav links look like buttons but you can
 */
 
 .header{
-    margin: 0 10%;
+    border: 3px solid #4f4f4f;
+    margin: 10% 10%;
     padding: 5%;
     display: flex;
     flex-direction: column;    
@@ -71,22 +72,24 @@ transition-duration: 0.5s;
 Just a picture of myself and scaling it
 */
 .body{
+    border-bottom: 3px solid #4f4f4f;
+    border-top: 3px solid #4f4f4f;
     display:flex;
     flex-flow: row wrap;
    justify-content: center;
    align-content: baseline;
 }
 img{
+    border: 3px solid #4f4f4f;
     float:left;
     margin: 5%;
     height: 20rem;
     width: 15rem;
-   border: 1.5px solid #4f4f4f;
+   
 }
 .intro{
-    background-color:#4f4f4f;
-    border: 1px solid #4f4f4f;
-    margin: 10% 4%;
+    border: 3px solid #4f4f4f;
+    margin: 8% 4%;
     padding: 6%;
     display:flex;
     flex-flow: column;
@@ -94,12 +97,10 @@ img{
 .intro h2{
     font-size: 1.5rem;
     text-align: center;
-    margin: 2% 0;
-    padding: 2%;
 }
 h2 a, p{
     text-decoration: none;
-    color: white;
+    color: #4f4f4f;
 
 }
 h2 a:hover{
@@ -174,9 +175,7 @@ footer{
 }
 
 footer a{
-    border: 1px solid white;
     font-size: 1.5rem;
-    padding: 4% 0;
     color: #fff;
     text-decoration: none;
 }
