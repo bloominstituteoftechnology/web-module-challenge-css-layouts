@@ -110,6 +110,7 @@ h2 {
 .intro p {
     font-size:1.2rem;
     margin: 2% 10%;
+    text-align: justify;
 }
 /* Wide Image */
 .spooky {
@@ -135,7 +136,7 @@ h2 {
 .bottom-row {
     display:flex;
     flex-direction: row;
-    wrap: no-wrap;
+    flex-wrap: nowrap;
     height: 30rem;
     margin: 5% 2%;
 }
@@ -151,8 +152,11 @@ h2 {
     width: 20%; /* width of container */
     height: 100%; /* height of container */
     object-fit: cover;
-    border: 5px solid black;
     object-position: 50% 50%;
+}
+
+.portfolio img:hover {
+    border 5px solid #184d47;
 }
 
 .left {
@@ -372,3 +376,92 @@ ul {
     font-size:3rem;
     transition: .3s;
 }   */
+
+@media(max-width:800px) {
+    nav {
+        margin:3%;
+    }
+    .intro p{
+        margin: 3%;
+    }
+    .image-row{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* height: 55vh; */
+        margin:0 5%;
+        justify-items: center;
+        align-content:center;
+        align-items:center;
+    }
+
+    .bottom-row {
+        display:inline-block;
+    }
+    
+    .portfolio {
+        width: 40%;
+        height: 55vh%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        margin: 2% 0;
+        border: 1px solid black;
+    }
+
+    .lorem {
+        display:block;
+        margin: 2% 10%;
+    }
+    footer {
+        display:block;
+    }
+    footer button {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size:3rem;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        font-size: 1.5rem;
+        width: 50%;
+        margin: 1% 0;
+    }
+    h2 {
+        font-size:2rem;
+    }
+    .intro p {
+        font-size:1rem;
+        margin: 2% 5% 5%;
+    }
+    .spooky {
+        object-fit:cover;
+        object-position: 0% 0%;
+        height:20rem;
+        width:100%;
+    }
+    
+    .spooky-image {
+        width: 100%;
+        object-fit:cover;
+        object-position: 0%;
+        height:20rem;
+    }
+
+    .portfolio {
+        width: 70%;
+        margin: 3% auto;
+        
+    }
+    .lorem{
+        font-size:1rem;
+        margin: 2% 5% 5%;
+    }
+}
