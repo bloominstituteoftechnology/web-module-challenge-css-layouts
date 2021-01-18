@@ -56,6 +56,10 @@ h1{
     align-content: center;
     text-decoration: none;
 }
+.hNav:hover{
+opacity:0;
+transition-duration: 0.5s;
+}
 /* Intro Pic and body
 Just a picture of myself and scaling it
 */
@@ -68,6 +72,7 @@ img{
     height: 20rem;
     width: 15rem;
     border-radius: 50%;
+   border: 1.5px solid #4f4f4f;
 }
 .intro{
     margin: 0% 10;
@@ -84,6 +89,11 @@ img{
 h2 a{
     text-decoration: none;
     color: #4f4f4f
+
+}
+h2 a:hover{
+opacity: 0;
+transition: 1.5s;
 }
 
 /* Project Gallery 
@@ -124,7 +134,7 @@ Still messing around with the scaling
     color:#2a3439;
     text-shadow:#2a3439;
     text-decoration: none;
-    opacity: 0;
+    opacity: 0.25;
     font-size: 2.5rem;
     transition-duration: 0.5s;
 }
@@ -156,3 +166,7 @@ footer a{
     text-decoration: none;
 }
 
+footer a:hover{
+    opacity: 0;
+    transition-duration: 1.5s;
+}
