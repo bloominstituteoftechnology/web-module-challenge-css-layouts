@@ -22,10 +22,17 @@ vertical-align: baseline;
    /* border:1px solid grey; */
     max-width:100%; /*this says you can never be bigger than your parent*/
 }
-
+/* Font Application */
+h1, h2{
+    font-family: 'Overpass';
+}
+a, p{
+    font-family: 'Roboto Mono';
+}
 /* Nav Link + Header
 Hopefully make this look acceptable most nav links look like buttons but you can achieve the same affect with a navlink
 */
+
 .header{
     margin: 0 10%;
     padding: 5%;
@@ -65,18 +72,22 @@ Just a picture of myself and scaling it
 */
 .body{
     display:flex;
+    flex-flow: row wrap;
    justify-content: center;
+   align-content: baseline;
 }
 img{
     float:left;
+    margin: 5%;
     height: 20rem;
     width: 15rem;
-    border-radius: 50%;
    border: 1.5px solid #4f4f4f;
 }
 .intro{
-    margin: 0% 10;
-    padding: 10%;
+    background-color:#4f4f4f;
+    border: 1px solid #4f4f4f;
+    margin: 10% 4%;
+    padding: 6%;
     display:flex;
     flex-flow: column;
 }
@@ -86,9 +97,9 @@ img{
     margin: 2% 0;
     padding: 2%;
 }
-h2 a{
+h2 a, p{
     text-decoration: none;
-    color: #4f4f4f
+    color: white;
 
 }
 h2 a:hover{
@@ -115,6 +126,7 @@ Still messing around with the scaling
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-content: center;
+    
 }
 .gallery .box{
     border: 2px solid #4f4f4f;
@@ -126,22 +138,25 @@ Still messing around with the scaling
     margin: 1%;
     height: 200px;
     width: 200px;
-    background: url(https://picsum.photos/200/200)
+    background: url(https://picsum.photos/200/200);
+
 }
 
 /* Hover Code for Project Gallery*/
 .box a{
-    color:#2a3439;
+    color: #4f4f4f;
     text-shadow:#2a3439;
     text-decoration: none;
-    opacity: 0.25;
+    opacity: 1;
     font-size: 2.5rem;
+   
+}
+
+.box:hover{
+    opacity:0.05;
     transition-duration: 0.5s;
 }
 
-.box a:hover{
-    opacity: 1;
-}
 
 /* Footer Content
 Here establishing the width of my footer
@@ -168,5 +183,5 @@ footer a{
 
 footer a:hover{
     opacity: 0;
-    transition-duration: 1.5s;
+    transition-duration: 0.5s;
 }
