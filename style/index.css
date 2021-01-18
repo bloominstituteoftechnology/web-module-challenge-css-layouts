@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -42,12 +42,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End Of Reset */
+
+
+*{
+	border: 1px solid grey;
+}
+
+
 
 body{
 	font-size: 62.5%;
 	font-family: 'Fira Sans', sans-serif;
 	line-height: 1.3;
 	background: #fafafa;
+	color: rgb(19, 69, 82);
 
 }
 
@@ -70,9 +79,9 @@ li a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.3rem;
-	padding: .25rem;
+	padding: .1rem .25rem;
 	/* border: 1px solid #29465b; */
-	border-radius: 15px;
+	border-radius: 1.5rem;
 	margin: .5rem;
 	background: #29465b;
 	
@@ -88,7 +97,7 @@ h1{
 
 h1:hover{
 	font-size: 2.1rem;
-	color: black;
+	color:rgb(19, 69, 82);
 }
 
 h3{
@@ -100,7 +109,7 @@ ul{
 	flex-direction: row;
 	align-items: center;
 	/* border: 1px solid black; */
-	height: 40px;
+	height: 4rem;
 
 }
 
@@ -109,41 +118,49 @@ ul{
 	align-items: center;
 	align-content: center;
 	justify-content: space-between;
+	height: 60%;
+	
 }
 
 #intro .container{
 	background: url(../Images/Background.jpg);
 	background-repeat: none;
 	height: 60vh;
-	/* opacity: 0.5; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	
 }
+
+.button{
+	background:#ffcc00;
+	color: rgb(19, 69, 82);
+}
+
+.button 
 
 .container h2{
 	font-size: 3rem;
-	color: black;
+	color: rgb(19, 69, 82);
 	text-shadow: 1px 1px grey;
 }
 
 .container p{
-	color: black;
+	color: rgb(19, 69, 82);
 	text-shadow: 1px 1px grey;
 	font-size: 1.5rem;
 }
 
 #projects{
-	margin: 2rem;
+	/* margin: 2rem; */
 }
 
 #projects .container{
 	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 
 }
 
@@ -154,7 +171,10 @@ ul{
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	margin: 5px
+	margin: .5rem;
+	width:30%;
+	text-align: center;
+	
 }
 
 .project p{
@@ -169,18 +189,33 @@ footer{
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 20px;	
 	margin-top: 3rem;
 }
 
 .social{
 	width: 80%;
-	margin-left: 50px;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	width: 60%;
+
 }
+
+/* .social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+} */
 
 .social img {
 	width: 30px;
 	background: none;
+	margin: 3rem;
 }
 
 /* .social a{
@@ -216,31 +251,36 @@ footer{
 	height: 75vh;
 }
 
+/* Media Querrues */
 
-
-
-
+@media(max-width: 800px){
 	
+}
 
+@media(max-width: 500px){
+	body{
+		background:red;
+	}
 
+	header{
+		height: 100vh;
+	}
 
+	.containerOne{
+		flex-direction: column;
+		
+	}
 
+	.containerOne ul{
+		flex-direction: column;
+		height: 100%;
+	}
+	.containerOne ul li{
+		margin: 1rem;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.project h3{
+		font-size: 1.5rem;
+	}
+}
 
