@@ -380,11 +380,12 @@ footer a:hover{
 
 
 /* About Section */
-
+/* About Section Mobile Scaling */
+@media(max-width: 500px){
 .aboutBody{
     width: 100%;
     display:flex;
-    flex-flow: row;
+    flex-flow: column wrap;
     justify-content: space-evenly;
     justify-content: center;
     align-content: center;
@@ -392,10 +393,13 @@ footer a:hover{
 
 .aboutContainer{
     border: 1px solid #4f4f4f;
-    margin: 2% 0;
+    margin: 5%;
     padding: 4%;
     width: 50%; 
 }   
+  .aboutContainer p{
+    font-size: 0.5rem;
+  }
 
 .hobbyContainer{
     border: 1px solid #4f4f4f;
@@ -414,6 +418,44 @@ footer a:hover{
 .gifContainer{
     margin-right: 8%;
     padding: 2%;
+  }
+}
+/* About Section */
+.aboutBody{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+}
+
+.aboutContainer{
+    border: 1px solid #4f4f4f;
+    margin: 5%;
+    padding: 4%;
+    width: 50%; 
+}   
+  
+
+.hobbyContainer{
+    border: 1px solid #4f4f4f;
+    margin: 2%;
+    padding: 4%;
+    text-align: center;
+}
+.aboutBody h2{
+    text-align: center;
+    padding: 2%;
+}
+.gifContainer img{
+    width: 200px;
+    height: 200px;
+}
+.gifContainer{
+    margin-right: 8%;
+    padding: 2%;
+  }
 }
 
 /* Project Gallery */
@@ -462,7 +504,7 @@ footer a:hover{
 
 
 }
-/* Tablet Size */
+/* Tablet Size  + PC scaling*/
 @media(min-width: 501px){
     .galBox a{
         display: flex;
