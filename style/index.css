@@ -32,6 +32,156 @@ a, p{
 /* Nav Link + Header
 Hopefully make this look acceptable most nav links look like buttons but you can achieve the same affect with a navlink
 */
+@media(max-width: 500px){
+    .header{
+        margin: 10% 10%;
+        padding: 5%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+   
+    }
+    h1{
+        color: #4f4f4f;
+        margin-left: 2%;
+        margin-top: 2%; 
+        font-size: 3rem;
+    }
+  .navContainer > nav{
+        padding: 2%;
+        display:flex;
+        flex-direction: column;
+    }
+    .hNav{
+        background: #4f4f4f;
+        color: white;
+        padding: 4%;
+        display:flex;
+        flex-flow: coloumn;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none;
+    }
+    .hNav:hover{
+    opacity:0;
+    transition-duration: 0.5s;
+    }
+  /* Mobile Intro body */
+  .body{
+        border-bottom: 3px solid #4f4f4f;
+        border-top: 3px solid #4f4f4f;
+    }
+  .bodyContainer .imgContainer{
+      display:flex;
+      justify-content: center;
+  }
+    img{
+        border: 3px solid #4f4f4f;
+        margin: 5%;
+        height: 20rem;
+        width: 15rem;
+       
+    }
+    .intro{
+        border: 3px solid #4f4f4f;
+        margin: 8% 4%;
+        padding: 6%;
+        display:flex;
+        flex-flow: column;
+    }
+    .intro h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    h2 a, p{
+        text-decoration: none;
+        color: #4f4f4f;
+    
+    }
+    h2 a:hover{
+    opacity: 0;
+    transition: 1.5s;
+    }
+  /* Mobile Gallery */
+  .gallery{
+    margin: 2% 0;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    border: 2px solid #4f4f4f;
+    width: 75%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+.gallery .box{
+    border: 2px solid #4f4f4f;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 1%;
+    margin: 1%;
+    height: 25px;
+ 
+}
+.box a{
+    display: flex;
+    color: #4f4f4f;
+    text-shadow:#2a3439;
+    text-decoration: none;
+    opacity: 1;
+    font-size: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+}
+
+.box:hover{
+    opacity:0.25;
+    transition-duration: 0.5s;
+}
+  /* Footer should work the same because it scales to the size of the page regardless */
+  
+  footer{
+    background: #4f4f4f;
+    display:flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+footer a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+}
+
+/* Tablet Specs */
+
+
+
+
+
+/*Desktop View */
+
+@media(min-width: 501px){
+    /* Nav Link + Header
+Hopefully make this look acceptable most nav links look like buttons but you can achieve the same affect with a navlink
+*/
 
 .header{
     border: 3px solid #4f4f4f;
@@ -186,4 +336,6 @@ footer a{
 footer a:hover{
     opacity: 0;
     transition-duration: 0.5s;
+}
+
 }
