@@ -9,11 +9,12 @@
 
 a {
     text-decoration: none;
+    background-color: none;
 }
 
-a: visited {
+a:visited {
     text-decoration: none;
-}
+    }
 
 .cta {
     height: 20%;
@@ -32,20 +33,14 @@ h1 {
 .item{
     width:100px;
     height:40px;
-    background:whitesmoke;
+    background:white;
     border:1px solid black;
     margin:1px;
     flex-wrap: wrap;
     text-align: center;
+    padding-top: 0.8%; 
+    border-radius: 10px;
 }
-
-
-
-
-
-
-
-
 
 .rhinoTop {
     display: flex;
@@ -55,7 +50,7 @@ h1 {
 
 .rhinoPic {
     width: 40%;
-    margin-right: -10%;
+    margin-right: -2%;
 }
 
 .rhinoPic img {
@@ -72,27 +67,29 @@ h1 {
     border-radius: 10px;
     padding: 0.4% 0;
     text-align: center;
-    width: 15%
+    width: 90px;
+    background: white;
 }
-
-
-
-
-
-
-
-
-
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
 }
 
-.content2 {
-    display: flex;
-    text-align: center;
+
+.content div {
+    width: 20%;
 }
+
+
+
+
+
+
+
+
 
 .rhinoBottom {
     width: 80%
@@ -123,9 +120,58 @@ h1 {
     cursor: pointer;
 }
 
-
-
 nav .nav div:hover {
         background-color: lightblue;
         cursor: pointer;
 }
+
+
+
+
+@media(max-width: 800px) {   
+    .rhinoTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rhinoPic {
+        width: 85%;
+    }
+
+    .rhinoText {
+        width: 85%;
+    }
+
+    .rhinoText h2 {
+        text-align: center;
+    }
+
+    .rhinoText .rhinoButton {
+        margin: auto;
+    }
+
+    .content div {
+        width: 40%;
+    }
+
+    
+}
+
+
+
+@media(max-width: 500px) {
+    h1 {
+        text-align: center;
+    }    
+    
+    .container .nav {
+        display: flex;
+        flex-direction: column;
+        padding: 0 35%;
+        }
+
+    .rhinoTop {
+        display: flex;
+        flex-direction: column;
+    }
+    }
