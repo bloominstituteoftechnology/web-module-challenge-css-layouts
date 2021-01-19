@@ -50,10 +50,10 @@ table {
 	border-spacing: 0;
 }
 
-/* *{
+*{
     border: 100%;
     box-sizing:border-box;
-} */
+}
 header{
     background:border-box;
     background-color: rgb(255, 211, 203);
@@ -127,31 +127,33 @@ section img {
     margin: 50px 10px;
 }
 section div{
-    width:13%;
+    width:30%;
 }
 section .rightText{
+    display: inline-block;
+    justify-content: center;
     font-size: 2rem;
     padding: 40px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 section div p{
     text-align:center;
-    padding: 30px;
+    padding: 10px;
     font-family: 'Bodoni Moda', serif;
 }
 footer{
     background-color: cornsilk;
     font-size: 2rem;
-    padding:10%;
+    padding:5%;
 }
 footer p{
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
 }
 footer .button{
-    margin: auto;
-    width: 10%;
-    padding: 10px;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
 }
 
 footer button{
