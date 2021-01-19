@@ -283,8 +283,8 @@ Still messing around with the scaling
     align-content: center;
     padding: 20px 1%;
     margin: 1%;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background: url(https://picsum.photos/200/200);
 
 }
@@ -334,4 +334,34 @@ footer a:hover{
     transition-duration: 0.5s;
 }
 
+}
+
+@media(min-width: 800px){
+    .gallery{
+        margin: 2% 0;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    .boxes{
+        border: 2px solid #4f4f4f;
+        width: 75%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: center;
+        
+    }
+    .gallery .box{
+        border: 2px solid #4f4f4f;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        padding: 20px 1%;
+        margin: 1%;
+        height: 200px;
+        width: 200px;
+        background: url(https://picsum.photos/200/200);
 }
