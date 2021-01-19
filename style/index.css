@@ -170,15 +170,11 @@ footer a:hover{
 }
 }
 
-/* Tablet Specs */
 
-
-
-
-
-/*Desktop View */
+/*Desktop View and Tablet view look acceptable as the page scales to the size width of the browser */
 
 @media(min-width: 501px){
+    /* This is minimum width that tbe browser doesn't break the code */
     /* Nav Link + Header
 Hopefully make this look acceptable most nav links look like buttons but you can achieve the same affect with a navlink
 */
