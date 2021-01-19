@@ -53,7 +53,8 @@ table {
  
 body{
     font-family: 'Indie Flower', cursive;
-    font-size:25px;
+    font-size:62.5%;
+    box-sizing: border-box;
 }
 
 nav{
@@ -64,13 +65,13 @@ h1{
     padding-top:2%;
     text-align:left;
     margin-left:10%;
-    font-size:3rem;
+    font-size:4rem;
 }
 .navigation{
     display:flex;
     padding:1%;
     justify-content: center;
-    
+    font-size:2rem;
 }
 .navigation a{
 padding:1%;
@@ -85,13 +86,14 @@ color:green;
 header h2, header p{
     margin:2%;
     text-align:center;
+    font-size:2rem;
 }
 
 .mainpicture{
 text-align:center;
 } 
 .mainpicture img{
-    height:400px;
+    width:35%;
     border-radius:20%;
     margin:10%;
 }
@@ -102,26 +104,26 @@ text-align:center;
 .pic{
     background:url(https://picsum.photos/150);
     display:flex;
-    height:200px;
-    width:200px;
+    height:30vh;
+    width:20vw;
     justify-content:center;
+    margin:1%;
     align-items:center;
     cursor:pointer;
+    border-radius: 50%;
     border:2px solid black;
-    border-radius:50%;
-
 }
 .pic a{
     opacity: 0;
     text-decoration:none;
   color:white;
   text-shadow:1px 1px black;
+  text-align: center;
 }
 .pic:hover a{
     opacity:1;
-    font-size:2.5rem;
+    font-size:2rem;
     transition:.3s;
-    
 }
 .about{
     text-align:center;
@@ -150,4 +152,86 @@ justify-content:center;
 .links img{
     width:30px;
     margin:10px;
+}
+
+
+@media(max-width:800px){
+
+    h1{
+        padding-top:0%;
+        margin-left:0%;
+        justify-content:center;
+        text-align:center;
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation a{
+        padding-top:3%;
+        font-size:2.5rem;
+    }
+    .introduction{
+        margin-top:6%
+    }
+
+    
+    .mainpicture img{
+        width:60%    
+    }
+    .images{
+        flex-wrap:wrap;
+    }
+    .pic{
+        margin-top:6%;
+        width:40vw;
+        height:30vh;
+    }
+    .pic a{
+        opacity: 1;
+        font-size: 3rem;
+    }
+    .pic:hover a{
+        font-size: 3rem;
+    }
+  
+    .about{
+        margin-top: 10%;
+        width:100%;
+    }    
+}
+
+@media(max-width:500px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navigation a{
+        padding-top: 7%;
+    }
+    .introduction h2{
+        font-weight: 900;
+    }
+    .introduction p{
+        font-size:1.5rem;
+        padding-top:6%;
+    }
+
+    .mainpicture img{
+        width:80%    
+    }
+    .pic{
+        background:url(https://picsum.photos/150);
+        display:flex;
+        justify-content:center;
+        margin-top:6%;
+        align-items:center;
+        cursor:pointer;
+        border-radius: 0%;
+        height:25vh;
+    }
+    .pic a{
+        font-size: 1.7rem;
+    }
+
 }
