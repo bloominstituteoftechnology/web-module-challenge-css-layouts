@@ -363,5 +363,17 @@ footer a:hover{
         margin: 1%;
         height: 200px;
         width: 200px;
-        background: url(https://picsum.photos/200/200);
+       background: url(https://picsum.photos/200/200)
+    }
+
+.box a{
+    display: flex;
+    color: #4f4f4f;
+    text-shadow:#2a3439;
+    text-decoration: none;
+    opacity: 1;
+    font-size: 1.5rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
 }
