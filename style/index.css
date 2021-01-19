@@ -296,7 +296,7 @@ Still messing around with the scaling
     text-shadow:#2a3439;
     text-decoration: none;
     opacity: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     flex-flow: row wrap;
     justify-content: center;
    
@@ -335,7 +335,7 @@ footer a:hover{
 }
 
 }
-
+/* Revamped for Tablets */
 @media(min-width: 800px){
     .gallery{
         margin: 2% 0;
