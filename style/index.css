@@ -419,7 +419,7 @@ footer a:hover{
 /* Project Gallery */
 
 
-@media(min-width: 500px){
+@media(max-width: 500px){
 .galBox a{
     display: flex;
     color: #4f4f4f;
@@ -463,6 +463,47 @@ footer a:hover{
 
 }
 /* Tablet Size */
+@media(min-width: 501px){
+    .galBox a{
+        display: flex;
+        color: #4f4f4f;
+        text-shadow:#2a3439;
+        text-decoration: none;
+        opacity: 1;
+        font-size: 1rem;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+        .projectGallery{
+            display:flex;
+            justify-content: center;
+            align-content:center;
+        }
+        
+        .galleryBoxContainer{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        
+        .galBox{
+            border: 1px solid #4f4f4f;
+            height: 8rem;
+            width: 8rem;
+            padding: 1%;
+            margin: 2%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            justify-content: center;
+            align-content: center;
+        }
+        .galBox:hover{
+            opacity:0.25;
+            transition-duration: 0.5s;
+        }
+    
 
 @media(min-width: 800px){
     .galBox{
