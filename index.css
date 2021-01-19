@@ -1,0 +1,83 @@
+
+nav{
+    display:block;
+    width:90%;
+    text-align:center;
+    margin-top:-60px;
+    margin-left:40%;
+    align-content: space-between;
+    background-color:white;
+    padding-top:10px;
+    justify-content: flex-end;
+  }
+  nav a{
+    text-decoration:none;
+    font-family:sans-serif;
+    color:rgb(9, 9, 172);
+    text-shadow: 1px 1px black;
+    font-size:14px;
+    padding:13px 30px;
+    transition:.3s;
+  }
+  nav a:hover{
+    color:white;
+    background:rgb(9, 9, 172);
+  }
+  H1{
+    color:rgb(9, 9, 172);
+    text-shadow: 1px 1px black;
+
+  }
+  .BigBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 9, 172);
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10%;
+    width: 70%;
+    height: 250px;
+    background-color: white; 
+    margin-left: 17%;
+    
+  }
+  .Innertext{
+    Margin:auto;
+    border: white;
+    vertical-align: middle;
+  }
+
+  .grid {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+    height: 550px;
+    grid-gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    overflow: hidden;
+  }
+
+  .grid .x23 {
+  background-color:rgb(9, 9, 172);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+.grid .x23 {
+  grid-column: span 2;
+}
+.foot{
+ margin-top: 100px;
+ margin-left: 20px;
+}
