@@ -59,7 +59,7 @@ a:hover {
 }
 
 #navbar a:first-child {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -98,7 +98,6 @@ a:hover {
 
 #intro a {
   border-radius: 3px;
-  display: inline-block;
   font-size: 1.8em;
   margin: 20px 0;
   padding: 8px 16px;
@@ -114,7 +113,7 @@ a:hover {
 
 #projects div {
   margin: 1%;
-  padding: 0.5%;
+  padding: 1%;
   transition: all 0.2s ease;
 }
 
@@ -138,4 +137,55 @@ footer a {
   border-radius: 3px;
   font-size: 2em;
   padding: 16px 40px;
+}
+
+@media screen and (max-width: 800px) {
+
+  #projects div {
+    width: 46%;
+  }
+
+  #projects img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #navbar {
+    flex-direction: column;
+    margin: auto;
+    width: 150px;
+  }
+
+  #navbar a {
+    border-left: 2px solid black;
+    border-top: none;
+    text-align: center;
+  }
+
+  #navbar a:first-child {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0;
+  }
+  
+  #navbar a:last-child {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  #intro-a-container {
+    text-align: center;
+  }
 }
