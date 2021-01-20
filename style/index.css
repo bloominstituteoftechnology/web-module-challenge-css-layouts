@@ -151,3 +151,18 @@ nav ul li a:hover{
   color: white;
   background:pink;
 }
+@media only screen and (max-width: 800px){
+  body{
+    width: 800px;
+  }
+  nav{
+    text-align: center;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 500px){
+  body{
+    width: 500px;
+    margin: auto;
+  }
+}
