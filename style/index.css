@@ -160,3 +160,22 @@ footer{
     font-weight: bold;
     color: white;
 }
+@media(max-width:400px){
+    .projects div{
+        width: 18%;
+        height: 18%;
+
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+    }
+    .projects div a{
+        opacity:1;
+        font-size: 1rem;
+    }
+    .end{
+        width: 20%;
+    }
+} 
