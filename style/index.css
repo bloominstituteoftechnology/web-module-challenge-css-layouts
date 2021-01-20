@@ -1,1 +1,56 @@
-/* Add CSS styling here */
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* end of reset. used the universal condensed reset and added box-sizing */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1% 2% 1%;
+}
+
+nav a {
+  padding: 1%;
+  border: 0.5em solid yellowgreen;
+  font-size: 1.15em;
+}
+
+h1 {
+  text-align: center;
+  
+}
+#img-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75vw;
+  height: 60vh;
+  background-image: url(https://via.placeholder.com/1800x1200/ccc.png);
+  background-position: center;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
