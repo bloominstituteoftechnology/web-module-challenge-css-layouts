@@ -12,7 +12,11 @@ a {
     background-color: none;
 }
 
-a:visited {
+a: active {
+    text-decoration: none;
+}
+
+a: visited {
     text-decoration: none;
     }
 
@@ -30,7 +34,7 @@ h1 {
     display: flex;
 }
 
-.item{
+.nav .item{
     width:100px;
     height:40px;
     background:white;
@@ -38,7 +42,7 @@ h1 {
     margin:1px;
     flex-wrap: wrap;
     text-align: center;
-    padding-top: 0.8%; 
+    padding-top: 15px; 
     border-radius: 10px;
 }
 
@@ -77,7 +81,6 @@ h1 {
     text-align: center;
     justify-content: space-evenly;
 }
-
 
 .content div {
     width: 20%;
