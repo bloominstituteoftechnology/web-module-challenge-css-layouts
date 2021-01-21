@@ -55,7 +55,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 /* General Styles */
@@ -69,13 +69,21 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
-h1, h2, h3 {
+h1 {
     font-family: 'Bodoni Moda', serif;
     font-size: 5rem;
 }
+h3 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 3rem;
+}
 
 header {
-    background-color: #f9f7f7;
+    background-color: #dbe2ef;
+}
+
+h1, nav {
+    margin-left: 3%;
 }
 
 nav a {
@@ -85,5 +93,41 @@ nav a {
     padding: 1% 2%;
     text-align: center;
     border: 1px solid black;
-    margin: 3% 0;
+    margin: 2% 0;
+}
+
+/* .aboutMe img {
+    width: 50%;
+} */
+
+.aboutMe {
+    display: flex;
+
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects div {
+    width: 20%;
+    margin: 2% 2%;
+}
+
+footer {
+    background-color: #dbe2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    margin: 2% 0;
+}
+
+footer button{
+    margin-bottom: 2%;
 }
