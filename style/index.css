@@ -1,1 +1,109 @@
-/* Add CSS styling here */
+nav {
+    justify-items: flex-start;
+    display: inline-flex;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  header {
+    display: inline-flex;
+  }
+
+ #headerImage {
+    height: 500px;
+    width: 500px;
+    justify-items: flex-start;
+    display: inline-flex;
+    padding-right: 50px;
+    margin-right: 50px;
+ }
+
+ #headerText {
+    float: right;
+    padding-left: 50px;
+    margin-left: 50px;
+ }
+
+h2 {
+    text-align: center;
+}
+
+.firstProjectNavBar {
+    display: inline-block;
+}
+
+div.project1, div.project2, div.project3, div.project4 {
+    vertical-align: top;
+    display: inline-block;
+    width: 125px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+.caption {
+    display: block;
+}
+
+ #project1, #project2, #project3, #project4 {
+    padding: 0 2.5px 0 2.5px;
+    margin: 0 2.5px 0 2.5px;
+ }
+
+ .secondProjectNavBar {
+    justify-content: space-evenly;
+ }
+
+ #project5 {
+    padding: 0 2.5px 0 2.5px;
+    margin: 0 2.5px 0 2.5px;
+ }
+
+ #project6 {
+    padding: 0 2.5px 0 2.5px;
+    margin: 0 2.5px 0 2.5px;
+ }
+
+ #project7 {
+    padding: 0 2.5px 0 2.5px;
+    margin: 0 2.5px 0 2.5px;
+ }
+
+ #project8 {
+    padding: 0 2.5px 0 2.5px;
+    margin: 0 2.5px 0 2.5px;
+ }
+
+ h3 {
+    text-align: center;
+ }
+
+ #footerButton {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+  
