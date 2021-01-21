@@ -17,12 +17,12 @@
 	align-items: center;
 	justify-content: space-between;
   width: 100%;
-	padding: 1% 2% 1%;
   font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
-  background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #85989A;
+}
+
+#nav-bar>img {
+  width: 15%;
 }
 
 #nav-bar>div {
@@ -40,45 +40,40 @@
 }
 
 #nav-bar>div>a {
-	text-decoration: underline dotted coral;
-	color: coral;
+  color: black;
+	text-decoration: underline overline dotted coral;
 	font-family: 'Acme', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	text-align: center;
 }
 
 #nav-bar>div>a:hover {
 	text-decoration: none;
-	border: 0.25em dotted lightseagreen;
-	color: lightseagreen;
+	border: 0.25em dotted #266258;
+	color: lightgreen;
 }
 
-#nav-bar>h1 {
-  color: teal;
-	font-size: 1.75em;
-	font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
-  font-weight: bold;
-  text-shadow: 0.25em 0.25em 0.125em white;
-}
-
-.my-name {
+h1 {
 	font-weight: bold;
 	font-size: 3.5em;
-	font-family: 'Acme', sans-serif;
+  font-family: 'Acme', sans-serif;
+  text-shadow: 0.25em 0.25em 0.25em #85989A;
 }
 
-h4 {
-  color: seagreen;
+p {
+  color: black;
   font-family: 'Chakra Petch', sans-serif;
   font-weight: bolder;
-  background-color: black;
-  opacity: 0.5;;
+  text-shadow: 0.25em 0.25em 0.25em #85989A;
+  background-color: lightgreen;
+  opacity: 0.25;;
   border-radius: 13px;
 }
 #img-position {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+  align-items: center; 
+  background-color: #0C1A18;
 }
 
 #img-block {
@@ -88,12 +83,12 @@ h4 {
 	justify-content: center;
 	width: 75vw;
 	height: 60vh;
-	background-image: url('https://images.pexels.com/photos/1583582/pexels-photo-1583582.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+	background-image: url(https://images.pexels.com/photos/1583582/pexels-photo-1583582.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 	font-size: xx-large;
-	margin: 1% 2% 2%;
+  margin: 1% 2% 2%;
 }
 
 #img-block > h2 {
@@ -104,7 +99,7 @@ h4 {
 	text-decoration: underline dotted coral;
 	color: coral;
 	font-family: 'Acme', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 #img-block > a:hover {
@@ -118,30 +113,31 @@ main {
 	width: 100%;
 	height: 100%;
 	justify-content: center;
-	align-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: black;
 }
 
-main > .landing-content {
-  height: fit-content;
-  width: fit-content;
-  background-image: url(https://via.placeholder.com/500x400/ccc.png);
-	margin: 3%;
+main > img {
+  display: flex;
+  width: 37.25em;
+  height: auto;
+	margin: 1%;
 }
 
 footer {
-	background-color: darkslategrey;
+	background-color: #011313;
 	padding: 2%;
 	text-align: center;
 }
 
 footer > a {
-	text-decoration: underline dotted coral;
-	color: coral;
+	color: lightgreen;
 	font-family: 'Acme', sans-serif;
 	font-size: 2em;
 }
 
 footer > a:hover {
-	text-decoration: overline coral;
-	color: lightseagreen;
+	text-decoration: underline wavy coral 0.125em;
+	color: lightgreen;
 }
