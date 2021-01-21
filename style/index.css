@@ -37,12 +37,13 @@ nav>a:hover {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
   font-weight: bold;
 }
 
 .my-name {
+  font-weight: bold;
   font-size: 3.5em;
   font-family: 'Acme', sans-serif;
 }
@@ -63,6 +64,7 @@ h1 {
 	background-image: url(https://via.placeholder.com/1800x1200/ccc.png);
   background-position: center;
   font-size: xx-large;
+  margin: 1% 2% 2%;
 }
 
 #img-block a {
