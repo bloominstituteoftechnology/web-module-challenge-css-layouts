@@ -1,1 +1,70 @@
 /* Add CSS styling here */
+
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+   display:flex;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+   
+
+
+}
+
+/*vertical column at the breakpoint*/
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 4em;
+    }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*shrink to stay on one line based on standard breakpoints*/
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 3em;
+    }
+}
