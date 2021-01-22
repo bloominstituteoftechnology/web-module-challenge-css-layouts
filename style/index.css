@@ -1,6 +1,6 @@
 * {
   
-  background-color:#EAB4CF;
+  background-color:#f7c7df;
   text-decoration:none;
 }
 
@@ -73,6 +73,7 @@ nav {
   height:350px;
   width:60%;
    line-height:1.5;
+   border:2px solid;
  
 
   
@@ -90,7 +91,7 @@ nav {
   width:70%;
    line-height:1.5;
    align-items:center;
-   border: 2px solid;
+
    
    
 }
@@ -101,7 +102,7 @@ nav {
 
 
 }
-.pz-home {
+pz-home {
   margin:10px auto;
   padding:50px;
   font-size:32px;
@@ -110,9 +111,6 @@ nav {
  
 }
 
-pz8 {
-  color: red;
-}
 
 .pz-container-about {
  
@@ -125,38 +123,33 @@ pz8 {
   height:250px;
   width:100%, ;
    line-height:1.5; 
+
    
-  
-   
-  
 }
 
-.pz-about {
+pz-about {
   margin:0 auto;
   padding:30px;
-  font-size:15px;
+  font-size:25px;
   justify-content:center;
-  
- 
-
 }
 
 .pz-container-contact {
- 
-  font-family:Berkshire Swash;
-  font-size:20px;
   display:flex;
-  margin:auto;
-  padding:100px;
+ font-family:Berkshire Swash;
+  font-size:20px;
+  margin:1.0rem auto;
+  padding:5.0rem;
   justify-content:center;
   align-items:center;
   height:350px;
-  width:60%;
+  width:80%;
    line-height:1.5; 
    line-height:1.5;
-  
+ 
    
 }
+
 .button {
   font-family:Berkshire Swash;
   color:white;
@@ -171,10 +164,11 @@ pz8 {
   width: 40px;
 }
 
-pic {
+.pic {
+  display:flex;
   width:250px;
-  height:250px;
-  border:2px solid;
+  height:200px;
+ 
 }
 
 .pz-container-projects {
@@ -185,18 +179,6 @@ pic {
 
 }
 
-pz-contact {
-  font-family:Berkshire Swash;
-  width: 400px;
-  height: 500px;
-  border:2px solid black;
-  margin:0 auto;
-  padding:0;
-  font-size:35px;
-  text-align:center;
- 
- 
-}
 
  main {
    height: 954px;
@@ -243,6 +225,7 @@ pz-contact {
   justify-content: center;
   align-items:space-between;
   width:auto;
+
 
 
    
@@ -360,223 +343,239 @@ ul3 {
   background-color:#F78B86;
 }
 
-
-
 @media only screen and (max-width: 1100px) {
 
- header {
-    padding:0px;
-    
-    width:auto;
-  }
-  
- h1 {
-    font-size:30px;
-  }
-
-  .topnav { 
-    overflow: none;
-    font-size:5px;
+  header {
+     padding:0px;
+     
+     width:auto;
+   }
    
-  }
-  
-  .container {
-    margin:auto;
-   
-  }
-  
-  
-  .pz-container-about {
-    margin:30px :
-    height:400px;;
-    padding: 20px;
-    font-size:20px;
-  }
-
-  
-  pz-contact {
-    border:20px solid;
-  }
-  .projects {
-    font-size:19px;
-  }
-  
-  ul3{
-    font-size:24px;
-  }
-  
-  footer {
- 
-  padding:25px;
-  height:10px auto;
-  border:10px solid black;
- 
-    }
-  
-  
-  @media only screen and (max-width:860px){
-
-    header {
-      padding:0px;
-      
-      width:auto;
-    }
-
-    nav {
-      width:auto;
-    }
-    
-    .topnav { 
-      font-size:5px;
-      overflow:none;
-    
-    }
-
-    .pz-container-about {
-      margin:30px :
-      height:400px;;
-      padding: 40px;
-      font-size:15px;
-    }
-  
-
-    .bottom2 {
-      display:none;
-    }
-
-
- 
-    @media only screen and (max-width: 700px){
-      .topnav { 
-        font-size:2px;
-        overflow:none;
-        
-       
-      }
- 
   h1 {
-    font-size:19px;
-  }
-  
-  nav {
+     font-size:30px;
+   }
  
-    width:auto;
-    height:100px;
-    text-align:center;
-   background:none;
-    
-  }
-      
-      
-      .projects {
-        font-size: 15px;
-        margin-right:10px;
-        margin-left:10px;
-      }
-  
-   
- header {
-  padding:0px;
-  
-  width:auto;
-}
-  
-    .pic {
-      margin:2px;
-    }
-
-    .pz-container-home {
-      height: 500px;
-    
-    }
-
-    .pz-container-about{
-      height: 500px;
-      padding: 20px;
-     
-    }
-
-    .pz-contact {
-      width:100%;
-      padding:20;
-   
-    }
-
-    .pz-container-contact {
-      height: 200px;
-      width:50%;
-      
-      
-    }
-
-
-    .pz-container-projects {
-      height: 650px;
-      padding: 0px;
-     
-    }
-
-    .projects {
-      
-        width:100%;
-  
-
-      
-    }
-
-    @media only screen and (min-width: 400px){
-
-      header {
-        padding:0px;
-        
-        width:auto;
-      }
-
-      nav { 
-        overflow: none;
-        width:auto;
-      
-      }
-      a {
-        padding:0px;
-        margin: 0px;
-      }
-
-      .topnav {
-        height: 50px;
-        font-size: 5px;
-        margin:0;
-        padding:0;
-        width: 100%;
-        overflow:none;
-  
-
-      }
-     .pz-about{
-
+   .topnav { 
+     overflow: none;
      font-size:5px;
+    
+   }
+   
+   .container {
+     margin:auto;
+    
+   }
+   
+   
+   .pz-container-about {
+     margin:30px :
+     height:400px;
+     padding: 20px;
+     font-size:20px;
+  
+   }
+ 
+   
+   pz-contact {
+     border:20px solid;
+   }
+   .projects {
+     font-size:19px;
+   }
+   
+   ul3{
+     font-size:24px;
+   }
+   
+   footer {
+  
+   padding:25px;
+   height:10px auto;
+   border:10px solid black;
+  
+     }
+    }
+   
+   
+   @media only screen and (min-width:860px){
+ 
+     header {
+       padding:0px;
+       
+       width:auto;
+     }
+ 
+     nav {
+       width:auto;
+     }
+     
+     .topnav { 
+       font-size:5px;
+       overflow:none;
+     
+     }
+ 
+     .pz-container-about {
+       margin:30px :
+       height:400px;
+       padding: 40px;
+       font-size:15px;
+       
+     }
+   
+     
+    }
+ 
+ 
+  
+     @media only screen and (max-width: 876px){
+       .topnav { 
+         font-size:2px;
+         overflow:none;
+          
+       }
+  
+
+   h1 {
+     font-size:25px;
+   }
+   
+   nav {
+  
+     width:auto;
+     height:100px;
+     text-align:center;
+    background:none;
+     
+   }
+       
+       
+       .projects {
+         font-size: 15px;
+         margin-right:10px;
+         margin-left:10px;
+       }
+   
+    
+  header {
+   padding:0px;
+   width:auto;
+ }
+   
+     .pic {
+       margin:2px;
+     }
+ 
+     .pz-container-home {
+       height: 500px;
+     
+     }
+ 
+     .pz-container-about{
+       height: 200px;
+       padding: 20px;
+       font-size:5px;
+   
+     }
+ 
+     .pz-about {
+       font-size:12px;
+      
+     }
+ 
+     .pz-contact {
+       width:100%;
+       padding:20;
+    
+     }
+ 
+     .pz-container-contact {
+       height: 200px;
+       width:50%;
+       
+     }
+ 
+ 
+     .pz-container-projects {
+       height: 5.0rem;
+       padding: 0px;
+      
+      
+     }
+ 
+     .projects {
+      font-size:15px;
+       width:100%;
+    
      }
 
-    .pz-container-about{
-      padding: 20px;
+     .bottom1 {
+      display:none;
+  
     }
-
-    .pz-container-contact {
+  }
+ 
+     @media only screen and (max-width: 400px){
+ 
+       header {
+         padding:0px;
+         
+         width:auto;
+       }
+ 
+       nav { 
+         overflow: none;
+         width:auto;
+       
+       }
+       a {
+         padding:0px;
+         margin: 0px;
+       }
+ 
+       .topnav {
+         height: 50px;
+         font-size: 5px;
+         margin:0;
+         padding:0;
+         width: 100%;
+         overflow:none;
+   
+ 
+       }
+      .pz-about{
+ 
+      font-size:5px;
+      }
+ 
+     .pz-container-about{
+       padding: 20px;
+       font-size: 5px;
+   
+     }
+ 
+     .pz-container-contact {
+       
+       height: 500px;
       
-      height: 500px;
-     
-    }
-
-    .pz-container-projects {
-     
-    }
-
-    .projects {
+     }
+ 
+     .pz-container-projects {
       
-      justify-content:center;
-      height:90px;
-      
+     }
+ 
+     .projects {
+       
+       justify-content:center;
+       height:90px;
+       
+     }
+ 
+     .bottom2 {
+      display:none;
+      border:2px solid;
     }
-
-
-
+  }
+ 
+ 
+ 
