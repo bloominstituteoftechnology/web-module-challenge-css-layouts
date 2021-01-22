@@ -83,14 +83,6 @@ nav.primary-nav a:hover {
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 1200px) {
-  .gallery-item {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    background-color: red;
-  }
-}
-
 .gallery-item {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -107,8 +99,8 @@ nav.primary-nav a:hover {
   margin-bottom: 2em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
 }
 
 .hero-banner img {
@@ -161,5 +153,30 @@ footer h3 {
 .icon {
   height: 2em;
   width: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery .gallery-item {
+    width: 218px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */

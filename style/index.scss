@@ -59,12 +59,6 @@ nav.primary-nav a:hover {
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 1200px) {
-  .gallery-item {
-    box-shadow: none;
-    background-color: red;
-  }
-}
 .gallery-item {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   margin: 1em;
@@ -77,7 +71,7 @@ nav.primary-nav a:hover {
   margin-left: 1em;
   margin-bottom: 2em;
   flex-wrap: wrap;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
 }
 
 .hero-banner img {
@@ -121,4 +115,24 @@ footer {
 .icon {
   height: 2em;
   width: 2em;
+}
+
+// Media Queries!
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    flex-direction: column;
+    // border: 1px solid black;
+    align-items: center;
+    .gallery-item {
+      width: 218px;
+      align-items: center;
+    }
+  }
 }
