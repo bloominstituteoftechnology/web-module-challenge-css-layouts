@@ -1,17 +1,27 @@
-
-
 * {
    overflow-x: hidden;
 }
 
+body {
+   font-family: "Sofia", sans-serif;
+   font-size: 15px;
+   text-shadow: 3px 3px 3px #ababab;
+   background-color: skyblue;
+ }
+
 .container {
    display: flex-start;
    flex-wrap: wrap;
+   background-color: seagreen;
+   text-indent: 25px;
 }
 
 .navigation {
  display: flex-start;
  flex-wrap: wrap;
+ background-color: seagreen;
+ padding-left: 50px;
+ padding-bottom: 15px;
 }
 
 nav {
@@ -49,16 +59,17 @@ ul {
   header {
     display: flex;
     flex-wrap: wrap;
+    height: 300px;
+    overflow: hidden;
   }
 
  #headerImage {
-    height: 500px;
-    width: 500px;
-    justify-items: flex-start;
-    flex-wrap: wrap;
     display: inline-flex;
-    padding-right: 50px;
-    margin-right: 50px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 25px;
+    
  }
 
  #headerText {
@@ -66,12 +77,34 @@ ul {
     flex-direction: column;
     justify-items: flex-end;
     padding-left: 50px;
-    margin-left: 50px;
  }
 
 h2 {
-    text-align: center;
+    text-align: start;
 }
+
+a.button {
+   display:inline-block;
+   width: 120px;
+   padding:0.35em 1.2em;
+   border:0.1em solid rgb(155, 102, 42);
+   margin:0 0.3em 0.3em 0;
+   border-radius:0.12em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   font-weight:300;
+   color:black;
+   text-align: start;
+   transition: all 0.2s;
+   background-color: silver;
+   }
+
+   a.button:hover{
+   color:#000000;
+   background-color:rgb(134, 95, 160);
+   }
+   
 
 #topGalleryContainer {
    display: flex;
@@ -121,6 +154,7 @@ h2 {
 
 h3 {
    text-align: center;
+   padding-top: 25px;
 }
 
 footer {
@@ -129,10 +163,14 @@ footer {
    justify-content: center;
 }
 
+#footer {
+   background-color: seagreen;
+}
+
 #footerButton {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-top: 20px;
+   padding-top: 5px;
    padding-bottom: 50px;
 }
