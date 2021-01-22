@@ -46,7 +46,107 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
-	margin: 80px;
+/* Add CSS styling here */
 
-}/* Add CSS styling here */
+body {
+    border: 2rem solid darkolivegreen;
+    padding: 5rem;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: cursive;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    background-color: darkolivegreen;
+    color: white;
+    margin: 2rem;
+    border-radius: 20%;
+    padding: 1em;
+    font-size: 1.5rem;
+    transition-duration: .04s;
+    text-decoration: none;
+}
+
+
+.information p{
+	font-size: 1.5rem;
+	width: 50rem;
+	text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+    border: .5rem dotted darkolivegreen;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.information a {
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+    color: white;
+    border-radius: 20%;
+    padding: 1em;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: snow;
+    color: darkolivegreen;
+}
+
+ .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.projects :hover {
+    border: .5rem dotted darkolivegreen;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+    color: white;
+    margin: 2rem;
+    border-radius: 20%;
+    padding: .5em;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+}
+
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+}
