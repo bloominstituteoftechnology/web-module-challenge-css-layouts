@@ -13,7 +13,7 @@ header h1 {
 h2 {
   font-size: larger;
 }
-
+//  Navigation
 nav.primary-nav {
   margin-left: 6em;
   display: flex;
@@ -50,7 +50,7 @@ nav.primary-nav a:hover {
 }
 
 .gallery img {
-  margin-left: 1em;
+  // margin-left: 1em;
   border-radius: 3px;
 }
 .gallery-item p {
@@ -115,6 +115,20 @@ footer {
 .icon {
   height: 2em;
   width: 2em;
+}
+
+// Changing the Scroll bar
+
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6649b8;
 }
 
 // Media Queries!
