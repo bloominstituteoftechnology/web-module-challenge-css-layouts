@@ -4,8 +4,6 @@
   font-size: 1.05em;
   color: #4c5270;
 }
-a {
-}
 
 header h1 {
   margin-left: 1em;
@@ -19,12 +17,14 @@ h2 {
 nav.primary-nav {
   margin-left: 6em;
   display: flex;
+  align-items: stretch;
 }
 nav.primary-nav a {
   border: 1px solid black;
   padding: 0.5em;
   color: whitesmoke;
   background-color: #4c5270;
+  width: 60px;
 }
 @keyframes hover-effect {
   from {
@@ -63,9 +63,7 @@ nav.primary-nav a:hover {
   margin-top: 3em;
   margin-left: 1em;
   margin-bottom: 2em;
-  p {
-    line-height: calc(1em-8px);
-  }
+  flex-wrap: wrap;
 }
 
 .hero-banner img {
@@ -76,4 +74,24 @@ nav.primary-nav a:hover {
 
 .left-sidebar {
   margin-left: 1em;
+  p {
+    max-width: 32em;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h3,
+footer a {
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 0.5em;
+  color: whitesmoke;
+  background-color: #4c5270;
 }
