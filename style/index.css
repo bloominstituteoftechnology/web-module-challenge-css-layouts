@@ -1,1 +1,129 @@
 /* Add CSS styling here */
+html, body{
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Varela', sans-serif;
+      height: 100%;
+      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      scroll-behavior: smooth;
+}
+
+.name{
+      float: left;
+}
+
+ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+li{
+      float: right;
+}
+
+li a{
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      padding: 20px 20px;
+      color: white;
+}
+
+li a:hover{
+      cursor: pointer;
+}
+
+.intro > h1{
+      text-align: center;
+      height: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+}
+
+.intro, .about, .project{
+      height: 90%;
+      position: relative;
+}
+
+.about > .card > h1{
+      text-align: center;
+      padding: 10px;
+      color: gray;
+}
+
+.about > .card > p{
+      text-align: center;
+      padding: 40px;
+      color: gray;
+}
+
+.project > h1{
+      text-align: center;
+}
+
+.card{
+      background: white;
+      height: 400px;
+      width: 800px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      margin: auto;
+}
+
+.project-div{
+      width: 1000px;
+      background-color: #fff;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.project-card{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      margin: 20px;
+}
+
+
+.container > h4{
+      color: gray;
+      text-align: center;
+}
+
+.project-card:hover{
+      cursor: pointer;
+}
+
+.card-2{
+      background: white;
+      width: 800px;
+      color: gray;
+      margin: auto;
+      margin-top: 100px;
+      text-align: center;
+}
+
+button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+
+button:hover{
+      cursor: pointer;
+}
