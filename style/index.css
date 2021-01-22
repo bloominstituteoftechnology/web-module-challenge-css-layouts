@@ -1,1 +1,116 @@
-/* Add CSS styling here */
+body{
+    width: 1600px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 20%, rgba(93,0,129,1) 80%, rgba(0,212,255,1) 100%);
+}
+.header {
+    width: 1600px;
+    padding: 1%;
+}
+
+#headertext{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size:40px;
+    width: 1600px;
+    padding: 0.25%;
+}
+
+.headerlink{
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(199, 21, 74);
+    padding: 5px;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+.toplink{
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(199, 21, 74);
+    padding: 5px;
+}
+
+.topproject{
+    width:1600px;
+    padding:1%;
+    display: inline-flex;
+    border: 1%;
+    border-color: white;
+}
+
+.topproject img{
+    width: 800px;
+    border-radius: 12px;
+}
+
+.topdiv{
+    font-family: 'Source Code Pro', monospace;
+    color: gold;
+    padding: 7%;
+    font-size: large;   
+}
+
+.gallery1 {
+    width:auto;
+    display: inline-flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    color: gold;
+    font-family: 'Source Code Pro', monospace;
+}
+.gallery2 {
+    width:auto;
+    display: inline-flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1%;
+    color: gold;
+    font-family: 'Source Code Pro', monospace;
+}
+.galleryimg img{
+    width:90%;
+    height:90%;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.footer{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size:x-large;
+    padding: 1%;    
+}
+
+.footer h4{
+    position: relative;
+    left: 40%;
+    font-size: xx-large;
+}
+
+.footer a{
+    position: relative;
+    left: 45%;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(199, 21, 74);
+    padding: 5px;
+
+}
+
+button{
+    width: 125px;
+    height: 50px;
+}
