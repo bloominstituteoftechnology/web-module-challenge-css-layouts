@@ -142,9 +142,6 @@ nav a {
     width: 15%;
 }
 
-.topText p {
-
-}
 
 /* Projects section */
 
@@ -170,6 +167,6 @@ footer h3 {
     margin: 2% 0;
 }
 
-footer button{
+footer a {
     margin-bottom: 2%;
 }
