@@ -1,4 +1,8 @@
 /* Add CSS styling here */
+h1{
+    display: flex;
+    justify-content: space-between;
+}
 .topnav {
     display: flex;
     flex-direction: row;
