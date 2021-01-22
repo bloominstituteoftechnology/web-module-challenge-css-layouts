@@ -285,7 +285,11 @@ footer {
 	}
 	#about-main > p {
 		border-radius: 1em;
-	}
+  }
+  
+  #contact-main {
+    background-position: center;
+  }
 
 	#social-links {
 		flex-wrap: wrap;
