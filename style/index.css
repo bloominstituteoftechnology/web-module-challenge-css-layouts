@@ -1,1 +1,208 @@
 /* Add CSS styling here */
+
+
+
+/*
+ CSS RESET
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  
+
+/* Begin actual styling */
+
+body {
+ 
+    background-color: black;
+    color: white;
+    background-position: cover;
+    max-height: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    display: block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 4em;
+    padding-bottom: .25em;
+}
+
+h2 { 
+    display: block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: .5em;
+    
+}
+
+
+nav {
+    display: block;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    max-width: 80%;
+}
+
+nav a {
+    display: flex;
+    align-content: center;
+    background: darkgrey;
+    padding: 1em;
+    border-radius: 15%;
+    text-decoration: none;
+    color:black;    
+    
+}
+
+.primary-banner {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    height: 15em;
+    width: 45em;
+    margin: 2em auto;
+    border: 2px solid white;
+    background-image: url(/style/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+section p {
+    display: flex;
+    align-content: center;
+    justify-content: center;  
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px dashed white;
+    padding: 2rem;
+}
+
+.project-links a {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 5%;
+    height: 15em;
+    padding: 2em;
+  
+
+}
+
+#proj-description {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: auto;
+    max-width: 30%;
+    
+}
+
+#one {
+    background-image: url(/style/project1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#two {
+    background-image: url(/style/project1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#three {
+    background-image: url(/style/project1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#four {
+    background-image: url(/style/project1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer i {
+    padding: 2em;
+}
+
+address {
+    text-size:50%;
+}
