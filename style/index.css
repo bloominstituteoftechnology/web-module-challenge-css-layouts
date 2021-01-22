@@ -1,1 +1,182 @@
-/* Add CSS styling here */
+body {
+  background-color: #bcece0;
+  font-family: "Suranna";
+  font-size: 1.05em;
+  color: #4c5270;
+}
+
+header h1 {
+  margin-left: 1em;
+  font-family: "Chakra Petch";
+  font-size: 3em;
+}
+
+h2 {
+  font-size: larger;
+}
+
+nav.primary-nav {
+  margin-left: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+nav.primary-nav a {
+  border: 1px solid black;
+  padding: 0.5em;
+  color: whitesmoke;
+  background-color: #4c5270;
+  width: 60px;
+}
+
+@-webkit-keyframes hover-effect {
+  from {
+    color: whitesmoke;
+    background-color: #4c5270;
+  }
+  to {
+    color: #f652a0;
+    background-color: #36eee0;
+  }
+}
+
+@keyframes hover-effect {
+  from {
+    color: whitesmoke;
+    background-color: #4c5270;
+  }
+  to {
+    color: #f652a0;
+    background-color: #36eee0;
+  }
+}
+
+nav.primary-nav a:hover {
+  color: #f652a0;
+  background-color: #36eee0;
+  -webkit-animation: hover-effect 0.25s ease-in;
+          animation: hover-effect 0.25s ease-in;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery img {
+  margin-left: 1em;
+  border-radius: 3px;
+}
+
+.gallery-item p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.gallery-item {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1em;
+  background-color: cornsilk;
+}
+
+.hero-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+.hero-banner img {
+  border-radius: 3px;
+}
+
+.left-sidebar {
+  margin-left: 1em;
+}
+
+.left-sidebar p {
+  max-width: 32em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #a1d4c6;
+}
+
+footer h3,
+footer a {
+  margin: auto;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.5em;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 0.5em;
+  color: whitesmoke;
+  background-color: #4c5270;
+}
+
+.icon-container {
+  margin-top: 1em;
+}
+
+.icon {
+  height: 2em;
+  width: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery .gallery-item {
+    width: 218px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=index.css.map */

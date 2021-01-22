@@ -1,0 +1,138 @@
+body {
+  background-color: #bcece0;
+  font-family: "Suranna";
+  font-size: 1.05em;
+  color: #4c5270;
+}
+
+header h1 {
+  margin-left: 1em;
+  font-family: "Chakra Petch";
+  font-size: 3em;
+}
+h2 {
+  font-size: larger;
+}
+
+nav.primary-nav {
+  margin-left: 6em;
+  display: flex;
+  align-items: stretch;
+  position: sticky;
+}
+nav.primary-nav a {
+  border: 1px solid black;
+  padding: 0.5em;
+  color: whitesmoke;
+  background-color: #4c5270;
+  width: 60px;
+}
+@keyframes hover-effect {
+  from {
+    color: whitesmoke;
+    background-color: #4c5270;
+  }
+  to {
+    color: #f652a0;
+    background-color: #36eee0;
+  }
+}
+
+nav.primary-nav a:hover {
+  color: #f652a0;
+  background-color: #36eee0;
+  animation: hover-effect 0.25s ease-in;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  margin-left: 1em;
+  border-radius: 3px;
+}
+.gallery-item p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.gallery-item {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1em;
+  background-color: cornsilk;
+}
+
+.hero-banner {
+  display: flex;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+.hero-banner img {
+  //   height: 200px;
+  //   width: 200px;
+  border-radius: 3px;
+}
+
+.left-sidebar {
+  margin-left: 1em;
+  p {
+    max-width: 32em;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a1d4c6;
+}
+footer {
+  h3,
+  a {
+    margin: auto;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+.button {
+  border: 1px solid black;
+  padding: 0.5em;
+  color: whitesmoke;
+  background-color: #4c5270;
+}
+.icon-container {
+  margin-top: 1em;
+}
+.icon {
+  height: 2em;
+  width: 2em;
+}
+
+// Media Queries!
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    flex-direction: column;
+    // border: 1px solid black;
+    align-items: center;
+    .gallery-item {
+      width: 218px;
+      align-items: center;
+    }
+  }
+}
