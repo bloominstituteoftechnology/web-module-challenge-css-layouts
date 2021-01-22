@@ -57,7 +57,7 @@ body {
 h1 {
     text-align: center;
     font-size: 4.5rem;
-    font-family: cursive;
+    font-family: Papyrus, cursive;
     margin-bottom: 2rem;
     text-decoration: underline;
 }
@@ -82,8 +82,8 @@ h1 {
 
 
 .information p{
-	font-size: 1.5rem;
-	width: 50rem;
+	font-size: 2rem;
+	width: 60rem;
 	text-align: center;
     margin: 0 auto;
     padding: 3rem;
@@ -91,6 +91,7 @@ h1 {
     border-radius: 1rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    font-family: cursive;
 }
 
 .information a {
@@ -108,6 +109,7 @@ h1 {
 .nav a:hover {
     background-color: snow;
     color: darkolivegreen;
+    text-transform: uppercase;
 }
 
  .projects {
@@ -127,6 +129,7 @@ h3 {
     font-size: 3rem;
     font-family: cursive;
     margin-bottom: 2rem;
+    font-family: Papyrus;
 }
 
 .footer a {
