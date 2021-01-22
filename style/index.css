@@ -81,6 +81,7 @@ section {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  font-size: small;
 }
 section div img {
   width: 90%;
