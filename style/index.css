@@ -58,7 +58,7 @@ h1 {
 }
 
 nav {
-    font=size: 1.5em;
+    font-size: 1.5em;
     display: flex;
     justify-content: flex-end;
 }
@@ -93,35 +93,19 @@ ul, li {
     width: 100%;
     
 }
-
+.container1 img{
+    margin: 0 auto;
+}
   h3{
-      text-align: left;
-      margin-left: 2em;
+      text-align: center;
+     /* margin-left: 2em;*/
 
   }
-.container1{
-    width: 30%;
-
-
-}
-.container2{
-    width: 30%;
-}
-.container3{
-    width: 30%;
-}
-.container4{
-    width: 30%;
-}
-
-.container5{
-    width: 30%;
-}
-.container6{
-    width: 30%;
-}
-img{
-    justif
+.row{
+   display:flex;
+   justify-content: space-between;
+   width: 100%;
+    
 }
 
 
