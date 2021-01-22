@@ -511,7 +511,7 @@ ul3 {
     }
   }
  
-     @media only screen and (max-width: 370px){
+     @media only screen and (max-width: 400px){
  
        header {
          padding:0px;
@@ -543,7 +543,7 @@ ul3 {
       }
  
      .pz-container-about{
-       padding: 10px;
+       padding: 20px;
        font-size: 5px;
        
    
