@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
 </head>
+
 <body>
-    <h1>
-        <div class="header">
-    <div class="title">
-      <p>Brett Adams</p>
-    </div>
-    <nav class="navigation">
-        <ul>
-          <li><a class="Home">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-      </nav>
-    </div>
-    </h1>
-    <section>
-        <div class="jumbo">
-            <img src="https://picsum.photos/" alt="jumbo" style="width:100%;"/>
-            <div class="centered">Brett Adams</div>
-        </div>
-    </section>
+    <div class="container">
+        <!-- This is my nav bar -->
+        <nav>
+            <h1>Brett Adams</h1>
+            <div class="navlink">
+                <ul>
+                    <li><a href="./about.html" class="link">about</a></li>
+                    <li><a href="./contact.html" class="link">contact</a></li>
+                    <li><a href="./projects.html" class="link">projects</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- This is my portfolio -->
+        <section class="portfolio">
+            <div class="resume">
+                <h2>Brett Adams</h2>
+                <button class="resumebutton">resume</button>
+            </div>
+        </section>
+
+        <!-- this is content section  -->
+        <section class="content">
+            <div class="box">
+                <img src="https://picsum.photos/536/354" alt="">
+                <p>project1</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/id/870/536/354?grayscale&blur=2" alt="">
+                <p>project2</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/id/1060/536/354?blur=2" alt="">
+                <p>project3</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/id/1084/536/354?grayscale" alt="">
+                <p>project4</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/id/237/536/354" alt="">
+                <p>project5</p>
+            </div>
+            <div class="box">
+                <img src="https://picsum.photos/seed/picsum/536/354" alt="">
+                <p>project6</p>
+            </div>
+        </section>
+
+        <!-- This is my footer  -->
+        <footer>
+            <button class="contactbutton">
+                <a href="https://twitter.com/Saehuhh" class="twitterlink">twitter</a>
+            </button>
+        </footer>
+
+    </div><!--  this is closing tag for container  -->
 </body>
+
 </html>
