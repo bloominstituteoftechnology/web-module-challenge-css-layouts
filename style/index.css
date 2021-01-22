@@ -33,6 +33,7 @@ nav {
   height:50px;
   width: auto;
   overflow:none;
+ 
 
  
 }
@@ -44,10 +45,7 @@ nav {
   font-family:Berkshire Swash;
   width:100%;
   background: none;
-  
  
-  
-  
 }
 
 .topnav a {
@@ -284,7 +282,7 @@ footer:hover {
 color:white;
 }
 
-}
+
 .fa {
   padding: 20px;
   font-size:0px;
@@ -394,7 +392,7 @@ ul3 {
    border:10px solid black;
   
      }
-    }
+    
    
    
    @media only screen and (min-width:860px){
@@ -423,8 +421,6 @@ ul3 {
        
      }
    
-     
-    }
  
  
   
@@ -515,7 +511,7 @@ ul3 {
     }
   }
  
-     @media only screen and (max-width: 400px){
+     @media only screen and (max-width: 370px){
  
        header {
          padding:0px;
@@ -540,17 +536,16 @@ ul3 {
          padding:0;
          width: 100%;
          overflow:none;
-   
- 
-       }
-      .pz-about{
- 
-      font-size:5px;
+   }
+      
+   .pz-about{
+  font-size:5px;
       }
  
      .pz-container-about{
-       padding: 20px;
+       padding: 10px;
        font-size: 5px;
+       
    
      }
  
