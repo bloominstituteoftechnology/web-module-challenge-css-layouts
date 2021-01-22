@@ -12,14 +12,18 @@ body {
 .container {
    display: flex-start;
    flex-wrap: wrap;
-   background-color: seagreen;
+   background-color: midnightblue;
    text-indent: 25px;
+}
+
+.heading {
+   color: #FF0000;
 }
 
 .navigation {
  display: flex-start;
  flex-wrap: wrap;
- background-color: seagreen;
+ background-color: midnightblue;
  padding-left: 50px;
  padding-bottom: 15px;
 }
@@ -80,40 +84,65 @@ ul {
  }
 
 h2 {
-    text-align: start;
+   text-align: start;
+   color: firebrick;
 }
 
-a.button {
-   display:inline-block;
-   width: 120px;
-   padding:0.35em 1.2em;
-   border:0.1em solid rgb(155, 102, 42);
-   margin:0 0.3em 0.3em 0;
-   border-radius:0.12em;
-   box-sizing: border-box;
-   text-decoration:none;
-   font-family:'Roboto',sans-serif;
-   font-weight:300;
-   color:black;
-   text-align: start;
-   transition: all 0.2s;
-   background-color: silver;
-   }
+.projectButton {
+	-moz-box-shadow:     ;
+	-webkit-box-shadow:     ;
+	box-shadow:     ;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a) );
+	background:-moz-linear-gradient( center top, #44c767 5%, #5cbf2a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a');
+	background-color:#44c767;
+	-webkit-border-top-left-radius:18px;
+	-moz-border-radius-topleft:18px;
+	border-top-left-radius:18px;
+	-webkit-border-top-right-radius:18px;
+	-moz-border-radius-topright:18px;
+	border-top-right-radius:18px;
+	-webkit-border-bottom-right-radius:18px;
+	-moz-border-radius-bottomright:18px;
+	border-bottom-right-radius:18px;
+	-webkit-border-bottom-left-radius:18px;
+	-moz-border-radius-bottomleft:18px;
+	border-bottom-left-radius:18px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+height:39px;
+	line-height:39px;
+width:106px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.projectButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767) );
+	background:-moz-linear-gradient( center top, #5cbf2a 5%, #44c767 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767');
+	background-color:#5cbf2a;
+}
 
-   a.button:hover{
-   color:#000000;
-   background-color:rgb(134, 95, 160);
-   }
-   
+.projectButton:active {
+	position:relative;
+	top:1px;
+}
 
 #topGalleryContainer {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;
 }
 
 .topProjectGalleryImages {
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: nowrap;
    padding: 10px;
 }
 
@@ -155,6 +184,7 @@ a.button {
 h3 {
    text-align: center;
    padding-top: 25px;
+   color:greenyellow;
 }
 
 footer {
@@ -164,7 +194,7 @@ footer {
 }
 
 #footer {
-   background-color: seagreen;
+   background-color: midnightblue;
 }
 
 #footerButton {
