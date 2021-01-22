@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
 }
-.topnav {
+.navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
