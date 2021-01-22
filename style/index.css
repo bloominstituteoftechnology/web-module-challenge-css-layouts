@@ -26,6 +26,10 @@ body {
     background-size: cover;
 }
 
+section {
+    padding: 4% 0;
+}
+
 .image-container {
     width: 450px;
     background: rgba(0, 0, 0, 0.1);
@@ -64,43 +68,85 @@ a {
     border: 1px solid rgb(4, 5, 70);
     color: rgb(4, 5, 70);
     background-color: seashell;
-    
+    padding: 5px;
 }
 
- .home-link a  {
-       color: rgb(244, 244, 252);
-       background-color: rgb(4, 5, 70);
-    }
-    
+.home-link a {
+    color: rgb(244, 244, 252);
+    background-color: rgb(4, 5, 70);
+}
 
 ul, li {
     display: inline;
     margin: 0;
     padding: 0;
+}
 
+.gallery {
+    display: flex;;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 2em;
+    margin: 2em;
+    height: 20%;
+    width: 100%;
     
-   .home-button{
+}
+
+  h3{
+      text-align: left;
+      margin-left: 2em;
+
+  }
+.container1{
+    width: 30%;
 
 
-   
+}
+.container2{
+    width: 30%;
+}
+.container3{
+    width: 30%;
+}
+.container4{
+    width: 30%;
+}
+
+.container5{
+    width: 30%;
+}
+.container6{
+    width: 30%;
+}
+img{
+    justif
 }
 
 
+footer {
+    text-align: center;
+    padding: 2em;
+}
 
-    /*vertical column at the breakpoint*/
-    @media (max-width: 768px) {
-        h1 {
-            font-size: 4em;
-            color: seagreen;
-        }
-        nav, nav ul {
-            flex-direction: column;
-            align-items: center;
-        }
+/*vertical column at the breakpoint*/
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+        color: rgb(75, 8, 102);
     }
-    /*shrink to stay on one line based on standard breakpoints*/
-    @media (max-width:576px) {
-        h1 {
-            font-size: 1em;
-        }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center;
     }
+}
+
+/*shrink to stay on one line based on standard breakpoints*/
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 1em;
+    }
+}
