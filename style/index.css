@@ -129,54 +129,120 @@ table {
   border-spacing: 0;
 }
 
+body {
+  background-color: silver;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-container {
+  padding-bottom: 5vh;
+}
+
+button {
+  background-color: goldenrod;
+  border-radius: 5px;
+  color: cyan;
+}
+
+div img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 40px;
+}
+
 .gallery {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
-.gallery img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  padding: 50px;
-}
-
-header {
+.header-image {
+  background-image: url(https://images.unsplash.com/photo-1609995114465-f017e9659435?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=80);
+  padding-top: 45px;
   display: flex;
-  background-image: url(https://images.unsplash.com/photo-1610926950541-fb98c47896d4?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fHFQWXNEenZKT1ljfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
-  height: 400px;
-  width: 100%;
-  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  height: 600px;
   background-repeat: no-repeat;
-}
-
-header a {
-  align-self: center;
-  justify-self: center;
-}
-
-nav {
-  display: flex;
-  /* position: fixed; */
-  justify-content: flex-end;
   width: 100%;
+  max-width: 100vw;
+  background-size: cover;
 }
 
-nav h2 {
+.header-text {
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(74, 236, 115);
+  font-size: 5em;
+  padding: 30px;
+  font-weight: bolder;
+}
+
+header h3 {
+  color: rgb(74, 236, 115);
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 25px;
+}
+
+header button {
+  height: 60px;
+  font-size: large;
+}
+
+.nav {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: darkslategrey;
+  align-content: center;
+}
+
+.nav button {
+  float: right;
+  margin: 8px;
+  height: 30px;
+  width: 90px;
+}
+
+.nav span {
   font-size: 3rem;
-  text-transform: capitalize;
-  justify-self: flex-start;
-}
-
-nav a {
-  align-self: center;
+  color: azure;
+  padding-left: 15px;
+  width: fit-content;
 }
 
 footer {
+  position: absolute;
   display: flex;
-  background-color: bisque;
+  background-color: darkslategray;
   height: 5vh;
   justify-content: center;
   align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer button {
+  height: 40px;
+  width: 100px;
+}
+
+footer img {
+  height: 45px;
+  width: 45px;
+}
+
+.project1:hover {
+  opacity: .1;
 }
