@@ -45,20 +45,29 @@ table {
 /* CSS Reset */
 
 .top-nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
     background-color: aquamarine;
-    height: 10%;
+    height: 2em;
 }
 
 .top-nav a{
     display: flex;
-    width: 15%;
-    border: 2px solid black;
+    width: 10%;
+    border: 2px solid ;
+    background-color: burlywood;
+    color: white;
     justify-content: space-evenly;
+    flex-flow: row wrap;
+    text-decoration: none;
+    padding-top: .4em;
 }
 
 .intro{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 2em;
 }
 
 .intro img{
@@ -67,3 +76,53 @@ table {
     height:15%;
 }
 
+.intro p{
+    text-align: center;
+    display: flex;
+    width:30%;
+    flex-flow: row wrap;
+    padding-top: 5%;
+    font-size: 1.5em;
+}
+
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+
+.projects p{
+  height: 15em;
+  width: 7em;
+  text-align: center;
+  padding-top: 5em;
+}
+.projects img{
+    height: 15em;
+    width: 7em;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+footer {
+ /* For when more links are added:
+  display: flex;
+  justify-content: space-evenly; */
+  height: 15%;
+  background-color:aquamarine;
+  display: flex;
+}
+
+footer a{
+  display: flex;
+  width: 10%;
+  border: 2px solid ;
+  background-color: burlywood;
+  color: white;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-decoration: none;
+  padding-top: .4em;
+}
