@@ -47,12 +47,34 @@ table {
 	border-spacing: 0;
 }
 /* Add CSS styling here */
+*{
+    background-color: #003B6F;
+}
+
+button{
+    border-radius: 25%;
+    font-size: medium;
+    padding: 1rem 2rem;
+    background-color: purple;
+}
+button:hover{
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+    
+}
+
+header button{
+   /* doesnt work */
+    display: flex;
+   flex-direction: row;
+   margin: 16px;
+   /* only thing to fix it */
+   float:right;
+}
 
 
 .top {
     
-    background-color: #003B6F;
-    height: 100 px;
     width: 90%;
     padding: 10px;
     margin: 10px;
@@ -60,36 +82,58 @@ table {
     border: 5px solid green;
     
 }
+
 body{
     width: 95%;
     height: 95%;
-   /* delete after */
-    padding: 1rem 0 0 .5rem;
+    padding: 1rem;
+    /* delete after */
     border: 5px solid rgb(231, 24, 231);
 }
+body>p{
+    text-align: center;
+}
+
 .main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
-    width: 20rem;
-    height: 10rem;
-    /* delete after */
-    border: 5px solid purple;
-    
+    width: 30rem;
+    height: 20rem;
 
 }
-
+section img{
+    width: 200px;
+    height: 200px;
+}
 section{
     display: flex;
-}
-section>img{
     flex-wrap: wrap;
+    justify-content: space-evenly;
     border: 5px solid purple;
-    width: 8rem;
-    height: 8rem;
+    width: 95%;
+    
 }
+
 footer{
     border:5px solid red;
-
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
