@@ -1,6 +1,6 @@
 * {
-  vertical-align: baseline;
-  font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
+	vertical-align: baseline;
+	font-family: 'Chakra Petch', 'Courier New', Courier, monospace;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
@@ -109,7 +109,8 @@ h1 {
 	color: lightseagreen;
 }
 
-#landing-main, #projects-main {
+#landing-main,
+#projects-main {
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
@@ -120,7 +121,8 @@ h1 {
 	background-color: black;
 }
 
-#landing-main > img, #projects-main > img {
+#landing-main > img,
+#projects-main > img {
 	display: flex;
 	width: 37.25em;
 	height: auto;
@@ -145,35 +147,35 @@ footer {
 }
 
 #social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: teal;
-  opacity: 0.25;
-  border-radius: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: teal;
+	opacity: 0.25;
+	border-radius: 5em;
 }
 
 #social-links > a > img {
-  max-width: 30%;
-  max-height: 300px;
-  border-radius: 33%;
+	max-width: 30%;
+	max-height: 300px;
+	border-radius: 33%;
 }
 
 /* about t page */
 #about-main {
-  display: flex;
+	display: flex;
 	flex-flow: column wrap;
 	width: 100%;
 	height: 100%;
 	justify-content: flex-start;
 	align-content: center;
-  align-items: center;
-  background: linear-gradient(#85989A, #032D2E 42%, #011313 80%);
+	align-items: center;
+	background: linear-gradient(#85989a, #032d2e 42%, #011313 80%);
 }
 
 #about-main > h2 {
-  color: black;
-  font-size: 1.5em;
+	color: black;
+	font-size: 1.5em;
 	font-weight: bolder;
 	text-shadow: 0.25em 0.25em 0.25em #85989a;
 	background-color: lightgreen;
@@ -182,108 +184,110 @@ footer {
 }
 
 #about-main > p {
-  font-size: 1.15em;
-  font-weight: bold;
-  width: 88%;
-  padding: 2%;
-  margin: 1%;
-  border-radius: 10em;
+	font-size: 1.15em;
+	font-weight: bold;
+	width: 88%;
+	padding: 2%;
+	margin: 1%;
+	border-radius: 10em;
 }
 
 #about-main > #about-1 {
-  background-color: lightgreen;
-  opacity: 0.5;
+	background-color: lightgreen;
+	opacity: 0.5;
 }
 
 #about-main > #about-2 {
-  background-color: rgb(54, 129, 129);
-  opacity: 0.75;
+	background-color: rgb(54, 129, 129);
+	opacity: 0.75;
 }
 
 #about-main > #about-3 {
-  background-color: yellow;
-  opacity: 0.5;
+	background-color: yellow;
+	opacity: 0.5;
 }
 
 /* contact t page */
 #contact-main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 60vh;
-  justify-content: center;
-  align-items: center;
-  background-color: #266258;
-  background-image: url(https://printmeposter.com/blog/wp-content/uploads/2016/02/Demotivational-Poster-vs-Motivational-Posters.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 60vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #266258;
+	background-image: url(https://printmeposter.com/blog/wp-content/uploads/2016/02/Demotivational-Poster-vs-Motivational-Posters.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #contact-main > h1 {
-  color: #0c1a18;
-  font-size: 5em;
-  margin-bottom: 10%;
+	color: #0c1a18;
+	font-size: 5em;
+	margin-bottom: 10%;
 }
 
 /* projects page */
 #projects-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #0C1A18;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0c1a18;
 }
 
 #projects-header > h1 {
-  color: coral;
-  font-size: 5em;
-  text-shadow: 0.25em 0.25em 0.25em teal;
+	color: coral;
+	font-size: 5em;
+	text-shadow: 0.25em 0.25em 0.25em teal;
 }
 
 #projects-header > h2 {
-  color: #266258;
-  font-size: 2em;
-  font-weight: bold;
+	color: #266258;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 /* different screen sizes */
 @media (max-width: 1800px) {
+	h1 {
+		text-align: center;
+	}
 
-  h1 {
-    text-align: center;
-  }
+	#img-block {
+		height: 60%;
+	}
 
-  #img-block {
-    height: 60%;
-  }
+	#contact-link {
+		font-size: 1.25em;
+	}
 
-  #contact-link {
-    font-size: 1.25em;
-  }
-  
-  main > img {
-    max-width: 400px;
-    max-height: 400px;
-  }
+	main > img {
+		max-width: 400px;
+		max-height: 400px;
+	}
 
-  #social-links > a > img {
-    max-width: 30%;
-    max-height: 200px;
-  }
+	#social-links > a > img {
+		max-width: 30%;
+		max-height: 200px;
+	}
 }
 
 @media (max-width: 1400px) {
-  #about-main > p {
-    border-radius: 2.5em;
-  }
+	#about-main > p {
+		border-radius: 2.5em;
+	}
 }
 
 @media (max-width: 750px) {
-  #about-main > p {
-    border-radius: 1em;
-  }
+	h1 {
+		font-size: 2.5em;
+	}
+	#about-main > p {
+		border-radius: 1em;
+	}
 
-  #social-links {
-    flex-wrap: wrap;
-  }
+	#social-links {
+		flex-wrap: wrap;
+	}
 }
