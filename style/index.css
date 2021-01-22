@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #bcece0;
   font-family: "Suranna";
   font-size: 1.05em;
@@ -23,6 +23,8 @@ nav.primary-nav {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 nav.primary-nav a {
@@ -81,6 +83,21 @@ nav.primary-nav a:hover {
   margin-bottom: 2em;
 }
 
+@media screen and (max-width: 1200px) {
+  .gallery-item {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: red;
+  }
+}
+
+.gallery-item {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1em;
+  background-color: cornsilk;
+}
+
 .hero-banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,6 +107,8 @@ nav.primary-nav a:hover {
   margin-bottom: 2em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .hero-banner img {
@@ -115,6 +134,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #a1d4c6;
 }
 
 footer h3,
@@ -123,10 +143,23 @@ footer a {
   text-align: center;
 }
 
+footer h3 {
+  font-size: 1.5em;
+}
+
 .button {
   border: 1px solid black;
   padding: 0.5em;
   color: whitesmoke;
   background-color: #4c5270;
+}
+
+.icon-container {
+  margin-top: 1em;
+}
+
+.icon {
+  height: 2em;
+  width: 2em;
 }
 /*# sourceMappingURL=index.css.map */
