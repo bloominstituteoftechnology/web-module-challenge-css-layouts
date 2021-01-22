@@ -1,7 +1,24 @@
+
+
+* {
+   overflow-x: hidden;
+}
+
+.container {
+   display: flex-start;
+   flex-wrap: wrap;
+}
+
+.navigation {
+ display: flex-start;
+ flex-wrap: wrap;
+}
+
 nav {
     justify-items: flex-start;
     display: inline-flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -30,20 +47,24 @@ ul {
   }
 
   header {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
   }
 
  #headerImage {
     height: 500px;
     width: 500px;
     justify-items: flex-start;
+    flex-wrap: wrap;
     display: inline-flex;
     padding-right: 50px;
     margin-right: 50px;
  }
 
  #headerText {
-    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
     padding-left: 50px;
     margin-left: 50px;
  }
@@ -52,58 +73,66 @@ h2 {
     text-align: center;
 }
 
-.firstProjectNavBar {
-    display: inline-block;
+#topGalleryContainer {
+   display: flex;
+   justify-content: space-between;
 }
 
-div.project1, div.project2, div.project3, div.project4 {
-    vertical-align: top;
-    display: inline-block;
-    width: 125px;
-    padding-right: 100px;
-    margin-right: 100px;
+.topProjectGalleryImages {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+}
+
+#topProjectGalleryCaptions {
+   display: flex;
+   flex-direction: row;
 }
 
 .caption {
-    display: block;
+   padding: 0 125px 0 125px;
+   display: inline-flex;
+   justify-content: space-evenly;
 }
 
- #project1, #project2, #project3, #project4 {
-    padding: 0 2.5px 0 2.5px;
-    margin: 0 2.5px 0 2.5px;
- }
 
- .secondProjectNavBar {
-    justify-content: space-evenly;
- }
-
- #project5 {
-    padding: 0 2.5px 0 2.5px;
-    margin: 0 2.5px 0 2.5px;
- }
-
- #project6 {
-    padding: 0 2.5px 0 2.5px;
-    margin: 0 2.5px 0 2.5px;
- }
-
- #project7 {
-    padding: 0 2.5px 0 2.5px;
-    margin: 0 2.5px 0 2.5px;
- }
-
- #project8 {
-    padding: 0 2.5px 0 2.5px;
-    margin: 0 2.5px 0 2.5px;
- }
-
- h3 {
-    text-align: center;
- }
-
- #footerButton {
-    text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+#bottomGalleryContainer {
+   display: flex;
+   justify-content: space-between;
 }
-  
+
+.bottomProjectGalleryImages {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+}
+
+#bottomProjectGalleryCaptions {
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 50px;
+}
+
+.caption {
+   padding: 0 125px 0 125px;
+   display: inline-flex;
+   justify-content: space-evenly;
+}
+
+h3 {
+   text-align: center;
+}
+
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#footerButton {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 50px;
+}

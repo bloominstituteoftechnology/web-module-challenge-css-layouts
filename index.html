@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <title>User-Interface-II</title>
     <!--google fonts placeholder-->
     <link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
 
 <body>
-    <h1>David A Smith</h1>
-        <div class="container">
-            <div class="navigation">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Projects</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <div class="container">
+        <h1>David A Smith</h1>
+    </div>
+
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
 <br>
 
 <header>
@@ -45,43 +45,81 @@
 
 <br><br><br>
 
-<section class="firstProjectNavBar">
-    <div class="project1">
-        <img src="https://loremflickr.com/320/240">
-            <span class="caption">Text Below Image</span>
-    </div>
-    <div class="project2">
-        <img src="https://loremflickr.com/320/240">
-            <span class="caption">Text Below Image</span>
-    </div>
-    <div class="project3">
-        <img src="https://loremflickr.com/320/240">
-            <span class="caption">Text Below Image</span>
-    </div>
-    <div class="project4">
-        <img src="https://loremflickr.com/320/240">
-            <span class="caption">Text Below Image</span>
-    </div>
-</section>
+<div id="topGalleryContainer">
+    <span class="topProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+
+    <span class="topProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+
+    <span class="topProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+
+    <span class="topProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+</div>
+
+<div id="topProjectGalleryCaptions">
+    <div class="caption">Project 1</div>
+    <div class="caption">Project 2</div>
+    <div class="caption">Project 3</div>
+    <div class="caption">Project 4</div>
+</div>
+
 
 <br><br><br>
 
-<section class="secondProjectNavBar">
-    <span id="project5"><img src="https://loremflickr.com/320/240" alt="" /></span>
-    <span id="project6"><img src="https://loremflickr.com/320/240" alt="" /></span>
-    <span id="project7"><img src="https://loremflickr.com/320/240" alt="" /></span>
-    <span id="project8"><img src="https://loremflickr.com/320/240" alt="" /></span>
-</section>
+<div id="bottomGalleryContainer">
+    <span class="bottomProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
 
-<br><br><br>
+    <span class="bottomProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
 
-<footer>
+    <span class="bottomProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+
+    <span class="bottomProjectGalleryImages">
+        <span>
+            <img src="https://loremflickr.com/320/240">
+        </span>
+    </span>
+</div>
+
+<div id="bottomProjectGalleryCaptions">
+    <div class="caption">Project 5</div>
+    <div class="caption">Project 6</div>
+    <div class="caption">Project 7</div>
+    <div class="caption">Project 8</div>
+</div>
+
+<div id="footer">
     <h3>Like What You See?</h3>
-    <br><br>
         <div id="footerButton">
             <button onclick="" type="button" class="contact">Contact Me</button>
         </div>
-</footer>
+</div>
     
 </body>
 </html>
