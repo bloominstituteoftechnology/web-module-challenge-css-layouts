@@ -55,7 +55,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -78,12 +78,23 @@ h3 {
     font-size: 3rem;
 }
 
+section {
+    padding: 4% 0;
+    margin: 0 auto;
+}
+
+/* Header work */
+
 header {
     background-color: #dbe2ef;
 }
 
-h1, nav {
+h1 {
     margin-left: 3%;
+}
+
+nav {
+    margin-left: 4%;
 }
 
 nav a {
@@ -96,15 +107,46 @@ nav a {
     margin: 2% 0;
 }
 
-/* .aboutMe img {
-    width: 50%;
-} */
+/* about me section */
 
 .aboutMe {
     display: flex;
 
 }
 
+.aboutMe .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img {
+    width: 70%;
+}
+
+.topText {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.projectButton {
+    width: 15%;
+}
+
+.topText p {
+
+}
+
+/* Projects section */
 
 .projects {
     display: flex;
