@@ -253,7 +253,7 @@ a:hover {
 }
 
 footer {
-  display:;
+  display:flex;
   background-color:#F78B86 ;
   margin:0 auto;
   padding:40px;
@@ -338,6 +338,8 @@ color:white;
 }
 
 ul3 {
+  display: flex;
+  flex-wrap:nowrap;
   background-color:#F78B86;
 }
 
@@ -392,6 +394,11 @@ ul3 {
    border:10px solid black;
   
      }
+
+     .bottom1 {
+       display:none;
+     }
+     }
     
    
    
@@ -419,6 +426,10 @@ ul3 {
        padding: 40px;
        font-size:15px;
        
+     }
+
+     .bottom1 {
+       display:none;
      }
    
  
@@ -493,8 +504,8 @@ ul3 {
  
  
      .pz-container-projects {
-       height: 5.0rem;
-       padding: 0px;
+       height: 7.0rem;
+       padding: 40px;
       
       
      }
@@ -502,6 +513,7 @@ ul3 {
      .projects {
       font-size:15px;
        width:100%;
+    
     
      }
 
@@ -528,6 +540,8 @@ ul3 {
          padding:0px;
          margin: 0px;
        }
+
+       
  
        .topnav {
          height: 50px;
@@ -552,6 +566,8 @@ ul3 {
      .pz-container-contact {
        
        height: 500px;
+       justify-content:center;
+       height:90px;
       
      }
  
@@ -560,15 +576,14 @@ ul3 {
      }
  
      .projects {
-       
        justify-content:center;
        height:90px;
        
      }
  
-     .bottom2 {
+     .bottom1 {
       display:none;
-      border:2px solid;
+      
     }
   }
  
