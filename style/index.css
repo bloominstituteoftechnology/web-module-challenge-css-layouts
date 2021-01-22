@@ -281,8 +281,9 @@ footer {
 
 @media (max-width: 750px) {
 	h1 {
-		font-size: 1.25em;
-	}
+		font-size: 1em;
+  }
+  
 	#about-main > p {
 		border-radius: 1em;
   }
