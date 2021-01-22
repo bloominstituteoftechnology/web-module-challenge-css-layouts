@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@rosecrowned 
+rosecrowned
+/
+User-Interface-II
+forked from LambdaSchool/User-Interface-II
+0
+01.5k
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+User-Interface-II/style/index.css
+@rosecrowned
+rosecrowned current working unit 4 project
+Latest commit 5045fbc 10 hours ago
+ History
+ 2 contributors
+@zoelud@rosecrowned
+208 lines (173 sloc)  3.6 KB
+  
 /* Add CSS styling here */
 
 
@@ -60,10 +92,9 @@ body {
  
     background-color: black;
     color: white;
-    background-position: cover;
-    max-height: 100%;
-    max-width: 70%;
     margin: 0 auto;
+    max-width: 80%;
+    font-family: 'Lobster Two', cursive;
     
 }
 
@@ -72,7 +103,7 @@ header {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    width: 100%;
+
 }
 
 h1 {
@@ -100,17 +131,27 @@ nav {
     display: flex;
     align-content: center;
     justify-content: space-around;
-    max-width: 80%;
+
 }
 
 nav a {
     display: flex;
     align-content: center;
-    background: darkgrey;
+    background: white;
     padding: 1em;
     border-radius: 15%;
     text-decoration: none;
-    color:black;    
+    color:black;   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+    opacity: 1;
+    transition: 1.25s;
+    
+}
+
+nav a:hover{
+    color: white;
+    background: black;
     
 }
 
@@ -138,9 +179,11 @@ section p {
 .project-links {
     display: flex;
     flex-direction: row;
+    align-content: center;
     justify-content: space-around;
     border: 2px dashed white;
-    padding: 2rem;
+    padding: 1rem;
+    
 }
 
 .project-links a {
@@ -149,7 +192,7 @@ section p {
     flex-wrap: wrap;
     width: 5%;
     height: 15em;
-    padding: 2em;
+    padding: 1em;
   
 
 }
@@ -160,6 +203,7 @@ section p {
     justify-content: center;
     padding: auto;
     max-width: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
