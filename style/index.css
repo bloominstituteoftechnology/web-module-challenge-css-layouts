@@ -73,7 +73,6 @@ nav.primary-nav a:hover {
 }
 
 .gallery img {
-  margin-left: 1em;
   border-radius: 3px;
 }
 
@@ -153,6 +152,18 @@ footer h3 {
 .icon {
   height: 2em;
   width: 2em;
+}
+
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6649b8;
 }
 
 @media screen and (max-width: 1200px) {
