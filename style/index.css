@@ -1,1 +1,74 @@
-/* Add CSS styling here */
+** {
+    align-content: space-between;
+  }
+  #myName {
+    display: inline-block;
+    width: 50%;
+    font-size: 2rem;
+    color: pink;
+  }
+  
+  .sideBar {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+  }
+  
+  .sideBar a {
+    padding: 10px;
+    border: 3px solid yellow;
+  }
+  
+  .top {
+    height: 300px;
+    width: 80%;
+    background-image: url("https://picsum.photos/200/300");
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: pink;
+  }
+  
+  button {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 7px;
+  }
+  
+  .gallery {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  
+  .gallery div {
+    width: 30%;
+  }
+  
+  .gallery img {
+    width: 100%;
+  }
+  
+  .gallery p {
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 70px;
+    background-color: lavender;
+    height: 50px;
+    padding: 2%;
+  }
+  
+  footer nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
