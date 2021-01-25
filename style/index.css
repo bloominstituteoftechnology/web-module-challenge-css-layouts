@@ -44,24 +44,38 @@ table {
 
 /* CSS Reset */
 
+
+
 .top-nav {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    background-color: aquamarine;
-    height: 2em;
+    /* display: flex; 
+     justify-content: space-evenly; 
+     flex-flow: row wrap; 
+     background-color: aquamarine; 
+    height: 2em; */
 }
 
+h1 {
+    text-align: center;
+    padding: 1.2em 35%;
+    font-size: 1.7em;
+}
+
+.top-nav {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 35%;
+    padding-
+}
 .top-nav a{
     display: flex;
     width: 10%;
-    border: 2px solid ;
+    border: 2px solid black;
     background-color: burlywood;
     color: white;
     justify-content: space-evenly;
-    flex-flow: row wrap;
+    flex-flow: row;
     text-decoration: none;
-    padding-top: .4em;
+    padding: .5em;
 }
 
 .intro{
@@ -73,7 +87,7 @@ table {
 .intro img{
     border-radius: 50%;
     width: 15%;
-    height:15%;
+    height: 15%;
 }
 
 .intro p{
