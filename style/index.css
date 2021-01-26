@@ -82,8 +82,8 @@ section {
 
 .profile-img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     background-color: #201d3a;
 }
 
@@ -155,14 +155,16 @@ ul, li {
 }
 
 .facebook {
-    padding: 1rem;
+    padding: 0.5rem;
     font-weight: bold;
     font-size: 3rem;
     background-color: #f5f5f5;
     color: #4cb69f;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     margin: 2px;
+    width: 5rem;
+    text-align: center;
 }
 
 footer {
@@ -176,6 +178,41 @@ footer {
     margin: 5%;
     padding: 5%;
     text-align: center;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.form {
+    border-radius: 1rem;
+    background-color: #4cb69f;
+    padding: 5rem;
+    margin: 10rem;
+    font-size: 2rem;
+}
+
+input[type=submit] {
+    background-color: #f5f5f5;
+    color: #4cb69f;
+    padding: 1rem;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: 2rem;
+}
+
+input[type=submit]:hover {
+    background-color: #4cb69f;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 1rem;
+}
+
+input[type=email] {
+    padding: 1rem;
 }
 
 /*vertical column at the breakpoint*/
@@ -209,6 +246,12 @@ footer {
     .row {
         display: flex;
         flex-wrap: wrap;
+    }
+    .form, .form-heading {
+        width: 50rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 
