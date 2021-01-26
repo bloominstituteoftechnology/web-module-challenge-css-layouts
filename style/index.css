@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: #bcece0;
   font-family: "Suranna";
@@ -104,7 +108,8 @@ nav.primary-nav a:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
   padding: 1em;
-  background-color: #bcecdf68;
+  background-color: #58ab9468;
+  border-radius: 4px;
 }
 
 .hero-banner img {
@@ -213,7 +218,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
   #hero img {
-    width: 450px;
+    max-width: 100%;
   }
   header h1 {
     margin: auto;
@@ -221,6 +226,25 @@ body::-webkit-scrollbar-thumb {
   }
   h2 {
     font-size: 2em;
+  }
+  .left-sidebar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .hero-banner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero img {
+    display: none;
   }
 }
 /*# sourceMappingURL=index.css.map */
