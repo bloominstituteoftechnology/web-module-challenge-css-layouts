@@ -348,64 +348,78 @@
   [hidden] {
     display: none;
   }
+
+
 body{
   width: auto;  
   box-sizing: border-box;
+
 }
 
 header {
         display: flex;
         flex-direction: row;
-        font-size:30px;
+        font-size:3rem;
         text-align: center;
         background-color: #f1f1f1;
-        padding: 10px;
-        flex: 50%;
+       
+       
         /*border: 1px solid black;*/
 }
-  /*h1{
-    background-color: #f1f1f1;
-    padding: 30px;
-    width: 30px;
-    border: black;
+  
 
-  }*/
+.headerName{
+  display: flex;
+  text-align: center;
+   font-size: 5rem;
+    padding: 1rem;
+}
   .headerContainer a{
     /*-color: #c21a1a;*/
-    width: 20%;
+    width: 50%;
     margin: px;
     text-align: center;
-    line-height: 75px;
-    font-size: 50px;
-    padding: 20px;
+    line-height:7.5 rem;
+    font-size: 5rem;
+    padding: 2rem;
     
 
   }
   header a{
-      border-radius: 2rem dotted red;
+      
       background-color: rosybrown;
   }
   section{
-    display: flex;
-    flex-direction: row;
     text-align: center;
+    width: 100%;
+    border: 2px solid blue;
+    display: space-evenly;
+    vertical-align: center;
+    margin: 1%; 
+    max-width: 100%;
   }
   #selfAdore {
     display: flex;
     flex-direction: row;
-    background-color: #611b1b;
-  padding: 10px;
-  flex: 50%;
-        
-    
+    background-color: #f8f5f5;
+    padding: 10px;
+    flex: 50%;
+    margin-left: auto;
+    margin-right: auto;
+      
   }
+ section video{
+      position: relative;
+      vertical-align: left;
+  }
+
   h2{
       font-size: 50px;
   }
   article{
     width: auto;
     position: relative;
-    background-color: #611b1b;
+    background-color: #f1eded;
     padding: 10px;
     margin-left: 50px;
     font-size: 20px;
@@ -422,17 +436,33 @@ header {
 section {
     display: flex;
     flex-direction: row;
+    position: relative;
    
 
 }
-.imargeGallary1{
+.imageGallary1{
     display: flex;
     flex-direction: row;
+    flex: 100%;
+    
+    
+}
+.imageGallary1 img{
+        
+    width: 100%;
+    max-width: 500px;
     
 }
 .imageGallary2{
     display: flex;
     flex-direction: row;
+    flex: 100%;
+    margin: 20px;
+}
+    .imageGallary2 img{
+        
+    width: 100%;
+    max-width: 500px;
     
 }
 p{
@@ -451,7 +481,9 @@ p{
     text-decoration: none;
     margin: 5px 2px;
     position: relative;
-   
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
   }
   .fa:hover {
     opacity: 0.7;
@@ -464,4 +496,40 @@ p{
     vertical-align: center;
     position: relative;
    
+}
+.fa-instagram {
+    background: #125688;
+    color: white;}
+
+    .fa-facebook {
+        background: #0a51e9;
+        color: white;
+        
+      }
+/*Media queries starts here*/
+/*forLaptops*/
+@media(max-width: 800px){
+body {background-color: red;
+}
+}
+
+/*for phones*/
+@media(max-width: 500px){
+ body{ background-color: yellow;
+
+}
+.headerName{
+  font-size: 2rem;
+  justify-content: center;
+}
+
+header {
+  flex-direction: column;
+  
+  
+}
+.headerContainer a{
+  
+  font-size: 2rem;
+}
 }
