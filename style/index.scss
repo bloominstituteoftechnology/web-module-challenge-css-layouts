@@ -71,7 +71,11 @@ nav.primary-nav a:hover {
   margin-left: 1em;
   margin-bottom: 2em;
   flex-wrap: wrap;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+  .left-sidebar {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+    padding: 1em;
+    background-color: #bcecdf68;
+  }
 }
 
 .hero-banner img {
@@ -134,7 +138,7 @@ body::-webkit-scrollbar-thumb {
 // Media Queries!
 
 @media screen and (max-width: 1200px) {
-  #hero {
+  .hero-banner {
     box-shadow: none;
   }
 }
@@ -148,5 +152,36 @@ body::-webkit-scrollbar-thumb {
       width: 218px;
       align-items: center;
     }
+  }
+  nav.primary-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    a {
+      width: 6em;
+      font-size: 1.5em;
+      text-align: center;
+    }
+  }
+  #hero img {
+    width: 450px;
+  }
+  header h1 {
+    margin: auto;
+    text-align: center;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+  }
+}
+
+@media (min-width: 1225px) {
+  .hero-banner {
   }
 }
