@@ -1,5 +1,39 @@
 /* Add CSS styling here */
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 * {
     max-width: 100%;
     margin: 0;
@@ -16,6 +50,7 @@ html {
 }
 
 body {
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -24,6 +59,11 @@ body {
     padding: 1em;
     background: url("https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGdyYWRpZW50JTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat;
     background-size: cover;
+}
+
+p {
+    line-height: 1.5;
+    text-align: center;
 }
 
 section {
@@ -38,7 +78,7 @@ section {
     margin: auto;
     margin-top: 5%;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .profile-img {
@@ -48,22 +88,30 @@ section {
     background: url("https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGdyYWRpZW50JTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 3px;
+header {
+    width: 100%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
+}
+
+h1, h2, h3 {
     text-align: center;
 }
 
-nav {
-    font-size: 1.5em;
-    display: flex;
-    justify-content: flex-end;
+h3 {
+    font-size: 2rem;
 }
 
-a {
+nav {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Courgette', cursive, sans-serif;
+}
+
+nav a {
     text-decoration: none;
     border: 1px solid rgb(4, 5, 70);
     color: rgb(4, 5, 70);
@@ -83,54 +131,86 @@ ul, li {
 }
 
 .gallery {
-    display: flex;;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    background-color: whitesmoke;
-    padding: 2em;
-    margin: 2em;
-    height: 20%;
+    background-color: transparent;
+    padding: 2rem;
     width: 100%;
-    
-}
-.container1 img{
-    margin: 0 auto;
-}
-  h3{
-      text-align: center;
-     /* margin-left: 2em;*/
-
-  }
-.row{
-   display:flex;
-   justify-content: space-between;
-   width: 100%;
-    
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-button {
+    color: #42e9f5;
+    background-color: rgb(131, 7, 75);
+    padding: 1rem;
+    border-radius: 10%;
+    height: 4rem;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: rgb(244, 244, 252);
+    color: rgb(4, 5, 70);
+}
+
+.fa {
+    width: 4rem;
+    height: 2em;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(131, 7, 75);
+    border: none;
+}
+
+.fa:hover {
+    color: rgb(244, 244, 252);
+}
 
 footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.about-me {
+    margin: 5%;
+    padding: 5%;
     text-align: center;
-    padding: 2em;
 }
 
 /*vertical column at the breakpoint*/
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     h1 {
-        font-size: 4em;
-        color: rgb(75, 8, 102);
+        font-size: 1.8rem;
     }
-    nav, nav ul {
+    nav, nav a {
         flex-direction: column;
         align-items: center;
     }
 }
 
-/*shrink to stay on one line based on standard breakpoints*/
-
-@media (max-width:576px) {
+@media (max-width: 500px) {
+    .image-container, .profile-img {
+        display: none;
+    }
     h1 {
-        font-size: 1em;
+        font-size: 1.8rem;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
+
+@media (min-width: 500px) {
+    .title {
+        display: none;
+    }
+}
+
+/*shrink to stay on one line based on standard breakpoints*/
