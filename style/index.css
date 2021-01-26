@@ -76,6 +76,7 @@ header.container nav a {
 }
 
 @media screen and (max-width: 800px) {
+	/* tablet screens */
 	header.container nav {
 		display: flex;
 		justify-content: flex-end;
@@ -89,6 +90,7 @@ header.container nav a {
 }
 
 @media screen and (max-width: 1200px) {
+	/* small monitors and laptop screens */
 	header.container nav {
 		display: flex;
 		justify-content: flex-end;
@@ -159,6 +161,7 @@ footer nav a img {
  * footer responsive styling
  */
 @media screen and (max-width: 500px) {
+	/* standard cell phone screens */
 	footer p .magic {
 		padding: 0% 1%;
 		font-size: 1.5em;
@@ -171,12 +174,14 @@ footer nav a img {
 }
 
 @media screen and (max-width: 800px) {
+	/* tablet screens */
 	footer nav {
 		width: 90%;
 	}
 }
 
 @media screen and (max-width: 1200px) {
+	/* small monitors and laptop screens */
 	footer nav a img {
 		width: 80%;
 	}
@@ -194,6 +199,7 @@ footer nav a img {
  * textbox-shading: maintain proper spacing around the screen responsive styling
  */
 @media screen and (max-width: 500px) {
+	/* standard cell phone screens */
 	.textbox-shading {
 		width: 95%;
 	}
@@ -255,35 +261,35 @@ footer nav a img {
 }
 
 .project-preview.container img {
-	width: 20%;
-	height: auto;
+	width: 22%;
 	margin: 2%;
 }
 /*
  * project preview responsive styling
  */
 @media screen and (max-width: 500px) {
+	/* standard cell phone screens */
 	.project-preview.container {
-		flex-flow: column nowrap;
+		flex-direction: column;
 		padding: 5% 0%;
 	}
 	.project-preview.container img {
-		width: 100%;
-		margin: 1%;
+		min-width: 95%;
 	}
 }
 
 @media screen and (max-width: 800px) {
+	/* tablet screens */
 	.project-preview.container {
 		padding: 5% 0%;
 	}
 	.project-preview.container img {
-		width: 45%;
-		margin: 1%;
+		min-width: 40%;
 	}
 }
 
 @media screen and (max-width: 1920px) {
+	/* large and widescreen monitors */
 	.project-preview.container img {
 		width: 24%;
 	}
