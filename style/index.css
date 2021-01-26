@@ -18,6 +18,7 @@
  */
 body {
 	text-align: center;
+	background-color: rgb(199, 199, 199);
 }
 
 .container {
@@ -89,7 +90,7 @@ header.container nav a {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 	/* small monitors and laptop screens */
 	header.container nav {
 		display: flex;
@@ -116,11 +117,35 @@ header.container nav a:hover {
 /* 
  * end of header nav bar styling that carries throughout website
  *
+ * start of other element styling that goes throughout pages
+ */
+h1 {
+	font-family: "Acme", sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 0.25em 0.25em 0.25em rgb(38, 98, 88); /* adds drop-shadow to element */
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+p {
+	padding: 2% 12%;
+	font-family: "Lemonada", cursive;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+/*
+ * end of other element styling that carries throughout website
+ *
  * start of footer styling that goes throughout pages
  */
 footer {
 	display: flex;
 	flex-direction: column;
+	padding: 1%;
 	background-color: rgb(199, 199, 199);
 }
 
@@ -180,7 +205,7 @@ footer nav a img {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 	/* small monitors and laptop screens */
 	footer nav a img {
 		width: 80%;
@@ -215,7 +240,7 @@ footer nav a img {
 	height: 42em;
 	background: rgb(12, 26, 24) url(https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center;
 	background-size: cover;
-	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset;
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
 }
 
 .landing.container.textbox-shading {
@@ -223,16 +248,13 @@ footer nav a img {
 }
 
 .landing.container h1 {
-	font-family: "Acme", sans-serif;
-	font-size: 4em;
-	font-weight: bold;
 	text-shadow: 0.25em 0.25em 0.25em whitesmoke; /* adds drop-shadow to element */
 }
 
 .landing.container p {
 	margin-bottom: 6%;
-	font-size: 1.75em;
-	font-weight: bolder;
+	font-size: 1.5em;
+	font-weight: bold;
 	color: black;
 	text-shadow: 0.25em 0.25em 0.25em rgb(133, 152, 154); /* adds drop-shadow to element */
 }
@@ -295,7 +317,63 @@ footer nav a img {
 	}
 }
 /*
- * end of project preview responsive styling
+ * end of project preview styling
  *
- * 
+ * start of about page styling
+ */
+.about.container {
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 80%;
+	line-height: 1.5;
+}
+
+.about.container p {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.about.container :nth-child(3) {
+	background-color: rgb(38, 98, 88, 0.5);
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
+}
+
+.about.container :nth-child(4) {
+	background-color: rgb(133, 152, 154, 0.5);
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
+}
+
+.about.container :nth-child(5) {
+	background-color: rgb(94, 77, 64, 0.5);
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
+}
+/*
+ * about page responsive styling
+ */
+@media screen and (max-width: 500px) {
+	/* standard cell phone screens */
+	.about.container p {
+		padding-top: 6%;
+		padding-bottom: 6%;
+		font-size: 0.95em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	/* tablet screens */
+	.about.container p {
+		padding: 5%;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	/* small monitors and laptop screens */
+	.about.container p {
+		font-size: 1.05em;
+	}
+}
+/*
+ * end of about page styling. 
+ *
+ * start of contact page styling
  */
