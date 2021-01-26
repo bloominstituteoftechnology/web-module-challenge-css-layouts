@@ -14,9 +14,8 @@
 /* 
  * end of reset. used the universal condensed reset and added box-sizing
  *
- *
+ * start of styling to baseline flex containers
  */
-
 body {
 	text-align: center;
 }
@@ -30,9 +29,8 @@ body {
 /*
  * end of tdubs adjustments to baseline and turning on flex
  * 
- *
+ * start of nav bar styling that goes across pages
  */
-
 header.container {
 	justify-content: space-between;
 	padding: 1% 2%;
@@ -45,22 +43,22 @@ header.container img {
 }
 
 header.container nav {
-	width: 25%;
+	width: 40%;
+	font-size: 1.75em;
 }
 
 header.container nav a {
 	width: auto;
 	height: auto;
 	padding: 0.5% 1.5%;
-	font-size: 1.75em;
 	color: black;
 	text-decoration: 0.125em overline dotted black;
 }
-
 /* 
  * nav bar responsive styling
  */
-@media (max-width: 420px) {
+@media screen and (max-width: 500px) {
+	/* standard cell phone screens */
 	header.container img {
 		width: 50%;
 	}
@@ -72,24 +70,41 @@ header.container nav a {
 	}
 
 	header.container nav a {
-		font-size: 1.5em;
+		margin: 3% 0%;
+		font-size: 0.875em;
 	}
 }
 
-@media (max-width: 800) {
-	header.container img {
-		width: 25%;
-	}
-
+@media screen and (max-width: 800px) {
 	header.container nav {
-		width: 75%;
+		display: flex;
+		justify-content: flex-end;
+		width: 50%;
+		font-size: 0.75em;
 	}
 
 	header.container nav a {
-		font-size: 1.5em;
+		margin: 0% 2%;
 	}
 }
 
+@media screen and (max-width: 1200px) {
+	header.container nav {
+		display: flex;
+		justify-content: flex-end;
+		width: 50%;
+		font-size: 1.25em;
+	}
+
+	header.container nav a {
+		margin: 0% 2%;
+	}
+}
+/*
+ * end of responsive nav bar styling
+ *
+ * hover below does not change regardless of screensize
+ */
 header.container nav a:hover {
 	border: 0.125em dotted rgb(38, 98, 88);
 	color: rgb(9, 23, 20);
@@ -98,26 +113,107 @@ header.container nav a:hover {
 }
 /* 
  * end of header nav bar styling that carries throughout website
+ *
+ * start of footer styling that goes throughout pages
  */
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(199, 199, 199);
+}
 
+footer p a {
+	font-size: 1.75em;
+	font-weight: bold;
+	color: black;
+	text-decoration: 0.125em overline dotted black;
+}
+
+footer p a:hover {
+	border: 0.125em dotted rgb(38, 98, 88);
+	font-family: "Lemonada", cursive;
+	font-weight: bolder;
+	color: rgb(9, 23, 20);
+	text-decoration: none;
+}
+
+footer p .magic {
+	font-family: "Lemonada", cursive;
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+
+footer nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	margin: 0% auto;
+}
+
+footer nav a img {
+	width: 33%;
+	margin-bottom: 2%;
+}
+/*
+ * footer responsive styling
+ */
+@media screen and (max-width: 500px) {
+	footer p .magic {
+		padding: 0% 1%;
+		font-size: 1.5em;
+		line-height: 0.75;
+	}
+
+	footer nav {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	footer nav {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	footer nav a img {
+		width: 80%;
+	}
+}
+/*
+ * end of footer styling that carries throughout website
+ */
 .textbox-shading {
-	padding: 2%;
+	padding: 3%;
 	background-color: rgb(94, 77, 64, 0.5);
 	border-radius: 4em;
 } /* textbox-shading adds color behind blocks of text throughout website */
 
+/* 
+ * textbox-shading: maintain proper spacing around the screen responsive styling
+ */
+@media screen and (max-width: 500px) {
+	.textbox-shading {
+		width: 95%;
+	}
+}
 /*
- *  page-specific styling below
+ * end of landing image with name and projects link responsive styling
  *
  * start of landing page styling 
  */
-
 .landing.container {
 	display: flex;
 	flex-direction: column;
-	height: 33em;
+	height: 42em;
 	background: rgb(12, 26, 24) url(https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center;
 	background-size: cover;
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset;
+}
+
+.landing.container.textbox-shading {
+	height: 33%;
 }
 
 .landing.container h1 {
@@ -128,18 +224,72 @@ header.container nav a:hover {
 }
 
 .landing.container p {
-	font-size: 1.5em;
+	margin-bottom: 6%;
+	font-size: 1.75em;
 	font-weight: bolder;
 	color: black;
 	text-shadow: 0.25em 0.25em 0.25em rgb(133, 152, 154); /* adds drop-shadow to element */
 }
 
+.landing.container a {
+	font-family: "Acme", sans-serif;
+	font-size: 1.75em;
+	color: black;
+	text-decoration: 0.125em overline dotted black;
+}
+
+.landing.container a:hover {
+	border: 0.25em dotted rgb(133, 152, 154);
+	color: rgb(9, 23, 20);
+	font-weight: bolder;
+	text-decoration: none;
+}
+
 .project-preview.container {
 	display: flex;
 	flex-wrap: wrap;
+	background-image: url(https://images.pexels.com/photos/1061623/pexels-photo-1061623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: bottom;
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset;
 }
 
-.project-preview.container > img {
-	width: 30%;
+.project-preview.container img {
+	width: 20%;
 	height: auto;
+	margin: 2%;
 }
+/*
+ * project preview responsive styling
+ */
+@media screen and (max-width: 500px) {
+	.project-preview.container {
+		flex-flow: column nowrap;
+		padding: 5% 0%;
+	}
+	.project-preview.container img {
+		width: 100%;
+		margin: 1%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.project-preview.container {
+		padding: 5% 0%;
+	}
+	.project-preview.container img {
+		width: 45%;
+		margin: 1%;
+	}
+}
+
+@media screen and (max-width: 1920px) {
+	.project-preview.container img {
+		width: 24%;
+	}
+}
+/*
+ * end of project preview responsive styling
+ *
+ * 
+ */
