@@ -51,9 +51,7 @@ table {
 body {
     border: 2rem solid darkolivegreen;
     padding: 5rem;
-
 }
-
 h1 {
     text-align: center;
     font-size: 4.5rem;
@@ -61,14 +59,10 @@ h1 {
     margin-bottom: 2rem;
     text-decoration: underline;
 }
-
-
-
 .nav {
     display: flex;
     justify-content: center;
 }
-
 .nav a {
     background-color: darkolivegreen;
     color: white;
@@ -81,8 +75,6 @@ h1 {
     width: 5rem;
     text-align: center;
 }
-
-
 .information p{
 	font-size: 2rem;
 	width: 60rem;
@@ -95,7 +87,6 @@ h1 {
     margin-bottom: 5rem;
     font-family: cursive;
 }
-
 .information a {
     display: flex;
     justify-content: center;
@@ -107,13 +98,11 @@ h1 {
     margin-top: 5rem;
     text-decoration: none;
 }
-
 .nav a:hover {
     background-color: snow;
     color: darkolivegreen;
     text-transform: uppercase;
 }
-
  .projects {
     display: flex;
     flex-wrap: wrap;
@@ -121,15 +110,12 @@ h1 {
     padding: 2rem;
     margin-top: 5rem;
 }
-
 .projects img {
     border: .5rem solid transparent;
 }
-
 .projects img:hover {
     border: .5rem dotted darkolivegreen;
 }
-
 h3 {
     text-align: center;
     font-size: 3rem;
@@ -137,7 +123,6 @@ h3 {
     margin-bottom: 2rem;
     font-family: Papyrus;
 }
-
 .footer a {
     display: flex;
     justify-content: center;
@@ -150,14 +135,65 @@ h3 {
     text-decoration: none;
     width: 10rem;
     margin: 1rem auto;
-
 }
 .fa-instagram {  
     background: #125688;  
     color: white;  
 }
-
 .fa-facebook {  
     background: #3B5998;  
     color: white;  
+}
+/* media */ 
+ 
+@media(max-width:800px) {
+    h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Papyrus, cursive;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav a {
+        background-color:darkolivegreen;
+        color: white;
+        margin: 1rem;
+        border-radius: 20%;
+        padding: 1rem;
+        font-size: 1rem;
+        transition-duration: .04s;
+        text-decoration: none;
+        width: 3rem;
+        text-align: center;
+    }
+    .information p {
+        font-size: 1.5rem;
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3rem;
+        border: .5rem dotted darkolivegreen;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-family: cursive;
+    }
+    .projects {
+        margin-top: 2rem;
+    }
+    img {
+        width: 80%;
+        height: auto;
+    }
+    h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin-bottom: 2rem;
+    font-family: Papyrus;
+    }
 }
