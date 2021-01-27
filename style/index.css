@@ -30,7 +30,10 @@ h1 {
     font-size: 3.5rem;
     margin: 1rem;
     margin-bottom: 1.5rem;
-    color: 	#686868;
+    font-weight: bold;
+}
+h1:hover {
+    color: #808080
 }
 .buttons {
     text-align: center;
@@ -39,13 +42,26 @@ h1 {
 
 }
 button{
-    padding: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
     font-size: 1rem;
+    background-color: #1d708a;
+    color: #e7feff;
+    border: #008b8b;
+    box-shadow: 4px 5px #D0D0D0;
+    
 }
-section {
+.buttons button:hover {
+    background-color:	#11dde4;
+    color: black;
+    border: white;
+}
+.top-section {
     text-align: center;
+    background: #11dde4;
+    padding: 20px;
+    box-shadow: 4px 5px #D0D0D0;
 }
 h2 {
     font-size: 2.5rem;
@@ -57,19 +73,26 @@ h2 {
 .header-img {
     width: 100%;
     height: 20rem;
-    margin: 10px;
+    margin-top: 15px;
+    /* margin: 10px; */
     margin-bottom: 10px;
+    box-shadow: 4px 5px #D0D0D0;
 }
 .project-img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 .project-img img {
     margin: 3px;
-    width: 160px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     margin-bottom: 10px;
+    box-shadow: 4px 5px #D0D0D0;
+}
+.bottom-section p:hover {
+    color: #808080
 }
 footer {
     text-align: center;
