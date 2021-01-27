@@ -386,7 +386,7 @@ footer nav a img {
 	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
 }
 
-div.textbox-shading {
+main.contact div.textbox-shading {
 	margin: 3%;
 	background-color: rgb(199, 199, 199);
 	box-shadow: 0px 0px 16px 16px rgb(255, 255, 255) inset; /* blends edges into each other */
@@ -397,7 +397,7 @@ div.textbox-shading {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 75%;
+	width: 80%;
 	height: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -406,6 +406,7 @@ div.textbox-shading {
 
 label {
 	font-size: 1.25em;
+	font-weight: bolder;
 }
 
 input {
@@ -414,11 +415,58 @@ input {
 }
 
 div.client-input {
-	min-width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+div.client-input > label {
+	line-height: 1;
 }
 
 div.client-input input {
 	margin-right: 2%;
+}
+
+@media screen and (max-width: 500px) {
+	/* standard cell phone screens */
+	.contact.container {
+		background-image: unset;
+	}
+
+	main.contact div.textbox-shading {
+		background-color: rgb(199, 199, 199);
+		box-shadow: unset;
+	}
+	div.client-input {
+		flex-direction: column;
+	}
+
+	div.client-input input {
+		min-width: 12em;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	/* tablet screens */
+	.contact.container {
+		width: 100vw;
+		background-size: cover;
+		background-position: bottom right;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	/* small monitors and laptop screens */
+	label {
+		font-size: 1em;
+	}
+
+	div.client-input input {
+		max-width: 25%;
+	}
 }
 
 .color-pallette.container {
@@ -469,4 +517,8 @@ input[type="reset"]:hover {
 	padding: 2%;
 	border: none;
 	text-transform: uppercase;
+}
+
+form p {
+	font-family: "Chakra Petch", monospace;
 }
