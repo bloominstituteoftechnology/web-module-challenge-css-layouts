@@ -283,7 +283,7 @@ footer nav a img {
 }
 
 .project-preview.container img {
-	width: 22%;
+	width: 30%%;
 	margin: 2%;
 }
 /*
@@ -296,7 +296,8 @@ footer nav a img {
 		padding: 5% 0%;
 	}
 	.project-preview.container img {
-		min-width: 95%;
+		min-width: 90%;
+		margin: 2%;
 	}
 }
 
@@ -534,14 +535,69 @@ main.projects.container {
 	background-image: url(https://images.pexels.com/photos/5243591/pexels-photo-5243591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
+}
+
+main.projects.container div.textbox-shading {
+	margin: 3% 0%;
+	color: rgb(199, 199, 199);
+	background-color: rgba(21, 197, 168, 0.25);
+	box-shadow: 0px 0px 16px 16px rgba(21, 197, 168, 0.25); /* blends edges into each other */
 }
 
 .rows {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
 .projects.container div.rows img {
 	max-width: 30%;
+	margin: 1.5%;
+}
+/*
+ * start of projects page responsive styling
+ */
+@media screen and (max-width: 500px) {
+	/* standard cell phone screens */
+	main.projects.container {
+		padding-bottom: 8%;
+	}
+
+	main.projects.container div.textbox-shading {
+		width: 90%;
+		background-color: transparent;
+		box-shadow: unset;
+	}
+
+	.rows {
+		flex-direction: column;
+	}
+
+	.projects.container div.rows img {
+		min-width: 90%;
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	/* tablet screens */
+	main.projects.container {
+		padding-bottom: 3%;
+	}
+
+	main.projects.container div.textbox-shading {
+		margin-top: 10%;
+		width: 50%;
+	}
+
+	.rows {
+		flex-direction: column;
+	}
+
+	.projects.container div.rows img {
+		min-width: 50%;
+		width: 50%;
+	}
 }
