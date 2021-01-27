@@ -351,8 +351,8 @@
 
 
 body{
-  width: auto;  
-  box-sizing: border-box;
+ width: auto;  
+ box-sizing: border-box;
 
 }
 
@@ -393,14 +393,13 @@ header {
     text-align: center;
     width: 100%;
     border: 2px solid blue;
-    display: space-evenly;
+    display: flex;
     vertical-align: center;
     margin: 1%; 
     max-width: 100%;
   }
   #selfAdore {
     display: flex;
-    flex-direction: row;
     background-color: #f8f5f5;
     padding: 10px;
     flex: 50%;
@@ -409,74 +408,85 @@ header {
       
   }
  section video{
+  width: 50%;
       position: relative;
       vertical-align: left;
   }
+  .SelfAdoreText{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f5f5;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   h2{
-      font-size: 50px;
+      font-size: 3rem;
   }
   article{
-    width: auto;
+    width: 50%;
     position: relative;
     background-color: #f1eded;
     padding: 10px;
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 5rem;
+    font-size: 2rem;
     display: flex;
-    flex-direction: row;
-     flex: 50%;
+    flex: 50%;
   }
 
  button{
         width: fit-content;
-        font-size: 60px;
+        font-size: 4rem;
+        border-radius: 4.5rem;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-   
+.imgProject{
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
+
 .imageGallary1{
     display: flex;
-    flex-direction: row;
-    flex: 100%;
-    
-    
-}
-.imageGallary1 img{
-        
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
+
 .imageGallary2{
     display: flex;
-    flex-direction: row;
-    flex: 100%;
-    margin: 20px;
-}
-    .imageGallary2 img{
-        
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
+    
+.upperimage{
+  width: 23%;
+}
+.upperimage img{
+        
+    width: 100%;
+    max-width: 50rem;
+    
+}   
+
 p{
     font-size: 30px;
     text-align: center;
 }
 .footerLink button{
-    font-size: 30px;
+    font-size: 2rem;
     vertical-align: center;
 }
 .fa {
     padding: 20px;
     font-size: 50px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -492,7 +502,6 @@ p{
 .fa-twitter {
     background: #55ACEE;
     color: white;
-    width: auto;
     vertical-align: center;
     position: relative;
    
@@ -511,8 +520,11 @@ p{
 @media(max-width: 800px){
 body {background-color: red;
 }
+.headerName{
+  font-size: 1rem;
+  justify-content: center;
 }
-
+}
 /*for phones*/
 @media(max-width: 500px){
  body{ background-color: yellow;
@@ -531,5 +543,37 @@ header {
 .headerContainer a{
   
   font-size: 2rem;
+}
+
+
+/*.imageGallary1 {
+    
+  
+  
+  
+}*/
+.upperimage{
+
+  width: 45%;
+}
+.footerLink{
+  flex-direction: column;
+}
+.footerLink button{
+  font-size: 1rem;
+  vertical-align: center;
+}
+.fa {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40%;
+}
+.social{
+  display: flex;
+  flex-direction: column;
 }
 }
