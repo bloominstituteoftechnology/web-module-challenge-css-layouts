@@ -361,7 +361,7 @@ header {
         flex-direction: row;
         font-size:3rem;
         text-align: center;
-        background-color: #f1f1f1;
+        
        
        
         /*border: 1px solid black;*/
@@ -372,16 +372,12 @@ header {
   display: flex;
   text-align: center;
    font-size: 5rem;
-    padding: 1rem;
 }
   .headerContainer a{
     /*-color: #c21a1a;*/
-    width: 50%;
-    margin: px;
+    width: 100%;
     text-align: center;
-    line-height:7.5 rem;
-    font-size: 5rem;
-    padding: 2rem;
+    padding: 1rem;
     
 
   }
@@ -390,7 +386,7 @@ header {
       background-color: rosybrown;
   }
   section{
-    text-align: center;
+    justify-content: center;
     width: 100%;
     border: 2px solid blue;
     display: flex;
@@ -402,37 +398,32 @@ header {
     display: flex;
     background-color: #f8f5f5;
     padding: 10px;
-    flex: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    
       
   }
  section video{
   width: 50%;
       position: relative;
-      vertical-align: left;
+      vertical-align: center;
   }
   .SelfAdoreText{
     display: flex;
     flex-direction: column;
     background-color: #f8f5f5;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+        
   }
 
   h2{
       font-size: 3rem;
   }
   article{
-    width: 50%;
+    width: 80%;
     position: relative;
     background-color: #f1eded;
-    padding: 10px;
     margin-left: 5rem;
     font-size: 2rem;
     display: flex;
-    flex: 50%;
+    
   }
 
  button{
@@ -473,7 +464,16 @@ header {
     width: 100%;
     max-width: 50rem;
     
-}   
+} 
+.lowerimage{
+  width: 23%;
+}  
+
+.lowerimage img{
+
+  width: 100%;
+  max-width: 50rem;
+}
 
 p{
     font-size: 30px;
@@ -521,8 +521,66 @@ p{
 body {background-color: red;
 }
 .headerName{
-  font-size: 1rem;
+  font-size: 3rem;
   justify-content: center;
+  
+}
+header {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  text-align: center;
+ 
+}
+.headerContainer header{
+  /*-color: #c21a1a;*/
+  width: 100%;
+  text-align: center;
+  
+}
+#selfAdore{
+ 
+  width: 100%;
+  max-width: 90%;
+  justify-items: center;
+
+}
+section{
+  flex-direction: row;
+}
+article{
+  width: 80%;
+  background-color: #f1eded;
+  font-size: 1rem;
+  display: flex;
+ 
+}
+button{
+  width: fit-content;
+  font-size: 3em;
+  border-radius: 4.5rem;
+
+}
+.SelfAdoreText p{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f5f5;
+  font-size: 1.25rem;
+}
+.footerLink button{
+  font-size: 3rem;
+ align-items: center;
+}
+.fa {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 40%;
+  
+}
+.social{
+  display: flex;
 }
 }
 /*for phones*/
@@ -531,27 +589,42 @@ body {background-color: red;
 
 }
 .headerName{
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: center;
 }
-
-header {
+.headerContainer header{
   flex-direction: column;
-  
-  
-}
-.headerContainer a{
-  
+  width: 100%;
+  text-align: center;
   font-size: 2rem;
+  padding: .2rem;
+ 
 }
 
+#selfAdore{
+ 
+  width: 100%;
+  max-width: 90%;
+  justify-items: center;
 
-/*.imageGallary1 {
+}
+section{
+  flex-direction: column;
+}
+
+article{
+  width: 80%;
+  background-color: #f1eded;
+  font-size: 2rem;
+  display: flex;
+ 
+}
+
+.lowerimage {
     
-  
-  
-  
-}*/
+  width: 45%;
+    
+}
 .upperimage{
 
   width: 45%;
