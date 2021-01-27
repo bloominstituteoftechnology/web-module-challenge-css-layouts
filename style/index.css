@@ -379,16 +379,19 @@ footer nav a img {
  */
 .contact.container {
 	flex-direction: column;
-	background-image: url(https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-	background-position: center;
-	background-repeat: no-repeat;
+	width: 80%;
+	background-image: url(https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 16px 16px rgb(199, 199, 199) inset; /* blends edges into each other */
 }
 
 div.textbox-shading {
-	margin: 1%;
-	background-color: rgb(199, 199, 199, 0.5);
+	margin: 3%;
+	background-color: rgb(199, 199, 199);
+	box-shadow: 0px 0px 16px 16px rgb(255, 255, 255) inset; /* blends edges into each other */
 }
+
 .contact.container form {
 	display: flex;
 	flex-direction: column;
@@ -399,14 +402,6 @@ div.textbox-shading {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	line-height: 2;
-	background-image: url(https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-	background-size: cover;
-	background-position: bottom;
-	opacity: 0.8;
-}
-
-.form-styling form {
-	opacity: 1.5;
 }
 
 label {
@@ -447,7 +442,7 @@ div.accent.container input {
 }
 
 input[type="url"] {
-	min-width: 200px;
+	min-width: 250px;
 }
 
 form label span {
@@ -458,7 +453,7 @@ form label span {
 div.center-buttons {
 	display: flex;
 	justify-content: space-around;
-	width: 15%;
+	width: 20%;
 }
 
 input[type="submit"],
