@@ -429,46 +429,6 @@ div.client-input input {
 	margin-right: 2%;
 }
 
-@media screen and (max-width: 500px) {
-	/* standard cell phone screens */
-	.contact.container {
-		background-image: unset;
-	}
-
-	main.contact div.textbox-shading {
-		background-color: rgb(199, 199, 199);
-		box-shadow: unset;
-	}
-	div.client-input {
-		flex-direction: column;
-	}
-
-	div.client-input input {
-		min-width: 12em;
-		margin: auto;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	/* tablet screens */
-	.contact.container {
-		width: 100vw;
-		background-size: cover;
-		background-position: bottom right;
-	}
-}
-
-@media screen and (max-width: 1280px) {
-	/* small monitors and laptop screens */
-	label {
-		font-size: 1em;
-	}
-
-	div.client-input input {
-		max-width: 25%;
-	}
-}
-
 .color-pallette.container {
 	flex-direction: column;
 }
@@ -521,4 +481,67 @@ input[type="reset"]:hover {
 
 form p {
 	font-family: "Chakra Petch", monospace;
+}
+/*
+ * contact page responsive styling
+ */
+@media screen and (max-width: 500px) {
+	/* standard cell phone screens */
+	.contact.container {
+		background-image: unset;
+	}
+
+	main.contact div.textbox-shading {
+		background-color: rgb(199, 199, 199);
+		box-shadow: unset;
+	}
+	div.client-input {
+		flex-direction: column;
+	}
+
+	div.client-input input {
+		min-width: 12em;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	/* tablet screens */
+	.contact.container {
+		width: 100vw;
+		background-size: cover;
+		background-position: bottom right;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	/* small monitors and laptop screens */
+	label {
+		font-size: 1em;
+	}
+
+	div.client-input input {
+		max-width: 25%;
+	}
+}
+/*
+ * end of contact page styling
+ *
+ * start of projects page styling
+ */
+main.projects.container {
+	flex-direction: column;
+	background-image: url(https://images.pexels.com/photos/5243591/pexels-photo-5243591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rows {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects.container div.rows img {
+	max-width: 30%;
 }
