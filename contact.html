@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="application-name" content="the grey way">
-		<meta name="author" content="Tawnya Wessar">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-		<title>tawnya wessar</title>
-		<link rel="stylesheet" href="style/index.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="the grey way">
+    <meta name="author" content="Tawnya Wessar">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>tawnya wessar</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<header class="container">
-			<img src="assets/greyway-webdev-logo.png" alt="the grey way web dev logo">
-			<nav>
-				<a class="nav-link" href="index.html">landing</a>
-				<a class="nav-link" href="about.html">about</a>
-				<a class="nav-link" href="contact.html">contact</a>
-				<a class="nav-link" href="projects.html">projects</a>
+  </head>
+  <body>
+    <header class="container">
+      <img src="assets/greyway-webdev-logo.png" alt="the grey way web dev logo">
+      <nav>
+        <a class="nav-link" href="index.html">landing</a>
+        <a class="nav-link" href="about.html">about</a>
+        <a class="nav-link" href="contact.html">contact</a>
+        <a class="nav-link" href="projects.html">projects</a>
       </nav>
-		</header>
-    <main id="contact-main">
-      <h1>contact t</h1>
+    </header>
+    <main class="contact container">
+      <div class="textbox-shading">
+        <h1>contact t</h1>
+        <h2>contact-tdubs@pm.me</h2>
+      </div>
+      <form action="mailto:contact-tdubs@pm.me?subject=Seeking%20your%20services%20T" method="post">
+        <div class="client-input">
+          <label for="client-name">Your name:</label>
+          <input type="text" id="client-name" name="client-name" value="first name is fine" required>
+          <label for="client-company-name">Company name:</label>
+          <input type="text" id="client-company-name" name="client-company-name" value="if applicable">
+          <label for="client-email">Your e-mail?</label>
+          <input type="email" id="client-email" name="client-email" value="type it here please" required>
+        </div>
+        <div class="color-pallette container">
+          <label for="main-color">Select your main color:</label>
+          <input type="color" id="main-color" name="main-color">
+          <br>
+          <div class="accent container">
+            <label for="accent-color-1">Select 1st accent color:</label>
+            <input type="color" id="accent-color-1" name="accent-color-1">
+            <label for="accent-color-2">Select 2nd accent color:</label>
+            <input type="color" id="accent-color-2" name="accent-color-2">
+          </div>
+        </div>
+        <label for="client-url">Show me what we're working with!</label>
+        <input type="url" id="client-url" name="client-url" value="https://greyway.dev/contact.html" required>
+        <br>
+        <label for="client-url">
+          If you do not have a website hosted yet please insert
+          <br>
+          <span>LinkedIn profile link</span>
+          <br>
+          <span>Github profile link</span>
+          <br>
+          or
+          <br>
+          <span>Instagram / Facebook profile link</span>
+        </label>
+        <br>
+        <div class="center-buttons">
+          <input type="submit" value="submit">
+          <input type="reset" value="reset">
+        </div>
+      </form>
     </main>
-		<footer>
-			<p><a href="contact.html">contact me!</a><br><em class="magic">let's make magic happen</em></p>
-			<nav>
-				<a href="https://github.com/tdubs42"><img src="https://cdn.pixabay.com/photo/2014/07/15/23/36/github-394322_960_720.png" alt="github logo"></a>
-				<a href="https://www.linkedin.com/in/tdubs42/"><img src="https://cdn.pixabay.com/photo/2017/11/10/05/05/linkedin-2935407_960_720.png" alt="linked in logo"></a>
-				<a href="https://www.instagram.com/the.grey.wayy/"><img src="https://cdn.pixabay.com/photo/2018/03/19/02/52/logo-instagram-3238899_960_720.png" alt="instagram logo"></a>
-        <a href="https://codepen.io/tdubs"><img src="https://i.pinimg.com/originals/32/cb/38/32cb38841aa90604d6dddc5d0e838f5d.png" alt="code pen logo"></a>
+    <footer>
+      <p>
+        <a href="contact.html">contact me!</a>
+        <br>
+        <em class="magic">let's make magic happen</em>
+      </p>
+      <nav>
+        <a href="https://github.com/tdubs42">
+          <img src="https://cdn.pixabay.com/photo/2014/07/15/23/36/github-394322_960_720.png" alt="github logo">
+        </a>
+        <a href="https://www.linkedin.com/in/tdubs42/">
+          <img src="https://cdn.pixabay.com/photo/2017/11/10/05/05/linkedin-2935407_960_720.png" alt="linked in logo">
+        </a>
+        <a href="https://www.instagram.com/the.grey.wayy/">
+          <img src="https://cdn.pixabay.com/photo/2018/03/19/02/52/logo-instagram-3238899_960_720.png" alt="instagram logo">
+        </a>
+        <a href="https://codepen.io/tdubs">
+          <img src="https://i.pinimg.com/originals/32/cb/38/32cb38841aa90604d6dddc5d0e838f5d.png" alt="code pen logo">
+        </a>
       </nav>
-		</footer>
-	</body>
+    </footer>
+  </body>
 </html>

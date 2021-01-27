@@ -215,7 +215,7 @@ footer nav a img {
  * end of footer styling that carries throughout website
  */
 .textbox-shading {
-	padding: 3%;
+	padding: 2%;
 	background-color: rgb(94, 77, 64, 0.5);
 	border-radius: 4em;
 } /* textbox-shading adds color behind blocks of text throughout website */
@@ -377,3 +377,101 @@ footer nav a img {
  *
  * start of contact page styling
  */
+.contact.container {
+	flex-direction: column;
+	background-image: url(https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.textbox-shading {
+	margin: 1%;
+	background-color: rgb(199, 199, 199, 0.5);
+}
+.contact.container form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	line-height: 2;
+	background-image: url(https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: bottom;
+	opacity: 0.8;
+}
+
+.form-styling form {
+	opacity: 1.5;
+}
+
+label {
+	font-size: 1.25em;
+}
+
+input {
+	padding: 1%;
+	border: 0.125em solid rgb(38, 98, 88);
+}
+
+div.client-input {
+	min-width: 100vw;
+}
+
+div.client-input input {
+	margin-right: 2%;
+}
+
+.color-pallette.container {
+	flex-direction: column;
+}
+
+input[name="main-color"] {
+	width: 6em;
+	height: 4em;
+}
+
+.accent.container {
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+div.accent.container input {
+	width: 3em;
+	height: 3em;
+}
+
+input[type="url"] {
+	min-width: 200px;
+}
+
+form label span {
+	font-weight: bold;
+	background-color: rgb(255, 255, 0, 0.5);
+}
+
+div.center-buttons {
+	display: flex;
+	justify-content: space-around;
+	width: 15%;
+}
+
+input[type="submit"],
+input[type="reset"] {
+	padding: 2%;
+	font-family: "Lemonada", cursive;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	padding: 2%;
+	border: none;
+	text-transform: uppercase;
+}
