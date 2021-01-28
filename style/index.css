@@ -41,8 +41,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: #F4A259;
-  color: white;
+  background-color: yellow;
+  color: black;
 }
 
 article {
@@ -76,8 +76,10 @@ article img {
 }
 
 button:hover {
-  background-color: #F4A259;
-  color: white;
+  background-color:yellow;
+  color:black;
+  width:21%;
+  font-size: 1.5rem;
 }
 
 section {
@@ -121,13 +123,10 @@ footer {
   width: 20%;
 }
 
-/* CSS for 800 px max width starts here */
+/* @media for 800 px max width starts here */
 
 @media only screen and (max-width: 800px) {
   
-  body {
-    border: 2px solid white;
-  }
   header {
   align-items: center;
   }
@@ -184,5 +183,34 @@ footer {
     width: 80%;
   }
 
-
 }
+/* @media for 800px ends here */
+
+/* @media for 1200px max-width starts here */
+@media only screen and (max-width: 1200px) {
+  article img {
+    width: 50%;
+    padding: 2%;
+  }
+  }
+/* @media for 1200px ends here */
+
+
+/* @media for 900px starts here */
+
+    @media only screen and (max-width: 900px){
+      article {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        width: 100%;
+        font-size: 1.5rem;
+      }
+      article img {
+        width: 50%;
+        padding: 2%;
+      }
+    }
+/* @media for 900px ends here */
