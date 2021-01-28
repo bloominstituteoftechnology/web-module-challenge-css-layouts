@@ -107,12 +107,18 @@ section {
 html {
   font-size: 62.5%;
 }
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 0.1rem solid hotpink;
+}
 
 body {
-  background: pink;
+  background:background:pink;
+  background: radial-gradient(circle, rgba(231,63,251,1) 31%, rgba(252,70,107,1) 100%);
   font-size: 2rem;
-  line-height: 1.7;
-  font-family: "sans-serif";
+  line-height: 1.7rem;
+  font-family:"san-serif";
   background-position: center;
 }
 /* h1 {
@@ -125,27 +131,28 @@ body {
 
 h1 {
   font-family: sans-serif;
-  color: darkmagenta;
+  color:rgb(139, 0, 81);
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
+  
 }
 
 #about {
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
+  flex-flow: wrap;
   width: 100%;
   text-align: center;
   margin-top: 50px;
 }
-h2{
-    font-family: sans-serif;
-    color: darkmagenta;
-    font-size: 4rem;
-    font-weight: bold;
-    text-align: center;
-
+h2 {
+  font-family: sans-serif;
+  color: rgb(139, 0, 81);
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* h1 {
@@ -159,85 +166,90 @@ a {
   text-decoration: darkred;
   letter-spacing: 4px;
 }
-nav{
-    margin: 0 auto;
-    margin-bottom: 50px;
-   max-width: 1000px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 50px;
+nav {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 .intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .intro div {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .buttons {
-    margin: 0 20px;
+  margin: 0 20px;
   padding: 10px;
   border-radius: 10px;
   border: rgb(245, 240, 241);
   color: rgb(228, 101, 101);
-  
 }
 .buttons {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: black;
-    color: magenta;
-    transition: 2s;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: rgb(248, 235, 235);
+  color: magenta;
+  transition: 2s;
 }
 
 .buttons:hover {
-    width: 100px;
-    height: 20px;
-    padding: 6px;
-    border-radius: 10px;
-    border: 3px solid darkorchid;
-   
+  width: 100px;
+  height: 20px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 3px solid darkorchid;
 }
 
 .buttonHome {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color:black;
-    color:pink;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: pink;
 }
 
 .buttonAbout {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: purple;
-    color:whitesmoke;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: purple;
+  color: whitesmoke;
 }
 
 .buttonProjects {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: magenta;
-    color: black;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: magenta;
+  color: black;
 }
 
 .buttonContact {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: pink ;
-    color: black;
+  border: 3px solid darkorchid;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(158, 145, 147);
+  color: black;
 }
+.pic {
+  width: 95%;
+  min-width: 75px;
+  margin: 0 auto;
+}
+
 
 /* .buttons:hoover {
   width: 150px;
@@ -246,11 +258,36 @@ nav{
   border-radius: 15px;
   border: 3px rgb(241, 237, 238);
   background-color: plum; */
-}
+
 /* #p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 6rem;
     text-align: center; */
-
+@media (max-width: 800px) {
+  .container {
+    background-color: rgb(231,63,251);
+    background: radial-gradient(circle, rgba(231,63,251,1) 31%, rgba(252,70,107,1) 100%);;
+  }
+  .pictures {
+    width: 23%;
+    margin: 0 1%;
+  }
+  .container header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .container header nav a {
+    margin-bottom: 20%;
+  }
+  /*  */
+@media (max-width: 600px) {
+  .container {
+    background-color: rgb(0, 195, 255) (63, 67, 68);
+  }
 }
-
+@media (max-width: 400px) {
+  .container {
+    background-color: rgb(231,63,251);
+    background: Cyan;
+  }
+}
