@@ -121,7 +121,6 @@ footer {
   width: 20%;
 }
 
-
 /* @media for 1200px max-width starts here */
 @media only screen and (max-width: 1200px) {
   article img {
@@ -131,9 +130,36 @@ footer {
   }
 /* @media for 1200px ends here */
 
+/* @media for 375 px max width starts here */
+@media only screen and (max-width: 375px) {
+  h1{
+    font-size: 2rem;
+  }
 
-/* @media for 950px starts here */
-@media only screen and (max-width: 950px){
+  header {
+  align-items: center;
+  }
+  .navheader {
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  .navheader a {
+    padding: 1%;
+    border: none;
+    background-color: transparent;
+    font-size:small;
+    color:yellow;
+  }
+
+  .navheader a:hover{
+    font-size:large;
+  }
+
   article {
     display: flex;
     flex-wrap: nowrap;
@@ -141,14 +167,116 @@ footer {
     justify-content: space-evenly;
     align-items:center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: .50rem;
   }
   article img {
     width: 50%;
     padding: 2%;
   }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid yellow;
+  }
+
+  .gallery1 div, .gallery2 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: .50rem;
+
+  }
+
+  .gallery1 div img, .gallery2 div img {
+    width: 80%;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+
+  button {
+    font-size: .60rem;
+  }
 }
-/* @media for 900px ends here */
+/* @media for 375px ends here */
+
+/* @media for 450px max width starts here */
+@media only screen and (max-width: 450px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  header {
+  align-items: center;
+  }
+  .navheader {
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  .navheader a {
+    padding: 1%;
+    border: none;
+    background-color: transparent;
+    font-size:small;
+    color:yellow;
+  }
+
+  .navheader a:hover{
+    font-size:large;
+  }
+
+  article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100%;
+  }
+  .bio {
+    font-size: .80rem;
+  }
+  article img {
+    width: 50%;
+    padding: 2%;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid yellow;
+  }
+
+  .gallery1 div, .gallery2 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: .40rem;
+
+  }
+
+  .gallery1 div img, .gallery2 div img {
+    width: 80%;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+
+  button {
+    font-size: .40rem;
+  }
+}
+/* @media for 450px ends here */
 
 /* @media for 800 px max width starts here */
 @media only screen and (max-width: 800px) {
@@ -208,36 +336,8 @@ footer {
 }
 /* @media for 800px ends here */
 
-/* @media for 3600 px max width starts here */
-@media only screen and (max-width: 360px) {
-  h1{
-    font-size: 2rem;
-  }
-
-  header {
-  align-items: center;
-  }
-  .navheader {
-    align-items: center;
-    font-size: 2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    background-color: transparent;
-  }
-
-  .navheader a {
-    padding: 1%;
-    border: none;
-    background-color: transparent;
-    font-size:small;
-    color:yellow;
-  }
-
-  .navheader a:hover{
-    font-size:large;
-  }
-
+/* @media for 1000px starts here */
+@media only screen and (max-width: 1000px){
   article {
     display: flex;
     flex-wrap: nowrap;
@@ -245,39 +345,16 @@ footer {
     justify-content: space-evenly;
     align-items:center;
     width: 100%;
-    font-size: .75rem;
+    font-size: 1.5rem;
   }
   article img {
     width: 50%;
     padding: 2%;
   }
-
-  section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border: 2px solid yellow;
-  }
-
-  .gallery1 div, .gallery2 div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: .50rem;
-
-  }
-
-  .gallery1 div img, .gallery2 div img {
-    width: 80%;
-  }
-
-  .gallery2 {
-    display: none;
-  }
-
-  button {
-    font-size: .60rem;
-  }
-
 }
-/* @media for 360px ends here */
+/* @media for 1000px ends here */
+
+
+
+
+
