@@ -21,6 +21,7 @@ ul{
       padding: 0px;
       overflow: hidden;
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      width: 100%;
 }
 
 li{
@@ -46,6 +47,10 @@ li a:hover{
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%)
+}
+
+h1{
+      text-align: center;
 }
 
 .intro, .about, .project{
@@ -126,4 +131,71 @@ button {
 
 button:hover{
       cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+      body,html{
+            width: 800px;
+      }
+
+      ul{
+            width: 100%;
+      }
+
+      .card{
+            width: 600px;
+      }
+
+      .project-div{
+            width: 80%;
+      }
+
+      .project-card{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            margin: 5px;
+      }
+
+      .card-2{
+            width: 90%;
+      }
+      h1{
+            text-align: center;
+      }
+
+}
+
+@media screen and (max-width: 500px){
+      body,html{
+            width: 500px;
+      }
+
+      ul{
+            display: flex;
+            flex-direction: column;
+      }
+
+      .card{
+            width: 400px;
+      }
+
+      .project-div{
+            width: 80%;
+      }
+
+      .project-card{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+
+      .card-2{
+            width: 90%;
+      }
+      h1{
+            text-align: center;
+      }
+
+      .project-card{
+            margin: auto;
+            padding: 5px;
+      }
+
 }
