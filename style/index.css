@@ -2,10 +2,15 @@
 html {
   font-size: 62.5%;
   font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 body {
-  background: whitesmoke;
+  background: #171d22;
   width: 80%;
   margin: 5% 10%;
 }
@@ -20,7 +25,7 @@ header {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: flex-start;
-  background:#BC4B51;
+  background:#6c757d;
   padding: 1%;
   font-size: large;
   text-transform: uppercase ;
@@ -47,7 +52,7 @@ article {
   justify-content: space-evenly;
   align-items:flex-end;
   width: 100%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 article img {
   width: 30%;
@@ -75,22 +80,29 @@ button:hover {
   color: white;
 }
 
+section {
+  padding: 2%;
+}
+
 .gallery {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  justify-content: center;
   font-size: small;
 }
 .gallery div img {
   width: 80%;
   margin: 1%;
-  justify-content: center;
+  border: 2px solid white;
+}
+
+.gallery div img:hover {
+  border: 5px solid yellow;
 }
 
 footer {
   width: 100%;
-  background:#BC4B51;
+  background:6c#6c757d;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
