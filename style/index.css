@@ -11,6 +11,7 @@ body {
     border-width: thin;
     border-color: black;
     background-color: lightcyan;
+    padding-right: 10%;
 }
 
 div {
@@ -30,7 +31,7 @@ h2 {
     text-decoration: underline;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 ul li {
@@ -108,9 +109,16 @@ footer {
     h1 {
         font-size: 7rem;
     }
+}
 
 @media screen and (max-width: 500px) {
-    hi {
+    h1 {
         font-size: 4rem;
     }
 }   
+
+@media screen and (max-width: 360px)  {
+    h1 {
+        font-size: 2rem;
+    }
+}
