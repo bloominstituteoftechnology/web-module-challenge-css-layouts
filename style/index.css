@@ -27,7 +27,7 @@ header {
   justify-content: flex-start;
   background:#6c757d;
   padding: 1%;
-  font-size: large;
+  font-size: 2rem;
   text-transform: uppercase ;
 }
 .navheader a {
@@ -84,25 +84,31 @@ section {
   padding: 2%;
 }
 
-.gallery {
+.projectsgallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery1, .gallery2 {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   font-size: small;
 }
-.gallery div img {
+.gallery1 div img, .gallery2 div img {
   width: 80%;
   margin: 1%;
   border: 2px solid white;
 }
 
-.gallery div img:hover {
+.gallery1 div img:hover, .gallery2 div img:hover {
   border: 5px solid yellow;
 }
 
 footer {
   width: 100%;
-  background:6c#6c757d;
+  background:#6c757d;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -113,4 +119,70 @@ footer {
   margin: 2% 2%;
   padding: 1%;
   width: 20%;
+}
+
+/* CSS for 800 px max width starts here */
+
+@media only screen and (max-width: 800px) {
+  
+  body {
+    border: 2px solid white;
+  }
+  header {
+  align-items: center;
+  }
+  .navheader {
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  .navheader a {
+    padding: 1%;
+    border: none;
+    background-color: transparent;
+    font-size:small;
+    color:yellow;
+  }
+
+  .navheader a:hover{
+    font-size:large;
+  }
+
+  article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  article img {
+    width: 50%;
+    padding: 2%;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid yellow;
+  }
+
+  .gallery1 div, .gallery2 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: smaller;
+  }
+
+  .gallery1 div img, .gallery2 div img {
+    width: 80%;
+  }
+
+
 }
