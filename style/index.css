@@ -145,6 +145,48 @@ h3 {
     color: white;  
 }
 /* media */ 
+@media(max-width:1500px) {
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: Papyrus, cursive;
+        margin-bottom: 2rem;
+        text-decoration: underline;
+    }
+    .information p {
+        font-size: 2rem;
+        width: 40rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3rem;
+        border: .5rem dotted darkolivegreen;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        font-family: cursive;
+    }
+}
+@media(max-width:931px) {
+    .information p {
+        font-size: 2rem;
+        width: 30rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3rem;
+        border: .5rem dotted darkolivegreen;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        font-family: cursive;
+    }
+    h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: cursive;
+        margin-bottom: 2rem;
+        font-family: Papyrus;
+    }
+}
  
 @media(max-width:800px) {
     h1 {
