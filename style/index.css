@@ -247,3 +247,51 @@ h3 {
         font-size: 2rem; 
     }
 }
+@media(max-width:415px) {
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav a {
+        margin: .2rem;
+        border-radius: 20%;
+        padding: .5rem;
+        font-size: 1rem;
+        width: 5rem;
+    }
+    .information p {
+        width: 80%;
+        font-size: 1.4rem;
+        padding: 1rem;
+        border: .3rem dotted darkolivegreen;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .information a {
+        margin-top: 2rem;
+        border-radius: 2% / 20%;
+        padding: .5em;
+        font-size: 1.5rem;
+    }
+    img {
+        width: 120%;
+        height: auto;
+    }
+    h3 {
+        font-size: 1.5rem; 
+    }
+    .footer a {
+        margin: 2rem;
+        border-radius: 2% / 20%;
+        padding: .5em;
+        font-size: 1.5rem;
+        text-decoration: none;
+        width: 10rem;
+        margin: 1rem auto;
+    }
+}
