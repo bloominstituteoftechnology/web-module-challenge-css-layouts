@@ -57,11 +57,12 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -91,7 +92,7 @@ table {
 body {
  
     background-color: black;
-    color: white;
+    color: lightpink;
     margin: 0 auto;
     max-width: 80%;
     font-family: 'Lobster Two', cursive;
@@ -150,8 +151,8 @@ nav a {
 }
 
 nav a:hover{
-    color: white;
-    background: black;
+    color: black;
+    background: pink;
     
 }
 
@@ -161,7 +162,7 @@ nav a:hover{
     justify-content: center;
     height: 15em;
     width: 45em;
-    margin: 2em auto;
+    margin: 1em auto;
     border: 2px solid white;
     background-image: url(/style/banner.jpg);
     background-position: center;
@@ -170,11 +171,14 @@ nav a:hover{
 
 }
 
-section p {
+.intro-text {
     display: flex;
     align-content: center;
     justify-content: center;  
+    padding:0 5%;
 }
+
+
 
 .project-links {
     display: flex;
@@ -190,7 +194,7 @@ section p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 5%;
+    width: 10%;
     height: 15em;
     padding: 1em;
   
@@ -241,6 +245,7 @@ footer {
     justify-content: center;
     align-items: center;
 
+
 }
 
 footer i {
@@ -249,4 +254,81 @@ footer i {
 
 address {
     text-size:50%;
+}
+
+/* Styling for 800px screens*/
+
+@media (max-width: 800px) {
+    body {
+        background: pink;
+        color: black;
+        font-size: .75rem;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: fit-content;
+        border-radius: 25%;
+        margin: 0rem auto;
+    }
+    
+    nav a {
+        border-radius: 20%;
+        margin: .25rem;
+        justify-content: center;
+    }
+
+    nav.a hover {
+        background: black;
+        color: pink;
+    }
+
+    .primary-banner {
+        height: 10em;
+        width: 35em;
+        justify-content: center;
+    }
+
+    .project-links {
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-items: space-between;
+     
+     
+
+    }
+    .project-links a {
+        display: flex;
+        flex-wrap: wrap;
+      
+        
+        
+    }
+
+    #project-description {
+        align-items: center;
+        justify-content: center;
+        
+        
+
+    }
+}
+
+
+
+/* 500px Screen width */
+@media (max-width: 500px) {
+    body {
+        background: pink;
+        color: black;
+        font-size: .5rem;
+
+    }
+
+
+
+
 }
