@@ -148,11 +148,11 @@ h3 {
  
 @media(max-width:800px) {
     h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-family: Papyrus, cursive;
-    margin-bottom: 2rem;
-    text-decoration: underline;
+        text-align: center;
+        font-size: 3rem;
+        font-family: Papyrus, cursive;
+        margin-bottom: 2rem;
+        text-decoration: underline;
     }
     .nav {
         display: flex;
@@ -190,10 +190,68 @@ h3 {
         height: auto;
     }
     h3 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: cursive;
-    margin-bottom: 2rem;
-    font-family: Papyrus;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: cursive;
+        margin-bottom: 2rem;
+        font-family: Papyrus;
+    }
+}
+@media(max-width:500px) {
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: Papyrus, cursive;
+        margin-bottom: 2rem;
+        text-decoration: underline;
+    }
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav a {
+        background-color:darkolivegreen;
+        color: white;
+        margin: 1rem;
+        border-radius: 20%;
+        padding: 1rem;
+        font-size: 1rem;
+        transition-duration: .04s;
+        text-decoration: none;
+        width: 3rem;
+        text-align: center;
+    }
+    .information p {
+        display: flex;
+        justify-content:
+    }
+    .information p {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem;
+        border: .3rem dotted darkolivegreen;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .information a {
+        margin-top: 2rem;
+    }
+    .projects {
+        margin-top: .5rem;
+    }
+    .projects img {
+        border: .3rem solid transparent;
+    }
+    .projects img:hover {
+        border: .3rem dotted darkolivegreen;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h3 {
+        font-size: 2rem; 
     }
 }
