@@ -1,8 +1,16 @@
 /* Add CSS styling here */   
+
+
+
+html {
+    font-size: 62.5%
+}
+ 
 body {
     border-style: solid;
     border-width: thin;
     border-color: black;
+    background-color: lightcyan;
 }
 
 div {
@@ -10,7 +18,7 @@ div {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 9rem;
     background-color: lightblue;
     display: flex;
     flex-direction: row;
@@ -18,15 +26,23 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 4rem;
     text-decoration: underline;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
+ul li {
+    font-size: 2.5rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 nav {
-    font-size: 20px; 
+    font-size: 2rem; 
     color: black;
     display: flex;
     flex-direction: row;
@@ -34,13 +50,13 @@ nav {
 }
 
 section div {
-    font-size: 30px;
+    font-size: 5rem;
     text-align: center;
     border-style: solid;
     border-width: medium;
     border-color: black;
-    padding: 70px 20px;
-    margin: 40px 20px 40px 20px;
+    padding: 7% 2%;
+    margin: 4% 2% 4% 2%;
     background-image: url(https://picsum.photos/200/300);
     opacity: 0.5;
     display: flex;
@@ -51,11 +67,12 @@ section div {
 }
 section li {
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     color:darkslategray;
 }
 p {
     text-align: center;
+    color: #5b3256;
 }
 .img-with-text {
     width: 50%;
@@ -76,9 +93,24 @@ p {
 
 }
 button {
-    height: 40px;
-    width: auto;
+    height: 40%;
+    width: 60%
     background-color: lightpink;
     display: flex;
     justify-content: center;
 }
+
+footer {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+@media screen and (max-width: 500px) {
+    hi {
+        font-size: 4rem;
+    }
+}   
