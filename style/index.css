@@ -1,1 +1,121 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+  box-sizing:border-box;
+  max-width:100%;
+  max-height: 100%;
+}
+
+
+body{
+    font-family: 'Poppins'
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-left: 10px;
+}
+
+.nav-items{
+    padding: 0 3em;
+}
+
+.nav-items a{
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.jumbo-text{
+    position: relative;
+}
+
+.jumbotron {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/images/Library.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron a {
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    padding: 13px 35px;
+    background: tomato;
+    width: 200px;
+    color: #ffff;
+    line-height: 1.42857143;
+    /* padding: 2em; */
+    text-decoration: none; 
+    border-radius: 4px;
+}
+
+.jumbotron a:hover {
+    background: #ed7059;
+}
+
+.jumbotron a:active{
+    outline: none;
+    box-shadow: inset 0px 0px 10px #500a0a;
+    transform: translateY(4px);
+}
+
+.card{
+    
+    width: 320px;
+    height: 480px;
+}
+
+.moto{
+    width: 320px;
+    height: 480px;
+}
+.proj-set-one{
+   
+    justify-content: space-around;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.proj-set-two{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 2em;
+}
