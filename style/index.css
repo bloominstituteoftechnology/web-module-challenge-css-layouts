@@ -33,7 +33,7 @@ h1 {
     font-weight: bold;
 }
 h1:hover {
-    color: #808080
+    color: #11dde4
 }
 .buttons {
     text-align: center;
@@ -57,11 +57,21 @@ button{
     color: black;
     border: white;
 }
+.buttons a button {
+    height: 35px;
+    width: 120px;
+    align-items: center;
+    border-radius: 5px;
+}
 .top-section {
     text-align: center;
     background: #11dde4;
     padding: 20px;
     box-shadow: 4px 5px #D0D0D0;
+}
+.top-section:hover {
+    background: #1D708A;
+    color: white;
 }
 h2 {
     font-size: 2.5rem;
@@ -82,13 +92,14 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+    /* flex-wrap: wrap; */
 }
+
 .project-img img {
-    margin: 3px;
-    width: 300px;
-    height: 400px;
-    margin-bottom: 10px;
+    margin: .25%;
+    width: 60%;
+    height: auto;
+    margin-bottom: 2%;
     box-shadow: 4px 5px #D0D0D0;
 }
 .bottom-section p:hover {
@@ -101,4 +112,41 @@ footer {
     margin-bottom: 0;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+footer:hover {
+    background-color: #1D708A;
+}
+.contact-me button:hover {
+    background-color: #11dde4;
+    color: black;
+}
+
+@media(max-width: 800px) {
+    .project-img {
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+        /* justify-content: space-between; */
+    }
+    .project-img img {
+        width: auto;
+        height: 345px;
+        /* margin: 15px; */
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buttons a {
+        margin: 5px 0;
+    }
+}
+@media(max-width: 500px) {
+    .project-img img {
+        width: auto;
+        height: 354px;
+    }
 }
