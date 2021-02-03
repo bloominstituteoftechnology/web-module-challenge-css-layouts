@@ -1,53 +1,9 @@
-/* Add CSS styling here */
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-}
-
-/* smart phone size */
-@media all and (max-width: 460px){
-    .my-name{
-        font-size: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    .top-nav nav{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        align-items: center;
-    }
-
-    .nav-btn{
-        text-align: center;
-    }
-
-    .about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-
-    .my-info{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-
-    .projects{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    }
 }
 
 a{
@@ -116,7 +72,7 @@ nav{
 }
 
 .projects img{
-    width: 300px;
+    width: 280px;
     height: 280px;
     display: flex;
     justify-content: space-between;
@@ -140,5 +96,3 @@ nav{
     padding: 20px;
     margin: auto;
 }
-
-
