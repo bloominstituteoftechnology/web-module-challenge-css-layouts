@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     max-width:100%;
-    border:1px solid hotpink;
+   /* border:1px solid hotpink; */
 }
 
 html{
@@ -20,17 +20,32 @@ body{
 
 /*BEGINNING OF ABOUT STYLING*/
 
-.my-name h1{
+#top h1{
     text-align: center;
-    font-size:7rem;
+    font-size:5rem;
+}
+header nav{
 }
 .links{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    align-content:center;
     font-size:2rem;
+    align-content:center;
+    border:1px solid black;
+    margin:1% 0 2% 0;
 }
+a:visited{
+    color:black;
+}
+a:link{
+    text-decoration:none;
+}
+.one{
+    border:1px solid black;
+    padding:0 1% 0 1%;
+}
+
 
 
 /*END OF ABOUT STYLING*/
