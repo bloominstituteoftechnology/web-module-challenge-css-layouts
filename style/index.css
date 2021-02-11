@@ -50,75 +50,98 @@ body{
   line-height:1.5; /*doesn't need a unit of measurement*/
   color:#4F4F4F;
 }
+.stuff{
+    display:flex;
+    flex-direction: column;
+
+}
 header{
     background-color: darkgray;
+    padding-top:10%;
     
 }
-.top{
-    display:flex;
-    font-size: xx-large;
-    
-}
-.links{
-    display: flex;
-    box-sizing: border-box;
-    margin:0 2%
-}
-.first{
-    background-color: green;
-}
+    .top{
+        display:flex;
+        font-size: xx-large;
+ 
+    }
+    .links{
+        display: flex;
+        box-sizing: border-box;
+        margin:0 2%
+    }
+    .first{
+        background-color: green;
+    }
 
 .bigPictureText{
     display:flex;
     justify-content: space-around;
     width:100%;
+    border: 2px solid blue;
+    flex-direction: column;
 }
-.big{
-    display:flex;
-    width:40%;
-    background:hotpink;
-}
-.right{
-    display: flex;
-    width:100%;
-    dis
-}
-.text{
-    display: flex;
-    width: 40%;
-    background-color: blue;
-}
-.second{
-    background-color: teal;
-}
-.middle{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content: space-around;
+    .parent{
+        display:flex;
+        justify-content: space-around;
+    }
+    .left{
+        display:flex;
+        width:45%;
+        background:hotpink;
+    }
+    .right{
+        display: flex;
+        flex-wrap:wrap;
+        width: 45%;
+        border: 2px solid green;
+    }
+        .text{
+             width: 100%;
 
-}
-.box1{
-    width:23%;
-    background-color: indigo;
-    padding: 7%;
-}
+        }
+        .second{
+            background-color: yellow;
+        }
+    .manyBox{
+        display:grid;
+        grid-template-areas: "box1 box1 box1 box1"
+                             "box1 box1 box1 box1";
+        
+        justify-self: stretch;
+        
+    }
+    .fullbox{
+        text-align: center;
+    }
+    .box1{
+        background-color: aqua;
+        margin:2%;
+        height:150px
+        }    
+    
 .p{
     display:flex;
 }
 footer{
     display:flex;
+    flex-direction: column;
     flex-flow:row wrap;
-
-}
-.end{
-    width:100%;
-    text-align: center;
-}
-.third{
-    display:flex;
-    width:20%;
     justify-content: center;
-    margin:0 45%;
+    padding-top:10%;
+    padding-bottom:10%;
     background-color: grey;
-    
 }
+    .end{
+        width:100%;
+        text-align: center;
+    
+    }
+    .third{
+        display:flex;
+        width:20%;
+        justify-content: center;
+        margin:0 45%;
+        background-color: grey;
+    
+    }
