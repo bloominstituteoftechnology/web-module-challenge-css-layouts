@@ -10,16 +10,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
+/* 	border: 0; */
 	}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
 	}
 ol, ul {
 	list-style: none;
@@ -40,4 +35,90 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-/* Add CSS styling here */
+*{
+box-sizing: border-box; /*be the width that I tell you to be, if I give you padding or a border apply within your given width*/  
+  max-width:100%;/*you can never be bigger than your parent*/
+  border:1px solid grey;
+  font-family: 'Roboto Mono', monospace;
+}
+/*General Styles*/
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.6rem;
+  line-height:1.5; /*doesn't need a unit of measurement*/
+  color:#4F4F4F;
+}
+header{
+    background-color: darkgray;
+    
+}
+.top{
+    display:flex;
+    font-size: xx-large;
+    
+}
+.links{
+    display: flex;
+    box-sizing: border-box;
+    margin:0 2%
+}
+.first{
+    background-color: green;
+}
+
+.bigPictureText{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+}
+.big{
+    display:flex;
+    width:40%;
+    background:hotpink;
+}
+.right{
+    display: flex;
+    width:100%;
+    dis
+}
+.text{
+    display: flex;
+    width: 40%;
+    background-color: blue;
+}
+.second{
+    background-color: teal;
+}
+.middle{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+
+}
+.box1{
+    width:23%;
+    background-color: indigo;
+    padding: 7%;
+}
+.p{
+    display:flex;
+}
+footer{
+    display:flex;
+    flex-flow:row wrap;
+
+}
+.end{
+    width:100%;
+    text-align: center;
+}
+.third{
+    display:flex;
+    width:20%;
+    justify-content: center;
+    margin:0 45%;
+    background-color: grey;
+    
+}
