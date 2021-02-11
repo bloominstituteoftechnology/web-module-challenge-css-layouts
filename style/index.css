@@ -22,7 +22,8 @@ body{
 
 #top h1{
     text-align: center;
-    font-size:5rem;
+    font-size:7rem;
+    margin:2% 0 1% 0;
 }
 header nav{
 }
@@ -30,10 +31,9 @@ header nav{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    font-size:2rem;
+    font-size:1.5rem;
     align-content:center;
-    border:1px solid black;
-    margin:1% 0 2% 0;
+    margin:0% 0 2% 0;
 }
 a:visited{
     color:black;
@@ -43,7 +43,29 @@ a:link{
 }
 .one{
     border:1px solid black;
-    padding:0 1% 0 1%;
+    padding:.3% 1.4% .3% 1.4%;
+}
+.two{
+    border:1px solid black;
+    padding:.3% 1.4% .3% 1.4%;
+}
+.three{
+    border:1px solid black;
+    padding:.3% 1.4% .3% 1.4%;
+}
+.four{
+    border:1px solid black;
+    padding:.3% 1.4% .3% 1.4%;
+}
+
+#about h2{
+    text-align:center;
+    font-size:7rem;
+    width:100%
+}
+.intro p{
+    text-align:center;
+    padding:1% 13% 1% 13%;
 }
 
 
