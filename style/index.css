@@ -18,16 +18,43 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 
 header {
     background-color: #3C445A;
-    display: flex;
-    font-size: 220%;
+    margin: 0% 0% 0% 0%;
 }
 
 nav {
     display: flex;
-    
+    justify-content: flex-start space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-radius: 2%;
+    height: 10%;
+    width: 10%;
+
 }
 
 h1 {
     font-family: 'Homemade Apple';
+    font-size: 220%;
+    margin: 2% 2% 2% 4%;
 }
 
+.home{
+    background-color: #239997;
+
+}
+
+.about{
+    background-color: #D4AD6A;
+
+
+}
+
+.contact{
+    background-color: #B76B66;
+
+}
+
+.projects{
+    background-color: #70603C;
+
+}
