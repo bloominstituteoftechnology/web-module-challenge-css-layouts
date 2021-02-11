@@ -9,6 +9,7 @@
 
 html{
     font-size:62.5%;
+    font-family:'Montserrat',sans-serif;
 }
 
 body{
@@ -16,3 +17,21 @@ body{
     line-height:1.5;
     font-family:;
 }
+
+/*BEGINNING OF ABOUT STYLING*/
+
+.my-name h1{
+    text-align: center;
+    font-size:7rem;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    font-size:2rem;
+}
+
+
+/*END OF ABOUT STYLING*/
+
