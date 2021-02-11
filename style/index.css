@@ -1,1 +1,86 @@
 /* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    text-size-adjust:none;
+   /* border:1px solid hotpink; */
+}
+
+html{
+    font-size:62.5%;
+    font-family:'Montserrat',sans-serif;
+    text-size-adjust:none;
+    color:black;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family:;
+}
+
+/*BEGINNING OF ABOUT STYLING*/
+
+#top h1{
+    text-align: center;
+    font-size:6rem;
+    margin:2% 0 1% 0;
+}
+header nav{
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:2rem;
+    align-content:center;
+    margin:0% 0 2% 0;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    text-decoration:none;
+}
+.one{
+    border:1px solid black;
+    padding:.3% 2.5% .3% 2.5%;
+}
+.two{
+    border:1px solid black;
+    padding:.3% 2.5% .3% 2.5%;
+}
+.three{
+    border:1px solid black;
+    padding:.3% 2.5% .3% 2.5%;
+}
+.four{
+    border:1px solid black;
+    padding:.3% 2.5% .3% 2.5%;
+}
+
+#about h2{
+    text-align:center;
+    font-size:5.5rem;
+    width:100%
+}
+.intro p{
+    text-align:center;
+    padding:1% 13% 1% 13%;
+}
+
+
+
+
+/*END OF ABOUT STYLING*/
+
+.bg-img{
+    background-image:url('../Images/xps-Gi3iUJ1FwxI-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:0vh;
+    height:50vh;
+}
