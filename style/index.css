@@ -21,7 +21,7 @@ body{
     font-family:;
 }
 
-/*BEGINNING OF ABOUT STYLING*/
+/*BEGINNING OF INTRO STYLING*/
 
 #top h1{
     text-align: center;
@@ -29,6 +29,7 @@ body{
     margin:2% 0 1% 0;
 }
 header nav{
+    
 }
 .links{
     display:flex;
@@ -75,7 +76,10 @@ a:link{
 
 
 
-/*END OF ABOUT STYLING*/
+/*END OF INTRO STYLING*/
+
+
+
 
 .bg-img{
     background-image:url('../Images/xps-Gi3iUJ1FwxI-unsplash.jpg');
@@ -83,4 +87,21 @@ a:link{
     background-size:cover;
     background-position:0vh;
     height:50vh;
+    margin:0 0 2% 0;
 }
+
+
+
+
+/*BEGINNING OF BOTTOM SECTION*/
+
+
+
+
+sss
+
+
+
+/*END OF BOTTOM SECTION*/
+
+
