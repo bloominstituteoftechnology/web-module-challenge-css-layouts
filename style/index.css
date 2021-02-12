@@ -131,29 +131,25 @@ h3{
 }
 
 .my-name{
-    background-color: green;
     height: 10px;
 }
 
 .my-projects{
     background-color: #70603C;
-    height: 10px;
 }
 
 .top-text-paragraph {
     height: 10px;
 }
 
-.bottom-container {
+.row1, .row2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     width: 100%;
-    /* background: purple; */
 }
 
 .picture-container {
-    /* background: chocolate; */
     padding: 1em;
 }
 
@@ -164,7 +160,6 @@ h3{
 }
 
 .picture-title {
-    /* background: lightsalmon; */
     height: 10px;
 }
 
@@ -174,12 +169,20 @@ h3{
     align-items: center;
     background-color: #8A9628;
     padding: 5em;
-    height: 200%;
-    width: 100%;
 }
 
 .footer-button {
     width: 150px;
     height: 75px;
     background-color: #C0BA89;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fb-icon {
+  height: 2em;
 }
