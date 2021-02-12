@@ -41,10 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-* {
-    border:1px solid black;
-    box-sizing: border-box;
-}
+
 html {
     font-size: 62.5%;
 }
@@ -63,16 +60,24 @@ header{
 }
 header h1{
     font-size: 4rem;
+    color: beige;
 }
 .info-links{
     display: flex;
     font-size:1.5rem;
     color: white;
-    border:1px solid black;
+
+}
+a {
+    border: 1px solid black;
+    color: slategray;
+    background-color: beige;
 }
 .home{
-    background-color: black;
+    color: beige;
+    background-color: slategray;
 }
+
 
 .top{
     display: flex;
@@ -85,15 +90,16 @@ header h1{
 }
 .top-right h2{
     font-size: 3rem;
+    color: slategray;
 }
 .top-right button{
-    background-color: beige;
+    background-color: slategray;
     margin: 2px;
 }
 .top-right p{
     font-size: 2rem;
+    color: slategray;
 }
-
 
 .first-pics{
     display: flex;
@@ -106,6 +112,10 @@ header h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
+    color: slategray;
+}
+.first-row p{
+    font-size: 1.5rem;
 }
 .second-pics{
     display: flex;
@@ -118,4 +128,29 @@ header h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: slategray;
+}
+.second-row p{
+    font-size: 1.5rem;
+}
+footer{
+    background-color: slategray;
+    padding: 2%;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: beige;
+}
+.clicker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.button{
+    color: slategray;
+    background-color: beige;
 }
