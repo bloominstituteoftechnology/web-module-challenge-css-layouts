@@ -101,13 +101,16 @@ html{
 
 .gallery .right{
     width:25%;
-    padding:10% 1%;
+    padding:5% 1%;
     /* background-color: cornflowerblue; */
     box-sizing: content-box;
     
 }
 
-
+h3{
+    font-family: PlayFair Display;
+    color:grey;
+}
 
 .footer a{
     display:inline-block;
