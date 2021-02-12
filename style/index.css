@@ -38,7 +38,7 @@ blockquote, q {
 *{
 box-sizing: border-box; /*be the width that I tell you to be, if I give you padding or a border apply within your given width*/  
   max-width:100%;/*you can never be bigger than your parent*/
-  border:1px solid grey;
+  /*border:1px solid grey;*/
   font-family: 'Roboto Mono', monospace;
 }
 /*General Styles*/
@@ -84,7 +84,6 @@ header{
     display:flex;
     justify-content: space-around;
     width:100%;
-    border: 2px solid blue;
     flex-direction: column;
 }
     .parent{
@@ -94,13 +93,11 @@ header{
     .left{
         display:flex;
         width:45%;
-        background:hotpink;
     }
     .right{
         display: flex;
         flex-wrap:wrap;
         width: 45%;
-        border: 2px solid green;
     }
         .text{
              width: 100%;
@@ -108,11 +105,14 @@ header{
         }
         .second{
             display:flex;
-            width:50%;
+            width:40%;
+            padding-top:6%;
+            padding-left:5%;
             border: 1px solid black;
+            background-color: grey;
             text-align: center;
+            margin
             
-
         }
     .manyBox{
         display:grid;
@@ -155,9 +155,9 @@ footer{
     }
     .third{
         display:flex;
-        width:20%;
+        width:50%;
         justify-content: center;
-        margin:0 45%;
-        background-color: grey;
+        margin:0 40%;
+        background-color: darkgrey;
     
     }
