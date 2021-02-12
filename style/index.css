@@ -98,8 +98,29 @@ a:link{
 
 
 
-sss
+#flex{
+    display:flex;
+    
 
+    
+    
+}
+.left{
+    width:80%;
+    display:flex;
+}
+.uno, .dos, .tres, .quatro{
+    box-sizing:border-box;
+    padding:0 2% 2% 0;
+}
+.right{
+    width:20%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: left;
+    padding:0 3% 0 3%;
+}
 
 
 /*END OF BOTTOM SECTION*/
@@ -107,6 +128,12 @@ sss
 
 
 
-/*
+/*FINAL BUTTON*/
 
 
+
+
+
+
+
+/*FINAL BUTTON*/
