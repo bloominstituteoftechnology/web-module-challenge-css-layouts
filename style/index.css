@@ -79,17 +79,29 @@
     color: #f0ead6;
 }
 
-
-
+.images {
+    max-width: 20%;
+}
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-    width: auto;
+    align-items: center;
+    width: 100%;
 }
 
-.gallery.img {
-    max-width: 20%;
+.gallery.images {
     max-height: auto;
+    justify-content: center;
+}
+
+.gallery.images h4 {
+    align-content: center;
+}
+
+.footer {
+    background-color: #f23224;
+    max-height: 20%;
+
 }
