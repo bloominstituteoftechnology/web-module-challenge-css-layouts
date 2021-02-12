@@ -1,1 +1,56 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    border: 1px solid black;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+}
+h1{
+    font-size:6rem;
+}
+section{
+    padding:4% 0;
+    display:flex;
+}
+nav{
+    padding:2% 0;
+    display:flex;
+    /* justify-content:space-around; */
+}
+nav a{
+    display:inline-block;
+    padding:.5%;
+    width:7%;
+    text-align:center;
+    border-radius:10px;
+    text-decoration: none;
+}
+.cta{
+    display:flex;
+    justify-content: space-around;
+}
+.right{
+    width:40%;
+}
+.left{
+    width:45%;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    text-align:center;
+}
+.myProjects{
+    border:1px solid grey;
+    border-radius:10px;
+    text-align:center;
+}
