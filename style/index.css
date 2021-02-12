@@ -83,10 +83,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 1%;
 }
 
 .top-right{
-    width: 50%;
+    width: 68%;
 }
 .top-right h2{
     font-size: 3rem;
@@ -106,6 +107,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 .first-text{
     display: flex;
@@ -113,15 +115,17 @@ a {
     flex-wrap: wrap;
     justify-content:space-around;
     color: slategray;
+    align-items: center;
 }
 .first-row p{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .second-pics{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 .second-text{
     display: flex;
@@ -129,9 +133,10 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     color: slategray;
+    align-items: center;
 }
 .second-row p{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 footer{
     background-color: slategray;
