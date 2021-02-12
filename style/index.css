@@ -43,20 +43,64 @@ html{
         width:10%;
         text-align: center;
         text-decoration: none;
-        color:black;
+        color:grey;
+        border:solid 2px grey;
+        font-family: PlayFair Display;
+        font-size: 2rem;
     }
 
     nav a:hover{
-        background-color:black;
+        background-color:grey;
         color:white;
 
     }
 
 .middlepic{
-    background-image:
+    background-image:url(../images/ryan-spencer-Um9AkOiIDcU-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position:top;
-    height:10vh;
+    background-size: cover;
+    background-position:center;
+    height: 60vh;
     
+}
+
+.blankspace{
+    height: 20vh;
+}
+
+
+
+.gallery{
+    background:chartreuse;
+    height:70vh;
+    width:auto;
+    display:flex;
+
+}
+
+
+
+.gallery .left{
+    width: 75%;
+    background-color: hotpink;
+}
+
+.gallery .right{
+    width:25%;
+    padding:10% 1%;
+    background-color: cornflowerblue;
+    box-sizing: content-box;
+    
+}
+
+
+
+.footer a{
+    display:inline-block;
+    padding:1%;
+    width:10%;
+    text-align: center;
+    text-decoration: none;
+    color:grey;
+    border:solid 2px grey;
 }
