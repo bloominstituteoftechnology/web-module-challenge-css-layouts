@@ -12,8 +12,29 @@ body{
     font-size:1.6rem;
     line-height:1.5;
 }
-title{
-}
+h4{
+    text-align: center;
+} 
 .home{
+background-color:aquamarine;
+padding: 5%
 }
+.home
+h1{
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    
+}
+.about img{
+    width: 50%;
+    margin: 2%;
+    display: inline-block;
+}
+.aboutTxt{
+    display:inline-block;
+    width: 30%;
 
+}
