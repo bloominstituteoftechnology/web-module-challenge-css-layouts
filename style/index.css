@@ -33,16 +33,21 @@ h1{
     margin: 2%;
 }
 h2{
-    padding: 2%;
+    padding: 5%;
 }
 .aboutTxt button{
     padding:2%;
     width: 40%;
-    font-size:1.6rem;
+    font-size:1.8rem;
+}
+.aboutTxt p{
+    padding-top: 5%;
+    font-size: 2rem
 }
 .aboutTxt{
     width: 40%;
-    margin: 3%;
-    
-
+    margin: 10% 3% 0;
+}
+.imgCnt{
+    display: flex;
 }
