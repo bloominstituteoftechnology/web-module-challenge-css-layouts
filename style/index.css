@@ -5,6 +5,7 @@
     padding:0;
     max-width:100%;
     border: 1px solid black;
+    list-style-type: none;
 }
 html{
     font-size:62.5%;
@@ -65,25 +66,17 @@ nav a{
     align-items:center;
 
 }
-.main{
-    display:flex;
-}
-.rowOne{
-    flex-direction:row;
-}
-.containerOne{
+
+.container{
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
 }
-.containerTwo{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: center;
+.container p{
+    text-align:center;
 }
-.item{
-    margin: 5px;
+li{
+    padding: 50px;
 }
