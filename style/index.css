@@ -57,7 +57,7 @@ body{
 }
 header{
     background-color: darkgray;
-    padding-top:10%;
+    padding-top:5%;
     
 }
     .top{
@@ -71,7 +71,13 @@ header{
         margin:0 2%
     }
     .first{
-        background-color: green;
+        border: 1px solid black;
+        padding: 1%;
+        color: black;
+        background-color: blanchedalmond;
+        text-decoration: none;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 
 .bigPictureText{
@@ -101,7 +107,12 @@ header{
 
         }
         .second{
-            background-color: yellow;
+            display:flex;
+            width:50%;
+            border: 1px solid black;
+            text-align: center;
+            
+
         }
     .manyBox{
         display:grid;
@@ -110,6 +121,11 @@ header{
         
         justify-self: stretch;
         
+    }
+    .eight{
+        padding-top: 4%;
+        width:100%;
+        height:80%;
     }
     .fullbox{
         text-align: center;
