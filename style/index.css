@@ -21,20 +21,28 @@ padding: 5%
 }
 .home
 h1{
-    
+    font-size: 5rem;
 }
 .about{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .about img{
     width: 50%;
     margin: 2%;
-    display: inline-block;
+}
+h2{
+    padding: 2%;
+}
+.aboutTxt button{
+    padding:2%;
+    width: 40%;
+    font-size:1.6rem;
 }
 .aboutTxt{
-    display:inline-block;
-    width: 30%;
+    width: 40%;
+    margin: 3%;
+    
 
 }
