@@ -1,44 +1,98 @@
-/* Add CSS styling here */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	/* border: 0; */
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* max-width:100%; */
+    /* border:1px solid grey; */
+    border:1px solid grey;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+}
+h1, h2, h3, h4{
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    /* text-align: center; */
+}
+h1{
+    font-size: 3rem;
+	margin-left: 2%;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size:1rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration:none;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+	width: auto;
+	font-size: 1.3rem;
 	display: block;
 }
-body {
-	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+i{
+    font-size: 5rem;
 }
-blockquote, q {
-	quotes: none;
+/*Navigation*/
+nav{
+	display: flex;
+	flex-flow: wrap;
+	background-color:lightpink;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+h1{
+	width:100%
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.nav-bar {
+	display: flex;
+	margin:1% 4%;
+	width: 50%;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+div.links{
+	text-align: center;
+	width:25%;
+	border:1px solid grey;
+	background-color:#fff;
+}
+/*Top Section*/
+.top-img{
+	width: 100%;
+}
+.top-section{
+	display: flex;
+	margin:1%;
+	
+}
+.top-left{
+	width:90%;
+	
+}
+.top-right{
+	margin: 5%;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+}
+.top-section div.links{
+	width: 40%;
+	margin:4% 0;
+}
+p{
+	font-size: 1.5rem;
+	margin-top: auto;
 }
