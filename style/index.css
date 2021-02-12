@@ -50,4 +50,39 @@ h2{
 }
 .imgCnt{
     display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    width:25%;
+    text-align: center;
+}
+.imgCnt1{ 
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   max-width: 100%;
+   width:25%;
+   text-align: center;
+}
+.img2{
+   
+
+}
+.img3{
+    
+}
+.img4{
+    width
+}
+.img5{
+
+}
+.img6{
+
+}
+.img7{
+
+}
+.img8{
+
 }
