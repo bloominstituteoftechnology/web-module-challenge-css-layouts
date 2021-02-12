@@ -1,1 +1,11 @@
 /* Add CSS styling here */
+h1{
+    color:red;
+}
+.profile{
+    height:40vh;
+    background-image:url('https://rccl-h.assetsadobe.com/is/image/content/dam/royal/content/destinations/mexico/cozumel-cancun/cozumel-cenote.jpg?$750x667$');
+    display: flexbox;
+    flex-flow: row;
+    justify-content: center;
+}
