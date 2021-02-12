@@ -1,1 +1,67 @@
 /* Add CSS styling here */
+header{background-color:green;
+    margin-bottom:2rem;
+    height:6rem;
+}
+nav{display:flex;
+}
+h1{margin:1rem;
+flex:2rem;
+}
+.About,.Contact,.Projects{border:0.1rem black solid;
+                       border-radius:0.25rem;
+                       background-color:purple;
+                       text-align:center;
+                       margin-top:1rem;
+                       width:5rem;
+                       height:1.5rem;
+}
+.Projects{margin-right:1rem;
+}
+#First{width:85%;
+    height:20rem;
+    margin-bottom:2rem;
+}
+.Main{position:relative;
+   text-align:center;
+}
+h3{position: absolute;
+font-size:4rem;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:purple;
+outline:1rem solid green;
+}
+#MainButton{position: absolute;
+         top:65%;
+         left:50%;
+         transform: translate(-50%,-50%);
+}
+.Gall{width:15rem;
+   height:15rem;
+}
+.Gall1{display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    margin-bottom:3rem;
+}
+.Paragraph{display:flex;
+        justify-content:space-around;
+}
+.Gall2{display:flex;
+    justify-content:space-around;
+}
+.Paragraph2{display:flex;
+        justify-content:space-around;
+}
+footer{background-color:green;
+    margin-top:1rem;
+    height:4rem;
+}
+#Button{display:flex;
+     justify-content:center;
+}
+a{display:flex;
+             justify-content:center;
+}
