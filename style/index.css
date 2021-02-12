@@ -39,9 +39,15 @@ nav a{
 }
 .right{
     width:40%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .left{
     width:45%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .text{
     display:flex;
@@ -53,4 +59,31 @@ nav a{
     border:1px solid grey;
     border-radius:10px;
     text-align:center;
+}
+.imageOne{
+    justify-content: center;
+    align-items:center;
+
+}
+.main{
+    display:flex;
+}
+.rowOne{
+    flex-direction:row;
+}
+.containerOne{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.containerTwo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
+.item{
+    margin: 5px;
 }
