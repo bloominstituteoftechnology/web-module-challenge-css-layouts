@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     max-width:100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     list-style-type: none;
 }
 html{
@@ -24,7 +24,6 @@ section{
 nav{
     padding:2% 0;
     display:flex;
-    /* justify-content:space-around; */
 }
 nav a{
     display:inline-block;
@@ -33,6 +32,7 @@ nav a{
     text-align:center;
     border-radius:10px;
     text-decoration: none;
+    border: 1px solid black;
 }
 .cta{
     display:flex;
@@ -64,6 +64,7 @@ nav a{
 .imageOne{
     justify-content: center;
     align-items:center;
+    align-self:auto;
 
 }
 
@@ -79,4 +80,15 @@ nav a{
 }
 li{
     padding: 50px;
+}
+footer{
+    text-align: center;
+}
+.contactTwo{
+    display:inline-block;
+    padding:.5%;
+    width:7%;
+    text-align:center;
+    border-radius:10px;
+    text-decoration: none;
 }
