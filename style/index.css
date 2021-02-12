@@ -1,1 +1,15 @@
 /* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    border: 2px solid black;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+}
