@@ -49,20 +49,30 @@ h2{
     margin: 10% 3% 0;
 }
 .imgCnt{
-    display: flex;
+    /*display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;*/
+
+
+}
+.imgCnt div{
+    display: flex;
+    width: 20%;
     max-width: 100%;
-    width:25%;
-    text-align: center;
+    margin: 1%
 }
 .imgCnt1{ 
    display:flex;
    flex-wrap:wrap;
    justify-content: space-between;
    max-width: 100%;
-   width:25%;
+   width:20%;
    text-align: center;
+}
+.imgCnt1 div{
+    display: flex;
+    justify-content: space-between;
 }
 .img2{
    
