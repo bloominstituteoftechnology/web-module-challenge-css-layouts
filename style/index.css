@@ -105,20 +105,24 @@ a:link{
     
 }
 .left{
-    width:80%;
-    display:flex;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.uno, .dos, .tres, .quatro{
-    box-sizing:border-box;
-    padding:0 2% 2% 0;
+.left img{
+    width: 24%;
+    height: auto;
 }
 .right{
-    width:20%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: left;
-    padding:0 3% 0 3%;
+}
+.right p{
+    width:60%;
 }
 
 
@@ -130,7 +134,17 @@ a:link{
 /*FINAL BUTTON*/
 
 
+footer{
+    height:15rem;
+    background-color:#CCC;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
+button{
+    padding:.6rem 1.2rem;
+}
 
 
 
