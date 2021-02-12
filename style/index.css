@@ -15,26 +15,28 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	border: 0;
 }
 
+body{
+    font-family: 'Shadows Into Light';
+}
 
 header {
     background-color: #3C445A;
     margin: 0% 0% 0% 0%;
+    padding: 2% 2% 5% 2%;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-start space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    border-radius: 2%;
-    height: 10%;
-    width: 10%;
+.container-block {
+    display: inline;
 
+    height: 5%;
+    width: 5%;
+    padding: 2%;
 }
 
 h1 {
-    font-family: 'Homemade Apple';
+    text-transform: uppercase;
     font-size: 220%;
+    font-weight: bold;
     margin: 2% 2% 2% 4%;
 }
 
@@ -46,7 +48,6 @@ h1 {
 .about{
     background-color: #D4AD6A;
 
-
 }
 
 .contact{
@@ -56,5 +57,129 @@ h1 {
 
 .projects{
     background-color: #70603C;
+ 
+}
 
+#top{
+    background-color: #F6E5CB;
+}
+
+h2{
+    text-transform: uppercase;
+
+}
+
+.name-intro{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main-img {
+    height: 60%;
+    width: 40%;
+    border-radius: 1%;
+    margin: 1% 5% 5% 8%;
+}
+
+.img-size{
+    height: 10%;
+    width: 10%;
+    border-radius: 1%;
+    margin: 0% 0% 0% 0%;
+}
+
+/* footer{
+    background-color: #8A9628;
+}
+
+h3{
+    text-align: center;
+}
+
+#contact-me{
+    text-align: center;
+} */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+    background: #e5e0d2;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    /* background: gold; */
+    padding: 5px;
+}
+
+.top-img {
+    background: red;
+    width: 15em;
+    height: 12em;
+}
+
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+    flex: 1;
+    padding: 1em;
+}
+
+.my-name{
+    background-color: green;
+    height: 10px;
+}
+
+.my-projects{
+    background-color: #70603C;
+    height: 10px;
+}
+
+.top-text-paragraph {
+    height: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* background: purple; */
+}
+
+.picture-container {
+    /* background: chocolate; */
+    padding: 1em;
+}
+
+.picture {
+    background: aqua;
+    height: 5em;
+    width: 6em;
+}
+
+.picture-title {
+    /* background: lightsalmon; */
+    height: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8A9628;
+    padding: 5em;
+    height: 200%;
+    width: 100%;
+}
+
+.footer-button {
+    width: 150px;
+    height: 75px;
+    background-color: #C0BA89;
 }
