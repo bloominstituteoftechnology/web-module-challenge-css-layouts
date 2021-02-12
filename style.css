@@ -1,0 +1,57 @@
+@media all and (max-width:600px) {
+
+}
+
+*{
+    color:rgb(163, 106, 19)
+}
+
+h1{
+    font-family: 'Gaegu', cursive;
+    margin: 20px 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+}
+
+.image{
+    border: 5px solid rgba(163, 106, 19, 0.74);
+    background-image: url("https://images.unsplash.com/photo-1501346220112-1dbcb625301c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 40%;
+    background-position: center;
+}
+
+.photos{
+display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+}
+
+.photos{
+    width: 22%;
+    height: 400px;
+    margin: 2% 0;
+    padding: 0 4px;
+    transition: all 2s;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    color:white;
+    background-color:rgb(163, 106, 19);
+    font-size:16px;
+  }
