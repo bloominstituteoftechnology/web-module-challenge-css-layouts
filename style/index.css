@@ -1,1 +1,74 @@
-/* Add CSS styling here */
+
+.sitecont{
+    max-width:95%;
+    margin:0 auto;
+}
+
+.headc{
+    Display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center ;
+    height:20%;
+    padding-bottom:5%;
+    background-color: rgb(194, 242, 243);
+   }
+   .intro p{
+       max-width:70%;  
+       margin:0 auto;
+       font-family: 'Courier New', Courier, monospace;
+       font-size:1rem;
+       color:navy;
+       text-align:center
+   }
+
+   .image{
+    background-image: url("https://previews.123rf.com/images/archerix/archerix1201/archerix120100088/12011298-hands-on-the-keyboard-abstract-computer-background-.jpg");
+    max-width:100%;
+    padding-bottom:30%;
+    background-position:bottom
+   }
+   h1{
+       color: blue;
+       font-family: cursive;
+       font-size: 5rem;
+   }
+   nav{
+        display:flex;
+        flex-direction: row;
+        padding-right: 10%;
+        margin-left: -7%
+   }
+   .nava a{
+       color:white;
+       background:rgb(1, 1, 79);
+       padding:2%;
+       border: 1px solid red;
+       text-decoration: none;
+   }
+   .flexbox{
+       display:flex;
+       flex-direction: row;
+   }
+   .flexbox img{
+       max-width:80%; 
+       height:100%;
+   }
+   .proj{
+       max-width:25%;
+       margin:auto 0
+   }
+   footer{
+padding-bottom:5%;
+display:flex;
+align-items: center;
+justify-content: center;
+padding-top:5%;
+background-color: navy;
+   }
+   footer a{
+    background-color: rgb(226, 226, 229);
+    text-decoration: none;
+    padding:2%
+       
+   }
