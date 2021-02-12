@@ -49,18 +49,25 @@ h2{
     margin: 10% 3% 0;
 }
 .imgCnt{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 
     /*display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
     text-align: center;*/
-
-
+}
+.imgCnt p{
+    width: 100%;
+    margin-bottom: %;
+    padding-top: 5%
 }
 .imgCnt div{
     display: flex;
     width: 20%;
     max-width: 100%;
-    margin: 1%
+    margin: 1%;
 }
 .imgCnt1{ 
    display:flex;
@@ -74,15 +81,16 @@ h2{
     display: flex;
     justify-content: space-between;
 }
-.img2{
-   
+.img1{
+   display:flex;
+   flex-wrap:wrap;
 
 }
 .img3{
     
 }
 .img4{
-    width
+    
 }
 .img5{
 
