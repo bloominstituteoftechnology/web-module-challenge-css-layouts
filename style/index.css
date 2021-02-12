@@ -68,6 +68,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 
 .top-section {
@@ -87,9 +88,16 @@ p {
     margin: 10px 0;
     color: white;
 }
-.box{
+
+.image-gallery {
     border: 1px solid red;
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
+    
+}
 
+.box{
+    display: flex;
+    justify-content: space-around;
 }
