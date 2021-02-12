@@ -71,19 +71,33 @@ html{
 
 
 .gallery{
-    background:chartreuse;
     height:70vh;
-    width:auto;
+    /* width:auto; */
     display:flex;
-
+    align-items: stretch;
+    justify-content: space-around;
+    
 }
 
-
-
-.gallery .left{
+.gallery .left {
+    /* background-image: url(../images/cody-board-gitJDJm-Zuk-unsplash.jpg); */
     width: 75%;
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    
+
+    
 }
+
+.gallery .left div img{
+    height:40vh;
+    
+    
+}
+
+
 
 .gallery .right{
     width:25%;
