@@ -4,7 +4,6 @@
     margin: 0;
     /* max-width:100%; */
     /* border:1px solid grey; */
-    border:1px solid grey;
 }
 /*General Styles*/
 html{
@@ -32,8 +31,11 @@ h2{
 h3{
     font-size:1rem;
 }
+h4{
+	font-size: 1.25rem;
+}
 section{
-    padding: 4% 0;
+    padding: 1% 0;
 }
 a{
     text-decoration:none;
@@ -79,14 +81,14 @@ div.links{
 	
 }
 .top-left{
-	width:90%;
+	width:80%;
 	
 }
 .top-right{
 	margin: 5%;
 	display:flex;
 	flex-direction: column;
-	justify-content: left;
+	margin-top: auto;
 }
 .top-section div.links{
 	width: 40%;
@@ -95,4 +97,39 @@ div.links{
 p{
 	font-size: 1.5rem;
 	margin-top: auto;
+}
+/*Gallery Section*/
+.gallery{
+	display: flex;
+	flex-flow: wrap;
+	justify-items: center;
+	justify-content: space-evenly;
+
+}
+div.img-and-title{
+	display: flex;
+	flex-direction:column;
+	width: 20%;
+	justify-content: space-around;
+	margin:1% 1%;
+}
+.gallery img{
+	width: 100%;
+	height: 20vh;
+}
+/*Footer Section*/
+footer{
+	background-color: lightpink;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+footer div.Contact{
+	text-align: center;
+	justify-items: center;
+	width: 55%;
+	margin:0 auto;
+	background-color:#fff;
 }
