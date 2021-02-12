@@ -21,15 +21,14 @@ body{
     font-family:;
 }
 
-/*BEGINNING OF INTRO STYLING*/
+/*BEGINNING OF ABOUT STYLING*/
 
 #top h1{
     text-align: center;
-    font-size:6rem;
+    font-size:7rem;
     margin:2% 0 1% 0;
 }
 header nav{
-    
 }
 .links{
     display:flex;
