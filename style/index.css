@@ -63,12 +63,13 @@ header{
     .top{
         display:flex;
         font-size: xx-large;
+        padding-left: 3%;
  
     }
     .links{
         display: flex;
         box-sizing: border-box;
-        margin:0 2%
+        margin:0 5%
     }
     .first{
         border: 1px solid black;
@@ -85,6 +86,7 @@ header{
     justify-content: space-around;
     width:100%;
     flex-direction: column;
+    padding-top:1%
 }
     .parent{
         display:flex;
@@ -103,6 +105,9 @@ header{
              width: 100%;
 
         }
+        .right h2{
+            font-size: xx-large;
+        }
         .second{
             display:flex;
             width:40%;
@@ -119,13 +124,13 @@ header{
         grid-template-areas: "box1 box1 box1 box1"
                              "box1 box1 box1 box1";
         
-        justify-self: stretch;
+                             justify-self: stretch;
         
     }
     .eight{
         padding-top: 4%;
-        width:100%;
-        height:80%;
+        width:80%;
+        height:70%;
     }
     .fullbox{
         text-align: center;
