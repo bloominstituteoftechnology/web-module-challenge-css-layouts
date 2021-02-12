@@ -1,11 +1,15 @@
-
+* {
+    /*border: 1px solid gray;*/
+    max-width: 100%;
+    box-sizing: border-box;
+}
 .header-container {
     background-color: lightgrey;
-    height: 200px;
+    height: 250px;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-
+   
 }
 
 
@@ -13,18 +17,19 @@
 .header-container h1{
     font-size: 50px;
     font-family: Roboto;
-    
+    display:flex;
     
 }
 
 .header-container nav a {
     background-color: rgb(241, 240, 158);
-    padding: 40px;
+    padding: 20px;
     font-size: large;
     font-weight: bold;
     text-decoration: none;
     color: orange;
     box-shadow: 5px 10px;
+
 }
 
 .header-container nav a:hover {
@@ -37,7 +42,7 @@
     justify-content: space-between;
     display: flex;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 0%;
 
 }
 
@@ -48,7 +53,6 @@
 #img-bio-container {
     display: flex;
     margin: 10%;
-
 }
 
 .bio  {
@@ -62,6 +66,12 @@
     display: flex;
     justify-content: space-between;
     margin: 8%;
+}
+.img-titles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+   
 }
 
 .things {
