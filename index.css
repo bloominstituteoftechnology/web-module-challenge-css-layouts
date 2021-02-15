@@ -90,7 +90,9 @@ section{
 }
 .title h1{display: flex;
     justify-content:center;
+    flex-wrap: nowrap;
     font-size: 2rem;
+    width: auto;
 }
 nav{
 
@@ -109,7 +111,7 @@ nav{
 .jwg h2{
     font-size: 2rem;
 }
-.imgleft, .textright{
+.imgleft, {
 
 flex-direction: row;
    width:45%;
@@ -118,6 +120,7 @@ flex-direction: row;
     
 }
 .textright{
+display: inline-block;
     
 
 }
