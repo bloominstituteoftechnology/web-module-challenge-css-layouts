@@ -80,14 +80,35 @@ section{
 h1{
     text-align: center;
 }
-nav{
+.links{
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 a{
-    display: flex;
     border: 1px solid black;
-    padding: 5%;
+    padding: .5% 3%;
 }
+a:hover{
+    background-color: black;
+    color:white;
+}
+
+/*ABOUT STYLES*/
+h2{
+    text-align: center;
+}
+#about p{
+    text-align: center;
+}
+
+/*BACKGROUND IMAGE*/
+.bg-img{
+    background-image: url(../Images/xps-Gi3iUJ1FwxI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+}
+
