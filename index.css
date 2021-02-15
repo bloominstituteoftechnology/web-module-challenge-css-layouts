@@ -1,0 +1,153 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:inline-block;
+}
+body {
+    width:100%;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+}
+/*general styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    line-height:1.5;
+    font-size:1.8rem;
+    color:#4F4F4F;
+    background-color:#bff8bf;
+    font-family:'Times New Roman', Times, serif , sans-serif;
+}
+h1, h2, h3{
+    width:100%;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#266035;
+    font-family:'Times New Roman', Times, serif , sans-serif;
+}
+h1{
+    font-size:5rem;
+    color:#4f4f4f;
+}
+h2{
+    font-size:4rem;
+}
+h3{
+    font-size:2.5rem;
+}
+a{
+    text-decoration:none;
+    color:#4F4F4F;
+}
+section{
+    padding:4% 0;
+}
+/*body Section Styles*/
+.header{
+    width: 100%;
+}
+.title h1{display: flex;
+    justify-content:center;
+    font-size: 2rem;
+}
+nav{
+
+    width:0 auto;
+    display:flex;
+    justify-content: space space-between;
+    padding:10%;
+}
+/*Body styles*/
+.middlewhite{
+    background-color:whitesmoke;
+    max-width:100%;
+    width:100%;
+}
+
+.jwg h2{
+    font-size: 2rem;
+}
+.imgleft, .textright{
+
+flex-direction: row;
+   width:45%;
+    display:flex;
+    
+    
+}
+.textright{
+    
+
+}
+
+.picalign{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: space around;
+    flex-wrap: wrap;
+}
+.wrapem{
+    width:50%;
+    padding: 10% 10% 10% 10%;
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+/*button{
+    margin-top:10%;
+    width:70%;
+    padding:4%;
+    font-size:1.8rem;
+    background-color:#FBFFFB;
+    color:#266035;*/
+}
+
+
+
+
