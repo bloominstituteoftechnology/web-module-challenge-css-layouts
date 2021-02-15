@@ -9,6 +9,8 @@
     padding-left: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
    
 }
 
@@ -18,6 +20,9 @@
     font-size: 50px;
     font-family: Roboto;
     display:flex;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    justify-content: center;
     
 }
 
@@ -29,6 +34,9 @@
     text-decoration: none;
     color: orange;
     box-shadow: 5px 10px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -41,8 +49,12 @@
     
     justify-content: space-between;
     display: flex;
-    width: 50%;
+    width: 70%;
+    height: 50%;
     margin-left: 0%;
+    margin-left: 20%;
+    margin-top: 5%;
+    align-items: center;
 
 }
 
@@ -66,7 +78,20 @@
     display: flex;
     justify-content: space-between;
     margin: 8%;
+    flex-direction: row;
 }
+
+#projects img {
+    width: 100%;
+    
+}
+
+#projects div p {
+    justify-content: center;
+    
+}
+
+
 .img-titles {
     display: flex;
     justify-content: space-evenly;
@@ -124,12 +149,18 @@ body {
 
     #img-bio-container {
         display: flex;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        margin-left: 0%;
+        padding: 25%;
     }
 
     #img-bio-container img {
         height: 200px;
         width: 300px;
+    
     }
 
     #projects .things {
@@ -162,9 +193,9 @@ body {
     nav {
         display: flex;
         flex-direction: column;
-        height: 3px;
+        height: 30px;
         width: 3px;
-        margin: 0;
+        
         
     }
 
@@ -178,6 +209,7 @@ body {
     }
 
     #img-bio-container {
+        width: 100%;
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -202,6 +234,10 @@ body {
     #projects img, .things img {
          margin: 2% 0;
        
+    }
+
+    footer {
+        width: 100%;
     }
 
 
