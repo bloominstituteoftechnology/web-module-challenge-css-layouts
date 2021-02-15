@@ -145,3 +145,47 @@ footer{
 button{
     padding: 1rem 1.2rem;
 }
+
+/*MEDIA QUERIES*/
+
+/*TABLET*/
+@media(max-width:800px){
+    .links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        width: 15%;
+        text-align: center;
+    }
+    #about p{
+        padding: 0 20%;
+    }
+    .bg-img{
+        height: 40vh;
+        margin: 0 5%;
+    }
+    #projects{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .left{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .left img{
+        width: 50%;
+        padding: 2% 5% 0 5%;
+    }
+    .right{
+        display: flex;
+    }
+    .left, .right{
+        width: 100%;
+    }
+   .right p{
+       text-align: center;
+       margin: 4% 5% 0 5%;
+   }
+}
