@@ -189,3 +189,11 @@ button{
        margin: 4% 5% 0 5%;
    }
 }
+
+/*PHONE*/
+@media(max-width:500px){
+   a{
+       text-align: center;
+       width: 20%;
+   }
+}
