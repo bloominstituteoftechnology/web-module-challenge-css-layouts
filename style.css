@@ -1,57 +1,160 @@
-@media all and (max-width:600px) {
+@media all and (max-width:800px) {
 
 }
 
 *{
-    color:rgb(163, 106, 19)
+    box-sizing: border-box;
+    color:rgba(19, 148, 199, 0.815)
 }
 
+
 h1{
-    font-family: 'Gaegu', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 20px 0;
-    font-size: 60px;
+    font-size: 70px;
+    text-align: center;
+}
+.header {
+    height: 300px;
+    max-width: 100px;
+}
+.header{
+    display: flex;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(11, 17, 13);
+}
+nav{
+    padding: 0 0;
     text-align: center;
 }
 
-.container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-    
+nav a{
+display: inline-block;
+padding: 1%;
+width: 10%;
+text-align: center;
+text-decoration: none;
 }
+
+nav a:hover{
+    background-color: #333;
+    color: rgb(153, 153, 153);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
 
 .image{
-    border: 5px solid rgba(163, 106, 19, 0.74);
-    background-image: url("https://images.unsplash.com/photo-1501346220112-1dbcb625301c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    border: 2px solid rgba(16, 2, 49, 0.74);
+    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     max-width: 100%;
-    height: 100%;
-    padding-bottom: 40%;
+    height: 80%;
+    padding-bottom: 30%;
     background-position: center;
+
 }
 
-.photos{
-display: flex;
- flex-direction: row;
- justify-content: space-between;
- 
-}
-
-.photos{
-    width: 22%;
-    height: 400px;
+.container div{
+    width: 100%;
+    height: 50%;
     margin: 2% 0;
     padding: 0 4px;
-    transition: all 2s;
 }
-
-.footer{
+.container{
     display: flex;
     flex-direction: row;
+}
+.flexbox img{
+    border: 2px solid rgba(16, 2, 49, 0.74);
+    width: 20%;
+    height: 40%;
+    flex-wrap: wrap;
+   align-items: flex-end;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: center;
 }
 
 button {
     color:white;
-    background-color:rgb(163, 106, 19);
+    background-color:rgb(27, 8, 51);
     font-size:16px;
-  }
+}
+/*Tablet*/
+@media(max-width:800px){ /*any screen 800px or less, these styles apply!*/
+    #about{
+        background-image:none;
+        background-color:grey;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+    #about div{
+        width:50%;
+    }
+    .text div{
+        width:80%;
+    }
+ }
+ @media(max-width:500px){
+    nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }   
+    .links{
+        width:100%;
+    }
+    .logo{
+        width:20%;
+    }
+    #about div{
+        margin:0;
+    }
+    .wrapper{
+        flex-direction:column;
+    }
+    .mobile-flip{
+        flex-direction:column-reverse;
+    }
+    .wrapper div{
+        width:100%;
+    }
+    .shop-bg{
+        height:40vh;
+        width:100%;
+    }
+   .text div{
+       width:80%;
+   }
+   footer{
+       flex-direction:column;
+   }
+   .left, .right{
+       width:100%;
+   }
+   .right{
+       order:-1;
+   }
+   footer h2{
+       order:-2;
+   }
+   .copyright{
+       text-align:center;
+       margin:0;
+   }
+ }
