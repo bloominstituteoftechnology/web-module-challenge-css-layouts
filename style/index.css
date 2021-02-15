@@ -11,13 +11,15 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
+    font-family: 
 }
 h4{
     text-align: center;
+    padding:1%;
 } 
 .home{
 background-color:aquamarine;
-padding: 5%
+padding: 5%;
 }
 .home
 h1{
@@ -127,3 +129,20 @@ h2{
     flex-wrap:wrap;
 
 }
+footer{
+    background-color:rgb(201, 199, 199)
+}
+.footTxt{
+    text-align: center
+}
+h3{
+    font-size: 3rem;
+    padding-top:2%;
+}
+.footTxt button{
+    width: 15%;
+    padding:2%;
+    margin: 1%
+}
+
+
