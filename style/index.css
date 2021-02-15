@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* max-width:100%; */
+    max-width:100%;
     /* border:1px solid grey; */
 }
 /*General Styles*/
@@ -32,7 +32,7 @@ h3{
     font-size:1rem;
 }
 h4{
-	font-size: 1.25rem;
+	font-size: 1.45rem;
 }
 section{
     padding: 1% 0;
@@ -62,14 +62,13 @@ h1{
 	display: flex;
 	margin:1% 4%;
 	width: 50%;
-	justify-content: center;
-	justify-content: space-evenly;
 }
 div.links{
 	text-align: center;
-	width:25%;
+	width:15%;
 	border:1px solid grey;
 	background-color:#fff;
+	justify-content: right;
 }
 /*Top Section*/
 .top-img{
@@ -81,14 +80,15 @@ div.links{
 	
 }
 .top-left{
-	width:80%;
-	
+	width:50%;
 }
 .top-right{
-	margin: 5%;
+	margin: 2%;
 	display:flex;
+	justify-content: center;
 	flex-direction: column;
-	margin-top: auto;
+	margin: auto;
+	width: 35%;
 }
 .top-section div.links{
 	width: 40%;
@@ -102,7 +102,7 @@ p{
 .gallery{
 	display: flex;
 	flex-flow: wrap;
-	justify-items: center;
+	justify-items: right;
 	justify-content: space-evenly;
 
 }
@@ -112,6 +112,7 @@ div.img-and-title{
 	width: 20%;
 	justify-content: space-around;
 	margin:1% 1%;
+	text-align: center;
 }
 .gallery img{
 	width: 100%;
@@ -129,7 +130,59 @@ footer{
 footer div.Contact{
 	text-align: center;
 	justify-items: center;
-	width: 55%;
+	width: 90%;
 	margin:0 auto;
 	background-color:#fff;
+	padding: 3%;
+}
+
+/*Media Queries*/
+
+/*Tablet*/
+@media(max-width:800px){
+	.gallery h3{
+		font-size:1.5rem;
+	}
+}
+
+/*Phone*/
+@media(max-width:500px){
+	header h1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-bar{
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	div.links{
+		width: 25%;
+		padding:1%;
+	}
+	.top-section, .top-left, .top-right{
+		display: flex;
+		flex-direction: column;
+	}
+	div.top-left{
+		display: flex;
+		width:60%;
+		margin:0 20%;
+	}
+	div.top-right{
+		width: 80%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	div.img-and-title{
+		display: flex;
+		flex-direction:column;
+		width: 40%;
+		justify-content: space-around;
+		margin:4% 1%;
+		text-align: center;
+	}
 }
