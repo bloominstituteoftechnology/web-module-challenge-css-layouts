@@ -1,74 +1,181 @@
+.sitecont {
+  max-width: 95%;
+  margin: 0 auto;
 
-.sitecont{
-    max-width:95%;
-    margin:0 auto;
 }
 
-.headc{
-    Display:flex;
-    flex-direction:column ;
-    justify-content: center;
-    align-items: center ;
-    height:20%;
-    padding-bottom:5%;
-    background-color: rgb(194, 242, 243);
-   }
-   .intro p{
-       max-width:70%;  
-       margin:0 auto;
-       font-family: 'Courier New', Courier, monospace;
-       font-size:1rem;
-       color:navy;
-       text-align:center
-   }
+.headc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding-bottom: 5%;
+  background-color: rgb(194, 242, 243);
+}
+.intropara {
+  max-width: 70%;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: navy;
+  text-align: center;
+  
+}
 
-   .image{
-    background-image: url("https://previews.123rf.com/images/archerix/archerix1201/archerix120100088/12011298-hands-on-the-keyboard-abstract-computer-background-.jpg");
-    max-width:100%;
-    padding-bottom:30%;
-    background-position:bottom
-   }
-   h1{
-       color: blue;
-       font-family: cursive;
-       font-size: 5rem;
-   }
-   nav{
-        display:flex;
-        flex-direction: row;
-        padding-right: 10%;
-        margin-left: -7%
-   }
-   .nava a{
-       color:white;
-       background:rgb(1, 1, 79);
-       padding:2%;
-       border: 1px solid red;
-       text-decoration: none;
-   }
-   .flexbox{
-       display:flex;
-       flex-direction: row;
-   }
-   .flexbox img{
-       max-width:80%; 
-       height:100%;
-   }
-   .proj{
-       max-width:25%;
-       margin:auto 0
-   }
-   footer{
-padding-bottom:5%;
-display:flex;
-align-items: center;
-justify-content: center;
-padding-top:5%;
-background-color: navy;
-   }
-   footer a{
-    background-color: rgb(226, 226, 229);
-    text-decoration: none;
-    padding:2%
-       
-   }
+.image {
+  background-image: url("https://previews.123rf.com/images/archerix/archerix1201/archerix120100088/12011298-hands-on-the-keyboard-abstract-computer-background-.jpg");
+  max-width: 100%;
+  padding-bottom: 30%;
+  background-position: bottom;
+}
+h1 {
+  color: blue;
+  font-family: cursive;
+  font-size: 5rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10%;
+  margin-left: -7%;
+}
+.nava a {
+  color: white;
+  background: rgb(1, 1, 79);
+  padding: 2%;
+  border: 1px solid red;
+  text-decoration: none;
+}
+.flexbox {
+  display: inline-flex;
+  flex-direction: row;
+  width: 60%;
+  max-height: 50%;
+  justify-content: space-around;
+  margin-left:4%;
+}
+.flexbox img {
+  display: none
+}
+.flexbox div{
+  padding-right: 20%;;
+  padding-bottom:80%;
+  border: 1px solid;
+  background-image:url('https://picsum.photos/300');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.bod{
+  display: flex;
+  align-items: center; 
+  padding-bottom:2%
+}
+.proj {
+  max-width: 20%;
+  margin:auto 0;
+  display:inline-block;
+  height:100%;
+  margin: auto 0;
+  margin-left:10%
+}
+footer {
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  background-color: navy;
+}
+footer a {
+  background-color: rgb(226, 226, 229);
+  text-decoration: none;
+  padding: 2%;
+}
+.introhead{
+  margin: 0 auto ;
+  text-align: center;
+  padding-top:2%
+}
+.LI-profile-badge{
+  margin-top:5%;
+  padding-bottom:5%
+}
+.fb{
+  background-color: rgb(226, 226, 229);
+  text-decoration: none;
+  padding: 2%;
+  margin-left: 35%;
+}
+
+@media (max-width: 800px) {
+  .bod{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:-50%
+  }
+ 
+  nav {
+    display: flex;
+    flex-direction:column;
+    margin-left:37%;
+    max-width:25%
+  }
+  .title {
+    color: blue;
+    font-family: cursive;
+    font-size: 3rem;
+  }
+  .nava a {
+    padding-right:5%;
+    padding-left:5%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align:center
+
+  }
+  .nava{
+      margin:0 auto;
+      width:100%
+  }
+  .image{
+    max-width:90%;
+    padding-bottom:50% ;
+    margin:0 auto;
+    background-position: bottom;
+  }
+  .introhead{
+    margin: 2% auto;
+
+  }
+  .intropara {
+    max-width:80%;
+    text-align: left;
+    margin:0 auto
+  }
+  .proj {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .flexbox{
+    display:flex;
+    flex-flow: row wrap;
+    padding:15%;
+    margin-top:-13%
+    
+  }
+  .flexbox div {
+    width: 20%;
+    height: 20%;
+    margin-top:10%
+  }
+}
+
+
+@media (max-width: 500px) {
+  /*didnt feel any changes needed to be made*/
+
+}
