@@ -95,7 +95,6 @@ section{
     width: auto;
 }
 nav{
-
     width:0 auto;
     display:flex;
     justify-content: space space-between;
@@ -104,23 +103,27 @@ nav{
 /*Body styles*/
 .middlewhite{
     background-color:whitesmoke;
-    max-width:100%;
     width:100%;
 }
 
 .jwg h2{
     font-size: 2rem;
 }
-.imgleft, {
-
-flex-direction: row;
-   width:45%;
+.imgleft {
+    display: flex;
+    
+   width:40%;
     display:flex;
     
     
 }
-.textright{
-display: inline-block;
+.textright{ display: inline-block;
+text-align: center;
+margin:35%;
+display: flex;
+justify-content:;
+align-content:;
+width: 50%;
     
 
 }
