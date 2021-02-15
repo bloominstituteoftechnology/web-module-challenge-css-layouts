@@ -102,13 +102,46 @@ h2{
     text-align: center;
 }
 
-/*BACKGROUND IMAGE*/
+/*BACKGROUND IMAGE STYLES*/
 .bg-img{
     background-image: url(../Images/xps-Gi3iUJ1FwxI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-
 }
 
+/*PROJECTS STYLES*/
+#projects{
+    display: flex;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.left img{
+    width: 24%;
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 20%;
+    padding: 0 5% 0 5%;
+}
+
+/*FOOTER STYLES*/
+footer{
+    height: 15rem;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 1rem 1.2rem;
+}
