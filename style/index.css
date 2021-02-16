@@ -211,6 +211,12 @@ h3{
     header{
         max-width: 100%
     }
+    .links nav button{
+        width: auto;
+    }
+    .footTxt button{
+        width: auto;
+    }
 }
 @media (max-width:500px) {
     body{
@@ -223,6 +229,12 @@ h3{
         flex-direction: column;
         justify-content: center;
         width: 100%;
+    }
+    .links nav button{
+        width: auto;
+    }
+    .footTxt button{
+        width: auto;
     }
 }
 
