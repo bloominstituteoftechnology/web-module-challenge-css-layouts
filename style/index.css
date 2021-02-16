@@ -3,48 +3,45 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid black;
-    color: white;
+    border: 1px solid yellow;
 }
 
-@font-face {
-    font-family: ;
-    src:
-}
+
 
 .container {
     margin: auto;
-    padding: 5px;
-    border: 12px ridge #ffd700;
-    background-color: #7851a4;
-}
-.header {
-    display: flex-wrap;
-    width: 100%;
-    background: #f23224;
+    padding: 0%;
+    padding: 4%;
+    border: 10px ridge #266035;
+    background-color: black;
+    color: hotpink;
 }
 
-.header #headerName {
+header #headerName {
     display: flex;
-    padding-left: 2%;
+    padding: 2%;
 }
 
-.header h2 {
-    font-size: 3rem;
-    color: #f0ead6;
+h1 {
+    font-size: 250%;
+    color: #fbfffb;
+    padding: 2%;
+    background-color:#f23224;
 }
 
 .navBar {
+    width: 100%;
     align-items: center;
     display: flex;
-    padding: 10px 30px;
+    background-color:#f23224;
+    padding-left: 6%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 .navBar a {
-    padding: 10px 10px;    
+    padding: 1% 2% 1% 2%;  
     border: 1px solid #f0ead6;
-    border-radius: 3px;
-    padding: 5px 20px;
     color: #f0ead6;
 }
 
@@ -55,52 +52,33 @@
 }
 
 .main {
+    padding: 2%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: wrap;
 
 }
 
 .main img {
-    width: 100%;
-    justify-content: space-evenly;
+    width: 50%;
 }
 
-.main.test {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3%;
+.info {
+    align-items: flex-end;
+    
+}
+
+.main h2, p {
     justify-content: flex-start;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.main.test h2 {
-    padding-left: 5%;
-}
-
-.main.info {
-    width: 30%;
-}
-
-.button {
-    justify-content: flex-start;
-    padding-left: 4%;
-}
-
-.button {
-    padding: 10px 10px;    
+button {   
     border: 1px solid #f0ead6;
     border-radius: 3px;
-    padding: 5px 20px;
     background-color: #f23224;
     color: #f0ead6;
-}
-
-.button a:hover {
-    color: #7851a4;
-    border: 1px solid #f23224;
-    background-color: #ffd700;
-    font-weight: 600;
-    text-transform: uppercase;
+    padding: 1%;
 }
 
 .images {
@@ -120,8 +98,9 @@
     justify-content: center;
 }
 
-.gallery.images h4 {
+.images h4 {
     align-content: center;
+    text-align: center;
 }
 
 .footer {
@@ -136,6 +115,7 @@
 
 .footer h3 {
     align-content: center;
+    text-align: center;
     padding: 5%;
     width: auto;
     font-size: auto;
@@ -156,3 +136,23 @@
     color: #ffd700;
     border: 1px solid #ffd700;
     background-color: #7851a4;
+
+
+/* Media Queries */
+
+/* Phone */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    border: 1px solid yellow;
+}
+
+.main {
+    padding: 2%;
+    display: flex;
+    flex-direction: column
+
+}
