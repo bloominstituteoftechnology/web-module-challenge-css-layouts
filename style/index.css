@@ -190,7 +190,7 @@ body {
 
 @media screen and (max-width: 800px) {
   #about #aboutContainer {
-    flex-direction: column;
+    flex-direction:column;
   }
   #about #aboutContainer #aboutImage {
     margin: 2rem auto;
