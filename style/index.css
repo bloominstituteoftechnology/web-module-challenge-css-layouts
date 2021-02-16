@@ -1,1 +1,259 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+    background-color: thistle;
+}
+
+#headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: salmon;
+  height: 100%;
+  width: 100%;
+  background-color: #ffc8d8;
+  flex-direction: column;
+}
+
+#topNav {
+  margin-bottom: 1.7rem;
+}
+
+#topNavName {
+  align-self: center;
+  font-size: 6rem;
+  color: white;
+  font-family: 'Parisienne', cursive;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#topNavButtons {
+  padding: .6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin-left: 2.2rem;
+}
+
+#headerContainer #topNav a {
+  text-decoration: none;
+}
+
+#about #aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+#about #aboutContainer p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+#aboutName {
+  font-size: 3rem;
+  align-self: center;
+  font-weight: bold;
+  color:#ffc8d8;
+}
+
+#aboutSideContainer #aboutButtons {
+  padding: 0.6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: #ffc8d8;
+  align-self: center;
+  margin: 2rem;
+}
+
+#about #aboutContainer #aboutSideContainer {
+  align-self: center;
+  width: 40%;
+}
+
+#about #aboutContainer #aboutImage {
+  margin: 1.5rem;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  box-shadow: 0 0 1rem gray;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+#projects div {
+  margin: 2.5rem auto;
+  box-shadow: 0 0 1rem gray;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15rem;
+  background: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+#footerButton {
+  padding: .6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background-color: #ffc8d8;
+  align-self: center;
+  margin: 1rem;
+}
