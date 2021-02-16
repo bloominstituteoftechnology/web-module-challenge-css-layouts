@@ -217,7 +217,14 @@ h3 {
 
 /* STARTS responsive CSS design */
 
-/* @media(max-width: 800px) {
-
-} */
+@media(max-width: 800px) {
+    
+    .container-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
+    }
+}
 
