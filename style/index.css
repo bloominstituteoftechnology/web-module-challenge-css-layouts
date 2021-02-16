@@ -159,7 +159,6 @@ h2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 0% 2% 0% 2%;
     background-color: #E5D817;
 }
 
@@ -255,9 +254,59 @@ h3 {
     }
 
     .picture-container {
-       margin: 1em 5em 1em 5em; 
+       margin: 1em 1em 1em 1em; 
+    }
+
+    .picture {
+        height: 25em;
+        width: 25em;
+    }
+
+}
+
+@media(max-width: 400px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .top-text-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
     }
 
 
+
+    .row1 .row2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
+        
+    }
+
+    .picture-container {
+       margin: 1em 1em 1em 1em; 
+    }
+
+    .picture {
+        height: 15em;
+        width: 15em;
+    }
 }
 
