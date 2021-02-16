@@ -1,3 +1,46 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: ;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 *{
     box-sizing:border-box;
     margin: 0;
@@ -11,30 +54,44 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-    font-family: 
+
+}
+header{
+    max-width: 100%;
+}
+
+.links nav{
+    display:flex;
+
+}
+.links nav button{
+    width: 9%;
+    padding:1%
 }
 h4{
     text-align: center;
     padding:1%;
 } 
 .home{
-background-color:aquamarine;
+background-color:rgb(201, 199, 199);
 padding: 5%;
 }
-.home
-h1{
+.home h1{
+
     font-size: 5rem;
+    justify-content:left;
 }
 .about{
     display: flex;
     justify-content: space-between;
     
 }
-.about img{
-    width: 50%;
-    margin: 2%;
+.aboutLeft{
+    width: auto;
+    margin: auto;
 }
 h2{
+    font-size: 3rem;
     padding: 5%;
 }
 .aboutTxt button{
@@ -47,21 +104,19 @@ h2{
     font-size: 2rem;
 }
 .aboutTxt{
-    width: 40%;
+    width: auto;
     margin: 10% 3% 0;
 }
 .imgCnt{
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
     margin-top:1%;
+    max-width: 100%;
 }
 
 .imgCnt div{
     display: flex;
-    width: 20%;
-    max-width: 100%;
+    width: 50%;
     margin: 1%;
     text-align: center;
     
@@ -74,7 +129,6 @@ h2{
 
 .imgCnt1{ 
    display:flex;
-   flex-wrap:wrap;
    justify-content: space-between;
    max-width: 100%;
    text-align: center;
@@ -82,7 +136,6 @@ h2{
 }
 .imgCnt1 div{
     display: flex;
-    max-width: 100%;
     width: 20%;
     margin: 1%;
 }
@@ -143,6 +196,29 @@ h3{
     width: 15%;
     padding:2%;
     margin: 1%
+}
+@media(max-width:800px) {
+    body{
+        background-color: turquoise;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .imgCnt, .imgCnt1 div{
+        justify-content:center;
+        width:auto;
+    }
+    header{
+        max-width: 100%
+    }
+}
+@media (max-width:500px) {
+    body{
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
