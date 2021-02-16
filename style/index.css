@@ -1,11 +1,189 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px lightblue;
+}
+
+html{
+    background-color: lightblue;
+    
+        
+    
+}
 h1{
     color:red;
+    text-align: center;
+    font-size: 3rem;
 }
-.profile{
-    height:40vh;
-    background-image:url('https://rccl-h.assetsadobe.com/is/image/content/dam/royal/content/destinations/mexico/cozumel-cancun/cozumel-cenote.jpg?$750x667$');
-    display: flexbox;
-    flex-flow: row;
+h3{
+    color: red;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Header*/
+nav{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
 }
+nav a:hover{
+    color: white;
+}
+nav a{
+    color:  pink;
+}
+#bigpics{
+    height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url('../images/mexico.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    
+}
+#middle{
+    background-color:lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    
+}
+.wrapper{
+    display: flex;
+    text-align: right;
+}
+.wrapper p{
+    font-size: 20px;
+    color: black;
+    width: 30%;
+}
+.wrapper img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width:150px;
+    height:400px;
+    object-fit:cover;
+    object-position:50% 50%;
+    padding:30px 5px 30px 5px;
+}
+.tex h3{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+
+}
+.tex p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+header p{
+    font-size: 20px;
+    text-align: center;
+}
+.contacts{
+    padding: 50px 50px;
+    background-color: lightblue;
+}
+button{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    font-size: 20px;
+    text-align: center;
+}
+.container {
+    height: 100px;
+    position: relative;
+    
+  }
+  
+  .center {
+    margin: 0;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px 10px 10px 10px;
+  }
+  /* Iphone*/
+  @media(max-width:812px) /* iphone x */
+  {
+      #middle{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
+        align-items: center;
+        }
+        .wrapper img{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            width:80px;
+            height:200px;
+            object-position:50% 50%;
+           position: relative;
+           right: 100px;
+        }
+        .tex{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+        }
+      #middle div{
+          width: 50%;
+      }
+      .picture4{
+          width: 80%;
+      }
+      
+  }
+  
