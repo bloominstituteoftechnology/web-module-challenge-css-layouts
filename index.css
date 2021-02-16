@@ -92,7 +92,7 @@ section{
     justify-content:center;
     flex-wrap: nowrap;
     font-size: 2rem;
-    width: auto;
+    width: 100%;
 }
 nav{
     width:0 auto;
@@ -102,6 +102,7 @@ nav{
 }
 /*Body styles*/
 .middlewhite{
+    
     background-color:whitesmoke;
     width:100%;
 }
@@ -117,15 +118,18 @@ nav{
     
     
 }
-.textright{ display: inline-block;
+.textright{ 
 text-align: center;
-margin:35%;
+margin:25%;
 display: flex;
 justify-content:;
 align-content:;
-width: 50%;
-    
 
+  
+
+}
+.me h2{
+    width: %;
 }
 
 .picalign{
