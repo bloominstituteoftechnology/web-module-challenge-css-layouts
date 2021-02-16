@@ -115,6 +115,8 @@ nav{
     
    width:40%;
     display:flex;
+    margin:0 auto;
+    
     
     
 }
@@ -131,16 +133,20 @@ align-content:;
 .me h2{
     width: %;
 }
+.projects{
+    padding:2%;
+    margin-top:2%;
+    width:35%
+}
 
 .picalign{
-    width: 50%;
+    width: 100%;
     display: flex;
-    align-content: center;
     justify-content: space around;
     flex-wrap: wrap;
 }
 .wrapem{
-    width:50%;
+    width:100%;
     padding: 10% 10% 10% 10%;
     display: flex;  
     justify-content: space-around;
