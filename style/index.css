@@ -110,15 +110,15 @@ h2{
 .imgCnt{
     display:flex;
     justify-content: space-between;
-    margin-top:1%;
+    margin-top:2%;
+    text-align: center;
     max-width: 100%;
 }
 
 .imgCnt div{
     display: flex;
-    width: 50%;
+    width: auto;
     margin: 1%;
-    text-align: center;
     
 }
 .imgCnt p{
@@ -136,7 +136,7 @@ h2{
 }
 .imgCnt1 div{
     display: flex;
-    width: 20%;
+    width: 50%;
     margin: 1%;
 }
 .imgCnt1 p{
@@ -218,6 +218,11 @@ h3{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .imgCnt , .imgCnt1{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
     }
 }
 
