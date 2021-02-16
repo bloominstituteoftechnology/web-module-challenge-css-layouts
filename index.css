@@ -130,13 +130,16 @@ align-content:;
   
 
 }
-.me h2{
-    width: %;
+.me h1{
+    align-content:flex-start;
+    width:25%;
 }
-.projects{
+
+.projects2 {
     padding:2%;
     margin-top:2%;
-    width:35%
+    width:25%
+    
 }
 
 .picalign{
@@ -151,6 +154,7 @@ align-content:;
     display: flex;  
     justify-content: space-around;
     flex-wrap: wrap;
+ 
 
 }
 
