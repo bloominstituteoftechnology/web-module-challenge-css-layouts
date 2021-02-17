@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+@import "fonts.css";
+@import "reset.css";
+@import "header.css";
+/* *{
+    border:1px solid black;
+} */
+
+/* main */
+/* main introduction */
+.introduction{
+    text-align:center;
+}
+.introduction h2{
+    font-size: 7rem;
+}
+.introduction p{
+    font-size: 4rem;
+}
+#main-image-container{
+    height: 30vw;
+    overflow: hidden;
+}
+.introduction img{
+    display:block;
+    width: 100%;
+}
+/* main projects */
+.projects{
+    display:flex;
+    justify-content: space-evenly;
+}
+.projects div{
+    flex-basis: 100%;
+}
+.projects .projects-description{
+    padding:2%;
+}
+.projects img{
+    display:block;
+    width:100%;
+}
+/* footer */
+footer{
+    text-align:center;
+    background-color:black;
+}
+footer li{
+    display:inline-block;
+    margin:auto 1%;
+}
+footer a{
+    display:block;
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+}
+footer a:hover{
+    background-color: white;
+    color:black;
+}
