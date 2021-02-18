@@ -79,3 +79,62 @@ select {
 
 
 /* Add CSS styling here */
+
+
+nav {
+  /* display: flex; 
+  justify-content: space-between;   */
+  width:40%;
+  margin-bottom: 1rem;
+  display:flex;
+  justify-content: flex-start;
+}
+
+nav a {
+  /* padding: .1rem; */
+  /* width: 4.5rem; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border: 2px solid black;
+  background-color: darkgrey;
+  color: white;
+  box-sizing:content-box;
+  width: 20%;
+  padding: .5rem;
+  border-radius: 1rem;
+  
+  
+}
+
+.home-button{
+background: black;
+color: white;
+}
+
+.name{
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.upper{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about-me{
+  width: 50%;
+  align-items: center;
+}
+
+.about-me p{
+  margin-bottom: 5.6rem;
+  background-color: grey;
+  border-radius: 1rem;
+  color: white;
+}
