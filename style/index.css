@@ -1,1 +1,183 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap  '); */
+html {
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    background-color: lightblue;
+}
+body{
+    border: 5px mintcream;
+    padding:0;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+h1{
+    font-size:40px;
+    color:mintcream;
+    margin-left:1%;
+}
+h2{
+    font-size:30px
+}
+h3{
+    font-size:20px
+}
+
+
+Header{
+    background-color: midnightblue;
+    /* margin-top: 50px; */
+    /* margin-bottom: 100px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    /* border-radius: 5%; */
+}
+.navContainer{
+    display:flex;
+    justify-content:flex-start;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+.navContainer a{
+    /* margin-left: 1%; */
+    margin-right:2%;
+    padding:1%;
+    background-color: orange;
+    flex-flow: row wrap;
+    border-radius: 10%;
+    /* width: 0vh;
+    height: 0vh; */
+}
+
+
+.section1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:2%;
+    /* flex-flow: row wrap; */
+}
+.section1 img{
+    width: 200%;
+    height: 200%;
+    border-radius: 10%;
+}
+#intro {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:10px;
+    border-radius: 10%;
+    line-height: 40px;
+    background-color: mintcream;
+}
+.section1 #intro a{
+    margin-left: 2%;
+    margin-right:2%;
+    padding:1%;
+    background-color: orange;
+    flex-flow: row wrap;
+    border-radius: 10%;
+}
+
+
+.section2{
+    /* margin-top: 10%; */
+    margin-bottom: 1%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    background-color: mintcream;
+    border-radius: 3%;
+    padding-top: 1%;
+    text-align: center;
+}
+.project{
+    margin:10px;
+    margin-left: 1.5%;
+    margin-right:1.5%;
+}
+.project img{
+    border-radius: 10%;
+}
+
+
+footer{
+    background-color: midnightblue;
+    /* margin-top: 50px; */
+    /* margin-bottom: 100px; */
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+footer h2{
+    color:mintcream;
+    padding:2%;
+}
+footer a{
+    margin-right:2%;
+    padding:1%;
+    background-color: orange;
+    flex-flow: row wrap;
+    border-radius: 10%;
+}
