@@ -28,11 +28,11 @@ header nav a{
     height:100%;
     padding: 10px 0;
 }
+header nav a:hover{
+    background-color: white;
+    color:black;
+}
 header nav li{
     display:inline-block;
     margin:auto 1%;
-}
-nav a:hover{
-    background-color: white;
-    color:black;
 }
