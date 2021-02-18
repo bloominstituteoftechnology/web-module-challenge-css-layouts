@@ -112,10 +112,12 @@ nav{
 }
 .imgleft {
     display: flex;
+    height:50vh;
+   width:40% ;
+   margin-top: 10%;
+   margin-left: 10%;
+
     
-   width:40%;
-    display:flex;
-    margin:0 auto;
     
     
     
@@ -123,9 +125,11 @@ nav{
 .textright{ 
 text-align: center;
 margin:25%;
+height:50vh;
 display: flex;
 justify-content:;
 align-content:;
+
 
   
 
