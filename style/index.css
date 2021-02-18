@@ -1,1 +1,147 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 5%;
+    background-color: black;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: lightgreen;
+    vertical-align: center;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    Font-size: 2.5rem;
+    color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    Width: 40%;
+    Height: 40px;
+    margin: 2%;
+}
+
+.links a {
+    background-color: black;
+    border: 1px solid white;
+    color: rgb(129, 228, 120);
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+.links a:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+h1 {
+    font-family: 'Long Cang', sans-serif;
+    font-size: 4rem;
+    margin-top: 10%;
+    color: black;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#Mainphoto {
+    background: url("https://i.ibb.co/dPLMFBW/Profilepic.jpg");
+    display: flex;
+    width: 600px;
+    height: 450px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+
+a {
+    border-radius: 25%;
+}
+
+.Mainstuff {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Mainelement {
+    width: 25%;
+    margin: 2.5%;
+}
