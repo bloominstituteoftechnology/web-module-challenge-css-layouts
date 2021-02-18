@@ -2,7 +2,7 @@
 @import "fonts.css";
 @import "reset.css";
 @import "header.css";
-
+@import "footer.css";
 /* main */
 /* main introduction */
 .introduction{
@@ -48,23 +48,4 @@
 .projects img{
     display:block;
     width:100%;
-}
-/* footer */
-footer{
-    text-align:center;
-    background-color:black;
-}
-footer li{
-    display:inline-block;
-    margin:auto 1%;
-}
-footer a{
-    display:block;
-    background-color: black;
-    color:white;
-    padding: 10px 0;
-}
-footer a:hover{
-    background-color: white;
-    color:black;
 }

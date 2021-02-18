@@ -1,0 +1,30 @@
+/* footer */
+body{
+    position:relative;
+    min-height:100vh;
+}
+main{
+    padding-bottom: 40px;
+}
+footer{
+    text-align:center;
+    background-color:black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+footer li{
+    display:inline-block;
+    margin:auto 1%;
+}
+footer a{
+    display:block;
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+}
+footer a:hover{
+    background-color: white;
+    color:black;
+    transition-duration: 0.5s;
+}
