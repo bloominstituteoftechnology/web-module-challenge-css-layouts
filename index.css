@@ -121,13 +121,9 @@ nav{
     height:50vh;
    width:40%;
    margin-top: 10%;
-   margin-left: 10%;
-
-    
-    
-    
-    
+   margin-left: 10%;   
 }
+
 .textright{ 
     display:;
 
@@ -157,6 +153,7 @@ padding-bottom:0%;
 }
 span{
     color:red;
+    border:none;
 }
 
 .picalign{
@@ -174,12 +171,13 @@ span{
 }
 .footer{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     width:100vh;
     
 
 }
-.footer p{
+.footer p{align-self: center;
     background-color:beige;
 }
 .hitmeup{
