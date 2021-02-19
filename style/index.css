@@ -1,1 +1,145 @@
 /* Add CSS styling here */
+*{
+    background-color:#1b1c1c;
+}
+h1{
+    margin:10px;
+    font-family: 'Akaya Kanadaka', cursive;
+    color:white;
+    font-size: 60px;
+   
+
+}
+.navbar{
+
+height:40px;
+display: flex;
+justify-content: flex-end;
+background: #1b1c1c;
+font-family: 'Indie Flower', cursive;
+}
+
+.button1{
+    
+    
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+text-decoration: none;
+align-content: stretch;
+}
+
+
+
+.button2{
+    height:40px;
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.button3{
+    height:40px;
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.button4{
+    height:40px;
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.button1:hover{
+    background-color: #03ad9c;
+    transition: .75s;
+    border-radius: 45%;
+    }
+
+.button2:hover{
+        background-color: #03ad9c;
+        transition: .75s;
+        border-radius: 45%;
+        }
+
+.button3:hover{
+            background-color: #03ad9c;
+            transition: .75s;
+            border-radius: 45%;
+            }
+
+.button4:hover{
+                background-color: #03ad9c;
+                transition: .75s;
+                border-radius: 45%;
+                }
+
+.container{
+    
+    height: 90vh;
+    width: 100%;
+    /* margin:10px 30px; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.image img{
+    padding:5px 100px;
+    margin:5px 20px;
+   height:300px;
+   width:300px;
+}
+.main{
+    
+    height:550px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainimage img{
+    height:450px;
+    width:650px;
+    
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Indie Flower', cursive;
+}
+.footernav{
+    
+height:40px;
+display: flex;
+justify-content: center;
+background: #1b1c1c;
+font-family: 'Indie Flower', cursive;
+
+}
+.button5{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.button5:hover{
+    background-color: #03ad9c;
+    transition: .75s;
+    border-radius: 45%;  
+}
