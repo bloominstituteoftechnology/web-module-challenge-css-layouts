@@ -111,6 +111,10 @@ nav{
     display:flex;
     font-size: 2rem;
 }
+.tester{
+    display: flex;
+    justify-content: space-around;
+}
 .imgleft {display: flex;
     height:50vh;
    width:40%;
@@ -123,10 +127,13 @@ nav{
     
 }
 .textright{ 
+    display:;
 
 text-align: center;
-height:20vh;
+height:
 padding-left:50%;
+width:35%;
+padding-bottom:0%;
 
 
 
