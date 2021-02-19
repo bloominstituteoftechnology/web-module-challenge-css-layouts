@@ -79,7 +79,9 @@ select {
 
 
 /* Add CSS styling here */
-
+.upper-container{
+  background-color: gray;
+}
 
 nav {
   /* display: flex; 
@@ -116,20 +118,24 @@ color: white;
   font-size: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
 }
 
 .upper{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 2rem;
-  text-align: center;
   margin-top: 3rem;
+  height: auto;
+  width: 100%;
+}
+
+.upper img{
+  height: 100%;
+  width: 30rem;
 }
 
 .about-me{
   width: 50%;
-  align-items: center;
 }
 
 .about-me p{
@@ -138,3 +144,69 @@ color: white;
   border-radius: 1rem;
   color: white;
 }
+
+.middle-boxes {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.middle-boxes img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 2rem;
+    /* max-width: 50%;
+     */
+     height: 20rem;
+     width: 20rem;
+      }
+
+.projects a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border: 2px solid black;
+  background-color: darkgrey;
+  color: white;
+  width: 20%;
+  padding: .5rem;
+  border-radius: 1rem;
+  
+}
+
+h1{
+  margin-bottom: 2rem;
+}
+.projects{
+  margin-bottom: 2rem;
+}
+
+
+.footer-button{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  background-color: lightgray;
+  padding-bottom: 5rem;
+}
+
+.footer-button a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  background-color: darkgrey;
+  color: white;
+  padding: .5rem;
+  border-radius: 1rem;
+  
+}
+
+.footer-button p{
+  margin-bottom: 3rem;
+}
+
+
+
