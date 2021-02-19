@@ -123,11 +123,12 @@ h1 {
     align-items: center;
 }
 
-button {
+.button {
     padding: 10px;
-    background-color: black;
+    background-color: rgb(56, 8, 8);
     color: white;
     border-radius: 10%;
+    text-decoration: none;
 }
 
 a {
@@ -144,4 +145,15 @@ a {
 .Mainelement {
     width: 25%;
     margin: 2.5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.button:hover {
+    Color: Green;
+    background-color: whitesmoke;
 }
