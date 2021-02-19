@@ -185,20 +185,27 @@ header nav a:hover{
     text-align: center;
 }
 
-footer {
+footer div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
     padding: 30px;
 }
-footer a {
+.footercontact {
     padding:10px;
     background-color:cadetblue;
     color: black;
     text-decoration: none;
 }
+.linked {
+    height: 30px;
+    width: 30px;
+    padding: 5px 0 0 5px;
+}
 
-footer a:hover{
+.footercontact:hover{
     background-color: black;
     color: white;
 } 
