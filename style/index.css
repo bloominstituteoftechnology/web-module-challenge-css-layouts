@@ -186,10 +186,9 @@ h1{
 
 .footer-button{
   text-align: center;
-  margin-bottom: 3rem;
   margin-top: 3rem;
   background-color: lightgray;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
 .footer-button a{
