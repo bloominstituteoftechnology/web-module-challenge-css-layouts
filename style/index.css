@@ -155,6 +155,11 @@ header nav a {
 	color: black;
 }
 
+nav a:hover {
+	background-color: #61d1c4;
+	color: white;
+}
+
 .ryanDonovan {
 	display: flex;
 	flex-wrap: nowrap;
@@ -203,6 +208,11 @@ header nav a {
 .meInfo p {
 	text-align: center;
 	line-height: 1.5;
+}
+
+.meInfo a:hover {
+	background-color: #61d1c4;
+	color: white;
 }
 
 .projects {
