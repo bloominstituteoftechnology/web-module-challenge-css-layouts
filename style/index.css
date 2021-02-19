@@ -244,3 +244,71 @@ header nav a {
 .projects div a:hover {
 	color: white;
 }
+
+.hobbies {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	height: auto;
+}
+
+.hobbies div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25%;
+	height: auto;
+	background-color: #61d1c4;
+	border: 5px solid #5d576b;
+}
+
+.hobbies div h3 {
+	font-size: 1.2rem;
+	margin: 2% 0;
+}
+
+.hobbies div p {
+	text-align: center;
+	line-height: 1.5;
+	padding: 2%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #5d576b;
+	width: 100%;
+	padding: 3%;
+	margin: 2%;
+}
+
+.contactMe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.contactMe p {
+	font-size: 1.5rem;
+	color: #fff5c2;
+	margin: 2%;
+	text-align: center;
+	width: 75%;
+}
+
+.contactMe a {
+	text-decoration: none;
+	text-align: center;
+	width: 25%;
+	padding: 1%;
+	margin: 2%;
+	/* border-radius: 5%; */
+	background-color: #fff5c2;
+	color: black;
+}
+
+.contactMe a:hover {
+	background-color: #61d1c4;
+	color: white;
+}
