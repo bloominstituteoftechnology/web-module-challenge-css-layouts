@@ -21,7 +21,7 @@ border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
-border: 1px solid green; */ 
+/*border: 1px solid green; */ 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Permanent+Marker&family=Rock+Salt&display=swap');
@@ -76,7 +76,7 @@ nav {
 
 #bannerwords {
     text-align: center;
-    padding: 0% 15% 2% 15%;
+    padding: % 15% 0% 15%;
    
 }
 
@@ -101,11 +101,37 @@ nav {
 #projects {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 600px;
     padding: 2vh;
+    text-align: center;
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+}
+
+#projects h2 {
+    padding-bottom: 4%;
+}
+
+#projects p {
+    padding: 0 2vw;
+}
+
+#pongo1 {
+
+}
+
+#burrito1 {
+
+}
+
+#pongo2 {
+
+}
+
+#burrito2 {
+
 }
 
 #about1 { 
@@ -150,4 +176,23 @@ ul {
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    text-align: center;
+    padding: 4%;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 4%
+}
+
+#contactme {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2vh 20vh;
+    font-size: 1.5rem;
 }
