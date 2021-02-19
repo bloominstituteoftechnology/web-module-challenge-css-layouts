@@ -171,9 +171,27 @@ span{
     display: flex;  
     justify-content: space-around;
     flex-wrap: wrap;
- 
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    width:100vh;
+    
 
 }
+.footer p{
+    background-color:beige;
+}
+.hitmeup{
+    align-self: center;
+}
+/*footer styles*/
+/*.like ,tmeup  {
+
+    display:flex;
+    width: ;*/
+
+    
 
 
 }
