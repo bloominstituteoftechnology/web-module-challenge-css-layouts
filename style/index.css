@@ -147,7 +147,7 @@ header nav {
 
 header nav a {
 	margin: 2%;
-	border: solid 1px black;
+	/* border: solid 1px black; */
 	padding: 2%;
 	background-color: #fff5c2;
 	text-decoration: none;
@@ -160,7 +160,7 @@ header nav a {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	height: auto;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .meImage {
@@ -190,7 +190,7 @@ header nav a {
 }
 
 .meInfo a {
-	border: 1px solid #5d576b;
+	/* border: 1px solid #5d576b; */
 	text-decoration: none;
 	background-color: #fff5c2;
 	color: black;
@@ -208,7 +208,7 @@ header nav a {
 .projects {
 	display: flex;
 	flex-flow: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	height: auto;
 }
 
