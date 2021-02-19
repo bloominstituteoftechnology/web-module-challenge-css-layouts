@@ -1,1 +1,7 @@
 /* Add CSS styling here */
+nav {
+    display: flex;
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+}
