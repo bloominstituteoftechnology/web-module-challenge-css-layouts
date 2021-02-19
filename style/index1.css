@@ -46,8 +46,189 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+ } 
+
+ h1 {
+	font-family: 'inter';
+	font-size: 70px;
+	color: White;
+	background-color: #778899;
+	text-shadow: 1px 1px black;
  }
 
-h1 {
+ 
+
+ .navbar {
+	 display: flex;
+	 justify-content: flex-end;
+	 background: black;
+	
+ }
+
+ .button1 {
+	 font-family: 'inter';
+	 text-shadow: 1px 1px black;
+	 display: flex;
+	 align-items: center;
+	 align-content: stretch;
+	 background-color: #778899;
+	 justify-content: center;
+	 width: 100px; 
+	 height: 60px;
+	 color: white;
+	 text-decoration: none;
+
+ }
+
+ .button2 {
+	font-family: 'inter';
+	text-shadow: 1px 1px black;
+	display: flex;
+	 align-items: center;
+	 align-content: stretch;
+	 background-color: #778899;
+	 justify-content: center;
+	 width: 100px; 
+	 height: 60px;
+	 color: white;
+	 text-decoration: none;
+}
+
+.button3 {
+	font-family: 'inter';
+	text-shadow: 1px 1px black;
+	display: flex;
+	 align-items: center;
+	 align-content: stretch;
+	 background-color: #778899;
+	 justify-content: center;
+	 width: 100px; 
+	 height: 60px;
+	 color: white;
+	 text-decoration: none;
+}
+
+.button4 {
+	font-family: 'inter';
+	text-shadow: 1px 1px black;
+	display: flex;
+	 align-items: center;
+	 align-content: stretch;
+	 background-color: #778899;
+	 justify-content: center;
+	 width: 100px; 
+	 height: 60px;
+	 color: white;
+	 text-decoration: none;
+}
+
+.button1:hover {
+	background-color: black;
+	transition: .3s;
+}
+
+.button2:hover {
+	background-color: black;
+	transition: .3s;
+}
+
+.button3:hover {
+	background-color: black;
+	transition: .3s;
+}
+
+.button4:hover {
+	background-color: black;
+	transition: .3s;
+}
+
+.main-picture {
+	background-color: black;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.mptext {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url('https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.text a {
+	font-family: 'inter';
+	font-size: 4rem;
+	color: black;
+	text-shadow: 1px 1px white;
+	opacity: 0;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.mptext:hover .text a { 
+	opacity: 1;
+	color: black;
+	text-decoration: none; 
+}
+
+.project-images {
+	background-color: black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-items: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image img {
+	height: 400px;
+	width: 400px;
+	padding: 5% 5%;
+	margin: 30px 50px;
+}
+
+.description {
+	font-family: 'inter';
 	color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+footer {
+	background-color: black;
+	
+}
+
+.footernav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	
+}
+
+.buttonbottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #778899;
+	height: 50px;
+	width: 100px;
+	font-family: 'inter';
+	color: white;
+	text-decoration: none;
+}
+
+.buttonbottom:hover {
+background-color: black;
+transition: .5s;
 }
