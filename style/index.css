@@ -1,1 +1,153 @@
 /* Add CSS styling here */
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+border: 1px solid green; */ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Permanent+Marker&family=Rock+Salt&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 10px;
+    
+}
+
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0%;
+    font-family: 'Rock Salt', cursive;
+    background-color: #70FFE3;
+}
+
+#nav {
+    font-size: 1.75rem;
+}
+
+
+#bannerwords {
+    text-align: center;
+    padding: 0% 15% 2% 15%;
+   
+}
+
+#bannerwords h2 {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bannerwords p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    padding: 2vh;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#about1 { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2vh 20vh;
+    font-size: 1.5rem;
+}
+
+#about1 h2 {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+#about1 p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#about2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 2vh 7vw;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+#about2 h2 {
+    padding: 2vw;
+    font-size: 1.5rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
