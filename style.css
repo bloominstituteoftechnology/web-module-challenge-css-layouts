@@ -1,0 +1,67 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header h1{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav ul a li{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a li:hover{
+    background: black;
+    color: white;
+}
+div.intro{
+    width: 100%;
+}
+div.intro h2{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+div.intro p{
+    text-align: center;
+}
+section.feature{
+    margin: 10px 0 10px 0;
+}
+section.feature img{
+    width: 100%;
+    height: 300px;
+}
+div.projects{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content:space-around;
+    width: 100%;
+}
+img.project{
+    margin: 0 10px 0 0;
+}
+p.aboutProj{
+    display: inline;
+    align-self: center;
+}
+footer.footer{
+    padding: 50px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
