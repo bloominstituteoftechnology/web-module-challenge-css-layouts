@@ -1,8 +1,8 @@
 /* Add CSS styling here */
-@import "fonts.css";
-@import "reset.css";
-@import "header.css";
-@import "footer.css";
+@import "../fonts.css";
+@import "../reset.css";
+@import "header-medium.css";
+@import "../footer.css";
 /* main */
 /* main introduction */
 .introduction{
@@ -15,7 +15,7 @@
     font-size: 4rem;
 }
 #main-image-container{
-    height: 30vw;
+    height: 60vh;
     overflow: hidden;
 }
 .introduction img{

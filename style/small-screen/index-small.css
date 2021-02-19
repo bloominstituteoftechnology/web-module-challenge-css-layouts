@@ -12,10 +12,10 @@
     font-size: 7rem;
 }
 .introduction p{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 #main-image-container{
-    height: 30vw;
+    height: 100%;
     overflow: hidden;
 }
 .introduction img{

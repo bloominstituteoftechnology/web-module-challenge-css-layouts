@@ -23,9 +23,6 @@ header nav{
     background-color:black;
     padding:10px;
 }
-header *{
-    /* border: 1px solid red; */
-}
 header ul{
     display:none;
     justify-content: center;
