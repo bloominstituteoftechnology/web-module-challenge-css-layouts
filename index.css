@@ -50,7 +50,7 @@ table {
     border:1px solid grey;
 }
 /*general styles*/
-html{
+html{;
     font-size:62.5%;
 }
 body{
@@ -108,10 +108,10 @@ nav{
 }
 
 .jwg h2{
+    display:flex;
     font-size: 2rem;
 }
-.imgleft {
-    display: flex;
+.imgleft {display: flex;
     height:50vh;
    width:40% ;
    margin-top: 10%;
@@ -123,12 +123,13 @@ nav{
     
 }
 .textright{ 
+
 text-align: center;
-margin:25%;
-height:50vh;
-display: flex;
-justify-content:;
-align-content:;
+height:20vh;
+padding-left:50%;
+
+
+
 
 
   
