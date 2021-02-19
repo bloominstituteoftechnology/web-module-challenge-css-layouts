@@ -75,9 +75,9 @@
    * Remove the gray background on active links in IE 10.
    */
   
-  a {
+  /* a {
     background-color: transparent;
-  }
+  } */
   
   /**
    * 1. Remove the bottom border in Chrome 57-
@@ -349,3 +349,104 @@
   [hidden] {
     display: none;
   }
+
+ 
+   *  {
+     background-color: peachpuff;
+   }
+   
+  nav a{ */
+    /* margin-right:10%; */
+    text-decoration:none;
+    font-family:sans-serif;
+    color:white;
+    font-size:14px;
+    padding:7px 30px;
+    border: 10px solid black;
+    transition:.3s;
+    background-color: purple;
+  }
+  nav a:hover{
+    color:#eb3a45;
+    background:white;
+  }
+
+  header {
+    font-size: 100px;
+  }
+  
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-self: right;
+  width: 80%;
+ text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile img {
+  padding:100px; 
+  border: 25px double grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  object-fit: cover; 
+  background-color: #705B66  
+}
+
+
+h1 {
+  padding:10px; 
+  border: 15px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 10%;
+  object-fit: cover;
+  text-align: center;
+  background-color: lightcoral;
+  border-radius: 40px;
+}
+header :hover{
+
+  font-weight: bold;
+
+}
+
+.projects  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Project {
+  background-color: #3F3FBF;
+  color: red;
+  margin: 1rem;
+  width: 30%;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  Border: 5px solid red;
+  border-radius: 70px;
+}
+
+
+  
+.projects a:hover {
+  color:#eb3a45;
+  background:white;
+}
+.personalInfo {
+  display: flex;
+  justify-content: center;
+ background-color: #993366;
+border-radius: 30px
+}
