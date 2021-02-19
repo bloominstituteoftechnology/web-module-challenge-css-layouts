@@ -1,1 +1,130 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: 'Nunito Sans', sans-serif;
+    color: #eeeeee;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: #222831;
+}
+
+.container nav {
+    display: flex;
+    justify-content: center;
+}
+
+.container nav a {
+    padding: 1rem 2rem;
+    color: #393e46;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 3px 3px 5px #222831;
+}
+
+.container nav .active {
+    background-color: #393e46;
+    color: white;
+}
+
+.container nav .active:hover {
+    background-color: white;
+    color: #393e46;
+}
+
+.container2 p {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+}
+
+section {
+    margin: 2.5rem;
+}
+
+.main-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.picsum.photos/id/1033/2048/1365.jpg?hmac=zEuPfX7t6U866nzXjWF41bf-uxkKOnf1dDrHXmhcK-Q");
+    height: 50vh;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.second-image {
+    /* background-color: blue; */
+    height: 60vh;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.picsum.photos/id/122/4147/2756.jpg?hmac=-B_1uAvYufznhjeA9xSSAJjqt07XrVzDWCf5VDNX0pQ");
+}
+
+.third-image {
+    /* background-color: red; */
+    height: 60vh;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.picsum.photos/id/190/2048/1365.jpg?hmac=NWS1_X_JJ-Edi-9SZRhNwHyjKt1nECckxrGLS8_idjY");
+}
+
+.fourth-image {
+    /* background-color: purple; */
+    height: 60vh;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.picsum.photos/id/227/1024/683.jpg?hmac=63Bm3-6abEba_BO4lpAKdrnmSL04wZpwK17xue1mCXw");
+}
+
+.fifth-image {
+    /* background-color: pink; */
+    height: 60vh;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.picsum.photos/id/250/4928/3264.jpg?hmac=4oIwzXlpK4KU3wySTnATICCa4H6xwbSGifrxv7GafWU");
+}
+
+.gallery p {
+    width: 15%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+    height: 20vh;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+footer a {
+    margin: 2.5rem;
+    padding: 1.25rem 2rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #393e46;
+}
