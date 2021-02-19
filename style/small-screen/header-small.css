@@ -29,9 +29,7 @@ header *{
 header ul{
     display:none;
     justify-content: center;
-    /* align-items: flex-start; */
     flex-direction: column;
-    border: 1px dotted red;
 }
 header nav:hover ul{
     display:flex;

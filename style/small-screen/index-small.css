@@ -37,9 +37,6 @@
     height:100%;
     padding:20px;
 }
-.projects *{
-    /* border:1px solid red; */
-}
 .projects .projects-description{
     order:-3;
     font-size:10rem; 
@@ -50,8 +47,4 @@
 .projects .projects-description p{
     font-size:3rem;
     width:70%;
-}
-.projects img{
-    /* display:block; */
-    /* width:100%; */
 }
