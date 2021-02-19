@@ -1,0 +1,65 @@
+html{
+    font-size:16px;
+    font-size:64.5%;
+}
+body{
+    font-size:3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.container{
+    margin: 2% auto;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+header{
+    text-align:center;
+}
+header h1{
+    font-size:10rem;
+}
+header nav{
+    background-color:black;
+    padding:10px;
+}
+header *{
+    /* border: 1px solid red; */
+}
+header ul{
+    display:none;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    border: 1px dotted red;
+}
+header nav:hover ul{
+    display:flex;
+}
+header nav div{
+    width:35px;
+    height:5px;
+    background-color: white;
+    margin: 6px 6px;
+}
+header nav a{
+    display: inline-block;
+    color:white;
+    height:100%;
+    padding: 10px 0;
+}
+header nav a{
+    display: inline-block;
+    color:white;
+    height:100%;
+    padding: 10px 0;
+}
+header nav a:hover{
+    background-color: white;
+    color:black;
+    transition-duration: 0.5s;
+}
+header nav li{
+    display:inline-block;
+    margin:auto 1%;
+}
