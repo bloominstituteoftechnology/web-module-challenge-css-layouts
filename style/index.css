@@ -1,1 +1,89 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+.bg-img {
+  
+    background-image: url("https://i.pinimg.com/originals/bd/cf/03/bdcf03478565d37dce2816190fe63415.jpg");
+  
+    min-height: 150px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ 
+    position: relative;
+  }
+  
+
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    justify-content: space-evenly;
+
+  }
+  
+    .footer {
+        justify-content: center;
+
+    }
+
+
+    img {
+        
+        border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px
+
+
+    }
+
+
