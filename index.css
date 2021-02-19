@@ -84,6 +84,8 @@ a{
 section{
     padding:4% 0;
 }
+
+
 /*body Section Styles*/
 .header{
     width: 100%;
@@ -139,7 +141,7 @@ padding-bottom:0%;
 
 
 
-  
+  /*center group of "projects"*/
 
 }
 .me h1{
@@ -152,6 +154,9 @@ padding-bottom:0%;
     margin-top:2%;
     width:25%
     
+}
+span{
+    color:red;
 }
 
 .picalign{
@@ -171,15 +176,7 @@ padding-bottom:0%;
 }
 
 
-/*button{
-    margin-top:10%;
-    width:70%;
-    padding:4%;
-    font-size:1.8rem;
-    background-color:#FBFFFB;
-    color:#266035;*/
 }
 
 
 
-/*test git*/
