@@ -41,6 +41,11 @@ body {
     color: #393e46;
 }
 
+.container nav a:hover {
+    background-color: #393e46;
+    color: white;
+}
+
 .container2 p {
     text-align: left;
     margin: 0 auto;
