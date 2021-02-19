@@ -57,5 +57,20 @@ table {
 
 body {
     display: flex;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
 }
 
+h2 {
+    font-family: "Source Code Pro", monospace;
+}
+
+h2 span {
+    font-style: italic;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
