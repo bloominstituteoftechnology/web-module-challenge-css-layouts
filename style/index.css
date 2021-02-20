@@ -47,7 +47,82 @@ table {
 	border-spacing: 0;
 }
 
-
+h1 {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 35px;
+	border-bottom: 5px dashed aqua;
+	border-top: 5px double aqua;
+	background-color: black;
+	color: gold;
+  }
+  
+  h2 {
+	font-weight: bold;
+	font-size: 25px;
+  /*   border-bottom: 3px solid black; */
+	text-decoration: underline;
+	padding: 25px;
+  }
+  
+  img {
+	height: 500px;
+  }
+  
+  .topimg {
+	
+	width: 1000px;
+	display: flex;
+  /*   margin-right: 170px; */
+	margin-left: 250px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-bottom: 5px solid aqua;
+  }
+  
+  .maingroup {
+	display: inline-flex;
+	border-bottom: 5px solid aqua;
+	
+  }
+  .sidetext {
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+  }
+  
+  footer {
+	padding:10px;
+	background-color: green;
+  }
+  
+  header {
+	background-color: green;
+	border-bottom: 3px solid;
+  /*   padding: 10px; */
+  }
+  
+  .topnav {
+	padding: 15px;
+	margin-left: 775px;
+  }
+  
+  button {
+	background-color: black;
+  }
+  
+  button:hover {
+	background-color: red;
+  }
+  
+  .lownav {
+	margin-left: 800px;
+  }
+  
+   about {
+	text-align: center;
+	font-size: 18px;
+  }
 
 
 
