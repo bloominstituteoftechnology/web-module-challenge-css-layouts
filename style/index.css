@@ -67,8 +67,8 @@ h1 {
     padding: 20px;
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(202, 202, 202);
-
+    color: rgb(255, 255, 255);
+    
 
 }
 
@@ -117,6 +117,7 @@ nav {
 .links a:hover{
     background: #3f0a6e;
     color: white;
+    border: 1px solid white;
 }
 
 
@@ -138,7 +139,7 @@ nav {
 #about_me img{
    border: 2px solid black;
    margin 10px 0 0 33px;
- 
+
 }
 
 #my_projects{
@@ -157,6 +158,7 @@ nav {
     flex-basis: 1;
     padding-top: 20px;
     padding-bottom: 10vh;
+    background: #808080;
     
 }
 
@@ -164,11 +166,12 @@ nav {
     display: flex;
     margin: 40px 15px 40px 15px;
     border: 2px solid black;
-    opacity: .3;
+    opacity: .2;
 }
 
 #images img:hover{
     opacity: 1;
+    border: 2px solid #3f0a6e;;
     
 }
 
@@ -178,11 +181,14 @@ nav {
     background: #808080;
     font-size: 1.5rem;
     font-weight: bold;
+    border: 2px solid black;
 }
 
 #contact_button:hover{
     background: #3f0a6e;
     color: white;
+    border: 2px solid white;
+
 }
 
 #my_projects{
