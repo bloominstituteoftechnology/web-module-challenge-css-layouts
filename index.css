@@ -58,8 +58,8 @@ table {
 h1 {
 	padding: 10px;
 	font-weight: bold;
-	font-size: 35px;
-	border-bottom: 5px dashed aqua;
+	font-size: 40px;
+	border-bottom: 5px double aqua;
 	border-top: 5px double aqua;
 	background-color: black;
 	color: gold;
@@ -67,7 +67,7 @@ h1 {
   
   h2 {
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 30px;
   /*   border-bottom: 3px solid black; */
 	text-decoration: underline;
 	padding: 25px;
@@ -82,7 +82,7 @@ h1 {
 	width: 1000px;
 	display: flex;
   /*   margin-right: 170px; */
-	margin-left: 250px;
+	margin-left: 225px;
 	margin-bottom: 15px;
 	padding: 10px;
 	border-bottom: 5px solid aqua;
@@ -120,7 +120,7 @@ h1 {
   }
   
   button:hover {
-	background-color: red;
+	background-color: gold;
   }
   
   .lownav {
