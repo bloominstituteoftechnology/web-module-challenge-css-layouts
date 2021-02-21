@@ -1,1 +1,57 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+  font-family:'Cinzel',serif;
+  background-color: #99B898 ;
+}
+
+nav{
+    border: solid #FECEAB 2px;
+    border-radius: 5px;
+    background-color: #FECEAB;
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    align-content:stretch;
+}
+h1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:whitesmoke;
+}
+h2{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    color:#E84A5F;
+    font-size: 2em;
+}
+p{
+    display:flex;
+    font-size:.9em;
+    justify-content:space-around;
+}
+img{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    border: solid red 1px;
+}
+#projects{
+    border:blue solid 1px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+#footer {
+    border: solid red 1px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    size:40%;
+
+}
