@@ -79,18 +79,20 @@ h1 {
   
   .topimg {
 	
-	width: 1000px;
+	width: 800px;
 	display: flex;
   /*   margin-right: 170px; */
-	margin-left: 225px;
+	margin-left: 515px;
 	margin-bottom: 15px;
 	padding: 10px;
 	border-bottom: 5px solid aqua;
+	border-radius: 30%;
   }
   
   .maingroup {
 	display: inline-flex;
 	border-bottom: 5px solid aqua;
+	margin-left: 5px;
 	
   }
   .sidetext {
@@ -112,25 +114,44 @@ h1 {
   
   .topnav {
 	padding: 15px;
-	margin-left: 775px;
+	margin-left: 680px;
   }
   
   button {
 	background-color: black;
+	border-radius: 25px;
+	padding: 10px;
+	margin-right: 20px;
   }
   
   button:hover {
 	background-color: gold;
   }
+
+  a:hover {
+	  color:red;
+  }
   
   .lownav {
-	margin-left: 800px;
+	margin-left: 830px;
   }
   
    about {
 	text-align: center;
 	font-size: 18px;
   }
+
+  .group {
+	  padding: 5px;
+	  margin-bottom: 20px;
+  }
+
+  a {
+	  font-size: 25px;
+	  font-weight: bold;
+	  text-transform: capitalize;
+  }
+
 
 
 
