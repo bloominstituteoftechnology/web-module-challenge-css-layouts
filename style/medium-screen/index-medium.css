@@ -33,6 +33,7 @@
 .projects div{
     flex-basis: 100%;
     height:100%;
+    overflow:hidden;
 }
 .projects .projects-description{
     padding:1.5%;
@@ -43,9 +44,9 @@
     align-items: center;
 }
 .projects .projects-description p{
-    font-size:2vw;
+    font-size:1.5vw;
 }
 .projects img{
     display:block;
-    width:100%;
+    width:auto;
 }
