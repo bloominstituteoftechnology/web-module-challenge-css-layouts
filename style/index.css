@@ -49,7 +49,7 @@ table {
 
 *{
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     font-size: 100%;
 }
@@ -70,17 +70,18 @@ header {
 .headernav { 
     display: flex;
     justify-content: flex-end; 
-    align-items: center;   
+    align-items: center;  
 }
 
-header nav a {
+header a {
     padding: 10px 20px;
     background-color:cadetblue;
     color: black;
     border: 1px black solid;
+    margin: 0 2%; 
 }
 
-header nav a:hover{
+header a:hover{
     background-color: black;
     color: white;
 } 
@@ -212,9 +213,18 @@ footer div{
 @media (max-width:800px) 
 {
     header {
-        background-color: rgb(70, 70, 122);
+        /* background-color: rgb(70, 70, 122); */
         flex-direction: column;
         align-items: center;
-        height:20vh;
+        align-content: center;
+        justify-content: space-evenly;
+        height:25vh;
+    }
+    .headernav {
+        flex-direction: column;
+    }
+    .headernav a {
+        width: 120px;
+        text-align: center;
     }
 } 
