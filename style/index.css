@@ -73,7 +73,7 @@ header {
     align-items: center;  
 }
 
-header a {
+.nav {
     padding: 10px 20px;
     background-color:cadetblue;
     color: black;
@@ -104,12 +104,6 @@ header a:hover{
 }
 
 .middletext {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
-
-.middlep{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +139,7 @@ header a:hover{
     align-content:space-around;
 }
 .showcaseimages p {
-    margin: 0%;
+    margin: 0 0 20px 0;
 }
 
 .scimage1 {
@@ -193,16 +187,13 @@ footer div{
     align-items: center;
     padding: 30px;
 }
-.footercontact {
-    padding:10px;
-    background-color:cadetblue;
-    color: black;
-    text-decoration: none;
-}
+
 .linked {
     height: 30px;
     width: 30px;
     padding: 5px 0 0 5px;
+    background-color: white;
+    margin: 0;
 }
 
 .footercontact:hover{
@@ -223,8 +214,13 @@ footer div{
     .headernav {
         flex-direction: column;
     }
-    .headernav a {
+    .nav {
         width: 120px;
         text-align: center;
+        margin: 1px 0;
+    }
+
+    footer {
+        display: contents;
     }
 } 
