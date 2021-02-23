@@ -49,7 +49,7 @@ table {
 
 *{
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     max-width: 100%;
     font-size: 100%;
 }
@@ -142,7 +142,6 @@ header nav a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content:space-around;
-    height: 600px;
 }
 .showcaseimages p {
     margin: 0%;
@@ -208,4 +207,14 @@ footer div{
 .footercontact:hover{
     background-color: black;
     color: white;
+} 
+
+@media (max-width:800px) 
+{
+    header {
+        background-color: rgb(70, 70, 122);
+        flex-direction: column;
+        align-items: center;
+        height:20vh;
+    }
 } 
