@@ -49,7 +49,7 @@ table {
 
 *{
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     max-width: 100%;
     font-size: 100%;
 }
@@ -73,7 +73,7 @@ header {
     align-items: center;  
 }
 
-.nav {
+.buttons {
     padding: 10px 20px;
     background-color:cadetblue;
     color: black;
@@ -81,7 +81,7 @@ header {
     margin: 0 2%; 
 }
 
-header a:hover{
+.buttons:hover{
     background-color: black;
     color: white;
 } 
@@ -121,16 +121,6 @@ header a:hover{
     text-transform: uppercase;
     margin: 0%;
 }
-.middletext a {
-    padding:10px;
-    background-color:cadetblue;
-    color: black;
-    text-decoration: none;
-}
-.middletext a:hover{
-    background-color: black;
-    color: white;
-} 
 
 .showcaseimages {
     display: flex;
@@ -140,9 +130,17 @@ header a:hover{
 }
 .showcaseimages p {
     margin: 0 0 20px 0;
+    padding: 0;
 }
 
-.scimage1 {
+.scimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .scimage1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +175,7 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
 
 footer div{
     display: flex;
@@ -186,6 +184,9 @@ footer div{
     align-content: center;
     align-items: center;
     padding: 30px;
+}
+footer p {
+    display: none;
 }
 
 .linked {
@@ -214,13 +215,24 @@ footer div{
     .headernav {
         flex-direction: column;
     }
-    .nav {
+    .buttons {
         width: 120px;
         text-align: center;
         margin: 1px 0;
     }
 
-    footer {
+    footer p{
         display: contents;
     }
 } 
+
+@media (max-width:500px) {
+    .buttons {
+        background-color: tomato;
+        color: palegoldenrod
+    }
+
+    .scimage {
+        width: 40%;
+    }
+}
