@@ -56,10 +56,10 @@ table {
 }
 
 body {
-    margin: 0 auto;
+    margin: 0 5%;
     background-color: black;
     color: white;
-    width: 800px;
+    width: 90%;
 }
 
 header {
@@ -100,23 +100,28 @@ h1 {
     font-family: 'Long Cang', sans-serif;
     font-size: 4rem;
     margin-top: 10%;
-    color: black;
+    color: whitesmoke;
 }
 
 .Projects {
     display: flex;
     justify-content: center;
+    width: auto;
     margin-bottom: 5%;
 }
 
 #Mainphoto {
-    background: url("https://i.ibb.co/dPLMFBW/Profilepic.jpg");
     display: flex;
-    width: 600px;
-    height: 425px;
-    justify-content: flex-start;
+    background: transparent;
+    width: 100%;
+    height: auto;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-image: url('https://all4desktop.com/data_images/original/4237455-cool-pictures.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .button {
@@ -124,6 +129,7 @@ h1 {
     background-color: rgb(56, 8, 8);
     color: white;
     border-radius: 10px;
+    margin-bottom: 10%;
     text-decoration: none;
 }
 
