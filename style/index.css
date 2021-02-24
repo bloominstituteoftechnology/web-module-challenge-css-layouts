@@ -47,97 +47,96 @@ body{
         
     }
 }
-@media (max-width: 800px){
-    a{
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
 
-    }
-    a:visited{
-        color: none;
-    }
-
-    .top-nav{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        margin-bottom: 10px;
-        height: 140px;
-        
-    }
-    nav{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .my-name{
-        font-size: 2.2em;
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-
-    .my-info p{
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-
-    .nav-btn{
-        padding: 2%;
-        border: 2.5px solid #FCCC76;
-        border-radius: 8px;
-    }
-
-
-    .about{
-        display: inline-flex;
-        justify-content: flex-start;
-    }
-
-    .about img{
-        width: 400px;
-        height: 100%;
-        margin-right: 20px;
-    }
-    .about p{
-        align-content: flex-start;
-        margin-top: 40px;
-    }
-
-    .projects{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-    }
-
-    .projects img{
-        width: 300px;
-        height: 280px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-        border: solid 1px black;
-    }
-
-    .footer{
-        display: flex;
-        flex-flow: column;
-    }
-
-    .footer h2{
-        justify-content: center;
-        padding: 30px;
-        margin: auto;
-    }
-
-    .footer a{
-        justify-content: center;
-        padding: 20px;
-        margin: auto;
-    }
-
+a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 
 }
+a:visited{
+    color: none;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 140px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+ }
+ 
+.my-name{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.my-info p{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.nav-btn{
+    padding: 2%;
+    border: 2.5px solid #FCCC76;
+    border-radius: 8px;
+}
+
+
+.about{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.about img{
+    width: 400px;
+    height: 100%;
+    margin-right: 20px;
+}
+.about p{
+    align-content: flex-start;
+    margin-top: 40px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.projects img{
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border: solid 1px black;
+}
+
+.footer{
+    display: flex;
+    flex-flow: column;
+}
+
+.footer h2{
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.footer a{
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
+
+
