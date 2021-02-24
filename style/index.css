@@ -26,14 +26,12 @@ body{
     .nav-btn{
         text-align: center;
     }
-
     .about{
-        display: flex;
         flex-direction: column;
         align-items: center;
         margin: auto;
     }
-
+   
     .my-info{
         display: flex;
         flex-direction: column;
