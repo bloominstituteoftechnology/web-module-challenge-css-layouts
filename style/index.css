@@ -204,7 +204,30 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 800px) {
+    .container nav {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .main-image {
+        width: 90%;
+        height: 300px;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .gallery-image {
+        width: 47%;
+        margin-bottom: 1rem;
+    }
+
+    .gallery p {
+        padding-top: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: )
