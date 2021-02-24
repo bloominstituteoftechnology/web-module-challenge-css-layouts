@@ -126,42 +126,23 @@ section {
     margin-bottom: 3rem;
 }
 
-.second-image {
+.gallery-image {
     height: 60vh;
     width: 20%;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-image: url("https://i.picsum.photos/id/122/4147/2756.jpg?hmac=-B_1uAvYufznhjeA9xSSAJjqt07XrVzDWCf5VDNX0pQ");
 }
 
-.third-image {
-    /* background-color: red; */
-    height: 60vh;
-    width: 20%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.gallery-image:nth-child(2) {
     background-image: url("https://i.picsum.photos/id/190/2048/1365.jpg?hmac=NWS1_X_JJ-Edi-9SZRhNwHyjKt1nECckxrGLS8_idjY");
 }
 
-.fourth-image {
-    /* background-color: purple; */
-    height: 60vh;
-    width: 20%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.gallery-image:nth-child(3) {
     background-image: url("https://i.picsum.photos/id/227/1024/683.jpg?hmac=63Bm3-6abEba_BO4lpAKdrnmSL04wZpwK17xue1mCXw");
 }
 
-.fifth-image {
-    /* background-color: pink; */
-    height: 60vh;
-    width: 20%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.gallery-image:nth-child(4) {
     background-image: url("https://i.picsum.photos/id/250/4928/3264.jpg?hmac=4oIwzXlpK4KU3wySTnATICCa4H6xwbSGifrxv7GafWU");
 }
 
@@ -180,8 +161,6 @@ footer {
     justify-content: center;
     background-color: #eeeeee;
     height: 20vh;
-    /* text-align: center; */
-    /* align-items: center; */
 }
 
 footer a {
@@ -196,3 +175,36 @@ footer a:hover {
     background-color: #393e46;
     color: white;
 }
+
+@media only screen and (max-width: 500px) {
+    .container nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-image {
+        width: 90%;
+        height: 300px;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .gallery-image {
+        width: 47%;
+        margin-bottom: 1rem;
+    }
+
+    .gallery p {
+        padding-top: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: )
