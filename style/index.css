@@ -181,3 +181,12 @@ footer a{
     flex-flow: row wrap;
     border-radius: 10%;
 }
+
+@media (max-width:800px){
+
+}
+
+
+@media (max-width:500px){
+    
+}
