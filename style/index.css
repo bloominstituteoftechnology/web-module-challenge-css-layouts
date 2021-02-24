@@ -64,6 +64,7 @@ header {
 }
 
 h1 {
+    display: block;
     padding: 20px;
     font-size: 3rem;
     font-weight: bold;
@@ -197,4 +198,49 @@ nav {
     font-size: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+
+@media (max-width: 800px) {
+    header{
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .links {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .links a{
+        width: 150px;
+        height: 20px;
+    }
+
+
+    header nav {
+        flex-wrap: wrap;
+    }
+    #about_me{
+        flex-flow: column wrap;
+        align-items: center;
+    
+    }
+
+    #about_me img {
+        width: 100%;
+        
+
+        
+    }
 }
