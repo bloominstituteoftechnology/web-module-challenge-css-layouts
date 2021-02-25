@@ -50,7 +50,6 @@ table {
 
 * {
     box-sizing: border-box;
-    /* font-family: 'Nunito Sans', sans-serif; */
     font-family: futura;
     color: #eeeeee;
 }
@@ -229,5 +228,3 @@ footer a:hover {
         width: 100%;
     }
 }
-
-@media only screen and (max-width: )
