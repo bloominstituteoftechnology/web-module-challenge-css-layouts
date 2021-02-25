@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
  } 
 
+ 
+ 
  h1 {
 	font-family: 'inter';
 	font-size: 70px;
@@ -55,12 +57,10 @@ table {
 	background-color: #778899;
 	text-shadow: 1px 1px black;
  }
-
- 
-
  .navbar {
 	 display: flex;
 	 justify-content: flex-end;
+	 
 	 background: black;
 	
  }
@@ -231,4 +231,26 @@ footer {
 .buttonbottom:hover {
 background-color: black;
 transition: .5s;
+}
+
+@media only screen and (max-width: 500px) {
+	 
+
+
+header {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 }
