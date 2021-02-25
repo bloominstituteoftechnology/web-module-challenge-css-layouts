@@ -108,29 +108,33 @@ nav{
     background-color:whitesmoke;
     width:100%;
 }
+/*.middlewhite .imgleft{
+    display:flex;
+    flex-wrap: ;
+    width:65%;}*/
 
 .jwg h2{
     display:flex;
     font-size: 2rem;
+
+
 }
 /*.tester{
     display: flex;
     justify-content: space-around;*/
 }
-.imgleft {display: flex;
+/*.imgleft {display: flex;
     justify-content: 
     height:50vh;
    width:40%;
-   margin:5%;
+   margin:5%;*/
   
 }
 
 .textright{ 
-    display:flex;
-    align-self: center;
-
+display:flex;
 text-align: center;
-width:100%;
+width:40%;
 padding-bottom:0%;
 
 
@@ -145,6 +149,12 @@ padding-bottom:0%;
     display:flex;
     justify-content: center;
     max-width:100%;
+}
+.projcontainer a{
+    color:rgb(162, 133, 163);
+}
+.projcontainer a:hover{
+text-transform:uppercase;
 }
 
 .projects2 {
@@ -220,6 +230,8 @@ nav:hover{
 /* THIS AREA SHOULD BE USED TO ALIGN MY MAIN PIC
 AND TEXT. SHOULD BE 100% WIDTH IN A COLUMN BUT I 
 AM MISSING SOMETHING OR MANY THINGS*/
+
+
 
 .projects2{
     display: flex;
