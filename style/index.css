@@ -1,15 +1,17 @@
 @media (max-width: 1920px) {
     html {
+        background-color: lightgray;
         font-size: 62.5%;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
-    * {
-        border: dashed darkblue 3px;
-    }
+    /* * {
+        border: dashed darkblue 2px;
+    } */
     
     body {
         text-align: center;
+        align-content: center;
         font-size: 2rem;
     }
     
@@ -17,19 +19,6 @@
         width: 50%;
         margin: auto;
         padding: 1%;
-    }
-    
-    a {
-        text-decoration: none;
-        width: 100%;
-        display: flex-nowrap;
-        justify-content: space-between;
-        padding: 20%;
-        margin: auto;
-    }
-    
-    a:hover {
-        color: white;
     }
     
     nav {
@@ -47,17 +36,28 @@
         margin: auto;
     }
     
+    .nav-item a {
+        text-decoration: none;
+        width: 90%;
+        justify-content: space-between;
+        padding: 20%;
+        margin: auto;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
     .intro {
         width: 66%;
         margin: auto;
         padding: 3%;
         font-size: 2rem;
         background-color: slategray;
-    }
-    
-    .intro a {
-        color: orangered;
-        text-decoration: none;
+    } 
+
+    .intro img {
+        width: 20%;
     }
     
     .main-content {
@@ -67,42 +67,36 @@
         padding: 3px;
     }
     
-    .main-content > img {
-        width: 90%;
+    .main-content img {
+        width: 63%;
         margin: auto;
         padding-top: 1%;
         padding-right: 2%;
         padding-bottom: 2%;
-        padding-bottom: 2%;
+        padding-left: 1%;
     }
     
     .container {
-        width: 72%;
-        margin: auto;
-        height: 300px;
-    }
-    
-    .container-content {
         display: flex;
         flex-wrap: row nowrap;
+        width: 76%;
         align-content: center;
         justify-content: space-evenly;
         margin: auto;
         height: inherit;
     }
     
-    .container-content > div {
-        max-height: 300px;
-        max-width: 200px;
+    .container-item {
+        height: 300px;
+        width: 15%;
         align-content: center;
         justify-content: center;
-    
         padding: 2px;
         margin: inherit;
     }
-    
-    .container-item > img {
-        margin: auto;
+
+    .item3 {
+        padding-top: 3%;
     }
     
     footer {
@@ -112,9 +106,21 @@
 }
 
 @media (max-width: 1366px) {
-
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
-@media (max-width: 360) {
+@media (max-width: 360px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: inherit;
+    }
 
+    .container-item {
+        margin: 0;
+        padding: 0;
+    }
 }
