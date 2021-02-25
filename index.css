@@ -154,5 +154,44 @@ h1 {
 
 
 
+@media (max-width: 1000px) {
+    .topnav {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 0;
+    }
+    .lownav {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 0;
+    }
+    .maingroup {
+      flex-direction: column;
+      
+    }
+    .topimg {
+      margin-left: 0;
+    }
+    nav {
+      
+    }
+}
+
+@media (max-width: 800px) {
+  .topimg {
+    width: 95%;
+  }
+  
+}
+
+
+@media (max-width: 500px) {
+      img {
+    height: 300px;
+}
+  
+}
+
+
 
 
