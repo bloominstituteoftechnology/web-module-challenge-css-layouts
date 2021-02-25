@@ -65,3 +65,22 @@ footer.footer{
     justify-content: center;
     align-content: center;
 }
+@media (max-width: 800px){
+    nav ul{
+        flex-direction:column;
+    }
+    nav ul a li{
+        text-align: center;
+    }
+    div.projects{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    img.project{
+        margin: 10px;
+    }
+    div.projects p{
+        text-align: center;
+        margin: 5px;
+    }
+}
