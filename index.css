@@ -118,20 +118,21 @@ nav{
     justify-content: space-around;
 }
 .imgleft {display: flex;
+    justify-content: 
     height:50vh;
    width:40%;
-   margin-top: 10%;
-   margin-left: 10%;   
+   margin:5%;
+  
 }
 
 .textright{ 
-    display:;
+    display:flex;
+    align-self: center;
 
 text-align: center;
-height:
-padding-left:50%;
-width:35%;
+width:100%;
 padding-bottom:0%;
+
 
 
 
@@ -140,9 +141,10 @@ padding-bottom:0%;
   /*center group of "projects"*/
 
 }
-.me h1{
-    align-content:flex-start;
-    width:25%;
+.me h2{
+    display:flex;
+    justify-content: center;
+    max-width:100%;
 }
 
 .projects2 {
@@ -193,10 +195,19 @@ span{
 @media (max-width: 400px) {
 
  .title h1 {
-     background-color: grey;
     display: none;
 }
+.whoami{
+    display: inline-block;
+    align-content:center;
+    padding-left: 15%;
+    
 
+}
+nav{
+    flex-direction: column;
+    text-align: center;
+}
 
 
 
