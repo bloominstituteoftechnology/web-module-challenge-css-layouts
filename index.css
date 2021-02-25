@@ -189,10 +189,15 @@ span{
     display:flex;
     width: ;*/
 
-    
 
+@media (max-width: 400px) {
 
+ .title h1 {
+     background-color: grey;
+    display: none;
 }
+
+
 
 
 
