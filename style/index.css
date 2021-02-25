@@ -1,12 +1,90 @@
 /* Add CSS styling here */
-* {
+
+
+body {
     color: #004d4d;
+    background: #fff9e6;
+    margin: 7.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 40px;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: rgb(121, 115, 115);
+    font-size: 1.5rem;
+ }
+ header nav a:hover {
+     background-color: #004d4d;
+     color: #fff9e6;
+}
+.logo {
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+.logo img {
+    width: 40%;
+}
+img{
+    border-radius: 10px;
+}
+.projectLink {
+    display: flex;
+    justify-content: center;
+}
+.joy-about {
+    text-align: center;
+}
+joy-about button {
+    text-align: center;
+}
+button {
+    border: 1px solid white;
+    background-color: #004d4d;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover {
+    border: 1px solid #004d4d;
+    background-color: white;
+    color: #004d4d
+}
+h2 {
+    text-align: center;
 }
 
+.gallery img {
+    width: 33%;
+}
 
+.contact-joy address {
+  font-style: normal;
+  text-align: center;
+}
 
-.logo {
-    width: 20%;
-    border: 3px solid black;
-    border-radius: 5px;
+footer {
+    background: #004d4d;
+    color: white;
+    text-align: center;
+}
+address {
+   line-height: 2; 
+    margin: auto;
+}
+
+footer nav a {
+   color: white;
+   font-size: 1.5rem;
+   padding: 100px;  
+}
+footer nav a:hover {
+    background-color: white;
+    color: #004d4d;
 }
