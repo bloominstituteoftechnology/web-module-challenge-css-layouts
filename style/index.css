@@ -6,6 +6,7 @@
 
 
 .logo {
-    width: 20%'
-    '
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 5px;
 }
