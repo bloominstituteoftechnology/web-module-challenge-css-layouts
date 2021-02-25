@@ -185,12 +185,8 @@ span{
 .hitmeup{
     align-self: center;
 }
-/*footer styles*/
-/*.like ,tmeup  {
 
-    display:flex;
-    width: ;*/
-
+/*Below are media queries for responsive designs*/
 
 @media (max-width: 400px) {
 
@@ -207,6 +203,9 @@ span{
 nav{
     flex-direction: column;
     text-align: center;
+}
+.tester .imgleft {;
+    width:100%;
 }
 
 
