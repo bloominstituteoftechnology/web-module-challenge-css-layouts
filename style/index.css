@@ -268,6 +268,7 @@ footer a{
     }
 
 
+
     .section2{
         /* margin-top: 10%; */
         margin-bottom: 1%;
@@ -279,6 +280,8 @@ footer a{
         padding-top: 1%;
         text-align: center;
     }
+
+
 
     footer{
         display: flex;
@@ -296,5 +299,22 @@ footer a{
 
 
 @media (max-width:500px){
-    
+    .navContainer a{
+        width: 50%;
+    }
+
+    #intro{
+        margin: 2px auto;
+    }
+    .section1 #intro a{
+        width: 50%;
+    }
+
+    .project{
+    flex-flow: row wrap;
+    width:150px;
+    }
+    .project img{
+        width: 10rem;
+    }
 }
