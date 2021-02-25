@@ -113,9 +113,9 @@ nav{
     display:flex;
     font-size: 2rem;
 }
-.tester{
+/*.tester{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 .imgleft {display: flex;
     justify-content: 
