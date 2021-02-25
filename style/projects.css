@@ -56,10 +56,10 @@ table {
 }
 
 body {
-    margin: 0 auto;
+    margin: 0 5%;
     background-color: black;
     color: white;
-    width: 800px;
+    width: 90%;
 }
 
 header {
@@ -87,11 +87,35 @@ header {
     background-color: black;
     border: 1px solid white;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
     padding: 7%;
 }
 
 .links a:hover {
     background-color: lightskyblue;
     color: black;
+}
+
+h1 {
+    font-family: 'Long Cang', sans-serif;
+    margin-top: 10%;
+    color: whitesmoke;
+}
+
+a {
+    border-radius: 5px;
+}
+
+@media (max-width: 2000px) {
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .links a {
+        font-size: 1.75rem;
+    }
+}
+
+@media (Max-width: 800px) {
+    
 }

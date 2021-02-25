@@ -87,7 +87,6 @@ header {
     background-color: black;
     border: 1px solid white;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
     padding: 7%;
 }
 
@@ -98,7 +97,6 @@ header {
 
 h1 {
     font-family: 'Long Cang', sans-serif;
-    font-size: 4rem;
     margin-top: 10%;
     color: whitesmoke;
 }
@@ -145,12 +143,11 @@ a {
 }
 
 .Mainelement {
-    width: 25%;
-    margin: 2.5%;
+    width: 30%;
+    margin: 1%;
 }
 
 h3 {
-    font-size: 1.5rem;
     font-weight: bold;
     margin: 5%;
 }
@@ -158,4 +155,26 @@ h3 {
 .button:hover {
     Color: Green;
     background-color: whitesmoke;
+}
+
+@media (max-width: 2000px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .links a {
+        font-size: 1.75rem;
+    }
+
+    .button {
+        font-size: 2rem;
+    }
+}
+
+@media (Max-width: 800px) {
+    
 }
