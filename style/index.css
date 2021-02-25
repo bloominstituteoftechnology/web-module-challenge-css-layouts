@@ -1,7 +1,7 @@
-/* Add CSS styling here */
+Add CSS styling here */
 *{
     border: 1px solid black;
-    background-color: greenyellow;
+     background-color: greenyellow; 
     width:100%;
    
 
@@ -49,3 +49,13 @@ footer{
 .image2{
     width:20%;
 }
+
+ @media only screen and (max-width: 500px min-width:500px) {
+  body {
+    background-color: lightblue;
+  }
+@media only screen and ( min-width:500px) {
+  body {
+    background-color: lightblue;
+  }
+} } 
