@@ -1,0 +1,126 @@
+/* Navigation Bar */
+
+.container{
+    margin:20px;  
+    width:auto;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.bg-img {
+    background-image: url(https://e7.pngegg.com/pngimages/130/289/png-clipart-landscape-of-high-rise-building-with-lights-metropolis-skyscraper-skyline-cityscape-landscape-night-city-landscape-background-building-city.png);
+min-height: 150px;
+background-position: center;
+background-repeat: none;
+background-size: cover;
+position: relative;
+    }
+
+    .topnav {
+        overflow:hidden;
+        background-color:lightsteelblue;
+    }
+
+    .topnav a {
+     float: left;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 15px; 
+     font-family: 'Roboto', sans-serif;
+         
+
+
+    }
+
+    .topnav a:hover {
+        background-color:dimgrey;
+        color:dimgrey;
+    }
+
+
+    /* Body */
+
+        
+
+    }
+
+
+    .body p{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 150px;
+    text-align: center;  
+     font-size: 2rem;  
+     background-color: darkblue;
+     display: flex;
+    
+
+    }
+    /* Intro */
+    
+    .intro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        border-style: groove;
+        border-color: darkblue;
+        color: lightsteelblue;
+        background-color: darkblue;
+        
+    }
+
+
+    /* Gallery */
+    
+    .gallery {
+    
+        display: flex;
+        justify-content: space-around;
+        border-style: groove;
+        border-color: darkblue;
+        background-color: darkblue;
+       
+    }
+
+        .gallery img {
+
+        border-radius: 8px
+        }
+
+
+        /* HTML */
+        
+        @media screen(max-width:500px) html {
+            background-color:lightsteelblue;
+            display: flex;
+
+           
+          
+            
+        }
+
+        /* Footer */
+        footer {
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Roboto', sans-serif;
+            font-size:1.25rem ;
+            color: lightsteelblue;
+            background-color: darkblue;
+            padding: 30px;
+
+
+        }
+
+       
+        
+            
+            
+          
+
+    
+
