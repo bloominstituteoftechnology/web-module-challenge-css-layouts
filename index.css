@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background: silver;
+	background-image: url(https://picsum.photos/200/300/?blur);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ol, ul {
 	list-style: none;
@@ -62,7 +66,7 @@ h1 {
 	border-bottom: 5px double aqua;
 	border-top: 5px double aqua;
 	background-color: black;
-	color: gold;
+	color: white;
   }
   
   h2 {
@@ -103,11 +107,11 @@ h1 {
   
   footer {
 	padding:10px;
-	background-color: green;
+	background-color: gold;
   }
   
   header {
-	background-color: green;
+	background-color: gold;
 	border-bottom: 3px solid;
   /*   padding: 10px; */
   }
