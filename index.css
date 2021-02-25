@@ -143,7 +143,7 @@ h1 {
   
    about {
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
   }
 
   .group {
@@ -201,29 +201,27 @@ h1 {
 }
 
 @media (max-width: 800px) {
-  .topimg {
-    /* width: 95%; */
-  }
+	h1 {
+		text-align: center;
+	}
   img {
     height: 350px;
+}
+  a {
+	font-size: 20px;
 }
   
 }
 
 
 @media (max-width: 500px) {
-      
-h1 {
-	text-align: center;
-}
-
-.lownav {
-	/* justify-content: center; */
-}
 img {
     height: 300px;
 }
-  
+body {
+	font-weight: bold;
+}
+
 }
 
 
