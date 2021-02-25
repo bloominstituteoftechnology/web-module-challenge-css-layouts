@@ -52,6 +52,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 
 
 
@@ -62,7 +66,7 @@ table {
 h1 {
 	padding: 10px;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 4rem;
 	border-bottom: 5px double darkred;
 	border-top: 5px double darkred;
 	background-color: black;
@@ -71,7 +75,7 @@ h1 {
   
   h2 {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 3rem;
   /*   border-bottom: 3px solid black; */
 	text-decoration: underline;
 	padding: 25px;
@@ -103,7 +107,7 @@ h1 {
   .sidetext {
 	padding: 10px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 2.5rem;
   }
   
   footer {
@@ -152,7 +156,7 @@ h1 {
   }
 
   a {
-	  font-size: 25px;
+	  font-size: 2.5rem;
 	  font-weight: bold;
 	  text-transform: capitalize;
   }
@@ -208,7 +212,7 @@ h1 {
     height: 350px;
 }
   a {
-	font-size: 20px;
+	font-size: 2rem;
 }
   
 }
