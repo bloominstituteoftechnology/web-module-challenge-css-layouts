@@ -52,7 +52,7 @@ table {
 html {
     margin-left:auto;
     margin-right:auto;
-    width: 50%;
+    width: 70%;
     font-family: 'Rubik', sans-serif;
     background-color: lightblue;
     font-size:62.5%;
@@ -90,7 +90,7 @@ Header{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 10px;
-    /* border-radius: 5%; */
+    border-radius:10px;
 }
 .navContainer{
     display:flex;
@@ -120,9 +120,9 @@ Header{
     /* flex-flow: row wrap; */
 }
 .section1 img{
-    width: 200%;
-    height: 200%;
-    border-radius: 10%;
+    max-width: 100rem;
+    /* height: 200%; */
+    border-radius: 10px;
 }
 #intro {
     display:flex;
@@ -131,7 +131,7 @@ Header{
     margin-left: 10%;
     margin-right: 10%;
     padding:10px;
-    border-radius: 10%;
+    border-radius: 10px;
     line-height: 40px;
     background-color: mintcream;
 }
@@ -153,7 +153,7 @@ Header{
     flex-flow:row wrap;
     justify-content: space-between;
     background-color: mintcream;
-    border-radius: 3%;
+    border-radius: 10px;
     padding-top: 1%;
     text-align: center;
 }
@@ -163,12 +163,13 @@ Header{
     margin-right:1.5%;
 }
 .project img{
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 
 footer{
     background-color: midnightblue;
+    border-radius: 10px;
     /* margin-top: 50px; */
     /* margin-bottom: 100px; */
     /* padding-top: 30px; */
@@ -185,11 +186,112 @@ footer a{
     padding:1%;
     background-color: orange;
     flex-flow: row wrap;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 @media (max-width:800px){
+    Header{
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        text-align: center;
+        background-color: midnightblue;
+        /* margin-top: 50px; */
+        /* margin-bottom: 100px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        /* border-radius: 5%; */
+    }
+    .navContainer{
+        /* display:flex; */
+        justify-content:center;
+        flex-flow: column nowrap;
+        /* margin-left: 1%; */
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* flex-wrap: wrap; */
+    }
+    .navContainer a{
+        /* margin-left: 1%; */
+        margin: 2px auto;
+        /* margin-right:2%; */
+        padding:1%;
+        width: 20%;
+        background-color: orange;
+        flex-flow: column wrap;
+        border-radius: 10px;
+        font-size: 2rem;
+        /* width: 0vh;
+        height: 0vh; */
+    }
 
+
+
+
+    .section1{
+        display:flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-bottom:2%;
+        /* flex-flow: row wrap; */
+    }
+   
+    .section1 img{
+        /* display: flex; */
+        /* justify-self: center; */
+        max-width: 45rem;
+        /* max-height: 45rem; */
+        /* border-radius: 10%; */
+        margin: 2% auto;
+    }
+    #intro {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+        padding:10px;
+        /* border-radius: 10%; */
+        line-height: 40px;
+        background-color: mintcream;
+        text-align: center;
+    }
+    .section1 #intro a{
+        margin-left: 2%;
+        margin-right:2%;
+        padding:1%;
+        background-color: orange;
+        flex-flow: row wrap;
+        /* border-radius: 10px; */
+        font-size: 1.5rem;
+    }
+
+
+    .section2{
+        /* margin-top: 10%; */
+        margin-bottom: 1%;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: space-evenly;
+        background-color: mintcream;
+        /* border-radius: 3%; */
+        padding-top: 1%;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    footer a{
+        margin: 2px auto;
+        width: 60px;
+        font-size: 1.5rem;
+    }
+   
 }
 
 
