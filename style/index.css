@@ -55,6 +55,7 @@ html {
     width: 50%;
     font-family: 'Rubik', sans-serif;
     background-color: lightblue;
+    font-size:62.5%;
 }
 body{
     border: 5px mintcream;
@@ -67,15 +68,18 @@ h1, h2, h3 {
     font-weight: bold;
 }
 h1{
-    font-size:40px;
+    font-size:3.5rem;
     color:mintcream;
     margin-left:1%;
 }
 h2{
-    font-size:30px
+    font-size:2.875rem;
 }
 h3{
-    font-size:20px
+    font-size:2.25rem;
+}
+p {
+    font-size: 1.5rem;
 }
 
 
@@ -102,7 +106,8 @@ Header{
     padding:1%;
     background-color: orange;
     flex-flow: row wrap;
-    border-radius: 10%;
+    border-radius: 10px;
+    font-size: 1.5rem;
     /* width: 0vh;
     height: 0vh; */
 }
@@ -136,7 +141,8 @@ Header{
     padding:1%;
     background-color: orange;
     flex-flow: row wrap;
-    border-radius: 10%;
+    border-radius: 10px;
+    font-size: 1.5rem;
 }
 
 
