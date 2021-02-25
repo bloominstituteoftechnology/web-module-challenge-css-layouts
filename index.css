@@ -50,7 +50,7 @@ table {
     border:1px solid grey;
 }
 /*general styles*/
-html{;
+html{
     font-size:62.5%;
 }
 body{
@@ -116,20 +116,24 @@ nav{
 .jwg h2{
     display:flex;
     font-size: 2rem;
-
-
 }
+
+
+} /*why is the bracket to the left 
+holding my page together*/
+
+
+
 /*.tester{
     display: flex;
     justify-content: space-around;*/
-}
+
 /*.imgleft {display: flex;
     justify-content: 
     height:50vh;
    width:40%;
    margin:5%;*/
-  
-}
+
 
 .textright{ 
 display:flex;
@@ -231,7 +235,9 @@ nav:hover{
 AND TEXT. SHOULD BE 100% WIDTH IN A COLUMN BUT I 
 AM MISSING SOMETHING OR MANY THINGS*/
 
-
+.imgleft:hover img{
+    transform: scale(.75);
+}
 
 .projects2{
     display: flex;
