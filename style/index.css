@@ -6,11 +6,13 @@ body {
     background: #fff9e6;
     margin: 7.5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 25px solid #004d4d;
+    padding: 10px;
 }
 h1 {
     text-align: center;
     font-size: 4rem;
-    padding: 40px;
+    padding: 30px;
 } 
 header nav{
     display: flex;
@@ -25,7 +27,7 @@ header nav{
 }
 .logo {
     text-align: center;
-    padding: 30px;
+    padding: 15px;
     width: 100%;
     border-radius: 20px;
 }
@@ -46,20 +48,22 @@ joy-about button {
     text-align: center;
 }
 button {
-    border: 1px solid white;
+    border: 1px solid black;
     background-color: #004d4d;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 button:hover {
     border: 1px solid #004d4d;
     background-color: white;
     color: #004d4d
-}
+
 h2 {
     text-align: center;
 }
-
+  
+}
 .gallery img {
     width: 33%;
 }
@@ -87,4 +91,48 @@ footer nav a {
 footer nav a:hover {
     background-color: white;
     color: #004d4d;
+    padding: 15px;
+} 
+
+@media (max-width: 800px) {
+body {
+    color: #004d4d;
 }
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.gallery img {
+    display: flex;
+    flex-direction:column;
+}
+}
+@media (max-width: 500px) {
+    body {
+        color: black;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .logo {
+        width: 400px;
+        padding: 2rem;
+    }
+    .gallery img {
+        display: flex;
+        flex-direction:column;
+        width: 85%
+    }
+    button {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: white;
+        border: 7px solid black;
+    }
+    .social-links {
+        text-align: center;
+    }
+    footer nav a:hover{
+        padding: 0;
+    }
