@@ -238,7 +238,12 @@ AM MISSING SOMETHING OR MANY THINGS*/
 .imgleft:hover img{
     transform: scale(.75);
 }
-
+ .me h2:hover{
+color:palegreen
+ }
+.words:hover p{
+    color:rgb(208, 214, 191);
+}
 .projects2{
     display: flex;
     flex-wrap: wrap;
