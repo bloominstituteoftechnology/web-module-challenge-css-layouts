@@ -1,1 +1,204 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    /* border: 2px solid black; */
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 5px;
+}
+
+button {
+    display: flex;
+    margin: 15px;
+    background-color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 5px 5px;
+}
+
+button a:hover {
+    background-color: black;
+    color: white;
+}
+
+.top {
+    background-color: lightslategray;
+}
+
+/* middle section */
+
+.info-snippet {
+    display: flex;
+}
+
+.about-snippet {
+    flex-direction: column;
+    margin: 50px;
+    padding: 25px 25px;
+}
+
+.about-snippet h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-snippet button {
+    background-color: black;
+}
+
+.about-snippet a {
+    color: white;
+}
+
+.about-snippet p {
+    font-size: 20px;
+}
+
+.info-snippet img {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+.info-snippet a {
+    text-decoration: none;
+}
+
+/* pics of all projects section */
+
+.project-links-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-links-1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.pl-a1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl-a1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.project-links-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-links-2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.pl-a2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl-a2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+footer p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
