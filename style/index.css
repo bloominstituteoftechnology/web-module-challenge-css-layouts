@@ -1,1 +1,98 @@
-/* Add CSS styling here */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	border: 2px solid grey;
+	color: #4f4f4f;
+}
+
+/* GENERAL */
+h1,
+h2 {
+	/* width: 100%; */
+}
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+/* TOP */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav button {
+	margin-left: 2%;
+	padding: 2px 5px;
+	flex: 1;
+}
+
+main {
+	background-image: url('https://images.unsplash.com/photo-1615366105533-5b8f3255ea5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1647&q=80');
+	/* display: flex; */
+	width: 80%;
+	padding: 15% 20%;
+	margin: 5% auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* PHOTO GALLERY */
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 5% 5%;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.top_row,
+.bottom_row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image {
+	width: 25%;
+}
+
+.image img {
+	width: 100%;
+}
+
+/* FOOTER  */
+footer {
+	display: flex;
+	background: #bada55;
+	/* width: 100%; */
+	padding: 2%;
+	justify-content: center;
+}
+
+footer button {
+	padding: 1.3rem 1.5rem;
+	margin: 2rem 0;
+	border-radius: 10px;
+	font-size: 2rem;
+	background: url('');
+}
