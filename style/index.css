@@ -155,7 +155,7 @@ h1 {
 }
 
 .topimg img {
-  width: 90%;
+  width: 80%;
   margin: 0.5rem;
 }
 
@@ -177,7 +177,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
 }
 
@@ -189,8 +189,34 @@ h1 {
   font-size: 1.7rem;
   padding: 0.8rem 6rem;
   border-radius: 0.9rem;
+  margin-top: 1.5rem;
 }
 
 .items p {
-  padding: 7rem;
+  padding: 1.5rem 0rem;
+  font-size: 2.5rem;
+  width: 70%;
+}
+
+.body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.pic {
+  flex-flow: row wrap;
+}
+
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img,
+.image6 img,
+.image7 img,
+.image8 img {
+  margin: 0.5rem;
+  width: 25rem;
+  height: 16.5rem;
 }
