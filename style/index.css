@@ -6,16 +6,11 @@
 	font: inherit;
 	vertical-align: baseline;
 	box-sizing: border-box;
-	/* border: 2px solid grey; */
 	color: #3f3939;
 	font-family: 'Poppins', sans-serif;
 }
 
 /* GENERAL */
-h1,
-h2 {
-	/* width: 100%; */
-}
 
 h1 {
 	font-size: 4rem;
@@ -51,8 +46,6 @@ header nav {
 	width: 40%;
 }
 
-/* nav {
-} */
 .button {
 	padding: 2px;
 	width: 15rem;
@@ -114,9 +107,6 @@ footer {
 	bottom: 0;
 }
 
-footer * {
-	/* border: 2px solid grey; */
-}
 footer nav {
 	display: flex;
 	justify-content: space-between;
