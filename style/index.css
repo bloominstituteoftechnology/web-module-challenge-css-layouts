@@ -3,12 +3,12 @@
 	padding: 0;
 	border: 0;
 	font-size: 62.5%;
-	font-family: 'Poppins', sans-serif;
 	font: inherit;
 	vertical-align: baseline;
 	box-sizing: border-box;
-	border: 2px solid grey;
-	color: #4f4f4f;
+	/* border: 2px solid grey; */
+	color: #3f3939;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* GENERAL */
@@ -26,24 +26,43 @@ h2 {
 	font-size: 1.5rem;
 }
 
-/* TOP */
+a {
+	text-decoration: none;
+}
+
+/* HEADER */
 
 header {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	margin-top: 1%;
+}
+
+header h2 {
+	margin-left: 5%;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
 }
 
 nav {
+	margin-right: 5%;
+	width: 40%;
+}
+.button {
+	padding: 2px;
+	width: 15rem;
+	border: 1px solid #3f3939;
 	display: flex;
-	justify-content: flex-end;
+	align-items: center;
+	justify-content: center;
 }
 
-nav button {
-	margin-left: 2%;
-	padding: 2px 5px;
-	flex: 1;
-}
+/* BODY */
 
 main {
 	background-image: url('https://images.unsplash.com/photo-1615366105533-5b8f3255ea5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1647&q=80');
@@ -61,15 +80,19 @@ main {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 0 5% 5%;
+	margin: 0 0 5%;
 	text-align: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .top_row,
 .bottom_row {
 	display: flex;
 	justify-content: space-around;
+}
+
+.top_row {
+	margin-bottom: 2%;
 }
 
 .image {
@@ -85,14 +108,15 @@ footer {
 	display: flex;
 	background: #bada55;
 	/* width: 100%; */
-	padding: 2%;
+	padding: 1%;
 	justify-content: center;
 }
 
-footer button {
-	padding: 1.3rem 1.5rem;
+.foot-contact {
+	padding: 1rem 1.5rem;
 	margin: 2rem 0;
 	border-radius: 10px;
-	font-size: 2rem;
-	background: url('');
+	font-size: 1rem;
+	border: 1px solid #444444;
+	background-color: white;
 }
