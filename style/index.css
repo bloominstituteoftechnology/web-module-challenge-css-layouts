@@ -1,1 +1,182 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+body {
+    background-color: #EEE2DC;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    color: #123C69;
+}
+
+#home {
+    display: block;
+}
+
+#home h1 {
+    padding-left: 80px;
+    padding-top: 45px;
+}
+
+#home nav {
+    padding-left: 85px;
+    padding-top: 15px;
+}
+
+.bar {
+    background-color: #EDC7B7;
+    height: 200px;
+}
+
+nav {
+    width:fit-content;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #123C69;
+}
+  
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    border: 1px solid #EDC7B7;
+    display: block;
+    padding: 8px 12px;
+    color: white;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #2C2C2C;
+}
+
+#main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#about {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutContainer img {
+    width: 350.6px;
+    height: 350.8px;
+    border: 2px solid #EDC7B7;
+}
+
+.aboutContainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutContainer .item {
+    align-self: center;
+    padding-top: 5px;
+}
+
+.aboutContainer .item h1{
+    padding-bottom: 15px;
+}
+
+.aboutContainer .item p{
+    text-align: left;
+    padding-top: 15px;
+    line-height: 120%;
+    width:350px;
+}
+
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.galleryContainer img {
+    border: 2px solid #EDC7B7;
+}
+
+.galleryContainer .item p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#footer .bar .contact {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#footer .bar .contact nav{
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
