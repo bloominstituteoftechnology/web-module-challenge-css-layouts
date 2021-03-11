@@ -16,6 +16,7 @@ body{
 }
 h1{
     font-size:6rem;
+    align-items:center;
 }
 section{
     padding:4% 0;
@@ -28,7 +29,7 @@ nav{
 nav a{
     display:inline-block;
     padding:.5%;
-    width:20%;
+    width:10%;
     text-align:center;
     border-radius:10px;
     text-decoration: none;
@@ -53,13 +54,18 @@ nav a{
 .text{
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
     text-align:center;
+    justify-content: center;
 }
 .myProjects{
     border:1px solid grey;
     border-radius:10px;
     text-align:center;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    min-width:60px;
 }
 .imageOne{
     justify-content: center;
@@ -93,7 +99,7 @@ footer{
     text-decoration: none;
 }
 
-@media(max-width:800px) {
+/* @media(max-width:800px) {
     .myName{
         text-align:center;
     }
@@ -120,4 +126,4 @@ footer{
 }
 @media(max-width:500px) {
     
-}
+} */
