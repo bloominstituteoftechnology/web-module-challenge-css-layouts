@@ -1,1 +1,12 @@
 /* Add CSS styling here */
+*{
+/* border: solid black 1px; */
+background:rgb(214, 214, 209);
+}
+nav{
+    display:flex;
+    width:33%;
+   box-shadow: teal;
+   padding-right: 1rem;
+   border-radius: 20px;
+}
