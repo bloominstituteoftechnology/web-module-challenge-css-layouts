@@ -49,11 +49,12 @@ table {
 /***********END RESET***********/
 }
 /*General Styles*/
-*{
+* {
     box-sizing: border-box; 
     max-width:100%; /* this tells elements to never become bigger than their parent*/ 
     border: 1px solid gray;
-  }html{
+  }
+html{
     font-size:62.5%;
 }
 body{
@@ -82,3 +83,48 @@ section{
 }
 /*END General Styles*/
 
+.myheader {
+     margin: 2%;
+    padding: 2%;
+    background-color: lightgray;
+}
+.myheader h1 {
+    text-align: left;
+}
+
+.top {
+    border: 1px solid black;
+    padding: 4% 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.top .topitem {
+    border: 1px solid black;
+    /* height: 100px; */
+    width: 30%;
+    padding: 4%;
+}
+.topitem p, h2 {
+    border: 1px solid black;
+    text-align: left;
+    width: 100%;
+}
+
+
+.gallery {
+    margin: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gitem {
+    width: 25%;
+}
+.peek {
+    width: 100%;
+}
+
+.myfoot {
+    background-color: lightgray;
+}
