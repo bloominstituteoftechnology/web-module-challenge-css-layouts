@@ -47,12 +47,12 @@ header nav {
 	display: flex;
 	justify-content: flex-end;
 	width: 50%;
-}
-
-nav {
 	margin-right: 5%;
 	width: 40%;
 }
+
+/* nav {
+} */
 .button {
 	padding: 2px;
 	width: 15rem;
@@ -80,7 +80,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 0 0 5%;
+	margin: 0 0 15%;
 	text-align: center;
 	justify-content: space-between;
 }
@@ -107,9 +107,24 @@ main {
 footer {
 	display: flex;
 	background: #bada55;
-	/* width: 100%; */
-	padding: 1%;
-	justify-content: center;
+	width: 100%;
+	justify-content: space-between;
+	padding: 2%;
+	position: fixed;
+	bottom: 0;
+}
+
+footer * {
+	/* border: 2px solid grey; */
+}
+footer nav {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
+}
+
+footer nav a {
+	margin-right: 5%;
 }
 
 .foot-contact {
@@ -117,6 +132,8 @@ footer {
 	margin: 2rem 0;
 	border-radius: 10px;
 	font-size: 1rem;
-	border: 1px solid #444444;
 	background-color: white;
+}
+.social {
+	display: flex;
 }
