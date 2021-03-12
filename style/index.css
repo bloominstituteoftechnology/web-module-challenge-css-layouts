@@ -1,20 +1,19 @@
 /* Add CSS styling here */
 *{
-/* border: solid black 1px; */
-background:rgb(214, 214, 209);
-}
-nav a{
-   box-shadow: teal;
-  
-   color:white;
-}
-.not{
-    background: #151515;
-   padding: 2%;
-   display: flex;
-    justify-content: flex-end;
-
+border: solid black 1px;
 }
 nav{
-    background: #151515;
+    flex-direction:row;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+
+}
+div{
+    align-content:stretch;
+
+
+}
+nav a{
 }
