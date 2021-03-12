@@ -1,212 +1,117 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
+	font-size: 62.5%;
+	font: inherit;
 	vertical-align: baseline;
-}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-body {
-	line-height: 1;
-	color: black;
-	background: white;
-}
-ol, ul {
-	list-style: none;
-}
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-}
-caption, th, td {
-	text-align: left;
-	font-weight: normal;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
+	box-sizing: border-box;
+	color: #3f3939;
+	font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: thistle;
+h1 {
+	font-size: 4rem;
+	text-align: center;
 }
 
-#headerContainer {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background: salmon;
-  height: 100%;
-  width: 100%;
-  background-color: #ffc8d8;
-  flex-direction: column;
+h2 {
+	font-size: 1.5rem;
 }
 
-#topNav {
-  margin-bottom: 1.7rem;
+a {
+	text-decoration: none;
 }
 
-#topNavName {
-  align-self: center;
-  font-size: 6rem;
-  color: white;
-  font-family: 'Parisienne', cursive;
-  margin-left: 5rem;
-  margin-top: 2rem;
-  width: 100%;
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 1%;
 }
 
-#topNavButtons {
-  padding: .6rem 2.2rem;
-  border-radius: 15px;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  display: inline-block;
-  margin-left: 2.2rem;
+header h2 {
+	margin-left: 5%;
 }
 
-#headerContainer #topNav a {
-  text-decoration: none;
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	margin-right: 5%;
+	width: 40%;
 }
 
-#about #aboutContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: flex-start;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
+.button {
+	padding: 2px;
+	width: 15rem;
+	border: 1px solid #3f3939;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#about #aboutContainer p {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 1.5;
+main {
+	background-image: url('https://images.unsplash.com/photo-1554866655-a4f86846341f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+	width: 80%;
+	padding: 15% 20%;
+	margin: 5% auto;
+	text-align: center;
+	overflow: hidden;
 }
 
-#aboutName {
-  font-size: 3rem;
-  align-self: center;
-  font-weight: bold;
-  color:#ffc8d8;
+.gallery {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 0 15%;
+	text-align: center;
+	justify-content: space-between;
 }
 
-#aboutSideContainer #aboutButtons {
-  padding: 0.6rem 2.2rem;
-  border-radius: 15px;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  color: white;
-  background-color: #ffc8d8;
-  align-self: center;
-  margin: 2rem;
+.top_row,
+.bottom_row {
+	display: flex;
+	justify-content: space-around;
 }
 
-#about #aboutContainer #aboutSideContainer {
-  align-self: center;
-  width: 40%;
+.top_row {
+	margin-bottom: 2%;
 }
 
-#about #aboutContainer #aboutImage {
-  margin: 1.5rem;
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.5;
-  box-shadow: 0 0 1rem gray;
+.image {
+	width: 25%;
 }
 
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 5%;
+.image img {
+	width: 100%;
 }
 
-#projects div {
-  margin: 2.5rem auto;
-  border: 1px solid thistle;
-  box-shadow: 0 0 1rem gray;
-  flex-basis: 20%;
+footer {
+	display: flex;
+	background: rgb(255, 236, 131);
+	width: 100%;
+	justify-content: space-between;
+	padding: 2%;
+	bottom: 0;
 }
 
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 15rem;
-  background: white;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+footer nav {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
 }
 
-#footerButton {
-  padding: .6rem 2.2rem;
-  border-radius: 15px;
-  border: none;
-  text-align: center;
-  color: white;
-  cursor: pointer;
-  background-color: #ffc8d8;
-  align-self: center;
-  margin: 1rem;
+footer nav a {
+	margin-right: 5%;
 }
 
-@media screen and (max-width: 500px) {
-  #headerContainer #topNav a {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 3rem 1.5rem 0;
-  }
-  #projects div {
-    min-width: 33%;
-  }
+.foot-contact {
+	padding: 1rem 1.5rem;
+	margin: 2rem 0;
+	border-radius: 10px;
+	font-size: 1rem;
+	background-color: white;
 }
-
-@media screen and (max-width: 800px) {
-  #about #aboutContainer {
-    flex-direction:column;
-  }
-  #about #aboutContainer #aboutImage {
-    margin: 2rem auto;
-    width: 75%;
-  }
-  #headerContainer {
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-  }
-  #headerContainer #topNavName {
-    text-align: center;
-    align-self: center;
-    margin: 0 auto;
-  }
-  #topNav {
-    align-self: center;
-  }
+.social {
+	display: flex;
 }
