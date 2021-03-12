@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+ /* Start of my CSS */
+  
+ div .top nav ul{
+      display:flex;
+      justify-content:space-between;
+      padding: 5% 10%;
+	  
+  }
+
+
+
+
+
+
+        /* MY code */
+    *{
+        box-sizing: border-box;
+    }
+.body{
+    width: 200px;
+    height: 120px;
+}
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.top, .name nav {
+    display:flex;
+    justify-content:space-between;
+    padding: 5% 10%;
+    font-family: Arial, sans-serif;
+    text-align: left;
+} 
+
+nav ul .navbar{
+      text-decoration:none;
+      text-align:center;
+      color:white;
+      border: 2px solid gray;
+      border-radius: 25px;
+      padding: 2%;
+}
+.top2{
+    align-items: right;
+}
+nav1{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+    ;
+
+}
+.top{
+    background-color: grey;
+    
+}
+.Name{
+    text-align: left;
+    font-size: 250%;
+    
+}
+
+
+ul {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul img{
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0 20px 10px;
+    
+   
+    width: 25%;
+    height: 440px;
+}
+
+
+/*  
+.sub-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%x;
+   margin: 0 auto;
+}
+
+.sub-non{
+    display: block;
+    flex-basis: %;
+    padding: 1px;
+    box-sizing: border-bo;
+
+}
+*/
+/*
+.sub-main img{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 100%;
+}
+
+*/
