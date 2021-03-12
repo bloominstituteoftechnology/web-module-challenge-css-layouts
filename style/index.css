@@ -3,10 +3,18 @@
 /* border: solid black 1px; */
 background:rgb(214, 214, 209);
 }
-nav{
-    display:flex;
-    width:33%;
+nav a{
    box-shadow: teal;
-   padding-right: 1rem;
-   border-radius: 20px;
+  
+   color:white;
+}
+.not{
+    background: #151515;
+   padding: 2%;
+   display: flex;
+    justify-content: flex-end;
+
+}
+nav{
+    background: #151515;
 }
