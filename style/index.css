@@ -1,1 +1,87 @@
 /* Add CSS styling here */
+
+*{
+    max-width:100%;
+    background:#Ffaedcd;
+}
+
+*{
+    font-family:sans-serif;
+}
+
+.top{
+    color:#293241;
+    align-items:center;
+}
+
+.top .links{
+    display:flex;
+    justify-content:center;
+}
+
+h1, h2, .links {
+    text-align:center;
+}
+
+h1{
+    color: #E5E5E5;
+    background:grey;
+    padding:2%;
+    font-size:40px;
+}
+
+/* Links to home, about, and projects */
+a{
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 75px;
+    height: 25px;
+    color: white;
+    background-color: #293241;
+}
+
+/* Quick blurb about the page */
+p{
+    color:#293241;
+}
+
+.large-image{
+    height:400px;
+    overflow:hidden;
+}
+
+.large-image img{
+    width:100%;
+}
+    
+
+.project-images{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour{
+    margin:1%;
+
+}
+
+p {
+    text-align:center;
+    padding:1%;
+    align-items:center;
+    align-content:center;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    background: #E5E5E5;
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    margin:2%;
+}
