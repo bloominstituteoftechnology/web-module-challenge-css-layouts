@@ -1,0 +1,46 @@
+.Body {
+  display: flex;
+  justify-content: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vh;
+  height: calc(100vh - 100px - 25px);
+  background-color: #FFFFFF;
+}
+
+.Main .Base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 0 0 0px #000000;
+}
+
+.Card {
+  width: 50vh;
+  box-shadow: 0 0 10px #000000;
+}
+
+p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#Email {
+  margin-bottom: 10px;
+  text-transform: lowercase;
+}
+
+img {
+  filter: contrast(125%);
+}

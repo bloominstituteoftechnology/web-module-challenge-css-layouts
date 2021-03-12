@@ -28,7 +28,7 @@ Follow these steps to set up and work on your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:

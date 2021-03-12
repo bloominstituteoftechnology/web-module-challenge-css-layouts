@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website • Contact</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <script src="https://kit.fontawesome.com/49d48c8524.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1> CONTACT </h1>
+<body id='Contact'>
+    <nav id='Nav'>
+        <header>
+            <h1 class='Title'>
+                <a href='./index.html'>Hugo Orozco</a>
+            </h1>
+        </header>
+        <section class='Link'>
+            <a class='Item-1' href='./index.html' alt='Home' target='_self'>Home</a>
+            <a class='Item-2' href='./about.html' alt='About' target='_self'>About</a>
+            <a class='Item-3' href='./contact.html' alt='Contact' target='_self'>Contact</a>
+            <a class='Item-4' href='./project.html' alt='Project' target='_self'>Project</a>
+        </section>
+        <section class='Icon'>
+            <a href='https://discord.com' target='_blank'><i class='fab fa-discord fa-lg'></i></a>
+            <a href='https://youtube.com' target='_blank'><i class='fab fa-youtube fa-lg'></i></a>
+            <a href='https://facebook.com' target='_blank'><i class='fab fa-facebook-f fa-lg'></i></a>
+            <a href='https://twitter.com' target='_blank'><i class='fab fa-twitter fa-lg'></i></a>
+            <a href='https://snapchat.com' target='_blank'><i class='fab fa-snapchat-ghost fa-lg'></i></a>
+            <a href='https://tiktok.com' target='_blank'><i class='fab fa-tiktok fa-lg'></i></a>
+            <a href='https://tumblr.com/' target='_blank'><i class='fab fa-tumblr fa-lg'></i></a>
+        </section>
+    </nav>
+    <div class='Body'>
+        <div class='Main'>
+            <form action=''>
+
+                <label for='fname'>First Name</label>
+                <input type='text' id='fname' name='firstname' placeholder='...'>
+
+                <label for='lname'>Last Name</label>
+                <input type='text' id='lname' name='lastname' placeholder='...'>
+
+                <label for='email'>Email Address</label>
+                <input type='text' id='email' name='email' placeholder='...'>
+
+                <label for='phone'>Phone Number</label>
+                <input type='text' id='phone' name='phone' placeholder='...'>
+
+                <label for='country'>Country</label>
+                <select id='country' name='country'>
+                    <option value='US'>United States</option>
+                    <option value='UK'>United Kingdom</option>
+                </select>
+
+                <label for='subject'>Subject</label>
+                <textarea id='subject' name='subject' placeholder='...' style='height:200px'></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+    <div id='Footer'>
+        <section class='Space'>
+            <a href='./contact.html' class='Button'>Contact Me</a>
+        </section>
+        <section class='Space'>
+            <p>Copyright © Hugo Orozco • 2021</p>
+        </section>
+    </div>
 </body>
 </html>

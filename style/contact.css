@@ -1,0 +1,45 @@
+.Body {
+  display: flex;
+  justify-content: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vh;
+  height: calc(100vh - 100px - 25px);
+  background-color: #FFFFFF;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  resize: vertical;
+  box-shadow: 0 0 5px #000000;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000000;
+  transition: ease-in-out 0.25s;
+}
+
+input[type=submit]:hover {
+  background-color: #808080;
+  transition: ease-in-out 0.25s;
+}

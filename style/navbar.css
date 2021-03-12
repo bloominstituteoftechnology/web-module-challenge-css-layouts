@@ -1,0 +1,75 @@
+#Nav {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #000000;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 25px;
+  margin-right: 50px;
+  transition: ease-in-out 0.25s;
+}
+
+.Title:hover {
+  transform: scale(1.25, 1.25);
+  transition: ease-in-out 0.25s;
+}
+
+.Link a {
+  margin-right: 25px;
+}
+
+.Link:hover a {
+  color: #808080;
+  transition: ease-in-out 0.25s;
+}
+
+.Link a:hover {
+  color: #FFFFFF;
+  transition: ease-in-out 0.25s;
+}
+
+.Icon {
+  margin-left: auto;
+}
+
+.Icon a {
+  margin-left: 25px;
+}
+
+.Icon:hover a {
+  color: #808080;
+}
+
+.Icon a:hover{
+  color: #FFFFFF;
+}
+
+i {
+  transition: ease-in-out 0.25s;
+}
+
+i:hover {
+  transform: scale(1.5, 1.5);
+  transition: ease-in-out 0.25s;
+}
+
+#Index #Nav .Link .Item-1 {
+  text-decoration: underline;
+}
+
+#About #Nav .Link .Item-2 {
+  text-decoration: underline;
+}
+
+#Contact #Nav .Link .Item-3 {
+  text-decoration: underline;
+}
+
+#Project #Nav .Link .Item-4 {
+  text-decoration: underline;
+}

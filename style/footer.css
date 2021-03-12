@@ -1,0 +1,27 @@
+#Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: #000000;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.Space a {
+  padding: 10px;
+  border-radius: 25px;
+  color: #000000;
+  background-color: #FFFFFF;
+  transition: ease-in-out 0.25s;
+}
+
+.Space a:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+  transition: ease-in-out 0.25s;
+}
+
+.Space + .Space {
+  margin-top: 50px;
+}
