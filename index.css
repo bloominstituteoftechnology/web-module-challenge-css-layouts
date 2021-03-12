@@ -49,6 +49,7 @@ table {
     border: 1px solid black;
     
 }
+
 header h1 {
     display:flex;
     justify-content:flex-start;
@@ -59,42 +60,48 @@ header h1 {
 
 }
 
+
+/* NAVIGATION */
+
 header nav{
-    position:fixed;
-    width:100%;
-    top:0;
-    margin-top: 8px;;
-    
-    align-items:center;
-    height:10vh;
-    z-index: 999;
-  display:flex;
+   display:flex;
   justify-content:flex-end;
     
 }
 
 
 .navbar {
+    
     width:50%;
     display:flex;
-  justify-content:space-around;
   border: 1px solid black;
+  
    }
 
    .home {
     border: 1px solid black;
+    width: 25%;
+    height: 40px;
+    text-align: center;
    }
 
    .about {
     border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    
    }
 
    .contacts {
     border: 1px solid black;
+    width: 25%;
+    text-align: center;
    }
 
    .projects{
     border: 1px solid black;
+    width: 25%;
+    text-align: center;
    }
 
    /* BIG BOX */
@@ -103,29 +110,45 @@ header nav{
 
    .bigbox{
        height: 420px;
-       width: 700px;
+       width: 750px;
        margin-left: 105px;
        margin-right: 40px;
        margin-top: 80px;
        border: 1px solid black;
        display:flex;
        
-  
-
-
-   }
-
-   .bigbox h1 {
-    border: 1px solid black;
-    height: 50px;
-       width: 170px;
-       text-align: center;
+       
+    }
+   
+       
+   
+   .firstbox h1{
+       margin-left: 300px;
        margin-top: 200px;
-       margin-left: 250px;
+       display: flex;
+       flex-flow: column;
+       text-align: center;
+       border: 1px solid black;
        
+       height: 50px;
+  
        
-      
-   }
+
+    }
+
+    .firstbox h3 {
+        margin-top: 20px;
+        margin-left: 300px;
+        
+       height: 50px;
+        
+        
+        
+        
+       
+    }
+
+   
    
    
    
@@ -135,13 +158,17 @@ header nav{
     height: 50px;
     width: 170px;
     text-align: center;
-    margin-top: 300px;
-    margin-right: px;
+    /* margin-top: 300px; */
+    
    }
 
-   .container{margin-top:5%;
+   .container{
+       margin-top:5%;
     display:flex;
-    justify-content:space-evenly;}
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
 
     .box{
         width:20%;
