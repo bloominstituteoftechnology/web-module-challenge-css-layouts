@@ -1,1 +1,150 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+/* --------------------------------------------------------------------------------- */
+html{
+	font-size: 62.5px;
+}
+body{
+	display:flex;
+	flex-direction:column;
+	font-family: 'Oxygen', sans-serif;
+	/* background-color:darkgrey */
+}
+header{
+	font-family: 'Heebo', sans-serif;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	text-transform: capitalize;
+	text-shadow: 0 2px 10px #275472;
+	/* color:lightgrey; */
+}
+
+#pinto{
+	display: flex;
+	justify-content: space-between;
+	width:90%;
+}
+nav{
+	display: flex;
+}
+#bigpic{
+	background-image: url('https://images.unsplash.com/photo-1510755637548-70ca4dd352fd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80');
+	background-repeat:no-repeat;
+	height:50vh;
+	background-size: cover;
+	width:78%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin:2% 0 5% 0;
+	box-shadow: 0 2px 30px #eb0ca0;
+}
+
+#bigpic h2{
+	color:aliceblue;
+	text-shadow: 0 2px 20px #eb0ca0;
+}
+
+.variety{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+	font-size: 0.4rem;
+}
+.variety img {
+	width:30%;
+	background-size:cover;
+
+	/* justify-content: space-around; */
+	/* height:20%; */
+}
+.variety p{
+	width:28%;
+	margin:2% 0;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	background-color:slategray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 3%;
+}
+
+button{
+	height: 1rem;
+	width: 2rem;
+	/* margin: 0 2%; */
+	/* border-radius: 10px; */
+	border:none;
+	
+}
+a:hover button{
+	background-color:teal;
+	color:lightgrey;
+}
+
+ #bigpic button{
+	 background-color:transparent;
+	 border:none;
+	 font-size: 0.3rem;
+	 color:aliceblue;
+	 text-shadow: 0 2px 10px #eb0ca0;
+
+}
