@@ -7,13 +7,18 @@ nav{
     display: flex;
     justify-content:flex-end;
     align-items: center;
-
-
-}
-div{
-    align-content:stretch;
-
+    background: grey;
+    border-radius: 20px;
 
 }
 nav a{
+    /* width: auto; */
+    margin: 0px 15px; 
+    background-color: grey;
+    padding: .7rem;
+    color: white;
+}
+nav a:hover{
+  background: rgb(44, 43, 43);
+
 }
