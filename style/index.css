@@ -1,1 +1,404 @@
 /* Add CSS styling here */
+/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Reset Above */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid gray; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+nav {
+  display: flex;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 2rem;
+}
+
+nav a {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 1% 3%;
+}
+
+main button {
+  padding: 5% 10%;
+}
+
+footer button {
+  padding: 2%;
+}
+
+.blue {
+  font-size: 3rem;
+  text-align: left;
+  padding: 10%;
+}
+
+.blue p {
+  font-size: 2rem;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery div {
+  width: 80%;
+  height: 40vh;
+  margin: 4% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p {
+  text-align: left;
+  font-size: 3rem;
+}
+
+.gallery p {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.parent div {
+  width: 10%;
+  height: 40vh;
+}
+
+.parent div {
+  width: 22%;
+  height: 200px;
+  margin: 2% 0;
+}
+
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.gallery p {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+.boxOne {
+  display: flex;
+  flex-direction: column;
+}
+.boxTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxThree {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxFour {
+  display: flex;
+  flex-direction: column;
+}
+.boxFive {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxSix {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxSeven {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxEight {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 5rem;
+  text-align: center;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.fold {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  text-align: center;
+}
+
+.gallery img {
+  width: 1000px;
+  height: 200px;
+}
+
+footer a {
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    width: 100%;
+  }
+
+  .fold {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+  }
+  .fold main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .blue,
+  .fold {
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    margin: 0%;
+    width: 100%;
+  }
+
+  .fold p {
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+  }
+
+  /* boxes  */
+
+  .parent div {
+    width: 40%;
+  }
+
+  .gallery {
+    height: 100vh;
+  }
+  /*footer */
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    width: 100%;
+  }
+
+  .fold {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+  }
+  .fold main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .blue,
+  .fold {
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    margin: 0%;
+    width: 100%;
+  }
+
+  .fold p {
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+  }
+
+  /* boxes  */
+
+  .parent div {
+    width: 40%;
+  }
+
+  .gallery {
+    height: 100vh;
+  }
+  /*footer */
+
+  footer {
+    flex-direction: column;
+  }
+}
