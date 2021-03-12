@@ -37,12 +37,13 @@ a {
 }
 /*END General Styles*/
 
-.myheader {
-     /* margin: 2%; */
+.headersizer {
+    /* margin: 2%;
     padding: 4%;
-    background-color: lightgray;
+    background-color: gray; */
 }
 .myheader h1 {
+    /* background-color: gray; */
     text-align: left;
 }
 
