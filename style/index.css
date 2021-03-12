@@ -1,1 +1,212 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+body {
+    background-color: thistle;
+}
+
+#headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: salmon;
+  height: 100%;
+  width: 100%;
+  background-color: #ffc8d8;
+  flex-direction: column;
+}
+
+#topNav {
+  margin-bottom: 1.7rem;
+}
+
+#topNavName {
+  align-self: center;
+  font-size: 6rem;
+  color: white;
+  font-family: 'Parisienne', cursive;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#topNavButtons {
+  padding: .6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin-left: 2.2rem;
+}
+
+#headerContainer #topNav a {
+  text-decoration: none;
+}
+
+#about #aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+#about #aboutContainer p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+#aboutName {
+  font-size: 3rem;
+  align-self: center;
+  font-weight: bold;
+  color:#ffc8d8;
+}
+
+#aboutSideContainer #aboutButtons {
+  padding: 0.6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: #ffc8d8;
+  align-self: center;
+  margin: 2rem;
+}
+
+#about #aboutContainer #aboutSideContainer {
+  align-self: center;
+  width: 40%;
+}
+
+#about #aboutContainer #aboutImage {
+  margin: 1.5rem;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  box-shadow: 0 0 1rem gray;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+#projects div {
+  margin: 2.5rem auto;
+  border: 1px solid thistle;
+  box-shadow: 0 0 1rem gray;
+  flex-basis: 20%;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15rem;
+  background: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+#footerButton {
+  padding: .6rem 2.2rem;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background-color: #ffc8d8;
+  align-self: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  #headerContainer #topNav a {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem 1.5rem 0;
+  }
+  #projects div {
+    min-width: 33%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #about #aboutContainer {
+    flex-direction:column;
+  }
+  #about #aboutContainer #aboutImage {
+    margin: 2rem auto;
+    width: 75%;
+  }
+  #headerContainer {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #headerContainer #topNavName {
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+  }
+  #topNav {
+    align-self: center;
+  }
+}
