@@ -110,7 +110,7 @@ q {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 html {
@@ -118,7 +118,8 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Alegreya", serif;
+  background-color: #e8e8e8;
 }
 /* End of General Styles */
 
@@ -141,10 +142,11 @@ nav {
 
 .navlinks button {
   justify-content: center;
-  padding: 0.8rem 3rem;
+  padding: 0.4rem 3rem;
   border-radius: 0.9rem;
   font-size: 1.7rem;
-  background-color: #e8e8e8;
+  background-color: #bbbfca;
+  font-family: "Alegreya", serif;
 }
 
 h1 {
@@ -166,6 +168,7 @@ h1 {
 .section {
   display: flex;
   height: 30rem;
+  background-color: #e8e8e8;
 }
 
 .container {
@@ -190,6 +193,8 @@ h1 {
   padding: 0.8rem 6rem;
   border-radius: 0.9rem;
   margin-top: 1.5rem;
+  background-color: #bbbfca;
+  font-family: "Alegreya", serif;
 }
 
 .items p {
@@ -202,6 +207,8 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  background-color: #e8e8e8;
+  margin-top: 3rem;
 }
 
 .pic {
@@ -217,6 +224,46 @@ h1 {
 .image7 img,
 .image8 img {
   margin: 0.5rem;
-  width: 25rem;
+  width: 28rem;
   height: 16.5rem;
+}
+
+.body p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  align-items: center;
+  background-color: #495464;
+}
+
+.footer h4 {
+  padding: 2rem 13rem;
+  font-size: 2.5rem;
+  color: #f4f4f2;
+}
+
+.footer button {
+  padding: 0.8rem 5rem;
+  background-color: #bbbfca;
+  font-family: "Alegreya", serif;
+}
+
+.image1 img:hover,
+.image2 img:hover,
+.image3 img:hover,
+.image4 img:hover,
+.image5 img:hover,
+.image6 img:hover,
+.image7 img:hover,
+.image8 img:hover {
+  margin: 0.5rem;
+  width: 29rem;
+  height: 17rem;
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.2);
 }
