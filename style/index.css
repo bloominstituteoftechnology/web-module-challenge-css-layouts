@@ -1,1 +1,90 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+}
+ nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color:rgba(201, 198, 198, 0.8);
+    align-items:center;
+    height:10vh;
+    z-index: 999;
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    width:20%;
+    margin-left:3%;
+    background-image:url('https://images.unsplash.com/photo-1520420097861-e4959843b682?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+}
+.links{
+    width:50%;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
+}
+.hero-image{
+    height:40vh;
+    background-image:url('https://images.squarespace-cdn.com/content/v1/54402c70e4b067cc7173d0d5/1553134752164-L6NWA40SD6LJ3LLX7OXG/ke17ZwdGBToddI8pDm48kIcisUt3ucC5cPU5bzTmE7N7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXz-VX-uB_ZY-9wBUUM_lQo_okcCnCwqoWM2_er4FtAkckN8YfsLXRIlXOtOxTMY9Q/AE07398D-A34E-467B-B165-89283DEEE17C.JPG?format=750w');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h2{
+    display: flex; 
+    justify-content: center;
+    font-size:100px;
+}
+button{
+    display: flex; 
+    justify-content: center;
+    font-size:30px;
+    margin:auto;
+}
+.Boxes{
+    background-color:grey;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    border:2px solid black;
+    margin:10%;
+    color:white;
+
+  }
+.Boxes div{
+    width:30%;
+    text-align:center;
+    
+}
+img {
+    margin:auto;
+    width:  200px;
+    height: 200px;
+    display:flex;
+}
+footer { 
+    display: flex; 
+    justify-content: center; 
+  } 
+
+
+
+
+
+
+/*
+- [*]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
+- [*]  Gallery of projects created with flexbox - you may use random images in place of 
+project screenshots for now with the random image
+ link: https://picsum.photos/ or you may use images that mean something to you
+- [*]  Information about you in place of the given placeholder
+- [*]  A `My Projects` button that links to the projects page
+- [*]  A `Contact Me` button that links to the contact page
+- [*]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page*/
