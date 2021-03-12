@@ -128,14 +128,16 @@ nav {
 
 #profileimg {
     display: flex;
-    width: 45%;
+    margin-left:1%;
+    margin-bottom: 1%;
+    width:25%;
 }
 
 .text{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    width: 55%;
+    width: 50%;
 }
 
 #myname {
@@ -156,6 +158,7 @@ button{
 .text p{
     margin:2rem;
     font-size: 2rem;
+    width:70%;
 }
 
 
