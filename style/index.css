@@ -162,15 +162,33 @@ header nav a:hover{
 footer{
     background-color: #8AC4D0;
     padding:2%;
-
-      
+    display: flex;
 }
 footer .contact{
     text-align: center;
 
 }
 footer button{
-    margin: 1%;
     padding:1%;
+    height: 5vh;
+    margin: 1%;
 }
 
+footer a{
+    color:#fff;
+}
+footer a:hover{
+    color:#4f4f4f;
+}
+footer div{
+    width:40%;
+    margin-left:25%;
+    
+}
+nav.social{
+    display:flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-right: 5%;
+    
+}
