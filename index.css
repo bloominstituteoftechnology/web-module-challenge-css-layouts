@@ -72,6 +72,7 @@ header nav{
 
 .navbar {
     
+    
     width:50%;
     display:flex;
   border: 1px solid black;
@@ -110,7 +111,7 @@ header nav{
 
    .bigbox{
        height: 420px;
-       width: 750px;
+       width: 1000px;
        margin-left: 105px;
        margin-right: 40px;
        margin-top: 80px;
@@ -123,7 +124,7 @@ header nav{
        
    
    .firstbox h1{
-       margin-left: 300px;
+       margin-left: 415px;
        margin-top: 200px;
        display: flex;
        flex-flow: column;
@@ -138,7 +139,7 @@ header nav{
 
     .firstbox h3 {
         margin-top: 20px;
-        margin-left: 300px;
+        margin-left: 415px;
         
        height: 50px;
         
