@@ -1,59 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/***********END RESET***********/
-}
-/*General Styles*/
 * {
     box-sizing: border-box; 
-    max-width:100%; /* this tells elements to never become bigger than their parent*/ 
-    border: 1px solid gray;
+    max-width:100%; 
+    /* border: 1px solid red; */
   }
+
 html{
     font-size:62.5%;
 }
@@ -79,13 +29,17 @@ h3{
     font-size:2.5rem;
 }
 section{
-    padding: 4% 0;
+    padding: 4%;
+}
+a {
+    text-decoration: none;
+}
 }
 /*END General Styles*/
 
 .myheader {
-     margin: 2%;
-    padding: 2%;
+     /* margin: 2%; */
+    padding: 4%;
     background-color: lightgray;
 }
 .myheader h1 {
@@ -93,38 +47,43 @@ section{
 }
 
 .top {
-    border: 1px solid black;
-    padding: 4% 0;
+    /* border: 1px solid black; */
+    padding: 0 4%;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
-.top .topitem {
-    border: 1px solid black;
-    /* height: 100px; */
-    width: 30%;
-    padding: 4%;
-}
-.topitem p, h2 {
-    border: 1px solid black;
+
+.topimg, .toptxt {
+
     text-align: left;
     width: 100%;
 }
-
-
+.toptxt {
+    padding: 4%;
+    text-align: left;
+}
+.toptxt h2 {
+    text-align: left;
+}
 .gallery {
-    margin: 4%;
+    /* margin: 4%; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .gitem {
     width: 25%;
 }
 .peek {
     width: 100%;
+    padding: 0;
 }
 
 .myfoot {
     background-color: lightgray;
+    text-align: center;
 }
+/* .myfoot h3 {
+    text-align: left;
+} */
