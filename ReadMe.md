@@ -1,5 +1,5 @@
 # Flexbox Module Challenge
-test
+test!!
 The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
 
 ## User Interface and Git
