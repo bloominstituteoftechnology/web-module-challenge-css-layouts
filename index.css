@@ -1,0 +1,154 @@
+
+
+
+
+
+body{
+
+	font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+
+
+.top{
+	border-style: inset;
+	border-width: 2px; 
+	
+	padding: 8px 22px 8px 22px;
+	width: 100px;
+	font-size: 13px;
+	}
+	
+nav{
+	display:flex;
+	justify-content:flex-start;
+	justify-content: space-between;
+	display:
+	padding-top: 30px;
+	padding-left: 80px;
+	width: 25%;
+		
+		
+}
+		
+		
+h1{
+	display:flex;
+			justify-content:flex-start ;
+			
+			padding-top: 30px;
+			padding-left: 40px;
+			display:inline-block;
+			
+		
+		}
+
+
+		
+		
+.photo{
+padding:10px;
+max-width:90%;
+
+
+
+}
+
+.parent{
+
+display:inline-flex;
+
+
+
+
+
+}
+
+
+.parent div{
+
+flex-direction: column;
+
+
+} 
+
+.button{
+
+margin-top: auto;
+
+
+}
+
+
+.parent2{
+background-color: cornflowerblue;
+padding-bottom: 20px;
+border-style: groove;
+margin-top: -40px;
+}
+
+
+.parent5{
+	background-color: cornflowerblue;
+	padding-bottom: 0px;
+	border-style: groove;
+	margin-bottom: -100px;
+	}
+
+
+
+.parent3{
+background-color: crimson;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 150px;
+}
+
+
+
+.parent4{
+	background-color:;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	}
+	
+	
+	.parent h2{
+margin-top: 120px;
+
+	}
+	
+	
+	.parent3 img{
+
+width:30%;
+
+
+
+	}
+
+
+.parent button{
+padding: 5px;
+width:97px;
+
+
+}
+
+
+footer{
+	text-align: center;
+}
+
+footer button{
+.parent button{
+padding: 150px;
+width:97px;
+		
+		
+
+}
