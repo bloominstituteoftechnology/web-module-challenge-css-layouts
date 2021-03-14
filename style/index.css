@@ -16,11 +16,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
+
 ol, ul {
 	list-style: none;
 	}
@@ -51,45 +47,67 @@ blockquote, q {
 
     
 }
+
+nav {
+	display: flex;
+	width:auto
+
+}
 html {
 	font-size: 62.5%;
 
 }
 
-body{
-	font-size: 1.6rem;
-	line-height: 1.5;
-	color: 4f4f4f;
-	font-family: 'PT Serif', serif;
-	background-color: black;
+body {
+	background: gray;
+	line-height: 1;
+	color: black;
+	}
+}	
 
-
-}
-
-h1, h2, p {
-	font-family:'Courier New', Courier, monospace;
-	text-align: center;
-
+.info {
+	width: 100px;
+	padding: 20px;
+	border: 10px solid gray;
+	margin: 0;
 
 }
 
 h1 {
 	font-size: 10rem;
 	font-weight:bold;
+	font-family:'Courier New', Courier, monospace;
+	text-align: center;
+
 
 }
 
 h2 {
 	font-size: 6rem;
+	text-align: center;
 
 }
 p {
-	font-size: 3rem;
+	font-size: 8rem;
+	text-align: center;
 
+}
+a {
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: grey;
+
+}
+.info {
+	display: flex;
 }
 
 a:hover {
 	color: black;
+
+}
+section {
+	padding: 5%;
 
 }
 
