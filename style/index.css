@@ -199,4 +199,8 @@ h1{
     max-width: 65%;
     padding:1%
 }
+.gallery .project1,.gallery .project2,.gallery .project3,.gallery .project4,.gallery .project5,.gallery .project6{
+font-size: 20px;
+}
+
 }
