@@ -1,9 +1,98 @@
+/* *{
+  border: 1px solid;
+} */
 
-header h3{
+header{
 display: flex;
 justify-content: center;
+
 }
-header{
-  border-color: black;
-  border:1px
+/* header{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+} */
+.first-section{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+nav a{
+  border:1px solid;
+  display:flex; 
+  justify-content:space-evenly;
+  padding:15px;
+  border-radius: 20px;
+  margin-right:5%;
+}
+nav a:hover{
+  background: black;
+  color: white;
+}
+.second-section{
+  background:burlywood;
+  margin:2%;
+  height: 500px;
+  border-radius: 30px;
+}
+h1{
+  font-size: 500% ;
+}
+.middle{
+  display:flex;
+  padding-top: 5%;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.second-section button{
+  padding: 10px;
+  border-radius: 10%;
+}
+img{
+  background: darkblue;
+}
+/* .third-section div{
+  display:flex;
+  justify-content: center;
+  border: 1px solid;
+} */
+.third-section img, .fourth-section img{
+  display: flex;
+  max-width:80%;
+  border-radius: 25px;
+}
+.third-section, .fourth-section{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  flex-direction: row;
+  margin: 0 15%;
+}
+.fourth-section{
+  padding-top: 3%;
+}
+.line{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px dashed;
+  opacity: 50%;
+}
+.divception{
+  margin: 0 10% 0 5%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  display: flex;
+  flex-direction: row;
+  margin:5%;
 }
