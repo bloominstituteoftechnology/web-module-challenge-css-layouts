@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box; 
     max-width:100%; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
 html{
@@ -14,7 +14,7 @@ body{
     font-family: 'PT Sans', sans-serif;
     background-color:#FFFAFA;
 }
-h1, h2, h5, h5{
+h1, h2, h3, h5{
     letter-spacing: 3px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -25,11 +25,11 @@ h1{
 h2{
     font-size: 3rem;
 }
-h5{
-    font-size:2.5rem;
+h3{
+    font-size:2 rem;
 }
 h5{
-    font-size:2rem;
+    font-size: 1.5rem;
 }
 section{
     padding: 4%;
@@ -42,6 +42,10 @@ a {
 /*END General Styles*/
 /********************** */
 
+/* ******************************** */
+/* ******** HEADER WITH NAV ******* */
+/* ******************************** */
+
 section.headersizer {
     margin: 0 4%;
     padding: 0 4%;
@@ -49,7 +53,6 @@ section.headersizer {
 }
 .myheader {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
 }
 .myheader h1 {
@@ -63,14 +66,16 @@ section.headersizer {
     width: 50%;
     /* height: 50%; */
 }
-
 .myheader nav a {
     width: 50%;
     padding: 0 5% 9% 0 ;
 }
 
+/* ******************************** */
+/* ******** INTRO TXT & IMG ******* */
+/* ******************************** */
+
 .top {
-    /* border: 1px solid black; */
     padding: 0 4%;
     margin: 0 0;
     width: 100%;
@@ -78,22 +83,23 @@ section.headersizer {
     justify-content: space-around;
     
 }
-
 .topimg, .toptxt {
-
     text-align: left;
     width: 100%;
 }
 .toptxt {
     padding: 0 5%;
-    /* margin: 0%; */
     text-align: left;
 }
 .toptxt h2 {
     text-align: left;
 }
+
+/* ******************************** */
+/* ****** PORTFOLIO GALLERY ******* */
+/* ******************************** */
+
 .gallery {
-    /* margin: 4%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -101,11 +107,14 @@ section.headersizer {
 .gitem {
     width: 22%;
 }
-div.peek h5 {
+.peek h3 {
+    /* font-size: 1rem bold; */
     width: 100%;
     margin: 0 auto;
-    /* padding: 0; */
-}
+ }
+/* ******************************** */
+/* ****** FOOTER W/NAV ************ */
+/* ******************************** */
 
 .myfoot {
     padding: 0;
@@ -116,72 +125,57 @@ div.peek h5 {
 div.footlinks a {
     padding: 0 5%;
 }
+
+
+/* Responsive Design for mobile devices below */
+
+
 /* ********TABLET STYLE DISPLAY (500-800PX*********) */
 @media(max-width: 800px) {
+/* ******************************** */
+/* ******** HEADER WITH NAV ******* */
+/* ******************************** */
+
     .myheader {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: space-between; */
-        align-items: flex-end;
-        /* padding: 0; */
+       align-items: flex-end;
     }
     .myheader h1 {
         font-size: 4rem;
-        text-align: left;
-        width: auto;
-    }
+     }
     .myheader nav {
-        display: flex;
-        justify-content: space-between;
         align-items: flex-start ;
-        width: 50%;
-        /* height: 50%; */
     }
     
     .myheader nav a {
-        width: 50%;
         padding: 0 5% 12% 0 ;
     }
+/* ******************************** */
+/* ******** INTRO TXT & IMG ******* */
+/* ******************************** */
+
     .top {
-        /* border: 1px solid black; */
-        padding: 0 4%;
-        margin: 0 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
+       align-items: center;        
     }
-    
-    .topimg, .toptxt {
-    
-        text-align: left;
-        width: 100%;
-    }
-    .toptxt {
-        padding: 0 5%;
-        /* margin: 0%; */
-        text-align: left;
-    }
+
     .toptxt h2 {
         text-align: left;
     }
 }
-
-/* Responsive Design for mobile devices below */
-/* ********TELEPHONE STYLE DISPLAY (<=500PX*********) */
+/* ********TELEPHONE STYLE DISPLAY (<=500PX)********* */
 @media(max-width: 500px) {
+
+/* ******************************** */
+/* ******** HEADER WITH NAV ******* */
+/* ******************************** */
+
     .myheader {
-        /* display: flex; */
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
     }
     .myheader h1 {
         margin: 2% auto;
         font-size: 3.5rem;
         text-align: center;
-        width: auto;
     }
     .myheader nav {
         /* display: flex; */
@@ -189,27 +183,19 @@ div.footlinks a {
         justify-content: center;
         align-items: center ;
     }
-    
     .myheader nav a {
-        width: 50%;
-        /* padding: 0 5% 9% 0 ; */
         text-align: center;
         padding: 1%;
     }
+/* ******************************** */
+/* ******** INTRO TXT & IMG ******* */
+/* ******************************** */
+
     .top {
-        /* border: 1px solid black; */
-        padding: 0 4%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        
+        flex-direction: column;        
     }
-    .topimg, .toptxt {
-    
+    .topimg, .toptxt {   
         text-align: center;
-        width: 100%;
-        /* margin: 0; */
     }
     .toptxt {
         padding: 0 10%;
@@ -218,20 +204,13 @@ div.footlinks a {
     .toptxt h2 {
         text-align: center;
         margin: 0;
-        /* padding: 0; */
     }
-    .gallery {
-        /* margin: 4%; */
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .gitem {
+
+/* ******************************** */
+/* ****** PORTFOLIO GALLERY ******* */
+/* ******************************** */
+
+   .gitem {
         width: 48%;
-    }
-    div.peek h5 {
-        width: 100%;
-        margin: 0 auto;
-        /* padding: 0; */
     }
 }
