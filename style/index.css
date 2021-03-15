@@ -255,7 +255,9 @@ header nav a{
     flex-wrap: wrap;
     width: 40%;
 }
-
+.projects .box p{
+    padding:3% 0;
+}
 .box img{
     height: 25vh;
     width: 100%;
@@ -289,7 +291,7 @@ header H1{
         font-size: 4rem;
     }
 header nav a{
-font-size:1.5rem;
+font-size:1.3rem;
 margin: 0 auto;
 }
 .profile .homeprofile button{
@@ -303,8 +305,15 @@ margin: 0 auto;
     text-align: center;
     font-size: 1.5rem;
 }
+.projects {
+    height: 80vh;
+}
+.projects .box p{
+    padding:2% 0;
+    font-size: 1.2rem;
+}
 .box img{
-    height: 22vh;
+    height: 21vh;
 }
 .box:nth-child(7) {
     display:none;
