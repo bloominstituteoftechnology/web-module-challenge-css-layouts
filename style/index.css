@@ -62,7 +62,9 @@ html{
 body{
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family: ;
+}
+a{
+    text-decoration: none;
 }
 
 /* Styling Elements */
@@ -94,28 +96,35 @@ nav {
 }
 
 .Home, .About, .Contact, .Projects{
+    text-align: center;
     margin: 0.5rem 0.5rem 1.5rem 0.5rem;
-    padding: 0.2rem 3rem;
+    padding: 1rem 2rem;
+    width: 200%;
     border:black solid 1px;
 }
 
 .Home{
     background-color: #7cd4b0;
+    color:#C38D9E ;
 
 }
 .About{
     background-color: #E27D60;
+    color:#E8A87C ;
 
 }
 .Contact{
     background-color: #C38D9E;
+    color:  #E27D60;
 
 }
 .Projects{
     background-color: #E8A87C;   
+    color: #C38D9E;
 }
 
 .mainsection{
+    margin-top: 1%;
 
 }
 
@@ -167,10 +176,6 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-}
-
-.projects{
     margin:2% 1%;
     display:flex;
     justify-content: space-evenly;
@@ -197,13 +202,13 @@ button{
     background-image: url("https://images.unsplash.com/photo-1578886141033-b9f066572135?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
 }
 .three{
-    background-image: url("https://images.unsplash.com/photo-1514774052943-0a2353774598?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+    background-image: url("https://images.alphacoders.com/598/thumb-350-598154.jpg");
 }
 .four{
     background-image: url("https://images.unsplash.com/photo-1502175353174-a7a70e73b362?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=970&q=80");
 }
 .five{
-    background-image: url("https://images.unsplash.com/photo-1590482934203-8eb4838643ce?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://cdn.vox-cdn.com/thumbor/au-WzeN4KHgrfd_TIjKX5C9WtnM=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/67285119/acastro_200331_1777_zoom_0003.0.0.jpg");
 }
 .six{
     background-image: url("https://images.unsplash.com/photo-1615440116255-8a2823c91317?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=562&q=80");
@@ -221,7 +226,7 @@ footer {
     flex-wrap: wrap;
     align-content: center;
     background-color: #41B3A3;
-    padding: 2%;
+    padding: 1%;
 
 }
 
@@ -235,4 +240,62 @@ footer {
     font-size: 2rem;
 text-align: center;
     width: 100%;
+}
+
+
+
+/* Media Queries DAY 2 Project */
+@media(max-width:800px){
+    #profileimg{
+        width: 40%;
+        margin-top: 1%;
+    }
+}
+
+@media(max-width:500px){
+    .top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Home, .About, .Contact, .Projects{
+        margin: 1rem;
+        padding: 5%;
+    }
+    #Home{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #profileimg{
+        width: 60%;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        width: 60%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #myname{
+        text-align: center;
+    }
+    .box{
+        width: 48%;
+        margin:1% 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
