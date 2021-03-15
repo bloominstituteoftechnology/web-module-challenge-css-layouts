@@ -90,9 +90,10 @@ a:hover{
 .mainimg{
     display:flex;
     justify-content:center;
-    padding:1%;
+    align-items: center;
+    padding:0 0 0 5%;
     max-width:95%;
-    height:4%;
+    height:40%;
 
     
 }
@@ -122,4 +123,36 @@ button{
 button:hover{
     background-color:palevioletred;
     border: 3px solid palevioletred;
+}
+
+@media(max-width: 500px){
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    header{
+align-items: center;
+    }
+
+.mainimg{
+    justify-content: center;
+    align-items:  center;
+}
+
+.gallery{
+    flex-direction: column;
+}
+}
+
+@media(max-width: 800px){
+    .gallery{
+        flex-flow: row wrap;
+
+
+    }
+
+
 }
