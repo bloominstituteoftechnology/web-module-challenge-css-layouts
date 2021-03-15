@@ -48,7 +48,7 @@ blockquote, q {
 *{
   box-sizing: border-box; 
    max-width:100%; 
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   margin: 0 auto;
 }
 
@@ -216,7 +216,8 @@ nav{
     align-items: center;
 }
 header nav a{
-    font-size:2.5rem;
+    font-size:2.2rem;
+    margin: 0 auto;
 
 }
 .profile {
@@ -289,6 +290,7 @@ header H1{
     }
 header nav a{
 font-size:1.5rem;
+margin: 0 auto;
 }
 .profile .homeprofile button{
     padding: 3% 3%;
@@ -299,6 +301,7 @@ font-size:1.5rem;
 }
 .profile .homeprofile p {
     text-align: center;
+    font-size: 1.5rem;
 }
 .box img{
     height: 22vh;
