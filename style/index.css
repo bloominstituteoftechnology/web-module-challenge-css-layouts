@@ -77,6 +77,11 @@ h1{
     display:flex;
     
 }
+#top img{
+    width: 80%;
+}
+
+
 .right{
     padding:20px;
 
@@ -157,4 +162,41 @@ footer button{
 }
 .project6{
     background-image:url(https://images.unsplash.com/photo-1615484486786-5a3732131c13?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+
+
+/* tablet */
+@media(max-width:800px){
+    #top{
+        flex-direction: column;
+}
+#top img{
+  width: 60%;
+}
+#top p{
+   width: 60%;
+}
+.gallery{
+    max-width: 65%;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    max-width: 65%;
+   justify-content: center;
+   align-items: center;
+}
+}
+
+/* mobile */
+@media(max-width:500px){
+header{
+    max-width: 65%;
+}
+
+h1{
+    max-width: 65%;
+    padding:1%
+}
 }
