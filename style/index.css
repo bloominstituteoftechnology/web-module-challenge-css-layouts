@@ -215,7 +215,10 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+header nav a{
+    font-size:2.5rem;
 
+}
 .profile {
     flex-direction: column;
 }
@@ -238,6 +241,9 @@ nav{
     margin: 0 auto;
     height: 30vh;
 }
+.profile .homeprofile p {
+    text-align: center;
+}
 .projects{
     width: 90%;
     display: flex;
@@ -250,9 +256,15 @@ nav{
 }
 
 .box img{
-    height: 18vh;
+    height: 25vh;
     width: 100%;
 }
+.box:nth-child(7) {
+    display:none;
+  }
+.box:nth-child(8) {
+    display:none;
+  }
 footer div{
     width: 100%;
     margin: 0 auto; 
@@ -261,21 +273,47 @@ footer h2{
     font-size: 4rem;
 }
 footer button{
-   width: 40%;
+   width: 30%;
    font-size: 2.5rem;
 }
 footer .social{
     display: none;
 }
-header nav a{
-    font-size:2.5rem;
-
 }
-
 
 /*Phone*/
 @media(max-width: 500px){
 
-
-
+header H1{
+        font-size: 4rem;
+    }
+header nav a{
+font-size:1.5rem;
+}
+.profile .homeprofile button{
+    padding: 3% 3%;
+    width: 40%;
+}
+.profile .homeprofile h2{
+    font-size: 2.5rem;
+}
+.profile .homeprofile p {
+    text-align: center;
+}
+.box img{
+    height: 22vh;
+}
+.box:nth-child(7) {
+    display:none;
+  }
+.box:nth-child(8) {
+    display:none;
+  }
+footer h2{
+    font-size: 2.5rem;
+}
+footer button{
+   width: 30%;
+   font-size: 1.5rem;
+}
 }
