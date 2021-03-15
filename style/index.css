@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     max-width:100%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     list-style-type: none;
 }
 html{
@@ -99,7 +99,7 @@ footer{
     text-decoration: none;
 }
 
-/* @media(max-width:800px) {
+@media(max-width:800px) {
     .myName{
         text-align:center;
     }
@@ -126,4 +126,4 @@ footer{
 }
 @media(max-width:500px) {
     
-} */
+}
