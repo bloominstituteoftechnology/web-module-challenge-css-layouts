@@ -1,1 +1,256 @@
-/* Add CSS styling here */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #CCCCCC;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+.myfirstheader{
+    background-color:lightcyan;
+    padding: 50px;
+}
+header nav  a{
+    color: lightslategrey;
+    justify-content: space-evenly;
+    border: 1px  solid lightgray;
+    background-color: white;
+    padding: 3px;
+}
+a:link{
+    text-decoration: none;
+}
+h1{
+    color:blue;
+    color: green;
+}
+h2{
+    color: purple;
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    color:slateblue;
+}
+html{
+    background-color: lightgray;
+    border: 2px dashed lightsalmon;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+  .firstsection{
+      display: flex;
+      border: 0px solid black;
+  }
+  .image1{
+      border: 0px solid black;
+      width: 100%;
+      padding: 1%;
+  }
+  .firstimage img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 50px;
+  }
+  .divtwo{
+      padding: 10% 5% 0% 5%;
+  }
+  .divtwo p {
+      width: 60%;
+  }
+  .divtwo button{
+      background-color: lightslategrey;
+  }
+.firsttop div{
+    width: 22%;
+    height:110px;
+    margin: 2% 0;
+  }
+  .mainsection{
+      margin: 20px 10px 150px 30px;
+  }
+.firsttop{
+    display:flex;
+    border:0px solid blue;
+    /*flex-wrap:wrap;*/
+    /*flex-direction:column-reverse;*/
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items:space-between;
+    text-align: center;
+    /*height:100vh;*/
+  }
+  .firstpair{
+      width: 100%;
+      margin-right: 5%;
+  }
+.secondpair div{
+    width: 100%;
+}
+  .firstbottom{
+    background-image:url('https://picsum.photos/200/300?grayscale');
+  }
+  .secondbottom{
+    background-image:url('https://picsum.photos/200/300/?blur');
+  }
+  .thirdbottom{
+    background-image:url('https://picsum.photos/seed/picsum/200/300');
+  }
+  .fourthbottom{
+    background-image:url('https://picsum.photos/id/870/200/300?grayscale&blur=2');
+  }
+  .fifthbottom{
+      background-image:url('https://images.unsplash.com/photo-1612831660648-ba96d72bfc5b?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  }
+  .sixbottom{
+      background-color: pink;
+  }
+  .sevenbottom{
+      background-color: hotpink;
+  }
+  .eightbottom{
+      background-color: brown;
+  }
+  .lastsection{
+    margin-top: 20px;
+    background-color:green;
+    padding: 50px;
+    text-align: center;
+  }
+  .lastsection button{
+      padding: 0.5%;
+      background-color: lightblue;
+  }
+  @media(max-width:800px){
+      .image1{
+          margin-left: 10%;
+      }
+      .divtwo{
+          margin-left: 10%;
+          padding-left: 10%;
+          padding: 2%;
+          margin-top: 5%;
+      }
+      .mainsection{
+        margin: 3% 5%;
+        margin-bottom: 30%;
+    }
+    /* phone layout*/
+    @media(max-width: 500px) {
+        .myfirstheader{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        .navheader nav a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1%;
+            padding: 10% 30%;
+            width: 100%;
+            padding: 10px 40px;
+        }
+        .firstsection{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 40px;
+            text-align: center;
+            margin: 5px 50px;
+        }
+        .divtwo p{
+            margin-left: 18%;
+        }
+        .firstimage{
+           margin-left: 0px;
+        }
+        .mainsection{
+           max-width: 500px;
+           margin-bottom: 40%;
+        }
+        .firsttop {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+  }
