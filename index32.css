@@ -90,7 +90,7 @@ nav{
     justify-content: space-between;
     position:fixed;
     top:0;
-    width:90%;
+    width:80%;
     /* z-index: 999;  */
 
 } 
@@ -138,4 +138,59 @@ footer .contact{
     background-color: red;
     margin-left: 50%;
     font-size: 20px;
+}
+
+/* Media Quaries */
+/* Phone */
+@media(max-width:500px){
+    .images img{
+        height: 30vh;
+        margin-top: 30%;
+    }
+    .name{
+        display: flex;
+        flex-direction: row;
+        font-size: 3rem;
+        margin-left: 30%;
+        align-items: center;
+        margin-top: 3%;
+        position: fixed;
+    }
+    .mainimg{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 55%; 
+        margin-top: 15%;
+
+    }
+   
+    .mainimg{
+        display: flex;
+        width: 40%;
+        margin: 0 auto;
+        flex-wrap: wrap;  
+    }
+    .grid-image{
+        display: flex;
+        margin-left: 5%;
+        
+    }
+}
+
+/* Tablet */
+@media(max-width:800px){
+    footer .contact{
+        display: flex;
+        background-color: red;
+        margin-left: 40%;
+        font-size: 20px;
+    }  
 }
