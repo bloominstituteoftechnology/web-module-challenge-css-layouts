@@ -1,3 +1,6 @@
+Example of site:
+![](https://i.imgur.com/iRGgy9F.png)
+
 # Flexbox Module Challenge
 
 The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
