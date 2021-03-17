@@ -45,6 +45,11 @@ body {
     background-color: #EEE2DC;
 }
 
+#main {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 section {
     margin-bottom: 20px;
 }
@@ -87,10 +92,6 @@ nav a:hover {
     background-color: #AC3B61;
 }
 
-#main {
-
-}
-
 .aboutContainer img {
     width: 350.6px;
     height: 350.8px;
@@ -100,11 +101,11 @@ nav a:hover {
 .aboutContainer {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .aboutContainer .item {
-    align-self: center;
+    //align-self: center;
     padding-top: 5px;
 }
 
@@ -116,7 +117,8 @@ nav a:hover {
     text-align: left;
     padding-top: 15px;
     line-height: 120%;
-    width:300px;
+    width:100%;
+    
 }
 
 .galleryContainer {
@@ -168,9 +170,8 @@ nav a:hover {
         padding-bottom: 15px;
     }
 
-    .galleryContainer {
-        margin-left: 10%;
-        margin-right: 10%;
+    .aboutContainer img {
+        margin-right: 15px;
     }
 }
 
