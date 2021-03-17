@@ -10,7 +10,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
@@ -41,112 +40,102 @@ blockquote, q {
 	quotes: "" "";
 	}
 
- /* Start of my CSS */
-  
- div .top nav ul{
-      display:flex;
-      justify-content:space-between;
-      padding: 5% 10%;
-	  
-  }
+/* End of reset */
 
 
 
 
 
-
-        /* MY code */
-    *{
-        box-sizing: border-box;
-    }
-.body{
-    width: 200px;
-    height: 120px;
+*{
+    box-sizing:border-box;/*respect the width I've given you, if I add padding or margin applyit within the given width not in addition to it*/
+    padding:0;
+    margin:0;
+    max-width:100%; /*you can never be bigger than your parent*/
+    /* border:1px solid grey; */
 }
-.title{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+
+/*General Styles*/
+html{
+    font-size:62.5%;
 }
-.top, .name nav {
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4F4F4F;
+    background-color:#FBFFFB;
+}
+a{
+    text-decoration:none;
+    color:#266035;
+}
+section{
+    padding:4% 0;
+}
+h2, h3{
+    text-align:center;
+    margin-bottom:2%;
+}
+h2{
+    font-size:4rem;
+}
+h3{
+    font-size:2rem;
+}
+
+
+/* My code */
+nav{
+    padding-left: 2%;
     display:flex;
-    justify-content:space-between;
-    padding: 5% 10%;
-    font-family: Arial, sans-serif;
-    text-align: left;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    width:90%;
+    /* z-index: 999;  */
+
 } 
-
-nav ul .navbar{
-      text-decoration:none;
-      text-align:center;
-      color:white;
-      border: 2px solid gray;
-      border-radius: 25px;
-      padding: 2%;
+nav a{
+    font-size: 20px;
+  
 }
-.top2{
-    align-items: right;
-}
-nav1{
+.name{
+    font-size: 4rem;
     display: flex;
-    align-items: center;
-    margin-top:30px;
-    margin-bottom: 1px;
-    margin-left: 20px;
-    ;
-
-}
-.top{
-    background-color: grey;
-    
-}
-.Name{
-    text-align: left;
-    font-size: 250%;
-    
 }
 
-
-ul {
-
-    display: flex;
-    flex-wrap: wrap;
-
-}
-ul img{
-    margin-top:20px;
-    margin-bottom: 20px;
-    display: flex;
-    padding: 0 20px 10px;
-    
+.images img{
+    padding-top: 7%;
+    padding-left: 12%;
+    padding-right: 12% ;
+    padding-bottom: 0%;
+    width: 100%;
+    height:60vh;
    
-    width: 25%;
-    height: 440px;
 }
-
-
-/*  
-.sub-main{
+ .mainimg{
     display: flex;
+    width: 90%;
+    margin: 0 auto;
     flex-wrap: wrap;
-    width: 90%x;
-   margin: 0 auto;
+    
 }
-
-.sub-non{
+.grid-image{
+    margin-top: 1%;
     display: block;
-    flex-basis: %;
-    padding: 1px;
-    box-sizing: border-bo;
-
+    flex-basis: 100%;
+    padding: 10px; 
 }
-*/
-/*
-.sub-main img{
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-height: 100%;
+.grid-image{
+    flex-basis: 33.333%;
 }
-
-*/
+footer{
+    background: grey;
+    padding: 5rem;
+    margin-top: 1%;
+}
+footer .contact{
+    display: flex;
+    background-color: red;
+    margin-left: 50%;
+    font-size: 20px;
+}
