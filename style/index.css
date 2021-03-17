@@ -167,6 +167,11 @@ nav a:hover {
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
+    .galleryContainer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 /* ~~ Mobile ~~ */
