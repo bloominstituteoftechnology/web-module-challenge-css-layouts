@@ -135,12 +135,22 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
-#footer .bar .contact {
-    padding-top: 20px;
-    text-align: center;
+#footer {
+    margin-bottom: 0%;
 }
 
-#footer .bar .contact nav{
+#footer .bar .contact {
+    
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer .bar .contact nav, h1{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
     padding-top: 15px;
 }
 
