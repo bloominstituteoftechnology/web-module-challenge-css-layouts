@@ -1,1 +1,223 @@
-/* Add CSS styling here */
+/* CSS RESET  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Start here */
+/* * { 
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid black;
+    font-size: 1rem;
+ */
+
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-section {
+    background-color:darkslategray;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.nav-section h1{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    animation-name: name;
+    animation-duration: 4s;
+    font-family: Great Vibes;
+}
+
+@keyframes name {
+    0% {background-color:yellow; left:200px; top:0px;}
+    100%{background-color:green; left:0px; top:200px;}
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding-left: 3rem;
+    
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: white;
+    border-bottom: 2px black solid;
+    transition: .5s;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-links a {
+    float: none;
+    width: 100%;
+    background-color: wheat;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+    background-color: grey;
+    }
+}
+
+.main-info {
+    display: flex;
+    
+}
+
+.main-info img{
+    padding:1rem 0rem 1rem 1rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: Great Vibes;
+}
+
+.main-text {
+    padding: 3rem 0 0rem 3rem;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.main-text p{
+    font-size:3rem;
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.main-text a{
+    margin: 14rem 0rem 0rem 3rem;
+}
+
+.button {
+    font: bold 4rem cursive;
+    font-family: "Niconne";
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 1rem 3rem 1rem 3rem;
+    border-top: 1px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    margin:3rem;
+}
+
+.button:hover {
+    font: bold 4rem cursive;
+    font-family: "Niconne";
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-top: 1px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    margin:3rem;
+    transition: .4s;
+}
+
+.first-row{
+    display: flex;
+    flex-wrap: row;
+    width:23.5%;
+}
+
+.first-row img{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.second-row {
+    display: flex;
+    flex-wrap: row;
+    width:23.5%;
+}
+
+.second-row img{
+    padding:1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    font-size: 3rem;
+    font-family: "Niconne";
+    margin: 0 auto;
+    padding: 2rem 0 2rem 70rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: darkslategrey;
+}
+
+footer>h2 {
+    padding-top: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    padding-left: 5rem;
+    color: black;
+    width: 90%;
+}
+
+footer a:hover {
+    color:white
+    
+}
