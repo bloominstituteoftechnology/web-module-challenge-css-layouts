@@ -1,4 +1,5 @@
-/* Add CSS styling here */
+
+
 body{
     margin: 0;
     padding: 0;
@@ -9,27 +10,12 @@ body{
     background-size: cover;
     height: 100vh;
 }
-header {
-   display: flex;  
-   ;
-}
-main {
-    display: flex;
-    height:80%;
-}
-nav, footer{
-    width: 100%;
-    height: 10%;
-    background-color: bisque;
-   
-    
-    
-}
+
+
 a{
     padding: 2%;
     letter-spacing: .4rem;
     text-decoration: none;
-   
     margin: 4px;
    
 }
@@ -39,13 +25,52 @@ a{
 }
 .nav-container {
     display: flex;
+    width: 100vw;
     align-items: center;
     justify-content: center;
+    align-content: space-around;
+    background-color: cadetblue;
 }
-main {
-    display:flex;
-    align-items: center;
-    justify-content: center; 
+.header-container {
+    display: flex;
+    background-color: burlywood;
     
+}
+.portofolio-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
 
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo-info-container {
+    display: flex;
+    background-color:black;
+    opacity: 0.5;
+    margin-top:0;
+
+    justify-content: center;
+   
+    
+}
+.title-head {
+    padding: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+
+}
+.flex1 {
+    padding-top: 30px;
 }
