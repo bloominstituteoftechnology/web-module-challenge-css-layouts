@@ -51,17 +51,21 @@ table {
 
 .profiletitle {
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	font-size: 2em;
+	font-family: "Berkshire Swash";
 }
 
 .title {
 	font-size: 2em;
 	font-family: sans-serif;
 	margin-bottom: 20px;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 70px;
+	display: flex;
+	justify-content: right;
+	margin-top: 40px;
 }
+
 
 .navigation {
 	margin-bottom: 20px;
@@ -71,20 +75,47 @@ table {
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
+	background-color: black;
 	
 	
+}
+
+.button {
+	font-family: "Merriweather";
+	background-color: black;
+	color: white;
 }
 
 .button1 {
 	margin-right: 175px;
+	color: white;
+	background-color: black;
+	font-family: "Merriweather";
+	font-size: 20px;
 }
 
 .button2 {
 	margin-right: 175px;
+	color: white;
+	background-color: black;
+	font-family: "Merriweather";
+	font-size: 20px;
 }
 
 .button3 {
 	margin-right: 175px;
+	color: white;
+	background-color: black;
+	font-family: "Merriweather";
+	font-size: 20px;
+}
+
+
+.button4{
+	color: white;
+	background-color: black;
+	font-family: "Merriweather";
+	font-size: 20px;
 }
 
 .text {
@@ -114,15 +145,17 @@ table {
 
 img {
 	width: 300px;
-	margin-top: 70px;
+	margin-top: 40px;
 	margin-left: 40px;
+	margin-bottom: 30px;
 }
 
 
 .footerq {
 	font-size: 1.5em;
-	text-align: center;
-	padding-top: 125px;
+	margin-top: 40px;
+	font-family: "Merriweather";
+	
 }
 
 .profile {
@@ -130,7 +163,46 @@ img {
 }
 
 .contactbutton {
-	margin-left: 600px;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: "Merriweather";
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	height: 30px;
+}
+
+
+.flex4 {
+	text-align: center;
+	margin-top: 60px;
+	margin-left: 50px;
+
+}
+
+
+.flex1 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex2 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.flex3 {
+	display: flex;
+	justify-content: center;
+}
+
+.quote {
+	font-family: sans-serif;
+	
+}
+
+.footer {
+	background-color: #add8e6;
+	padding: 10px;
 }
