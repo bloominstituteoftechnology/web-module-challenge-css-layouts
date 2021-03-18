@@ -1,7 +1,51 @@
 /* Add CSS styling here */
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+    background-image: url("curveTV.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header {
+   display: flex;  
+   ;
+}
+main {
+    display: flex;
+    height:80%;
+}
+nav, footer{
+    width: 100%;
+    height: 10%;
+    background-color: bisque;
+   
+    
+    
+}
+a{
+    padding: 2%;
+    letter-spacing: .4rem;
+    text-decoration: none;
+   
+    margin: 4px;
+   
+}
+ a:hover {
+    color: white;
+   
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    
+
 }
