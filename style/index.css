@@ -356,26 +356,46 @@ html {
 }
 
 header > div {
+    display: flex;
     background-color: black; 
-    padding: 1%;   
+    flex-direction: column; 
+    justify-content: space-between;
 }
 
 h1 {
     color: white;
     font-size: 6rem;
+    margin: 3rem;
 }
 
 .nav-flex {
     display: flex;
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
-    align-items: flex-end;
-    /* margin: 1.5%; */
+    /* align-items: flex-end; */
+    margin: 2rem 2rem;
+    
 }
 
 .nav-flex > a {
     background: gray;
-    padding: 3%;
+    padding: 1.5rem;
     font-size: 2rem;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-me {
+    display: flex;
+    background: blue;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.about-me-img {
+    background: green;
+    width: 30%;
+    height: 80%;
+    border: 5px solid black;
 }
