@@ -49,6 +49,88 @@ table {
 	border-spacing: 0;
 }
 
-.profile {
+.profiletitle {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.title {
+	font-size: 2em;
 	font-family: sans-serif;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.navigation {
+	margin-bottom: 20px;
+	margin-top: 75px;
+	font-size: 1.3em;
+	color: white;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+.button1 {
+	margin-right: 175px;
+}
+
+.button2 {
+	margin-right: 175px;
+}
+
+.button3 {
+	margin-right: 175px;
+}
+
+.text {
+	text-align: center;
+	margin: 45px;
+	font-size: 1.2em;
+	width: 50%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.picture {
+	margin-left: 40px;
+	margin-bottom: 45px;
+	
+	
+}
+
+.button {
+	margin-bottom: 40px;
+	font-size: 1.2em;
+}
+
+img {
+	width: 300px;
+	margin-top: 70px;
+	margin-left: 40px;
+}
+
+
+.footerq {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 125px;
+}
+
+.profile {
+	border-radius: 50%;
+}
+
+.contactbutton {
+	margin-left: 600px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
