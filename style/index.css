@@ -1,1 +1,75 @@
 /* Add CSS styling here */
+body {
+    background-image: linear-gradient(#e8e9eb, #e0dfd5)
+}
+
+header {
+    background-color: #e4b363;
+
+}
+ol {
+    display: inline-block;
+}
+.mainCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.myInfo {
+    width: 40%;
+    height: 100%;
+    color: #313638;
+}
+.myInfo p {
+    height: 100%;
+    padding: 70px;
+    
+}
+h3 {
+    width: 40%;
+    font-size: 25px;
+}
+
+
+#imgMain {
+    width: 30%;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+
+figure {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #313638;
+    border: 5px solid #ef6461;
+    overflow: hidden;
+    
+}
+#projButton {
+    border: 2px solid #313638;
+}
+article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: absolute;
+   
+}
+article figure img:hover {
+    transform: scale(1.2);
+}
+
+article {
+    margin-bottom: 100px;
+}
+footer {
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    text-align: center;
+    background-color: #e0dfd5;
+    width: 100%;
+}
