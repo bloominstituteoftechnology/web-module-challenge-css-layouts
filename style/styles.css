@@ -76,6 +76,8 @@ table {
 	display: flex;
 	justify-content: center;
 	background-color: black;
+	height: 25px;
+	padding-top: 7px;
 	
 	
 }
@@ -118,29 +120,35 @@ table {
 	font-size: 20px;
 }
 
-.text {
+.textindex {
+	
 	text-align: center;
-	margin: 45px;
 	font-size: 1.2em;
 	width: 50%;
+	margin-left: 100px;
+	margin-top: 70px;
+	
 }
 
 .header {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
+	margin-top: 50px;
+	
+	
 }
 
 .picture {
-	margin-left: 40px;
+	margin-left: 60px;
 	margin-bottom: 45px;
 	
 	
 }
 
 .button {
-	margin-bottom: 40px;
+	margin: 50px;
 	font-size: 1.2em;
+	width: 30px;
+	
 }
 
 img {
@@ -183,7 +191,7 @@ img {
 
 .flex1 {
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 }
 
 .flex2 {
@@ -205,4 +213,97 @@ img {
 .footer {
 	background-color: #add8e6;
 	padding: 10px;
+}
+
+
+.picture_contact {
+
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+.contact_image {
+	border: black 5px;
+	width: 700px;
+	border-radius: 20%;
+	
+}
+
+.email {
+	font-family: "Merriweather";
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.phone {
+	font-family: "Merriweather";
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.address {
+	font-family: "Merriweather";
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.aboutpicture {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.aboutpic {
+	border-radius: 25px;
+	margin-left: 130px;
+	margin-top: 0px;
+}
+
+.abouttext {
+	text-align: center;
+	margin: 45px;
+	margin-top: 70px;
+	font-size: 1.1em;
+	width: 70%;
+	font-family: sans-serif;
+	margin-left: 75px;
+	
+	
+}
+
+.abouttitle {
+	text-align: center;
+	
+}
+
+.flexabout {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+.aboutheader {
+	display: flex;
+	align-items: center;
+}
+
+
+.aboutsection {
+	display: flex;
+	text-align: center;
+	
+
+}
+
+
+.lifeofpablo {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	font-family: "Berkshire Swash";
+	font-size: 50px;
 }
