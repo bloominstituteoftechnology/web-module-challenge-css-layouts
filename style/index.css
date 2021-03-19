@@ -354,17 +354,28 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    background: #0B9BDE;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border: 2px solid white;
+    color: #0321FF;
+    font-weight: bold;
 }
 
 header > div {
     display: flex;
-    background-color: black; 
+    background-color: #0B63DE; 
     flex-direction: column; 
     justify-content: space-between;
 }
 
 h1 {
-    color: white;
+    color: #73E1FA;
     font-size: 6rem;
     margin: 3rem;
 }
@@ -376,19 +387,19 @@ h2 {
 
 .nav-flex {
     display: flex;
-    width: 40%;
+    width: 30%;
     justify-content: space-between;
     /* align-items: flex-end; */
     margin: 2rem 2rem;    
 }
 
 .nav-flex > a {
-    background: gray;
-    padding: 1.5rem;
-    font-size: 2rem;
-    text-decoration: none;
-    border: 2px solid white;
-    color: black;
+    /* background: #0B9BDE; */
+    /* padding: 1.5rem; */
+    /* font-size: 2rem; */
+    /* text-decoration: none; */
+    /* border: 2px solid white; */
+    /* color: #0321FF; */
 }
 
 /* ========================SECTION 1 (About Me)======================== */
@@ -399,7 +410,7 @@ h2 {
 
 .about-me {
     display: flex;
-    background: blue;
+    background: #0321FF;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: stretch;
@@ -411,7 +422,7 @@ h2 {
     background: url(https://i.picsum.photos/id/366/600/600.jpg?hmac=d_io0RfMGZ1-ZlhYBuWyErHt_YKmF9yBEDVW4G4hMAU);
     width: 30%;
     min-height: 40rem;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     margin: 3rem;
     object-fit: cover;
 }
@@ -421,8 +432,8 @@ h2 {
   flex-direction: column;
   width: 50%;
   /* height: 80%; */
-  border: 5px solid black;
-  background: green;
+  /* border: 5px solid black; */
+  /* background: green; */
   margin: 3rem;
 }
 
@@ -435,16 +446,19 @@ h2 {
 }
 
 .about-me-text a {
-    background: gray;
+    /* background: gray; */
     font-size: 2rem;
     text-decoration: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
+    display: inline-block;
+    /* max-width: 15rem; */
 }
 
 .about-me-text p {
   font-size: 2rem;
+  color: #0BADDE;
 }
 
 /* ========================SECTION 2 (Gallery)======================== */
@@ -453,12 +467,13 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background: #0BADDE;
 }
 
 .galleryGrid > div {
   width: 40rem;
   height: 40rem;
-  border: 10px dashed pink;
+  /* border: 10px dashed pink; */
   margin: 2rem;
 }
 
@@ -482,6 +497,8 @@ h2 {
   width: 80%;
   margin: 2% auto;
   font-size: 2rem;
+  font-weight: bold;
+  color: #0321FF;
 }
 
 .image1 {
@@ -529,7 +546,7 @@ footer {
   height: 30rem;
   width: 100%;
   background: tomato;
-  border: 10px solid salmon;
+  /* border: 10px solid salmon; */
 }
 
 .footer-div-flex {
@@ -537,7 +554,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 75%;
   height: 80%;
   /* background: blue; */
   /* border: 10px solid black; */
@@ -546,11 +563,13 @@ footer {
 .footer-div-flex p {
   display: block;
   font-size: 4rem;
+  color: white;
 }
 
 .footer-div-flex a {
-  display: block;
-  font-size: 3rem;
-  padding: 2rem;
+  /* display: block; */
+  /* font-size: 3rem;
+  padding: 3rem;
   background: white;
+  text-decoration: none; */
 }
