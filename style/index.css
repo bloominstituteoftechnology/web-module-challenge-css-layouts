@@ -1,1 +1,233 @@
-/* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    background-color:white;
+    opacity:100%;
+}
+
+.header2{
+    color:green;
+    font-size: 66px;
+    margin:20px;
+    height:20px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color:;
+    opacity:;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 60px;
+    border: .5px solid black;
+    height:100px;
+    width: 50%;
+}
+
+h2 {
+      size:3px;
+      height:22px;
+  }
+  
+.nav_bar {
+    font-size:26px;
+    border: 2px solid black;
+    margin: 1%;
+    padding: 2%;
+    width: 100%;
+  text-align:left;
+  background-color:black;
+  opacity:75%;
+  
+}
+
+.nav_bar a {
+    color: white;
+    border: 5px;
+    margin: 1%;
+    padding:4px;
+    width:40px;
+    background-color:black;
+    border-top:2px solid #777777;
+    border-right:2px solid #333333;
+    border-bottom:2px solid#444444;
+    border-left:2px solid #777777;
+
+}
+
+  
+
+  .leftimage{
+      display:flex;
+      flex-flow:row wrap;
+      justify-content: first baseline;
+  }
+  p {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content:flex-end;
+    height:200px;
+    font-size:30px;
+    text-align: center;
+    background-color:rgb(195, 203, 202);
+    padding: 60px;
+    margin: 10px;
+  }
+  
+  
+  .container .item {
+    height: 50px; 
+    width:150px;
+    margin: 20px;
+    border: 1px solid rgb(148, 155, 155);
+    background: rgb(191, 191, 191);
+    color: white;
+  }
+  
+
+  .container{
+    background-color:black;
+    opacity:75%;
+    padding:50px;
+    display:flex row;
+  }
+ 
+  
+
+ 
+  .content_2 { 
+    border: 2px solid rgb(200, 200, 200);
+    margin: 1%;
+    width: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    background-color:black;
+    opacity:75%;
+    
+}
+.content_2 h2{
+    font-size:39px;
+    display:flex;
+    justify-content:
+}
+
+.content_2_box {
+    border: 2px solid rgb(250, 255, 254);
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    vertical-align: top;
+    margin: 1%;
+    width: 48%;
+    min-width: 250px;
+}
+.content_2_box .text_content{
+    font-size:;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:;
+    width:6%;
+}
+footer a{
+    font-size:25px;
+    display:inline-block;
+    flex-direction:row;
+    align-content:center;
+    
+}
+footer{
+    width:25%;
+    padding:50%;
+    display:inline-block;
+    flex-direction:row;
+    align-content:center;
+    justify-content:center;
+    
+}
+#topnav {
+    display:inline-block;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+#bottomrnav {
+    display:inline-block;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;  
+}
+
+#toprow {
+    padding:50px;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+#bottomrow{
+    padding:50px;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
