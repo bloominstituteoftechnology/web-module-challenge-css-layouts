@@ -1,0 +1,42 @@
+*{
+    margin: 20px;
+}
+
+/* font-family: 'Amatic SC', cursive;    body */
+
+/* ==header== */
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 50px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: black;
+    border: 2px solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
+
+#header {
+    border: inset;
+    background-color: lightgray;
+}
+
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+}
