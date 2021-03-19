@@ -83,6 +83,7 @@ select {
 body {
     font-family:Arial, Helvetica, sans-serif;
     color: black;
+    background-color:rgb(230, 120, 142);
 }
 
 .header-container {
@@ -94,3 +95,20 @@ body {
     background-color: bisque;
 }
 
+.aboutme-container {
+    display: flex;
+    margin: 10%;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+}
+
+.aboutme-container .paragraph1 {
+    margin-left: 25%;
+}
+
+.myprojects-container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
