@@ -100,7 +100,7 @@ a:hover {
 
 @media screen and (max-width: 500px) {
     .nav-links a {
-    
+
     width: 100%;
    
     }
@@ -124,6 +124,7 @@ a:hover {
 
 .main-info img{
     padding:1rem 0rem 1rem 1rem;
+<<<<<<< HEAD
 }
 
 h2{
@@ -223,6 +224,91 @@ h2{
     height: auto;
 }
 
+
+
+
+h2{
+    font-size: 3rem;
+    font-family: Great Vibes;
+}
+
+.main-text {
+    padding: 3rem 0 0rem 3rem;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.main-text p{
+    font-size:3rem;
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.main-text a{
+    margin: 14rem 0rem 0rem 3rem;
+}
+
+.button1 {
+    
+    font-family: 'Chelsea Market', cursive;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 1rem 3rem 1rem 3rem;
+    
+    margin:3rem;
+    letter-spacing: .7rem;
+}
+
+
+.button:hover {
+    font: bold 4rem cursive;
+    font-family: "Niconne";
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-top: 1px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    margin:3rem;
+    transition: .4s;
+}
+
+.first-row{
+    display: flex;
+    flex-wrap: row;
+    width:23.5%;
+}
+
+.first-row img{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.second-row {
+    display: flex;
+    flex-wrap: row;
+    width:23.5%;
+}
+
+.second-row img{
+    padding:1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
 footer {
     font-size: 3rem;
     font-family: "Niconne";
@@ -244,6 +330,7 @@ footer a{
     color: black;
     width: 90%;
 }
+
 
 footer a:hover {
     color:white
