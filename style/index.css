@@ -136,14 +136,16 @@ h2{
 .main-text {
     padding: 3rem 0 0rem 3rem;
     font-size: 3rem;
-    width: 80%;
+    width: 80%; 
+    margin-bottom: 20px;
 }
+
 
 .main-text p{
     font-size:3rem;
     padding: 5rem 5rem 5rem 5rem;
+   
 }
-
 .main-text a{
     margin: 14rem 0rem 0rem 3rem;
 }
@@ -155,8 +157,9 @@ h2{
     background-color: #EEEEEE;
     color: black;
     padding: 1rem 3rem 1rem 3rem;
-    
+    margin-bottom: 10px;
     margin:3rem;
+    border:3px solid black;
     letter-spacing: .7rem;
 }
 
@@ -173,7 +176,8 @@ h2{
     border-bottom: 2px solid #333333;
     border-left: 1px solid #CCCCCC;
     margin:3rem;
-    transition: .4s;
+
+    /* transition: .4s; */
 }
 
 .first-row{
