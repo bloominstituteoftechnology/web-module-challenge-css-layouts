@@ -353,6 +353,7 @@
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 header > div {
@@ -368,13 +369,17 @@ h1 {
     margin: 3rem;
 }
 
+h2 {
+  color: white;
+  font-size: 4rem;
+}
+
 .nav-flex {
     display: flex;
     width: 40%;
     justify-content: space-between;
     /* align-items: flex-end; */
-    margin: 2rem 2rem;
-    
+    margin: 2rem 2rem;    
 }
 
 .nav-flex > a {
@@ -382,20 +387,138 @@ h1 {
     padding: 1.5rem;
     font-size: 2rem;
     text-decoration: none;
-    border-radius: 5px;
+    border: 2px solid white;
+    color: black;
 }
+
+/* ========================SECTION 1 (About Me)======================== */
+
+/* .project-info {
+  
+} */
 
 .about-me {
     display: flex;
     background: blue;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 500px;
 }
 
 .about-me-img {
-    background: green;
+    background: url(https://i.picsum.photos/id/366/600/600.jpg?hmac=d_io0RfMGZ1-ZlhYBuWyErHt_YKmF9yBEDVW4G4hMAU);
     width: 30%;
     height: 80%;
     border: 5px solid black;
+    /* margin-left: 2rem; */
 }
+
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  border: 5px solid black;
+  background: green;
+  
+}
+
+.spacing1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 3rem;
+  
+}
+
+.about-me-text a {
+    background: gray;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    width: 10rem;
+}
+
+.about-me-text p {
+  font-size: 2rem;
+}
+
+
+/* ========================SECTION 2 (Gallery)======================== */
+
+.galleryGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.galleryGrid > div {
+  width: 30rem;
+  height: 30rem;
+  border: 10px dashed pink;
+  margin: 2rem;
+}
+
+.galleryGrid div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
+  background: rgb(165, 32, 32);
+  border: 1px solid blue;
+  width: 80%;
+  height: 80%;
+  margin: 2% auto;
+}
+
+.galleryGrid p{
+  text-align: center;
+  width: 80%;
+  margin: 2% auto;
+}
+
+.image1 {
+  background: url(https://i.picsum.photos/id/307/300/300.jpg?hmac=8B1OjGHHyab52NEiBZTWu-dUZ5Ip7mZ_DGrm4S5Nqts);
+}
+
+.image2 {
+  background: url(https://i.picsum.photos/id/764/300/300.jpg?hmac=0HRLp-QPSNkJarT4P3RB6nj65J2ZTge7_iQxnHDG8Ls);
+}
+
+.image3 {
+  background: url(https://i.picsum.photos/id/980/300/300.jpg?hmac=vHinDWK7Puspt_OCX0zAHmGGHFJG5cmdZwezQ7z1Yow);
+}
+
+
+.image4 {
+  background: url(https://i.picsum.photos/id/512/300/300.jpg?hmac=V2Kk_hoNyr-Ybum0-zja0LaJA9aqolkTfK0_7cXn_CI);
+}
+
+
+.image5 {
+  background: url(https://i.picsum.photos/id/891/300/300.jpg?hmac=II8s3ZmJbIAEApWnC0tcuXE6xiE7Yx9tIRlXvSu5Hvo);
+}
+
+
+.image6 {
+  background: url(https://i.picsum.photos/id/491/300/300.jpg?hmac=nqxHz8st4gF72CiLOQovPViZnuvh7nKSmJjMwyfcmW8);
+}
+
+.image7 {
+  background: url(https://i.picsum.photos/id/328/300/300.jpg?hmac=qsZMcU1Y-bZzGtaFBtw2R53R1tu-XGzKECXP9_MRIwE);
+}
+
+.image8 {
+  background: url(https://i.picsum.photos/id/299/300/300.jpg?hmac=AL30gVrvEQMZgWvQ53mFxMB2rRy8wNO9yDOHwEsO1k0);
+}
+
+
+
