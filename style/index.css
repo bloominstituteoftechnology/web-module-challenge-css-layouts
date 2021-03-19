@@ -553,24 +553,31 @@ h2 {
 /* ========================Footer======================== */
 
 footer {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 30rem;
   width: 100%;
   background: tomato;
   /* border: 10px solid salmon; */
 }
 
+.footer-section-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+  /* border: 10px solid salmon; */
+}
+
 .footer-div-flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 75%;
   height: 80%;
-  /* background: blue; */
-  /* border: 10px solid black; */
 }
 
 .footer-div-flex p {
@@ -579,10 +586,17 @@ footer {
   color: white;
 }
 
-.footer-div-flex a {
-  /* display: block; */
-  /* font-size: 3rem;
-  padding: 3rem;
-  background: white;
-  text-decoration: none; */
+
+.social-media {
+  display: flex;  
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.social-media a {
+  background: url(/artwork/twitter.svg) center center no-repeat;
+  border: none;
+  margin-top: 20px;
+  margin-right: 20px;
+
 }
