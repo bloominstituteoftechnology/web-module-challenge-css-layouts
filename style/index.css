@@ -20,18 +20,27 @@ header nav {
     list-style-type: none;
     font-size: 20px;
     padding: 0px;
-    margin: 0;
+    margin: 0px;
     overflow: hidden;
 }
+
 li {
     float: left;
+    padding-bottom: 10px;
 }
+li a {
+    padding: 20px;
+}
+
 a {
     text-decoration: none;
     background-color: #e4b363;
     color: #E8E9EB;
     text-align: center;
     padding: 14px 16px;
+}
+a:hover {
+    background-color: #d6a557;    
 }
 .mainCont {
     display: flex;
@@ -94,7 +103,7 @@ article figure img:hover {
 
 article {
     margin-bottom: 100px;
-    margin-top: 100;
+    margin-top: 150px;
     
    }
 footer {
