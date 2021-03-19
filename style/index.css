@@ -24,9 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -102,7 +100,7 @@ a:hover {
 
 @media screen and (max-width: 500px) {
     .nav-links a {
-    float: none;
+    
     width: 100%;
    
     }
@@ -182,14 +180,26 @@ h2{
 
 .first-row{
     display: flex;
-    flex-wrap: row;
-    width:23.5%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
-
+.item {
+    padding: 10px;
+    border: 4px solid white;
+    background-color:  black;
+     
+}
+.item p {
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 24px;
+    font-family: monospace;
+    color: white
+}
 .first-row img{
     padding: 1rem;
-    max-width: 100%;
-    height: auto;
+    
 }
 
 .text-container {
