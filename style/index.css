@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -55,6 +55,8 @@ html {
 }
 .profilePicture {
  border-radius: 200px;
+ max-width: 200px;
+ height: 200px;
 }
 .nav-section {
     background-color: gray;
@@ -91,8 +93,9 @@ a:hover {
 
 .nav-links a:hover {
     color: white;
-    border-bottom: 2px black solid;
+    border-bottom: 2px rgb(30, 99, 163) solid;
     transition: .5s;
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 500px) {
@@ -143,19 +146,18 @@ h2{
     margin: 14rem 0rem 0rem 3rem;
 }
 
-.button {
-    font: bold 4rem cursive;
-    font-family: "Niconne";
+.button1 {
+    
+    font-family: 'Chelsea Market', cursive;
     text-decoration: none;
     background-color: #EEEEEE;
     color: black;
     padding: 1rem 3rem 1rem 3rem;
-    border-top: 1px solid #CCCCCC;
-    border-right: 2px solid #333333;
-    border-bottom: 2px solid #333333;
-    border-left: 1px solid #CCCCCC;
+    
     margin:3rem;
+    letter-spacing: .7rem;
 }
+
 
 .button:hover {
     font: bold 4rem cursive;
