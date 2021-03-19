@@ -78,3 +78,19 @@ select {
 
 /* -----End CSS Reset-----*/
 
+/* Start Styling */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    padding: 50px 10px;
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+
