@@ -1,0 +1,52 @@
+/* Add CSS styling here */
+.MyName {
+    display: flex;
+    border: 0px solid black;
+  background-color: red;
+  width: 23%;
+    
+}
+
+section {
+  margin: 20px
+}
+
+.story img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    float:left;
+}
+
+.para {
+    height: 200px;
+    width: 200px;
+    text-align: right;
+}
+
+nav a {
+    height: 25px;
+    display: block;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+  border: 1px solid black;
+  
+}
+
+nav {
+  display: flex;
+  
+}
+.Story {
+    display:  flex;
+}
+
+.Top {
+    display: flex;
+}
+
+.Bottom {
+    display: flex;
+}
