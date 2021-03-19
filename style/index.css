@@ -1,76 +1,237 @@
 
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* CSS RESET  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+.body-container {
     background-image: url("curveTV.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
+.profilePicture {
+ border-radius: 200px;
+ max-width: 200px;
+ height: 200px;
+}
+.nav-section {
+    background-color: gray;
+    padding: 2rem 0 2rem 2rem;
+    
+}
+.image-random{
+    border: 10px solid black;
+}
+.nav-section h1{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    animation-name: name;
+    animation-duration: 4s;
+    font-family: Great Vibes;
+}
 
+@keyframes name {
+    0% {color: white; left:200px; top:0px;}
+    50%{color: green; left:0px; top:200px;}
+    100%{color: white; left:0px; top:200px;}
+}
 
-a{
-    padding: 2%;
-    letter-spacing: .4rem;
+.nav-links a{
     text-decoration: none;
-    margin: 4px;
-   
+    color: black;
+    font-size: 2rem;
+    padding-left: 3rem;
+
 }
- a:hover {
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav-links a:hover {
     color: white;
+    border-bottom: 2px rgb(30, 99, 163) solid;
+    transition: .5s;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-links a {
+    float: none;
+    width: 100%;
    
+    }
 }
-.nav-container {
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    align-content: space-around;
-    background-color: cadetblue;
+@media screen and (max-width: 500px) {
+    .profilePicture {
+    display: none;
+   
+    }
 }
-.header-container {
+@media screen and (min-width: 400px) {
+    body {
+    background-color: grey;
+    }
+}
+
+.main-info {
     display: flex;
-    background-color: burlywood;
+
+}
+
+.main-info img{
+    padding:1rem 0rem 1rem 1rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: Great Vibes;
+}
+
+.main-text {
+    padding: 3rem 0 0rem 3rem;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.main-text p{
+    font-size:3rem;
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.main-text a{
+    margin: 14rem 0rem 0rem 3rem;
+}
+
+.button1 {
     
-}
-.portofolio-image {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    font-family: 'Chelsea Market', cursive;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 1rem 3rem 1rem 3rem;
+    
+    margin:3rem;
+    letter-spacing: .7rem;
 }
 
 
-.main-container {
+.button:hover {
+    font: bold 4rem cursive;
+    font-family: "Niconne";
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-top: 1px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    margin:3rem;
+    transition: .4s;
+}
+
+.first-row{
     display: flex;
+    flex-wrap: row;
+    width:23.5%;
+}
+
+.first-row img{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 2rem;
 }
-.logo-info-container {
-    display: flex;
-    background-color:black;
-    opacity: 0.5;
-    margin-top:0;
 
-    justify-content: center;
-   
-    
+.second-row {
+    display: flex;
+    flex-wrap: row;
+    width:23.5%;
 }
-.title-head {
-    padding: 40px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
+.second-row img{
+    padding:1rem;
+    max-width: 100%;
+    height: auto;
 }
-.title {
+
+footer {
+    font-size: 3rem;
+    font-family: "Niconne";
+    margin: 0 auto;
+    padding: 2rem 0 2rem 70rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 5%;
-
+    align-content: center;
+    background-color: darkslategrey;
 }
-.flex1 {
-    padding-top: 30px;
+
+footer>h2 {
+    padding-top: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    padding-left: 5rem;
+    color: black;
+    width: 90%;
+}
+
+footer a:hover {
+    color:white
+
 }
