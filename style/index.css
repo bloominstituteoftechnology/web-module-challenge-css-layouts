@@ -57,7 +57,7 @@ html {
  border-radius: 200px;
 }
 .nav-section {
-    background-color: black;
+    background-color: gray;
     padding: 2rem 0 2rem 2rem;
     
 }
@@ -99,10 +99,15 @@ a:hover {
     .nav-links a {
     float: none;
     width: 100%;
-    background-color: wheat;
+   
     }
 }
-
+@media screen and (max-width: 500px) {
+    .profilePicture {
+    display: none;
+   
+    }
+}
 @media screen and (min-width: 400px) {
     body {
     background-color: grey;
