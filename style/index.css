@@ -1,1 +1,153 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    background-color: lightsteelblue;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.flex a {
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+    margin: 4px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    }
+
+.flex a:hover {
+    background-color: black;
+    color: white;
+    }    
+
+img {
+    height: 400px;
+    width: 20px
+    margin-bottom: 0px;
+}
+
+.projectcontainers {
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+.projectcontainers img {
+    width: 80%;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.projectcontainers p{
+    flex-grow: 30%;
+    padding: 0 0 0 20%;
+    width: 50%;
+    height: auto;
+}
+
+.middleimage img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.testtext  {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.testtext img {
+    width: 90%;
+    height: 500px;
+}
+
+.testtext p {
+    padding-top: 16%;
+}
+
+.contactme {
+    text-align: center;
+        width: 100%;
+        background: darkgray;
+        padding: 50px;
+}
+
+.contactme a{
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 60px;
+    cursor: pointer;
+  }
+  
+  .button {background-color: darkgray;}
