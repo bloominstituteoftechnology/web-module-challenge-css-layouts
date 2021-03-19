@@ -63,7 +63,9 @@ html {
     padding: 2rem 0 2rem 2rem;
     
 }
-
+.image-random{
+    border: 10px solid black;
+}
 .nav-section h1{
     padding-left: 1rem;
     padding-bottom: 2rem;
