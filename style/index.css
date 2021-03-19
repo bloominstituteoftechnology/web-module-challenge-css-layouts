@@ -90,20 +90,22 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    padding: 50px 10px;
+    padding: 30px 5px;
     margin-bottom: 50px;
     background-color: bisque;
 }
 
 .aboutme-container {
     display: flex;
-    margin: 10%;
+    margin-left: 2%;
+    margin-bottom: 10%;
     flex-flow: row no-wrap;
     justify-content: space-evenly;
 }
 
 .aboutme-container .paragraph1 {
-    margin-left: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .myprojects-container{
@@ -111,4 +113,14 @@ body {
     flex-flow:row wrap;
     justify-content: center;
     justify-content: space-around;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    background-color: bisque;
+    padding-top: 2% ;
+    padding-bottom:2% ;
+    flex-direction: column;
 }
