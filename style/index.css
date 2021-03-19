@@ -80,10 +80,23 @@ select {
 
 /* Start Styling */
 
-body {
+body{
     font-family:Arial, Helvetica, sans-serif;
     color: black;
-    background-color:rgb(230, 120, 142);
+    background: linear-gradient(-45deg,rgb(230, 120, 142), #ee7752, rgb(230, 120, 142), #23d5ab, rgb(230, 120, 142));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .header-container {
@@ -120,7 +133,7 @@ body {
     align-items: center;
     margin-top: 10%;
     background-color: bisque;
-    padding-top: 2% ;
+    padding-top: 2%;
     padding-bottom:2% ;
     flex-direction: column;
 }
