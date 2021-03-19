@@ -2,13 +2,36 @@
 body {
     background-image: linear-gradient(#e8e9eb, #e0dfd5)
 }
+h1 {
+    font-size: 50px;
+    text-align: center;
+]}
 
 header {
     background-color: #e4b363;
+    position: fixed;
+    top: 0;
+    margin: -10px;
+    padding: -10px;
+    width: 100%;
 
 }
-ol {
-    display: inline-block;
+header nav {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a {
+    text-decoration: none;
+    background-color: #e4b363;
+    color: #E8E9EB;
+    text-align: center;
+    padding: 14px 16px;
 }
 .mainCont {
     display: flex;
@@ -24,11 +47,15 @@ ol {
 }
 .myInfo p {
     height: 100%;
-    padding: 70px;
+    padding: 30px;
     
 }
+.myInfo h2 {
+    font-family: 'Redressed', cursive;
+    font-size: 70px;
+}
 h3 {
-    width: 40%;
+    width: 45%;
     font-size: 25px;
 }
 
@@ -50,6 +77,9 @@ figure {
 }
 #projButton {
     border: 2px solid #313638;
+    padding: 4px; 
+      
+
 }
 article figure img {
     width: 100%;
@@ -64,10 +94,12 @@ article figure img:hover {
 
 article {
     margin-bottom: 100px;
-}
+    margin-top: 100;
+    
+   }
 footer {
     position: fixed;
-    height: 80px;
+    height: 50px;
     bottom: 0;
     text-align: center;
     background-color: #e0dfd5;
