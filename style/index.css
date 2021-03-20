@@ -45,7 +45,7 @@ html {
     font-size: 62.5%;
 }
 .body-container {
-    background-image: url("curveTV.jpeg");
+    /* background-image: url("curveTV.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,7 +124,7 @@ a:hover {
 
 .main-info img{
     padding:1rem 0rem 1rem 1rem;
-<<<<<<< HEAD
+
 }
 
 h2{
@@ -224,9 +224,6 @@ h2{
     height: auto;
 }
 
-
-
-
 h2{
     font-size: 3rem;
     font-family: Great Vibes;
@@ -278,7 +275,7 @@ h2{
 .first-row{
     display: flex;
     flex-wrap: row;
-    width:23.5%;
+    
 }
 
 .first-row img{
