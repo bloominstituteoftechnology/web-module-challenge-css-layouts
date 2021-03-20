@@ -132,6 +132,7 @@ table {
 /* HTML font-size/ Imgs Size */
 html {
   font-size: 62.5%;
+  size: 62.5%;
   font-family: "Inconsolata", monospace;
 }
 
@@ -141,8 +142,7 @@ img {
 }
 
 /* Nav Bar */
-nav,
-.contact-button {
+nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -152,6 +152,7 @@ nav,
 }
 
 button {
+  margin: 2rem;
   padding: 0;
   border: none;
   background: none;
@@ -223,4 +224,27 @@ h1 {
   margin: 2rem 0rem;
 }
 
-/* */
+/* Footer/Contact */
+.foot {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: rgb(228, 140, 82);
+}
+
+.contact-button p {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 4.5rem;
+}
+
+.socials {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.social:hover {
+  color: white;
+}
