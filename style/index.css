@@ -132,10 +132,11 @@ table {
 /* HTML font-size/ Imgs Size */
 html {
   font-size: 62.5%;
+  font-family: "Inconsolata", monospace;
 }
 
 img {
-  height: 15rem;
+  height: 25rem;
   width: auto;
 }
 
@@ -147,7 +148,7 @@ nav,
   justify-content: space-evenly;
   font-size: 2.5rem;
   background-color: rgb(228, 140, 82);
-  height: 3.5rem;
+  height: 8rem;
 }
 
 button {
@@ -155,7 +156,7 @@ button {
   border: none;
   background: none;
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Inconsolata", monospace;
 }
 
@@ -165,11 +166,8 @@ button:hover {
 
 /* About Me */
 h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.5rem;
+  font-size: 5rem;
+  font-family: "Inconsolata", monospace;
 }
 
 .about {
@@ -189,8 +187,8 @@ h2 {
 }
 
 .about img {
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
 }
 
 .head-container {
@@ -221,7 +219,8 @@ h2 {
   flex-flow: column;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
+  margin: 2rem 0rem;
 }
 
 /* */
