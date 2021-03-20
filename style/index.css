@@ -1,1 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 /* Add CSS styling here */
+body {
+    font-size: 1.8rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* intro section */
+h2 {
+    font-size: 4.4rem;
+}
+
+.intro {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('https://picsum.photos/1200');
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.my-projects-btn {
+    font-size: 2rem;
+    padding: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* project section */
+.projects {
+    /* border: 1px solid red; */
+    margin: 2%;
+}
+
+.project {
+    width: 400px;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid orange; */
+    text-align: center;
+}
+
+.project-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 0 2%;
+}
+
+.project-row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-text {
+    margin: 2% 0;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.contact {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-size: 2rem;
+    padding: 2%;
+    border-radius: 10px;
+}
