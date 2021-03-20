@@ -6,9 +6,13 @@
 
 /* ==header== */
 
+body {
+    border: 5px solid #5FA2DA;
+    padding: 20px;
+}
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Satisfy', cursive;
     margin-left: 50px;
 }
@@ -16,23 +20,23 @@ h1 {
 a:link, a:visited {
     background-color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     border: 2px solid;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: green;
+}
+
+    a:hover, a:active {
+    background-color: #5FA2DA ;
     color: white;
-  }
+}
 
 #header {
     border: inset;
-    background-color: lightgray;
+    background-color: #A0C1DE;
 }
 
 
@@ -40,3 +44,55 @@ a:link, a:visited {
     display: flex;
     flex-direction: row;
 }
+
+#me {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 10px solid #5FA2DA;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.flex-container1 > p {
+    border: inset;
+    background-color: #A0C1DE;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container2 > .flex-row-item {
+    flex: 1 1 25%;
+}
+
+.flex-row-item {
+    border: 2px solid #5FA2DA;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+
+h2 {
+    font-family: 'Satisfy', cursive; 
+    font-size: 30px;
+}
+
+footer {
+    border: inset;
+    background-color: #A0C1DE;
+    text-align: center;
+}
+
