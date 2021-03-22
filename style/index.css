@@ -156,6 +156,22 @@ nav a:hover {
     padding-top: 15px;
 }
 
+.mandelbrot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    border: 10px solid white;
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    background-color: #EDC7B7;
+}
+
 /* ~~~~ RESPONSIVE CSS ~~~~ */
 /* ~~ Desktop ~~ */
 @media(min-width: 501px){
