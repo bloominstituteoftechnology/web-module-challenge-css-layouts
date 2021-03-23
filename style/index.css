@@ -45,11 +45,11 @@ html {
     font-size: 62.5%;
 }
 .body-container {
-    /* background-image: url("curveTV.jpeg"); */
+    background-image: url("curveTV.jpeg");  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+   
 }
 .profilePicture {
  border-radius: 200px;
@@ -59,6 +59,9 @@ html {
 .nav-section {
     background-color: gray;
     padding: 2rem 0 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
     
 }
 .image-random{
@@ -73,7 +76,7 @@ html {
     font-family: Great Vibes;
 }
 
-@keyframes name {
+@keyframes  footer {
     0% {color: white; left:200px; top:0px;}
     50%{color: green; left:0px; top:200px;}
     100%{color: white; left:0px; top:200px;}
@@ -86,6 +89,10 @@ html {
     padding-left: 3rem;
 
 }
+.nav-links {
+    padding-top: 20px;
+    margin-left: 30px;
+}
 
 a:hover {
     cursor: pointer;
@@ -97,14 +104,13 @@ a:hover {
     transition: .5s;
     padding-right: 50px;
 }
-
-@media screen and (max-width: 500px) {
-    .nav-links a {
-
-    width: 100%;
-   
-    }
+@media screen and (max-width: 500px){
+.nav-links {
+    display: column;
 }
+
+}
+
 @media screen and (max-width: 500px) {
     .profilePicture {
     display: none;
@@ -115,6 +121,9 @@ a:hover {
     body {
     background-color: grey;
     }
+  .nav-links a{
+      width: 100%;
+  }
 }
 
 .main-info {
@@ -224,11 +233,6 @@ h2{
     height: auto;
 }
 
-h2{
-    font-size: 3rem;
-    font-family: Great Vibes;
-}
-
 .main-text {
     padding: 3rem 0 0rem 3rem;
     font-size: 3rem;
@@ -310,26 +314,35 @@ footer {
     font-size: 3rem;
     font-family: "Niconne";
     margin: 0 auto;
-    padding: 2rem 0 2rem 70rem;
+    padding: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: darkslategrey;
+    
 }
 
-footer>h2 {
+footer h2 {
     padding-top: 2rem;
+    display: inline;
 }
 
 footer a{
     text-decoration: none;
-    padding-left: 5rem;
     color: black;
-    width: 90%;
+    
+   
 }
 
 
 footer a:hover {
     color:white
 
+}
+@media (max-width: 500px){
+    footer{
+        flex-direction: column;
+    }
 }
