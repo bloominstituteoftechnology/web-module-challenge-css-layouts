@@ -442,7 +442,7 @@ h2 {
   /* height: 80%; */
   /* border: 5px solid black; */
   /* background: green; */
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .spacing1 {
@@ -450,7 +450,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   width: 70%;
-  margin: 3rem;  
+  margin: 2rem;  
 }
 
 .about-me-text a {
@@ -495,6 +495,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all .3s ease-in-out;
 }
 
 .image {
@@ -503,6 +504,10 @@ h2 {
   width: 80%;
   height: 80%;
   margin: 2% auto;
+}
+
+.galleryGrid div:hover {
+  transform: scale(1.05);
 }
 
 .galleryGrid p{
@@ -611,7 +616,9 @@ footer {
   
   .nav-flex {
     flex-direction: column;
+    justify-content: space-around;
   }
+
 
   .about-me {
     flex-direction: column;
@@ -631,6 +638,7 @@ footer {
   .spacing1 {
     width: 100%;
     align-items: center;
+    margin: 2rem auto;
   }
 
   .galleryGrid > div {
