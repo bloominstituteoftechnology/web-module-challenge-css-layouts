@@ -324,7 +324,7 @@ footer a:hover {
     color: red;
 
 }
-@media (max-width: 360px){
+@media (max-width: 640px){
     footer{
         flex-direction: column;
     }
@@ -361,3 +361,32 @@ p:hover {
     /* text-decoration: line-through; */
     text-decoration: underline;
 }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+  }
+  .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .social a {
+      margin: 50px;
+  }
+  .social a:hover{
+      border: 2px solid white;
+  }
