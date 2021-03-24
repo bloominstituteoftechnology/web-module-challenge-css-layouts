@@ -1,14 +1,17 @@
 /* Add CSS styling here */
 body {
-    background-image: linear-gradient(#e8e9eb, #e0dfd5)
+    background-image: linear-gradient(#0677a1, #2D4159)
 }
 h1 {
     font-size: 50px;
     text-align: center;
 ]}
+img {
+    width: 100%;
+}
 
 header {
-    background-color: #e4b363;
+    background-color: #895061;
     position: fixed;
     top: 0;
     margin: -10px;
@@ -34,13 +37,13 @@ li a {
 
 a {
     text-decoration: none;
-    background-color: #e4b363;
+    background-color: #895061;
     color: #E8E9EB;
     text-align: center;
     padding: 14px 16px;
 }
 a:hover {
-    background-color: #d6a557;    
+    background-color: #0677a1;    
 }
 .mainCont {
     display: flex;
@@ -52,7 +55,7 @@ a:hover {
 .myInfo {
     width: 40%;
     height: 100%;
-    color: #313638;
+    color: #ffffff;
 }
 .myInfo p {
     height: 100%;
@@ -70,7 +73,8 @@ h3 {
 
 
 #imgMain {
-    width: 30%;
+    width: 40%;
+    height: 40%;
     border-radius: 50px;
     margin-top: 8px;
 }
@@ -78,27 +82,29 @@ h3 {
 figure {
     height: 500px;
     width: 500px;
-    border-radius: 20px;
-    background-color: #313638;
-    border: 5px solid #ef6461;
+    border-radius: 50%;
+    background-color: #2D4159;
+    border: 1px solid #59253a;
+    align-content: center;
+    
     overflow: hidden;
     
 }
 #projButton {
-    border: 2px solid #313638;
+    border: 2px solid #59253a;
     padding: 4px; 
       
 
 }
 article figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-    object-position: absolute;
+vertical-align: middle;
+   width: 100%;
+   margin: 0em;
+   padding: 0em;
+
+  
    
-}
-article figure img:hover {
-    transform: scale(1.2);
+   
 }
 
 article {
@@ -109,8 +115,25 @@ article {
 footer {
     position: fixed;
     height: 50px;
-    bottom: 0;
+    bottom: 0px;
+    left: 0px;
     text-align: center;
-    background-color: #e0dfd5;
+    background-color: #2D4159;
     width: 100%;
+}
+
+@media  (max-width: 300;) { 
+
+}
+
+
+
+
+
+
+
+
+
+
+
 }
