@@ -45,7 +45,7 @@ html {
     font-size: 62.5%;
 }
 .body-container {
-    background-image: url("curveTV.jpeg");  */
+    background-image: url("four.jpeg");  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -76,7 +76,7 @@ html {
     font-family: Great Vibes;
 }
 
-@keyframes  footer {
+@keyframes footer {
     0% {color: white; left:200px; top:0px;}
     50%{color: green; left:0px; top:200px;}
     100%{color: white; left:0px; top:200px;}
@@ -198,6 +198,7 @@ h2{
     padding: 10px;
     border: 4px solid white;
     background-color:  black;
+    margin:2%;
      
 }
 .item p {
@@ -205,11 +206,8 @@ h2{
     letter-spacing: .5rem;
     font-size: 24px;
     font-family: monospace;
-    color: white
-}
-.first-row img{
-    padding: 1rem;
-    
+    color: white;
+    overflow: auto;
 }
 
 .text-container {
@@ -282,12 +280,6 @@ h2{
     
 }
 
-.first-row img{
-    padding: 1rem;
-    max-width: 100%;
-    height: auto;
-}
-
 .text-container {
     display:flex;
     flex-direction: row;
@@ -297,52 +289,75 @@ h2{
     padding-bottom: 2rem;
 }
 
-.second-row {
-    display: flex;
-    flex-wrap: row;
-    width:23.5%;
-}
-
-.second-row img{
-    padding:1rem;
-    max-width: 100%;
-    height: auto;
-}
-
 
 footer {
     font-size: 3rem;
     font-family: "Niconne";
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    background-color: black;
     align-items: center;
     justify-content: center;
-    background-color: darkslategrey;
+    color: white;
+    box-sizing: border-box;
     
 }
 
 footer h2 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: inline;
 }
 
 footer a{
     text-decoration: none;
-    color: black;
-    
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+
    
 }
 
 
 footer a:hover {
-    color:white
+    color: red;
 
 }
-@media (max-width: 500px){
+@media (max-width: 360px){
     footer{
         flex-direction: column;
     }
+    .item img{
+        width: 100%;
+        height:100%;
+
+    }
+    .item {
+        width: 30%;
+        height:30%;
+    }
+}
+@media  (min-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+    .item img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .item {
+        width: 25%;
+        height:25%;
+    }
+}
+.item img:hover{
+    opacity: 0.5;
+    border: 1px solid red;
+    
+}
+p:hover {
+    /* text-decoration: line-through; */
+    text-decoration: underline;
 }
