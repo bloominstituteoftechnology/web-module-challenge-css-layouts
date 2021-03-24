@@ -368,18 +368,22 @@ a {
     border-radius: 6px;
     /* min-width: 15%; */
     text-align: center;
+    transition: all .3s ease-in-out;
 }
 
 a:hover {
   background-color: #002A42;
   color: white;
+  transform: scale(1.1);
 }
 
 header > div {
     display: flex;
-    background-color: #5F9EC2; 
+    background: #5F9EC2; 
     flex-direction: column; 
     justify-content: space-between;
+    /* box-shadow: 0  8px 8px -8px rgba(0,0,0,.75), 
+                0 -8px 8px -8px rgba(0,0,0,.75); */
 }
 
 h1 {
@@ -413,7 +417,8 @@ h2 {
 /* ========================SECTION 1 (About Me)======================== */
 
 /* .project-info {
-  
+  box-shadow: 0 8px 8px -8px rgba(0,0,0,.75),
+                0 -8px 8px -8px rgba(0,0,0,.75);
 } */
 
 .about-me {
@@ -428,11 +433,12 @@ h2 {
 
 .about-me-img {
     background: url(https://i.picsum.photos/id/366/600/600.jpg?hmac=d_io0RfMGZ1-ZlhYBuWyErHt_YKmF9yBEDVW4G4hMAU);
-    width: 30%;
+    width: 40%;
     min-height: 40rem;
     /* border: 5px solid black; */
     margin: 3rem;
     object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 .about-me-text {
@@ -504,6 +510,8 @@ h2 {
   width: 80%;
   height: 80%;
   margin: 2% auto;
+  box-shadow: 0 12px 15px -8px rgba(0,0,0,.75),
+                0 -12px 15px -8px rgba(0,0,0,.75);
 }
 
 .galleryGrid div:hover {
@@ -591,6 +599,14 @@ footer {
   color: white;
 }
 
+.footer a {
+  transition: all .3s ease-in-out;
+}
+
+.footer a:hover {
+  transform: scale(1.1);
+}
+
 
 .social-media {
   display: flex;  
@@ -608,7 +624,7 @@ footer {
 
 /* ========================MEDIA QUERIES======================== */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   
   header > div {
     align-items: center;
@@ -626,7 +642,48 @@ footer {
   }
 
   .about-me-img {
-    width: 90%;
+    width: 85%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+
+  .about-me-text {
+    width: 80%;
+  }
+
+  .spacing1 {
+    width: 100%;
+    align-items: center;
+    margin: 2rem auto;
+  }
+
+  .galleryGrid > div {
+    width: 30rem;
+    height: 30rem;
+    /* border: 10px dashed pink; */
+    margin: 2rem .5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  
+  header > div {
+    align-items: center;
+  }
+  
+  .nav-flex {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-img {
+    width: 85%;
     object-fit: cover;
     margin-bottom: 0;
   }
