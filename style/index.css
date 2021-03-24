@@ -8,6 +8,8 @@ h1 {
 ]}
 img {
     width: 100%;
+    display: block;
+    
 }
 
 header {
@@ -84,10 +86,9 @@ figure {
     width: 500px;
     border-radius: 50%;
     background-color: #2D4159;
-    border: 1px solid #59253a;
-    align-content: center;
-    
     overflow: hidden;
+    display: flex;
+    align-items: center;
     
 }
 #projButton {
@@ -97,15 +98,22 @@ figure {
 
 }
 article figure img {
-vertical-align: middle;
-   width: 100%;
-   margin: 0em;
-   padding: 0em;
-
-  
-   
-   
+    width: 100%;
 }
+ 
+.imgContainer-Jupangatina {
+ display: flex;
+ flex-wrap: wrap;
+ width: 80%;
+ justify-content: space-between;
+ ;
+ 
+ 
+}
+.imgContainer-Jupangatina img {
+    width: 50%;
+}
+
 
 article {
     margin-bottom: 100px;
