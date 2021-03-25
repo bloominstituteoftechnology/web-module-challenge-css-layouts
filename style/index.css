@@ -20,7 +20,7 @@ h1 {
   }
 
   /*NavBar*/
-  .Navbar {
+  nav {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -36,27 +36,19 @@ h1 {
     padding: 0 0 0 105px;
   }
 
-  .Top {
+  section {
     display: flex;
-    flex-direction: row;
-    align-items:center
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 45px;
-    margin: 40px;
-    height: 55px;
-    width: auto;
-  }
+}
+article {
+  width: 17%;
+}
+p {
+  text-align: center;
+}
 
-  .Bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding:45px;
-      margin:40px;
-      height: 55px;
-      width: auto;
-    }
+  
     .flexwrap_container {
       display: flex;
       flex-direction: row;
@@ -65,5 +57,9 @@ h1 {
       margin: 15px;
       width: 150px;
       height: 150px;
+    }
+    footer {
+      text-align: center;
+      margin: 5%;
     }
     
