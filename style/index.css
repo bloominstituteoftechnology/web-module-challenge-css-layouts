@@ -615,11 +615,20 @@ footer {
 }
 
 .social-media a {
-  background: url(/artwork/twitter.svg) center center no-repeat;
   border: none;
   margin-top: 20px;
   margin-right: 20px;
+  width: 30px;
+  height: 20px;
 
+}
+
+#twitter {
+  background: url(/artwork/twitter.svg) center center no-repeat;
+}
+
+#instagram {
+  background: url(/artwork/instagram.svg) center center no-repeat;
 }
 
 /* ========================MEDIA QUERIES======================== */
