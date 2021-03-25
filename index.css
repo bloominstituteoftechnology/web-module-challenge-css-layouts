@@ -28,10 +28,14 @@ footer{
  .flex{
     display: flex;
 }
+.box{
+  align-items:center;
+}
 .name{
   font-style:oblique;
 }
-.random{ content:url("https://picsum.photos/seed/picsum/200")
+.random{ content:url("https://picsum.photos/seed/picsum/200");
+ margin: 50px 0.5%;
 }
 #about-top{
   justify-content: space-between;
@@ -44,11 +48,33 @@ footer{
   flex-direction: column;
   justify-content:center;
   text-align: center;
-  width:50%
+  width:50%;
 }
-#projects{
-  flex-wrap: wrap;
+#project-gallery{
+  flex-flow:wrap;
   justify-content: space-evenly;
   vertical-align: top;
   text-align: center;
+}
+
+#fungi{
+  width:12em;
+  height:13em;
+  padding-top: 4em;
+}
+#nisqually{
+  width:12em;
+  height:13em;
+  padding-top: 4em;
+}
+
+#madre{
+   width:15em;
+  height:13em;
+  padding-top: 4em;
+}
+#ethereum{
+  width:13em;
+  height:13em;
+  padding-top: 4em;
 }
