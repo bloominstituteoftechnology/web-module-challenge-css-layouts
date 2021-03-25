@@ -50,10 +50,12 @@ table {
 }
 
 .profiletitle {
-	text-align: center;
-	margin-bottom: 30px;
+    margin-top: 70%;
+    margin-left: 460%;
 	font-size: 2em;
 	font-family: "Berkshire Swash";
+    
+    
 }
 
 .title {
@@ -75,7 +77,6 @@ table {
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
-	background-color: black;
 	height: 25px;
 	padding-top: 7px;
 	
@@ -94,6 +95,12 @@ table {
 	background-color: black;
 	font-family: "Merriweather";
 	font-size: 20px;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
+    
+    
+    
 }
 
 .button2 {
@@ -102,6 +109,9 @@ table {
 	background-color: black;
 	font-family: "Merriweather";
 	font-size: 20px;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .button3 {
@@ -110,6 +120,9 @@ table {
 	background-color: black;
 	font-family: "Merriweather";
 	font-size: 20px;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 
@@ -118,20 +131,23 @@ table {
 	background-color: black;
 	font-family: "Merriweather";
 	font-size: 20px;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .textindex {
-	
-	text-align: center;
+	display: flex;
+    justify-content: center;
+    margin-left: 2em;
 	font-size: 1.2em;
-	width: 50%;
-	margin-left: 100px;
-	margin-top: 70px;
+   
 	
 }
 
 .header {
 	display: flex;
+    justify-content: center;
 	margin-top: 50px;
 	
 	
@@ -189,10 +205,7 @@ img {
 }
 
 
-.flex1 {
-	display: flex;
-	justify-content: right;
-}
+
 
 .flex2 {
 	display: flex;
@@ -207,7 +220,11 @@ img {
 
 .quote {
 	font-family: sans-serif;
-	
+    margin-top: 10%;
+    margin-right: 50%;
+    
+    
+    	
 }
 
 .footer {
@@ -306,4 +323,166 @@ img {
 	margin-bottom: 60px;
 	font-family: "Berkshire Swash";
 	font-size: 50px;
+}
+
+
+.quoteindex {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.projectsbutton {
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   margin-top: 0;
+   margin-left: 17em;
+   margin-bottom: 7em;
+   color: white;
+ 
+}
+
+.actuallink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.actuallink {
+    margin-right: 10em;
+    margin-bottom: 0px;
+    background-color: black;
+    padding: .5em;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .navigation {
+        flex-direction: column;
+    }
+    
+
+   .textindex {
+       display: none;
+   }
+
+   .quoteindex {
+       display: none;
+   }
+
+    .button1 {
+        background-color: black;
+        width: 20%;
+        margin-bottom: 2%;
+        margin-top: 20%;
+        padding: .7%;
+
+    }
+
+    .button2 {
+        background-color: black;
+        width: 19%;
+        margin-bottom: 2%;
+        padding: .7%
+    }
+
+    .button3 {
+        background-color: black;
+        width: 25%;
+        margin-bottom: 2%;
+        padding: .7%;
+    }
+
+    .button4 {
+        background-color: black;
+        width: 25%;
+        margin-bottom: 2%;
+        padding: .7%;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex3 {
+        flex-direction: column;
+    }
+
+    img {
+        margin-left: 37%;
+    }
+
+    .contact_image {
+        display: none;
+    }
+
+    .contact {
+        margin-top: 30%;
+    }  
+    
+}
+
+@media (max-width: 500px) {
+
+    .navigation {
+        flex-direction: column;
+
+    }
+
+    .button1 {
+        width: 30%;
+    }
+
+    .button2 {
+        width: 30%;
+    }
+
+    .button3 {
+        width: 35%;
+    }
+
+    .button4 {
+        width: 40%;
+    }
+
+    .picture {
+        display: flex;
+        margin-right: 30%;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        margin-left: 20%;
+    }
+
+    .projectsbutton {
+        display: flex;
+        justify-content: center;
+        margin-left: 35%;
+    }
+
+    .lifeofpablo {
+        display: none;
+    }
+
+    .aboutpicture {
+        display: flex;
+        margin-top: 40%;
+        margin-right: 30%;
+    }
+
+
+
+     
+        
+    
 }
