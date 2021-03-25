@@ -1,4 +1,7 @@
 /* Add CSS styling here */
+body{
+  background-color: darkgrey;
+}
 h1 {
   display: flex;
   flex-flow: row;
@@ -14,9 +17,14 @@ h1 {
   }
 
   .Tag img {
-    height:300px;
-    width:400px;
+    height:400px;
+    width:500px;
     margin:20px;
+  }
+  header {
+    background-color: coral;
+    border-style: double;
+
   }
 
   /*NavBar*/
@@ -25,9 +33,14 @@ h1 {
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
-    text-decoration: none;
+    }
+    nav a {
+     text-decoration: none;
     color: black;
-  }
+    }
+    nav a:hover {
+      color: crimson;
+    }
 
   .para {
     display: inline-block;
@@ -46,6 +59,17 @@ article {
 }
 p {
   text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  }
+  p:hover {
+    color: crimson;
+}
+img {
+  border: 1px dotted coral;
+}
+img:hover {
+  border: 2px solid red;
 }
 
   
@@ -58,8 +82,10 @@ p {
       width: 150px;
       height: 150px;
     }
-    footer {
+    Footer {
       text-align: center;
       margin: 5%;
-    }
+      background-color: coral;
+      border-style: double;
+      }
     
