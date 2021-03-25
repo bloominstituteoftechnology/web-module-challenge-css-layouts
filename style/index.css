@@ -139,6 +139,7 @@ html {
 img {
   height: 25rem;
   width: auto;
+  border-radius: 2.5rem;
 }
 
 /* Nav Bar */
@@ -191,9 +192,7 @@ h1 {
 .about img {
   height: 30rem;
   width: 30rem;
-}
-
-.head-container {
+  border-radius: 2.5rem;
 }
 
 /* Main Section/Imgs*/
@@ -248,4 +247,62 @@ h1 {
 
 .social:hover {
   color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about img {
+    height: 24rem;
+    width: auto;
+  }
+
+  .about img {
+    margin: 2rem 1.5rem;
+  }
+
+  img {
+    height: 28rem;
+    width: auto;
+    margin: 2rem 3rem;
+  }
+
+  a {
+    margin: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightgray;
+    color: white;
+  }
+
+  .about img {
+    height: 20rem;
+    width: auto;
+    margin: 0.5rem;
+  }
+
+  img {
+    height: 28rem;
+    width: auto;
+  }
+
+  a {
+    margin: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: slategray;
+  }
+  img {
+    height: 30rem;
+    width: auto;
+  }
+
+  .about img {
+    height: 18rem;
+    width: auto;
+  }
 }
