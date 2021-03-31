@@ -1,21 +1,61 @@
-*{
-    margin: 20px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 20px;
+	padding: 10px;
+	font-size: 100%;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+    .flex-container2 {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+body {
+	line-height: 1;
+    border: 5px solid #5FA2DA;
+    padding: 20px;
 }
 
 /* font-family: 'Amatic SC', cursive;    body */
 
 /* ==header== */
 
-body {
-    border: 5px solid #5FA2DA;
-    padding: 20px;
-}
-
 h1 {
     font-size: 70px;
     font-family: 'Satisfy', cursive;
     margin-left: 50px;
 }
+
+.nav {
+    overflow: hidden;
+    background-color: black;
+}
+
 
 a:link, a:visited {
     background-color: white;
@@ -26,7 +66,9 @@ a:link, a:visited {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    float: left;
+    text-align: center;
+
 }
 
     a:hover, a:active {
@@ -38,7 +80,6 @@ a:link, a:visited {
     border: inset;
     background-color: #A0C1DE;
 }
-
 
 .flex-container1 {
     display: flex;
@@ -69,8 +110,7 @@ a:link, a:visited {
 .flex-container2 {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
 .flex-container2 > .flex-row-item {
