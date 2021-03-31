@@ -139,6 +139,41 @@ table {
 }
 
 /* Add CSS styling here */
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    nav a {
+        border: 1px solid red;
+        padding: 1rem 0;
+    }
+
+    h1 {
+        margin: 1rem auto;
+        font-size: 3rem;
+    }
+
+
+}
+
+
 body {
     font-size: 1.8rem;
     width: 90%;
@@ -173,10 +208,11 @@ h2 {
 }
 
 .intro {
-    width: 85%;
+    width: 100%;
     height: 500px;
     margin: 0 auto;
-    background-image: url('https://picsum.photos/1200');
+    background-image: url('https://picsum.photos/1800');
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
@@ -209,6 +245,11 @@ h2 {
     /* flex-wrap: wrap; */
     /* border: 1px solid orange; */
     text-align: center;
+}
+
+.project-photo {
+    background-image: url('http://placehold.it/400x300&text=image1');
+    height: 300px;
 }
 
 .project-row-1 {
@@ -245,4 +286,23 @@ footer {
     font-size: 2rem;
     padding: 2%;
     border-radius: 10px;
+}
+
+.parent {
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.child {
+    color: red;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.grandchild {
+    width: 400px;
+    height: 100px;
+    background: gray;
 }
