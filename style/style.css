@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -10,129 +10,138 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 20px;
-	padding: 10px;
-	font-size: 100%;
-	vertical-align: baseline;
+time, mark, audio, video */
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    font-size: 60%;
     box-sizing: border-box;
+    margin: 2rem;
 }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-@media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
-      color: white;
-    }
-    .flex-container2 {
-        display: flex;
-        flex-direction: column;
-    }
-  }
 
 body {
-	line-height: 1;
-    border: 5px solid #5FA2DA;
-    padding: 20px;
+    margin: 0;
 }
 
-/* font-family: 'Amatic SC', cursive;    body */
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
 
-/* ==header== */
+a {
+    background-color: transparent;
+    background: none;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+
+a:hover {
+    background-color: blue;
+    color:white;
+    transform: scale(1.1);
+}
+
+header > div {
+    display: flex;
+    border:inset;
+    background-color: lightgray;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 h1 {
-    font-size: 70px;
-    font-family: 'Satisfy', cursive;
-    margin-left: 50px;
+    font-size: 6em;
+    margin: 1em;
+    color:red;
 }
 
-.nav {
-    overflow: hidden;
-    background-color: black;
+h2 {
+    color: red;
+    font-size: 4em;
 }
 
+nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
 
-a:link, a:visited {
-    background-color: white;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    color: black;
-    border: 2px solid;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+img {
     float: left;
-    text-align: center;
-
-}
-
-    a:hover, a:active {
-    background-color: #5FA2DA ;
-    color: white;
-}
-
-#header {
-    border: inset;
-    background-color: #A0C1DE;
+    width: 60rem;
+    min-height: 20rem;
+    margin: 2rem;
+    box-shadow: 0 15px 15px -15px black;
 }
 
 .flex-container1 {
-    display: flex;
-    flex-direction: row;
+    background: gray;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 96%;
+    padding: 3rem;
+    margin-bottom: 2em;
 }
 
-#me {
-    height: 300px;
-    width: 300px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 50px;
-    border: 10px solid #5FA2DA;
-}
-
-#name {
-    font-weight: bold;
-}
-
-.flex-container1 > p {
-    border: inset;
-    background-color: #A0C1DE;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    padding: 20px;
+.flex-container1 p {
+    display: inline;
+    width: 50%;
+    font-size: 2em;
+    padding: 4rem;
 }
 
 .flex-container2 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2.3em;
 }
 
-.flex-container2 > .flex-row-item {
-    flex: 1 1 25%;
+.flex-container2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
 }
 
-.flex-row-item {
-    border: 2px solid #5FA2DA;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+.flex-container2 img {
+    width: 35rem;
+    height: 35rem;
+    box-shadow: 0 15px 15px -15px black;
 }
 
-
-h2 {
-    font-family: 'Satisfy', cursive; 
-    font-size: 30px;
+.flex-container2 > div:hover {
+    transform: scale(1.05);
 }
 
 footer {
     border: inset;
-    background-color: #A0C1DE;
-    text-align: center;
+    background-color: lightgray;
 }
 
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2em;
+}
