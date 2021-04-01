@@ -24,15 +24,17 @@ html {
     -webkit-text-size-adjust: 100%;
     position: relative;
     height: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-size: 60%;
     margin: 2rem;
+    max-width: 1500px;
 }
 
 body {
+    border: solid 2px black;
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
     min-height: 100%;
 }
 
@@ -41,51 +43,68 @@ body {
     overflow:scroll;
     display: block;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 a {
     background-color: transparent;
     background: none;
     text-decoration: none;
-    border: 2px solid black;
+    border: 2px solid #B1CCE1;
     border-radius: 5px;
-    color: black;
+    color: #B1CCE1;
     text-align: center;
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: 10px;
 }
 
 a:hover {
-    background-color: blue;
+    background-color: rgb(117, 50, 34);
     color:white;
     transform: scale(1.1);
 }
 
+
 header > div {
     display: flex;
-    border:inset;
-    background-color: lightgray;
+    border: none;
+    background-color: #B1CCE1;
     flex-direction: column;
     justify-content: space-between;
 }
 
 h1 {
+    font-family: 'Shrikhand', cursive;
     font-size: 6em;
-    margin: 1em;
-    color:red;
+    margin: 0.5em;
+    color: rgb(117, 50, 34);
+    text-shadow: 4px 4px #4289CB;
 }
 
 h2 {
-    color: red;
+    font-family: 'Caveat', cursive;
+    color: black;
     font-size: 4em;
+}
+
+span {
+    border: solid 10px #64A8DC;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #4289CB;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    width: 30%;
+    width: 60%;
     justify-content: space-between;
-    margin-left: 3rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 2rem;
+    font-family: 'Caveat', cursive;
+    margin-left: 2rem;
 }
 
 img {
@@ -93,6 +112,7 @@ img {
     width: 60rem;
     min-height: 20rem;
     margin: 2rem;
+    margin-right: 3rem;
     box-shadow: 0 15px 15px -15px black;
 }
 
@@ -108,21 +128,27 @@ img {
 }
 
 .flex-container1 p {
+    font-family: monaco;
     display: inline;
     width: 50%;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 4rem;
 }
 
+.flex-container1 a {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
 .flex-container2 {
-    background: gray;
     width: 100%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 2.3em;
-    margin-bottom: 15rem;
-    padding-bottom: 50px;
+    font-family: monaco;
+    margin-bottom: 5rem;
+    padding-bottom: 10px;
 }
 
 .flex-container2 > div {
@@ -157,21 +183,32 @@ img {
 
 .links {
     display: flex;
+    font-family: 'Caveat', cursive;
     justify-content:space-evenly;
     align-items: center;
     font-size: 2rem;
     margin: 2em;
 }
 
-@media only screen and (max-width: 800px) {
+
+
+/*=============== MEDIA ====================*/
+
+
+@media only screen and (min-width:350px) and (max-width: 800px) {
 
     header > div {
         align-items: center;
     }
 
-    nav {
+    nav{
         flex-direction: column;
         justify-content: space-around;
+        margin: auto;
+    }
+
+    .flex-container1 p {
+        margin: auto;
     }
 
     .about-me {
@@ -182,17 +219,21 @@ img {
     }
 
     img {
-        width: 85%;
+        width: 100%;
         object-fit: cover;
-        margin: 0 auto;
+        margin: auto;
+        margin-bottom: 2rem;
     }
 
     .flex-container2 {
-        background-color: blue;
         align-items: center;
         width: 25rem;
-        height: 25rem;
-        margin: 2rem .5rem;
+        margin: auto;
+        font-size: inherit;
+    }
+
+    .flex-container2 div {
+        align-items: center;
     }
 
     .links {
@@ -209,8 +250,15 @@ img {
 
 @media only screen and (max-width:500px) {
 
-    .flex-container2 > div {
+    .img {
+        width: auto;
+}
+
+    .flex-container2 div {
         width: 20rem;
         height: 20rem;
+        align-items: center;
+        overflow: hidden;
     }
+
 }
