@@ -12,22 +12,36 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video */
 
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
-    font-size: 60%;
+    position: relative;
+    height: 100%;
     box-sizing: border-box;
+    font-size: 60%;
     margin: 2rem;
 }
 
 body {
+    position: relative;
     margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+.main-container {
+    min-height: 100%;
+    overflow:scroll;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 a {
@@ -87,9 +101,10 @@ img {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 96%;
+    width: 100%;
     padding: 3rem;
     margin-bottom: 2em;
+    margin-top: 1rem;
 }
 
 .flex-container1 p {
@@ -100,10 +115,14 @@ img {
 }
 
 .flex-container2 {
-    display: flex;
+    background: gray;
+    width: 100%;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 2.3em;
+    margin-bottom: 15rem;
+    padding-bottom: 50px;
 }
 
 .flex-container2 > div {
@@ -124,18 +143,16 @@ img {
     transform: scale(1.05);
 }
 
-footer {
+.footer-flex {
     border: inset;
     background-color: lightgray;
+    width: 100%;
+    display: block;
+    padding: 1rem;
 }
 
-
-.footer-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;
-    width: 100%;
+.footer-flex h2 {
+    text-align: center;
 }
 
 .links {
@@ -144,4 +161,56 @@ footer {
     align-items: center;
     font-size: 2rem;
     margin: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+
+    header > div {
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        width: 80%;
+    }
+
+    img {
+        width: 85%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .flex-container2 {
+        background-color: blue;
+        align-items: center;
+        width: 25rem;
+        height: 25rem;
+        margin: 2rem .5rem;
+    }
+
+    .links {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .flex-container2 > div {
+        width: 20rem;
+        height: 20rem;
+    }
 }
