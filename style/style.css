@@ -23,10 +23,10 @@ html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     position: relative;
-    height: 100%;
     box-sizing: border-box; 
     font-size: 60%;
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     max-width: 1500px;
 }
 
@@ -43,16 +43,15 @@ body {
     overflow:scroll;
     display: block;
     position: relative;
-    padding-bottom: 50px;
 }
 
 a {
     background-color: transparent;
     background: none;
     text-decoration: none;
-    border: 2px solid #B1CCE1;
+    border: 2px solid #64A8DC;
     border-radius: 5px;
-    color: #B1CCE1;
+    color: black;
     text-align: center;
     transition: all .3s ease-in-out;
     padding: 10px;
@@ -76,7 +75,7 @@ header > div {
 h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 6em;
-    margin: 0.5em;
+    margin: 1em;
     color: rgb(117, 50, 34);
     text-shadow: 4px 4px #4289CB;
 }
@@ -88,12 +87,12 @@ h2 {
 }
 
 span {
-    border: solid 10px #64A8DC;
+    border: solid 2px rgb(117, 50, 34);
     width: 100%;
 }
 
 .nav-bar {
-    background-color: #4289CB;
+    background: linear-gradient(to bottom, #b1cce2 0%, #63a8dc 100%);
     width: 100%;
 }
 
@@ -117,14 +116,13 @@ img {
 }
 
 .flex-container1 {
-    background: gray;
+    background: linear-gradient(to bottom, #64a8dc 0%, #125696 100%);
+    border-top: solid 4px rgb(117, 50, 34);
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
     padding: 3rem;
-    margin-bottom: 2em;
-    margin-top: 1rem;
 }
 
 .flex-container1 p {
@@ -133,22 +131,37 @@ img {
     width: 50%;
     font-size: 1.5em;
     padding: 4rem;
+    color: white;
 }
 
 .flex-container1 a {
+    transition: all .3s ease-in-out;
     font-family: 'Caveat', cursive;
     font-size: 2rem;
 }
 
+.flex-container1 a:hover {
+    background-color: rgb(117, 50, 34);
+    color:white;
+    transform: scale(1.1);
+}
+
+.galley {
+    background-color: inherit;
+    border: solid 10px black;
+}
+
+
 .flex-container2 {
-    width: 100%;
+    background: linear-gradient(to bottom, #125696 0%, #64a8dc 100%);
+    color: white;
+    width: 100%;     
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 2.3em;
     font-family: monaco;
-    margin-bottom: 5rem;
-    padding-bottom: 10px;
+    padding-bottom: 2rem;
 }
 
 .flex-container2 > div {
@@ -169,12 +182,13 @@ img {
     transform: scale(1.05);
 }
 
+
 .footer-flex {
-    border: inset;
-    background-color: lightgray;
+    background: linear-gradient(to bottom, #63a8dc 0%, #b1cce2 100%);
+    border-top: solid 4px rgb(117, 50, 34);
     width: 100%;
     display: block;
-    padding: 1rem;
+    padding: 1rem;     
 }
 
 .footer-flex h2 {
@@ -184,9 +198,9 @@ img {
 .links {
     display: flex;
     font-family: 'Caveat', cursive;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 2em;
 }
 
@@ -227,7 +241,7 @@ img {
 
     .flex-container2 {
         align-items: center;
-        width: 25rem;
+        width: 100%;
         margin: auto;
         font-size: inherit;
     }
@@ -239,6 +253,7 @@ img {
     .links {
         flex-direction: column;
         justify-content: space-around;
+        margin: auto;
     }
 
 
