@@ -40,5 +40,53 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    /* border:1px solid grey; */
-    
+    border:1px solid grey;
+}
+/* general styles */
+html{
+	font-size:62.5%
+}
+body{
+	font-size:1.6rem;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-size:4rem;
+	font-family: 'New Tegomin', serif;
+}
+section{
+	padding:4%
+}
+/* header styles */
+header{
+	background-color:#0B0C10 ;
+	color:#C5C6C7;
+}
+nav{
+	padding:2% 0;
+	display:flex;
+	justify-content:flex-start
+}
+nav a{
+	display:inline-block;
+	padding:1% 0;
+	width:9%;
+	text-align:center;
+	color:#C5C6C7;
+	text-decoration:none;
+	background-color:#1F2833;
+	
+}
+nav a:hover{
+background-color:#66FCF1;
+color:#1F2833;
+transition:1s;
+)
+/* top section styles */
+.top{
+	display:flex;
+}
+.top div{
+	width:45% 
+	
+}
