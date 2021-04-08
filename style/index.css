@@ -1,4 +1,5 @@
 
+
 h1{
     font-size:5rem;
 }
@@ -6,9 +7,15 @@ h1{
     background-color:lightblue;
 }
 
+.mypic{
+    margin-top:50px;
+}
+
 .parent .top{
-  width: 50px;
-  margin: 20px;
+ display:flex;
+ flex-flow: row;
+ justify-content:flex-start;
+  width: 100px;
   border: 1px solid black;
   background: lightgray;
 }
@@ -16,9 +23,23 @@ h1{
 .parent{
     display:flex;
     flex-flow:row;
+    flex-wrap:wrap;
     justify-content:start;
+    flex-basis:25%;
+    flex-shrink:10;
     font-size:2.2rem;
     width:20%;
     height:40px;
 
+}
+
+.selection{
+   
+
+
+    
+}
+img{
+    max-width:20%;
+    height:auto;
 }
