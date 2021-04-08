@@ -1,31 +1,42 @@
 body{
     background-color:grey;
+    text-decoration:none;
 }
 h1{
-    font-size:5rem;
+    font-size:5rem; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:navy;
 }
+
+h2{
+    font-size:3.0rem;
+}
+p{
+    font-size:2.5rem;
+}
+
 span{
     font-size:2.5rem;
     padding:5%;
 }
 .mypic{
-    display:flex;
-    justify-content:flex-start;
+    width:60%;
+    padding:2.9%;
 }
-div .aboutme{
+
+.mypic img{
+    max-width:100%;
+    
+
+}
+.section-one{
     display:flex;
-    justify-content:flex-end;
 }
 
 .top-home,.top-about,.top-contact,.top-projects{
     background-color:lightblue;
 }
 
-.mypic{
-    margin-top:50px;
-    display:flex;
-    margin-left:60px;
-}
 
 .parent .top{
  justify-content:flex-start;
@@ -46,6 +57,7 @@ div .aboutme{
     height:40px;
 
 }
+
 
 .image-container{
     display:flex;
@@ -68,6 +80,13 @@ footer{
     padding:5%;
 }
 
-.contact-end{
+.finalcon{
+    padding:-10%;
     font-size:2.9rem;
-}
+    border-style: ridge;
+    width:5%
+    text-align:center;
+    margin:auto;
+    background-color:grey;
+
+
