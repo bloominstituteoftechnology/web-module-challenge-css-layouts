@@ -1,0 +1,198 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+q:before,
+q:after {
+  content: "";
+}
+a,
+ins {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  /* border: 1px solid grey; */
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+
+/* Name */
+h1 {
+  font-size: 100px;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  padding:2% 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content:center;
+
+  padding:2% 0;
+}
+nav a{
+  font-size: 40px;
+  text-transform: Capitalize;
+  width: 10%;
+  border:1px solid #BC6D4F;
+  text-decoration: none;
+  text-align: center;
+  background-color: #d09683;
+  color: #2d4262;
+}
+nav a:hover {
+  background: #2F496E;
+  color: #ED8C72;
+}
+
+/* Introduction */
+h2 {
+  text-align: center;
+  font-size: 60px;
+  padding: 2% 0;
+  text-transform: uppercase;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  color: #73605b;
+  width: 50%;
+  border-radius: 5%;
+  margin: 0 auto;
+  padding: 2% 0;
+  line-height:2;
+  bottom:20px;
+}
+
+/* Top of picture */
+.dog-pic{
+    background-image:url('dog/dog3.jpg');
+    height: 700px;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* 3dog pictures and text */
+.photoandtext {
+  display: flex;
+  justify-content: space-evenly;
+  padding:6% 0;
+}
+
+.pictures {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pictures img {
+  width: 15%;
+}
+
+/* right paragraph */
+
+.photoandtext p {
+  padding: 4%;
+  width: 30%;
+  bottom: 20%;
+  line-height: 2;
+  color: #73605b;
+}
+
+footer {
+  background: #d09683;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+
+footer a {
+  font-size: 40px;
+  text-transform: Capitalize;
+  width: 15%;
+  text-decoration: none;
+  text-align: center;
+  background-color: #7E676E;
+  color: pink;
+  border:1px solid #5A4E4D;
+}
+footer a:hover{
+    color: #ED8C72 ;
+    background-color: #2d4262;
+}
