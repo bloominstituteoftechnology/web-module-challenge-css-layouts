@@ -1,1 +1,138 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+    }
+body {
+    background: white;
+    line-height: 2;
+    color: black;
+    border:5px solid grey;
+    }
+ol, ul {
+    list-style: none;
+    }
+/* tables still need cellspacing="0" in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    }
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    }
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    }
+blockquote, q {
+    quotes: "" "";
+    }
+*{
+    font-family: 'Noto Serif', serif;
+    text-decoration:none;
+    font-size:62.5%;
+}
+header{
+    background-color:lightgrey;
+    max-width:100%;
+    height: 25vh;
+}
+h1{
+    font-size:3rem;
+    margin-left:2%;
+}
+.links{
+    display:flex;
+    font-size:2rem;
+    margin-right:65%;
+    justify-content:space-around;
+    color:black;
+}
+.links button{
+    background-color:white;
+}
+.links button:hover{
+    background-color:black;
+    color:white;
+}
+.top{
+    display:flex;
+}
+.top img{
+    width:90%;
+    padding:.5%;
+}
+.top div{
+    width:50%;
+}
+.top-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin:10% 5%;
+    font-size:1.5rem;
+}
+.top button{
+    margin-right:20%;
+    height:10%;
+    width:50%
+}
+.top button{
+    background-color:white;
+    color:black;
+}
+.top button:hover{
+    background-color:black;
+    color:white;
+}
+h2{
+    font-size:2.5rem;
+    width:75%;
+}
+.middle-pictures{
+    display:flex;
+    justify-content:space-between;
+    margin:2% 0;
+    padding:.5%;
+}
+.middle-text{
+    display:flex;
+    justify-content:space-between;
+    margin:0 4%;
+    font-size:1.2rem;
+}
+.bottom-pictures{
+    display:flex;
+    justify-content:space-between;
+    margin:2% 0;
+    padding:.5%;
+}
+.bottom-text{
+    display:flex;
+    justify-content:space-between;
+    margin:0 4%;
+    margin-bottom:2%;
+    font-size:1.2rem
+}
+footer{
+    background-color:lightgrey;
+    max-width:100%;
+    height: 25vh;
+    text-align:center;
+    font-size:2.2rem;
+}
