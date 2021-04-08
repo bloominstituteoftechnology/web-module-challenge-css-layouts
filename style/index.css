@@ -40,6 +40,14 @@ span{
     background:darkblue;
 }
 
+.email{
+    text-decoration:none;
+    font-size:2rem;
+    color:white;
+    background:darkblue;
+    border-style:ridge;
+    
+}
 .mypic img{
     max-width:100%;
     
