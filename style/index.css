@@ -1,1 +1,151 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+/* general styles */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* header section styles */
+header {
+    background-color:rgb(189, 189, 189);
+    padding: 2%;
+}
+h1 {
+    font-size: 5rem;
+}
+nav {
+    margin-left: 2%;
+    font-size: 2rem;
+}
+nav a {
+    color:black;
+    padding: 0.3% 1%;
+    text-decoration: none;
+    background-color: white;
+}
+nav a:hover{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+
+/* info about me styles */
+.infoAboutMe {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.left {
+    margin: 1%;
+    width: 50%;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+.right {
+    height: 50vh;
+}
+.infoAboutMe button {
+    margin-top: 2%;
+    border: 1px solid black;
+    padding: 2%;
+}
+.right p {
+    margin-top: 5%;
+}
+
+/* gallery section style */
+.gallery {
+    margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+.gallery img {
+    width: 25vh;
+    height:25vh;
+}
+.gallery div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+.gallery div div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* footer styles */
+footer {
+    background-color:rgb(189, 189, 189);
+    padding: 5%;
+    text-align: center;
+}
+footer button {
+   padding: 1% 2%;
+}
+/* 
+
+.right {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button {
+    border: 1px solid black;
+    padding: 2%;
+
+
+} */
+
+
+
+
+
