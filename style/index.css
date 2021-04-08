@@ -23,6 +23,22 @@ span{
     width:60%;
     padding:2.9%;
 }
+.nava{
+    text-decoration:none;
+    border-style:ridge;
+    padding:5px;
+    color:white;
+    background:lightskyblue;
+    border-color:darkblue;
+    
+}
+.navb{
+    text-decoration:none;
+    border-style:ridge;
+    padding:5px;
+    color:white;
+    background:darkblue;
+}
 
 .mypic img{
     max-width:100%;
@@ -81,12 +97,10 @@ footer{
 }
 
 .finalcon{
-    padding:-10%;
-    font-size:2.9rem;
-    border-style: ridge;
+    padding:1%;
+    font-size:2.6rem;
     width:5%
     text-align:center;
     margin:auto;
     background-color:grey;
-
-
+}
