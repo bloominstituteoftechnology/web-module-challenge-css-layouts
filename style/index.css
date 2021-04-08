@@ -1,45 +1,73 @@
-
-
+body{
+    background-color:grey;
+}
 h1{
     font-size:5rem;
 }
+span{
+    font-size:2.5rem;
+    padding:5%;
+}
+.mypic{
+    display:flex;
+    justify-content:flex-start;
+}
+div .aboutme{
+    display:flex;
+    justify-content:flex-end;
+}
+
 .top-home,.top-about,.top-contact,.top-projects{
     background-color:lightblue;
 }
 
 .mypic{
     margin-top:50px;
+    display:flex;
+    margin-left:60px;
 }
 
 .parent .top{
- display:flex;
- flex-flow: row;
  justify-content:flex-start;
-  width: 100px;
+  width: 20%;
   border: 1px solid black;
   background: lightgray;
 }
 
-.parent{
+.parent nav{
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
-    justify-content:start;
+    justify-content:space-evenly;
     flex-basis:25%;
     flex-shrink:10;
     font-size:2.2rem;
-    width:20%;
+    width:50%;
     height:40px;
 
 }
 
-.selection{
-   
-
-
+.image-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     
+
 }
+
 img{
-    max-width:20%;
-    height:auto;
+    max-width:25%;
+    height:38rem;
+    border-style:groove;
+    border-color:transparent;
+
+}
+
+footer{
+    text-align:center;
+    padding:5%;
+}
+
+.contact-end{
+    font-size:2.9rem;
 }
