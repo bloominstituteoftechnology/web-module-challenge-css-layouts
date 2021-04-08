@@ -1,1 +1,211 @@
-/* Add CSS styling here */
+/* Browser Default */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+
+* {
+    font-size: 62.5%;
+}
+
+/* Title */
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 4.25rem;
+    margin: 2%;
+    text-align: center;
+}
+
+h1:hover {
+    color: orange;
+    transition: 2s;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.6rem;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 8%;
+    color: black;
+    margin: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    transition: 2s;;
+}
+
+/* Intro to my portfolio */
+.intro {
+    max-width: 60%;
+    display: flex;
+    margin-top: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.25rem;
+}
+
+.intro p {
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro p span {
+    font-weight: 700;
+}
+
+/* Pictures on my website */
+.img {
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img .sideimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.img .sideimg .img1 {
+    height: 400px;
+    width: auto;
+}
+
+.img section .img2 {
+    margin-top: 25px;
+}
+
+.imgp {
+        display: flex;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        margin-right: 1%;
+}
+
+.imgp p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.imgp p span a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+.btm {
+    border-top: 2px dashed red;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2.25rem;
+}
+
+.btm p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.btm a {
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.6rem;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 8%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.gmail {
+    color: red;
+    background-color: white;
+}
+
+.gmail:hover {
+    color: white;
+    background-color: red;
+}
+
+.github {
+    color: black;
+    background-color: white;
+}
+
+.github:hover {
+    color: white;
+    background-color: black;
+}
+
+.twitter {
+    color: lightskyblue;
+    background-color: white;
+}
+
+.twitter:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.linkedin {
+    color: blue;
+    background-color: white;
+}
+
+.linkedin:hover {
+    color: white;
+    background-color: blue;
+}
