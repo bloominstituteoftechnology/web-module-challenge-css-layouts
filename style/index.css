@@ -1,1 +1,24 @@
-/* Add CSS styling here */
+
+h1{
+    font-size:5rem;
+}
+.top-home,.top-about,.top-contact,.top-projects{
+    background-color:lightblue;
+}
+
+.parent .top{
+  width: 50px;
+  margin: 20px;
+  border: 1px solid black;
+  background: lightgray;
+}
+
+.parent{
+    display:flex;
+    flex-flow:row;
+    justify-content:start;
+    font-size:2.2rem;
+    width:20%;
+    height:40px;
+
+}
