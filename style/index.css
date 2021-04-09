@@ -55,6 +55,7 @@ nav{
 }
 nav div{
     padding: 1.5%;
+    border: 1px solid black;
 }
 .top{
     display:flex;
@@ -83,31 +84,15 @@ nav div{
     
     justify-content:space-evenly;
 }
-.r1captions p{
-    display:flex;
-    justify-content:space-evenly;
-    width:20%;
-
-}
-.R1cap{
-    width:20%;
-    display:flex;
-    flex-direction:row;
-}
-.R2cap{
-    width:20%;
-}
-
-
-
-
-
-
-
 
 
 footer{
     background-color:cadetblue;
     text-align:center;
-    
+    padding: 5%;    
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+footer button{
+    margin: 1%;
 }
