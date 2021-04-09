@@ -12,7 +12,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    border: 1px solid grey;
+    border:
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
@@ -77,22 +77,35 @@ nav div{
 .row1ImgContainer{
     display:flex;
     padding-top:5%;
-        width:100%;
-        justify-content: space-evenly;
+    width:100%;
+    justify-content: space-around;
+    align-content:space-around;
+
 }
-.r1ImgContainer img{
+.row1{
+    width:100%;
+}
+.r1img{
+    width:200px;
+    height:300px;
+}
+.imgcontainer{
+text-align:center;
+}
+.row1{
     
-    justify-content:space-evenly;
 }
+
 
 
 footer{
     background-color:cadetblue;
     text-align:center;
-    padding: 5%;    
+    padding: 5%;
     font-weight: bold;
     font-size: 1.5rem;
 }
 footer button{
     margin: 1%;
+    
 }
