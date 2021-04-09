@@ -40,6 +40,7 @@ blockquote, q {
 * {
     box-sizing:border-box;
     max-width:100%;
+    /* border: 1px red solid; */
 }
 
 html {
@@ -50,7 +51,8 @@ body{
     font-size:1.6rem;
     line-height:1.5;
     font-family: 'Roboto Mono', monospace;
-    background-color: rgb(255, 121, 203);
+    /* background-color: rgb(255, 121, 203); */
+    
 }
 
 /* header */
@@ -72,6 +74,7 @@ nav a{
 
 .topSection img {
     max-width: 50%;
+    border-radius: 30px;
 }
 
 /* About me */
@@ -96,23 +99,26 @@ nav a{
 
 /* Pictures of work */
 
-.bottomSection {
+/* .bottomSection {
     display: flex;
     flex-flow: row wrap;
-}
+} */
 
 .bottomSection div {
-    align-items: center
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
 }
 
 .bottomSection div img {
     width: 20%;
     border-radius: 60%;
+    margin: 2%;
 }
 
 /*  footer */
 
 footer {
     background-color: teal;
-    padding: 3%;
+    padding: 2%;
 }
