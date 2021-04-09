@@ -40,7 +40,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    /* border:1px solid grey; */
+    /* border:1px solid grey */
 }
 /* general styles */
 html{
@@ -53,6 +53,7 @@ body{
 h1{
 	font-size:4rem;
 	font-family: 'New Tegomin', serif;
+	padding: 0 3%;
 }
 section{
 	padding:4%
@@ -64,7 +65,7 @@ header{
 }
 nav{
 	display:flex;
-	justify-content:flex-start
+	justify-content:left;
 }
 nav a{
 	display:inline-block;
@@ -103,8 +104,11 @@ font-size:3rem
 	background-color:#1F2833;
 }
 .leftImage {
-	text-align: center;
-	}
+	text-align: center;	
+}
+.leftImage img{
+	border-radius:5%
+}
 .rightInfo {
 	display:flex;
 	flex-direction:column;
@@ -130,6 +134,12 @@ font-size:3rem
 	display:flex;
 	flex-direction:row;
 	justify-content:space-evenly;
+}
+.projectImages1 img{
+	border-radius:5%
+}
+.projectImages2 img{
+	border-radius:5%
 }
 footer{
 	background-color:#707070;
