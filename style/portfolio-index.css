@@ -41,7 +41,72 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 
 }
 .banner{
-        margin: 5%;
-        text-align: center;
-        padding: 20%;
+    margin: 5%;
+    text-align: center;
+    padding: 20%;
+}
+.boxes-row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxes-row1 div{
+    padding: 10%;
+}
+.label-row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project2{
+    margin: 0% 2% 0% 2%;
+}
+.boxes-row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxes-row2 div{
+    padding: 10%;
+}
+.label-row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project5{
+    margin: 0% 2% 0% 2%;
+}
+footer{
+    text-align: center;
+}
+footer div{
+    margin: 3%;
+}
+
+
+
+
+
+.box1{
+
+}
+.box2{
+
+}
+.box3{
+
+}
+.box4{
+
+}
+.box5{
+
+}
+.box6{
+
 }
