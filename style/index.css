@@ -56,36 +56,43 @@ header nav {
 	justify-content: right;
 }
 header{
-	
-	height: 22px;
+	padding-bottom: 3%;
+	height: 28px;
 	width:100%;
     background-color: aquamarine;
     display:flex;
 }
 header h3{
-	height: 15%;
+	height: 30%;
 	width: 50%;
-	justify-content: left;
-	padding: 8px;
+	justify-content: center;
+	padding-bottom:3%;
 }
 h1{
 	font-size: 80px;
 }
 nav{
+	padding:1% 0;
 	display:flex;
 	flex-direction: row-reverse;
+	justify-content: space-evenly;
 }
 footer{ 
 	display:flex;
 	width:100%;
-	height:auto;
+	height:40px;
 	background-color: chartreuse;
+	justify-content: center;
 }
-header nav button{
+header nav button{	
+	display:inline-block;
+	padding:1% 1;
 	align-self: center;
 	background-color: darkgoldenrod;
+
+	
 }
 footer nav{
-	text-align: center;
+	
 
 }
