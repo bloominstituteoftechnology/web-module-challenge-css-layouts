@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/index.css"/>
     <title>Kirk Lincoln's Profile Site</title>
     <script>
-        const submit = () => { location.href = "./contact.html" }
+        const submit = () => { /*AJAX to server*/ location.href = "./thankyou.html" }
     </script>
 </head>>
 <body>
@@ -25,15 +27,26 @@
     <section>
         <div class="form-flex">
             <form>
-                <input type="text">
-                <input type="email">
-                <input type="text">
+                <ul>
+                    <label for="fname">First Name</label>
+                    <li><input id="fname" type="text" placeholder="First Name"/></li>
+                    <label for="lname">Last Name</label>
+                    <li><input id="lname" type="text" placeholder="Last Name"/></li>
+                    <label for="phone">Phoner Number</label>
+                    <li><input id="phone" type="phone" placeholder="Phone Number"/></li>
+                    <label for="Email">Email</label>
+                    <li><input id="email" type="text" placeholder="Email"/></li>
+                    <label for="inquiries">Inquiries</label>
+                    <li><textarea id="inquiries" placeholder="Leave a rough idea about what you are thinking..."></textarea></li>
+                </ul>
             </form>
         </div>
     </section>
     <section>
         <footer>
-            <button class="submit-button" onclick="submit()">Contact Me</button>
+            <button class="submit-button" onclick="submit()">Submit</button>
+            <i class="fab fa-twitter-square"></i>
+
         </footer>
     </section>
 </body>
