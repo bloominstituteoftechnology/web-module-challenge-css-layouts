@@ -40,3 +40,52 @@ blockquote, q {
     box-sizing:border-box;
     max-width:100%;
 }
+body{
+	margin:0 auto;
+}
+header{
+    display:flex;
+    background-color: aqua;
+    
+   /* orientation: in;*/
+}
+header nav {
+	
+    color: brown;
+    width:80%;
+	justify-content: right;
+}
+header{
+	
+	height: 22px;
+	width:100%;
+    background-color: aquamarine;
+    display:flex;
+}
+header h3{
+	height: 15%;
+	width: 50%;
+	justify-content: left;
+	padding: 8px;
+}
+h1{
+	font-size: 80px;
+}
+nav{
+	display:flex;
+	flex-direction: row-reverse;
+}
+footer{ 
+	display:flex;
+	width:100%;
+	height:auto;
+	background-color: chartreuse;
+}
+header nav button{
+	align-self: center;
+	background-color: darkgoldenrod;
+}
+footer nav{
+	text-align: center;
+
+}
