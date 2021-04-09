@@ -55,6 +55,15 @@ body{
     
 }
 
+/* animation code */
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
 /* header */
 
 nav {
@@ -70,6 +79,10 @@ nav a{
     text-decoration:none;
     background-color: rgb(17, 17, 17);
     color: white;
+}
+
+.About:hover, .Contact:hover, .Projects:hover {
+    background-color: pink;
 }
 
 .topSection img {
@@ -93,7 +106,7 @@ nav a{
     text-align: center;
 }
 
-.me h2, p {
+.me h1, p {
     margin-top: 1%;
 }
 
@@ -115,7 +128,7 @@ nav a{
 }
 
 .bottomSection div img {
-    width: 30%;
+    width: 60%;
     border-radius: 60%;
     margin: 5%;
 }
@@ -124,7 +137,10 @@ nav a{
     display: flex;
     flex-direction: column;
     margin: 2%;
+    animation-name: example;
+    animation-duration: 60s;
 }
+
 
 /* .pic2 {
     display: flex;
@@ -167,3 +183,5 @@ nav a{
 .bottomNav {
     margin-bottom: 3%;
 }
+
+@media screen and (max-width: 320px) { @viewport { width: 320px; } }
