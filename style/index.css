@@ -1,1 +1,67 @@
-/* Add CSS styling here */
+/* Add CSS styling here */body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+	padding: 0;
+	margin: 0;
+	font-family: 'Finger Paint', cursive;
+   
+}
+fieldset, img { 
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:heavy;
+	font-size: 100%;
+	}
+q:before, q:after {
+	content: '';
+	}
+abbr, acronym { 
+	border: 0;
+	}
+    h1{font-size:300%;}
+.box1{ display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 2%;}
+ header{display:flex;
+    justify-content:space-evenly;
+    padding:1% 0;
+    background-color: darkslateblue;
+ 
+ }   
+.myname{display: inline;}
+button{display: flex;
+flex-direction: column;
+align-items:center;
+background-color:blue;}
+.img{width:100%;}
+
+nav {
+    display:flex;
+    width:70%;
+    justify-content:space-evenly;
+    align-items: center;
+    color: black;
+
+}
+h2{font-size: 200%;}
+.examples{display: flex;
+justify-content: space-around;
+background-color: blueviolet;}
+a{color:black;}
