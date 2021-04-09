@@ -113,7 +113,7 @@ nav a{
 .bottomSection div img {
     width: 20%;
     border-radius: 60%;
-    margin: 2%;
+    margin: 5%;
 }
 
 /*  footer */
@@ -121,4 +121,16 @@ nav a{
 footer {
     background-color: teal;
     padding: 2%;
+}
+
+.bottomPage {
+    padding: 1%;
+}
+
+.social {
+    text-align: center;
+}
+
+.bottomNav {
+    padding: 1%;
 }
