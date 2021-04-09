@@ -8,7 +8,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-style: inherit;
 	font-size: 100%;
 	outline: 0;
-	padding: 0;
 	margin: 0;
 	}
 /* remember to define focus styles! */
@@ -34,9 +33,24 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-*{
+
+/* General Style */
+
+
+* {
     box-sizing:border-box;
     max-width:100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(255, 121, 203);
 }
 
 /* header */
@@ -47,17 +61,58 @@ nav {
     justify-content: space-evenly;
 }
 nav a{
-    display:inline-block;
     padding:1% 0;
     border-radius:10px;
     width:10%;
     text-align:center;
-    color:#fff;
     text-decoration:none;
+    background-color: rgb(17, 17, 17);
+    color: white;
 }
 
-header {
+.topSection img {
+    max-width: 50%;
+}
+
+/* About me */
+
+.topSection {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topSection div {
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.me h2, p {
+    margin-top: 1%;
+}
+
+/* Pictures of work */
+
+.bottomSection {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bottomSection div {
+    align-items: center
+}
+
+.bottomSection div img {
+    width: 20%;
+    border-radius: 60%;
+}
+
+/*  footer */
+
+footer {
+    background-color: teal;
+    padding: 3%;
 }
