@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css"/>
+    <title>Kirk Lincoln's Profile Site</title>
+    <script>
+        const submit = () => { location.href = "./contact.html" }
+    </script>
+</head>>
 <body>
     <header>
-        <h1> CONTACT </h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
+        <div class="header-flex">
+            <h1>Contact Me</h1>
+            <h2>Thanks for reaching out.</h2>
+            <nav>
+                <a href="./index.html" class="nav-anchor-index">Home</a>
+                <a href="./about.html" class="nav-anchor-about">About</a>
+                <a href="./projects.html" class="nav-anchor-projects">Projects</a>
+                <a href="./contact.html" class="nav-anchor-contact">Contact</a>
+            </nav>
+        </div>
     </header>
+    <section>
+        <div class="form-flex">
+            <form>
+                <input type="text">
+                <input type="email">
+                <input type="text">
+            </form>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <button class="submit-button" onclick="submit()">Contact Me</button>
+        </footer>
+    </section>
 </body>
 </html>

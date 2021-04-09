@@ -67,7 +67,7 @@ nav{
 nav a{
     display:inline-block;
     padding:1% 0;
-    width:10%;
+	width: 15%;
     text-align:center;
     color:rgb(0, 0, 0);
     text-decoration:none;
@@ -81,12 +81,16 @@ nav a:hover {
 
 header {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	text-align: center;
 	width: 100%;
+	flex-wrap: nowrap;
 }
  
 .projects-flex {
 	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
 }
 
 .projects-flex img {
@@ -97,7 +101,56 @@ header {
 	width: 100%;
 }
 
-.footer {
+footer {
 	display: flex;
 	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.contact-flex {
+	display:flex;
+	flex-flow: column wrap;
+}
+
+.contact-form {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.header-flex {
+	width: 30%;
+}
+
+.project-description {
+	background-color: rgb(216, 111, 111);
+	display: flex;
+	width: 60%;
+	margin-right: 2%;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}
+
+.submit-button {
+	width: 20%;
+	font-size: x-large;
+	background-color: rgb(182, 83, 83);
+	color: white;
+}
+
+.submit-button:hover {
+	cursor: pointer;
+}
+
+.form-flex {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 20%;
+	justify-content: center;
+	align-items: center;
 }

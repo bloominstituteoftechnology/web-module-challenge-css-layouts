@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/index.css"/>
     <title>Kirk Lincoln's Profile Site</title>
+    <script>
+        const submit = () => { location.href = "./contact.html" }
+    </script>
 </head>
 <body>
     <header>
@@ -16,13 +19,13 @@
                 <a href="./projects.html" class="nav-anchor-projects">Projects</a>
                 <a href="./contact.html" class="nav-anchor-contact">Contact</a>
             </nav>
-            <h2>Introducing my site</h2>
-            <p>Random latin</p>
+            <h2>Welcome to My Site!</h2>
+            <p>Thanks for stopping by, if you like my work, please reach out with an inquiries today.</p>
         </div>
     </header>
     <section>
         <article>
-            <p class="profile-picture"><img src="../assets/marek-piwnicki-enuCEimS1p4-unsplash.jpg" alt="sunset mountains" /></p>
+            <p class="profile-picture"><img src="../assets/johannes-plenio-qkfxBc2NQ18-unsplash.jpg" alt="sunset mountains" /></p>
         </article>
     </section>
     <section>
@@ -42,15 +45,18 @@
             <div>
                 <a target="_blank" href="https://github.com/phos-tou-kosmou/python_portfolio/blob/python/linear_algebra/transposition.py"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github logo" /></a>
             </div>
-            <p>
-                Some text here
-            </p>
-
+            <div class="project-description">
+                    <p>
+                        Favorite languages: Golang, Javascript, Python
+                        Frameworks: React, Redux, Bootstrap
+                        Systems: Linux (intermediate), Docker, CI/CD
+                    </p>
+            </div>
         </div>
     </section>
     <section>
         <footer>
-            <button>Contact Me</button>
+            <button class="submit-button" onclick="submit()">Contact Me</button>
         </footer>
     </section>
 </body>
