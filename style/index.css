@@ -1,1 +1,178 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-size:62.5%;
+}
+
+/*header */
+
+h1{
+    font-size:2rem;
+    margin-bottom:1%;
+    
+}
+
+header {
+    background-color:grey;
+    height:100px;
+    padding: 1% 2%;
+
+}
+nav a {
+    border:1px solid black;
+    font-size:1rem;
+    background-color:beige;
+    color:black;
+    width:50%;
+    padding:.5%;
+    text-decoration:none;
+}
+
+nav a {
+    margin-bottom:30%;
+}
+
+/* mid section*/
+
+
+.top {
+    display:flex;
+    flex-direction:row;
+}
+
+
+.left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.top {
+    margin:5%;
+}
+img {
+    display: flex;
+	flex: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.top h2 {
+    font-size:large;
+    font-weight:bold;
+}
+
+.top {
+    display:flex;
+    align-items:flex-end;
+    font-size:medium;
+    
+}
+
+.left img{
+    justify-content:center;
+    width:80%;
+    display:flex;
+    
+
+}
+.right {
+    width:50%;
+    padding:2%; 
+}
+
+/* images 1-8*/
+.randompics img {
+    margin:0% 4%;
+    width:80%;
+}
+
+.randompics2 img {
+    margin:0% 4%;
+    width:80%;
+}
+.randompics{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.randompics p{
+    text-align:center;
+}
+
+.randompics2 p{
+    text-align:center;
+}
+
+.randompics2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+/*button layout*/
+
+button {
+    padding:1 2.5%;
+    font-size:.8rem;
+    text-decoration:none;
+}
+
+.contactbutton {
+    margin: 0 7%;
+}
+/*footer section*/
+footer {
+    background-color:gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:4%;
+    max-width:100%
+}
