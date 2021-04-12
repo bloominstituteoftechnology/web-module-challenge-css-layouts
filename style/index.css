@@ -40,6 +40,9 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
+	padding:0;
+	margin:0;
+	border:1px solid grey;
     /* border:1px solid grey */
 }
 /* general styles */
@@ -85,6 +88,7 @@ transition:1s;
 /* top section styles */
 .top{
 	display:flex;
+	justify-content:center;
 }
 .top div{
 	width:45% 
@@ -105,48 +109,48 @@ font-size:3rem
 }
 .leftImage {
 	text-align: center;	
+	display:flex;
+	width:50%;
+	justify-content:center;
 }
 .leftImage img{
-	border-radius:5%
+	border-radius:5%;
 }
 .rightInfo {
-	display:flex;
+	width:50%;
 	flex-direction:column;
-	padding:15% 0;
+	padding:19% 0 0 0;
+	align-items:flex-start;
+
 }
 /* image gallery */
-.projectImages1 {
+.projectImages1{
 	text-align:center;
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	
 }
-
-.projectImages1 {
-	margin-top:-18%;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-}
-.projectImages2 {
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
+.projectImages1 div{
+	width:25%;
+	margin: 5% 0;
 }
 .projectImages1 img{
 	border-radius:5%
 }
-.projectImages2 img{
-	border-radius:5%
-}
+
 footer{
 	background-color:#707070;
 	padding: 5%;
 	text-align: center;
 	color:white;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	flex-direction:column
 }
+
 footer a{
 	display:inline-block;
 	padding:1% 0;
@@ -154,5 +158,53 @@ footer a{
 	text-align:center;
 	color:white;
 	text-decoration:none;
-	background-color:#1F2833;
+	background-color:#1F2833;	
 }
+/* Responsive styles */
+/* tablet */
+@media(max-width:800px){
+
+}
+
+/* phone */
+@media(max-width:500px){
+	nav{
+		flex-direction:column;
+		align-items:center;
+		
+	}
+	nav a{
+		width:20%;
+	}
+	h1{
+		text-align:center;
+	}
+	.top{
+		flex-direction:column;
+		justify-content:center;
+		width:100%;	
+		align-items:center;
+	}
+	.top div{
+		width:90%;
+	}
+	.leftImage{
+		width:90%;
+	}
+	.rightInfo{
+		justify-content:center;
+		text-align:center;
+		padding:0;
+	}
+	.projectImages1{
+		width:100%;
+	}
+	.projectImages1 div{
+		width:50%;
+	}
+
+	footer{
+		flex-direction:column;
+		align-items:center;
+	}
+}	
