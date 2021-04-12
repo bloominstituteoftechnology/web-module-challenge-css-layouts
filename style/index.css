@@ -23,7 +23,7 @@ ol, ul {
 /* tables still need cellspacing="0" in the markup */
 table {
 	border-collapse: separate;
-	border-spacing: 0;
+	border-spacing: 1rem;
 	}
 caption, th, td {
 	font-weight: normal;
@@ -44,53 +44,49 @@ blockquote, q {
 body{
 	margin:0 auto;
 }
-header{
-    display:flex;
-    background-color: aqua;
-    
-   /* orientation: in;*/
-}
 header nav {
 	color: brown;
-    width:65%;
-	justify-content: right;
+    max-width:85%;
+	display: flex;
+	align-content: right;
 }
 header{
-	padding-bottom: 0%;
-	height: 40px;
 	width:100%;
+	justify-content:right;
+	padding-bottom: 0%;
+	height: 2.5rem;
+	max-width:100%;
     background-color: aquamarine;
     display:flex;
 }
-header h3{
-	height: 25px;
-	width: 80%;
+#name {
+	height: 1.1rem;
+	font-size: 1.1rem;
 	justify-content: center;
-	padding-bottom:3%;
+	width:84%;
+	padding-top: 1%;
 }
 h1{
-	font-size: 80px;
+	align-self: center;
+	width: 100%;
+	font-size: 9rem;
 }
-nav{
+footer nav{
 	padding:1% 0;
 	align-self:right;
 }
 footer{ 
 	display:flex;
 	width:100%;
-	height:40px;
+	height:3rem;
 	background-color: chartreuse;
 	justify-content: center;
 }
 header nav button{	
+	justify-content: space-evenly;
 	padding:1% 1;
-	align-self: right;
 	background-color: darkgoldenrod;
-
-	
 }
 footer nav button{
 	 background-color: darkgoldenrod;
-	
-
-}
+	}
