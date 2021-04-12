@@ -1,170 +1,287 @@
 /* Add CSS styling here */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     border:
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    
+        margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-    
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+
 }
+
 body {
-	line-height: 1;
-    
+    line-height: 1;
+
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 
 /*header, nav bar */
 
-header{
+header {
     background-color: rgb(75, 63, 179);
-    padding-top: 2%; 
+    padding-top: 2%;
     padding-left: 2%;
 }
-nav{
-    display:flex;
-    padding:3% 10% 3%;    
+
+nav {
+    display: flex;
+    padding: 3% 10% 3%;
 }
-nav a{
+
+nav a {
     padding: 1.5%;
     border: 1px solid black;
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
+    background-color: gold;
 }
-.top{
-    display:flex;
-    align-content:center;
+
+.top {
+    display: flex;
+    align-content: center;
 }
-.topright{
+
+.topright {
 
     padding: 5% 20%;
 }
-.topright button{
+
+.topright button {
     padding: 2% 1.5%;
-    border:rgb(209, 149, 18);
-    color:rgb(209, 149, 18);
-    font-weight:bold;
+    border: rgb(209, 149, 18);
+    color: rgb(209, 149, 18);
+    font-weight: bold;
     font-size: 2rem;
 }
+
 /*Top middle section--row 1 of pics*/
 
-.row1ImgContainer{
-    display:flex;
-    padding-top:5%;
-    width:100%;
+.row1ImgContainer {
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
     justify-content: space-around;
-    align-content:space-around;
+    align-content: space-around;
 
 }
-.row1{
-    width:100%;
+
+.row1 {
+    width: 100%;
 }
-.r1img{
-    width:200px;
-    height:300px;
+
+.r1img {
+    width: 200px;
+    height: 300px;
 }
-.imgcontainer{
-text-align:center;
+
+.imgcontainer {
+    text-align: center;
 }
-.row1{
-    
-}
+
+.row1 {}
 
 
 
-footer{
-    background-color:cadetblue;
-    text-align:center;
+footer {
+    background-color: cadetblue;
+    text-align: center;
     padding: 5%;
     font-weight: bold;
     font-size: 1.5rem;
 }
-footer button{
+
+footer button {
     margin: 1%;
-    
+
 }
+
 /*Responsive styling*/
 /*Tablet*/
-    @media(max-width:800px){
-        header{
-            display:flex;
-            flex-direction:column;
-            align-content:center;
-            text-align:center;
-        }
-        h1{
-            font-size:3rem;
-        }
-        header nav{
-            display:flex;
-            flex-direction:column;
-            justify-content: center;
-            align-items: center;
-            
-        }
-        header nav a{
-            width:20%;
-            justify-content: center;
-            background-color:gold;
-            
-            
-            
-        }
-        .top{
-            display:flex;
-            flex-direction:column;
-            align-items: center;
-            padding-top:1%;
-        }            
-        
-        .topImgContainer img{
-            width:100%
-            
-        }
-        .topright{
-            text-align:center;
-        }
-        .topright h2{
-            font-size:2rem;
-        }
-        .imgcontainer{
-            width:50%;
-        }
-        .row1ImgContainer{
-            flex-wrap:wrap;
-        }
+@media(max-width:800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
     }
 
-    @media(max-width:500px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
 
-    
+    header nav a {
+        width: 20%;
+        justify-content: center;
+        background-color: gold;
+
+
+
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1%;
+    }
+
+    .topImgContainer img {
+        width: 100%
+    }
+
+    .topright {
+        text-align: center;
+    }
+
+    .topright h2 {
+        font-size: 2rem;
+    }
+
+    .imgcontainer {
+        width: 50%;
+    }
+
+    .row1ImgContainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:500px) {
+    .row1ImgContainer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imgcontainer {
+        width: 100;
+    }
+
+    .row1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
