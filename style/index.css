@@ -57,6 +57,7 @@ body{
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5.5rem;
+	margin-top: 10%;
 }
 section{
     padding:4% 0;
