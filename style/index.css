@@ -45,7 +45,7 @@ table {
 * {
     max-width: 100%;
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html {
@@ -93,7 +93,7 @@ nav div {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 30%;
+    width: 40%;
     padding: 1%;
 }
 
@@ -115,6 +115,7 @@ nav div a:last-child {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    width: 50%;
 }
 
 .main-img img {
@@ -124,7 +125,8 @@ nav div a:last-child {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 3% 0 0 0;
+    padding: 3% 3% 0 3%;
+    width: 50%;
 }
 
 .top-text h1 {
@@ -148,14 +150,14 @@ nav div a:last-child {
     margin-bottom: 5%;
 }
 
-.middle div {
+.middle .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 24%;
 }
 
-.middle div div {
+.middle .card div {
     margin: 5%;
     height: 30vh;
     width: 30vh;
@@ -165,7 +167,7 @@ nav div a:last-child {
     box-shadow: 10px 10px 10px grey;
 }
 
-.middle div div:hover {
+.middle .card div:hover {
     opacity: .8;
 }
 
@@ -225,3 +227,34 @@ footer div * {
     font-weight: bold;
 }
 
+@media(max-width: 800px) {
+    body {
+        background-color: red;
+    }
+
+    .main-img {
+        width: 60%;
+    }
+
+    .top-text {
+        width: 80%;
+        align-items: center;
+    }
+
+    .top-text a {
+        margin-top: 3%;
+    }
+    
+    .top-text p {
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    nav div {
+        width: 60%;
+    }
+
+    .middle .card {
+        width: 30%;
+    }
+}
