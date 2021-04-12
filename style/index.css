@@ -64,10 +64,15 @@ span{
     width:60%;
     padding:2.9%;
 }
+.parent{
+    
+}
+
 .nava{
+    display:flex;
     text-decoration:none;
     border-style:ridge;
-    padding:5px;
+    padding:1%;
     color:white;
     background:lightskyblue;
     border-color:darkblue;
@@ -76,7 +81,7 @@ span{
 .navb{
     text-decoration:none;
     border-style:ridge;
-    padding:5px;
+    padding:0.2%;
     color:white;
     background:darkblue;
 }
@@ -84,7 +89,7 @@ span{
     text-decoration:none;
     Border-style:ridge;
     font-size:2.5rem;
-    padding:5px;
+    padding:1%;
     color:white;
     background:darkblue;
 
@@ -134,7 +139,6 @@ span{
     flex-shrink:10;
     font-size:2.2rem;
     width:50%;
-    height:40px;
 
 }
 
@@ -164,10 +168,7 @@ footer{
 .finalcon{
     padding:1%;
     font-size:2.6rem;
-    width:5%
-    text-align:center;
-    margin:auto;
-    background-color:grey;
+
 }
 .email{
     text-decoration:none;
@@ -176,4 +177,44 @@ footer{
     background:grey;
     border-style:ridge;
     
+}
+/*Tablet*/
+@media(max-width:800px){
+    body{
+        background-color:darkcyan;
+    }
+    .parent .top{
+        width:40%;
+    }
+    .image-container{
+        align-content:column;
+        flex-wrap:wrap;
+
+    }
+
+
+    
+
+}
+/*Phone*/
+@media(max-width:500px){
+    body{
+        background-color:pink;
+    }
+    .parent nav{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        align-content:space-between;
+
+    }
+    .parent .top{
+        width:20%;
+    }
+    .image-container{
+        width:100%;
+    }
+    .aboutme p{
+        display:none;
+    }
 }
