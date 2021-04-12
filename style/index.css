@@ -142,32 +142,6 @@ nav a{
 }
 
 
-/* .pic2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.pic3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.pic4 {
-    display: flex;
-    flex-direction: column;
-}
-
-.pic5 {
-    display: flex;
-    flex-direction: column;
-}
-
-.pic6 {
-    display: flex;
-    flex-direction: column;
-} */
-
-
 /*  footer */
 
 
@@ -194,8 +168,7 @@ nav a{
          max-width: 80%;
          border-radius: 20px;
      }
- 
- }
+
 
  /* phone */
 
