@@ -34,12 +34,14 @@ blockquote, q {
 	quotes: "" "";
 	}
 
+
+
 /* General Style */
 
 
 * {
-    box-sizing:border-box;
-    max-width:100%;
+    box-sizing: border-box;
+    max-width: 100%;
     /* border: 1px red solid; */
 }
 
@@ -48,8 +50,8 @@ html {
 }
 
 body{
-    font-size:1.6rem;
-    line-height:1.5;
+    font-size: 1.6rem;
+    line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
     /* background-color: rgb(255, 121, 203); */
     
@@ -58,28 +60,37 @@ body{
 /* animation code */
 
 @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0%   {background-color: red; border-radius: 30px;}
+    25%  {background-color: yellow; border-radius: 30px;}
+    50%  {background-color: blue; border-radius: 30px;}
+    100% {background-color: green; border-radius: 30px;}
   }
 
 /* header */
 
-nav {
+/* nav desktop */
+
+
+nav.desktop {
     padding: 2% 0;
     display: flex;
     justify-content: space-evenly;
 }
+
 nav a{
-    padding:1% 0;
-    border-radius:10px;
-    width:10%;
-    text-align:center;
-    text-decoration:none;
-    background-color: rgb(17, 17, 17);
-    color: white;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: red;
 }
+
+.mobile {
+    display: none;
+}
+
 
 .About:hover, .Contact:hover, .Projects:hover {
     background-color: pink;
@@ -106,7 +117,7 @@ nav a{
     text-align: center;
 }
 
-.me h1, p {
+.me h2, p {
     margin-top: 1%;
 }
 
@@ -158,58 +169,10 @@ nav a{
     margin-bottom: 3%;
 }
 
-@media screen and (max-width: 320px) { @viewport { width: 320px; } }
+/* @media screen and (max-width: 320px) { @viewport { width: 320px; } } */
 
 
-/* tablet */
-
- @media(max-width: 800px) {
-     .me img {
-         max-width: 80%;
-         border-radius: 20px;
-     }
-}
-
- /* phone */
-
- @media(max-width: 500px) {
-     .topSection {
-         margin: 3%;
-     }
-     .me h1 {
-         margin: 5% 0 0 0;
-     }
-     .me p {
-         margin: 0 0 5% 0;
-     }
-     .bottomSection div {
-         flex-direction: column;
-     }
-     nav {
-         flex-direction: column;
-         align-items: center;
-         font-size: 8%;
-     }
-     .me img {
-         max-width: 100%;
-         border-radius: 0;
-     }
-     .firstThree p, .secondThree p {
-        font-size: 100%;
-     }
- }
-
- @media(max-width: 760px) {
-     nav {
-         font-size: 6%;
-     }
- }
-
- @media(max-width: 468px) {
-    nav {
-        font-size: 5%;
-    }
-}
+/* large desktop */
 
 @media(min-width: 1200px) {
     .me img {
@@ -221,3 +184,52 @@ nav a{
     }
     
 }
+
+/* tablet */
+
+ @media(max-width: 800px) {
+     .me img {
+         max-width: 80%;
+         border-radius: 20px;
+     }
+     nav.desktop {
+        display: none;
+    }
+    nav.mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        background-color: none;
+    }
+}
+
+@media(max-width: 760px) {
+    nav {
+        font-size: 6%;
+    }
+}
+
+ /* phone */
+
+ @media(max-width: 500px) {
+     .topSection {
+         margin: 3%;
+     }
+     .me h2 {
+         margin: 5% 0 0 0;
+     }
+     .me p {
+         margin: 0 0 5% 0;
+     }
+     .bottomSection div {
+         flex-direction: column;
+     }
+     
+     .me img {
+         max-width: 100%;
+     }
+     .firstThree p, .secondThree p {
+        font-size: 100%;
+     }
+ }
