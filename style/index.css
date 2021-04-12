@@ -44,18 +44,20 @@ q:before, q:after {
 
 /*header, nav bar */
 
-.toptop{
-    background-color: cadetblue;
+header{
+    background-color: rgb(75, 63, 179);
     padding-top: 2%; 
     padding-left: 2%;
 }
 nav{
     display:flex;
-    padding:3% 10% 3%;
+    padding:3% 10% 3%;    
 }
-nav div{
+nav a{
     padding: 1.5%;
     border: 1px solid black;
+    text-decoration:none;
+    color:black;
 }
 .top{
     display:flex;
@@ -109,3 +111,60 @@ footer button{
     margin: 1%;
     
 }
+/*Responsive styling*/
+/*Tablet*/
+    @media(max-width:800px){
+        header{
+            display:flex;
+            flex-direction:column;
+            align-content:center;
+            text-align:center;
+        }
+        h1{
+            font-size:3rem;
+        }
+        header nav{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        header nav a{
+            width:20%;
+            justify-content: center;
+            background-color:gold;
+            
+            
+            
+        }
+        .top{
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            padding-top:1%;
+        }            
+        
+        .topImgContainer img{
+            width:100%
+            
+        }
+        .topright{
+            text-align:center;
+        }
+        .topright h2{
+            font-size:2rem;
+        }
+        .imgcontainer{
+            width:50%;
+        }
+        .row1ImgContainer{
+            flex-wrap:wrap;
+        }
+    }
+
+    @media(max-width:500px){
+
+    }
+
+    
