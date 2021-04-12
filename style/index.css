@@ -42,4 +42,41 @@ blockquote, q {
     box-sizing:border-box;
     max-width:100%;
     border:1px solid grey;
-}    
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+}
+nav{
+    width:100%;
+    z-index: 999;
+    height:8vh;
+}
+nav .links{
+    display:flex;
+    justify-content: space-evenly;
+    position:fixed;
+    color:white;
+    
+}
+#about{
+    display:flex;
+    justify-content: space-between;
+
+}
+#about .about-img{
+    width:50%;
+}
+#about .about-text{
+    width:50%;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
