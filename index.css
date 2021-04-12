@@ -147,7 +147,7 @@ p {
     background-repeat:no-repeat;
 }
 
-/* 3dog pictures and text */
+/* 4dog pictures and text */
 .photoandtext {
   display: flex;
   justify-content: space-evenly;
@@ -158,10 +158,12 @@ p {
   width: 70%;
   display: flex;
   justify-content: space-between;
+  /* border:1px solid black; */
 }
 
 .pictures img {
   width: 15%;
+  /* border:1px solid black; */
 }
 
 /* right paragraph */
@@ -195,4 +197,90 @@ footer a {
 footer a:hover{
     color: #ED8C72 ;
     background-color: #2d4262;
+}
+
+@media(max-width:500px){
+   
+  h1 {
+    font-size: 30px;
+  }
+  nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  nav a{
+    font-size: 20px;
+    width: 15%;
+  }
+  h2{
+    font-size:30px;
+  }
+  p{  
+   font-size: 10px;
+  }
+  .dog-pic{
+    height: 300px;
+}
+
+.photoandtext {
+  flex-direction:column;
+}
+.pictures img {
+  width: 50%;
+  
+}
+.pictures{
+  flex-wrap:wrap;
+  margin:0 auto;
+
+}
+
+footer a {
+  font-size: 20px;
+  width: 30%;
+}
+}
+
+@media(max-width:800px){
+  h1 {
+    font-size: 50px;
+  }
+  nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  nav a{
+    font-size: 30px;
+    width: 15%;
+  }
+  h2{
+    font-size:40px;
+  }
+  p{  
+   font-size: 15px;
+  }
+  .dog-pic{
+    height: 300px;
+}
+
+.photoandtext {
+  flex-direction:column;
+   font-size:30px;
+}
+.pictures img {
+  width: 50%; 
+}
+.pictures{
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+footer a {
+  font-size: 30px;
+  width: 30%;
+}
+
+
+
 }
