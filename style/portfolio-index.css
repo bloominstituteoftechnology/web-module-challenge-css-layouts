@@ -16,27 +16,57 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	}
 * {
     border: 1px solid red;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+}
+/*General Styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+a {
+    text-decoration: none;
 }
 .top{
-    display: flex;
+
 }
 .name {
     margin-right: -12%;
     padding: 2%;
     font-size: 2rem;
 }
-.navbar {
-    margin: 0% 0% 2% 81%;
-}
-.nav-links{
-    margin-left: -78%;
-    margin-top: 21%;
-}
-.nav-links a{
-    padding: 2% 6% 2% 4%;
+.nav-list {
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+.nav-item a {
     text-decoration: none;
-}
+    transition: all 200ms ease-in;
+  }
+  
+.nav-item a:hover {
+    color: var(--clr-primary-dark);
+  }
+  
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
 .middle{
 
 }
@@ -87,11 +117,6 @@ footer{
 footer div{
     margin: 3%;
 }
-
-
-
-
-
 .box1{
 
 }
@@ -109,4 +134,113 @@ footer div{
 }
 .box6{
 
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #4f4f4f;
+    }
+    .top{
+
+    }
+    .name {
+        margin-right: -12%;
+        padding: 2%;
+        font-size: 2rem;
+    }
+    .nav-list {
+        box-shadow: 0px 0px 10px var(--clr-gray200);
+        padding: 1rem 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      
+    .nav-item {
+        list-style: none;
+        margin-right: 2rem;
+      }
+      
+    .nav-item a {
+        text-decoration: none;
+        transition: all 200ms ease-in;
+      }
+      
+    .nav-item a:hover {
+        color: var(--clr-primary-dark);
+      }
+      
+    .nav-item:first-child {
+        margin-right: auto;
+        margin-left: 2rem;
+      }
+    .middle{
+    
+    }
+    .banner{
+        margin: 5%;
+        text-align: center;
+        padding: 20%;
+    }
+    .boxes-row1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxes-row1 div{
+        padding: 10%;
+    }
+    .label-row1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .project2{
+        margin: 0% 2% 0% 2%;
+    }
+    .boxes-row2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxes-row2 div{
+        padding: 10%;
+    }
+    .label-row2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .project5{
+        margin: 0% 2% 0% 2%;
+    }
+    footer{
+        text-align: center;
+    }
+    footer div{
+        margin: 3%;
+        text-decoration: none;
+    }
+    .box1{
+    
+    }
+    .box2{
+    
+    }
+    .box3{
+    
+    }
+    .box4{
+    
+    }
+    .box5{
+    
+    }
+    .box6{
+    }
 }
