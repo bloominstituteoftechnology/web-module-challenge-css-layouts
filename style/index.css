@@ -190,6 +190,10 @@ nav a{
 /* tablet */
 
  @media(max-width: 800px) {
+     .me img {
+         max-width: 80%;
+         border-radius: 20px;
+     }
  
  }
 
@@ -210,5 +214,17 @@ nav a{
      }
      .firstThree p, .secondThree p {
         font-size: 100%;
+     }
+ }
+
+ @media(max-width: 760px) {
+     nav {
+         font-size: 6%;
+     }
+ }
+
+ @media(max-width: 468px) {
+     nav {
+         font-size: 5%;
      }
  }
