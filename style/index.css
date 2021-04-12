@@ -163,9 +163,32 @@ footer a{
 /* Responsive styles */
 /* tablet */
 @media(max-width:800px){
-
-}
-
+	nav a{
+		align-items:center;
+		width:100%;
+	}
+	.leftImage{
+		width:90%;
+	}
+	.rightInfo{
+		justify-content:center;
+		text-align:center;
+		padding:0;
+	}	
+	.rightInfo a{
+		width:40%;
+	}
+	footer{
+		flex-direction:column;
+		width:100%;
+		height:30vh;
+		
+	}
+	footer a{
+		width:100%;
+		height:50%;
+	
+	}
 /* phone */
 @media(max-width:500px){
 	nav{
@@ -202,9 +225,15 @@ footer a{
 	.projectImages1 div{
 		width:50%;
 	}
-
 	footer{
 		flex-direction:column;
-		align-items:center;
+		width:100%;
+		height:30vh;
+		
 	}
-}	
+	footer a{
+		width:100%;
+		height:50%;
+	
+	}
+}
