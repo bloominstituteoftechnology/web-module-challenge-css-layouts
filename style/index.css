@@ -168,11 +168,20 @@ nav a{
          max-width: 80%;
          border-radius: 20px;
      }
-
+}
 
  /* phone */
 
  @media(max-width: 500px) {
+     .topSection {
+         margin: 3%;
+     }
+     .me h1 {
+         margin: 5% 0 0 0;
+     }
+     .me p {
+         margin: 0 0 5% 0;
+     }
      .bottomSection div {
          flex-direction: column;
      }
@@ -197,7 +206,18 @@ nav a{
  }
 
  @media(max-width: 468px) {
-     nav {
-         font-size: 5%;
-     }
- }
+    nav {
+        font-size: 5%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .me img {
+        min-width: 50%;
+    }
+    .me h1 {
+        font-size: 100%;
+        margin-top: 2%;
+    }
+    
+}
