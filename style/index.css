@@ -145,7 +145,57 @@ button {
 
 } */
 
+/* responsive styles */
+/* tablets */
+@media(max-width: 800px) {
 
+}
+/* phones */
+@media(max-width: 500px) {
+    header h1{
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        width:30%;
+        text-align: center;
+    }
 
+    /* info section */
+    .infoAboutMe {
+        flex-direction: column;
+        text-align: center;
+    }
+    .right {
+        height: 10%;
+    }
+    .right p {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    /* gallery */
+    .gallery {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .gallery div {
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    .gallery div div {
+        width: 45%;
+        height: 35%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
 
 
