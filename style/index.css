@@ -185,3 +185,30 @@ nav a{
 }
 
 @media screen and (max-width: 320px) { @viewport { width: 320px; } }
+
+
+/* tablet */
+
+ @media(max-width: 800px) {
+ 
+ }
+
+ /* phone */
+
+ @media(max-width: 500px) {
+     .bottomSection div {
+         flex-direction: column;
+     }
+     nav {
+         flex-direction: column;
+         align-items: center;
+         font-size: 8%;
+     }
+     .me img {
+         max-width: 100%;
+         border-radius: 0;
+     }
+     .firstThree p, .secondThree p {
+        font-size: 100%;
+     }
+ }
