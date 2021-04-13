@@ -42,8 +42,8 @@ blockquote, q {
     max-width:100%;
 	padding:0;
 	margin:0;
-	border:1px solid grey;
-    /* border:1px solid grey */
+	/* border:1px solid grey; */
+
 }
 /* general styles */
 html{
@@ -236,4 +236,5 @@ footer a{
 		height:50%;
 	
 	}
+}
 }
