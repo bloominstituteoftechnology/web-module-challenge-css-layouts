@@ -47,10 +47,12 @@ abbr, acronym {
  }   
 .myname{display: inline;}
 button{display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items:center;
 background-color:blue;}
-.img{width:100%;}
+.neon{width:50%;
+height:30%;
+justify-content: center;}
 
 nav {
     display:flex;
