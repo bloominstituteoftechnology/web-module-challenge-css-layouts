@@ -52,21 +52,22 @@ a {
 .nav-item {
     list-style: none;
     margin-right: 2rem;
-  }
+}
   
 .nav-item a {
     text-decoration: none;
     transition: all 200ms ease-in;
-  }
+}
   
 .nav-item a:hover {
     color: var(--clr-primary-dark);
-  }
+}
   
 .nav-item:first-child {
     margin-right: auto;
     margin-left: 2rem;
-  }
+}
+
 .middle{
 
 }
@@ -75,41 +76,23 @@ a {
     text-align: center;
     padding: 20%;
 }
-.boxes-row1{
+.boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
 }
-.boxes-row1 div{
-    padding: 10%;
+.boxes li{
+    width: 27%;
+    margin: 3%;
 }
-.label-row1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.boxes div{
+    padding: 35%;
 }
-.project2{
-    margin: 0% 2% 0% 2%;
-}
-.boxes-row2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.boxes-row2 div{
-    padding: 10%;
-}
-.label-row2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.project5{
-    margin: 0% 2% 0% 2%;
+.boxes h4{
+
 }
 footer{
     text-align: center;
@@ -136,111 +119,5 @@ footer div{
 
 }
 @media screen and (max-width: 360px) {
-    body{
-        font-size: 1.6rem;
-        line-height: 1.5;
-        color: #4f4f4f;
-    }
-    .top{
 
-    }
-    .name {
-        margin-right: -12%;
-        padding: 2%;
-        font-size: 2rem;
-    }
-    .nav-list {
-        box-shadow: 0px 0px 10px var(--clr-gray200);
-        padding: 1rem 0;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-      }
-      
-    .nav-item {
-        list-style: none;
-        margin-right: 2rem;
-      }
-      
-    .nav-item a {
-        text-decoration: none;
-        transition: all 200ms ease-in;
-      }
-      
-    .nav-item a:hover {
-        color: var(--clr-primary-dark);
-      }
-      
-    .nav-item:first-child {
-        margin-right: auto;
-        margin-left: 2rem;
-      }
-    .middle{
-    
-    }
-    .banner{
-        margin: 5%;
-        text-align: center;
-        padding: 20%;
-    }
-    .boxes-row1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .boxes-row1 div{
-        padding: 10%;
-    }
-    .label-row1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .project2{
-        margin: 0% 2% 0% 2%;
-    }
-    .boxes-row2{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .boxes-row2 div{
-        padding: 10%;
-    }
-    .label-row2{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .project5{
-        margin: 0% 2% 0% 2%;
-    }
-    footer{
-        text-align: center;
-    }
-    footer div{
-        margin: 3%;
-        text-decoration: none;
-    }
-    .box1{
-    
-    }
-    .box2{
-    
-    }
-    .box3{
-    
-    }
-    .box4{
-    
-    }
-    .box5{
-    
-    }
-    .box6{
-    }
 }
