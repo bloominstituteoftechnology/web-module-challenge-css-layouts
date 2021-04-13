@@ -1,0 +1,1101 @@
+<!doctype html>
+
+
+
+
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Rasmussen College Surgical Technologist Associate's Degree Program in Rockford Earns CAAHEP Accreditation | Business Wire</title>
+<meta name="description" content="The Rasmussen College Surgical Technologist Associate’s degree program in Rockford, Illinois earns CAAHEP accreditation."/>
+<!-- DC.date.issued is in UTC (Coordinated Universal Time) timezone -->
+<meta name="DC.date.issued" content="2019-12-16"/>
+<meta name="robots" content="noodp,noydir"/>
+<link rel="canonical" href="https://www.businesswire.com/news/home/20191216005579/en/Rasmussen-College-Surgical-Technologist-Associates-Degree-Program-in-Rockford-Earns-CAAHEP-Accreditation" />
+	<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@businesswire" />
+<meta name="twitter:title" content="Rasmussen College Surgical Technologist Associate's Degree Program in Rockford Earns CAAHEP Accreditation" />
+<meta name="twitter:description" content="The Rasmussen College Surgical Technologist Associate’s degree program in Rockford, Illinois earns CAAHEP accreditation." />
+<meta name="twitter:widgets:csp" content="on" />
+<meta name="twitter:image" content="https://mms.businesswire.com/media/20191216005579/en/713497/22/RC_LogoHorz.jpg" />
+
+<!-- OG Meta Tags for Facebook and LinkedIn -->
+<meta property="og:title" content="Rasmussen College Surgical Technologist Associate's Degree Program in Rockford Earns CAAHEP Accreditation" />
+<meta property="og:url" content="" />
+<meta property="og:description" content="The Rasmussen College Surgical Technologist Associate’s degree program in Rockford, Illinois earns CAAHEP accreditation." />
+<meta property="og:image" content="https://mms.businesswire.com/media/20191216005579/en/713497/23/RC_LogoHorz.jpg" />
+<meta property="og:image:secure_url" content="https://mms.businesswire.com/media/20191216005579/en/713497/23/RC_LogoHorz.jpg" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627" />
+<meta property="og:type" content="article" />
+<meta property="fb:pages" content="1157450754275955" />
+	<meta name="p:domain_verify" content="95725e0359a14c2e1ccbd936e10d20d6" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+  	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/css/libs/PIE.css" />
+		<link rel="stylesheet" href="/css/style-ie8.css" />
+		<script src="/js/libs/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!-- OneTrust Cookies Consent Notice start -->
+    <script src="/js/one_trust/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="a2007379-c22b-41e8-8743-1bbfd2cbb24a"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+	<!-- OneTrust Cookies Consent Notice end -->
+	<!-- Google Tag Manager -->
+
+ <script type="text/plain" class="optanon-category-C0002">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T4KGVRR');
+</script>
+
+<!-- End Google Tag Manager -->
+
+
+	<script type="text/plain" class="optanon-category-C0002">
+window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"fb79b04985",applicationID:"116575036",sa:1}
+</script>
+
+<script type="application/javascript">
+  var clientIP="any";
+  function getIP(json) {
+	clientIP = json.ip;
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+<script type="text/plain" class="optanon-category-C0002">
+	newrelic.setCustomAttribute('ip_address', clientIP);
+</script>
+	
+	<script src="/js/libs/modernizr-respond.js"></script>
+	<script src="/js/functions.js"></script>
+	<script src="/js/popups.js"></script>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jquery-ui.js"></script>
+	<script src="/js/bwjsapi.js"></script>
+<script>bazadebezolkohpepadr="1065811235"</script><script type="text/javascript" src="https://www.businesswire.com/akam/11/3f86fc5b" defer></script></head>
+<body id="bw-container">
+	<!-- Google Tag Manager -->
+
+    <noscript>
+        <iframe data-src="https://www.googletagmanager.com/ns.html?id=GTM-T4KGVRR" class="optanon-category-C0002" height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+
+<!-- End Google Tag Manager -->
+
+
+	<header role="banner">
+		<div>
+			<a href="http://www.businesswire.com/"><img id="bw-home-link" src="/images/bwlogo_extreme.png" title="" alt="Business Wire" /></a>
+		</div>
+	</header>
+
+	<div id="bw-main" role="main">
+		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<div class="bw-group-portlets" id="bw-group-all">
+
+			<div class="moduleContainer">
+
+        
+	
+	  
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/libs/jquery.nicescroll.min.js"></script>
+<script src="/js/mm_scrollbars.js"></script>
+<script type="text/plain" class="optanon-category-C0005" src="/js/twitter-text.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+  // Hide all toggled sections before they're even rendered, to prevent screen flicker
+  var CSSRules = new BWCSSRules();
+  CSSRules.addRule(".toggleContent", "display:none;");
+//]]>
+</script>
+<script>
+var strButtonFull = 'View Full Table';
+</script>
+<script type="text/javascript" src="/js/release_tables.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<div id="bw-news-view" class="bw-release bw-with-logos bw-en " itemscope="itemscope" itemid="https://www.businesswire.com/news/home/20191216005579/en/Rasmussen-College-Surgical-Technologist-Associates-Degree-Program-in-Rockford-Earns-CAAHEP-Accreditation" itemtype="http://schema.org/NewsArticle">
+  <article class="bw-release-main">
+    <meta rel="alternate" itemprop="url" content="https://www.businesswire.com/news/home/20191216005579/en/Rasmussen-College-Surgical-Technologist-Associates-Degree-Program-in-Rockford-Earns-CAAHEP-Accreditation" />
+    <header>
+      <div>
+        
+          <h1 class="epi-fontLg bwalignc">
+<b>Rasmussen College Surgical Technologist Associate's Degree Program in Rockford Earns CAAHEP Accreditation</b>
+</h1>
+        
+        <meta itemprop="headline" content="Rasmussen College Surgical Technologist Associate's Degree Program in Rockford Earns CAAHEP Accreditation"/>
+
+        
+
+        
+        <div class="bw-release-subhead">
+          <p class="bwalignc">
+<i>Accreditation confirms the College’s commitment to surgical technology educational standards</i>
+</p>
+        </div>
+        
+      </div>
+
+    </header>
+
+    <div class="bw-release-body  ">
+      
+      
+
+      <div class="bw-release-timestamp">
+        <time datetime="2019-12-16T16:18:00Z" itemprop="dateModified">December 16, 2019 11:18 AM Eastern Standard Time</time>
+        <meta itemprop="datePublished" content="2019-12-16T16:18:00Z" />
+      </div>
+
+      <div class="bw-release-story" itemprop="articleBody">
+        <p>ROCKFORD, Ill.--(<span itemprop="provider publisher copyrightHolder" itemscope="itemscope" itemtype="https://schema.org/Organization" itemid="https://www.businesswire.com" ><span itemprop="name" ><a referrerpolicy="unsafe-url" rel="nofollow" itemprop="url" href="https://www.businesswire.com/">BUSINESS WIRE</a></span></span>)--Rasmussen College, a regionally accredited private college, is excited to announce its Rockford, Illinois, campus has earned programmatic accreditation from the Commission on Accreditation of Allied Health Education Programs (CAAHEP) for its <a referrerpolicy="unsafe-url" target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=http%3A%2F%2Fwww.rasmussen.edu%2Fdegrees%2Fhealth-sciences%2Fsurgical-technologist%2F%3Futm_medium%3Dreferral%26utm_source%3Dnewswire%26utm_campaign%3Daccreditation%2520%26utm_content%3Dsurgtech%26utm_term%3Dq120&amp;esheet=52147621&amp;newsitemid=20191216005579&amp;lan=en-US&amp;anchor=Surgical+Technologist+Associate%26%238217%3Bs+degree+program&amp;index=1&amp;md5=26ca5759c2d14d941e02b3d051a6f098" rel="nofollow" shape="rect">Surgical Technologist Associate’s degree program</a>.<sup>1, 2</sup> Accreditation affirms the College’s commitment to meeting educational standards and signifies the Surgical Technologist program has met or exceeded criteria for educational quality in surgical technology curriculum and that it prepares graduates to work successfully in the profession upon graduation.
+</p>
+<blockquote><p id='pull-quote'></p></blockquote>
+
+<p>
+“We are committed to delivering quality education across all of our Health Sciences programs,” said Tammy Renner, Rasmussen College Surgical Technologist Department Chair. “Earning CAAHEP accreditation for our Surgical Technologist program at the Rockford campus affirms we are delivering on our responsibility to offer quality education for our students.”
+</p>
+<p>
+<b>The CAAHEP-Accredited Surgical Technologist Program </b>
+</p>
+<p>
+According to the <a referrerpolicy="unsafe-url" target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fhealthcare%2Fsurgical-technologists.htm&amp;esheet=52147621&amp;newsitemid=20191216005579&amp;lan=en-US&amp;anchor=Bureau+of+Labor+Statistics&amp;index=2&amp;md5=4fe3ef82eef7bf1f515bcfadf46316ce" rel="nofollow" shape="rect">Bureau of Labor Statistics</a>, the number of surgical technologists needed across the country is expected to grow 9 percent by 2028—faster than the average of all other occupations.
+</p>
+<p>
+Surgical Technologist students at the Rockford campus study and train under industry-experienced instructors to attain the necessary skills to contribute to the success of an operating room team. Students are trained in a hands-on simulated surgical suite. Curriculum is focused on four critical skills areas including: preparing operating rooms, assisting surgeons during surgery, sterilization techniques and compassionate patient care. Students also complete a surgical technologist practicum in real-world healthcare environments.
+</p>
+<p>
+The program can be completed in as few as 21 months and prepares students for a rewarding career working with medical teams and patients as a surgical technologist—a fast-growing healthcare profession.<sup>3</sup>
+</p>
+<p>
+The Surgical Technologist program is also offered with <a referrerpolicy="unsafe-url" target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.rasmussen.edu%2Fstudent-experience%2Fflex-choice%2F%3Futm_medium%3Dreferral%26utm_source%3Dnewswire%26utm_campaign%3Daccreditation%2520%26utm_content%3Dsurgtech%26utm_term%3Dq120&amp;esheet=52147621&amp;newsitemid=20191216005579&amp;lan=en-US&amp;anchor=Flex+Choice&amp;index=3&amp;md5=51ce2f193be86bb9034031be347648cb" rel="nofollow" shape="rect">Flex Choice</a><sup>®</sup>, which allows students the flexibility to blend traditional online courses with self-directed assessments that provide optional coaching assistance.
+</p>
+<p>
+“Our communities are in critical need of qualified surgical technologists as the population ages and local hospitals look to grow and expand their services,” said Renner. “We are proud of our CAAHEP accreditation and are excited for our students and community members who will directly benefit from the exceptional healthcare programs we strive to provide every day.”
+</p>
+<p>
+The Surgical Technologist program at the Romeoville/Joliet, Illinois, campus as well as Brooklyn Park/Maple Grove, Moorhead, and St. Cloud, Minnesota, campuses are also accredited by CAAHEP on the recommendation of the Accreditation Review Council on Education in Surgical Technology and Surgical Assisting (ARC/STSA).
+</p>
+<p>
+To learn more about the Surgical Technologist Associate’s degree program and career opportunities, please visit: <a referrerpolicy="unsafe-url" target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=http%3A%2F%2Fwww.rasmussen.edu%2Fdegrees%2Fhealth-sciences%2Fsurgical-technologist%2F%3Futm_medium%3Dreferral%26utm_source%3Dnewswire%26utm_campaign%3Daccreditation%2520%26utm_content%3Dsurgtech%26utm_term%3Dq120&amp;esheet=52147621&amp;newsitemid=20191216005579&amp;lan=en-US&amp;anchor=http%3A%2F%2Fwww.rasmussen.edu%2Fdegrees%2Fhealth-sciences%2Fsurgical-technologist%2F&amp;index=4&amp;md5=080824c564ce2c7269b1c96e8d7f1018" rel="nofollow" shape="rect">http://www.rasmussen.edu/degrees/health-sciences/surgical-technologist/</a>.
+</p>
+<p>
+<sup>1</sup>Accredited by the Higher Learning Commission. hlcommission.org | 800-621-7440
+</p>
+<p>
+<sup>2 </sup>The Surgical Technologist AAS program at the Rockford, Illinois, campus is accredited by the Commission on Accreditation of Allied Health Education Programs (CAAHEP.org) on the recommendation of the Accreditation Review Council on Education in Surgical Technology and Surgical Assisting (ARC/STSA).
+</p>
+<p>
+Commission on Accreditation of Allied Health Education Programs
+<br/>25400 US Highway 19 North
+<br/>Suite 158
+<br/>Clearwater, FL 33763
+<br/>727-210-2350
+<br/><a referrerpolicy="unsafe-url" target="_blank" href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=http%3A%2F%2Fwww.caahep.org&amp;esheet=52147621&amp;newsitemid=20191216005579&amp;lan=en-US&amp;anchor=www.caahep.org&amp;index=5&amp;md5=186bc176e525624306e406fbe742b7d4" rel="nofollow" shape="rect">www.caahep.org</a>
+</p>
+<p>
+<sup>3</sup>Completion time is dependent on transfer of credits accepted and courses completed each term.
+</p>
+<p>
+<b>ABOUT RASMUSSEN COLLEGE</b>:
+<br/>Rasmussen College, LLC is a private college regionally accredited by the Higher Learning Commission and is dedicated to meeting the evolving needs of our diverse communities through in-demand, flexible, accessible and affordable educational programs. A pioneer in career-focused education since 1900, the College leads advancements in innovations such as employer-led and expert designed curriculum and comprehensive student support services to help working adults advance their educations. Additionally, Rasmussen College is a national leader in competency-based education. Rasmussen College offers undergraduate and graduate programs online and across its 24 Midwest and Florida campuses. The College encourages its students, faculty and staff to strive for academic excellence, community enrichment and service to the public good. For more information about Rasmussen College, please visit rasmussen.edu.
+</p><p><img referrerpolicy="unsafe-url" alt="" src="https://cts.businesswire.com/ct/CT?id=bwnews&amp;sty=20191216005579r1&amp;sid=web02&amp;distro=nx&amp;lang=en" style="width:0;height:0"/><span class="bwct31415"/></p>
+        
+      </div>
+      <div class="bw-release-contact">
+        
+          <h2>Contacts</h2>
+          <p>
+Hannah Burn
+<br/>Phone: 952-806-4660
+<br/>Mobile: 651-361-0693
+<br/>Email: <a referrerpolicy="unsafe-url" target="_blank" href="mailto:hannah.burn@collegiseducation.com" rel="nofollow" shape="rect">hannah.burn@collegiseducation.com</a>
+</p>
+        
+      </div>
+      
+
+      <script>
+        // Add toggle of sharing section
+        var internalToggle = new BWToggle("bw-release-internal", "#bw-release-internal h2", "#bw-internal-content");
+        internalToggle.set(false);
+      </script>
+    </div>
+
+  </article>
+
+  <div class="bw-release-sidebars">
+
+    
+    <div class="bw-release-logos">
+      
+      <a href="https://www.rasmussen.edu/?utm_medium=referral&amp;utm_source=newswire&amp;utm_campaign=accreditation_&amp;utm_content=surgtech&amp;utm_term=q120" target="_blank" rel="nofollow" referrerpolicy="unsafe-url" >
+      
+        <img src="https://mms.businesswire.com/media/20191216005579/en/713497/2/RC_LogoHorz.jpg" title="https://www.rasmussen.edu/?utm_medium=referral&utm_source=newswire&utm_campaign=accreditation_&utm_content=surgtech&utm_term=q120" alt="" />
+      
+      </a>
+      
+    </div>
+    
+
+    
+
+    <div id="companyInformation">
+      
+        
+        
+        
+      
+    </div>
+
+    
+    <div class="bw-release-summary">
+      <h2>Release Summary</h2>
+      <p>The Rasmussen College Surgical Technologist Associate&rsquo;s degree program in Rockford, Illinois earns CAAHEP accreditation.</p>
+    </div>
+    
+        
+
+<script type="text/plain" class="optanon-category-C0004">
+  var addthis_share = {
+      url: "https://www.businesswire.com/news/home/20191216005579/en/Rasmussen-College-Surgical-Technologist-Associates-Degree-Program-in-Rockford-Earns-CAAHEP-Accreditation",
+      title: "Rasmussen College Surgical Technologist Associate\'s Degree Program in Rockford Earns CAAHEP Accreditation | Business Wire"
+    };
+  var addthis_config = {
+     'image_include': 'bw-pin-include',
+     'data_track_addressbar': false,
+     'data_track_clickback':true
+  };
+  
+    addthis_config.services_exclude='sinaweibo,pinterest_share';
+  
+</script>
+
+<script type="text/plain" class="optanon-category-C0004" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52697e88612089da" async="async"></script>
+
+
+    
+      
+    
+    
+      <div id="ajaxRecentTweets"></div>
+    
+
+    
+    
+      <div class="">
+        <h2>#Hashtags</h2>
+        <ul class="hash-tags">
+          
+            <li><a rel="nofollow" href='https://twitter.com/hashtag/RasmussenCollege?src=hash' class="hash-tag" target="_blank">#RasmussenCollege</a></li>
+          
+            <li><a rel="nofollow" href='https://twitter.com/hashtag/highereducation?src=hash' class="hash-tag" target="_blank">#highereducation</a></li>
+          
+            <li><a rel="nofollow" href='https://twitter.com/hashtag/pressrelease?src=hash' class="hash-tag" target="_blank">#pressrelease</a></li>
+          
+            <li><a rel="nofollow" href='https://twitter.com/hashtag/healthcare?src=hash' class="hash-tag" target="_blank">#healthcare</a></li>
+          
+            <li><a rel="nofollow" href='https://twitter.com/hashtag/rasnews?src=hash' class="hash-tag" target="_blank">#rasnews</a></li>
+          
+        </ul>
+      </div>
+    
+
+    
+
+    
+      <div class="">
+          <h2>Social Media Profiles</h2>
+          <ul class="social-profiles">
+            
+              
+                
+                
+                  <li class='sm-facebook'><a rel="nofollow" href="https://www.facebook.com/rasmussencollege/" target="_blank">Rasmussen College on Facebook</a></li>
+                
+              
+            
+              
+                
+                
+                  <li class='sm-twitter'><a rel="nofollow" href="https://twitter.com/Rasmussen?lang=en" target="_blank">Rasmussen College on Twitter</a></li>
+                
+              
+            
+              
+                
+                
+                  <li class='sm-linkedin'><a rel="nofollow" href="https://www.linkedin.com/company/165661/" target="_blank">Rasmussen College on LinkedIn</a></li>
+                
+              
+            
+              
+                
+                
+                  <li class='sm-pinterest'><a rel="nofollow" href="https://www.pinterest.com/rascollege/?eq=ras&etslf=3048" target="_blank">Rasmussen College on Pinterest</a></li>
+                
+              
+            
+              
+                
+                
+                  <li class='sm-youtube'><a rel="nofollow" href="https://www.youtube.com/user/Rasmussencollege" target="_blank">Rasmussen College on YouTube</a></li>
+                
+              
+            
+              
+                
+                
+                  <li class='sm-instagram'><a rel="nofollow" href="https://www.instagram.com/rasmussencollege/" target="_blank">Rasmussen College on Instagram</a></li>
+                
+              
+            
+          </ul>
+      </div>
+    
+
+  
+    
+    
+    
+  
+  <div id="ajaxReleaseVersions"></div>
+  
+    
+    
+    
+  
+  <div id="ajaxRecentStories"></div>
+
+    
+    <div class="bw-release-contact">
+      <h2>Contacts</h2>
+      <p>
+Hannah Burn
+<br/>Phone: 952-806-4660
+<br/>Mobile: 651-361-0693
+<br/>Email: <a referrerpolicy="unsafe-url" target="_blank" href="mailto:hannah.burn@collegiseducation.com" rel="nofollow" shape="rect">hannah.burn@collegiseducation.com</a>
+</p>
+    </div>
+    
+  </div>
+  <div id="bw-release-hires"></div>
+</div><!-- end .bw-release -->
+
+
+
+
+
+
+
+<script>
+//$(document).ready(function(){
+jQuery(function($) {
+
+
+  //Resize carousel items to show 4 images
+  var carousel = $("#carouselList");
+  var ulContainer = carousel.find('ul.bw-release-gallery');
+  var ulWidth = ulContainer.outerWidth();
+  var itemsPerPage = 4;
+  var liWidth = (ulWidth/itemsPerPage) - 8;
+
+  //console.log(ulWidth);
+
+  //if NOT a mobile view
+  if(ulWidth > 800) {
+    //console.log('resize');
+    ulContainer.find('li.bw-release-gallery-item').width(liWidth);
+  }
+
+  ulContainer.animate({ opacity: 1 }, 800);
+
+  //FadeIn download button
+  $('#bw-release-mm-asset, #mm-download-button').hover(function() {
+      $('#mm-download-button').stop().fadeIn();
+  }, function(){
+      $('#mm-download-button').stop().fadeOut();
+  });
+
+
+  // IF SmartMedia (Wirewax) item exists
+  //===============================================================
+  if($('#bw-news-view').hasClass('smart-release')) {
+
+    // Get video media dimensions
+    var smartSize = $("#smart-media-box-cap .bwsmartmedia iframe");
+    var smartWidth = parseInt(smartSize[0]['width']);
+    var smartHeight = parseInt(smartSize[0]['height']);
+    var sizeView = 'landscape';
+
+    //console.log('item width:--');
+    //console.log( smartWidth );  //450
+    //console.log('item height:--');
+    //console.log( smartHeight ); //1200
+
+    // smart media container & iframe sizing function
+    //-------------------------------------------------------
+    function updateSmartContainer() {
+      var containerWidth = $('#smart-media-box-cap').width();
+      var ratioView = containerWidth/smartWidth;
+      var newHeight = Math.floor( ratioView*smartHeight );
+
+      //if image does not have 100% width & height, set new height
+      if(smartWidth != 100 & smartHeight != 100) {
+        $('#smart-media-box-cap .bwsmartmedia').css({"min-height":newHeight});
+      } else {
+        $('#smart-media-box-cap .bwsmartmedia').css({"min-height":1000});
+      }
+    }
+
+    // reset smart media container & iframe sizing function
+    //-------------------------------------------------------
+    function resetSmartContainer() {
+      $('#smart-media-box').css({'height':'','min-height':''});
+      $('#smart-media-box-cap').css({'height':'','min-height':''});
+      $('#smart-media-box-cap .bwsmartmedia').css({'height':'','min-height':''});
+      $('#smart-media-box-cap .bwsmartmedia iframe').css({'height':'','min-height':''});
+    }
+
+    //Set SmartMedia as selected class
+    $("#carouselList .bw-release-gallery .bw-release-gallery-item").slice(1).removeClass("bw-release-mm-selected");
+
+    // MODAL --------------------------
+    //Get the smartModal
+    var modal = $('#smartModal');
+
+    // When the user clicks the button, open the modal
+    $('#smartBtn').on('click',function() {
+        $('#smart-media-box').addClass('smart-modal-view');
+        updateSmartContainer();
+    });
+    // When the user clicks on (x), close the modal
+    $('#smart-media-box-cap .closeBtn').on('click',function() {
+        $('#smart-media-box').removeClass('smart-modal-view');
+        //updateSmartContainer();
+        resetSmartContainer();
+    });
+    // When the user clicks anywhere outside of the container, close it
+    $('#smart-media-box').on('click',function(e) {
+        if (e.target.id == 'smart-media-box') {
+          $('#smart-media-box').removeClass('smart-modal-view');
+          resetSmartContainer();
+        }
+    });
+    //When page is resized
+    $(window).resize(function() {
+      if($('#smart-media-box').hasClass('smart-modal-view')) {
+        updateSmartContainer();
+      }
+    });
+
+    //Smart Media carousel button
+    var smartReset;
+    $('#carouselList .bw-release-gallery .bw-release-gallery-item').on('click',function() {
+      //to silence the Wirewax videos on carousel use, the iframe must be reloaded
+      if(smartReset == null){
+        smartReset = $("#smart-media-box-cap .bwsmartmedia").html();
+      };
+
+      //if image clicked is SmartMedia placeholder
+      if($(this).hasClass('smart-placeholder')) {
+        $('#smart-media-box').fadeIn(500);
+        $('#media-box').fadeOut(200);
+        $('#smartMediaPlaceholder').addClass('bw-release-mm-selected');
+        $('#smart-media-box-cap .bwsmartmedia').html(smartReset);
+      } else {
+        $('#smart-media-box').fadeOut(200);
+        $('#smart-media-box-cap .bwsmartmedia').empty();
+        $('#media-box').fadeIn(500);
+        $('#smartMediaPlaceholder').removeClass('bw-release-mm-selected');
+      }
+    });
+
+  }
+
+});
+
+
+  function measureLinkedInClick() {
+    // TODO implement the measurement of the linkedin click
+    return true;
+  };
+
+  // measurement callback for download click
+  function downloadClick(url) {
+      if (document.images) {
+          (new Image()).src=url;
+      }
+      return true;
+  };
+
+  function twitterTruncateHeadline(rawHeadline) {
+    rawHeadline = $('<div/>').html(rawHeadline).text();
+    var len = twttr.txt.getTweetLength(rawHeadline);
+    var maxLength = Number('24') - 1;
+    while (len > maxLength) {
+      rawHeadline = rawHeadline.substring(0,rawHeadline.length-1);
+      len = twttr.txt.getTweetLength(rawHeadline);
+    }
+    return rawHeadline;
+  }
+
+  var maxTotal = 280 - Number('24');
+  function twitterTruncatePullQuote(text) {
+    text = $('<div/>').html(text).text();
+    var len = twttr.txt.getTweetLength(text);
+    if (len<=maxTotal) {
+      return text;
+    }
+    var textLength = twttr.txt.getUnicodeTextLength(text);
+    var urlsWithIndices = twttr.txt.extractUrlsWithIndices(text);
+    twttr.txt.modifyIndicesFromUTF16ToUnicode(text, urlsWithIndices);
+    var i = urlsWithIndices.length-1;
+
+    if (i<0) { //if pullquote doesn't contain any urls, which is almost all the case.
+      var shorten = 'Rasmussen College is honored to announce we earned programmatic accreditation from CAAHEP for our Surgical Technologist program at our Rockford campus! #RasNews';
+      return $('<div/>').html(shorten).text();
+    }
+    var maxLen = maxTotal-3;  //3 is for trailing ...
+    var newStr = text;
+    var newLen = twttr.txt.getTweetLength(newStr);
+
+    while (newLen>maxLen && i>=0) {
+      var buildStr = newStr.substring(0,urlsWithIndices[i].indices[1]);
+      var buildLen = twttr.txt.getTweetLength(buildStr);
+
+      if (buildLen>maxLen ) {
+        newStr = newStr.substring(0,urlsWithIndices[i].indices[0]);
+        newLen = twttr.txt.getTweetLength(newStr);
+      } else {
+        var lack = maxLen - buildLen;
+        if (twttr.txt.getUnicodeTextLength(newStr)<=urlsWithIndices[i].indices[1]+lack) {
+          newStr = newStr;
+        } else {
+          newStr = newStr.substring(0,urlsWithIndices[i].indices[1]+lack);
+        }
+      }
+
+      newLen = twttr.txt.getTweetLength(newStr);
+      i=i-1;
+    }
+
+    if (newLen>maxLen) {
+      newStr = newStr.substring(0,maxLen);
+    }
+
+    return newStr+'...';
+  }
+
+  function addPullQuote() {
+    jQuery('#pull-quote').append('Rasmussen College is honored to announce we earned programmatic accreditation from CAAHEP for our Surgical Technologist program at our Rockford campus! #RasNews');
+
+    if (1==1 || true) {
+      var pullQuoteEle = document.getElementById('pull-quote');
+      var tweettthis = 'Tweet this';
+      var tweetthisUrl = '<a href="#" id="tweet-pull-quote">'+tweettthis+'</a>'
+
+      pullQuoteEle.insertAdjacentHTML('afterend', tweetthisUrl);
+      var pullQuoter = document.getElementById('tweet-pull-quote');
+          pullQuoter.addEventListener('click', function(e) {
+            e.preventDefault();
+            var pullQuote = 'Rasmussen College is honored to announce we earned programmatic accreditation from CAAHEP for our Surgical Technologist program at our Rockford campus! #RasNews';
+
+            if (0==1 || twttr.txt.getTweetLength(pullQuote)>maxTotal) {
+              pullQuote = twitterTruncatePullQuote(pullQuote);
+          } else {
+          pullQuote = $('<div/>').html(pullQuote).text();
+          }
+            pullQuote = encodeURIComponent(pullQuote);
+
+            var rlPermalink = twitterTruncateHeadline('https://www.businesswire.com/news/home/20191216005579/en/Rasmussen-College-Surgical-Technologist-Associates-Degree-Program-in-Rockford-Earns-CAAHEP-Accreditation');
+
+            twitterAPIUrl = "https://twitter.com/intent/tweet?text=" + pullQuote;
+            twitterAPIUrl += '&url='+encodeURIComponent(rlPermalink);
+
+            window.open(twitterAPIUrl, '_blank', "height=420,width=520");
+        })
+    }
+  };
+
+  // Add popup links
+  var ndmPopups = new BWLinkEnhancement();
+  ndmPopups.addPopupOnclicks();
+
+  jQuery('#ajaxRecentStories').load('/portal/site/home/template.BINARYPORTLET/permalink/resource.process/;portal.JSESSIONID=81DJHjXfeFPnSwtD8Ck0yY2I6FNdociNUQY7AvnSsWOY-73deQLM!1927342773!-1540534484?javax.portlet.tpst=e8d55157ef2522ec12306b100d908a0c&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_releaseid=20191216005579&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_mmgroupid=&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayLanguage=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayReleaseId=20191216005579&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rid_e8d55157ef2522ec12306b100d908a0c=recentStories&javax.portlet.rcl_e8d55157ef2522ec12306b100d908a0c=cacheLevelPage&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken');
+  jQuery('#ajaxReleaseVersions').load('/portal/site/home/template.BINARYPORTLET/permalink/resource.process/;portal.JSESSIONID=81DJHjXfeFPnSwtD8Ck0yY2I6FNdociNUQY7AvnSsWOY-73deQLM!1927342773!-1540534484?javax.portlet.tpst=e8d55157ef2522ec12306b100d908a0c&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_releaseid=20191216005579&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_mmgroupid=&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayLanguage=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayReleaseId=20191216005579&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rid_e8d55157ef2522ec12306b100d908a0c=releaseVersions&javax.portlet.rcl_e8d55157ef2522ec12306b100d908a0c=cacheLevelPage&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken');
+  jQuery('#companyInformation').load('/portal/site/home/template.BINARYPORTLET/permalink/resource.process/;portal.JSESSIONID=81DJHjXfeFPnSwtD8Ck0yY2I6FNdociNUQY7AvnSsWOY-73deQLM!1927342773!-1540534484?javax.portlet.tpst=e8d55157ef2522ec12306b100d908a0c&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_releaseid=20191216005579&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_mmgroupid=&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayLanguage=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_displayReleaseId=20191216005579&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rid_e8d55157ef2522ec12306b100d908a0c=companyInformation&javax.portlet.rcl_e8d55157ef2522ec12306b100d908a0c=cacheLevelPage&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken');
+
+  
+    jQuery('#ajaxRecentTweets').load('/portal/site/home/template.BINARYPORTLET/permalink/resource.process/;portal.JSESSIONID=81DJHjXfeFPnSwtD8Ck0yY2I6FNdociNUQY7AvnSsWOY-73deQLM!1927342773!-1540534484?javax.portlet.tpst=e8d55157ef2522ec12306b100d908a0c&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_releaseid=20191216005579&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_mmgroupid=&javax.portlet.prp_e8d55157ef2522ec12306b100d908a0c_language=en&javax.portlet.rst_e8d55157ef2522ec12306b100d908a0c_twitterHandle=%40RAShealthsci&javax.portlet.rid_e8d55157ef2522ec12306b100d908a0c=releaseRecentTweets&javax.portlet.rcl_e8d55157ef2522ec12306b100d908a0c=cacheLevelPage&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken');
+  
+
+  
+    addPullQuote();
+  
+</script>
+
+<script src="/js/video-js.js"></script>
+<script src="/js/videojs-share.min.js"></script>
+<script src="/js/videojs-ie8.min.js"></script>
+<script src="/js/videojs.ga.min.js"></script>
+
+	  
+	  
+	
+
+
+			</div> <!-- end moduleContainer -->
+	
+
+
+</div> <!-- end .bw-group-portlets -->
+
+
+
+
+
+		</div>
+	</div> <!-- end #bw-main -->
+	<div id="bw-meta">
+		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+			<nav id="bw-nav" role="navigation">
+				<h2><span>Site Navigation</span></h2>
+				<ul>
+
+
+					<li id="bw-nav-home" class="bw-has-submenu ">
+						<a href="/portal/site/home/my-business-wire/" ><span>Home</span></a>
+						<ul>
+							<li>
+								<a href="/portal/site/home/welcome/" >Home</a>
+							</li>
+							<li>
+								<a href="https://membership.businesswire.com/choose-country" >Submit a Press Release</a>
+							</li>
+						</ul>
+
+					</li>
+					<li class="">
+						<a href="https://services.businesswire.com/" target="6f3959bc821238e8c27d3cbc0d908a0c"><span>Services</span></a>
+					</li>
+					<li class="bw-has-submenu bw-current">
+						<a href="/portal/site/home/news/" ><span>News</span></a>
+						<ul>
+							<li>
+								<a href="/portal/site/home/news/" >All News</a>
+							</li>
+							<li>
+								<a href="/portal/site/home/news/multimedia/" >News with Multimedia</a>
+							</li>
+							<li>
+								<a href="/portal/site/home/news/industries/" >News by Industry</a>
+							</li>
+							<li>
+								<a href="/portal/site/home/news/subjects/" >News by Subject</a>
+							</li>
+							<li>
+								<a href="/portal/site/home/news/languages/" >News by Language</a>
+							</li>
+							<li>
+								<a href="/portal/site/home/events/" >Tradeshows &amp; Events</a>
+							</li>
+						</ul>
+
+					</li>
+					<li class="bw-has-submenu ">
+						<a href="https://services.businesswire.com/resources-education" ><span>Education</span></a>
+						<ul>
+							<li>
+								<a href="https://services.businesswire.com/resources-education" >Overview</a>
+							</li>
+							<li>
+								<a href="https://blog.businesswire.com/" >Blog</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/distribution-analytics/distribution-lists" >Distribution &amp; Media</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/media-journalist-tools" >Media &amp; Journalist Tools</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/resources-education/sample-press-release" >Sample Press Release</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/find-your-news-online" >Find Your News Online</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/resources-education/disclosure-resources" >Disclosure Resources</a>
+							</li>
+						</ul>
+
+					</li>
+					<li class="bw-has-submenu ">
+						<a href="https://services.businesswire.com/about-us" ><span>About Us</span></a>
+						<ul>
+							<li>
+								<a href="https://services.businesswire.com/about-us" >Overview</a>
+							</li>
+							<li>
+								<a href="https://membership.businesswire.com/sign-up" >Become a Member</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/contact-us" >Contact Us</a>
+							</li>
+							<li>
+								<a href="https://services.businesswire.com/careers" target="39845f720a9103096b7b5acddb808a0c">Careers</a>
+							</li>
+							<li>
+								<a href="https://newsroom.businesswire.com" >Business Wire Newsroom</a>
+							</li>
+							<li>
+								<a href="https://newsroom.businesswire.com/events" >Business Wire Events</a>
+							</li>
+						</ul>
+
+					</li>
+
+				</ul>
+			</nav>
+			<script src="/js/nav.js"></script>
+
+
+
+
+
+
+			
+				
+					
+
+
+
+
+
+
+
+
+<div id="bw-search" class="bw-search-site">
+	<div>
+		<h2><span>Search</span></h2>
+		<div id="bw-search-container" >
+			<form id="bw-search-form" name="bw-search-form" action="/portal/site/home/template.SINGLEPORTLET/action.process/permalink/?javax.portlet.action=true&currentTemplateID=PAGE&javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken" method="post">
+				<fieldset>
+					<div id="bw-search-options">
+						<a id="bw-search-alt" href="/portal/site/home/search?javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&javax.portlet.pbp_503a8767054f0df6a9e77a100d908a0c_view=advancedSearch&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken" title="Advanced News Search"><span>Advanced News Search</span></a>
+					</div>
+					<label for="bw-search-input">Advanced News Search</label>
+					<input type="search" id="bw-search-input" name="q" maxlength="256" value="" title="Search BusinessWire.com" placeholder="Search" />
+					<input type="hidden" id="bw-search-type" name="qSearchType" value="all" />
+					<button type="submit" class="bw-button-primary" id="bw-search-button" title="Search"><span><img src="/images/icons/icon_search.gif" alt="Search" /></span></button> 	
+
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	// Add search options toggle
+	
+	// **I18N STRINGS
+	var strAll = 'Search All';
+	var strNews = 'Search News';
+	var strSite = 'Search Site';
+	var strAdv = 'Advanced News Search';
+	var strOptions = 'Search Options';
+
+	// **define search action and advanced-search target
+	var strAdvLocation = '/portal/site/home/search?javax.portlet.tpst=503a8767054f0df6a9e77a100d908a0c&javax.portlet.pbp_503a8767054f0df6a9e77a100d908a0c_view=advancedSearch&javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken';
+
+	function searchByUrl() {
+		window.location.href = '/portal/site/home/search/?searchType=' + $('#bw-search-type').val() + '&searchTerm=' + encodeURIComponent($('#bw-search-input').val()) + '&searchPage=1';
+		return false;
+	}
+	
+</script>
+<script src="/js/search.js" ></script>
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div id="bw-controls" class="bw-controls-site">
+				<div id="bw-controls-container">	
+
+					<ul>
+						<li><a href="/portal/site/home/template.LOGIN/">Log In</a></li>
+						<li><a href="/portal/site/home/signup/">Sign Up</a></li>
+
+					</ul>
+
+				</div>
+			</div>
+			<script src="/js/controls.js"></script>
+		</div>
+	</div><!-- end #bw-meta -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div id="bw-footer-container">
+			<div id="footer-follow">
+				<h2><span>Follow Us</span></h2>
+				<ul>
+					<li id="footer-follow-twitter"><a href="http://twitter.com/businesswire/" class="bw-outbound"><span>Twitter</span></a></li>
+					<li id="footer-follow-linkedin"><a href="http://www.linkedin.com/companies/business-wire" class="bw-outbound"><span>LinkedIn</span></a></li>
+				</ul>
+			</div>
+			<div id="footer-sites">
+				<h2><span>More from Business Wire</span></h2>
+				<ul>
+					<li><a href="http://www.businesswire.com/blog" class="bw-outbound">Blog</a></li>
+					<li><a href="http://www.businesswire.co.uk/" class="bw-outbound">UK/Ireland</a></li>
+					<li><a href="http://www.businesswire.de/" class="bw-outbound">Deutschland</a></li>
+					<li><a href="http://www.businesswire.fr/" class="bw-outbound">France</a></li>
+					<li><a href="http://www.businesswire.hk/" class="bw-outbound">Hong Kong</a></li>
+					<li><a href="http://www.businesswire.it/" class="bw-outbound">Italy</a></li>
+					<li><a href="http://www.businesswire.jp/" class="bw-outbound">Japan</a></li>
+					<li><a href="http://www.tradeshownews.com/">Tradeshownews.com</a></li>
+				</ul>
+			</div>
+			<div id="footer-info" role="contentinfo">
+				<h2><span>Business Wire Information</span></h2>
+				<ul>
+					<li><a href="http://newsroom.businesswire.com/contact" class="bw-outbound">Contact Us</a></li>
+					<li><a href="https://services.businesswire.com/uk-tax-strategy-page" target="_blank" class="bw-outbound">UK Tax Strategy</a></li>
+					<li><a href="https://services.businesswire.com/privacy">Privacy</a></li>
+					<li><a href="#" class="ot-sdk-show-settings" text="Manage Cookies">Manage Cookies</a></li>
+					<li><a href="/portal/site/home/terms-of-use/">Terms of Use</a></li>
+					<li><a href="/portal/site/home/copyright/">&copy; 2021 Business Wire, Inc.</a></li>
+				</ul>
+			</div>
+		</div>
+
+    <!-- <div id="cookie-consent">
+      <div class="container">
+        <div id="consentText" class="cookieText">
+          <span class="explainRequire">This site uses cookies. By continuing to browse this Business Wire site (and/or any other Business Wire website), you accept the use of cookies.</span>
+          <a aria-label="learn more about cookies" role="button" tabindex="0" class="privacy-link" href="/portal/site/home/privacy/" target="_blank">Learn more</a>
+        </div>
+        <div id="consentButton" class="compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">I agree</a></div>
+      </div>
+    </div> -->
+
+  </footer>
+  <!--[if lte IE 7]>
+    <script>
+      function hasBwBrowserCookie() {
+        var allCookies=document.cookie;
+        var thisCookiePos=allCookies.indexOf('bwBrowser=');
+        if (thisCookiePos != -1) return true;
+        return false;
+      }
+      var strUnsupported = 'To get the best possible experience using our website we recommend that you upgrade to a newer version of Internet Explorer or another web browser.';
+      if (!hasBwBrowserCookie()) {
+        alert(strUnsupported);
+        document.cookie='bwBrowser=lteIE7;path=/;domain=.businesswire.com';
+      }
+    </script>
+  <![endif]-->
+
+  <!-- <script src="/js/cookie-request.js"></script> -->
+  <!-- <script type="text/javascript">
+    //Cookie Banner - EU regulations
+    $(function () {
+      //Name cookie
+      var cookieName = 'BWcookie';
+      //Read cookie
+      var cookieValue = getCookie(cookieName);
+      //Does cookie already exist? If not, show banner
+      if (cookieValue === undefined) {
+        $('#cookie-consent').prependTo('body').slideDown('slow');
+      }
+      // Create cookie
+      $('#consentButton').on('click', function () {
+        //creates cookie
+        setCookie(cookieName,'accept'); // 1 == Accept
+        //Hides cookie banner
+        $('#cookie-consent .container').stop().fadeOut('slow');
+        $('#cookie-consent').stop().slideToggle('slow');
+      });
+      function setCookie(key, value) {
+        Cookies.set(key, value, {expires: 1825, path: '/', domain: '.businesswire.com', secure: true});
+      }
+      function getCookie(key) {
+        return Cookies.get(key);
+      }
+    });
+  </script> -->
+
+	<script>
+		// Cancel hover menus for touch devices, then change menu link to toggle the hover (but not if whole nav is toggled)
+		var hasTouch = ("ontouchstart" in window);
+		if ( hasTouch && jQuery('#bw-nav h2').css('display')=='none' ) {
+			new BWNav("#bw-nav > ul", "#bw-nav > ul > li > a").toggleMenus();
+		};
+		
+		// Track outbound links
+		var followLinks = jQuery('a.bw-outbound');
+		followLinks.each(function() {
+			jQuery(this).click(function() {
+				var thisTrack = jQuery(this).attr('href');
+				_gaq.push(['_trackEvent', 'Ads', 'Click', thisTrack]);
+			});
+		});
+	</script>
+	
+<noscript><img src="https://www.businesswire.com/akam/11/pixel_3f86fc5b?a=dD1hNzJhMDQwZGI4ZjBjMTI3ZWZkODU4YjBhM2E4NjE1ZmIxYjIzM2FmJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+</html>
