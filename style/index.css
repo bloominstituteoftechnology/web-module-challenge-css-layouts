@@ -1,1 +1,54 @@
-/* Add CSS styling here */
+html {
+    background: #310b0b;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    margin: 0px auto;
+    background: #9c3d54;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    color: #eeb76b;
+    text-shadow: 1px 1px white;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    flex: row, wrap;
+    justify-content: flex-start;
+    margin-left: 4rem;
+}
+
+nav a {
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    background: #e2703a;
+    border: 4px solid white;
+}
+
+#top-content {
+}
+
+#top-content-img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 45%;
+    height: 350px;
+}
+
+#top-content-text {
+    display: inline-block;
+    width: 50%;
+}
+
+#main-img-content {
+    display: flex;
+}
