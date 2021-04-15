@@ -72,3 +72,21 @@ nav a:hover {
     background: black;
     color: red;
 }
+
+footer{
+    display: flex;
+    background-color: black;
+    color: red;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+h2{
+    font-size: 40px;
+    
+}
+
+.footer-contact{
+    display: flex;
+    
+}
