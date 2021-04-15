@@ -3,6 +3,10 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
+body {
+    margin: 0px auto;
+}
+
 header {
     margin: 0px auto;
     background: #9c3d54;
@@ -18,12 +22,12 @@ h1 {
 
 nav {
     display: flex;
-    flex: row, wrap;
+    flex: column, nowrap;
     justify-content: flex-start;
     margin-left: 4rem;
 }
 
-nav a {
+a {
     padding: 5px;
     padding-right: 20px;
     padding-left: 20px;
@@ -36,19 +40,48 @@ nav a {
 #top-content {
 }
 
+h2 {
+    margin-bottom: 20px
+}
+
 #top-content-img {
     display: inline-block;
     margin-top: 10px;
     margin-left: 5px;
-    width: 45%;
-    height: 350px;
+    width: 25%;
+    height: 20rem;
 }
 
 #top-content-text {
     display: inline-block;
-    width: 50%;
+    width: 45%;
+    margin-left: 5rem;
 }
 
 #main-img-content {
+    margin: 0px auto;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.main-img {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background: #9c3d54;
+}
+
+#footer-content {
+    margin: 0px auto;
+    margin-bottom: 15px;
+    width: 10%;
+}
+
+#footer-content p {
+    color: white;
 }
