@@ -25,8 +25,8 @@ h1 {
     font-family: "Dela Gothic One", sans-serif;
     color: #94ebcd;
     text-shadow: 1px 1px black;
-    margin-bottom: 60px;
-    
+    margin-bottom: 80px;
+    font-size: xx-large;
 }
 
 #last {
@@ -38,6 +38,7 @@ nav {
     flex: column, nowrap;
     justify-content: flex-start;
     margin-left: 4rem;
+    margin-top: 20px;
 }
 
 a {
@@ -71,7 +72,12 @@ h2 {
     color: #ffcb91;
 }
 
+#top-content-text a {
+    margin-bottom: 50px;
+}
+
 #top-content-text p {
+    margin-top: 20px;
     color: white;
     text-shadow: 2px 2px black;
 }
@@ -173,13 +179,16 @@ b:hover {
 }
 
 .overlay h3 {
-    color: white;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: -2px -2px white;
+    font-size: large;
+    text-decoration: underline;
 }
 
 .overlay p {
-    color: white;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: -2px -2px white;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -199,4 +208,6 @@ footer {
 #footer-content p {
     color: white;
     text-shadow: 2px 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
