@@ -79,95 +79,128 @@ nav a:hover {
     color: red;
 }
 
+
+
 .top-section{
     display: flex;
     font-size: 40px;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 h2{
     font-size: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .container-1{
     display: flex;
-    width: 300px;
-    height: 300px;
-    justify-content: start;
+    width: 200px;
+    height: 400px;
+    justify-content: flex-start;
 }
 
 .container-2{
-    width: 500px;
-  height: 500px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: space-around;
-
-}
-
-button{
-    display: flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .container-3{
-    width: 500px;
-  height: 500px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.container-4{
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    justify-content: flex-end;
+}
+
+.bottom-section{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: baseline;
   align-content: space-around;
+  justify-content: space-between;
+  flex-basis: auto;
 
 }
 
 .img-1{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-2{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-3{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-4{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-5{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-6{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 .img-7{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
+    justify-content: center;
 }
 
 .img-8{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
 }
 
 
