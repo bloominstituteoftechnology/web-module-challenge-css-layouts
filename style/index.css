@@ -130,7 +130,8 @@ b:hover {
     align-content: center;
 }
 
-.main-img {
+.container {
+    display: block;
     width: 20vw;
     height: auto;
     margin-left: 10px;
@@ -142,10 +143,43 @@ b:hover {
     transition: box-shadow .5s, blur .5s;
 }
 
-.main-img:hover {
+.container:hover {
     box-shadow: 8px 8px 4px 5px black;
     filter: blur(0px);
     transition: box-shadow .5s, blur .5s;
+}
+
+.container:hover .overlay {
+    opacity: 95%;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffefa1;
+    text-align: center;
+}
+
+.overlay h3 {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.overlay p {
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 footer {
