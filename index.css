@@ -80,9 +80,8 @@ nav a:hover {
 }
 
 .top-section{
-    display: inline-flex;
-    flex-wrap: wrap;
-    font-size: 60px;
+    display: flex;
+    font-size: 40px;
 }
 
 h2{
@@ -91,12 +90,86 @@ h2{
 
 .container-1{
     display: flex;
-    width: 500px;
-    height: 500px;
-    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
+    justify-content: start;
 }
 
-    
+.container-2{
+    width: 500px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+}
+
+.container-3{
+    width: 500px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+
+}
+
+.img-1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-3{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-4{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-5{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-6{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.img-7{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.img-8{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
 
 footer{
     display: flex;
@@ -113,6 +186,4 @@ h3{
 
 .footer-contact{
     display: flex;
-    
-    
 }
