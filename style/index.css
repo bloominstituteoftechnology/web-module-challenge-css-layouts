@@ -1,1 +1,284 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+      /* END RESET */
+*{
+    box-sizing: border-box;
+    
+}
+html {font-size: 62.5%}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:dimgrey;
+}
+
+header  {
+    display: flex;
+    flex-direction: row; 
+    flex-flow: row wrap; 
+    justify-content: space-between;   
+}
+
+h1{
+    font-size: 60px;
+    padding: 5px;
+    font-family:serif;
+    color:rgb(88, 45, 45);  
+    margin-left: 100px; 
+    margin-top: 30px;
+    text-shadow: 1px 1px black;
+}
+
+.navbar {
+    width: 50wh;
+    padding: 10px;
+}
+
+.links {
+     display:flex;
+     justify-content: space-around;
+     justify-content: space-evenly;
+     margin-right: 200px;
+     margin-top: 40px;     
+ }
+
+.links a{
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 8px;
+    text-decoration: none;  
+    font-size: 1.5em;    
+ }
+
+ .links button:hover{
+     background-color: skyblue;
+ }
+
+.links button {
+
+    background-color: slategray;
+    
+ }
+
+ /*  Banner Section Start */
+
+ #banner-image-container{
+    padding: 100px;
+ }
+
+ #banner-image {
+     width: 85.2vw;
+ }
+
+ .banner-content {
+    position: relative;
+    bottom: 450px;
+    text-align: center;
+    padding: 15px;
+ }
+
+ .banner-text {
+
+    font-size: 4em;
+    position: relative;
+    padding-bottom: 50px;
+    color: whitesmoke; 
+    text-shadow: 1px 1px black;
+ }
+
+ .banner-button {
+     padding: 10px;
+     font-family: 'Akaya Telivigala', cursive;  
+     font-size: 1.5em;
+     background-color: skyblue;
+     border-radius: 25px;
+ }
+
+ .banner-button a{
+     text-decoration: none;
+     color:whitesmoke;
+     font-size: 1.5em;
+     text-shadow: 1px 1px black;
+ }
+ .project1 img{
+     margin: 0 auto;
+ }
+
+ .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content:space-evenly;
+    position:relative;
+    bottom: 230px;     
+ }
+
+ .project2 img {
+    width: 60vh;
+    padding: 15px; 
+    
+ }
+ .project-image-2 {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    font-family: 'Akaya Telivigala', cursive;  
+ }
+
+ .project3 img {
+    width: 60vh;
+    padding: 15px;
+ }
+
+ .project-image-3 {
+     text-align: center;
+     padding: 15px;
+     font-size: 2em;
+     font-family: 'Akaya Telivigala', cursive;  
+
+ }
+
+.project4 img {
+    width: 60vh;
+    padding: 15px;
+}
+
+.project-image-4 {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    font-family: 'Akaya Telivigala', cursive;  
+ }
+
+.project5 img {
+    width: 60vh;
+    padding: 15px;
+}
+
+.project-image-5 {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    font-family: 'Akaya Telivigala', cursive;  
+ }
+
+.project6 img {
+    width: 60vh;
+    padding: 15px;
+}
+
+.project-image-6 {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    font-family: 'Akaya Telivigala', cursive;  
+ }
+
+.project7 img {
+    width: 60vh;
+    padding: 15px;
+}
+
+.project-image-7 {
+    text-align: center;
+    padding:10px;
+    font-size: 2em;
+    font-family: 'Akaya Telivigala', cursive;  
+ }
+
+ /* Start Footer */
+
+
+ .footer-button {
+     display: flex;
+     justify-content: center;
+     position: relative;
+     bottom: 125px;  
+     padding: 10px;    
+ }
+
+ .footer-button button {
+    background-color: slategray;
+ }
+
+ .footer-button a {
+     padding: 0 auto;
+     font-size: 1.7em;
+     text-decoration: none;
+     color: whitesmoke;
+     text-shadow: 1px 1px black;
+ }
+ 
+ .footer-button button:hover {
+     background-color: skyblue;
+ }
+
+ @media (max-width: 800px) {
+	
+    header {
+        display:flex;
+        flex-direction: column;
+        width: 98%;
+        justify-content: center;
+    }
+
+ @media (max-width: 500px) {
+	
+     header {
+        display:flex;
+        flex-direction: column;
+        width: 98%;
+        justify-content: center;
+    }
