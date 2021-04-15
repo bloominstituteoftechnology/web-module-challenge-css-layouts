@@ -65,19 +65,46 @@ header {
 .Main #mainImage {
     float: left;
     padding: 20px;
-    margin-left: 2px;
 }
 
 .mainText {
     padding: 40px;
+    padding-left: 100px;
 }
-
 
 
 #mainImage {
     width: 325px;
     height: 250px;
 }
+
+.parent img {
+    width: 23%;
+    height: 23%;
+    padding: 6px;
+    padding-bottom: 50px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+#footerButton {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
 
 
 
