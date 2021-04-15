@@ -49,6 +49,26 @@ table {
 
 header{
     display: flex;
-    background-color: gray;
+    background-color: black;
+    color: red;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 80px;
+}
+
+nav a{
+    margin: 10px 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-flex;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    background: black;
     color: red;
 }
