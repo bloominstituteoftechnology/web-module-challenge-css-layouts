@@ -1,1 +1,128 @@
 /* Add CSS styling here */
+html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, 
+ol, ul, li, input, label, select, table, tbody, tfoot, thead, tr, th, 
+td, footer, header, menu, nav, section, video {
+    margin: 0; 
+    padding: 0;
+    font-size: 100%;
+    list-style: none;
+    border: 0;
+}
+html{
+    background-color: #242423;
+}
+header {
+    background-color:#333533;
+    height:100px;
+    width: 100%;
+}
+h1 {
+    font-size: 50px;
+    font-weight:500px;
+    font-family: roboto mono;
+    color: #F5CB5C;
+    padding: 10px;
+    margin-left: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#242423
+}
+li {
+    float: left;
+}
+li a {
+    color:#CFDBD5;
+    display: block;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    background-color:#242423;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#E8EDDF;
+    color:#242423;
+}
+img {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 449px;
+    width:668px
+}
+.row {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.container-1{
+    position: absolute;
+    left: 0px;
+}
+.container-2{
+    position: absolute;
+    left: 750px;
+    margin-top: 300px;
+    margin-left: 15px;
+    color: #CFDBD5;
+}
+.container-2 .name{
+    font-size: 60px;
+    margin-top: -170px;
+}
+.container-2 .button{
+    padding-top: 20px;
+    width: 40px;
+}   
+button{
+    height: 15px;
+    width: 150px;
+    padding: 20px 0px 35px 0px;
+    background-color: #CFDBD5;
+    border: 0;
+    font-size: 15px;
+}
+button:hover{
+    background-color:#CFDBD5;
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.container-3 img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+.container-3 h3{
+    text-align: center;
+    color: #CFDBD5;
+    padding: 30px;
+}
+footer.container-4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color:#333533;
+    height:100px;
+    width: 100%;
+}
+footer h4{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer button{
+     height: 10px;
+    width: 100px;
+    padding: 10px 0px 35px 0px;
+    background-color: #CFDBD5;
+    border: 0;
+    font-size: 15px;
+}

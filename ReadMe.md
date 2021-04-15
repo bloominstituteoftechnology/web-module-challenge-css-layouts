@@ -33,12 +33,12 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
 
-- [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
-- [ ]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
-- [ ]  Information about you in place of the given placeholder
-- [ ]  A `My Projects` button that links to the projects page
-- [ ]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [x]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
+- [x]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
+- [x]  Information about you in place of the given placeholder
+- [x]  A `My Projects` button that links to the projects page
+- [x]  A `Contact Me` button that links to the contact page
+- [x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
