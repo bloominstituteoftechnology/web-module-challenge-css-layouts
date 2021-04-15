@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+html{
+    font-family: 'Karantina', cursive;
+}
+
 header{
     display: flex;
     background-color: black;
@@ -78,7 +82,6 @@ footer{
     background-color: black;
     color: red;
     justify-content: space-around;
-    flex-direction: row-reverse;
 }
 
 h2{
