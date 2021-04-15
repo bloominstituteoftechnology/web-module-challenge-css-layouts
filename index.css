@@ -49,6 +49,8 @@ table {
 
 html{
     font-family: 'Karantina', cursive;
+    max-width: 100%;
+    background-color: lightgray;
 }
 
 header{
@@ -59,23 +61,42 @@ header{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 130px;
 }
 
 nav a{
-    margin: 10px 10px;
+    margin: 30px 30px;
     border: 1px solid lightgray;
-    padding: 20px;
+    padding: 30px;
     display: inline-flex;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
-    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 nav a:hover {
     background: black;
     color: red;
 }
+
+.top-section{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 80px;
+}
+
+.container-1{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: flex-start;
+}
+
+    
 
 footer{
     display: flex;
@@ -84,12 +105,14 @@ footer{
     justify-content: space-around;
 }
 
-h2{
-    font-size: 40px;
-    
-}
+h3{
+    font-size: 60px;
+    align-self: center;
+    }
+
 
 .footer-contact{
     display: flex;
+    
     
 }
