@@ -1,1 +1,83 @@
-/* Add CSS styling here */
+header {
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#Home {
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+#Home:hover {
+    color: white;
+    background-color: black;
+}
+
+#About {
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+#About:hover {
+    color: white;
+    background-color: black;
+}
+
+#Contact {
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+#Contact:hover {
+    color: white;
+    background-color: black;
+}
+
+#Projects {
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+#Projects:hover {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.Main #mainImage {
+    float: left;
+    padding: 20px;
+    margin-left: 2px;
+}
+
+.mainText {
+    padding: 40px;
+}
+
+
+
+#mainImage {
+    width: 325px;
+    height: 250px;
+}
+
+
+
