@@ -1,0 +1,10 @@
+body {
+
+
+}
+header{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px;
+}
