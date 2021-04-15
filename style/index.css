@@ -17,7 +17,29 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+html {
+    font-size: 62.5;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: DotGothic16;
+
+}
+
+
 nav a {
     color:red;
     background-color: black;
+}
+
+.image-info-container img {
+    width: 30rem;
+    border-radius: 25%;
+    display: inline;
+}
+
+.chris-intro {
+    display:flex;
+    flex-direction: column;
 }
