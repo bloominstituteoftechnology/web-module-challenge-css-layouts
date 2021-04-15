@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.flexContainerNav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.flexItem a {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  background-color: gray;
+}
+
+.flexItem a:hover {
+  background-color: green;
+}
+
+#name {
+  position: absolute;
+  font-size: 35px;
+}
+
+.header-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header {
+  border: 2px solid black;
+  font-size: 50px;
+  padding: 7%;
+  background-color: gray;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+header a {
+  font-size: 50%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  margin-top: 5%;
+}
+
+header a:hover {
+  background-color: green;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  background-color: gray;
+
+}
+
+footer a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  color: black;
+  font-size: 25px;
+}
+
+footer a:hover {
+  background-color: green;
+}
+
+#project-images-one {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#project-images-two {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.picture {
+  margin: 30px 30px 30px 30px;
+}
