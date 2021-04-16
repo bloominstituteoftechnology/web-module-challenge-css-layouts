@@ -64,14 +64,20 @@ nav{
 h1{
     font-size:2rem;
     margin: 10px 0;
+    font-family: 'Zilla Slab Highlight', cursive;
+    background-color: white;
+    padding-bottom:-5px ;
 }
 a{
     font-size: 1.1rem;
     padding: 10px;
-    background-color: green;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white
 }
 p{
     font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -86,8 +92,8 @@ p{
 #top h1{
     position: absolute;
     bottom: 750px;
-    color: red;
-    background-color: green;
+    /* color: red; */
+    /* background-color: green; */
 }
 #top a{
     position: absolute;
@@ -111,4 +117,19 @@ p{
 footer{
     display: flex;
     justify-content: center;
+    background-color: gray;
+    padding:20px;
+}
+
+@media (max-width: 1370px) { 
+    #top h1{
+        position:unset;
+        bottom: auto;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    #top a{
+        position: unset;
+
+    }
 }
