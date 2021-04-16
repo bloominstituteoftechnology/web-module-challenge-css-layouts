@@ -50,6 +50,21 @@ table {
 	box-sizing: border-box;
 	max-width: 100%;
 }
+h1, h2 {
+	font-size: 36px;
+	text-align: center;
+	text-justify: center;
+	border: 100px;
+
+}
+p {
+	font-size: 16px;
+	text-align: left;
+	border: 100px;
+	margin: 2%;
+
+}
+
 html{
     font-size:62.5%;
 }
@@ -65,22 +80,26 @@ nav {
 }
 nav a {
     display:inline-block;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align:center;
     padding: 1% 2%;
     color: #fff;
 	align-self: center;
 }
 .code {
-	width: 10%;
-    height: 10px;
+	width: 50%;
+    height: 100px;
 }
 .projectImages {
 	display:inline-block;
+	flex-flow: row wrap;
+	height: 40%;
+	width: 20;
     flex-direction: row;
-    align-items: center;
+	justify-content: left;
+    
 
 }
 .projects {
-	
+	align-items: left;
 }
