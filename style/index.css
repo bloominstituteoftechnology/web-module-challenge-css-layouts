@@ -1,31 +1,83 @@
 *{
-margin: 0%;
-}
-
-header{
-height: 250px;
-width: 100%;
-}
-
-.top-buttons{
- display: flex;
- justify-content: space-evenly;
- align-items: center;
- height: 30px;
- margin-top: 0px;
- margin-left: 30px;
- background-color: darkcyan;
-}
-
-.top-buttons a{
+    padding: 0.3%;
+    max-width: 100%;
+    background-color: slategray;
     text-decoration: none;
-    color: white;
-    padding: 15px 30px;
+    border: 1px solid red
 }
-.image-container{
-    width: 80%;
+body img{
+    width: 40%;
+    height: 40%;
+    padding: auto;
+}
+h1{
+    color: black;
+    justify-content: flex-end;
+    text-align: left;
+}
+.right-box p{
     display: flex;
+    justify-content: flex-end;
+}
+.top-buttons{
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.top-buttons nav{
+    padding-bottom: 5%;
+}
+.top-buttons nav a{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+.top-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+.top-section a{
+    display: flex;
     align-items: center;
+    text-align: center;
+    padding-left: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.top-section img{
+    width: 500px;
+    height:250px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-section a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.bottom-section img{
+    width: 500px;
+    height: 250px;
+}
+#button5{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15%;
+    margin: -15%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    padding: 5%;
+    margin: 0%;
 }
