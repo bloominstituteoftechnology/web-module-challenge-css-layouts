@@ -52,6 +52,7 @@ table {
 html {
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+    background-color: #D9DBDD;
 }
 
 #header {
@@ -73,16 +74,18 @@ html {
 .navBox {
     text-decoration: none;
     font-size: 2rem;
-    padding:4px;
+    padding:6px;
     border: 2px solid black;
     margin: 2rem 2rem;
     color:white;
     background-color: brown;
+    border-radius: 1rem;
 }
 
 .navBox:hover {
     background-color: white;
     color: black;
+    border-radius: 1rem;
 }
 
 #sectionOne {
@@ -90,6 +93,10 @@ html {
     display:flex;
     justify-content: space-evenly;
     position:static;
+}
+
+.imgs {
+    border-radius: 2rem;
 }
 
 #secOneContent {
@@ -104,6 +111,7 @@ html {
 #secOneInfo {
     font-size: 16px;
     margin: 3rem 2rem;
+    max-width: 350px;
 }
 
 #projects {
