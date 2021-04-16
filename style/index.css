@@ -1,28 +1,129 @@
-body {
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color:rgb(138, 214, 123)
     
 }
 
-nav {
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: #d390bf;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 14px;
+    padding: 20px;
 
 }
 
-.Sec-one {
 
+.Sec-one {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .img-content {
+    width: 40%;
 
 }
 
-h1 {
-
+.img-content img {
+    width: 60%;
 }
+
+h2{
+    padding-top: 120px;
+    font-size: 4.5em;
+}
+
+
+.div-content {
+    margin: 0;
+}
+
+.div-content p {
+    font-size: 26px;
+    padding-top: 10px;
+}
+
 
 .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #72c5da;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 
 }
 
-p {
-
+.proj-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between; 
+  
 }
 
+.proj-cont div {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.proj-cont div p {
+    color: black;
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+   
+}
+
+
+.proj-cont div img {
+    width: 350px;
+    overflow: hidden;
+    height: 350px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(236, 160, 73);
+    
+}
+
+footer nav  {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: white; 
+    align-items: center; 
+}
