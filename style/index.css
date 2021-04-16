@@ -1,1 +1,185 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
+body div h1{
+    color:black;
+	font-size:50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom:90px;
+}
+p{
+	color: rgb(240, 233, 233);
+	margin-top:60px;
+	font-size:30px;
+	margin-left:300px;
+	font-size: 3vw;
+
+}
+nav a{
+	
+	text-decoration:none;
+	color:black;
+	border:3px solid black;
+	background-color:silver;
+	padding:5px;
+	margin-left: 400px;
+	
+}
+ nav a:hover{
+	color:silver;
+	background-color: black;
+}
+h2{
+	font-size:40px;
+	display:flex;
+	justify-content: center;
+	margin-top:120px;
+	color: whitesmoke;
+}
+#white{
+	background-color:grey;
+}
+#black{
+	background-color:grey;
+	margin: 0 30px 0 30px;
+	
+}
+#middle{
+	font-size:30px;
+	display: flex;
+	justify-content: center;
+	color:black;
+}
+	.p2{
+		display:flex;
+		justify-content: center;
+		margin-top:40px;
+		color:black;
+	}
+	h4{
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+		color:black;
+		font-size:30px;
+	}
+	ol{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		list-style-type: upper-roman;
+		color:black;
+		text-align: center;
+	}
+	img{
+		display: flex;
+		align-content: center;
+		margin-top:50px;
+		
+	}
+#projects{
+	color:black;
+}
+#color{
+	color:white;
+}
+.project-img{
+	height:300px;
+	width:200px;
+	image-resolution:300dpi;
+	display:inline-flex;
+	flex-direction: row;
+	margin-right:1600px ;
+	
+	
+}
+#project-text{
+	color:white;
+}
+#contact{
+	color: black;
+	border: silver 5px solid;
+	padding:black 80px;
+	display: flex;
+	justify-content:center;
+	margin-top: 480px;
+	font-size:30px ;	
+}
+#contact:hover{
+	color:white;
+	border:red 5px solid;
+}
+#main-img{
+	display:flex;
+	justify-content: center;
+}
+.sub-img{
+	flex-direction:column;
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: left;
+}
+#end{
+	margin-top:100px;
+	display:flex;
+	justify-content: center;
+	margin-right:100px;
+}
+footer{
+	background-color: silver;
+	padding: 80px;
+	
+}
