@@ -79,14 +79,18 @@ nav a:hover {
     color: red;
 }
 
-
+.sub-header{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
 
 .top-section{
     display: flex;
     font-size: 40px;
     flex-flow: column wrap;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: left;
 }
 
 h2{
@@ -98,15 +102,17 @@ h2{
 
 .container-1{
     display: flex;
-    width: 200px;
+    width: 800px;
     height: 400px;
-    justify-content: flex-start;
+    justify-content: center;
+    align-self: center;
 }
 
 .container-2{
   display: inline-flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
 
 .container-3{
@@ -124,9 +130,8 @@ h2{
 .bottom-section{
   display: flex;
   flex-flow: row wrap;
-  align-content: space-around;
+  align-content: space-between;
   justify-content: space-between;
-  flex-basis: auto;
 
 }
 
