@@ -1,0 +1,76 @@
+
+
+/* main {
+    max-width: 1000px;
+} */
+
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+* {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+a {
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 30px;
+    color: gray;
+    
+}
+
+a:first-of-type {
+    background: black;
+}
+
+
+
+.first-row__flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.main__block-right {
+    /* font-size: 30px; */
+    /* align-items: center;
+    font-size: 30px; */
+}
+
+.second-row__flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.third-row__flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.smaller_imgs {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(219, 219, 219);
+    font-size: 30px;
+    padding: 30px;
+}
