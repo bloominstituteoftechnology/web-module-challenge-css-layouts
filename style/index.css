@@ -1,1 +1,139 @@
-/* Add CSS styling here */
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset */
+    
+    
+    
+    
+    * {
+        background-color: #F7EFE5; 
+        box-sizing: border-box;    
+    }
+
+    button{
+        text-decoration: none;
+        background-color: #F1D7DE;
+        border: none;
+        color: white;
+        padding: 12px 28px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: #F1D7DE;
+        color: white;
+    }
+
+    h1{
+        font-size:2rem;
+        margin-left:2%;
+        margin-bottom: 2%;
+    }
+
+    .topbuttons{
+        margin-bottom: 2%;
+    }
+
+
+    #top-right{
+    display: flex;
+
+    }
+
+    #top{
+        display: flex;
+        width: 100px; 
+        float:left; 
+        height:100px
+        margin:10px
+        background-color: #FEDFC6 
+     }
+
+     #top-img{
+    
+     }
+
+     .proj-row-1{
+        display:flex;
+        justify-content:space-between;
+        margin:1% 0;
+        padding:.5%;
+    }
+    .proj-row-1-text{
+        display:flex;
+        justify-content:space-between;
+        margin:0 4%;
+        font-size:1.2rem;
+    }
+    .proj-row-2{
+        display:flex;
+        justify-content:space-between;
+        margin:1% 0;
+        padding:.5%;
+    }
+    .roj-row-2-text{
+        display:flex;
+        justify-content:space-between;
+        margin:0 4%;
+        margin-bottom:2%;
+        font-size:1.2rem
+    }
+
+    footer{
+        background-color:lightgrey;
+        max-width:100%;
+        height: 25vh;
+        text-align:center;
+        font-size:2.2rem;
+    }
+
