@@ -1,4 +1,6 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,3 +23,121 @@ vertical-align:auto;
 }
 
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid black;
+    font-family: 'RocknRoll One', sans-serif;
+    background-color: lightgray;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bbrfoundation.org%2Fsites%2Fdefault%2Ffiles%2Ffield%2Fimage%2Fcircuitboardbackground-1440_0.jpg&f=1&nofb=1);
+    background-position: left;
+    border: 1px solid black;
+}
+header h1 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+nav a {
+    text-decoration: none;
+    padding: 7px 10px 0px 10px;
+    color: rgb(197, 117, 13);
+    border:1px solid black;
+}
+ nav a:hover {
+    background: darkgray;
+    background-color: orange;
+    color: rgb(30, 81, 190);
+    
+ }
+
+
+ .intro{
+    display: flex;
+    padding: 20px;
+    display:flex;
+    justify-content: center; 
+    border-bottom: 2px solid black;  
+ }
+ .intro div{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:10px;
+
+ }
+ .intro img {
+    height:200px;
+ }
+ 
+
+ .intro h2{
+     font-size: 24px;
+ }
+ .intro div button{
+    width:fit-content;
+ }
+
+
+.projects {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.projects div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: lightslategrey;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-top: 2px solid black;
+}
+footer h3 {
+    font-size: 2em;
+
+}
+footer button {
+    font-size: 2em;
+    border-radius: 20px;
+    color: blue;
+
+}
+footer a {
+    text-decoration:none;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.button {
+    text-decoration:none;
+    font-size: 1.5em;
+    border: solid blue;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 30px;
+
+}
+.button:hover {
+    background-color: rgb(23, 0, 128);
+    color: whitesmoke;
+    border-radius: 15px;
+}
