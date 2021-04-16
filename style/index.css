@@ -3,21 +3,20 @@
     max-width: 100%;
     background-color: slategray;
     text-decoration: none;
-    border: 1px solid red
 }
 body img{
     width: 40%;
     height: 40%;
-    padding: auto;
 }
 h1{
     color: black;
     justify-content: flex-end;
     text-align: left;
 }
-.right-box p{
+.right-box div{
     display: flex;
     justify-content: flex-end;
+    float:right
 }
 .top-buttons{
     flex-direction: row;
