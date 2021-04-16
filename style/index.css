@@ -8,6 +8,11 @@ body img{
     width: 40%;
     height: 40%;
 }
+.Image-Header{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
 h1{
     color: black;
     justify-content: flex-end;
