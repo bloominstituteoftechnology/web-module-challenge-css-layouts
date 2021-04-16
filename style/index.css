@@ -1,1 +1,136 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    
+    background-color: #FFD559;
+}
+
+#title {
+    font-size: 6rem;
+    text-shadow: 1px 1px white;
+}
+
+#navBar {
+    display: flex;
+}
+
+.navBox {
+    text-decoration: none;
+    font-size: 2rem;
+    padding:4px;
+    border: 2px solid black;
+    margin: 2rem 2rem;
+    color:white;
+    background-color: brown;
+}
+
+.navBox:hover {
+    background-color: white;
+    color: black;
+}
+
+#sectionOne {
+    margin: 8rem 2rem;
+    display:flex;
+    justify-content: space-evenly;
+    position:static;
+}
+
+#secOneContent {
+    margin-top: 12rem;
+}
+
+#secOneTitle {
+    font-size: 3rem;
+    margin: 3rem 2rem;
+}
+
+#secOneInfo {
+    font-size: 16px;
+    margin: 3rem 2rem;
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#projects img {
+    margin: 5rem;
+}
+
+.projDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #FFD559;
+    padding: 3rem;
+}
+
+#footerInfo {
+    margin-bottom: 2rem;
+}
