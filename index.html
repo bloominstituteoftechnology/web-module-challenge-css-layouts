@@ -3,9 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title> Jacob Bevans | Blog </title>
 </head>
 <body>
+    <div class="navbar">
+        <div class="containter flex">
+            <h1 class="logo"><a href="home.html" img src="Images/jbev-logo.png" id="logo" alt=""></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="productions.html">Productions</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     
+
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Jacob Bevans</h1>
+                <p>A man on a mission. Background in design, sales and optimism.</p>
+                <a href="about.html" class="btn btn-outline">More about me</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Request a Demo</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="submit" name="Send" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <h2 class="stats-heading text-center my-1">
+                Here, I will be adding everything I complete to my portfolio, all the little things in my life. I hope you enjoy!
+            </h2>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-code fa-3x"></i>
+                        <h3>Web Development:</h3>
+                        <p class="text-secondary">Currently in progress, but am constantly updating my projects tab with all my new work!</p>
+                </div>
+                <div>
+                    <i class="fas fa-eye fa-3x"></i>
+                        <h3>Graphic Design:</h3>
+                        <p class="text-secondary">A huge passion of mine, artworks are displayed in the gallery.</p>
+                </div>
+                <div>
+                    <i class="fas fa-file-alt fa-3x"></i>
+                        <h3>Project Management:</h3>
+                        <p class="text-secondary">I love holding together a team, photos of the projects I have worked on are in my productions tab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cli">
+        <div class="container grid">
+            <img src="Images/moutain-scene.jpeg" alt="">
+            <div class="card">
+                <h3>Hoping for a better future.</h3>
+            </div>
+            <div class="card">
+                <h3>One day at a time.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="connections">Always looking for new connections!</h2>
+                <p class="lead my-1">Please feel free to email me, or request a demo for a personal demo project.</p>
+                <a href="contact.html" class="btn btn-dark">Contact Me!</a>
+            </div>
+            <img src="Images/flower.png" alt="">
+        </div>
+    </section>
+
+    <section class="languages">
+        <h2 class="md text-center my-2">Useful Skills</h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Illustrator</h4>
+                <img src="Images/Illustrator.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Photoshop</h4>
+                <img src="Images/photoshop.png" alt="">
+            </div>
+            <div class="card">
+                <h4>InDesign</h4>
+                <img src="Images/indesign.png" alt="">
+            </div>
+            <div class="card">
+                <h4>HTML</h4>
+                <img src="Images/HTML.png" alt="">
+            </div>
+            <div class="card">
+                <h4>CSS</h4>
+                <img src="Images/CSS.png" alt="">
+            </div>
+            <div class="card">
+                <h4>JavaScript</h4>
+                <img src="Images/JS.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class='footerText'>
+            <h3>
+                Jacob Bevans
+            </h3>
+            <div class="navbar">
+                <div class="containter flex">
+                    <nav>
+                        <ul>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="productions.html">Productions</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
 </body>
 </html>
