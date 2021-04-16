@@ -19,27 +19,164 @@ input,select{vertical-align:middle}
 
 html {
     font-size: 62.5;
+    font-family: JetBrains Mono;
+    width: 100%;
+    background-color: #87CEFA;
+    display: flex;
+    justify-content:center;
+    padding: 2.5rem;
 }
+
 
 h1 {
     font-size: 5rem;
     font-family: DotGothic16;
+    padding: 2.5rem;
+    display:flex;
+    justify-content: center;
+}
+
+h1:hover {
+    text-transform:uppercase;
+    transform: translate3d(20px, 20%, 1rem);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #4682B4;
+    padding: 2rem;
+    font-family: Piazzolla;
+}
+nav a {
+    
+    color:black;
+    background-color: #FFFAFA;
+    padding: 7.5px;
+    border-radius: 50%;
+}
+
+nav a:hover{
+    text-transform: uppercase;
+    background-color: #4682B4    ;
+    color: #E6E6FA
+
+
 
 }
 
-
-nav a {
-    color:red;
-    background-color: black;
+.image-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .image-info-container img {
     width: 30rem;
     border-radius: 25%;
-    display: inline;
+    padding: 2 rem;
+    
 }
 
-.chris-intro {
-    display:flex;
-    flex-direction: column;
+.chris-info {
+    padding: 2rem;
 }
+
+.projects-button {
+    font-size: 1.3rem;
+    padding: .5rem;
+    border: .5rem solid #8FBC8F;
+    color: #2F4F4F;
+}
+
+.projects-button:hover {
+    background-color:#8FBC8F;
+    text-transform:uppercase;
+}
+
+.short-info {
+    padding: 15px 5px 15px 5px;
+    color: #191970;
+    font-weight:bold;
+    background-color: #8FBC8F;
+    font-size: 1.2rem;
+}
+
+.short-info:hover {
+    font-style: oblique;
+}
+
+.main-container {
+display: flex;
+flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: Syne Mono;
+    line-height: 2;
+    background-color: #8FBC8F;
+    padding: 2rem;
+}
+
+.box{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img .middle-images {
+    border-radius: 20%;
+}
+
+span {
+    color: #ec3944;
+}
+
+p a span {
+    text-decoration: none;
+}
+
+span:hover {
+color: white;
+background-color: #ec3944;
+}
+
+h3{
+    font-size: 3rem;
+    color: #DEB887
+
+}
+
+h3:hover {
+    transform: translate3d(20px, 20%, 1rem);
+    text-transform: capitalize;
+}
+
+.contact {
+    font-size: 2rem;
+    color: #B0E0E6;
+    padding: .2rem;
+}
+
+.contact:hover {
+    text-transform: uppercase;
+    color:teal;
+    border: .5rem dotted #66CDAA;
+    padding: .2rem;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
