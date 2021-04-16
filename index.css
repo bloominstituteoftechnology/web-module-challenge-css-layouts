@@ -1,5 +1,5 @@
 body {
-
+background-color: #558ed9;
 
 }
 header{
@@ -12,18 +12,26 @@ header{
     border: 1px solid black;
     background-color: #ED9F50;
     margin:-10px;
-    margin-right:15px
     padding-right: 15px;
     padding-left: 8px;
     
 }
 header nav {
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    text-decoration: none;
-    width: 20px;
+    display: inline-block;
+    margin-right:25px;
+    margin-top:15px;
+
+
   
+}
+.navbar a {
+    display: inline-block;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
 }
 .top-info {
     display: inline-;
@@ -41,12 +49,20 @@ header nav {
     justify-content: space-evenly;
     border: 1px solid black;
     padding-bottom:20px;
+    background-color: ;
 
 }
 .project-container1 a{
     display:flex;
     justify-content: space-evenly;
-    border: 1px solid black
+    border: 1px solid black;
+    background-color: #ED9F50;
+    color: white;
+    text-decoration: none;
+}
+.project-container1 a:hover{
+    background-color: white;
+    color: #ED9F50;
 }
 .project-container2 {
     display: flex;
