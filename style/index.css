@@ -50,14 +50,187 @@ table {
 
 * {
     box-sizing: border-box;
+    
     width: 800px;
+    
     
 }
 html {
     font-size: 62.5%;
     margin: 0 auto;
+   
+    
+   
 }
 body {
     font-size: 6rem;
-    font-family: 'New Tegomin', serif;
+    font-family: 'RocknRoll One', sans-serif;
+    
+    
 }
+h1 {
+    font-family:'New Tegomin', serif; 
+    font-size: 4rem;
+    background-color:#FF6347;
+    padding:15px 0 15px 15px;
+    font-weight: bolder;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFA07A;
+
+}
+nav a {
+    
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    
+
+
+}
+.header-bar {
+    margin: 5px 10px 5px 10px;
+    padding:12px 12px 12px 12px;
+    border-radius: 10px;
+    width: 70px;
+    text-decoration: none;
+    color: white;
+    background-color:#FF7F50;
+    text-align: center;
+    font-size: 1rem;
+
+    
+
+}
+
+.header-bar:hover {
+    background: cornsilk;
+    color:#FF7F50;
+}
+img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 230px;
+   
+    
+}
+h2 {
+    font-family:'New Tegomin', serif; 
+    padding-left: 280px;
+    padding-bottom:10px;
+    font-size: 4rem;
+}
+
+
+p {
+    font-size: 1.5rem;
+    width: 400px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 50%;
+    align-items: center;
+    
+
+}
+.first {
+    width: 100%;
+    height:30%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#FF6347;
+    
+    
+}
+
+.project {
+    width: 100px;
+    height: 120px;
+    
+    
+    background-image: url("https://picsum.photos/200");
+    background-repeat: no-repeat;
+    margin: 5% 5% 10% 5%;
+    
+    text-decoration: underline;
+    }
+    .project:hover {
+        transform: scale(1.5, 1.5);
+    }
+
+
+.project p {
+    text-align: right;
+}
+#projects {
+    border: 10px dotted #FF4500 ;
+    background-color:#FFA07A ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background-color:#FF6347 ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer:hover {
+    background: orangered;
+}
+button {
+margin-top: 20px;
+    width: 80px;
+    border:4px solid #FF4500;
+    padding: 5px;
+}
+button:hover {
+    text-transform: uppercase;
+    width: 110px;
+    background: black;
+    color: #FF4500 ;
+}
+footer p {
+    margin: 10px 0 20px 0;
+    font-size: 1rem;
+    width: 80px;
+    border:4px solid #FF4500;
+    padding: 5px;
+    background: white;
+
+}
+footer p:hover {
+    text-transform: uppercase;
+    width: 100px;
+    background: black;
+    color: #FF4500 ;
+}
+address {
+    font-size: 2rem;
+    background:#FFA07A ;
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: underline;
+    
+}
+
+
+    
