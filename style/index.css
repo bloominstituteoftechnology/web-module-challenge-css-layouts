@@ -45,7 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
 	box-sizing: border-box;
 	max-width: 100%;
@@ -64,7 +63,6 @@ p {
 	margin: 2%;
 
 }
-
 html{
     font-size:62.5%;
 }
@@ -90,16 +88,14 @@ nav a {
 	width: 50%;
     height: 100px;
 }
-.projectImages {
+.imageContainer {
 	display:inline-block;
 	flex-flow: row wrap;
 	height: 40%;
 	width: 20;
     flex-direction: row;
 	justify-content: left;
-    
-
 }
-.projects {
+.project img {
 	align-items: left;
 }
