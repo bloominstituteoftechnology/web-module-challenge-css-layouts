@@ -1,1 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset Above. Thanks Erik! */
 /* Add CSS styling here */
+
+html{
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+body{
+    background-color: #1d1e22;
+    color: #d4d4dc;
+    /* font-family: 'Karantina', cursive; */
+}
+h1{
+    margin-top: 2rem;
+    font-size: 4rem;
+    text-align: center;
+}
+.title{
+    margin-top: 5rem;
+}
+nav{
+    margin-top: 5rem;
+    text-align: center;
+}
+a{
+    padding:.5rem 4rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    background-color: #d4d4dc;
+}
+a:hover{
+   background-color: #feda6a;
+   color: black;
+   transition: all .5s;
+}
+
+header{
+    margin-top: 2rem;
+    text-decoration: center;
+    margin-bottom: 4rem;
+}
+header p{
+    padding: 0 15rem;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.intro{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+main{
+    text-align: center;
+    height: 65rem;
+    background: url(https://source.unsplash.com/vc3iVL_znJ8)
+    no-repeat;
+    background-position: center; 
+    margin-bottom: 5rem; 
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.gallery{
+display: flex;
+justify-content: space-around;
+margin-bottom: 2rem;
+}
+
+.gallery p{
+    padding: 5rem;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.galleryImg{
+    width: 250px;
+   margin: 3rem;
+}
+.galleryImg:hover{
+  opacity: .6;
+  transition: all .5s;
+}
+
+footer{
+    background-color: #393f4d;
+    text-align: center;
+    padding: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
