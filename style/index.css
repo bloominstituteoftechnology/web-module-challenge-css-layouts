@@ -46,6 +46,41 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+html{
+    font-size:62.5%;
+}
 body {
 	background-color: blueviolet;
+	font-size: 1.6rem;
+	font-family: 'Noto Serif', cursive;
+}
+nav {
+    padding:2% 0;
+    display:flex;
+    justify-content:center;
+}
+nav a {
+    display:inline-block;
+    border-radius: 10px;
+    text-align:center;
+    padding: 1% 2%;
+    color: #fff;
+	align-self: center;
+}
+.code {
+	width: 10%;
+    height: 10px;
+}
+.projectImages {
+	display:inline-block;
+    flex-direction: row;
+    align-items: center;
+
+}
+.projects {
+	
 }
