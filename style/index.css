@@ -1,1 +1,56 @@
-/* Add CSS styling here */
+
+
+body {
+    background-color: coral;
+    font-family: 'Antonio', sans-serif;;
+}
+   
+ h1 {
+    font-size: 50px;
+    color: rgb(69, 207, 34);
+    text-align: left;
+    font-family: 'Antonio', sans-serif;;
+ }
+
+
+.box_container {
+    width: 80%;
+    height: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box_container img {
+    width: 150%;
+}
+.project_boxes1 {
+    width: 300px;
+    height: 300px;
+    border: 1px black;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    text-align: center;
+    
+}
+
+
+.project_boxes2 {
+    width: 300px;
+    height: 300px;
+    border: 1px black;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    text-align: center;
+    
+
+}
+
+.footer_buttons{
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+}
