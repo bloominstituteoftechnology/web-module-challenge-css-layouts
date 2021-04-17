@@ -1,1 +1,149 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    background-color: #51d0de;
+}
+#top h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#top {
+    background-color: #6495ED;
+    height: 12rem;
+}
+
+#top nav a {
+    width: 300px;
+    border: 4px solid #51d0de;
+    color: #d9d9d9;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+
+#top nav {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center; 
+}
+
+#firstImage {
+    margin: 5rem;
+    height: 400px;
+    width: 400px;
+}
+
+#firstSection {
+    display: flex;
+}
+
+#firstSection div h2 {
+    font-size: 3rem;
+    margin: 2rem;
+    color: #191970;
+}
+
+#firstSection div a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #191970;
+    border: 4px solid #d9d9d9;
+    padding: 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#firstSection div p {
+    font-size: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #191970;
+}
+
+#secondSection .projects {
+    width: 400px
+    
+}
+
+#secondSection .projects p {
+    text-align: center;
+    font-size: 2rem;
+    color: #191970;
+}
+
+#secondSection .projects img {
+    width: 400px;
+    height: 400px;
+}
+
+
+#secondSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+footer h2 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #6495ED;
+    height: 15rem;
+}
+
+footer a {
+    border: 4px solid #51d0de;
+    color: #d9d9d9;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
