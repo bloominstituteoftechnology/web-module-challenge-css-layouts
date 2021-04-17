@@ -49,6 +49,12 @@ table {
 	box-sizing: border-box;
 	max-width: 100%;
 }
+title {
+	font-size: 10px;
+	text-align: center;
+	text-justify: center;
+	border: 100px;
+}
 h1, h2 {
 	font-size: 36px;
 	text-align: center;
@@ -71,10 +77,17 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Noto Serif', cursive;
 }
+
+/* How do I make the nav into a group of centered boxes?*/
+
 nav {
     padding:2% 0;
     display:flex;
     justify-content:center;
+}
+
+a {
+	text-decoration: none;
 }
 nav a {
     display:inline-block;
@@ -84,18 +97,19 @@ nav a {
     color: #fff;
 	align-self: center;
 }
-.code {
-	width: 50%;
-    height: 100px;
+.body img {
+	border-radius: 1px;
+	width: 100%;
+    height: 600px;
 }
 .imageContainer {
-	display:inline-block;
-	flex-flow: row wrap;
-	height: 40%;
-	width: 20;
+	display:flex;
+	border-radius: 30px;
     flex-direction: row;
-	justify-content: left;
+	flex-flow: row;
+	justify-content: flex-start;
 }
 .project img {
-	align-items: left;
+	align-self: flex-start
+	
 }
