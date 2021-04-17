@@ -27,6 +27,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+* {
+	box-sizing: border-box;
+}
 body {
 	line-height: 1;
 }
@@ -45,29 +49,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-* {
-	box-sizing: border-box;
-	max-width: 100%;
-}
-title {
-	font-size: 10px;
+h3 {
+	background-color: grey;
 	text-align: center;
-	text-justify: center;
-	border: 100px;
+	font-size: 10px;
+	height: 16px;
+	margin-left: auto;
+    margin-right: auto;
 }
 h1, h2 {
 	font-size: 36px;
 	text-align: center;
 	text-justify: center;
-	border: 100px;
-
+	border: 90px;
 }
 p {
 	font-size: 16px;
 	text-align: left;
 	border: 100px;
 	margin: 2%;
-
 }
 html{
     font-size:62.5%;
@@ -81,35 +81,46 @@ body {
 /* How do I make the nav into a group of centered boxes?*/
 
 nav {
-    padding:2% 0;
+    padding:2%;
     display:flex;
     justify-content:center;
+	
 }
-
 a {
 	text-decoration: none;
 }
 nav a {
     display:inline-block;
-    border-radius: 30px;
     text-align:center;
     padding: 1% 2%;
     color: #fff;
+	border-radius: 30px;
 	align-self: center;
 }
 .body img {
-	border-radius: 1px;
+	border-radius: 10px;
 	width: 100%;
     height: 600px;
 }
+/* How do I get text beside image in the middle?*/
 .imageContainer {
-	display:flex;
-	border-radius: 30px;
-    flex-direction: row;
-	flex-flow: row;
-	justify-content: flex-start;
+	display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+span {
+	vertical-align: middle;
 }
 .project img {
-	align-self: flex-start
-	
+	width: 15%;
+	height: 40%;  
 }
+footer {
+	background-color: grey;
+	text-align: center;
+	font-size: 20px;
+	height: 80px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
