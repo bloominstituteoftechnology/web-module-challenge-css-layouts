@@ -81,21 +81,23 @@ body {
 /* How do I make the nav into a group of centered boxes?*/
 
 nav {
-    padding:2%;
-    display:flex;
-    justify-content:center;
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	padding: 2px;
+	margin: 2%;
 }
 a {
 	text-decoration: none;
 }
 nav a {
-    display:inline-block;
-    text-align:center;
-    padding: 1% 2%;
-    color: #fff;
-	border-radius: 30px;
-	align-self: center;
+	text-align: center;
+	text-justify: center;
+	border: 2px solid black;
+	height: 25px;
+	width: 100px;
 }
 .body img {
 	border-radius: 10px;
