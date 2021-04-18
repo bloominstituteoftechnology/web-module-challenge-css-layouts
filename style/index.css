@@ -46,16 +46,14 @@ table {
 	border-spacing: 0;
 }
 
-* {
-	box-sizing: border-box;
-}
+
 h3 {
 	background-color: grey;
 	text-align: center;
 	font-size: 10px;
 	height: 16px;
-	margin-left: auto;
-    margin-right: auto;
+	width: 100%;
+	
 }
 h1, h2 {
 	font-size: 36px;
@@ -76,6 +74,21 @@ body {
 	background-color: blueviolet;
 	font-size: 1.6rem;
 	font-family: 'Noto Serif', cursive;
+}
+.dot {
+    text-align: center;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+Nav span {
+	border: 1px solid black;
+	text-align: center;
+	text-justify: center;
+	height: 25px;
+	width: 100px;
 }
 
 /* How do I make the nav into a group of centered boxes?*/
