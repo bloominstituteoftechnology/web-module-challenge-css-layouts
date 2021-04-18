@@ -1,1 +1,145 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body{
+    background:#1b252b;
+}
+
+h1{
+    color:White;
+    Margin:30px;
+    text-align:center;
+    font-size:70px;
+    font-family: 'Amatic SC';
+}
+
+.h2{
+    color:White;
+    font-size:40px;
+    margin-top:4rem;
+    margin-left:14rem;
+    font-family: 'Amatic SC';
+    text-decoration: underline overline;
+    /*border:solid;
+    border-radius:10px;*/
+    
+}
+.flexcontainer{
+     height: 50px;
+     /*border: 1px solid black;*/
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+
+}
+
+.nav{
+    color:white;
+   background-color: #eb7438;
+    padding:0.5rem;
+    border: solid black 1px;
+    text-decoration:none;
+    font-family: 'Amatic SC';
+    font-size:25px;
+    border-radius:8%;
+}
+
+.container{
+    margin-top:16rem;
+    height: 22rem;
+    width:40rem;
+    /*border: solid black 1px;*/
+    display:flex;
+    
+}
+
+.titles{
+    font-family: 'Amatic SC';
+    color:White;
+    display:flex;
+    margin-top:2rem;
+    margin-bottom:-15rem;
+    font-size:30px;
+   
+}
+
+.title1{
+    margin:10px;
+    padding-left:1.9rem;
+    
+}
+
+.title2{
+    margin:10px;
+    padding-left:4.3rem;
+}
+.title3{
+    margin:10px;
+    padding-left:3.8rem;
+}
+.title4{
+    margin:10px;
+    padding-left:3.6rem;
+}
+
+
+.Project1{
+    width:9rem;
+    height:20rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:400px;
+    padding:5px;
+    margin:10px;
+    border:solid white 6px;
+    border-radius:15px 50px  15px;
+}
+
+.Project2{
+    width:9rem;
+    height:20rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:400px;
+    padding:5px;
+    margin:10px;
+    border:solid white 6px;
+    border-radius:15px 50px  15px;
+}
+.Project3{
+    width:9rem;
+    height:20rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:400px;
+    padding:5px;
+    margin:10px;
+    border:solid white 6px;
+    border-radius:15px 50px 15px;
+}
+.Project4{
+    width:9rem;
+    height:20rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:400px;
+    padding:5px;
+    margin:10px;
+    border:solid white 6px;
+    border-radius:15px 50px 15px;
+}
