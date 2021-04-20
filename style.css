@@ -55,6 +55,17 @@ header {
     margin: 1rem;
 }
 
+.about-me button {
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #FA4616;
+    color: #0C2340;
+    position: relative;
+    top: 10rem;
+}
+
 .about-me h2 {
     height: max-content;
     width: 22rem;
@@ -67,7 +78,7 @@ header {
 .about-me p {
     position: relative;
     top: 13rem;
-    right: 14.7rem;
+    right: 21rem;
 }
 
 img {
