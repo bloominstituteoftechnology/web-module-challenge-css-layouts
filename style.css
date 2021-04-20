@@ -98,3 +98,56 @@ img {
     left: 11.4rem;
     bottom: 2.6rem;
 }
+
+.images2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.images2 img {
+    width: 15rem;
+    height: 15rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5rem;
+}
+
+.images2 .box  p {
+    display: flex;
+    position: relative;
+    left: 11.4rem;
+    bottom: 2.6rem;
+}
+
+footer {
+    position: relative;
+    left: 5rem;
+    bottom: 1.3rem;
+    height: 7rem;
+}
+
+.footer-nav  {
+    margin: 1rem;
+    position: relative;
+    background-color: #FA4616;
+    border-radius: 2rem;
+    width:  90%;
+}
+
+.footer-nav nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.4rem;
+}
+
+.footer-nav nav button {
+    border-radius: 2rem;
+    border: none;
+    background: #0C2340;
+    color: #FA4616;
+    width: 8rem;
+    height: 3rem;
+    position: relative;
+    top: 0.6rem;
+}
