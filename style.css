@@ -1,5 +1,6 @@
 body {
     background-color: #0C2340;
+    overflow-x: hidden;
 }
 
 html {
@@ -8,6 +9,7 @@ html {
 
 p {
     font-weight: 400;
+    color:  #FA4616;
 }
 
 header {
@@ -59,6 +61,7 @@ header {
     position: relative;
     top: 8rem;
     left: 8rem;
+    color:  #FA4616;
 }
 
 .about-me p {
@@ -73,4 +76,25 @@ img {
     border-radius: 2rem;
     position: relative;
     left: 4rem;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.images img {
+    width: 15rem;
+    height: 15rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5rem;
+}
+
+.images .box  p {
+    display: flex;
+    position: relative;
+    left: 11.4rem;
+    bottom: 2.6rem;
 }
