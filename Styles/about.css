@@ -1,0 +1,97 @@
+body {
+    background-color: #0C2340;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Roboto Mono', 'sans-serif';
+}
+
+p {
+    font-weight: 400;
+    color:  #FA4616;
+}
+
+header {
+    position: relative;
+    left: 5rem;
+    bottom: 1.3rem;
+    height: 7rem;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+.intro-header  {
+    background-color: #FA4616;
+    border-radius: 2rem;
+    width:  90%;
+}
+
+.intro-header nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.4rem;
+}
+
+.intro-header h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.intro-header nav button {
+    border-radius: 2rem;
+    border: none;
+    background: #0C2340;
+    color: #FA4616;
+    width: 8rem;
+    height: 3rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.about-me button {
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #FA4616;
+    color: #0C2340;
+    position: relative;
+    top: 10rem;
+    left: 15rem;
+}
+
+.about-me h2 {
+    height: max-content;
+    width: 22rem;
+    position: relative;
+    top: 8rem;
+    left: 15rem;
+    color:  #FA4616;
+    font-size: xx-large;
+}
+
+.about-me p {
+    position: relative;
+    top: 13rem;
+    right: 8rem;
+    font-size: xx-large;
+}
+
+img {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 4rem;
+}
