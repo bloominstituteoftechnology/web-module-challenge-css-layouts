@@ -47,6 +47,14 @@ header {
     height: 3rem;
     position: relative;
     bottom: 2rem;
+    transition: 2s;
+}
+
+.intro-header nav button:hover {
+    background-image: url(https://lh3.googleusercontent.com/68_r8UB8jRPBr2Kfq640ZEG8q7LkZ9u2370p6jMFL_bhajUpzg5e7qOAExdozl2IvIBQTmr_7ec=w1440-ns-nd-rj);
+    background-position: center;
+    background-size: contain;
+    color: #FA4616;
 }
 
 .about-me {
@@ -64,7 +72,16 @@ header {
     color: #0C2340;
     position: relative;
     top: 10rem;
+    transition: 1s;
 }
+
+.about-me button:hover {
+    background-image: url(https://lh3.googleusercontent.com/68_r8UB8jRPBr2Kfq640ZEG8q7LkZ9u2370p6jMFL_bhajUpzg5e7qOAExdozl2IvIBQTmr_7ec=w1440-ns-nd-rj);
+    background-position: center;
+    background-size: contain;
+    color: #FA4616;
+}
+
 
 .about-me h2 {
     height: max-content;
@@ -80,6 +97,11 @@ header {
     top: 13rem;
     right: 21rem;
 }
+
+.about-me img:hover {
+    border: 6px dotted #FA4616;
+}
+
 
 img {
     width: 35rem;
@@ -103,11 +125,15 @@ img {
     border-radius: 5rem;
 }
 
+.images img:hover {
+    border: 6px dotted #FA4616;
+}
+
 .images .box  p {
     display: flex;
     position: relative;
     left: 11.4rem;
-    bottom: 2.6rem;
+    bottom: 3.4rem;
 }
 
 .images2 {
@@ -124,11 +150,16 @@ img {
     border-radius: 5rem;
 }
 
+.images2 img:hover {
+    border: 6px dotted #FA4616;
+}
+
+
 .images2 .box  p {
     display: flex;
     position: relative;
     left: 11.4rem;
-    bottom: 2.6rem;
+    bottom: 3.4rem;
 }
 
 footer {
@@ -175,4 +206,13 @@ footer {
     border-radius: 2rem;
     width: 7rem;
     height: 2rem;
+    transition: 2s;
 }
+
+.footer-nav button:hover {
+    background-image: url(https://lh3.googleusercontent.com/68_r8UB8jRPBr2Kfq640ZEG8q7LkZ9u2370p6jMFL_bhajUpzg5e7qOAExdozl2IvIBQTmr_7ec=w1440-ns-nd-rj);
+    background-position: center;
+    background-size: contain;
+    color: #FA4616;
+}
+
