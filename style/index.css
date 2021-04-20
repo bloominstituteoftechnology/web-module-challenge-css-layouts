@@ -46,134 +46,131 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Reset Above. Thanks Erik! */
-/* Add CSS styling here */
 
-html{
-    box-sizing: border-box;
-    font-size:62.5%;
-}
+/* Styles Above */
+
 body{
-    background-color: #1d1e22;
-    color: #d4d4dc;
-    /* font-family: 'Karantina', cursive; */
+    font-size: 10px;
+    box-sizing: border-box;
 }
+
 h1{
-    margin-top: 2rem;
-    font-size: 4rem;
-    text-align: center;
+    font-size: 3.5rem;
+    padding: 1.5rem;
 }
-.title{
-    margin-top: 5rem;
+.top{
+    background-color: grey;
+    padding-bottom: .1rem;
 }
 nav{
-    margin-top: 5rem;
-    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
-a{
-    padding:.5rem 4rem;
-    font-size: 2rem;
-    border: 1px solid black;
-    color: black;
+nav a{
     text-decoration: none;
-    background-color: #d4d4dc;
+    margin: auto 0;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    background-color: white;
 }
-a:hover{
-   background-color: #feda6a;
-   color: black;
-   transition: all .5s;
+nav a:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
 }
-
 header{
-    margin-top: 2rem;
-    text-decoration: center;
-    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
 }
-header p{
-    padding: 0 15rem;
-}
-h2{
-    font-size: 2.5rem;
-    text-align: center;
+.box{
+    border: 1px solid black;
+    width: 94rem;
+    height: 30rem;
+    margin: 1rem 2rem 2rem 5.5rem;
 }
 .intro{
-    margin-top: 2rem;
-    margin-left: 5rem;
-    margin-left: 5rem;
-    font-size: 2rem;
+    margin: 0 10rem ;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.intro h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.intro a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    background-color: white;
+}
+.intro a:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+.intro p{
+  font-size: 1rem;
+}
+.gallery1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    line-height: 4rem;
+    font-size: 1.5rem;  
+    margin-bottom: 2rem;
 }
-main{
+.gallery2{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    height: 65rem;
-    background: url(https://source.unsplash.com/vc3iVL_znJ8)
-    no-repeat;
-    background-position: center; 
-    margin-bottom: 5rem; 
-    margin-left: 10rem;
-    margin-right: 10rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
-.gallery{
-display: flex;
-justify-content: space-around;
-margin-bottom: 2rem;
+.image{
+    margin:0 auto;
 }
-
-.gallery p{
-    padding: 5rem;
-    font-size: 2rem;
-    line-height: 4rem;
+.image:hover{
+    opacity: .5;
+    transition: all .3s;
 }
-
-.galleryImg{
-    width: 250px;
-   margin: 3rem;
-}
-.galleryImg:hover{
-  opacity: .6;
-  transition: all .5s;
-}
-
 footer{
-    background-color: #393f4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    background-color: grey;
+    height:10rem;
     text-align: center;
-    padding: 4rem;
+    font-size: 1.5rem;
+}
+footer h2{
+    margin-bottom: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 4rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    background-color: white;
+}
+footer a:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
