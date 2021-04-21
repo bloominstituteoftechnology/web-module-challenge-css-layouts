@@ -250,3 +250,19 @@ footer div a{
     background-color: white;
 
 }
+
+/* Media Query Styles */
+
+@media(max-width: 800px){
+
+    .container {
+        background-color: pink;
+    }
+}
+
+@media(max-width: 500px){
+    .container {
+        background-color: yellow;
+    }
+    
+}
