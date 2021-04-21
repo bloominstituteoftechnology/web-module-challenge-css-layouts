@@ -86,6 +86,8 @@ html {
 }
 body {
   font-family: "Quicksand", sans-serif;
+  background-color:
+
 }
 
 
@@ -198,6 +200,19 @@ footer a:hover{
     background-color: #2d4262;
 }
 
+@media(max-width:1366px){
+  nav a{
+    font-size: 30px;
+    width: 15%;
+  }
+
+  footer a {
+    font-size: 30px;
+    width: 15%;
+   }
+  
+}
+
 @media(max-width:800px){
   h1 {
     font-size: 50px;
@@ -291,4 +306,38 @@ footer a {
  }
 }
 
+@media(max-width:360px){
+  nav a{
+    font-size: 15px;
+    width: 20%;
+  }
+  h2{
+    font-size:20px;
+  }
+  p{  
+   font-size: 6px;
+  }
+  .dog-pic{
+    height: 150px;
+}
+.pictures img {
+  width: 60%;
+  
+}
+.pictures{
+  flex-wrap:wrap;
+  justify-content:center;
+}
+ .photoandtext p{
+  font-size:6px;
+  width:50%;
+ }
+
+
+footer a {
+  font-size: 10px;
+  width: 20%;
+ }
+
+}
 
