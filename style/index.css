@@ -142,3 +142,43 @@ html {
 #footerInfo {
     margin-bottom: 2rem;
 }
+
+@media (max-width:800px) {
+    #title {
+        text-align: center;
+    }
+    
+    #navBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sectionOne {
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    #secOneContent {
+        margin-top: 6rem;
+    }
+
+    .projDiv {
+        max-width: 50%;
+        max-height: auto;
+    }
+
+    #footer {
+        padding-top:5rem;
+    }
+}
+
+@media (max-width:500px) {
+    .imgs {
+        max-width: 20rem;
+        max-height: auto;
+    }
+
+    .projDiv p{
+        margin-left: 4rem;
+    }
+}
