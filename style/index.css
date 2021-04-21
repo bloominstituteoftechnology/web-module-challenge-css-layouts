@@ -351,7 +351,7 @@
   }
 
   html {
-    text-size: 62.5%;
+    font-size: 62.5%;
   }
 
  
@@ -362,8 +362,10 @@
   nav .container a{  
     font-family:sans-serif;
     color:white;
-    font-size:25px;
-    border: 5px solid black;
+    font-size:10px;
+    border: 1rem solid black;
+    margin: 1rem;
+    padding: 1rem;
     transition:.9s;
     background-color: purple;
     display: flex;
@@ -372,13 +374,13 @@
   }
   nav a:hover{
     color:#eb3a45;
-    background:white;
+    background: #3F7FBF;
   }
 
   header {
     font-size: 4rem;
     margin-left: 6%;
-    color: palevioletred
+    color: #3F7FBF
   }
 
   
@@ -388,7 +390,7 @@
     display: flex;
     justify-content: flex-end;
    align-self: space-between;
-    width: 100%;
+    width: 80%;
    text-align: center;
     } 
   
@@ -396,27 +398,31 @@
  header, .container a{ 
   margin-top: 5%;
   margin-left: 10%;
+  margin-right: 20%;
   display: flex;
-  justify-content: center;
-  /* align-self: space-between; */
-  width: 100%;
- text-align: center;
+  justify-content: flex-start;
+  align-self: space-between;
+  width: 90%;
+ /* text-align: center; */
  flex-shrink: 3;
- align-self: center
+ flex-basis: 20%;
   }
 }
 @media (max-width:800px) {
   header {
-    color:rgb(42, 190, 190);
+    color:#85BFF9;
+    font-size: 4rem;
+    display: flex;
+    align-items: stretch;
   }
 }
 
 @media (max-width:500px) {
   header {
-    font-size: 3rem;
+    font-size: 4rem;
     color:darkslategrey;
     display: flex;
-    justify-ccontent: center;
+    justify-content: space-around;
   }
 }
 @media (max-width: 500px) {
