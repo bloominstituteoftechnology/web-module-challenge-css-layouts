@@ -21,7 +21,14 @@ header nav a {
 
 }
 
+@media (max-width: 500px) {
+    header nav a {
+        display: flex;
+        margin: 20px;
+    }
+}
 
+  
 .Sec-one {
     display: flex;
     flex-wrap: nowrap;
@@ -35,6 +42,14 @@ header nav a {
 .img-content {
     width: 40%;
 
+}
+
+@media (max-width: 500px) {
+    .img-content img {
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
 }
 
 .img-content img {
@@ -103,7 +118,11 @@ h2{
     font-size: 20px;
    
 }
-
+@media (max-width: 800px) {
+    .proj-cont div p {
+        color: #6365e6;
+    }
+}
 
 .proj-cont div img {
     width: 350px;
@@ -115,6 +134,12 @@ footer {
     height: 100px;
     background-color: rgb(236, 160, 73);
     
+}
+
+@media (max-width: 800px) {
+    footer {
+        background-color: #e6aa85;
+    }
 }
 
 footer nav  {
