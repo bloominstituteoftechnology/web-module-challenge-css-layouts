@@ -47,11 +47,13 @@ table {
 	border-spacing: 0;
 }
 
-/* Styles Above */
+/* Reset Above */
 
 body{
-    font-size: 10px;
+    font-size: 62.5%;
     box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1{
@@ -63,6 +65,7 @@ h1{
     padding-bottom: .1rem;
 }
 nav{
+    width: 100%;
     font-size: 1.5rem;
     display: flex;
     margin-left: 2rem;
@@ -88,13 +91,13 @@ header{
 }
 .box{
     border: 1px solid black;
-    width: 94rem;
+    width: 50%;
     height: 30rem;
-    margin: 1rem 2rem 2rem 5.5rem;
+    margin: 1rem 2rem 2rem 4rem;
 }
 .intro{
-    margin: 0 10rem ;
-    width: 70%;
+    margin: 0 4% ;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +123,7 @@ header{
     transition: all .5s;
 }
 .intro p{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .gallery1{
     margin-top: 1rem;
@@ -138,7 +141,8 @@ header{
     margin-bottom: 2rem;
 }
 .image{
-    margin:0 auto;
+    width: 25%;
+    margin:0 5%;
 }
 .image:hover{
     opacity: .5;
@@ -174,3 +178,95 @@ footer a:hover{
     color: white;
     transition: all .5s;
 }
+/* Tablet */
+@media (max-width:800px) {
+   
+    h1{
+       margin-left: 3.5rem;
+    }
+    .top{
+        text-align: center;
+        background-color: white;
+        padding-bottom: .1rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        width: 25%;
+        margin: auto;
+    }
+    header{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+    width: 70%;
+    height: 20rem;
+    }
+    .intro{
+        text-align: center;
+        margin: 0 4% ;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .gallery2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .gallery2 .hidden{
+        display: none;
+    }
+    .intro h2{
+    font-size: 2.5rem;
+    margin-top: 1%;
+}
+    
+}
+/* Mobile */
+/* @media (max-width:500px) {
+    .top{
+        text-align: center;
+        background-color: white;
+        padding-bottom: .1rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        margin: 0 auto;
+    }
+    header{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+    width: 20rem;
+    height: 15rem;
+
+    }
+    .gallery1{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .gallery2{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .intro{
+        
+    }
+} */
