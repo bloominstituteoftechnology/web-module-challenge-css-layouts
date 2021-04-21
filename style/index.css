@@ -17,16 +17,20 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+
+
 html {
     font-size: 62.5;
     font-family: JetBrains Mono;
-    width: 100%;
+    box-sizing:border-box;
+    max-width: 100%;
     background-color: #87CEFA;
     display: flex;
     justify-content:center;
     padding: 2.5rem;
 }
 
+/* Main header/nav container with Title */
 
 h1 {
     font-size: 5rem;
@@ -53,7 +57,7 @@ nav a {
     
     color:black;
     background-color: #FFFAFA;
-    padding: 7.5px;
+    padding: .75rem;
     border-radius: 50%;
 }
 
@@ -61,10 +65,9 @@ nav a:hover{
     text-transform: uppercase;
     background-color: #4682B4    ;
     color: #E6E6FA
-
-
-
 }
+
+/* End of main header/nav container with Title */
 
 .image-info-container {
     display: flex;
@@ -111,8 +114,8 @@ nav a:hover{
 }
 
 .main-container {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -142,8 +145,8 @@ p a span {
 }
 
 span:hover {
-color: white;
-background-color: #ec3944;
+    color: white;
+    background-color: #ec3944;
 }
 
 h3{
