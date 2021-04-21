@@ -36,6 +36,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    justify-content: center;
     height: 100px;
     margin: 0 auto;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bbrfoundation.org%2Fsites%2Fdefault%2Ffiles%2Ffield%2Fimage%2Fcircuitboardbackground-1440_0.jpg&f=1&nofb=1);
@@ -48,7 +49,7 @@ header h1 {
 }
 nav a {
     text-decoration: none;
-    padding: 7px 10px 0px 10px;
+    padding: 3px 10px 3px 10px;
     color: rgb(197, 117, 13);
     border:1px solid black;
 }
@@ -63,7 +64,6 @@ nav a {
  .intro{
     display: flex;
     padding: 20px;
-    display:flex;
     justify-content: center; 
     border-bottom: 2px solid black;  
  }
@@ -140,4 +140,31 @@ footer a {
     background-color: rgb(23, 0, 128);
     color: whitesmoke;
     border-radius: 15px;
+}
+@media(max-width: 800px) {
+    .container {
+       background-color: whitesmoke;
+        
+    }
+}
+
+@media(max-width: 500px) { 
+    .container {
+        background-color: rgb(171, 253, 249); 
+    }
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    .intro {
+        flex-direction: column;    
+        align-items: center;
+    }
+    .intro div{
+        align-items:center;
+    }
+    .projects{
+        justify-content: center;
+    }
+    
 }
