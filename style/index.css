@@ -1,5 +1,8 @@
-
-/*html, body, div, span, applet, object, iframe,
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -11,10 +14,17 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video */
-
-
-*,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
 *:before,
 *:after {
     box-sizing: inherit;
@@ -29,16 +39,24 @@ html {
     margin-left: 2;
     margin-right: 2;
     max-width: 1500ee;
+
+@media(max-width: 800px) {
+   #about div { width: 40%; }
+         .shopText div {width: 70%;}
+}
     
-@media(max: width 800px;)
+    /*phone*/
+@media(max-width: 500px) {
+      nav {
+          flex-direction: column;
+          align-items: center;
+      }
     
 }
 body {
-
-    position: relative;
-    margin: 0;
-    padding-bottom: 1;
-    min-height: 100%;
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .main-container {
@@ -52,12 +70,12 @@ a {
     background-color: transparent;
     background: none;
     text-decoration: none;
-    border: 2px solid #c26254;
-    border-radius: 5px;
+    border: .25rem solid #c26254;
+    border-radius: 2rem;
     color: #c26254;
     text-align: center;
     transition: all .3s ease-in-out;
-    padding: 10px;
+    padding: 1rem;
 }
 
 a:hover {
@@ -78,17 +96,17 @@ header > div {
 
 h1 {
     font-family: 'Crimson Text', serif;
-    font-size: 6em;
-    margin: 1em;
+    font-size: 6rem;
+    margin: 1rem;
     color: #c26254;
-    text-shadow: 2px 2px #eddfd4;
+    text-shadow: .25rem .5rem #eddfd4;
 }
 
 h2 {
     font-family: 'Crimson Text', serif;
     color: black;
-    text-shadow: 2px 2px #c26254;
-    font-size: 4em;
+    text-shadow: .25rem .25rem #c26254;
+    font-size: 4rem;
 }
 
 span {
@@ -127,7 +145,7 @@ img {
     display: inline;
     width: 100%;
     font-size: 1.5rem;
-    padding: 4rem;
+    padding: 3rem;
     color: #123e42;
 }
 
@@ -149,7 +167,7 @@ img {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-size: 2.3em;
+    font-size: 2.3rem;
     font-family: monaco;
    
 }
