@@ -74,7 +74,7 @@ nav a{
 	color:black;
 	border:3px solid black;
 	background-color:silver;
-	padding:5px;
+	padding:2px;
 	margin-left: 400px;
 	
 }
@@ -171,6 +171,7 @@ h2{
 	display: inline-flex;
 	flex-flow: column wrap;
 	justify-content: left;
+	margin-left:29em;
 }
 #end{
 	margin-top:100px;
@@ -183,3 +184,33 @@ footer{
 	padding: 80px;
 	
 }
+@media(max-width:800px){
+	nav a{
+		display: flex;
+		justify-content: center;
+		margin-right:23em;}
+	p{
+		display: flex;
+		justify-content: center;
+		margin-right:12em;
+	}
+	.sub-img{
+		margin-left:15em;
+		margin-top:5em;
+	}
+	}
+	@media(max-width:500px){
+		nav a{
+			display: flex;
+			justify-content: center;
+			margin-right:23em;}
+		p{
+			display: flex;
+			justify-content: center;
+			margin-right:12em;
+		}
+		.sub-img{
+			margin-left:15em;
+			margin-top:5em;
+		}
+		}
