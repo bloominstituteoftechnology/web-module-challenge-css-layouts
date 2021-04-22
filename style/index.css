@@ -87,6 +87,7 @@ section {
 /* Element Styles */
 h1{
     font-size: 10rem;
+    color:rgb(33, 32, 32);
 }
 h1:hover {
     color: white;
@@ -95,16 +96,17 @@ h2 {
     font-size: 5rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
 /* Header Styles */
 
 nav {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
    
 }
 
@@ -182,14 +184,15 @@ a:hover{
     
 }
 .gallery div{
-    background-color: rgb(213, 180, 245);
+    /* background-color: rgb(213, 180, 245); */
     width: 30%;
-    height: 500px;
+    height: 400px;
     /* height: 40vh; */
     /* Be careful of vh & vw (view height/view width) */
     margin: 1% 0;
     display: flex;
     align-items: flex-end;
+    border: 1px solid #afafaf;
     
 }
 
@@ -205,17 +208,21 @@ div h3:hover{
 
 .project-1 {
     background-image:url(/assets/sweet-eats.png);
-    border: 1px solid #cac6c6;
+    background-size: 150%;
+    background-repeat: no-repeat;
 }
 .project-2 {
     background-image:url(/assets/learn-to-code.png);
-    border: 1px solid #cac6c6;
+    background-size: 150%;
+    background-repeat: no-repeat;
 
 }
 .project-3{
     background-image:url(/assets/yosemite-park.png);
     background-size: cover;
-    border: 1px solid #cac6c6;
+    background-size: 150%;
+    background-repeat: no-repeat;
+
 }
 /* Footer Styles */
 
@@ -256,13 +263,175 @@ footer div a{
 @media(max-width: 800px){
 
     .container {
-        background-color: pink;
+        /* background-color: pink; */
+        width: 95%;
+        margin: 0 auto;
+    }
+    header {
+        /* margin: 0 auto; */
+        display: flex;
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .logo{
+       margin-top: 10px;
+       width: 80%;
+       justify-content: center;
+        /* display: flex; */
+    }
+    .links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .links a{
+        width: 30%;
+        justify-content: center;
+    }
+    a { 
+        padding: 15px 0;
+    }
+    .splash-box {
+        width: 90%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        
+      
+    }
+    .splash-box a {
+        font-size: 1.75rem;
+        padding: 10px;
+        margin: 0 auto;
+       
+    }
+    h1{
+        font-size: 5rem;
+        margin: 0 auto;
+        /* color: rgb(33, 32, 32); */
+        color: rgb(60, 60, 60);
+        text-shadow: 2px 2px #e6e3e3;
+    }
+    h2 {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .gallery div{
+        width: 45%;
+        height: 225px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        background-color: white;
+        border: 1px solid rgb(169, 169, 169);
+    }
+    .project-1 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+       
+    }
+    .project-2 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    .project-3{
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 
+
+
+
+
+
 @media(max-width: 500px){
     .container {
-        background-color: yellow;
+        /* background-color: yellow; */
+        width: 95%;
+        margin: 0 auto;
+        
     }
-    
+
+    header {
+        /* margin: 0 auto; */
+        display: flex;
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .logo{
+       margin-top: 10px;
+       width: 80%;
+       justify-content: center;
+        /* display: flex; */
+    }
+    .links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .links a{
+        width: 40%;
+        justify-content: center;
+    }
+    a { 
+        padding: 15px 0;
+    }
+
+    .splash-box {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .splash-box a {
+        font-size: 1.75rem;
+        padding: 10px;
+        margin: 0 auto;
+       
+        /* align-items: center; */
+    }
+    h1{
+        font-size: 5rem;
+        margin: 0 auto;
+        color: rgb(33, 32, 32);
+    }
+    h2 {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .gallery div{
+        width: 45%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    div.contact-me{
+        width: 35%;
+        height: 75px;
+        align-items: center;
+    }
+      
 }
