@@ -24,6 +24,7 @@ html {
     font-family: JetBrains Mono;
     box-sizing:border-box;
     max-width: 100%;
+    height: 90vh;
     background-color: #87CEFA;
     display: flex;
     justify-content:center;
@@ -35,7 +36,7 @@ html {
 h1 {
     font-size: 5rem;
     font-family: DotGothic16;
-    padding: 2.5rem;
+    padding: 1rem;
     display:flex;
     justify-content: center;
 }
@@ -89,14 +90,15 @@ nav a:hover{
     padding: 2rem;
 }
 
-.projects-button {
+button {
     font-size: 1.3rem;
     padding: .5rem;
     border: .5rem solid #8FBC8F;
     color: #2F4F4F;
+    text-decoration: none;
 }
 
-.projects-button:hover {
+button:hover {
     background-color:#8FBC8F;
     text-transform:uppercase;
 }
@@ -129,11 +131,35 @@ footer {
     padding: 2rem;
 }
 
-.box{
+.image-info-container {
+    margin: 2rem;
+}
+
+.box-top-images{
    
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box-middle-images{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box-bottom-images{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
 }
 
 span {
@@ -160,6 +186,9 @@ h3:hover {
     text-transform: capitalize;
 }
 
+
+/* Contacts page begin */
+
 .contact {
     font-size: 2rem;
     color: #B0E0E6;
@@ -179,3 +208,55 @@ h3:hover {
     justify-content: center;
 }
 
+
+/* Adding in Media queries below */
+
+@media (max-width:800px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav a {
+        margin-bottom: 1rem;
+    }
+
+    h1 {font-size: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main-container .image-info-container {
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.image-info-container img {
+    margin-top: 4rem;
+}
+
+.image-info-container p {
+    width: 30rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-image-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* .box-middle-images {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box-bottom-images {
+    flex-direction: column;
+    align-items: center;
+} */
+}
