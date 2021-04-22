@@ -46,6 +46,22 @@ h1:hover {
     transform: translate3d(20px, 20%, 1rem);
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-family: Syne Mono;
+    padding: 1rem;
+    display:flex;
+    justify-content: center;
+}
+
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -135,6 +151,13 @@ footer {
     margin: 2rem;
 }
 
+.image-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .box-top-images{
    
     display: flex;
@@ -192,7 +215,7 @@ h3:hover {
 .contact {
     font-size: 2rem;
     color: #B0E0E6;
-    padding: .2rem;
+    padding: 2%;
 }
 
 .contact:hover {
@@ -206,15 +229,51 @@ h3:hover {
     display: flex;
     flex-direction:column;
     justify-content: center;
+    height: 100vh;
+}
+
+.contact-page p {
+    font-family: Syne Mono;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    line-height: 2;
+}
+
+.first-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-/* Adding in Media queries below */
+/* Adding in Media queries below - max width 1000 & 800px*/
+
+@media (max-width:1000px) {
+    .image-info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}
 
 @media (max-width:800px) {
+    html {
+    margin: 10%
+    }
+
     header nav {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 3rem;
     }
     header nav a {
         margin-bottom: 1rem;
@@ -223,6 +282,66 @@ h3:hover {
     h1 {font-size: 3rem;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+.image-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container .image-info-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-info-container img {
+    margin-top: 2%;
+}
+
+.image-info-container p {
+    width: 30rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-image-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h4 {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+/* Adding in Media queries below - max width 500px*/
+
+
+@media (max-width:500px) {
+    html {
+        width: 100%;
+        margin: 10%;
+        display: flex;
+        flex-direction: column,
+    }
+
+    h1 {font-size: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+header nav {
+    margin-bottom: 3rem;
+}
+
+body .main-container {
+    width: 80%;
 }
 
 .main-container .image-info-container {
@@ -241,22 +360,16 @@ h3:hover {
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5%;
 }
 
 .main-image-container {
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-top: 10%;
 }
 
-
-/* .box-middle-images {
+.box-top-images .box-middle-images .box-bottom-images {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
-.box-bottom-images {
-    flex-direction: column;
-    align-items: center;
-} */
+
 }
