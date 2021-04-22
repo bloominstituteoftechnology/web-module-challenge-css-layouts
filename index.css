@@ -49,34 +49,37 @@ table {
 
 html{
     font-family: 'Karantina', cursive;
-    max-width: 100%;
     background-color: lightgray;
+    font-size: 62.5%;
+    display: flex;
 }
 
 header{
     display: flex;
     background-color: black;
-    color: red;
+    color: orchid;
     justify-content: space-around;
+    width: 100%;
+    height: 25vh;
 }
 
 h1{
-    font-size: 130px;
+    font-size: 13rem;
 }
 
 nav a{
-    margin: 30px 30px;
-    border: 1px solid lightgray;
-    padding: 30px;
+    margin: 3rem 3rem;
+    border: .1rem solid lightgray;
+    padding: 3rem;
     display: inline-flex;
     border-radius: 30px;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 nav a:hover {
     background: black;
-    color: red;
+    color: orchid;
 }
 
 .sub-header{
@@ -87,14 +90,14 @@ nav a:hover {
 
 .top-section{
     display: flex;
-    font-size: 40px;
+    font-size: 4rem;
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: left;
 }
 
 h2{
-    font-size: 80px;
+    font-size: 8rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -102,8 +105,8 @@ h2{
 
 .container-1{
     display: flex;
-    width: 800px;
-    height: 400px;
+    width: 80rem;
+    height: 40rem;
     justify-content: center;
     align-self: center;
 }
@@ -122,14 +125,14 @@ h2{
 
 .container-4{
     display: inline-flex;
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     justify-content: flex-end;
 }
 
 .bottom-section{
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-content: space-around;
   justify-content: space-around;
 
@@ -137,75 +140,74 @@ h2{
 
 .img-1{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
     justify-content: left;
 }
 
 .img-2{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
 .img-3{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
 .img-4{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
 .img-5{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
 .img-6{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
 .img-7{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
-    flex-basis: auto;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     justify-content: flex-end;
 }
 
 .img-8{
     display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
     flex-basis: auto;
 }
 
@@ -213,16 +215,36 @@ h2{
 footer{
     display: flex;
     background-color: black;
-    color: red;
+    color: orchid;
     justify-content: space-around;
+    height: 25vh;
 }
 
 h3{
-    font-size: 60px;
+    font-size: 6rem;
     align-self: center;
     }
 
 
 .footer-contact{
     display: flex;
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-flow: row wrap;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        }
+    .bottom-section {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    
 }
