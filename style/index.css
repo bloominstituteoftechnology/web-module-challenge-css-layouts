@@ -50,6 +50,7 @@ table {
 /* Reset Above */
 
 body{
+    width: 100%;
     font-size: 62.5%;
     box-sizing: border-box;
     max-width: 100%;
@@ -126,16 +127,20 @@ header{
   font-size: 1.2rem;
 }
 .gallery1{
+    width: 100%;
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     font-size: 1.5rem;  
     margin-bottom: 2rem;
 }
 .gallery2{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -177,6 +182,60 @@ footer a:hover{
     color: white;
     transition: all .5s;
 }
+
+/* MEDIEA QUERIES */
+@media(max-width:1183px){
+ 
+     .box{
+     width: 70%;
+     height: 20rem;
+     }
+     .intro{
+         text-align: center;
+         margin: 0 4% ;
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .intro a{
+         margin-bottom:1.5rem;
+     }
+
+     .gallery1{
+         width: 100%;
+         margin-top: 2.5rem;
+         flex-flow: row wrap;
+         justify-content: space-around;
+     }
+     .gallery2{
+         width: 100%;
+         flex-flow: row wrap;
+         justify-content: space-around;
+     }
+     .gallery1 .image{
+         width: 30%;        
+         padding-top:3rem ;
+ 
+     }
+     .gallery2 .image{
+        width: 30%;    
+         margin-top: 2rem;
+     }
+     /* .gallery2 .hidden{
+         display: none;
+     } */
+     .intro h2{
+     font-size: 3rem;
+     margin-top: 1%;
+     }
+     footer h2{
+         font-size: 2rem;
+     }
+}
+
+
 
 @media (max-width:800px) {
     h1{
@@ -221,23 +280,23 @@ footer a:hover{
      }
 
      .gallery1{
+         width: 100%;
          margin-top: 2.5rem;
-         flex-direction: row;
-         flex-wrap: wrap;
-         justify-content: space-evenly;
-         align-items: center;
+         flex-flow: row wrap;
+         justify-content: space-around;
      }
      .gallery2{
-         flex-direction: row;
-         flex-wrap: wrap;
-         justify-content: space-evenly;
-         align-items: center;
+         width: 100%;
+         flex-flow: row wrap;
+         justify-content: space-around;
      }
      .gallery1 .image{
+         width: 25%;        
          padding-top:3rem ;
  
      }
      .gallery2 .image{
+        width: 25%;    
          margin-top: 2rem;
      }
      .gallery2 .hidden{
@@ -254,6 +313,48 @@ footer a:hover{
 
     
 /* Mobile */
+@media (max-width:600px) {
+    
+    .top{
+        text-align: center;
+        background-color: white;
+        padding-bottom: .1rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        margin: 0 auto;
+    }
+    header{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 70%;
+        height: 20rem;
+    }
+    .gallery1{
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .gallery2{
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .gallery1 .image{
+      width:50%
+
+    }
+    .gallery2 .image{
+       width:50%
+    }
+
+}
 @media (max-width:500px) {
     
     .top{
