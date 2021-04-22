@@ -38,9 +38,9 @@ html {
     font-size: 60%;
     margin-left: 2;
     margin-right: 2;
-    max-width: 1500ee;
-
-@media(max-width: 800px) {
+    max-width: 1500;
+    /*tablet*/
+@media (max-width: 800px) {
    #about div { width: 40%; }
          .shopText div {width: 70%;}
 }
