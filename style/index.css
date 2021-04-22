@@ -46,49 +46,52 @@ table {
 	border-spacing: 0;
 }
 
+/* How do I make this responsive?*/
 
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+  }
+  
 h3 {
 	background-color: grey;
 	text-align: center;
-	font-size: 10px;
-	height: 16px;
+	font-size: 0.990em;
+	height: 1.5vh;
 	width: 100%;
+	padding-bottom: 1rem;
 	
 }
+
 h1, h2 {
-	font-size: 36px;
+	font-size: 2.200em;
 	text-align: center;
 	text-justify: center;
 	border: 90px;
+	padding-top: 1rem;
 }
+
+h4 {
+	font-size: 1.000em;
+}
+
 p {
-	font-size: 16px;
+	font-size: 1.000em;
 	text-align: left;
 	border: 100px;
 	margin: 2%;
 }
+
 html{
     font-size:62.5%;
 }
+
 body {
 	background-color: blueviolet;
 	font-size: 1.6rem;
 	font-family: 'Noto Serif', cursive;
-}
-.dot {
-    text-align: center;
-    height: 15px;
-    width: 15px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-}
-Nav span {
-	border: 1px solid black;
-	text-align: center;
-	text-justify: center;
-	height: 25px;
-	width: 100px;
 }
 
 /* How do I make the nav into a group of centered boxes?*/
@@ -99,24 +102,28 @@ nav {
 	justify-content: center;
 	align-items: center;
 	color: black;
-	padding: 2px;
+	padding: 1%;
 	margin: 2%;
 }
+
 a {
 	text-decoration: none;
 }
+
 nav a {
 	text-align: center;
 	text-justify: center;
 	border: 2px solid black;
-	height: 25px;
-	width: 100px;
+	height: 2.7vh;
+	width: 5%;
 }
+
 .body img {
 	border-radius: 10px;
 	width: 100%;
-    height: 600px;
+    height: 80vh;
 }
+
 /* How do I get text beside image in the middle?*/
 .imageContainer {
 	display: flex;
@@ -126,33 +133,66 @@ nav a {
 	justify-content: left;
     
 }
+
 img {
-	width: 175px;
-	height: 400px;
+	width: 20%;
+	height: 50vh;
 
 }
+
 .image {
 	flex-basis: 40%;
 	  
 }
+
 .projectDescription {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 2.0rem;
 	padding-left: 10px;
 }
+
 footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	background-color: grey;
 	align-items: center;
-	font-size: 20px;
-	height: 70px;
+	font-size: 2.3rem;
+	height: 9vh;
 	margin-left: auto;
     margin-right: auto;
 }
+
 footer a {
 	border: 2px solid black;
 }
 
+@media (max-width: 800px) {
+	nav {
+	  flex-direction: column;
+	  align-items: center;
+	}
 
+	nav a {
+		width: 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+
+}
+
+@media (max-width: 500px) {
+	nav {
+	  flex-direction: column;
+	  align-items: center;
+	}
+
+	nav a {
+		width: 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+
+}
