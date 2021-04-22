@@ -29,8 +29,10 @@ html {
     margin-left: 2;
     margin-right: 2;
     max-width: 1500ee;
+    
+@media(max: width 800px;)
+    
 }
-
 body {
 
     position: relative;
