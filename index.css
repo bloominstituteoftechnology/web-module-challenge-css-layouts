@@ -49,42 +49,79 @@ table {
 
 /* reset above */
 
-* a{
-    text-decoration: none;
-}
+
 body{
-    background: black; 
-}
-.header {
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-}
-.header h1{
-    color: #53ee4e;
-    font-size: 40px;
-    width: 50%;
+    background: white; 
+    font-size: 24px;
+    font-family: sans-serif
 }
 
-.header a{
-    padding: 5%;
-    background:#53ee4e;
-    color: white;
-    text-decoration: none;
-    border: solid #F3F7F0  0.5px;
-    
+html {
+    font-size: 62.5%;
 }
-.header a:hover{
-    background:#53ee4e;
+
+* {
+    box-sizing: border-box;
 }
-ul{
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
     display: flex;
-    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background:#333;
+    color: white; 
 }
-nav{
-    width: 30%;
-    padding-left: 30%;
+
+.andrew-bryan {
+    font-size: 3rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .img_container{
@@ -108,11 +145,11 @@ nav{
 .center_info a{
     font-size: 30px;
     padding: 1%;
-    background: #53ee4e;
-    color:white;
+    color:black;
+    text-decoration: none;
 }
 .center_info a:hover{
-    background:#53ee4e;
+    background-color: #555;
 }
 .projects_container1{
     width: 80%;
@@ -136,13 +173,13 @@ nav{
     align-items: center;
 }
 *.projects_container1 a{
-    background:#53ee4e;
     padding: 3%;
     font-size: 20px;
-    color:white;
+    color:black;
+    text-decoration: none;
 }
 .projects_container1 a:hover{
-    background:#53ee4e;
+    background-color:#555;
 }
 .projects_container2{
     width: 80%;
@@ -166,13 +203,13 @@ nav{
     align-items: center;
 }
 .projects_container2 a{
-    background:#53ee4e ;
     padding: 3%;
     font-size: 20px;
-    color:white;
+    color:black;
+    text-decoration: none;
 }
 .projects_container2 a:hover{
-    background:#53ee4e;
+    background:#555;
 }
 .contact_container{
     width: 90%;
@@ -185,4 +222,86 @@ nav{
 .contact_container a{
     color: white;
     font-size: 20px;
+}
+
+
+@media (max-width:800px){
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .toggle-button{
+        display: flex;
+    }
+    
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    } 
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+
+  #alpha .projects_container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #bravo .projects_container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+@media (max-width:500px) {
+    .toggle-button{
+        display: flex;
+    }
+    
+    .nav {
+      display: none;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav ul {
+        width: 100%;
+        flex-direction: column;
+    } 
+    .nav li {
+        text-align: center;
+    }
+    .nav li a {
+        padding: .5rem 1rem;
+    }
+    .nav.active {
+        display: flex;
+    }
+    
+#alpha .projects_container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #bravo .projects_container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
 }
