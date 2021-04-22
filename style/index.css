@@ -20,13 +20,25 @@ font: inherit;
 vertical-align: baseline;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  html{
+      font-size:100%;
+  }
+
 body{
     background:#1b252b;
+    font-size:2.4rem;
 }
 
 h1{
     color:White;
-    Margin:30px;
+    Margin:2%;
     text-align:center;
     font-size:70px;
     font-family: 'Amatic SC';
@@ -34,7 +46,7 @@ h1{
 
 .h2{
     color:White;
-    font-size:25%;
+    font-size:30px;
     margin-top:4rem;
     margin-left:14rem;
     font-family: 'Amatic SC';
@@ -64,9 +76,8 @@ h1{
 }
 
 .container{
-    margin-top:16rem;
-    height: 22rem;
-    width:40rem;
+    margin:15%;
+    margin-left:1%;
     /*border: solid black 1px;*/
     display:flex;
     
@@ -77,27 +88,27 @@ h1{
     color:White;
     display:flex;
     margin-top:2rem;
-    margin-bottom:-15rem;
+    margin-bottom:-10rem;
     font-size:30px;
    
 }
 
 .title1{
-    margin:10px;
+    margin:0.6rem;
     padding-left:1.9rem;
     
 }
 
 .title2{
-    margin:10px;
+    margin:0.6rem;
     padding-left:4.3rem;
 }
 .title3{
-    margin:10px;
+    margin:0.6rem;
     padding-left:3.8rem;
 }
 .title4{
-    margin:10px;
+    margin:0.6rem;
     padding-left:3.6rem;
 }
 
@@ -106,40 +117,97 @@ h1{
     width:9rem;
     height:20rem;
     background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
-    background-size:400px;
-    padding:5px;
-    margin:10px;
-    border:solid white 6px;
-    border-radius:15px 50px  15px;
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid white 0.4rem;
+    border-radius:1rem 3rem 1rem;
 }
 
 .Project2{
     width:9rem;
     height:20rem;
     background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
-    background-size:400px;
-    padding:5px;
-    margin:10px;
-    border:solid white 6px;
-    border-radius:15px 50px  15px;
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid white 0.4rem;
+    border-radius:1rem 3rem 1rem;
 }
 .Project3{
     width:9rem;
     height:20rem;
     background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
-    background-size:400px;
-    padding:5px;
-    margin:10px;
-    border:solid white 6px;
-    border-radius:15px 50px 15px;
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid white 0.4rem;
+    border-radius:1rem 3rem 1rem;
 }
 .Project4{
     width:9rem;
     height:20rem;
     background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
-    background-size:400px;
-    padding:5px;
-    margin:10px;
-    border:solid white 6px;
-    border-radius:15px 50px 15px;
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid white 0.4rem;
+    border-radius:1rem 3rem 1rem;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+   
+
+
+}
+
+@media (max-width: 500px) {
+    .container{
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+        margin: 0;
+        margin-top:-270%;
+    }
+    .titles{
+        display:flex;
+        margin:-10%;
+  
+        flex-direction:column;
+        justify-content:space-between;
+    }
+    
+    .h2{
+        margin:34%;
+        margin-bottom:-50%;
+    }
+   
+
+    .title1{
+        padding-top:70%;
+        padding-left:18%;
+    }
+    
+    .title2{
+     
+        padding-top:70%;
+    }
+    .title3{
+       
+        padding-top:70%;
+    }
+    .title4{
+       
+        padding-top:70%;
+    }
+
+    .projects{
+      margin:10%;
+     }
+
+
 }
