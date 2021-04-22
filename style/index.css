@@ -34,7 +34,7 @@ h1{
 
 .h2{
     color:White;
-    font-size:40px;
+    font-size:25%;
     margin-top:4rem;
     margin-left:14rem;
     font-family: 'Amatic SC';
@@ -44,7 +44,7 @@ h1{
     
 }
 .flexcontainer{
-     height: 50px;
+     height: 45%;
      /*border: 1px solid black;*/
     display:flex;
     flex-direction:row-reverse;
