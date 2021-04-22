@@ -28,7 +28,7 @@ vertical-align:auto;
     width: 90%;
     border: 2px solid black;
     font-family: 'RocknRoll One', sans-serif;
-    background-color: lightgray;
+    background-color: rgba(233, 233, 233, 0.986);
     
 }
 
@@ -91,6 +91,7 @@ nav a {
 .projects {
     display:flex;
     justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -138,19 +139,22 @@ footer a {
 }
 .button:hover {
     background-color: rgb(23, 0, 128);
-    color: whitesmoke;
+    color: rgba(233, 233, 233, 0.986);
     border-radius: 15px;
 }
 @media(max-width: 800px) {
     .container {
-       background-color: whitesmoke;
-        
+       background-color: rgba(233, 233, 233, 0.986);
+    }
+    .intro {
+        flex-direction: column;    
+        align-items: center;
     }
 }
 
 @media(max-width: 500px) { 
     .container {
-        background-color: rgb(171, 253, 249); 
+        background-color: rgba(233, 233, 233, 0.986); 
     }
     header {
         justify-content: center;
@@ -167,4 +171,12 @@ footer a {
         justify-content: center;
     }
     
+}
+@media(max-width: 400px){
+    header{
+        font-size: 3vw;
+    }
+    footer{
+        font-size: 3vw;
+    }
 }
