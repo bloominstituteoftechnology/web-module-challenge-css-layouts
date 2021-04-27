@@ -360,6 +360,9 @@ footer a:hover {
 p:hover {
     /* text-decoration: line-through; */
     text-decoration: underline;
+    text-decoration-color: red;
+    color: rgb(34, 48, 61) !important;
+    
 }
 .fa-facebook {
     background: #3B5998;
@@ -390,3 +393,9 @@ p:hover {
   .social a:hover{
       border: 2px solid white;
   }
+  .para:hover {
+      transform: rotate(8deg);
+      
+     
+  }
+
