@@ -53,6 +53,8 @@ html {
 body {
     font-size: 1.8rem;
 	color: #4f4f4f;
+    background-color: hsl(113, 100%, 75%);
+	line-height: 1.5;
 }
 a {
 	text-decoration: none;
