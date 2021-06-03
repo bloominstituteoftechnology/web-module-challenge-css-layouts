@@ -81,23 +81,22 @@ header{
 }
 nav{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 1%;
+    width:60%;
+    display:flex;
+    margin-left: 4%;
 }
 .name{
     width: 50%;
 }
 
-.link {
-    width:60%;
-    display:flex;
-    margin-left: 4%;
-}
-.link a{
+nav a{
     border:2px solid #4f4f4f;
     padding: 0 2%;
 }
-.link a:hover{
+a:hover{
+    transition: 1s;
     color: white;
     background:black;
 }
