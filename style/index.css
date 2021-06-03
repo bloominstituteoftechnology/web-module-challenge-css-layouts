@@ -68,6 +68,10 @@ body{
       text-decoration: none;
       border:.3rem solid black;
       padding:1rem 3rem;
+      background-color:#292e2a;
+  }
+  .linkbar a:hover{
+      color:lightblue;
   }
   .linkbar h1{
       font-size: 3rem;
@@ -94,6 +98,10 @@ body{
     color:white;
     padding: 1rem 1rem;
 }
+.mainTitle input:hover{
+    color:lightblue;
+}
+
 .listprojects{
     display: flex;
     justify-content: space-between;
@@ -117,9 +125,15 @@ body{
     text-decoration: none;
     color:white;
 }
+.projectTitles a:hover{
+    color:lightblue;
+}
 .projectTitles2 a{
     text-decoration: none;
     color:white;
+}
+.projectTitles2 a:hover{
+    color:lightblue;
 }
 .projectTitles2{
     display:flex;
@@ -144,4 +158,7 @@ body{
     color:white;
     padding:2rem 4rem;
 
+}
+.contact input:hover{
+    color:lightblue;
 }

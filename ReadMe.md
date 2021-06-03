@@ -37,15 +37,15 @@ Once your repository is set up, practice what you learned today to create a port
 - [ x]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
 - [ x]  Information about you in place of the given placeholder
 - [ x]  A `My Projects` button that links to the projects page
-- [ ]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [ x]  A `Contact Me` button that links to the contact page
+- [ i dont use social media]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [ ] Make your webpage work at different browser widths, including mobile
-- [ ] Add CSS animations
+- [ x] Add CSS animations
 - [ ] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
 - [ ] Host your website on Netlify.com
 
