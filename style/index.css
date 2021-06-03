@@ -83,12 +83,16 @@ body{
       display:flex;
       flex-direction: column;
       align-items: center;
+      background-image: url(https://images.unsplash.com/photo-1622663254182-0e5cbde0aed6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3837&q=80);
+      height:40vh;
+      margin: 0 1.5rem;
   }
   .mainTitle h1{
       margin: 10rem 0 0 0;
       font-family: 'Chelsea Market', cursive;
       font-size: 6rem;
       color:white;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .mainTitle input{
     border-radius: 1rem;
