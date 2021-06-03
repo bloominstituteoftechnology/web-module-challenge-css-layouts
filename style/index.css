@@ -75,6 +75,7 @@ section{
 }
 a{
     text-decoration: none;
+	background-color: white;
 }
 /* header Section Styles */
 header{
@@ -84,6 +85,7 @@ nav{
 	display:flex;
 	flex-direction: row;
     justify-content:flex-start;
-	margin: 4%;
-	background-color: white;
+	margin: 1%;
+	
+	
 }
