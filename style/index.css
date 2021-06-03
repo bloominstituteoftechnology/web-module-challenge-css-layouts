@@ -44,29 +44,43 @@ table {
 	border-spacing: 0;
 }
 
+
+h1 {
+    margin-left: 2%;
+}
+
+nav a {
+
+    margin-left: 3%;
+}
+
+
+    
+
+
 .left {
     width:50%;
+    margin-left: 2%;
     display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:4% 0;
-}
-
-
-.img-container {
-    margin:2% 2%;
-}
-
-
-#top {
-     display-flex
-     align-items: center;
-
+    justify-content:right;
+    align-items:flex-end;
+    margin-left: 2%;
 }
 
 
 
-p{
-   border-right:10rem;
+
+
+#top{
+    text-align: center;
+    position: relative;
+    height:90%;
 
 }
+
+
+/* .gallery {
+ margin: 5% 10% 10% 2%;
+ 
+} */
+
