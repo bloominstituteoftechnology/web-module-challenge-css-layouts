@@ -114,6 +114,9 @@ nav{
 	background-color: antiquewhite;
 	/* background-size: cover; */
 }
+#about:hover{
+	border-color: green;
+}
 img{
 	border-radius: 50%;
 	
@@ -139,34 +142,27 @@ img{
 #projects:hover{
     border: 5px solid green;
 }
-#projects img{
+/* #projects img{
 	size
-}
+} */
 #projects button{
-	/* font-size: 50%;
-	border-radius: 50%;
-	background-color: red; */
 		color: white;
 		background-color:#BB2026;
-		font-size: 16px;
-		/* border: 0px; */
-		padding: 10px;
+		font-size: 101%;
+		padding: 3%;
+		margin: 2%;
 		height: auto;
+		border-radius: 10%;
 }
-.italics{
-    font: italic;
-}
+
 /* alternating backgrounds in id="projects" Styles*/
 .grey-background-1 {
     background-color: rgb(190, 192, 194);
     margin: 1%;
     box-shadow: 3px 3px 10px;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: space-around;
     
 }
 .grey-background-1:hover{
@@ -176,16 +172,10 @@ img{
 .grey-alternate {
     margin: 1%;
     box-shadow: 3px 3px 10px;
-    /* border: none;
-    padding: 1%; */
-    /* height: 5%;    
-    width: 225px; */
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
+	align-items: center;
 }
 
 .grey-alternate:hover{
