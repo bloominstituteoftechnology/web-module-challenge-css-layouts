@@ -83,3 +83,7 @@ footer{
 header{
     color:gray;
 }
+.about{
+    display:flex;
+
+}
