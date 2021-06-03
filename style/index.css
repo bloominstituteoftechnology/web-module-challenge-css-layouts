@@ -71,14 +71,46 @@ h3{
 section{
     padding: 4%;
 }
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
 nav{
     display: flex;
     justify-content:baseline;
     align-items: center;
 }
 .logo{
+    width: 10%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+}
+.link{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Top Section Styles*/
+#top{
+    height: 90vh;
+    background-image: src="content\watercolor.jpg";
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 3px solid grey;
+    padding: 4%;
+    width: 20%;
+    margin: 4%;
+    background-color: aquamarine;
 
 }
