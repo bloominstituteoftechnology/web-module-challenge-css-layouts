@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*css reset^^^*/
+
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/17/desktop-1245714__480.jpg");
+  color: rgb(182, 136, 182);
+  height: 25rem;
+  border: 0.25rem solid rgb(182, 136, 182);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.header-nav {
+  background-color: rgb(182, 136, 182);
+  border: 0.25rem solid lavender (230, 230, 250);
+  flex-direction: column;
+  align-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  max-width: 10rem;
+  flex-direction: row;
+  color: rgb(182, 136, 182);
+  padding-bottom: 1.5rem;
+  margin: 0% auto;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+header button {
+  color: lavender;
+  padding: 0.5rem;
+  background-color: rgb(182, 136, 182);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0.125rem solid rgb(230, 230, 250);
+}
+
+main {
+  border-color: rgb(182, 136, 182);
+  background-color: lavender;
+}
+
+.middle-content {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.profile-pic {
+  border: 1rem solid rgb(182, 136, 182);
+  width: 10rem;
+  padding: 0.5rem;
+}
+
+.bio-section {
+  max-width: 25%;
+  padding: 2rem;
+  line-height: 2rem;
+  color: solid rgb(182, 136, 182);
+}
+
+main p {
+  font-style: italic;
+  flex-direction: column;
+  padding-top: 1.25rem;
+  color: rgb(123, 170, 165);
+}
+
+main a {
+  text-decoration: none;
+  border: solid rgb(182, 136, 182);
+  color: white;
+  padding: 0.725rem;
+  background-color: rgb(182, 136, 182);
+  border-radius: 7%;
+}
+
+.portfolio-section1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  color: rgb(182, 136, 182);
+  background-color: rgb(140, 196, 190);
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.portfolio-section2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673__340.jpg");
+  color: rgb(140, 196, 190);
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+footer {
+  opacity: 87%;
+  padding-top: 2rem;
+  height: 10rem;
+  background-color: rgb(140, 196, 190);
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876__340.jpg");
+}
+
+footer a {
+  text-decoration: none;
+  border: solid rgb(182, 136, 182);
+  color: white;
+  padding: 0.5rem;
+  background-color: rgb(182, 136, 182);
+  border-radius: 7%;
+}
+
+
+
+
+footer p {
+  color: white;
+  background-color: rgb(182, 136, 182);
+}
+
+.portfolio-section1 img, .portfolio-section2 img{
+    border: 0.7rem solid rgb(182, 136, 182);
+    width: 8rem;
+}
+
+
+
+ @media(min-width: 360px){
+    .header{
+      height:10%;
+    }
+
+    .middle-content{
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem;
+}
+    }
+    .bio-section{
+     
+      text-align: center;
+}
+
+.bio-section{
+  text-align: center
+      
+}
+  
+  h1{
+    font-size: 1.5rem;
+  }
+
+    h2 {
+      font-size: 1.5rem;
+      padding-bottom: .5rem;
+    }
+
+      .profile-pic{
+      border: .5rem solid rgb(182, 136, 182);
+      padding: .25rem;
+    }
+  
+
+  header button {
+    color: lavender;
+    padding: 0.5rem;
+    font-size: small;
+   
+  }
+
+
+/*@media(min-width: 768px){
+    { 
+
+
+    }
+  }
+
+/*@media(min-width: 1000px){
+}*/
+
+
+
+
