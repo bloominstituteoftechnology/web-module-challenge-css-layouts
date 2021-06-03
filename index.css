@@ -102,7 +102,7 @@ q {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 html {
@@ -157,6 +157,8 @@ nav a:hover {
 /* hero section */
 .hero-box {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .hero-img {
@@ -166,6 +168,62 @@ nav a:hover {
 }
 
 .hero-text {
+  flex-direction: column;
+  width: 40%;
+}
+
+.hero-text button {
+  padding: 8%;
+  margin: 10% 0 10% 0;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 10px 20px #dbdbdb;
+  font-size: 2rem;
+}
+
+.hero-text button:hover {
+  box-shadow: 0 5px 10px #a5a5a5;
+  transform: translateY(1px);
+}
+/* Projects Section */
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.box {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  width: 25%;
+}
+
+/* Footer Section */
+footer {
+  background-color: #cccccc;
+  text-align: center;
+}
+
+footer button {
+  padding: 3%;
+  margin: 0 0 10% 0;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 10px 20px #dbdbdb;
+  font-size: 2rem;
+}
+
+footer button:hover {
+  box-shadow: 0 5px 10px #a5a5a5;
+  transform: translateY(1px);
+}
+
+footer h1 {
+  padding: 5% 0 3% 0;
+  font-size: 3rem;
 }
