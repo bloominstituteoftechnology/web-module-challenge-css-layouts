@@ -42,7 +42,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 
 }
 /* general styles*/
@@ -70,9 +70,10 @@ h2{
     margin:5%;
 }
 .buttons{
-    display:inline-block;
-    border: 1px solid black;
+    display:inline;
+
 }
+
 .about{
     background-color:#F4D6CC;
     color:black;
@@ -81,26 +82,53 @@ h2{
     margin-right: -1%;
    
 }
+.about:hover{
+    background-color:#62BBC1;
+}
 .contact{
     background-color:#F4D6CC;
     color:black;
     text-decoration:none;
     padding:3%;
-
-  
 }
+.contact:hover{
+        background-color:#62BBC1;
+    }
+
 .projects{
     background-color:#F4D6CC;
     color:black;
     text-decoration:none;
     padding:3%;
     margin-left: -1%;
-    
-
 }
+.projects:hover{
+    background-color:#62BBC1
+}
+
 /*Middle Content Styles*/
-.midImage {
-    display:block;
+
+.midImage img{
+    width:100vh;
+    height: 30vh;
+}
+/* Bottom of page*/
+.botImages{
+    display:flex;
+    align-items:stretch;
+    justify-content:flex-start;
+    display:inline;
+    
+}
+.botImages img{
+    max-width:15%;
+    height: 50vh
+ 
+}
+.bottom{
+    flex:display;
 }
 
-/*bottom*/
+.bottom p{
+    display:inline-block;
+}
