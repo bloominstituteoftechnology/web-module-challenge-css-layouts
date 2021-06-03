@@ -51,7 +51,7 @@ blockquote, q {
     padding:0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html{
@@ -79,7 +79,7 @@ h1{
 /* Header Styles */
 h2{
     font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
+    font-size: 4rem;
 	color: black;
 	padding-left: 2%;
 }
@@ -104,14 +104,80 @@ nav{
 	margin: 1%;	
 }
 
-/* Section "about" Styles */
+/* Section id="about" Styles */
 #about{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	flex-flow: wrap;
+	background-color: antiquewhite;
+	/* background-size: cover; */
 }
 img{
 	border-radius: 50%;
 	
+}
+.bio-container{
+	margin: 3%;
+	padding: 1%;
+}
+
+/* section id="Projects" Styles */
+
+#projects {
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+#projects:hover{
+    border: 5px solid green;
+}
+.italics{
+    font: italic;
+}
+
+.grey-background-1 {
+    background-color: rgb(190, 192, 194);
+    margin: 5px;
+    box-shadow: 3px 3px 10px;
+    border: none;
+    padding: 15px;
+    height: 300px;
+    width: 225px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+.grey-background-1:hover{
+    border: 3px solid black;
+}
+
+.grey-alternate {
+    margin: 5px;
+    box-shadow: 3px 3px 10px;
+    border: none;
+    padding: 15px;
+    height: 300px;    
+    width: 225px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.grey-alternate:hover{
+    border: 3px solid black;
 }
