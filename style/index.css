@@ -64,15 +64,20 @@ section div{
           padding:2%;
           margin:5px;
 }
-.about{
-    display:flex;
+.about{display:flex;
+    flex-direction:column;
+    width:100%;
+    border:1px solid black;  
+    
 }
 footer{
     display:flex;
 }
 .nav{display:flex;
     flex-direction:column;
-    justify-content:space-around;   
+    justify-content: space-evenly;
+    width:100%;
+    border:1px solid black;   
 
 }
 header{
