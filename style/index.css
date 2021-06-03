@@ -1,1 +1,134 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+  }
+ul, li, a, h2{
+    font-family: 'Chelsea Market';
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+.my_name{
+    text-align: center;
+    font-size: 3em;
+    margin: 15px auto;
+}
+.navigation{
+    text-align: center;
+    margin: 20px auto;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.navigation a:hover{
+    color: #fff;
+    background-color: black;
+}
+.first_section{
+    width: 100%;
+}
+.first_section h2{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em auto;
+    letter-spacing: .25em;
+}
+.first_section p{
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.25em;
+}
+.main_image{
+    width: 100%;
+}
+.main_image img{
+    width: 100%;
+    height: 20em;
+    margin: 30px auto;
+}
+.img_row{
+    max-width: 100%;
+    min-width: 70%;
+    display: flex;
+    position: relative;
+
+}
+.img_row img{
+    width: 20%;
+    height: 25em;
+    padding: 10px;
+}
+.end_text{
+    width: 100%;
+    padding: 10px;
+    height: 100%
+}
+.end_text p{
+    text-align: center;
+    line-height: 1.5em;
+}
+.project_btn{
+    text-align: center;
+    font-size: .65em;
+    margin: 15px auto;
+}
+.project_btn a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.project_btn a:hover{
+    color: #fff;
+    background-color: #000;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: lightgray;
+}
+.footer a{
+    padding: 20px;
+}
+.footer a:hover{
+    color: #fff;
+    background-color: #000;
+    transform: rotate(20deg);
+}
+
+
+
+
