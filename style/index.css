@@ -79,8 +79,13 @@ nav a {
 }
 
 
-/* .gallery {
+.gallery {
+ max-width:100%;
+ height:auto;
  margin: 5% 10% 10% 2%;
- 
-} */
+ display:flex;
+ flex-flow:row wrap;
+
+
+} 
 
