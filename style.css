@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, nav {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+ /* * {
+    border: 1px solid red;
+}   */
+
+
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #333;
+    padding: 10px;
+}
+
+header {
+    background-color:#F9F4F1;
+    max-width: 100%;
+    padding: .5%;
+    border-bottom: 5px solid #333;
+}
+
+nav {
+    margin: 10px 10px 0px 10px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #333;
+    border: 0px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+} 
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #dcb8ad;
+    border: 1px solid #333;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.sec1 {
+    display: flex;
+    margin: 2% 5%;
+}
+
+.left {
+    flex: 2 1 auto;
+    background-image: url("https://ashleyannlaz.com/wp-content/uploads/2021/02/IMG_1841-820x550.jpg");
+    min-height: 250px;
+    min-width: 500px;
+    background-position: left;
+    background-size: cover;
+}
+
+.about {
+    flex: 1 1 auto;
+    padding: 20px;
+    background-color: #F9F4F1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+/* .left img {
+    width: 100%;
+} */
+
+
+
+.right p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    padding-left: 10px;
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 2%;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing:1.5px;
+    color: #333;
+    
+}
+
+.sec2 p {
+    padding-top: 10px;
+    
+}
+
+.sec2 div {
+    width: 20%;
+    margin:5px;
+    flex: 0 1 auto;
+}
+
+.box {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+
+/* .box img {
+    border: 1px solid #333;
+} */
+
+footer {
+    background-color: #F9F4F1;
+    max-width: 100%;
+    text-align: center;
+    margin-top: auto;
+    min-height: 10vh;
+    border-top: 5px solid #333;
+}
+
+.socials {
+    padding-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    
+}
+
+a {
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 3px;
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+    font-size: .8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
