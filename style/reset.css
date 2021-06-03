@@ -46,6 +46,7 @@ table {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
+	text-align: center;
 }
 html {
     font-size: 62.5%;
@@ -59,4 +60,14 @@ body {
 a {
 	text-decoration: none;
 	color: #4f4f4f;
+    border:hsl(251, 100%, 75%) 2px solid;
+    padding: 1rem;
+}
+h1, h2, h3 {
+    font-size: 5rem;
+    margin: 2rem;
+}
+p, a {
+    font-size: 2rem;
+    margin: 1rem;
 }

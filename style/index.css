@@ -10,25 +10,12 @@ header {
     z-index: 1;
     top: 0px;
 }
-h1, h2, h3 {
-    font-size: 5rem;
-    margin: 2rem;
-}
-p, a {
-
-    font-size: 2rem;
-    margin: 1rem;
-}
 nav {
     width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 4rem;
-}
-a {
-    border:hsl(251, 100%, 75%) 2px solid;
-    padding: 1rem;
 }
 main {
     margin-top: 25%;
@@ -49,13 +36,10 @@ img {
 .project {
     width: 20%;
     height: 20%;
-    margin: 1%
-}
-aside {
-    text-align: center;
+    margin: 1%;
+    font-size: 2rem;
 }
 footer {
-    text-align: center;
     background-color: hsl(342, 100%, 75%);
     display: flex;
     align-items: center;

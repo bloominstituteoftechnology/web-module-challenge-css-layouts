@@ -1,0 +1,26 @@
+main {
+    background-color: hsl(160, 100%, 75%);
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+.project {
+    background-color: hsl(281, 100%, 25%);
+    color: hsl(281, 100%, 75%);
+    border:hsl(281, 100%, 75%) 1rem solid;
+    margin: 2rem;
+    font-size: 2rem;
+}
+footer {
+    text-align: center;
+    background-color: hsl(54, 100%, 75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a {
+    border:hsl(0, 100%, 75%) 2px solid;
+}
