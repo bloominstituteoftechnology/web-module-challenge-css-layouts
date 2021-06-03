@@ -78,15 +78,15 @@ nav{
 }
 .top-text{
     background-color: #4f4f4f;
-    justify-content: center;
     padding: .5rem;
-    justify-items: center;
-    display: flexbox;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 
 }
 .logo{
     width: 10%;
-    display: box;
+    display: flex;
     justify-content: center;
     align-items: center;
     
@@ -106,7 +106,7 @@ nav{
 
 /*Top Section Styles*/
 #top{
-    height: 90vh;
+    height: 60vh;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F3%2F22-detroit-michigan-skyline-michael-tompsett.jpg&f=1&nofb=1");
     background-repeat: no-repeat;
     background-position: center top;
@@ -135,6 +135,7 @@ nav{
 }
 footer{
     background-color: #4f4f4f;
-    display:flexbox;
-}
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 
