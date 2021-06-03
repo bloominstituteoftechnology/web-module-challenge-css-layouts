@@ -61,6 +61,7 @@ h1, h2, h3 {
 }
 h1{
     font-size: 5rem;
+    color: aquamarine;
 }
 h2{
     font-size: 3.5rem;
@@ -73,12 +74,17 @@ section{
 }
 a{
     text-decoration: none;
-    color: #4f4f4f;
+    color:aquamarine;
 }
 nav{
     display: flex;
     justify-content:baseline;
     align-items: center;
+    background-color: #4f4f4f;
+}
+.top-text{
+    background-color: #4f4f4f;
+
 }
 .logo{
     width: 10%;
@@ -90,21 +96,27 @@ nav{
     width: 50%;
 }
 .link{
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 /*Top Section Styles*/
 #top{
     height: 90vh;
-    background-image: src="content\watercolor.jpg";
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F2%2Fdetroit-city-skyline-watercolor-bekim-art.jpg&f=1&nofb=1");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center top;
+}
+/*Project section*/
+.container{
+    display: flex;
+    justify-content: space-around;
 }
 .box{
     border: 3px solid grey;
@@ -112,5 +124,9 @@ nav{
     width: 20%;
     margin: 4%;
     background-color: aquamarine;
+}
+footer{
+    background-color: #4f4f4f;
+  
 
 }
