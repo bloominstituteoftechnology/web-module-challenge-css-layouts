@@ -37,20 +37,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    max-width:100%;
-    border:1px solid grey;
-}
+
 /*General Styling*/
 html{
     font-size: 62.5%;
 }
 body{
     font-size: 1.8rem;
-    color:#68228b;
+    color:#9a32cd;
     line-height: 1.5;
     font-family:sans-serif;
     background-color: #fffafa;
@@ -86,22 +80,27 @@ nav{
     background-color: #4f4f4f;
     justify-content: center;
     padding: .5rem;
-    align-items: center;
+    justify-items: center;
+    display: flexbox;
 
 }
 .logo{
     width: 10%;
-    display: flex;
+    display: box;
     justify-content: center;
     align-items: center;
+    
 }
 .logo img{
-    width: 50%;
+    width: 80%;
+    border-radius: 50%;
+    padding: .5rem;
 }
 .link{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -128,9 +127,14 @@ nav{
     margin: 4%;
     background-color: #f6a400;
 }
-footer{
-    background-color: #4f4f4f;
+:hover.box{
+    opacity: 50%;
 }
 .maintitles{
     justify-content: center;
 }
+footer{
+    background-color: #4f4f4f;
+    display:flexbox;
+}
+
