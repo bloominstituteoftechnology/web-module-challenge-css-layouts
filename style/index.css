@@ -1,1 +1,232 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+
+html{
+    font-size:62.5%;
+    background-color:black
+}
+
+
+
+header{
+    width:100%;
+    display:flex;
+    height:9vh;
+    margin-top:1.5%;
+    background-color:grey;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    
+}
+.name{
+    display:flex;
+    align-items:center;
+    width:50%;
+    font-size:4rem;
+    margin-left:1.5%;
+    color:white;
+}
+nav{
+    display:flex;
+    justify-content:flex-end;
+    width:50%;
+    margin-right:1.5%;
+}
+nav > a{
+    width:18%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:2rem;
+    margin-top: 1.5%;
+    margin-bottom:1.5%;
+    border:1px solid black;
+    color:black;
+    background-color:white;
+}
+a:hover{
+    color:white;
+    background-color:black;
+}
+
+.top{
+    width:100%;
+    height:60vh;
+    display:flex;
+}
+
+.top{
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:70%;
+    margin: 0 auto;
+    background-image:url('https://images.unsplash.com/photo-1622663254182-0e5cbde0aed6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2037&q=80');
+    border-radius:2%;
+    margin-top: 4%
+    
+}
+
+.top > h1,button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.top > h1{
+    color:white;
+    font-size:5rem;
+    margin:2%;
+    font-family: 'LimeLight', cursive;
+    
+}
+button{
+    padding: 1% 2%;
+    background-color:crimson;
+    text-align:center;
+    color:white;
+    border:0px;
+    border-radius:3px;
+    font-family: 'Architects Daughter',cursive;
+}
+
+.middle{
+    display:flex;
+    width:100%;
+    height:50vh;
+    justify-content:space-between;
+    margin-top:10%;
+    
+}
+.project1, .project2, .project3 {
+    width:30%;
+    align-items:center;
+    
+}
+
+h2{
+    display:flex;
+    justify-content:center;
+    font-size:4rem;
+    font-weight:bold;
+    color:white;
+    margin-top:3%;
+    font-family: 'Odibee Sans', cursive;
+    
+}
+
+.bottom{
+    display:flex;
+    width:100%;
+    height:40vh;
+    justify-content:space-between;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.project4, .project5, .project6{
+    width: 30%;
+    align-items:center;
+}
+
+.middle > .project1 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+
+}
+.middle > .project2 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+}
+.middle > .project3 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+}
+
+.bottom > .project4 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+}
+.bottom > .project5 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+}
+.bottom > .project6 >img{
+    border-radius:10px;
+    border:2px solid #f2ebeb
+}
+
+footer{
+    width:100%;
+    height:15vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+}
+
+button:hover{
+    color:white;
+    background-color:black;
+}
+p{
+    font-family:'Courier New', Courier, monospace
+}
