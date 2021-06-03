@@ -110,13 +110,38 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:0 23rem;
+    color:white;
+    padding:0 20rem;
+}
+.projectTitles a{
+    text-decoration: none;
+    color:white;
+}
+.projectTitles2 a{
+    text-decoration: none;
     color:white;
 }
 .projectTitles2{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:0 23rem 5rem;
+    padding:0 20rem 5rem;
     color:white;
+}
+.contact{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #6e6d6d;
+    margin:5rem 0 0 0;
+    padding:10rem 0;
+}
+.contact input{
+    border-radius: 1rem;
+    border:2px solid black;
+    font-size:2rem;
+    background-color:#292e2a;
+    color:white;
+    padding:2rem 4rem;
+
 }
