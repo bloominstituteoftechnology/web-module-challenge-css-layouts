@@ -1,1 +1,29 @@
-/* Add CSS styling here */
+header {
+    min-height: fit-content;
+    height: 20%;
+    width: 100%;
+    background-color: hsl(160, 100%, 75%);
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+}
+h1 {
+    font-size: 5rem;
+    margin: 2rem;
+}
+nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    border:hsl(251, 100%, 75%) 2px solid;
+    padding: 1rem;
+}
+
+.big-pic {
+    width: 50%;
+}
