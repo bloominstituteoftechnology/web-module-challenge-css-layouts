@@ -50,7 +50,7 @@ html{
 }
 body{
     font-size: 1.8rem;
-    color: #4f4f4f;
+    color:#68228b;
     line-height: 1.5;
     font-family:sans-serif;
     background-color: #fffafa;
@@ -61,7 +61,7 @@ h1, h2, h3 {
 }
 h1{
     font-size: 5rem;
-    color: aquamarine;
+    color: #f6a400;
 }
 h2{
     font-size: 3.5rem;
@@ -74,7 +74,7 @@ section{
 }
 a{
     text-decoration: none;
-    color:aquamarine;
+    color:#f6a400;
 }
 nav{
     display: flex;
@@ -84,6 +84,9 @@ nav{
 }
 .top-text{
     background-color: #4f4f4f;
+    justify-content: center;
+    padding: .5rem;
+    align-items: center;
 
 }
 .logo{
@@ -105,7 +108,7 @@ nav{
 /*Top Section Styles*/
 #top{
     height: 90vh;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F2%2Fdetroit-city-skyline-watercolor-bekim-art.jpg&f=1&nofb=1");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F3%2F22-detroit-michigan-skyline-michael-tompsett.jpg&f=1&nofb=1");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -123,10 +126,11 @@ nav{
     padding: 4%;
     width: 20%;
     margin: 4%;
-    background-color: aquamarine;
+    background-color: #f6a400;
 }
 footer{
     background-color: #4f4f4f;
-  
-
+}
+.maintitles{
+    justify-content: center;
 }
