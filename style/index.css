@@ -83,6 +83,7 @@ h2{
 	color: black;
 	padding-left: 2%;
 }
+
 a{
     text-decoration: none;
 	background-color: rgb(179, 170, 170);
@@ -180,4 +181,25 @@ img{
 
 .grey-alternate:hover{
     border: 3px solid black;
+}
+/* Footer Styles */
+footer{
+	background-color:#444c55;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+footer h3{
+	font-size: 110%;
+	color: White;
+}
+
+footer button{
+	font-size: 100%;
+	padding: 1% 2%;
+}
+footer button:hover{
+	background-color: green;
 }
