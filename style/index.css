@@ -123,12 +123,12 @@ img{
 	padding: 1%;
 }
 
-/* section id="Projects" Styles */
+/* section id="Projects" General Styles */
 
 #projects {
     border: 3px solid black;
-    padding: 10px;
-    margin-top: 10px;
+    padding:1%;
+    margin-top: 2%;
     box-shadow: 3px 3px 10px;
     display: flex; 
     justify-content: space-evenly;
@@ -139,18 +139,17 @@ img{
 #projects:hover{
     border: 5px solid green;
 }
+#projects a{
+	font-size: 50%;
+}
 .italics{
     font: italic;
 }
-
+/* alternating backgrounds in id="projects" Styles*/
 .grey-background-1 {
     background-color: rgb(190, 192, 194);
-    margin: 5px;
+    margin: 1%;
     box-shadow: 3px 3px 10px;
-    border: none;
-    padding: 15px;
-    height: 300px;
-    width: 225px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -164,12 +163,12 @@ img{
 }
 
 .grey-alternate {
-    margin: 5px;
+    margin: 1%;
     box-shadow: 3px 3px 10px;
-    border: none;
-    padding: 15px;
-    height: 300px;    
-    width: 225px;
+    /* border: none;
+    padding: 1%; */
+    /* height: 5%;    
+    width: 225px; */
     text-align: center;
     display: flex;
     flex-direction: column;
