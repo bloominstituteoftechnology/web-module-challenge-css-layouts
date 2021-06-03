@@ -139,8 +139,19 @@ img{
 #projects:hover{
     border: 5px solid green;
 }
-#projects a{
-	font-size: 50%;
+#projects img{
+	size
+}
+#projects button{
+	/* font-size: 50%;
+	border-radius: 50%;
+	background-color: red; */
+		color: white;
+		background-color:#BB2026;
+		font-size: 16px;
+		/* border: 0px; */
+		padding: 10px;
+		height: auto;
 }
 .italics{
     font: italic;
