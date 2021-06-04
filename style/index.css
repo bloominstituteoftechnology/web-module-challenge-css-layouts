@@ -126,6 +126,20 @@ img{
 	margin: 3%;
 	padding: 1%;
 }
+.bio-container a{
+	border-radius: 10%;
+	background-color: rgb(241, 60, 14);
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+	margin: 0;
+	padding: 0.25%;
+}
+.bio-container a:hover{
+	background-color: green;
+	color: white;
+
+}
 
 /* section id="Projects" General Styles */
 
