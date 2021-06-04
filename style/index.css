@@ -47,6 +47,14 @@ table {
 
 h1 {
     margin-left: 2%;
+    
+}
+
+h2 {
+  display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -100,4 +108,32 @@ p {
 
 .item {
      margin: 40px;
+}
+
+
+.title {
+display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.img-container {
+  display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+
+
+.content {
+  margin: 40px;
 }
