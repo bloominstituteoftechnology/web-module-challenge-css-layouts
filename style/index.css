@@ -74,12 +74,6 @@ h3 {
 }
 
 
- .container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-    
 
 p {
  margin-left: 40%;
@@ -95,10 +89,12 @@ p {
   justify-content: space-between;
 }
 
-.social {
-  padding
-  flex-wrap: wrap;
-  padding: 40px;
+
+ .container {
+    display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: flex-end;
 }
 
 
