@@ -155,6 +155,9 @@ img{
 		height: auto;
 		border-radius: 10%;
 }
+#projects button:hover{
+    background-color: green;
+}
 
 /* alternating backgrounds in id="projects" Styles*/
 .grey-background-1 {
