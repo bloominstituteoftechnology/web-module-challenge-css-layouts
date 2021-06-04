@@ -61,13 +61,18 @@ body{
 
 .links a {
     border: white 1px solid;
+    margin-left: 50px;
+}
 
+nav {
+    font-size: 1.5rem;
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 nav h1 {
     margin: 1vh;
     font-size: 5rem;
-    font: 
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 a {
@@ -81,7 +86,6 @@ img {
     width: 70%;
 }
 
-
 header {
     background-color:#cb997e;
     display: flex;
@@ -94,33 +98,52 @@ header {
     justify-content: center;
     margin: .5%;    
     justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.topLeftBox {
+ width: 25%;
 }
 
 .topRightBox {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    border:solid;
-    border-color: red;
-    align-items: center;
+    /* border:solid;
+    border-color: red; */
+    width: 50%;
 }
 
 .topRightBox h2 {
-    display: inline-block;
+    font-size: 5rem;
+    display: flex;
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 .topRightBox button {
-    margin: 2% 5%;
+    display: flex;
+    justify-content: left;
+    font-family: 'Averia Sans Libre', cursive;
+    width: 20%;
+    
 }
 
 .topRightBox p {
     margin: 5;
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 .middleRow {
     display: flex;
     margin: .5%;    
     justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.middleRow img {
+    width: 150px;
+    height: 150px;
 }
 
 .bottomRow {
@@ -129,19 +152,32 @@ header {
     justify-content: space-evenly;
 }
 
+.bottomRow img {
+    width: 150px;
+    height: 150px;
+}
+
+.box {
+    text-align: center;
+    width: 25%;
+    font-size: 1.4rem;
+    font-family: 'Averia Sans Libre', cursive;
+}
+
 footer {
     background-color:#cb997e;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 20vh;
-
 }
 
 footer h2 {
     text-align: center;
     width: 20%;
     margin: 0 auto;
+    font-size: 2rem;
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 footer button {
@@ -149,3 +185,4 @@ footer button {
     width: 20%;
     margin: 0 auto;
 }
+
