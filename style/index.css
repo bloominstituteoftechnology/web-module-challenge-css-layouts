@@ -210,9 +210,12 @@ nav a {
   border-radius: 20px;
 }
 
+.row1 {
+  width: 32%;
+}
 .bottom-section {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   padding: 2%;
 }
 .bottom-section a {
