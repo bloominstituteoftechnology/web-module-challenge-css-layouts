@@ -158,12 +158,12 @@ table {
   margin-top: 1%;
 }
 .Name {
-  width: 50%;
+  width: 40%;
   text-transform: uppercase;
 }
 h1 {
   background-color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   color: white;
   border-radius: 10px;
@@ -181,7 +181,7 @@ h2 {
 nav {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 60%;
 }
 nav a {
   background-color: #222831;
@@ -193,7 +193,7 @@ nav a {
 .top-section {
   display: flex;
   justify-content: space-between;
-  max-inline-size: 70rem;
+  padding: 2%;
 }
 .top-section a {
   display: flex;
@@ -213,7 +213,7 @@ nav a {
 .bottom-section {
   display: flex;
   flex-direction: row;
-  max-inline-size: 70rem;
+  padding: 2%;
 }
 .bottom-section a {
   display: flex;
