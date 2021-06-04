@@ -68,6 +68,8 @@ h3 {
   height: 100%;
   width: auto;
   margin: 5px;
+  display:flex;
+  justify-content: space-between;
     
 }
 
@@ -83,5 +85,11 @@ h3 {
 }
 
 
-
+#middle {
+    height: 100%;
+  width: auto;
+  margin: 5px;
+  display:flex;
+  justify-content: space-between;
+}
 
