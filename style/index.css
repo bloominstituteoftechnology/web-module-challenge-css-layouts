@@ -76,61 +76,65 @@ nav{
     display:flex;
     flex-direction:column;
     padding:3rem;
+   
 }
 header{
-    background: rgb(233, 233, 233);
+    background: rgb(211, 211, 211);
 }
 .links{
     display:flex;
-    width: 20%;
+    ;
 }
 .links a{
-    width: 25%;
+    display: flex;
+    text-align: center;
+    border: .15rem solid black;
+    width: 10rem;
 }
 a{
     text-align: center;
 }
 
-.bigpic {
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-}
 .bmwname{ 
     display:flex;
-    align-content: flex-end;
+    justify-content: space-between;
 }
+.bmwname div{
+    text-align: center;
+    margin:auto 150px;
+}
+.bmwname .bigpic{
+    width: 80%;
+}
+
+
+.subfour img{
+    width: 320px;
+    height: 300px;
+}
+.subfour{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     
-.four{
+}
+
+footer {
+    background: rgb(211, 211, 211);
     display: flex;
     justify-content: center;
-    align-content: space-around;
 }
-.four div img{
-width:400px; 
-height:300px;
+.footerlink{
+    border: .2rem solid black;
+    width: 12rem;
+    height: 4rem;
+    background: white;
+   text-align: center;
 }
-
- footer{
-    display:flex;
-    flex-direction:center;
-    padding:3rem;
-}
-
-footer{
-    display:flex;
-    justify-content: center;
-    flex-direction:  column;
+.pic p{
+    text-align:center;
 }
 h3{
     text-align: center;
-}
-
-.footerlink{
-    display:flex;
-    justify-content: center;
     
-    height: auto;
-    border: 1px solid black;
-        
 }
