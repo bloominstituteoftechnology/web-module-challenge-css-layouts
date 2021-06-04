@@ -54,19 +54,22 @@ nav a {
     margin-left: 3%;
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
     
-
-
-.left {
-    width:50%;
-    margin-left: 2%;
-    display:flex;
-    justify-content:right;
-    align-items:flex-end;
-    margin-left: 2%;
+h3 {
+    text-align: center;
 }
 
+
+ .box1 {
+  height: 100%;
+  width: auto;
+  margin: 5px;
+    
+}
 
 
 
@@ -75,17 +78,10 @@ nav a {
     text-align: center;
     position: relative;
     height:90%;
+    border-radius: 5rem;
 
 }
 
 
-.gallery {
- max-width:100%;
- height:auto;
- margin: 5% 10% 10% 2%;
- display:flex;
- flex-flow:row wrap;
 
-
-} 
 
