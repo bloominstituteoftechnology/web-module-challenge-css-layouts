@@ -77,11 +77,18 @@ body {
     line-height: 1;
 }
     
+/* h3 {
+    
+    display:flex;
+    justify-content: center;
+} */
+
 h3 {
-    text-align: center;
+  display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: center;
 }
-
-
 
 p {
  margin-left: 40%;
@@ -130,7 +137,8 @@ display: flex;
   display: flex;
     flex-flow: wrap;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    
 }
 
 
