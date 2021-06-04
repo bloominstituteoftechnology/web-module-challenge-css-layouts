@@ -109,6 +109,17 @@ a:hover {
     padding-top: 20%;
 }
 
+.right a{
+    font-size: 2rem;
+    width: 20%;
+    background-color: black;
+    color: blanchedalmond;
+    border: solid black 1px;
+    justify-content: left;
+    border-radius: 10%;
+
+}
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -122,25 +133,6 @@ a:hover {
     padding-bottom: 5%;
 
 }
-
-
-
-button{
-    display: inline-block;
-     padding: 1% 0;
-     width: 25%;
-     border-radius: 10px;
-     text-align: center;
-     color: #fff;
-     background-color: black;
-     font-size: 1rem;
-     padding-bottom: 2%;
-}
-
-button:hover{
-    background-color: black;
-}
-
 p{
     font-size: 2rem;
     max-width: 80%;
@@ -154,17 +146,21 @@ p{
     justify-content: center;
 }
 
-.footer button{
-    font-size: 2rem;
-    margin-left: 40%;
-    width: 20%
-
+.footer a{
+    font-size: 3rem;
+    margin-left: 45%;
+    width: 20%;
+    background-color: black;
+    color: blanchedalmond;
+    border: solid black 1px;
+    justify-content: center;
 }
 
 h3{
     font-size: 3rem;
    text-align: center;
    padding-top: 2.5%;
+   justify-content: center;
 }
 
 
