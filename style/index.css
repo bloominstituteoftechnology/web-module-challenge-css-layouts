@@ -102,7 +102,7 @@ p {
     display: flex;
     flex-flow: wrap;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 
@@ -115,14 +115,15 @@ p {
 display: flex;
     flex-flow: wrap;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .links {
   display: flex;
-    flex-flow: wrap;
+    flex-flow: nowrap;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .img-container {
