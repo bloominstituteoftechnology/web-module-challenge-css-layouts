@@ -137,3 +137,10 @@ display: flex;
 .content {
   margin: 40px;
 }
+
+.social {
+   display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    justify-content: center;
+}
