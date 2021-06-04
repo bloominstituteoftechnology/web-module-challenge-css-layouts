@@ -55,22 +55,28 @@ nav a {
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
     
 h3 {
     text-align: center;
 }
 
 
- .box1 {
-  height: 100%;
-  width: auto;
-  margin: 5px;
-  display:flex;
-  justify-content: space-between;
-    
+ .container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
     
@@ -89,3 +95,13 @@ p {
   justify-content: space-between;
 }
 
+.social {
+  padding
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+
+.item {
+     margin: 40px;
+}
