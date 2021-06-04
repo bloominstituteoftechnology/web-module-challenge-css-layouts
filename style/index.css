@@ -172,6 +172,20 @@ img {
     
 }
 
+
+.projectlink {
+    width:100%;
+    text-align: center;
+}
+
+.projectlink a {
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
 /*#endregion*/
 
 /* PORTFOLIO SECTION STYLES */
