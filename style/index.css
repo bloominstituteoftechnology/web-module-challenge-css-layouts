@@ -1,1 +1,161 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: black;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4F4F4F;
+}
+h1{
+	text-align: center;
+	font-size:50px;
+	color:darkslategray;
+}
+.top{
+	display: flex;
+	justify-content:space-between;
+}
+.myname{
+	font-size:100px;
+	color:aquamarine;
+	display: flex;
+	justify-content: flex-start;
+}
+.link{
+	display: flex;
+	justify-content: flex-end;
+}
+a{
+	color:lightpink;
+}
+.home{
+	border:2px solid cyan;
+	padding:10% 25%;
+	margin:25%;
+	border-radius:5px;
+}
+.about{
+	border:2px solid cyan;
+	padding:10% 25%;
+	margin:25%;
+	border-radius:5px;
+}
+.contact{
+	border:2px solid cyan;
+	padding:10% 25%;
+	margin:25%;
+	border-radius:5px;
+}
+.projects{
+	border:2px solid cyan;
+	padding:10% 25%;
+	margin:25%;
+	border-radius:5px;
+}
+
+.main{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	border:1px solid white;
+	width:75%;
+	height:50vh;
+	margin-left:auto;
+	margin-right:auto;
+}
+.myproject{
+	color:lightblue;
+	border:1px solid paleturquoise;
+	padding:1% 5%;
+}
+
+
+.box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin:5%;
+  }
+}
+.pic{
+	display: flex;
+	align-items:center;
+}
+.perfimg{
+	width:400px;
+	height:50vh;
+}
+p{
+	color:lightgrey;
+	font-size:25px;
+	text-align:center;
+}
+
+
+.last{
+	background-color:lightseagreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:5%;
+}
+button{
+	color:lightpink;
+	background: white;
+	border:2px solid cyan;
+	border-radius:5px;
+	padding:10%;
+	width:200px;
+	font-size:25px;
+}
