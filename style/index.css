@@ -60,6 +60,7 @@ h1{
 	text-align: center;
 	font-size:50px;
 	color:darkslategray;
+	background-color: transparent;
 }
 .top{
 	display: flex;
@@ -113,10 +114,14 @@ a{
 	height:50vh;
 	margin-left:auto;
 	margin-right:auto;
+	background-image: url("https://images.unsplash.com/photo-1561516947-2a69b3b92970?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG9yaXpvbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
 }
 .myproject{
 	color:lightblue;
-	border:1px solid paleturquoise;
+	background-color: transparent;
 	padding:1% 5%;
 }
 
@@ -127,14 +132,12 @@ a{
 	justify-content: space-around;
 	margin:5%;
   }
-}
-.pic{
-	display: flex;
-	align-items:center;
-}
+
 .perfimg{
 	width:400px;
 	height:50vh;
+	object-fit: cover;
+	object-position: 50% 75%;
 }
 p{
 	color:lightgrey;
@@ -152,7 +155,7 @@ p{
 }
 button{
 	color:lightpink;
-	background: white;
+	background:white;
 	border:2px solid cyan;
 	border-radius:5px;
 	padding:10%;
