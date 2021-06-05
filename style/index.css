@@ -52,3 +52,8 @@ table {
 
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CSS BEGIN */
+
+/* CONTAINER */
+.container {
+    background: lime;
+}
