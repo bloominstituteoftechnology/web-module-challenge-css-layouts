@@ -1,3 +1,8 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -10,7 +15,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	/* border: 0; */
+	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
@@ -206,7 +211,6 @@ footer{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	
 }
 footer h3{
 	font-size: 110%;
@@ -220,4 +224,3 @@ footer button{
 footer button:hover{
 	background-color: green;
 }
-
