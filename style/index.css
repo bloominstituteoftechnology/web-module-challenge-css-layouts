@@ -197,10 +197,14 @@ footer button {
 /* Responsive Styles */
 
 @media (max-width: 800px) {
-    header {
+    /* header {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    header img {
+        size: 50vh;
     }
 
     .links a {
@@ -223,6 +227,7 @@ footer button {
         flex-direction: column;
         flex-wrap: initial;
         text-align: center;
+        
     }
 
     .bottomRow {
@@ -232,16 +237,29 @@ footer button {
         text-align: center;
     }
     
-    /* footer {
-        width: 100%;
+    .container {
+        flex-wrap: wrap;
     } */
 } 
 
 @media (max-width: 500px) {
     header {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        text-align: center;
+        height: 45vh;
+    }
+
+    header img {
+        size: 50vh;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .links a {
@@ -249,27 +267,58 @@ footer button {
        flex-direction: column; 
        text-align: center;
        font-size: 10px
-       width: 20%;
-       margin: 0 auto;
+       width: 10%;
+       margin: 0 2rem;
+     
     }
 
     .firstRow {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstRow img {
+        width: 70%;
+    }
+
+    .topRightBox h2 {
         text-align: center;
+        font-size: 4.5rem;
     }
   
+    .topRightBox button {
+        align-content: center;
+       margin: 0 9rem;
+    }
+
     .middleRow {
         display: flex;
         flex-direction: column;
-        flex-wrap: initial;
+        flex-wrap: wrap;
         text-align: center;
+        align-items: center; 
     }
+
+    .box {
+        width: 50%;
+    }
+
+    /* .pictures {
+        display: flex;
+        flex-direction: row;
+    } */
 
     .bottomRow {
         display: flex;
         flex-direction: column;
         flex-wrap: initial;
         text-align: center;
+        align-items: center;
+    }
+    
+    .container {
+        flex-wrap: wrap;
     }
 }
