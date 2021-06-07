@@ -1,60 +1,85 @@
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
-	}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-	}
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
 ol, ul {
 	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
+}
 blockquote, q {
-	quotes: "" "";
-	}
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 *{
     box-sizing:border-box;
-    max-width:100%;
+    max-width:100%; /*you can never be bigger than your parent - this is going to stop that dreaded horizontal scroll bar*/
 }
+/*general styles*/
 html{
-    font-size:62.5%;
-    background-color:#404040    ;
-    
+    font-size:62.5%; /* 1 rem = 10px */
+    background-color:#404040;
+    color:white;
 }
-
 body{
-    font-size:1.6rem;
     line-height:1.5;
-    letter-spacing: 1.5;
-    font-family: 'Roboto Mono', monospace;
+    font-size:1.8rem;
+    color:#4F4f4f;
 }
-.container {
-    display: flex;
- }
-   .linkbar {
+h1, h2, h3{
+    letter-spacing: 3px;
+    text-align:center;
+}
+h1{
+    font-size:5rem;
+}
+h2{
+    font-size:4rem;
+}
+h3{
+    font-size:2.5rem;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+/*navigation styles*/
+.navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -62,7 +87,7 @@ body{
   }
    .navlist{
        display:flex;
-       margin:1rem 1.5rem;
+       margin:2rem 1.5rem;
    }
     .navlist a{
       color:white;
@@ -71,61 +96,71 @@ body{
       padding:1rem 3rem;
       background-color:#292e2a;
   }
-  .linkbar a:hover{
+  .navbar a:hover{
       color:lightblue;
   }
-  .linkbar h1{
+  .navbar h2{
       font-size: 3rem;
       margin: 1rem 1.5rem;
       font-family: 'Chelsea Market', cursive;
       color:white;
   }
-  .mainTitle {
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-      background-image: url(https://images.unsplash.com/photo-1622663254182-0e5cbde0aed6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3837&q=80);
-      height:40vh;
-      margin: 0 1.5rem;
-  }
-  .mainTitle h1{
-      margin: 10rem 0 0 0;
-      font-family: 'Chelsea Market', cursive;
-      font-size: 6rem;
-      color:white;
-      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+/*title styles*/
+.mainTitle {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1622663254182-0e5cbde0aed6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3837&q=80);
+    height:40vh;
+    margin: 0 1.5rem;
+}
+.mainTitle h1{
+    margin: 10rem 0 0 0;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+    color:white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .mainTitle input{
     border-radius: 1rem;
-    border:2px solid black;
-    font-size:2rem;
-    background-color:#292e2a;
-    color:white;
-    padding: 1rem 1rem;
+  border:2px solid black;
+  font-size:2rem;
+  background-color:#292e2a;
+  color:white;
+  padding: 1rem 1rem;
 }
 .mainTitle input:hover{
-    color:lightblue;
+  color:lightblue;
 }
 
-.Projects{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+/**content*/
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    padding:2%;
 }
-
-.listprojects{
-    display: flex;
-    flex-basis:1;
-    justify-content: space-around;
-    width:100%;
-    padding:5rem 10rem;
+.col1{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
 }
-.listprojects a{
-    text-decoration: none;
-    color:white;
+.container a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1% 0 3% 0;
 }
-
+.col2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/**contact**/
 .contact{
     display:flex;
     justify-content: center;
@@ -147,41 +182,27 @@ body{
     color:lightblue;
 }
 @media (max-width:800px){
-    body{
-    max-width:100%;
+
+    .col1{
+        padding:0 2%;
+    }
+    .col2{
+        padding:0 2%;
+    }
+    .col3{
+        padding:0 2%;   
+    }
+}
+
+@media (max-width:500px){
+    .navbar{
+        flex-direction: column;
     }
     .container{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 1rem 0;
-    }
-    .linkbar {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .navlist {
-        display:inline-flex;
-        flex-direction: column;
-        margin:.1rem 0;
-    }
-    .Projects{
-        max-width: 100%;
-        display:flex;
-        flex-direction: column;
-        flex-basis: 1;
-        justify-content: space-between;
-    }
-    .Projects img{
-        max-width: 40%;
-        padding:1rem 3rem;
-    }
-    .listprojects{
-        display: flex;
-        flex-basis:1;
+        flex-wrap:wrap;
         width:100%;
-        font-size: 1.3rem;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 0;
     }
 }
