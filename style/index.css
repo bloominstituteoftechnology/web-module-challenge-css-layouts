@@ -1,1 +1,655 @@
-/* Add CSS styling here */
+/* Add CSS styling here -                        CSS RESET*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: #111;
+    font-family: 'Orbitron', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CSS BEGIN */
+
+
+/* >>>>>>> ULTRAWIDE */
+@media screen and (max-width: 2560px) {
+
+
+    /* CONTAINER */
+    .container {
+        position: relative;
+        width: 1200px;
+        max-width: 1200px;
+        min-width: 50vw;
+        margin: 0 auto;
+        padding: 0 30px;
+        min-height: 100vh;
+        background: #111;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+
+
+    /* HEADER */
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        color: #111;
+        text-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        font-size: 4rem;
+        padding: 20px;
+    }
+    header>nav {
+        min-width: 30vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header>nav>a {
+        background: #111;
+        width: 18%;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: lightskyblue;
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+    header>nav>a:hover {
+        color: #fff;
+    }
+
+    /* HERO CONTAINER */
+    .hero-home {
+        background-image: url('https://trello-attachments.s3.amazonaws.com/609c92d2be70080aae5c6dc7/60bafcbb4240a7588e4edd08/541cde605bc7a86cad45df9f977df65d/EMC_Event.png');
+    }
+    .hero-projects {
+        background-image: url('https://images.wallpaperscraft.com/image/chip_circuit_processor_140251_1920x1080.jpg');
+    }
+    .hero {
+        min-height: 40vh;
+        background-size: cover;
+        margin-bottom: 75px;
+        border-radius: 12px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero h2 {
+        font-size: 6rem;
+        color: transparent;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), -3px -3px 6px rgba(135, 206, 250, 0.5);
+        padding: 20px;
+    }
+    .hero a {
+        padding: 10px 30px;
+        background:rgba(135, 206, 250, 0.5);
+        border: groove 2px rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        font-size: 3rem;
+        color: rgba(255, 255, 255, 0.75);
+        border-radius: 12px;
+        margin-top: 20px;
+        text-shadow: 3px 3px 2px rgba(135, 206, 250, 0.5);
+        box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.25);
+    }
+    /* IMAGE CONTAINER */
+    .image-container {
+        background: #111;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        border-radius: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+
+    /* THUMBNAIL IMAGE */
+    .thumbnail-image {
+        max-width: 30%;
+        text-align: center;
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .thumbnail-image img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: -3px -3px 6px #000, 3px 3px 6px #333;
+        opacity: 0.6;
+        transition: ease-out 0.5s;
+    }
+    .thumbnail-image img:hover {
+        opacity: 1.0;
+        box-shadow: -3px -3px 3px #000, 3px 3px 6px #333;
+        transition: ease-in 0.2s;
+    }
+    .thumbnail-image p {
+        color: #fff;
+        font-size: 0.7rem;
+        margin-top: 10px;
+        cursor: default;
+    }
+
+
+    /* PROJECT ALBUMS */
+    .project-albums {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    /* ALBUM */
+    .album {
+        padding: 3px;
+        margin-bottom: 20px;
+        max-width: 30%;
+        padding: 10px;
+    }
+
+    .album-image {
+        background: #111;
+        width: 100%;
+        min-width: 100%;
+        text-align: center;
+        overflow: hidden;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        box-shadow: 2px 2px 3px #000, -2px -2px 3px #333;
+    }
+    .album-image img {
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 300px;
+    }
+    .album-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 5px;
+        background: #111;
+        border-radius: 4px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+
+    .album-data {
+        padding: 3px;
+        padding-left: 10px;
+        border-bottom-left-radius: 12px;
+    }
+    .album-data h3 {
+        color: #fff;
+        font-size: 1.8;
+        margin-bottom: 5px;
+        border-bottom-left-radius: 12px;
+    }
+    .album-data p {
+        color: #ccc;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+
+    .enter-album {
+        padding: 8px;
+        padding-right: 10px;
+        border-bottom-right-radius: 12px;
+    }
+    .enter-album a {
+        text-decoration: none;
+        color: lightskyblue;
+        border-bottom-right-radius: 12px;
+    }
+    /* FOOTER */
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact-me {
+        padding: 20px;
+    }
+    .contact-me a {
+        color: lightskyblue;
+        font-size: 2rem;
+        text-decoration: none;
+        cursor: pointer;
+        text-shadow: 0 0 3px #fff;
+    }
+
+
+
+
+
+
+    /* TEST */
+
+
+    .laptop {
+        text-align: center;
+        padding: 30px;
+        font-size: 3rem;
+    }
+
+
+    .cell-portrait h1 {
+        color: grey;
+    }
+    .cell-landscape h1 {
+        color: grey;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/* >>>>>>> WIDESCREEN */
+
+
+@media screen and (max-width: 1920px) {
+
+
+    /* CONTAINER */
+    .container {
+        position: relative;
+        width: 1200px;
+        max-width: 1200px;
+        min-width: 50vw;
+        margin: 0 auto;
+        padding: 0 30px;
+        min-height: 100vh;
+        background: #111;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+
+
+    /* HEADER */
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        color: #111;
+        text-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        font-size: 4rem;
+        padding: 20px;
+    }
+    header>nav {
+        min-width: 30vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header>nav>a {
+        background: #111;
+        width: 18%;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: lightskyblue;
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+    header>nav>a:hover {
+        color: #fff;
+    }
+
+    /* HERO CONTAINER */
+    .hero {
+       
+        min-height: 40vh;
+        background-size: cover;
+        margin-bottom: 75px;
+        border-radius: 12px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero h2 {
+        font-size: 6rem;
+        color: transparent;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), -3px -3px 6px rgba(135, 206, 250, 0.5);
+        padding: 20px;
+    }
+    .hero a {
+        padding: 10px 30px;
+        background:rgba(135, 206, 250, 0.5);
+        border: groove 2px rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        font-size: 3rem;
+        color: rgba(255, 255, 255, 0.75);
+        border-radius: 12px;
+        margin-top: 20px;
+        text-shadow: 3px 3px 2px rgba(135, 206, 250, 0.5);
+        box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.25);
+    }
+    /* IMAGE CONTAINER */
+    .image-container {
+        background: #111;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        border-radius: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+
+    /* THUMBNAIL IMAGE */
+    .thumbnail-image {
+        max-width: 30%;
+        text-align: center;
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .thumbnail-image img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: -3px -3px 6px #000, 3px 3px 6px #333;
+        opacity: 0.6;
+        transition: ease-out 0.5s;
+    }
+    .thumbnail-image img:hover {
+        opacity: 1.0;
+        box-shadow: -3px -3px 3px #000, 3px 3px 6px #333;
+        transition: ease-in 0.2s;
+    }
+    .thumbnail-image p {
+        color: #fff;
+        font-size: 0.7rem;
+        margin-top: 10px;
+        cursor: default;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact-me {
+        padding: 20px;
+    }
+    .contact-me a {
+        color: lightskyblue;
+        font-size: 2rem;
+        text-decoration: none;
+        cursor: pointer;
+        text-shadow: 0 0 3px #fff;
+    }
+
+
+
+}
+
+
+
+/* >>>>>>> LAPTOP */
+
+
+@media screen and (max-width: 1366px) {
+
+    /* PROJECT ALBUMS */
+    .project-albums {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    /* ALBUM */
+    .album {
+        margin-bottom: 20px;
+        width: 30%;
+        max-width: 30%;
+        padding: 10px;
+    }
+
+    .album-image {
+        background: #111;
+        width: 100%;
+        min-width: 100%;
+        text-align: center;
+        overflow: hidden;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        box-shadow: 2px 2px 3px #000, -2px -2px 3px #333;
+    }
+    .album-image img {
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 300px;
+    }
+    .album-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 5px;
+        background: #111;
+        border-radius: 4px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+
+    .album-data {
+        padding: 3px;
+        padding-left: 10px;
+        border-bottom-left-radius: 12px;
+    }
+    .album-data h3 {
+        color: #fff;
+        font-size: 1.8;
+        margin-bottom: 5px;
+        border-bottom-left-radius: 12px;
+    }
+    .album-data p {
+        color: #ccc;
+        font-size: 0.8rem;
+    }
+
+
+    .enter-album {
+        padding: 8px;
+        border-bottom-right-radius: 12px;
+    }
+    .enter-album a {
+        text-decoration: none;
+        color: lightskyblue;
+        border-bottom-right-radius: 12px;
+    }
+}
+
+
+
+
+
+
+/* >>>>>>> CELLPHONE */
+
+
+@media screen and (max-width: 360px) {
+
+    /* CONTAINER */
+    .container {
+        position: relative;
+        width: 100vw;
+        max-width: 100vw;
+        min-width: 50vw;
+        min-height: 100vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    header h1 {
+        font-size: 2rem;
+        background: #111;
+        text-shadow: 2px 2px 3px #000, -2px -2px 3px #333;
+    }
+    header>nav {
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header>nav>a {
+        background: #111;
+        width: 25%;
+        text-align: center;
+        text-decoration: none;
+        color: lightskyblue;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    header>nav>a:first-of-type {
+        border-bottom-left-radius: 12px;
+    }
+    header>nav>a:last-of-type {
+        border-bottom-right-radius: 12px;
+    }
+    .hero {
+       
+        min-width: 70%;
+        min-height: none;
+        max-height: 200px;
+        overflow: hidden;
+    }
+    .hero h2 {
+        font-size: 2rem;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(135, 206, 250, 0.5);
+    }
+    .hero a {
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px rgba(135, 206, 250, 0.5);
+    }
+    .image-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .thumbnail-image {
+        max-width: 100%;
+    }
+    .thumbnail-image img {
+        box-shadow: -2px -2px 3px #000, 2px 2px 3px #333;
+        opacity: 1.0;
+        transition: none;
+    }
+    .thumbnail-image img:hover {
+        opacity: 1.0;
+        transition: none;
+    }
+
+
+
+
+    footer {
+        padding: 10px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
+    }
+    .contact-me {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .project-albums {
+        flex-direction: column;
+    }
+    .album {
+        width: 100%;
+        max-width: 100%;
+        padding: 5px;
+    }
+
+
+}
+
+
+/* >>>>>>> TRIPLEWIDE PLUS */
+@media screen and (min-width: 3840px) {
+
+    body {
+        background: magenta;
+    }
+}
