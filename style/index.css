@@ -42,7 +42,9 @@ blockquote, q {
 html{
     font-size:62.5%;
     background-color:#404040    ;
+    
 }
+
 body{
     font-size:1.6rem;
     line-height:1.5;
@@ -58,12 +60,11 @@ body{
     justify-content: space-between;
     color:black
   }
-   .linkbar ul {
-    list-style-type: none;
-    display: flex;
-    margin: 3rem 1.5rem;
- }
-    .linkbar a{
+   .navlist{
+       display:flex;
+       margin:1rem 1.5rem;
+   }
+    .navlist a{
       color:white;
       text-decoration: none;
       border:.3rem solid black;
@@ -106,46 +107,25 @@ body{
     color:lightblue;
 }
 
+.Projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .listprojects{
     display: flex;
-    justify-content: space-between;
+    flex-basis:1;
+    justify-content: space-around;
     width:100%;
     padding:5rem 10rem;
 }
-.listprojects2{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding:5rem 10rem;
-}
-.projectTitles{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color:white;
-    padding:0 20rem;
-}
-.projectTitles a{
+.listprojects a{
     text-decoration: none;
     color:white;
 }
-.projectTitles a:hover{
-    color:lightblue;
-}
-.projectTitles2 a{
-    text-decoration: none;
-    color:white;
-}
-.projectTitles2 a:hover{
-    color:lightblue;
-}
-.projectTitles2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:0 20rem 5rem;
-    color:white;
-}
+
 .contact{
     display:flex;
     justify-content: center;
@@ -165,4 +145,43 @@ body{
 }
 .contact input:hover{
     color:lightblue;
+}
+@media (max-width:800px){
+    body{
+    max-width:100%;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .linkbar {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navlist {
+        display:inline-flex;
+        flex-direction: column;
+        margin:.1rem 0;
+    }
+    .Projects{
+        max-width: 100%;
+        display:flex;
+        flex-direction: column;
+        flex-basis: 1;
+        justify-content: space-between;
+    }
+    .Projects img{
+        max-width: 40%;
+        padding:1rem 3rem;
+    }
+    .listprojects{
+        display: flex;
+        flex-basis:1;
+        width:100%;
+        font-size: 1.3rem;
+    }
 }
