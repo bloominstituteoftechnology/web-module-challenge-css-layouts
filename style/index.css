@@ -1,1 +1,226 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*tags*/ 
+h1, h2, p {
+    color: black;
+    font-family:sans-serif;
+  }
+ 
+   
+h1{
+    font-weight: bold;
+    font-size: 24px; 
+}
+h2{
+    font-weight:900;
+    font-size: 20px;
+}
+button {
+    color:white;
+    background-color:#bb2094;
+    font-size:16px;
+    width: 8rem;
+    /*margin: 2rem 0rem;*/
+  }
+  
+  .Myname button{
+      width:8rem;
+      height: 2rem;
+  }
+.begin{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: white;
+    background: rgb(255, 255, 255);
+    padding: 10px 0px 10px 0px;
+    border: violet;
+}
+.Myname{
+    display: flex;
+    justify-content: flex-start ;
+    flex-wrap: nowrap;
+}
+
+.box{
+    background-color: pink;
+    width: 20rem;
+    height:5rem;
+    padding:10%;
+    margin : 10px;
+    display:inline-block;
+    
+}
+.arrange{
+    padding: 2rem;
+    line-height: 1.5rem;
+    
+}
+.organize{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.boxOne{
+    background-color: pink;
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+    
+}
+
+.boxTwo{
+    background-color: blue;
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+
+}
+.boxThree{
+    background-color:blueviolet;
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+
+}
+.boxFour{
+
+    background-color:rgb(97, 15, 90);
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+}
+.boxFive{
+    background-color:rgb(21, 131, 134);
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+
+}
+.boxSix{
+    background-color:rgb(97, 23, 23);
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+
+}
+.boxSeven{
+
+    background-color:rgb(105, 65, 27);
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;}
+.boxEight{
+    background-color:rgb(55, 25, 139);
+    width: 120px;
+    height:100px;
+    padding:5%;
+    margin : 10px;
+    display:inline-block;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50%;
+}
+
+@media(max-width:800px){
+    .organize{
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .Myname{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;  
+    }
+     
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        align-items: flex-start;  
+    }
+}
+
+@media(max-width:500px){
+    .organize{
+        width: 60%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .Myname{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;  
+    }
+     
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        align-items: flex-start;  
+    }
+}
