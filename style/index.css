@@ -58,8 +58,9 @@ h2 {
 }
 
 nav a {
+display: flex;
+text-align: flex-end;
 
-    margin-left: 3%;
 }
 
 * {
