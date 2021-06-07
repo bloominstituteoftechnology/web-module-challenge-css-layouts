@@ -115,7 +115,7 @@ table {
         background-image: url('https://trello-attachments.s3.amazonaws.com/609c92d2be70080aae5c6dc7/60bafcbb4240a7588e4edd08/541cde605bc7a86cad45df9f977df65d/EMC_Event.png');
     }
     .hero-projects {
-        background-image: url('https://images.wallpaperscraft.com/image/chip_circuit_processor_140251_1920x1080.jpg');
+        background-image: url('https://wallpapercave.com/wp/EE5G3eV.jpg');
     }
     .hero {
         min-height: 40vh;
@@ -129,10 +129,16 @@ table {
         justify-content: center;
     }
     .hero h2 {
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        border-radius: 8px;
+        box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.75);
         font-size: 6rem;
-        color: transparent;
-        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), -3px -3px 6px rgba(135, 206, 250, 0.5);
-        padding: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 2rem;
+        border-top: solid 1px rgba(255, 255, 255, 0.75);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.75);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(135, 206, 250, 0.5);
     }
     .hero a {
         padding: 10px 30px;
@@ -377,10 +383,16 @@ table {
         justify-content: center;
     }
     .hero h2 {
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        border-radius: 8px;
+        box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.75);
         font-size: 6rem;
-        color: transparent;
-        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), -3px -3px 6px rgba(135, 206, 250, 0.5);
-        padding: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 2rem;
+        border-top: solid 1px rgba(255, 255, 255, 0.75);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.75);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(135, 206, 250, 0.5);
     }
     .hero a {
         padding: 10px 30px;
@@ -589,14 +601,21 @@ table {
         border-bottom-right-radius: 12px;
     }
     .hero {
-       
         min-width: 70%;
         min-height: none;
         max-height: 200px;
         overflow: hidden;
     }
     .hero h2 {
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        border-radius: 8px;
+        box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.75);
+        font-size: 6rem;
+        color: rgba(255, 255, 255, 0.5);
         font-size: 2rem;
+        border-top: solid 1px rgba(255, 255, 255, 0.75);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.75);
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(135, 206, 250, 0.5);
     }
     .hero a {
