@@ -56,12 +56,14 @@ blockquote, q {
     padding:0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    /* border: 3px dashed black; */
 }
 
+/* note 1rem = 10px using 62.5% makes math and scalability easier. */
 html{
     font-size: 62.5%;
 }
+
 body{
     font-size: 1.6rem;
     line-height: 1.5;
@@ -74,6 +76,9 @@ section{
     padding: 4% 0;
     width: 90%;
     margin: 0 auto;
+}
+h1, h2, h3{
+	/* letter-spacing: 3px; */
 }
 h1{
     font-family: 'Chelsea Market', cursive;
@@ -168,9 +173,8 @@ img{
 #projects button{
 		color: white;
 		background-color:#BB2026;
-		font-size: 101%;
-		padding: 3%;
-		margin: 2%;
+		font-size: 100%;
+		margin: 3%;
 		height: auto;
 		border-radius: 10%;
 }
@@ -224,3 +228,15 @@ footer button{
 footer button:hover{
 	background-color: green;
 }
+@media (max-width: 800px) {
+	.bio-container {
+	  background: rgb(189, 189, 146);
+	}
+  }
+
+  @media (max-width: 500px) {
+	.bio-container {
+	  background: rgb(124, 124, 64);
+	  color: bisque;
+	}
+  }
