@@ -48,7 +48,11 @@ table {
     max-width:100%;
     border:1px solid grey;
 }
+
+
 /*General Styles*/
+
+
 html{
     font-size:62.5%;
 }
@@ -192,16 +196,80 @@ footer button {
 
 /* Responsive Styles */
 
-@media (max-width 800px) {
- footer h2 {
-    
- }
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
- footer button {
- 
-}
-}
+    .links a {
+       display:flex;
+       flex-direction: column; 
+       text-align: center;
+       font-size: 10px
+       width: 20%;
+       margin: 0 auto;
+    }
 
-@media (max-width 500px) {
+    .firstRow {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .middleRow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: initial;
+        text-align: center;
+    }
+
+    .bottomRow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: initial;
+        text-align: center;
+    }
     
+    /* footer {
+        width: 100%;
+    } */
+} 
+
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .links a {
+       display:flex;
+       flex-direction: column; 
+       text-align: center;
+       font-size: 10px
+       width: 20%;
+       margin: 0 auto;
+    }
+
+    .firstRow {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .middleRow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: initial;
+        text-align: center;
+    }
+
+    .bottomRow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: initial;
+        text-align: center;
+    }
 }
