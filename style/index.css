@@ -49,41 +49,43 @@ html{
     font-size:62.5%;
 }
 h1{
-    font-size:3rem;
+    font-size:5rem;
 }
-section div{
+.top{
+    margin: 1%;
     display:flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    align-items: strech;
-    width:100%;
-    border:1px solid black;
-}
-.projects{height: 150px;
-          width:150px;
-          padding:2%;
-          margin:5px;
-}
-.about{display:flex;
     flex-direction:column;
-    width:100%;
-    border:1px solid black;  
+    background-color:grey;
+    height:14vh
     
 }
-footer{
-    display:flex;
+.nav{
+    align-content: space-around;
+    width:30%;
+    font-size:2rem;
 }
-.nav{display:flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    width:100%;
-    border:1px solid black;   
+.images{
+    display:flex;
+    border: 1px solid black;
+    max-width:100%;
+    margin:1%;
 
 }
-header{
-    color:gray;
+.images2{
+    display:flex;
+    max-width:100%;
+    Margin:1%;
+    border: 1px solid black;
 }
-.about{
+.projects{
+    display:flex;
+    align-content: flex-end;
+}
+.img1{
+    display:flex;
+    height:25vh;
+}
+.myprojects{
     display:flex;
 
 }
