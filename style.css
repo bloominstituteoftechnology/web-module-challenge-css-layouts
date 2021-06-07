@@ -46,7 +46,7 @@ blockquote, q {
 
 * {
     box-sizing: border-box;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: 100%;
 }
 /* general styles */
@@ -75,7 +75,7 @@ h2 {
     font-weight: bold;
     text-transform: lowercase;
     color: #333;
-    /* padding: 10px; */
+    padding-bottom: 2%;
 }
 
 button {
@@ -90,20 +90,6 @@ button {
     
 }
 
-/* a {
-    margin: 10px;
-    padding: 10px;
-    letter-spacing: 3px;
-    background-color: white;
-    color: #333;
-    border: 1px solid #333;
-    font-size: .8rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
-
-
 /* Header Styling */
 
 header {
@@ -116,7 +102,6 @@ header {
     margin-left: 2%;
     width: 40%;
     text-transform: uppercase;
-    justify-content: flex-start;
 }
 
 .links a {
@@ -148,29 +133,35 @@ header {
 
 .aboutme {
     display: flex;
-    padding: 2% 2%;
     align-items: center;
+    padding: 2% 2%;
 }
 
 .left {
-    flex: 2 1 auto;
+    flex: 3 1.75 auto;
     background-image: url("https://ashleyannlaz.com/wp-content/uploads/2021/02/IMG_1841-820x550.jpg");
     background-position: center top;
     background-size: cover;
-    height: 200px;
-    min-width: 50%;
+    height: 250px;
 }
 
 .about {
-    flex: 1 1 auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
     background-color: #F9F4F1;
+    align-items: center;
+    justify-content: center;
+}
+
+.about p {
+    padding-top: 3%;
 }
 
 .right {
+    flex: 1 1.25 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 250px;
 }
 
 .right p {
@@ -185,29 +176,30 @@ header {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing:1.5px;
     color: #333;
+    justify-content: space-around;
+    padding-top: 1%;
     
 }
 
 .gallery p {
-    padding-top: 10px;
+    padding-top: 5%;
     
 }
 
 .gallery div {
-    margin:5px;
+    margin: 1%;
     flex: 0 1 auto;
+    
 }
 
 .box {
     width: 20%;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top:10px;
+    padding-bottom: 1%;
 }
 
 
@@ -215,18 +207,22 @@ header {
 
 footer {
     background-color: #F9F4F1;
-    max-width: 100%;
+    /* max-width: 100%; */
     text-align: center;
     margin-top: auto;
     min-height: 10vh;
     border-top: 5px solid #333;
+    display: flex;
+    justify-content: center;
 }
 
-.socials {
-    padding-top: 20px;
+.contact {
+    margin: 2%;
 }
 
-/* responsive styling */
+.contact button {
+    width: 20%;
+}
 
 @media screen and (max-width: 500px) {
     
@@ -263,6 +259,26 @@ footer {
         padding-bottom: 20px;
         padding-top:10px;
     }
+
+    .contact button {
+        width: 35%;
+    }
+
+    footer h2 {
+        font-size: 2.2rem;
+    }
+
+    .left {
+        height: 150px;
+    }
+    .right {
+        height: auto;
+    }
+
+    .about {
+        padding: 2% 5%;
+    }
+
 
 }
 
