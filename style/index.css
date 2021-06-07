@@ -60,9 +60,12 @@ h1{
     
 }
 .nav{
-    align-content: space-around;
-    width:30%;
+    display:flex;
+    justify-content: left;
+    width:10%;
     font-size:2rem;
+    margin: 1%;
+    padding:1%;
 }
 .images{
     display:flex;
@@ -77,15 +80,61 @@ h1{
     Margin:1%;
     border: 1px solid black;
 }
-.projects{
-    display:flex;
-    align-content: flex-end;
-}
+
 .img1{
     display:flex;
+    margin:1%;
+    width:100%;
     height:25vh;
 }
 .myprojects{
     display:flex;
-
+    margin:1%;
+    font-size:5rem;
+    width: 50%;
+}
+.nav a{
+    display:flex;
+    justify-content: last baseline;
+    border: .2rem solid black;
+}
+.projects{
+    display:flex;
+    font-size:2rem;
+    max-width:100%;
+}
+.myprojects{
+    display:flex;
+    flex-direction: column;
+}
+footer{
+    height:20vh;
+    text-align:center;
+    font-size: 2.5rem;
+    background-color:grey;
+    padding:1%;
+    margin:1%;
+}
+.img1{
+    border: 1px solid black;
+    margin:1%;
+}
+.img2{
+    height:fit-content;
+    max-width:100%;
+    margin:1%;
+    height:auto;
+    border: 1px solid black;
+}
+.img3{
+    height:fit-content;
+    max-width:100%;
+    margin:1%;
+    border: 1px solid black;
+}
+.img4{
+    height: fit-content;
+    max-width:100%;
+    border: 1px solid black;
+    margin:1%;
 }
