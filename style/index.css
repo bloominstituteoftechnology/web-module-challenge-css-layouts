@@ -138,3 +138,12 @@ footer{
     border: 1px solid black;
     margin:1%;
 }
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width:500px) {
+    .nav{
+        float:none;
+        width:100%;
+    }
+}
