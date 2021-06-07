@@ -1,1 +1,187 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing:border-box;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+    background-color:#404040    ;
+    
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    letter-spacing: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    display: flex;
+ }
+   .linkbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color:black
+  }
+   .navlist{
+       display:flex;
+       margin:1rem 1.5rem;
+   }
+    .navlist a{
+      color:white;
+      text-decoration: none;
+      border:.3rem solid black;
+      padding:1rem 3rem;
+      background-color:#292e2a;
+  }
+  .linkbar a:hover{
+      color:lightblue;
+  }
+  .linkbar h1{
+      font-size: 3rem;
+      margin: 1rem 1.5rem;
+      font-family: 'Chelsea Market', cursive;
+      color:white;
+  }
+  .mainTitle {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url(https://images.unsplash.com/photo-1622663254182-0e5cbde0aed6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3837&q=80);
+      height:40vh;
+      margin: 0 1.5rem;
+  }
+  .mainTitle h1{
+      margin: 10rem 0 0 0;
+      font-family: 'Chelsea Market', cursive;
+      font-size: 6rem;
+      color:white;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+.mainTitle input{
+    border-radius: 1rem;
+    border:2px solid black;
+    font-size:2rem;
+    background-color:#292e2a;
+    color:white;
+    padding: 1rem 1rem;
+}
+.mainTitle input:hover{
+    color:lightblue;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.listprojects{
+    display: flex;
+    flex-basis:1;
+    justify-content: space-around;
+    width:100%;
+    padding:5rem 10rem;
+}
+.listprojects a{
+    text-decoration: none;
+    color:white;
+}
+
+.contact{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #6e6d6d;
+    margin:5rem 0 0 0;
+    padding:10rem 0;
+}
+.contact input{
+    border-radius: 1rem;
+    border:2px solid black;
+    font-size:2rem;
+    background-color:#292e2a;
+    color:white;
+    padding:2rem 4rem;
+
+}
+.contact input:hover{
+    color:lightblue;
+}
+@media (max-width:800px){
+    body{
+    max-width:100%;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .linkbar {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navlist {
+        display:inline-flex;
+        flex-direction: column;
+        margin:.1rem 0;
+    }
+    .Projects{
+        max-width: 100%;
+        display:flex;
+        flex-direction: column;
+        flex-basis: 1;
+        justify-content: space-between;
+    }
+    .Projects img{
+        max-width: 40%;
+        padding:1rem 3rem;
+    }
+    .listprojects{
+        display: flex;
+        flex-basis:1;
+        width:100%;
+        font-size: 1.3rem;
+    }
+}
