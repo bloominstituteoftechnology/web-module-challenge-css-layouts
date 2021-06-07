@@ -127,6 +127,7 @@ table {
   max-width: 100%;
   background-color: #aaaaaa;
   text-decoration: none;
+  border: 1px solid grey;
 }
 .Image-Header {
   display: flex;
@@ -177,6 +178,7 @@ h2 {
 }
 .top-buttons {
   display: flex;
+  flex-direction: row;
 }
 nav {
   display: flex;
@@ -192,7 +194,8 @@ nav a {
 }
 .top-section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 2%;
 }
 .top-section a {
@@ -210,9 +213,6 @@ nav a {
   border-radius: 20px;
 }
 
-.row1 {
-  width: 32%;
-}
 .bottom-section {
   display: flex;
   justify-content: space-between;
@@ -249,6 +249,47 @@ footer {
   margin-top: 2%;
 }
 
-.debug {
-  border: 1px solid red;
+@media (max-width: 800px) {
+}
+
+@media (max-width: 500px) {
+  /*Top of page - name and nav bar*/
+
+  .top-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+  }
+  nav {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+  }
+  nav a {
+    margin-top: 2%;
+  }
+  /*White picture with name and projects button on it*/
+
+  .image {
+    margin: auto;
+    max-width: 80%;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .image a {
+    font-size: 1rem;
+  }
+  /*Projects top row*/
+  .topleft {
+    order: 0;
+  }
+  .two {
+    order: 1;
+  }
 }
