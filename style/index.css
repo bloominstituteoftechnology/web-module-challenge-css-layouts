@@ -80,25 +80,21 @@ a{
 	color:lightpink;
 }
 .home{
-	border:2px solid cyan;
 	padding:10% 25%;
 	margin:25%;
 	border-radius:5px;
 }
 .about{
-	border:2px solid cyan;
 	padding:10% 25%;
 	margin:25%;
 	border-radius:5px;
 }
 .contact{
-	border:2px solid cyan;
 	padding:10% 25%;
 	margin:25%;
 	border-radius:5px;
 }
 .projects{
-	border:2px solid cyan;
 	padding:10% 25%;
 	margin:25%;
 	border-radius:5px;
@@ -161,4 +157,38 @@ button{
 	padding:10%;
 	width:200px;
 	font-size:25px;
+}
+
+
+@media(max-width:800px){
+	.top{
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.link{
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.myname{
+		justify-content: center;
+	}
+	nav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.pic{
+		width:45%;
+	}
+}
+@media(max-width:500px){
+	.myname{
+		font-size:5rem;
+	}
+	.link{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right:5%;
+	}
 }
