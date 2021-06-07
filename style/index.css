@@ -138,4 +138,75 @@ footer{
     display: flex;
     flex-direction:column;
     align-items: center;
-
+}
+/* Phone View */
+@media only screen and (max-width: 480px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+   nav{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   nav a{
+       width: 5rem;
+       padding: 5%;
+   }
+   .row-1, .row-1 p, .row-1 h2{
+       width: 100%;
+       margin: 0% auto;
+       padding: 0% auto;
+       letter-spacing: 0px;
+   }
+   .accessible{
+       font-size: 1rem;
+   }
+   .accessible button{
+    padding: 3%;
+    margin: 1%;
+    width: 15%;
+}
+    /* Tablet View */
+    @media only screen and (max-width: 800px) {
+        .row-1, .row-1 p, .row-1 h2{
+            width: 90%;
+            margin: 0% auto;
+            padding: 0% auto;
+            letter-spacing: 0px;
+        }
+        .accessible{
+            font-size: 1rem;
+        }
+        .accessible button{
+         padding: 1%;
+         margin: 1%;
+         width: 8%;
+     }
+/* Widescreen View */
+@media only screen and (min-width: 2000px) {
+    h1{
+        font-size: 7vh;
+    }
+    nav{
+        font-size: 3vh;
+    }
+    .row-1, .row-1 p, .row-1 h2, .row-5 p{
+        width: 100%;
+        margin: 0% auto;
+        padding: 0% auto;
+        letter-spacing: 0px;
+        font-size: 4vh;
+    }
+    .accessible{
+        font-size: 4vh;
+    }
+    .accessible button{
+     padding: 1%;
+     margin: 1%;
+     width: 8%;
+ }
+ .header a{
+     font-size: 5vh;
+ }
