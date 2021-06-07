@@ -190,3 +190,18 @@ footer button {
     margin: 0 auto;
 }
 
+/* Responsive Styles */
+
+@media (max-width 800px) {
+ footer h2 {
+    
+ }
+
+ footer button {
+ 
+}
+}
+
+@media (max-width 500px) {
+    
+}
