@@ -195,7 +195,7 @@ nav a {
 .top-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 2%;
 }
 .top-section a {
@@ -215,6 +215,7 @@ nav a {
 
 .bottom-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 2%;
 }
@@ -254,7 +255,6 @@ footer {
 
 @media (max-width: 500px) {
   /*Top of page - name and nav bar*/
-
   .top-buttons {
     display: flex;
     flex-direction: column;
@@ -279,17 +279,25 @@ footer {
     margin: auto;
     max-width: 80%;
   }
+  .image a {
+    margin: 5% auto;
+    padding: 3%;
+  }
   h2 {
+    margin: 1% auto;
     font-size: 1.8rem;
   }
   .image a {
     font-size: 1rem;
   }
   /*Projects top row*/
-  .topleft {
-    order: 0;
+  .top-section {
+    display: flex;
+    flex-wrap: wrap;
   }
-  .two {
-    order: 1;
+  /*Projects bottom row*/
+  .bottom-section {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
