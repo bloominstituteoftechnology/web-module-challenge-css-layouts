@@ -1,1 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 /* Add CSS styling here */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+	/* Respects the width of the box */
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+html{
+	/* Sets 1rem to 10px */
+	font-size: 62.5%;
+}
+
+body{
+	/* Sets font size back to 16px */
+	font-size: 1.6rem;
+	background: #f9e0ae;
+}
+
+/* Header */
+
+nav h2{
+	padding: 20px 0;
+	font-size: 3rem;
+	margin-right: auto;
+}
+
+nav{
+	width: 95%;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav a{
+	width: 10rem;
+	height: 4rem;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid black;
+}
+
+nav a:hover{
+	background: #d0af84;
+	color: #FFF;
+}
+
+/* Section 1 */
+.header-image{
+	width: 80%;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2% auto;
+	background: url("https://loveincorporated.blob.core.windows.net/contentimages/gallery/32cfa085-5a31-48c2-bec8-46b887ac9428-views_great_wall_china.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header-content h2{
+	color: #FFF;
+	font-size: 7rem;
+}
+
+.header-content a{
+	width: 50%;
+	background: rgb(0, 0, 0, 0.5);
+	color: #FFF;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 2%;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.header-content a:hover{
+	background-color: rgb(0, 0, 0, 0.7);
+}
+
+/* Section 2 */
+.img-wrap-1, .img-wrap-2{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.img1{
+	background: url("https://cdn.traveltripper.io/site-assets/192_680_6121/media/2017-08-10-122507/mts-five-must-sights-NYC.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.img2{
+	background: url("http://cdn.cnn.com/cnnnext/dam/assets/130826171128-amazing-sights---fenghuang-china.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.img3{
+	background: url("https://www.hellomagazine.com/imagenes/travel/2015082126773/lonely-planet-ultimate-travel-list-top-sights-world/0-134-757/siem2--a.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.img4{
+	background: url("https://s1.it.atcdn.net/wp-content/uploads/2017/05/untitled-1-of-1-3.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.img5{
+	background: url("https://www.chinadaily.com.cn/travel/img/attachement/jpg/site1/20151021/a41f726749f6179191c504.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.img6{
+	background: url("https://www.businessdestinations.com/wp-content/uploads/2018/04/Lake-Atitla%CC%81n.jpg");
+	background-position: center;
+	width: 450px;
+	height: 450px;
+}
+
+.section2 h3{
+	margin: 20px;
+	text-align: center;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 15vh;
+	background: #c5a880;
+}
+
+footer a{
+	height: 4rem;
+	margin: auto;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid black;
+}
