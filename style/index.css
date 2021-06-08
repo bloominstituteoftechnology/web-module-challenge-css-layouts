@@ -75,7 +75,7 @@ nav a:hover{
 
 /* Section 1 */
 .header-image{
-	width: 80%;
+	width: 98%;
 	height: 50vh;
 	display: flex;
 	justify-content: center;
@@ -181,6 +181,7 @@ footer a{
 	margin: auto;
 	padding: 10px;
 	text-decoration: none;
+	color: black;
 	border: 1px solid black;
 }
 
@@ -232,7 +233,7 @@ footer a{
 	}
 }
 
-@media(max-width:350px){
+@media(max-width:360px){
 	nav{
 		flex-direction: column;
 	}
@@ -260,7 +261,7 @@ footer a{
 	}
 }
 
-@media(max-width:1080px){
+@media(max-width:1366px){
 	.header-image{
 		width: 98%;
 		height: 30vh;
@@ -275,7 +276,7 @@ footer a{
 	}
 
 	.img1, .img2, .img3, .img4, .img5, .img6{
-		width: 300px;
-		height: 300px;
+		width: 350px;
+		height: 350px;
 	}
 }
