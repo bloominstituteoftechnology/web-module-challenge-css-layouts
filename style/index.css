@@ -88,8 +88,10 @@ img {
     header h1 {
         font-size: 2rem;
         background: #111;
+        text-align: center;
         letter-spacing: 4px;
         text-shadow: 2px 2px 3px #000, -2px -2px 3px #333;
+        margin-bottom: 10px;
     }
     header>nav {
         min-width: 100%;
@@ -104,7 +106,8 @@ img {
         width: 25%;
         text-align: center;
         text-decoration: none;
-        color: lightskyblue;
+        color: rgba(135, 206, 250, 0.5);
+        text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
         border-radius: 0;
         box-shadow: none;
     }
@@ -122,6 +125,7 @@ img {
     .hero-home {
         background-image: url('https://trello-attachments.s3.amazonaws.com/609c92d2be70080aae5c6dc7/60bafcbb4240a7588e4edd08/541cde605bc7a86cad45df9f977df65d/EMC_Event.png');
     }
+
     .hero-projects {
         background-image: url('https://wallpapercave.com/wp/EE5G3eV.jpg');
     }
@@ -142,14 +146,15 @@ img {
         justify-content: space-between;
         min-width: 70%;
         background-size: cover;
+        background-position: center;
         max-width: 90%;
         margin: 0 auto;
-        min-height: 200px;
-        max-height: 200px;
+        min-height: 150px;
+        max-height: 150px;
         padding: 20px;
         text-align: center;
-        border-radius: 12px;
-        margin-bottom: 30px;
+        border-radius: 2px;
+        margin-bottom: 50px;
         box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
     }
     .hero h2 {
@@ -166,7 +171,7 @@ img {
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(135, 206, 250, 0.5);
     }
     .hero a {
-        font-size: 2rem;
+        font-size: 0.9rem;
         padding: 20px;
         margin-top: 20px;
         text-decoration: none;
@@ -258,6 +263,40 @@ img {
         font-size: 1.5rem;
         padding: 10px;
     }
+
+    .contact-me form {
+        padding-top: 8px;
+    }
+    
+    .contact-me input {
+        background: lightskyblue;
+        outline: none;
+        border: none;
+        padding: 8px;
+        border-radius: 1px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        box-shadow: inset 5px 0 5px rgba(175, 220, 247, 0.5), -3px 0 1px 1px rgb(52, 64, 71), 0 0 15px lightskyblue;
+    }
+    .contact-me input::placeholder {
+        color: #fff;
+    }
+    .contact-me button {
+        background: green;
+        outline: none;
+        border: none;
+        padding: 8px;
+        border-radius: 1px;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        box-shadow: inset -5px 0 5px rgba(98, 202, 103, 0.5), 3px 0 1px 1px rgb(1, 68, 1), 0 0 15px green;
+        color: #ccc;
+        text-shadow: 0 0 3px #111;
+    }
+
+    .fas, .far, .fab {
+        font-size: 2rem;
+    }
     .project-albums {
         flex-direction: column;
     }
@@ -278,10 +317,23 @@ img {
         border-radius: 8px;
         box-shadow: 3px 3px 6px #000, -3px -3px 6px #333;
     }
+    .card-links {
+      
+        padding: 10px;
+        min-width: 33%;
+    }
+    .card-links span {
+
+    }
     .card-links a {
         color: #ccc;
         text-shadow: 0 0 5px lightskyblue;
         text-decoration: none;
+        width: 50px;
+    }
+    i {
+        color: lime;
+        padding: 18px;
     }
 
 }
@@ -291,7 +343,7 @@ img {
 /* >>>>>>> WIDESCREEN */
 
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1366px) {
 
 
     /* CONTAINER */
@@ -721,12 +773,16 @@ img {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content:space-between;
+    }
+    .card-links span {
+        width: 50px;
     }
     .card-links span a{
         color: #fff;
         font-size: 3rem;
         text-decoration: none;
+        max-width: 33%;
     }
     /* PROJECT ALBUMS */
     .project-albums {
