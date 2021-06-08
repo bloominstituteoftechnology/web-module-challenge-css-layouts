@@ -1,1 +1,24 @@
 /* Add CSS styling here */
+.header{display:flex right;
+    color: blueviolet;
+
+background-color: blue;}
+
+.container{display:inline-flex;
+}
+.middle{ display: inline;
+
+}
+.bottom{
+    display: inline-flex;
+}
+.footer{justify-items: center;}
+img{
+    width: fit-content;
+}
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
+  nav{flex-direction:column;}
+}
