@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 60px;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+nav a {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+
+.button a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.bigButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonCenter {
+    display: flex;
+    background-image: url(https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w);
+    height: 600px;
+    justify-content: center;
+    width: 950px;
+    background-position: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectLayout {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+footer {
+    
+}
