@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    background-color: rgb(166, 111, 218);
+    /* border: 1px solid rgba(5, 104, 62, 0.541); */
+    /* color:lightgray; */
+}
+
+h1,.siteIntro{
+    text-align: center;
+    padding: 3%;
+}
+.intro{
+   /* background-color: blueviolet; */
+}
+/* nav bar styles */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 120px;
+    width: 100vw;
+    align-items: center;
+    
+}
+nav a{
+    padding: 1.5% 3%;
+    background-color: lavender;
+    text-decoration: none;
+    color: black;
+
+}
+.bigimage{
+    background-image: url("https://picsum.photos/700/300");
+    background-size: cover;
+    height: 50vh;
+}
+.home1{ 
+    color: lightcyan;
+    background-color:darkslategrey ;
+
+}
+.home1:hover{
+    background-color: palegreen;
+    color:black;
+    transition: 1.5s;
+    
+}
+ .projectTitle{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.projects img{
+    width:13%;
+}
+ /* .contactb{ 
+    
+    height: 2vh;
+    border: cadetblue solid 1px;
+    
+    
+}  */
+.contactb a{
+    display:flex ;
+    text-align: center;
+    padding: 1.5%;
+    margin: 0 auto;  
+    width:17%;
+    text-decoration:none;
+    color:cadetblue;
+    background-color:#483D8B;
+
+}
+#contactA{
+    text-align: center;
+
+}
+.info{
+  color: aqua;
+    margin: 10px 10px 10px 10px;
+}
