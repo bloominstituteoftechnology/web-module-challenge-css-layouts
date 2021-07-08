@@ -1,1 +1,102 @@
-/* Add CSS styling here */
+/*CSS reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+    }
+
+ol, ul {
+    list-style: none;
+    }
+/* tables still need cellspacing="0" in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    }
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    }
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    }
+blockquote, q {
+    quotes: "" "";
+    }
+/*end of CSS reset*/
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+    }
+
+/*General Styles (great to use until you have a preference)*/
+html{
+    font-size: 62.5%;
+    font-family:'Indie Flower';
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+}
+
+section{
+    padding:4% 0; /*this just spaces the page out a little bit nicer.*/
+}
+
+
+/* top section styles */
+.container{
+    border:5px solid black;
+    width:85%;
+    padding:15% 7%;
+    text-align:center;
+    margin: 0 auto;
+    
+    background:url(https://images.unsplash.com/photo-1624924249260-e5c40c8b3aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80);
+    background-size: cover;
+    background-position:center top 35%;
+}
+h2{
+    font-size:4.5rem;
+    text-transform:uppercase;
+}
+
+/* images section styles */
+#pics{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#pics div{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+}
+img, p{
+    text-align:center;
+}
+
+/* footer section */
+footer{
+    padding:3%;
+    background-color:#F29040;
+}
