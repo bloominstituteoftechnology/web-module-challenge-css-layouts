@@ -1,16 +1,17 @@
 header {
     display: flex;
-    align-items: flex-start;
     align-items: center;
+    justify-content: space-between;
     font-size: 30px;
+    padding: 10px;
     width: 100%;
-    
 }
 
 h1 {
-    font-size: 60px;
-    align-items: center;
+    display: flex;
+    font-size: 40px;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 nav {
@@ -44,6 +45,7 @@ button {
 
 h2 {
     font-size: 100px;
+    padding: 10px;
 }
 
 .bigButton {
@@ -67,10 +69,28 @@ h2 {
 }
 
 .projectLayout {
+    position: relative;
     flex-wrap: wrap;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    padding: 15px 15px;
 }
 
 footer {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: yellow;
+
+
 }
