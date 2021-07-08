@@ -1,1 +1,55 @@
 /* Add CSS styling here */
+
+header{
+    width:100%;
+    background:#cd5c5c;
+    height:15vh;
+    /* padding: 30px; */
+    border:1px solid black
+}
+h1{
+    display: flex;
+    align-content: flex-start;
+    border:1px solid black;
+    width:20%;
+    font-size: 2rem;
+}
+nav{
+border:1px solid black;
+width:22%;
+display:flex;
+justify-content: flex-end;
+}
+nav a{
+    border:1px solid black;
+    background-color:white;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+.second{
+    border:1px solid black;
+    height: 35vh;
+}
+.left{
+    background: url("https://picsum.photos/");
+    border:1px solid black;
+}
+.right{
+    border:1px solid black;
+}
+.third{
+    border:1px solid black;
+    height: 35vh;
+}
+.fourth{
+    width:100%;
+    background:#cd5c5c;
+    height:15vh;
+    border:1px solid black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
