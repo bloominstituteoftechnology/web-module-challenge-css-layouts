@@ -88,11 +88,14 @@ h2{
 }
 #pics div{
     width:30%;
+    padding: 2%;
     display:flex;
     flex-direction:column;
 }
 img, p{
     text-align:center;
+    padding:1%;
+    /* margin:2%; */
 }
 
 /* footer section */
