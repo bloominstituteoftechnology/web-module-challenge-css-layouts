@@ -71,6 +71,13 @@ blockquote, q {
     h1:hover, h2:hover{
         text-transform:uppercase;
     }
+    a, p{
+        font-size:2.5rem;
+    }
+    a{
+        border:1px solid rgba(0, 0, 0, 0.277);
+        border-radius:5px;
+    }
 
 /* nav bar styles */
 
@@ -79,19 +86,30 @@ blockquote, q {
     }
     h1, nav{
         display:flex;
-        width:50%;
         margin:2%; 
     }
     h1{
-        font-size:3rem;
+        width:33%;
+        padding:1% 0;
+        font-size:4rem;
+        letter-spacing: 1.5mm;
+        color:rgb(235, 125, 85);
+        text-shadow:1px 1px 2px black;
     }
     nav{
+        width:66%;
         display:flex;
         justify-content: flex-end;
         align-items: center;
     }
     nav a{
-        padding:2% 4%;
+        padding:2% 3%;
+        background-color:rgb(240, 158, 128);
+        color:black;
+
+    }
+    .home{
+        background-color:rgb(235, 125, 85);
     }
 
 /* top section styles */
@@ -110,11 +128,12 @@ blockquote, q {
         background-position:center top 35%;
     }
     h2{
-        font-size:4.5rem;
+        font-size:5rem;
         text-transform:uppercase;
-        margin-bottom:2.5%;
-        width:60%;
-        background-color:rgba(255, 255, 255, 0.304);
+        margin-bottom:1%;
+        width:45%;
+        color:rgb(238, 188, 154);
+        background-color:rgba(15, 13, 13, 0.411);
         text-transform:uppercase;
         border-radius:10px;
     }
@@ -122,11 +141,11 @@ blockquote, q {
     .container a{
         width:20%;
         padding:2%;
-        background-color:rgba(87, 130, 176, 0.291);
+        color:rgba(55, 55, 55, 0.9);
         border:solid 1px black;
-        border-radius:5px;
         text-decoration:none;
-        color:white;
+        background-color:rgba(251, 216, 185, 0.243);
+        
     }
 /* top section hover styles  */
     h2:hover{
@@ -153,15 +172,20 @@ blockquote, q {
     }
     p{
         margin-top:3%;
+        color:rgb(235, 125, 85);
+        text-shadow:1px 1px 2px black;
     }
     
 
 /* footer section */
     footer{
-        padding:3%;
-        background-color:#f29040d1;
+        padding:4%;
+        background-color:rgb(235, 125, 85);
         text-align:center;
     }
     footer a{
         background-color:rgba(169, 150, 150, 0.482);
+        padding:1% 4%;
+        color:black;
+        font-weight:bold;
     }
