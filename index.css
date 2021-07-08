@@ -6,6 +6,7 @@
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	position: relative;
 	height: 100vh;
 	font-family: sans-serif;
@@ -26,6 +27,8 @@ header nav {
 }
 
 header nav a {
+	padding: 1rem;
+	border-radius: 20px;
 	color: black;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -47,12 +50,7 @@ main {
 	align-items: center;
 }
 
-main img {
-	border-radius: 20px;
-}
-
 main h1 {
-	margin-top: 2rem;
 	font-size: 3rem;
 }
 

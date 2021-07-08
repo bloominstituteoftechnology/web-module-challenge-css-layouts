@@ -26,7 +26,7 @@ Follow these steps to set up and work on your project:
 - [x] Create a forked copy of this project.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
@@ -38,15 +38,15 @@ Once your repository is set up, practice what you learned today to create a port
 - [ ] Information about you in place of the given placeholder
 - [x] A `My Projects` button that links to the projects page
 - [x] A `Contact Me` button that links to the contact page
-- [ ] Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [x] Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [ ] Make your webpage work at different browser widths, including mobile
-- [ ] Add CSS animations
-- [ ] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
+- [x] Add CSS animations
+- [x] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
 - [ ] Host your website on Netlify.com
 
 ## FAQs
