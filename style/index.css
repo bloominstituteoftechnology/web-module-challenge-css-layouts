@@ -62,16 +62,42 @@ a{
     text-decoration: none;
 }
 
-.section1 div{
+/*sections 1-3 styles*/
+
+.section1{
     display:flex;
     justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+
+h2{
+    padding: 15px 0 0 0;
+    font-size: 36px;
+}
+
+.section2{
+    position:relative;
+    padding: 0 0 20px 0;
+}
+
+.special{
+    position:absolute;
+    top: 250px;
+    left: 650px;
+}
+
+h1 {
+    position:absolute;
+    top: 175px;
+    left: 540px;
+    font-size: 48px;
+    color: crimson;
 }
 
 .mountain{
     height: 500px;
     width:80%;
     margin-left: 10%;
-    display:inline-block;
 }
 
 .section3Pics{
