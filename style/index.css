@@ -46,60 +46,122 @@ blockquote, q {
     border:1px solid grey;
     }
 
-/*General Styles (great to use until you have a preference)*/
-html{
-    font-size: 62.5%;
-    font-family:'Indie Flower';
-}
+/*General Styles*/
+    html{
+        background-color:rgb(185, 151, 254);
+        font-size: 62.5%;
+        font-family:'Indie Flower';
+    }
 
-body{
-    font-size:1.6rem;
-    line-height:1.5;
-    color:#4f4f4f;
-}
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        color:#4f4f4f;
+    }
 
-section{
-    padding:4% 0; /*this just spaces the page out a little bit nicer.*/
-}
+    section{
+        padding:4% 0; /*this just spaces the page out a little bit nicer.*/
+    }
+    a{
+        text-decoration:none;
+    }
+    h1, h2{
+        text-transform:capitalize;
+    }
+    h1:hover, h2:hover{
+        text-transform:uppercase;
+    }
 
+/* nav bar styles */
+
+    header{
+        display:flex; 
+    }
+    h1, nav{
+        display:flex;
+        width:50%;
+        margin:2%; 
+    }
+    h1{
+        font-size:3rem;
+    }
+    nav{
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav a{
+        padding:2% 4%;
+    }
 
 /* top section styles */
-.container{
-    border:5px solid black;
-    width:85%;
-    padding:15% 7%;
-    text-align:center;
-    margin: 0 auto;
+    .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        border:5px solid black;
+        width:85%;
+        padding:15% 7%;
+        text-align:center;
+        margin: 0 auto;
+        
+        background:url(https://images.unsplash.com/photo-1624924249260-e5c40c8b3aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80);
+        background-size: cover;
+        background-position:center top 35%;
+    }
+    h2{
+        font-size:4.5rem;
+        text-transform:uppercase;
+        margin-bottom:2.5%;
+        width:60%;
+        background-color:rgba(255, 255, 255, 0.304);
+        text-transform:uppercase;
+        border-radius:10px;
+    }
     
-    background:url(https://images.unsplash.com/photo-1624924249260-e5c40c8b3aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80);
-    background-size: cover;
-    background-position:center top 35%;
-}
-h2{
-    font-size:4.5rem;
-    text-transform:uppercase;
-}
+    .container a{
+        width:20%;
+        padding:2%;
+        background-color:rgba(87, 130, 176, 0.291);
+        border:solid 1px black;
+        border-radius:5px;
+        text-decoration:none;
+        color:white;
+    }
+/* top section hover styles  */
+    h2:hover{
+        text-transform:capitalize;
+    }
 
+    
 /* images section styles */
-#pics{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-}
-#pics div{
-    width:30%;
-    padding: 2%;
-    display:flex;
-    flex-direction:column;
-}
-img, p{
-    text-align:center;
-    padding:1%;
-    /* margin:2%; */
-}
+    #pics{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+    #pics div{
+        width:30%;
+        padding:1%;
+        display:flex;
+        flex-direction:column;
+    }
+    img, p{
+        text-align:center;
+        padding:1%;
+        margin:0 auto;
+    }
+    p{
+        margin-top:3%;
+    }
+    
 
 /* footer section */
-footer{
-    padding:3%;
-    background-color:#F29040;
-}
+    footer{
+        padding:3%;
+        background-color:#f29040d1;
+        text-align:center;
+    }
+    footer a{
+        background-color:rgba(169, 150, 150, 0.482);
+    }
