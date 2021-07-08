@@ -49,13 +49,11 @@ table {
 }
 
 html {
-    font-size: 10px;
-    background-color: lightgray;
+    font-size: 62.5%;
 }
 
 body {
     background-color: #626363;
-    margin: 1rem;
 }
 
 header {
@@ -65,79 +63,38 @@ header {
     margin: 1rem;
 }
 
-h1 {
-    font-size: 5rem;
-}
-
-h3 {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 3px 2px black;
-}
-
-a, p {
-    font-size: 1.6rem;
-}
-
-nav a, footer a {
+nav a {
     text-decoration: none;
     border: solid black 1px;
     color: black;
     padding: .5rem;
-    background-color: lightgray;
 }
 
-div.img1 a {
-    text-decoration: none;
-    border: solid black 1px;
-    background-color: lightgray;
-    color: black;
-    padding: .5rem;
-}
-
-nav a:hover, div.img1 a:hover, footer a:hover {
+nav a:hover {
     color: white;
     background: black;
 }
 
-section.mainImg {
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
+h1 {
+    font-size: 5rem;
+    margin: 1rem;
 }
 
-div.img1 {
-    width: 70%;
-    height: 50rem;
-    background: url(https://picsum.photos/1400);
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-section.footerImgs, section.footerTxt {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.image {
-    margin: 3rem;
-    border: 1px solid black;
-    background: url(https://picsum.photos/250);
-    height: 25rem;
-    width: 25rem;
-}
-
-footer {
-    width: 100%;
-    height: 10rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
+a {
+    font-size: 1.6rem;
     background-color: lightgray;
+}
+
+ div {
+    height:100vh;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
+}
+
+p {
+    text-align: center;
+    background-color: lightgray;
+    padding: 2rem;
+    font-size: 2.4rem;
 }
