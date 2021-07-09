@@ -1,1 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}    
+    
+
+
 /* Add CSS styling here */
+html{
+    font-size:62.5%;
+    height:100vh;
+    width:100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:#EFEFEF;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+a:hover{
+    color:#FF3B3F;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-content: space-around;
+    margin:0 1.5rem 1.5rem 0;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top:1rem;
+    margin-left:3rem;
+    color:#A9A9A9;
+}
+
+nav{
+    width:25vw;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom:3rem;
+}
+
+nav a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:2.5rem;
+    width:6rem;
+    padding: 1rem 2rem;
+    color:#A9A9A9;
+    font-weight:900;
+}
+
+.who-i-am{
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.who-i-am h2{
+    font-size:5rem;
+    color:white;
+    text-shadow: 1px 1px black;
+    margin-bottom: -30rem;
+/* Not sure why this happened, but z-index fixes it*/
+    z-index: 1000;
+}
+
+.who-i-am a{
+    margin-top:-9rem;
+    text-color:#EFEFEF;
+    font-size:1.5rem;
+    background-color:#EFEFEF;
+    padding:1rem;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.who-i-am a:hover{
+    opacity:1;
+}
+
+.who-i-am img{
+    margin-top:3rem;
+}
+
+.project-gallery{
+    height: 65vh;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-top:-15rem;
+    
+}
+
+.project{
+    background:url(https://picsum.photos/200) ;
+    height:20rem;
+    width:20rem;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity:1;
+
+}
+.project:hover{
+    opacity:0.5;
+}
+.project a{
+    color:black;
+    font-size:1.5rem;
+    margin-bottom:-2rem;
+}
+
+.project a:hover{
+    color:#FF3B3F;
+}
+
+footer{
+    height: 10vh;
+    width:100vw;
+    background-color:#A9A9A9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EFEFEF;
+    height:2rem;
+    width:6rem;
+    padding:0 1rem;
+    color:#black;
+}
+
+.social{
+    position:relative;
+    bottom:0;
+    left:20rem;
+    border:1px solid black;
+
+
+}
