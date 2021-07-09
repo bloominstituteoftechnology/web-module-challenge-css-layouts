@@ -102,50 +102,70 @@ nav a {
 	text-decoration: none;
 	font-size: 20px;
 }
+
+nav a:hover {
+	color: black;
+}
+
 .home {
 	
 	padding: 30px;
 	background-color: #52796f;
-	
+	transition: .3s;
 }
 
 .home:hover {
 	text-color:black;
 	padding: 40px;
 	border-radius: 20px;
+	 background:url(https://images.unsplash.com/photo-1588001832198-c15cff59b078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	box-sizing: border-box;
+	background-position: left;
 }
 
 .about {
 	
 	padding: 30px;
 	background-color: #52796f;
+	transition: .3s;
 }
 
 .about:hover{
 	padding: 40px;
 	border-radius: 20px;
+	 background:url(https://images.unsplash.com/photo-1588001832198-c15cff59b078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	box-sizing: border-box;
+	background-position: left;
 }
 
 .contact {
 	
 	padding: 30px;
 	background-color: #52796f;
+	transition: .3s;
 }
 
 .contact:hover {
 	padding: 40px;
 	border-radius: 20px;
+	 background:url(https://images.unsplash.com/photo-1588001832198-c15cff59b078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	box-sizing: border-box;
+	background-position: left;
 }
 
 .projects {
-	
 	padding: 30px;
 	background-color: #52796f;
+	transition: .3s;
 }
 
 .projects:hover {
 	padding: 40px;
 	border-radius: 20px;
+	 background:url(https://images.unsplash.com/photo-1588001832198-c15cff59b078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	box-sizing: border-box;
+	background-position: left;
+
 }
 
 
