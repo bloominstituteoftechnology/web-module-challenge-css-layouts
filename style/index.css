@@ -1,1 +1,14 @@
 /* Add CSS styling here */
+h1,h2,p{
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+    margin:50%;
+    height:50px;
+    width:50px;
+}
+section img{
+    height:25px;
+    width:25px;
+    
+}
