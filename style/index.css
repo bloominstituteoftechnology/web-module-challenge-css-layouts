@@ -1,1 +1,58 @@
-/* Add CSS styling here */
+html{
+    height:100vh;
+    width:100%;
+    }
+  *{
+      border:1px solid black;
+   }  
+
+   h3{
+    text-align:center;
+    margin:2px 0;
+    padding:0;
+    font-size:19px;
+    font-family:Lucida Handwriting;
+    text-shadow: 2px 2px white;
+    background-color:#a9e0fa;
+    display:flex;
+    flex-flow:column;  
+   }
+    ul a1, a2, a3, a4 {
+    margin: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-family:Georgia;
+    font-size:12px;
+    text-shadow:0 1px white;
+    width:70px;
+    height:15px;
+    text-align:center;
+  }
+  a1 {
+    background:#93e2c8;
+  }
+
+  a2{
+    background: #5ED3EB;
+  }
+
+  a3{
+    background:#f1aa3e;
+  }
+
+  a4{
+    background:#fcc0f2;
+  }
+  img{
+      height:100px;
+      width:100px;
+      
+  }
+  h1{
+      /* display:flex; */
+      width:120px;
+      height:70px;
+      flex-flow:row nowrap; 
+      /* justify-content:flex-end; */
+  }
+  
