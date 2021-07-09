@@ -46,7 +46,7 @@ nav a{
 }
 .left{
     /* border:solid 1px black; */
-    width:50%;
+    width:49.5%;
     display:flex;
     justify-content: center;
 
