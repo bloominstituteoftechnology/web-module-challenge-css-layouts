@@ -1,1 +1,250 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* This is where I start */
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/*General styles */
+
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Yomogi', cursive;  
+}
+
+h2{
+    padding: 1%;
+    font-size: 3rem;
+}
+
+/*header*/
+
+header{
+
+    background-color: burlywood;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%
+}
+
+.rachaelkim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%; 
+    border: 2px dashed black;
+    border-radius: 5px;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+nav a{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block
+    text-align: center;
+    border: 2px dashed black; 
+    border-radius: 5px; 
+    padding: 3%
+}
+nav:hover a{
+    transform: rotate(5deg);
+    background: black;
+    color: white;
+}
+.Home{
+    
+    background-color:beige;
+    color: black;
+    margin: 1%
+}
+.About{
+
+    background-color:beige;
+    color: black;
+    margin: 1%
+}
+.Contact{
+
+    background-color:beige;
+    color: black;
+    margin: 1%
+}
+.Projects{
+    
+    background-color:beige;
+    color: black;
+    margin: 1%
+}
+
+/* Main */
+
+.mainContainer{
+    background: url(https://st2.depositphotos.com/3027583/7005/v/950/depositphotos_70055019-stock-illustration-seamless-line-pattern-tile-background.jpg);
+    background-size: 100%
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincat{
+    background:url(https://images.unsplash.com/photo-1613020550741-d2161aa74caf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    box-sizing: border-box;
+    height: 600px;
+    width: 650px
+    
+}
+
+.rachaelkim2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: purple;
+    font-size: 7rem;
+    text-shadow: 4px 3px black;
+}
+
+
+.lovecats{
+    font-size: 3.5rem;
+    font-family: 'Yomogi', cursive;
+    border-radius: 20px;
+}
+
+
+/* Gallery*/
+
+.gallery{
+    
+}
+
+.pictures{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+    padding: 1% 10%
+}
+.pic1{
+    border: 2px solid black;
+    margin: 2%
+}
+.pic2{
+    border: 2px solid black;
+    margin: 2%
+}
+.pic3{
+    border: 2px solid black;
+    margin: 2%
+}
+.pic4{
+    border: 2px solid black;
+    margin: 2%
+}
+.pic5{
+    border: 2px solid black;
+    margin: 2%
+}
+.pic6{
+    border: 2px solid black;
+    margin: 2%   
+}
+
+.whitecat{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.1stcat{
+    font: green;
+}
+
+/*Footer Section styles*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 150px;
+}
+
+.ContactMe{
+    font-size: 3rem;
+    color: black;
+    background-color: burlywood;
+    padding: 0.5%;
+    border: 5px dashed black; 
+    border-radius: 10px;
+}
+a:hover{
+    background: black;
+    color: white;
+}
