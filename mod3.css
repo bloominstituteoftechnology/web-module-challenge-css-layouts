@@ -1,4 +1,10 @@
-﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+﻿@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poiret+One&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -49,9 +55,77 @@ table {
 
 
 
+.newhead {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100vw;
+  
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.newnav {
+margin-top: 30px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 20%;
+height: 50px;
+margin: 0 auto;
+margin-top: 40px;
+padding: 30px;
+}
+
+.newnav a {
+	color:white;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.home {
+	
+	padding: 30px;
+	background-color: #52796f;
+	
+}
+
+.home:hover {
+	text-color:black;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.about {
+	
+	padding: 30px;
+	background-color: #52796f;
+}
+
+.about:hover{
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.contact {
+	
+	padding: 30px;
+	background-color: #52796f;
+}
+
+.contact:hover {
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.projects {
+	
+	padding: 30px;
+	background-color: #52796f;
+}
+
+.projects:hover {
+	padding: 40px;
+	border-radius: 20px;
+}
 
 .topbuttons {
   text-align: center;

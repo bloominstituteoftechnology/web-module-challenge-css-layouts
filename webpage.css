@@ -1,4 +1,8 @@
-﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poiret+One&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -86,7 +90,7 @@ margin-top: 50px;
 
 nav {
 margin-top: 30px;
-border: 1px solid red;
+
 display: flex;
 align-items: center;
 justify-content: center;
@@ -105,7 +109,7 @@ nav a {
 color: black;
 }
 .home {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #F7EDE2;
 	
@@ -119,7 +123,7 @@ color: black;
 }
 
 .about {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #F7EDE2;
 }
@@ -130,7 +134,7 @@ color: black;
 }
 
 .contact {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #F7EDE2;
 }
@@ -141,7 +145,7 @@ color: black;
 }
 
 .projects {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #F7EDE2;
 }

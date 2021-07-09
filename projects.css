@@ -85,7 +85,7 @@ margin-top: 50px;
 
 nav {
 margin-top: 30px;
-border: 1px solid red;
+
 display: flex;
 align-items: center;
 justify-content: center;
@@ -103,7 +103,7 @@ nav a {
 	font-size: 20px;
 }
 .home {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #52796f;
 	
@@ -116,7 +116,7 @@ nav a {
 }
 
 .about {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #52796f;
 }
@@ -127,7 +127,7 @@ nav a {
 }
 
 .contact {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #52796f;
 }
@@ -138,7 +138,7 @@ nav a {
 }
 
 .projects {
-	border: 1px solid red;
+	
 	padding: 30px;
 	background-color: #52796f;
 }
@@ -165,7 +165,7 @@ p {
 section {
 	
 	margin-top: 40px;
-	border: 1px solid red;
+	
 }
 
 section a{
@@ -227,4 +227,22 @@ section .container4 a {
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
+}
+
+
+.footer {
+
+	
+	width: 100%;
+	height: 200px;
+	background-color: #cad2c5;
+}
+
+.footer .contact {
+	
+	
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+
 }

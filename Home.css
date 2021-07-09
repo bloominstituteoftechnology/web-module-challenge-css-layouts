@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poiret+One&display=swap');
+
+.newhead {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100vw;
+  
+}
+
+.newnav {
+margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 20%;
+height: 50px;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 40px;
+background-color:none;
+}
+
+.newnav a {
+	color:white;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.home {
+	padding: 30px;
+	background-color: black;
+	
+}
+
+.home:hover {
+	text-color:black;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.about {
+	
+	padding: 30px;
+	background-color:   black;
+}
+
+.about:hover{
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.contact {
+	
+	padding: 30px;
+	background-color: black;
+}
+
+.contact:hover {
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.projects {
+	
+	padding: 30px;
+	background-color: black;
+}
+
+.projects:hover {
+	padding: 40px;
+	border-radius: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    /*text-decoration: none;*/
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li:hover {
+    background-color: azure;
+}
+nav li:active {
+    background-color: black;
+}
+.Portfolio {
+    display: none;
+}
+
+h1 {
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+}
+body {
+    background-color: rgb(50, 109, 168);
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 150%;
+    text-align: center;
+}
+ol {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-size: 120%;
+} 
+#footer {
+    background-color: silver;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.Title {
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 1px black;
+}
+#next {
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 1px 1px 0px black;
+}
+#next1 {
+    padding-right: 100px;
+
+    text-align: right;
+    font-size: 200%;
+    text-shadow: 1px 1px 0px black;
+}
+#previous {
+    padding-left: 100px;
+
+    text-align: left;
+    font-size: 200%;
+    text-shadow: 1px 1px 0px black;
+}
+#previous1 {
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 1px 1px 0px black;
+}
+li {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 120%;
+}
+
+#social {
+    text-align: center;
+}   
+
+
+nav {
+  background-image: url('GameConvention1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ background-color: floralwhite;
+}
+
+#abouttitle {
+    font-size: 100%;
+    color: black;
+        
+}
+
+#midcol {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+#aboutimg {
+    text-align: center;
+}
