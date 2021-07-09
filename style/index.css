@@ -38,6 +38,9 @@ body{
     background-color:black;
     text-decoration: none;
 }
+nav a:hover{
+    color:red;
+}
 .aboutMe {
     text-align: center;
     display: flex;
@@ -59,12 +62,12 @@ body{
     margin-top: 2%;
 }
 .button1{
-    padding:5px;
+    justify-content: center;
     align-content: center;
     position: absolute;
     display: flex;
     width: 5vw;
-    height: 3vh;
+    height: 2vh;
     margin-top: 7em;
     margin-left:77em;
     color:lightgrey;
@@ -131,6 +134,7 @@ body{
     align-items:center;
 }
 .r1imagesText{
+    text-align: center;
     display: flex;
     align-items: baseline;
     display:flex;
@@ -223,6 +227,8 @@ body{
     align-items:center;
 }
 .r2imagesText{
+    text-align: center;
+    font-size:25px;
     align-items: baseline;
     display:flex;
     width: 50vw;
@@ -233,21 +239,22 @@ body{
     position: absolute;
     width: 10vw;
     height: 10vh;
-    margin-left: 11em;
+    margin-left: 5em;
 }
 .r2image2Text{
     display: flex;
     position:absolute;
     width: 10vw;
     height: 10vh;
-    margin-left: 29em;
+    margin-left: 18em;
+
 }
 .r2image3Text{
     display: flex;
     position: absolute;
     width: 10vw;
     height: 10vh;
-    margin-left: 28em;
+    margin-left: 18.5em;
 
 }
 .r2image4Text{
@@ -255,5 +262,30 @@ body{
     position:absolute;
     width: 10vw;
     height: 10vh;
-    margin-left:31.5em;
+    margin-left: 19.5em;
+}
+footer{
+    width:98vw;
+    height: 30vh;
+}
+footer a{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 28em;
+    margin-top: 5em;
+}
+footer .link1{
+    color: blue;
+    margin-left: 15em;
+}
+footer .link2{
+    color: blue;
+    margin-left: 50em;
+}
+footer .link1:hover{
+    color: red;
+}
+footer .link2:hover{
+    color:red;
 }
