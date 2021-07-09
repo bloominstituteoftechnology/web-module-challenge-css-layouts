@@ -1,55 +1,101 @@
 /* Add CSS styling here */
-
+* {
+    margin: 0;
+    padding: 0;
+  }
+html{
+    height: 100vh;
+}
 header{
-    width:100%;
-    background:#cd5c5c;
-    height:15vh;
-    /* padding: 30px; */
-    border:1px solid black
+background: coral;
+height:80px;
 }
 h1{
-    display: flex;
-    align-content: flex-start;
-    border:1px solid black;
-    width:20%;
-    font-size: 2rem;
+    border:solid 1px black;
+    padding:1px;
+    width:250px;
+    text-align: right;
 }
 nav{
-border:1px solid black;
-width:22%;
-display:flex;
-justify-content: flex-end;
+    border:solid 1px black;
+ margin-left:80px;
+    display: flex;
+ justify-content:;
+height:40px;
+margin-top:0;
 }
 nav a{
-    border:1px solid black;
-    background-color:white;
-    text-decoration: none;
-    color:black;
-    padding:10px;
+    background:white;
+    height:30px;
+    border:solid 1px black;
+    width: 80px;
+    text-align:center;
+    
 }
 .second{
-    border:1px solid black;
-    height: 35vh;
+    width:100%;
+    border:solid 1px black;
+    display:flex;
+    justify-content:space-evenly;
+    height:50vh; 
 }
 .left{
-    background: url("https://picsum.photos/");
-    border:1px solid black;
+    border:solid 1px black;
+    width:50%;
+    display:flex;
+    justify-content: center;
+
 }
 .right{
-    border:1px solid black;
+    border:solid 1px black;
+    display:flex;
+    justify-content:flex-end;
+    align-content: ;
+    flex-flow:row ;
+    width: 50%;
+    
 }
+button{
+    width:100px;
+    height:30px;
+}
+
+
+
+
+
+
+
+
+
 .third{
-    border:1px solid black;
-    height: 35vh;
+    display:flex;
+  justify-content:space-evenly;
+align-content:space-evenly;
+  flex-flow:row wrap;
+  width:100%;
+  border:solid 1px black;
+  height:80vh;
+  padding:5px;
+  text-align:center
 }
-.fourth{
-    width:100%;
-    background:#cd5c5c;
-    height:15vh;
-    border:1px solid black;
-}
-.footer{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.image{
+    border:solid 1px black;
+    background:url(https://picsum.photos/300);
+    width:300px;
+    height:300px;
+    background-image:no-repeat;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center
+    
+  }
+.yes{
+    border:solid 1px black;
+    display:flex;
+  flex-wrap:wrap;
+  flex-flow:row;
+  justify-content: center;
 }
