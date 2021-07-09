@@ -16,9 +16,11 @@ body {
 
 header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	height: 10%;
+	width: 100%;
+	border: 1px solid black;
 }
 
 header nav {
@@ -38,7 +40,7 @@ header nav a {
 }
 
 header nav a:hover {
-	padding: ;
+	padding: 1rem;
 	color: white;
 	background-color: blue;
 	border: 2px solid lightslategray;
@@ -46,9 +48,22 @@ header nav a:hover {
 
 main {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    height: 60rem;
+    width: 60rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main img {
+    width: 210px;
+    height: 210px;
 }
 
 footer {

@@ -16,9 +16,10 @@ body {
 
 header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	height: 10%;
+	width: 100%;
 }
 
 header nav {
@@ -46,9 +47,54 @@ header nav a:hover {
 
 main {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	width: 90vw;
+}
+
+main .head {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+main form {
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+main form fieldset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 2rem;
+	width: 15rem;
+}
+
+main form input {
+	height: 1.5rem;
+	width: 14.5rem;
+}
+
+main form .textarea {
+	height: 300px;
+}
+
+main form textarea {
+	height: 290px;
+	width: 14.5rem;
+}
+
+main form button {
+	height: 1.5rem;
+	width: 14.5rem;
+	background-color: #ffc1c1;
+}
+
+main form button:hover {
+	cursor: pointer;
 }
 
 footer {
@@ -61,4 +107,4 @@ footer {
 
 footer a:hover i {
 	font-size: 2rem;
-}}
+}
