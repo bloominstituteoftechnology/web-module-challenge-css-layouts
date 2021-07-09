@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Mali', cursive;
   }
 html{
     height: 100vh;
@@ -11,53 +12,76 @@ background: coral;
 height:80px;
 }
 h1{
-    border:solid 1px black;
+    /* border:solid 1px black; */
+    font-size:30px;
     padding:1px;
-    width:250px;
+    width:280px;
     text-align: right;
 }
 nav{
-    border:solid 1px black;
+    /* border:solid 1px black; */
  margin-left:80px;
     display: flex;
- justify-content:;
-height:40px;
+ align-content:center;
+height:30px;
 margin-top:0;
 }
 nav a{
     background:white;
     height:30px;
-    border:solid 1px black;
-    width: 80px;
-    text-align:center;
-    
+    border:solid 1px gray;
+    width: 90px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    text-decoration:none;
 }
 .second{
     width:100%;
-    border:solid 1px black;
+    /* border:solid 1px black; */
     display:flex;
     justify-content:space-evenly;
     height:50vh; 
 }
 .left{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     width:50%;
     display:flex;
     justify-content: center;
 
 }
 .right{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     display:flex;
-    justify-content:flex-end;
-    align-content: ;
-    flex-flow:row ;
+    justify-content:center;
+    align-items:flex-start;
+    flex-flow:column ;
+    padding:10px;
     width: 50%;
     
 }
 button{
+    /* border:solid 1px black; */
     width:100px;
+    margin-bottom: 10px;
     height:30px;
+    font-size:15px;
+    color:black;
+    text-decoration:none;
+}
+.button{
+    text-decoration:none;
+    color:black;
+}
+.me{
+    /* border:solid 1px black;  */
+    width:500px;
+    /* border:solid 1px black; */
+}
+h2{
+    /* border:solid 1px black; */
+    padding-bottom: 10px;
 }
 
 
@@ -74,13 +98,13 @@ button{
 align-content:space-evenly;
   flex-flow:row wrap;
   width:100%;
-  border:solid 1px black;
+  /* border:solid 1px black; */
   height:80vh;
   padding:5px;
   text-align:center
 }
 .image{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     background:url(https://picsum.photos/300);
     width:300px;
     height:300px;
@@ -93,9 +117,19 @@ align-content:space-evenly;
     
   }
 .yes{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     display:flex;
   flex-wrap:wrap;
   flex-flow:row;
   justify-content: center;
+}
+footer{
+    background: coral;
+    height:100px;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow:column ;
 }
