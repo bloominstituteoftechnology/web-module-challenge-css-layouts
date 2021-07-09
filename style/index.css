@@ -43,7 +43,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     }
 
 /*General Styles*/
@@ -60,7 +60,7 @@ blockquote, q {
     }
 
     section{
-        padding:4% 0; /*this just spaces the page out a little bit nicer.*/
+         padding:4% 0;/* this just spaces the page out a little bit nicer. */
     }
     a{
         text-decoration:none;
@@ -89,7 +89,7 @@ blockquote, q {
         margin:2%; 
     }
     h1{
-        width:33%;
+        width:36%;
         padding:1% 0;
         font-size:4rem;
         letter-spacing: 1.5mm;
@@ -97,7 +97,7 @@ blockquote, q {
         text-shadow:1px 1px 2px black;
     }
     nav{
-        width:66%;
+        width:64%;
         display:flex;
         justify-content: flex-end;
         align-items: center;
@@ -111,6 +111,14 @@ blockquote, q {
     .home{
         background-color:rgb(235, 125, 85);
     }
+
+    /* navigation bar hover styles */
+    nav a:hover{
+        transition:2s;
+        color:mediumblue;
+        background-color:rgb(255, 215, 113);
+    }
+    
 
 /* top section styles */
     .container{
@@ -131,7 +139,7 @@ blockquote, q {
         font-size:5rem;
         text-transform:uppercase;
         margin-bottom:1%;
-        width:45%;
+        width:50%;
         color:rgb(238, 188, 154);
         background-color:rgba(15, 13, 13, 0.411);
         text-transform:uppercase;
@@ -144,8 +152,20 @@ blockquote, q {
         color:rgba(55, 55, 55, 0.9);
         border:solid 1px black;
         text-decoration:none;
-        background-color:rgba(251, 216, 185, 0.243);
-        
+        background-color:rgba(251, 216, 185, 0.243);   
+    }
+    .container a:hover{
+        background-color:rgb(251, 216, 185);
+        transition:1s;
+    }
+
+    h3{
+        text-align:center;
+        margin:0 auto;
+        font-size: 5rem;
+        width:30%;
+        color:lightsalmon;
+        text-shadow:1px 1px 2px black;
     }
 /* top section hover styles  */
     h2:hover{
@@ -155,6 +175,7 @@ blockquote, q {
     
 /* images section styles */
     #pics{
+        padding-top:2%;
         display:flex;
         flex-wrap:wrap;
         justify-content: space-around;
@@ -174,6 +195,7 @@ blockquote, q {
         margin-top:3%;
         color:rgb(235, 125, 85);
         text-shadow:1px 1px 2px black;
+        text-transform: capitalize;
     }
     
 
@@ -188,4 +210,9 @@ blockquote, q {
         padding:1% 4%;
         color:black;
         font-weight:bold;
+    }
+    footer a:hover{
+        background-color:mediumpurple;
+        color:white;
+        transition:1s;
     }
