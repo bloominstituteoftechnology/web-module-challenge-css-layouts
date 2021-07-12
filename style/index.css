@@ -1,1 +1,297 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+/* Start of document */
+
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  box-sizing:border-box;
+  max-width:100%;
+
+}
+
+body {
+    line-height: 1.5;
+    font-size:1.8rem;
+    background-color: #fbfffb;
+    color:#4f4f4f;
+}
+h1 {
+  text-align: center;
+  margin: 60px 0px 40px 0px;
+  color: #1b212c;
+  font-size: 5rem;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+nav a {
+  padding: 10px 40px;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  padding: 10px 40px;
+  background-color: black;
+
+  text-decoration: none;
+  color: white;
+  transform: 0.3s;
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+  margin: 60px 0px 20px 0px;
+  color: #1b212c;
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+}
+.lorem {
+  text-align: center;
+  margin: 40px 200px 40px 200px;
+}
+
+.span {
+  background-image: url(https://images.unsplash.com/photo-1625645153391-ae69c0b090cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80);
+  width: 100%;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.pictures {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+}
+.pictureone, .picturetwo, .picturethree, .picturefour {
+  width: 20%;
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.pictureone {
+  background-image: url(https://images.unsplash.com/photo-1625631980741-33a7752108f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+}
+.picturetwo {
+  background-image: url(https://images.unsplash.com/photo-1625599455800-9d34374471d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+.picturethree {
+  background-image: url(https://images.unsplash.com/photo-1625754648538-9eaa75cf4a98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80);
+}
+.picturefour {
+  background-image: url(https://images.unsplash.com/photo-1625640386828-b1586a3652e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+
+.lowertext {
+  position: absolute;
+  top: 1200px;
+  left: 1700px;
+}
+
+body {
+  height: 1600px;
+}
+
+footer {
+  background: lightgray;
+  width: 100%;
+  height: 150px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  padding: 10px 40px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+  padding: 10px 20px 10px 20px;
+  border: black solid 1px;
+  font-size: 1.8rem;
+
+} */
+
+
+@media(max-width:800px) {
+body {
+    width: 800px;
+}  
+
+}
+/* .intro {
+  text-align: center;
+  margin: 40px 200px 40px 200px;
+} */
+
+
+@media(max-width:500px) {
+body {
+        width: 500px;
+    }
+.intro {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin:0;
+      }
+h2 {
+  width: 100%;
+}
+.lorem {
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+
+}
+    }
