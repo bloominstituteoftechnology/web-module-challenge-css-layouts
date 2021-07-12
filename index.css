@@ -96,4 +96,20 @@ nav a{
         background-color: rgb(69, 146, 24);
         
     }
+    .home1{
+        background-color: black;
+
+    }
+    .home1:hover{
+        color:darkslategray;
+        background-color: darkturquoise;
+    }
+    .contactb a{
+        background-color: black;
+    }
+    .contactb a:hover{
+        background-color: orangered;
+        transition: .3s;
+        color: black;
+    }
 }
