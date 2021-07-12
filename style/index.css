@@ -55,6 +55,8 @@ html{
     height:100vh;
     width:100vw;
     font-family: 'Montserrat', sans-serif;
+    box-sizing:border-box;
+
 }
 
 body{
@@ -69,27 +71,25 @@ a:hover{
     color:#FF3B3F;
 }
 
-/*Header section (name +nav)*/
+/* Header section (name +nav) */
 header{
     display:flex;
     justify-content:space-between;
     align-content: space-around;
-    margin:0 1.5rem 1.5rem 0;
+    margin:2rem 2rem 2rem 4rem;
 }
 
 h1{
-    font-size: 3rem;
-    margin-top:1rem;
-    margin-left:3rem;
+    font-size: 4rem;
+    margin-top:2rem;
     color:#A9A9A9;
 }
 
 nav{
-    width:25vw;
+    width:40vw;
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom:3rem;
 }
 
 nav a{
@@ -104,10 +104,20 @@ nav a{
 }
 /*Intro img + name +link to projects*/
 .who-i-am{
-    height:60vh;
+    height:38vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.who-i-am img{
+}
+
+.nameAndLink{
+    margin-top:-20rem;
+    display:flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -115,26 +125,21 @@ nav a{
     font-size:5rem;
     color:white;
     text-shadow: 1px 1px black;
-    margin-bottom: -30rem;
-    /* Not sure why this happened, but z-index fixes it*/
-    z-index: 1000;
 }
 
 .who-i-am a{
-    margin-top:-9rem;
+    width:9rem;
     text-color:#EFEFEF;
     font-size:1.5rem;
     background-color:#EFEFEF;
     padding:1rem;
     border-radius: 5px;
     opacity: 0.5;
+    z-index: 1000;
+    
 }
 .who-i-am a:hover{
     opacity:1;
-}
-
-.who-i-am img{
-    margin-top:3rem;
 }
 
 /*Project gallery*/
@@ -144,8 +149,7 @@ nav a{
     flex-wrap:wrap;
     align-content: space-around;
     justify-content: space-around;
-    margin-top:-15rem;
-    
+    margin:7rem 3rem 0 3rem;   
 }
 
 .project{
@@ -157,7 +161,6 @@ nav a{
     justify-content: center;
     align-items: flex-end;
     opacity:1;
-
 }
 .project:hover{
     opacity:0.5;
@@ -174,8 +177,7 @@ nav a{
 
 /*Footer*/
 footer{
-    height: 10vh;
-    width:100vw;
+    height: 15vh;
     background-color:#A9A9A9;
     display:flex;
     justify-content: center;
@@ -189,7 +191,7 @@ footer{
     align-items: center;
     background-color:#EFEFEF;
     padding:1rem;
-    color:#black;
+    color:black;
 }
 
 .social{
@@ -197,6 +199,79 @@ footer{
     bottom:0;
     left:20rem;
     border:1px solid black;
+}
 
+/*800px breakpoint*/
+@media(max-width:800px){
 
+header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:0;
+}
+
+nav{
+    flex-direction:column;
+    align-items: center;
+}
+nav a{
+    height:1rem;
+    width:3rem;
+    padding:1rem 2.5rem;
+   /* border:1px solid black;*/
+}
+h1{
+    margin:1rem 0;
+}
+
+.who-i-am{
+    height:35vh;
+}
+
+.who-i-am h2{
+    font-size: 5rem;
+}
+
+.who-i-am a{
+}
+
+.who-i-am img{
+    width:70%;
+}
+
+.project-gallery{
+    height:60vh;
+}
+
+.project{}
+
+}
+
+/*500px breakpoint*/
+@media(max-width:500px){
+    .who-i-am{
+        height:35vh;    
+    }
+    
+    .who-i-am h2{
+        font-size: 5rem;
+    }
+    
+    .who-i-am a{
+    }
+    
+    .who-i-am img{
+        width:80%;
+        margin-top:-15rem;
+    }
+    
+    .project-gallery{
+        height:90vh;
+        margin-top:-1rem;
+
+    }
+    footer{
+        height: 10vh;
+    }
 }
