@@ -1,291 +1,136 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
-    background-color: wheat;
-    width: 98%;
-    height: 100%;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-family: sans-serif;
 }
-.myName{
-    display: flex;
-    color: black;
-    width: 100%;
-    height: 10vh;
-    margin-left: 1.5%;
-    background-color: lightgray;
+
+h1{
+    font-size: 5rem;
 }
-.name{
-    font-size: 30px;
-    margin-left: 2%;
-    margin-top: -2.7em;
+header{
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 15px;
 }
-.nav{
-    margin-top: -1%;
-    font-size: 1.7em;  
+
+
+header h1{
+    margin-left: 1em;
 }
-.nav{
+
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+.topSection{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 25px;
-    width:25%;
-    height: 5vh;
-    margin-left: 2%;
-    justify-items: space-between;
-    align-items: center;
+    justify-content: center;
 }
-.nav a{
+
+.topSection img{
+    width: 600px;
+}
+
+.aboutMe{
+    padding: 40px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+}
+
+.image{
+    text-align: center;
+}
+
+.row img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black;
     color: white;
-    border-radius: 10px;
-    padding: 10px;
-    background-color:black;
+    border: white solid 1px;
+}
+button a{
     text-decoration: none;
+    color: inherit;
 }
-nav a:hover{
-    color:red;
-}
-.aboutMe {
-    text-align: center;
-    display: flex;
-    height: 75%;    
-}
-.infoName{
-    position: absolute;
-    text-align: center;
-    font-size: 35px;
-    width: 20%;
-    height: 10%;
-    align-content: center;
-    justify-content: center;
-    margin-left: 31em;
-}
-.mainPhoto img{
-    width: 65%;
-    margin-left: 5%;
-    margin-top: 2%;
-}
-.button1{
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    display: flex;
-    width: 5vw;
-    height: 2vh;
-    margin-top: 7em;
-    margin-left:77em;
-    color:lightgrey;
-}
-.infoMe{
-    font-size: 25px;
-    display:flex;
-    position: absolute;
-    width:25vw;
-    height:30vh;
-    margin-left: 41.5em;
-    margin-top: 6em;
-}
-.infoMe{
-    display: flex;
-    justify-content: center;
-}
-.row1{
-    display: flex;
-    width:98vw;
-    height:46.5vh;
-    align-items:baseline;
-}
-.row1 .r1image1 img{
-    position: relative;
-    width: 24em;
-    
-}
-.row1 .r1image1 {
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height:38.5vh;
-    margin-left: 2em;
-    margin-top: 2em;
-    justify-content: center;
-    align-items: center;
-}
-.row1 .r1image2{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 58em;
-    justify-content: center;
-    align-items:center;
-}
-.row1 .r1image3{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 58em;
-    justify-content: center;
-    align-items:center;
-}
-.row1 .r1image4{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 58em;
-    justify-content: center;
-    align-items:center;
-}
-.r1imagesText{
-    text-align: center;
-    display: flex;
-    align-items: baseline;
-    display:flex;
-    width: 98vw;
-    height:12vh;
-}
-.r1image1Text{
-    font-size:25px;
-    display: flex;
-    position: absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 4.5em;
-    justify-content: center;
-    align-items: center;
-}
-.r1image2Text{
-    display: flex;
-    position:absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 38em;
-    justify-content: center;
-    align-items: center;
-}
-.r1image3Text{
-    font-size: 25px;
-    display: flex;
-    position: absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 38em;
-    justify-content: center;
-    align-items: center;
-}
-.r1image4Text{
-    display: flex;
-    position:absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 38em;
-    justify-content: center;
-    align-items: center;
-}
-.row2{
-    display: flex;
-    width:98vw;
-    height:46.5vh;
-    align-items:baseline;
-}
-.row2 .r2image1 {
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height:38.5vh;
-    margin-left: 2em;
-    margin-top: 2em;
-    justify-content: center;
-    align-items:center;
-}
-.row2 .r2image2 img{
-    width: 20vw;
-}
-.row2 .r2image2{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 56em;
-    justify-content: center;
-    align-items:center;
-}
-.row2 .r2image3{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 58em;
-    justify-content: center;
-    align-items:center;
 
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 5rem;
 }
-.row2 .r2image4{
-    display: flex;
-    position: absolute;
-    width: 20vw;
-    height: 38.5vh;
-    margin-left: 60em;
-    justify-content: center;
-    align-items:center;
-}
-.r2imagesText{
-    text-align: center;
-    font-size:25px;
-    align-items: baseline;
-    display:flex;
-    width: 50vw;
-    height:12vh;
-}
-.r2image1Text{
-    display: flex;
-    position: absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 5em;
-}
-.r2image2Text{
-    display: flex;
-    position:absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 18em;
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
-.r2image3Text{
-    display: flex;
-    position: absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 18.5em;
 
+/*tablets*/
+
+@media(max-width: 600px){
+    #aboutMe{
+        background-position:left center;
+    }
+    #aboutMe div{
+        width: 50%;
+        margin-right: 3%;
+        margin-top: 5%;
+    }
+    #row{
+        background-position: center;
+    }
 }
-.r2image4Text{
-    display: flex;
-    position:absolute;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 19.5em;
-}
-footer{
-    width:98vw;
-    height: 30vh;
-}
-footer a{
-    display: flex;
-    position: absolute;
-    font-size: 25px;
-    margin-left: 28em;
-    margin-top: 5em;
-}
-footer .link1{
-    color: blue;
-    margin-left: 15em;
-}
-footer .link2{
-    color: blue;
-    margin-left: 50em;
-}
-footer .link1:hover{
-    color: red;
-}
-footer .link2:hover{
-    color:red;
+
+/*phones*/
+
+@media(max-width:500px){
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .link{
+        width: 100%;
+    }
+    #about{
+        justify-content: center;
+        height: auto;
+    }
+    #about div{
+        margin: 0;
+        width: 90%;
+    }
+    .section{
+        justify-content: center;
+    }
+    p{
+        width: 90%;
+    }
 }
