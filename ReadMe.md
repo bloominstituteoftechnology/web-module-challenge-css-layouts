@@ -23,6 +23,8 @@ Portfolio websites are a great way to show off your work to friends, family, and
 
 Follow these steps to set up and work on your project:
 
+    tring to redo this project 
+
 - [done ] Create a forked copy of this project.
 - [done ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [done ] Create a new branch: git checkout -b `<firstName-lastName>`.
