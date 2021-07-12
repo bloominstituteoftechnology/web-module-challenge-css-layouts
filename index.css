@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  width:100%
+  width:100%;
+  Height:100vh;
   
 }
 ol, ul {
@@ -47,7 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html{
+  font-size:62.5%;
+}
 .titlebox{
   font-family: 'Teko', sans-serif;
   font-size:3.5rem;
@@ -154,7 +157,73 @@ gallery a{
   align-items:center;
   position:absolute;
   left:60%
-  
- 
-  
+}
+
+/*Tablets*/
+@media(max-width: 800px){ /*apply these styles to anything that is 800px or smaller*/
+  /*all of the styles for 800px go here*/
+ #head{
+   display:flex;
+   justify-content: center;
+ }
+ .fillertext{
+   display:flex;
+   justify-content: end;
+ }
+ .mainimage{
+  Height:50vh;
+  width:500px;
+ }
+ h1{
+   width:100%;
+ }
+  }
+  /*phones*/
+@media(max-width:500px){
+  h1{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #head{
+    display:flex;
+    justify-content: center;
+  }
+  .mainimage{
+    Height:30vh;
+    width:300px;
+   }
+  #head{
+    width: 90%;%;
+  }
+  nav{
+    display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+  }
+  .fillertext{
+    display:flex;
+    justify-content: end;
+    flex-wrap:wrap;
+  }
+  .one{
+    order:1;
+}
+.two{
+    order:2;
+}
+.three{
+    order:3;
+}
+.four{
+    order:4;
+} 
+.gallery{
+height:75px;
+  width:75px;
+  display:flex;
+  border:1px solid black;
+  position:absolute;
+  left:30%;
+  top:40%;
 }
