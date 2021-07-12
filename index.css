@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    background-color: rgb(166, 111, 218);
+    background-color:rgba(221, 125, 35, 0.795);
     /* border: 1px solid rgba(5, 104, 62, 0.541); */
     /* color:lightgray; */
 }
@@ -34,10 +34,11 @@ nav a{
     background-image: url("https://picsum.photos/700/300");
     background-size: cover;
     height: 50vh;
+    background-position: center;
 }
 .home1{ 
     color: lightcyan;
-    background-color:darkslategrey ;
+    background-color:rgb(64, 48, 121) ;
 
 }
 .home1:hover{
@@ -79,10 +80,20 @@ nav a{
 
 }
 #contactA{
+
     text-align: center;
 
 }
 .info{
   color: aqua;
     margin: 10px 10px 10px 10px;
+}
+
+
+/* tablet */
+@media(max-width: 800px){
+    *{
+        background-color: rgb(69, 146, 24);
+        
+    }
 }
