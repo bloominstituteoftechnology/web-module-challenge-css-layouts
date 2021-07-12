@@ -1,58 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 html{
-    height:100vh;
-    width:100%;
-    }
-  *{
-      border:1px solid black;
-   }  
+  height:100vh;
+  width:100%;
+  }
+  .container {
+    width: 800px;
+    padding: 20 px;
+    margin:0 auto;
+    /* border: 1px solid red; */
+  }
+header {
+  background-color: lightgray;
+  adding: 20px;
+  margin-bottom: 15px;
+}
 
-   h3{
-    text-align:center;
-    margin:2px 0;
-    padding:0;
-    font-size:19px;
-    font-family:Lucida Handwriting;
-    text-shadow: 2px 2px white;
-    background-color:#a9e0fa;
-    display:flex;
-    flex-flow:column;  
-   }
-    ul a1, a2, a3, a4 {
-    margin: 0 10px;
-    border-radius: 5px;
-    margin-bottom: 12px;
-    font-family:Georgia;
-    font-size:12px;
-    text-shadow:0 1px white;
-    width:70px;
-    height:15px;
-    text-align:center;
-  }
-  a1 {
-    background:#93e2c8;
-  }
+footer {
+  background-color:lightgray;
+  text-align: center;
+  padding:20px;
+}
 
-  a2{
-    background: #5ED3EB;
-  }
+.topsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.description {
+padding: 20px;
+width: 50%;
+}
+.row {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+padding: 20px;
+}
 
-  a3{
-    background:#f1aa3e;
-  }
+.portfolio-element {
+text-align: center;
+}
 
-  a4{
-    background:#fcc0f2;
-  }
-  img{
-      height:100px;
-      width:100px;
-      
-  }
-  h1{
-      /* display:flex; */
-      width:120px;
-      height:70px;
-      flex-flow:row nowrap; 
-      /* justify-content:flex-end; */
-  }
-  
+button {
+background-color: white;
+color:black;
+border: 1px black solid;
+padding: 5px 10px;
+border-radius: 2px;
+}
+button:hover {
+background-color: rgb(29, 13, 13);
+color:rgb(252, 247, 247);
+border: 1px god solid;
+}
+
+button a{
+text-decoration: none;
+color:inherit;
+}
