@@ -64,82 +64,53 @@ body{
 }
 
 h2{
-    padding: 1%;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin: 10px 5px;
 }
 
 /*header*/
 
 header{
-
-    background-color: burlywood;
+    background-color: rgb(221, 221, 184);
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1%
+    padding: 3% 40px;
 }
 
 .rachaelkim{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%; 
     border: 2px dashed black;
     border-radius: 5px;
     text-align: left;
+    margin: 1% 0;
 }
 
-nav{
+.nav-container{
     display: flex;
     justify-content: center;
     align-items: center;   
 }
 
-nav a{
-    display: flex;
-    justify-content: space-evenly;
-    display: inline-block
-    text-align: center;
+.nav-button{
+    background-color:beige;
+    color: black;
     border: 2px dashed black; 
     border-radius: 5px; 
-    padding: 3%
+    padding: 3%;
+    margin: 1%;
 }
-nav:hover a{
+
+.nav-button:hover {
     transform: rotate(5deg);
     background: black;
-    color: white;
-}
-.Home{
-    
-    background-color:beige;
-    color: black;
-    margin: 1%
-}
-.About{
-
-    background-color:beige;
-    color: black;
-    margin: 1%
-}
-.Contact{
-
-    background-color:beige;
-    color: black;
-    margin: 1%
-}
-.Projects{
-    
-    background-color:beige;
-    color: black;
-    margin: 1%
+    color: white;    
 }
 
 /* Main */
 
 .mainContainer{
     background: url(https://st2.depositphotos.com/3027583/7005/v/950/depositphotos_70055019-stock-illustration-seamless-line-pattern-tile-background.jpg);
-    background-size: 100%
+    background-size: 100%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -155,17 +126,17 @@ nav:hover a{
     align-items: center;
     padding: 1%;
     box-sizing: border-box;
-    height: 600px;
-    width: 650px
-    
+    width: 25vw;
+    height: 25vw;
+    margin: 1%;
 }
 
 .rachaelkim2{
     position: absolute;
     width: 100%;
     text-align: center;
-    color: purple;
-    font-size: 7rem;
+    color: orange;
+    font-size: 8rem;
     text-shadow: 4px 3px black;
 }
 
@@ -179,50 +150,21 @@ nav:hover a{
 
 /* Gallery*/
 
-.gallery{
-    
-}
-
 .pictures{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;  
-    padding: 1% 10%
+    padding: 1% 2%;
 }
-.pic1{
-    border: 2px solid black;
-    margin: 2%
+.pic-container{
+    margin: 3%
 }
-.pic2{
-    border: 2px solid black;
-    margin: 2%
+.img{
+    border: 2px solid black;  
 }
-.pic3{
-    border: 2px solid black;
-    margin: 2%
-}
-.pic4{
-    border: 2px solid black;
-    margin: 2%
-}
-.pic5{
-    border: 2px solid black;
-    margin: 2%
-}
-.pic6{
-    border: 2px solid black;
-    margin: 2%   
-}
-
-.whitecat{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.1stcat{
-    font: green;
+.img-text{
+    text-align: center;
 }
 
 /*Footer Section styles*/
@@ -232,14 +174,14 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: beige;
-    height: 150px;
+    background-color: rgb(221, 221, 184);
+    height: 20vh;
 }
 
 .ContactMe{
     font-size: 3rem;
-    color: black;
-    background-color: burlywood;
+    color: black;text-align: center;
+    background-color: beige;
     padding: 0.5%;
     border: 5px dashed black; 
     border-radius: 10px;
@@ -247,4 +189,82 @@ footer{
 a:hover{
     background: black;
     color: white;
+}
+
+/* Media Queries */
+
+@media(max-width: 800px){
+header{
+    padding-top: 1% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.rachaelkim2{
+    font-size: 5.5rem;
+}
+
+.pic-container{
+    width: 40%;
+}
+.lovecats{
+    font-size: 2.5rem;
+}
+.ContactMe{
+    border: 3.5px dashed black;
+}
+}
+
+@media(max-width: 500px){
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+h2{
+    font-size: 2rem;   
+}
+
+.nav-button{
+    font-size: 1rem;   
+}
+.rachaelkim2{
+    font-size: 3rem;
+
+}
+.lovecats{
+    font-size: 1.5rem;
+}
+.aligngallery{
+    display: flex;
+    align-items: center;
+}
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+
+}
+.pictures{
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.img{
+    width: 80%;
+    
+}
+.img-text{
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+.ContactMe{
+    font-size: 1rem;
+    border: 2.5px dashed black; 
+}
 }
