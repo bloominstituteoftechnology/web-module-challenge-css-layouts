@@ -1,50 +1,56 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
+/*CSS reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  }
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+  }
 ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+  list-style: none;
+  }
+/* tables still need cellspacing="0" in the markup */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  }
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+  }
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  }
+blockquote, q {
+  quotes: "" "";
+  }
+/*end of CSS reset*/
+*{
+  box-sizing:border-box; /*makes css respect the width of the box, apply padding or border within the width, not in addition to it.*/
+  padding:0;
+  margin:0;
+  max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
+  border:1px solid grey;
+  }
+/*General Styles (great to use until you have a preference)*/
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size:1.6rem;/*setting font size back to 16px*/
+  line-height:1.5; /*takes the font size and multiplies it by this number to add space between lines*/
+  color:#4f4f4f;
 }
 
 .topsection{
@@ -73,10 +79,12 @@ button a{
     color:inherit;
 }
  .row{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
     }
     
 .row img{
