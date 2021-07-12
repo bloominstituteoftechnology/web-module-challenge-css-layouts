@@ -69,6 +69,7 @@ a:hover{
     color:#FF3B3F;
 }
 
+/*Header section (name +nav)*/
 header{
     display:flex;
     justify-content:space-between;
@@ -101,7 +102,7 @@ nav a{
     color:#A9A9A9;
     font-weight:900;
 }
-
+/*Intro img + name +link to projects*/
 .who-i-am{
     height:60vh;
     display:flex;
@@ -115,7 +116,7 @@ nav a{
     color:white;
     text-shadow: 1px 1px black;
     margin-bottom: -30rem;
-/* Not sure why this happened, but z-index fixes it*/
+    /* Not sure why this happened, but z-index fixes it*/
     z-index: 1000;
 }
 
@@ -136,6 +137,7 @@ nav a{
     margin-top:3rem;
 }
 
+/*Project gallery*/
 .project-gallery{
     height: 65vh;
     display:flex;
@@ -170,6 +172,7 @@ nav a{
     color:#FF3B3F;
 }
 
+/*Footer*/
 footer{
     height: 10vh;
     width:100vw;
@@ -185,9 +188,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color:#EFEFEF;
-    height:2rem;
-    width:6rem;
-    padding:0 1rem;
+    padding:1rem;
     color:#black;
 }
 
