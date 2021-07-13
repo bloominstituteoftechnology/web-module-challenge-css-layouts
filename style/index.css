@@ -2,6 +2,16 @@ html{
     font-size: 62.5%;
 }
 
+section{
+    padding: 4%;
+}
+
+header{
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
 body{
     line-height: 1.5;
     font-size: 1.6rem;
@@ -10,16 +20,6 @@ body{
 
 h1{
     font-size: 5rem;
-}
-header{
-    background-color: grey;
-    padding: 20px;
-    margin-bottom: 15px;
-}
-
-
-header h1{
-    margin-left: 1em;
 }
 
 footer{
@@ -35,7 +35,9 @@ footer{
 }
 
 .topSection img{
-    width: 600px;
+    width: 50em;
+    height: 30em;
+    
 }
 
 .aboutMe{
@@ -95,7 +97,7 @@ button a{
 
 /*tablets*/
 
-@media(max-width: 600px){
+@media(max-width: 800px){
     #aboutMe{
         background-position:left center;
     }
@@ -107,7 +109,19 @@ button a{
     #row{
         background-position: center;
     }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
+
 
 /*phones*/
 
@@ -119,18 +133,32 @@ button a{
     .link{
         width: 100%;
     }
-    #about{
+    #aboutMe{
         justify-content: center;
         height: auto;
     }
     #about div{
+        display: flex;
         margin: 0;
         width: 90%;
     }
-    .section{
-        justify-content: center;
+
+    .topSection{
+        flex-wrap: wrap;
     }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
     p{
         width: 90%;
+    }
+
+    .one{
+        order: 1;
+    }
+    .two{
+        order: 2;
     }
 }
