@@ -1,0 +1,42 @@
+#about{
+  background-color: #32a88d;
+  text-align: center;
+  color: purple;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+}
+#projects{
+  background-color: #00b33c;
+  text-align: center;
+  color: blue;
+  margin: 0px 0 20px 0;
+  padding: 20px;
+}
+#contact{
+  background-color: rgb(0, 102, 34);
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px
+}
+img{
+  margin_left: auto;
+  margin_right: auto;
+  margin-bottom: 2em;
+}
+.navbar{
+  background-color: #328da8;
+  font-weight: bold;
+  color: purple !important;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.nav{
+  background-color: #328da8;
+  font-weight: bold;
+  text-align: center;
+  color: white !important;
+}
+body{
+  padding-bottom: 70px;
+}
