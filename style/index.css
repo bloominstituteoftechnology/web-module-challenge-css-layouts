@@ -150,15 +150,4 @@ button a{
     .row{
         flex-wrap: wrap;
     }
-
-    p{
-        width: 90%;
-    }
-
-    .one{
-        order: 1;
-    }
-    .two{
-        order: 2;
-    }
 }
