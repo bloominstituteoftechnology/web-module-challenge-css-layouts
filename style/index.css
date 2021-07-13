@@ -43,9 +43,6 @@ table {
 	border-spacing: 0;
 }
 /*--------------------------------------------------*/
-* {
-
-}
 a {
 	text-decoration: none;
 	color: inherit;
@@ -88,7 +85,7 @@ nav links a {
 .topsection {
 	display: flex;
 	justify-content: center;
-	margin: 1%
+	margin: 1%;
 }
 .imagebutton {
 background-image: url(https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ);
@@ -103,7 +100,9 @@ height: 50vh;
 	color: white;
 }
 .imagebutton a{
-
+	border: white 2px solid;
+	color: white;
+	background-color: black;
 	padding: .75%;
 }
 .row{
@@ -116,6 +115,9 @@ height: 50vh;
 }
 .portelem{
 	text-align: center;
+
+	width: 32%;
+	padding: 2% 0 ;
 }
 
 footer {
@@ -129,3 +131,165 @@ footer a {
 	border: black solid 1px;
 	padding: .5%;
 }
+
+/*---------Mobile device width--------------*/
+@media(max-width: 500px){
+
+
+nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 50vh;
+
+	flex-direction: column;
+}
+nav h1 {
+	font-size: 4rem;
+	width: 100%;
+	justify-content: center;
+	padding: 2%;
+}
+nav links {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+nav links a {
+	display: flex;
+	padding: 4% 0;
+	border: black solid 1px;
+}
+
+.topsection {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60%;
+	justify-content: center;
+	align-items: center;
+}
+.imagebutton {
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.imagebutton h1 {
+	font-size: 3rem;
+}
+.imagebutton a {
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	border: white 2px solid;
+	color: white;
+	background-color: black;
+	opacity: .8a;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.portelem {
+	box-sizing: border-box;
+	display: flex;
+	width: 50%;
+	padding: 4%;
+	flex-direction: column;
+}
+.portelem img{
+	display: flex;
+	max-width:100% ;
+	max-height: 100%;
+}
+
+footer a {
+	padding: 3%;
+}
+
+}
+/*------------end of mobile device--------------------------*/
+/*-------------ipads and laptops--------------------------*/
+@media(max-width: 800px){
+
+
+	nav {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		height: 50vh;
+	
+		flex-direction: column;
+	}
+	nav h1 {
+		font-size: 4rem;
+		width: 100%;
+		justify-content: center;
+		padding: 2%;
+	}
+	nav links {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	nav links a {
+		display: flex;
+		padding: 4% 0;
+		border: black solid 1px;
+	}
+	
+	.topsection {
+		display: flex;
+		flex-direction: column;
+		margin-top: 60%;
+		justify-content: center;
+		align-items: center;
+	}
+	.imagebutton {
+		display: flex;
+		width: 85%;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagebutton h1 {
+		font-size: 3rem;
+	}
+	.imagebutton a {
+		display: flex;
+		justify-content: center;
+		width: 20%;
+		border: white 2px solid;
+		color: white;
+		background-color: black;
+		opacity: .8a;
+	}
+	
+	.row {
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.portelem {
+		box-sizing: border-box;
+		display: flex;
+		width: 50%;
+		padding: 4%;
+		flex-direction: column;
+	}
+	.portelem img{
+		display: flex;
+		max-width:100% ;
+		max-height: 100%;
+	}
+	
+	footer a {
+		padding: 3%;
+	}
+	
+	}
