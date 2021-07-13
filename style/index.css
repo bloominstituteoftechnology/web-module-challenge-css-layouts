@@ -41,7 +41,7 @@ blockquote, q {
   padding:0;
   margin:0;
   max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
-  border:1px solid grey;
+  /*border:1px solid grey; */
   }
 /*General Styles (great to use until you have a preference)*/
 html{
@@ -50,9 +50,19 @@ html{
 body{
   font-size:1.6rem;/*setting font size back to 16px*/
   line-height:1.5; /*takes the font size and multiplies it by this number to add space between lines*/
-  color:#4f4f4f;
+  color:#264653;
+  background-color:wheat;
 }
-
+h1, h2{
+    font-size: 60px;
+    font-family:'Zen Tokyo Zoo', cursive;
+}
+p{
+    width:100%;
+    padding:5px;
+    font-size:30px;
+    font-family: 'Tangerine', cursive;
+}
 .topsection{
     display:flex;
     flex-direction:column;
@@ -64,20 +74,28 @@ body{
     height:100%;
 }
 button{
-    background-color:white;
-    color:black;
-    border: black solid 1px;
+    background-color:wheat;
+    color:white;
     padding:5px 10px; 
+    border-radius: 30px;
 }
 button:hover{
-    background-color:black;
-    color:white;
-    border:white solid 1px;
+    background-color:wheat;
+    color:white;  
 }
 button a{
     text-decoration: none;
     color:inherit;
 }
+.topnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
  .row{
     display: flex;
     flex-direction: row;
@@ -95,10 +113,43 @@ button a{
         width:200px;
         text-align: center;
         padding: 20px;
+        font-family: 'Tangerine', cursive;
     }  
 
 footer{
-    background-color:lightgrey;
+    background-color:#e78f51;
     text-align: center;
     padding: 25px;
+}
+
+@media(max-width:800px){
+    body{
+    padding:10%;
+    }
+   .topnav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+}
+    .row img{
+        padding: 10px;
+        flex-direction:row;
+        flex-wrap:nowrap
+    }
+    .description{
+        display:flex;
+        font: size 20px;
+        padding:5px;
+    }
+}
+
+@media(max-width:500px){
+.row img{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
 }
