@@ -49,9 +49,9 @@ table {
 html{
   font-size: 62.5%;
   }
-  .container {
+.container {
     width: 100%;
-    padding: 20 px;
+    padding: 2rem;
     margin:0 auto;
     line-height: 1.5;
     font-size: 1.8rem;
@@ -71,8 +71,7 @@ footer {
 
 .top-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .description {
 padding: 20px;
@@ -112,13 +111,16 @@ color:inherit;
   padding: 0;
   margin: 0;
   max-width: 100%;
-
 }
 
 /* Media Queries Max-Width */
-*Tablets*/
- @media(max-width: 800px){ /*apply these styles to anything that is 800px or smaller*/
+/*Tablets*/
+  /*apply these styles to anything that is 800px or smaller*/
      /*all of the styles for 800px go here*/
+    @media(max-width: 800px){
+     .container{
+       background-color: blueviolet;
+     }
      #about{
          background-position: left center;
      }
@@ -127,20 +129,23 @@ color:inherit;
          margin-right:3%;
          margin-top:5%;
      }
- }
+ } */
 
- /*phones*/
+ phones*/
 @media(max-width:500px){
-    nav{
+  .container{
         flex-wrap:wrap;
-        justify-content: center;
+        justify-content:center;
+        margin: 0 auto;
+        border: 1px solid red;
+        &nbsp; padding: 20px 1.25%;
     }
-    .links{
+    /* .links{
         width:100%;
     }
     .logo{
         width:30%;
-    }
+    } */
     /*about section styles*/
     #about{
         background-image:none;
@@ -152,5 +157,6 @@ color:inherit;
         margin:0;
         width:90%;
     }
-    .container{
+    /* .container{
         justify-content: center;
+    } */
