@@ -4,7 +4,7 @@ The module challenge is the afternoon project or assignment that students work t
 
 ## User Interface and Git
 
-## Objectives
+## Objectives...
 
 - implement a CSS reset and understand why it’s important for cross-browser development
 - identify and explain all properties in the box model
