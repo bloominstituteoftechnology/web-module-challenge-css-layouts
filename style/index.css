@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -13,12 +14,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -42,138 +43,89 @@ table {
 	border-spacing: 0;
 }
 /*--------------------------------------------------*/
-/*a{
-    text-decoration: none;
-    color: #2f2e30;
-    border-radius: 10%;
-    background-color: rgba(183, 195, 219, 0.466);
-}*/
-header{
-    display: inline-flex;
-    width: 100%;
-    height: 10vh;
-    flex-wrap: wrap;
-}
-.name {
-
-    width: 35%;
-    
-}
-.navi{
-    display: flexbox;
- 
-    height: 10vh;
-    width: 64%;
-    align-items: flex-end;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-around;
-}
-nav a {
-  
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 15%;
-    text-decoration: none;
-    color: #2f2e30;
-    border-radius: 10%;
-    background-color: tomato;
+* {
 
 }
-nav{
-   
-    display: flex;
-    justify-content: flex-end;
-    height: 5vh;
+a {
+	text-decoration: none;
+	color: inherit;
 }
-.mainpic{
-    
-    display: flex;
-    width: 100%;
-    height: 30vh;
-    justify-content: center;
-    background-color: chocolate;
-}
-.pack{
-    margin-top: 20px;
-    width: 100%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    height: 45vh;
-    justify-content: space-around ;
-
-}
-.indi{
-    display: flex;
- 
-    flex-wrap: wrap;
-    width: 30%;
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-footer{
-    display: flex;
-
-    height: 15vh;
-    justify-content: center;
-}
-.contact{
-    display: flex;
-
-    width: 120px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: tomato;
-
-}
-.packpic{
-    display: flex;
-
-    background-color: brown;
-    height: 17vh;
-}
-.title{
-    display: flex;
-    justify-content: flex-end;
-
-    height: 2.5vh;
-    justify-content: center;
-
-}
-.inside{
-
-width: 100%;
-}
-h1{
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+a:hover{
+	background-color: black;
+	color: white;
 }
 
-.justwords{
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    margin-top: 15%;
+header {
+height: 8vh;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+nav h1{
+	display: flex;
+	width: 30%;
+	font-size: 5rem;
+}
+nav links {
+	display: flex;
+	width: 20%;
+	align-items: center;
+	justify-content: center;
+	margin-right: 2%;
 
 }
-.bigname{
-
-height: 80px;
-
+nav links a {
+	display: flex;
+	width: 24%;
+	height: 60%;
+	align-items: center;
+	justify-content: center;
 }
-.bigname a {
-    margin-left: 35%;
-    text-decoration: none;
-    color: white;
 
-    padding:4%;
+.topsection {
+	display: flex;
+	justify-content: center;
+	margin: 1%
 }
-.contact a{
-    text-decoration: none;
-    color: white;
+.imagebutton {
+background-image: url(https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: large;
+width: 50%;
+height: 50vh;
+}
+.imagebutton h1{
+	font-size: 4rem;
+	color: white;
+}
+.imagebutton a{
+
+	padding: .75%;
+}
+.row{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 2% 1% ;
+	
+}
+.portelem{
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	background-color: lightgrey;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+footer a {
+	border: black solid 1px;
+	padding: .5%;
 }
