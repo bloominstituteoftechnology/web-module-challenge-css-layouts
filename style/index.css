@@ -83,7 +83,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  /* border: 0; */
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -148,19 +148,89 @@ body {
 
 h1 {
   font-size: 5rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 nav {
   /* padding: 2% 0; */
   display: flex;
+  margin-bottom: 2%;
 }
 
 nav a {
   display: inline-block;
   padding: 0.5% 0;
   width: 25%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-align: center;
+  color: red;
+  border: 2px solid red;
+}
+
+.first-section {
+  display: flex;
+  margin: 0 6%;
+  /* justify-content: center; */
+}
+
+.first-section img {
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.first-section div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.first-section a {
+  padding: 0.5% 0;
+  width: 25%;
+  border-radius: 5px;
+  text-align: center;
+  border: 0.1rem solid red;
+  color: red;
+}
+
+.first-section div p {
+  /* width: 60%; */
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+.second-section h2 {
+  padding: 2%;
+  text-align: center;
+}
+
+.second-section ul {
+  display: flex;
+  justify-content: center;
+}
+.second-section li {
+  padding: 0.5% 1%;
+  margin: 0 1%;
+  border-radius: 5px;
+  text-align: center;
+  border: 0.1rem solid red;
+  color: red;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
+}
+
+footer a {
+  padding: 0.5% 1%;
+  border-radius: 5px;
+  text-align: center;
+  border: 0.1rem solid red;
   color: red;
 }
