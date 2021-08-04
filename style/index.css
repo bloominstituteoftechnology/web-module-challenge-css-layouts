@@ -1,1 +1,93 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border: 1px solid black;
+}
+
+html{
+	font-size:62.5%;
+}
+body{
+	font-size:1.6rem;
+	line-height:1.5;
+	font-family: 'sans-serif', Arial;
+}
+.top{
+    display:flex;
+}
+.top .topright{
+    text-align:center;
+    margin:auto auto;
+}
+.top h1{
+    font-size:6rem;
+}
+.top button{
+    font-size: 3rem;
+    background-color: navy;
+    color:whitesmoke;
+}
+.top p{
+    font-size: 3rem;
+}
+.middle .text{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.middle .pics{
+    display:flex;
+    justify-content: space-evenly;
+}
+.bottom .text{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottom .pics{
+    display:flex;
+    justify-content: space-evenly;
+}
+.bottom{
+    margin-top: 1%;
+}
+.middle{
+    margin-top: 1%;
+}
+footer{
+    margin:1%;
+    text-align:center;
+}
