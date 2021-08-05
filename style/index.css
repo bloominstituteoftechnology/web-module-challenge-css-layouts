@@ -186,3 +186,13 @@ footer {
     margin: 0;
     padding: 1%;
 }
+.icon-social-media {
+    object-fit: cover;
+    height: 64px;
+}
+.icon-social-media img {
+    background-color: var(--color-offblack);
+}
+.icon-social-media img:hover {
+    border: solid 6px whitesmoke;
+}
