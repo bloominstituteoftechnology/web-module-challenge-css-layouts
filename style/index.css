@@ -229,7 +229,9 @@ footer {
   margin: 3%;
   text-align: center;
 }
-
+footer h2 {
+  margin-bottom: 1%;
+}
 footer a {
   padding: 0.5% 1%;
   border-radius: 5px;
@@ -245,4 +247,17 @@ section.contact {
 i {
   font-size: 15rem;
   color: red;
+}
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.projects div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
