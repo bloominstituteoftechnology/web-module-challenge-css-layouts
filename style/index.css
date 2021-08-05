@@ -33,46 +33,50 @@ blockquote, q {
     box-sizing:border-box;
     padding:0;
     margin:0;
-    max-width:100%;
-    border: 1px solid black;
-}
+    max-width:100%; 
 
+}
 html{
 	font-size:62.5%;
+    font-family: 'Zilla Slab', serif;
 }
 body{
 	font-size:1.6rem;
 	line-height:1.5;
-	font-family: 'sans-serif', Arial;
 }
 .top{
     display:flex;
+    background-color:rgb(248, 213, 213);
+}
+.top img{
+    display:block;
 }
 .top .topright{
     text-align:center;
     margin:auto auto;
+    width:50%;
 }
 .top h1{
-    font-size:6rem;
+    font-size:9rem;
 }
 .top button{
     font-size: 3rem;
-    background-color: navy;
-    color:whitesmoke;
+    color:rgb(248, 213, 213);
+    background-color:black;
+    padding:2%;
+}
+.top button:hover{
+    color:black;
+    background-color:rgb(212, 164, 164);
 }
 .top p{
-    font-size: 3rem;
-}
-.middle .text{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 5rem;
 }
 .middle .pics{
     display:flex;
     justify-content: space-evenly;
 }
-.bottom .text{
+.bottom .text, .middle .text{
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -82,12 +86,55 @@ body{
     justify-content: space-evenly;
 }
 .bottom{
-    margin-top: 1%;
+    margin-top: .5%;
+    margin-bottom:.5%;
 }
 .middle{
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 footer{
-    margin:1%;
     text-align:center;
+    padding: 5%;
+    font-size:3rem;
+    background-color:rgb(212, 164, 164);
 }
+header h1{
+    margin-left:3.5%;
+    width:100%;
+    
+}
+header{
+    display:flex;
+    font-size:5rem;
+    background-color:rgb(212, 164, 164);
+    flex-wrap:wrap;
+}
+header .verytop {
+    margin:.4% 3%;
+    font-size:5.5rem;
+    display:flex;
+}
+nav{
+    display:flex;
+    font-size:2rem;
+}
+nav a{
+
+    padding:.4% 5%;
+    border:1px solid rgb(248, 213, 213);
+    background-color:rgb(24, 7, 7);
+    color:white;
+}
+footer button{
+    font-size:1.5rem;
+    background-color:rgb(24, 7, 7);
+    color:white;
+    padding:.9%;
+    border:1px solid rgb(248, 213, 213);
+}
+footer button:hover{
+    background-color:rgb(248, 213, 213);
+    color:rgb(24, 7, 7);
+    border:1px solid black;
+}
+

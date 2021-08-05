@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Title</title>
-    <header>MY NAME</header>
-    <nav>
-        <a class ="home" href="#">Home</a>
-        <a class ="about" href="#">About</a>
-        <a class ="contact" href="#">Contact</a>
-        <a class ="projects" href="#">Projects</a>
-    </nav>
 </head>
 <body>
+    <header>
+        <h1>Nathan Cheney</h1>
+    <div class="verytop">
+    <nav>
+        <a class ="home" href="#">Home</a>
+        <a class ="about" href="about.html">About</a>
+        <a class ="contact" href="contact.html">Contact</a>
+        <a class ="projects" href="projects.html">Projects</a>
+    </nav>
+    </div>
+    </header>
     <section class="top">
         <div class="topleft">
             <img src="https://picsum.photos/900/700" alt="Random Photo #1">
         </div>
         <div class="topright">
-            <h1>MY NAME</h1>
-            <button>My Projects</button>
-            <p>Here are some words about me <br> and my journey in coding so far. <br> These words are authentic and <br> inspiring. These words tell my <br> story.</p>
+            <h1>Nathan Cheney</h1>
+            <button id ="apply-button1" onclick = "location.href='projects.html';">My Projects</button>
+            <p>Here is a project to practice basic HTML & CSS. So far, I have enjoyed learning about HTML and CSS more than other languages I have taken courses on.
         </div>
     </section>
     <section class="middle">
         <div class="pics">
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.1">
-                <span class="text">text1</span>
+                <span class="text">img1</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.2">
-                <span class="text">text2</span>
+                <span class="text">img2</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.3">
-                <span class="text">text3</span>
+                <span class="text">img3</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.4">
-                <span class="text">text4</span>
+                <span class="text">img4</span>
             </div>
         </div>
     </section>
@@ -48,24 +55,24 @@
         <div class="pics">
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.5">
-                <span class="text">text5</span>
+                <span class="text">img5</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.6">
-                <span class="text">text6</span>
+                <span class="text">img6</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.7">
-                <span class="text">text7</span>
+                <span class="text">img7</span>
             </div>
             <div>
                 <img src="https://picsum.photos/300" alt="Random Photo #2.8">
-                <span class="text">text8</span>
+                <span class="text">img8</span>
             </div>
     </section>
 </body>
 <footer>
     <h2>Like what you see?</h2>
-    <button>Contact Me</button>
+    <button id ="apply-button1" onclick = "location.href='contact.html';">Contact Me</button>
 </footer>
 </html>
