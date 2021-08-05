@@ -55,19 +55,23 @@ table {
 /*General Styles*/
 html{
     font-size:62.5%;
+    min-height: 100vh;
 
 }
 
 body{
     display:flex;
     flex-flow: column wrap;
-    min-height: 25vh;
+    justify-content: space-evenly;
+   
     font-size:1.6rem;
     line-height:1.5;
     background-color: #FBFFFB;
     color:#4f4f4f; 
 }
-
+h2{
+    font-size: 8rem;
+}
 button {
     background-color: white; /* Green */
     border: none;
@@ -108,14 +112,13 @@ button:hover{
 nav{
     display:flex;
     justify-content:space-between;
-    
-    position:fixed;
     top:0;
+    position:fixed;
     width:100%;
     flex-wrap:row wrap;
     background-color:rgba(255, 255, 255, 0.0);
     z-index: 999;
-    margin-bottom: auto;
+    margin-bottom: 0;
 }
 .logo{
     display:flex;
@@ -135,12 +138,23 @@ nav{
     align-items: center;
 }
 
-/* Hero Section */
+/* Top Section */
 
-#hero{
-    display:flex;
-    margin-top: auto;
+
+#top{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url('../images/hero.jpg');
+    background-position:bottom;
 }
+
 .hero{
     display:flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
