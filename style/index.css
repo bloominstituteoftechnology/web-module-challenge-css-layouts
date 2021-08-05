@@ -148,7 +148,10 @@ body {
 
 h1 {
   font-size: 5rem;
-  /* text-align: center; */
+}
+
+header h1 {
+  text-align: center;
 }
 
 nav {
@@ -232,5 +235,14 @@ footer a {
   border-radius: 5px;
   text-align: center;
   border: 0.1rem solid red;
+  color: red;
+}
+section.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 0;
+}
+i {
+  font-size: 15rem;
   color: red;
 }
