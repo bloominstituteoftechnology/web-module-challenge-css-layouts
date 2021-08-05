@@ -62,10 +62,50 @@ table {
 html {
     font-size: 62.5%;
 }
+h1, h2 {
+    padding: 2% 0;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+button {
+    margin: 3% 0;
+    padding: 1% 5%;
+}
 
 /* Header Section Styles */
+header {
+    background-color: lightgrey;
+    padding: 2%;
+}
+nav {
+    display: flex;
+    padding: 0 3%;
+}
+nav a {
+    background-color: white;
+    padding: 1% 3%;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* Top Section Styles */
+.container-split {
+    display: flex;
+}
+.container-split .container-split-left {
+    padding: 1%;
+    width: 50%;
+}
+.container-split .container-split-right {
+    align-self: flex-end;
+    padding: 2% 5%;
+    width: 50%;
+}
 
 /* Middle Section Styles */
 
