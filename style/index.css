@@ -56,3 +56,10 @@ table {
 html{
     font-size:62.5%;
 }
+
+
+/*Helper Classes*/
+.bgimg{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
