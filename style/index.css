@@ -1,1 +1,146 @@
-/* Add CSS styling here */
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+
+}
+
+/* general styling */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #fbfffb;
+    color: #4f4f4f;
+}
+h1{
+    font-size: 6rem;
+    color: #fbfffb;
+    padding: 3% 2%;
+
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+/* helper classes */
+.bgimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    padding: 4% 0;
+}
+header{
+    background-color: antiquewhite;
+    padding: 1% 2%;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;  
+}
+nav{
+
+    display: flex;
+    justify-content: flex-start; 
+    padding: 2%;
+    text-decoration: none;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 7%;
+    background-color: azure;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    background-image: url(../Photos/Profile\ Pic\ .jpg);
+    width: 20%;
+    margin:0;   
+    border-radius: 2%; 
+}
+.right{
+    
+    width: 45%;
+    padding: 4%;
+}
+.right h2{
+    text-align: left;
+    padding-bottom: 3%;
+}
+#myProjects{
+    margin: 2% 0;
+    padding: 2% 5%;
+}
+.right p{
+    line-height: 2;
+    font-size: 1.75rem;
+    text-align: left;
+}
