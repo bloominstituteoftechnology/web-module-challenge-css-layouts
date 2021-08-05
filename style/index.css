@@ -1,1 +1,123 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset code */
+
+
+
+header{
+    background-color:rgba(128, 128, 128, 0.13);
+}
+.top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding
+}
+h1, h2, p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2{
+    font-size: 2rem;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+nav a{
+    border: 2px solid black;
+    color:black;
+    padding:4px 20px;
+    text-decoration: none;
+}
+.top h1, nav{
+    margin: 2%;
+}
+.info h2, p{
+    margin: 1%;
+}
+.topsection h2{
+    margin-top: 50px;
+}
+.topsection p{
+    width:80%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+    line-height: 1.5rem;
+}
+.mainIMG{
+    width:100%;
+   background-attachment: fixed;
+}
+
+.fixed-bg-img {
+    height: 100vh;
+    
+    height:400px;
+    background-image:url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1d3557;
+  }
+  .bottom{
+      display:flex;
+      margin-top: 1%;
+  }
+  .bottom div{
+      height:600px;
+      width:800px;
+      max-width: 475px; overflow: hidden;
+      text-indent: -140px;
+      margin:1%;
+     
+  }
+  .bottom p{
+      display: flex;
+      Margin:5%;
+      width: 45%;
+      align-items: center;
+  }
