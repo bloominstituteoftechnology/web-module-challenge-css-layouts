@@ -102,12 +102,12 @@ button:hover{
     text-shadow: .2rem .2rem blue;
 }
 
-.logo h1:hover{
+h1:hover{
     border-bottom: .2rem solid #4f4f4f;
     transition:.2s;
+ 
+
 }
-
-
 
 /*Header*/
 nav{
