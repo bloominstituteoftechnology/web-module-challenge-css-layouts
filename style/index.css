@@ -53,7 +53,6 @@ header{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding
 }
 h1, h2, p{
     font-family: 'Montserrat', sans-serif;
@@ -72,6 +71,12 @@ nav a{
     padding:4px 20px;
     text-decoration: none;
 }
+
+nav .Home{
+    color:white;
+    background-color: black;
+}
+
 .top h1, nav{
     margin: 2%;
 }
@@ -113,11 +118,20 @@ nav a{
       max-width: 475px; overflow: hidden;
       text-indent: -140px;
       margin:1%;
-     
+      transition: 1s ease;
   }
   .bottom p{
       display: flex;
       Margin:5%;
       width: 45%;
       align-items: center;
+  }
+  .bottom img{
+   
+  }
+  .bottom div:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
   }
