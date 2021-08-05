@@ -91,6 +91,9 @@ header {
     background-color: dimgrey;
     padding: 2%;
 }
+header h1 {
+    padding: 2% 1%;
+}
 nav {
     display: flex;
     padding: 0 3%;
@@ -109,17 +112,19 @@ nav a:hover {
     background-color: darkgrey;
     color: whitesmoke;
 }
-
 .container-header {
     margin: auto;
     max-width: 1200px;
+    padding: 0 1%;
 }
+
 
 /* Top Section Styles */
 .container-split {
     display: flex;
     margin: auto;
     max-width: 1200px;
+    padding: 1%;
 }
 .container-split .container-split-left {
     padding: 1%;
@@ -127,7 +132,7 @@ nav a:hover {
 }
 .container-split .container-split-right {
     align-self: flex-end;
-    padding: 2% 5%;
+    padding: 1% 5%;
     width: 50%;
 }
 
@@ -141,13 +146,12 @@ nav a:hover {
 }
 .container-gallery-grid-box {
     width: 25%;
-
 }
 .container-gallery-grid-box img {
     height: 280px;
     object-fit: cover;
     overflow: hidden;
-    padding: 5%;
+    padding: 4%;
 }
 .container-gallery-grid-caption {
     padding: 5%;
@@ -156,7 +160,7 @@ nav a:hover {
 
 /* Footer Section Styles */
 footer {
-    background-color: lightgrey;
+    background-color: dimgrey;
     padding: 2% 0;
 }
 .container-footer {
@@ -165,10 +169,14 @@ footer {
     text-align: center;
 }
 .container-footer button {
+    background-color: whitesmoke;
+    color: dimgrey;
     margin: 1%;
     padding: 1% 2%;
+    border: none;
 }
 .container-footer h2 {
+    color: whitesmoke;
     margin: 0;
     padding: 1%;
 }
