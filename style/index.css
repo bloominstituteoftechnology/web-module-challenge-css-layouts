@@ -124,5 +124,15 @@ nav a {
     max-width: 1200px;
     padding: 1%;
 }
+.container-gallery-grid-box {
+    width: 25%;
+}
+.container-gallery-grid-caption {
 
+}
+.gallery-image-box-1 {
+    background-size: cover;
+    background-image: url("/assets/unsplash-iceland-canyon.jpg");
+    height: 100%;
+}
 /* Footer Section Styles */
