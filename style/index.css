@@ -1,1 +1,107 @@
-/* Add CSS styling here */
+/*
+*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #4f4f4f; /*accessibility*/
+  font-family: 'Roboto Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 400%;
+  font-family: Impact;
+  background-image: url(https://cdn.motor1.com/images/mgl/0mqJm/s3/mustang-lead.jpg);
+  background-repeat: no-repeat;
+  color: black;
+  padding: 200px;
+  margin: 0% 15%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+img {
+  width: 50%;
+}
+.links {
+  margin: 1% 1% 1% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  border: 2px solid gray;
+  border-radius: 10%;
+  padding: 1%;
+  margin-left: 3%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-size: 300%;
+  margin-top: 10%;
+}
+.imgs1 {
+  width: 40%;
+
+  display: flex;
+  justify-items: center;
+}
+.img1 {
+  margin: 10% 10% 0% 10%;
+}
+.img2 {
+  margin: 10% 5% 0% 5%;
+}
+.img3 {
+  margin: 10% 5% 0% 5%;
+}
+.img4 {
+  margin: 10% 10% 0% 10%;
+}
+
+/**/
+.imgs2 {
+  width: 40%;
+
+  display: flex;
+  justify-items: ;
+}
+.img5 {
+  margin: 10% 10% 0% 10%;
+}
+.img6 {
+  margin: 10% 5% 0% 5%;
+}
+.img7 {
+  margin: 10% 5% 0% 5%;
+}
+.img8 {
+  margin: 10% 10% 0% 10%;
+  padding-right: 10%;
+}
+.line1 {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.line2 {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+button {
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  margin: 5% 47%;
+}
