@@ -1,1 +1,228 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+/* Header style */
+.headerName{
+    width: 100%;
+    height: 10rem;
+    background-color: grey;
+}
+h1{
+    font-size: 3rem;
+    padding: 1% 2%;
+    margin-left: 3.3rem;
+}
+.nav{
+    font-size: 2rem;
+    margin-left: 5.5rem;
+}
+.nav a{
+    border: 1px solid black;
+    color: blue;
+    text-decoration: none;
+}
+/* topContainer Style */
+.topContainer{
+    display: flex;
+    width: 100%;
+
+}
+.image img{
+    display: flex;
+    width: 55rem;
+    margin-left: 5.7rem;
+}
+.myName{
+    display:flex;
+    font-size: 2rem;
+    width: 11.5%;
+    margin-left: 19rem;
+    margin-top: 5rem;
+    height: 5vh;
+}
+.paragraph{
+    display: flex;
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 71rem;
+    text-align: center;
+}
+.button{
+    display: flex;
+    position: absolute;
+    margin-left: 83rem;
+    margin-top: 10rem;
+}
+/* first section style */
+.firstRow{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    justify-content: space-evenly;
+}
+.firstImage{
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1555066931-4365d14bab8c.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.firstText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 78rem;
+}
+.secondImage{
+    border: 1px solid green;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1524230659092-07f99a75c013.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secondText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 25rem;
+}
+.thirdImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1536718453717-7982aa9d8bed.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.thirdText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 25rem;
+}
+.fourthImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1542804277-c1f3382ec2aa.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.fourthText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 78rem;
+}
+/* second section style */
+.secondRow{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    justify-content: space-evenly;
+}
+.secfirstImage{
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1588479839125-3a70c078d257.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secfirstText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 78rem;
+}
+.secsecondImage{
+    border: 1px solid green;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1525018923-1ebe8261a6a6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secsecondText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 25rem;
+}
+.secthirdImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1516259762381-22954d7d3ad2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secthirdText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 25rem;
+}
+.secfourthImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1526374965328-7f61d4dc18c5.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secfourthText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 78rem;
+}
