@@ -6,6 +6,7 @@ The module challenge is the afternoon project or assignment that students work t
 
 ## Objectives
 
+
 - implement a CSS reset and understand why it’s important for cross-browser development
 - identify and explain all properties in the box model
 - describe and understand that flexbox is a module
