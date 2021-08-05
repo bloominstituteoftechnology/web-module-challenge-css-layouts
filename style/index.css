@@ -55,11 +55,92 @@ table {
 /*General Styles*/
 html{
     font-size:62.5%;
+
 }
 
+body{
+    display:flex;
+    flex-flow: column wrap;
+    min-height: 25vh;
+    font-size:1.6rem;
+    line-height:1.5;
+    background-color: #FBFFFB;
+    color:#4f4f4f; 
+}
+
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: #4f4f4f;
+    padding: 1% 2%;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.3rem;
+    margin:.5%;
+    border: .115rem solid;
+  }
 
 /*Helper Classes*/
+
 .bgimg{
     background-size:cover;
     background-repeat: no-repeat;
+}
+
+/* Animations */
+
+button:hover{
+    background-color: black;
+    color:white;
+    transition:0.2s;
+}
+
+.logo h1:hover{
+    border-bottom: .2rem solid #4f4f4f;
+    transition:.2s;
+}
+
+
+
+/*Header*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    
+    position:fixed;
+    top:0;
+    width:100%;
+    flex-wrap:row wrap;
+    background-color:rgba(255, 255, 255, 0.0);
+    z-index: 999;
+    margin-bottom: auto;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    margin-left: 4%;
+    font-size: 4rem;
+    text-align:center;
+}
+.links{
+    justify-content: center;
+    display:flex;
+    width: 30%;
+    text-align: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Hero Section */
+
+#hero{
+    display:flex;
+    margin-top: auto;
+}
+.hero{
+    display:flex;
 }
