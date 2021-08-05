@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Raleway', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -65,17 +66,18 @@ html{
 body{
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: #fbfffb;
+    background-color: #dfdfdf;
     color: #4f4f4f;
 }
 h1{
-    font-size: 6rem;
-    color: #fbfffb;
+    font-size: 7rem;
+    font-weight: 500;
+    color: #b7b7b7;
     padding: 3% 2%;
 
 }
 h2{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 h3{
@@ -91,7 +93,7 @@ section{
     padding: 4% 0;
 }
 header{
-    background-color: antiquewhite;
+    background-color: rgb(236, 245, 249);
     padding: 1% 2%;
 }
 .top{
@@ -111,10 +113,14 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 7%;
-    background-color: azure;
+    padding: 1.5% 5%;
+    background-color: rgb(191, 198, 177);
     text-decoration: none;
     font-size: 2rem;
+    color:white;
+    border: 2px solid grey;
+    margin: 0 .5%;
+    font-weight: 800;
 }
 .section1{
     display: flex;
@@ -124,7 +130,7 @@ nav a{
     background-image: url(../Photos/Profile\ Pic\ .jpg);
     width: 20%;
     margin:0;   
-    border-radius: 2%; 
+    border-radius: 1%; 
 }
 .right{
     
@@ -152,6 +158,9 @@ nav a{
 
 }
 .img{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     width: 20%;
     margin: 4% 2%;
 }
@@ -198,5 +207,11 @@ footer button{
     margin-bottom: 2%;
 }
 .img p{
-    color: white;
+    color: black;
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
