@@ -32,14 +32,70 @@ time, mark, audio, video {
     border:1px solid gray
 }
 
-.links{
-    width: 25%;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    background-color: darkgoldenrod;
-    color: black;
-}
 h1{
     font-size: 3rem;
+    width: 25%;
+}
+header{
+    display: flex;
+    text-align: right;
+}
+.links{
+    height: 30px;
+    width: 100%;
+    padding-right: 10%;
+    margin-top: 20px;
+}
+.Home{
+    width: 8%;
+    border: solid black 2px;
+    padding: 0.7%;
+}
+.About{
+    width: 8%;
+    border: solid black 2px;
+    padding: 0.7%;
+}
+.Contact{
+    width: 8%;
+    border: solid black 2px;
+    padding: 0.7%;
+}
+.Projects{
+    width: 8%;
+    border: solid black 2px;
+    padding: 0.7%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.mainimage{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.imagerow1{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.textrow1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.imagerow2{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.textrow2{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.footerlink{
+    display: flex;
+    justify-content: center;
 }
