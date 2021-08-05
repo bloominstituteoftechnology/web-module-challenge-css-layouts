@@ -142,3 +142,19 @@ nav a {
 }
 
 /* Footer Section Styles */
+footer {
+    background-color: lightgrey;
+}
+.container-footer {
+    margin: 2% auto;
+    max-width: 1200px;
+    text-align: center;
+}
+.container-footer button {
+    margin: 1%;
+    padding: 1% 2%;
+}
+.container-footer h2 {
+    margin: 0;
+    padding: 1%;
+}
