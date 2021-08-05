@@ -118,6 +118,11 @@ nav{
     display:flex;
     font-size:2rem;
 }
+nav a:hover{
+    color:rgb(24, 7, 7);
+    background-color:rgb(248, 213, 213)
+
+}
 nav a{
 
     padding:.4% 5%;
