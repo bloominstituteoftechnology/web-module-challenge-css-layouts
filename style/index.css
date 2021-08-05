@@ -4,7 +4,6 @@
 
    CSS Reset
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,13 +24,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -55,49 +52,64 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: solid 1px grey; /* Outline all elements in grey */
+    /* border: solid 1px grey; */
 }
-
 /* General Styles */
 html {
     font-size: 62.5%;
 }
+body {
+    line-height: 1.5;
+    background-color: whitesmoke;
+}
 h1, h2 {
+    font-family: 'Oswald', sans-serif;
     padding: 2% 0;
     text-transform: uppercase;
 }
 h1 {
-    font-size: 2.5rem;
+    color: whitesmoke;
+    font-size: 5rem;
 }
 h2 {
-    font-size: 1.6rem;
+    font-size: 3rem;
 }
 p {
-    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     color: #4F4F4F;
 }
 button {
-    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     margin: 3% 0;
     padding: 2% 7%;
 }
 
 /* Header Section Styles */
 header {
-    background-color: lightgrey;
+    background-color: dimgrey;
     padding: 2%;
-
 }
 nav {
     display: flex;
     padding: 0 3%;
 }
 nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: dimgrey;
     background-color: white;
     padding: 1% 3%;
     text-align: center;
     text-decoration: none;
+    border: solid 1px dimgrey;
 }
+nav a:hover {
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
 .container-header {
     margin: auto;
     max-width: 1200px;
@@ -145,9 +157,10 @@ nav a {
 /* Footer Section Styles */
 footer {
     background-color: lightgrey;
+    padding: 2% 0;
 }
 .container-footer {
-    margin: 2% auto;
+    margin: auto;
     max-width: 1200px;
     text-align: center;
 }
