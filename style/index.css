@@ -125,22 +125,33 @@ table {
 
 nav {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .title {
   display: flex;
-  flex-direction: column;
-  text-size-adjust: 56px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-size-adjust: 56%;
 }
 
 .links {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: start;
 }
-.banner {
+section .banner {
   display: flex;
   justify-content: center;
+}
+
+.Para {
+  display: flex;
+  justify-content: center;
+}
+section .one {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
 }
