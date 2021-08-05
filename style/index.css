@@ -172,8 +172,8 @@ nav a {
 
 .first-section {
   display: flex;
-  margin: 0 6%;
-  /* justify-content: center; */
+  /* margin: 0 10%; */
+  justify-content: center;
 }
 
 .first-section img {
@@ -181,6 +181,15 @@ nav a {
   border-radius: 50%;
   margin-right: 5%;
 }
+/* .profile1 {
+  background-image: url('/images/profile2.jpg');
+  width: 25%;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin: 0 5%;
+} */
 
 .first-section div {
   width: 50%;
