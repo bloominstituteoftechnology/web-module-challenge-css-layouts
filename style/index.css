@@ -1,1 +1,18 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
