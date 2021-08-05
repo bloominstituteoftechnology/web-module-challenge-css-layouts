@@ -99,6 +99,7 @@ button:hover{
     background-color: black;
     color:white;
     transition:0.2s;
+    text-shadow: .2rem .2rem blue;
 }
 
 .logo h1:hover{
@@ -114,16 +115,18 @@ nav{
     justify-content:space-between;
     top:0;
     position:fixed;
-    width:100%;
+    width: auto;
+    min-width: 100%;
     flex-wrap:row wrap;
     background-color:rgba(255, 255, 255, 0.0);
     z-index: 999;
-    margin-bottom: 0;
+   
 }
 .logo{
     display:flex;
     align-items: center;
     justify-content: center;
+    min-width: 10%;
     width:auto;
     margin-left: 4%;
     font-size: 4rem;
@@ -132,7 +135,8 @@ nav{
 .links{
     justify-content: center;
     display:flex;
-    width: 30%;
+    min-width: 30%;
+    width:auto;
     text-align: center;
     flex-flow: row wrap;
     align-items: center;
@@ -142,19 +146,115 @@ nav{
 
 
 #top{
+ 
+  
     height:80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('../images/hero.jpg');
-    background-position:bottom;
+   
+    
 }
 
 .hero{
+    text-shadow:.2rem .2rem black;
+    min-width: 70%;
+    color:white;
+    width: auto;
+    margin:3rem;
+    height: 55vh;
     display:flex;
     flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
 }
+
+/* Galley Section */
+/* I would normally use grid for this */
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.img1{
+   
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+
+.img2{
+   
+    height: 20vh;
+    width: 100%;
+    display:flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+.img3{
+   
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+
+.img4{
+  
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+.img5{
+    
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+.img6{
+    
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image:url('../images/hero.jpg');
+    background-position:right;
+}
+
+.column{
+    min-width: 30%;
+    width:auto;
+    height: auto;
+}
+
+p.img-title {
+
+  text-align: center;
+}
+
