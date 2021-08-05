@@ -29,7 +29,7 @@ time, mark, audio, video {
     padding:0;
     margin: 0%;
     max-width: 100%;
-    border:1px solid gray
+   /* border:1px solid gray */
 }
 
 h1{
@@ -45,6 +45,17 @@ header{
     width: 100%;
     padding-right: 10%;
     margin-top: 20px;
+}
+.mainimage{
+    background-image: url(/dog.jpg);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 700px;
+    background-size: cover;
+    margin: 100px auto;
 }
 .Home{
     width: 8%;
@@ -70,7 +81,11 @@ h2{
     display: flex;
     justify-content: center;
 }
-.mainimage{
+.projectsbody{
+    display: flex;
+    justify-content: center;
+}
+.main{
     width: 90%;
     display: flex;
     justify-content: center;
@@ -78,24 +93,68 @@ h2{
 .imagerow1{
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    align-content: space-between;
+}
+.img1{
+    width: 20%;
+}
+.img2{
+    width: 20%;
+}
+.img3{
+    width: 20%;
 }
 .textrow1{
     display: flex;
     text-align: center;
     justify-content: center;
 }
+.txt1{
+    margin: 0 16%;
+}
+.txt2{
+    margin: 0 16%;
+}
+.txt3{
+    margin: 0 16%;
+}
 .imagerow2{
     display: flex;
     justify-content: center;
     align-content: space-around;
+}
+.img4{
+    width: 20%;
+}
+.img5{
+    width: 20%;
+}
+.img6{
+    width: 20%;
 }
 .textrow2{
     display: flex;
     justify-content: center;
     align-content: space-around;
 }
+.txt4{
+    margin: 0 8%;
+}
+.txt5{
+    margin: 0 8%;
+}
+.txt6{
+    margin: 0 8%;
+}
 .footerlink{
     display: flex;
     justify-content: center;
+}
+.footerlink{
+    margin: 7px auto;
+    width: 10%;
+    border: solid black 2px;
+    background-color: burlywood;
+    display: flex;
+
 }
