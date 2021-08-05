@@ -49,7 +49,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    
 }
 
 /*General Styles*/
@@ -258,3 +258,16 @@ p.img-title {
   text-align: center;
 }
 
+
+/* Footer Section */
+
+footer{
+    display:flex;
+    min-height: 10vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4f4f4f;
+    margin-top:1%;
+}
