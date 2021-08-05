@@ -120,19 +120,25 @@ nav a {
 
 /* Middle Section Styles */
 .container-gallery-grid {
+    display: flex;
+    flex-flow: row wrap;
     margin: auto;
     max-width: 1200px;
     padding: 1%;
 }
 .container-gallery-grid-box {
     width: 25%;
-}
-.container-gallery-grid-caption {
 
 }
-.gallery-image-box-1 {
-    background-size: cover;
-    background-image: url("/assets/unsplash-iceland-canyon.jpg");
-    height: 100%;
+.container-gallery-grid-box img {
+    height: 280px;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 5%;
 }
+.container-gallery-grid-caption {
+    padding: 5%;
+    text-align: center;
+}
+
 /* Footer Section Styles */
