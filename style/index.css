@@ -93,6 +93,12 @@ button {
     background-repeat: no-repeat;
 }
 
+.spacer{
+    display:flex;
+    width: 100%;
+    height: 20vh;
+}
+
 /* Animations */
 
 button:hover{
