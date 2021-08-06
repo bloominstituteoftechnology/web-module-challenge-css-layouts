@@ -22,7 +22,8 @@ time, mark, audio, video, *{
 } */
 
 .hero{
-    width: auto;
+  sfv
+    width: 100%;
     max-height: 100%;
     background-image: url("../images/batman.jpg");
     background-color: blue;
