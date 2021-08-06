@@ -45,7 +45,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%; 
-    border:1px solid black;
+    border:1px  black;
 }
 html{
     font-size: 62.5%;
@@ -55,61 +55,103 @@ body{
     font-size: 1.8rem;
     line-height: 2;
     background-color: white;
-    color: aqua;
+    color: blueviolet;
+	background-color: black;
+
 }
 h1{
     display: flex;
     font-size: 8rem;
-    color: violet;
+    color: blueviolet;
     justify-content:center;
+	margin: auto;
+
 }
+
+
 
 nav{
     display:flex;
     justify-content: flex-end;
     width:100%; 
+	margin: auto;
+	padding-right: 10px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #82c3ee;
+	height: 10vh;
+}
+
+h2{
+	width: 100%;
+	margin:auto;
+	padding-left: 15px;
+;
+	
+}
+.myname{
+	display: flex; 
+	width: 200px;
+
 }
 .myname h2{
-display:flex;
-justify-content: flex-start;
+	display: flex;
+	font-size: 300;
+
 }
 
 #main{
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-display: flex;
-background-image:url(../Photos/pic1.jpg);
-justify-content: center;
-align-items: center;
-margin: 12.5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	background-image:url(../Photos/pic1.jpg);
+	justify-content: center;
+	align-items: center;
+	margin: 12.5%;
 
 }
 
 button{
-    display: flex;
-   height: 4.4rem;
-   width: 8.8rem;
-justify-content: center;
-align-content: center;
-margin:auto;
-margin-bottom: 10rem;
+	display: flex;
+	height: 4.4rem;
+	width: 8.8rem;
+	justify-content: center;
+	align-content: center;
+	margin:auto;
+	margin-bottom: 10rem;
+	color:blueviolet
  
 }
 
 
 .picgrid{
     display: flex;
-    height: 180rem;
-    width: 180rem;
-text-align: center;
-margin: auto;
+    height: 100rem;
+    width: 200rem;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	display: grid;
+  	grid-gap: 25px;
+  	grid-template-columns: repeat(3, 1fr);
+}
 
+footer{
+	background-color: #82c3ee;
+	display: flex;
 
-flex-wrap: nowrap;
-justify-content: space-evenly;
-display: grid;
-  grid-gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
- 
+}
+footer button{
+	display: flex;
+	justify-content: center;
+	margin:auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
 }
