@@ -39,17 +39,6 @@ title {
   border-width: 8px;
 } 
 
-h1 {
-  font-family: 'Times New Roman', cursive;
-  margin: 20px 0;
-}
-
-h2 {
-  font-family: 'Times new Roman', cursive;
-  font-size: 30px;
-}
-
-}
 ul {
 	list-style: none;
 } 
@@ -67,6 +56,32 @@ html{
 }
 
 body{
-  fot-size: 1.6rm
+  font-size: 1.6rm
   line-height: 1.5;
 }
+
+h1{
+  font-size: 5rem;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+
+.title{
+  width:50%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*top section styles*/
+
+#top{
+  height"80vh;
+  display: flex;
+  justify-content:center'
+  align-items: center;
+  text-align: center;
+}
+
