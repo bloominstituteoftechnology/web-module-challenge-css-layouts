@@ -72,7 +72,7 @@ body{
 h1{
     font-size: 7rem;
     font-weight: 500;
-    color: #b7b7b7;
+    color: #ffffff;
     padding: 3% 2%;
 
 }
@@ -93,7 +93,7 @@ section{
     padding: 4% 0;
 }
 header{
-    background-color: rgb(236, 245, 249);
+    background-color: rgb(182, 188, 166);
     padding: 1% 2%;
 }
 .top{
@@ -114,7 +114,7 @@ nav a{
     justify-content: center;
     align-items: center;
     padding: 1.5% 5%;
-    background-color: rgb(191, 198, 177);
+    background-color: rgb(167, 176, 150);
     text-decoration: none;
     font-size: 2rem;
     color:white;
@@ -131,6 +131,7 @@ nav a{
     width: 20%;
     margin:0;   
     border-radius: 1%; 
+    border: 1px solid grey;
 }
 .right{
     
@@ -142,6 +143,7 @@ nav a{
     padding-bottom: 3%;
 }
 #myProjects{
+    font-size: 1.75rem;
     margin: 2% 0;
     padding: 2% 5%;
 }
@@ -155,38 +157,63 @@ nav a{
     flex-wrap: wrap;
     height: 100vh;
     justify-content: space-evenly;
-
 }
-.img{
-    display: flex;
-    justify-content: flex-end;
+.sec2img{
+    display:flex;
     flex-direction: column;
+    align-items: center;
     width: 20%;
-    margin: 4% 2%;
+    margin: 2%;
 }
+.sec2img p{
+    padding: 2% 8%;
+    margin: 3% 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+    background-color: rgb(195, 201, 181);
+    border-radius: 4px;
+    border: 1px solid rgb(121, 118, 118);
+}
+
 .image1{
-    background-image: url(../Photos/image1.jpg);
+    background-image: url('../Photos/image1.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image2{
-    background-image: url(../Photos/image2.jpg);
+    background-image: url('../Photos/image2.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image3{
-    background-image: url(../Photos/image3.jpg);
+    background-image: url('../Photos/image7.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image4{
-    background-image: url(../Photos/image4.jpg);
+    background-image: url('../Photos/image4.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image5{
-    background-image: url(../Photos/image5.jpg);
+    background-image: url('../Photos/image5.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image6{
-    background-image: url(../Photos/image6.jpg);
+    background-image: url('../Photos/image6.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image7{
-    background-image: url(../Photos/image7.jpg);
+    background-image: url('../Photos/image3.jpg');
+    height: 35vh;
+    width:100%;
 }
 .image8{
-    background-image: url(../Photos/image8.jpg);
+    background-image: url('../Photos/image8.jpg');
+    height: 35vh;
+    width:100%;
 }
 
 footer{
@@ -195,6 +222,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
+    border-top: 1px solid rgb(40, 40, 40);
 }
 footer h3{
     padding: 2%;
