@@ -132,7 +132,7 @@ nav {
 .title {
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-size-adjust: 56%;
+  text-size-adjust: 156%;
 }
 
 .links {
@@ -143,15 +143,23 @@ nav {
 section .banner {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
-
 .Para {
   display: flex;
   justify-content: center;
 }
+.banner .Para {
+  background-image: url("images\2wice.jpg");
+  background-position: center;
+}
 section .one {
   display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
+  align-content: center;
   justify-content: space-evenly;
+  height: 10rem;
+  width: auto;
+  max-width: 10rem;
+  margin: auto;
+  margin-top: 10rem;
 }
