@@ -149,9 +149,8 @@ section .banner {
   display: flex;
   justify-content: center;
 }
-.banner .Para {
-  background-image: url("images\2wice.jpg");
-  background-position: center;
+section .banner .Para {
+  background-color: lawngreen;
 }
 section .one {
   display: flex;
@@ -162,4 +161,17 @@ section .one {
   max-width: 10rem;
   margin: auto;
   margin-top: 10rem;
+  padding-left: 5rem;
+}
+section .two {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 10rem;
+  width: auto;
+  max-width: 10rem;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: row-reverse;
+  padding-right: 5rem;
 }
