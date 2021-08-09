@@ -161,20 +161,19 @@ footer button{
 }
 	
 @media (max-width: 500px){
-nav{
+nav {
 
 	justify-content: center;
-    text-align: center;
 	flex-direction: column;
 }
 }
-.myname h2{
+/* .myname .links{
 display: flex;
 	width: 100%;
 justify-content: center;
-align-items: center;.
-font-size: 3rem;
+align-items: center;
+ */
 
 
-}
+
 
