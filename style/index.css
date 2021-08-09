@@ -56,7 +56,7 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     color: black;
-    margin: 0 5%;
+    margin: 0 4%;
 }
 h1, h2, h3, a{
     text-align: center;
@@ -65,7 +65,7 @@ h1{
 	letter-spacing: 3px;
 	font-size: 5rem;
 	font-weight: 600;
-	padding: 2rem 0;
+	padding: 2% 0;
 	font-family: 'WindSong', cursive;
 }
 nav{
@@ -79,57 +79,71 @@ a{
 	color: black;
 	text-decoration: none;
 	border: 2px solid black;
-	padding: .25rem 0;
+	padding: 2% 0;
 }
 a:hover{
 	background-color: black;
 	color: white;
 	transition-duration: 2s;
 }
+.main{
+	color: #fff;
+	background-color: black;
+}
+.main:hover{
+	color: black;
+	background-color: white;
+	transition-duration: 2s;
+}
 h2{
 	font-size: 4.8rem;
 	font-weight: 600;
-	padding: 2rem 0;
+	padding: 2% 0;
 	font-family: 'MonteCarlo', cursive;
 }
 p{
 	font-size: .8rem;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 2rem;
+	padding-bottom: 2%;
 	font-family: 'Mirza', cursive;
 }
-.container{
-	display: flex;
-	justify-content: center;
+.container img{
+	width: 100%;
+	height: 50vh;
 }
 .projects{
-	padding: 2rem 0;
+	padding: 2% 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	justify-items: center;
 	align-items: stretch;
 	width: 100%;
 }
-#p1img{
-	padding-right: 1rem;
-	width:40%
-} 
-#p2img, #p3img, #p4img{
-	padding: 0 1rem;
-	width: 40%;
-}
-h3{
-	padding: 15rem 5rem;
+.left{
 	display: flex;
 	justify-content: center;
-	align-items: baseline;
+	justify-items: center;
+}
+#p1img{
+	width: 40%;
+	padding-right: 2%;
+}
+#p2img, #p3img, #p4img{
+	width: 40%;
+	padding: 0 2%;
+}
+.right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-weight: 600;
 	line-height: 1.75rem;
 	font-family: 'Mirza', cursive;
 }
 .contact{
-	background-color: grey;
-	padding: 3rem 0;
+	background-color: lightgrey;
+	padding: 3% 0;
 	display: flex;
 	justify-content: center;
 }
@@ -140,10 +154,62 @@ button{
 	color: black;
 	text-decoration: none;
 	border: 2px solid black;
-	padding: .25rem 0;
+	padding: .5% 0;
 }
 button:hover{
 	background-color: black;
 	color: white;
 	transition-duration: 2s;
 }
+@media (max-width: 800px){
+
+}
+@media (max-width: 500px){
+	
+	nav{
+		width: 100%;
+		flex-direction: column;
+		justify-items: center;
+		margin-left: 37%;
+	}
+	a{
+		width: 25%;
+		justify-items: center;
+		justify-content: center;
+		margin: .25%;
+		border-radius: 10px;
+	}
+	.about h2{
+		width: 100%;
+	}
+	.about p{
+		margin: 0 20%;
+	}
+	.container img{
+		height: 40vh;
+	}
+	.projects{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.left{
+		height: 50vh;
+	}
+	.right{
+		width: 100%;
+		padding-top: 61%;
+		padding-bottom: 2%;
+		padding-right: 2%;
+	}
+	button{
+		width: 25%;
+		padding: 2% 4%;
+		border-radius: 10px;
+		color: #fff;
+		background-color: black;
+	}
+	button:hover{
+		color: black;
+		background-color: #fff;
+		transition-duration: 2s;
+	}
