@@ -122,56 +122,53 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+* {
+  height: auto;
+  width: 100%;
+}
 nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-.title {
+.title h2 {
   display: flex;
+  margin: auto;
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-size-adjust: 156%;
+
+  justify-content: flex-start;
 }
 
 .links {
   display: flex;
-  justify-content: flex-start;
-  align-items: start;
+  justify-content: flex-end;
+  align-content: space-around;
+  text-emphasis: none;
+  text-decoration: none;
 }
-section .banner {
+button {
+  background-color: black;
+  text-shadow: 100;
+}
+.banner {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.Para {
+p {
   display: flex;
   justify-content: center;
 }
-section .banner .Para {
+.banner .Para {
   background-color: lawngreen;
 }
-section .one {
+.gallery .one {
   display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-  height: 10rem;
-  width: auto;
-  max-width: 10rem;
-  margin: auto;
-  margin-top: 10rem;
-  padding-left: 5rem;
+
+  justify-content: flex-start;
 }
-section .two {
+.gallery .two {
   display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-  height: 10rem;
-  width: auto;
-  max-width: 10rem;
-  margin: auto;
-  margin-top: 5rem;
-  flex-direction: row-reverse;
-  padding-right: 5rem;
+
+  justify-content: flex-end;
 }
