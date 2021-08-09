@@ -162,7 +162,7 @@ p {
 .banner .Para {
   background-color: lawngreen;
 }
-.gallery .one {
+.gallery .gallery .one {
   display: flex;
 
   justify-content: flex-start;
