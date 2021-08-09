@@ -170,24 +170,22 @@ footer{
     background-color: lavender;
 }
 @media(max-width:800px){
-    h1{
-        width: 60%;
-        display: flex;
-        justify-content: center;
-        margin-left: 20%;
-    }
     header{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+    }
+    h1{
+        width: 50%;
+        padding-right: 4%;
     }
     .links{
         display: flex;
-        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
         align-content: center;
         text-align: center;
-        margin-left: 40%;
-        padding-bottom: 10%;
+        padding-left: 11%;
     }
     .Home{
         width: 20%;
@@ -235,4 +233,13 @@ footer{
     }
     .mainimage{
         font-size: 3rem;
+    }
+    @media(max-width:500px){
+        h1{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .mainimage{
+            font-size: 2.2rem;
+        }
     }
