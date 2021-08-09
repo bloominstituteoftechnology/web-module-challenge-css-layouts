@@ -297,18 +297,13 @@ footer{
 /* Media Queries */
 
 @media (max-width:500px){
-    nav{
-        justify-content: center;
-        position:relative;
-        
-    }
+    
+    
 
     .nav-button{
         min-width: 100%;
     }
-    #top{
-        height: auto;
-    }
+   
     .hero{
         height: 40vh;
     }
@@ -331,5 +326,13 @@ footer{
     }
     .logo{
         width: 100%;
+    }
+    nav{
+        justify-content: center;
+        position:relative;
+        
+    }
+    #top{
+        height: auto;
     }
 }
