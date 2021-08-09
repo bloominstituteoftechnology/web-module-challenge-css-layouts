@@ -137,6 +137,11 @@ nav{
     z-index: 999;
    
 }
+
+.nav-button{
+    width: 10rem;
+    margin: 0 auto;
+}
 .logo{
     display:flex;
     align-items: center;
@@ -297,7 +302,6 @@ footer{
         position:relative;
         
     }
-   
 
     .nav-button{
         min-width: 100%;
@@ -305,5 +309,18 @@ footer{
     #top{
         height: auto;
     }
+    .hero{
+        height: 40vh;
+    }
 
+    .img1, .img2, .img3, .img4, .img5, .img6{
+        height:20vh;
+    }
+    .column{
+        width:40%;
+    }
+    .gallery{
+        justify-content: space-evenly;
+    }
+    
 }
