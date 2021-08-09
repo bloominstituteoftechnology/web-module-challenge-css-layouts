@@ -110,12 +110,13 @@ q:after {
 }
 body {
     background-color: #28282B;
+    
 }
 /* navigation buttons styles */
-button {
+nav {
     border-style: none;
     text-decoration: none;
-    background-position: center;
+    justify-content: center;
     background-color: white;
     justify-content: space-between;
 }
@@ -124,23 +125,23 @@ h1 {
     font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: underline;
-    background-image: linear-gradient(to right,gray , black);
-}
-.description {
-    justify-content: flex-end;
+    background-image: linear-gradient(to right,gray , #28282B);
 }
 .imgPortrait {
     height: 40vh;
     width: 40vh;
+    margin-left: 1%;
+    margin-top: 2%;
     background-image: url("../style/images/portrait.jpg");
     background-size: cover;
 }
 p {
-    flex-direction: row;
+    flex-direction: flex-start;
+    margin-left: 1%;
     display: flex;
     font-family: 'Dosis', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 /* body */
 .container2 {
@@ -267,4 +268,31 @@ p {
 .img8:hover {
     opacity: 30%;
     background-position: center;
+}
+
+/* tablet margin */
+@media(max-width: 800px) {
+  .container2 {
+    display: flex;
+    margin: 0 auto;
+   
+    align-content: space-between;
+  }
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.imgPortrait {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
 }
