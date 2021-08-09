@@ -90,61 +90,70 @@ h2{
     display: flex;
     justify-content: center;
 }
-.imagerow1{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
 .img1{
-    width: 20%;
+    width: 90%;
 }
 .img2{
-    width: 20%;
+    width: 90%;
 }
 .img3{
-    width: 20%;
-}
-.textrow1{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.txt1{
-    margin: 0 16%;
-}
-.txt2{
-    margin: 0 16%;
-}
-.txt3{
-    margin: 0 16%;
-}
-.imagerow2{
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
+    width: 90%;
 }
 .img4{
-    width: 20%;
+    width: 90%;
 }
 .img5{
-    width: 20%;
+    width: 90%;
 }
 .img6{
-    width: 20%;
+    width: 90%;
 }
-.textrow2{
+.box1{
+    width: 33.3%;
     display: flex;
-    justify-content: center;
-    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
 }
-.txt4{
-    margin: 0 8%;
+.box2{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
 }
-.txt5{
-    margin: 0 8%;
+.box3{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
 }
-.txt6{
-    margin: 0 8%;
+.box4{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.box5{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.box6{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.bodyflex{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .footerlink{
     display: flex;
@@ -156,7 +165,9 @@ h2{
     border: solid black 2px;
     background-color: burlywood;
     display: flex;
-
+}
+footer{
+    background-color: lavender;
 }
 @media(max-width:800px){
     h1{
@@ -176,6 +187,7 @@ h2{
         align-content: center;
         text-align: center;
         margin-left: 40%;
+        padding-bottom: 10%;
     }
     .Home{
         width: 20%;
@@ -191,5 +203,36 @@ h2{
     }
     .mainimage{
         width: 90%;
+        height: 400px;
         background-position: center;
+    }
+    .box1{
+        width: 50%;
+    }
+    .box2{
+        width: 50%;
+    }
+    .box3{
+        width: 50%;
+    }
+    .box4{
+        width: 50%;
+    }
+    .box5{
+        width: 50%;
+    }
+    .box6{
+        width: 50%;
+    }
+    .footerlink{
+        width: 33%;
+        height: 30px;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        height: 150px;
+    }
+    .mainimage{
+        font-size: 3rem;
     }
