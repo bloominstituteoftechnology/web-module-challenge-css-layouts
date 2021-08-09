@@ -105,3 +105,34 @@ button {
   text-align: center;
   margin: 5% 47%;
 }
+@media (max-width: 600px) {
+  * {
+    font-size: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+    line-height: 150%;
+  }
+  .img {
+    max-width: auto;
+    height: auto;
+  }
+  .img1,
+  .img2 {
+    width: 100%;
+  }
+  .img3,
+  .img4 {
+    width: 100%;
+  }
+  .img5,
+  .img6 {
+    width: 100%;
+  }
+}
