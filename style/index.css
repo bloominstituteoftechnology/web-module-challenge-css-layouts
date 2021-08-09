@@ -1,47 +1,194 @@
-nav {
-    display: flex;
-    justify-content: space-between;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-.topsection {
-    display: flex;
-    justify-content: center;
-
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-.image-button {
-    background-image: url("https://picsum.photos/600/400");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    color: white;
-    font-size:large;
-    width: 600px;
-    height: 400px;  
+body {
+	line-height: 1;
 }
-footer {
-    background-color: lightgray;
-    padding: 20px;
-    text-align:center;
+@media (max-width: 800px){
+header {
+        text-align:center;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
 }
-
-.portfolio-element {
-    text-align: center;
+ol, ul {
+	list-style: none;
 }
-
-button {
-    background-color: white;
-    color: black;
-    border:black solid 1px;
-    padding: 5px 10px;
-
+blockquote, q {
+	quotes: none;
 }
-button:hover {
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 62.5%;
     background-color: black;
     color: white;
-    border:white solid 1px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: beige;
+    padding-bottom: 2rem;
+
+}
+@media (max-width: 500px){
+header {
+    text-align:center;
+}
+}
+h1{
+    font-size: 5rem;
+    padding: 2rem;
+    display: flex;
+    color: black;
+    font-family: 'New Tegomin', serif;
+}
+.infoBar{
+    font-size: 2rem;
+    display: flex;
+    flex: 4;
+    margin-left: 4rem;
+}
+.headerItems{
+    border: .2rem solid orange;
+    color: white;
+    background-color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-decoration: none;
+}
+#mainProject{
+    font-size: 2rem;
+    display: flex;
+    padding: 2%;
+}
+h2{
+    font-size: 3rem;
+}
+#projectP{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    text-align: left;
+    line-height: 5rem;
+}
+#proj{
+    border: .5rem solid lightgreen;
+    width: 200px;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+#paragraph{
+    word-spacing: .3rem;
+}
+#gallary{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.gallarySection1 img{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    padding: 5%;
+    margin: 5%;
+    padding-bottom: 0%;
+    object-fit: cover;
+    background-color: black;
+}
+.gallarySection1 a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    
+    background-color: black;
+    color: green;
+    margin-left: 14rem;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+#gallary2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.gallarySection2 img{
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    padding: 5%;
+    padding-bottom: 0%;
+    object-fit: cover;
+    margin: 5%;
+    background-color: black;
+    
+}
+.gallarySection2 a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: black;
+    color: lightskyblue;
+    margin-left: 14rem;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+footer{
+    background-color: beige;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h4{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+}
+#contactMe{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    border: solid .5rem lightpink;
+    background-color:black;
+    color: lightpink;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 45%;
+    margin-left: 45%;
 }
