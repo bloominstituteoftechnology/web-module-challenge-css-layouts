@@ -29,7 +29,7 @@ time, mark, audio, video {
     padding:0;
     margin: 0%;
     max-width: 100%;
-   /* border:1px solid gray */
+    border:1px solid gray
 }
 
 h1{
@@ -158,3 +158,38 @@ h2{
     display: flex;
 
 }
+@media(max-width:800px){
+    h1{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-left: 40%;
+    }
+    .Home{
+        width: 20%;
+    }
+    .About{
+        width: 20%;
+    }
+    .Contact{
+        width: 20%;
+    }
+    .Projects{
+        width: 20%;
+    }
+    .mainimage{
+        width: 90%;
+        background-position: center;
+    }
