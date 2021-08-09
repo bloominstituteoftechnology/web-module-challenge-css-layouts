@@ -324,3 +324,12 @@ footer{
     }
     
 }
+
+@media (max-width:800px) {
+    .links{
+        width: 100%
+    }
+    .logo{
+        width: 100%;
+    }
+}
