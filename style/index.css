@@ -55,11 +55,8 @@ table {
 
 /*General Styles*/
 html{
-    font-size:62.5%;
-    
+    font-size:62.5%;   
 }
-
-
 
 /* Add CSS styling here */
 
@@ -70,24 +67,27 @@ body{
     color:#4f4f4f; 
 }
 
-nav{
+
+/* Start of header CSS */
+header nav{
     display:flex;
     justify-content:space-between;
+    align-items: center;
     position:fixed;
     top:0;
     width: 100%;
     z-index: 999;
     background-color: rgb(43, 132, 161);
-    height: 20vh;
+    height: 7rem;
 }
 h1 {
-    font-size:5rem;
+    font-size:3rem;
 }
 section{
     padding:4% 0;
 }
 .name{
-    padding-left: 20rem;
+    padding-left: 13rem;
     color: #FBFFFB;
     
 }
@@ -97,6 +97,12 @@ section{
     justify-content: space-evenly;
     align-items: center;
 }
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+/*start of jumbotron */
 #top{
     height:80vh;
     display: flex;
@@ -104,6 +110,13 @@ section{
     align-items: center;
     text-align: center;
 }
+.main-titles h1{
+    font-size: 5rem;
+}
+
+
+
+/* start of gallery */
 .container img{
     width: 100%;
     height: 50rem;
@@ -119,10 +132,138 @@ section{
     overflow: hidden;
     box-shadow: 0px 2px 20px;
     border-radius: 30px;
-    width: 30%;
+    width: 27%;
     margin: 10rem 0;
     padding-bottom: 3rem;
 }
 .projects {
     text-align: center;
 }
+
+/* css for footer */
+
+footer {
+    width: 100%;
+    background: black;
+    margin:auto;
+}
+
+footer nav {
+    margin:auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Media for 800px starts here */
+/**********************************************************************/
+@media screen and (max-width: 800px) {
+
+    /* adjustments for the logo */
+    h1 {
+        font-size:2.5rem;
+    }
+    .name{
+        padding-left: 5rem;
+    }
+
+
+
+    /*adjustments for the gallery*/
+    .container img{
+        width: 100%;
+    
+    }
+
+    .card {
+        width: 45%;
+    }
+
+
+  } /* media query ends on this end curly bracket!
+
+  /* Media for 500px starts here */
+/**********************************************************************/
+@media screen and (max-width: 500px) {
+    
+    nav {
+        flex-direction: column;
+    }
+    nav .links {
+        flex-direction: column;
+    }
+
+
+    /* adjustments for the logo */
+    h1 {
+        font-size:2.5rem;
+        
+    }
+    .name{
+        padding: 0.5rem 0 0 0;
+        color: rgb(43, 132, 161);
+        text-shadow: 1px 1px #333131;
+        padding-bottom: 1rem;
+
+    }
+
+    header nav {
+        background-color: white;
+    }
+
+    nav .links a{
+        color: black;
+    }
+
+    header {
+        margin-bottom: 8rem;
+    }
+    header nav {
+        position:unset;
+    }
+
+    /* adjustments for jumbo */
+    .bgimg{
+        background: grey;
+        margin-bottom: 10rem;
+    }
+    .main-titles h1{
+        font-size: 3.5rem;
+
+    }
+    .main-titles {
+        margin-top: 35rem;
+    }
+
+
+
+    /*adjustments for the gallery*/
+
+    .container img{
+        width: 80%;
+        height: 50vh;
+    
+    }
+
+    .card {
+        width: 45%;
+        height: 70vh;
+        margin: 2rem 0;
+    }
+
+    .container p {
+        display: none;
+    }
+
+
+  } /* media query ends on this end curly bracket!
+  
