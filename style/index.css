@@ -42,11 +42,11 @@ blockquote, q {
 	}
 /* Bottom of Reset/Start of styling */
 
-/* *{
+*{
     box-sizing:border-box;
     max-width:100%; 
-    border:10px red;
-} */
+    border:1px solid red;
+}
 html{
     font-size: 62.5%;
 }
@@ -145,7 +145,6 @@ button{
 footer{
 	background-color: #82c3ee;
 	display: flex;
-	justify-content: space-around;
 
 }
 footer button{
@@ -156,24 +155,45 @@ footer button{
 	margin-bottom: 1rem;
 
 }
-
 @media (max-width: 800px){
-}
-	
-@media (max-width: 500px){
-nav {
+nav{
+	flex-wrap:wrap;
+	justify-content:center;
 
-	justify-content: center;
+}
+header{
 	flex-direction: column;
-}
-}
-/* .myname .links{
-display: flex;
-	width: 100%;
-justify-content: center;
 align-items: center;
- */
+}
+h1{
+	text-align: center;
+	font-size: 6rem;
+justify-content: center;
+}
+.picgrid{
+	display: flex;
+    height: 100rem;
+    width: 200rem;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	display: grid;
+  	grid-gap: 25px;
+  	grid-template-columns: repeat(2, 1fr);
+}
+
+
+}
 
 
 
 
+
+/* 
+@media (max-width: 500px){
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    } */
