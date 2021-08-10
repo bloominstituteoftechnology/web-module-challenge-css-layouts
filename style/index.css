@@ -97,7 +97,11 @@ h1{
     margin-left: 71rem;
     text-align: center;
 }
+<<<<<<< HEAD
 .projectButton{
+=======
+.button{
+>>>>>>> origin/luke-schmude-day2
     display: flex;
     position: absolute;
     margin-left: 83rem;
@@ -114,7 +118,11 @@ h1{
     border: 1px solid black;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1461749280684-dccba630e2f6.jpg);
+=======
+    background-image: url(/images/photo-1555066931-4365d14bab8c.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -128,7 +136,11 @@ h1{
     border: 1px solid green;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1511220043390-e929fe0edf55.jpg);
+=======
+    background-image: url(/images/photo-1524230659092-07f99a75c013.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -142,7 +154,11 @@ h1{
     border: 1px solid blue;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1498050108023-c5249f4df085.jpg);
+=======
+    background-image: url(/images/photo-1536718453717-7982aa9d8bed.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -156,7 +172,11 @@ h1{
     border: 1px solid blue;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1536718453717-7982aa9d8bed.jpg);
+=======
+    background-image: url(/images/photo-1542804277-c1f3382ec2aa.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -177,7 +197,11 @@ h1{
     border: 1px solid black;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1542831371-29b0f74f9713.jpg);
+=======
+    background-image: url(/images/photo-1588479839125-3a70c078d257.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -191,7 +215,11 @@ h1{
     border: 1px solid green;
     width: 20rem;
     height: 20rem;
+<<<<<<< HEAD
     background-image: url(/images/photo-1554443912-033d65930539.jpg);
+=======
+    background-image: url(/images/photo-1525018923-1ebe8261a6a6.jpg);
+>>>>>>> origin/luke-schmude-day2
     background-position: center;
     background-size: cover;
     margin-top: 1rem;
@@ -256,6 +284,7 @@ h1{
     font-size: 2rem;
     color: blue;
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 /* Tablet styles */
@@ -448,3 +477,6 @@ h1{
         margin-top: 95.5rem;
     }
 }
+=======
+}
+>>>>>>> origin/luke-schmude-day2
