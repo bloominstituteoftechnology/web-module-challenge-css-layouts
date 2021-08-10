@@ -1,1 +1,450 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+/* Header style */
+.headerName{
+    width: 100%;
+    height: 10rem;
+    background-color: grey;
+}
+h1{
+    font-size: 3rem;
+    padding: 1% 2%;
+    margin-left: 3.3rem;
+}
+.nav{
+    font-size: 2rem;
+    margin-left: 5.5rem;
+}
+.nav a{
+    border: 1px solid black;
+    color: blue;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: white;
+}
+/* topContainer Style */
+.topContainer{
+    display: flex;
+    width: 100%;
+
+}
+.image img{
+    display: flex;
+    width: 55rem;
+    margin-left: 5.7rem;
+}
+.myName{
+    display:flex;
+    font-size: 2rem;
+    width: 11.5%;
+    margin-left: 19rem;
+    margin-top: 5rem;
+    height: 5vh;
+}
+.paragraph{
+    display: flex;
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 71rem;
+    text-align: center;
+}
+.projectButton{
+    display: flex;
+    position: absolute;
+    margin-left: 83rem;
+    margin-top: 10rem;
+}
+/* first section style */
+.firstRow{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    justify-content: space-evenly;
+}
+.firstImage{
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1461749280684-dccba630e2f6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.firstText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 78rem;
+}
+.secondImage{
+    border: 1px solid green;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1511220043390-e929fe0edf55.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secondText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 25rem;
+}
+.thirdImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1498050108023-c5249f4df085.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.thirdText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 25rem;
+}
+.fourthImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1536718453717-7982aa9d8bed.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.fourthText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 78rem;
+}
+/* second section style */
+.secondRow{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    justify-content: space-evenly;
+}
+.secfirstImage{
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1542831371-29b0f74f9713.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secfirstText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 78rem;
+}
+.secsecondImage{
+    border: 1px solid green;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1554443912-033d65930539.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secsecondText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-right: 25rem;
+}
+.secthirdImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1516259762381-22954d7d3ad2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secthirdText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 25rem;
+}
+.secfourthImage{
+    border: 1px solid blue;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/images/photo-1526374965328-7f61d4dc18c5.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.secfourthText{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 78rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    background-color: lightgrey;
+}
+.footText{
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    margin-top: 3rem;
+}
+.footButton{
+    position: absolute;
+    display: flex;
+    height: 2rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+.linkOne{
+    display: flex;
+    position: absolute;
+    margin-top: 10rem;
+    font-size: 2rem;
+    color: blue;
+    text-decoration: none;
+}
+
+/* Tablet styles */
+
+@media(max-width:800px){
+    header{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        text-align: center;
+        
+    }
+    .topContainer{
+        width: 100%;
+        height: 120vh;
+        flex-direction: column;
+    }
+    .topContainer img{
+        margin: 0;
+    }
+    .myName{
+        width: 100%;
+        margin: 5% 0 0 0;
+        justify-content: center;
+    }
+    .projectButton{
+        width: 98%;
+        height: 7vh;
+        margin: 0;
+        margin-top: 40rem;
+        justify-content: center;
+
+    }
+    .projectButton button{
+        width: 20%;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .paragraph{
+        font-size: 1.7rem;
+        width: 100%;
+        margin: 0;
+        margin-top: 45rem;
+        justify-content: center;
+    }
+    .firstRow{
+        width: 100%;
+        height: 120vh;
+        flex-wrap:wrap;
+    }
+    .secondRow{
+        width: 100%;
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+    .footer{
+        width: 100%;
+    }
+    .firstText  {
+        width: 25%;
+        margin: 0;
+        margin-top: 21.6rem;
+        margin-right: 20rem;
+        font-size: 2rem;
+    }
+    .secondText{
+        width: 25%;
+        margin: 0;
+        margin-top: 21.6rem;
+        margin-left: 24rem;
+        font-size: 2rem;
+    }
+    .thirdText{
+        width: 25%;
+        margin: 0;
+        margin-top: 47rem;
+        margin-right: 20rem;
+        font-size: 2rem;
+    }
+    .fourthText{
+        width: 25%;
+        margin: 0;
+        margin-top: 47rem;
+        margin-left: 24rem;
+        font-size: 2rem;
+    }
+
+    .secfirstText {
+        width:25%;
+        margin: 0;
+        margin-top: 21.6rem;
+        margin-right: 22rem;
+        font-size: 2rem;
+    }
+    .secsecondText{
+        width: 25%;
+        margin: 0;
+        margin-top: 21.6rem;
+        margin-left: 24rem;
+        font-size: 2rem;
+    }
+    .secthirdText{
+        width: 25%;
+        margin: 0;
+        margin-top: 47rem;
+        margin-right: 22rem;
+        font-size: 2rem;
+    }
+    .secfourthText{
+        width: 25%;
+        margin: 0;
+        margin-top: 47rem;
+        margin-left: 24rem;
+        font-size: 2rem;
+    }
+}
+
+/* phone styles */
+@media(max-width:500px){
+
+    .name h1{
+        margin-right: 2rem;
+        border: 1px solid red;
+    }
+    .topContainer{
+        height: 100vh;
+    }
+    .nav {
+        margin: 0;
+    }
+    .projectButton button{
+        width: 15rem;
+    }
+    .projectButton{
+        margin: 0;
+        margin-top: 27rem;
+    }
+    .paragraph{
+        margin: 0;
+        margin-top: 32rem;
+    }
+    .firstRow{
+        height: 240vh;
+        border: 1px solid red;
+    }
+    .firstText{
+        width: 30%;
+        margin: 0;
+        margin-top: 21.5rem;
+    }.secondText{
+        width: 40%;
+        margin: 0;
+        margin-top: 46.8rem;
+    }
+    .thirdText{
+        width: 35%;
+        margin: 0;
+        margin-top: 71.5rem;
+    }
+    .fourthText{
+        width: 40%;
+        margin: 0;
+    margin-top: 95.5rem;
+    }
+    .secondRow{
+        height: 240vh;
+    }
+    .secfirstText{
+        width: 30%;
+        margin: 0;
+        margin-top: 22rem;
+        margin-left: 1rem;
+    }.secsecondText{
+        width: 40%;
+        margin: 0;
+        margin-top: 46.5rem;
+    }
+    .secthirdText{
+        width: 40%;
+        margin: 0;
+        margin-top: 71.5rem;
+    }
+    .secfourthText{
+        width: 40%;
+        margin: 0;
+        margin-top: 95.5rem;
+    }
+}
