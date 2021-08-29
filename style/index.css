@@ -1,1 +1,179 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.5;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+	
+}
+html {
+    font-size: 62.5%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.header {
+background-color: #f7d45e;
+padding: 2.5%;
+
+}
+.logo {
+    justify-content: center;
+}
+.logo-div {
+	float:right;
+	width:40rem;
+
+}
+.myprojects {
+	font-size: 2rem;
+	width: 100%;
+	font-family: 'VT323', monospace;
+}
+button {
+	border-radius:1rem;
+	width: 10%;
+	text-decoration:none;
+    padding:1% 0;
+	background-color: #f5bc42;
+	border-style:ridge;
+}
+.header nav a {
+	font-size: 2rem;
+	padding: 2rem;
+	float: left;
+	color:black;
+	text-decoration:none;
+	font-family: 'VT323', monospace;
+	padding-right: 4rem;
+}
+h1{
+	font-size: 5rem;
+	font-family: 'Rye', cursive;
+}
+h2 {
+	font-size: 4rem;
+	font-family: 'Rye', cursive;
+}
+p {
+	font-size: 2rem;
+	font-family: 'VT323', monospace;
+
+}
+.img {
+	width:100%;
+	padding-left: 24rem;
+}
+.about {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	padding: 4rem;
+}
+
+.bio {
+	padding-top: 8%;
+	padding-left: 2%;
+	padding-right: 8%;
+}
+li {
+	font-size: 2rem;
+	font-family: 'VT323', monospace;
+}
+ul {
+	list-style-type:circle;
+}
+.row1 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+.title1 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+
+.row2 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+.title2 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+h3 {
+	font-size: 3rem;
+	font-family: 'VT323', monospace;
+}
+.contact {
+	border-radius:1rem;
+	width: 15%;
+	text-decoration:none;
+    padding:1% 0;
+	background-color: #f5bc42;
+}
+.footer a {
+	text-decoration:none;
+	color:black;
+	font-size: 2rem;
+	font-family: 'VT323', monospace;
+}
+.footer {
+	background-color: #f7d45e;
+padding: 2.5%;
+text-align: center;
+}
+nav {
+    align-self: flex-end;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+nav:hover {
+    animation-name:bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
