@@ -53,6 +53,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
+    max-height: 100%;
     color: #333333;
     /* border: 1px solid grey; */
 }
@@ -66,10 +67,15 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-size: 5rem;
 }
 
 /* End General Styles */
@@ -81,12 +87,37 @@ header {
     border-bottom: 1px solid #BFBFBF;
 }
 
-header a {
+header .logo {
     font-size: 3.5rem;
 }
 
-nav a:hover {
+.btn {
+    font-size: 3.5rem;
+}
+
+.btn:hover {
     background-color: #333;
     color: #FFF
 }
 
+.btn-inv {
+    font-size: 3.5rem;
+    color: #FFF;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1630083133039-ca7f95c2c415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    color: #FFF;
+}
