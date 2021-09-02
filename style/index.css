@@ -104,3 +104,12 @@ button{
     align-items: flex-start;
     width: 40%;
 }
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8{
+    width:22%
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
