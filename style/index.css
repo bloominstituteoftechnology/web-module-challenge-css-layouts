@@ -45,11 +45,27 @@
 
         *{
       box-sizing: border-box;
-      border: solid red 3px;
-
+      
   }   
   
   /*Top Style*/
+
+h1{
+   color:#4f4f4f;
+   text-align:left;
+   font-size:2em;
+   
+}
+
+a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: .5em 1.5em;
+    text-transform: uppercase;
+    border-radius: 50%;;
+}
+
 .one{
     display:flex;
     justify-content:space-evenly;
@@ -85,4 +101,10 @@
 .three{
     display:flex;
     justify-content:space-evenly;
+}
+
+
+.respond h3{
+    text-align:center;
+    color:blue;
 }
