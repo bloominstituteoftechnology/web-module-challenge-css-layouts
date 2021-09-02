@@ -45,11 +45,22 @@
 
         *{
       box-sizing: border-box;
+      border: solid red 3px;
 
   }   
   
   /*Top Style*/
   
-  section div .right{
-      width:100px;
+
+.one,.shiba {
+    width: 300px;
   }
+.one, .shiba img {
+    width: 100%;
+  }
+.two img{
+    width:300px;
+}
+.three img{
+    width:300px;
+}
