@@ -57,6 +57,11 @@ table {
     /* border: 1px solid red; */
 }
 
+header {
+    border: 3px solid #4e4e4e;
+    /* background-image: url("https://images.unsplash.com/photo-1505996000701-debaf9186e2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"); */
+}
+
 header h1 {
     font-size: 100px;
     margin: 1%;
@@ -70,7 +75,7 @@ nav {
 
 .link {
     font-size: 30px;
-    background-color: black;
+    background-color: #4e4e4e;
     color: white;
     display: inline-block;
     margin: 10px;
@@ -79,15 +84,23 @@ nav {
 
 .link:hover {
     background-color: white;
-    color: black;
+    color: #4e4e4e;
     transition: 1s;
 }
 
+body {
+    border: 3px solid black;
+    margin: 30px;
+    padding: 30px;
+}
+
 .body {
+    padding: 30px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
+    border: 3px solid black;
+    /* background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
 }
 
 .body h2 {
@@ -96,7 +109,7 @@ nav {
 
 .description {
     max-width: 100vh;
-    
+    padding: 150px;
 }
 
 .description p {
@@ -104,10 +117,25 @@ nav {
 }
 
 .group-one, .group-two {
+    max-width: 100vw;
     display: flex;
-    border: 1px solid red;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid red;
+    
 }
 
 .img {
-    justify-content: 
+    justify-content: space-between;
+}
+
+footer {
+    padding: 30px;
+    border: 3px solid black;
+    text-align: center;
+    max-height: 100px;
+}
+
+footer h2 {
+    font-size: 50px;
 }
