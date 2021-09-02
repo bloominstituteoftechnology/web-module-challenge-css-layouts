@@ -5,7 +5,7 @@
 * {
 	vertical-align: baseline;
 	font-weight: inherit;
-	font-family: inherit;
+	font-family: 'Josefin Sans', sans-serif;;
 	font-style: inherit;
 	font-size: 100%;
 	border: 0 none;
@@ -107,14 +107,17 @@ header nav {
 /* Projects Styles Section */
 
 .projects-section {
+    background-color: #FFF0F3;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    padding: 10%;
+    padding: 2% 10%;
 }
 .project {
     width: 22%;
-    margin: 0 5%;
+    margin: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -122,10 +125,47 @@ header nav {
 }
 .project img {
     border-radius: 9999px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    border: 5px solid #C9184A;
 }
 .project a {
+    padding: 5%;
+    width: 90%;
+    text-align: center;
     text-decoration: none;
     font-size: 2rem;
-    color: #C9184A
+    color: #C9184A;
+    background-color: #FFF0F3;
+    border: 5px solid #C9184A;
+    border-radius: 10px;
+}
+.project a:hover {
+    background-color: #C9184A;
+    border: 5px solid #FFF0F3;
+    color: #FFF0F3;
+    border-radius: 10px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    background-color: #C9184A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    margin: 2%;
+    padding: 0.5%;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #FFF0F3;
+    background-color: #C9184A;
+    border: 5px solid #FFF0F3;
+    border-radius: 10px;
+}
+footer a:hover {
+    color: #C9184A;
+    background-color: #FFF0F3;
+    border: 5px solid #FFF0F3;
 }
