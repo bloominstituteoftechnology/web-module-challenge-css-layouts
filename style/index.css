@@ -1,1 +1,174 @@
-/* Add CSS styling here */
+/* reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    /* border:1px solid red; */
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#210E0A;
+    font-family: 'Shadows Into Light', cursive;
+    background-color:#FFFAFA;
+    margin-bottom:10vh;
+}
+h1, h2, h3, h4{
+    letter-spacing: 3px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: #210E0A;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size:2.5rem;
+}
+button{
+    font-family: 'Shadows Into Light', cursive;
+}
+section div{
+    /* border:1px solid red; */
+}
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+}
+header nav{
+    
+    /* position: fixed; */
+    width: 100%;
+    /* background-color: #D2CECD; */
+    top: 0;
+    align-items: center;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.my-name{
+    width: 45%;
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content:right;
+    padding: 2%;
+}
+.links a{
+    padding: 2% 3%;
+    font-weight: bold;
+}
+.top{
+    width: 80%;
+    height: 50vh;
+    background-image: url("https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    margin: 5% 10%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color: black;
+}
+.title a{
+    border: #210E0A solid 2px;
+    width: 80%;  
+    color: aqua;
+    
+}
+.projects {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+}
+
+.project {
+    width:29%;
+    height:25vh;
+    margin:4% 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;  
+    height: auto;
+     
+}
+img{
+    /* max-width: 100%; */
+    height: 100%;
+    background-position: center;
+}
+
+footer{
+      
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #D2CECD;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center; 
+    
+}
+footer div{
+    border: 2px solid black;
+    padding: 0.5% 1%;
+}
