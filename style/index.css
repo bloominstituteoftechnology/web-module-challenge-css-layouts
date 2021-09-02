@@ -53,6 +53,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
+    color: #333333;
     border: 1px solid grey;
 }
 
@@ -67,5 +68,19 @@ body {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* End General Styles */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+header a {
+    font-size: 3.5rem;
+}
