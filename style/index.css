@@ -1,1 +1,79 @@
 /* Add CSS styling here */
+*{ box-sizing: border-box;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: lemonchiffon;
+}
+
+/* Header Section Style */
+header{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+.links1{
+    display: flex;
+    max-width: 50%;
+     justify-content:space-around;
+}
+
+.links1 a{
+    font-size: 2rem;
+    color: darkolivegreen;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+/* First Section Style*/
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+}
+.first-img{
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+h2{
+    margin: 4%;
+}
+.about-me{
+    margin: 5%;
+}
+.about-me a{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 2rem;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+/* Second Section Style */
+
+.second-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-section img{
+   margin: 2%;
+    width: 20%;
+    height: 20vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
