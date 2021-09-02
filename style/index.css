@@ -80,3 +80,21 @@ h3{
 h4{
     font-size: 2rem;
 }
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    display: flex;
+    justify-content: right;
+}
+.img1{
+    width: 40%;
+}
+.infop{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+
+}
