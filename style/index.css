@@ -1,8 +1,8 @@
 /* Add CSS styling here */
-*/*{
-    border: 5px solid purple;
+*{
+    
 }
-*/
+
 
 /* Header styles */
 header{
@@ -28,16 +28,48 @@ header nav a:hover{
 .topcontent{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #013a63;
 }
 
 
-
+.left img{
+    max-width: 100%;
+    border-radius: 15%;
+}
 .left{
     width: 50%;
+   padding: 30px;
+    margin: 1px;
+    
+    
+    
+    
+
 }
 .right{
     width: 50%;
+    padding: 3vh;
+    margin:1px;
+    text-align: left;
+    
 }
+.right p{
+    background-color: #01497c;
+    width:50%;
+    text-align: left;
+    color: #f0efeb;
+    padding: 30px;
+}
+
+.right h2{
+    color: #f0efeb;
+}
+.right p{
+
+}
+
+/* gallery content styles */
 .gallerycontent{
     margin-top: 5%;
     
