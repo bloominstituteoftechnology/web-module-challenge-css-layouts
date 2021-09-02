@@ -1,1 +1,122 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	vertical-align: baseline;
+} 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/* Global */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+body {
+    line-height: 1.5;
+}
+section {
+    padding: 1% 0;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 auto;
+    padding-left: 1%;
+    font-size: 5rem;
+}
+/* Header */
+header {
+    background: #f4f1de;
+}
+nav {
+    display: flex;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+a {
+    font-size: 2rem;
+    padding: 0.5% 2%;
+    text-decoration: none;
+    background: whitesmoke;
+    color: #4f4f4f;
+    border: 1px solid #4f4f4f;
+}
+a:hover {
+    background: black;
+    color: whitesmoke;
+}
+/* Intro */
+.intro {
+    display: flex;
+}
+.intro a {
+    padding: 1.2% 2%;
+}
+.left, 
+.right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.right .content {
+    width: 75%;
+    font-size: 3rem;
+    padding: 3%;
+}
+/* Projects */
+.projects img {
+    width: 400px;
+    height: 250px;
+}
+.projects, 
+.row-one, 
+.row-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    font-size: 2rem;
+}
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    background: #f4f1de;
+}
