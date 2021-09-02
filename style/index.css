@@ -1,1 +1,92 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	 quotes: "" "";
+	}
+
+ *{
+     box-sizing: border-box;
+     padding:0;
+     margin:0;
+     max-width: 100%;
+ }   
+
+ /*general styles*/
+ html {
+     font-size: 62.5%;
+ }
+
+ body {
+     font-size: 1.6rem;
+     line-height: 1.5;
+ }
+ a {
+     text-decoration: none;
+ }
+ /* header */
+ 
+ /*body*/
+
+.picturemain {
+    height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1562422313-5195a5f0198a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bodybot{
+    display: flex;
+}
+
+.bodybot .pi
+.one { 
+     background-image: url('https://images.unsplash.com/photo-1533630918967-bc02039560dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80');
+}
+.two {
+     background-image: url('https://images.unsplash.com/photo-1511721060787-e1031729a4eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=952&q=80'); 
+
+}
+.three {
+     background-image: url('https://images.unsplash.com/photo-1534817549988-aa0050486367?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80'); 
+
+}
+.four {
+     background-image: url('https://images.unsplash.com/photo-1611867010715-e6531fe870c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80'); 
+
+}
+
+ /* footer */
