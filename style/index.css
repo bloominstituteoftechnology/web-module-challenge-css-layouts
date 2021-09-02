@@ -50,17 +50,39 @@
   }   
   
   /*Top Style*/
-  
+.one{
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+    
+}  
 
 .one,.shiba {
-    width: 300px;
+    width:50%;
   }
 .one, .shiba img {
     width: 100%;
   }
+.left{
+    color:#4f4f4f;
+    padding-top:150px;
+}
+
+/* Middle Styles*/
+
+
+
 .two img{
     width:300px;
 }
 .three img{
     width:300px;
+}
+.two{
+    display:flex;
+    justify-content:space-evenly;
+}
+.three{
+    display:flex;
+    justify-content:space-evenly;
 }
