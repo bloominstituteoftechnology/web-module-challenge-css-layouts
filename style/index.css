@@ -126,7 +126,10 @@ table {
 nav {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 40px;
+  background-color: aquamarine;
 }
 
 .first {
@@ -134,31 +137,52 @@ nav {
   align-items: center;
 }
 .first .banner {
-  margin-left: 20%;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   align-items: center;
 }
+.first p {
+  padding: 30px;
+}
 .first img {
-  height: 20%;
+  height: min-content;
   width: 20%;
 }
 .gallery {
+  align-content: center;
+}
+.gallery img {
   display: flex;
   flex-wrap: wrap;
-
   width: 20%;
   height: 20%;
 }
 .gallery .one {
+  justify-content: space-evenly;
   display: flex;
-  align-items: center;
+  padding-top: 20px;
 }
-.one img {
-  width: 60%;
+.linkstwo {
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .gallery .two {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.linksthree {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: aquamarine;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
