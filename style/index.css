@@ -58,18 +58,19 @@ table {
 }
 
 header {
-    border: 3px solid #4e4e4e;
-    /* background-image: url("https://images.unsplash.com/photo-1505996000701-debaf9186e2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"); */
+    border: 3px solid black;
+}
+
+header:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
 }
 
 header h1 {
+    font-family: Verdana;
     font-size: 100px;
     margin: 1%;
-}
-
-h1:hover {
-    color: teal;
-    transition: 0.5s;
 }
 
 nav {
@@ -79,7 +80,9 @@ nav {
 }
 
 .link {
+    font-family: Georgia;
     font-size: 30px;
+    text-decoration: none;
     background-color: #4e4e4e;
     color: white;
     display: inline-block;
@@ -105,11 +108,21 @@ body {
     display: flex;
     justify-content: space-between;
     border: 3px solid black;
-    /* background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
 }
 
 .body h2 {
+    font-family: verdana;
     font-size: 60px;
+}
+
+.body:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+
+.image1:hover {
+    -webkit-filter: invert(100%);
 }
 
 .description {
@@ -129,12 +142,28 @@ body {
     align-content: center;
     flex-wrap: wrap;
     padding: 2rem;
-    border: 3px solid red;
+    border: 3px solid black;
+}
+
+.container1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
 }
 
 .img div {
     width: 100%;
     flex: 1 0 auto;
+}
+
+.img:hover {
+    -webkit-filter: invert(100%);
+}
+
+.img p {
+    text-align: center;
+    font-family: Verdana;
+    margin: 10px;
 }
 
 footer {
@@ -144,7 +173,14 @@ footer {
     max-height: 100px;
 }
 
+footer:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+
 footer h2 {
+    font-family: Verdana;
     font-size: 50px;
 }
 
@@ -156,6 +192,10 @@ footer h2 {
     text-decoration: none;
 }
 
+.fa:hover {
+    opacity: 0.5;
+}
+
 .fa-instagram {
     color: white;
     background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtJTIwZ3JhZGllbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
@@ -163,5 +203,5 @@ footer h2 {
 
 .fa-twitter {
     background: #55acee;
-    color: white;
+    color: white; 
 }
