@@ -1,22 +1,36 @@
 /* Add CSS styling here */
-*{
+*/*{
     border: 5px solid purple;
 }
-
+*/
 
 /* Header styles */
 header{
     display: flex;
+    background-color: #012a4a;
 }
 header nav a{
     text-decoration: none;
+    background-color: #2c7da0;
+    color: #fff1e6;
+    padding-right: 5px;
 }
+header nav a:hover{
+    font-size: 150%;
+}
+.logo h1{
+    color: #f0efeb;
+    padding-left: 5px;
+}
+
 
 /* Content Div styles */
 .topcontent{
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .left{
     width: 50%;
