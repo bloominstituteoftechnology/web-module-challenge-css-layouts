@@ -35,7 +35,7 @@ header nav a:hover{
 
 .left img{
     max-width: 100%;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 .left{
     width: 50%;
@@ -60,14 +60,24 @@ header nav a:hover{
     text-align: left;
     color: #f0efeb;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .right h2{
     color: #f0efeb;
 }
-.right p{
 
+.rightbutton{
+    background-color: #a9d6e5;
+    color: #073b4c;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
 }
+.right a:hover{
+    font-size: 120%;
+}
+
 
 /* gallery content styles */
 .gallerycontent{
