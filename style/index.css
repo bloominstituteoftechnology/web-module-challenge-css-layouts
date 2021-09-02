@@ -101,6 +101,11 @@ h1 {
     border: 2px solid #FFF;
     background: #FFF;
     color: #1F1F1F;
+    -webkit-transition: all .6s ease-in-out;
+       -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+         -o-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
 }
 
 /* End General Styles */
