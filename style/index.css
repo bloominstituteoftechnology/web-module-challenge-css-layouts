@@ -1,1 +1,111 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid red;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Neucha', cursive;
+    color: black;
+}
+/* Header style */
+.head {
+    border: 1px solid grey;
+    background-color: lightblue;
+    padding: 1.1%;
+}
+.head h1 {
+    font-size: 5rem;
+    margin-bottom: 0.5%;
+}
+.headNav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 0.2% 1.5%;
+    margin-left: 1%;
+}
+a:hover {
+    text-decoration: underline;
+}
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1% 0;
+}
+.introImg {
+    width: 40%;
+}
+.txtContainer h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1%;
+}
+.txtContainer a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 0.2% 3.5%;
+}
+.txtContainer p {
+    margin-top: 1%;
+    font-size: 2rem;
+}
+.gallery1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic1, .pic2, .pic3, .pic4 {
+    width: 22%;
+    font-size: 2rem;
+    text-align: center;
+}
