@@ -109,10 +109,12 @@ header nav{
     padding: 2% 3%;
     font-weight: bold;
     border: 2px solid black;
+    border-radius:10px;
 }
 .links a:hover{
     color: white;
     background-color: black;
+    border-radius:10px;
 }
 .top{
     width: 80%;
@@ -125,6 +127,7 @@ header nav{
     display:flex;
     justify-content:center;
     align-items:center;
+    border-radius:10px;
 }
 .title{
     display: flex;
@@ -138,6 +141,11 @@ header nav{
     width: 80%;  
     color: aqua;
     
+}
+.title a:hover{
+color: white;
+background-color: black;
+border-radius:10px;
 }
 .projects {
     display:flex;
@@ -155,13 +163,20 @@ header nav{
     height: auto;
      
 }
+.project h3:hover{
+    color: white;
+    background-color: black;
+    border-radius:10px;
+}
+
 img{
     /* max-width: 100%; */
     height: 100%;
     background-position: center;
+    border-radius:5px;
 }
 
-footer{
+footer div{
       
     position:fixed;
     bottom: 0;
@@ -173,7 +188,14 @@ footer{
     justify-content: center; 
     
 }
-footer div{
+footer div a{
     border: 2px solid black;
     padding: 0.5% 1%;
+    border-radius: 10px;
+
+}
+footer div a:hover{
+    color: white;
+    background-color: black;
+    border-radius:10px;
 }
