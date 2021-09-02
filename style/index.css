@@ -32,6 +32,8 @@ header nav {
 .header-title {
     font-size: 3rem;
     color: #FFF0F3;
+    display: flex;
+    align-items: center;
 }
 .header-links {
     display: flex;
@@ -49,7 +51,8 @@ header nav {
     text-decoration: none;
     margin: 0 5%;
     padding: 3%;
-    border: 2px solid #FFF0F3;
+    border: 5px solid #FFF0F3;
+    border-radius: 10px;
 }
 .header-links a:hover {
     color: #C9184A;
@@ -59,5 +62,70 @@ header nav {
 /* Landing Section Styles */
 
 .landing-section {
-    
+    background-image: url("https://images.unsplash.com/photo-1569396116180-210c182bedb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #C9184A;
+}
+.landing-section div {
+    width: 50%;
+    background-color: #FFF0F3;
+    border: 10px solid #C9184A;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.landing-section div h2 {
+    margin-top: 5%;
+    font-size: 5rem;
+}
+.landing-section div a {
+    font-size: 2rem;
+    color: #FFF0F3;
+    background-color: #C9184A;
+    text-decoration: none;
+    margin: 0 5%;
+    padding: 3%;
+    border: 5px solid #FFF0F3;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+.landing-section div a:hover {
+    color: #C9184A;
+    background-color: #FFF0F3;
+    border: 5px solid #C9184A;
+}
+
+/* Projects Styles Section */
+
+.projects-section {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+.project {
+    width: 22%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project img {
+    border-radius: 9999px;
+    margin-bottom: 20%;
+}
+.project a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #C9184A
 }
