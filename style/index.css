@@ -9,11 +9,13 @@ html{
 }
 body{
     font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
     border: 2px solid black;
     background-color: lemonchiffon;
 }
 
 /* Header Section Style */
+
 header{
     background-color: lightblue;
     padding: 1%;
@@ -39,15 +41,17 @@ h1:hover{
     border: 2px solid black;
     padding: 10px;
     text-decoration: none;
+    max-width: 25%;
 }
 .links1 a:hover{
     text-decoration: underline black;
+    background-color: lemonchiffon;
 }
+
 /* First Section Style*/
 
 .first-section{
     display: flex;
-    flex-direction: row;
 }
 .first-img{
     width: 20%;
@@ -71,30 +75,36 @@ h2{
 .about-me a:hover{
     text-decoration:underline black;
 }
+.about-me p{
+    font-size: 1.6rem;
+}
+
 /* Second Section Style */
 
 .second-section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    max-height: 15%;
 }
 .second-section img{
-   margin: 2%;
+    margin: 2%;
     width: 20%;
-    height: 30vh;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 /* Footer Section Style */
+
 footer{
     display: block;
     background-color: lightcoral;
     text-align: center;
-    padding: 4vh;
+    padding: 5vh;
 }
 h3{
     font-size: 2rem;
-    margin: 1%;
+    margin: 2%;
 }
 footer a{
     font-size: 2rem;
@@ -106,4 +116,5 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline black;
+    background-color: lemonchiffon;
 }
