@@ -80,20 +80,28 @@ header #navLinks{
 }
 
 .first{
-    background-image: url("cover1.jpg");
-    background-size: cover;
-    padding: 15%;
+    background-image: url("ocean.jpg");
+    background-size:100% 100%;
+    padding: 20%;
     margin:5%;
-    color:B0C4DE,
+    color:B0C4DE;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
     
 }
 
-.first #name {
-    color:white;
+#name {
+    color:#00008B;
     display: flex;
-    justify-content:center;
-    /* font-size: 5rem */
+    font-size: 5rem;
 }
+#proj{
+    color: #00008B;
+}
+
+
+
 
 
 
