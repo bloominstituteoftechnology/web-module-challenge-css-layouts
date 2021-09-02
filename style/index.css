@@ -1,1 +1,48 @@
 /* Add CSS styling here */
+*{
+    border: 5px solid purple;
+}
+
+
+/* Header styles */
+header{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+}
+
+/* Content Div styles */
+.topcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.gallerycontent{
+    margin-top: 5%;
+    
+}
+.galleryrow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.galleryrow2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Footer styles */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #2a6f97;
+    
+}
