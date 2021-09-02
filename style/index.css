@@ -65,19 +65,16 @@ header h1 {
 nav {
     margin: 1%;
     max-width: 50%;
-    /* font-size: 30px; */
     display: flex;
-    /* justify-content: space-between; */
-    border: 1px solid blue;
 }
 
 .link {
     font-size: 30px;
     background-color: black;
     color: white;
+    display: inline-block;
     margin: 10px;
     padding: 10px;
-    border: 1px solid red;
 }
 
 .link:hover {
@@ -87,6 +84,30 @@ nav {
 }
 
 .body {
+    text-align: center;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.body h2 {
+    font-size: 60px;
+}
+
+.description {
+    max-width: 100vh;
+    
+}
+
+.description p {
+    text-align: center;
+}
+
+.group-one, .group-two {
+    display: flex;
+    border: 1px solid red;
+}
+
+.img {
+    justify-content: 
 }
