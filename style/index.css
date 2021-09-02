@@ -1,5 +1,5 @@
 /* Add CSS styling here */
-/* CSS RESET */
+ /* CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,14 +41,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 /* CSS General styling */
  *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     max-width:100%;
-    border:3px solid purple;
+    /* border:3px solid purple; */
  }   
  html{
      font-size:62.5%;
@@ -61,21 +61,24 @@ table {
 .navigation {
     display:flex;
     justify-content: left;
+    background-color: bisque;
+
 }
-h1, h2, h3, h4{
-    letter-spacing: 3px;
+h1, h2, h3, h4, {
+    letter-spacing: 2px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
 }
 h1{
     font-size:5rem;
+    font-family: 'Permanent Marker', cursive;
 }
 h2{
-    font-size: 4rem;
+    font-size: 2.6rem;
 }
 h3{
-    font-size:3rem;
+    font-size:1.6rem;
 }
 h4{
     font-size: 2rem;
@@ -83,10 +86,14 @@ h4{
 .about{
     display: flex;
     justify-content: space-evenly;
+
 }
 button{
-    display: flex;
-    justify-content: right;
+    margin:10px 0px 10px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: left;
+    padding:3px 5px;
 }
 .img1{
     width: 40%;
@@ -94,7 +101,6 @@ button{
 .infop{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 40%;
-    text-align: left;
-
 }
