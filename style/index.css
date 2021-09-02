@@ -108,6 +108,11 @@ header nav{
 .links a{
     padding: 2% 3%;
     font-weight: bold;
+    border: 2px solid black;
+}
+.links a:hover{
+    color: white;
+    background-color: black;
 }
 .top{
     width: 80%;
