@@ -47,3 +47,9 @@
       box-sizing: border-box;
 
   }   
+  
+  /*Top Style*/
+  
+  section div .right{
+      width:100px;
+  }
