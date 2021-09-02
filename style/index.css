@@ -170,7 +170,7 @@ header .logo {
     color: #FFF;
 }
 
-/* Home page project gallery */
+/* project gallery styling */
 
 .gallery-home {
     display: flex;
@@ -181,9 +181,62 @@ header .logo {
 
 .gallery-home div {
     width: 30%;
-    padding-bottom: 25%;
-    margin-top: 5%;
+    height: 40vh;
+    margin: 2% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
+
+.proj {
+    background-image: url(https://source.unsplash.com/random);
+}
+
+div .hide {
+    width: 70%;
+    height: 10vh;
+    background-color: #333;
+    opacity: 0.75;
+    display: none;
+}
+
+div .hide h2 {
+    font-size: 4rem;
+    color: #FFF;
+}
+
+div .hide p {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+div:hover .hide {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery div {
+    width:40%;
+    height: 40vh;
+    margin: 4% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
 
 /* Footer styling */
 
@@ -229,31 +282,4 @@ nav.social i {
     font-size: 3rem;
     color: white;
     letter-spacing: 1em;
-}
-
-/* Projects page styling */
-
-h1 {
-    text-align: center;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.gallery div {
-    width:40%;
-    height: 40vh;
-    margin: 4% 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-}
-
-.proj {
-    background-image: url(https://source.unsplash.com/random);
 }
