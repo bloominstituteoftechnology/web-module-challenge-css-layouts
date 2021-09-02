@@ -16,19 +16,21 @@ body{
 /* Header Section Style */
 header{
     background-color: lightblue;
-    padding: 20px;
+    padding: 1%;
     margin: 0;
 }
 h1{
   display: flex;
   justify-content: center;
-  margin: 3%;
+  margin: 2%;
 }
-
+h1:hover{
+    color: lemonchiffon;
+}
 .links1{
     display: flex;
-    max-width: 50%;
-     justify-content:space-around;
+    max-width: 100%;
+    justify-content:space-evenly;
 }
 
 .links1 a{
@@ -38,6 +40,9 @@ h1{
     padding: 10px;
     text-decoration: none;
 }
+.links1 a:hover{
+    text-decoration: underline black;
+}
 /* First Section Style*/
 
 .first-section{
@@ -45,12 +50,13 @@ h1{
     flex-direction: row;
 }
 .first-img{
-    width: 40%;
+    width: 20%;
     margin-left: 2%;
     margin-top: 3%;
 }
 h2{
-    margin: 4%;
+    text-transform: capitalize;
+    margin: 1%;
 }
 .about-me{
     margin: 5%;
@@ -62,7 +68,9 @@ h2{
     color: darkolivegreen;
     text-decoration: none;
 }
-
+.about-me a:hover{
+    text-decoration:underline black;
+}
 /* Second Section Style */
 
 .second-section {
@@ -73,7 +81,29 @@ h2{
 .second-section img{
    margin: 2%;
     width: 20%;
-    height: 20vh;
+    height: 30vh;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+/* Footer Section Style */
+footer{
+    display: block;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 4vh;
+}
+h3{
+    font-size: 2rem;
+    margin: 1%;
+}
+footer a{
+    font-size: 2rem;
+    border: 2px solid black;
+    color: seagreen;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1vh;
+}
+footer a:hover{
+    text-decoration: underline black;
 }
