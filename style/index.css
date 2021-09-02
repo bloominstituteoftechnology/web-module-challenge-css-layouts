@@ -1,7 +1,65 @@
 /* Add CSS styling here */
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+ h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
 *{
-    
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    max-width: 100%;
+
 }
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    color: #4f4f4f;
+}
+
+
+
 
 
 /* Header styles */
@@ -21,6 +79,7 @@ header nav a:hover{
 .logo h1{
     color: #f0efeb;
     padding-left: 5px;
+    
 }
 
 
@@ -48,8 +107,11 @@ header nav a:hover{
 
 }
 .right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     width: 50%;
-    padding: 3vh;
+    padding: 5px;
     margin:1px;
     text-align: left;
     
@@ -61,6 +123,7 @@ header nav a:hover{
     color: #f0efeb;
     padding: 30px;
     border-radius: 5px;
+
 }
 
 .right h2{
@@ -73,25 +136,90 @@ header nav a:hover{
     padding: 5px;
     text-decoration: none;
     border-radius: 5px;
+    max-width: 30%;
+    text-align: center;
 }
 .right a:hover{
-    font-size: 120%;
+    font-size: 110%;
 }
 
 
 /* gallery content styles */
-.gallerycontent{
-    margin-top: 5%;
+   
     
-}
+    
+    
+
 .galleryrow1{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    max-height: 50vh;
+    
 }
+.galleryrow1 div{
+    padding: 20px;
+    max-height: 30vh;
+    max-width: 20%;
+}
+
+    
+
+.galleryrow1 .img1{
+     max-width: 100%;
+     max-height: 100%;
+  
+}
+.galleryrow1 .img2{
+    max-width: 100%;
+    max-height: 100%;
+}
+.galleryrow1 .img3{
+    max-width: 100%;
+    max-height: 100%;
+}
+.galleryrow1 .img4{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 .galleryrow2{
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    max-height: 80vh;
 }
+.galleryrow2 img{
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.galleryrow2 div{
+    padding: 100px;
+    max-width: 20%;
+    text-align: center;
+}
+.galleryrow2 .img1{
+    max-width: 100%;
+    max-height: 100%;
+ 
+}
+.galleryrow2 .img2{
+    max-width: 100%;
+    max-height: 100%;
+}
+.galleryrow2 .img3{
+    max-width: 100%;
+    max-height: 100%;
+}
+.galleryrow2 .img4{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 
 /* Footer styles */
@@ -99,6 +227,27 @@ header nav a:hover{
 footer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: #2a6f97;
+    height: 30vh;
     
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #f0efeb;
+}
+
+footer a{
+    background-color: #a9d6e5;
+    color: #073b4c;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 30%;
+    text-align: center;
+}
+footer a:hover{
+    font-size: 110%;
 }
