@@ -44,26 +44,120 @@ blockquote, q {
         margin: 0;
         padding: 0;
         max-width: 100%;
+    
     }
 html{
     font-size: 65.5%;
+    font-family: 'Rubik', sans-serif;
 }
 body{
+    background-image: url(https://images.unsplash.com/photo-1630522521616-aac6fd729e11?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f;
 }
 header{
-display: flex;
-justify-content: start;
-}
-header a{
-    border-style: solid;
-    text-decoration: none;
-    border-radius: 10px;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: start;
 
 }
+header a{
+color: #4f4f4f;
+    width: 20%;
+    border-style: solid; 
+    text-decoration: none;
+}
+}
+h1{
+    padding: 2% 2% 0 0;
+    font-weight: bold;
+    font-size: 5rem;
+}
 .home{
-    color:#94d4d3 ;
-    background-color:#94d4b4 ;
+    color: whitesmoke;
+    background-color: #a87b8c;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.main-picture{
+    display: inline-block;
+    justify-content: space-between;
+    width: 62%;
+    margin: 0 2%;
+    text-align: center;
+}
+.Cody{
+    background-color:#7a5b66 ;
+    color: whitesmoke;
+    width: 50%;
+    display: inline-block;
+    border-style: solid;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.myprojects{
+    font-weight: bold;
+    text-decoration: none;
+    color:blue
+}
+/* project pictures and words */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    margin: 5%
+}
+.project-pic1{
+    text-align: center;
+    width: 20%;
+}
+.project-pic2{
+    text-align: center;
+    width: 20%;
+
+}
+.project-pic3{
+    text-align: center;
+width: 20%;
+}
+
+.project-pic4{
+    text-align: center;
+    width: 20%;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.project-pic5{
+    text-align: center;
+    width: 20%;
+}
+.project-pic6{
+    text-align: center;
+    width: 20%;
+
+}
+.project-pic7{
+    text-align: center;
+    width: 20%;
+}
+.project-pic8{
+    text-align: center;
+    width: 20%;
+}
+footer{
+    text-align: center;
+}
+.test{
+    background-image: url(img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg)
 }
