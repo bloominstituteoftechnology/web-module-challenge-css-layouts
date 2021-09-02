@@ -1,1 +1,103 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.image-button{
+    background-image: url("https://picsum.photos/1000/500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 1000px;
+    height: 500px;
+}
+
+footer{
+    background-color: lightgray;
+    padding: 20px;
+    text-align:center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.project{
+    text-align: center;
+}
