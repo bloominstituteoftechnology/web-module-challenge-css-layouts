@@ -1,9 +1,5 @@
 /* Add CSS styling here */
 
-*{
-    border: 1px solid red; 
-}
-
 /* header section */
 nav a{
     display: inline-block;
@@ -21,5 +17,20 @@ nav a{
 .left img{
     width: 60%;
     height: 60%;   
-    padding-top: 3%;
+    padding-top: 10%;
+}
+
+/* top row photos*/
+.top-row{  
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.top-row-child{
+    display: flex;
+}
+.top-row-child img{
+    width: 60%;
+    height: 60%;   
+    padding-top: 10%;
 }
