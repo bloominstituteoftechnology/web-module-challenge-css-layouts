@@ -51,6 +51,10 @@ body {
     line-height: 1.5;
     font-family: 'Neucha', cursive;
     color: black;
+    background-image: url(https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 /* Header style */
 .head {
