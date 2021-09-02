@@ -54,5 +54,39 @@ table {
 /* End of CSS reset */
 
 * {
+    /* border: 1px solid red; */
+}
+
+header h1 {
+    font-size: 100px;
+    margin: 1%;
+}
+
+nav {
+    margin: 1%;
+    max-width: 50%;
+    /* font-size: 30px; */
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid blue;
+}
+
+.link {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid red;
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
 }
