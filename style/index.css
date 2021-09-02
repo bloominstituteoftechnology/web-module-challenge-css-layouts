@@ -34,3 +34,24 @@ nav a{
     height: 60%;   
     padding-top: 10%;
 }
+
+/* bottow row photos */
+.bottom-row{  
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.bottom-row-child{
+    display: flex;
+}
+.bottom-row-child img{
+    width: 60%;
+    height: 60%;   
+    padding-top: 10%;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+}
+
