@@ -91,6 +91,7 @@ a:hover {
 .txtContainer h2 {
     font-size: 3.5rem;
     margin-bottom: 1%;
+    color: white;
 }
 .txtContainer a {
     font-size: 2rem;
@@ -107,6 +108,7 @@ a:hover {
 .txtContainer p {
     margin-top: 1%;
     font-size: 2rem;
+    color: white;
 }
 .gallery {
     display: flex;
@@ -117,6 +119,7 @@ a:hover {
     width: 22%;
     font-size: 2rem;
     text-align: center;
+    color: white;
 }
 .foot {
     background-color: lightblue;
