@@ -54,7 +54,7 @@ blockquote, q {
     margin: 0;
     max-width: 100%;
     color: #333333;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -84,3 +84,9 @@ header {
 header a {
     font-size: 3.5rem;
 }
+
+nav a:hover {
+    background-color: #333;
+    color: #FFF
+}
+
