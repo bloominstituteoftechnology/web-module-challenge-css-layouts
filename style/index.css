@@ -1,1 +1,63 @@
-/* Add CSS styling here */
+
+
+/* Reset */
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    max-width: 100%;
+	}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    background-color: #C9184A;
+    display: flex;
+    justify-content: center;
+}
+header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.header-title {
+    font-size: 3rem;
+    color: #FFF0F3;
+}
+.header-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#current-page {
+    color: #C9184A;
+    background-color: #FFF0F3;
+}
+.header-links a {
+    font-size: 2rem;
+    color: #FFF0F3;
+    background-color: #C9184A;
+    text-decoration: none;
+    margin: 0 5%;
+    padding: 3%;
+    border: 2px solid #FFF0F3;
+}
+.header-links a:hover {
+    color: #C9184A;
+    background-color: #FFF0F3;
+}
+
+/* Landing Section Styles */
+
+.landing-section {
+    
+}
