@@ -77,6 +77,7 @@ header div button:hover {
 }
 main {
     background-color: #f1faee;
+    font-size: 1.2rem;
 }
 main .title {
     display: flex;
