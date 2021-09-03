@@ -1,132 +1,244 @@
 /* Add CSS styling here */
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	border: 0;
-	}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
 /* remember to define focus styles! */
 :focus {
-	outline: 0;
-	}
+  outline: 0;
+}
 
-ol, ul {
-	list-style: none;
-	}
+ol,
+ul {
+  list-style: none;
+}
 /* tables still need cellspacing="0" in the markup */
 table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
 /* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
-
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-    max-width: 100%;
-    /* border: 1px solid red; */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
 }
-html{
-    font-size:62.5%;
-}
-body{
-    font-size: 1.6rem;
-    line-height: 1.5;
-    /* font-family: */
-    background-color: ;
-}
-header{
-    background-color:#A9A9A9 ;
-    display: flex;
-    justify-content: space-between;
-    padding: 3%;
+blockquote,
+q {
+  quotes: "" "";
 }
 
-h1{
-    font-size: 4rem;
-    
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid red; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  background-color: #00008b;
+  border: #d9f7ff 12px double;
+}
+header {
+  background-color: #d9f7ff;
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 1.3%;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 a {
-    text-decoration: none;
-    /* border: 1px solid white; */
-    margin: 2%;
-    color: black;
-    font-size: 2.5rem; 
-}
-header #navLinks{
-    display:flex;
-    align-items: center;
-
+  text-decoration: none;
+  /* border: 1px solid white; */
+  margin: 2%;
+  padding: 1% 8%;
+  color: black;
 }
 
-.first{
-    background-image: url("ocean.jpg");
-    background-size:100% 100%;
-    padding: 20%;
-    margin:5%;
-    color:B0C4DE;
-    display:flex ;
-    flex-direction: column;
-    align-items: center;
-    
+a:hover {
+  background-color: #00008b;
+  color: white;
+  transition: 0.8s;
+  opacity: 0.8;
+}
+
+header #navLinks {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-left: 56%;
+}
+
+.first {
+  background-image: url("ocean.jpg");
+  background-size: 100% 100%;
+  padding: 20%;
+  margin: 0.6%;
+  color: B0C4DE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: double white 15px; */
+}
+
+.border {
+  border: double #d9f7ff 12px;
+  margin: 10px;
 }
 
 #name {
-    color:#00008B;
-    display: flex;
-    font-size: 5rem;
+  color: #00008b;
+  display: flex;
+  font-size: 5rem;
 }
-#proj{
-    color: #00008B;
+#proj {
+  color: #00008b;
+  font-size: 2.5rem;
 }
 
+#proj:hover {
+  color: white;
+}
 
+.main_body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% 5%;
+}
+.main_body div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 23%;
+  height: 60%;
+  flex-wrap: wrap;
+  margin: 0 5%;
+  /* border: 2px solid red; */
+}
+.main_body img {
+  width: 85%;
+  height: 80%;
+  padding: 2.5%;
+  margin: 5%;
+  border: double #d9f7ff 5px;
+}
 
+.main_body p {
+  text-align: center;
+  color: white;
+}
 
+#p1 {
+  margin-top: -3%;
+}
 
+#pic2 {
+  border: 6.2px #d9f7ff double;
+}
 
+footer {
+  /* border:1px solid red ; */
+  background-color: #d9f7ff;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+/* #foot_anc{
+    /* border: 1px solid red; */
+/* font-size: 4rem;
+    font-weight: bold; */
 
+button {
+  font-weight: bold;
+  width: 100px;
+  padding: 4% 2%;
+}
 
+button:hover {
+  color: white;
+  background-color: #00008b;
+  transition: 0.8s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.a2 {
+  border: none;
+}
