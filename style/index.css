@@ -1,1 +1,232 @@
 /* Add CSS styling here */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+
+blockquote, q {
+	quotes: "" "";
+	}
+
+/* Add CSS Styling here Here */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Vollkorn', serif;
+    background-color: #d3d3d3;
+    border: 1rem dotted #ba8759;
+    margin: 2rem;
+}
+
+.container {
+    padding: 3rem;
+}
+
+h1 {
+    font-family: 'Amita', cursive;
+    font-size: 5.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Allison', cursive;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+p {
+    width: 70vh;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    background-color: #d2b48c;
+}
+
+.nav a {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 2.5rem;
+    width: 4rem;
+    border-radius: 2rem;
+    text-align: end;
+    transition: border-color 0.5s;
+}
+
+/* Navigation Style + Animation */
+.current {
+    color: #987456;
+    padding: 3rem;
+}
+
+.current:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+}
+
+.about {
+    color: #987456;
+    padding: 3rem;
+}
+
+.about:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+}
+
+.contact {
+    color: #987456;
+    padding: 3rem;
+}
+
+.contact:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+}
+
+.project {
+    color: #987456;
+    padding: 3rem;
+}
+
+.project:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+}
+
+/* Section1 Style */
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section1 h2 {
+    font-size: 5rem;
+}
+
+.right {
+    margin-right: 15rem;
+}
+
+/* Image Style */
+.galleryone {
+    margin-top: 5rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryone img {
+    margin: 0 auto;
+    height: 50vh;
+    width: 30vh;
+    justify-content: space-between;
+    margin-left: 25.5rem;
+    margin-right: 30rem;
+}
+
+.galleryone h3 {
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-left: 28rem;
+    margin-right: 50rem;
+}
+
+.gallerytwo {
+    margin-top: 5rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallerytwo img {
+    margin: 0 auto;
+    height: 50vh;
+    width: 30vh;
+    justify-content: space-between;
+    margin-left: 25.5rem;
+    margin-right: 30rem;
+}
+
+.gallerytwo h3 {
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-left: 30rem;
+    margin-right: 50rem;
+}
+
+/* Styling Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #d2b48c;
+}
+
+.footer a {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 2.5rem;
+    width: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+
+.contact2 {
+    color: #987456;
+    padding: 4rem;
+}
+
+.contact2:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+}
