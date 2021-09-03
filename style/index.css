@@ -66,6 +66,9 @@ body {
     font-size: 5rem;
     margin-bottom: 0.5%;
 }
+.headNav {
+    margin-left: 1.5%;
+}
 .headNav a {
     font-size: 2rem;
     text-decoration: none;
@@ -73,7 +76,8 @@ body {
     border: 2px solid black;
     background-color: whitesmoke;
     padding: 0.2% 1.5%;
-    margin-left: 1%;
+    margin: -0.17%;
+
 }
 a:hover {
     background-color:black;
