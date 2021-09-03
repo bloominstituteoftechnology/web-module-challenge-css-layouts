@@ -49,21 +49,37 @@ blockquote, q {
     margin: 0;
     max-width: 100%;
     font: size 62.5%;
+    font-family: Lato, sans-serif;
 }
 /* reset end */
 header {
-
+    background-image: url("https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+    width: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    padding: 1%;
 }
 header h1 {
-
+    font-size: 3.2rem;
+    margin: 3%;
 }
-header button {
-
+header div {
+    display: flex;
+    margin: 3%;
+}
+header div button {
+    background-color: dimgray;
+}
+header div button:hover {
+    background-color: black;
+    color: dimgrey;
 }
 main {
-
+    border: 1px solid black;
 }
 main .title {
+    display: flex;
 
 }
 main .title img {
@@ -94,11 +110,11 @@ main .thumbnails div p {
 
 }
 footer {
-
+    border: 1px solid black;
 }
 footer h3 {
 
 }
 footer button {
-    
+
 }
