@@ -1,4 +1,180 @@
 /* Add CSS styling here */
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+/*	line-height: 2; */
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+*{
+  max-width:100%;
+  height:auto;
+}
+
+.item1, .item2, .item3, .item4{
+ border:2px solid black; 
+ margin-bottom:10px;
+ padding:4px;
+  
+  
+  
+  
+  
+}
+.container{
+  display:flex;
+  justify-content:center;
+  justify-content:space-betwen;
+  
+}
+  
+h1{
+  justify-content:center;
+  display:flex;
+  line-height:2;
+  margin:1%;
+  font-size:27px;
+  }
+.headr{
+  display:flex;
+  justify-content:center;
+  line-height:2;
+}
+h2{
+ font-size:15px; 
+}
+.headr{
+  border:1px solid black;
+}
+.head2, h3{
+  display:flex;
+  justify-content:center;
+}
+h3{
+  font-size:27px;
+  margin:1%;
+}
+.item1{
+  color:white;
+  background-color:black;
+}
+.section1{
+  display:flex;
+  text-align:center;
+  margin:2% 7%;
+  
+}
+.container {
+ 
+justify-content:center;
+ flex-wrap:wrap;
+  display: flex;
+  justify-content:space-betwen;
+}
+ .container img  {
+ height:350px;
+    width:100%;
+    margin-top:10px;
+    border:2px solid black;
+    flex-wrap:wrap;
+  display: flex;
+   justify-content:space-betwen;
+}
+.gallery{
+ display:flex;
+   flex-wrap:nowrap;
+  flex-direction:row;
+  justify-content:space-betwen;
+}
+
+img .img1{
+  flex-direction:row;
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:space-betwen;
+  
+}
+
+.writing{
+  display:flex;
+  flex-wrap:nowrap;
+  margin:11% ;
+  
+}
+p{
+text-align:center;
+
+  flex-wrap:nowrap;
+  display:flex;
+   
+}
+footer{
+  border:solid 1px black;
+  padding:60px;
+ 
+   
+}
+.button{
+ display:flex;
+  justify-content:center;
+  }
+button{
+  padding:10px;
+  background-color:lightgray;
+  border:1px solid black;
+}
+.gallery img{
+  width:12%;
+  justify-content:space-betwen;
+   flex-wrap:nowrap;
+  display:flex;
+  margin:10px;
+}
 body{
-    background-color:red;
+ 
+}
+
+footer{
+  background-color:lightgray;
+}
+body{
+  background-color:teal;
 }
