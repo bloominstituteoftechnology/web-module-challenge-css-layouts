@@ -49,6 +49,7 @@ table {
     margin: 0;
     max-width:100%;
     font-family: 'Overpass', sans-serif;
+    
     /* border:3px solid purple; */
  }   
  html{
@@ -62,7 +63,7 @@ table {
 .navigation {
     display:flex;
     justify-content: left;
-    background-color: bisque;
+    background-color: burlywood;
 
 }
 h1, h2, h3, h4, {
@@ -79,10 +80,13 @@ h2{
     font-size: 2.6rem;
 }
 h3{
-    font-size:1.6rem;
+    font-size:2.6rem;
 }
 h4{
     font-size: 2rem;
+}
+p{
+    font-size: 2.4rem;
 }
 .about{
     display: flex;
@@ -91,27 +95,30 @@ h4{
 }
 button{
     margin:10px 0px 10px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     text-align: left;
     padding:3px 5px;
+    border-radius: 10%;
+ 
 }
 .img1{
     width: 40%;
 }
 .infop{
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    align-items: flex-start;
+    align-content: flex-start;
     width: 40%;
 }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8{
-    width:22%
+    width:22%;
 }
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 footer{
