@@ -78,12 +78,6 @@ h1 {
 
 
 /* navigation links */
-.links {
-
-    
-    
-   
-}
 
 .links a {
     color: red;
@@ -106,19 +100,19 @@ h1 {
 .links .About {
     border:10px solid #fff;
      background-color:#fff;
-    margin:%
+    /* margin:% */
 }
 
 .links .Contact {
     border:10px solid #fff;
      background-color: #fff;
-    margin:%
+    /* margin:% */
 }
 
 .links .Projects {
     border:10px solid #fff;
      background-color: #fff;
-    margin: %
+    /* margin: % */
 }
 
 
@@ -186,21 +180,89 @@ h3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 60px
+    top: 60px;
+    color: #fff
+
+
 }
 
-.box .footerlink {
-
+.box a {
+    border:10px solid #fff;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     color: red;
+     text-decoration: none;
+     
+     
+     
 }
 
-.footerlink {
+
+
+.lastbox {
     display: flex;
     justify-content: center;
     background-color: red;
     border: 90px solid red ;
     padding: 20px;
+    color: #fff;
 }
 
+
+
+/*numbers*/
+
+.numbers {
+    display: flex;
+    color: #fff
+
+}
+
+.one {
+    position: relative;
+    left: 200px;
+}
+
+.two {
+    position: relative;
+    left: 670px;
+}
+
+.Three {
+    position: relative;
+    left: 1125px;
+}
+
+.Four {
+    position: relative;
+    left: 1555px;
+}
+
+.Five {
+    position: relative;
+    top: 680px;
+    left:80px;
+}
+
+.Six {
+    position: relative;
+    left: 550px;
+    top:680px
+}
+
+.Seven {
+    position: relative;
+    left: 980px;
+    top:680px;
+}
+
+.Eight {
+    position: relative;
+    left: 1450px;
+    top:680px;
+
+}
 
 
 
