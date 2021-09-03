@@ -44,8 +44,10 @@ table {
 }
 
 /* END CSS RESET */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color:rgb(126, 126, 126);
 }
 *{
     box-sizing: border-box;
@@ -61,10 +63,12 @@ header {
 h1 {
     font-size: 3rem;
     text-transform: uppercase;
+    color: black;
 }
 
 h2 {
     font-size: 1.5rem;
+    color: black;
 }
 
 nav {
@@ -77,7 +81,6 @@ nav a{
     padding: 10px 20px;
     text-decoration: none;
     color: rgb(126, 126, 126);
-    font-size: 1.2rem;
     border: 1px rgb(212, 212, 212) solid;
     border-radius: 30px;
 }
@@ -104,6 +107,7 @@ nav a:hover {
     width: 60%;
 }
 
+/*HERO IMAGE*/
 .hero {
     width: 100%;
     height: 50vh;
@@ -111,4 +115,49 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*GALLERY*/
+.home-gallery{
+    padding: 2%;
+    display: flex;
+}
+
+.thumb{
+    padding: 1%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+footer a{
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer div{
+    font-size: .25rem;
+    display: flex;
+}
+
+footer div a{
+    font-size: .75rem;
+    width: 30px;
+    margin: 5%;
 }
