@@ -1,1 +1,108 @@
-/* Add CSS styling here */
+/* Nav */
+.danny {
+    font-size: 7vh;
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+}
+ul {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li a {
+    font-size: 3vh;
+    padding: 12px 12px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: 1px solid;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+}
+.middle {
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+}
+
+.middle-project {
+    width: 100%;
+}
+.middle h1 {
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle h1 a {
+    color: white;
+    text-decoration: none;
+}
+.middle-letter {
+    text-decoration: none;
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+.gallery img {
+    min-width: 10vw;
+    margin-bottom: 0;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    width: 20vw;
+    text-align: center;
+}
+figcaption {
+    display:flex;
+    align-self:flex-start;
+    width: 5vw;
+    margin: auto;
+}
+.test {
+    display:flex;
+    color: black;
+    text-decoration: none;
+    font-size: 4vh;
+    justify-content: center;
+}
+.tact:hover {
+    color: white;
+    background-color: black;
+}
+.tact {
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+.bits {
+    display: flex;
+    justify-content: center;
+}
+/* footer {
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+} */
