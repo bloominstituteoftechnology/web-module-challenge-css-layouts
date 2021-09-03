@@ -145,8 +145,7 @@ header nav{
 /*Top Section Styles*/
 #top{
     height:85vh;
-    background-image: url();
-    background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/jan-huber-tkE5nutsKt8-unsplash.jpg);
+    background-image:url('https://unsplash.com/photos/tkE5nutsKt8');
     margin-top:5%;
     background-size:cover;
     background-repeat:no-repeat;
@@ -200,12 +199,18 @@ header nav{
 .gallery div:hover .hide{
     display:block;
 }
-.title{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/karim-ghantous-JHTlgIpNyQA-unsplash.jpg);}
-.project{background-image:url('https://unsplash.it/200/200');}
-.go_here{background-image:url('https://unsplash.it/200/200');}
-.cool{background-image:url('https://unsplash.it/200/200');}
-.fun{background-image:url('https://unsplash.it/200/200');}
-.spicy{background-image: url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/jan-huber-tkE5nutsKt8-unsplash.jpg);}
+.farm{
+    background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/barn.jpg?raw=true');
+}
+.cook{
+    background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/cook.jpg?raw=true');
+}
+.produce{
+    background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/produce.jpg?raw=true');
+}
+.animals{
+    background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/sheep.jpg?raw=true');
+}
 
 
 /*Footer Section Styles*/
