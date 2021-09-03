@@ -1,1 +1,141 @@
-/* Add CSS styling here */
+/* BROWSER RESET */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/* UNIVERSAL SELECTOR */
+
+*{
+    border: 1px solid;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5;
+}
+body {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav  {
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navicon {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:crimson;
+}
+
+.link a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #16171a;
+    padding: 1rem;
+}
+
+
+.hero-container {
+    height: 30rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16171a;
+}
+
+.hero-container .title-h1{
+    padding: 2.5rem;
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+    color:crimson;
+}
+
+.portfolio-button {
+    padding: 1% 2%;
+    background-color: #acacac;
+    font-size: 1rem;
+    color:white;
+
+}
+.portfolio {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+   
+
+}
+.portfolio div {
+    height: 300px;
+    margin: 2%;
+     
+}
+
+.one {
+    background-color:thistle;
+    width: 33.3%;
+}
+.two {
+    background-color:red;
+    width: 33.3%;
+}
+.three {
+    background-color:thistle;
+    width: 33.3%;
+}
+.four {
+    background-color:red;
+    width: 33.3%;
+}
+.five {
+    background-color:thistle;
+    width: 33.3%;
+}
+.six {
+    background-color:red;
+    width: 33.3%;
+}
