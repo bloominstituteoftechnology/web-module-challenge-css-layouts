@@ -48,7 +48,8 @@ table {
 /* GENERAL STYLING */
 html{
     font-size:62.5%;
-    
+    font-family: 'Oxygen', sans-serif;
+    color: #fefae0;
 }
 
 body{
@@ -60,8 +61,8 @@ body{
 
 a{
     text-decoration: none;
-    border: 3px solid black;
     font-size: 2rem;
+    color: #fefae0;
 }
 
 img{
@@ -69,11 +70,14 @@ img{
 
 }
 
+p{
+    font-size: 2rem;
+}
+
 /* HEADER STYLING */
 
 header{
     padding: 1%;
-    border: 3px solid purple;
     display: flex;
     justify-content: space-between;
 }
@@ -88,14 +92,15 @@ nav {
     display: flex;
 }
 
-a{
-    background-color: green;
+nav a{
+    background-color: #bc6c25;
+    color: #fefae0;
     padding: 1% 5%;
+    border: 3px solid black;
 }
 
 .headername{
     font-size: 2.2rem;
-    background-color: antiquewhite;
 }
 
 .home{
@@ -120,7 +125,7 @@ a{
 
 h1{
     font-size: 4.5rem;
-    border: 3px solid black;
+    
 }
 
 h3{
@@ -149,18 +154,7 @@ h3{
     justify-content: space-around;
 }
 
-.first{
-    background-image: url(https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
-    background-repeat: no-repeat;
-}
 
-.second{
-    background-image: url(https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
-}
-
-.third{
-    background-image: url(https://images.unsplash.com/photo-1534269222346-5a896154c41d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-}
 .projectgallery2{
     display: flex;
     justify-content: space-evenly
@@ -174,29 +168,60 @@ h3{
 
 .projectgallery2text{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+}
+
+
+/* GALLERY IMAGE STYLING */
+
+.first{
+    background-image: url(https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second{
+    background-image: url(https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third{
+    background-image: url(https://images.unsplash.com/photo-1534269222346-5a896154c41d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fourth{
-    background-image: url(https://images.unsplash.com/photo-1510248703225-7f7838dfd579?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGZvcmVzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+    background-image: url(https://images.unsplash.com/photo-1621848296279-7751546e9acc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1068&q=80);
+    background-repeat:no-repeat;
+    background-position: fixed;
 }
 
 .fifth{
-    background-image: url(https://images.unsplash.com/photo-1599220144359-d4b723bd476d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+    background-image: url(https://images.unsplash.com/photo-1599220144359-d4b723bd476d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sixth{
-    background-image: url(https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+    background-image: url(https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* FOOTER STYLING */
 
 footer{
-    background-color: tan;
-    padding: 3%;
+    background-color: #bc6c25;
+    padding: 2%;
 }
 
 footer div{
     display: flex;
     justify-content: center;
+    background-color: #606c38;
+    margin-left:45%;
+    margin-right:45%;
+    padding: 1%;
 }
