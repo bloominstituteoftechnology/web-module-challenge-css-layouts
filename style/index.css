@@ -7,6 +7,8 @@ header{
     background-color: #de4c56
     ;
     text-align: center;
+    border: 5px solid rgb(0 , 0, 0);
+    
 }
 header div{
     margin: 0 30px;
@@ -21,7 +23,7 @@ nav{
 
 header nav a {
     margin: 0 10px;
-    border: 1px solid rgb(0, 0, 0);
+   border: 1px solid rgb(0 , 0, 0);
     padding: 20px;
     display: inline-block;
     border-radius: 0%;
@@ -75,4 +77,57 @@ header nav a {
         ;
         font-size: large;}
 
-        
+/* pictures section */
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-one img{
+    padding-bottom: 3%;
+}
+
+.row-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-two img{
+    padding-bottom: 3%;
+}
+footer{ 
+    background-color: #de4c56;
+    text-align: center;
+    border: 5px solid rgb(0 , 0, 0);
+}
+h2{border:            
+padding-top: 2%;
+}
+
+
+ footer a{
+    margin: 0 10px;
+   border: 1px solid rgb(0 , 0, 0);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 0%;
+    color: rgb(5, 3, 3);
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #aa08138e
+    ;
+    font-size: large;
+ }
+
