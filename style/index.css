@@ -1,1 +1,204 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        background-color: gainsboro;
+        /* border:1px solid grey; */
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #4f4f4f;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    a{
+        font-family: 'Roboto Mono', monospace;
+        text-decoration: none;
+    }
+    span{
+        font-weight: bold;
+    }
+    section{
+        padding:4% 0;
+    }
+/* top of webpage */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.bgImg{
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1630522521760-7773e7d1d47f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.intro{
+    font-size: 5rem;
+    color: azure;
+}
+.fakeButton{
+    border: 1px solid white;
+background-color: lightslategray;
+color: lightgray;
+padding: 10px 10px 10px 10px;
+}
+.fakeButton:hover{
+    color: lightsteelblue;
+    background-color: dimgray;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: dimgray;
+}
+.controlAllImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20%;
+}
+.imgOne{
+height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630519454452-cb8be44ad5f4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.imgTwo{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630512996510-c6a301d874cc?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.imgThree{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630487670795-686eacef6ccd?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Nnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.imgFour{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630516749888-c65c762118f0?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5NHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width:100%;
+}
+
+.topFourImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgFive{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630503030805-3d0606430620?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTZ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width:100%;
+}
+.imgSix{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630498956296-d4ddec9559a3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzJ8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width:100%;
+}
+.imgSeven{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630433843319-6998a0be79c3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxODR8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width:100%;
+}
+.imgEight{
+    height: 30vh;
+background-image: url(https://images.unsplash.com/photo-1630436280002-b216415b451b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxODl8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+background-size:cover ;
+background-repeat: no-repeat;
+width:100%;
+}
+.bottomFourImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Footer */
+
+footer{
+    background-color: lightslategray;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    
+}
+.bottom{
+color: silver;
+background-color: dimgray;
+padding: 1%;
+}
+.bottom:hover{
+    background-color: silver;
+    color: slategray;
+}
