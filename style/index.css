@@ -1,1 +1,78 @@
 /* Add CSS styling here */
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header{
+    background-color: #de4c56
+    ;
+    text-align: center;
+}
+header div{
+    margin: 0 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+nav{
+    display: flexbox;
+    
+}
+
+header nav a {
+    margin: 0 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 0%;
+    color: rgb(5, 3, 3);
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #aa08138e
+    ;
+    font-size: large;
+  }
+
+  header nav a:hover { background:white;
+    color: rgb(1, 16, 24);
+  }
+
+
+    /* section=top */
+
+ .top-page{
+    display: flex;
+    
+    justify-content: flex-start;
+    margin: 0 30px;
+ }
+ .info{
+     text-align: center;
+     
+     padding: 10%;
+     margin-right: 2%;
+    }
+
+.top-page img {
+    
+    padding: 20%;
+    
+     }
+
+.info p{ 
+    font-size: large;
+     }
+
+     .info a{margin: 0 10px;
+        
+        padding: 20px;
+        display: inline-block;
+        border-radius: 0%;
+        color: rgb(5, 3, 3);
+        text-decoration: none;
+        margin-bottom: 20px;
+        background: #db1d2af5
+        ;
+        font-size: large;}
+
+        
