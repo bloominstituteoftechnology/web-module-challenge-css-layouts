@@ -322,6 +322,8 @@ nav.social i {
 
 .right-box h2 {
     font-size: 6rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
 
 .right-box p {
