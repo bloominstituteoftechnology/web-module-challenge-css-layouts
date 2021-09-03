@@ -1,1 +1,187 @@
-/* Add CSS styling here */
+/* cleaner */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+html{
+    font-size:62.5%;
+}
+body {
+	background:#ffc8dd;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+a {
+    text-decoration: none;
+}
+.mainimg{
+    display: flex;
+    width:60%;
+    height:40vh;
+    justify-content:left;
+    margin: 5% 0 5% 20%;
+
+}
+
+    
+/*cleaner*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+  /*put a border around everything to see where it stops and starts*/
+    border:1px solid grey;
+}
+header{
+    background-color: #ff99b6;
+    padding: 20px;
+    margin: 0;
+}
+h1 {
+    display: flex;
+    font-size:5rem;
+    justify-content: center;
+    color:#2f2d2e;
+}
+h3{
+    font-size:5rem;
+    display:flex;
+    justify-content:center;
+}
+.links{
+    font-size: 3rem;
+    /* width:25%; */
+    padding: 1%;
+    display:flex;
+    justify-content: center;
+
+}
+.button1, .button2, .button3, .button4 {
+    background-color:#c9184a;
+    border: black 1px solid;
+    padding: 8px;
+    color: white;
+    border-radius: 25%
+}
+
+
+
+
+
+
+
+/* 8 picture section */
+/* .image-containers {
+    flex-wrap:wrap; 
+    max-width:80%;
+    margin: 0 15%;
+} */
+
+/* .image-containers img{
+    width: 15%;
+    height:40vh;
+    padding: 1%;
+  margin: 0 1.7%;
+}
+
+.image-containers li {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+} */
+/* styling images */
+/* .image-containers .one{
+    Display:flex;
+
+} */
+
+/* .image-containers img{
+    height:40vh;
+    width:90%;
+    display:flex;
+
+} */
+/* .image-containers div{
+    display:flex;
+    width: 25%;
+    height: 30vh;
+    justify-content:space-between;
+} */
+.image-containers {
+    display: flex;
+    max-width: 100%;
+    justify-content:space-around;
+  }
+.image-containers2 {
+    display:flex;
+    max-width: 100%;
+    justify-content:space-around;
+}
+.image-containers img{
+    height: 40vh;
+    width: 100%;
+
+}
+.image-containers2 img{
+    height: 40vh;
+    width: 100%;
+}
+
+
+footer{
+    display: flex;
+    justify-content:center;
+    background-color:#ff99b6;
+    padding: 3% 0%;
+}
+.footertext{
+    color:#2f2d2e;
+}
+.bottombutton{
+    background-color:#c9184a;
+    border: black 0px solid;
+    padding: 8px;
+    color: #2f2d2e;
+    border-radius: 25%;
+    padding: 1%;
+    display:flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+/* 8 picture section */
