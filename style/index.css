@@ -154,6 +154,11 @@ p {
     margin-right: 15rem;
 }
 
+.right a {
+    text-decoration: none;
+    
+}
+
 .project2 {
     color: #987456;
     padding: 2rem;
