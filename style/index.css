@@ -1,1 +1,207 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* This above is the reset */
+
+* {
+    font-family: 'Teko', sans-serif;
+    max-width:100%
+
+    
+
+}
+
+body {
+    background-color: #219ebc;
+}
+
+.header {
+    background-color: red;
+    border: 20px solid red 
+}
+
+
+
+
+h1 {
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    margin: 4%
+    
+}
+
+    
+    
+
+
+
+/* navigation links */
+.links {
+
+    
+    
+   
+}
+
+.links a {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    background-color:red;
+    border: 1px solid black;
+    
+}
+
+
+ .links .Home {
+     border:10px solid #fff;
+     background-color: #fff;
+    margin:0%
+    
+    
+}
+
+.links .About {
+    border:10px solid #fff;
+     background-color:#fff;
+    margin:%
+}
+
+.links .Contact {
+    border:10px solid #fff;
+     background-color: #fff;
+    margin:%
+}
+
+.links .Projects {
+    border:10px solid #fff;
+     background-color: #fff;
+    margin: %
+}
+
+
+/* The left side*/
+.first {
+    width: 400px;
+    border: 10px solid red;
+    margin: 2%
+    
+    
+
+}
+
+
+
+/* The right side*/
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 250px;
+}
+
+    
+.story {
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+    top: 250px;
+    color: brown;
+    
+}
+
+/*bottom pictures*/
+
+.topgallery {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topgallery img {
+    margin:30px;
+    border: 10px solid red;
+}
+
+.bottomgallery {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bottomgallery img {
+    margin:30px;
+    border: 10px solid red;
+}
+
+
+/*footer*/
+h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px
+}
+
+.box .footerlink {
+
+}
+
+.footerlink {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border: 90px solid red ;
+    padding: 20px;
+}
+
+
+
+
+    
