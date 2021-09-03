@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-   /* border: 2px solid black;*/
+    background: blueviolet;
 }
 
 header{
@@ -21,11 +21,16 @@ header{
 h1{
     font-family: 'Darker Grotesque', sans-serif;
     margin-bottom: 2%;
+    background: goldenrod;
 
+}
+nav div {
+ background: goldenrod;
 }
 .links{
     display: flex;
     justify-content:space-evenly ;
+    background: goldenrod;
 }
 .one{
     background: black;
@@ -77,6 +82,7 @@ h1{
     margin-top: 30%;
     margin-left: 5%;
     font-size: 2.5em;
+    background: blueviolet;
 }
 .right nav a{
     text-decoration: none;
@@ -110,6 +116,7 @@ h1{
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.5em;
 }
+
 .second{
     display:flex;
     display: inline-flex;
@@ -119,3 +126,29 @@ h1{
     font-size: 1.5em;
 }
 
+/* this will container our footer section*/
+
+section{
+    background:pink;
+}
+
+footer{
+    background-color:pink;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    margin-bottom: auto;
+}
+section a {
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+h2{
+    background: pink;
+}
