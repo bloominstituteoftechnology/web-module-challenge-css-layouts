@@ -47,24 +47,26 @@ blockquote, q {
 a {
     text-decoration: none;
 }
-.mainimg{
-    display: flex;
-    width:60%;
+.mainimg, .toptext{
+    display:flex;
+    width:20%;
     height:40vh;
-    justify-content:left;
     margin: 5% 0 5% 20%;
+    flex-wrap: wrap;
+    justify-content: center
 
 }
-
-    
-/*cleaner*/
+.mainarea{
+    display:flex;
+    text-align:center;
+    font-size: 3rem;
+}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     max-width:100%;
-  /*put a border around everything to see where it stops and starts*/
-    border:1px solid grey;
+    font-family: 'Kalam', cursive;
 }
 header{
     background-color: #ff99b6;
@@ -76,6 +78,17 @@ h1 {
     font-size:5rem;
     justify-content: center;
     color:#2f2d2e;
+    text-align:center;
+    max-width:100%;
+}
+h2{
+    font-size:5rem;
+}
+
+}
+p{
+    font-size:3rem;
+    text-align:center;
 }
 h3{
     font-size:5rem;
@@ -90,67 +103,25 @@ h3{
     justify-content: center;
 
 }
-.button1, .button2, .button3, .button4 {
+.button {
     background-color:#c9184a;
     border: black 1px solid;
     padding: 8px;
     color: white;
-    border-radius: 25%
+    border-radius: 30%
 }
 
-
-
-
-
-
-
-/* 8 picture section */
-/* .image-containers {
-    flex-wrap:wrap; 
-    max-width:80%;
-    margin: 0 15%;
-} */
-
-/* .image-containers img{
-    width: 15%;
-    height:40vh;
-    padding: 1%;
-  margin: 0 1.7%;
-}
-
-.image-containers li {
-    display:flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-
-} */
-/* styling images */
-/* .image-containers .one{
-    Display:flex;
-
-} */
-
-/* .image-containers img{
-    height:40vh;
-    width:90%;
-    display:flex;
-
-} */
-/* .image-containers div{
-    display:flex;
-    width: 25%;
-    height: 30vh;
-    justify-content:space-between;
-} */
 .image-containers {
     display: flex;
     max-width: 100%;
     justify-content:space-around;
+    margin: 2%;
   }
 .image-containers2 {
     display:flex;
     max-width: 100%;
     justify-content:space-around;
+    margin: 2%;
 }
 .image-containers img{
     height: 40vh;
@@ -171,17 +142,26 @@ footer{
 }
 .footertext{
     color:#2f2d2e;
+    text-align: center;
 }
-.bottombutton{
+/* .bottombutton{
     background-color:#c9184a;
     border: black 0px solid;
     padding: 8px;
-    color: #2f2d2e;
+    color: #white;
     border-radius: 25%;
     padding: 1%;
-    display:flex;
-    justify-content: center;
     font-size: 3rem;
+} */
+.bottombutton{
+    background-color:#c9184a;
+    border: black 1px solid;
+    padding: 8px;
+    color: white;
+    text-color:white;
+    border-radius: 30%;
+    font-size: 2rem;
 }
+
 
 /* 8 picture section */
