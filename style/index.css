@@ -1,1 +1,211 @@
-/* Add CSS styling here */
+/*---Reset---*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Flex styles */
+.flex {
+	display: flex;
+}
+
+.navigation {
+	justify-content: space-between;
+}
+
+.justify {
+	justify-content: flex-end;
+}
+
+.vertical-center {
+	align-items: center;
+}
+
+/*---Styling---*/
+
+/*---Navigation---*/
+body {
+	background-color: black;;
+	width: 100%;
+	font-family: 'Rock Salt', cursive;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: red; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(orange, red);
+	box-shadow: 0px 0px 10px 0px black;
+	font-family: 'Bangers', cursive;
+}
+#logo {
+	padding: 5px 50px;
+	background-color: transparent !important;
+}
+#logo a {
+	padding: 0px 50px;
+	background-color: transparent !important;
+	text-decoration: none;
+}
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size:65px;
+	color:yellow;
+	text-shadow: 1px 1px black;
+	background-color: transparent !important;
+}
+h2 {
+	margin: 0;
+	text-align: center;
+	font-size:50px;
+	line-height:25px;
+	color:yellow;
+	text-shadow: 1px 1px black;
+	background-color: transparent !important;
+}
+nav ul {
+	width: 60%;
+	margin: 0;
+	background-color: transparent !important;
+	font-size:50px;
+	color: yellow;
+	text-shadow: 1px solid black;
+}
+nav li {
+	list-style: none;
+	background-color: transparent !important;
+	color: yellow;
+	text-shadow: 1px solid black;
+	transition: all 2s;
+}
+ nav li:hover {
+	background-color: red; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(red, orange);
+	border:2px solid yellow;
+}
+ul a {
+	text-decoration: none;
+	color: yellow;
+	text-shadow: 1px solid black;
+	font-size: 25px;
+	padding: 0 40px;
+}
+
+/*---Body---*/
+
+.folder .image img{
+	display:block;
+	width:100%;
+	background-position:cover;
+}
+.folder #myname{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 65px;
+	color:yellow;
+	text-shadow: 1px 1px orange;
+  }
+  .folder #myprojects{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	color:orange;
+	text-shadow: 1px 1px yellow;
+  }
+
+  /*---Gallery---*/
+div.gallery {
+	display: flex;
+	flex-flow: column;
+}
+
+div.gallery div.row {
+	display: flex;
+	flex-flow: row;
+	padding:  0 100px 100px 100px;
+}
+div.row, h3 {
+	display: flex;
+	flex-flow: row;
+	color:yellow;
+	font-size:20px;
+	line-height:35px;
+	justify-content:center;
+	padding-right:150px;
+}
+
+div.gallery img{
+	width: 65%;
+	transition: all 1s;
+}
+div.gallery img:hover{
+	width: 100%;
+}
+  /*---Footer---*/
+  footer {
+	  display:flex;
+	  justify-content:center;
+	  margin: 25px 0;
+  }
+  footer div.contact {
+	font-size: 40px;
+	color:yellow;
+	text-shadow: 1px 1px orange;
+	margin: 25px 0;
+	padding: 20px;
+	border:2px solid yellow;
+	transition: all 1s;
+  }
+  footer div.contact:hover {
+	font-size: 40px;
+	color:yellow;
+	background-color: red;
+	text-shadow: 1px 1px orange;
+	margin: 25px 0;
+	padding: 20px;
+	border:2px solid orange;
+  }
