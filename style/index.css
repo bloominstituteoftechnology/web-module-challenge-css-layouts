@@ -152,8 +152,6 @@ div .img {
     max-width: 100vw;
     flex-wrap: wrap;
     margin: 0 10px 0 10px;
-    border: 1px solid red;
-    
 }
 
 .img:hover {
