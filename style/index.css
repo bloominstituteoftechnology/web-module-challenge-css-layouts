@@ -1,1 +1,154 @@
 /* Add CSS styling here */
+
+
+/* main header section*/
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: blueviolet;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    background-color:goldenrod;
+    
+}
+
+h1{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom: 2%;
+    background: goldenrod;
+
+}
+nav div {
+ background: goldenrod;
+}
+.links{
+    display: flex;
+    justify-content:space-evenly ;
+    background: goldenrod;
+}
+.one{
+    background: black;
+    color: white;
+    padding:1%;
+    border-radius: 15%;
+    text-decoration: none;
+}
+.two{
+     background: black;
+    color: white;
+    padding:1%;
+    border-radius: 15%;
+    text-decoration: none;
+}
+.three{
+    background: black;
+    color: white;
+    padding:1%;
+    border-radius: 15%;
+    text-decoration: none;
+}
+.four{
+    background: black;
+    color: white;
+    padding:1%;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+/* section with picture and some text and header and project link*/
+
+.About{
+    display: flex;
+    width:100%;
+    height:auto;
+}
+.left{
+    width: 50%;
+    height: auto;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right h2 {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom: 5%;
+    margin-top: 30%;
+    margin-left: 5%;
+    font-size: 2.5em;
+    background: blueviolet;
+}
+.right nav a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    margin-left: 7%;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    padding-right:2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+
+}
+.right p {
+    color:black;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+
+/* img and titles section */
+
+.first{
+    margin-top: 3%;
+    display: inline-flex;
+    gap:2em;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5em;
+}
+
+.second{
+    display:flex;
+    display: inline-flex;
+    gap:2em;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5em;
+}
+
+/* this will container our footer section*/
+
+section{
+    background:pink;
+}
+
+footer{
+    background-color:pink;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    margin-bottom: auto;
+}
+section a {
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+h2{
+    background: pink;
+}
