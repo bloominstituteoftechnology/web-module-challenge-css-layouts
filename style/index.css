@@ -154,6 +154,18 @@ p {
     margin-right: 15rem;
 }
 
+.project2 {
+    color: #987456;
+    padding: 2rem;
+}
+
+.project2:hover {
+    color: #fff;
+    background-color: #c19a6b;
+    text-transform: uppercase;
+    border-radius: 2rem;
+}
+
 /* Image Style */
 .galleryone {
     margin-top: 5rem;
