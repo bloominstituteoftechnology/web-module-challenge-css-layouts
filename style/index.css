@@ -78,7 +78,7 @@ section {
     margin: 0;
     max-width:100%;
   /*put a border around everything to see where it stops and starts*/
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /*General Styles*/
 html{
@@ -201,10 +201,10 @@ header nav{
     display:block;
 }
 .title{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/karim-ghantous-JHTlgIpNyQA-unsplash.jpg);}
-.project{background-image:url('https://unsplash.it/200/200');}
-.go_here{background-image:url('https://unsplash.it/200/200');}
-.cool{background-image:url('https://unsplash.it/200/200');}
-.fun{background-image:url('https://unsplash.it/200/200');}
+.project{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/compare-fibre-hXVVNB6Qctg-unsplash.jpg);}
+.go_here{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/christoph-theisinger-tIlnS6f9JBI-unsplash.jpg);}
+.cool{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/linda-wartenweiler-ykBIAWy1asU-unsplash.jpg);}
+.fun{background-image:url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/ryan-wang-YKlZf7lYdJE-unsplash.jpg);}
 .spicy{background-image: url(https://beatlesm.s3.us-west-1.amazonaws.com/iamgs/jan-huber-tkE5nutsKt8-unsplash.jpg);}
 
 
