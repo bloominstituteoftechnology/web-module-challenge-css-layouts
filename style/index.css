@@ -41,11 +41,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width:100%;
+	*{
+    	box-sizing: border-box;
+    	padding: 0;
+   		margin: 0;
+    	max-width:100%;
+	/* border: 1px solid; */
     }
 	body{
 		font-family: 'Balsamiq Sans', cursive;
@@ -64,25 +65,37 @@ blockquote, q {
 		margin-top: 1.5%;
 	}
 	.links{
-	display: flex;
-	justify-content: left;
-	margin-left: 4.5%;
-	margin-top: 2%;
-	width: 40%;
-	height: 4.5vh;
+		display: flex;
+		justify-content: left;
+		margin-left: 4.5%;
+		margin-top: 2%;
+		width: 40%;
+		height: 4.5vh;
 	}
-	a{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-	border: 2px solid;
-	padding: 1%;
-	width: 12%;
-	color: black;
+	.links a{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		border: 2px solid;
+		padding: 1%;
+		width: 12%;
+		color: #4F4F4F;
+		background-color: aliceblue;
 	}
+	.main a{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			border: 2px solid;
+			padding: 1%;
+			width: 12%;
+			color: #4F4F4F;
+			background-color: aliceblue;
+			}
 	a:hover{
-		background-color: black;
+		background-color: #4F4F4F;
 		color: aliceblue;
 	}
 	.main{
@@ -90,7 +103,7 @@ blockquote, q {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		padding: 1%;
-		border: 1px solid;
+		/* border: 1px solid; */
 	}
 	.main img{
 		display: flex;
@@ -106,18 +119,140 @@ blockquote, q {
 		justify-content: left;
 		padding: 5%;
 		padding-top: 10%;
-		border: 1px solid;
+		/* border: 1px solid; */
 	}
 	.main div a{
 		display: flex;
 		width: fit-content;
 		font-size: 1rem;
-		border: 1px solid;
+		/* border: 1px solid; */
 		align-items: center;
 	}
-	h2{
-		
+	.first{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1%;
+		font-size: 1.5rem;
+		/* border: 1px solid; */
 	}
-	.main div p{
-		
+	.second{
+		display: flex;
+		justify-content: space-between;
+		font-size: 1.5rem;
+	}
+	.pic1{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic1 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic2{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+		/* border: 1px solid; */
+	}
+	.pic2 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic3{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic3 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic4{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic4 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic5{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic5 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic6{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic6 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic7{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic7 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	.pic8{
+		display: flex;
+		width: 20%;
+		flex-direction: column;
+		text-align: center;
+		padding: 1%;
+	}
+	.pic8 img{
+		height: 25vh;
+		margin-bottom: 5%;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		height: 30vh;
+		background-color: lightblue;
+		border: 1px solid black;
+		text-align: center;
+		align-items: center;
+	}
+	h3{
+		margin-top: 20%;
+		font-size: 1.8rem;
+		letter-spacing: 3px;
+	}
+	footer a{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border: 2px solid;
+		padding: 1%;
+		width: 70%;
+		height: 7vh;
+		margin: auto;
+		margin-top: 8%;
+		color: #4F4F4F;
+		background-color: aliceblue;
 	}
