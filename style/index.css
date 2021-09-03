@@ -172,3 +172,14 @@ footer {
     height: 6vh;
     margin: 10px;
 }
+.social{
+    display:flex;
+    /* justify-content: space-between;
+    margin-top:10%; */
+    
+}
+.social div{
+    padding: 0 5px;
+    margin: 0 5px;
+    border: 1px solid gray;
+}
