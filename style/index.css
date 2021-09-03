@@ -1,1 +1,46 @@
+/*universal thingy*/
+* {
+
+}
 /* Add CSS styling here */
+body{
+    background-color: #e6ffe6;
+    color: #003300;
+}
+
+header {
+    background-color: #3399ff;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+footer {
+    background-color:#3399ff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Middle content and image things go under this line*/
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.description {
+    padding: 20px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.portfolio-element {
+    text-align: center;
+}
