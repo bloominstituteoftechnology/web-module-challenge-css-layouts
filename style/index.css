@@ -44,7 +44,7 @@ blockquote, q {
 /* UNIVERSAL SELECTOR */
 
 *{
-    border: 1px solid;
+    /* border: 1px solid; */
     max-width: 100%;
 }
 html {
@@ -53,6 +53,7 @@ html {
 body {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    background-color: gainsboro;
 }
 
 nav  {
@@ -105,37 +106,27 @@ nav  {
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    padding: 3% 0;;
     
    
 
 }
 .portfolio div {
     height: 300px;
-    margin: 2%;
-     
+    margin: 1.5%;
+    width: 28%;
+    background-color:white;
 }
 
-.one {
-    background-color:thistle;
-    width: 33.3%;
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
 }
-.two {
-    background-color:red;
-    width: 33.3%;
-}
-.three {
-    background-color:thistle;
-    width: 33.3%;
-}
-.four {
-    background-color:red;
-    width: 33.3%;
-}
-.five {
-    background-color:thistle;
-    width: 33.3%;
-}
-.six {
-    background-color:red;
-    width: 33.3%;
+
+footer .contact-button {
+    background-color: #16171a;
+    color:white;
+    padding:1% 2%;
 }
