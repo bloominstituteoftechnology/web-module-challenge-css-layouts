@@ -117,6 +117,7 @@ a:hover {
 .gallery {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 3% 0;
 }
 .pic1, .pic2, .pic3, .pic4 {
@@ -145,4 +146,50 @@ a:hover {
 .foot a:hover {
     background-color:black;
     color: whitesmoke
+}
+
+
+/* Media responsive design */
+
+@media (max-width: 800px) {
+    .intro {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .txtContainer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headNav {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        text-align: center;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 80vh;
+    }
+    .intro .introImg {
+        width: 60%;
+    }   
+    .gallery div {
+        width: 40%;
+    }
+    .foot {
+        padding: 5% 0;
+    }
 }
