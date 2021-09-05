@@ -150,12 +150,17 @@ border-radius:10px;
 .project {
     width:29%;
     /* height:25vh; */
-    margin:4% 0;
+    margin:0 auto;
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;  
     height: auto;
      
+}
+.project h3{
+    display:flex;
+    align-items: flex-start;
+    width: 30vh;
 }
 .project h3:hover{
     color: white;
