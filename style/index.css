@@ -107,7 +107,7 @@ nav ul {
 	width: 60%;
 	margin: 0;
 	background-color: transparent !important;
-	font-size:50px;
+	font-size:25px;
 	color: yellow;
 	text-shadow: 1px solid black;
 }
@@ -122,6 +122,7 @@ nav li {
 	background-color: red; /* For browsers that do not support gradients */
   	background-image: linear-gradient(red, orange);
 	border:2px solid yellow;
+	font-size:25px;
 }
 ul a {
 	text-decoration: none;
@@ -135,7 +136,7 @@ ul a {
 
 .folder .image img{
 	display:block;
-	width:100%;
+	min-width:100%;
 	background-position:cover;
 }
 .folder #myname{
@@ -176,6 +177,7 @@ div.row, h3 {
 	line-height:35px;
 	justify-content:center;
 	padding-right:150px;
+	text-align:center;
 }
 
 div.gallery img{
@@ -209,3 +211,391 @@ div.gallery img:hover{
 	padding: 20px;
 	border:2px solid orange;
   }
+
+  /*Media Queries*/
+  @media (max-width:1024px){
+	nav{
+		position:fixed;
+		display:flex;
+		height:auto;
+		justify-content:center;
+		float:center;
+		flex-wrap:wrap;
+		margin:0 auto;  
+		z-index:1;
+
+	} 
+	#logo{
+		text-align:center;
+		width:670px;
+		justify-content:center;
+		float:center;
+	}
+	h1{
+		font-size:50px;
+	}
+	h2{
+		font-size:35px;
+	}
+	nav ul{
+		font-size:35px;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-self:center;
+		width:auto;
+		margin:auto;
+	}
+	nav li{
+	   display:flex;
+	   text-align:center;
+	   justify-content:center;
+	   font-size:25px;
+	}
+	ul a{
+		text-align:center;
+		justify-content:center;
+		font-size:20px;
+		line-height:1.5rem;
+	}
+	nav li:hover {
+	   font-size:35px;
+   }
+	.folder{
+	   min-width:350px;
+	}
+	.folder .image img{
+	   display:flex;
+	   min-width:auto;
+	   background-position:fill;
+   }
+   .folder #myname{
+	   position: absolute;
+	   top: 45%;
+	   transform: translate(-50%, -50%);
+	   font-size: 30px;
+	   letter-spacing:2px;
+	   text-align:center;
+	   color:yellow;
+	   text-shadow: 1px 1px orange;
+	 }
+	 .folder #myprojects{
+	   position: absolute;
+	   top: 50%;
+	   transform: translate(-50%, -50%);
+	   font-size: 18px;
+	   letter-spacing:2px;
+	   text-align:center;
+	   color:orange;
+	   text-shadow: 1px 1px yellow;
+	 }
+	 div.gallery {
+	   display: flex;
+	   flex-flow: column;
+   }
+   
+   div.gallery div.row {
+	   display: flex;
+	   flex-flow: row;
+	   padding:  0 25px 35px 35px;
+   }
+   div.row, h3 {
+	   display: flex;
+	   flex-flow: row;
+	   color:yellow;
+	   font-size:12px;
+	   line-height:35px;
+	   justify-content:center;
+	   padding-right:25px;
+	   text-align:center;
+   }
+   
+   div.gallery img{
+	   width: 65%;
+	   transition: all 1s;
+   }
+   div.gallery img:hover{
+	   width: 100%;
+   }
+   footer {
+	   display:flex;
+	   justify-content:center;
+	   margin: 25px 0;
+   }
+   footer div.contact {
+	 font-size: 15px;
+	 color:yellow;
+	 text-shadow: 1px 1px orange;
+	 margin: 25px 0;
+	 padding: 20px;
+	 border:2px solid yellow;
+	 transition: all 1s;
+   }
+   footer div.contact:hover {
+	 font-size: 25px;
+	 color:yellow;
+	 background-color: red;
+	 text-shadow: 1px 1px orange;
+	 margin: 25px 0;
+	 padding: 20px;
+	 border:2px solid orange;
+   }
+ }
+  @media (max-width:800px){
+	nav{
+		position:fixed;
+		display:flex;
+		height:auto;
+		justify-content:center;
+		float:center;
+		flex-wrap:wrap;
+		margin:0 auto;  
+		z-index:1;
+
+	} 
+	#logo{
+		text-align:center;
+		width:670px;
+		justify-content:center;
+		float:center;
+	}
+	h1{
+		font-size:50px;
+	}
+	h2{
+		font-size:35px;
+	}
+	nav ul{
+		font-size:35px;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-self:center;
+		width:auto;
+		margin:auto;
+	}
+	nav li{
+	   display:flex;
+	   text-align:center;
+	   justify-content:center;
+	   font-size:25px;
+	}
+	ul a{
+		text-align:center;
+		justify-content:center;
+		font-size:20px;
+		line-height:1.5rem;
+	}
+	nav li:hover {
+	   font-size:35px;
+   }
+	.folder{
+	   min-width:350px;
+	}
+	.folder .image img{
+	   display:flex;
+	   min-width:auto;
+	   background-position:fill;
+   }
+   .folder #myname{
+	   position: absolute;
+	   top: 45%;
+	   transform: translate(-50%, -50%);
+	   font-size: 30px;
+	   letter-spacing:2px;
+	   text-align:center;
+	   color:yellow;
+	   text-shadow: 1px 1px orange;
+	 }
+	 .folder #myprojects{
+	   position: absolute;
+	   top: 50%;
+	   transform: translate(-50%, -50%);
+	   font-size: 18px;
+	   letter-spacing:2px;
+	   text-align:center;
+	   color:orange;
+	   text-shadow: 1px 1px yellow;
+	 }
+	 div.gallery {
+	   display: flex;
+	   flex-flow: column;
+   }
+   
+   div.gallery div.row {
+	   display: flex;
+	   flex-flow: row;
+	   padding:  0 25px 35px 35px;
+   }
+   div.row, h3 {
+	   display: flex;
+	   flex-flow: row;
+	   color:yellow;
+	   font-size:12px;
+	   line-height:35px;
+	   justify-content:center;
+	   padding-right:25px;
+	   text-align:center;
+   }
+   
+   div.gallery img{
+	   width: 65%;
+	   transition: all 1s;
+   }
+   div.gallery img:hover{
+	   width: 100%;
+   }
+   footer {
+	   display:flex;
+	   justify-content:center;
+	   margin: 25px 0;
+   }
+   footer div.contact {
+	 font-size: 15px;
+	 color:yellow;
+	 text-shadow: 1px 1px orange;
+	 margin: 25px 0;
+	 padding: 20px;
+	 border:2px solid yellow;
+	 transition: all 1s;
+   }
+   footer div.contact:hover {
+	 font-size: 25px;
+	 color:yellow;
+	 background-color: red;
+	 text-shadow: 1px 1px orange;
+	 margin: 25px 0;
+	 padding: 20px;
+	 border:2px solid orange;
+   }
+ }
+  @media (max-width:500px){
+	 nav{
+		 position:fixed;
+		 display:flex;
+		 height:auto;
+		 justify-content:center;
+		 float:center;
+		 flex-wrap:wrap;
+		 margin:0 auto;  
+		 z-index:1;
+		 
+
+	 } 
+	 #logo{
+		 text-align:center;
+		 width:400px;
+		 justify-content:center;
+		 float:center;
+	 }
+	 h1{
+		 font-size:35px;
+	 }
+	 h2{
+		 font-size:25px;
+	 }
+	 nav ul{
+		 font-size:25px;
+		 display:flex;
+		 flex-direction:column;
+		 justify-content:center;
+		 align-self:center;
+		 width:auto;
+		 margin:auto;
+	 }
+	 nav li{
+		display:flex;
+		text-align:center;
+		justify-content:center;
+	 }
+	 ul a{
+		 text-align:center;
+		 justify-content:center;
+		 font-size:18px;
+		 line-height:1.5rem;
+		 transition: all 2s;
+	 }
+	 nav li:hover {
+		font-size:25px;
+	}
+	 .folder{
+		min-width:250px;
+	 }
+	 .folder .image img{
+		display:flex;;
+		min-width:auto;
+		background-position:cover;
+	}
+	.folder #myname{
+		position: absolute;
+		top: 45%;
+		transform: translate(-50%, -50%);
+		font-size: 18px;
+		letter-spacing:2px;
+		text-align:center;
+		color:yellow;
+		text-shadow: 1px 1px orange;
+	  }
+	  .folder #myprojects{
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 10px;
+		letter-spacing:2px;
+		text-align:center;
+		color:orange;
+		text-shadow: 1px 1px yellow;
+	  }
+	  div.gallery {
+		display: flex;
+		flex-flow: column;
+	}
+	
+	div.gallery div.row {
+		display: flex;
+		flex-flow: row;
+		padding:  0 25px 35px 35px;
+	}
+	div.row, h3 {
+		display: flex;
+		flex-flow: row;
+		color:yellow;
+		font-size:12px;
+		line-height:35px;
+		justify-content:center;
+		padding-right:25px;
+		text-align:center;
+	}
+	
+	div.gallery img{
+		width: 65%;
+		transition: all 1s;
+	}
+	div.gallery img:hover{
+		width: 100%;
+	}
+	footer {
+		display:flex;
+		justify-content:center;
+		margin: 25px 0;
+	}
+	footer div.contact {
+	  font-size: 15px;
+	  color:yellow;
+	  text-shadow: 1px 1px orange;
+	  margin: 25px 0;
+	  padding: 20px;
+	  border:2px solid yellow;
+	  transition: all 1s;
+	}
+	footer div.contact:hover {
+	  font-size: 25px;
+	  color:yellow;
+	  background-color: red;
+	  text-shadow: 1px 1px orange;
+	  margin: 25px 0;
+	  padding: 20px;
+	  border:2px solid orange;
+	}
+  }
+  
