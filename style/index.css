@@ -232,6 +232,7 @@ p {
 
 
 /* Media Queries */
+/* 800px */
 @media(max-width: 800px) {
 
     h1 {
@@ -250,5 +251,52 @@ p {
         display: flex;
         flex-direction: column;
     }
+
+    .nav a:hover {
+        width: 50%;
+    }
 }
 
+
+/* 500px */
+@media(max-width: 500px) {
+
+    h1 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+    }
+
+    .nav a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav a:hover {
+        width: 60%;
+    }
+
+    .footer {
+        display: flex;
+        margin-left: 3%;
+    }
+
+    .footer a {
+        text-align: center;
+        font-size: 100%;
+        padding: 0;
+    }
+
+    .footer a:hover {
+        background-color: #d2b48c;
+
+    }
+}
