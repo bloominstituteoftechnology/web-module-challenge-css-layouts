@@ -68,6 +68,9 @@ nav  {
     font-weight: 600;
     color:crimson;
 }
+.link {
+    padding-top: 1%;
+}
 
 .link a {
     font-family: 'Montserrat', sans-serif;
@@ -123,10 +126,64 @@ footer {
     justify-content: center;
     align-items: center;
     height:300px;
+    background-color: white;
 }
 
 footer .contact-button {
     background-color: #16171a;
     color:white;
     padding:1% 2%;
+}
+/********Responsive design********/
+
+/* Media Quaries*/
+
+/*Tablet*/
+@media(max-width:800px){
+.portfolio div {
+        height: 225px;
+}
+
+footer {
+    height:200px;
+}
+
+}
+
+/*Phone*/
+@media(max-width:500px){
+    nav  {
+        padding:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1%;
+    }
+
+    .title-h1{
+        font-size: 1 rem;
+    }
+    
+    .portfolio {
+        padding: 5%;
+    }
+    
+    .portfolio div {
+        height: 200px;
+        margin: 3%;
+        width: 40%;
+    }
+    .portfolio-button {
+        padding: 2% 3%;
+    }
+    footer .contact-button {
+        padding:2% 3%;
+    }
 }
