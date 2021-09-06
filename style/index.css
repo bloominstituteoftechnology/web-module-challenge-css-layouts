@@ -93,7 +93,7 @@ button a {
 
 h1, h2{
     font-size:3rem;
-    padding: 10px 5px;
+    padding: 2px 2px;
 }
 
 h2{
@@ -101,37 +101,50 @@ h2{
 }
 .description p{
     text-align:center;
-    padding: 5%;
+    padding: 1%;
 }
 
 
 @media(max-width:800px){
-
-    .description{
-    margin-right:20px;
+.row div{
+    width:20%;
     }
-    .topimg{
-    width:50%;
-    margin-left:20px;
-    }
-    #rows{
-        max-width:100%;
-        justify-content:space-evenly;
-        padding: 10px 10px;
+    .topsection img{
+        width:40%;
     }
 }
 
-
-
-
-
-
-
-
 @media(max-width:500px){
-    .topimg{
-        padding: 30px 30px
-    }
-
-
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+}
+button{
+    width:70%;
+    margin:1% 0;
+}
+.topsection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topsection div{
+    width:90%;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.row div{
+    width:40%;
+}
 }
