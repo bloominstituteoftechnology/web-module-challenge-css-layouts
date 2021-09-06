@@ -1,4 +1,4 @@
-/* cleaner */
+/* cleaner
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -13,155 +13,92 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin: 0;
 	}
 /* remember to define focus styles! */
-:focus {
+/* :focus {
 	outline: 0;
 	}
 html{
     font-size:62.5%;
 }
 body {
-	background:#ffc8dd;
 	line-height: 1;
 	color: black;
 	}
 ol, ul {
 	list-style: none;
-	}
+	} */
 /* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
-
-a {
-    text-decoration: none;
-}
-.mainimg, .toptext{
-    display:flex;
-    width:20%;
-    height:40vh;
-    margin: 5% 0 5% 20%;
-    flex-wrap: wrap;
-    justify-content: center
-
-}
-.mainarea{
-    display:flex;
-    text-align:center;
-    font-size: 3rem;
-}
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
     max-width:100%;
-    font-family: 'Kalam', cursive;
+    border:1px solid grey;
+    font-size:2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+html{
+    font-size:62.5%;
 }
 header{
-    background-color: #ff99b6;
-    padding: 20px;
-    margin: 0;
+    background-color: lightgrey;
+    padding:20px;
+    margin-bottom:15px;
 }
-h1 {
-    display: flex;
-    font-size:5rem;
-    justify-content: center;
-    color:#2f2d2e;
-    text-align:center;
-    max-width:100%;
-}
-h2{
-    font-size:5rem;
-}
-
-}
-p{
-    font-size:3rem;
-    text-align:center;
-}
-h3{
-    font-size:5rem;
-    display:flex;
-    justify-content:center;
-}
-.links{
-    font-size: 3rem;
-    /* width:25%; */
-    padding: 1%;
-    display:flex;
-    justify-content: center;
-
-}
-.button {
-    background-color:#c9184a;
-    border: black 1px solid;
-    padding: 8px;
-    color: white;
-    border-radius: 30%
-}
-
-.image-containers {
-    display: flex;
-    max-width: 100%;
-    justify-content:space-around;
-    margin: 2%;
-  }
-.image-containers2 {
-    display:flex;
-    max-width: 100%;
-    justify-content:space-around;
-    margin: 2%;
-}
-.image-containers img{
-    height: 40vh;
-    width: 100%;
-
-}
-.image-containers2 img{
-    height: 40vh;
-    width: 100%;
-}
-
-
 footer{
-    display: flex;
-    justify-content:center;
-    background-color:#ff99b6;
-    padding: 3% 0%;
+    background-color:lightgrey;
+    text-align:center;
+    padding:20px;
 }
-.footertext{
-    color:#2f2d2e;
+button {
+    background-color:White;
+    color:black;
+    border: black solid 2px;
+    padding: 5px 10px;
+    
+  }
+  button:hover{
+    background-color:black;
+    color:white;
+    border: white solid 2px;
+    transition:.5s;
+  }
+button a {
     text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
-/* .bottombutton{
-    background-color:#c9184a;
-    border: black 0px solid;
-    padding: 8px;
-    color: #white;
-    border-radius: 25%;
-    padding: 1%;
-    font-size: 3rem;
-} */
-.bottombutton{
-    background-color:#c9184a;
-    border: black 1px solid;
-    padding: 8px;
-    color: white;
-    text-color:white;
-    border-radius: 30%;
-    font-size: 2rem;
+.topsection{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.description{
+    padding:20px;
+    width:50%;
+    text-align:center;
+}
+.row {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding: 20px;
+}
+.portfolio-element{
+    text-align:center;
 }
 
+h1, h2{
+    font-size:3rem;
+    padding: 10px 5px;
+}
 
-/* 8 picture section */
+h2{
+    text-align:center;
+}
+.description p{
+    text-align:center;
+    padding: 5%;
+}
