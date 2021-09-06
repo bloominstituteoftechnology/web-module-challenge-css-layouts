@@ -90,6 +90,7 @@ button a {
     text-align:center;
 }
 
+
 h1, h2{
     font-size:3rem;
     padding: 10px 5px;
@@ -101,4 +102,36 @@ h2{
 .description p{
     text-align:center;
     padding: 5%;
+}
+
+
+@media(max-width:800px){
+
+    .description{
+    margin-right:20px;
+    }
+    .topimg{
+    width:50%;
+    margin-left:20px;
+    }
+    #rows{
+        max-width:100%;
+        justify-content:space-evenly;
+        padding: 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .topimg{
+        padding: 30px 30px
+    }
+
+
 }
