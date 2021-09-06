@@ -54,7 +54,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1630522521616-aac6fd729e11?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vmax;
+    background-size: 100%;
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f;
@@ -112,7 +112,6 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-style: solid;
     margin: 5%
 }
 .project-pic1{
@@ -136,6 +135,7 @@ width: 20%;
 .main2{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 .project-pic5{
@@ -160,4 +160,69 @@ footer{
 }
 .test{
     background-image: url(img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg)
+}
+/* media quries */
+/* tablet */
+@media(max-width:800px){}
+/* phone */
+@media(max-width:500px){
+    header{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        margin-left: 25%;
+    
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-picture{
+        width: 100%;
+    }
+    .Cody{
+        width:100%;
+    }
+    .project-pic1{
+        text-align: center;
+        width: 40%;
+    }
+    .project-pic2{
+        text-align: center;
+        width: 40%;
+    
+    }
+    .project-pic3{
+        text-align: center;
+    width: 40%;
+    }
+    
+    .project-pic4{
+        text-align: center;
+        width: 40%;
+    }
+    .project-pic5{
+        text-align: center;
+        width: 40%;
+    }
+    .project-pic6{
+        text-align: center;
+        width: 40%;
+    
+    }
+    .project-pic7{
+        text-align: center;
+        width: 40%;
+    }
+    .project-pic8{
+        text-align: center;
+        width: 40%;
+    }
+    footer{
+        margin-top: 15%;
+    }
+
+
+
 }
