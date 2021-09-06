@@ -36,10 +36,11 @@ blockquote, q {
     padding: 0%;
     margin: 0%;
     max-width: 100%;
+
 }
 
 html {
-    font-size: 62.5;
+    font-size: 62.5%;
 }
 
 body {
@@ -228,3 +229,26 @@ p {
     background-color: #c19a6b;
     text-transform: uppercase;
 }
+
+
+/* Media Queries */
+@media(max-width: 800px) {
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
