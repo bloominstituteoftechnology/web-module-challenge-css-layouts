@@ -86,8 +86,6 @@ main {
 }
 main .title {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%
 }
 main .title img {
     width: 30%;
@@ -173,5 +171,26 @@ footer h3 {
     button {
         padding: 1%;
         width: 30%;
+        text-align: center;
+        align-content: center;
     }
+    main .title {
+        display: block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 500px;
+    }
+    main .title img {
+        width: 90%;
+    }
+    main .title div {
+        display: block;
+        width: 90%;
+    }
+    main .title div p{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    
 }
