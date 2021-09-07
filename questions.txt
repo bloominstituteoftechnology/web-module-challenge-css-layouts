@@ -1,3 +1,8 @@
-describe the differences in fixed, fluid, adaptive, and responsive layouts
+describe the differences in fixed, fluid, adaptive, and responsive layouts.
+fixed is "set in stone" programmed for a specific size to the very pixel calculation.
 implement media queries in a project.
+located in project code ****
+
+
 describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
+scalable size fonts help us adjust to the needs of our visitors to assist with their settings to adjust our site to make it more readable and user friendly especially for the disabled. 
