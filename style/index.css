@@ -104,7 +104,6 @@ q {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /* border: 1px solid red; */
 }
 html {
   font-size: 62.5%;
@@ -242,3 +241,45 @@ button:hover {
 .a2 {
   border: none;
 }
+
+/* Media Query Tablet */
+
+@media(max-width:800px){
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
