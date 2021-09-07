@@ -170,7 +170,7 @@ header nav a:hover{
     max-width: 25%;
     align-items: center;
 }
-
+/* media queries 800 px */
 @media(max-width: 800px){
     header{
         justify-content: center;
@@ -264,6 +264,7 @@ header nav a:hover{
         align-content: flex-start;
     }
 }
+/* media queries 500px */
 @media(max-width: 500px){
     header{
         justify-content: center;
