@@ -1,1 +1,173 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, 
+h1, h2, h3,  p, 
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img,  center,
+ footer, header,   {
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+, hgroup, menu, nav, 
+}
+
+
+}
+
+}
+
+}
+
+}
+
+
+
+*{
+   box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    margin: 25%;
+    max-width:100%;
+    color: #3C373B; 
+    /*border: 1px solid grey;*/
+    font-size: 2rem; 
+   
+}
+
+
+
+
+header {
+
+text-align: center;
+margin-top: 0$;
+
+
+}
+
+/* nav bar */
+
+nav  {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   text-align: center;
+   
+}
+
+body{
+   
+    background-color: snow;
+    margin: 10%;
+}
+
+p {
+    text-align: center;
+    font-weight: 5%;
+    font-size: 70px;
+
+}
+
+button{
+        margin: 30px;
+        color: black;
+        text-decoration: underline;
+        justify-content: space-between;
+        background-color: rgb(214, 238, 238)
+
+}
+
+.links  {
+    display: flex;
+    flex-wrap: row;
+    margin: 50px;
+    padding: 50%;
+    background-color: rgb(45, 92, 92);
+}
+    
+    a {
+        margin: 10px;
+        color: black;
+        justify-content: space-between;
+        margin: 70% 2%;
+        padding: 2px;
+        background-color: rgb(214, 238, 238);
+        font-size: 100px;
+      }
+
+      
+img {
+    background-attachment: fixed;
+    margin-right: full;
+    margin-left: auto;
+
+
+}
+
+
+/* Content style*/
+h1{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Chelsea Market', cursive;
+    padding: 40; 
+    font-size: 10rem;
+    text-align: center;
+    color: black;
+    margin: center;
+}
+
+h2 {
+    text-align: center;
+    margin: center;
+    font-size: 150px;
+}
+
+.right {
+    border: 2px solid rgb(238, 205, 129);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    
+    margin: 10%;
+   }
+
+
+ /*Projects */
+ .projects {
+     border: 2px solid chocolate;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     
+ }
+
+
+ .project-one {
+     display: flex;
+ }
+ .project-two{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+    border:13px solid rgb(238, 205, 129);
+    margin: 15px;
+ }
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: autp;
+    
+    
+}
+
+
+
+
