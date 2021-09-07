@@ -7,22 +7,22 @@ html, body, div, span,
 h1, h2, h3,  p, 
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img,  center,
- footer, header,   {
+ footer, header,   
 	
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-, hgroup, menu, nav, 
-}
+ hgroup, menu, nav, 
 
 
-}
 
-}
 
-}
 
-}
+
+
+
+
+
 
 
 
@@ -44,8 +44,7 @@ article, aside, details, figcaption, figure,
 header {
 
 text-align: center;
-margin-top: 0$;
-
+margin-top: 0 auto;
 
 }
 
@@ -58,8 +57,9 @@ nav  {
    text-align: center;
    
 }
-
-body{
+@media(max-wdith: 800)
+  
+body {
    
     background-color: snow;
     margin: 10%;
@@ -111,14 +111,14 @@ img {
 
 /* Content style*/
 h1{
-    display:flex;
+    /*display:flex;
     flex-direction: column;
     font-family: 'Chelsea Market', cursive;
     padding: 40; 
     font-size: 10rem;
     text-align: center;
     color: black;
-    margin: center;
+    margin: center;*/
 }
 
 h2 {
