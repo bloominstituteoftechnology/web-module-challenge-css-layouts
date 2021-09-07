@@ -246,11 +246,14 @@ button:hover {
 
 @media(max-width:800px){
 
-  
+
 }
 
+/* Media Query Phone */
 
-
+@media(max-width:300px){
+  
+}
 
 
 
