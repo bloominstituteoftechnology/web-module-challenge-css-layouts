@@ -159,3 +159,19 @@ footer h3 {
     font-weight: 900;
     margin: 1%;
 }
+@media (max-width: 800px){
+
+}
+@media (max-width: 500px){
+    header h1 {
+        text-align: center;
+    }
+    header div{
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        padding: 1%;
+        width: 30%;
+    }
+}
