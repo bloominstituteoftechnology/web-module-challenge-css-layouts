@@ -41,7 +41,7 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width:100%;
-        border:1px solid grey;
+        /*border:1px solid grey;*/
     }
     html{
         font-size: 62.5%;
@@ -105,4 +105,191 @@ h1 {
        padding: 5% 0;
        width: 100%;
        background-color: tomato;
+   }
+
+   @media(max-width: 800px){
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-family: 'Kaisei Tokumin', serif;
+    }
+    Header{
+        background-color: teal;
+        justify-content:column-reverse;
+         padding:5%;
+    }
+    h1 {
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5%;
+        }
+   nav{
+       
+   }
+   nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    transition: 4s;
+   }
+   nav a:hover{
+       background-color: tomato;
+       color: black;
+   }
+   
+    section{
+        display:flex
+            }
+   .info{
+       background-color: tomato;
+       display:flex;
+       flex-direction: column;
+        }
+    .section1{
+        display:flex;
+        justify-content: space-evenly;
+    }    
+   .one{
+       background-color: burlywood;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-left: 15%;
+    
+   }
+   .two{
+       background-color: cadetblue;
+       display:flex;
+       flex-direction: column;
+      justify-content: center;
+      padding-left: 15%;
+   }
+   .pics1{
+      max-width: 50%;
+       border:1px solid black;
+   }
+   .pics2{
+       max-width: 50%;
+       border:1px solid black;
+   }
+   footer{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 5% 0;
+       width: 100%;
+       background-color: tomato;
+    }  
+    button {
+        max-width: 100px;
+        text-decoration: ;
+    }
+    .firstpic{
+        margin: 20%;
+    }
+    .infotop{
+        display:flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+   }
+
+
+   @media (max-width:400px){
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-family: 'Kaisei Tokumin', serif;
+    }
+    Header{
+        background-color: teal;
+        justify-content:column-reverse;
+         padding:5%;
+    }
+    h1 {
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+        }
+   nav{
+       
+   }
+   nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    transition: 4s;
+   }
+   nav a:hover{
+       background-color: tomato;
+       color: black;
+   }
+   
+    section{
+        display:flex
+            }
+   .info{
+       background-color: tomato;
+       display:flex;
+       flex-direction: column;
+        }
+    .section1{
+        display:flex;
+        justify-content: space-evenly;
+    }    
+   .one{
+       background-color: burlywood;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-left: 15%;
+    
+   }
+   .two{
+       background-color: cadetblue;
+       display:flex;
+       flex-direction: column;
+      justify-content: center;
+      padding-left: 15%;
+   }
+   .pics1{
+      max-width: 50%;
+       border:1px solid black;
+   }
+   .pics2{
+       max-width: 50%;
+       border:1px solid black;
+   }
+   footer{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 5% 0;
+       width: 100%;
+       background-color: tomato;
+    }  
+    button {
+        max-width: 100px;
+        text-decoration: ;
+    }
+    .firstpic{
+        margin: 20%;
+    }
+    .infotop{
+        display:flex;
+        flex-direction: column;
+        margin-left: 40%;
+    } 
    }
