@@ -158,7 +158,26 @@ footer h3 {
     margin: 1%;
 }
 @media (max-width: 800px){
-
+    button {
+        width: 20%;
+        font-size: 1rem;
+    }
+    main .title img {
+        width: 50%;
+        margin-right: 0;
+    }
+    main .title div h2 {
+        font-size: 2.4rem;
+    }
+    main .title div p {
+        font-size: 1.2rem;
+    }
+    main .thumbnails div p {
+        font-size: 1rem;
+    }
+   footer h3 {
+       font-size: 1.6rem;
+   }
 }
 @media (max-width: 500px){
     header h1 {
