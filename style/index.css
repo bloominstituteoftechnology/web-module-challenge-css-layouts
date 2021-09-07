@@ -113,22 +113,17 @@ header {
     height: 25vh;
 }
 nav {
-    /* padding: 2% 0; */
     display: flex;
     width:  50%;
     justify-content: space-between;
     align-items: center;
     padding-left: 0%;
-    /* border: 2px solid gold; */
 }
 nav a {
     display: inline-block;
     padding: 1% 0;
     width: 100%;
-    /* border-radius: 10px; */
     text-align: center;
-    /* border: 2px solid gray; */
-    /* color: #fff; */
 }
 /* M section 1 styles */
 .info {
@@ -188,10 +183,7 @@ footer {
     margin: 10px;
 }
 .social{
-    display:flex;
-    /* justify-content: space-between;
-    margin-top:10%; */
-    
+    display:flex;  
 }
 .social div{
     padding: 0 5px;
@@ -208,9 +200,6 @@ footer {
     }
     h2{
         font-size: 2.5rem;
-    }
-    .info{
-        /* height: 50vh; */
     }
 }
 
@@ -236,18 +225,10 @@ footer {
     }
 
     .info{
-        /* width: 90%;
-        display: flex; */
         flex-wrap: wrap;
     }
     .right, .right h2{
         text-align: center;
-    }
-
-    .container{
-        /* display: flex;
-        flex-wrap: wrap; */
-        
     }
     .box2{
         width: 40%;
