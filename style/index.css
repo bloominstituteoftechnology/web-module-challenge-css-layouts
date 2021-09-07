@@ -1,6 +1,6 @@
 /* Nav */
 .danny {
-    font-size: 7vh;
+    font-size: 3rem;
     text-decoration: none;
     color: black;
     padding: 2%;
@@ -18,9 +18,8 @@ ul {
     padding:0;
 }
 li a {
-    font-size: 3vh;
+    font-size: 1.2rem;
     padding: 12px 12px;
-    justify-content: space-between;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -101,8 +100,34 @@ figcaption {
     display: flex;
     justify-content: center;
 }
-/* footer {
-    border: 1px solid;
-    display:flex;
-    justify-content: center;
-} */
+@media (max-width:800px) {
+    .middle-project {
+        width: 30%;
+        padding: 0 1%;
+    }
+}
+/* below is for mobile, used the measurement of 600px to note when the navbar gets too scrunched */
+@media (max-width:600px) {
+    .navbar {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .danny {
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-flow: column;
+        margin: 1% 0;
+        margin-bottom: 5%;
+    }
+    li {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    li a {
+        display: inline-block;
+        min-width: 80px;
+    }
+}
