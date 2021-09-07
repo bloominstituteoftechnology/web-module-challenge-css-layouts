@@ -141,7 +141,7 @@ footer{
 /*Tablet*/
 @media(max-width:800px){
     .paragraph{
-        width:40%;
+        width:60%;
         margin-left:5%;
     }
     .top-image-container{
@@ -160,13 +160,14 @@ footer{
     .nav-container {
         flex-direction: column;
         line-height:0;
-        padding-bottom: 2rem;
+        padding-bottom:2rem;
     }
     .image-container img{
         width: 60%;
     }
     .image-container{
         justify-content:center;
+        
     }
     .all{
         flex-direction: column;
