@@ -101,3 +101,28 @@ footer{
 .project{
     text-align: center;
 }
+
+@media(max-width:800px){
+*{
+    border: black 1px solid;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav button{
+    justify-content:center;
+    flex-direction: column;
+}
+#links{
+    display:flex;
+    flex-direction: column;
+}
+}
+
+@media(max-width:500px){
+
+}
