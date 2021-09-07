@@ -108,6 +108,7 @@ justify-content:center;
  flex-wrap:wrap;
   display: flex;
   justify-content:space-betwen;
+  text-decoration:none;
 }
  .container img  {
  height:350px;
@@ -117,6 +118,8 @@ justify-content:center;
     flex-wrap:wrap;
   display: flex;
    justify-content:space-betwen;
+  
+   
 }
 .gallery{
  display:flex;
@@ -177,4 +180,7 @@ footer{
 }
 body{
   background-color:teal;
+}
+.item2{
+  text-decoration:none;
 }
