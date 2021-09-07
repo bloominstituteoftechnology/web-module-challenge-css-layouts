@@ -52,6 +52,18 @@ blockquote, q {
     font-family: Lato, sans-serif;
 }
 /* reset end */
+button {
+    background-color: #f1faee;
+    width: 10%;
+    padding: .3%;
+    margin-right: 1%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+button:hover {
+    background-color: black;
+    color: #f1faee;
+}
 header {
     background-image: url("https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
     width: 100%;
@@ -61,22 +73,12 @@ header {
 }
 header h1 {
     font-size: 3.2rem;
+    font-weight: 900;
     margin: 1%;
 }
 header div {
     display: flex;
     margin: 1%;
-}
-header div button {
-    background-color: #f1faee;
-    width: 10%;
-    padding: .5%;
-    margin-right: 1%;
-    font-size: 1.2rem;
-}
-header div button:hover {
-    background-color: black;
-    color: #f1faee;
 }
 main {
     background-color: #f1faee;
@@ -88,7 +90,7 @@ main .title {
     width: 100%
 }
 main .title img {
-    width: 40%;
+    width: 30%;
     margin: 1%;
     border-radius: 10px;
 }
@@ -98,10 +100,11 @@ main .title div {
     justify-content: flex-end;
     width: 40%;
     margin: 2%;
-    padding: 3%;
+    padding-bottom: 3%;
 }
 main .title div h2 {
-    font-size: 2.4rem;
+    font-size: 3.6rem;
+    font-weight: 900;
     margin: 2%;
 }
 main .title div button {
@@ -109,33 +112,50 @@ main .title div button {
     margin: 2%;
     background-color: black;
     color: #f1faee;
-    width: 50%;
+    width: 40%;
+    padding: .5%;
 }
 main .title div button:hover {
     background-color: #f1faee;
     color: black;
 }
 main .title div p {
+    font-size: 2rem;
     margin: 2%;
 }
 main .thumbnails {
-
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
 }
 main .thumbnails div {
-
+    width: 20%;
+    margin: 3% 1%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 main .thumbnails div img {
-
+    width: 75%;
+    /* display: flex; */
+    /* align-self: center; */
 }
 main .thumbnails div p {
-
+    font-size: 1.6rem;
+    text-align: center;
 }
 footer {
-    
+    background-image: url("https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer h3 {
-
-}
-footer button {
-
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 1%;
 }
