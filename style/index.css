@@ -1,102 +1,27 @@
-/* Add CSS styling here */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend {
-  vertical-align: baseline;
-  font-family: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  outline: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-/* remember to define focus styles! */
-:focus {
-  outline: 0;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-/* tables still need cellspacing="0" in the markup */
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-}
-caption,
-th,
-td {
-  font-weight: normal;
-  text-align: left;
-}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-}
-blockquote,
-q {
-  quotes: "" "";
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
 * {
@@ -105,78 +30,82 @@ q {
   margin: 0;
   max-width: 100%;
 }
+
+/* General styles */
+
 html {
   font-size: 62.5%;
 }
+
 body {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
-  background-color: #00008b;
-  border: #d9f7ff 12px double;
+  background-color: #1570a1;
 }
+
+/* Header Styles */
+
 header {
-  background-color: #d9f7ff;
   display: flex;
-  /* justify-content: space-evenly; */
-  padding: 1.3%;
+  justify-content:space-between;
+  align-items: center;
+  padding: 2% 2%;
+  color: white;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem
 }
 
 a {
   text-decoration: none;
-  /* border: 1px solid white; */
-  margin: 2%;
-  padding: 1% 8%;
   color: black;
+  color: white;
 }
 
-a:hover {
-  background-color: #00008b;
-  color: white;
-  transition: 0.8s;
-  opacity: 0.8;
+header a {
+  padding: 0 5%;
+  border: solid 1px white;
 }
 
 header #navLinks {
+  width: 25%;
   display: flex;
-  align-items: center;
-  font-size: 2.5rem;
-  margin-left: 56%;
+  border: 1px gray solid;
+  font-size: 2rem;
+}
+
+/* Border Styles*/
+
+.border {
+  background-image: url("ocean.jpg");
+  background-size: 100%;
+  background-position: center;
+  padding: 20%;
+  margin: 2% 6%;
+  height: 50vh;
 }
 
 .first {
-  background-image: url("ocean.jpg");
-  background-size: 100% 100%;
-  padding: 20%;
-  margin: 0.6%;
-  color: B0C4DE;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: double white 15px; */
 }
 
-.border {
-  border: double #d9f7ff 12px;
-  margin: 10px;
+h2 {
+  font-size: 9rem;
 }
 
-#name {
-  color: #00008b;
-  display: flex;
-  font-size: 5rem;
-}
 #proj {
-  color: #00008b;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+  color:white;
 }
 
-#proj:hover {
-  color: white;
+button{
+  background-color: gray;
 }
+
+/* Main Body Styling */
 
 .main_body {
   display: flex;
@@ -184,76 +113,154 @@ header #navLinks {
   margin: 1% 5%;
 }
 .main_body div {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   width: 23%;
   height: 60%;
   flex-wrap: wrap;
   margin: 0 5%;
-  /* border: 2px solid red; */
+  text-align: center;
+  font-size: 2rem;
 }
 .main_body img {
   width: 85%;
   height: 80%;
   padding: 2.5%;
   margin: 5%;
-  border: double #d9f7ff 5px;
 }
 
-.main_body p {
-  text-align: center;
-  color: white;
+.main_body #two {
+  padding-bottom: 2%;
 }
 
-#p1 {
-  margin-top: -3%;
-}
-
-#pic2 {
-  border: 6.2px #d9f7ff double;
-}
 
 footer {
-  /* border:1px solid red ; */
-  background-color: #d9f7ff;
+  background-color: gray;
   padding: 2%;
   display: flex;
   justify-content: center;
 }
-/* #foot_anc{
-    /* border: 1px solid red; */
-/* font-size: 4rem;
-    font-weight: bold; */
 
 button {
   font-weight: bold;
   width: 100px;
-  padding: 4% 2%;
+  padding: 4% 2%;  
 }
 
-button:hover {
-  color: white;
-  background-color: #00008b;
-  transition: 0.8s;
-}
+@media(max-width:800px) {
+ 
+/* Header Styles */
 
-.a2 {
-  border: none;
-}
-
-/* Media Query Tablet */
-
-@media(max-width:800px){
-
-
-}
-
-/* Media Query Phone */
-
-@media(max-width:300px){
+  header {
+    width: 100%;
+  }
   
+  header #navLinks {
+    width: 25%;
+    font-size: 1.4rem;
+  }
+
+header a {
+  padding: 0 2%;
+  border: solid .5px white;
+  }
+
+h1 {
+  font-size: 3.5rem
+  }
+
+/* Border Styles */
+
+h2 {
+  font-size: 4rem;
+  }
+
+#proj {
+  font-size: 1.2rem;
+  color:white;
+  }
+
+button{
+  background-color: gray;
+  }
+
+@media(max-width:500px) {
+
+/* Header Styles */
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  header #navLinks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 12%;
+  }
+
+  /* Border Styles */
+
+  .border {
+    background-repeat: no-repeat;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  #proj {
+    font-size: 1rem;
+    color:white;
+  }
+
+  /* Main_Body Styles */
+
+  .main_body div {
+    width: 40%;
+    font-size: 1.4rem;
+  }
+
+  footer {
+    padding: 8% 0;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
