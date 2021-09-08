@@ -1,8 +1,4 @@
-@media screen and (max-width: 800px) {
-    body{
-        background-color: green;
-    }
-}
+
 
 
 
@@ -158,9 +154,10 @@ h2 {
  .parent{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 25px;
-  margin: 200px;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 10px;
+ 
      
  }
  .middle {
@@ -178,6 +175,11 @@ h2 {
    
 }
 
- 
+@media(max-width: 800px) { 
+    .parent {
+      background: red;
+    }
+}
+
 
 
