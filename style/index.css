@@ -1,173 +1,183 @@
+@media screen and (max-width: 800px) {
+    body{
+        background-color: green;
+    }
+}
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, 
-h1, h2, h3,  p, 
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img,  center,
- footer, header,   
-	
-
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0px;
+    max-width: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
- hgroup, menu, nav, 
+ aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:inline-block
+}
 
 
 
 
-
-
-
-
-
-
-
+/* ---------Content -----*/
 
 
 *{
    box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 35px;
-    margin: 25%;
-    max-width:100%;
-    color: #3C373B; 
-    /*border: 1px solid grey;*/
-    font-size: 2rem; 
-   
+    margin: 0 auto;
+  
 }
-
 
 
 
 header {
-
 text-align: center;
-margin-top: 0 auto;
+
 
 }
+body {
+    display: flex;
+    flex-direction: column;
+	line-height: 1;
+    margin: 30px;
+    padding: 32px;
+    font-size: 5rem;
+   background-color: snow;
+} 
+
 
 /* nav bar */
+.main-nav {
+    display: flex;
+    flex-direction: column;
+     margin: 20px;
+    padding: 50px;
+    background-color:whitesmoke;
+    
+}
+.main-nav h1 nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color:whitesmoke;
+    
+}
+
 
 nav  {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-   text-align: center;
+    margin: 250px;
+    padding: 4px;
+
    
 }
-@media(max-wdith: 800)
-  
-body {
-   
-    background-color: snow;
-    margin: 10%;
+
+
+
+button {
+    justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
+    color: black;
+    text-decoration: underline;
+    font-size: 5rem;
+    background-color: transparent;
 }
 
-p {
-    text-align: center;
-    font-weight: 5%;
-    font-size: 70px;
-
-}
-
-button{
-        margin: 30px;
-        color: black;
-        text-decoration: underline;
-        justify-content: space-between;
-        background-color: rgb(214, 238, 238)
-
-}
-
-.links  {
-    display: flex;
-    flex-wrap: row;
-    margin: 50px;
-    padding: 50%;
-    background-color: rgb(45, 92, 92);
-}
+h1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Chelsea Market', cursive;
+    margin: 300px;
+    padding: 155px;
+    color: black;
     
-    a {
-        margin: 10px;
-        color: black;
-        justify-content: space-between;
-        margin: 70% 2%;
-        padding: 2px;
-        background-color: rgb(214, 238, 238);
-        font-size: 100px;
-      }
-
-      
-img {
-    background-attachment: fixed;
-    margin-right: full;
-    margin-left: auto;
-
-
-}
+    
+ }
 
 
 /* Content style*/
-h1{
-    /*display:flex;
-    flex-direction: column;
-    font-family: 'Chelsea Market', cursive;
-    padding: 40; 
-    font-size: 10rem;
-    text-align: center;
-    color: black;
-    margin: center;*/
-}
+ .info {
+     margin 0 auto;
+     text-align: center;
+ }
+
 
 h2 {
-    text-align: center;
-    margin: center;
-    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 15px;
+    
 }
 
-.right {
-    border: 2px solid rgb(238, 205, 129);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-    
-    margin: 10%;
-   }
 
+.hero-image {
+    border: 2px solid grey;
+    padding: 35px;
+    margin: 0 auto;
+}
 
- /*Projects */
- .projects {
-     border: 2px solid chocolate;
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
+.child {
+    display: flexbox;
+    margin: 5px;
+   padding: 250px;  
+   flex: 1;
+   border:1px solid gray;
+   border-radius: 5%;
+}
+
+ .parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 200px;
      
  }
-
-
- .project-one {
-     display: flex;
+ .middle {
+     
+     background-color:whitesmoke;
  }
- .project-two{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     align-items: center;
-    border:13px solid rgb(238, 205, 129);
-    margin: 15px;
- }
+ 
+
 .contact {
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: autp;
-    
-    
+    margin-top: auto;
+   
 }
 
-
+ 
 
 
