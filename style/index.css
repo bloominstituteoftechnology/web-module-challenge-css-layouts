@@ -45,7 +45,6 @@ header{
     
 h1{
     font-size: 6rem;
-    
     padding: 2.5% 1%;
 }
 
@@ -102,6 +101,9 @@ h2 {
     align-items: center space-evenly;
 }
 
+#favorite div{
+    margin: 2%;
+}
 
 
 
