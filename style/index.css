@@ -14,8 +14,134 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border: 1px solid grey; */
+    background-color: #FFCDB2;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    /* border: 1px solid grey; */
+}
+.links{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid grey;
+    flex-direction: row;
+}
+nav .links a{
+    font-size: 2rem;
+    /* border: 1px solid grey; */
+    border-radius: 15%;
+    background-color: #E5989B;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+nav .links{
+    padding:1% 0;
+    font-size:1.6rem;
+    margin-left: 3%;
+    display:inline-block;
+}
+nav .headerName{
+    padding:1% 0;
+    text-decoration: none;
+    font-size:3rem;
+    margin-left: 2%;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+    /* border: 1px solid grey; */
+    flex-direction: row;
+}
+.parentOne{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1%;
+    padding-left: 25%;
+    padding-right: 20%;
+    margin: 1%;
+    border: 1px solid grey;
+    flex-direction: row;
+}
+.parentOne .boxOne img{
+    max-width: 300%;
+    width: 150%;
+}
+.parentOne .boxTwo h2{
+    /* border: 1px solid grey; */
+    font-size: 2rem;
+    padding-bottom: 4%;
+}
+.parentOne .boxTwo a{
+    font-size: 2rem;
+    padding: 2%;
+    border-radius: 15%;
+    background-color: #E5989B;
+}
+.parentOne .boxTwo p{
+    padding-top: 4%;
+    
+}
+.row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.row .randomImage p{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #E5989B;
+    border-radius: 45%;
+}
+.row .randomImage img{
+    border-radius: 10%;
+    background-color: #E5989B;
+}
+footer{
+    /* border: 1px solid grey; */
+    text-align: center;
+    padding: 2%;
+    background-color: #B5838D;
+}
+footer .bottom p{
+    font-size: 2.3rem;
+    padding-bottom: 2%;
+    background-color: #B5838D;
+}
+footer .bottom a{
+    font-size: 2rem;
+    /* border: 1px solid grey; */
+    border-radius: 15%;
+    background-color: #E5989B;
+    padding: 1%;
+}
+footer .bottom a:hover{
+    background-color: #6D6875;
+    color: #E5989B;
+}
+footer nav{
+    background-color: #B5838D;
 }
