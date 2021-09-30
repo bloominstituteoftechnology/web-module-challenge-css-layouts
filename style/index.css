@@ -124,8 +124,51 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* universal stuff here after CSS reset. */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	/* border:1px solid grey; */
+}
 
 /* Add CSS styling here */
+html {
+	font-size: 62.5%;
+}
 
-/* font family currently ill be using
-font-family: 'Roboto Condensed', sans-serif; */
+body {
+	font-size: 1.6rem;
+	background-color: #fbfffb;
+	line-height: 1.8;
+	color: #4f4f4f;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	color: #5a4747;
+	text-align: left;
+	margin-bottom: 0.4%;
+}
+h2 {
+	font-family: 'Oxygen', sans-serif;
+	color: #7c7ef9;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.snippets {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	z-index: 999;
+	background-color: rgba(129, 135, 222, 0.8);
+	.snippets {
+		flex: 0 0 30%;
+	}
+}
