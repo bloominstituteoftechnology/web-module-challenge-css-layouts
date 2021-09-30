@@ -89,6 +89,7 @@ section{
     padding:4% 0;
 }
 
+/* Still not sure how to make this header look right. */
 header{
 background: lightgray;
 display:flex;
@@ -101,15 +102,19 @@ header a{
     
 }
 
+/* This is the portion with the large rectangular picture and my name/intro */
 .top{
     display: flex;
 }
 
 .mainproject, .myname{
+    border:1px solid black;
     width:50%;
     margin:1.5%;
 }
 
+
+/* This is the bit with the eight boxes. .boxes is all eight boxes, and .box is each individual box. Not sure why I can't get them in to rows of four.*/
 .boxes{
     display:flex;
     flex-direction:row;
@@ -120,5 +125,13 @@ header a{
 .box{
     border: 1px solid black;
     margin:.75%;
-    width:20%;
+    size:25%;
+}
+
+/* I'm not sure why there's white space under my footer, and I can't get the Contact Us bit to go under "like what you see?" */
+footer{
+    background:lightgray;
+    display:flex;
+    justify-content:center;
+    
 }
