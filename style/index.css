@@ -26,14 +26,15 @@ footer, header, hgroup, menu, nav, section {
 /* General styles */
 * {
     box-sizing: border-box;
-    border:1px solid grey;
-    color:teal;
+    font-size: 1.2rem;
 }
 h1{
     font-size: 5.6rem;
+    color:white;
 }
 h2{
     font-size: 2.6rem;
+    color:maroon;
 }
 nav{
     display: flex;
@@ -50,22 +51,27 @@ nav{
     text-align: center;
     text-decoration: none;
     padding:2% 8%;
-    color: teal;
+    color: maroon;
     
 }
 .links a:hover{
-    background-color: teal;
+    background-color: maroon;
     color: white;
 }
 #about{
     margin:2% 5%;
     padding: 12%;
     text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1632843293141-c00ef3c43590?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YkRvNDhjVWh3bll8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
 }
-#projects-button ,#contact{
-    padding: 2% 5%;
+
+#projects-button {
+    padding:2% 8%;
     font-size: 1rem;
-    background-color: teal;
+    background-color: maroon;
     
 }
 a{
@@ -75,22 +81,41 @@ a{
 .container{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
-    text-align: end;
 }
 .bg-img{
-    background-image: url('https://images.unsplash.com/photo-1563669931235-ab5baa572942?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8YkRvNDhjVWh3bll8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-    background-size:cover;
-    background-repeat: no-repeat;
-    padding:8%;
-    margin: 2% 5%;
-    background-color: yellow;
+    padding: 0;
+    width:25%;
+    margin: 2%;
+    height:20%;
+
+}
+.bg-img p{
+    text-align: center;
+    font-size: 1.2rem;
     
 }
+.bg-img img{
+    max-width: 100%;
+    
+} 
+
+
 footer{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    background-color:grey;
     padding: 5%;
     text-align: center;
+    
+}
+footer button,footer a{
+    padding:1%;
+    margin: 0% 35%;
+    background-color: maroon;
+
 }
 
 
