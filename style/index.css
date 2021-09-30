@@ -1,1 +1,170 @@
-/* Add CSS styling here */
+/* CSS reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+    *{
+        
+        width: 100%;
+    }
+
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.8rem;
+        line-height: 1.5;
+    }
+
+    /* header formatting */
+
+    .top{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3%;
+        margin-top: 2%; 
+        margin-left: 4%;
+    }
+    
+    .links{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end; 
+        justify-content: space-around;
+        margin-right: 5%;
+        width: 80%;
+    }
+    h1{
+        font-size: 6rem;
+    }
+
+    /* main picture formatting */
+    #title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center top;
+        background-image:url(https://images.unsplash.com/photo-1552849397-3f599d225636?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+        height: 85vh;
+        flex-flow: column;
+    }
+
+
+    .titletxt{
+        color: yellow;
+        font-size: 15rem;
+        text-align: center;
+    }
+    .project{
+        color: yellow;
+        font-size: 10rem;
+        text-align: center;
+    }
+    a:link{
+        color: yellow;
+    }
+    a:visited{
+        color: yellow;
+    }
+    a:hover{
+        color: red;
+    }
+    
+
+    /* main1 formatting */
+    .main1{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .img1{
+        width: 32%;
+    }
+    .img2{
+        width: 30%;
+    }
+    .img3{
+        width: 32%;
+    }
+
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        margin: 5% 0;
+    }
+    .img4{
+        width: 32%;
+    }
+    .img5{
+        width: 30%;
+    }
+    .img6{
+        width: 32%;
+    }
+    .subtxt{
+        display: block;
+        text-align: center;
+    }
+
+    /* footer formatting */
+    footer{
+        background-color: blue;
+        height: 25vh;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .con {
+        text-align: center;
+        font-size: 8rem;
+    }
+
+    @media (max-width: 800px){
+
+    }
+
+    @media (max-width: 500px){
+        
+    }
