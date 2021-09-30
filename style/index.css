@@ -6,7 +6,9 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    background: blueviolet;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+
 }
 
 header{
@@ -14,23 +16,26 @@ header{
     width: 100%;
     padding-left: 3%;
     padding-bottom: 3%;
-    background-color:goldenrod;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
     
 }
 
 h1{
     font-family: 'Darker Grotesque', sans-serif;
     margin-bottom: 2%;
-    background: goldenrod;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
 
 }
 nav div {
- background: goldenrod;
+    background: local;
+    animation: gradient 15s ease infinite;
 }
 .links{
     display: flex;
     justify-content:space-evenly ;
-    background: goldenrod;
+    background: local;
 }
 .one{
     background: black;
@@ -71,10 +76,14 @@ nav div {
 .left{
     width: 50%;
     height: auto;
+    background: local;
 }
 .right{
     display: flex;
     flex-direction: column;
+    background: local;
+    animation: gradient 15s ease infinite;
+
 }
 .right h2 {
     font-family: 'Darker Grotesque', sans-serif;
@@ -82,12 +91,13 @@ nav div {
     margin-top: 30%;
     margin-left: 5%;
     font-size: 2.5em;
-    background: blueviolet;
+    background:local;
+    animation: gradient 15s ease infinite;
+
 }
 .right nav a{
     text-decoration: none;
     color:white;
-    background-color: black;
     margin-left: 7%;
     margin-bottom: 4%;
     padding-left: 2%;
@@ -95,7 +105,13 @@ nav div {
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 5px;
+    background:black;
+    animation: gradient 15s ease infinite;
 
+
+}
+.right nav{
+    background: local;
 }
 .right p {
     color:black;
@@ -103,6 +119,9 @@ nav div {
     margin-left: 5%;
     margin-bottom: 0%;
     font-size: 20px;
+    background: local;
+    animation: gradient 15s ease infinite;
+
 }
 
 /* img and titles section */
@@ -115,6 +134,9 @@ nav div {
     text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.5em;
+    background: local;
+    animation: gradient 15s ease infinite;
+
 }
 
 .second{
@@ -124,31 +146,41 @@ nav div {
     text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.5em;
-}
+    background: local;
+    animation: gradient 15s ease infinite;
 
+}
 /* this will container our footer section*/
 
 section{
-    background:pink;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+
 }
 
-footer{
-    background-color:pink;
+footer { 
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 2.0em;
     text-align: center;
     padding-top: 1.5em;
     padding-bottom: 2em;
     margin-bottom: auto;
+    background: local;
+    animation: gradient 15s ease infinite;
+
 }
-section a {
+footer,section,a {
     text-decoration: none;
-    background-color: blanchedalmond;
+    color: #23d5ab;
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-bottom: 0.5em;
     border-radius: 0.5em;
+    background:black
+
 }
-h2{
-    background: pink;
+footer,section,h2{
+    background: local;
+    animation: gradient 15s ease infinite;
+
 }
