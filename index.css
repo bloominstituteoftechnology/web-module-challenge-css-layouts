@@ -1,0 +1,171 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+	border: 1px solid grey;
+}
+html {
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    background-color:#819281;
+    line-height:1.5;
+    color:#c44141;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: yellowgreen;
+	text-decoration: transparent;
+}
+a:hover{
+	color: yellow;
+}
+button{
+	padding: 2% 4%;
+    margin-top: 2%;
+    color: white;
+    background-color: #266035;
+    border: 1px solid black;
+    font-size: 1.6 rem;
+}
+section{
+	padding: 4% 0;
+}
+h1{
+	font-size: 5rem;
+}
+h2{
+	font-size: 3rem;
+}
+h3{
+	font-size: 2rem;
+}
+section{
+	padding: 4% 0;
+}
+/*header*/
+h1{
+	font-size: 6rem;
+	display: flex;
+	flex-direction: column;
+	font-weight: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav.top-header{
+	display: flex;
+	flex-direction: column;
+	background-color: #dddddd;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 3%;
+
+}
+li {
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 2px solid black;
+}
+li a.home{
+	background-color: black;
+}
+li a.home:hover{
+	background-color: #dddddd;
+}
+li a:hover{
+	background-color: black;
+}
+#top{
+	display: flex;
+	justify-content: left;
+	padding-top: 1%;
+}
+#top div.front-picture{
+	width: 50%;
+	margin-right: 0%;
+}
+#top div.about-me{
+	text-align: left;
+}
+h2{
+	display: flex;	
+	font-size: 4rem;
+	font-weight: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	padding-bottom: 0;
+}
+button{
+	padding-top: 4%;
+	display: flex;
+	align-items: flex-start;
+	font-size: 20px;
+}
+div p{
+	padding-top: 2%;
+	display: flex;
+	font-size: 15px;
+	text-align: left;
+	flex-flow: wrap;
+}
+
+#projects {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+	font-size: 40px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+.img-1{
+	
+}
