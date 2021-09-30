@@ -1,1 +1,153 @@
 /* Add CSS styling here */
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+/* universal css */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Quicksand", sans-serif;
+  background-color: #e9ecef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  width: 10%;
+  text-align: center;
+  padding: 1%;
+  background: #ffc43d;
+  color: #f0efeb;
+}
+
+nav a:hover {
+  background-color: #006d77;
+  color: #e5e5e5;
+}
+
+/* introduction section */
+.introduction h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.introduction p {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.main img {
+  width: 100%;
+  height: 350px;
+  /* object-fit: fill; */
+}
+
+/* images */
+.gallery {
+  display: flex;
+  width: 20%;
+  /* flex-flow: row wrap; */
+}
+
+.showcase {
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.showcase img {
+  flex-flow: row wrap;
+}
