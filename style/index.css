@@ -77,7 +77,6 @@ legend {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
 }
 
 /* universal css */
@@ -88,7 +87,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Quicksand", sans-serif;
-  background-color: #e9ecef;
+  background-color: #d8d8d8;
 }
 
 a {
@@ -110,8 +109,9 @@ nav a {
   width: 10%;
   text-align: center;
   padding: 1%;
-  background: #ffc43d;
+  background: #d8973c;
   color: #f0efeb;
+  border: 1.5px solid black;
 }
 
 nav a:hover {
@@ -139,15 +139,42 @@ nav a:hover {
 /* images */
 .gallery {
   display: flex;
-  width: 20%;
-  /* flex-flow: row wrap; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery img {
+  margin-top: 12%;
+  width: 95%;
 }
 
 .showcase {
-  justify-content: center;
-  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
 }
 
-.showcase img {
-  flex-flow: row wrap;
+.gallery p {
+  text-align: center;
+  width: 30%;
+}
+
+/* footer */
+footer {
+  background-color: #bebbbb;
+}
+
+button {
+  width: 15%;
+  padding: 1%;
+  margin-left: 42%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: #d8973c;
+  color: #f0efeb;
+}
+
+button:hover {
+  background-color: #006d77;
+  color: #e5e5e5;
 }
