@@ -1,1 +1,98 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* General styles */
+* {
+    box-sizing: border-box;
+    border:1px solid grey;
+    color:teal;
+}
+h1{
+    font-size: 5.6rem;
+}
+h2{
+    font-size: 2.6rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+ 
+}
+.links a{
+    text-align: center;
+    text-decoration: none;
+    padding:2% 8%;
+    color: teal;
+    
+}
+.links a:hover{
+    background-color: teal;
+    color: white;
+}
+#about{
+    margin:2% 5%;
+    padding: 12%;
+    text-align: center;
+}
+#projects-button ,#contact{
+    padding: 2% 5%;
+    font-size: 1rem;
+    background-color: teal;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: end;
+}
+.bg-img{
+    background-image: url('https://images.unsplash.com/photo-1563669931235-ab5baa572942?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8YkRvNDhjVWh3bll8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:8%;
+    margin: 2% 5%;
+    background-color: yellow;
+    
+}
+footer{
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+
