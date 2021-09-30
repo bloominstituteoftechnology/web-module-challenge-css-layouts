@@ -71,13 +71,17 @@ justify-content: space-between;
 .image {
 display: flex;
 flex-wrap: wrap;
+text-align: center;
 }
 .image div {
     width: 30%;
     margin:1% 1% 1% 2% ;
 
 }
-
+.nav-div a {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .image img {
     width: 100%;
@@ -89,7 +93,7 @@ flex-wrap: wrap;
     width: 100%;
     text-align: center;
     background-color: red;
-    background: blue;
+
 }
 footer {
     display: flex;
