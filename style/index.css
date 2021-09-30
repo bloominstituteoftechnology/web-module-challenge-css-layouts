@@ -1,5 +1,124 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+  }
+  
+  Html{
+	font-size:62.5%;
+	}
+
 
 *{
     border:1px solid red;
+}
+
+body{
+    font-size:1.6rem;
+    background-color:#FBFFFB;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#266035;
+    text-decoration: none;
+}
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    color:#266035;
+}
+h1{
+    color:#0a0c0a;
+    font-size:5rem;
+}
+h2{
+    font-size:3.5rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding:4% 0;
+}
+
+header{
+background: lightgray;
+display:flex;
+flex-direction:column;
+}
+
+header a{
+    border: 1px solid black;
+    padding: 1%;
+    
+}
+
+.top{
+    display: flex;
+}
+
+.mainproject, .myname{
+    width:50%;
+    margin:1.5%;
+}
+
+.boxes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.box{
+    border: 1px solid black;
+    margin:.75%;
+    width:20%;
 }
