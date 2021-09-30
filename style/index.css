@@ -1,1 +1,149 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**Browser reset**/
+ html {
+    font-size: 62.5%;
+ }
+
+ h1 {
+     font-size: 4rem;
+     padding: 3% 0%;
+ }
+ .main-title {
+     font-size:5rem;
+ }
+
+ body {
+    margin: 4%; 
+    line-height: 1.5;
+ }
+nav {
+    margin-bottom: 5%;
+}
+nav a {
+    font-size: 1.5rem;
+    text-decoration:none;
+    padding: 1.5% 2.5%;
+    background-color: black;
+    color:white;
+    margin: 2% .5%;
+    display: inline-block;
+
+}
+
+ body p {
+     font-size:1.5rem;
+
+ }
+/**Header**/
+ .top-section {
+     display:flex;
+     flex-direction:row;
+     align-items: center;
+ }
+
+.image1 {
+    margin-left:1%;
+
+ }
+
+.intro-content {
+    margin:7%;
+}
+.intro-content button {
+    padding:2% 4%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.intro-content p {
+    width: 75%;
+    padding: 4% 0%;
+    font-size: 1.5rem;
+}
+/**Portfolio Content**/
+.portfolio-content {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding: 2% 0;
+}
+
+.portfolio-content .port-images {
+    width: 24%;
+}
+
+.portfolio-content img {
+    width:100%;
+    padding: 7% 4%;
+    margin-top: 7%;
+}
+
+.portfolio-content p {
+    text-align: center;
+}
+
+/**Contact Section**/
+.contact-section {
+    text-align:center;
+    background-color: tomato;
+    padding: 3%;
+}
+
+.contact-section p {
+    font-size: 2rem;
+    margin-top:2%;
+}
+
+.contact-section a {
+    padding: 1% 3%;
+    background-color: black;
+    border:none;
+    color:white;
+    margin-top:4%;
+    text-decoration: none;
+    display: inline-block;
+}
