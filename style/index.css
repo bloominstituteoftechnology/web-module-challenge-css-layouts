@@ -20,12 +20,13 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    border: 1px solid grey;
+    max-width: 100%; 
+    font: size 62.5%;
+    /* border: 1px solid grey; */
 }
 
 body{
-    font: size 62.5%;
+    
     font-family: grandstander, cursive;
 }
 
@@ -43,37 +44,57 @@ header{
 }
     
 h1{
-    font-size: 5rem;
+    font-size: 6rem;
     
-    padding: 2% 1%;
+    padding: 2.5% 1%;
 }
 
-nav a{
+nav a {
     padding: 1%;
     border-radius: 20%;
     margin: 1%;
     background-color: #F9AF72;
     color: #D6E9F8;
     text-decoration: none;
+    transition: 1s;
 }
 
+nav a:hover{
+    background-color: #FEF7DB;
+    color: #8BC5EB;
+    border: #F9AF72 2px solid;
+}
 /* Main Section CSS */
 
 #main{
-    padding-top: %;
     background-color:#FEF7DB;
-    position: relative;
     display:flex;
-
 }
 
 #main img{
-    padding: 2%;
+    padding: 1%;
+    margin: 1%;
 }
 
+.text{
+    text-align: center;
+    color:#4f4f4f
+}
+
+h2 {
+    font-size: 5rem;
+    padding: 5% 0 6% 0;
+}
+#main p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin-left: 23%;
+    text-align: center;
+}
 /* picture section */
 
 #favorite{
+    background-color:#FEF7DB;
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
@@ -85,15 +106,30 @@ nav a{
 
 
 footer{
-
 background-color: #8BC5EB ;
-/* opacity: .8; */
 color: #F9AF72;
-padding: 0 0 2% 0;
 width:100%;
-top:0;
-/* z-index:999; */
-display: flex;
-flex-direction: column;
+text-align: center;
+padding: 4% 0;
+}
 
+h3 {
+    font-size: 3rem;
+    padding: 3% 0;
+}
+
+footer a{
+    margin: 3%;
+    padding: 1.5% 2%;
+    border-radius: 20%;
+    margin: 3% 10%;
+    background-color: #F9AF72;
+    color: #D6E9F8;
+    text-decoration: none;
+    transition: 2s;
+}
+footer a:hover{
+    background-color: #FEF7DB;
+    color: #8BC5EB;
+    border: #F9AF72 2px solid;
 }
