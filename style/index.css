@@ -31,45 +31,89 @@ footer, header, hgroup, menu, nav, section {
 }
 
 *{
-    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     max-width: 100%;
     text-align: center;
+    border: 1px solid grey;
+}
+/* General Styles */
+html{
+    font: size 62.5%;
 }
 body {
-	line-height: 1;
+	font-size: 1.6rem;
+    background-color: cornflowerblue;
+    line-height: 1.5;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
-
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1% 4%;
+    color: white;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+section{
+    padding: 4% 0;
+}
 *
 /* Header */
-header{
+nav{
     display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
+    justify-content: space-between;
 }
-
-.h1header{
-    
+.links{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.nav{
-    
-}
-
 /* Top Image */
 
 .container{
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
-}
-.backgroundimg{
-    background-image: url(../style/mainimage.JPG);
-    background-position: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url('../style/mainimage.JPG');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-position: center;
+
+
 }
+.myprojects{
+    width: 10vh;
+}
+
 
 /* Gallery */
-
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.project img{
+    width: 80%;
+}
 /* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
