@@ -14,27 +14,122 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin: 0;
 	}
 /* remember to define focus styles! */
+
+/* CCS RESET ABOVE */
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+
 :focus {
 	outline: 0;
 	}
+
+    html {
+        font-size:62.5%
+    }
 body {
 
 	}
-
-
 header {
     display:flex;
+    flex-flow: row wrap;
+    border:2px solid red;
+    justify-content: space-evenly;
+}
+
+h3 {
+    width: 50%;
+}
+.logo-name {
+
+}
+
+.nav-div {
+
 }
 
 
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
 
-main {
+.main-section {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
 
 }
 
+.image {
+display: flex;
+flex-wrap: wrap;
+}
+.image div {
+    width: 30%;
+    margin:1% 1% 1% 2% ;
+
+}
+
+
+.image img {
+    width: 100%;
+
+}
+
+.top-button {
+    padding: 10% 15%;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    background: blue;
+}
 footer {
+    display: flex;
+    justify-content:center;
+    }
 
+
+/* 
+div.projectOne {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
 }
 
+.projectTwo {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
+}
 
+.projectThree {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
+}
 
+.projectFour {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
+}
+
+.projectFive {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
+}
+
+.projectSix {
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 50%;
+} */
