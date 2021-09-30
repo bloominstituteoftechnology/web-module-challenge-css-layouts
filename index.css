@@ -126,7 +126,7 @@ li a:hover{
 #top div.about-me{
 	text-align: left;
 }
-h2{
+div.about-me h2{
 	display: flex;	
 	font-size: 4rem;
 	font-weight: 1;
@@ -153,19 +153,42 @@ div p{
 	flex-direction: row;
     justify-content: space-evenly;
 	flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     padding: 5%;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 .text{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     padding: 5%;
+	display: grid;
 }
-.img-1{
-	
+h4{
+	display: flex;
+	align-items: center;
+	width: 30%;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+footer{
+	background-color: #dddddd;
+	flex-direction: column;
+}
+footer.closing{
+	text-align: center;
+}
+div.bottom {
+	display:flex;
+	justify-content: center;
+}
+
+div.bottom button:hover{
+	background-color: #dddddd;
 }
