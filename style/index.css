@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin: 0;
     max-width: 100%; 
     font: size 62.5%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 body{
@@ -67,21 +67,24 @@ nav a:hover{
 
 #main{
     background-color:#FEF7DB;
+    display:flex;
 }
 
 #main img{
-    padding: 1%;
+    padding: 2%;
     margin: 1%;
+    width: 80%;
 }
 
 .text{
     text-align: center;
     color:#4f4f4f
+    margin:25%;
 }
 
 h2 {
     font-size: 5rem;
-    padding: 5% 0 6% 0;
+    padding: 5% ;
 }
 #main p{
     font-size: 1.3rem;

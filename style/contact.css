@@ -70,22 +70,14 @@ nav a:hover{
     display:flex;
 }
 
-#main img{
-    padding: 1%;
-    margin: 1%;
-}
-
-.text{
-    text-align: center;
-    color:#4f4f4f
-}
-
 div {
     font-size: 5rem;
     padding: 5% 0 6% 0;
     flex-direction: column;
 }
 #main img{
+    padding: 1% ;
+    margin: 3%;
     width: 10%;
     height: 10%;
     border-radius: 50%;
@@ -101,7 +93,9 @@ div {
 
 #favorite{
     background-color:#FEF7DB;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
+    color: #8BC5EB;
+    font-size: 3rem;
 }
 
 #favorite div{
