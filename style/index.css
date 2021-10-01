@@ -1,1 +1,142 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+
+body{
+    font-size:1.6rem;
+    background-color:#FBFFFB;
+    line-height:1.5;
+    color:#4f4f4f;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    top:0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+header h2{
+    font-size: 2rem;
+}
+
+.nav_links li a:hover {
+    color: red;
+}
+
+#holder {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#name {
+    max-width: 90vw;
+    height: 50vh;
+    background-image:url('/something3.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:60%;
+    margin: 50px 20px;
+    font-size: 5rem;
+}
+
+#name h2{
+    color: white;
+}
+
+#name button {
+    background-color: white;
+    font-size: 2rem;
+}
+
+.grid {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.images {
+    text-align: center;
+}
+
+.images img {
+    width: 70%;
+    margin: 5%
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    height: 12vh;
+    align-items: center;
+}
