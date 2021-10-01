@@ -67,6 +67,7 @@ nav a:hover{
 
 #main{
     background-color:#FEF7DB;
+    display:flex;
 }
 
 #main img{
@@ -79,10 +80,17 @@ nav a:hover{
     color:#4f4f4f
 }
 
-h2 {
+div {
     font-size: 5rem;
     padding: 5% 0 6% 0;
+    flex-direction: column;
 }
+#main img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
 #main p{
     font-size: 1.3rem;
     width: 50%;
@@ -93,11 +101,7 @@ h2 {
 
 #favorite{
     background-color:#FEF7DB;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2%;
-    justify-content: space-evenly;
-    align-items: center space-evenly;
+    padding: 5%;
 }
 
 #favorite div{
@@ -123,7 +127,7 @@ footer a{
     margin: 3%;
     padding: 1.5% 2%;
     border-radius: 20%;
-    margin: 3% 10%;
+    margin: 6% ;
     background-color: #F9AF72;
     color: #D6E9F8;
     text-decoration: none;
