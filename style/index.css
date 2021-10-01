@@ -41,9 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    box-sizing: border-box;
-}
+
 html{
     font-size:62.5%;
 }
@@ -54,53 +52,31 @@ body{
     color:#4f4f4f;
     font-family: 'Source Sans Pro', sans-serif;
 }
-a{
-    font-family: 'Source Sans Pro', sans-serif;
-    color:#4f4f4f;
-    text-decoration: none;
+header{
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 15px;
 }
-h1, h2, h3{
-    font-family: 'Oxygen', sans-serif;
-    color: #4f4f4f;
+footer{
+    background-color: lightgrey;
+    text-align:center;
+    padding: 20px;
 }
-h1{
-    color: #4f4f4f;
-    font-size:5rem;
-    text-transform:uppercase;
-    margin: 3%;
+.top{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
 }
-h2{
-    font-size:3.5rem;
+.aboutMe{
+    padding:20px;
+    width:50%;
 }
-h3{
-    font-size:2.5rem;
+.row{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding:20px;
 }
-section{
-    padding:4% 0;
-}
-nav{
-    display: flex;
-    justify-content: flex-start;
-    margin: 5%;
-}
-#top{
-    height: 90vh;
-    display: flex;
-    flex: auto;
-}
-.img1{
-    display: flex;
-    justify-content: flex-start;
-}
-#middle{
-    height: 90vh;
-    display: flex;
-}
-#bottom{
-    height: 90vh;
-    display: flex;
-}
-#footer{
-    height: 90vh;
-    display: flex
+.portfolio-element{
+    text-align:center;
 }
