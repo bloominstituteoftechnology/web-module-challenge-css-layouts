@@ -86,37 +86,33 @@ nav .headerName{
 }
 .parentOne{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1%;
-    padding-left: 25%;
-    padding-right: 20%;
     margin: 1%;
     /* border: 1px solid grey; */
     flex-direction: row;
 }
 .parentOne img{
-    max-width: 300%;
-    width: 200%;
+    width: 35vw;
 }
-.parentOne .boxTwo h2{
+.boxTwo h2{
     /* border: 1px solid grey; */
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 4%;
 }
-.parentOne .boxTwo a{
+.boxTwo a{
     font-size: 2rem;
     padding: 2%;
     border-radius: 15%;
     background-color: #E5989B;
 }
-.parentOne .boxTwo a:hover{
+.boxTwo a:hover{
     background-color: #6D6875;
     color: #E5989B;
 }
-.parentOne .boxTwo p{
+.boxTwo p{
     padding-top: 4%;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 .row{
     display: flex;
