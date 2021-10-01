@@ -60,6 +60,7 @@ h2 {
     margin-bottom: 1%;
     font-family: "Architects Daughter", monospace;
     font-size:100px;
+    text-transform:uppercase;
    
 }
 .intro {
@@ -76,22 +77,59 @@ h2 {
     height:700px;
 }
 .images{
+    margin:1% 1% 1% 0%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    max-width:100%;
+    position:relative;
+    height:50%;
 }
-.img1{
-    width:15%;
+.img1 img{
+    width:90%
+    /* padding-top:10%; */
 }
-.img2{
-    width:15%;
+.img2 img{
+    width:90%;
+    /* padding-top:10%; */
 }
-.img3{
-    width:15%;
+.img3 img{
+    max-height:100%;
+    width:100%;
+    /* padding-top:13%; */
+    height:90%;
 }
-.img4{
-    width:15%;
+.img4 img{
+    width:70%;
+    height:90%;
+    margin-left:10%;
+    /* padding-top:10% */
 }
 .images p{
-    width:20%;
+    text-align:center;
+    width:90%;
+    padding-top:25%;
+    padding-right:5%;
     
+}
+footer{
+    background-color:grey;
+    padding:2%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+footer a{
+    text-align:center;
+    border:2px solid black;
+    color:white;
+    background-color:black;
+    font-size:20px;
+    margin:3%;
+    padding:1%;
+}
+footer a:hover{
+    transition:2s;
+    background-color:white;
+    color:black;
 }
