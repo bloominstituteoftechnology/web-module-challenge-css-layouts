@@ -42,7 +42,7 @@ ol, ul {
 
 html {
     font-size: 62.5%;
-
+    font-family: 'Gemunu Libre', sans-serif;
 }
 
 
@@ -55,6 +55,9 @@ body{
 
 
 header {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -67,6 +70,9 @@ header {
     background-color:rgba(41, 45, 69,0.9);
 }
 
+header h2{
+    font-size: 2.5rem;
+}
 
 .nav_links li{
     display: inline-block;
@@ -77,13 +83,6 @@ header {
 .nav_links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-}
-
-header h2{
-    font-size: 2rem;
 }
 
 .nav_links li a:hover {
