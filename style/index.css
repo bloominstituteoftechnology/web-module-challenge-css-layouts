@@ -48,7 +48,7 @@ h1{
     padding: 2.5% 1%;
 }
 
-nav a {
+nav a{
     padding: 1%;
     border-radius: 20%;
     margin: 1%;
@@ -70,16 +70,17 @@ nav a:hover{
     display:flex;
 }
 
-#main img{
-    padding: 2%;
+.mainimg {
     margin: 1%;
-    width: 80%;
+    width: 60%;
 }
 
 .text{
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color:#4f4f4f
-    margin:25%;
+    margin:%;
 }
 
 h2 {
@@ -87,10 +88,26 @@ h2 {
     padding: 5% ;
 }
 #main p{
-    font-size: 1.3rem;
-    width: 50%;
-    margin-left: 23%;
+    font-size: 3rem;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
+}
+#main a {
+    padding: 4%;
+    border-radius: 20%;
+    margin-top: 1%;
+    background-color: #F9AF72;
+    color: #FEF7DB;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+#main a:hover{
+    background-color:#8BC5EB ;
+    color: #FEF7DB;
+    border: #F9AF72 2px solid;
 }
 /* picture section */
 
