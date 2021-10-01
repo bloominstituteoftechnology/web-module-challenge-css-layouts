@@ -1,156 +1,204 @@
-
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	/* border: 0; */
-	}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
 /* font-family: 'Grandstander', cursive; */
 /* Add CSS styling here */
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%; 
-    font: size 62.5%;
-    border: 1px solid grey;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  font: size 62.5%;
+  /* border: 1px solid grey; */
 }
 
-body{
-    
-    font-family: grandstander, cursive;
+body {
+  font-family: grandstander, cursive;
 }
 
-header{
-    background-color: #8BC5EB ;
-    /* opacity: .8; */
-    color: #F9AF72;
-    padding: 0 0 2% 0;
-    width:100%;
-    top:0;
-    /* z-index:999; */
-    display: flex;
-    flex-direction: column;
-    
-}
-    
-h1{
-    font-size: 6rem;
-    padding: 2.5% 1%;
+header {
+  background-color: #8bc5eb;
+  /* opacity: .8; */
+  color: #f9af72;
+  padding: 0 0 2% 0;
+  width: 100%;
+  top: 0;
+  /* z-index:999; */
+  display: flex;
+  flex-direction: column;
 }
 
-nav a{
-    padding: 1%;
-    border-radius: 20%;
-    margin: 1%;
-    background-color: #F9AF72;
-    color: #D6E9F8;
-    text-decoration: none;
-    transition: 1s;
+h1 {
+  font-size: 6rem;
+  padding: 2.5% 1%;
 }
 
-nav a:hover{
-    background-color: #FEF7DB;
-    color: #8BC5EB;
-    border: #F9AF72 2px solid;
+nav a {
+  padding: 1%;
+  border-radius: 20%;
+  margin: 1%;
+  background-color: #f9af72;
+  color: #d6e9f8;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav a:hover {
+  background-color: #fef7db;
+  color: #8bc5eb;
+  border: #f9af72 2px solid;
 }
 /* Main Section CSS */
 
-#main{
-    background-color:#FEF7DB;
-    display:flex;
+#main {
+  background-color: #fef7db;
+  display: flex;
+  width: 100%;
 }
-
 .mainimg {
-    margin: 1%;
-    width: 60%;
+  width: 100%;
+  margin: 1.5%;
 }
-
-.text{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color:#4f4f4f
-    margin:%;
-}
-
 h2 {
-    font-size: 5rem;
-    padding: 5% ;
+  font-size: 5rem;
+  padding: 10% 0 9% 0;
+
 }
-#main p{
-    font-size: 3rem;
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
+.text {
+  align-content: space-around;
+  justify-content: space-around;
+  text-align: center;
+  color: #3F3E66ff;
+  margin-bottom: 5%;
+}
+#main p {
+  font-size: 2rem;
+  padding: 0 3%;
+  margin-bottom: 7%;
 }
 #main a {
-    padding: 4%;
-    border-radius: 20%;
-    margin-top: 1%;
-    background-color: #F9AF72;
-    color: #FEF7DB;
-    text-decoration: none;
-    transition: 1s;
-    
+  padding: 2% 3%;
+  border-radius: 20%;
+  margin-top: 80%;
+  background-color: #f9af72;
+  color: #D6E9F8;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 1s;
 }
 
-#main a:hover{
-    background-color:#8BC5EB ;
-    color: #FEF7DB;
-    border: #F9AF72 2px solid;
+#main a:hover {
+  background-color: #8bc5eb;
+  color: #ffcc00;
+  border: #f9af72 2px solid;
 }
+
 /* picture section */
 
-#favorite{
-    background-color:#FEF7DB;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2%;
-    justify-content: space-evenly;
-    align-items: center space-evenly;
+#favorite {
+  background-color: #fef7db;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: space-evenly;
+  align-items: center space-evenly;
 }
 
-#favorite div{
-    margin: 2%;
+#favorite div {
+  margin: 2%;
 }
 
-
-
-footer{
-background-color: #8BC5EB ;
-color: #F9AF72;
-width:100%;
-text-align: center;
-padding: 4% 0;
+footer {
+  background-color: #8bc5eb;
+  color: #f9af72;
+  width: 100%;
+  text-align: center;
+  padding: 4% 0;
 }
 
 h3 {
-    font-size: 3rem;
-    padding: 3% 0;
+  font-size: 3rem;
+  padding: 3% 0;
 }
 
-footer a{
-    margin: 3%;
-    padding: 1.5% 2%;
-    border-radius: 20%;
-    margin: 3% 10%;
-    background-color: #F9AF72;
-    color: #D6E9F8;
-    text-decoration: none;
-    transition: 2s;
+footer a {
+  margin: 3%;
+  padding: 1.5% 2%;
+  border-radius: 20%;
+  margin: 3% 10%;
+  background-color: #f9af72;
+  color: #d6e9f8;
+  text-decoration: none;
+  transition: 2s;
 }
-footer a:hover{
-    background-color: #FEF7DB;
-    color: #8BC5EB;
-    border: #F9AF72 2px solid;
+footer a:hover {
+  background-color: #fef7db;
+  color: #8bc5eb;
+  border: #f9af72 2px solid;
 }
