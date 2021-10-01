@@ -53,16 +53,25 @@ html{
 *{
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+nav{
+    width:33%;
+}
 
 .topnav {
     background-color: rgb(94, 7, 7);
     overflow: hidden;
-    display: inline-block;
+    display: flex;
     text-align: center;
     border: 5px;
     width: 100%;
-    margin: 0 auto;
-    
+    justify-content: space-evenly;
+    align-items: center;
   }
 
 .top img{
@@ -81,19 +90,30 @@ html{
 .challenge{
     outline: 2px solid red;
     display: flex;
-    flex-flow:wrap;
-    flex-direction: row;
+    flex-flow:row wrap;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 7%;
+    height: 600px;
+    width: 100%;
     
 }
+.one{
+    width: 25%;
+    height: 45%;
+    margin: 1px;
+    outline: 1px solid green;
+}
 
+.one img{
+    height: 90%;
+    width: 100%;
+}
 
 p{
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 2%;
-    font-size: 1.75rem;
+    font-size: 1.2rem;
 }
 
 footer{
