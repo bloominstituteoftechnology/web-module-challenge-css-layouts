@@ -28,26 +28,35 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
     /* border: 1px solid grey; */
-    background-color: #FFCDB2;
+    
 }
 html{
     font-size: 62.5%;
 }
+body{
+    background-color: #FFCDB2;
+}
 header{
     /* border: 1px solid grey; */
+    background-color: #B5838D;
 }
 .links{
+    width: 24vw;
     display: flex;
-    flex-flow: row wrap;
-    border: 1px solid grey;
+    flex-flow: row nowrap;
+    /* border: 1px solid grey; */
     flex-direction: row;
 }
-nav .links a{
+.links a{
     font-size: 2rem;
     /* border: 1px solid grey; */
     border-radius: 15%;
     background-color: #E5989B;
     padding: 1%;
+}
+.links a:hover{
+    background-color: #6D6875;
+    color: #E5989B;
 }
 a{
     text-decoration: none;
@@ -83,12 +92,12 @@ nav .headerName{
     padding-left: 25%;
     padding-right: 20%;
     margin: 1%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     flex-direction: row;
 }
-.parentOne .boxOne img{
+.parentOne img{
     max-width: 300%;
-    width: 150%;
+    width: 200%;
 }
 .parentOne .boxTwo h2{
     /* border: 1px solid grey; */
@@ -101,9 +110,13 @@ nav .headerName{
     border-radius: 15%;
     background-color: #E5989B;
 }
+.parentOne .boxTwo a:hover{
+    background-color: #6D6875;
+    color: #E5989B;
+}
 .parentOne .boxTwo p{
     padding-top: 4%;
-    
+    font-size: 1.3rem;
 }
 .row{
     display: flex;
