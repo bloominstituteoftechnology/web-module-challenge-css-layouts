@@ -57,7 +57,7 @@ a{
 }
 h1{
     font-size: 5rem;
-    color: black;
+    color: white;
 }
 h2{
     font-size: 3rem;
@@ -120,6 +120,7 @@ nav{
 footer{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     background-color: black;
@@ -129,3 +130,16 @@ footer{
     padding: 1%;
 
 }
+/* Style all font awesome icons */
+.fa {
+    padding: 1%;
+    font-size: 2rem;
+    width: 10vh;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
