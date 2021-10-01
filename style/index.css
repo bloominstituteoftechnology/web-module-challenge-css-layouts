@@ -19,7 +19,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,35 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-*{
-    box-sizing: border-box;
-  }
-  
-  Html{
-	font-size:62.5%;
-	}
 
 
 *{
     border:1px solid red;
+    box-sizing: border-box;
 }
+
+Html{
+	font-size:62.5%;
+	}
+
 
 body{
     font-size:1.6rem;
@@ -65,6 +47,7 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
 }
 a{
     font-family: 'Source Sans Pro', sans-serif;
@@ -89,18 +72,24 @@ section{
     padding:4% 0;
 }
 
+
 /* Still not sure how to make this header look right. */
 header{
 background: lightgray;
 display:flex;
 flex-direction:column;
+padding:2%;
 }
 
 header a{
     border: 1px solid black;
     padding: 1%;
-    
 }
+
+header h1{
+    margin-bottom: 2%;
+}
+
 
 /* This is the portion with the large rectangular picture and my name/intro */
 .top{
@@ -110,11 +99,24 @@ header a{
 .mainproject, .myname{
     border:1px solid black;
     width:50%;
+    height:50%;
     margin:1.5%;
 }
 
+/* This is my big main picture and idk how to make it fill up its element. I tried making it a background image but then nothing showed up at all. */
+.bigpicture{
+}
 
-/* This is the bit with the eight boxes. .boxes is all eight boxes, and .box is each individual box. Not sure why I can't get them in to rows of four.*/
+img{
+    border: 1px solid black;
+    margin:.75%; 
+}
+
+.intro{
+    padding: 10%;
+}
+
+/* /* This is the bit with the eight boxes. .boxes is all eight boxes, and .box is each individual box. I just need to put some space between them. */
 .boxes{
     display:flex;
     flex-direction:row;
@@ -122,10 +124,10 @@ header a{
     justify-content:space-evenly;
 }
 
-.box{
+.box img{
     border: 1px solid black;
     margin:.75%;
-    size:25%;
+    height:20vh;
 }
 
 /* I'm not sure why there's white space under my footer, and I can't get the Contact Us bit to go under "like what you see?" */
