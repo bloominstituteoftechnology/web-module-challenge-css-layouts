@@ -22,6 +22,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+a{
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	color:#4f4f4f;
 body {
 	line-height: 1;
 }
@@ -53,11 +57,9 @@ body {
     color:#4f4f4f;
     font-family: 'Open Sans', sans-serif;
 	border-color:solid grey 10px;
+	transition: all 3s ease-in-out;
 }
-a{
-	text-decoration:none;
-	font-family: 'Open Sans', sans-serif;
-	color:#4f4f4f;
+
 }
 h1{
 	text-align:center;
@@ -136,6 +138,7 @@ h2{
 	margin: 2%;
 }
 .mainimg{
+	transition: all 5s ease-in-out;
 	width:100%;
 	padding:3% 0 0;
 	height: 600px;
