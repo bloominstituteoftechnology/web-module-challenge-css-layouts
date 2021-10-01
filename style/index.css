@@ -48,10 +48,11 @@ html {
 
 body{
     font-size:1.6rem;
-    background-color:#FBFFFB;
+    background-color:#172169;
     line-height:1.5;
     color:#4f4f4f;
 }
+
 
 header {
     display:flex;
@@ -60,8 +61,10 @@ header {
     position:fixed;
     width:100%;
     top:0;
-    margin-top: 2%;
     margin-bottom: 2%;
+    padding: 3%;
+    z-index:999;
+    background-color:rgba(41, 45, 69,0.9);
 }
 
 
@@ -139,4 +142,8 @@ footer {
     background-color: lightgrey;
     height: 12vh;
     align-items: center;
+}
+
+footer button a {
+    text-decoration: none;
 }
