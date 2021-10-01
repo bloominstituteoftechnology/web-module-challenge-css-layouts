@@ -36,7 +36,6 @@ footer, header, hgroup, menu, nav, section {
     margin: 0;
     max-width: 100%;
     text-align: center;
-    border: 1px solid grey;
 }
 /* General Styles */
 html{
@@ -46,7 +45,7 @@ body {
 	font-size: 1.6rem;
     background-color: cornflowerblue;
     line-height: 1.5;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
 a{
@@ -58,6 +57,7 @@ a{
 }
 h1{
     font-size: 5rem;
+    color: black;
 }
 h2{
     font-size: 3rem;
@@ -77,27 +77,31 @@ nav{
 .links{
     width: 33%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 /* Top Image */
-
+.top{
+    display: flex;
+    justify-content: center;
+}
 .container{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 80%;
     height: 90vh;
     background-image: url('../style/mainimage.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 
 
 }
 .myprojects{
-    width: 10vh;
+    width: 20vh;
+    height: 5vh;
+    font-size: 1.5rem;
 }
 
 
@@ -108,12 +112,20 @@ nav{
     justify-content: space-between;
 }
 .project img{
-    width: 80%;
+    width: 60vh;
+    margin: 0%;
+    padding: 10% 10% 0%;
 }
 /* Footer */
 footer{
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
     background-color: black;
-    
+    height: 15vh;
+}
+.contact{
+    padding: 1%;
+
 }
