@@ -18,7 +18,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 /* CCS RESET ABOVE */
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 100%;
     padding: 0%;
     margin: 0%;
@@ -38,26 +38,32 @@ body {
 header {
     display:flex;
     flex-flow: row wrap;
-    border:2px solid red;
+    /* border:2px solid red; */
     justify-content: space-evenly;
+    background-color: coral;
+    height: 4em;
+    justify-content: center;
+    max-width: 100%;
+    
 }
 
 h3 {
     width: 50%;
 }
 .logo-name {
-
+justify-content: start;
 }
 
-.nav-div {
-
+p.logo-name {
+    justify-content: space-evenly ;
+    width: 50%;
+    justify-content: start;
 }
 
 
 nav {
-    display:flex;
     justify-content: space-evenly;
-    margin: 5% 0;
+
 }
 
 .main-section {
@@ -68,36 +74,46 @@ justify-content: space-between;
 
 }
 
+img {
+    border-radius: 12%;
+}
+
 .image {
 display: flex;
 flex-wrap: wrap;
 text-align: center;
+
 }
 .image div {
     width: 30%;
     margin:1% 1% 1% 2% ;
 
 }
-.nav-div a {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 .image img {
     width: 100%;
 
 }
 
+
 .top-button {
+    display: flex;
+    justify-content: center;
     padding: 10% 15%;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
-    background-color: red;
+    background-color: skyblue;
+    margin: 5%;
 
 }
 footer {
     display: flex;
     justify-content:center;
+    margin: 1.5%;
+    background-color: coral;
+    padding: 2.5%;
+    max-width: 100%;
     }
 
 
