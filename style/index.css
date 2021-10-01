@@ -1,1 +1,97 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    background-color:lightpink;
+    text-decoration:none;
+    
+}
+header {
+    text-align:center;
+    padding:5%;
+    
+}
+h1 {
+    margin-bottom:5%;
+    font-family: "Birthstone", monospace;
+    font-size: 100px;
+}
+nav {
+    margin-bottom: 5%;
+    height:10%;
+    font-family: "Didact Gothic", monospace;
+}
+nav a{
+    border:2px solid black;
+    color:white;
+    background-color:black;
+    font-size:20px;
+}
+nav a:hover{
+    transition:2s;
+    background-color:white;
+    color:black;
+    
+}
+h2 {
+    margin-bottom: 1%;
+    font-family: "Architects Daughter", monospace;
+    font-size:100px;
+   
+}
+.intro {
+    text-align: center;
+    font-family: "Old Standard TT", monospace;
+    font-size: 30px;
+    margin-bottom: 5%;
+    width:100%   
+}
+.background img {
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:700px;
+}
+.images{
+    display:flex;
+    justify-content:space-evenly;
+}
+.img1{
+    width:15%;
+}
+.img2{
+    width:15%;
+}
+.img3{
+    width:15%;
+}
+.img4{
+    width:15%;
+}
+.images p{
+    width:20%;
+    
+}
