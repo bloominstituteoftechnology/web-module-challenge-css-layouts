@@ -1,1 +1,186 @@
 /* Add CSS styling here */
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    background-color:#FBFFFB;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#266035;
+    text-decoration: none;
+}
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    color:#266035;
+    text-align:center;
+    margin-bottom:5%;
+}
+h1{
+    color:#FBFFFB;
+    font-size:5rem;
+}
+h2{
+    font-size:3.5rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding:4% 0;
+}
+button{
+    padding:3% 5%;
+    margin-top:5%;
+    color:#fff;
+    background-color:#266035;
+    border:2px solid #266035;
+    font-size:1.6rem;
+    transition:2s;
+}
+button:hover{
+    color:#266035;
+    background-color:#fff;
+}
+/*header section styles*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:999;
+    background-color:rgba(255,255,255,0.8);
+}
+.logo{
+    width:6%;
+    object-fit:scale-down;
+}
+.links{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+
+/*About Section Styles*/
+#about{
+    height:75vh;
+    background-image: url('../images/about-img.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#about div{
+    width:20%;
+    margin-right:10%;
+}
+
+/*Projects Section styles*/
+#projects{
+    padding-bottom:0;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.bg-img, .text{
+    width:50%;
+}
+
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:5%;
+}
+.text div{
+    width:60%;
+}
+.bg-img{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:bottom center;
+}
+.succulants{
+    background-image:url('../images/succulants.jpg');
+}
+
+.pianos{
+    background-image:url('https://picsum.photos/id/1082/367/267');
+}
+
+/*footer section styles */
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#266035;
+}
+footer h2, .bottom{
+    width:100%;
+    color:#fff;
+}
+.bottom{
+    text-align:right;
+    margin-right:5%;
+}
+.left, .right{
+    width:50%;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.right img{
+    width:50%;
+}
+.left div{
+    width:50%;
+    line-height:3;
+}
+footer h3, footer a{
+    color:#fff;
+} 
