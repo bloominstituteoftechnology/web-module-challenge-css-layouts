@@ -1,1 +1,135 @@
-/* Add CSS styling here */
+/* CSS Reset */
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+     border:1px solid grey;
+     background-color:black;
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    background-color:#FBFFFB;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:rgb(255, 145, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color:rgb(255, 145, 0);
+}
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    color:#000000;
+    text-align:center;
+    margin-bottom:5%;
+}
+h1{
+    display: flex;
+    color:rgb(255, 145, 0);
+    font-size:5rem;
+    margin-bottom: 0%;
+    text-align: center;
+    width:100%;
+}
+h2{
+    font-size:3.5rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding:4% 0;
+}
+button{
+    padding:5% 7%;
+    margin-top:5%;
+    margin: 5%;
+    color:rgb(255, 145, 0);;
+    background-color:#020202;
+    /*border:2px solid #266035;*/
+    font-size:1.6rem;
+    transition:1s;
+    border-radius: 20%;
+}
+button:hover{
+    color:#000000;
+    background-color:rgb(255, 145, 0);
+    
+}
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+
+nav {
+    display: flex;
+    align-items: bottom;
+    justify-content: left;
+    margin:0%;
+    padding: 0%;
+    width: 40%;
+    
+    }
+nav:hover{
+    color:rgb(255, 145, 0);;
+    background-color:#020202;
+}
+
+
+
+.drucifer {
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    margin:0%;
+    padding: 0%;
+    overflow: hidden;
+    width: 9.5%;
+    
+  }
+  
+  
+
+
+
+
+canvas {
+    height:600px;
+    width:800px;
+}
