@@ -11,7 +11,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	padding: 0;
 	margin: 0;
 	/* border: 0; */
-	}
+}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
@@ -21,14 +21,40 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
-/* Add CSS styling here */
 html{ 
     font-size: 62.5%;
 }
-body{
-    font-size:1.6rem;
-    line-height: 1.5;
-    font-family: 'Roboto Mono', monospace;
-    color: #4f4f4f;
+    body{
+        font-size:1.6rem;
+        line-height: 1.5;
+        font-family: 'Roboto Mono', monospace;
+        color: #4f4f4f;}
+
+
+header {
+    background-color:grey;
+    padding:20px;
+    margin-bottom:15px;
+}
+footer {
+    background-color:grey;
+    text-align:center;
+    padding: 20px;;
+}
+.first {
+    display:flex;
+    justify-content: center;
+}
+.intro {
+    padding:20px;
+}
+.row {
+    display:flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+.title-of {
+    text-align: center;
+}
+
