@@ -1,1 +1,154 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*Main settings*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+}
+.topbuttons{
+    display: flex;
+    margin-left: 20px;
+    
+
+}
+nav{
+    padding: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(170, 169, 169, 0.8);
+}
+.myprojects{
+    padding: 10px 20px 10px 70px;
+    margin-top: 150px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    font-size: 15px;
+    justify-content:space-evenly;
+    transition: 0.5s;
+    border-radius: 20px 20px 20px 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    background-color: lightskyblue;
+}
+#main{
+    margin-top: 140px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.topimg{
+    height: 40vh;
+    width: 100vw;
+    object-fit:fill;
+}
+#section2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+
+}
+
+.myprojects h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.myprojects button{
+    margin-bottom: 10px;
+}
+.myprojects p{
+    flex-wrap: wrap;
+    padding-right: 20%;
+
+}
+#pictures{
+    border-radius: 40px;
+    width: 100vw;
+    height: 25vh;
+    object-fit:fill;
+    padding: 0px 20px
+
+}
+footer{
+    background-color: rgba(170, 169, 169, 0.8);
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+footer h3{
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+#section3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+
+}
+footer button:hover{
+    color: limegreen;
+    background-color: black;
+    
+}
+footer button{
+    margin: 20px;
+    padding: 20px 50px;
+
+}
+footer button:active{
+    color: black;
+    background-color: lightskyblue;
+    
+}
+footer p:hover{
+    color: orange;
+}
