@@ -34,13 +34,13 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
        line-height:1.5;
        color: black;
    }
-   html{
-       font-size:62.5%;
-   }
+   
 
  .top-photo{
      display: flex;
-     width: 50%;
+     flex-shrink: inherit;
+    justify-self: left;
+     width: 40%;
      height: 100%;
 
  }
@@ -65,9 +65,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
  }
    
    #About{
-       
        display: flex;
-       justify-content: center;
+       justify-content: space-between;
        align-items: center;
        height: 500px;
    }
