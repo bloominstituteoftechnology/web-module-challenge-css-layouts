@@ -1,1 +1,136 @@
-/* Add CSS styling here */
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    /* border: 0; */
+    }
+
+    
+   body{
+       border: 1px solid red;
+       box-sizing: border-box;
+       max-width: 100%;
+       margin:0;
+       padding:0; 
+       font-size: 1.6rem;
+       background-color: whitesmoke;
+       line-height:1.5;
+       color: black;
+   }
+   html{
+       font-size:62.5%;
+   }
+
+ .top-photo{
+     border: solid red;
+     display: flex;
+     width: 50%;
+     height: 100%;
+
+ }
+ .title{
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+     border: solid gold;
+     display:flex;
+     width: 50%;
+     height: 50%;
+   
+ }
+ .cp-box{
+     height: 40%;
+     width: 20%;
+     margin: 1px;
+     outline: 0;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     display:flex;
+ }
+   
+   #About{
+       border: 2px solid green;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 500px;
+   }
+   .top-photo img {
+       height: 100%;
+       width: 100%;
+   }
+.center-photos{
+    outline: 2px solid red;
+    width:100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+ .cp-box img{
+     height: 90%;
+     width: 100%;
+ }
+   
+ h1{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display:flex;
+ }
+ 
+ h2{
+    height: 40%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+     }
+ h3{
+    height: 40%;
+    width: 50%;
+    justify-content: inherit;
+    align-items: flex-end;
+    flex-direction: column;
+    display:flex;
+ }
+ h4{
+    height: 40%;
+    width: 50%;
+    justify-content: inherit;
+    align-items: flex-end;
+    flex-direction: column;
+    display:flex;
+ }
+ .contact{
+    height: 40%;
+    width: 50%;
+    justify-content: inherit;
+    align-items: flex-end;
+    flex-direction: column;
+    display:flex;
+ }
+    
+
+   
+
+
