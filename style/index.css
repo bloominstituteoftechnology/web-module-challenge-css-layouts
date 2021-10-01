@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
     /* border:1px solid grey; */
 }
 
+html {
+    font-size: 62.5%;
+}
+
 
 
 header {
@@ -48,11 +52,22 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin:2%;
+    font-size: large;
+}
+
+.top-section .class1 {
+    margin:10%;
 }
 
 .class1 {
     padding:20px;
     width:50%;
+    font-size: x-large;
+}
+.class1 button {
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .row {
@@ -60,10 +75,14 @@ footer {
     justify-content:space-evenly;
     flex-direction:row;
     padding:20px;
+    
 }
 
 .portfolio-element {
     text-align:center;
+}
+h1 {
+    font-size: 250%;
 }
 
 .button {
@@ -74,7 +93,7 @@ footer {
 }
 
 .button:hover {
-    background-color: red;
+    background-color:black;
     color: white;
     border: white solid 1px;
 }
@@ -86,4 +105,5 @@ footer {
 
 nav {
     margin:2% 0;
+    display:flex;
 }
