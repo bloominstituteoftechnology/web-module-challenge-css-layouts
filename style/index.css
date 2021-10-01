@@ -20,9 +20,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     /* border: 0; */
     }
 
-    
+
    body{
-       border: 1px solid red;
+       background-image: url(https://images.unsplash.com/photo-1501419737817-eadda6b445e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2hpdGUlMjB3YXRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+       background-repeat: no-repeat;
+       background-size: 100%;
        box-sizing: border-box;
        max-width: 100%;
        margin:0;
@@ -37,7 +39,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
    }
 
  .top-photo{
-     border: solid red;
      display: flex;
      width: 50%;
      height: 100%;
@@ -47,7 +48,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
      justify-content: space-around;
      align-items: center;
      flex-direction: column;
-     border: solid gold;
      display:flex;
      width: 50%;
      height: 50%;
@@ -65,7 +65,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
  }
    
    #About{
-       border: 2px solid green;
+       
        display: flex;
        justify-content: center;
        align-items: center;
@@ -76,7 +76,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
        width: 100%;
    }
 .center-photos{
-    outline: 2px solid red;
+    outline: 2px;
     width:100%;
     height: 500px;
     display: flex;
@@ -105,32 +105,36 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     flex-direction: column;
     display:flex;
      }
- h3{
+ 
+ 
+ #contact{
     height: 40%;
     width: 50%;
-    justify-content: inherit;
-    align-items: flex-end;
-    flex-direction: column;
-    display:flex;
- }
- h4{
-    height: 40%;
-    width: 50%;
-    justify-content: inherit;
-    align-items: flex-end;
-    flex-direction: column;
-    display:flex;
- }
- .contact{
-    height: 40%;
-    width: 50%;
-    justify-content: inherit;
-    align-items: flex-end;
-    flex-direction: column;
-    display:flex;
- }
+     }
+
+ .center{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+
+     .footer{
+         flex-direction: column;
+         }
     
-
+.nav-link{
+    border: 2px solid black;
+    padding: 3px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
    
-
+.projects{
+    border: 2px solid black;
+    padding: 3px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
 
