@@ -32,41 +32,41 @@ footer, header, hgroup, menu, nav, section {
 
 
 *{
-    border:1px solid red;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 Html{
-	font-size:62.5%;
+	/* font-size:62.5%; */
 	}
 
 
 body{
-    font-size:1.6rem;
+    /* font-size:1.6rem; */
+    font-size:3rem;
     background-color:#FBFFFB;
-    line-height:1.5;
+    /* line-height:1.5; */
     color:#4f4f4f;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.6rem;
+    /* font-family: 'Source Sans Pro', sans-serif; */
 }
+
 a{
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
     color:#266035;
     text-decoration: none;
 }
 h1, h2, h3{
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     color:#266035;
 }
 h1{
-    color:#0a0c0a;
-    font-size:5rem;
+    /* color:#0a0c0a;
+    font-size:5rem; */
 }
 h2{
-    font-size:3.5rem;
+    /* font-size:3.5rem; */
 }
 h3{
-    font-size:2.5rem;
+    /* font-size:2.5rem; */
 }
 section{
     padding:4% 0;
@@ -82,7 +82,6 @@ padding:2%;
 }
 
 header a{
-    border: 1px solid black;
     padding: 1%;
 }
 
@@ -97,7 +96,6 @@ header h1{
 }
 
 .mainproject, .myname{
-    border:1px solid black;
     width:50%;
     height:50%;
     margin:1.5%;
@@ -105,11 +103,12 @@ header h1{
 
 /* This is my big main picture and idk how to make it fill up its element. I tried making it a background image but then nothing showed up at all. */
 .bigpicture{
+   height:100%;
+   width:100%; 
+   background-size: cover;
 }
 
 img{
-    border: 1px solid black;
-    margin:.75%; 
 }
 
 .intro{
@@ -117,23 +116,47 @@ img{
 }
 
 /* /* This is the bit with the eight boxes. .boxes is all eight boxes, and .box is each individual box. I just need to put some space between them. */
-.boxes{
+.boxes1, .boxes2{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:space-evenly;
+    height:40vh;
+    align-items:center;
+}
+
+.box{
+    width:20%;
+    height: 75%;
+}
+
+.box h3{
+    text-align:center;
+    height:10%;
 }
 
 .box img{
-    border: 1px solid black;
-    margin:.75%;
-    height:20vh;
+    height:90%;
+    width:100%;
+    background-size:cover;
 }
 
+.littlebox
+
 /* I'm not sure why there's white space under my footer, and I can't get the Contact Us bit to go under "like what you see?" */
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
 footer{
     background:lightgray;
-    display:flex;
-    justify-content:center;
-    
+    flex-direction:column;
+    height:5vh;
+    text-align:center;
+}
+.center footer{
 }
