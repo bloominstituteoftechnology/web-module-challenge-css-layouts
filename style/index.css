@@ -44,10 +44,13 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     } 
     /* This is the middle of the page  */
 
-    .MiddleSection{
+    .topsection{
         display: flex;
         width: 100%;
-        padding-left: 20px;
+        padding: 1% 1%;
+        border: 2px solid black;
+        background-color: rgb(148, 129, 129)
+        
     }
     .MainPic img{
         width: 50%;   
@@ -69,28 +72,22 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         width: 50%;
     }
 
-    .MiddlePictures{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        padding-right: 1%;
-    }
     .MiddlePictures div{
         width: 23%;
         margin: 1% 1% 1% 1%;
     }
-    /* .rowpic{
-        width: 25%;
-        padding: 20px;
-    } */
+    .rowpic{
+        width: 19%;
+        padding: 3%;
+    }
     .rowpic img{
         width: 100%;
+        border-radius: 900px;
     }
     #middle{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0%;
+        /* justify-content: center; */
         width: 100%;
     }
     .rowpic p{
@@ -104,6 +101,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         display: flex;
         flex-direction: column;
         background-color: grey;
+        padding: 2%;
+        align-items: center;
     
     }
     h3{
@@ -113,5 +112,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     #contact{
         text-align: center;
     }
-
+    footer button{
+        width: 8%;
+        text-align: center;
+    }
     
