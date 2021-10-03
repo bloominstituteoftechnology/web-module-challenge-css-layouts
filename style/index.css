@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .introduction p {
-  text-align: center;
+  text-align: left;
   padding: 3% 5%;
 }
 
@@ -182,4 +182,74 @@ button {
 button:hover {
   background-color: #006d77;
   color: #e5e5e5;
+}
+
+/* Media Queries 800px */
+@media (max-width: 800px) {
+  /*header */
+  h1 {
+    font-size: 5rem;
+  }
+
+  nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 20%;
+    padding: 2%;
+  }
+
+  /* introduction */
+  .introduction h2 {
+    font-size: 4rem;
+  }
+  .introduction p {
+    font-size: 1.5rem;
+    padding: 3% 15%;
+    text-align: left;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main img {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 3%;
+  }
+
+  /* images */
+  .gallery {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  /* .gallery img {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } */
+  .showcase {
+    border: 1px solid orange;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .showcase img {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
