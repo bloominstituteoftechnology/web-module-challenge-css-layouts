@@ -33,116 +33,52 @@ ol, ul {
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto&display=swap');
 
 * {
+    /* Keeps everything on the page in a box. */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: black;
-
-}
-
-html {
-    font-size: 62.5%;
-    font-family: 'Gemunu Libre', sans-serif;
-}
-
-
-body{
-    font-size:1.6rem;
-    background-color:#172169;
-    line-height:1.5;
-    color:#4f4f4f;
-}
-
-
-header {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 2rem;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    position:fixed;
-    width:100%;
-    top:0;
-    margin-bottom: 2%;
-    padding: 3%;
-    z-index:999;
-    background-color:rgba(41, 45, 69,0.9);
-}
-
-header h2{
-    font-size: 2.5rem;
-}
-
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-    text-decoration: none;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-}
-
-.nav_links li a:hover {
-    color: red;
-}
-
-#holder {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-#name {
-    max-width: 90vw;
-    height: 50vh;
-    background-image:url('/something3.jpeg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width:60%;
-    margin: 50px 20px;
-    font-size: 5rem;
-}
-
-#name h2{
+    /* Sets the default font color to white. */
     color: white;
 }
 
-#name button {
-    background-color: white;
-    font-size: 2rem;
+body {
+        /* Puts the space image as the background */
+        background-image: url('/spaceBackground.png');
+        /* The image is 1920x1080, so I was able to shrink it to my liking. */
+        background-size: 50%;
+        border: 3px solid red;
+
 }
 
-.grid {
-    flex-wrap: wrap;
+nav {
+    /* border: 1px solid greenyellow; */
+    /* Enables flexbox on the nav parent element */
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* Puts space between all of the navbar items and on the edges */
+    justify-content: space-between;
+    padding: 2%;
+    margin-right: 5%;
 }
 
-.images {
+.intro {
+    /* border: 1px solid greenyellow;  */
     text-align: center;
+    margin: 2% 7%;
+
 }
 
-.images img {
-    width: 70%;
-    margin: 5%
+
+.intro p {
+    margin-top: 3%;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    border: 3px solid red;
+    padding: 5%;
+    text-align: center;
     background-color: lightgrey;
-    height: 12vh;
-    align-items: center;
 }
 
-footer button a {
-    text-decoration: none;
+footer a{
+    color: black;
 }
