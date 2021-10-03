@@ -142,26 +142,29 @@ nav a:hover {
 .gallery {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   width: 100%;
 }
 
 .gallery img {
+  margin-bottom: 10%;
   margin-top: 12%;
   width: 90%;
   height: 60vh;
 }
 
 .showcase {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.gallery p {
+.showcase p {
+  margin-left: 3%;
+  width: 30%;
   text-align: center;
-  width: 25%;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* footer */
@@ -228,28 +231,30 @@ button:hover {
   .gallery {
     border: 1px solid red;
     width: 100%;
+    margin-bottom: 2%;
     display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-  }
-  /* .gallery img {
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
-  } */
+  }
+  .gallery img {
+    padding: 0 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
   .showcase {
     border: 1px solid orange;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
-  .showcase img {
-    display: flex;
-    flex-wrap: wrap;
+  .showcase p {
+    border: 1px solid pink;
+    width: 70%;
   }
 }
