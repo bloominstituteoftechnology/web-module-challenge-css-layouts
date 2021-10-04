@@ -88,7 +88,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-.image-button {
+.image-button  {
     background-image: url(assets/desert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,4 +125,47 @@ button:hover {
 button a{
     text-decoration: none;
     color: inherit;
+}
+nav h1{
+    color:black;
+}
+@media(max-width:500px){
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        width:75%;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .portfolio-element {
+        width: 40%;
+        padding: 0;
+        margin: 5% 0;
+    }
+}
+@media(max-width:800px){
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        width:75%;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .portfolio-element {
+        width: 40%;
+        padding: 0;
+        margin: 5% 0;
+    }
 }
