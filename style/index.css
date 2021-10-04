@@ -229,7 +229,7 @@ button:hover {
 
   /* images */
   .gallery {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     margin-bottom: 2%;
     display: flex;
@@ -254,7 +254,21 @@ button:hover {
     flex-wrap: wrap;
   }
   .showcase p {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     width: 70%;
+  }
+}
+
+/* Media Queries at 500px */
+@media (max-width: 500px) {
+  .introduction p {
+    padding: 4.5%;
+  }
+  .showcase {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .showcase p {
+    margin-bottom: 5%;
   }
 }
