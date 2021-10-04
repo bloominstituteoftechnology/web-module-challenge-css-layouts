@@ -192,14 +192,16 @@ footer,section,h2{
 @media only screen and (max-width: 640px){
 
 /*Main Header section with links*/
-
-
+body {
+    position: fixed;
+  }
 header {
     width: 100%;
     display: flex;
     flex-direction: column;
     background: local;
     text-align: center;
+    margin-top: 10%;
 }
 header h1 {
     background: local;
@@ -236,7 +238,10 @@ header,.links{
 
 /*Large image with title and link and hiding paragraph*/
 .About{
-    background-image: url("");
+    width: 50%;
+    background:url(https://images.unsplash.com/photo-1630547097612-1855d796c7f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+    margin-left: 25%;
+    
 }
 
 .left{
@@ -245,6 +250,48 @@ header,.links{
 .About p {
     display: none;
 }
+.right{
+    text-align: center;
+    margin-left: 20%;
+}
+.right nav {
+    margin-left: 26%;
+}
 
 
+/*This will be the 6 image section*/
+
+.container4{
+    display: none;
+}
+.container8{
+    display: none;
+}
+.images1{
+    display: flex;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 18%;
+}
+/* footer section*/
+footer h2{
+    display: none;
+}
+footer a {
+    width:45%;
+    margin-left:21%;
+}
 }
