@@ -143,3 +143,40 @@ footer{
   .fa:hover {
     opacity: 0.7;
   }
+
+  /* Media Queries */
+  /* Nav */
+  @media (max-width: 500px){
+    nav{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .links a{
+        width: 100%;
+    }
+    /* Top Section */
+    .container{
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container div .h1top{
+        font-size: 2.5rem;
+    }
+  }
