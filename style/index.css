@@ -36,6 +36,7 @@ footer{
 
 .portfolio-element{
     text-align: center;
+    padding:1%;
 }
 
 button{
@@ -119,4 +120,11 @@ button a{
         margin:3% auto;
     }
 
+}
+
+
+@media(max-width:800px){
+    .topsection img{
+        max-width: 50%;
+    }
 }
