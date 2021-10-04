@@ -39,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
 }
 /* General Styles */
 html{
-    font: size 62.5%;
+    font-size: 62.5%;
 }
 body {
 	font-size: 1.6rem;
@@ -161,7 +161,7 @@ footer{
     }
     .links a{
         width: 100%;
-        font-size: 50%;
+        font-size: 2rem;
         height: 5vh;
         display: flex;
         align-items: center;
@@ -224,7 +224,7 @@ footer{
     }
     .links a{
         width: 100%;
-        font-size: 75%;
+        font-size: 2.5rem;
         height: 5vh;
         display: flex;
         align-items: center;
@@ -258,9 +258,13 @@ footer{
         width: 49%;
     }
     .project h3{
-        font-size: 1rem;
+        font-size: 2.5rem;
     }
         /* Footer */
+        footer{
+            display: flex;
+            align-items: center;
+        }
         .fa{
             width: 6vh;
         }
