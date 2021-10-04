@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 html{ 
     font-size: 62.5%;
@@ -46,9 +46,12 @@ footer {
 .first {
     display:flex;
     justify-content: center;
+    text-align: center;
 }
 .intro {
-    padding:20px;
+    width: 50%;
+    text-align: center;
+    padding: 25px;px;
 }
 .row {
     display:flex;
@@ -76,7 +79,12 @@ button a {
 }
     
 @media(max-width: 800px){
-
+.row div{
+    width:20%;
+}
+.first img{
+    width: 40%;
+}
 }
 @media(max-width: 500px){
 header{
@@ -99,9 +107,10 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .first div{
-    width: 90%;
+    width: 85%;
 
 }
 .row{
@@ -112,6 +121,5 @@ button{
 .row div{
     width:40%;
     margin:2% 0;
-
 }
 }
