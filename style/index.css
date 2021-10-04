@@ -43,42 +43,147 @@ ol, ul {
 
 body {
         /* Puts the space image as the background */
-        background-image: url('/spaceBackground.png');
+        background-image: url('/spaceBackground_2.png');
         /* The image is 1920x1080, so I was able to shrink it to my liking. */
-        background-size: 50%;
-        border: 3px solid red;
-
+        background-size: 30%;
 }
 
 nav {
-    /* border: 1px solid greenyellow; */
     /* Enables flexbox on the nav parent element */
     display: flex;
     /* Puts space between all of the navbar items and on the edges */
-    justify-content: space-between;
-    padding: 2%;
-    margin-right: 5%;
+    justify-content: space-around;
+    /* Adds padding to the vertically by 2% and none horizontally. */
+    padding: 2% 0;
+    /* Adds padding to the right side by 25%. */
+    padding-right: 25%;
+        /* Adds padding to the left by 20%, because the centering was off. */
+    padding-left: 20%;
+
+}
+/* Changes the home link in the nav to a coral orange like color. */
+nav .home{
+    color: #f07d02;
+}
+
+nav a {
+    /* Removes the underline from links in the navbar. */
+    text-decoration: none;
+    /* Adds a transition effect that eases from one color to the other in one second. */
+    transition: 1s ease;
+}
+
+.home:hover {
+    /* When hovering over the home link it turns white using the transition property. */
+    color: white;
+}
+
+nav a:hover {
+    /* Hovering over other links activates that transition effect and turns the links orange. */
+    color: #f07d02;
 }
 
 .intro {
-    /* border: 1px solid greenyellow;  */
+    /* Puts the text in the introduction in the middle of the page. */
     text-align: center;
-    margin: 2% 7%;
-
+    /* Pushes the introduction vertically by 2% and horizontally by 10%. */
+    padding: 2% 10%;
 }
 
+.intro h2 {
+    /* Changes the introduction header font size to 36 pixels. */
+    font-size: 36px;
+}
 
 .intro p {
+    /* Pushes the lorem ipsum paragraph away from the intro header.  */
     margin-top: 3%;
+    color: #00b303;
+    /* Makes the words wrap instead of pushing the to the edge of the container. */
+    overflow-wrap: normal;
+    font-size: 20px;
 }
 
 footer {
-    border: 3px solid red;
-    padding: 5%;
+    /* Adds 2% of padding in all sides/direction. */
+    padding: 2%;
     text-align: center;
+    /* Changes the footer's background the light grey. */
     background-color: lightgrey;
 }
 
 footer a{
+    /* Changes the contact me button text to black. */
     color: black;
+    text-decoration: none;
+}
+
+.image {
+    padding: 3% 0.5%;
+}
+
+.image img {
+    /* Changes the width of the image to be 100% of the container it is in. */
+    width: 100%;
+}
+
+button {
+    padding: .3%;
+    /* Basically darkens the border of the contact button. */
+    border: 2px solid black;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.text {
+    font-size: 20px;
+}
+
+@media(max-width:500px) {
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 3% 0;
+    }
+
+    .intro p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom img {
+        width: 40vw;
+        padding: 1.5%;
+    }
+
+    .text {
+        padding-top: 5%;
+    }
+
+    footer {
+        padding: 7% 0;
+    }
 }
