@@ -118,6 +118,7 @@ button a{
         text-align:center !important; 
         display:flex;
         justify-content: center;
+        align-items:center;
         flex-direction:column;
         width:100%;
         border:5px solid blue;
