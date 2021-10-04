@@ -1,1 +1,133 @@
 /* Add CSS styling here */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+    width: 100%;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.topleft {
+    height: 15vh;
+    width: 25%;
+    background-image: url(../imgs/spaceprofile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    letter-spacing: .3rem;
+    color: whitesmoke;
+    display: flex;
+    vertical-align: bottom;
+    justify-content: center;
+    text-align: start;
+}
+
+.navtop {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../imgs/namibia-g9474b1fc9_1920.jpg);
+}
+
+.navtop a {
+    font-size: 1.5rem;
+    padding: 1% 3%;
+    border: 4px solid rgb(154, 97, 245);
+    text-decoration: none;
+    margin: 1%;
+    border-radius: 15px;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    background-image: radial-gradient( rgb(48, 108, 238) -15%, yellow 70%);
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    border-bottom: 12px solid blue;
+    border-image: linear-gradient(45deg, yellow, blue) 3;
+}
+
+.home1 {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../imgs/alien-gd0d9056aa_1920.jpg);
+    vertical-align: bottom;
+}
+
+h1 {
+    font-size: 4rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+}
+
+.home1 a {
+    padding: 5%;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 15px 15px 30px whitesmoke, -15px -15px 30px whitesmoke, -15px 15px 30px whitesmoke, 15px -15px 30px whitesmoke;
+    width: 30%;
+    margin: 3% 3%;
+    text-decoration: none;
+    font-size: 1.7rem;
+    letter-spacing: .3rem;
+    font-weight: bolder;
+    vertical-align: bottom;
+}
+
+.things div {
+    display: flex;
+    width: 25%;
+    height: 50vh;
+    border: 5px solid black;
+    flex-direction: row;
+    margin: 5% 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.things {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/sea-g4d815c009_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dessert {
+    background-image: url(../imgs/namibia-g9474b1fc9_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: salmon;
+}
+
+footer div {
+    width: 30%;
+    border: 5px solid black;
+    height: 20vh;
+    margin: 1%;
+}
