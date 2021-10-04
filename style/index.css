@@ -80,11 +80,18 @@ header {
     display: flex;
     flex-direction: row;
    margin: 9% auto;
+   width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
 
 nav {
-    margin-top: 2%;;
+    
     display: flex;
     flex-direction: column;
    
@@ -153,7 +160,7 @@ padding: 5%;
 
 .box {
     
-    width: %;
+    
     border: 15px solid rgb(107, 170, 170);
     padding: 2%;
     margin: 5%;
@@ -217,9 +224,16 @@ a.button{
    
 
 }
+.info {
+    flex-direction: column;
+}
 
 .box {
     width: 38%;
 }
+}
 
-
+@media(max-width:800px){
+    .box {
+        width: 15%;
+    }
