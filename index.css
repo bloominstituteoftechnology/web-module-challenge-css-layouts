@@ -29,17 +29,16 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-	border: 1px solid grey;
 }
 html {
     font-size:62.5%;
 }
 body{
     font-size:1.6rem;
-    background-color:#819281;
+    background-color: #fff;
     line-height:1.5;
-    color:#c44141;
-	font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+	font-family: 'Times New Roman', Times, serif;
 }
 a{
 	font-family: Arial, Helvetica, sans-serif;
@@ -47,15 +46,7 @@ a{
 	text-decoration: transparent;
 }
 a:hover{
-	color: yellow;
-}
-button{
-	padding: 2% 4%;
-    margin-top: 2%;
-    color: white;
-    background-color: #266035;
-    border: 1px solid black;
-    font-size: 1.6 rem;
+	color: green;
 }
 section{
 	padding: 4% 0;
@@ -69,21 +60,23 @@ h2{
 h3{
 	font-size: 2rem;
 }
-section{
-	padding: 4% 0;
-}
+
 /*header*/
+#header{
+	background-color: #797676;
+}
+nav.top-header{
+		display: flex;
+		flex-direction: column;
+		height: 80%;
+		z-index: 40%;
+}
 h1{
 	font-size: 6rem;
 	display: flex;
 	flex-direction: column;
 	font-weight: 1;
 	font-family: Arial, Helvetica, sans-serif;
-}
-nav.top-header{
-	display: flex;
-	flex-direction: column;
-	background-color: #dddddd;
 }
 ul{
 	display: flex;
@@ -92,7 +85,6 @@ ul{
 	margin: 0;
 	padding: 0;
 	margin-left: 3%;
-
 }
 li {
 	float: left;
@@ -135,10 +127,10 @@ div.about-me h2{
 	padding-bottom: 0;
 }
 button{
-	padding-top: 4%;
 	display: flex;
-	align-items: flex-start;
-	font-size: 20px;
+	justify-content: left;
+	align-items: center;
+	padding: 0 2%; 
 }
 div p{
 	padding-top: 2%;
@@ -147,7 +139,6 @@ div p{
 	text-align: left;
 	flex-flow: wrap;
 }
-
 #projects {
 	display: flex;
 	flex-direction: row;
@@ -158,7 +149,6 @@ div p{
     padding: 5%;
 	font-size: 20px;
 }
-
 .text{
     display: flex;
     justify-content: space-evenly;
@@ -183,12 +173,21 @@ footer{
 }
 footer.closing{
 	text-align: center;
+	padding: -5%;
+}
+div.closer{
+	padding: 2% 0;
 }
 div.bottom {
 	display:flex;
 	justify-content: center;
+	padding: 2% 0;
 }
-
 div.bottom button:hover{
 	background-color: #dddddd;
 }
+ /*media styles */
+
+ @media(max-width: 500px){
+	 
+ }
