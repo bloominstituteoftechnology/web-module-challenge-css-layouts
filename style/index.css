@@ -80,7 +80,7 @@ html {
 nav {
     display: flex;
     flex-direction: column;
-    font-size: 45px;
+    height:40vh;
     margin-left: 2%;
     margin-top: 8%;
    
@@ -105,7 +105,7 @@ h2 {
     margin-right: 5%;
     padding: 22px;
     align-items: center;
-    font-size: 1.5rem;   
+    font-size: 1rem;   
 }
 
 
@@ -182,8 +182,21 @@ a.button{
     background-color: whitesmoke;
 }
 
-/* Media Query */
+/* Media Query Style */
+@media(max-width:500px){
+nav.main {
+    flex-direction: column;
+    justify-content: center;
+}
+.links{
+    width:100%;
 
-@media(max-width:500px) {
-    
-}CSS styling here */
+}
+
+#top{
+    margin-top:40%;
+}
+
+
+}
+
