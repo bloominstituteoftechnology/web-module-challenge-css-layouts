@@ -143,6 +143,61 @@ button {
     font-size: 20px;
 }
 
+@media(max-width:800px) {
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2%;
+    }
+
+    nav a {
+        padding: 3% 0;
+    }
+
+    .intro p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom img {
+        width: 40vw;
+        padding: 1.5%;
+    }
+
+    .text {
+        font-size: 24px;
+        padding-top: 5%;
+    }
+
+    footer {
+        padding: 7% 0;
+    }
+
+    button {
+        padding: 3%;
+    }
+
+    button a {
+        font-size: 18px;
+    }
+}
+
 @media(max-width:500px) {
 
     nav {
