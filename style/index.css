@@ -21,6 +21,10 @@ footer{
     justify-content: center;
 }
 
+.topsection img{
+    max-width: 50%;
+}
+
 .description{
     padding:20px;
     width:50%;
@@ -64,8 +68,7 @@ button a{
 
 
 @media(max-width: 500px){
-    .container{
-    }
+ 
 
     header{
         background-color: white;
@@ -86,6 +89,11 @@ button a{
     nav{
         display:flex;
         flex-direction:column;
+    }
+
+    nav button{
+        width:32%; ??????
+        align-items:;
     }
     
     .topsection{
@@ -122,9 +130,6 @@ button a{
 
 }
 
-
 @media(max-width:800px){
-    .topsection img{
-        max-width: 50%;
-    }
+/* I couldn't find anything to change here. */
 }
