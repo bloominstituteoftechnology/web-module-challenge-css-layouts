@@ -28,7 +28,6 @@ body {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 
 /*top*/
@@ -98,4 +97,17 @@ footer button{
 .pressme{
     display: flex;
     justify-content: center;
+}
+
+/*Media*/
+@media(max-width:500px){
+    body{
+        background-color: azure;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .photos, .introPic {
+        width:100%;
+    }
+
 }
