@@ -148,6 +148,7 @@ footer{
   /* Nav */
   @media (max-width: 500px){
     nav{
+        width: 100%;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
@@ -156,9 +157,15 @@ footer{
     .links{
         display: flex;
         flex-direction: column;
+        width: 25%;
     }
     .links a{
         width: 100%;
+        font-size: 50%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     /* Top Section */
     .container{
@@ -178,5 +185,23 @@ footer{
     }
     .container div .h1top{
         font-size: 2.5rem;
+    }
+    .gallery{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .project{
+        width: 49%;
+    }
+    .project h3{
+        font-size: 1rem;
+    }
+    .fa{
+        width: 5vh;
+    }
+    .fa-facebook{
+        display: flex;
+        order: -1;
+        justify-content: center;
     }
   }
