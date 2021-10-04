@@ -184,3 +184,67 @@ footer,section,h2{
     animation: gradient 15s ease infinite;
 
 }
+
+
+                        /*Media Queries Section*/
+
+
+@media only screen and (max-width: 640px){
+
+/*Main Header section with links*/
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: local;
+    text-align: center;
+}
+header h1 {
+    background: local;
+}
+header,.links{
+    display: flex;
+    align-items: center;
+}
+.links,div {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+.links,div,a {
+    width: 61%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:5%;
+    border-radius: 0%;
+}
+.one {
+    border-radius:0%;
+}
+.two{
+    border-radius: 0%;
+}
+.three {
+    border-radius: 0%;
+}
+.four {
+    border-radius: 0%;
+}
+
+/*Large image with title and link and hiding paragraph*/
+.About{
+    background-image: url("");
+}
+
+.left{
+    display: none;
+}
+.About p {
+    display: none;
+}
+
+
+}
