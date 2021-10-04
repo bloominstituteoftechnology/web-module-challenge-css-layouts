@@ -253,3 +253,20 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .links {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .alignment img {
+    object-position: right;
+  }
+}
