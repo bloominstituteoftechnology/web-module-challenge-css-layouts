@@ -68,132 +68,61 @@ body{
 h1{
     font-size: 5rem;
     color: whitesmoke;
-    font-family:'Roboto',sans-serif;
-}
+    }
 h2{
     font-size: 3.5rem;
-    font-family:'Roboto',sans-serif;
-}
+    }
 h3{
     font-size: 2.5rem;
 }
 section{
     padding:4% 0;
 }
-a.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.15em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    text-align:center;
-    transition: all 0.2s;
-    }
-
-a.button1:hover{
-    color:#000000;
-    background-color:#FFFFFF;
-    }
-    @media all and (max-width:30em){
-a.button1{
-    display:block;
-    margin:0.4em auto;
-     }
-    }
 /*Nav Section*/
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-a.button2{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.15em solid #000000;
-    margin:0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#000000;
-    text-align:center;
-    transition: all 0.5s;
-    }
-
-a.button2:hover{
-    color:#FFFFFF;
-    background-color:#000000;
-    }
-    @media all and (max-width:30em){
-a.button2{
-      display:block;
-      margin:0.4em auto;
-     }
-    }
-/*CTA Section*/
-#cta{
-    height: 50vh;
-    background-image:url(assets/desert.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 11%;
-    margin-right: 11%;
-}
-/*sixpack*/
-.container{
-    height: 50vh;
+.topsection {
     display: flex;
-    flex-wrap:wrap;
+    justify-content: center;
 }
-#salsa{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/salsa.jpg);
+.image-button {
+    background-image: url(assets/desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size:large;
+    width: 600px;
+    height: 400px;
 }
-#books{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/books.jpg);
+footer {
+        background-color: lightgrey;    
+        padding:20px;
+        text-align: center;     
 }
-#road{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/road.jpg);
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
 }
-#stairs{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/stairs.jpg);
+.portfolio-element {
+    text-align: center;
 }
-#cactus{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/cactus.jpg);
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
 }
-#pizza{
-    height: 10vh;
-    width: 20%;
-    background-image:url(/assets/pizza.jpg);
+button:hover {
+    background-color: black;
+    color:white;
+    border: white solid 1px;
 }
-
-footer{
-        display:flex;
-        align-items: center;
-        height: 30vh;
-        margin:5px;
-        padding:5px;
-        
+button a{
+    text-decoration: none;
+    color: inherit;
 }
