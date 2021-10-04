@@ -127,3 +127,24 @@ button{
     border-radius: 95%;
     margin: 0 auto;
 }
+
+@media(max-width:500px){
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr, 0.4fr, 2.2fr, 1.2fr, 1.2fr 1fr;
+    
+.topnav{
+    flex-direction: column;
+    justify-content: center;
+}
+.top img{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.challenge{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+}
+/*need guided help will return*/
