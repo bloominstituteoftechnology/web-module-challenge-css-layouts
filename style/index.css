@@ -62,6 +62,7 @@ table {
  }
 nav {
     margin-bottom: 5%;
+    display: flex;
 }
 nav a {
     font-size: 1.5rem;
@@ -70,7 +71,8 @@ nav a {
     background-color: black;
     color:white;
     margin: 2% .5%;
-    display: inline-block;
+    flex-direction: row;
+    display:inline-block;
 
 }
 
@@ -92,6 +94,7 @@ nav a {
 
 .intro-content {
     margin:7%;
+    
 }
 .intro-content button {
     padding:2% 4%;
@@ -146,4 +149,30 @@ nav a {
     margin-top:4%;
     text-decoration: none;
     display: inline-block;
+}
+
+/*****Media Quarie*****/
+
+@media(max-width: 800px) {
+    nav {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .top-section {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }.intro-content {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .portfolio-content .port-images {
+        width: 50%;
+    }
+
+
 }
