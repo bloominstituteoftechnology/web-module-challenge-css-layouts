@@ -1,5 +1,3 @@
-/* Add CSS styling here */
-
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -82,7 +80,7 @@ h1 {
     color: whitesmoke;
     box-shadow: 15px 15px 30px whitesmoke, -15px -15px 30px whitesmoke, -15px 15px 30px whitesmoke, 15px -15px 30px whitesmoke;
     width: 30%;
-    margin: 3% 3%;
+    margin-top: 9%;
     text-decoration: none;
     font-size: 1.7rem;
     letter-spacing: .3rem;
@@ -93,7 +91,7 @@ h1 {
 .things div {
     display: flex;
     width: 25%;
-    height: 50vh;
+    height: 51vh;
     border: 5px solid black;
     flex-direction: row;
     margin: 5% 2%;
@@ -130,4 +128,74 @@ footer div {
     border: 5px solid black;
     height: 20vh;
     margin: 1%;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        display: flex;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    h3 {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0%;
+        position: relative;
+    }
+    .topleft {
+        background-image: url(../imgs/alien-gd0d9056aa_1920.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .topright {
+        width: 100%;
+    }
+    .navtop a {
+        width: 24%;
+        font-size: .7rem;
+    }
+    .home1 {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    .home1 a {
+        font-size: 1.5rem;
+        width: 40%;
+        margin-top: 9%;
+    }
+    .navtop {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+    }
+    .things div {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .navtop a {
+        width: 20%;
+        font-size: 1.5rem;
+        justify-content: space-evenly;
+    }
 }
