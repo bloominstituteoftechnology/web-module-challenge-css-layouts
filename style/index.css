@@ -18,6 +18,14 @@ footer{
     text-align:center;
     padding: 3%;
 }
+.nav{
+    background-color:blanchedalmond;
+    color:#4f4f4f;
+}
+.button{
+    background-color:blanchedalmond;
+    color:#4f4f4f;
+}
 .topsection{
     display:flex;
     flex-direction:row;
