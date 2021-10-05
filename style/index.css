@@ -77,10 +77,10 @@ nav{
     .row div{
         width:20%;
     }
-    .top-section img{
+    .parentOne img{
         width:60%;
     }
-    .class1{
+    .boxTwo{
         text-align: center;
     }
 }
@@ -101,16 +101,16 @@ nav{
         width:40%;
         margin:1% 0;
     }
-    .top-section{
+    .parentOne{
         display:flex;
         flex-direction:column;
         align-items:center;
     }
-    .class1{
+    .boxTwo{
         text-align:center;
     }
     
-    .top-section div{
+    .parentOne div{
         width:90%;
     }
     .row{
