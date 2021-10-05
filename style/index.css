@@ -1,156 +1,125 @@
-/* Add CSS styling here */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding:0;
     margin:0;
     max-width:100%;
-    /* border: 1px solid grey; */
-    
+    /* border:1px solid grey; */
 }
 html{
     font-size: 62.5%;
 }
-body{
-    background-color: #FFCDB2;
-}
 header{
-    /* border: 1px solid grey; */
-    background-color: #B5838D;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
 }
-.links{
-    width: 24vw;
-    display: flex;
-    flex-flow: row nowrap;
-    /* border: 1px solid grey; */
-    flex-direction: row;
-}
-.links a{
-    font-size: 2rem;
-    /* border: 1px solid grey; */
-    border-radius: 15%;
-    background-color: #E5989B;
-    padding: 1%;
-}
-.links a:hover{
-    background-color: #6D6875;
-    color: #E5989B;
-}
-a{
-    text-decoration: none;
-    color:black;
-}
-nav .links{
-    padding:1% 0;
-    font-size:1.6rem;
-    margin-left: 3%;
-    display:inline-block;
-}
-nav .headerName{
-    padding:1% 0;
-    text-decoration: none;
-    font-size:3rem;
-    margin-left: 2%;
-}
-.row{
-    display: flex;
-    flex-flow: row wrap;
-    padding: 2%;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 1%;
-    /* border: 1px solid grey; */
-    flex-direction: row;
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+    margin:5%;
+    font-size: 10px;
 }
 .parentOne{
     display: flex;
-    justify-content: space-evenly;
-    padding: 1%;
-    margin: 1%;
-    /* border: 1px solid grey; */
     flex-direction: row;
+    justify-content: center;
+    margin:2%;
+    font-size: 10px;
 }
-.parentOne img{
-    width: 35vw;
+.parentOne .boxTwo{
+    margin:10%;
 }
-.boxTwo h2{
-    /* border: 1px solid grey; */
-    font-size: 3rem;
-    padding-bottom: 4%;
+
+.boxTwo{
+    padding:20px;
+    width:50%;
+    font-size: 17px;
 }
-.boxTwo a{
-    font-size: 2rem;
-    padding: 2%;
-    border-radius: 15%;
-    background-color: #E5989B;
-}
-.boxTwo a:hover{
-    background-color: #6D6875;
-    color: #E5989B;
-}
-.boxTwo p{
-    padding-top: 4%;
-    font-size: 2rem;
+.boxTwo button{
+    margin-top:5%;
+    margin-bottom:5%;
 }
 .row{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding:20px;
+    
 }
-.row .randomImage p{
-    text-align: center;
-    font-size: 2rem;
-    background-color: #E5989B;
-    border-radius: 45%;
+.randomImage{
+    text-align:center;
 }
-.row .randomImage img{
-    border-radius: 10%;
-    background-color: #E5989B;
+h1 {
+    font-size: 250%;
 }
-footer{
-    /* border: 1px solid grey; */
-    text-align: center;
-    padding: 2%;
-    background-color: #B5838D;
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
 }
-footer .bottom p{
-    font-size: 2.3rem;
-    padding-bottom: 2%;
-    background-color: #B5838D;
+button:hover{
+    background-color:black;
+    color: white;
+    border: white solid 1px;
+    padding: 5px 10px;
 }
-footer .bottom a{
-    font-size: 2rem;
-    /* border: 1px solid grey; */
-    border-radius: 15%;
-    background-color: #E5989B;
-    padding: 1%;
+button a{
+    text-decoration: none;
+    color: inherit;
 }
-footer .bottom a:hover{
-    background-color: #6D6875;
-    color: #E5989B;
+nav{
+    margin:2% 0;
+    display:flex;
 }
-footer nav{
-    background-color: #B5838D;
+@media(max-width:800px){
+    .row div{
+        width:20%;
+    }
+    .top-section img{
+        width:60%;
+    }
+    .class1{
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    header{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        width:100%;
+    }
+    button{
+        width:40%;
+        margin:1% 0;
+    }
+    .top-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .class1{
+        text-align:center;
+    }
+    
+    .top-section div{
+        width:90%;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+    .row div{
+        width:40%;
+        margin:4% 0;
+    }
 }
