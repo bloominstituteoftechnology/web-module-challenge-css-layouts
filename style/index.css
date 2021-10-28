@@ -1,4 +1,9 @@
-/* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,53 +17,133 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box; 
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    article, aside, details, figcaption, figure, 
-    footer, header, hgroup, menu, nav, section {
-        display: block;
+    margin: 0;
+    max-width: 100%;
+    background-color: lightgoldenrodyellow;
     }
-    body {
-        line-height: 1;
+html {
+    font-size: 62.5%;
     }
-    ol, ul {
-        list-style: none;
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
     }
-    blockquote, q {
-        quotes: none;
+header {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30%;
+    background-image: url(../assets/cloudheader.jpg);
     }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content: '';
-        content: none;
-    }
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-    }
+.Name {
+    text-align: center;
+    font-size: 8rem;
+    background-color: rgba(255, 0, 0, 0.0);
+    color: black;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: darkgray;
+}
+nav {
+    display: flex;
+    align-content: stretch;
 
-    *{
-        box-sizing: border-box; 
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-        border: 1px solid grey;
-        background-color: blue;
+}
+nav a {
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+nav a:hover{
+    color: blanchedalmond;
+    background-color: black;
+}
+.mainbody {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    margin: 5%
+}
+.rightcontent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 5%;
+    padding: 3%;
+}
+.rightname {
+    font-size: 5rem;
+}
+.projectbutton a {
+    padding: 10%;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 3rem;
+    width: 20%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding: 4%;
+}
+.portfolio div {
+    width: 20%;
+    margin: 2% 1%;
+    outline: 1px solid black;
+}
+.portfolio div img {
+    width: 100%;
+}
+.portfolio div p {
+    text-align: center;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 30%;
+    background-image: url(../assets/cloudheader.jpg);
     }
-    html {
-        font-size: 62.5%;
-    }
-    body {
-        font-size: 1.8rem;
-        line-height: 1.5;
-
-    }
-    header {
-        display: flex;
-        width: 100%;
-        height: 100px;
-    }
+footer h3 {
+    text-align: center;
+    font-size: 6rem;
+    background-color: rgba(255, 0, 0, 0.0);
+    color: black;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: darkgray;
+}
+footer a {
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
