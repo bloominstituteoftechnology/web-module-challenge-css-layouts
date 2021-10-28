@@ -10,6 +10,31 @@ span,
 applet,
 object,
 iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
 h1,
 h2,
 h3,
@@ -26,26 +51,6 @@ address,
 big,
 cite,
 code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
 dl,
 dt,
 dd,
@@ -55,175 +60,135 @@ li,
 fieldset,
 form,
 label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  font: inherit;
+legend {
   vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 1px;
+}
+
+/*General Styles*/
+
+html {
+  font-size: 62.5%;
 }
 body {
-  font-family: "Lato", sans-serif;
-  margin: 0px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  font-family: "Roboto Mono", monospace;
 }
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-/* Nav styles */
-.nav-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 38px;
-}
-
-.left-side {
-  display: flex;
-}
-
-.nav-wrapper > .left-side > div {
-  margin-right: 20px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
-.nav-link-wrapper {
-  height: 22px;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.5s;
-}
-.nav-link-wrapper a {
-  color: #8a8a8a;
+a {
+  font-family: "Roboto Mono", monospace;
   text-decoration: none;
-  transition: color 0.5s;
+}
+h1 {
+  font-size: 5rem;
+  font-family: "Chelsea Market", cursive;
+  line-height: 15rem;
+}
+section {
+  padding: 4% 0;
 }
 
-.nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+/*Header Section Styles*/
+
+nav {
+  padding: 2% 0;
 }
 
-.nav-link-wrapper a:hover {
-  color: black;
-}
-
-.active-nav-link {
-  border-bottom: 1px solid black;
-}
-
-.active-nav-link a {
-  color: black !important;
-}
-
-/* Portfolio styles */
-
-.portfolio-items-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.portfolio-item-wrapper {
-  position: relative;
-}
-
-.portfolio-img-background {
-  height: 350px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
-  position: absolute;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+nav a {
+  display: inline-block;
+  padding: 1% 0;
+  width: 10%;
+  border-radius: 10px;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  color: white;
+}
+.orange {
+  background-color: #ff764e;
+  margin: 10%;
 }
 
-.logo-wrapper img {
+.blue {
+  background-color: #5ed3eb;
+  margin: 10%;
+}
+
+.yellow {
+  background-color: #ffcd69;
+  margin: 10%;
+}
+
+.red {
+  background-color: #e74949;
+  margin: 10%;
+}
+
+.left,
+.right {
+  display: inline-block;
+  text-align: center;
+}
+.left {
+  width: 30%;
+}
+.left img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.right {
   width: 50%;
-  margin-bottom: 20px;
+  margin-left: 5%;
+  position: absolute;
+  top: 80%;
 }
 
-/* Needs to be more specific with selector */
-.img-text-wrapper .subtitle {
-  transition: 1s;
-  font-weight: 600;
-  color: transparent;
+.mid {
+  margin: auto;
+  width: 90%;
+  background-color: #ddb9a3;
+  padding: 2%;
+  text-align: center;
 }
 
-.img-text-wrapper:hover .subtitle {
-  font-weight: 600;
-  color: lightseagreen;
+.fire img {
+  width: 10%;
+  align-items: center;
+  margin: 0 45%;
 }
 
-.img-darken {
-  transition: 1s;
-  filter: brightness(10%);
+.camping img {
+  width: 10%;
+  margin: 0 45%;
 }
-/* About page */
-.two-column-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.profile-image-wrapper img {
-  width: 100%;
+.fire p {
+  width: 15%;
+  margin: auto;
 }
 
-.profile-content-wrapper {
-  padding: 30px;
+.camping p {
+  width: 15%;
+  margin: auto;
 }
 
-.profile-content-wrapper h1 {
-  color: lightseagreen;
+footer {
+  background-color: #f0a779;
 }
