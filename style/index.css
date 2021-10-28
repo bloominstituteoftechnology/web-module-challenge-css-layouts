@@ -1,154 +1,211 @@
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
 /*Remember to define focus styles!*/
 :focus {
-	outline: 0;
-	}
+  outline: 0;
+}
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 100%;
-    /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
 }
 
 /*General Styles*/
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    background: #1B1B1B;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.6rem;
-    line-height: 1.5;
-    font-family: 'Roboto Mono', monospace;
+body {
+  background: #1b1b1b;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
 }
-.container{
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 2% 0;
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 2% 0;
 }
-section{
-    padding: 2% 4%;
+section {
+  padding: 2% 4%;
 }
 
 /*Text Styles*/
-a{
-    text-decoration:none;
-    transition: 0.2s;
-    color: rgba(255, 255, 255, 0.6);
+a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.6);
 }
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
-h1{
-    font-size:5rem;
-    margin-bottom: 2%;
-    color: white;
+h1 {
+  font-size: 5rem;
+  margin-bottom: 2%;
+  color: white;
 }
-h2{
-    font-size: 4rem;
-    margin-bottom: 2%;
-    color: white;
+h2 {
+  font-size: 4rem;
+  margin-bottom: 2%;
+  color: white;
 }
-h3{
-    font-size: 2.5rem;
-    margin-bottom: 2%;
-    color: white;    
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+  color: white;
 }
-p{
-    margin-bottom: 2%;
+p {
+  margin-bottom: 2%;
 }
 
 /*Button Styles*/
-button{
-    background-color: white;
-    padding: 8px 24px;
-    border-radius: 4px;
-    border: none;
-    font-family: 'Roboto Mono', monospace;
-    text-transform: uppercase;
-    text-align: center;
-    transition: 0.2s;
-    cursor: pointer;
+button {
+  background-color: #444;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.24);
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
 }
-button:hover{
-    background-color: #4966F2;
-    color: white;
+button:hover {
+  background-color: #2e2e2e;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.48);
 }
 
 /*Hero Section*/
-header{
-    background-color: black;
-    padding: 4%;
+header {
+  background-color: black;
+  padding: 4%;
 }
-header a{
-    text-transform: uppercase;
+header a {
+  text-transform: uppercase;
+  margin-right: 2%;
 }
-nav{
-    padding-top: 2%;
+nav {
+  padding-top: 2%;
 }
 
 /*About Section*/
-#about{
-    display:flex;
-    justify-content: space-between;
+#about {
+  display: flex;
+  justify-content: space-between;
 }
-#about div{
-    width: 48%;
+#about div {
+  width: 48%;
 }
-#about .avatar{
-    display: flex;
-    justify-content: center;
+#about .avatar {
+  display: flex;
+  justify-content: center;
 }
-#about img{
-    border-radius: 50%;
-    max-width: 300px;
+#about img {
+  border-radius: 8px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
 }
-.bio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /*Project Section*/
-#projects{
-    display: flex;
-    flex-wrap: wrap;
+#projects {
+  display: flex;
+  flex-wrap: wrap;
 }
-#projects div{
-    width: 25%;
-    padding: 1% 1%;
+#projects div {
+  width: 25%;
+  padding: 1% 1%;
 }
-#projects img{
-     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
-     border-radius: 4px;
+#projects img {
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
 }
-.project{
-    border-radius: 8px;
-    transition: 0.2s;
-    cursor: pointer;
+.project {
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
 }
-.project:hover{
-    background-color: rgba(255, 255, 255, 0.04);
+.project:hover {
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 /*Footer Section*/
-footer{
-    background: black;
-    text-align: center;
-    padding: 2%;
+footer {
+  background: black;
+  text-align: center;
+  padding: 2%;
 }
