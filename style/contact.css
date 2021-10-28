@@ -125,6 +125,9 @@ nav a {
 .contactInfo {
     display: flex;
     justify-content: center;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    background-color: lightyellow;
 }
 .contactInfo div {
     padding:5%
