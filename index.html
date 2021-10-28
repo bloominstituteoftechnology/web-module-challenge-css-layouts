@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page Title</title>
+        <link href="http://fonts.googleapis.com/css?family=Lato' rel='stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
-    
+    <div class="container">
+       <div class="nav-wrapper">
+           <div class="left-side">
+               <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+               </div>
+
+               <div class="nav-link-wrapper">
+                   <a href="about.html">About</a>
+                </div>
+                 >
+            </div>
+
+           <div class="right-side">
+               <div class="brand">
+                   <div> CARLOS SOLANO</div>
+               </div>
+           </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg");></div>                 
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            HTML Projects
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg");></div>               
+                    <div class="img-text-wrapper">                       
+                        <div class="subtitle">
+                            Python Projects
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg");></div>              
+                    <div class="img-text-wrapper">                       
+                        <div class="subtitle">
+                            C++ Projects
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg");></div>  
+                    <div class="img-text-wrapper">  
+                        <div class="subtitle">
+                            Java Script Projects
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio5.jpg");></div>   
+                    <div class="img-text-wrapper">    
+                        <div class="subtitle">
+                            CSS Projects
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio-item-wrapper"> 
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio6.jpg");></div>   
+                    <div class="img-text-wrapper">  
+                        <div class="subtitle">
+                            Java Projects
+                        </div>
+                    </div>
+                </div> 
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+        </div> 
+    </div>   
 </body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover',() => { 
+            portfolioItem.childNodes[1].classList.add('img-darken');  
+        })
+
+        portfolioItem.addEventListener('mouseout',() => { 
+            portfolioItem.childNodes[1].classList.remove('img-darken');  
+        })
+    })    
+</script>
 </html>
+ 
