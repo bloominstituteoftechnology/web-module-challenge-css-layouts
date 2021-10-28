@@ -126,6 +126,16 @@ nav{
     /* border: 2px solid #6d6875; */
     padding: 2em 4em;
     border-radius: 10px;
+    
+}
+.project-child h2{
+    margin-bottom: .4em;
+}
+.project-child img{
+    margin-bottom: .7em;
+}
+.project-child p {
+    margin-bottom: 1em;
 }
 img{
     border-radius: 10px;
@@ -167,7 +177,7 @@ footer{
 }
 @media only screen and (max-width: 1200px){
     .projects{
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .project-child{
         width: 40vw;
@@ -181,7 +191,7 @@ footer{
 @media only screen and (max-width: 800px){
     .projects{
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .project-child{
         width: 80%;
@@ -196,6 +206,15 @@ footer{
     }
 }
 
+.button{
+    transition-duration: 500ms;
+    transition-property: background, transform ;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button:hover{
+    background: #e5989b;
+    transform: scale(1.125, 1.125);
+}
 
 
 
