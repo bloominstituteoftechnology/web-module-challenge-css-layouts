@@ -90,12 +90,43 @@ a{
 	justify-content: space-evenly;
 	flex-direction: row;
 	width:100%;
-	font-size: 2rem;
+	font-size: 1.5rem;
+}
+.body1 img{
+	padding-top:2.5%;
+}
+.info{
+	justify-content: center;
+	line-height: 1.5;
+	padding-top: 2.5%;
+}
+.info h2{
+	font-size:2rem;
 }
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	width:100%;
+	padding-top:5%;
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom: 5%;
+}
+.gallery h2{
+	font-size: 1.5rem;
+	justify-content: center;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+	background-color: grey;
+}
+.contact{
+	max-width: 25%;
+	margin:auto;
+	padding: 3%;
+	line-height: 1.5;
 }
