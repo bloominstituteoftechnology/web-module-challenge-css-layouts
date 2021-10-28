@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /*border:1px solid grey;*/
 }
 
 html{
@@ -73,29 +73,41 @@ h2{
 }
 
 #about{
-    margin-left:10%;
-    margin-right: 10%;
+    margin-left:17%;
+    margin-right: 15%;
     text-align: center;
     font-size: 1rem;
+    margin-bottom:3%;
 }
 
 #main{
-    display:flex; 
-    justify-content:center;
-}
-
-.gallery{
-    display:flex; 
-    justify-content: space-between;
+    background-image:url(https://picsum.photos/id/237/200/300);
+    background-size:cover; 
+    background-position:center bottom;
+    height:300px;
     margin-left:1%;
-    height:550px;
-    width: 150px;
+    margin-right:1%;
+    /*display:flex; 
+    justify-content:center;*/
+    margin-bottom:3%;
 }
 
-.right{
+gallery{
     display:flex; 
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    
 }
 
+
+info{
+   display:flex; 
+   align-items:center;
+}
+
+#contact{
+    text-align:center;
+    border:2px solid #266035;
+    color:#266035;
+    background-color:grey;
+}
 
