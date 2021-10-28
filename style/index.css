@@ -1,1 +1,255 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+   
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
+}
+h1{
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+section{
+    padding:4% 0;
+}
+
+/* header */
+
+header{
+    background-color: whitesmoke;
+    padding: 3%;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav__links{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    list-style: none;
+
+}
+
+.nav__links li{
+    border: 1px solid black;
+}
+
+.nav__links a{
+    width: 10%;
+    text-align: center;
+    background-color: white;
+    color: #4f4f4f;
+}
+
+.nav__links a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+/* navigation ends  */
+
+/* row one begins  */
+
+.row__one{
+    display: flex;
+    padding: 3%;
+    
+}
+
+.row__one img{
+    width: 27%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 8%;
+}
+
+.intro p{
+    width: 75%;
+}
+
+.intro b{
+    border: 1px solid black;
+    width: 17%;
+    text-align: center;
+}
+
+.intro b:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+/* row one end */
+
+
+
+/* row two begins  */
+
+.row__two{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% ;
+
+}
+
+.row__two img{
+    width: 85%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container img{
+    order: -1;
+    
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container:hover{
+    opacity: .9;
+    transition: .4s;
+}
+
+
+/* row two ends  */
+
+
+
+
+/* row three  */
+
+
+
+
+.row__three{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.row__three img{
+    width: 85%;
+}
+
+
+
+/* row three ends  */
+
+/* footer begins  */
+
+footer{
+    background-color: whitesmoke;
+    height: 15vh;
+    
+}
+
+.foot__text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.clickme{
+    width: 10%;
+}
+
+/* footer ends  */
+
+/* media queries  */
+
+
+@media screen and (max-width: 767px) {
+    .nav__links{
+    	display:none;
+    }
+    .hamburger{
+    	display: contents;
+        text-align: center;
+        
+    }
+    .row__one{
+    	display: flex;
+    	flex-direction: column;
+    	text-align:center;
+    	width: 100%
+    }
+    .row__one img{
+    	text-align:center;
+    	width:75%;
+    	margin: auto;
+    	margin-bottom: 4%;
+    }
+    .intro{
+    	margin:auto;
+    	width: 100%;
+    	text-align: center;
+    }
+    .intro p{
+    	margin:auto;
+    }
+    .intro b{
+    	margin:auto;
+    	margin-bottom: 4%;
+    	width: 30%;
+    }
+    .intro h2{
+    	margin-bottom: 2%
+    }
+
+
