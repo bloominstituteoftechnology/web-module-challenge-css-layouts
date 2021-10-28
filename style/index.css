@@ -1,1 +1,134 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    font-family: 'Ubuntu', sans-serif;
+    /* border:1px solid grey;  */
+}
+
+/*General Styles*/
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    background-color:#FBFFFB;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    color:black;
+    font-size:6rem;
+} 
+a{
+    display:flex;
+    flex-direction:space-between;
+    text-decoration: none;
+    color:black;
+    font-size:1.8rem;
+    padding:.5% 1%;
+    margin-top:auto;
+    /* border-radius: 1rem; */
+    border:1px solid black;
+}
+button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.8rem;
+    padding:.5% 1%;
+    margin-top:4%;
+    border-radius: 1rem;
+}
+
+/*Header Style*/
+
+.title{
+    font-size: 3rem;
+    margin:1%;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    top:0;
+    z-index: 999; /*everything should scroll behind this*/
+}
+
+/*Body Styles*/
+
+img{
+    width: 600px;
+    height: auto;
+    padding:1rem;
+}
+.face-img{
+    display:flex;
+    flex-direction:left;
+}
+
+
+.about{
+    display:flex;
+    flex-direction: column;
+    width:10%;
+    margin: 10rem;
+    text-align:left;
+}
+.section1b{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin:10rem;
+    width:40%;
+}
+.lil_about h2{
+    font-size: 5rem;
+}
+.pj_button{
+    width:40rem;
+}
+.links{
+    width:13.3%;
+    display:flex;
+    justify-content:left;
+    text-align: center;
+    margin:2%;
+
+
+}
+#projects{
+    width:25%;
+    height:50px;
+  }
+#projects{
+    display:flex;
+    flex-direction:row;
+}
