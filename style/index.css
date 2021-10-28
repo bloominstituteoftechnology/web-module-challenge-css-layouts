@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
     /* border:1px solid grey;  */
+    border: 1px solid red;
 }
 .bg-img{
     background-repeat: no-repeat;
@@ -73,12 +74,52 @@ header{
 }
 /* section gallery */
 #gallery{
-    margin: 25%;
-    width: ;
+    display: flex;
+    align-content: space-between;
+    max-width: 100%;
+    margin:auto;
+    padding: 10rem;
+
+}
+.info{
+    display: flex;
+    margin: 0 10%;
+    margin-left: 60%;
+    height: 90%;
+    text-align: center;
+    justify-content: flex-end;
+    flex-direction: column
+    
+    
 }
 #gallery.bg-img{
 background-image: url('https://picsum.photos/800');
 background-size:60vh;
 background-size: center;
 background-position: left;
+display: flex;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.container .bg-img{
+width: 25%;
+padding: 10rem;
+margin-top: 4rem;
+justify-content: space-around;
+background-image: url('https://picsum.photos/800');
+}
+.container .button{
+justify-items: center;
+text-align: center;
+}
+footer{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
