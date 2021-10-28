@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
   padding: 0%;
   margin: 0%;
   max-width: 100%;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(146, 144, 144);
 }
 html{
   font-size: 62.5%;
@@ -38,7 +38,7 @@ body{
   line-height: 1.5;
   font-family: 'Source Serif Pro', serif;
   color: #4f4f4f;
-  background-color: #FBFFFB;
+  background-color: #a3a7a3;
 }
 h1{
   color: slategray;
@@ -58,7 +58,7 @@ header{
 }
 a{
   text-decoration: none;
-  color: darkblue;
+  color: rgb(59, 59, 134);
   font-family: 'Poppins', monospace;
 }
 button{
