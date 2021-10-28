@@ -1,1 +1,84 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey;  */
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-image:url('https://picsum.photos/1024');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.name{
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 4.0rem;
+    align-content: flex-start;
+    color: black;
+} 
+.index nav a{
+    border: 1px;
+    padding: 5px;
+    border-radius: 10%;
+    color: black;
+    background-color: blanchedalmond;
+}
+/* section gallery */
+#gallery{
+    margin: 25%;
+    width: ;
+}
+#gallery.bg-img{
+background-image: url('https://picsum.photos/800');
+background-size:60vh;
+background-size: center;
+background-position: left;
+}
