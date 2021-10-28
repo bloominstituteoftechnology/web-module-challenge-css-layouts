@@ -30,10 +30,76 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+:focus {
+	outline: 0;
+	}
+
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header div{
+    display: inline-block;
+    margin: 2rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.top{
+    display: flex;
+    margin: 2% 15% 2% 15%;
+    padding-top:3%;
+    padding-bottom:3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mystuff{
+    display:flex;
+    flex-flow: column;
+    align-content: center;
+    margin: 15%;
+}
+
+.mid{
+    display: flex;
+    flex-flow: row-wrap;
+
+}
+
+.mid div{
+    display: flex;
+    flex-flow: wrap;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 1%;
+     
+}
+
+.caption {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    padding: 3%;
+    margin-top: 1%;
 }
