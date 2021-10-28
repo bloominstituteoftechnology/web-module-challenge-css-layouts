@@ -1,1 +1,182 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    border: 1px solid black;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+header{
+    background: gray;
+}
+header h1{
+    font-size: 6rem;
+    text-align: left;
+    padding-left: 1%
+}
+
+header nav{
+    display: flex;
+}
+
+header nav a{
+    padding: 1% 4%;
+    border:darkgrey 2px solid;
+    border-radius: 7%;
+}
+.introduction{
+    display: flex;
+    height: 40vh;
+}
+
+.introduction div{
+    width: 50%;
+}
+
+.introduction .left{
+    background-image: url('https://picsum.photos/400/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: balck;
+    margin:1%;
+}
+
+.introduction .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction .right *{
+    margin: 5% 0;
+}
+
+.introduction .right h1{
+    margin-bottom: 0;
+    font-size: 8rem;
+}
+
+.introduction .right button{
+    width: 20%;
+    padding: 2% 0;
+    margin: 0;
+}
+/* .introduction .right *{
+    text-align: center;
+    margin: 5% o;
+}
+.introduction .left{
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.introduction button{
+    margin-left: 47.5%;
+}
+
+.introduction{
+    
+}
+.container{
+    display: flex;
+}
+.container div{
+    width: 50%;
+} */
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .project{
+    display: flex;
+    width: 20%;
+    margin: 2%;
+    min-height: 35vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project:hover{
+    box-shadow: grey -5px 10px;
+} */
+
+.project{
+    /* display:flex; */
+
+    width: 20%;
+    margin: 2%;
+    height: 35vh;
+    text-align: center;
+}
+.bg-img{
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:30vh;
+}
+.project a{
+    margin-top: 50%;
+}
+footer h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%
+}
+
+footer{
+    text-align: center;
+    background: grey;
+}
+
+footer button{
+    margin-bottom: 2%;
+    width: 5%;
+    padding: 1% 0;
+}
+
+
