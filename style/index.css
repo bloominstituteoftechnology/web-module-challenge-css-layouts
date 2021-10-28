@@ -38,3 +38,18 @@ footer, header, hgroup, menu, nav, section {
     border:1px solid grey; 
 }
 
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.8rem;
+    line-height:1.5; 
+    color:#4F4F4F; 
+    background-color: #FBFFFB; 
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+h1{
+    color: white; 
+}
