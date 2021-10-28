@@ -125,6 +125,11 @@ h3 {
 p {
   margin-bottom: 2%;
 }
+.meta {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
 
 /*Button Styles*/
 button {
