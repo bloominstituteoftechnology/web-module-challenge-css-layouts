@@ -209,11 +209,28 @@ footer{
 .button{
     transition-duration: 500ms;
     transition-property: background, transform ;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-timing-function:cubic-bezier(0,-0.39,.26,1.66);
 }
 .button:hover{
     background: #e5989b;
     transform: scale(1.125, 1.125);
+}
+.footButton{
+    transition-duration: 500ms;
+    transition-property: background, transform ;
+    transition-timing-function:cubic-bezier(0,-0.39,.26,1.66);
+}
+.footButton:hover{
+    background: #e5989b;
+    transform: scale(1.125, 1.125);
+}
+img{
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function:cubic-bezier(0,-0.39,.26,1.66);
+}
+img:hover{
+    transform: scale(1.125);
 }
 
 
