@@ -46,10 +46,33 @@ body{
     font-size:1.8rem;
     line-height:1.5; 
     color:#4F4F4F; 
-    background-color: #FBFFFB; 
+    background-color:white; 
     font-family: 'Source Sans Pro', sans-serif; 
 }
 
 h1{
-    color: white; 
+    color:#4F4F4F;
+    font-size:3rem; 
+    font-family: 'Oxygen', sans-serif; 
+    display: flex; 
+    justify-content: center;
+}
+
+.links{
+    display:flex; 
+    justify-content: center; 
+}
+
+
+h2{
+    color:blue;
+    display: flex; 
+    justify-content: center;
+
+}
+
+#about{
+    margin-left:10%;
+    margin-right: 10%;
+    text-align: center;
 }
