@@ -1,1 +1,179 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/ 
+    background-color: lavender;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:2rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    background-color:#FBFFFB;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    padding: 5%;
+    color: #a83e32 ;
+    font-size: 6rem ;
+    font-family: Oxygen ;
+    text-align: center;
+}
+
+h2{
+    color:#49cead;
+  font-size: 3rem; 
+}
+
+h3{
+    color:#4f4f4f;
+    font-size: 2.2rem;
+}
+
+h2, h3 {
+    text-align:center;
+    font-family: 'Rubik';
+}
+
+
+.button{
+    background-color: rgb(84, 170, 57);
+    font-family: 'Rubik';
+    font-size:1.8rem;
+    padding:2% 4%;
+    margin:5%;
+    border-radius: 20%;
+}   
+/*helper classes*/
+.projPic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    /*header section styles*/
+nav {
+        display:flex;
+        justify-content: center;
+        width:100%;
+        top:0;
+        text-align: center;
+    }
+
+#top{
+    background-position: bottom;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+/*about section styles */
+
+#about{
+        padding: 10%;
+        height:65vh;
+        background-color: coral;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+/*project section styles*/
+
+#projects{
+    padding-bottom:0;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+
+.proj1{
+    background-image:url('../images/proj1_img.jpeg');
+    width:200px;
+    height: 200px;
+}
+
+.proj2 {
+    background-image:url('../images/proj2_img.jpeg');
+    width:200px;
+    height: 200px;
+}
+
+.proj3{
+    background-image:url('../images/proj3_img.jpeg');
+    width:200px;
+    height: 200px;
+}
+
+.proj4{
+    background-image:url('../images/proj4_img.jpeg');
+    width:200px;
+    height: 200px;
+}
+
+.text{
+    width: 300px;
+    padding:5%;
+    text-align:center;
+}
+
+.container2{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: center;
+    }
+
+.text1{
+    margin: 5%;
+    width: 200px;
+    text-align: center;
+}
+
+/*footer*/
+footer a {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
