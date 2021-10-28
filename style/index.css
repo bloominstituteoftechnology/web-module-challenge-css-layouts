@@ -30,8 +30,7 @@ footer, header, hgroup, menu, nav, section {
     margin: 0;
     max-width: 100%;
 
-
-
+    border: solid 1px black;
 }
 h1{
     font-size: 30px;
@@ -79,6 +78,8 @@ button:active{
 #main{
     margin-top: 140px;
     margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
 }
 .topimg{
@@ -88,10 +89,20 @@ button:active{
 }
 #section2{
     text-align: center;
-    display: flex;
+    display:flex;
     justify-content: center;
     padding: 0px 40px;
     margin-bottom: 40px;
+
+}
+.toprow{
+    display: flex;
+    flex-direction:row;
+
+}
+.botrow{
+    display: flex;
+    flex-direction:row;
 
 }
 
@@ -108,11 +119,11 @@ button:active{
 
 }
 #pictures{
-    border-radius: 40px;
+    border-radius: 20px;
     width: 100vw;
     height: 25vh;
-    object-fit:fill;
-    padding: 0px 20px
+    object-fit:cover;
+    padding: 0px 10px
 
 }
 footer{
@@ -151,4 +162,45 @@ footer button:active{
 }
 footer p:hover{
     color: orange;
+}
+
+@media (max-width: 500px){
+    .headnav, .topbuttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main{
+        margin-top: 205px;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+    .myprojects{
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        
+        
+    }
+    .toprow{
+        flex-wrap: wrap;
+
+    }
+    .toprow div{
+        width: 50%;
+    }
+    .botrow{
+        flex-wrap: wrap;
+    }
+    .botrow div{
+        width: 50%;
+    }
 }
