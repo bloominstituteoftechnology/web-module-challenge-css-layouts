@@ -82,6 +82,7 @@ button{
     text-transform: uppercase;
     text-align: center;
     transition: 0.2s;
+    cursor: pointer;
 }
 button:hover{
     background-color: #4966F2;
@@ -134,7 +135,16 @@ nav{
 }
 #projects img{
      box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
-}   
+     border-radius: 4px;
+}
+.project{
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.project:hover{
+    background-color: rgba(255, 255, 255, 0.04);
+}
 
 /*Footer Section*/
 footer{
