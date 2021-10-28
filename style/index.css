@@ -44,6 +44,8 @@ body {
     line-height: 1.5;
     }
 header {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     display: flex;
     width: 100%;
     height: 45vh;
@@ -78,10 +80,12 @@ nav a:hover{
 }
 .mainbody {
     display: flex;
-    height: 100vh;
+    height: 120vh;
+    align-items: space-around;
     overflow: hidden;
-    margin: 5%
+    padding: 5%
 }
+
 .rightcontent {
     display: flex;
     justify-content: space-evenly;
@@ -104,6 +108,15 @@ nav a:hover{
     background-color: black;
     color: white;
 }
+.portfoliotitle {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 2%;
+    font-size: 6rem;
+    padding: 0px;
+    line-height: 1;
+}
 .portfolio {
     display: flex;
     flex-flow: row wrap;
@@ -123,6 +136,8 @@ nav a:hover{
     text-align: center;
 }
 footer {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     display: flex;
     width: 100%;
     height: 45vh;
