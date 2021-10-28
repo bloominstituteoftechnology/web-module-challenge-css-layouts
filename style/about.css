@@ -1,0 +1,161 @@
+/* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey;  */
+}
+
+html {
+    font-size: 62.5;
+    font-family: 'Roboto Slab', serif;
+}
+section{
+    padding:4% 0;
+}
+a {
+    text-decoration: none;
+    Color:black;
+}
+a:hover{
+    color:rgba(86, 92, 36);
+    background-color: #fff;
+    border-radius: 35%;
+}
+header{
+    display: flex;
+    width:100%;
+    font-size: 2rem;
+    justify-content: right;
+    margin-top: 2%;;
+
+}
+body {
+    background-color: lightgray;
+}
+header p {
+    width:100%;
+    padding-left: 3%;
+}
+nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    position: fixed;
+    width: 40%;
+    top:0;
+    z-index: 999;
+    background-color: rgba(86, 92, 36, 0.8);
+}
+nav a {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 2%
+}
+.top{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 80%;
+    margin: 0 10%;
+    align-items: center
+}
+.titlePic {
+    background-image: url(https://images.unsplash.com/photo-1490503793528-4c730cc7fcb9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2VuZXJpYyUyMGd1eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) ;
+    height: 60vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 25%;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom: 0;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.title {
+    justify-content: center;
+    color: rgb(111, 119, 42);
+    font-size: 3.5rem;
+    justify-content: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.title h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.mid div {
+    width:20%;
+    /* justify-content: space-between; */
+    /* padding: 5%; */
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mid div img{
+    width: 100%;
+    border-radius: 15%;
+}
+.mid div h2{
+    text-align: center;
+}
+.bio {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+}
+.bio h2 {
+    font-size: 3rem;
+}
+.bio {
+    background-color: lightyellow;
+}
