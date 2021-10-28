@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid black;
+    border:1px solid grey;
 }
 
 html {
@@ -44,11 +44,34 @@ body{
     font-size:1.5rem;
     line-height:2;
     color:#4f4f4f;
-    background-color:red;
+    background-color: white;
 }
 
-.project1 {
-    background-image:url(https://picsum.photos/200);
+h1{
+    color:#FBFFFB;
+    font-size:6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+h2{
+    font-size:3rem;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+section, footer{
+    padding:6% 0;
+}
+
+button{
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.8rem;
+    padding:2% 4%;
+    margin-top:4%;
 }
 
 .container{
@@ -56,6 +79,61 @@ body{
     flex-wrap:wrap;
 }
 
-.project1 {
-    width:50%;
+nav{
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index: 999; /*everything should scroll behind this*/
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.links :hover{
+    color:#fff;
+    background-color:#266035;
+    border:2px solid #fff;
+}
+
+#home{
+    height:60vh;
+    background-image: url('..//Wireframe Options/IMG_4344.jpeg');
+    background-position: bottom;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:4%;
+}
+
+#home button{
+    border:2px solid black;
+    color:white;
+    background-color:black;
+    transition:1s;
+}
+
+#home button:hover{
+    color:black;
+    background-color: #fff;
+    border:1px solid #fff;
+}
+
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+}
+
+
+.img1, .img2, .img3, .img4 ,.img5, .img6 {
+    width:30%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+    overflow:hidden;
 }
