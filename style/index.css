@@ -103,11 +103,12 @@ nav{
     flex-direction: column;
     /* border: 1px solid blue; */
     justify-content: center;
+    width: 50%;
 }
 
 .projects-container{
     display: flex;
-    padding-top: 6em;
+    padding-top: 4em;
     /* border: 1px solid red; */
 }
 .projects{
@@ -118,9 +119,16 @@ nav{
     /* justify-content: space-between; */
     gap: 5rem;
     text-align: center;
+    /* padding: 2em 0; */
 }
 .project-child{
     width: 25%;
+    /* border: 2px solid #6d6875; */
+    padding: 2em 4em;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
 }
 footer{
     padding: 8rem 2rem;
@@ -130,11 +138,16 @@ footer{
 }
 .footButton{
     /* margin-top: 20rem; */
-    border: 2px solid black;
+    border: 2px solid rgb(199, 186, 186);
     border-radius: 5px;
     padding: 2rem 4rem;
     background-color: #b5838d;
     color: #f5e2d8;
+}
+.projects-title{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 3.4rem;
 }
 
 
