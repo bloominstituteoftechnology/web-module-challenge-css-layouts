@@ -33,7 +33,6 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 
 html {
@@ -43,7 +42,7 @@ html {
 body{
     font-size:1.5rem;
     line-height:2;
-    color:#4f4f4f;
+    color:black;
     background-color: white;
 }
 
@@ -54,8 +53,15 @@ h1{
 }
 h2{
     font-size:3rem;
+    color:black;
 }
 
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+    font-weight: bold;
+}
 
 a{
     text-decoration: none;
@@ -63,9 +69,6 @@ a{
     font-family: 'Roboto Mono', monospace;
 }
 
-section, footer{
-    padding:6% 0;
-}
 
 button{
     font-family: 'Roboto Mono', monospace;
@@ -77,11 +80,16 @@ button{
 .container{
     display:flex;
     flex-wrap:wrap;
+    margin:4% 0;  
+    align-items:center;
+    text-align:center;
+    justify-content: center;
 }
 
 nav{
     display:flex;
     justify-content: space-between;
+    align-items:center;
     position:fixed;
     width:100%;
     top:0;
@@ -89,10 +97,11 @@ nav{
     background-color:rgba(255, 255, 255, 0.8);
 }
 
+
 .links :hover{
     color:#fff;
-    background-color:#266035;
-    border:2px solid #fff;
+    background-color:black;
+    border:2px solid black;
 }
 
 #home{
@@ -101,21 +110,21 @@ nav{
     background-position: bottom;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     text-align:center;
     margin:4%;
 }
 
-#home button{
+#home .links{
     border:2px solid black;
     color:white;
     background-color:black;
     transition:1s;
 }
 
-#home button:hover{
-    color:black;
-    background-color: #fff;
+#home .links:hover{
+    color:#fff;
+    background-color:black;
     border:1px solid #fff;
 }
 
@@ -126,7 +135,6 @@ nav{
     max-height: 500px;
 }
 
-
 .img1, .img2, .img3, .img4 ,.img5, .img6 {
     width:30%;
     display:flex;
@@ -134,6 +142,17 @@ nav{
     justify-content:space-evenly;
     align-items:center;
     text-align:center;
-    font-family: 'Roboto Mono', monospace;
-    overflow:hidden;
+    margin:1%;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color:lightgray;
+    height: 100%;
+    padding: 24px;
+}
+
+#contact button {
+    width:100%;
 }
