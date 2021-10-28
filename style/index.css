@@ -74,6 +74,11 @@ nav{
     justify-content: center;
     align-items: center;
 }
-#top div{
-    align-items: center;
+.bg-img .title{
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+}
+.bg-img button{
+    display: inline;
 }
