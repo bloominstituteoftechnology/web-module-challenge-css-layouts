@@ -133,7 +133,21 @@ ul {
     border:0.3vh solid black;
 }
 /* Section 2 End */
+footer {
+    display:flex;
+    justify-content: center;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:3vh;
+}
+form h2 {
+    font-family: 'Varela Round', sans-serif;
+}
 
-
+/* Finished */
 
 
