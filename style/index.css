@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     box-sizing: border-box;
     padding: 0;
     max-width: 100%;
-    border: 1px solid grey; 
+    /* border: 1px solid grey; */ 
 }   
 html{
     font-size: 62.5%;
@@ -54,7 +54,7 @@ h1 {
     font-size: 4rem;
     font-weight: bold;
     font-style: oblique;
-    padding-left: 8%;
+    padding-left: 9%;
     
 }
 .links{
@@ -123,5 +123,29 @@ nav{
 #projects .bg-img{
     height: 40vh;
     width: 40vh;
-    background-image: url('https://picsum.photos');
+    background-image: url('https://picsum.photos/200/300');
+}
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+.bottom{
+    padding: 2% 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 4rem;
+}
+
+#contact button {
+    border-radius: 10px;
+    padding: 1%;
+    color:#266035;
+    background-color: pink;
+    font-size: 2rem;
+    font-weight: bold;
 }
