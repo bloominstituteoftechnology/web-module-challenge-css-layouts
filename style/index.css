@@ -37,21 +37,47 @@ ul {
 .navBar {
     display:flex;
     flex-direction: column;
-    padding:2%;
+    padding:1%;
 }
 .navBar h1 {
-    background-color:olivedrab;
     display: inline-block;
     margin-bottom:1vh;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5vh;
+}
+.navBar h1:hover {
+    border-bottom: 0.3vh solid black;
+    transition: 300ms;
 }
 .navBar ul {
     display: inline-block;
-    background-color: moccasin;
 }
 .navBar li {
+    font-family: 'Fredoka One', cursive;
     display: inline-block;
     padding:2vh 2vh 2vh 2vh;
-    border:0.3vh solid red;
+    border:0.3vh solid black;
     border-radius: 0.5vh;
 }
+.navBar li:hover {
+    background-color: white;
+    transition: 600ms;
+}
+/* Nav bar complete */
 
+
+.section1 {
+    padding:1vh;
+    display:flex;
+}
+
+.section1box2 {
+    background-color: springgreen;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1box2 div {
+    max-width: 80%;
+}
