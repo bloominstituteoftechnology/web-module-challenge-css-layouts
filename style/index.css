@@ -131,18 +131,34 @@ img{
     border-radius: 10px;
 }
 footer{
-    padding: 8rem 2rem;
+    padding: 8rem 6rem;
     margin-top: 6em;
     text-align: center;
     background-color: #6d6875;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
 }
 .footButton{
     /* margin-top: 20rem; */
+    width: 20em;
+    margin: 0 auto;
+    margin-bottom: 4em;
     border: 2px solid rgb(199, 186, 186);
     border-radius: 5px;
     padding: 2rem 4rem;
     background-color: #b5838d;
     color: #f5e2d8;
+}
+.footer-icons{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.footer-icons a{
+    width: 4%;
+    display: flex;
 }
 .projects-title{
     text-align: center;
