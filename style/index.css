@@ -26,6 +26,7 @@ body {
     max-height:100%;
     background-color: aquamarine;
     margin: 1vh;
+    border-radius: 1vh;
 }
 a {
     text-decoration: none;
@@ -61,18 +62,19 @@ ul {
 }
 .navBar li:hover {
     background-color: white;
-    transition: 600ms;
+    transition: 300ms;
 }
 /* Nav bar complete */
-
-
 .section1 {
     padding:1vh;
     display:flex;
+    overflow: hidden;
+    background-color: peachpuff;
 }
-
+.section1box1 img {
+    border-radius: 1vh;
+}
 .section1box2 {
-    background-color: springgreen;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -80,4 +82,58 @@ ul {
 }
 .section1box2 div {
     max-width: 80%;
+    border:0.3vh solid black;
+    border-radius: 1vh;;
 }
+.section1box2 div p{
+    padding:1vh;
+}
+.section1box2 h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5vh;
+}
+.section1box2 button {
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    padding:2vh 2vh 2vh 2vh;
+    border:0.3vh solid black;
+    border-radius: 0.5vh;
+}
+.section1box2 button:hover {
+    background-color:black;
+    color:white;
+    transition:300ms;
+}
+/* Section 1 End */
+
+.section2 {
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+}
+.section2box1, .section2box2 {
+    margin:3vh;
+    display:flex;
+    justify-content: space-around;
+}
+.section2box1 div, .section2box2 div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 img {
+    border-radius: 1vh;
+}
+.section2 label {
+    font-family: 'Varela Round', sans-serif;
+}
+.section2 img:hover {
+    transition:300ms;
+    border:0.3vh solid black;
+}
+/* Section 2 End */
+
+
+
+
