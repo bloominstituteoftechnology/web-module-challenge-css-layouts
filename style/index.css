@@ -29,3 +29,51 @@ footer, header, hgroup, menu, nav, section {
     max-width: 100%;
     border: 1px solid grey;
 }
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: black;
+    background-color: blanchedalmond;
+}
+h1, h2{
+    color: #000;
+}
+h2{
+    font-size: 3rem;
+}
+h1{
+    font-size: 6.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    display: flex;
+    margin-left: 4%;
+}
+.links{
+    margin-left: 50%;
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#top{
+    height: 60vh;
+    background-image: url('../style/Elder_Scrolls_Online_Concept_Art_Craglorn_01.jpg');
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top div{
+    align-items: center;
+}
