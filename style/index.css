@@ -65,7 +65,8 @@ h1{
 
 
 h2{
-    color:blue;
+    color:#4F4F4F;
+    font-size:3rem;
     display: flex; 
     justify-content: center;
 
@@ -75,4 +76,26 @@ h2{
     margin-left:10%;
     margin-right: 10%;
     text-align: center;
+    font-size: 1rem;
 }
+
+#main{
+    display:flex; 
+    justify-content:center;
+}
+
+.gallery{
+    display:flex; 
+    justify-content: space-between;
+    margin-left:1%;
+    height:550px;
+    width: 150px;
+}
+
+.right{
+    display:flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
