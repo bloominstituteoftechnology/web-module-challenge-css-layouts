@@ -52,7 +52,7 @@ a {
 a:hover{
     color:rgba(86, 92, 36);
     background-color: #fff;
-    border-radius: 15%;
+    border-radius: 35%;
 }
 header{
     display: flex;
@@ -107,7 +107,6 @@ nav a {
     width:100%;
     margin-bottom: 0;
     border-radius: 50%;
-    border: 10px solid black;
 }
 .title {
     justify-content: center;
@@ -141,7 +140,6 @@ nav a {
 .mid div img{
     width: 100%;
     border-radius: 15%;
-    border: 5px solid black;
 }
 .mid div h2{
     text-align: center;
@@ -156,10 +154,7 @@ footer a {
     padding: 1%;
     background-color: lightskyblue;
     border-radius: 25%;
-    border: 2px solid black;
 }
 footer {
-    border-top: 8px solid black;
-    /* border-top-style: double solid; */
     background-color: rgba(86, 92, 36, 0.8);
 }
