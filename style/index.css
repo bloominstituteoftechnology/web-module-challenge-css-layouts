@@ -59,6 +59,7 @@ h2{
     border-radius: 5px;
     background-color: #6d6875;
     color: #f5e2d8;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -81,9 +82,61 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
-.main{
+
+.main-container{
     margin-top: 4em;
+    height: 60vh;
+    /* border: 1px solid red; */
+    background-color: #e5989b;
+    color: #4e4b52;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* align-items: center; */
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    justify-content: center;
+}
+
+.projects-container{
+    display: flex;
+    padding-top: 6em;
+    /* border: 1px solid red; */
+}
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow:row wrap;
+    /* justify-content: space-between; */
+    gap: 5rem;
+    text-align: center;
+}
+.project-child{
+    width: 25%;
+}
+footer{
+    padding: 8rem 2rem;
+    margin-top: 6em;
+    text-align: center;
+    background-color: #6d6875;
+}
+.footButton{
+    /* margin-top: 20rem; */
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem 4rem;
+    background-color: #b5838d;
+    color: #f5e2d8;
+}
+
 
 
 
