@@ -165,6 +165,36 @@ footer{
     margin-top: 2em;
     font-size: 3.4rem;
 }
+@media only screen and (max-width: 1200px){
+    .projects{
+        border: 1px solid red;
+    }
+    .project-child{
+        width: 40vw;
+    }
+    .logo{
+        /* border: 1px solid red; */
+        padding-left: 4rem;
+        
+    }
+}
+@media only screen and (max-width: 800px){
+    .projects{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .project-child{
+        width: 80%;
+    }
+    .links{
+        display: none;
+    }
+    .logo{
+        /* border: 1px solid red; */
+        padding-left: 4rem;
+        
+    }
+}
 
 
 
