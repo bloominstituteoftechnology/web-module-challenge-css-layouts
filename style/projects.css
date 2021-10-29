@@ -96,7 +96,7 @@ nav a {
     align-items: center
 }
 .titlePic {
-    background-image: url(https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) ;
+    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0cml4fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) ;
     height: 60vh;
     display: flex;
     background-repeat: no-repeat;
@@ -122,7 +122,6 @@ nav a {
     text-align: center;
     
 }
-
 .mid {
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +136,23 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition:1s;
+    color: rgba(0, 0, 0, 0);
+    font-size: 0.1rem;
+}
+/* .mid div h2{
+    opacity: 0;
+} */
+/* .mid div h2:hover{
+
+} */
+.mid div:hover{
+    background-color: lightyellow;
+    padding: 5%;
+    border-radius: 25%;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1.5rem;
+    width: 35%;
 }
 .mid div img{
     width: 100%;
@@ -146,4 +162,17 @@ nav a {
 .mid div h2{
     text-align: center;
 }
-
+.bio {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+}
+.bio h2 {
+    font-size: 3rem;
+}
+.bio {
+    background-color: lightyellow;
+}
