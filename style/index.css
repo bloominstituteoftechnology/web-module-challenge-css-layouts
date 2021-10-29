@@ -1,4 +1,3 @@
-/* Add CSS styling here */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,17 +27,19 @@ footer, header, hgroup, menu, nav, section {
   padding: 0%;
   margin: 0%;
   max-width: 100%;
-  border: 1px solid rgb(146, 144, 144);
+  border: 2px solid rgb(146, 144, 144);
+
 }
 html{
   font-size: 62.5%;
+
 }
 body{
   font-size: 1.8rem;
   line-height: 1.5;
   font-family: 'Source Serif Pro', serif;
   color: #4f4f4f;
-  background-color: #a3a7a3;
+
 }
 h1{
   color: slategray;
@@ -52,7 +53,7 @@ h3{
   font-family: 'Source Serif', serif;
 }
 header{
-  padding: 15% 0;
+  padding: 5% 0;
   background-color: lightslategrey;
   font-family: 'Poppins', sans-serif;
 }
@@ -77,6 +78,7 @@ section, footer{
 }
 nav{
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   position: fixed;
   width: 100%;
