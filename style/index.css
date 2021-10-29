@@ -38,8 +38,8 @@ html{
 body{
     font-size: 1.8rem;
     line-height:1.5;
-    background-color:#FBF4FB;
-    color: #4f4f4f;
+    background-color:#3AAFA9;
+    color: #DEF2F1;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -70,7 +70,7 @@ nav{
     flex-direction: column;
     width: 100%;
     height: 10%;
-    background-color: black;
+    background-color: #17252A;
     background-image: url('../kame.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,8 +99,8 @@ nav{
 #top button {
     border-radius: 10px;
     padding: 1%;
-    color:#266035;
-    background-color: pink;
+    color: #DEF2F1;
+    background-color: #2B7A78;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -135,6 +135,7 @@ h3 {
 .bottom{
     padding: 2% 0;
     text-align: center;
+    background-color: #17252A;
 }
 
 h4{
@@ -145,7 +146,7 @@ h4{
     border-radius: 10px;
     padding: 1%;
     color:#266035;
-    background-color: pink;
+    background-color: #2B7A78;
     font-size: 2rem;
     font-weight: bold;
 }
