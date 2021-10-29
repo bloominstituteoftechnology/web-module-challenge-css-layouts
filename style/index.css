@@ -58,6 +58,7 @@ header{
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    border-bottom: 1rem solid black;
 }
 .name{
     text-shadow: -1px 0 blanchedalmond, 0 1px blanchedalmond, 1px 0 blanchedalmond, 0 -1px blanchedalmond;
@@ -87,6 +88,7 @@ header{
     max-width: 100%;
     margin:auto;
     padding: 10rem;
+    border-bottom: 1rem solid black;
 }
 .info{
     display: flex;
@@ -131,6 +133,7 @@ display: flex;
 flex-wrap: wrap;
 width: 100%;
 margin-top: 5rem;
+border-top: 1rem solid black;
 }
 .container .bg-img{
 border-radius: 120px 20px 120px 20px;
@@ -138,6 +141,7 @@ padding: 10rem;
 margin-left: 5rem;
 margin-right: 1rem;
 margin-top: 4rem;
+margin-bottom: 4rem;
 justify-content: space-around;
 background-image: url('https://picsum.photos/800');
 }
@@ -156,6 +160,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border-top: 1rem solid black;
 }
 footer a{
     margin-top: 2rem;
