@@ -38,85 +38,29 @@ footer, header, hgroup, menu, nav, section {
     /*border:1px solid grey;*/
 }
 
-html{
-    font-size:62.5%;
-}
 
-body{
-    font-size:1.8rem;
-    line-height:1.5; 
-    color:#4F4F4F; 
-    background-color:blanchedalmond; 
-    font-family: 'Source Sans Pro', sans-serif; 
-}
-
-h1{
-    color:#4F4F4F;
-    font-size:3rem; 
-    font-family: 'Oxygen', sans-serif; 
+.topsection{
     display: flex; 
+    flex-direction: column; 
     justify-content: center;
-}
-
-.links{
-    display:flex; 
-    justify-content: center; 
-}
-
-
-h2{
-    color:#4F4F4F;
-    font-size:3rem;
-    display: flex; 
-    justify-content: center;
-
-}
-
-#about{
-    margin-left:17%;
-    margin-right: 15%;
     text-align: center;
-    font-size: 1rem;
-    margin-bottom:3%;
 }
 
-#main{
-    background-image:url(https://picsum.photos/id/237/200/300);
-    background-size:cover; 
-    background-position:center bottom;
-    height:300px;
-    margin-left:1%;
-    margin-right:1%;
-    /*display:flex; 
-    justify-content:center;*/
-    margin-bottom:3%;
+footer{
+    background-color: lightgrey; 
+    text-align: center; 
+    padding: 25px;
 }
 
-
-
-.gallery{
-    display:flex; 
-    justify-content: flex-start; 
+.row{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-.info{
-   display:flex; 
-   align-items:center;
+.description{
+    width: 200px; 
+    text-align: center; 
+    padding: 20px;
 }
-
-#contact{
-    text-align:center;
-    border:20px solid grey;
-    background-color:grey;
-    margin:1%;
-}
-
-button{
-    color:red;
-    background-color:white;
-    border-radius:10%;
-    padding: 1% 0;
-    font-size:10px;
-
-}
-
