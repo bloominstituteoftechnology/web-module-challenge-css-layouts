@@ -1,4 +1,10 @@
 /* Add CSS styling here */
-.top{
-    display:flex;
+
+header {
+    background-color:#B0C4DE;
+}
+
+
+footer{
+    background-color:#B0C4DE;
 }
