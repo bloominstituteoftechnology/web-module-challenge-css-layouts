@@ -39,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 html{
@@ -143,14 +143,17 @@ h1{
 .left-block{
     max-width:100%;
   flex-direction: column;
+  padding-top:2rem;
 }
 .mid-block{
   flex-direction: column;
   max-width:100%;
+  padding-top:2rem;
 }
 .right-block{
   flex-direction: column;
   max-width:100%;
+  padding-top:2rem;
 }
 
 .caption {
