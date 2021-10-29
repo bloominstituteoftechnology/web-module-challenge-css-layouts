@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    border: 1px solid lightgray;
 }
 /*General Styles*/
 html{
@@ -49,19 +49,52 @@ h3{
     font-family: 'Courier Prime', monospace;
 }
 a{
+    
     text-decoration: none;
+    font-size:1.5rem;
     font-family: 'Courier Prime', monospace;
+    background-color: #ffffff;
+    color: #000000;
+    
 }
 button{
     font-family: 'Courier Prime', monospace;
-    font-size:1.8rem;
+    font-size:1.5rem;
     padding:2% 4%;
     margin-top:4%;
 }
+/* Header Section Styles */
+header{
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav{
+    padding: 1%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.home{
+    padding: 1.5%;
+}
+.about{
+    padding: 1.5%;
+}
+.contact{
+    padding: 1.5%;
+}
+.projects{
+    padding: 1.5%;
+}
+
 /* Top Section Styles */
 .top{
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
 .hero_image{
     display: flex;
@@ -94,5 +127,15 @@ button{
     height:40rem;
     text-align: center;
     
+}
+/*Footer Section Style */
+footer{
+    padding-bottom: 2%;
+    background-color:lightgrey;
     
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
