@@ -92,16 +92,18 @@ nav{
   justify-content: space-evenly;
   align-items: center;
 }
+main{
 
+}
 .main-container{
   padding-left: 8%;
   width: 50%;
   height: 32vh;
 
 }
-.about{
-  display: flex;
-}
 .interests-container div{
+  display: flex;
+  flex-direction: row;
+
   width: 50%;
 }
