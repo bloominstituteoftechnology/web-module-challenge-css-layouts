@@ -27,8 +27,7 @@ footer, header, hgroup, menu, nav, section {
   padding: 0%;
   margin: 0%;
   max-width: 100%;
-  border: 2px solid rgb(146, 144, 144);
-
+  border: 2px solid rgb(211, 3, 3);
 }
 html{
   font-size: 62.5%;
@@ -42,22 +41,24 @@ body{
 h1{
   color: slategray;
   font-size: 6rem;
-  font-family: 'Poppins' , monospace;
+  font-family: 'Poppins', monospace;
+  font-weight: lighter;
 }
 
 h3{
-  color: black;
+  color: rgb(24, 4, 4);
   font-size: 2.2rem;
-  font-family: 'Source Serif', serif;
+  font-family: 'Poppins', monospace;
+  font-weight:bolder;
 }
 header{
-  padding: 5% 0;
+  padding:4rem 0;
   background-color: lightslategrey;
   font-family: 'Poppins', sans-serif;
 }
 a{
   text-decoration: none;
-  color: rgb(59, 59, 134);
+  color: rgb(73, 73, 73);
   font-family: 'Poppins', monospace;
 }
 button{
@@ -77,14 +78,13 @@ section, footer{
 }
 nav{
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   position: fixed;
+  padding-left: 4%;
   width: 100%;
   top: 0%;
   z-index: 999;
   background-color:rgba(255, 255, 255, 0.8);
-  margin-right: 70px;
 }
 .links{
   width: 50%;
@@ -93,15 +93,14 @@ nav{
   align-items: center;
 }
 
-.main{
-  width: 100%;
-  height: 15%;
-  
+.main-container{
+  padding-left: 8%;
+  width: 50%;
+  height: 32vh;
+
 }
-.right{
+.about{
   display: flex;
-  flex-direction: row;
-  justify-content: left;
-  padding: 10%;
+
 
 }
