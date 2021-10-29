@@ -29,14 +29,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
+ 
+/*
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
     max-width:100%;
-    /*border:1px solid grey;*/
+    border:1px solid grey;
 }
+*/
 
 
 .topsection{
@@ -64,3 +66,23 @@ footer{
     text-align: center; 
     padding: 20px;
 }
+
+
+button {
+    background-color: white; 
+    color: black; 
+    border: black solid 1px; 
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black; 
+    color: white; 
+    border: white solid 1px;
+}
+
+button a {
+    text-decoration: none; 
+    color: inherent; 
+}
+
