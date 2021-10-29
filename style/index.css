@@ -45,10 +45,24 @@ h1{
     font-family: 'Oswald', sans-serif;
 }
 
+h2{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:4rem;
+    font-family: 'Bebas Neue', cursive;    
+}
+
 a{
     text-decoration:none;
     color: white;
     font-family: 'Bebas Neue', cursive;    
+}
+
+a:hover{
+    color:#771a8c;
+    font-weight:900;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0.1s;
 }
 
 button {
@@ -111,4 +125,58 @@ nav {
     color:white;
     background-color: #f91a75;
 
+}
+
+#projects {
+
+}
+
+.container {
+    background-color: #f91a75;
+    padding-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6, .text {
+    width:30%;
+
+}
+
+.portfolio1{
+    background-image:url('../Photos/beatspage.jpg');
+}
+
+.portfolio2{
+    background-image:url('../Photos/orangerap.jpg');
+}
+
+.portfolio3{
+    background-image:url('../Photos/nudy.jpg');
+}
+
+.portfolio4{
+    background-image:url('../Photos/begoat.png');
+}
+
+.portfolio5 {
+    background-image:url('../Photos/bigchop.png');
+}
+
+.portfolio6 {
+    background-image:url('../Photos/avocado.jpeg');
+}
+.text {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.bgimg {
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:400px;
+    margin:3px;
 }
