@@ -59,6 +59,9 @@ header div{
     justify-content: space-between;
 }
 
+nav a {
+        flex-flow: no-wrap;
+}
 
 .top{
     display: flex;
@@ -82,43 +85,59 @@ h1{
     text-align: center;
 }
 
- /* button.mystuff{
+.mystuff button{
     margin-left:5%;
     margin-right 5%;
-    element-align: center;
+
     padding: 1%;
-} */
-.mid{
-    display: flex;
+}
+/* .mid{
+    display:flex;
     max-width:100%;
-    flex-flow; row wrap;
+    flex-flow:row wrap;
+    justify-content: space-between;
 }
 
 .mid div{
-    vertical-align: top;
-    display: inline-block;
     text-align: center;
     justify-content: space-evenly;
-    margin: 1%;
-    
-}
-
-.mid img{
-    max-width: 100%;
+    margin-bottom: 2%;   
 }
 
 .caption {
     display: block;
+} */
+
+.mid{
+    display:flex;
+    max-width:100%;
+    justify-content: space-between;
+    
+}
+.left-block{
+  flex-direction: column;
+}
+.mid-block{
+  flex-direction: column;
+  
+}
+.right-block{
+  flex-direction: column;
+}
+
+.caption {
+    display: block;
+    padding:3%;
+    text-align:center;
 }
 
 footer {
     display: flex;
     justify-content:center;
     padding: 3%;
-    margin-top: 1%;
+    background-color:#6F7C12;
 }
 
-footer div{
-    background-color: black;
-
+footer button{
+    align-items:center;
 }
