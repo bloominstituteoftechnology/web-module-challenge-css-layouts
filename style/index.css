@@ -58,9 +58,15 @@ header div{
     display:flex;
     justify-content: space-between;
 }
+    
+nav{
+    width: 40%;
+    flex-flow: row no-wrap;
+}
 
-nav a {
-        flex-flow: no-wrap;
+header p{
+    font-size: 3rem;
+    color:#184E77;
 }
 
 .top{
@@ -70,6 +76,25 @@ nav a {
     padding-bottom:3%;
     justify-content: center;
     align-items: center;
+    background-image: url('https://picsum.photos/id/1002/1000');
+}
+
+.home{
+    background-color:#184E77;
+    color:#FFFFFF;
+    padding:3%
+}
+.about{
+    background-color:#1E6091;
+    color:#FFFFFF;
+}
+.contact{
+    background-color:#1A759F;
+    color:#FFFFFF;
+}
+.project{
+    background-color:#168AAD;
+    color:#FFFFFF;
 }
 
 .mystuff{
@@ -78,35 +103,27 @@ nav a {
     align-items: center;
     margin: 15%;
     justify-content: center;
+    
 }
 h1{
-    font-size:5rem;
+    font-size:8rem;
     margin:2%;
     text-align: center;
+    color:#FFFFFF;
 }
 
 .mystuff button{
-    margin-left:5%;
-    margin-right 5%;
-
-    padding: 1%;
-}
-/* .mid{
-    display:flex;
-    max-width:100%;
-    flex-flow:row wrap;
-    justify-content: space-between;
-}
-
-.mid div{
+    align-items:center;
+    background-color: #76C893; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    justify-content: space-evenly;
-    margin-bottom: 2%;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
-
-.caption {
-    display: block;
-} */
 
 .mid{
     display:flex;
@@ -115,14 +132,16 @@ h1{
     
 }
 .left-block{
+    max-width:100%;
   flex-direction: column;
 }
 .mid-block{
   flex-direction: column;
-  
+  max-width:100%;
 }
 .right-block{
   flex-direction: column;
+  max-width:100%;
 }
 
 .caption {
@@ -135,9 +154,19 @@ footer {
     display: flex;
     justify-content:center;
     padding: 3%;
-    background-color:#6F7C12;
+    background-color:#168AAD;
 }
 
 footer button{
     align-items:center;
+    background-color: #76C893; /* Green */
+    border: none;
+    color: white;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
