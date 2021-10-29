@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width:100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html{
@@ -42,6 +42,7 @@ html{
 body{
     font-size: 1.8rem;
     line-height: 1.5;
+    font-family: "Titan One";
 }
 
 header{
@@ -50,7 +51,7 @@ header{
 header h1{
     font-size: 6rem;
     text-align: left;
-    padding-left: 1%
+    padding-left: 1%;
 }
 
 header nav{
@@ -59,8 +60,9 @@ header nav{
 
 header nav a{
     padding: 1% 4%;
-    border:darkgrey 2px solid;
-    border-radius: 7%;
+    font-size: 4rem;
+}
+header nav a:hover{text-transform: uppercase;
 }
 .introduction{
     display: flex;
@@ -99,6 +101,11 @@ header nav a{
     width: 20%;
     padding: 2% 0;
     margin: 0;
+    font-size: 3rem;
+}
+
+.introduction .right p{
+    font-size: 2.5rem;
 }
 /* .introduction .right *{
     text-align: center;
@@ -161,11 +168,14 @@ header nav a{
 }
 .project a{
     margin-top: 50%;
+    font-size: 3rem;
 }
 footer h2{
     display: flex;
     justify-content: center;
-    padding-top: 2%
+    padding-top: 2%;
+    margin-bottom: 1%;
+    font-size: 4rem;
 }
 
 footer{
@@ -177,6 +187,8 @@ footer button{
     margin-bottom: 2%;
     width: 5%;
     padding: 1% 0;
+    font-size: 2.5rem;
+    width: 15%
 }
 
 
