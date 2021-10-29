@@ -75,5 +75,8 @@ footer, header, hgroup, menu, nav, section {
     background-color:#4f4f4f;
    
   }
-  
+  .MyProjects{
+    padding-top: 0%;
+    text-align: left;
+  }
   
