@@ -23,18 +23,56 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body{
-    font-size: 62.5%;
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+nav{
+    display: flex;
+	justify-content: space-between;
+	padding: 2%;
+}
+.top{
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+}
+
+.imgbutton {
+	background-image: url("https://picsum.photos/600/400");
+	width: 600px;
+	height: 400px;
 
 }
 
-header{
-    display: flexbox;
+.row{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
 
-    align-items: center;
-    border: solid black;
 }
-.headline{
-    display: flexbox;
-    
+.projects{
+	text-align: center;
+}
+
+
+footer{
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+
 }
