@@ -98,62 +98,22 @@ header nav a:hover{text-transform: uppercase;
 }
 
 .introduction .right button{
-    width: 20%;
-    padding: 2% 0;
+    padding: 2% 2%;
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'Titan One';
 }
 
 .introduction .right p{
     font-size: 2.5rem;
 }
-/* .introduction .right *{
-    text-align: center;
-    margin: 5% o;
-}
-.introduction .left{
-    background-image: url('https://picsum.photos/200');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.introduction button{
-    margin-left: 47.5%;
-}
-
-.introduction{
-    
-}
-.container{
-    display: flex;
-}
-.container div{
-    width: 50%;
-} */
 
 .projects{
     display: flex;
     flex-wrap: wrap;
 }
 
-/* .project{
-    display: flex;
-    width: 20%;
-    margin: 2%;
-    min-height: 35vh;
-    justify-content: center;
-    align-items: center;
-    padding: 0 5%;
-    background-image: url('https://picsum.photos/200');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.project:hover{
-    box-shadow: grey -5px 10px;
-} */
-
 .project{
-    /* display:flex; */
-
     width: 20%;
     margin: 2%;
     height: 35vh;
@@ -188,7 +148,14 @@ footer button{
     width: 5%;
     padding: 1% 0;
     font-size: 2.5rem;
-    width: 15%
+    width: 15%;
+    font-family: 'Titan One';
+}
+
+footer .ig-link{
+    width:15%;
+    height: 10vh;
+    background-image: url('https://fishhanks.com/wp-content/uploads/2018/08/kisspng-computer-icons-logo-clip-art-instagram-logo-5acbcae532b034.7535309115233051892076.jpg');
 }
 
 
