@@ -27,13 +27,15 @@ footer, header, hgroup, menu, nav, section {
   padding: 0%;
   margin: 0%;
   max-width: 100%;
-  border: 2px solid rgb(211, 3, 3);
+  border: 2px solid rgb(27, 211, 3);
 }
 html{
   font-size: 62.5%;
 
 }
 body{
+  max-width: 100%;
+  max-height: 100%;
   font-size: 1.8rem;
   line-height: 1.5;
   font-family: 'Source Serif Pro', serif;
@@ -92,18 +94,24 @@ nav{
   justify-content: space-evenly;
   align-items: center;
 }
-main{
-
-}
-.main-container{
+.main-left{
   padding-left: 8%;
   width: 50%;
   height: 32vh;
-
 }
-.interests-container div{
+.interests-container1{
   display: flex;
-  flex-direction: row;
-
-  width: 50%;
+  flex-direction: column;
+  background-color:rgba(255, 255, 255, 0.856);
+}
+.interests-container1 .interests-container2{
+  margin: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
+.interests-container1 div, .interests-container2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
