@@ -1,75 +1,50 @@
-/* Add CSS styling here */
-/*CSS Reset*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+header{
+    background-color: lightgrey;
+    padding: 20 px;
+    margin-bottom: 15px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
 }
 
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    /* border:1px solid grey;  */
+.topsection {
+   display: flex;
+   flex-direction: row;
+   justify-content: left; 
+   width: 50%;
 }
-/*General Styles*/
-html{
-    font-size:62.5%;
+.description {
+    padding: 20px;
+    width:50%
 }
-body{
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: #4f4f4f;
-    background-color: blanchedalmond;
-    font-family: cursive;
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
-h1{
-    color:#308AE3;
-    font-size: 5rem;
-    margin: 2%
-}
-h2{
-    font-size: 3rem;
-    color:dargrey;
-}
-h3{
-    font-size: 2rem;
-    color: darkslateblue;
+
+.portfolio-element {
     text-align: center;
 }
 
-nav{
-    display: flex;
-    justify-content:space-between;
-    z-index: 999;
-    padding-left: 3%;
+button {
+background-color:#0b614e;
+color:#bcc537;
+border: black solid 1px;
+padding: 5px 10px;
+border-radius: 40%;
 }
 
-.bearwave{
-    background-image:url('https://unsplash.com/phhttps://unsplash.com/photos/qQWV91TTBrEotos/qQWV91TTBrE');
+button:hover {
+    background-color:#bcc537;
+    color:#0b614e;
+    border: black solid 1px;
+}
+
+button a {
+text-decoration: none;
+color: inherit;
 }
