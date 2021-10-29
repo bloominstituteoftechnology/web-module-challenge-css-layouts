@@ -1,0 +1,180 @@
+/* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+   
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
+}
+h1{
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+    text-decoration: underline;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+img{
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* header */
+
+header{
+    background-color: whitesmoke;
+    padding: 3%;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav__links{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    list-style: none;
+
+}
+
+.nav__links li{
+    border: 1px solid black;
+}
+
+.nav__links a{
+    width: 10%;
+    text-align: center;
+    background-color: white;
+    color: #4f4f4f;
+}
+
+.nav__links a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+
+
+/* section begins  */
+
+
+
+section{
+    background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
+    background-blend-mode: multiply;
+    background-color: rgb(46, 46, 46);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px whitesmoke;
+  
+
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+h2{
+	margin-bottom: 5%;
+	padding-top: 5%;
+	text-align: center;
+}
+
+h3{
+	padding-bottom: 30%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+}
+
+.column1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+
+}
+
+
+.column2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+
+}
+
+.column3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+
+}
+
+img{
+    width: 70%;
+  
+}
+
+p{
+    font-size: 2rem;
+    padding: 10%;
+    color:whitesmoke;
+    text-align: center;
+    line-height: 3;
+  
+}
+
+
+
+
+
+
+
+

@@ -63,6 +63,7 @@ header{
 
 .hamburger{
     display: none;
+
 }
 
 .nav__links{
@@ -224,9 +225,10 @@ footer{
     .nav__links{
     	display:none;
     }
+    
     .hamburger{
     	display: contents;
-        text-align: center;
+        width: 10%;
         
     }
     .row__one{
@@ -284,3 +286,6 @@ footer{
     }
 
 }
+
+/* About page  */
+
