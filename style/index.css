@@ -49,29 +49,34 @@ html{
 body{
     font-size:1.6rem;
     font-family: 'Montserrat', sans-serif;
-    color: #1c235c;
+    color: #184E77;
 }
 
 header div{
     display: inline-block;
     margin: 2rem;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    width: 100%;
 }
     
-nav{
-    width: 40%;
-    flex-flow: row no-wrap;
+nav {
+    width: 100%;
+    display:flex;
+    justify-content:flex-end;
+    padding:1rem;
 }
 
-header p{
+
+div p{
     font-size: 3rem;
     color:#184E77;
+    padding:2rem;
 }
 
 .top{
     display: flex;
-    margin: 2% 15% 2% 15%;
+    margin: 1% 15% 1% 15%;
     padding-top:3%;
     padding-bottom:3%;
     justify-content: center;
@@ -82,19 +87,22 @@ header p{
 .home{
     background-color:#184E77;
     color:#FFFFFF;
-    padding:3%
+    padding:2rem 3rem;
 }
 .about{
     background-color:#1E6091;
     color:#FFFFFF;
+    padding:2rem 3rem;
 }
 .contact{
     background-color:#1A759F;
     color:#FFFFFF;
+    padding:2rem 3rem;
 }
 .project{
     background-color:#168AAD;
     color:#FFFFFF;
+    padding:2rem 3rem;
 }
 
 .mystuff{
@@ -123,6 +131,7 @@ h1{
     display: inline-block;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
 }
 
 .mid{
@@ -168,5 +177,6 @@ footer button{
     display: inline-block;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
     
 }
