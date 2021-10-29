@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border: 1px solid lightgray;
 }
 /*General Styles*/
 html{
@@ -37,15 +36,15 @@ html{
 }
 h1{
     
-    font-family: 'Courier Prime', monospace;
-    font-size:6rem;
+    font-family: 'Stick No Bills', sans-serif;, monospace;
+    font-size:4rem;
 }
 h2{
     font-family: 'Courier Prime', monospace;
     font-size:3rem;
 }
 h3{
-    font-size:2.2rem;
+    font-size:1.8rem;
     font-family: 'Courier Prime', monospace;
 }
 a{
@@ -63,6 +62,11 @@ button{
     padding:2% 4%;
     margin-top:4%;
 }
+button:hover{
+    background-color: black;
+    color: #ffffff;
+    transition: 1s;
+}
 /* Header Section Styles */
 header{
     padding-top: 4%;
@@ -76,7 +80,21 @@ header{
     padding: 1%;
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.nav a{
+    height: 35px;
+    /* border: 1px solid  black; */
+}
+.nav a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: 1s;
+}
+.nav a:active{
+    color: #ffffff;
+    background-color: #000000;
+    transition: 1s;
 }
 .home{
     padding: 1.5%;
@@ -126,7 +144,9 @@ header{
     width:40rem;
     height:40rem;
     text-align: center;
-    
+}
+.gallery h3{
+    padding-top: 2%;
 }
 /*Footer Section Style */
 footer{
