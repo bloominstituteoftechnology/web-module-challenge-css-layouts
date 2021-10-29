@@ -1,1 +1,165 @@
 /* Add CSS styling here */
+*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    font-size: large;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myname{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+
+.bar{
+    margin-top: 20px;
+    margin-right: 20px;
+    z-index: 999;
+    display: inline;
+    padding-top: 40px;
+}
+   
+a{
+    padding:8px;
+    background-color:#4433;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+   
+ }
+ a.heihei{
+     background-color: lightblue;
+ }
+
+.only{
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    top: 0;
+    align-items: center;
+}
+
+#top{
+    height:90vh;
+    background-image:url('../assets/top.jpeg');
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    align-items:center;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    background-size: 160em 90em;
+    
+}
+.big-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.8rem;
+    /* padding:2% 4%; */
+    /* margin-top:4%; */
+}
+
+h2{
+    font-size: 90px;
+}
+.b1 {
+    height: 50px;
+    width: 300px;
+}
+
+#about{
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+}
+
+.img_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img.pic {
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.pic_box {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.h3 {
+    font-family: serif;
+    font-size: 100em;
+}
+
+#about{
+    height: 85vh;
+    display: flex;
+
+}
+.bottom{
+    width:100%;
+    text-align:center;
+    display: flex;
+    justify-items:center;
+}
+
+
+
+
+
+
+
