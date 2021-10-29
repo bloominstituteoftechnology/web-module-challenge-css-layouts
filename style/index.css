@@ -101,6 +101,7 @@ nav{
 }
 .about{
   display: flex;
-
-
+}
+.interests-container div{
+  width: 50%;
 }
