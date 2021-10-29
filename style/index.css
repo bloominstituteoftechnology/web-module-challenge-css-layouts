@@ -60,6 +60,7 @@ header{
     align-content: space-between;
 }
 .name{
+    text-shadow: -1px 0 blanchedalmond, 0 1px blanchedalmond, 1px 0 blanchedalmond, 0 -1px blanchedalmond;
     padding: 2rem;
     font-weight: 700;
     font-size: 4.0rem;
@@ -67,12 +68,17 @@ header{
     color: black;
 } 
 .index nav a{
+    margin-left: 2rem;
     border: 1px;
     padding: 5px;
     border-radius: 10%;
     color: black;
     text-decoration: none;
     background-color: blanchedalmond;
+}
+.index nav a:hover{
+    background-color: black;
+    color: blanchedalmond;
 }
 /* section gallery */
 #gallery{
@@ -94,13 +100,20 @@ header{
 #gallery button{
     width:25%;
     margin-left: 38%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+    border-radius: 10%;
+    border: 1px;
+    padding: 1rem;
+    font-weight: 700;
 }
 #gallery button:hover{
     background-color: black;
     color: white;
 }
 #gallery.bg-img{
+border-radius: 120px 20px 120px 20px;
 background-image: url('https://picsum.photos/800');
 padding-top: 5rem;
 margin-top: 5rem;
@@ -120,7 +133,7 @@ width: 100%;
 margin-top: 5rem;
 }
 .container .bg-img{
-width: 20%;
+border-radius: 120px 20px 120px 20px;
 padding: 10rem;
 margin-left: 5rem;
 margin-right: 1rem;
@@ -128,9 +141,13 @@ margin-top: 4rem;
 justify-content: space-around;
 background-image: url('https://picsum.photos/800');
 }
-.container .button{
+.container button{
 justify-items: center;
 text-align: center;
+}
+.container .bg-img button:hover{
+    background-color: black;
+    color: blanchedalmond;
 }
 footer{
     display: flex;
@@ -141,6 +158,11 @@ footer{
     text-align: center;
 }
 footer a{
+    margin-top: 2rem;
     text-decoration: none;
     color: black;
+}
+footer a:hover{
+    background-color: black;
+    color: blanchedalmond;
 }
