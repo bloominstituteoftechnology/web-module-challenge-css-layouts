@@ -55,11 +55,12 @@ h1 {
     font-weight: bold;
     font-style: oblique;
     padding-left: 9%;
-    
+    padding-top: 1%;
 }
 .links{
     padding-left: 10%;
 }
+
 h2{
     font-size: 6rem;
 }
@@ -89,12 +90,15 @@ nav{
     text-align: center;
     flex-direction: row;
 }
-.about {
+.text {
+    width: 50%;
+}
+#top div.about {
     height: 80vh;
-    width: 250vh;
+    width: 50%;
     background-image: url('../DC.jpg');
     background-position: top;
-    padding: 10%;
+    padding: 5%;
 }
 #top button {
     border-radius: 10px;
@@ -129,6 +133,7 @@ h3 {
     font-size: 2rem;
     text-align: center;
     padding-bottom: 5%;
+    padding-top: 1%;
     font-weight: bold;
 }
 
@@ -145,8 +150,15 @@ h4{
 #contact button {
     border-radius: 10px;
     padding: 1%;
-    color:#266035;
+    color:#DEF2F1;
     background-color: #2B7A78;
     font-size: 2rem;
     font-weight: bold;
 }
+
+.links{
+    color: #DEF2F1;
+}
+a:visited {
+    color: #DEF2F1;
+    }
