@@ -5,70 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <Header>
-        <div class="heading">
-            <h1>Marcel Rodriguez</h1>
-            <div class="topNav">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="#projects">Projects</a>
-                </nav>
-            </div>
-        </div>
-    </Header>
-    <section>
-        <div class="middleTop">
-            <img src="https://picsum.photos/536/354" alt="random image">
-            <div class="rightInfo">
-                <h2>Marcel Rodriguez</h2>
-                <button>projects</button>
-                <p>I am an up and coming software developer. Right now i am
-                    taking part in an online bootcamp; LambdaSchool. In this bootcamp we learn everything from the basics of HTML to the advanced lessons like data structures and algorithms. My goal is to finish bootcamp and find myself a nice job. Hopefuly my future job will allow me to take care of my current needs and allow me to adopt a child in the future. I am giving it my 200 percent. I know i will be successful and i will add value to any company that hires me.
-                </p>
-            </div>
-        </div>
-        <div class="middleBottom">
-            <div class="firstproj" id="projects">
-                <div class="title1">
-                <h3>Cool Thing </h3>
-            </div>
-                <img src="https://picsum.photos/536/354" alt="random image">
-            </div>
-            
-            <div class="secondproj">
-                <div class="title2">
-                    <h3>Fun Thing</h3>
-                </div>
-                <img src="https://picsum.photos/536/354" alt="random image">
-            </div>
-            
-            <div class="thirdproj">
-                <div class="title3">
-                    <h3>Spicy Thing</h3>
-                </div>
-                <img src="https://picsum.photos/536/354" alt="random image">
-            </div>
-            
-            <div class="fourthproj">
-                <div class="title4">
-                    <h3>Special Thing</h3>
-                </div>
-                <img src="https://picsum.photos/536/354" alt="random image">
-            </div>
-            
-        </div>
-    </section>
-    <footer>
-        <div class="footerContent">
-            <p>Like what you see?</p>
-            <a target="_blank" href="https://www.linkedin.com/in/marcel-rodriguez-77ab88223/"><button>Contact me!</button></a>
-            <p id="copy" >&copy Marcel Rodriguez 2021</p>
-        </div>
-    </footer>
-    
+	<header>
+		<h1>Marcel Rodriguez</h1>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+	<section class="middle">
+		<div class="middleTop">
+			<img src="https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927__340.jpg" alt="Image about web design">
+			<div class="middleTopInfo">
+				<h2>Fun Facts About Me!</h2>
+				<P>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores, provident incidunt quasi perferendis commodi. Quo molestiae, deleniti dolore eos rerum delectus, accusantium numquam quibusdam accusamus, velit quidem recusandae hic!
+				</P>
+				<button>Projects</button>
+			</div>
+		</div>
+		<h2 id="projects">My Projects</h2>
+		<div class="middleBottom">
+			<div>
+				<h3>Project 1</h3>
+				<img id="codeImg" src="https://cdn.pixabay.com/photo/2017/05/14/03/45/gui-2311261__340.png" alt="random code image">
+			</div>
+			<div>
+				<h3>Project 2</h3>
+				<img src="https://cdn.pixabay.com/photo/2017/05/14/03/45/gui-2311261__340.png" alt="random setup image">
+			</div>
+			<div>
+				<h3>Project 3</h3>
+				<img src="https://cdn.pixabay.com/photo/2017/05/14/03/45/gui-2311261__340.png" alt="random graph image">
+			</div>
+			<div>
+				<h3>Project 4</h3>
+				<img src="https://cdn.pixabay.com/photo/2017/05/14/03/45/gui-2311261__340.png" alt="random neural network image">
+			</div>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<h2>Hire me now!</h2>
+		<form>
+			<input type="text" placeholder="Company name:">
+			<input type="text" placeholder="Best contact e-mail:"> <br>
+			<textarea class="longInput" cols="30" rows="10" placeholder="Message:"></textarea>
+			<input id="submitButton" type="submit">
+		</form>
+		<nav class="footerNav">
+			<a href="#">Home</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<p>&copy Marcel Rodriguez 2021</p>
+	</footer>
+
 </body>
-</html>
