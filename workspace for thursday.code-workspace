@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "User-Interface-II",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}

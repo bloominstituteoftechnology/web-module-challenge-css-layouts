@@ -1,42 +1,13 @@
-/*CSS Reset*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /* border:1px solid grey;  */
 }
 
+/*General Styles*/
 html{
     font-size:62.5%;
 }
@@ -47,3 +18,103 @@ body{
     background-color:#FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
+h1{
+    color:#4f4f4f;
+    font-size:6rem;
+    font-family: 'Oxygen', sans-serif;
+}
+h2{
+    font-size:3rem;
+    padding-top: 1rem;
+}
+h3{
+    font-size:2.2rem;
+}
+h2, h3{
+    color:#131a14;
+    text-align:center;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom:5%;
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom:5%;
+    margin-top:5%
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    display:flex;
+    justify-content:space-evenly;
+    padding:5%;
+    margin-left: 7.5rem;
+ 
+   
+}
+
+.row img{
+    
+    border: green 2px solid;
+
+}
+
+
+
+
+.description{
+
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom:5%;
+    display: flex;
+
+}
+button{
+    background-color: white;
+    color:black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    border: white solid 1px;
+}
+button a{
+    color:inherit;
+    text-decoration: none;
+}
+/* Here is the day 2 work- Responsive styles */
+
+/* Tablet is ~ 800px */
+@media (max-width: 800px){
+
+};
+
+/* end of tablet ~800px */
+
+/* Mobile view ~500px */
+@media (max-width: 800px){
+
+};
+
+/* end of mobile 500px */
