@@ -51,21 +51,21 @@ header {
     height: 45vh;
     flex-direction: column;
     justify-content: center;
-    padding: 0 30%;
+    padding: 0 10%;
     background-image: url(../assets/cloudheader.jpg);
     }
 .Name {
     text-align: center;
-    font-size: 8rem;
+    font-size: 6rem;
     background-color: rgba(255, 0, 0, 0.0);
     color: black;
-    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: darkgray;
+    font-style: oblique;
 }
 nav {
     display: flex;
     align-content: stretch;
-
 }
 nav a {
     width: 25%;
@@ -81,7 +81,6 @@ nav a:hover{
 .mainbody {
     display: flex;
     height: 120vh;
-    align-items: space-around;
     overflow: hidden;
     padding: 5%
 }
@@ -130,7 +129,7 @@ nav a:hover{
 .portfolio div {
     width: 20%;
     margin: 2% 1%;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
 }
 .portfolio div img {
     width: 100%;
@@ -147,21 +146,90 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 30%;
+    padding: 0 20%;
     background-image: url(../assets/cloudheader.jpg);
     }
 footer h3 {
     text-align: center;
     font-size: 6rem;
-    background-color: rgba(255, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.0);
     color: black;
     -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: darkgray;
 }
 footer a {
-    width: 25%;
+    width: 60%;
+    margin: 0 30%;
     text-align: center;
     font-size: 2.5rem;
     border: 1px solid black;
     background-color: blanchedalmond;
+}
+
+/* formatting for mobile */
+
+@media (max-width: 500px) {
+    header {
+        flex-wrap: wrap;
+        padding: 0 10%;
+        height: 60vh;
+    }
+    .Name {
+        font-size: 6rem;
+        -webkit-text-stroke-width: .2px;
+        width: 100%;
+    }
+    header nav {
+        flex-flow: column wrap;
+        width: 40%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0% 30%;
+        font-size: 1.5rem;
+    }
+    header nav a {
+        width: 100%;
+    }
+    .mainbody {
+        flex-flow: column wrap;
+        height: 200vh;
+    }
+    .mainbody .leftpic {
+        height: 70vh;
+        overflow: hidden;
+        margin: 5%;
+    }
+    .mainbody h3 {
+        font-size: 4rem;
+    }
+    .mainbody .rightcontent {
+        height: 100vh;
+        font-size: 1.5rem;
+    }
+    .rightwords {
+        padding: 0 5%;
+    }
+    .portfolio {
+        margin: 6vh 0;
+
+    }
+    .portfolio div {
+        width: 40%;
+    }
+    footer {
+        padding: 0 10%;
+    }
+    footer h3 {
+        font-size: 4rem;
+    }
+    footer a {
+        width: 50%;
+    }
+}
+/*fix for tablets*/
+@media (max-width: 800px) {
+    .mainbody h3 {
+        font-size: 3.8rem;
+    }
 }
