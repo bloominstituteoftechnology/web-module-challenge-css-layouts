@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
 }
+
 /*General Styles*/
 html{
     font-size:62.5%;
@@ -53,8 +54,7 @@ a{
     font-size:1.5rem;
     font-family: 'Courier Prime', monospace;
     background-color: #ffffff;
-    color: #000000;
-    
+    color: #000000;    
 }
 button{
     font-family: 'Courier Prime', monospace;
@@ -117,7 +117,7 @@ header{
 .hero_image{
     display: flex;
     margin: 0 auto;
-    width:90rem;
+    width:90%;
     height:50rem;
     background-image: url("https://i.picsum.photos/id/1081/5512/3708.jpg?hmac=40v-VuEPB-ansc0GjBF-Er6o_sqcEr1WVOAf2-QGfXM");
     background-size: cover;
@@ -141,12 +141,19 @@ header{
 
 }
 .gallery div{
-    width:40rem;
-    height:40rem;
+    display: flex;
+    flex-flow: column;
+    width:33.3%;
+    height:33.3%;
     text-align: center;
+}
+.gallery img{
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .gallery h3{
     padding-top: 2%;
+    padding-bottom: 20%;
 }
 /*Footer Section Style */
 footer{
@@ -161,7 +168,27 @@ footer{
 }
 /* Tablet View Start */
 @media (max-width: 800px){
-
+/* Header Section Styles */
+header{
+    flex-flow: column;
+    text-align: center;
+}
+/* Nav Section Styles */
+.nav{
+    flex-flow: column;
+    text-align: center;
+}
+.gallery img{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+/* .gallery h3{
+    padding-top: 2%;
+    padding-bottom: 20%;
+} */
+.gallery div{
+    width:50%;
+    height:33.3%;
 }
 /* Mobile View Start */
 @media (max-width: 500px){
