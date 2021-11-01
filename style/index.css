@@ -39,6 +39,11 @@ footer, header, hgroup, menu, nav, section {
 html{
     font-size:62.5%;
 }
+header{
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+}
 body{
     font-size:1.8rem;
     line-height:1.5;
@@ -46,7 +51,7 @@ body{
     background-color:#FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1{
+.top{
     text-align: center;
     font-weight: bold;
 }
@@ -81,4 +86,25 @@ footer{
         margin-bottom:2%;
         margin-top:2%;
     }
-@media(max-width:)
+@media(max-width:800px){
+
+.top button{
+    display:flex;
+    flex-flow: column;
+    width: 10rem;
+    margin:0 40%;
+    padding: 3%;
+      
+}
+.top p{
+    padding: 8%;
+}
+.top h1{
+    padding: 7%;
+    font-size: 3.5rem;
+}
+.projects{
+    display: flex;
+    flex-flow: column;
+}
+}
