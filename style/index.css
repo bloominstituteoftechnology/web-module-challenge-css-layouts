@@ -108,6 +108,9 @@ nav a:hover{
     background-color: black;
     color: white;
 }
+.rightwords {
+    text-align: center;
+}
 .portfoliotitle {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
