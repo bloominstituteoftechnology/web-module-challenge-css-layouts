@@ -19,6 +19,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	}
 
 /*Home Page Styling For Desktop*/
+
+
 html{
     size:62.5%;
     font-family: 'Bebas Neue', cursive;
@@ -28,6 +30,8 @@ box-sizing: border-box;
 background-color:#457b9d ;
 }
 /* Navigation/Header Styling for Home Page Desktop */
+
+
 header {
     display: flex;
     align-items: center;
@@ -60,14 +64,27 @@ header .links nav a {
 
 }
 /* Intro/Headline Styling for Home Page Desktop */
+
+
 .intro{
     display: flex;
     justify-content: center;
-}
-.headLine {
-    margin: 5rem;
+    align-items: center;
+    color: #f1faee;
+    background-image: url(../Images/header-image.jpg);
+    width: 100%;
+    height: 55vh;
+    text-align: center;
     
 }
+.headLine {
+  
+    
+}
+.caption {
+    font-size:10rem;
+}
+
 
 /* Content Styling For Home Page Desktop */
 .content {
@@ -84,6 +101,9 @@ header .links nav a {
 .content .box .textContainer {
     color: #f1faee;
     text-align: center;
+}
+.content .box .pic img {
+    height: 15rem;
 }
 
 
