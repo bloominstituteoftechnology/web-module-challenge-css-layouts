@@ -120,6 +120,10 @@ Nunito: font-family: 'Nunito', sans-serif;
     /* 	border: 1px solid #4f4f4f; */
 }
 
+body{
+    line-height: 2rem;
+}
+
 header h1 {
     font-family: "Zen Kurenaido", sans-serif;
 }
@@ -142,7 +146,7 @@ header {
 
 header nav {
     font-size: 1.5rem;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
@@ -283,4 +287,109 @@ footer nav a:hover {
     font-weight: 1000;
     border-top: 2px solid #4f4f4f;
     border-bottom: 2px solid #4f4f4f;
+}
+
+/*styles for responsive design*/
+
+@media (max-width: 800px) {
+    * {
+        /* 				border: 1px solid gray; */
+        max-width: 90vh;
+    }
+    body {
+        line-height: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-around;
+    }
+    header nav {
+        width: 70%;
+        margin-bottom: 4vh;
+    }
+
+    .middleTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-bottom: 15vh;
+    }
+
+    .middleTopInfo {
+        height: 50%;
+        width: 80%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .middleTop img {
+        height: 30%;
+        width: 60%;
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    footer form {
+        width: 80%;
+    }
+
+    footer nav {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 4vh;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        /* border: 1px solid #4f4f4f; */
+        max-width: 90vh;
+    }
+
+    body {
+        line-height: 2rem;
+    }
+
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+    }
+
+    .middleTop img {
+        /* display: none; */
+        width: 80%;
+    }
+    .middleTop {
+        margin-bottom: 0;
+        height: 110vh;
+    }
+
+    .middleTop button {
+        height: 10%;
+    }
+
+    .middleBottom {
+        width: 100%;
+    }
+
+    .middleBottom img {
+        max-width: 80%;
+    }
+
+    footer form {
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 2vh;
+    }
 }

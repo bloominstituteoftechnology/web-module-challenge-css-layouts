@@ -119,39 +119,48 @@ section {
 html {
     font-size: 62.5%;
 }
-body {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: #4f4f4f;
+body{
+    line-height: 2rem;
 }
-/*Nav color background: rgba(155, 175, 229, 0.7)*/
-.heading {
-    background-color: rgba(223, 220, 227, 0.5);
-    height: 20vh;
+
+header h1 {
+    font-family: "Zen Kurenaido", sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+}
+
+header nav {
+    font-size: 1.5rem;
+    width: 50%;
+    display: flex;
     justify-content: space-around;
 }
 
-.heading h1 {
-    font-size: 4rem;
-    margin-left: 10vh;
-}
-
-.topNav nav {
-    margin-left: 10vh;
-    font-size: 2vh;
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.topNav a {
+header nav a {
     text-decoration: none;
-    margin-right: 2vh;
-    color: rgb(255, 255, 255);
-    background-color: #f7b733;
-    border-radius: 0.5rem;
-    width: 25%;
-    text-align: center;
+}
+
+header nav a:hover {
+    font-weight: 1000;
+    border-top: 2px solid #4f4f4f;
+    border-bottom: 2px solid #4f4f4f;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-left: 2vh;
 }
