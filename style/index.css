@@ -130,3 +130,189 @@ footer{
 	padding: 2%;
 	line-height: 1.5;
 }
+
+@media (max-width: 800px){
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+	h1{
+		justify-content: center;
+		width:80%;
+		margin:auto;
+	}
+	nav{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		width:80%;
+		margin:auto;
+	}
+	.body1{
+		justify-content: center;
+		width:80%;
+		margin: auto;
+	}
+	.body1 h2{
+		max-width:60%;
+		margin: auto;
+	}
+	.body1 .info {
+		max-width: 60%;
+		margin: auto;
+	}
+	.gallery{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		padding:0%;
+		margin: auto;
+		align-content: center;
+	}
+	.gallery img{
+		width: 50%;
+		height: auto;
+	}
+	.project1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project3{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project4{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project5{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project6{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project7{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project8{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 500px){
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+	h1{
+		justify-content: center;
+		width:80%;
+		margin:auto;
+	}
+	nav{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		width:80%;
+		margin:auto;
+	}
+	.body1{
+		justify-content: center;
+		width:80%;
+		margin: auto;
+	}
+	.body1 h2{
+		max-width:60%;
+		margin: auto;
+	}
+	.body1 .info {
+		max-width: 60%;
+		margin: auto;
+	}
+	.gallery{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		padding:0%;
+		margin: auto;
+		align-content: center;
+	}
+	.gallery img{
+		width: 50%;
+		height: auto;
+	}
+	.project1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project3{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project4{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project5{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project6{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project7{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project8{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
