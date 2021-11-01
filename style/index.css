@@ -51,6 +51,11 @@ body{
     background-color:#FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
+h1{
+    padding: 1%;
+    font-size: 3.5rem;
+    
+}
 .top{
     text-align: center;
     font-weight: bold;
@@ -58,13 +63,13 @@ body{
 .buttons{
     text-align: center;
     background-color:white;
+    font-size: 1rem;
     }
 .projects{
     display:flex;
     justify-content:center;
   
-    
-    
+        
 }
 .projects div{
     justify-content: space-around;
@@ -105,6 +110,29 @@ footer{
 }
 .projects{
     display: flex;
-    flex-flow: column;
+    justify-content: center;
+    flex-flow:row;
+    flex-wrap: wrap;
+    
 }
+.first, .second{
+    display: flex;
+    justify-content: center;
+    max-width: 15rem;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+  .first img,.second img{
+      padding: 2% 2%;
+  }
+
+ 
+ 
+    
+ 
+
+  
+ 
+   
+
 }
