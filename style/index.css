@@ -66,6 +66,7 @@ button{
 }
 .foot button{
     padding:2% 4%;
+    max-width: 50%;
 }
 button:hover{
     background-color: black;
@@ -96,12 +97,6 @@ header{
     background-color: #000000;
     transition: 1s;
 }
-/* .home, .about, .contact, .projects{
-    padding: 1.5%;
-    width: 100px;
-    text-align: center;
-    border: 1px solid black;
-} */
 .nav button{
     background-color: #ffffff;
     color: #000000;
@@ -160,12 +155,14 @@ header{
 footer{
     padding-bottom: 2%;
     background-color:lightgrey;
+    height: 200px;
     
 }
 .foot{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    height: 100%;
 }
 /* Tablet View Start */
 @media (max-width: 800px){
