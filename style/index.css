@@ -164,7 +164,10 @@ footer{
 .footer-icons{
     /* border: 1px solid red; */
     display: flex;
+    /* width: 60%; */
     justify-content: space-around;
+    /* width: 20em; */
+    /* border: 1px solid red; */
 }
 .footer-icons a{
     width: 4%;
@@ -231,6 +234,10 @@ img{
 }
 img:hover{
     transform: scale(1.125);
+}
+.about-main{
+    margin-top: 20em;
+    border: 1px soid red;
 }
 
 
