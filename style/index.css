@@ -180,3 +180,31 @@ nav {
     height:400px;
     margin:3px;
 }
+
+footer {  
+ background-color:white;
+ text-align:center;
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover {
+    color:#f91a75;
+    padding:1%;
+}
+
+footer button {
+    background-color:black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius:5px;
+    transition:1s;
+}
+
+footer button:hover {
+    background-color: #771a8c;
+    color:white;
+    padding:1%;
+}
