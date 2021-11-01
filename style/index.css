@@ -61,13 +61,6 @@ button{
     font-size:1.5rem;
     margin-top:4%;
 }
-.hero_button button{
-    padding:4% 6%;
-}
-.foot button{
-    padding:2% 4%;
-    max-width: 50%;
-}
 button:hover{
     background-color: black;
     color: #ffffff;
@@ -81,6 +74,9 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between;
+}
+.hero_button button{
+    padding:4% 6%;
 }
 .nav{
     display: flex;
@@ -163,6 +159,10 @@ footer{
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.foot button{
+    padding:2% 4%;
+    max-width: 50%;
 }
 /* Tablet View Start */
 @media (max-width: 800px){
