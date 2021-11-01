@@ -34,6 +34,8 @@ footer, header, hgroup, menu, nav, section {
 /*General Styles*/
 html{
     font-size:62.5%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 h1{
     
@@ -59,8 +61,13 @@ a{
 button{
     font-family: 'Courier Prime', monospace;
     font-size:1.5rem;
-    padding:2% 4%;
     margin-top:4%;
+}
+.hero_button button{
+    padding:4% 6%;
+}
+.foot button{
+    padding:2% 4%;
 }
 button:hover{
     background-color: black;
@@ -69,55 +76,49 @@ button:hover{
 }
 /* Header Section Styles */
 header{
-    padding-top: 4%;
-    padding-right: 4%;
-    padding-left: 2%;
+    padding-top: 4%; 
     display: flex;
     align-items: center;
     justify-content:space-between;
 }
 .nav{
-    padding: 1%;
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
 }
-.nav a{
+.nav button:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: 1s;
+}
+.nav button:active{
+    color: #ffffff;
+    background-color: #000000;
+    transition: 1s;
+}
+/* .home, .about, .contact, .projects{
+    padding: 1.5%;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+} */
+.nav button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.5%;
     height: 35px;
-    /* border: 1px solid  black; */
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
 }
-.nav a:hover{
-    color: #ffffff;
-    background-color: #000000;
-    transition: 1s;
-}
-.nav a:active{
-    color: #ffffff;
-    background-color: #000000;
-    transition: 1s;
-}
-.home{
-    padding: 1.5%;
-}
-.about{
-    padding: 1.5%;
-}
-.contact{
-    padding: 1.5%;
-}
-.projects{
-    padding: 1.5%;
-}
-
 /* Top Section Styles */
 .top{
-    padding-top: 2%;
-    padding-bottom: 4%;
+    padding: 2% 4% 4% 4%;
 }
 .hero_image{
     display: flex;
     margin: 0 auto;
-    width:90%;
+    
     height:50rem;
     background-image: url("https://i.picsum.photos/id/1081/5512/3708.jpg?hmac=40v-VuEPB-ansc0GjBF-Er6o_sqcEr1WVOAf2-QGfXM");
     background-size: cover;
@@ -182,15 +183,10 @@ header{
     padding-left: 4%;
     padding-right: 4%;
 }
-/* .gallery h3{
-    padding-top: 2%;
-    padding-bottom: 20%;
-} */
 .gallery div{
     width:50%;
     height:33.3%;
 }
 /* Mobile View Start */
 @media (max-width: 500px){
-    
 }
