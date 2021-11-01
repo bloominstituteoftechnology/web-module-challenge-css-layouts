@@ -33,8 +33,6 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    /*remove this when you are comfortable with where everything is*/
-    border:1px solid grey;   
 }
 html{
     font-size:62.5%;
@@ -48,36 +46,55 @@ body{
 
 header {
     background-color:#B0C4DE;
-}
-header a{
-    background-color: #F5F5F5;
-    
-}
-.containerNav{
-    display:flex;
+    padding: 20px;
+    margin-bottom: 15px;
 }
 
-.container1 {
-    display: flex;  
- }
-.container2 {
+.about {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.bio{
+    padding:20px;
+    width:50%;
+    margin-top:100px;
+}
+.row {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
-} 
-.container2 .item {
-    width: 75px;
-    height: 75px;
-    background: #E9967A;
-    border: 2px solid black;
-    margin: 25px;
+    padding: 20px;
+}
+.item {
+    text-align: center;
+    padding:10px;
 }
 
 footer{
     background-color:#B0C4DE;
     text-align:center;
+    padding:20px;
 }
 
+button{
+    background-color:white;
+    color:black;
+    border:black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+    border:white solid 1px;
+    padding: 5px 10px;
+}
+
+button a {
+    text-decoration:none;
+    color: inherit;
+}
 
 
 /* media queries */
