@@ -159,3 +159,11 @@ footer{
     justify-content: center;
     align-items: center
 }
+/* Tablet View Start */
+@media (max-width: 800px){
+
+}
+/* Mobile View Start */
+@media (max-width: 500px){
+    
+}
