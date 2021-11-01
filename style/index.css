@@ -126,6 +126,41 @@ footer{
       padding: 2% 2%;
   }
 
+  @media(max-width:500px){
+
+    .top button{
+        display:flex;
+        flex-flow: column;
+        width: 10rem;
+        margin:0 40%;
+        padding: 3%;
+          
+    }
+    .top p{
+        padding: 8%;
+    }
+    .top h1{
+        padding: 7%;
+        font-size: 3.5rem;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        flex-flow:row;
+        flex-wrap: wrap;
+        
+    }
+    .first, .second{
+        display: flex;
+        justify-content: center;
+        max-width: 15rem;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+      .first img,.second img{
+          padding: 2% 2%;
+      }
+
  
  
     
