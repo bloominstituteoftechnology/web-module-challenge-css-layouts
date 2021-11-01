@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 1px solid grey;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+/*Home Page Styling For Desktop*/
+html{
+    size:62.5%;
+}
+body{
+box-sizing: border-box;
+}
+/* Navigation/Header Styling for Home Page Desktop */
+header {
+    display: flex;
+
+}
+header .logo {
+    width: 50%;
+}
+header .logo img {
+    height:7%;
+}
+header .links {
+    width: 50%;
+
+}
+header .links nav {
+    justify-content:space-evenly;
+}
+
+/* Intro/Headline Styling for Home Page Desktop */
+
+
+/* Content Styling For Home Page Desktop */
+.content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box {
+    width:20%;
+    margin:5%;
+    text-align: center;
+}
+
