@@ -20,13 +20,14 @@ time, mark, audio, video {
 }
 html {
     background-color: black;
+    font-size: 62.5%;
 }
 body {
     max-width:100%;
     max-height:100%;
     background-color: aquamarine;
-    margin: 1vh;
-    border-radius: 1vh;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 a {
     text-decoration: none;
@@ -38,26 +39,28 @@ ul {
 .navBar {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     padding:1%;
 }
 .navBar h1 {
     display: inline-block;
-    margin-bottom:1vh;
+    margin-bottom:1rem;
     font-family: 'Varela Round', sans-serif;
-    font-size: 5vh;
+    font-size: 4em;
 }
 .navBar h1:hover {
-    border-bottom: 0.3vh solid black;
+    border-bottom: 0.2rem solid black;
     transition: 300ms;
 }
 .navBar ul {
     display: inline-block;
 }
 .navBar li {
-    font-family: 'Fredoka One', cursive;
+    text-align: center;
     display: inline-block;
-    padding:2vh 2vh 2vh 2vh;
-    border:0.3vh solid black;
+    font-family: 'Fredoka One', cursive;
+    padding:2rem;
+    border:0.15rem solid black;
     border-radius: 0.5vh;
 }
 .navBar li:hover {
@@ -66,38 +69,61 @@ ul {
 }
 /* Nav bar complete */
 .section1 {
-    padding:1vh;
+    padding:1rem;
     display:flex;
     overflow: hidden;
     background-color: peachpuff;
 }
-.section1box1 img {
-    border-radius: 1vh;
+.section1box1 p {
+    border-radius: 1rem;
+    background-color: aqua;
+    width: 30rem;
+    height:30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1box1 p:hover {
+    transition:300ms;
+    border:0.15rem solid black;
+}
+.section1box1 {
+    box-sizing: border-box;
+    width: 30rem;
+    height:30rem;
 }
 .section1box2 {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
 .section1box2 div {
     max-width: 80%;
-    border:0.3vh solid black;
-    border-radius: 1vh;;
+    border:0.15rem solid black;
+    border-radius: 0.15rem;
 }
 .section1box2 div p{
-    padding:1vh;
+    padding: 1rem;
+    font-family: 'Varela Round', sans-serif;
 }
 .section1box2 h2 {
     font-family: 'Varela Round', sans-serif;
-    font-size: 5vh;
+    font-size: 4rem;
+    text-align: center;
 }
+.section1box2 h2:hover {
+    border-bottom: 0.2rem solid black;
+    transition: 300ms;
+}
+
 .section1box2 button {
     cursor: pointer;
-    font-family: 'Fredoka One', cursive;
-    padding:2vh 2vh 2vh 2vh;
-    border:0.3vh solid black;
-    border-radius: 0.5vh;
+    font-family: 'Fredoka One';
+    padding:1.8rem;
+    border:0.15rem solid black;
+    border-radius: 0.15rem;
 }
 .section1box2 button:hover {
     background-color:black;
@@ -107,30 +133,44 @@ ul {
 /* Section 1 End */
 
 .section2 {
-    background-color: whitesmoke;
+    background-color: pink;
     display:flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .section2box1, .section2box2 {
     margin:3vh;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+    height: 100%;
 }
 .section2box1 div, .section2box2 div {
     display:flex;
+    border-radius: 1rem;;
+    background-color: aqua;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 10em;
+    height: 10em;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.section2 img {
-    border-radius: 1vh;
+.section2 p {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section2 label {
     font-family: 'Varela Round', sans-serif;
 }
-.section2 img:hover {
+.section2 p:hover {
     transition:300ms;
-    border:0.3vh solid black;
+    border:0.15rem solid black;
 }
 /* Section 2 End */
 footer {
@@ -138,11 +178,12 @@ footer {
     justify-content: center;
 }
 form {
+    font-size: 1rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:3vh;
+    margin:1rem;
 }
 form h2 {
     font-family: 'Varela Round', sans-serif;
@@ -150,4 +191,25 @@ form h2 {
 
 /* Finished */
 
+@media (Max-width:800px){
+    /* Looks Good At 800 */
+}
 
+@media (Max-width:500px){
+    .section1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navBar {
+        align-items: center;
+    }
+    .navBar ul {
+        display:flex;
+        flex-direction: column;
+    }
+    .navBar li {
+        display:block;
+    }
+}
