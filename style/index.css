@@ -70,7 +70,7 @@ p{
 
 .row img{
     
-    border: green 2px solid;
+    /* border: green 2px solid; */
 
 }
 
@@ -107,7 +107,16 @@ button a{
 
 /* Tablet is ~ 800px */
 @media (max-width: 800px){
+    .row img {
+        text-align:center;
+        flex-flow: wrap;
+        width: 15%;
 
+        margin-right: 2rem;
+
+        border: green 2px solid;
+    
+    }
 };
 
 /* end of tablet ~800px */
