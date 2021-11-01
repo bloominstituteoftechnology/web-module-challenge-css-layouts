@@ -209,7 +209,7 @@ footer button:hover {
     padding:1%;
 }
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     nav {
         justify-content:center;
     }
@@ -222,5 +222,43 @@ footer button:hover {
     #home {
         height:70vh;
     }
-}
+} */
 
+@media (max-width:500px) {
+
+    body {
+        background-color:#f91a75;
+    }
+    nav {
+        display:flex;
+        flex-flow:column;
+        align-items:center;
+        flex-wrap:wrap;
+        position:relative;
+        background-color:#f91a75;
+        margin-bottom:15px;
+    }
+    .goatlogo {
+        width:100px;
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .links {
+        flex-wrap:wrap;
+    }
+    nav a {
+        font-size:40px;
+    }
+    #home {
+        background-position-y: 16%;
+        background-attachment:local;
+        height:85vh;
+    }
+
+    h1 {
+        font-size:7rem;
+    }
+
+
+
+}
