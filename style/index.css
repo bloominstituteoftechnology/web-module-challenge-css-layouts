@@ -11,7 +11,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	}
 /* remember to define focus styles! */
 :focus {
@@ -21,31 +21,53 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 /*Home Page Styling For Desktop*/
 html{
     size:62.5%;
+    font-family: 'Bebas Neue', cursive;
 }
 body{
 box-sizing: border-box;
+background-color:#457b9d ;
 }
 /* Navigation/Header Styling for Home Page Desktop */
 header {
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1d3557;
 }
 header .logo {
     width: 50%;
+    height: 10%;
 }
 header .logo img {
-    height:7%;
+    height:3.5rem;
+    margin: 1rem;
 }
 header .links {
     width: 50%;
-
+    height: 10%;
+    margin: 2.5rem;
 }
 header .links nav {
-    justify-content:space-evenly;
+    text-align: right;
+
 }
+header .links nav a {
+    text-decoration: none;
+    color: #f1faee;
+    padding: 1rem;
+    background-color:#a8dadc;
+    
 
+}
 /* Intro/Headline Styling for Home Page Desktop */
-
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.headLine {
+    margin: 5rem;
+    
+}
 
 /* Content Styling For Home Page Desktop */
 .content {
@@ -53,9 +75,30 @@ header .links nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.box {
+.content .box {
     width:20%;
     margin:5%;
     text-align: center;
 }
 
+.content .box .textContainer {
+    color: #f1faee;
+    text-align: center;
+}
+
+
+/* Footer Styling for HomePage */
+footer{
+    background-color: #e63946;
+    padding: 5rem 0%;
+    display: flex;
+    justify-content: center;
+}
+footer .info a {
+    text-decoration: none;
+    color:#f1faee;
+    background-color:#a8dadc ;
+    padding: 1rem 4rem;
+    align-items: center;
+
+}
