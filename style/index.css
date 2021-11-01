@@ -208,3 +208,19 @@ footer button:hover {
     color:white;
     padding:1%;
 }
+
+@media (max-width:800px) {
+    nav {
+        justify-content:center;
+    }
+    .goatlogo {
+        display:none;
+    }
+    nav a {
+        margin-left:50px;
+    }
+    #home {
+        height:70vh;
+    }
+}
+
