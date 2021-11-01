@@ -28,3 +28,79 @@ footer{
 .portfolio-element{
     text-align: center;
 }
+
+@media (max-width: 800px){
+    header {
+        text-align:center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav button{
+        width: 25%;
+        align-self: center;
+    }
+
+    .topsection {
+        display: flex;
+        flex-direction: column;
+    }
+    .topsection .description {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .portfolio-element {
+        width: 45%;
+        height: 45%;
+
+    }
+
+
+}
+
+@media (max-width: 500px){
+    header {
+        text-align:center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav button{
+        width: 25%;
+        align-self: center;
+    }
+
+    .topsection {
+        display: flex;
+        flex-direction: column;
+    }
+    .topsection .description {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .portfolio-element {
+        width: 45%;
+        height: 45%;
+
+    }
+}
