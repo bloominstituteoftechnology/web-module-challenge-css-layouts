@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
+    border:black solid 1px;
 }
 html{
     font-size:62.5%;
@@ -54,7 +55,12 @@ header {
     display:flex;
     flex-direction:row;
     justify-content:center;
+    padding:20px;
 }
+.about img{
+    max-width:75%;
+}
+
 .bio{
     padding:20px;
     width:50%;
@@ -96,9 +102,36 @@ button a {
     color: inherit;
 }
 
+.container1{
+    padding:10px;
+}
+
 
 /* media queries */
 
 /* tablet 800 px */
+@media (max-width:800px){
+    .about img {
+        max-width:60%;
+    }
+}
 
 /* mobile 500 px */
+@media (max-width:500px){
+    header{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container1{
+        display:flex;
+        justify-content:center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    
+        
+}
