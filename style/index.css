@@ -33,7 +33,6 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:black solid 1px;
 }
 html{
     font-size:62.5%;
@@ -57,10 +56,6 @@ header {
     justify-content:center;
     padding:20px;
 }
-.about img{
-    max-width:75%;
-}
-
 .bio{
     padding:20px;
     width:50%;
@@ -70,12 +65,12 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
 }
 .item {
     text-align: center;
     padding:10px;
 }
+
 
 footer{
     background-color:#B0C4DE;
@@ -111,6 +106,9 @@ button a {
 
 /* tablet 800 px */
 @media (max-width:800px){
+    body{
+        font-size:1.8rem;
+      }
     .about img {
         max-width:60%;
     }
@@ -118,10 +116,22 @@ button a {
 
 /* mobile 500 px */
 @media (max-width:500px){
+    body{
+        font-size:1.6rem;
+      }
+
+    h1{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+
     header{
         display:flex;
         flex-direction: column;
         text-align: center;
+        background-color:white;
     }
     .container1{
         display:flex;
@@ -132,6 +142,28 @@ button a {
         flex-direction: column;
         width: 30%;
     }
-    
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .about img{
+        margin-left:20%;
+    }
+
+    .bio{
+        width:100%;
+        margin-top:5%;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;       
+    }
+    .item{
+        width:50%;
+    }
+
         
 }
