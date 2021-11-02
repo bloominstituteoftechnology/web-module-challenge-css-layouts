@@ -21,13 +21,15 @@ time, mark, audio, video {
 html {
     background-color: black;
     font-size: 62.5%;
+    font-family: 'Fredoka One', cursive;
+
 }
 body {
     max-width:100%;
     max-height:100%;
-    background-color: aquamarine;
-    margin: 1rem;
-    border-radius: 1rem;
+    background-color:honeydew;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
 }
 a {
     text-decoration: none;
@@ -37,15 +39,18 @@ ul {
     list-style-type: none;
 }
 .navBar {
+    background-color: cornflowerblue;
     display:flex;
     flex-direction: column;
     justify-content: center;
     padding:1%;
 }
+.navBar h1,ul {
+    margin-left:2%;
+}
 .navBar h1 {
     display: inline-block;
     margin-bottom:1rem;
-    font-family: 'Varela Round', sans-serif;
     font-size: 4em;
 }
 .navBar h1:hover {
@@ -67,149 +72,115 @@ ul {
     background-color: white;
     transition: 300ms;
 }
-/* Nav bar complete */
+/* Nav End */
 .section1 {
-    padding:1rem;
-    display:flex;
-    overflow: hidden;
-    background-color: peachpuff;
-}
-.section1box1 p {
-    border-radius: 1rem;
-    background-color: aqua;
-    width: 30rem;
-    height:30rem;
+    background-color: cornsilk;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    margin-top:1%;
 }
-.section1box1 p:hover {
-    transition:300ms;
-    border:0.15rem solid black;
+.section1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;;
 }
 .section1box1 {
-    box-sizing: border-box;
-    width: 30rem;
-    height:30rem;
+    margin-left:3%;
+    width:50rem;
+    height:50rem;
+    background-color: burlywood;
 }
 .section1box2 {
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
+    width:50rem;
+    height:50rem;
+    margin-left:10%;
 }
-.section1box2 div {
-    max-width: 80%;
-    border:0.15rem solid black;
-    border-radius: 0.15rem;
-}
-.section1box2 div p{
-    padding: 1rem;
-    font-family: 'Varela Round', sans-serif;
+.section1box2 div{
+max-width: 50%;
+margin:2% 0;
 }
 .section1box2 h2 {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 4rem;
     text-align: center;
+    font-size: 3rem;
 }
-.section1box2 h2:hover {
-    border-bottom: 0.2rem solid black;
-    transition: 300ms;
+.section1box2 p {
+    text-align: center;
+    font-size: 1.5rem;
 }
-
-.section1box2 button {
+#button1 {
     cursor: pointer;
-    font-family: 'Fredoka One';
-    padding:1.8rem;
+    padding:0.5rem;
     border:0.15rem solid black;
-    border-radius: 0.15rem;
+    border-radius: 0.5rem;
 }
-.section1box2 button:hover {
-    background-color:black;
-    color:white;
-    transition:300ms;
-}
-/* Section 1 End */
-
+/* Section1 End */
 .section2 {
-    background-color: pink;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.section2box1, .section2box2 {
-    margin:3vh;
+    background-color:floralwhite;
+    margin:1% 0;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-}
-.section2box1 div, .section2box2 div {
-    display:flex;
-    border-radius: 1rem;;
-    background-color: aqua;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10em;
-    height: 10em;
-    box-sizing: border-box;
-    overflow: hidden;
 }
-.section2 p {
-    border-radius: 1rem;
+.section2 div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin:1%;
+    width:28rem;
+    height:28rem;
+    
 }
-.section2 label {
-    font-family: 'Varela Round', sans-serif;
-}
-.section2 p:hover {
-    transition:300ms;
-    border:0.15rem solid black;
+.section2 img {
+    width: 100%;
+    height:100%;
+    border-radius: 0.5rem;
 }
 /* Section 2 End */
+
 footer {
-    display:flex;
+    background-color: cornflowerblue;
+    display: flex;
     justify-content: center;
 }
 form {
     font-size: 1rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin:1rem;
 }
-form h2 {
-    font-family: 'Varela Round', sans-serif;
-}
-
-/* Finished */
 
 @media (Max-width:800px){
-    /* Looks Good At 800 */
-}
-
-@media (Max-width:500px){
-    .section1 {
-        display:flex;
+    .section1{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+    }
+    .section1box1 {
+        margin:2rem 0 0 0;
+        width:30rem;
+        height:30rem;
+    }
+    .section1box2 {
+        margin:0;
     }
     .navBar {
+        justify-content: center;
         align-items: center;
+        text-align: center;
     }
+}
+@media (Max-width:500px){
     .navBar ul {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
     .navBar li {
-        display:block;
+        display: block;
     }
 }
