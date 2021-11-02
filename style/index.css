@@ -20,15 +20,15 @@ body{
 }
 h1{
     color:#4f4f4f;
-    font-size:6rem;
+    font-size:7rem;
     font-family: 'Oxygen', sans-serif;
 }
 h2{
-    font-size:3rem;
+    font-size:4rem;
     padding-top: 1rem;
 }
 h3{
-    font-size:2.2rem;
+    font-size:3rem;
 }
 h2, h3{
     color:#131a14;
@@ -39,7 +39,8 @@ h2, h3{
 p{
     font-family: 'Oxygen', sans-serif;
     margin-bottom:5%;
-    margin-top:5%
+    margin-top:5%;
+    font-size: 3rem;
 }
 
 .top{
@@ -51,8 +52,9 @@ p{
     margin-bottom:5%;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
+
+
 .footer{
     background-color: lightgrey;
     text-align: center;
@@ -64,12 +66,18 @@ p{
     justify-content:space-evenly;
     padding:5%;
     margin-left: 7.5rem;
+    border: red 2px solid;
+    
+    
 }
 
-.row img{
+img{
+    /* border:green 5px solid; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: 7.5rem;
     
-    border: red 2px solid;
-
 }
 
 
@@ -113,7 +121,7 @@ button a{
         flex-wrap: wrap;
         justify-content:center;
         margin-left: 7.5rem;
-        
+        width: 10%
         
     }
 };
@@ -123,15 +131,25 @@ button a{
 
 /*  THIS IS THE PHONE 500px! */
 @media (max-width: 500px){
-    .row  {
-        text-align:center;
-        flex-flow: wrap;
-        width: 10%;
-        border: blue 2px solid;
-        margin-right: 2rem;
 
-        /* border: green 2px solid; */
-    
-    }
+    .row img{
+        border:green 5px solid;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-left: 7.5rem;
+        width: 10%
+        
 };
+
+
+
+/* .row{ 
+    text-align:center;
+    flex-flow: wrap;
+    width: 10%;
+    border: blue 2px solid;
+    margin-right: 2rem;
+
+    /* border: green 2px solid; */
 
