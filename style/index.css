@@ -52,13 +52,13 @@ nav{
     
 }
 
-.heroimg {
+.hero-img {
 	display: flex;
     align-items: center;
   justify-content: center;
 }
 
-.herobox {
+.hero-box {
     text-align: center;
   position: absolute;
   top: 50%;
@@ -67,11 +67,11 @@ nav{
   color: rgb(180, 4, 4);
   }
 
-  .herobox h2{
+  .hero-box h2{
     font-weight: bolder;
     font-size: 2em;
   }
-  .herobox h3{
+  .hero-box h3{
     font-weight: bolder; 
     font-size: 1.2em;
   }
@@ -200,27 +200,55 @@ ul {
   
   
   
-  @media (min-width: 769px) {
-      .header,
-      .main-nav {
-          display: flex;
-      }
-      .header {
-          flex-direction: column;
-          align-items: center;
-          .header{
-          width: 80%;
-          margin: 0 auto;
-          max-width: 1150px;
-      }
-      }
-  
-  }
-  
-  @media (min-width: 1025px) {
-      .header {
-          flex-direction: row;
-          justify-content: space-between;
-      }
-  
-  }
+  @media(max-width: 500px){
+	header{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		height: 25vh;
+	}
+	.header{
+	position: relative;
+	top: 0;
+	height: 11vh;
+	margin-top: 10%;
+	}
+
+	header nav{
+		display: flex;
+		flex-direction: column;
+		align-content: space-around;
+		margin: 5%;
+	}
+	.hero-img{
+		margin: 10%;
+	}
+
+	.hero-img img{
+		width: 100%;
+		height: 20vh;
+	}
+
+	.hero-box {
+		position: absolute;
+		top: 40%;
+		left: 40%;
+	}
+	.container{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.container .item{
+		width: 60%;
+		height: 60%;
+	}
+
+	.item img{
+		width: 90%;
+		height: 90%;
+	}
+
+	
+}
+
