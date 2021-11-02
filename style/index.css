@@ -58,6 +58,8 @@ button{
     color: black;
     border: black solid 1px;
     padding: 5px 10px;
+    margin-left: 0.05%;
+    margin-right: 0.05%;
 }
 button:hover{
     background-color:black;
@@ -90,6 +92,7 @@ nav{
         flex-direction:column;
         justify-content:center;
         align-items: center;
+        margin: 0;
     }
     nav{
         display:flex;
@@ -121,5 +124,8 @@ nav{
     .row div{
         width:40%;
         margin:4% 0;
+    }
+    footer{
+        margin: 0;
     }
 }
