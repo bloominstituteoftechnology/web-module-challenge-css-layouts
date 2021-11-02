@@ -15,10 +15,12 @@ header{
 }
 footer{
     background-color: lightgrey;
-    text-align: center;
     padding: 20px;
-    margin:5%;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
 }
 .parentOne{
     display: flex;
@@ -45,7 +47,10 @@ footer{
     justify-content:space-evenly;
     flex-direction:row;
     padding:20px;
-    
+}
+.row p{
+    font-size: 1.7rem;
+    padding-top: 2%;
 }
 .randomImage{
     text-align:center;
@@ -58,6 +63,8 @@ button{
     color: black;
     border: black solid 1px;
     padding: 5px 10px;
+}
+nav button{
     margin-left: 0.05%;
     margin-right: 0.05%;
 }
@@ -74,6 +81,24 @@ button a{
 nav{
     margin:2% 0;
     display:flex;
+    margin-left: 1.5%;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 2rem;
+    text-align: center;
+}
+footer a{
+    font-size: 1.2rem;
+}
+footer button{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 @media(max-width:800px){
     .row div{
@@ -93,6 +118,7 @@ nav{
         justify-content:center;
         align-items: center;
         margin: 0;
+        background-color: white;
     }
     nav{
         display:flex;
@@ -108,6 +134,9 @@ nav{
         display:flex;
         flex-direction:column;
         align-items:center;
+    }
+    .parentOne img{
+        width: 80%;
     }
     .boxTwo{
         text-align:center;
@@ -127,5 +156,11 @@ nav{
     }
     footer{
         margin: 0;
+    }
+    footer p{
+        font-size: 1.5rem;
+    }
+    footer button{
+        padding-left: 1.5%;
     }
 }
