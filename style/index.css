@@ -83,12 +83,12 @@ ul {
 .section1 img {
     height: 100%;
     width: 100%;
-    border-radius: 0.5rem;;
+    border-radius: 0.5rem;
 }
 .section1box1 {
     margin-left:3%;
-    width:50rem;
-    height:50rem;
+    width:40rem;
+    height:40rem;
     background-color: burlywood;
 }
 .section1box2 {
@@ -132,7 +132,7 @@ margin:2% 0;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin:1%;
+    margin:2%;
     width:28rem;
     height:28rem;
     
@@ -141,6 +141,9 @@ margin:2% 0;
     width: 100%;
     height:100%;
     border-radius: 0.5rem;
+}
+.section2 label {
+    font-size: 2rem;
 }
 /* Section 2 End */
 
@@ -167,6 +170,8 @@ form {
         height:30rem;
     }
     .section1box2 {
+        width:30rem;
+        height:30rem;
         margin:0;
     }
     .navBar {
@@ -182,5 +187,24 @@ form {
     }
     .navBar li {
         display: block;
+    }
+    .section1box1 {
+        background: cyan;
+        margin:4rem 0 0 0;
+        width:20rem;
+        height:20rem;
+    }
+    .section1{
+        justify-content: none;
+        align-items: none;
+    }
+    .section2 div {
+        width:20rem;
+        height:20rem;
+        margin:3%;
+    }
+    .section1box2 {
+        width:30rem;
+        height:30rem;
     }
 }
