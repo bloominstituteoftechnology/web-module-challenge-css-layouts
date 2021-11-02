@@ -81,6 +81,8 @@ button a{
 nav{
     margin:2% 0;
     display:flex;
+}
+header nav{
     margin-left: 1.5%;
 }
 footer nav{
@@ -125,10 +127,14 @@ footer button{
         flex-direction:column;
         align-items: center;
         width:100%;
+        margin: 0%;
+    }
+    header nav{
+        margin: 0%;
     }
     button{
         width:40%;
-        margin:1% 0;
+        margin: 0.1%;
     }
     .parentOne{
         display:flex;
@@ -159,6 +165,7 @@ footer button{
     }
     footer p{
         font-size: 1.5rem;
+        padding-bottom: 2%;
     }
     footer button{
         padding-left: 1.5%;
