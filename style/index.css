@@ -64,13 +64,11 @@ p{
     justify-content:space-evenly;
     padding:5%;
     margin-left: 7.5rem;
- 
-   
 }
 
 .row img{
     
-    /* border: green 2px solid; */
+    border: red 2px solid;
 
 }
 
@@ -105,25 +103,35 @@ button a{
 }
 /* Here is the day 2 work- Responsive styles */
 
-/* Tablet is ~ 800px */
+
+/* Tablet ~800px */
+
 @media (max-width: 800px){
-    .row img {
+    .row img{
+        border:green 5px solid;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-left: 7.5rem;
+        
+        
+    }
+};
+/* end of tablet */
+
+
+
+/*  THIS IS THE PHONE 500px! */
+@media (max-width: 500px){
+    .row  {
         text-align:center;
         flex-flow: wrap;
-        width: 15%;
-
+        width: 10%;
+        border: blue 2px solid;
         margin-right: 2rem;
 
-        border: green 2px solid;
+        /* border: green 2px solid; */
     
     }
 };
 
-/* end of tablet ~800px */
-
-/* Mobile view ~500px */
-@media (max-width: 800px){
-
-};
-
-/* end of mobile 500px */
