@@ -1,1 +1,57 @@
 /* Add CSS styling here */
+*{
+
+}
+
+/* nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding-top: 2.5%;
+    margin: 0;
+
+}
+h2{
+    font-size: 120%;
+    align-items: left;
+    margin-bottom: 0;
+}
+a{
+    padding:1rem 1.5rem;
+    border:2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+/*heading*/
+header{
+    align-items: center;
+    text-align: center;
+    padding: 10% 0;
+    margin: 0 10% 2.5% 10%;
+    border: 2px solid black;
+}
+
+/* main text */
+img{
+    width: 10rem;
+}
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    text-align: center;
+    margin-top: 0;
+}
+
+/*footer*/
+footer{
+    align-items: center;
+    text-align: center;
+    padding: 7.5% 10%;
+    background-color: grey;
+}
