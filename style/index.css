@@ -1,1 +1,7 @@
-/* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
