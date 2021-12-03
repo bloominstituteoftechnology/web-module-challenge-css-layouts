@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 html{
     font-size:62.5%;
@@ -20,6 +20,10 @@ h1, h2, h3{
 }
 h1{
     font-size:6rem;
+    color:#fbfffb;
+}
+p{
+    font-size:3rem;
     color:#fbfffb;
 }
 h2{
@@ -50,10 +54,16 @@ footer{
     background-color: #BDB76B;
     height: 15vh;
     display:flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+.social-media{
+    height:3vh;
+    width:8%;
+}
+
 
 .bg-img{
     background-size:cover;
