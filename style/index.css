@@ -1,1 +1,109 @@
-/* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+html{
+    font-size:62.5%;
+}
+body{
+    background-color: #FDF5E6;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+    text-align: center;
+    letter-spacing:2px;
+    margin-bottom:2%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size:6rem;
+    color:#fbfffb;
+}
+p{
+    font-size:3rem;
+    color:#fbfffb;
+}
+h2{
+    font-size:4.2rem;    
+}
+h3{
+    font-size:3rem;
+}
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    transition:2s;
+    color:#4f4f4f;
+}
+button{
+    background-color: #FFE4B5;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4f4f;
+    padding: 5px 10px;
+    height:4.8vh;
+}
+button:hover{
+    background-color:#4f4f4f;
+    color:#FFE4B5;
+    transition:1s;
+}
+footer{
+    background-color: #BDB76B;
+    height: 15vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-media{
+    height:3vh;
+    width:8%;
+}
+
+
+.bg-img{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height:6vh;
+}
+
+
+#main{
+    height:50vh;
+    background-image:url('../images/maps.jpg');
+    background-position: bottom;
+    margin: 5% 5% 5% 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-projects, .bot-projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bot-projects{
+    margin-bottom:5%;
+}
+.project {
+    text-align: center;
+    padding:10px;
+}
+.project img{
+    width: 100%;
+    height: 400px;
+}
