@@ -9,3 +9,36 @@
 
 }
 
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.MyName{
+     display: flex;
+     align-items:  center;
+     justify-content: center;
+     padding: 1rem;
+ }
+ 
+ .Intro{
+     display: flex;
+     align-items:  center;
+     justify-content: center;
+     padding: 1rem;
+ }
+
+.bigpicture{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.bestofthebest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
