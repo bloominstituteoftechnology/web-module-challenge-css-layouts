@@ -110,11 +110,29 @@ nav{
 
 /* Tablet Styling */
 @media(max-width:800px) {
-
+    button{
+        height: 8vh;
+    }
+    footer{
+        height:30vh;
+    }
+    h1{
+        font-size:5rem;
+    }
+    h2{
+        font-size:3rem;
+    }
+    #main p{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
 }
 
 
 /* Phone Styling */
 @media(max-width:500px){
     
+
 }
