@@ -51,3 +51,96 @@ footer{
 p{
     padding: 50px;
 }
+
+@media(max-width: 800px){
+    nav{
+        flex-wrap:wrap;
+        justify-content: center;
+        padding-bottom:2%;
+    }
+    .links{
+        width:100%;
+    }
+    .logo img{
+        width:100%;
+    }
+    /*top section styles*/
+    #top{
+        margin-top:12%;
+    }
+    /*about section styles*/
+    #about{
+        background-image:none;
+        background-color:#dedfe0;
+        justify-content: center;
+        height: auto;
+        padding:8% 0;
+    }
+    #about div{
+        width:80%;
+        margin-right:0;
+    }
+    .left div{
+        width:80%;
+    }
+}
+
+/*Phone*/
+
+@media(max-width: 500px){
+  .logo{
+      width:10%;
+  }
+  #top{
+      margin-top:18%;
+  }
+}
+.container {
+    justify-content:  center;
+}
+.one{
+    order: 1;
+    width: 90%;
+}
+.two{
+    order: 2;
+}
+
+.three{
+    order: 3;
+
+}
+.four{
+    order: 4;
+}
+.five{
+    order: 5;
+    width: 90%;
+}
+.six{
+    order: 6;
+    width: 90%;
+}
+
+.text div{
+    width: 90%;
+}
+footer h2{
+    order: -2;
+}
+.right{
+    order: -1;
+}
+.right img{
+    width: 60%;
+}
+.left div{
+width: 100%;
+text-align: center;
+}
+footer h3{
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+}
