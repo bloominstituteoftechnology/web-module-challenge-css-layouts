@@ -1,1 +1,129 @@
 /* Add CSS styling here */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.MyName{
+     display: flex;
+     align-items:  center;
+     justify-content: center;
+     padding: 1rem;
+ }
+ 
+ .Intro{
+     display: flex;
+     align-items:  center;
+     justify-content: center;
+     padding: 1rem;
+ }
+
+.bigpicture{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.bestofthebest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem
+}
+p{
+    padding: 50px;
+
+}
+
+
+
+
+/* first media query */
+
+@media(max-width: 800px){
+    nav{
+        flex-wrap:wrap;
+        justify-content: center;
+        padding-bottom:2%;
+    }
+    .links{
+        width:100%;
+    }
+    .logo img{
+        width:100%;
+    }
+    /*top section styles*/
+    #top{
+        margin-top:12%;
+    }
+    /*about section styles*/
+    #about{
+        background-image:none;
+        background-color:#dedfe0;
+        justify-content: center;
+        height: auto;
+        padding:8% 0;
+    }
+    #about div{
+        width:80%;
+        margin-right:0;
+    }
+    .left div{
+        width:80%;
+    }
+}
+
+/*Phone*/
+
+@media(max-width: 500px){
+  .logo{
+      width:10%;
+  }
+  #top{
+      margin-top:18%;
+  }
+}
+.container {
+    justify-content:  center;
+}
+
+.text div{
+    width: 90%;
+}
+footer h2{
+    order: -2;
+}
+.right{
+    order: -1;
+}
+.right img{
+    width: 60%;
+}
+.left div{
+width: 100%;
+text-align: center;
+}
+footer h3{
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+}
