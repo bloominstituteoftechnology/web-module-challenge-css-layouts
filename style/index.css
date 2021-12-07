@@ -130,10 +130,74 @@ button:hover{
     text-align: center;
     margin-top: 20%;
 }
+/* responsive styles*/
+@media (max-width: 800px) {
+    .name{
+        text-align: center;
+        padding: 1%;
+    
+    }
+    nav{
+        background-color: #949976;
+    }
+    a:hover{
+        color: #fff;
+        background-color: #e5dac9;
+    }
+    .links{
+        margin-left: 37%;
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 0.8rem;
+        
+    }
+    #projects{
+        height: 400px;
+        max-width: 800px;
+    
+    }
+}/*closes media query for tab*/
+@media (max-width: 500px) {
+    body {
+        font-size: 1rem;
+        
+    }
+    .links{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+        background-color: #949976;
+        padding: 1%;
+
+        
+    }
+    #projects{
+        height: 300px;
+        max-width: 500px;
+    }
+    .bottom-container{
+        padding: 2%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    
+    .project1, .project2, .project3, .project4, .info{
+        width: 49%;
+    
+    }
+    footer{
+        height: auto;
+    }
+}/*closes media query for mobile*/
 footer{
-    background-color: #e5dac9;
+    background-color: #faf4ea;
     padding: 4%;
-    align-items: center;
 }
 footer button{
    margin-left: 40%;
