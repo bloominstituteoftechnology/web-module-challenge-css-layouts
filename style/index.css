@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 
 }
 
@@ -50,7 +50,13 @@ footer{
 }
 p{
     padding: 50px;
+
 }
+
+
+
+
+/* first media query */
 
 @media(max-width: 800px){
     nav{
@@ -97,29 +103,6 @@ p{
 }
 .container {
     justify-content:  center;
-}
-.one{
-    order: 1;
-    width: 90%;
-}
-.two{
-    order: 2;
-}
-
-.three{
-    order: 3;
-
-}
-.four{
-    order: 4;
-}
-.five{
-    order: 5;
-    width: 90%;
-}
-.six{
-    order: 6;
-    width: 90%;
 }
 
 .text div{
