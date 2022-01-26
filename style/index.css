@@ -10,19 +10,20 @@
     justify-content: center;
     font-size: 4em;
     width: 100%;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .header-nav {   
     display: flex;
     align-items: stretch;
-
+    font-family: 'Source Code Pro', monospace;
 }
 
 .nav-home {
     border: .2em solid black;
     padding: 1em;
     border-right: 0em;
-    width: 3em;
+    width: 4em;
     display: flex;
     justify-content: center;
 }
@@ -31,7 +32,7 @@
     border: .2em solid black;
     padding: 1em;
     border-right: 0em;
-    width: 3em;
+    width: 4em;
     display: flex;
     justify-content: center;
 }
@@ -40,7 +41,7 @@
     border: .2em solid black;
     padding: 1em;
     border-right: 0em;
-    width: 3em;
+    width: 4em;
     display: flex;
     justify-content: center;
 }
@@ -48,19 +49,21 @@
 .nav-projects {
     border: .2em solid black;
     padding: 1em;
-    width: 3em;
+    width: 4em;
     display: flex;
     justify-content: center;
 }
 
 .intro-title {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .intro {
     text-align: center;
     margin: 4em 10em 4em 10em;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .body-image {
@@ -95,6 +98,7 @@
     display: flex;
     align-items: center;
     margin: 2em;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .footer {
@@ -102,11 +106,12 @@
     display: flex;
     justify-content: center;
     padding: 5em;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .contact-me{
     background-color: white;
     padding: 1em;
-    width: 3em;
+    width: 4em;
     border: .2em solid black;
 }
