@@ -1,1 +1,165 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+    border:1px solid red;
+    max-width:100%;
+    background-color: #d0cfcf;
+}
+
+header{
+    background-color: #7a7d7d;
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.top {
+  display:flex;
+  justify-content: center;
+  padding:20px;
+}
+footer{
+    background-color:#7A7D7D;
+    padding: 30px;
+    margin-bottom:15px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.intro{
+    padding: 30px;
+    text-align: center;
+}
+.bottom{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow:row nowrap;
+    padding:20px;
+}
+.my-stuff{
+    text-align: center;;
+}
+button{
+background-color: #fffbfe;
+color:#565254;
+border:black solid 1px;
+padding: 5px 10px;
+border-radius: 20px;
+border-style: groove;
+}
+button:hover {
+    background-color: black;
+    color:#565254;
+    border:white solid 1px;
+    padding: 5px 10px;
+}
+
+button a {
+    text-decoration: none;
+    color:inherit;
+    background-color: inherit;
+}
+img{
+    border-radius: 20px;
+    padding:10px;
+}
+body {
+    font-family: 'Lora', serif;
+    font-size: medium;
+    color:#565254
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    text-transform: uppercase;
+    font-size:larger;
+    background-color: inherit;
+    color:black
+}
+.lower{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+nav{
+    background-color: inherit;
+}
+
+.bio{
+    display: flex;
+    flex-flow: row unwrap;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+.bio h1{
+    display:flex;
+}
+.early-years{
+    display:flex;
+    border:1px solid black;
+    text-align:center
+}
+.teenage-years{
+    display: flex;
+}
+.adult-years{
+    display: flex;
+}
+.programming{
+    display: flex;
+}
