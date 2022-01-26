@@ -1,1 +1,90 @@
 /* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+html{
+    font-size: 70%;
+}
+body{
+    font-size: 1.8rem;
+  line-height: 1.5;
+  color: #C289E3;
+  font-family: "PT Sans", sans-serif;
+  background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/110585-blue-and-purple-blurred-background-vector.jpg?w=420");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.image-button{
+    background-image: url("https://img2.wallspic.com/previews/5/4/9/4/6/164945/164945-neon-neon_sign-light-majorelle_blue-purple-x750.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f8e495;
+    font-size: large;
+    width: 600px;
+    height: 400px;
+}
+footer{
+    color:#f8e495;
+    background-color: #7359C9;
+    padding: 30px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+.text {
+    background-color: black;
+    width: 60%;
+    border: 3px solid #f8e495;
+    text-align: center;
+    padding: 4%;
+}
+.text p {
+    text-align: left;
+}
+  
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.protfolio-element{
+    text-align: center;
+}
+
+button {
+    background-color: inherit;
+    color:#f8e495;
+    border: black;
+}
+
+button:hover { 
+    color:white;
+    border:violet;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
