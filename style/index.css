@@ -1,1 +1,93 @@
 /* Add CSS styling here */
+body{
+    background-color: #498ef5;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
+.top{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.image-button{
+    background:url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: large;
+    width:600px;
+    height:400px;
+}
+
+footer{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-top:4%;
+}
+
+.gallery-image{
+    text-align: center;
+}
+
+button{
+     background-color: white;
+     color: black;
+     border: black solid 1px;
+     height: 40px;
+     width: 100px;
+     border-radius: 10%;
+     text-shadow:1px 1px paleturquoise;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+    border: white solid 1px;
+    transition: .3s;
+}
+button a{
+    text-decoration: none;
+    color:inherit;
+    curser:pointer;
+}
+
+h1{
+    font-size: 5rem;
+    color:paleturquoise;
+    text-shadow:3px 3px black;
+}
+
+p{
+    font-size: 1.2rem;
+    color:paleturquoise;
+    text-shadow:3px 3px black
+}
+
+.image-button{
+    font-size: 1.5rem;
+    color:rgb(12, 182, 182);
+    text-shadow:3px 3px black
+}
+
+image-button:hover{
+    background-color: orangered;
+    color: white;
+    border: white solid 1px;
+    transition: .5s;
+}
