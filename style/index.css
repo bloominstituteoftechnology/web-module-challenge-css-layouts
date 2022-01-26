@@ -26,6 +26,14 @@
     width: 4em;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-home:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .nav-about {
@@ -35,6 +43,14 @@
     width: 4em;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-about:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .nav-contact {
@@ -44,6 +60,14 @@
     width: 4em;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-contact:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .nav-projects {
@@ -52,6 +76,14 @@
     width: 4em;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-projects:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .intro-title {
@@ -114,4 +146,12 @@
     padding: 1em;
     width: 4em;
     border: .2em solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-me:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
