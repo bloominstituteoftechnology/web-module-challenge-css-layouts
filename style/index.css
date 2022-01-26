@@ -1,1 +1,38 @@
-/* Add CSS styling here */
+header {
+  width: 100%;
+  background-color: rgb(67, 95, 117);
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+footer {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 4%;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightsteelblue;
+}
+
+.mydescription {
+  padding: 5%;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 2%;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 2%;
+}
+.myportfolio {
+  text-align: center;
+}
