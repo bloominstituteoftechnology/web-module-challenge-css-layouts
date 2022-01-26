@@ -1,1 +1,112 @@
 /* Add CSS styling here */
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    width: 100%;
+}
+
+.header-nav {   
+    display: flex;
+    align-items: stretch;
+
+}
+
+.nav-home {
+    border: .2em solid black;
+    padding: 1em;
+    border-right: 0em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-about {
+    border: .2em solid black;
+    padding: 1em;
+    border-right: 0em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-contact {
+    border: .2em solid black;
+    padding: 1em;
+    border-right: 0em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-projects {
+    border: .2em solid black;
+    padding: 1em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    margin: 4em 10em 4em 10em;
+}
+
+.body-image {
+    width: 100%;
+    height: 25em;
+    max-width: 100%;
+}
+
+.side-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-one {
+    width: 15%;
+    margin: 2em;
+}
+.image-two {
+    width: 15%;
+    margin: 2em;
+}
+.image-three {
+    width: 15%;
+    margin: 2em;
+}
+.image-four {
+    width: 15%;
+    margin: 2em;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+.footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+}
+
+.contact-me{
+    background-color: white;
+    padding: 1em;
+    width: 3em;
+    border: .2em solid black;
+}
