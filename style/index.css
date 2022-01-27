@@ -1,1 +1,154 @@
 /* Add CSS styling here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: #041C32;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header a{
+    text-decoration: none;
+    background-color: #064663;
+    padding: 5px 10px;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: ease-in-out 0.2s;
+    
+}
+
+header a:hover{
+    background-color: #5c7885;
+
+}
+
+section{
+    width: 100%;
+}
+
+.main-inf{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #04293A;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.main-inf img{
+    width: 400px;
+    height: auto;
+}
+
+.main-inf-text{
+    width: 400px;
+}
+
+.main-inf-text h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.main-inf-text button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #064663;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.main-inf-text button:hover{
+    background-color: #5c7885;
+    transform: scale(0.9);
+
+}
+
+.main-inf-text p{
+    font-size: 1.2rem;
+}
+
+
+.projects-section-1{
+    background-color: #04293A;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.project{
+    width: 20%;
+    height: auto;
+    background-color: #04293A;
+    margin: 20px;
+    text-align: center;
+}
+
+.project img{
+    width: 100%;
+    height: auto;
+}
+
+.project h3{
+    background-color: #064663;
+}
+
+footer{
+    background-color: #041C32;
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+}
+
+footer h3{
+    font-size: 2rem;
+}
+
+footer button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #064663;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+footer button:hover{
+    background-color: #5c7885;
+    transform: scale(0.9);
+
+}
