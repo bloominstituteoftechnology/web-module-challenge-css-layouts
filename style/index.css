@@ -1,1 +1,167 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #FFF7FD;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+header, section{
+    padding: 3.5% 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: x-large;
+}
+
+.top{
+    background-image: url('https://picsum.photos/1350/450');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans Caption', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+footer{
+    background-color: #ADFFEB;
+    padding: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.row div{
+    width: 28%;
+    margin: 2% 0;
+}
+
+.portfolio-element{
+    text-align: center;
+}
+
+.portfolio-element img{
+    width: 100%;
+}
+
+button{
+    background-color: #ADFFEB;
+    color: black;
+    border: #D4af37 solid 1px;
+    padding: 5px 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: black;
+    color: #D4af37;
+    border: #ADFFEB solid 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media(max-width: 800px){
+    
+}
+
+@media(max-width: 500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links button{
+        width: 40%;
+        margin: 0.5% 0;
+    }
+    .top{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .portfolio-element img{
+        width: 100%;
+    }
+    .row div{
+        width: 40%;
+    }
+}
