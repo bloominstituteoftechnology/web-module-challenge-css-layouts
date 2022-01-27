@@ -137,6 +137,8 @@ table {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -178,4 +180,19 @@ nav {
   display: flex;
   max-width: 40%;
   flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  font-size: 50px;
+  content-align: center;
+  justify-content: center;
+  background-color: lightyellow;
+}
+
+footer button {
+  display: flex;
+  margin: 20px;
+  font-size: 60%;
 }
