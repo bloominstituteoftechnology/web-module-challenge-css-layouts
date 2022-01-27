@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
  /* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -41,28 +41,89 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}   */ 
+}    */
+
 
 * {
    max-width: 100%; 
-   color: black;
 }
+
+body {
+    font-family: 'Montserrat';
+    /* color: #22312F; */
+}
+
 
 links{
     display:flex;
     justify-content: flex-end;
-    border: 2px solid red;
-    margin: 2%;
-    padding: 2%;
-    text-decoration: none;
-    
+    border: 2px solid white;
+    margin: 1%;
+    padding: 1%;  
+    height: 6vh;
+    gap: 5px;
 }
+
+
 header{
-    border:2px solid blue;
+    background-color: #F9D9B8;
 }
 nav{
-    border:2px solid green;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+}
+.button {
+    background-color:#A4EEF7 ;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #22312F;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+.button:hover{
+    background-color: white;
+}
+.mainbutton:hover{
+    background-color: rgb(238, 176, 212);
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.image {
+    position: relative;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    position: absolute;
+    margin-top: 55px;;
+}
+
+.mainbutton {
+    background-color:#F9D9B8 ;
+    margin: 5%;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    padding: 4%;
+    color: #22312F;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    
 }
