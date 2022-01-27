@@ -1,1 +1,103 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+section{
+padding: 4% 0;
+}
+h1, h2{
+    margin: 2%;
+}
+h1{
+    font-size:4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+
+.topsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.bg-img{
+    background-image: url(https://images.unsplash.com/photo-1643245264500-e0dfd5078647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+}
+.description{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding:5px 10px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+ 
+button a {
+text-decoration: none;
+color: inherit;
+}
+@media(max-width:800px){
+.row{
+    flex-wrap: wrap;
+}    
+    .row img{
+        width: 20%;
+    }
+    .row div{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+.links button{
+    width: 40%;
+    margin: 1% 0;
+}
+.links{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.row{
+    flex-wrap: wrap;
+}
+.row img{
+    width: 40%;
+    margin: 4% 0;
+}
+}
