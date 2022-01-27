@@ -50,8 +50,21 @@ table {
 
 
 
+html{
+    font-size: 62.5%;
+}
+
 body{
+    font-size: 1.6rem;
     background-color: #FFF7FD;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+header, section{
+    padding: 3.5% 0;
 }
 
 nav{
@@ -62,19 +75,15 @@ nav{
 }
 
 .top{
-    display: flex;
-    justify-content: center;
-}
-
-.middle-button{
     background-image: url('https://picsum.photos/1350/450');
     background-repeat: no-repeat;
     background-size: cover;
-    color:black;
-    font-size: large;
     font-family: 'PT Sans Caption', sans-serif;
-    width: 1350px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
 }
 
 footer{
@@ -86,13 +95,22 @@ footer{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 20px;
+}
+
+.row div{
+    width: 28%;
+    margin: 2% 0;
 }
 
 .portfolio-element{
     text-align: center;
+}
 
+.portfolio-element img{
+    width: 100%;
 }
 
 button{
