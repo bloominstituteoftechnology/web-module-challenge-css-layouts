@@ -1,1 +1,64 @@
-/* Add CSS styling here */
+body{
+    background-color: #FFF7FD;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: x-large;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-button{
+    background-image: url('https://picsum.photos/1350/450');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    font-size: large;
+    font-family: 'PT Sans Caption', sans-serif;
+    width: 1350px;
+    height: 450px;
+}
+
+footer{
+    background-color: #ADFFEB;
+    padding: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.portfolio-element{
+    text-align: center;
+
+}
+
+button{
+    background-color: #ADFFEB;
+    color: black;
+    border: #D4af37 solid 1px;
+    padding: 5px 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: black;
+    color: #D4af37;
+    border: #ADFFEB solid 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
