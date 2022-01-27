@@ -3,3 +3,27 @@ header {
     padding: 20px;
     margin-bottom: 15px;
 }
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.description{
+    padding: 20px;
+    width: 50%;
+}
+.row{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.portfolio-element{
+    text-align: center;
+}
