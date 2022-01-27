@@ -1,1 +1,222 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.headshot {
+    padding: 0.25em;
+    height: auto;
+    border: 5px solid black;
+}
+
+.links {
+    display: flex;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 0.25em;
+  }
+
+h1 {
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h2 {
+      font-weight: bolder;
+      font-size: 80px;
+      padding: 5%;
+}
+ 
+.home {
+    width: 50%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 80px;
+}
+  
+.home:hover{
+      background-color: white;
+}
+
+.about {
+    width: 50%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 80px;
+}
+.about:hover{
+    background-color: white;
+}
+  
+  .contact {
+   
+    width: 50%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 80px;
+}
+  .contact:hover{
+    background-color: white;
+}
+.projects {
+    
+    width: 50%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 80px;
+  }
+
+  .projects:hover{
+    background-color: white;
+  }
+
+  .myprojects {
+    
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 20%;
+    padding-bottom: 20px;
+  }
+  .myprojects:hover{
+    background-color: white;
+  }
+  .introduction {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5%;
+    justify-content: center;
+  }
+  .row1 {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      padding: 100px;
+      
+      
+  }
+
+  .row2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 100px;
+  }
+
+  #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+p {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.contactme {
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 600px;
+    width: 50%;
+    padding-bottom: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+}
+
+.contactme:hover {
+    background-color: white;
+    display: flex;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+}
+
+.graduation{
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.citizenship{
+    border: 5px solid black;
+    padding: 20px;
+}
