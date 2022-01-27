@@ -1,4 +1,7 @@
 /* Add CSS styling here */
+* {
+    font-family: 'Source Code Pro', monospace;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -10,92 +13,39 @@
     justify-content: center;
     font-size: 4em;
     width: 100%;
-    font-family: 'Source Code Pro', monospace;
 }
 
 .header-nav {   
     display: flex;
-    align-items: stretch;
-    font-family: 'Source Code Pro', monospace;
 }
 
-.nav-home {
+.button {
+    background-color: white;
     border: .2em solid black;
+    width: 8em;
     padding: 1em;
-    border-right: 0em;
-    width: 4em;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
     color: black;
 }
 
-.nav-home:hover {
-    cursor: pointer;
-    color: white;
+.button:hover {
     background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
-.nav-about {
-    border: .2em solid black;
-    padding: 1em;
-    border-right: 0em;
-    width: 4em;
-    display: flex;
-    justify-content: center;
+.nav-tag {
     text-decoration: none;
-    color: black;
-}
-
-.nav-about:hover {
-    cursor: pointer;
-    color: white;
-    background-color: black;
-}
-
-.nav-contact {
-    border: .2em solid black;
-    padding: 1em;
-    border-right: 0em;
-    width: 4em;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-}
-
-.nav-contact:hover {
-    cursor: pointer;
-    color: white;
-    background-color: black;
-}
-
-.nav-projects {
-    border: .2em solid black;
-    padding: 1em;
-    width: 4em;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-}
-
-.nav-projects:hover {
-    cursor: pointer;
-    color: white;
-    background-color: black;
+    color: inherit;
 }
 
 .intro-title {
     font-size: 2.5em;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
 }
 
 .intro {
     text-align: center;
     margin: 4em 10em 4em 10em;
-    font-family: 'Source Code Pro', monospace;
 }
 
 .body-image {
@@ -130,7 +80,6 @@
     display: flex;
     align-items: center;
     margin: 2em;
-    font-family: 'Source Code Pro', monospace;
 }
 
 .footer {
@@ -138,20 +87,24 @@
     display: flex;
     justify-content: center;
     padding: 5em;
-    font-family: 'Source Code Pro', monospace;
 }
 
-.contact-me{
+.footer-button {
     background-color: white;
-    padding: 1em;
-    width: 4em;
     border: .2em solid black;
-    text-decoration: none;
+    border-collapse: collapse;
+    width: 10em;
+    padding: 1em;
     color: black;
 }
 
-.contact-me:hover{
-    cursor: pointer;
-    color: white;
+.footer-button:hover {
     background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-nav-tag{
+    text-decoration: none;
+    color: inherit;
 }
