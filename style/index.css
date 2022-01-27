@@ -1,1 +1,21 @@
-/* Add CSS styling here */
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.header .name {
+    display: flex;
+    font-size: 24px;
+    background: pink;
+    padding: 10px;
+    margin: 10px;
+}
