@@ -164,3 +164,18 @@ nav {
   /* display: flex; */
   color: white;
 }
+.gal {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  align-content: space-around;
+}
+.container {
+  text-align: center;
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+}
