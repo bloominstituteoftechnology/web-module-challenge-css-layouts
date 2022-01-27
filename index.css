@@ -1,0 +1,82 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+    font-family:'Roboto Mono';
+	font-size: 100%;
+    font-family: 'Roboto Mono', monospace;
+	vertical-align: baseline;
+}
+h1{
+    font-family: 'Chelsea Market';
+    display:flex;
+    justify-content: center;
+    font-size: 400%;
+}
+nav a{
+    margin: 0 10px;
+    width: 10%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 10px
+}
+
+.introduction{
+    display:flex;
+    margin: 50px
+}
+.introduction .words{
+    flex-flow: column wrap;
+    padding: 20px;
+}
+h2{
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    line-height: 2;
+    font-size: 200%;
+}
+
+.introduction .words p{
+    font-size: 200%;
+    
+}
+
+footer{
+    margin: 10px 0 10px 0;
+}
+
+footer .socials{
+    margin: 10px;
+    width: 10%;
+    border: 1px solid lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.place{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+}
+
+.bottomnav{
+    margin: 10px 0 10px 0;
+}
