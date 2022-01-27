@@ -49,7 +49,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px;
 }
 .description{
     width: 200px;
@@ -84,9 +84,6 @@ color: inherit;
     }
 }
 @media(max-width:500px){
-
-}
-
 .links button{
     width: 40%;
     margin: 1% 0;
@@ -102,4 +99,5 @@ color: inherit;
 .row img{
     width: 40%;
     margin: 4% 0;
+}
 }
