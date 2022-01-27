@@ -1,1 +1,110 @@
 /* Add CSS styling here */
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    width: 100%;
+}
+
+.header-nav {   
+    display: flex;
+}
+
+.button {
+    background-color: white;
+    border: .2em solid black;
+    width: 8em;
+    padding: 1em;
+    color: black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-tag {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro-title {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    margin: 4em 10em 4em 10em;
+}
+
+.body-image {
+    width: 100%;
+    height: 25em;
+    max-width: 100%;
+}
+
+.side-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-one {
+    width: 15%;
+    margin: 2em;
+}
+.image-two {
+    width: 15%;
+    margin: 2em;
+}
+.image-three {
+    width: 15%;
+    margin: 2em;
+}
+.image-four {
+    width: 15%;
+    margin: 2em;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+.footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+}
+
+.footer-button {
+    background-color: white;
+    border: .2em solid black;
+    border-collapse: collapse;
+    width: 10em;
+    padding: 1em;
+    color: black;
+}
+
+.footer-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-nav-tag{
+    text-decoration: none;
+    color: inherit;
+}
