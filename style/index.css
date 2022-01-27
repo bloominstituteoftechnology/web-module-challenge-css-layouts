@@ -141,25 +141,111 @@ nav{
 
 .bio{
     display: flex;
-    flex-flow: row unwrap;
+    flex-flow: row wrap;
     border: 1px solid black;
     text-align: center;
     justify-content: center;
+    padding: 20px;
 }
-.bio h1{
-    display:flex;
+.bio .title{
+    border: 1px solid black;
+    background-color: #fffbfe;
+    border-radius: 3px;
+    font-size: large;
+    padding:5px;
+
 }
 .early-years{
     display:flex;
-    border:1px solid black;
-    text-align:center
+    flex-flow: row wrap;
+    /* border:1px solid black; */
+    justify-content: center;
+    padding: 20px;
 }
 .teenage-years{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* border:1px solid black; */
+    padding:20px;
 }
 .adult-years{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* border:1px solid black; */
+    padding:20px;
 }
 .programming{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* border:1px solid black; */
+    padding:20px;
+}
+
+.contact{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    padding:50px 20px;
+    border:1px solid black;
+    line-height: 3;
+    align-items: center;
+    
+    
+}
+.contact .title{
+    display: flex;
+    background-color: #fffbfe;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.links{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-evenly;
+    padding:10px;
+    border:1px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+.twitter a{
+    background-color: #fffbfe;
+    border-radius: 10px;
+    padding:1px 5px;
+    margin:20px;
+    text-decoration: none;
+}
+.linkedin a{
+    background-color: #fffbfe;
+    border-radius: 10px;
+    padding:1px 5px;
+    margin:20px;
+    text-decoration: none;
+}
+.instagram a{
+    background-color: #fffbfe;
+    border-radius: 10px;
+    padding:1px 5px;
+    margin:20px;
+    text-decoration: none;
+}
+.facebook a{
+    background-color: #fffbfe;
+    border-radius: 10px;
+    padding:1px 5px;
+    margin:20px;
+    text-decoration: none;
+}
+.email a{
+    background-color: #fffbfe;
+    border-radius: 10px;
+    padding:1px 5px;
+    margin:20px;
+    text-decoration: none;
 }
