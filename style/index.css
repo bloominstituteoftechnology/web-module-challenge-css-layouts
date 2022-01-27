@@ -54,11 +54,12 @@ header{
     background-color: #35858B;
 }
 header nav a{
-   text-decoration: none;
-   display: flex;
-text-align: center;
+    text-decoration: none;
+    text-align: center;
   }
-
+body{
+    background-color: #4FBDBA;
+}
 .links{
   width: 100%;
   display: flex;
@@ -66,4 +67,14 @@ text-align: center;
   justify-content: space-around;
   align-items: space-around;
 }
-
+footer{
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.top{
+    width: 50%;
+}
