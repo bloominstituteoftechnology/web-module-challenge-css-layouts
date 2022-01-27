@@ -52,8 +52,10 @@ table {
     box-sizing: border-box;
     border: 1px solid red;
     max-width: 100%;
+	font-family: 'Source Serif Pro', serif;
 }
 
+/* Setup Style */
 html {
     font-size: 62%;
 }
@@ -61,9 +63,66 @@ html {
 body {
     line-height: 1.5;
     font-size: 1.8rem;
+	background-color: #d9d9d9;
 }
 
 h1, h2 {
     letter-spacing: 3px;
     text-align: center;
+	font-family: 'Comfortaa', cursive;
 }
+
+section {
+	padding: 4% 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Nav Section */
+nav {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #353535;
+	padding: 1% 0;
+}
+
+.button {
+    background-color: #e5e5e5;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .links {
+	  width: 30%;
+	  display: flex;
+	  justify-content: left;
+	  gap: 1%;
+	  align-items: center;
+	  margin-left: 6%;
+  }
+
+  .navTitle {
+	  width: 50%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  padding-bottom: 1%;
+	  margin-left: -10%;
+  }
+
+  .title{
+	  font-size: 2.8rem;
+	  color: white;
+  }
