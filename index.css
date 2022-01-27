@@ -301,6 +301,11 @@ img {
 
 .section {
     padding: var(--padding-v) var(--padding-h);
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .portfolio .portfolio-cats {
@@ -504,4 +509,6 @@ footer {
     background: #D0D8DB;
     padding-top: 10px;
     padding-bottom: 20px;
+    clear: both;
+    /* bottom: 0; */
 } 
