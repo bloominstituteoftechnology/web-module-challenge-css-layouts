@@ -195,4 +195,21 @@ header p {
 footer {
 	background-color: #353535;
 	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+}
+
+footer h2 {
+	color: white;
+}
+
+.footerButton {
+	display: flex;
+	justify-content: center;
+	padding: 4% 0;
+}
+
+footer a:hover {
+	color:white;
+	background-color: rgb(255,255,255,0.8);
 }
