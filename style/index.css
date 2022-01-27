@@ -1,1 +1,142 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 110%
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+}
+
+.topsection p {
+    color: white;
+    font-size: 100%;
+    /* display: flex; */
+}
+/* Resize images */
+.topsection img {
+    width: 0%;
+    height: 0%;
+    background-color: transparent;
+}
+
+footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 25px;
+    width: auto;
+}
+
+footer button {
+    height: 40px;
+    width: 100px;
+    
+}
+
+.row {
+    height: 100px;
+    width: auto;
+    display: flex;
+    padding: 40px;
+    background-color: transparent;
+}
+
+.description {
+    /* width: 100%; */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* background-color: transparent; */
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: black solid 1px;
+    /* padding: 5px 10px; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 2px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html { 
+    background: url(https://images.unsplash.com/photo-1485758152456-1e91810337e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60/200/100) no-repeat center center fixed; 
+    padding: 10%;
+    background-color: transparent;
+    /* display: flex; */
+    /* text-align: left; */
+    /* position: relative; */
+  }
+
+  h1 {
+      color: white;
+      font-size: 300%;
+      flex-direction: row;
+      padding: 40px;
+  }
+
+ 
+  /* body {
+    background-image: url(https://images.unsplash.com/photo-1485758152456-1e91810337e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60/200/100);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent;
+  } */
