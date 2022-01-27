@@ -1,1 +1,209 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #e5e5e5;
+  padding: 0 0 0 20px;
+}
+header > h1 {
+  height: 60px;
+  font-size: 1.8em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 0 15px;
+}
+header > nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 3px;
+}
+header > nav > a {
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+header > nav > a:hover {
+  background: #e5e5e5;
+}
+main {
+  max-width: 1024px;
+  margin: 45px auto 15px auto;
+  padding-bottom: 75px;
+  border-radius: 5px;
+}
+main section#hero {
+  width: 100%;
+  background: #e5e5e5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  max-width: 750px;
+  overflow: auto;
+  margin: auto;
+}
+#hero > div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+#hero > div:first-of-type img {
+  width: 300px;
+  display: block;
+  border-radius: 5px;
+}
+#hero > div:last-of-type {
+  margin: 0 auto;
+}
+#hero > div:last-of-type h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  height: 75px;
+  line-height: 90px;
+  margin: auto;
+  text-align: center;
+}
+#hero > div:last-of-type > button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin: 0 auto 30px auto;
+  border: none;
+  border-radius: 3px;
+  background: white;
+}
+#hero > div:last-of-type > button:hover {
+  background: #d6d6d6;
+}
+#hero > div:last-of-type a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+#hero > div:last-of-type p {
+  display: flex;
+  font-size: 1em;
+  line-height: 1.625;
+  padding: 0 30px 15px 15px;
+}
+#thumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 45px auto;
+  width: 100%;
+  height: auto;
+  background: #e5e5e5;
+  border-radius: 5px;
+  padding: 10px;
+}
+#thumbs > div {
+  max-width: 200px;
+  margin: 10px;
+}
+#thumbs > div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#thumbs > div a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#thumbs > div h3 {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 15px 0 15px 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #fafafa;
+}
+#thumbs > div p {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: #c5c5c5;
+}
+footer > p {
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
