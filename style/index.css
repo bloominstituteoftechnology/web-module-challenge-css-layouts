@@ -128,9 +128,15 @@ nav {
 	  color: white;
   }
 
+  .title:hover{
+	  color: grey;
+	  font-size: 4rem;
+  }
+
   nav a:hover {
 	  color:white;
 	  background-color: rgb(255,255,255,0.8);
+	  font-size: larger;
 	  
   }
 
@@ -146,9 +152,17 @@ header h2 {
 	font-size: 4rem;
 }
 
+header h2:hover{
+	color: white;
+}
+
 .computerImg {
 	margin: 10% 0 0 2%;
 	width: 30%;
+}
+
+.computerImg:hover {
+	width: 33%;
 }
 
 .aboutContent {
@@ -167,13 +181,18 @@ header h2 {
 
 header a:hover {
 	color:white;
-	  background-color: rgba(230, 230, 230, 0.8);
+	background-color: rgba(230, 230, 230, 0.8);
+	font-size: larger;
 }
 
 header p {
 	font-size: 2.2rem;
 	margin-left: 20%;
 	width: 60%;
+}
+
+header p:hover {
+	color: white;
 }
 
 /* Projects Section */
@@ -191,6 +210,15 @@ header p {
 	margin: auto;
 }
 
+.container div:hover {
+	height: 40vh;
+	width: auto;
+}
+
+.container p:hover {
+	color: white;
+}
+
 /* Footer Section */
 footer {
 	background-color: #353535;
@@ -203,6 +231,10 @@ footer h2 {
 	color: white;
 }
 
+footer h2:hover {
+	font-size: 2rem;
+}
+
 .footerButton {
 	display: flex;
 	justify-content: center;
@@ -212,4 +244,5 @@ footer h2 {
 footer a:hover {
 	color:white;
 	background-color: rgb(255,255,255,0.8);
+	font-size: larger;
 }
