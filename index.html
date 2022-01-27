@@ -3,9 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emmanuel Sibanda's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> 
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-    
-</body>
+    <header>
+        <h1>Welcome to Emmanuel Sibanda's Portfolio</h1>
+    </header>
+    <div class="styledbuttons">
+        <nav class="navclass">
+            <button type="button">Home</button>
+            <button type="button">About</button>
+            <button type="button"><a href="mailto:emmanuelsibanda21@gmail.com">Contact</a></button>
+            <button type="button"><a href= "#projects">Projects</a></button>
+        </nav>
+    </div>
+        <div class="slider">
+            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+            <div class="slider__inner">
+                <div class="slider__contents">
+                    <h2 class="slider__caption">Background</h2>
+                    <p class="slider__txt">Full stack developer with an entrepreneurial flair and a strong interest in Data Science.</p>
+                    <p><strong>Location:</strong>  Tulsa | New York</p>
+                </div>
+                <div class="slider__contents">
+                    <h2 class="slider__caption">Languages</h2>
+                    <p class="slider__txt">Fluent in: Python, JavaScript, SQL, R, HTML & CSS</p>
+                </div>
+                <div class="slider__contents">
+                    <h2 class="slider__caption">Education</h2>
+                    <p class="slider__txt"> 
+                        <ul>
+                            <li>LLB(Law) - South Africa (UKZN)</li>
+                            <li>Data Science Career Track (Springboard)</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="slider__contents">
+                    <h2 class="slider__caption">Prior Experience</h2>
+                    <p class="slider__txt">
+                        <ul>
+                            <li>Founder: 2020 - 2022 (The Gradient Boost, USA) | EdTech </li>
+                            <li>Data Analyst: 2019 (Yoco, South Africa) | Fintech</li>
+                            <li>Freelance Analyst: 2018 (Uprise.Africa, South Africa) | Crowdfunding/Venture Capital</li>
+                            <li>Intern Analyst: 2018 (Google, South Africa) | AdTech</li>
+                            <li>Intern Research Analyst: 2017 (4Di Capital, South Africa) | Venture Capital</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section id="projects" class="portfolio section">
+            <ul class="portfolio-cats">
+                <li data-filter="*">All</li>
+                <li data-filter="datasci">Data Science </li>
+                <li data-filter="software">Software Engineering</li>
+                <li data-filter="other">Write Ups</li>
+                <li data-filter="pr">PR</li>
+            </ul>
+            <div class="portfolio-gallery">
+                <div class="portfolio-item" data-filter="datasci">
+                    <div class="item-inner">
+                        <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+                        <h4>Kaggle: Using Linear Regression to predict player spring speed in FIFA 19</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/FIFA19-Analysis">Using Linear Regression to predict the sprint speed of players in FIFA 19.</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="other">
+                    <div class="item-inner">
+                        <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                        <h4>Visualizing South African Marriage data using Python</h4>
+                        <a class="portfolio-object" href="https://towardsdatascience.com/visualising-south-african-marriage-data-using-python-3f3887238ddb">A writeup on how I got data from StatsSA and built visualizations to understand marriage trends by month and year. This was published in Towards Data Science.</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Writing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="software">
+                    <div class="item-inner">
+                        <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+                        <h4>WhatsApp Bot</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/gradientboostwhatsappchatbot">WhatsApp Bot enabling users to type in a level of difficulty and receive a random programming challenge. This project was built using Python, interacting with WhatsApp through a Twilio API</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                            <li class="lang"><a>Twilio API</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="datasci">
+                    <div class="item-inner">
+                        <i class="fa fa-database fa-lg" aria-hidden="true"></i>
+                        <h4>Kaggle: Predicting likelihood to make repeat purchase</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/Predicting-likelihood-to-make-repeat-purchase">Extracting data from Kaggle and using logistic regression to predict the likelihood of a customer making a repeat purchase</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="datasci">
+                    <div class="item-inner">
+                        <i class="fa fa-hand-rock-o fa-lg" aria-hidden="true"></i>
+                        <h4>Boxing Prediction Web App</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp">Web App predicting likely outcome of a fight between two boxers. Project involved scrapping data from BoxRec & CompuBox using Node.JS & Python, Data Cleaning, model building and building & deploying a web app built using R (Shiny Package).</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                            <li class="lang"><a>R</a></li>
+                            <li class="lang"><a>Shiny</a></li>
+                            <li class="lang"><a>Node.JS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="datasci">
+                    <div class="item-inner">
+                        <i class="fa fa-cloud fa-lg" aria-hidden="true"></i>
+                        <h4>Multi-channel attribution model</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp">Building a luigi pipeline taking in data, cleaning it up and building a Monte Carlo Markov Chain to better understand the value of different users coming from different marketing channels using my old employer's data.</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                            <li class="lang"><a>Luigi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="software">
+                    <div class="item-inner">
+                        <i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
+                        <h4>Data Science Bootcamp</h4>
+                        <a class="portfolio-object" href="https://github.com/EmmS21/gradientboostUpdated">Founded a Data Science bootcamp enabling users to login and access learning material. This transitioned into a platform enabling users to access mentor guided projects (Not this project). Built using Python (Django)</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Python</a></li>
+                            <li class="lang"><a>Django</a></li>
+                            <li class="lang"><a>HTML & CSS</a></li>
+                            <li class="lang"><a>SQL</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="other">
+                    <div class="item-inner">
+                        <i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>
+                        <h4>Predicting-likelihood-to-make-repeat-purchase: Write-up</h4>
+                        <a class="portfolio-object" href="https://hackernoon.com/predicting-the-likelihood-of-a-customer-to-make-repeat-purchases-using-logistic-regression-b430c9719994">A write up on a Kaggle project where I used logistic regression to predict the likelihood of a user become a repeat customer. This was published in HackerNoon.</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Writing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-filter="pr">
+                    <div class="item-inner">
+                        <i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>
+                        <h4>Startup Raising Seed Funding</h4>
+                        <a class="portfolio-object" href="https://www.techinafrica.com/gradient-boost-receives-investment-money-from-a-strategic-investor/?fbclid=IwAR35sHPCRCvDSUKy04OugKZqKHBnYfLjil6DYC7rxKBDyoe44oHbkfxvo_w">We built a platform to train Data Science talent in Africa, raising close to $50 000 from angel investors.</a>
+                        <ul class="langtags">
+                            <li class="lang"><a>Entrepreneurship</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-social-icons">
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com/Emmoemm" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC329k8dt-DbfbUINUKjtr8A/featured" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/emmanuel-sibanda-42b49176/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/EmmS21" class="social-icon"> <i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>
