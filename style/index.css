@@ -50,11 +50,11 @@ table {
 
 body {
     font-family: 'Montserrat';
-    /* color: #22312F; */
+    color: #22312F;
 }
 
 
-links{
+links {
     display:flex;
     justify-content: flex-end;
     border: 2px solid white;
@@ -63,7 +63,9 @@ links{
     height: 6vh;
     gap: 5px;
 }
-
+a {
+    color: #22312F;
+}
 
 header{
     background-color: #F9D9B8;
@@ -92,8 +94,8 @@ h1 {
 }
 .mainbutton:hover{
     background-color: rgb(238, 176, 212);
-    color: white;
 }
+
 
 .center {
     display: flex;
@@ -111,6 +113,7 @@ h1 {
     align-items: center;
     border: 2px solid white;
     position: absolute;
+    top: 220px;
     margin-top: 55px;;
 }
 
