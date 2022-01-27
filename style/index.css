@@ -96,6 +96,7 @@ footer{
     justify-content: space-evenly;
     flex-direction: row;
     padding: 10px;
+    text-align: center;
 }
 .photo{
     padding:10px;
