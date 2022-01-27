@@ -1,1 +1,245 @@
 /* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */ 
+
+/*CSS Reset^^*/
+
+/*Universal Selector*/
+
+
+/* general */
+
+*{
+    box-sizing: border-box;
+    padding: 4%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+    line-height: 1;
+    color: white;
+    font-family: "Roboto";
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+section{
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+nav{
+    padding: 0 3%;
+    position: fixed;
+    width: 30%;
+    text-align: center;
+    align-items: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 57%;
+
+    
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.menu{
+    color: white;
+    background: black;
+    border-radius: 50%;
+
+}
+
+
+
+
+/* ------ home -------- */
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+h1 h2 p {
+    font-family: "Bebas Neue";
+    line-height: 1%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+
+h1{
+    font-size: 8rem;
+    width: 100%;
+    height: 10vh;
+    margin: 1px;
+    
+}
+
+h2{
+    font-size: 3rem;
+    width: 50%;
+    height: 5vh;
+    margin: 1px;
+}
+
+h3{
+    font-size: 2rem;
+    width: 100%;
+    height: 2vh;
+    margin 1px;
+}
+
+/* projects page */
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.counter, .h1, .h2, .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    width: 10%;
+    
+    
+
+}
+
+.button{
+    width: 10%;
+    background-color: rgb(40, 39, 41);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .work holds img .portfolio and i need it to be next to counter ^^  */
+.work{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.portfolio{
+    height: 40vh;
+    width: 40% auto;
+    display: flex;
+    float: left;
+}
+
+.box1{
+    float: left;
+    font-size: 1rem;
+    background: black;
+    opacity: 0;
+    display: flex;
+    transition: all 0.7s;
+    
+}
+
+
+.box:hover .portfolio{
+    opacity: 1;
+}
+
+/* about */
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.selfie{
+    align-items: center;
+    height: 45vh;
+    width: 35%;
+    border-radius: 50%;
+    float: left;
+}
+
+.desc{
+    text-align: center;
+    line-height: 2;
+    width: 60%;
+    height: 10vh;
+}
