@@ -175,6 +175,22 @@ header p {
 	margin-left: 20%;
 	width: 60%;
 }
+
+/* Projects Section */
+
+.container {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	gap: 30px 20px;
+	padding: 4% 0;
+	margin: 4%;
+}
+.container div {
+	width: 20%;
+	margin: auto;
+}
+
 /* Footer Section */
 footer {
 	background-color: #353535;
