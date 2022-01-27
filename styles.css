@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid grey;
+  /* border: 1px solid lightgray; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -129,29 +129,38 @@ table {
 }
 
 * {
+  text-decoration: none;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   max-width: 100%;
 }
+
 nav {
-  position: fixed;
   display: flex;
-  /* justify-content: center; */
-  width: 100%;
-  background-color: lightsteelblue;
-  /* justify-items: flex-end; */
-}
-.links {
-  display: flex;
-  width: 75%;
-  background-color: rgb(47, 166, 170);
+  align-items: center;
   justify-content: space-around;
+  background-color: grey;
 }
 
-.myname {
+.me {
   display: flex;
-  justify-content: flex-start;
-  width: 25%;
-  background-color: aquamarine;
+  flex-direction: column;
+  width: 100%;
+  /* height: 200px; */
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  background-position: fixed;
+  align-items: center;
+  /* align-content: center; */
+  /* justify-items: center; */
+}
+.me h1 {
+  /* display: flex; */
+  color: white;
+  font-size: 5em;
+}
+.me a {
+  /* display: flex; */
+  color: white;
 }
