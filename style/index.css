@@ -251,7 +251,7 @@ footer a:hover {
 
 @media(max-width: 800px) {
 	.navTitle{
-		margin-left: 4%;
+		margin-left: 5%;
 		padding: 2% 0;
 	}
 
@@ -278,8 +278,41 @@ footer a:hover {
 		
 	footer {
 	bottom: 0;
-	height: 6em;ß
+	height: 6em;
 	left: 0%;
     width: 100%;
+	}
+}
+
+@media(max-width: 500px) {
+	.navTitle {
+		width: 100%;
+		padding: 2% 0;
+    }
+
+    .links {
+        flex-flow: column wrap;
+        align-items: center;
+		gap: 5px;
+    }
+	
+	.computerImg {
+		width: 33%;
+		margin-top: 60%;
+		height: auto;
+	}
+	header h2 {
+		font-size: 1.6rem;
+	}
+
+	header p {
+		font-size: 1.2rem;
+		width: 60%;
+		height: 18vh;
+	}
+	
+	.container {
+		margin-top: -40%;
+		font-size: 1.2rem;
 	}
 }
