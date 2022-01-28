@@ -1,1 +1,318 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Universal Section */
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+    max-width: 100%;
+	font-family: 'Source Serif Pro', serif;
+}
+
+/* Setup Style */
+
+html {
+    font-size: 62%;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.8rem;
+	background-color: #d9d9d9;
+}
+
+h1, h2 {
+    letter-spacing: 3px;
+    text-align: center;
+	font-family: 'Comfortaa', cursive;
+}
+
+section {
+	padding: 4% 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Nav Section */
+
+nav {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #353535;
+	padding: 1% 0;
+}
+
+.button {
+    background-color: #e5e5e5;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .links {
+	  width: 30%;
+	  display: flex;
+	  justify-content: right;
+	  gap: 1%;
+	  margin-left: 6%;
+  }
+
+  .navTitle {
+	  width: 50%;
+	  display: flex;
+	  justify-content: center;
+	  padding-bottom: 1%;
+	  margin-left: -10%;
+  }
+
+  .title{
+	  font-size: 2.8rem;
+	  color: white;
+  }
+
+  .title:hover{
+	  color: grey;
+	  font-size: 4rem;
+  }
+
+  nav a:hover {
+	  color:white;
+	  background-color: rgb(255,255,255,0.8);
+	  font-size: larger;
+	  
+  }
+
+  /* Header Section */
+header {
+	height: 80vh;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header h2 {
+	font-size: 4rem;
+}
+
+header h2:hover{
+	color: white;
+}
+
+.computerImg {
+	margin: 10% 0 0 2%;
+	width: 30%;
+}
+
+.computerImg:hover {
+	width: 33%;
+}
+
+.aboutContent {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	width: 65%;
+	margin-top: 18%;
+}
+
+.aboutButton {
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+}
+
+header a:hover {
+	color:white;
+	background-color: rgba(230, 230, 230, 0.8);
+	font-size: larger;
+}
+
+header p {
+	font-size: 2.2rem;
+	margin-left: 20%;
+	width: 60%;
+}
+
+header p:hover {
+	color: white;
+}
+
+/* Projects Section */
+
+.container {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	gap: 30px 20px;
+	padding: 4% 0;
+	margin: 4%;
+}
+.container div {
+	width: 20%;
+	margin: auto;
+}
+
+.container div:hover {
+	height: 40vh;
+	width: auto;
+}
+
+.container p:hover {
+	color: white;
+}
+
+/* Footer Section */
+footer {
+	background-color: #353535;
+	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+}
+
+footer h2 {
+	color: white;
+}
+
+footer h2:hover {
+	font-size: 2rem;
+}
+
+.footerButton {
+	display: flex;
+	justify-content: center;
+	padding: 4% 0;
+}
+
+footer a:hover {
+	color:white;
+	background-color: rgb(255,255,255,0.8);
+	font-size: larger;
+}
+
+/* @media Section */
+
+@media(max-width: 800px) {
+	.navTitle{
+		margin-left: 5%;
+		padding: 2% 0;
+	}
+
+	.links {
+		margin-left: 35%;
+	}
+
+	.computerImg  {
+		width: 30%;
+		padding: 4%;
+		margin-top: 15%;
+	}
+
+	header p {
+		font-size: 1.8rem;
+		width: 80%;
+		
+	}
+
+	.container {
+		width: 90%;
+		margin-top: -10%;
+	}
+		
+	footer {
+	bottom: 0;
+	height: 6em;
+	left: 0%;
+    width: 100%;
+	}
+}
+
+@media(max-width: 500px) {
+	.navTitle {
+		width: 100%;
+		padding: 2% 0;
+    }
+
+    .links {
+        flex-flow: column wrap;
+        align-items: center;
+		gap: 5px;
+    }
+	
+	.computerImg {
+		width: 33%;
+		margin-top: 60%;
+		height: auto;
+	}
+	header h2 {
+		font-size: 1.6rem;
+	}
+
+	header p {
+		font-size: 1.2rem;
+		width: 60%;
+		height: 18vh;
+	}
+	
+	.container {
+		margin-top: -40%;
+		font-size: 1.2rem;
+	}
+}
