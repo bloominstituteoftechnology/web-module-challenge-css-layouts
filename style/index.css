@@ -1,1 +1,159 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Page styling begins below here */
+
+* {
+  font-size: 62.5%;
+  width: 100%;
+}
+
+/* Header styling */
+
+h1 {
+  font-size: 3.6rem;
+  color: red;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: beige;
+  /* padding: 2% 0; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2%;
+}
+
+nav a {
+  font-size: 2.4rem;
+  color: orange;
+}
+
+/* Intro section styling */
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 5%;
+}
+
+.intro-bio {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  column-gap: 10px;
+  flex-direction: column;
+}
+
+.bio-item {
+  margin: 2% 0;
+}
+
+.intro-bio h2 {
+  font-size: 3.6rem;
+}
+
+.intro-bio .button {
+  font-size: 2.4rem;
+}
+
+.intro-bio p {
+  font-size: 1.4rem;
+}
+
+.profile-photo {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: plum;
+  border: 1px black solid;
+  text-align: center;
+  padding: 2%;
+}
+
+/* Project section styling */
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 2%;
+  /* margin: 0 2%; */
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 2%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  width: 50%;
+  text-align: center;
+}
+
+.item p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-bio h2 {
+    font-size: 2.4rem;
+  }
+  
+  .intro-bio .button {
+    font-size: 1.4rem;
+  }
+  
+  .intro-bio p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  
+}
