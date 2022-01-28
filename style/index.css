@@ -215,9 +215,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 1%;
     background-color: #fffbf0;
     border-top: 1px solid black;
     text-align: center;
+}
+
+.social-media i {
+    padding: 10px;
+    margin: 2% auto;
+    font-size: 3rem;
 }
