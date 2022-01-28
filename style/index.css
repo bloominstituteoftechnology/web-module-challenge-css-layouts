@@ -207,3 +207,19 @@ footer > p {
   font-size: 1.2em;
   margin: 0 0 5px 0;
 }
+@media (max-width: 800px) {
+  #thumbs > div {
+    max-width: 300px;
+  }
+  #hero > div:first-of-type img {
+    width: 100%;
+  }
+} 
+@media (max-width: 500px) {
+  main section#hero {
+    flex-direction: column;
+  }
+  #thumbs > div {
+    max-width: 400px;
+  }
+} 
