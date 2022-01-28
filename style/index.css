@@ -65,6 +65,7 @@ links {
 }
 a {
     color: #22312F;
+    text-decoration: none;
 }
 
 header{
@@ -79,7 +80,7 @@ h1 {
     font-size: 40px;
     padding-left: 2%;
 }
-.button {
+.button, .contactme {
     background-color:#A4EEF7 ;
     border: none;
     text-decoration: none;
@@ -93,6 +94,9 @@ h1 {
 .button:hover{
     background-color: white;
 }
+.contactme:hover{
+    background-color: white;
+}
 .mainbutton:hover{
     background-color: rgb(238, 176, 212);
 }
@@ -101,7 +105,7 @@ h1 {
 .center {
     display: flex;
     justify-content: center;
-    margin: 2%;
+    margin: 3%;
     
 }
 
@@ -117,7 +121,7 @@ h1 {
     border: 2px solid white;
     padding: 2%;
     position: absolute;
-    top: 190px;
+    top: 250px;
     margin-top: 55px;;
 }
 
@@ -160,4 +164,19 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 3%;
+}
+
+footer {
+    background-color: #F9D9B8;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.contactme{
+    font-size: 28px;
+}
+nav {
+    border: 2px solid white;
+    padding: 2%;
+    margin:2%;
 }
