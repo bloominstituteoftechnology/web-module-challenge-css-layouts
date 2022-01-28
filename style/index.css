@@ -113,7 +113,7 @@ nav {
 }
 
 nav .links {
-    width: 60%;
+    width: 100%;
     margin: 0 1%;
 }
 
@@ -152,7 +152,7 @@ nav .links a{
     padding: 3%;
 }
 
-.intro {
+.intro-container {
     display: flex;
     justify-content: space-between;
 }
@@ -167,6 +167,10 @@ nav .links a{
     padding: 2%;
     background:#fffbf0; 
     margin-left: 1%;
+}
+
+.mobile-intro-text {
+    display: none;
 }
 
 .gallery {
@@ -227,4 +231,79 @@ footer {
     padding: 10px;
     margin: 2% auto;
     font-size: 3rem;
+}
+
+
+@media (max-width: 1040px) {
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
+    .intro-text p{
+        display: none;
+    }
+
+    .mobile-intro-text {
+        display: flex;
+        margin-top: 2%;
+        padding: 2%;
+        background:#fffbf0; 
+    }
+
+    .mobile-intro-text h2{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin: 0;
+    }
+
+    .intro-text h2{
+        display: none;
+    }
+
+    .mobile-intro-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-intro-text h2{
+        display: inline;
+    }
+
+    .spacer {
+        margin-bottom: 6%;
+    }
+}
+
+@media (max-width: 561px) {
+
+    .intro-container {
+        flex-direction: column; 
+    }
+
+    .my-photo {
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .intro-text {
+        width: 100%;
+        padding: 2%;
+        background:#fffbf0; 
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .gallery-thmbs button{
+        font-size: 2rem;
+    }
+
 }
