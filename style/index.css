@@ -44,93 +44,143 @@ table {
 	border-spacing: 0;
 }
 
-.topsection {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    line-height: 1;
-    display: inline-block;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
 }
 
-.topsection p {
-    color: white;
-    font-size: 100%;
-    /* display: flex; */
+/* body {
+    font-size: 1.6rem;
+} */
+
+/* section {
+    padding:4% 0;
+} */
+
+section p {
+    /* display: flex;
+    flex-wrap: wrap;
+    position: relative; */
+    padding: 2%;
 }
-/* Resize images */
-.topsection img {
-    width: 0%;
-    height: 0%;
-    background-color: transparent;
+.topsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* line-height: 1; */
+    /* display: inline-block; */
+}
+
+.bg-img {
+    background-image: url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    
 }
 
 footer {
-    background-color: transparent;
+    background-color: white;
     text-align: center;
-    padding: 25px;
-    width: auto;
+    padding: 5%;
 }
 
 footer button {
-    height: 40px;
-    width: 100px;
+    height: 6vh;
+    width: 30vh;
+    /* display: flex; */
+    justify-content: center;
+    /* margin-top: 5%; */
+    /* text-align: center; */
     
 }
 
 .row {
-    height: 100px;
-    width: auto;
+    height: 50vh;
+    width: 30vh;
     display: flex;
-    padding: 40px;
-    background-color: transparent;
+    padding: 1%;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    padding: .03%;
+    /* background-color: transparent; */
+
 }
 
 .description {
-    /* width: 100%; */
+    display: flex; 
+    font-size: 125%;
     text-align: center;
-    padding: 20px;
-    color: white;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* position: relative; */
-    /* background-color: transparent; */
+    margin: 75%;
 }
 
 button {
     background-color: transparent;
     color: white;
-    border: black solid 1px;
-    /* padding: 5px 10px; */
-    /* display: flex; */
-    /* text-align: center; */
+    border: black solid 2px;
+    margin: 1%;
+    margin-top: 1%;
 }
 
 button:hover {
-    background-color: black;
-    color: white;
+    background-color: lightgrey;
+    /* color: black; */
     border: white solid 2px;
 }
 
 button a {
     text-decoration: none;
-    color: inherit;
+    color: darkgreen;
+    
 }
 
-html { 
-    background: url(https://images.unsplash.com/photo-1485758152456-1e91810337e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60/200/100) no-repeat center center fixed; 
-    padding: 10%;
-    background-color: transparent;
-    /* display: flex; */
-    /* text-align: left; */
-    /* position: relative; */
-  }
+/* section nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    
+} */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    padding: 3%;
+}
+
+h1, h2 {
+    margin:2% 0;
+}
 
   h1 {
-      color: white;
-      font-size: 300%;
+      color: black;
+      font-size: 4rem;
       flex-direction: row;
-      padding: 40px;
+      padding: 1%;
+      margin-top: 1%;
   }
+
+  h2 {
+      font-size: 3.5rem;;
+  }
+
+  img {
+      display: flex;
+      /* justify-content: space-evenly; */
+      padding: 10%;
+  }
+
 
  
   /* body {
@@ -140,3 +190,37 @@ html {
     background-size: cover;
     background-color: transparent;
   } */
+
+  @media(max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .row div {
+        width: 100%;
+    }
+    .row img {
+        width: 50%;
+    }
+  }
+
+  @media(max-width: 500px) {
+      .links {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .links button {
+          width: 40%;
+      }
+      .row {
+          flex-wrap: wrap;
+          display: flex;
+          flex-direction: row;
+          align-items: stretch;
+    }
+      .row img {
+       width: 100%;
+       flex-direction: row;
+       flex: 33%;
+      }
+}
