@@ -246,3 +246,40 @@ footer a:hover {
 	background-color: rgb(255,255,255,0.8);
 	font-size: larger;
 }
+
+/* @media Section */
+
+@media(max-width: 800px) {
+	.navTitle{
+		margin-left: 4%;
+		padding: 2% 0;
+	}
+
+	.links {
+		margin-left: 35%;
+	}
+
+	.computerImg  {
+		width: 30%;
+		padding: 4%;
+		margin-top: 15%;
+	}
+
+	header p {
+		font-size: 1.8rem;
+		width: 80%;
+		
+	}
+
+	.container {
+		width: 90%;
+		margin-top: -10%;
+	}
+		
+	footer {
+	bottom: 0;
+	height: 6em;ß
+	left: 0%;
+    width: 100%;
+	}
+}
