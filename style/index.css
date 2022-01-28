@@ -1,1 +1,166 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+header{
+    position: flex;
+    align-items:center;
+    background-color: #35858B;
+}
+header h1{
+    font-size:2rem;
+    font-weight:2;
+}
+header nav a{
+    text-decoration: none;
+    text-align: center;
+  }
+body{
+    background-color: #4FBDBA;
+}
+.links{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.top{
+    height: auto;
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+}
+.topText{
+    text-align: center;
+    line-height: 2;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.topText p{
+    font-size:.8em;
+}
+.projectPhotos{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    text-align: center;
+}
+.photo{
+    padding:10px;
+}
+footer{
+    display:flex;
+    background: #072227;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.footing{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    height: 200%;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+footer button{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    
+    
+}
+@media(max-width: 500px){
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header h1{
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .top{
+        height: auto;
+        display: flex;
+        flex-direction:column; 
+    }
+    .projectPhotos{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    .responseRow{
+        display:flex;
+        flex-direction: row;
+    }
+}
