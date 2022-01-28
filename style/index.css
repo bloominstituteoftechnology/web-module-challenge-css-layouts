@@ -1,1 +1,140 @@
 /* Add CSS styling here */
+
+* {
+    font-size: 62.5%;
+    max-width: 100%;
+}
+
+html {
+    background-color:grey;
+    font-family: 'Source Sans Prop',sans-serif;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.nav-bar h1 {
+    font-size: 3.5rem;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    padding-bottom: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: aliceblue;
+}
+
+.main {
+    background-color: rgb(189, 189, 189);
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+}
+.header-pic {
+    padding: 2%;
+}
+header img {
+    height: 80%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    
+}
+
+.header-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.header-info h1 {
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-info p{
+    font-size: 1.75rem;
+}
+
+.header-info button {
+    height: 100%;
+    min-width: 65%;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.picture {
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.picture img {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    width: 95%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+footer button {
+    height: 100%;
+    min-width: 10%;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-info {
+        width: 90%;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+}
