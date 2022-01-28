@@ -13,7 +13,7 @@
            <div class="logo">
                <img src="assets/logo.png" alt="logo">
            </div>
-           <div>
+           <div class="links">
                <a href="index.html">Home</a>
                <a href="projects.html">Projects</a>
                <a href="about.html">About</a>
@@ -21,30 +21,44 @@
            </div>
        </nav> 
     </header>
-    <section class="landing-img">
+    <div class="spacer main">
+        <img src="assets/logo.png" alt="">
+    </div>
+    <section class="landing-img main">
         <img src="assets/landing-img.png" alt="">
     </section>
-    <section class="intro">
-        <div>
-            <img src="assets/profile_s.png" alt="picture of Joshua Symanzik">
-        </div>
-        <div>
-            <h2>Hi, I'm Josh</h2>
-            <h3>Web Dev, Graphic Designer, and 3D Artist</h3>
-            <button onclick="window.location.href='projects.html'">My Projects</button>
-            <p>Here are some words about me and my journey so far. These words are authentic and inspiring. These words tell my story.</p>
+    <section class="main">
+        <div class="quote">
+            <h3>"Imagination is the seed of reality."</h3>
         </div>
     </section>
-    <section class="gallery">
-        <div id="webdev-thmb">
-            <button onclick="window.location.href='projects.html#webdev-sec'">Web Development</button>
+    <section class="intro main">
+        <div class="my-photo">
+            <img src="assets/profile_s.png" alt="picture of Joshua Symanzik">
         </div>
-        <div id="gdesign-thmb">
-            <button onclick="window.location.href='projects.html#gdesign-sec'">Graphic Design</button>
+        <div class="intro-text">
+            <h1>Hi, I'm Josh</h1>
+            <h2>Web Dev, Graphic Designer, and 3D Artist</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, corrupti veniam? Soluta vero necessitatibus nisi, maxime maiores qui perspiciatis illum rerum repudiandae quo eligendi quidem dignissimos nam nulla fugit possimus, quas suscipit. Officiis, est eaque. Impedit dolor in quo perferendis, qui doloribus iure nostrum voluptas explicabo neque itaque ut officiis maiores fuga id nihil exercitationem quia, assumenda totam? Quidem provident non fugiat doloremque facere, soluta eveniet nisi voluptatibus nostrum deleniti?</p>
+            <button onclick="window.location.href='projects.html'">My Projects</button>
         </div>
-        <div id="3d-thmb">
-            <button onclick="window.location.href='projects.html#3d-sec'">3D Art</button>
+    </section>
+    <section class="gallery main">
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="webdev-thmb">
+                <button onclick="window.location.href='projects.html#webdev-sec'">Web Development</button>
+            </div>
         </div>
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="gdesign-thmb">
+                <button onclick="window.location.href='projects.html#gdesign-sec'">Graphic Design</button>
+            </div>
+        </div>
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="threedee-thmb">
+                <button onclick="window.location.href='projects.html#gdesign-sec'">3D Art</button>
+            </div>
+        </div>    
     </section>
     <footer>
         <h2>Like what you see?</h2>
