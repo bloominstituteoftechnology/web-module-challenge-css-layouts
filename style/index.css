@@ -1,1 +1,208 @@
 /* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */ 
+
+/*CSS Reset^^*/
+
+/*Universal Selector*/
+
+
+/* general */
+
+*{
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: black;
+    color: white;
+}
+
+body{
+    font-size: 1.8rem;
+    color: white;
+    font-family: "Bebas Neue";
+    /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: black;
+    text-decoration: none;
+    
+}
+
+
+
+/* header */
+
+/* nav{
+    display: flex;
+    flex-direction: row;
+} */
+
+ul{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.top_section{
+    display: flex;
+    justify-content: center;
+}
+
+.image_button{
+    background-image: url("https://picsum.photos/600/400");
+    /* the 600 & 400 are the w * h for the img we are inserting */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    font-family: "Bebas Neue", cursive;
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+/* ------ portfolio gallery -------- */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+
+
+button{
+    background-color:  rgba(0,0,0, 0);
+    color: white;
+    padding: 5% 5%;
+    text-align: center;
+    align-items: center;
+    width: 10% 0;
+    height: 5vh;
+    font-family: "Staatliches", sans-serif;
+    border: none;
+    
+}
+
+button:hover{
+    color: rgb(255, 208, 0);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer button a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+
+}
+
+footer button a:hover{
+    color: rgb(255, 208, 0);
+}
+
+
+
+
+
+/* about */
+
+/* .about{
+    display: flex;
+    padding: 10%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.bio{
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 10%;
+}
+
+.selfie{
+    align-items: center;
+    height: 45vh;
+    width: 35%;
+    border-radius: 50%;
+    float: left;
+}
+
+.desc{
+    text-align: center;
+    line-height: 2;
+    width: 60%;
+    height: 10vh;
+} */
+
