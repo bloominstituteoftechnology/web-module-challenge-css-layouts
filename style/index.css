@@ -58,175 +58,137 @@ table {
 
 *{
     box-sizing: border-box;
-    padding: 4%;
+    padding: 2%;
 }
 
 html{
     font-size: 62.5%;
+    background-color: black;
+    color: white;
 }
 
 body{
     font-size: 1.8rem;
-    line-height: 1;
     color: white;
-    font-family: "Roboto";
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY");
+    font-family: "Bebas Neue";
+    /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-color: black;
+    text-decoration: none;
     
 }
 
-section{
-    padding: 3%;
-}
 
-a{
-    text-decoration: none;
-}
 
 /* header */
 
-nav{
-    padding: 0 3%;
-    position: fixed;
-    width: 30%;
-    text-align: center;
-    align-items: right;
+/* nav{
+    display: flex;
+    flex-direction: row;
+} */
+
+ul{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.top_section{
+    display: flex;
+    justify-content: center;
+}
+
+.image_button{
+    background-image: url("https://picsum.photos/600/400");
+    /* the 600 & 400 are the w * h for the img we are inserting */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    font-family: "Bebas Neue", cursive;
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+/* ------ portfolio gallery -------- */
+.row{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 57%;
-
-    
-}
-
-a{
-    text-decoration: none;
-    letter-spacing: 1.5px;
-}
-
-.menu{
-    color: white;
-    background: black;
-    border-radius: 50%;
-
-}
-
-
-
-
-/* ------ home -------- */
-
-
-.welcome{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-
-}
-
-h1 h2 p {
-    font-family: "Bebas Neue";
-    line-height: 1%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 10vh;
-}
-
-h1{
-    font-size: 8rem;
-    width: 100%;
-    height: 10vh;
-    margin: 1px;
-    
-}
-
-h2{
-    font-size: 3rem;
-    width: 50%;
-    height: 5vh;
-    margin: 1px;
-}
-
-h3{
-    font-size: 2rem;
-    width: 100%;
-    height: 2vh;
-    margin 1px;
-}
-
-/* projects page */
-
-.projects{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-.counter{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-.counter, .h1, .h2, .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: left;
-    width: 10%;
-    
-    
-
-}
-
-.button{
-    width: 10%;
-    background-color: rgb(40, 39, 41);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-/* .work holds img .portfolio and i need it to be next to counter ^^  */
-.work{
-    display: flex;
-    flex-direction: row;
-
+    padding: 20px;
 }
 
 .portfolio{
-    height: 40vh;
-    width: 40% auto;
-    display: flex;
-    float: left;
+    text-align: center;
 }
 
-.box1{
-    float: left;
-    font-size: 1rem;
-    background: black;
-    opacity: 0;
-    display: flex;
-    transition: all 0.7s;
+
+
+button{
+    background-color:  rgba(0,0,0, 0);
+    color: white;
+    padding: 5% 5%;
+    text-align: center;
+    align-items: center;
+    width: 10% 0;
+    height: 5vh;
+    font-family: "Staatliches", sans-serif;
+    border: none;
     
 }
 
-
-.box:hover .portfolio{
-    opacity: 1;
+button:hover{
+    color: rgb(255, 208, 0);
 }
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer button a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+
+}
+
+footer button a:hover{
+    color: rgb(255, 208, 0);
+}
+
+
+
+
 
 /* about */
 
-.bio{
+/* .about{
     display: flex;
-    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.bio{
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 10%;
 }
 
 .selfie{
@@ -242,4 +204,5 @@ h3{
     line-height: 2;
     width: 60%;
     height: 10vh;
-}
+} */
+
