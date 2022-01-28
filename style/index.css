@@ -1,1 +1,96 @@
-/* Add CSS styling here */
+header {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+}
+
+.topsection {
+  display: flex;
+  justify-content: center;
+}
+
+.toptext {
+  width: 50%;
+  text-align: center;
+  padding: 25px;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.portfolio-element {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: black solid 1px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: white solid 1px;
+  padding: 5px 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 800px) {
+  .row div {
+    width: 20%;
+  }
+  .topsection img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0;
+  }
+  button {
+    width: 40%;
+  }
+  .topsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topsection div {
+    width: 90%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .row div {
+    width: 40%;
+    margin: 4% 0;
+  }
+}
