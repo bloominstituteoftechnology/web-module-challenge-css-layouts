@@ -1,1 +1,309 @@
-/* Add CSS styling here */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'proxima-nova', sans-serif;
+    background-color: #fff0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 8rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+section {
+    padding: 1% 0%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    background-color: #fffbf0;
+    border-bottom: 1px solid black;
+}
+
+nav .links {
+    width: 100%;
+    margin: 0 1%;
+}
+
+nav .links a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0% 2%;
+    color: black;
+}
+
+.logo {
+    width: 10%;
+    min-width: 200px;
+}
+
+.spacer img {
+    width: 10%;
+    min-width: 200px;
+    margin-bottom: 3%;
+}
+
+.main {
+    max-width: 120rem;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote h3 {
+    width: 100%;
+    background:#fffbf0; 
+    padding: 3%;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-photo {
+    width: 50%;
+    margin-right: 1%;
+}
+
+.intro-text {
+    width: 50%;
+    padding: 2%;
+    background:#fffbf0; 
+    margin-left: 1%;
+}
+
+.mobile-intro-text {
+    display: none;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: column;
+}
+
+.thmb-container {
+    margin: 2% 0;
+}
+
+.gallery-thmbs {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery-thmbs button{
+    width: 80%;
+    background: rgba(0, 0, 0, .4);
+    border: 1px solid black;
+    color: white; 
+    border-radius: 2rem;
+    padding: 10% 20%;
+    margin: 10%;
+    font-size: 4rem;
+}
+
+#webdev-thmb {
+    justify-content: center;
+    background-image: url("../assets/thmb-webdev.svg");
+}
+
+#gdesign-thmb {
+    justify-content: center;
+    background-image: url("../assets/thmb-gdesign.jpg");
+}
+
+#threedee-thmb {
+    justify-content: center;
+    background-image: url("../assets/thmb-threedee.png");
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+    background-color: #fffbf0;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.social-media i {
+    padding: 10px;
+    margin: 2% auto;
+    font-size: 3rem;
+}
+
+
+@media (max-width: 1040px) {
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
+    .intro-text p{
+        display: none;
+    }
+
+    .mobile-intro-text {
+        display: flex;
+        margin-top: 2%;
+        padding: 2%;
+        background:#fffbf0; 
+    }
+
+    .mobile-intro-text h2{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin: 0;
+    }
+
+    .intro-text h2{
+        display: none;
+    }
+
+    .mobile-intro-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-intro-text h2{
+        display: inline;
+    }
+
+    .spacer {
+        margin-bottom: 6%;
+    }
+}
+
+@media (max-width: 561px) {
+
+    .intro-container {
+        flex-direction: column; 
+    }
+
+    .my-photo {
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .intro-text {
+        width: 100%;
+        padding: 2%;
+        background:#fffbf0; 
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .gallery-thmbs button{
+        font-size: 2rem;
+    }
+
+}

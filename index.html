@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.typekit.net/uuq8rft.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="https://kit.fontawesome.com/8b7aeb2eee.js" crossorigin="anonymous"></script>
+    <title>Joshua Symanzik's Portfolio</title>
 </head>
 <body>
-    
+    <header>
+       <nav>
+           <div class="logo">
+               <img src="assets/logo.png" alt="logo">
+           </div>
+           <div class="links">
+               <a href="index.html">Home</a>
+               <a href="projects.html">Projects</a>
+               <a href="about.html">About</a>
+               <a href="contact.html">Contact</a>
+           </div>
+       </nav> 
+    </header>
+    <div class="spacer main">
+        <img src="assets/logo.png" alt="">
+    </div>
+    <section class="landing-img main">
+        <img src="assets/landing-img.png" alt="">
+    </section>
+    <section class="main">
+        <div class="quote">
+            <h3>"Imagination is the seed of reality."</h3>
+        </div>
+    </section>
+    <section class="intro main">
+        <div class="intro-container">
+            <div class="my-photo">
+                <img src="assets/profile_s.png" alt="picture of Joshua Symanzik">
+            </div>
+            <div class="intro-text">
+                <h1>Hi, I'm Josh</h1>
+                <h2>Web Dev, Graphic Designer, and 3D Artist</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, corrupti veniam? Soluta vero necessitatibus nisi, maxime maiores qui perspiciatis illum rerum repudiandae quo eligendi quidem dignissimos nam nulla fugit possimus, quas suscipit. Officiis, est eaque. Impedit dolor in quo perferendis, qui doloribus iure nostrum voluptas explicabo neque itaque ut officiis maiores fuga id nihil exercitationem quia, assumenda totam? Quidem provident non fugiat doloremque facere, soluta eveniet nisi voluptatibus nostrum deleniti?</p>
+                <button onclick="window.location.href='projects.html'">My Projects</button>
+            </div>
+        </div>
+        <div class="mobile-intro-text">
+            <h2>Web Dev, Graphic Designer, and 3D Artist</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, corrupti veniam? Soluta vero necessitatibus nisi, maxime maiores qui perspiciatis illum rerum repudiandae quo eligendi quidem dignissimos nam nulla fugit possimus, quas suscipit. Officiis, est eaque. Impedit dolor in quo perferendis, qui doloribus iure nostrum voluptas explicabo neque itaque ut officiis maiores fuga id nihil exercitationem quia, assumenda totam? Quidem provident non fugiat doloremque facere, soluta eveniet nisi voluptatibus nostrum deleniti?</p>
+        </div>
+    </section>
+    <section class="gallery main">
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="webdev-thmb">
+                <button onclick="window.location.href='projects.html#webdev-sec'">Web Development</button>
+            </div>
+        </div>
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="gdesign-thmb">
+                <button onclick="window.location.href='projects.html#gdesign-sec'">Graphic Design</button>
+            </div>
+        </div>
+        <div class="thmb-container">
+            <div class='gallery-thmbs' id="threedee-thmb">
+                <button onclick="window.location.href='projects.html#gdesign-sec'">3D Art</button>
+            </div>
+        </div>    
+    </section>
+    <footer>
+        <h2>Like what you see?</h2>
+        <button onclick="window.location.href='contact.html'">Contact Me</button>
+        <div class="social-media">
+            <i onclick="window.location.href='projects.html'" class="fab fa-instagram-square"></i>
+            <i onclick="window.location.href='projects.html'" class="fab fa-twitter-square"></i>
+            <i onclick="window.location.href='projects.html'" class="fab fa-linkedin"></i>
+        </div>
+    </footer>
 </body>
 </html>
