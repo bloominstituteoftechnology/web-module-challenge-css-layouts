@@ -42,12 +42,12 @@ nav a {
 
 .main {
     background-color: rgb(189, 189, 189);
-    width: 100%;
+    max-width: 100%;
 }
 
 header {
     display: flex;
-    width: 100%;
+    max-width: 100%;
 }
 .header-pic {
     padding: 2%;
@@ -76,9 +76,9 @@ header img {
     font-size: 1.75rem;
 }
 
-.header-info input {
+.header-info button {
     height: 100%;
-    width: 65%;
+    min-width: 65%;
     font-size: 2rem;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
@@ -100,14 +100,12 @@ header img {
 }
 
 .picture img {
-    width: 100%;
-    height: 100%;
     padding: 0%;
     margin: 0%;
 }
 
 footer {
-    width: 100%;
+    width: 95%;
     text-align: center;
     padding: 2%;
     margin-bottom: 3%;
@@ -129,11 +127,14 @@ footer button {
 
     header {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .header-info {
-        width: 100%;
-        align-items: center;
+        width: 90%;
         padding: 2%;
+        justify-content: center;
+        align-items: center;
     }
 }
