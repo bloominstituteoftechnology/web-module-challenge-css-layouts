@@ -50,7 +50,13 @@ table {
     max-width: 100%;
   }
 header{
+    position: flex;
+    align-items:center;
     background-color: #35858B;
+}
+header h1{
+    font-size:2rem;
+    font-weight:2;
 }
 header nav a{
     text-decoration: none;
@@ -66,12 +72,7 @@ body{
   justify-content: space-around;
   align-items: space-around;
 }
-footer{
-    display: flex;
-    text-align: center;
-    background: #072227;
-    justify-content: center;
-}
+
 .top{
     height: auto;
     display: flex;
@@ -100,4 +101,66 @@ footer{
 }
 .photo{
     padding:10px;
+}
+footer{
+    display:flex;
+    background: #072227;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.footing{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    height: 200%;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+footer button{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    
+    
+}
+@media(max-width: 500px){
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header h1{
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .top{
+        height: auto;
+        display: flex;
+        flex-direction:column; 
+    }
+    .projectPhotos{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    .responseRow{
+        display:flex;
+        flex-direction: row;
+    }
 }
