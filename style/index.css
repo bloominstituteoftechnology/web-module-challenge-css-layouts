@@ -88,7 +88,6 @@ button a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-self: center;
   }
   .row div {
     width: 40%;
