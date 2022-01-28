@@ -221,6 +221,5 @@ h1, h2 {
       .row img {
        width: 100%;
        flex-direction: row;
-       flex: 33%;
       }
 }
