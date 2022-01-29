@@ -42,148 +42,143 @@ table {
 	border-spacing: 0;
 }
 
-.headshot {
-    padding: 0.25em;
-    height: auto;
-    border: 5px solid black;
+body {
+  overflow-x: hidden;
+}
+
+.headshot{
+  border: 5px solid black;
+  margin-left: 10px;
+  width: 800px;
+  height: 800px;
+  
 }
 
 .links {
     display: flex;
-    padding: 1em;
+    margin-left: 5%;
 }
 
 a {
     text-decoration: none;
     letter-spacing: 3px;
-    padding: 0.25em;
   }
 
 h1 {
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 3em;
     font-family: 'Architects Daughter', cursive;
+    margin-left: 5%;
+  
 }
 
 h2 {
       font-weight: bolder;
-      font-size: 80px;
-      padding: 5%;
+      font-size: 3em;
+}
+header{
+  background-color:lightgray;
 }
  
 .home {
-    width: 50%;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     padding: 1% 1%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     font-family: 'Architects Daughter', cursive;
-    font-size: 80px;
+    font-size: 2em;
 }
   
 .home:hover{
-      background-color: white;
+      background-color: black;
 }
 
 .about {
-    width: 50%;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     padding: 1% 1%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     font-family: 'Architects Daughter', cursive;
-    font-size: 80px;
+    font-size: 2em;
 }
 .about:hover{
-    background-color: white;
+    background-color: black;
 }
   
   .contact {
-   
-    width: 50%;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     padding: 1% 1%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     font-family: 'Architects Daughter', cursive;
-    font-size: 80px;
+    font-size: 2em;
 }
   .contact:hover{
-    background-color: white;
+    background-color: black;
 }
 .projects {
-    
-    width: 50%;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     padding: 1% 1%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     font-family: 'Architects Daughter', cursive;
-    font-size: 80px;
+    font-size: 2em;
   }
 
   .projects:hover{
-    background-color: white;
+    background-color: black;
   }
 
   .myprojects {
-    
-    background-color: black;
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: white;
     border: 1px solid black;
-    margin-left: 600px;
-    margin-right: 600px;
-    width: 20%;
-    padding-bottom: 20px;
+    font-size: 1.5em;
   }
   .myprojects:hover{
-    background-color: white;
+    background-color: black;
   }
   .introduction {
-    font-size: 50px;
-    line-height: 50px;
+    display: flex;
     text-align: center;
     justify-content: center;
     font-family: 'Architects Daughter', cursive;
-  }
+    padding-left: 5%;
+    }
+
+    .paragraph{
+      padding-top: 30%;
+    }
 
 
-  .container1 {
-    display: flex;
-    flex-direction: row;
-    padding: 5% 5%;
-    justify-content: center;
-  }
+ 
   .row1 {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
       flex-direction: row;
-      padding: 100px;
+      padding: 1%;
       
       
   }
 
   .row2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
-    padding: 100px;
+    padding: 1%;
   }
 
-  #wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:1000px;
-}
 p {
-    font-size: 50px;
+    font-size: 20px;
     line-height: 50px;
     text-align: center;
     justify-content: center;
@@ -191,32 +186,145 @@ p {
 }
 
 .contactme {
-    background-color: black;
-    border: 1px solid black;
-    margin-left: 300px;
-    margin-right: 600px;
-    width: 50%;
-    padding-bottom: 20px;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 60px;
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.2em;
+  padding: 1%;
 }
 
 .contactme:hover {
-    background-color: white;
+    background-color: black;
     display: flex;
 }
 footer{
     background-color: lightgray;
     text-align: center;
     width: 100%;
+    justify-content:center;
+    padding: 5%;
 }
 
-.graduation{
+.graduation1{
     border: 5px solid black;
     padding: 20px;
 }
+.graduation2{
+  border: 5px solid black;
+  padding: 20px;
+}
+.graduation3{
+  border: 5px solid black;
+  padding: 20px;
+}
+.graduation4{
+  border: 5px solid black;
+  padding: 20px;
+}
 
-.citizenship{
+.citizenship1{
     border: 5px solid black;
     padding: 20px;
 }
+.citizenship2{
+  border: 5px solid black;
+  padding: 20px;
+}
+.citizenship3{
+  border: 5px solid black;
+  padding: 20px;
+}
+.citizenship4{
+  border: 5px solid black;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  h1{
+    text-align: center;
+  }
+  h2{
+    font-size: 1em;
+  }
+
+  header{
+    background-color:lightgray;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+
+  .headshot{
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .myprojects {
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 0.5em;
+  }
+ 
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .row1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1%;
+  }
+
+  .row2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1%;
+  }
+  .graduation4{
+    border: 5px solid black;
+    padding: 20px;
+    display: none;
+  }
+  .citizenship4{
+    border: 5px solid black;
+    padding: 20px;
+    display: none;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+  }
+  .contactme {
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2em;
+    padding: 1%;
+  }
+}
+
