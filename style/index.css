@@ -56,14 +56,15 @@ html{
 }
 
 body{
-	font-family: ;
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	color: #4f4f4f;
+	background-color: #FAF0E6;
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: ;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 3px;
 }
 
@@ -71,6 +72,103 @@ h1,h2,h3,h4,h5,h6{
 
 /*Portfolio Styling START*/
 
+#header{
+	background-color: #2F4F4F;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+#header h1{
+	width: 100%;
+	padding: 1% 0 1% 1.5%;
+	margin: 1% 0 0 0;
+	color: #fff;
+	font-size: 5rem;
+}
+
+#header nav{
+	width: 30%;
+	padding: 1% 0 1% 0;
+	margin: 0 0 1% 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#header nav a{
+	border: 1px solid #4f4f4f;
+	color: #4f4f4f;
+	background-color: #fff;
+	width: 24%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#header nav a:hover{
+	background-color: #4f4f4f;
+	color: #fff;
+}
+
+.section1{
+	display: flex;
+}
+
+.section1 div{
+	width: 50%;
+	padding: 2%;
+}
+
+.section1 div img{
+	width: 600px;
+}
+
+.section2{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.section2 div{
+	display: flex;
+	flex-wrap: wrap;
+	width: 21%;
+}
+
+.section2 div img{
+	width: 100%;
+	height: 40vh;
+	background-size: contain;
+}
+
+.section2 div h2{
+	text-align: center;
+	border: 1px solid red;
+	width: 100%;
+}
+
+footer{
+	background-color: #2F4F4F;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2% 0;
+}
+
+footer h2{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 0 0 1% 0;
+	margin: 0 0 2% 0;
+}
+
+footer a{
+	color: #fff;
+	border: 1px solid white;
+	padding: 0.5% 1%;
+}
 
 /*Portfolio Styling END*/
