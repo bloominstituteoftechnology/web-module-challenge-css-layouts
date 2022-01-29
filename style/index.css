@@ -1,1 +1,330 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.headshot{
+  border: 5px solid black;
+  margin-left: 10px;
+  width: 800px;
+  height: 800px;
+  
+}
+
+.links {
+    display: flex;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 5%;
+  
+}
+
+h2 {
+      font-weight: bolder;
+      font-size: 3em;
+}
+header{
+  background-color:lightgray;
+}
+ 
+.home {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+}
+  
+.home:hover{
+      background-color: black;
+}
+
+.about {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+}
+.about:hover{
+    background-color: black;
+}
+  
+  .contact {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+}
+  .contact:hover{
+    background-color: black;
+}
+.projects {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1% 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+  }
+
+  .projects:hover{
+    background-color: black;
+  }
+
+  .myprojects {
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5em;
+  }
+  .myprojects:hover{
+    background-color: black;
+  }
+  .introduction {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    padding-left: 5%;
+    }
+
+    .paragraph{
+      padding-top: 30%;
+    }
+
+
+ 
+  .row1 {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 1%;
+      
+      
+  }
+
+  .row2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1%;
+  }
+
+p {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.contactme {
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.2em;
+  padding: 1%;
+}
+
+.contactme:hover {
+    background-color: black;
+    display: flex;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+    justify-content:center;
+    padding: 5%;
+}
+
+.graduation1{
+    border: 5px solid black;
+    padding: 20px;
+}
+.graduation2{
+  border: 5px solid black;
+  padding: 20px;
+}
+.graduation3{
+  border: 5px solid black;
+  padding: 20px;
+}
+.graduation4{
+  border: 5px solid black;
+  padding: 20px;
+}
+
+.citizenship1{
+    border: 5px solid black;
+    padding: 20px;
+}
+.citizenship2{
+  border: 5px solid black;
+  padding: 20px;
+}
+.citizenship3{
+  border: 5px solid black;
+  padding: 20px;
+}
+.citizenship4{
+  border: 5px solid black;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  h1{
+    text-align: center;
+  }
+  h2{
+    font-size: 1em;
+  }
+
+  header{
+    background-color:lightgray;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+
+  .headshot{
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .myprojects {
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 0.5em;
+  }
+ 
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .row1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1%;
+  }
+
+  .row2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1%;
+  }
+  .graduation4{
+    border: 5px solid black;
+    padding: 20px;
+    display: none;
+  }
+  .citizenship4{
+    border: 5px solid black;
+    padding: 20px;
+    display: none;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+  }
+  .contactme {
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2em;
+    padding: 1%;
+  }
+}
+
