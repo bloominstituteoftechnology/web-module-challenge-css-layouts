@@ -1,1 +1,118 @@
-/* Add CSS styling here */
+* {
+    box-sizing:border-box;
+}
+body {
+    background-color:rgba(10,0,255,.6);
+    overflow:hidden;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.fc {
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+.header-content {
+    max-width:50vw;
+    flex-flow:column nowrap;
+    align-content:flex-start;
+}
+
+div.myName {
+    justify-content:center;
+    align-content:flex-start;
+    height:2rem;
+}
+p.myName {
+    font-weight:900;
+    letter-spacing:.2em;
+    margin:0;
+    min-width:0;
+    overflow:hidden;
+    font-size:1.8rem;
+    
+}
+.navDiv {
+    justify-content:center;
+    align-content:center;
+}
+.buttonBox {
+    max-width:90%;
+    min-width:40%;
+    margin:10px;
+    height:auto;
+    justify-content:center;
+}
+div.buttonBox button{
+    font-weight:900;
+    background-color:rgba(180,0,10,.9);
+    color:rgba(0,0,200,.7);
+    
+    width:6rem;
+    text-align:center;
+    font-size:min(1rem,90%);
+    
+}
+div.bio {
+    height:60vh;
+    width:50%;
+    align-content:center;
+    justify-content:center;
+}
+img.bio {
+    max-height: 60vh;
+}
+div.details {
+    width:25vw;
+}
+p.title {
+    font-weight:800;
+    font-size:1.5rem;
+    color:rgba(255,150,100,.9);
+}
+div.content {
+    height:100vh;
+    justify-content:space-around;
+    align-content:flex-start;
+    overflow:scroll;
+    flex-flow:row wrap;
+    
+    
+}
+img.content {
+    box-sizing:content-box;
+    background: radial-gradient(circle,rgba(255,0,0,0),rgba(255,0,0,.7));
+    border:3px solid red;
+    border-radius:6px;
+    width:calc(100vw/6);
+    margin:1%;
+    padding:3%;
+    flex: 0 1 20%;
+}
+footer {
+    justify-content:center;
+    align-content:center;
+}
+footer div {
+    margin-top:2%;
+}
+footer button {
+    background-color:rgba(180,0,10,.9);
+    color:rgba(0,0,200,.7);
+    width:8rem;
+    height:2rem;
+    font-weight:900;
+    font-size:min(1rem,90%);
+}
+::-webkit-scrollbar {
+    width:max(.5rem,10px);
+}
+::-webkit-scrollbar-thumb {
+ background:linear-gradient(0.4turn, rgba(180,0,10,.1), rgba(255,0,10,1), rgba(180,0,10,.1))   
+}
+::-webkit-scrollbar:hover {
+    background-color:rgba(180,180,180,.3);
+}
+::-webkit-scrollbar-corner {
+    background-color:rgba(0,0,0,0);
+}
