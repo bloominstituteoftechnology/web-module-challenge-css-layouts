@@ -24,15 +24,12 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from Thursday:
 
-- [ ] `cd` into your personal portfolio folder
-- [ ] Create a new branch from `<firstName-lastName>`:
-
-```bash
-git checkout -b <firstName-lastName-day2>
-```
-
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [ ] DO NOT FORK OR CLONE THIS REPOSITORY; YOU WILL WORK OUT OF YESTERDAY'S AGAIN.
+- [ ] cd into your repository on the command line and use code . to open VS Code.
+- [ ] Create a branch called `firstName-lastName-responsive`. Push your work to this branch.
+- [ ] Go into Canvas and connect your repository by copy-pasting its branch-specific Github URL into the submission slot.
+- [ ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
+- [ ] Complete your work making regular commits to the `firstName-lastName-responsive` branch; your submitted URL will always reflect your most recent work.
 
 ### Task 2: Minimum Viable Product
 
@@ -73,10 +70,4 @@ Once you finish the minimum viable project, work on any of the following stretch
 🤝[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
 
 👀 [Explore a Curated Gallery of Professional Portfolios](https://wpamelia.com/portfolio-websites/#webdev)
-
-## Submission format
-
-Follow these steps for completing your project.
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
