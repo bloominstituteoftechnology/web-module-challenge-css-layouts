@@ -22,7 +22,7 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 ### Task 1: Set up Project
 
-New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from Thursday:
+New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your repo from Wednesday:
 
 - [ ] DO NOT FORK OR CLONE THIS REPOSITORY; YOU WILL WORK OUT OF YESTERDAY'S AGAIN.
 - [ ] cd into your repository on the command line and use code . to open VS Code.
