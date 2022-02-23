@@ -41,7 +41,7 @@ nav {
   background-color: white;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: black;
   background-color: white;
@@ -139,4 +139,10 @@ footer p {
 footer button {
   height: 50px;
   width: 150px;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  margin: 20px 10px;
 }
