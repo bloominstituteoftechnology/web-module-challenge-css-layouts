@@ -1,1 +1,67 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    padding: 4;
+    margin: 4;
+    max-width:100%; 
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+    display:flex;
+    border-radius: 25%;
+    border: 2px solid black;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.header{
+    /* border: 2px solid red; */
+    width:100%;
+    background-color:#b3b8b5
+}
+.header-nav {
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;   
+    justify-content: space-evenly;
+}
+.description {
+   /* border: 2px solid red; */
+   margin-top: 5%;
+   text-align: justify;
+   margin-bottom: 10%;
+  
+   
+}
+
+.intro-picture {
+    /* border: 2px solid red; */
+    float:left;
+    width:10%;
+    height:20vh;
+}
+#gallery{
+    /* border: 2px solid red; */
+    display:flex;
+    height:60vh;
+    width:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gallery-pic {
+    display: flex;
+    width: 20%;
+    height: 20vh;
+    margin-left:5%;
+
+
+}
+.contact {
+    display: flex;
+    padding:2%;
+    background-color: #b3b8b5;
+    border: 2px solid red;
+    justify-content: center;
+}
