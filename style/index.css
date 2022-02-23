@@ -25,3 +25,16 @@
     display: flex;   
     justify-content: space-evenly;
 }
+.description {
+   /* border: 2px solid red; */
+   margin-top: 5%;
+   text-align: justify;
+  
+   
+}
+.intro-picture {
+    /* border: 2px solid red; */
+    float:left;
+    width:10%;
+    height:20vh;
+}
