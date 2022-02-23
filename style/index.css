@@ -60,6 +60,9 @@ header a {
 header a:hover {
     color: #3b4c5d;
 }
+header a:active {
+    color: #3b4c5d;
+}
 /* Body section */
 body {
     background-image: url('../images/sunset.png');
@@ -77,4 +80,11 @@ section div img {
     border-radius: 200%;
 }
 section div img:hover {
-    background-color: black, 50;
+    color: black;
+}
+.hide p {
+    display: none;
+}
+.hide p:hover {
+    display: flex;
+}
