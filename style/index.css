@@ -45,16 +45,36 @@ table {
 /* Navigation section */
 header {
     display: flex;
-    justify-content: center;
-}
+    justify-content: flex-end;
+    margin-bottom: 15%;
+    background-color: lightgray,;
 
+}
+header a {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+header a:hover {
+    color: #3b4c5d;
+}
 /* Body section */
+body {
+    background-image: url('../images/sunset.png');
+    background-position: cover;
+}
 section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 section div img {
     height: 100%;
-    width: 5%;
+    width: 10%;
     border-radius: 200%;
 }
+section div img:hover {
+    background-color: black, 50;
