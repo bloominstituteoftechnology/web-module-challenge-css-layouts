@@ -19,6 +19,9 @@ body {
   font-family: "PT Sans", sans-serif;
   background-color: #fffafa;
 }
+header {
+  background-color: aquamarine;
+}
 h1, h2, h3, h4 {
   letter-spacing: 3px;
   font-family: "Nunito", sans-serif;
@@ -58,4 +61,11 @@ img {
 }
 footer {
   height: 30vh;
+  background-color: burlywood;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-container {
+  margin-left: 47.5%;
 }
