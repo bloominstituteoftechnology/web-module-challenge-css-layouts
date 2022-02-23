@@ -58,3 +58,10 @@
 
 
 }
+.contact {
+    display: flex;
+    padding:2%;
+    background-color: #b3b8b5;
+    border: 2px solid red;
+    justify-content: center;
+}
