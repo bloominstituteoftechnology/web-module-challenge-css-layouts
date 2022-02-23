@@ -1,1 +1,27 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    padding: 4;
+    margin: 4;
+    max-width:100%; 
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+    display:flex;
+    border-radius: 25%;
+    border: 2px solid black;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.header{
+    /* border: 2px solid red; */
+    width:100%;
+    background-color:#b3b8b5
+}
+.header-nav {
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;   
+    justify-content: space-evenly;
+}
