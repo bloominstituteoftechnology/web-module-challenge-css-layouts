@@ -49,7 +49,7 @@ header {
     padding: 20px;
     margin-bottom: 50px;
     font-family: 'Noto Serif Display', serif;
-    font-size:6rem;
+    font-size:4rem;
     color:#BF7C18
 }
 
@@ -59,10 +59,19 @@ footer {
     padding: 20px;
 }
 
+h2 {
+    background-color: #242F40;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-family: 'Noto Serif Display', serif;
+    font-size:4rem;
+    color:#BF7C18
+}
 .topsection {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .description {
@@ -76,6 +85,9 @@ footer {
     flex-direction: row;
     padding: 20px;
     background-color: #E5E5E5;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.5rem;
+    color: black
 }
 
 .portfolio-element {
