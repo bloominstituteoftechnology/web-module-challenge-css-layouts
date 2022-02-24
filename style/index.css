@@ -61,11 +61,16 @@ footer {
 
 h2 {
     background-color: #242F40;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 15px;
+    width: 185px;
+    border-radius: 15px;
+    margin-bottom: 10px;
     font-family: 'Noto Serif Display', serif;
-    font-size:4rem;
+    font-size:2rem;
     color:#BF7C18
+
+    
+    
 }
 .topsection {
     display: flex;
@@ -87,6 +92,7 @@ h2 {
     background-color: #E5E5E5;
     font-family: 'Noto Serif Display', serif;
     font-size: 1.5rem;
+    font-weight: 500;
     color: black
 }
 
@@ -99,7 +105,7 @@ button {
     color: black;
     border: black solid 1px;
     padding: 5px 10px;
-    border-radius: 10%;
+    border-radius: 15px;
     
 }
 
