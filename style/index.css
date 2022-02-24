@@ -1,1 +1,59 @@
 /* Add CSS styling here */
+body{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2373&q=80");
+}
+h2, nav{
+display: inline-flex;
+} 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+header a {
+    display: flex;
+    flex-direction: row;
+    
+    width: 70px;;
+}
+
+.myName{
+    height: 35%;
+    flex-direction: column;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgba(50,100,168,.2) ;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.myName button{
+    background-color: transparent;
+    display: inline-flex;
+    border: none;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-top: 5%;
+    align-content: flex-end;
+}
+.topRow{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+.topRowElement{
+    text-align: center;
+}
