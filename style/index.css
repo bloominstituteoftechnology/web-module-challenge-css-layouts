@@ -99,6 +99,7 @@ video {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -108,10 +109,9 @@ body {
 h1 {
     font-family: 'Bungee Outline', cursive;
     color: var(--accent-color);
-    font-size: 20vw;
-    line-height: .8;
-    -webkit-text-stroke: 0.6vw var(--accent-color);
     opacity: .6;
+    font-size: 20em;
+    -webkit-text-stroke-width: 10px;
 }
 
 h2 {
@@ -133,6 +133,7 @@ p,
 section,
 footer {
     padding: 100px 200px;
+    overflow: hidden;
 }
 
 header,
@@ -161,12 +162,14 @@ nav {
 
 .linksWrapper {
     display: flex;
+    justify-content: space-around;
 }
 
 .navLinkWrapper {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .navLink {
@@ -197,24 +200,69 @@ nav {
     background-color: var(--accent-color);
 }
 
+.burger {
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    right: 30px;
+}
+
+.burger::before {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 20px;
+}
+
+.burger::after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 38px;
+}
+
 .splash {
     height: 100vh;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .splashWrapper {
-    padding: 250px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.splash h1 {
+    font-size: 20.5vw;
+    line-height: .8;
+    -webkit-text-stroke: 0.6vw var(--accent-color);
 }
 
 .splash h1:nth-child(2) {
-    font-size: 29vw;
+    font-size: 29.5vw;
     -webkit-text-stroke-width: 0.8vw
 }
 
 .splashWrapper h2 {
     position: absolute;
-    bottom: 200px;
-    right: 100px;
+    bottom: 30px;
+    right: 30px;
 }
 
 a:visited,
@@ -232,7 +280,7 @@ a:focus {
 .projectAllLinksWrapper {
     display: flex;
     width: 100%;
-    margin: 200px 0;
+    margin: 100px 0;
 }
 
 .projectLinkWrapper {
@@ -271,7 +319,7 @@ a:focus {
 }
 
 .projectSection {
-    height: 100vh;
+    height: calc(100vh - 200px);
     display: flex;
     align-items: center;
 }
@@ -279,18 +327,13 @@ a:focus {
 .projectLinkSection h2 {
     margin: 200px 0;
     position: relative;
-    margin-top: 100px;
 }
 
-.projectLinkSection h2::before {
-    content: 'WORK';
+.projectLinkSection h1 {
     position: absolute;
-    font-size: 6em;
+    font-size: 25em;
     -webkit-text-stroke-width: 10px;
-    font-family: 'Bungee Outline', cursive;
-    color: var(--accent-color);
-    opacity: .6;
-    top: 200px;
+    top: calc(50% - 110px);
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -301,12 +344,19 @@ a:focus {
     height: 400px;
 }
 
+.title p,
+.title h2,
+.title .bttn {
+    text-shadow: 2px 2px 0px var(--background-color);
+}
+
 .num {
     width: 69px;
     position: absolute;
     top: 30%;
     right: 20%;
     transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .portImg {
@@ -343,14 +393,8 @@ a:focus {
 }
 
 .bttn:hover {
-    color: var(--background-color);
-    background: var(--text-color);
+    background: var(--accent-color);
     border-radius: 0;
-}
-
-.projectSection h1 {
-    font-size: 20em;
-    -webkit-text-stroke-width: 10px;
 }
 
 .squircle {
@@ -367,11 +411,8 @@ a:focus {
 .squircle:hover,
 .squircleActive {
     transform: rotate(360deg);
-    border-width: 0;
     border-radius: 0;
-    background: var(--text-color);
-    width: 28px;
-    height: 28px;
+    border-color: var(--accent-color);
 }
 
 .projectNav {
@@ -385,6 +426,11 @@ a:focus {
     text-decoration: none;
     font-size: 30px;
     display: block;
+    transition: .5s;
+}
+
+.arrowHead:hover {
+    color: var(--accent-color);
 }
 
 footer {
@@ -401,4 +447,105 @@ footer i {
 
 footer i:hover {
     color: var(--accent-color);
+}
+
+@media(max-width: 1000px) {
+    .projectLinkSection h1 {
+        font-size: 15em;
+        -webkit-text-stroke-width: 6px;
+    }
+    .projectAllLinksWrapper {
+        flex-direction: column;
+    }
+    .projectLinkWrapper {
+        margin-bottom: 15px;
+    }
+    .projectLinkSection h1 {
+        top: calc(50% - 168px);
+    }
+    .title {
+        width: 100%;
+    }
+    .projectNav {
+        top: unset;
+        left: 50%;
+        display: flex;
+        gap: 20px;
+        bottom: 20px;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        justify-content: center;
+    }
+    .num {
+        width: 320px;
+        height: 538px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transform: unset;
+    }
+    nav {
+        padding: 25px 50px;
+        width: calc(100vw - 100px);
+    }
+    .portImg {
+        transform: translate(-50%, -50%);
+        background-size: cover;
+        width: 70%;
+    }
+    section {
+        padding: 100px 50px;
+    }
+    footer {
+        padding: 100px 50px;
+    }
+}
+
+@media(max-width: 600px) {
+    .portImg {
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0;
+    }
+    h1 {
+        font-size: 13em;
+        -webkit-text-stroke-width: 6px;
+    }
+    .num {
+        width: 220px;
+        z-index: -2;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    .projectLinkSection h1 {
+        font-size: 33vw;
+    }
+    .arrowHead {
+        font-size: 20px;
+    }
+    .squircle {
+        width: 10px;
+        height: 10px;
+        border-width: 3px;
+    }
+    .splash h2 {
+        font-size: 2em;
+    }
+    .burger,
+    .burger::after,
+    .burger::before {
+        display: block;
+    }
+    .linksWrapper {
+        display: none;
+    }
+    .bttn {
+        padding: 10px 20px;
+    }
 }
