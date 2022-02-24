@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*styling starts here*/
+
+header {
+    background-color: #242F40;
+    padding: 20px;
+    padding-left: 100%;
+    margin-bottom: 50px;
+    font-family: 'Noto Serif Display', serif;
+    font-size:4rem;
+    color:#BF7C18
+}
+
+footer {
+    background-color: #242F40;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #242F40;
+    padding: 15px;
+    width: 185px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-family: 'Noto Serif Display', serif;
+    font-size:2rem;
+    color:#BF7C18
+
+    
+    
+}
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.description {
+    padding: 20px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:  50px;
+    background-color: #E5E5E5;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black
+}
+  
+.portfolio-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    padding: 5px 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 20px;
+  }
