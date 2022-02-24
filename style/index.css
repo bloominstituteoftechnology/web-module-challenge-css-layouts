@@ -4,7 +4,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,33 +23,15 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
+} */
 /*General Styles*/
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
 html {
     font-size: 62.5%;
 }
@@ -58,8 +40,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
-    background-color: RGB(55, 66, 88);
-    color: white;
+    background-color: RGB(235, 235, 235);
 }
 
 h1 {
@@ -67,9 +48,14 @@ h1 {
     font-family: 'Libre Baskerville', serif;
 }
 
+p {
+    color: RGB(55, 66, 88);
+}
 /*header section*/
 
-nav {
+.nameandnav {
+    background-color: RGB(55, 66, 88);
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 2%;
@@ -92,12 +78,16 @@ nav {
     height: 500px;
 }
 
+.image-button a {
+    letter-spacing: .1rem;
+}
+
 .topsection button a {
     color: white;
 }
 
 .topsection button a:hover {
-    color: black;
+    color: RGB(55, 66, 88);
 }
 
 .row {
@@ -131,13 +121,13 @@ button a{
     text-decoration: none;
 }
 
+/* footer section */
 footer {
-    background-color: lightgrey;
+    background-color: RGB(55, 66, 88);
     padding: 20px;
     text-align: center;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .social {
@@ -152,13 +142,13 @@ footer {
     padding: 20px;
     width: 20%;
 }
-
+ /* glowing footer button*/
 .glow-on-hover {
     width: 220px;
     height: 50px;
     border: none;
     outline: none;
-    color: RGB(173, 185, 201);
+    color: RGB(55, 66, 88);
     background: #111;
     cursor: pointer;
     position: relative;
@@ -185,7 +175,7 @@ footer {
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: #000;
 }
 
 .glow-on-hover:active:after {
@@ -212,6 +202,16 @@ footer {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
-}
+};
 
-test test
+/* tablet */
+/* @media (max-width: 800px) {
+
+}; */
+
+/* phone */
+@media (max-width: 500px) {
+footer {
+    background-color: black;
+}
+}
