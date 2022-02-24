@@ -69,11 +69,11 @@ main img {
 }
 
 .text-box p {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 footer {
-  background-color: gray;
+  background-color: #81a4cd;
   width: 100vw;
   height: 15vh;
   display: flex;
@@ -83,7 +83,7 @@ footer {
 }
 
 footer p {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-bottom: 1%;
 }
 
@@ -96,5 +96,9 @@ footer button {
   header {
     display: flex;
     flex-direction: column;
+  }
+
+  .text-box {
+    margin-bottom: 10%;
   }
 }

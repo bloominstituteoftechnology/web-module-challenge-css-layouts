@@ -65,7 +65,7 @@ section {
 
 section h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 2.188rem;
   margin-bottom: 5%;
 }
 
@@ -80,7 +80,7 @@ footer {
 }
 
 footer p {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-bottom: 1%;
 }
 

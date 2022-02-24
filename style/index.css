@@ -16,7 +16,7 @@ body {
 
 header {
   width: 100vw;
-  height: 200px;
+  height: 20vh;
   display: flex;
   background-color: gray;
   margin-bottom: 0%;
@@ -80,7 +80,7 @@ main {
 }
 
 .desc-sec div h5 {
-  font-size: 30px;
+  font-size: 1.875rem;
   margin-bottom: 4%;
 }
 
@@ -88,10 +88,12 @@ main {
   width: 200px;
   height: 40px;
   margin-bottom: 4%;
+  border: 2px solid #81a4cd;
+  border-radius: 8%;
 }
 
 .desc-sec div p {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .project-sec {
@@ -132,7 +134,7 @@ footer {
 }
 
 footer p {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-bottom: 1%;
 }
 
@@ -145,4 +147,11 @@ footer img {
   width: 25px;
   height: 25px;
   margin: 20px 10px;
+}
+
+@media (max-width: 800px) {
+  .desc-sec {
+    flex-direction: column;
+    align-items: center;
+  }
 }

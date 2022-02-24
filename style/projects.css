@@ -63,7 +63,7 @@ main {
 
 .main-img img {
   width: 95%;
-  height: 500px;
+  height: auto;
 }
 
 article {
@@ -98,11 +98,11 @@ article {
 }
 
 .project-desc p {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 footer {
-  background-color: gray;
+  background-color: #81a4cd;
   width: 100vw;
   height: 15vh;
   display: flex;
@@ -112,7 +112,7 @@ footer {
 }
 
 footer p {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-bottom: 1%;
 }
 
