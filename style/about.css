@@ -71,8 +71,11 @@ body {
   }
 .container {  
   border-radius: 5px;
-  background-color: lightgray;
+  background-color: white;
   padding: 20px;
   margin: 0 auto;
-  width: 50%;
-} 
+  width: 30%;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  opacity: 70%;
+}
