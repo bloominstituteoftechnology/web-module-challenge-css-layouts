@@ -80,3 +80,23 @@ button {
   height: 40px;
   border-radius: 300px;
 }
+@media(max-width: 300px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  a {
+    color: #a3a4cb;
+  }
+
+  #home {
+    flex-direction: column;
+  }
+
+  .project-button {
+    margin-right: 100px;
+  }
+}
