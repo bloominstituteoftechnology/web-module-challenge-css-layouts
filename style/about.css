@@ -15,16 +15,12 @@ body {
 
 header {
   width: 100vw;
-  height: 200px;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
   background-image: url(../images/beach.jpg);
   align-items: center;
   padding: 3%;
-}
-
-header nav {
-  display: flex;
 }
 
 nav {
@@ -100,5 +96,15 @@ footer button {
 
   .text-box {
     margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header {
+    min-height: 30vh;
   }
 }

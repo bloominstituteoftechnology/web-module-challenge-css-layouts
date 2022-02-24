@@ -15,7 +15,7 @@ body {
 
 header {
   width: 100vw;
-  height: 200px;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
   background-image: url(../images/beach.jpg);
@@ -137,5 +137,15 @@ footer button {
   header {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header {
+    min-height: 30vh;
   }
 }
