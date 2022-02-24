@@ -115,15 +115,12 @@ header nav {
       margin-top: 3%;
       justify-content: space-evenly;
       margin-left: 6%;
-      
-      
-  }
+      border: 2px white;
+    }
   
 #projects img {
     width:60%;
-    border-radius: 25px;
-    /* margin: 5%; */
-    /* display: block; */
+    border-radius: 25px
 }
 
 
@@ -200,3 +197,5 @@ a:hover {
   p:hover {
       color: #738276;
   }
+
+  
