@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./style/contact.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poiret+One&display=swap" rel="stylesheet">
+    <!------------------>
     <title>Document</title>
 </head>
 <body>
-    <h1> CONTACT </h1>
+    <header>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name*</label>
+          <input type="text" id="fname" name="firstname">
+      
+          <label for="lname">Last Name*</label>
+          <input type="text" id="lname" name="lastname">
+
+          <label for="email">Email*</label>
+          <input type="text" id="email" name="email">
+
+          <label for="subject">Subject*</label>
+          <input type="text" id="subject" name="subject">
+      
+          <label for="message">Message*</label>
+          <textarea id="message" name="Message" style="height:200px"></textarea>
+          <p>* = required</p>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </body>
 </html>

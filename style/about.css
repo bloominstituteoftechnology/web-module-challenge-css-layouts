@@ -63,31 +63,19 @@ header a:hover {
 header a:active {
     color: #3b4c5d;
 }
-/* Body section */
 body {
     background-image: url('../images/sunset.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
-}
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-section div img {
-    height: 100%;
-    width: 10%;
-    border-radius: 200%;
-}
-section div img:hover {
-    color: black;
-}
-.hide p {
-    display: none;
-}
-.hide p:hover {
-    display: flex;
+  }
+.container {  
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  opacity: 70%;
 }
