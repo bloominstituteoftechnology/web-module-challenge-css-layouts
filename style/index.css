@@ -1,1 +1,197 @@
 /* Add CSS styling here */
+
+/*font-family: 'Chelsea Market', cursive;
+font-family: 'Gideon Roman', cursive;
+font-family: 'Redressed', cursive; 
+Imported font- family */
+
+/*https://picsum.photos/200/300/?blur */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+  background-color: #a16070;
+}
+body {
+  font-family: "Gideon Roman", cursive;
+}
+h1,
+h2,
+h3 {
+  font-family: "Redressed", cursive;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+  margin-top: 30%;
+}
+h1:hover {
+  color: whitesmoke;
+}
+i {
+  font-size: 6 rem;
+}
+/* header section*/
+.titles {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+header nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #8d5b7187;
+  align-items: center;
+  height: 10vh;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 4 rem;
+}
+a,
+.contact,
+address {
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: white;
+  font-family: "Redressed", cursive;
+  font-size: medium;
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 8%;
+}
+a:hover {
+  color: #a16070;
+}
+.links {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#top {
+  height: 85vh;
+  background-image: url("./Photos/displayphoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 8%;
+}
+h2 {
+  background-color: #1c1620;
+  font-size: 4rem;
+  color: white;
+  background-size: cover;
+}
+.container {
+  justify-content: space-around;
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+}
+.box {
+  width: 40%;
+  border: 3px solid #a16070;
+  text-align: center;
+  padding: 5%;
+  background-image: url(./Photos/codingphoto.jpg);
+  height: 40vh;
+  margin: 4%, 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box h3 {
+  margin: 15% 0;
+}
+h3 {
+  color: #a16070;
+  font-size: 4rem;
+  background-color: #eee3b1;
+}
+h3:hover {
+  color: white;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photos div {
+  width: 40%;
+  height: 40vh;
+  margin: 4% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.photos div .hide {
+  width: 70%;
+  height: 10vh;
+  background-color: #fff;
+  display: none;
+}
+.photos div .hide h4 {
+  font-size: 2.2rem;
+}
+.photos div:hover .hide {
+  display: block;
+}
+.display {
+  background-image: url("./Photos/graphicdesign.jpg");
+}
+.code {
+  background-image: url("./Photos/codingphoto.jpg");
+}
+.app {
+  background-image: url(./Photos/mobileapp1.jpg);
+}
+.last {
+  background-image: url("./Photos/mobileapp.jpg");
+}
+#contact {
+  text-align: center;
+  width: 45%;
+  line-height: 2;
+  margin-left: 30%;
+  padding-inline-end: 4%;
+  display: flex;
+  align-items: center;
+}
+
+nav.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  align-content: row;
+}
+footer {
+  background-color: #1c1620;
+  color: #fff;
+  padding: 2% 0;
+}
+footer div {
+  width: 30%;
+}
+footer .nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 5 rem;
+}
