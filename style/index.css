@@ -1,1 +1,95 @@
-/* Add CSS styling here */
+header{
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row-wrap;
+    justify-content: center;
+}
+
+.middle-summary{
+    padding: 20px;
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+    
+}
+
+.portfolio-element{
+    text-align: center;
+}
+
+button{
+background-color: white;
+color: green;
+border: black solid 1px;
+padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black;
+    text-emphasis-color: blue;
+    border: black solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media(max-width: 800px){
+    .row div{
+        width: 20%;
+    }
+}
+
+@media(max-width: 500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button{
+        width:40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection div{
+        width: 90%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div{
+        width: 40%;
+        margin: 2% 0;
+    }
+}
