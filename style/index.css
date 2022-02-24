@@ -1,1 +1,39 @@
 /* Add CSS styling here */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: whitesmoke;
+    font-family: Lusitana;
+    text-decoration: none;
+
+}
+
+#top {
+    height: 100vh;
+    background-image: url("https://i.picsum.photos/id/456/1920/1080.jpg?hmac=4i4NNj9vmD9p4e3ZpkwGDBj0zzeCatSKM4vCVfe27pg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Lusitana;
+    font-size: 100px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: Lusitana;
+    font-size: 56px;
+    font-style: italic;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
