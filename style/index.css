@@ -1,1 +1,102 @@
 /* Add CSS styling here */
+/*CSS Reset*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /*put a border around everything to see where it stops and starts*/
+  /*     border:1px solid grey; */
+}
+/*General Styles*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+  background-color: #fffafa;
+}
+header {
+  background-color: aquamarine;
+}
+h1, h2, h3, h4 {
+  letter-spacing: 3px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+}
+#home {
+  display: flex;
+}
+#main-image {
+  width:  1450px;
+  height: 550px;
+}
+.intro-container {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+#projects {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+img {
+  width:  350px;
+  height: 350px;
+  padding: 5%;
+}
+footer {
+  height: 30vh;
+  background-color: burlywood;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-container , .social-media {
+  margin-left: 44.5%;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 300px;
+}
+@media(max-width: 300px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  a {
+    color: #a3a4cb;
+  }
+
+  #home {
+    flex-direction: column;
+  }
+
+  .project-button {
+    margin-right: 100px;
+  }
+}
