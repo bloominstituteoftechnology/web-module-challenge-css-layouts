@@ -1,1 +1,31 @@
-/* Add CSS styling here */
+header{
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row-wrap;
+    justify-content: center;
+}
+
+.middle-summary{
+    padding: 20px;
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+    
+}
+
