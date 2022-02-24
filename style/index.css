@@ -1,1 +1,56 @@
 /* Add CSS styling here */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topsection {
+  display: flex;
+  justify-content: center;
+}
+
+.image-button {
+  background-image: url("https://picsum.photos/600/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: large;
+  width: 600px;
+  height: 400px;
+}
+
+footer {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.portfolio-element {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: black solid 1px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: white solid 1px;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
