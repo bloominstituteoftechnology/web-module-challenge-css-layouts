@@ -48,7 +48,7 @@ header {
     background-color: #242F40;
     padding: 20px;
     margin-bottom: 50px;
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Noto Serif Display', serif;
     font-size:6rem;
     color:#BF7C18
 }
@@ -87,6 +87,7 @@ button {
     color: black;
     border: black solid 1px;
     padding: 5px 10px;
+    border-radius: 10%;
     
 }
 
