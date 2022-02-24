@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gabriel Velez | Web desigener and developer</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87f2974b26.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <a id="top"></a>
+    <nav>
+        <div class='logoWrapper'><img class='navLogo' src="assets/Type Logo White.svg" /></div>
+        <div class='linksWrapper'>
+            <div class='navLinkWrapper'><a class='navLink projectsLink' href="#projects">projects</a></div>
+            <div class='navLinkWrapper'><a class='navLink aboutLink' href="#">about</a></div>
+            <div class='navLinkWrapper'><a class='navLink contactLink' href="#">contact</a></div>
+        </div>
+        <div class="burger"></div>
+    </nav>
+    <section class="splash">
+        <div class='splashWrapper'>
+            <h1>GABRIEL</h1>
+            <h1>VELEZ</h1>
+            <h2>digital designer.<br>web developer.</h2>
+        </div>
+    </section>
+    <section class="projectLinkSection" id='projects'>
+        <h2>check out some of my</h2>
+        <h1>WORK</h1>
+        <div class='projectAllLinksWrapper'>
+            <div class='projectLinkWrapper'><a class='bttn yosmitePark' href="#yosemite">yosemite&nbsp;park&nbsp;guide</a></div>
+            <div class='projectLinkWrapper'><a class='bttn farmToTable' href="#farm">farm&nbsp;to&nbsp;table</a></div>
+            <div class='projectLinkWrapper'><a class='bttn webSprint' href="#javascript">javascript&nbsp;web&nbsp;sprint</a></div>
+        </div>
+    </section>
+
+    <section class="projectSection" id="yosemite">
+        <div class="title">
+            <p>intro to css</p>
+            <h2>yosemite park guide</h2><br><br>
+            <a target="_blank" href="https://github.com/Gabriel-Velez/web-module-project-intro-css" class="bttn">source code</a>
+        </div>
+        <div class="portImg bg1"></div>
+        <h1 class="num">.1</h1>
+        <div class='projectNav'>
+            <a class="arrowHead" href="#top">&#65085;</a>
+            <a class="arrowHead" href="#projects">&#65087;</a>
+            <div class="squircleWrapper">
+                <div class="squircle squircleActive"></div>
+            </div>
+            <a class="squircleWrapper" href="#farm">
+                <div class="squircle"></div>
+            </a>
+            <a class="squircleWrapper" href="#javascript">
+                <div class="squircle"></div>
+            </a>
+            <a class="arrowHead" href="#farm">&#65088;</a>
+        </div>
+    </section>
+
+    <section class="projectSection" id="farm">
+        <div class="title">
+            <p>css class</p>
+            <h2>farm to table</h2><br><br>
+            <a target="_blank" href="https://codepen.io/keirankozlowski/pen/YzEYdWV" class="bttn">source code</a>
+        </div>
+        <div class="portImg bg2"></div>
+        <h1 class="num">.2</h1>
+        <div class='projectNav'>
+            <a class="arrowHead" href="#top">&#65085;</a>
+            <a class="arrowHead" href="#yosemite">&#65087;</a>
+            <a class="squircleWrapper" href="#yosemite">
+                <div class="squircle"></div>
+            </a>
+            <div class="squircleWrapper">
+                <div class="squircle squircleActive"></div>
+            </div>
+            <a class="squircleWrapper" href="#javascript">
+                <div class="squircle"></div>
+            </a>
+            <a class="arrowHead" href="#javascript">&#65088;</a>
+        </div>
+    </section>
+
+    <section class="projectSection" id="javascript">
+        <div class="title">
+            <p>intro to javascript</p>
+            <h2>javascript web sprint</h2><br><br>
+            <a target="_blank" href="https://github.com/Gabriel-Velez/web-sprint-challenge-javascript-fundamentals" class="bttn">source code</a>
+        </div>
+        <div class="portImg bg3"></div>
+        <h1 class="num">.3</h1>
+        <div class='projectNav'>
+            <a class="arrowHead" href="#top">&#65085;</a>
+            <a class="arrowHead" href="#farm">&#65087;</a>
+            <a class="squircleWrapper" href="#yosemite">
+                <div class="squircle"></div>
+            </a>
+            <a class="squircleWrapper" href="#farm">
+                <div class="squircle"></div>
+            </a>
+            <div class="squircleWrapper">
+                <div class="squircle squircleActive"></div>
+            </div>
+            <a class="arrowHead" href="#footer">&#65088;</a>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
 </body>
+
 </html>
