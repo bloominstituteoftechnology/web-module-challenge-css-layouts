@@ -1,1 +1,157 @@
 /* Add CSS styling here */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  background-color: gray;
+  margin-bottom: 0%;
+  align-items: center;
+  padding: 3%;
+  background-image: url(../images/beach.jpg);
+}
+
+header h1 {
+  margin-bottom: 10%;
+}
+
+.header-content ul {
+  display: flex;
+  margin-left: 10%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #dbe4ee;
+}
+
+.desc-sec {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding: 2%;
+  margin-bottom: 30px;
+}
+
+.desc-sec img {
+  height: 500px;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.desc-sec div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 50%;
+  margin-right: 1%;
+}
+
+.desc-sec div h5 {
+  font-size: 1.875rem;
+  margin-bottom: 4%;
+}
+
+.desc-sec div button {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 4%;
+  border: 2px solid #81a4cd;
+  border-radius: 8%;
+}
+
+.desc-sec div p {
+  font-size: 1.563rem;
+}
+
+.project-sec {
+  min-height: 60vh;
+  width: 100%;
+  padding: 1%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  min-width: 250px;
+  min-height: 250px;
+  margin: 15px;
+}
+
+.project img {
+  width: 250px;
+  height: 250px;
+}
+
+.project p {
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+  background-color: gray;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #81a4cd;
+}
+
+footer p {
+  font-size: 1.563rem;
+  margin-bottom: 1%;
+}
+
+footer button {
+  height: 50px;
+  width: 150px;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  margin: 20px 10px;
+}
+
+@media (max-width: 800px) {
+  .desc-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+}

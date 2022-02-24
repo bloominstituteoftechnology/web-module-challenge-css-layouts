@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../images/beach.jpg);
+  align-items: center;
+  padding: 3%;
+}
+
+header nav {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dbe4ee;
+}
+
+.main-img {
+  width: 100vw;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0 5% 0;
+}
+
+.main-img img {
+  width: 95%;
+  height: auto;
+}
+
+article {
+  display: flex;
+}
+
+.project-sec {
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.project-sec img {
+  width: 180px;
+  height: 300px;
+}
+
+.project {
+  margin: 0.5%;
+}
+
+.project p {
+  text-align: center;
+}
+
+.project-desc {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+
+.project-desc p {
+  font-size: 1.875rem;
+}
+
+footer {
+  background-color: #81a4cd;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.563rem;
+  margin-bottom: 1%;
+}
+
+footer button {
+  height: 50px;
+  width: 150px;
+}
+
+@media (max-width: 1400px) {
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .project-desc {
+    width: 80vw;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header {
+    min-height: 30vh;
+  }
+}
