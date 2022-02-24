@@ -1,1 +1,404 @@
 /* Add CSS styling here */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+:root {
+    --background-color: #131822;
+    --alt-background-color: #2c3850;
+    --nav-background-color: rgba(0, 0, 0, 0.25);
+    --text-color: #fffae8;
+    --accent-color: #f5a651;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-family: 'Bungee Outline', cursive;
+    color: var(--accent-color);
+    font-size: 20vw;
+    line-height: .8;
+    -webkit-text-stroke: 0.6vw var(--accent-color);
+    opacity: .6;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h2,
+h3,
+p,
+.navLink,
+.projectSectionLink,
+.bttn,
+.arrowHead {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--text-color);
+    z-index: 2;
+}
+
+section,
+footer {
+    padding: 100px 200px;
+}
+
+header,
+section,
+.splashWrapper {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 25px 100px;
+    position: fixed;
+    z-index: 10;
+    width: calc(100vw - 200px);
+    background-color: var(--nav-background-color);
+}
+
+.navLogo {
+    height: 50px;
+}
+
+.logoWrapper,
+.linksWrapper {
+    width: 50%;
+}
+
+.linksWrapper {
+    display: flex;
+}
+
+.navLinkWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 1.3em;
+    position: relative;
+    transition: .5s color;
+}
+
+.navLink:hover {
+    color: var(--accent-color);
+}
+
+.navLink::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--text-color);
+    bottom: -5px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: .5s;
+}
+
+.navLink:hover::before {
+    transform: scaleX(1);
+    background-color: var(--accent-color);
+}
+
+.splash {
+    height: 100vh;
+    padding: 0;
+}
+
+.splashWrapper {
+    padding: 250px 0;
+}
+
+.splash h1:nth-child(2) {
+    font-size: 29vw;
+    -webkit-text-stroke-width: 0.8vw
+}
+
+.splashWrapper h2 {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+
+a:visited,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.projectLinkSection {
+    text-align: center;
+    background-color: var(--alt-background-color);
+}
+
+.projectAllLinksWrapper {
+    display: flex;
+    width: 100%;
+    margin: 200px 0;
+}
+
+.projectLinkWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectSectionLink {
+    text-decoration: none;
+    font-size: 1.3em;
+    position: relative;
+    transition: .5s color;
+}
+
+.projectSectionLink:hover {
+    color: var(--accent-color);
+}
+
+.projectSectionLink::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--text-color);
+    bottom: -5px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: .5s;
+}
+
+.projectSectionLink:hover::before {
+    transform: scaleX(1);
+    background-color: var(--accent-color);
+}
+
+.projectSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.projectLinkSection h2 {
+    margin: 200px 0;
+    position: relative;
+    margin-top: 100px;
+}
+
+.projectLinkSection h2::before {
+    content: 'WORK';
+    position: absolute;
+    font-size: 6em;
+    -webkit-text-stroke-width: 10px;
+    font-family: 'Bungee Outline', cursive;
+    color: var(--accent-color);
+    opacity: .6;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.title {
+    width: 40%;
+    height: 400px;
+}
+
+.num {
+    width: 69px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.portImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    background-size: cover;
+    width: 50%;
+    height: 40%;
+    z-index: -1;
+}
+
+.bg1 {
+    background-image: url('https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev.web.900.513.jpg');
+}
+
+.bg2 {
+    background-image: url("https://raw.githubusercontent.com/BrityHemming/farm-to-table-practice-project/solution/farm-to-table/images/header.jpg");
+}
+
+.bg3 {
+    background-image: url("https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+}
+
+.bttn {
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    border: 3px solid;
+    border-radius: 40px;
+    transition: .5s;
+    position: relative;
+    margin-top: 10px;
+}
+
+.bttn:hover {
+    color: var(--background-color);
+    background: var(--text-color);
+    border-radius: 0;
+}
+
+.projectSection h1 {
+    font-size: 20em;
+    -webkit-text-stroke-width: 10px;
+}
+
+.squircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: var(--text-color);
+    border-style: solid;
+    border-width: 5px;
+    transition: .5s;
+    margin: 20px 0;
+}
+
+.squircle:hover,
+.squircleActive {
+    transform: rotate(360deg);
+    border-width: 0;
+    border-radius: 0;
+    background: var(--text-color);
+    width: 28px;
+    height: 28px;
+}
+
+.projectNav {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.arrowHead {
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+footer {
+    background-color: var(--alt-background-color);
+    text-align: right;
+}
+
+footer i {
+    color: var(--text-color);
+    font-size: 3em;
+    margin: 0 30px;
+    transition: .5s color;
+}
+
+footer i:hover {
+    color: var(--accent-color);
+}
