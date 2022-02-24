@@ -60,7 +60,6 @@ div {
 
 .container {
 	background-color: #35605A;
-	height: 100vh;
    }
 
 .header {
@@ -88,10 +87,51 @@ h1 {
 }
 
 .body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.body h2 {
+	font-size: 4rem;
+	line-height: 2;
+}
+
+.body p {
+	font-size: 2rem;
+	margin: 40px;
+	text-align: center;
+}
+
+#bodypic {
+	width: 100vw;
+	height: 35vh;
+	padding-bottom: 5vh;
+}
+
+.images {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.images .left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 80vw;
+}
+
+.images img {
+	margin: 5px;
 	
 }
 
-/* .images {
-	display: flex;
-	flex-direction: row;
-} */
+.images .right {
+	font-size: 2rem;
+	text-align: center;
+	justify-content: flex-end;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
