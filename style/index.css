@@ -79,29 +79,36 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20px;
 }
 
 .image-button {
-    background-image: url("https:/picsum.photos/600/400");
+    background-image: url("https:/picsum.photos/800/500");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-size: large;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
 }
 
-footer {
-    background-color: lightgrey;
-    padding: 20px;
-    text-align: center;
+.topsection button a {
+    color: white;
+}
+
+.topsection button a:hover {
+    color: black;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.row img {
+    width: 500px;
 }
 
 .portfolio-element {
@@ -117,7 +124,6 @@ button {
 
 button:hover {
     background-color: RGB(173, 185, 201);
-    color: white;
     border: white solid 1px;
 }
 
@@ -125,10 +131,21 @@ button a{
     text-decoration: none;
 }
 
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
 .social {
     display:flex;
     justify-content:flex-start;
     font-size: 40px;
+    align-content: flex-start;
+    width: 40%;
 }
 
 .info {
@@ -136,39 +153,18 @@ button a{
     width: 20%;
 }
 
-a:visited { 
-    text-decoration: none; color:grey; 
-}
-a:hover { 
-    text-decoration: none; color:white; 
-}
-a:focus { 
-    text-decoration: none; color:yellow; 
-}
-a:hover, a:active { 
-    text-decoration: none; color:white; 
-}
-
-.topsection button a {
-    color: white;
-}
-
-.topsection button a:hover {
-    color: black;
-}
-
-
 .glow-on-hover {
     width: 220px;
     height: 50px;
     border: none;
     outline: none;
-    color: #fff;
+    color: RGB(173, 185, 201);
     background: #111;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .glow-on-hover:before {
