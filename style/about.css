@@ -50,7 +50,7 @@ header {
     margin-bottom: 50px;
     font-family: 'Noto Serif Display', serif;
     font-size:4rem;
-    color:#BF7C18
+    color: white
 }
 
 footer {
@@ -67,7 +67,8 @@ h2 {
     margin-bottom: 10px;
     font-family: 'Noto Serif Display', serif;
     font-size:2rem;
-    color:#BF7C18
+    color: white;
+
 
     
     

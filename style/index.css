@@ -50,7 +50,8 @@ header {
     margin-bottom: 50px;
     font-family: 'Noto Serif Display', serif;
     font-size:4rem;
-    color:#BF7C18
+    color: white;
+
 }
 
 footer {
@@ -67,7 +68,7 @@ h2 {
     margin-bottom: 10px;
     font-family: 'Noto Serif Display', serif;
     font-size:2rem;
-    color:#BF7C18
+    color:white
 
     
     
@@ -95,18 +96,7 @@ h2 {
     font-weight: 500;
     color: black
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
   
-  .flex-item-left {
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    flex: 50%;
-  }
 .portfolio-element {
     text-align: center;
 }
