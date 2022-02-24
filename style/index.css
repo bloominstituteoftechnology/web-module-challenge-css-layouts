@@ -1,5 +1,4 @@
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -46,12 +45,53 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+} 
+
+/*---------------*/
+html {
+	font-size: 62.5%;
+
 }
 
-/* end css reset*/
+div {
+	border: 1px solid red;
+}
+
 
 .container {
 	background-color: #35605A;
+	height: 100vh;
    }
 
+.header {
+	display: flex;
+	justify-content: center;
+	line-height: 2;
 
+}
+
+h1 {
+	font-size: 6rem;
+	
+}
+
+.nav {
+	border: 1px solid blue;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav a { 
+	font-size: 1.2rem;
+	border: 1px solid #00120B;
+	padding: 7px;
+}
+
+.body {
+	
+}
+
+/* .images {
+	display: flex;
+	flex-direction: row;
+} */
