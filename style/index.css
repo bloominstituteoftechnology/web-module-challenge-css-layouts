@@ -4,7 +4,7 @@
    License: none (public domain)
 */
 
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}
 /*General Styles*/
 * {
     box-sizing: border-box;
@@ -134,9 +134,13 @@ footer {
 .social {
     display:flex;
     justify-content:flex-start;
-    font-size: 40px;
     align-content: flex-start;
-    width: 40%;
+    width: 43%;
+}
+
+.social a {
+    font-size: 5rem;
+    width: 10%
 }
 
 .info {
@@ -272,7 +276,7 @@ footer {
     }
     .social a {
         font-size: 2.5rem;
-
+        margin: 9%;
     }
 }
 
