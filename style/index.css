@@ -50,16 +50,46 @@ table {
 
 html {
     font-size: 62.5%;
+    border: 1px solid black;
 }
 
 * {
     max-width: 100%;
+    border: 1px solid black;
     /* opacity: 90%; */
     background-color: #43AA8B;
     font-style: 'Quicksand', sans-serif;
 }
 .container {
     font-size: 2rem;
+    display: flex;
+    justify-content: right;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+
+}
+
+.container1{
+  font-size: 2rem;
+  margin-top: 2%;
+  /* padding: 0; */
+  width: 35%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: right;
+  justify-content: space-between;
+  border: 1px solid black;
+  /* display: flex; */
+}
+
+.navLinks{
+  
+  /* border: solid black;
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  justify-content: space-between; */
 }
 
 .wordBox{
@@ -88,7 +118,7 @@ html {
 
 .wordBox2{
     font-size: 2rem;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,6 +129,7 @@ html {
 .img {
     width: 50%;
     height: 50%;
+    margin: 3% 0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -110,8 +141,8 @@ a {
     font-family: "PT Sans", sans-serif;
   }
   a {
-      display: flex;
-      justify-content: space-evenly;
+      /* display: flex;
+      justify-content: space-evenly; */
   }
   a:hover {
     color: #254441;
