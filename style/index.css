@@ -1,1 +1,287 @@
-/* Add CSS styling here */
+/*CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*General Styles*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    background-color: RGB(235, 235, 235);
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    color: RGB(55, 66, 88);
+}
+/*header section*/
+
+header .nameandnav {
+    background-color: RGB(55, 66, 88);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-button {
+    background-image: url("https:/picsum.photos/800/500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 800px;
+    height: 500px;
+}
+
+.image-button a {
+    letter-spacing: .1rem;
+}
+
+.topsection button a {
+    color: white;
+}
+
+.topsection button a:hover {
+    color: RGB(55, 66, 88);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row img {
+    width: 500px;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px; 
+}
+
+button:hover {
+    background-color: RGB(173, 185, 201);
+    border: white solid 1px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+/* footer section */
+footer {
+    background-color: RGB(55, 66, 88);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display:flex;
+    justify-content:flex-start;
+    align-content: flex-start;
+    width: 43%;
+}
+
+.social a {
+    font-size: 5rem;
+    width: 10%
+}
+
+.info {
+    padding: 20px;
+    width: 20%;
+}
+ /* glowing footer button*/
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: RGB(55, 66, 88);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+/* tablet */
+@media (max-width: 800px) {
+    header .nameandnav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+    }
+    header nav links {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+    .topsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+    .row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .portfolio-element {
+        width: 47%;
+        margin: 2% 0;
+    }
+    .social {
+        width: 36%;
+    }
+    .social a {
+        font-size: 4rem;
+        margin-left: 10%;
+    }
+}
+
+/* phone */
+@media (max-width: 500px) {
+    header .nameandnav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+    }
+    header nav links {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+    .topsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+    .row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .portfolio-element {
+        width: 47%;
+        margin: 2% 0;
+    }
+    .social {
+        width: 25%;
+    }
+    .social a {
+        font-size: 2.5rem;
+        margin: 9%;
+    }
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
