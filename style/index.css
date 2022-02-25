@@ -86,7 +86,9 @@ header{
     padding-left: 2%;
 }
 nav{
+    display: flex;
     padding: 2%;
+    width: 80%;
     /* border: 1px solid black; */
 }
 
@@ -101,7 +103,7 @@ header nav a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid black
+    border: 1px solid black;
     /* height: 3vh; */
     /* width: 100%; */
     /* top: 0%; */
@@ -205,3 +207,214 @@ footer{
 footer nav{
     text-align: center;
 }
+
+@media(max-width: 800px) {
+    h1{
+        font-size: 8rem;
+    }
+    header{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center; 
+        background-color: none;
+        padding-top: 10%;
+
+    }
+    header nav{
+        height: 30vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        /* border: 4px solid #70566D; */
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+        /* font-size: 4rem; */
+    }
+    header nav a{
+        width: 12vh;
+        font-size: 2rem;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #70566D;
+        font-size: 4rem;
+    }
+    .intro{
+        height: 30vh;
+        display: block;
+        
+        
+    }
+    h2, h3{
+        font-size: 5rem;
+    }
+    .fun{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        background-position: bottom left;
+        
+       
+    } 
+
+    .box1, .box2, .box3, .box4, .box5, .box6{
+   
+        height: 20vh;
+        width: 40%;
+        border: 3px solid black;
+        text-align: center;
+       /* padding-top: 5vh; */
+        
+    }
+    h4{
+        font-size: 3rem;
+    }
+    #About{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      
+
+
+    }
+    #About div{
+        display: flex;
+        justify-content: center;
+        align-items: space-around;
+    }
+    #About div p{
+        width: 60%;
+        font-size: 3rem;
+        /* display: flex; */
+        
+    }
+    footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    footer div{
+        display: flex;
+        align-items: center;
+    }
+    footer nav{ 
+        height: 5vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    
+}
+    footer nav a{
+        height: 3vh;
+        width: 20vw;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+
+   
+    header{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center; 
+        background-color: none;
+        padding-top: 10%;
+
+    }
+   
+    header nav{
+        height: 30vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        /* border: 4px solid #70566D; */
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+    }
+    header nav a{
+        width: 10vh;
+        font-size: 2rem;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #70566D;
+    }
+    .intro{
+        height: 35vh;
+        
+    }
+    
+    .box1, .box2, .box3, .box4, .box5, .box6{
+   
+        height: 20vh;
+        width: 40vw;
+        border: 3px solid black;
+        text-align: center;
+       
+        
+    }
+    #About{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      
+
+
+    }
+    #About div{
+        display: flex;
+        justify-content: center;
+        align-items: space-around;
+    }
+    #About div p{
+        width: 60%;
+        font-size: 2rem;
+        /* display: flex; */
+        
+    }
+    footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    footer div{
+        display: flex;
+        align-items: center;
+    }
+    footer nav{ 
+        height: 5vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
