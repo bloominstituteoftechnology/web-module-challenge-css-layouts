@@ -52,10 +52,10 @@ html {
 	font-size: 62.5%;
 
 }
-
+/* 
 div {
 	border: 1px solid red;
-}
+} */
 
 
 .container {
@@ -75,15 +75,17 @@ h1 {
 }
 
 .nav {
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	display: flex;
 	justify-content: space-around;
+
 }
 
 .nav a { 
 	font-size: 1.2rem;
 	border: 1px solid #00120B;
 	padding: 7px;
+	background-color: #6B818C;
 }
 
 .body {
@@ -102,6 +104,7 @@ h1 {
 	font-size: 2rem;
 	margin: 40px;
 	text-align: center;
+	color: #D8E4FF;
 }
 
 #bodypic {
@@ -135,3 +138,22 @@ h1 {
 	margin-bottom: auto;
 }
 
+.images .right p {
+	color: #D8E4FF;
+}
+
+.footer a {
+	font-size: 1.5rem;
+	border: 2px solid #00120B;
+	line-height: 2;
+	display:flex;
+	content align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;
+	justify-content: center;
+	margin-top: 10px;
+	border-radius: 10%;
+	background-color: #D8E4FF;
+	text-color: #35605A;
+}
