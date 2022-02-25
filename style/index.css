@@ -41,7 +41,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+   /* border: 1px solid #242F40; */
+}
 
 
 header {
@@ -127,3 +133,47 @@ button a {
     color: white;
     padding: 20px;
   }
+  @media(max-width: 800px){
+    .row div{
+        width:20%;
+    }
+    .topsection img{
+        width:40%;
+    }
+  }
+@media(max-width:500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button{
+        width:40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection div{
+        width:90%;
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .row div{
+        width:40%
+        margin:2%
+    }
+}
