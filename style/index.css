@@ -53,38 +53,78 @@ html {
     border: 1px solid black;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #598392;
+}
+
+nav a {
+  font-size: 2rem;
+}
+
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 * {
-    max-width: 100%;
+    /* max-width: 100%; */
     border: 1px solid black;
     /* opacity: 90%; */
-    background-color: #43AA8B;
+    /* background-color: #43AA8B; */
     font-style: 'Quicksand', sans-serif;
 }
+
 .container {
-    font-size: 2rem;
+  height: 75vh;
+  background-image: url("../style/canyon-g294a99442_1920.jpg");
+  background-repeat: no-repeat;
+    /* font-size: 2rem;
     display: flex;
-    justify-content: right;
+    justify-content: right; */
+
+     /* TEST NOT NEEDED */
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
     /* flex-direction: row; */
 
 }
 
-.container1{
-  font-size: 2rem;
+.h1Name {
+  font-size: 3rem;
+  color:#F3EFF5;
+  /* display: flex;
+  justify-content: left;
+  width: 55%;
+  align-items: center; */
+}
+
+.navClass{
+  /* font-size: 2rem;
   margin-top: 2%;
-  /* padding: 0; */
-  width: 35%;
+  width: 100%;
   display: flex;
-  /* flex-direction: row; */
   justify-content: right;
-  justify-content: space-between;
-  border: 1px solid black;
+  border: 1px solid black; */
+
+  /* TEST NOT NEEDED */
+  /* margin-left: 50%; */
+  /* padding: 0; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
   /* display: flex; */
 }
 
 .navLinks{
-  
+  text-align: center;
+  border: 3px solid black;
+  padding: 1% 1.5%;
+
+   /* TEST NOT NEEDED */
   /* border: solid black;
   width: 20%;
   display: flex;
@@ -98,6 +138,8 @@ html {
     background-color:#fff;
     text-align:center;
     padding:4%;
+
+     /* TEST NOT NEEDED */
     /* font-size: 2rem;
     display: flex;
     justify-content: center; */
