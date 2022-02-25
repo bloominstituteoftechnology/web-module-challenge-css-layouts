@@ -1,1 +1,213 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+    border: 1px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #598392;
+}
+
+nav a {
+  font-size: 2rem;
+}
+
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+* {
+    /* max-width: 100%; */
+    border: 1px solid black;
+    /* opacity: 90%; */
+    /* background-color: #43AA8B; */
+    font-style: 'Quicksand', sans-serif;
+}
+
+.container {
+  height: 75vh;
+  background-image: url("../style/canyon-g294a99442_1920.jpg");
+  background-repeat: no-repeat;
+    /* font-size: 2rem;
+    display: flex;
+    justify-content: right; */
+
+     /* TEST NOT NEEDED */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+
+}
+
+.h1Name {
+  font-size: 3rem;
+  color:#F3EFF5;
+  /* display: flex;
+  justify-content: left;
+  width: 55%;
+  align-items: center; */
+}
+
+.navClass{
+  /* font-size: 2rem;
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  border: 1px solid black; */
+
+  /* TEST NOT NEEDED */
+  /* margin-left: 50%; */
+  /* padding: 0; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* display: flex; */
+}
+
+.navLinks{
+  text-align: center;
+  border: 3px solid black;
+  padding: 1% 1.5%;
+
+   /* TEST NOT NEEDED */
+  /* border: solid black;
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  justify-content: space-between; */
+}
+
+.wordBox{
+    width:60%;
+    border: 3px solid #4f4f4f;
+    background-color:#fff;
+    text-align:center;
+    padding:4%;
+
+     /* TEST NOT NEEDED */
+    /* font-size: 2rem;
+    display: flex;
+    justify-content: center; */
+    /* flex-wrap: wrap;
+    width: 50%; */
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wordBox p {
+    background-color: #fff;
+    font-style: 'Quicksand', sans-serif;
+}
+
+.wordBox2{
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+    margin: 3% 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #F3EFF5;
+    font-family: "PT Sans", sans-serif;
+  }
+  a {
+      /* display: flex;
+      justify-content: space-evenly; */
+  }
+  a:hover {
+    color: #254441;
+    border: 3px solid #254441;
+  }
+  i {
+    font-size: 5rem;
+  }
+
+.gallery div .hide {
+    width: 70%;
+    height: 10vh;
+    background-color: #fff;
+    display: none;
+  }
+  .gallery div .hide h2 {
+    font-size: 2.2rem;
+  }
+  .gallery div:hover .hide {
+    display: block;
+  }
+
+  .main {
+      width: 50%;
+      margin: auto;
+  }
