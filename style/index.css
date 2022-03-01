@@ -89,12 +89,15 @@ nav{
     display: flex;
     padding: 2%;
     width: 80%;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid black; */
 }
 
 nav a{
-    display: inline-block;
-    width: 20%;
+    height: 5vh;
+    display: flex;
+    width: 15%;
     background-color: #DAF7DC;
     color: #70566D;
     
@@ -102,8 +105,9 @@ nav a{
 header nav a{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     border: 1px solid black;
+    align-content: center;
     /* height: 3vh; */
     /* width: 100%; */
     /* top: 0%; */
@@ -132,11 +136,19 @@ header nav a{
     margin-bottom: 5%;
     
 }
+.fun nav{
+display: flex;
+align-items: center;
+padding-left: 22%;
+}
 /* .projects{
     display: flex;
     justify-content: space-evenly;
    
 } */
+section nav{
+    text-align: center;
+}
 
 section .intro{
     background-color: #70566D;
@@ -204,8 +216,15 @@ footer{
     height: 10vh;
 
 }
-footer nav{
-    text-align: center;
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width: 800px) {
@@ -213,7 +232,7 @@ footer nav{
         font-size: 8rem;
     }
     header{
-        height: 35vh;
+    
         display: flex;
         flex-direction: column;
         justify-content:space-around;
@@ -225,7 +244,7 @@ footer nav{
     header nav{
         height: 30vh;
         display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -237,9 +256,9 @@ footer nav{
         /* font-size: 4rem; */
     }
     header nav a{
-        width: 12vh;
+        width: 17vh;
         font-size: 2rem;
-        height: 5vh;
+        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -247,7 +266,7 @@ footer nav{
         font-size: 4rem;
     }
     .intro{
-        height: 30vh;
+        height: 50vh;
         display: block;
         
         
@@ -264,7 +283,17 @@ footer nav{
         
        
     } 
+    nav a{
+    height: 7vh;
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
+    .container{
+        height: 100vh;
+    }
     .box1, .box2, .box3, .box4, .box5, .box6{
    
         height: 20vh;
@@ -278,10 +307,11 @@ footer nav{
         font-size: 3rem;
     }
     #About{
-        height: 40vh;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        
       
 
 
@@ -298,7 +328,7 @@ footer nav{
         
     }
     footer{
-        height: 10vh;
+        height: 15vh;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -310,7 +340,7 @@ footer nav{
     }
     footer nav{ 
         height: 5vh;
-        width: 60vw;
+        
         display: flex;
         justify-content: center;
         align-content: center;
