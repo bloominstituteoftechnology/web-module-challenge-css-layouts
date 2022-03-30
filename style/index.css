@@ -17,9 +17,8 @@ body {
     font-family: 'Abril Fatface', cursive;
 }
 
-
-/* NAVIGATION */
-
+/* HOME PAGE */
+/* NAVIGATION-REUSED */
 nav {
     background-color: #262626;
     width: 100%;
@@ -47,7 +46,6 @@ nav a:hover {
 }
 
 /* MAIN SECTION HOME PAGE */
-
 .main-section-home {
     background-image: url("/Images/main-img.jpg");
     min-height: 100vh;
@@ -75,6 +73,7 @@ nav a:hover {
     margin-bottom: 0.5em;
 }
 
+/* BUTTONS FOR ALL PAGES */
 .main-section-home button,
 .main-section-about button,
 .main-section-projects button {
@@ -95,8 +94,7 @@ nav a:hover {
     background-color: #fdb136; 
 }
 
-/* FOOTER */
-
+/* FOOTER- REUSED */
 footer {
     text-align: center;
     padding: 2em 0 2em 0;
@@ -124,7 +122,6 @@ footer button:hover {
 }
 
 /* ABOUT ME PAGE */
-
 /* MAIN SECTION ABOUT ME */
 .main-section-about img {
     width: 40%;
@@ -163,7 +160,6 @@ footer button:hover {
 
 /* PROJECTS PAGE */
 /* MAIN SECTION */
-
 .main-section-projects {
     width: 100%;
     display: flex;
@@ -198,8 +194,8 @@ footer button:hover {
     color: white;
 }
 
-/* CONTACT SECTION*/
-
+/* CONTACT PAGE*/
+/* CONTACT SECTION */
 .top-section-contact {
     width: 100%;
     background-color: #fdb136;
@@ -221,6 +217,7 @@ footer button:hover {
     display: flex;
     flex-direction: column;  
 }
+
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
@@ -253,8 +250,3 @@ footer button:hover {
     color: #ffffff;
     font-weight: 700;
 }
-
-
-
-/* 5d4a68 purple
-f59902 */
