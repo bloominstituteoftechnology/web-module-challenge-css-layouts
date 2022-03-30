@@ -1,1 +1,252 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TYPOGRAPHY */
+.main-section-home h1,
+.main-section-about h1,
+.main-section-projects h2,
+.top-section-contact h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* HOME PAGE */
+/* NAVIGATION-REUSED */
+nav {
+    background-color: #262626;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 2em 0;
+
+}
+nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #fdb136;
+}
+
+/* MAIN SECTION HOME PAGE */
+.main-section-home {
+    background-image: url("/Images/main-img.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-section-home div {
+    padding: 4em 8em;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 93, 74, 104, 0.37 );
+    backdrop-filter: blur( 3px ); 
+    border-radius: 10px;
+}
+
+.main-section-home h1, 
+.main-section-home h2,
+.main-section-projects h2,
+.main-section-projects p {
+    margin-bottom: 0.5em;
+}
+
+/* BUTTONS FOR ALL PAGES */
+.main-section-home button,
+.main-section-about button,
+.main-section-projects button {
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #f59902;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-section-home button:hover,
+.main-section-about button:hover,
+.main-section-projects button:hover,
+.contact-form button:hover {
+    background-color: #fdb136; 
+}
+
+/* FOOTER- REUSED */
+footer {
+    text-align: center;
+    padding: 2em 0 2em 0;
+    background-color: #262626;
+    color: #ffffff;
+}
+
+footer p {
+    margin-bottom: 1em;
+}
+
+footer button {
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #5d4a68;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+footer button:hover {
+    background-color: #7d668a;
+}
+
+/* ABOUT ME PAGE */
+/* MAIN SECTION ABOUT ME */
+.main-section-about img {
+    width: 40%;
+    object-fit: cover;
+}
+.main-section-about {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 3em 0;
+}
+
+.main-section-about div {
+    padding: 3em;
+}
+
+.main-section-about p,
+.main-section-about h1 {
+    margin-bottom: 1em;
+}
+
+.sub-section-about {
+    width: 100%;
+    padding-bottom: 3em 0;
+    background-color:#7d668a;
+}
+
+.sub-section-about div {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+    color: white;
+}
+
+/* PROJECTS PAGE */
+/* MAIN SECTION */
+.main-section-projects {
+    width: 100%;
+    display: flex;
+}
+
+.main-section-projects-container {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.main-section-project-card {
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #7d668a;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(15, 13, 13, 0.192) 
+}
+
+.main-section-projects img {
+    width: 100%;
+}
+
+.main-section-projects h2,
+.main-section-projects p {
+    color: white;
+}
+
+/* CONTACT PAGE*/
+/* CONTACT SECTION */
+.top-section-contact {
+    width: 100%;
+    background-color: #fdb136;
+}
+.top-section-contact div {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.main-section-contact {
+    width: 100%;
+}
+
+.contact-form {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    font-family: inherit;
+    text-align: center;
+    margin: 2em 0;
+    padding: 2em 0;
+}  
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #5d4a68;
+    color: white !important;
+    border-radius: 5px;
+    border: none;
+}
+
+::placeholder {
+    color: #ffffff !important;
+}
+
+.contact-form textarea {
+    height: 250px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #f59902;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+}
