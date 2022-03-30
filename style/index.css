@@ -11,7 +11,9 @@ body {
 
 /* TYPOGRAPHY */
 .main-section-home h1,
-.main-section-about h1 {
+.main-section-about h1,
+.main-section-projects h2,
+.top-section-contact h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -88,7 +90,8 @@ nav a:hover {
 
 .main-section-home button:hover,
 .main-section-about button:hover,
-.main-section-projects button:hover {
+.main-section-projects button:hover,
+.contact-form button:hover {
     background-color: #fdb136; 
 }
 
@@ -193,6 +196,62 @@ footer button:hover {
 .main-section-projects h2,
 .main-section-projects p {
     color: white;
+}
+
+/* CONTACT SECTION*/
+
+.top-section-contact {
+    width: 100%;
+    background-color: #fdb136;
+}
+.top-section-contact div {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.main-section-contact {
+    width: 100%;
+}
+
+.contact-form {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;  
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    font-family: inherit;
+    text-align: center;
+    margin: 2em 0;
+    padding: 2em 0;
+}  
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #5d4a68;
+    color: white !important;
+    border-radius: 5px;
+    border: none;
+}
+
+::placeholder {
+    color: #ffffff !important;
+}
+
+.contact-form textarea {
+    height: 250px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #f59902;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 
