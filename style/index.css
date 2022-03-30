@@ -1,1 +1,160 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TYPOGRAPHY */
+.main-section-home h1,
+.main-section-about h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #262626;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 2em 0;
+
+}
+nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #fdb136;
+}
+
+/* MAIN SECTION HOME PAGE */
+
+.main-section-home {
+    background-image: url("/Images/main-img.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-section-home div {
+    padding: 4em 8em;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 93, 74, 104, 0.37 );
+    backdrop-filter: blur( 3px ); 
+    border-radius: 10px;
+}
+
+.main-section-home h1, 
+.main-section-home h2 {
+    margin-bottom: 0.5em;
+}
+
+.main-section-home button,
+.main-section-about button {
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #f59902;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-section-home button:hover,
+.main-section-about button:hover {
+    background-color: #fdb136; 
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 2em 0 2em 0;
+    background-color: #262626;
+    color: #ffffff;
+}
+
+footer p {
+    margin-bottom: 1em;
+}
+
+footer button {
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #5d4a68;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+footer button:hover {
+    background-color: #7d668a;
+}
+
+/* ABOUT ME PAGE */
+
+/* MAIN SECTION ABOUT ME */
+.main-section-about img {
+    width: 40%;
+    object-fit: cover;
+}
+.main-section-about {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 3em 0;
+}
+
+.main-section-about div {
+    padding: 3em;
+}
+
+.main-section-about p,
+.main-section-about h1 {
+    margin-bottom: 1em;
+}
+
+.sub-section-about {
+    width: 100%;
+    padding-bottom: 3em 0;
+    background-color:#7d668a;
+}
+
+.sub-section-about div {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+    color: white;
+}
+
+/* PROJECTS PAGE */
+
+/* 5d4a68 purple
+f59902 */
