@@ -67,12 +67,15 @@ nav a:hover {
 }
 
 .main-section-home h1, 
-.main-section-home h2 {
+.main-section-home h2,
+.main-section-projects h2,
+.main-section-projects p {
     margin-bottom: 0.5em;
 }
 
 .main-section-home button,
-.main-section-about button {
+.main-section-about button,
+.main-section-projects button {
     padding: 1em 2em;
     border-radius: 5px;
     cursor: pointer;
@@ -84,7 +87,8 @@ nav a:hover {
 }
 
 .main-section-home button:hover,
-.main-section-about button:hover {
+.main-section-about button:hover,
+.main-section-projects button:hover {
     background-color: #fdb136; 
 }
 
@@ -155,6 +159,43 @@ footer button:hover {
 }
 
 /* PROJECTS PAGE */
+/* MAIN SECTION */
+
+.main-section-projects {
+    width: 100%;
+    display: flex;
+}
+
+.main-section-projects-container {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.main-section-project-card {
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #7d668a;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(15, 13, 13, 0.192) 
+}
+
+.main-section-projects img {
+    width: 100%;
+}
+
+.main-section-projects h2,
+.main-section-projects p {
+    color: white;
+}
+
+
 
 /* 5d4a68 purple
 f59902 */
