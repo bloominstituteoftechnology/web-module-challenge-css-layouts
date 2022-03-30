@@ -1,1 +1,138 @@
-/* Add CSS styling here */
+/*                     Begin CSS                      */
+
+* {
+    /*border: solid red 1px;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*
+html{
+    background-image: linear-gradient(black,navy);
+}
+*/
+header{
+    top: 0%;
+    height: 50%;
+    color: aliceblue;
+}
+
+.intro{
+    background-color: rgb(57, 20, 117);
+    color:aliceblue;
+}
+
+h1{
+   margin:0;
+   font-size: 72px;
+   height: 50%;
+   width: 100%;
+}
+
+h2{
+    padding-top: 20px;
+    margin: 0px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.maindes{
+    text-align: center;
+    font-size: 32px;
+    width: 45vw;
+}
+
+p{
+    text-align: center;
+    width: 60%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imgbackground{
+    background-image: linear-gradient(black, indigo);
+}
+
+.sideimg{
+    max-height: 100%;
+    width: auto;
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    position: relative;
+}
+
+nav{
+    padding: 11.5px;
+    font-size: 32px;
+    height: 50%;
+}
+
+a{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #8e6ad1;
+}
+
+footer{
+    height: 5vh;
+    width:100%;
+}
+
+
+.icon{
+    height: 100%;
+}
+
+/* CSS for Project slide 1-4 */
+.container2 {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    height: 30%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5520b8;
+}
+
+.container2:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
