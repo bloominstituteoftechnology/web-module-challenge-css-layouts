@@ -91,7 +91,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    padding: .3% 3%;
+    padding: .2% 3%;
     font-size: 3.5rem;
 
 }
@@ -115,12 +115,15 @@ nav a{
     background-color: beige;
     border-radius: 5px;
     color: black;
+    
 }
 .top {
     text-align: center;
 }
 .text{
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    padding: 2% 0;
+    padding: 0 7%;
 }
 p{
     text-align: center;
