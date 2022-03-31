@@ -81,6 +81,7 @@ h3{
 }
 header{
     background-color: rgb(194, 194, 194);
+    
 }
 .myname{
     text-align: center;
@@ -93,7 +94,6 @@ nav a{
     text-decoration: none;
     padding: .3% 3%;
     font-size: 3.5rem;
-
 }
 #home{
     background-color: beige;
@@ -166,4 +166,21 @@ footer{
 }
 #social{
     margin-top: 5% ;
+}
+@media(max-width:800) {
+    nav a{
+    /* text-decoration: none;
+    padding: .3% 3%;
+    font-size: 3.5rem; */
+    display: felx;
+    flex-direction: column;
+
+    }
+}
+@media(max-width:500px) {
+    nav a{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+}
 }
