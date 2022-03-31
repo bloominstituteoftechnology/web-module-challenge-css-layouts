@@ -91,7 +91,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    padding: .2% 3%;
+    padding: .3% 3%;
     font-size: 3.5rem;
 
 }
@@ -115,15 +115,13 @@ nav a{
     background-color: beige;
     border-radius: 5px;
     color: black;
-    
 }
 .top {
     text-align: center;
 }
 .text{
-    /* margin-top: 5%; */
-    padding: 2% 0;
-    padding: 0 7%;
+    margin-top: 5%;
+    padding: 0 8%;
 }
 p{
     text-align: center;
@@ -142,7 +140,7 @@ button{
 button:hover{
     background-color: yellow;
 }
-.projects{
+.intro{
     margin-left: 2%;
     padding: 0 1%;
     display: flex;
