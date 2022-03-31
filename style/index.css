@@ -64,7 +64,7 @@ body{
 }
 
 section{
-    padding: 4% 0;
+    padding: .2% 0;
     width: 100%;
     margin: 0 auto;
 }
@@ -120,7 +120,7 @@ nav a{
     text-align: center;
 }
 .text{
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 0 8%;
 }
 p{
