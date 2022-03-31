@@ -140,7 +140,7 @@ button{
 button:hover{
     background-color: yellow;
 }
-.intro{
+.myprojects{
     margin-left: 2%;
     padding: 0 1%;
     display: flex;
@@ -162,6 +162,8 @@ button:hover{
 footer{
     text-align: center;
     padding: .2%;
-    background-color: rgb(205, 205, 205);
-    
+    background-color: rgb(205, 205, 205);    
+}
+#social{
+    margin-top: 5% ;
 }
