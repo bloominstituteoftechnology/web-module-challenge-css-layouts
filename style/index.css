@@ -62,30 +62,38 @@ body{
      line-height: 1.5;
      font-family: 'Roboto Mono', monospace;
 }
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 7rem;
-}
-h2{
-    font-size: 6rem;
-}
-h3{
-    font-size: 2rem;
-}
+
 section{
     padding: 4% 0;
     width: 100%;
     margin: 0 auto;
 }
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
 header{
     background-color: rgb(194, 194, 194);
 }
+.myname{
+    text-align: center;
+}
+
 nav{
-    padding: 1.5% 9%;
-    display: flex;
+    text-align: center;
 }
 nav a{
     text-decoration: none;
+    padding: .3% 3%;
+    font-size: 3.5rem;
+
 }
 #home{
     background-color: beige;
@@ -109,35 +117,50 @@ nav a{
     color: black;
 }
 .top {
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-}
-
-.image{
-    height: 40vh;
-    width: 60vw
+    text-align: center;
 }
 .text{
-    text-align: center;
     margin-top: 5%;
 }
-button{
+p{
+    text-align: center;
     
-    background-color: rgb(194, 194, 194);
+}
+.image{
+    height: 60vh;
+    width: 100%;
+}
+button{
+    font-size: 2rem;
+    background-color: beige;
+    padding: 1% 2%;
+    border-radius: 5px;
 }
 button:hover{
     background-color: yellow;
 }
-.imgs-one{
+.projects{
+    margin-left: 2%;
+    padding: 0 1%;
     display: flex;
+    flex-flow: nowrap;
     justify-content: space-around;
+    align-items: stretch;
+
 }
-.imgs-two{
-    display: flex;
-    justify-content: space-around;
+.imgs-in img{
+    height: 40vh;
+    width: 92%;
+}
+.projtext {
+    /* margin-left: 10%; */
+    width: 30%;
+    padding-top: 7%;
+    /* text-align: center; */
 }
 footer{
     text-align: center;
-
+    padding: .2%;
+    background-color: rgb(205, 205, 205);
+    
 }
