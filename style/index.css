@@ -1,1 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border:1px solid grey;
+  } */
 /* Add CSS styling here */
+/* general */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    background-color: pink;
+}
+section{
+    padding: 1%;
+    width: 100%;
+    margin: 0;
+}
+/* header */
+header{
+    display: flex;
+    flex-flow: column;
+    padding: 2%;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+h1{
+    padding: 3% 0;
+    font-size: 3.5rem;
+}
+nav{
+    margin-left: 2%;
+    padding: 1%;
+}
+.links a{
+    display: inline-block;
+    background-color: rgb(244, 129, 148);
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+header #introduction{
+    font-family: sans-serif serif;
+}
+/* introduction */
+#introduction{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+.img{
+    width: 50%;
+    padding: 1%;
+    background-color: rgb(244, 129, 148);
+}
+.main-img{
+    width: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 1%;
+    gap: 3%;
+    height: 65%;
+    width: 100%;
+    height: 100%; 
+}
+h2{
+    font-size: 2rem;
+    padding: 1%;
+}
+p{
+    font-size: 1.5rem;
+    padding: 4%;
+}
+.my-projects{
+    width: 25%;
+    padding: 1%;
+    background-color: green;
+    color: white;
+}
+/* boxes */
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    object-fit: cover;
+}
+.box{
+    width: 22%;
+    text-align: center;
+    font-family: sans-serif serif;
+}
+.box-img{
+    max-height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+h3{
+    padding: 2%;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5%;
+    background-color: rgb(244, 129, 148);
+    font-family: sans-serif  serif;
+}
+h2{
+    color: green;
+    padding: 2%
+}
+.contact-me{
+    width: 25%;
+    padding: 1%;
+    background-color: green;
+    color: white;
+}
+.socials{
+    padding-top: 2%;
+}
+
+ 
+
+
+
+
