@@ -25,7 +25,37 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.navigator {
-	display: flex;
-	flex-wrap: column-wrap;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
 }
+
+.name {
+    text-align: center;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigator {
+    align-items: center;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.nav {
+    width: 15%;
+    border: 3px solid #4f4f4f;
+    text-align: center;
+    padding: 1%;
+    background-color: #fff;
+}
+/*
+.heading {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}*/
