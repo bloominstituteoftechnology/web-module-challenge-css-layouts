@@ -144,15 +144,16 @@ button:hover{
     margin-left: 2%;
     padding: 0 0%;
     display: flex;
+    /* flex-direction: column; */
     flex-flow: nowrap;
     justify-content: space-around;
     align-items: stretch;
 
 }
 .imgs-project{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-evenly; */
 }
 .imgs-project img{
     height: 40vh;
@@ -160,12 +161,13 @@ button:hover{
 }
 .mobileone {
     display: flex;
+
 }
 .mobiletwo {
     display: flex;
 }
 .projtext {
-    /* margin-left: %;  */
+    margin-left: 1%; 
      width: 30%;
      padding: 7% 0;
     text-align: center; 
@@ -185,8 +187,9 @@ footer{
     font-size: 3.5rem; */
     display: felx;
     flex-direction: column;
-
     }
+    
+    
 }
 @media(max-width:500px) {
     nav a{
@@ -198,8 +201,6 @@ footer{
         width: 50%;
     }
     .myprojects{
-    /* margin-left: 2%; */
-    /* padding: 0 1%; */
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
