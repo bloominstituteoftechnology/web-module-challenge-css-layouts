@@ -1,1 +1,222 @@
-/* Add CSS styling here */
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general styles */
+* {
+    box-sizing: border-box; 
+    /* border: 1px solid grey; */
+    max-width: 100%; 
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+     font-size: 1.6rem;
+     line-height: 1.5;
+     font-family: 'Roboto Mono', monospace;
+}
+
+section{
+    padding: .2% 0;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+header{
+    background-color: rgb(194, 194, 194);
+    
+}
+.myname{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: .3% 3%;
+    font-size: 3.5rem;
+}
+#home{
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+
+}
+#about{
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+}
+#contact{
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+}
+#projects{
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+}
+.top {
+    text-align: center;
+}
+.text{
+    margin-top: 2%;
+    padding: 0 8%;
+}
+p{
+    text-align: center;
+    
+}
+.image{
+    height: 60vh;
+    width: 100%;
+}
+button{
+    font-size: 2rem;
+    background-color: beige;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: yellow;
+}
+.myprojects{
+    margin-left: 2%;
+    padding: 0 0%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+.imgs-project{
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-evenly; */
+}
+.imgs-project img{
+    height: 40vh;
+    width: 92%;
+}
+.mobileone {
+    display: flex;
+
+}
+.mobiletwo {
+    display: flex;
+}
+.projtext {
+    margin-left: 1%; 
+     width: 30%;
+     padding: 7% 0;
+    text-align: center; 
+}
+footer{
+    text-align: center;
+    padding: .2%;
+    background-color: rgb(205, 205, 205);    
+}
+#social{
+    margin-top: 5% ;
+}
+@media(max-width:800) {
+    nav a{
+    /* text-decoration: none;
+    padding: .3% 3%;
+    font-size: 3.5rem; */
+    display: felx;
+    flex-direction: column;
+    }
+    
+    
+}
+@media(max-width:500px) {
+    nav a{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+    }
+    .bigimg{
+        width: 50%;
+    }
+    .myprojects{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    }
+    .imgs-project img{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 6%;
+    flex-flow: wrap;
+    }
+    .projtext{
+        width: 80%;
+    }
+    .remove{
+        display: none
+    }
+} 
