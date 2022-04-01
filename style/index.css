@@ -142,22 +142,33 @@ button:hover{
 }
 .myprojects{
     margin-left: 2%;
-    padding: 0 1%;
+    padding: 0 0%;
     display: flex;
     flex-flow: nowrap;
     justify-content: space-around;
     align-items: stretch;
 
 }
-.imgs-in img{
+.imgs-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imgs-project img{
     height: 40vh;
     width: 92%;
 }
+.mobileone {
+    display: flex;
+}
+.mobiletwo {
+    display: flex;
+}
 .projtext {
-    /* margin-left: 10%; */
-    width: 30%;
-    padding-top: 7%;
-    /* text-align: center; */
+    /* margin-left: %;  */
+     width: 30%;
+     padding: 7% 0;
+    text-align: center; 
 }
 footer{
     text-align: center;
@@ -182,5 +193,29 @@ footer{
     display: flex;
     flex-direction: column;
     margin: 0 30%;
-}
-}
+    }
+    .bigimg{
+        width: 50%;
+    }
+    .myprojects{
+    /* margin-left: 2%; */
+    /* padding: 0 1%; */
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    }
+    .imgs-project img{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 6%;
+    flex-flow: wrap;
+    }
+    .projtext{
+        width: 80%;
+    }
+    .remove{
+        display: none
+    }
+} 
