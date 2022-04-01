@@ -50,6 +50,18 @@ table {
 
 *{
     background-color: lightblue;
+    /* box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    border:1px solid red; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
 }
 
 .intro{
@@ -59,9 +71,7 @@ table {
     text-align: center;
 }
 
-nav{
-    background-color: blue;
-}
+
 h1{
     font-size: 40px;
 }
@@ -83,4 +93,46 @@ footer{
     background-color: cyan;
     text-align: center;
     padding: 10px;
+}
+
+
+@media(max-width: 800px) {
+
+    .intro {
+        padding: 15px;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .links button{
+        width: 10%;
+        margin: 0.5%;
+    }
+
+ .rows{
+    flex-wrap: wrap;
+ }
+ .rows img{
+     width:35%;
+     height: 400px;
+    /* padding: 10 */
+    margin: 5%;
+ }
+
+ p{
+     width: 100%;
+     align-items: left;
+}
+}
+@media(max-width: 500px) {
+    .intro {
+        padding: 10px;
+    }
+    .links button{
+        width: 15%;
+    }
 }
