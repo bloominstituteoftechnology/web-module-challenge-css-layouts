@@ -152,7 +152,7 @@ footer a{
 }
 @media (max-width: 500px) {
     .nav-button{
-        width: 12vh;
+        width: 25vh;
     }
     .navbar{
         margin-top: 2vh;
