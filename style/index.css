@@ -48,7 +48,7 @@ h1 {
     font-weight: 500;
 }
 header {
-    height: 9vh;
+    height: 10vh;
     background: lightgray;
     padding: 2%;
     border-bottom: 1px solid black;
@@ -56,7 +56,7 @@ header {
 .navbar {
     margin: 1%;
     display: flex;
-    
+    width: 100%; 
 }
 .nav-button {
     height: 4vh;
@@ -67,9 +67,13 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    flex-shrink: 1;
 }
 .nav-button:hover {
     background-color: rgb(169, 255, 255);
+    transform: scale(1.05);
+    transition: .5s;
 }
 a {
     text-decoration: none;
@@ -100,10 +104,10 @@ a {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 4vh 0;
+    padding: 2vh 0;
 }
 .banner .nav-button {
-    margin: 4vh 0;
+    margin: 2vh 0;
 
 }
 .banner img {
@@ -129,4 +133,21 @@ footer div {
 }
 footer a{
     margin: 5vh;
+}
+@media (max-width: 800px){
+    .banner {
+        flex-direction: column;
+    }
+    .banner-text {
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+}
+@media (max-width: 500px) {
+    .nav-button{
+        width: 12vh;
+    }
 }
