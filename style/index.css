@@ -85,6 +85,10 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.container .project:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
 .banner {
     padding: 5vh;
     display: flex;
@@ -149,5 +153,27 @@ footer a{
 @media (max-width: 500px) {
     .nav-button{
         width: 12vh;
+    }
+    .navbar{
+        margin-top: 2vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .project {
+        text-align: center;
+    }
+    .container img{
+        transform: scale(.9);
+        transition: .5s;
     }
 }
