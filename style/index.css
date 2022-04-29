@@ -1,1 +1,193 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Roboto Mono', monospace;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    font-weight: 500;
+}
+header {
+    background: lightgray;
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+.links {
+    display: flex;
+
+}
+.navbar {
+    margin: 1%;
+    display: flex;
+    width: 100%; 
+}
+.nav-button {
+    height: 4vh;
+    width: 15vh;
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-shrink: 1;
+}
+.nav-button:hover {
+    background-color: rgb(169, 255, 255);
+    transform: scale(1.05);
+    transition: .5s;
+}
+.social-media-links{
+    max-height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container .project:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.banner {
+    padding: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 4vh;
+}
+.banner h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2vh 0;
+}
+.banner .nav-button {
+    margin: 2vh 0;
+}
+.banner p {
+    padding: 1vh 0;
+}
+.banner-img{
+    width: 50%;
+    
+
+}
+.banner img {
+    flex-shrink: 1;
+    max-width: 100%;
+}
+.project {
+    margin: 4vh;
+}
+footer {
+    text-align: center;
+    background-color: lightgray;
+    height: 25vh;
+}
+footer div {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+footer a{
+    margin: 5vh;
+}
+@media (max-width: 800px){
+    .banner {
+        flex-direction: column;
+    }
+    .banner-text {
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+    .navbar{
+        margin-top: 2vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-button{
+            width: 25vh;
+        }
+}
+@media (max-width: 500px) {
+    
+    .container {
+        width: 100%;
+    }
+    .project {
+        text-align: center;
+    }
+    .container img{
+        transform: scale(.9);
+        transition: .5s;
+    }
+}

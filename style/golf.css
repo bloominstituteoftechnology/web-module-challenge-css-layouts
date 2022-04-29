@@ -1,0 +1,47 @@
+.golf-resume {
+    width: 100%;
+    background-image: url(/images/golfswing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgba(0,0,0,.3), rgba(0,0,0,.9));
+    padding: 5%;
+}
+.resume-container h2 {
+    font-size: 1.9rem;
+    padding: 1vh;
+    text-decoration: underline;
+}
+.resume-container h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.resume-container p {
+    font-size: 1.3rem;
+}
+.level {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    transition: .5s;
+    padding: 1vh;
+    transform: translateX(20%);
+}
+.results:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.results {
+    padding: 1vh;
+    transition: .5s;
+}
