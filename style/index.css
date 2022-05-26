@@ -1,1 +1,93 @@
 /* Add CSS styling here */
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid greenyellow; */
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
+
+/* Header */
+
+header{
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+nav{
+    padding-bottom: 2%;
+    margin: 0% 2%;
+}
+
+button{
+    background-color: white;
+    color:black;
+}
+
+button:hover{
+    color:greenyellow;
+    background-color: black;
+}
+
+h1:hover{
+    color:greenyellow;
+    font-size: 36px;
+}
+
+button a{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding:20px;
+}
+
+.topsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text{
+    padding: 20px;
+    width: 50%;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.element{
+    text-align: center;
+}
+
