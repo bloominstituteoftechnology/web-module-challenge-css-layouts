@@ -83,6 +83,7 @@ footer{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
 }
@@ -91,3 +92,38 @@ footer{
     text-align: center;
 }
 
+@media (max-width: 800px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0 40%;
+    }
+
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .image{
+        padding-left: 7%;
+    }
+
+    .text{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .box{
+        padding-left: 33%;
+    }
+}
+
+@media (max-width: 500px){
+
+}
