@@ -32,11 +32,20 @@ button a {
   border-radius: 10px;
 }
 
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50%;
+}
+
 .topsection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .container {
