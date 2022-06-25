@@ -1,12 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
 
+html {
+  font-size: 62.5%;
+}
 
 body {
+  font-size: 1.6rem;
   width: 100%;
   background-color: #CDF0EA;
 }
 
+section {
+  padding: 4% 0;
+}
+
 h1 {
   text-align: center;
+  padding: 2%;
 }
 
 p {
@@ -32,11 +48,13 @@ button a {
   border-radius: 10px;
 }
 
+
 .bg-img {
+  background-image: url("https://media.istockphoto.com/photos/fresh-oyster-mushrooms-on-a-dead-tree-picture-id134153015?k=20&m=134153015&s=612x612&w=0&h=ZL1Wq54yucV0JecmN6OqdypKYRd_3BZwlr5SptitQok=");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 50%;
+  height: 50vh;
 }
 
 .topsection {
