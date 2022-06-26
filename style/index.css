@@ -1,1 +1,128 @@
-/* Add CSS styling here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  background-color: #CDF0EA;
+}
+
+section {
+  padding: 4% 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+p {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 25px;
+}
+
+button {
+  text-align: center;
+  background-color: black;
+  padding: 1%;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 2%;
+  font-size: 20px;
+}
+
+
+
+@media(max-width: 800px){
+
+  .container{
+    flex-wrap: wrap;
+  }
+
+  .container img{
+    width: 40%;
+    margin: 2% 0;
+  }
+
+  .container .text{
+    width: 90%;
+  }
+
+}
+
+@media(max-width: 500px){
+  .container{
+    flex-wrap: wrap;
+  }
+  .container img{
+    width: 40%;
+    margin: 4% 0;
+  }
+
+  .container .text {
+    width: 90%;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .navigation button {
+    width: 40%;
+    margin: 1% 0;
+  }
+}
+
+.bg-img {
+  background-image: url("https://media.istockphoto.com/photos/fresh-oyster-mushrooms-on-a-dead-tree-picture-id134153015?k=20&m=134153015&s=612x612&w=0&h=ZL1Wq54yucV0JecmN6OqdypKYRd_3BZwlr5SptitQok=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.topsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container img {
+  padding: 20px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
