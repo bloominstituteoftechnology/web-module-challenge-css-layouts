@@ -130,3 +130,11 @@ header nav a {
     height: 100%;
 }
 
+/* Media selectors */
+@media(max-width: 800px) {
+    
+}
+
+@media(max-width: 500px) {
+
+}
