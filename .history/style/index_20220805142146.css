@@ -50,6 +50,7 @@ table {
 /* Add CSS styling here */
 
 body{
+    border:1px solid black;
     font-size: 62%;
 }
 /*header*/
@@ -71,28 +72,22 @@ h1{
 }
 
 button{
-    background-color: white;
     border:2px solid black;
-    color:black;
-    padding: 5px 10px;
-   }
-
-   button:hover{
-    background-color: black;
-    border:2px solid white;
-    color:white;
-   }
-   
-   button a{
-    text-decoration:none;
-    color: inherit;
-   }
-
+}
 .homeButton{
     background-color: black;
     color: white;
-    }
+    margin-right:0%;
+    
+}
 
+.aboutButton{
+    margin:0 0%
+}
+
+.one a{
+    border:2px solid black;
+}
 
 /*Main section*/
 
@@ -123,11 +118,11 @@ button{
 .mainText a{
     font-size:.75rem;
     padding:1%;
+    border:1px solid black;
 }
 
 .mainText p{
     font-size:1.1rem;
-    margin-top:5%;
 }
 
 /*photo section 1*/
@@ -176,8 +171,7 @@ button{
 
 footer{
     background-color: lightgray;
-    padding:2%;
-    text-align:center;
+    padding:2%
 }
 
 footer h2{

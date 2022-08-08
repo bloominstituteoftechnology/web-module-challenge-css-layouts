@@ -50,6 +50,7 @@ table {
 /* Add CSS styling here */
 
 body{
+    border:1px solid black;
     font-size: 62%;
 }
 /*header*/
@@ -70,72 +71,29 @@ h1{
    
 }
 
-button{
-    background-color: white;
-    border:2px solid black;
-    color:black;
-    padding: 5px 10px;
-   }
-
-   button:hover{
-    background-color: black;
-    border:2px solid white;
-    color:white;
-   }
-   
-   button a{
-    text-decoration:none;
-    color: inherit;
-   }
-
 .homeButton{
     background-color: black;
     color: white;
-    }
+    margin-right:0%;
+    
+}
 
+.aboutButton{
+    margin:0 0%
+}
+
+.one a{
+    border:2px solid black;
+}
 
 /*Main section*/
 
-.main{
-    display:flex;
-    flex-flow: row;
-    padding:2%
-}
-
-.main img{
-    width:45%
-}
- 
-.mainText{
-    display:flex;
-    flex-flow: column wrap;
-    justify-content:center;
-    align-content: center;
-    margin-left:20%;
-    margin-bottom:10%;
-}
-
-.mainText h2{
-        font-size: 1.5rem;
-        margin-bottom:5%;
-}
-
-.mainText a{
-    font-size:.75rem;
-    padding:1%;
-}
-
-.mainText p{
-    font-size:1.1rem;
-    margin-top:5%;
-}
 
 /*photo section 1*/
 
 .photoContainer1{
     display:flex;
     flex-flow:row;
-    justify-content:space-evenly;
 }
 
 .photoContainer1 img{
@@ -147,43 +105,11 @@ button{
 .photoTitle1{
     display:flex;
     flex-flow: row wrap; 
-    justify-content:space-around;
-    margin:1% 0;
 }
 
 /*photo section 2*/
 
-.photoContainer2{
-    display:flex;
-    flex-flow:row;
-    justify-content:space-evenly;
-}
-
-.photoContainer2 img{
-    width:20%;
-}
-
 /*text section 2*/
 
-.photoTitle2{
-    display:flex;
-    flex-flow: row wrap; 
-    justify-content:space-around;
-    margin:1% 0;
-}
-
 /*footer*/
-
-footer{
-    background-color: lightgray;
-    padding:2%;
-    text-align:center;
-}
-
-footer h2{
-    font-size: 1.5rem;
-    display:flex;
-    flex-flow:column wrap;
-    justify-content:center;
-}
 
