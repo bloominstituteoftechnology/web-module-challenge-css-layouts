@@ -50,6 +50,7 @@ table {
 /* Add CSS styling here */
 
 body{
+    border:1px solid black;
     font-size: 62%;
 }
 /*header*/
@@ -82,7 +83,6 @@ button{
     border:2px solid white;
     color:white;
    }
-   
    button a{
     text-decoration:none;
     color: inherit;
@@ -91,7 +91,15 @@ button{
 .homeButton{
     background-color: black;
     color: white;
+    margin-right:0%;
     }
+
+    .homebutton:hover{
+        background-color: white;
+        border:2px solid black;
+        color:black;
+       }
+
 
 
 /*Main section*/
@@ -123,6 +131,7 @@ button{
 .mainText a{
     font-size:.75rem;
     padding:1%;
+    border:1px solid black;
 }
 
 .mainText p{

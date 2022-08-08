@@ -123,6 +123,7 @@ button{
 .mainText a{
     font-size:.75rem;
     padding:1%;
+    border:1px solid black;
 }
 
 .mainText p{
