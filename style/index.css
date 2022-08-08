@@ -1,1 +1,84 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive; 
+    font-size: 6rem;
+}
+
+button {
+    background-color: white;
+    color:black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+    border: white solid 1px;
+}
+
+/*Header Section*/
+
+header {
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/*about section*/
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.aboutsection {
+    padding: 5%;
+    
+}
+
+/*project section*/
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+
+
+
+/*Footer Section*/
+
+footer {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px;
+}
