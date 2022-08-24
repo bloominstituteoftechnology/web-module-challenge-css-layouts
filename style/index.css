@@ -1,1 +1,197 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    background-color: #fffafa;
+}
+nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: .31rem 1.3rem;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    padding: .31rem .63rem;
+}
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+header {
+    background-color: lightgrey;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+footer {
+    background-color: lightgrey;
+    padding: 1.25rem;
+    text-align: center;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro {
+    width: 50%;
+    text-align: center;
+    padding: 1.56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.intro button {
+    padding: 1rem;
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.56rem;
+}
+h3 {
+    text-align: center;
+}
+@media(max-width: 1350px) {
+    .row div {
+        width: 20%;
+    }
+    .top img {
+        width: 50%;
+    }
+    .intro button {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 800px) {
+    .row div {
+        width: 20%;
+    }
+    .top img {
+        width: 40%;
+    }
+    .intro button {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 40%;
+        margin: 1% 0;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 95%;
+    }
+    .top div {
+        width: 90%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div {
+        width: 40%;
+        margin: 4% 0;
+    }
+}
