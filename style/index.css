@@ -118,7 +118,10 @@ footer {
 }
 .intro button {
     padding: 1rem;
-    margin: 0 15rem;
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
 }
 .row {
     display: flex;
@@ -128,4 +131,67 @@ footer {
 }
 h3 {
     text-align: center;
+}
+@media(max-width: 1350px) {
+    .row div {
+        width: 20%;
+    }
+    .top img {
+        width: 50%;
+    }
+    .intro button {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 800px) {
+    .row div {
+        width: 20%;
+    }
+    .top img {
+        width: 40%;
+    }
+    .intro button {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 40%;
+        margin: 1% 0;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 95%;
+    }
+    .top div {
+        width: 90%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div {
+        width: 40%;
+        margin: 4% 0;
+    }
 }
