@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+* {
+  font-size: 62.5%;
+  width: 100%;
+}
+html {
+  background-color: azure;
+}
+h1 {
+  margin: 1% 1%;
+  font-size: 3.5rem;
+  color: azure;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p, a{
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: azure;
+  color: cadetblue;
+  text-align: center;
+}
+a:hover {
+  color: azure;
+  background-color: darkcyan;
+}
+header {
+  padding: 1% 1%;
+  background: cadetblue;
+}
+nav {
+  padding: 0 1%;
+  display: flex;
+  justify-content: flex-start;
+}
+nav a {
+  margin: 0 5px;
+  text-align: center;
+  width: 5%;
+}
+section {
+  display: flex;
+}
+#about {
+  display: flex;
+  margin: 2% 1%;
+  justify-content: space-evenly;
+}
+#about a {
+  background-color: cadetblue;
+  color: azure;
+  width: 15%
+}
+#about a:hover {
+  color: azure;
+  background-color: darkcyan;
+}
+#about img {
+  height: 30vh;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  justify-content:flex-start;
+}
+#about div{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 40%;
+  justify-content: left;
+  align-content: center;
+}
+.divider {
+  margin: 2% 0;
+  height: 10vh;
+  width: 100%;
+  background-color: cadetblue;
+}
+#projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+#projects img{
+  border-radius: 10px;
+}
+#projects div {
+  width: 20%;
+  text-align: center;
+}
+footer {
+  background-color: cadetblue;
+  color: azure;
+  text-align: center;
+  padding: 2%;
+}
