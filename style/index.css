@@ -1,4 +1,7 @@
 /* Add CSS styling here */
+/* * {
+    font-size: 62.5%;
+} */
 header {
     background-color: lightblue;
     padding: 20px;
@@ -25,11 +28,15 @@ footer {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
-
+    justify-content: space-evenly;
 }
 
 .portfolio-element {
     text-align: center;
+    
+}
+
+.portfolio-element img {
     border-radius: 25%;
 }
 
@@ -37,8 +44,8 @@ button {
     background-color: purple;
     color: gold;
     border: 1px solid purple;
-    padding: 5px 10px;
-    border-radius: 15%;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 button:hover {
@@ -50,4 +57,58 @@ button:hover {
 button a {
     text-decoration: none;
     color: inherit;
+}
+
+@media(max-width: 800px) {
+    .row div {
+        width: 20%;
+    }
+}
+
+@media(max-width: 500px) {
+    html {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1{
+       text-align: center;
+       padding: 0%;
+       margin: 0%;
+    }
+    nav {
+        margin: 4%
+    }
+    button {
+        flex-flow: column-wrap;
+        align-content: center;
+        width: 20%;
+        
+    }
+    .topsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .description {
+        width: 90%;
+        text-align: center;
+    }
+    .description p {
+        margin: 0 4%;
+    }
+    .portfoliowheel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div {
+        width: 40%;
+        margin: 4% 0;
+        text-align: center;
+    }
+    
 }
