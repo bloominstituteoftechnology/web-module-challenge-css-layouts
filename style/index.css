@@ -1,1 +1,53 @@
 /* Add CSS styling here */
+header {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom:15px;
+}
+
+footer {
+    background-color:lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+.topsection {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.description {
+    padding: 0px 0px 0px 20px;
+}
+
+.portfoliowheel {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+
+}
+
+.portfolio-element {
+    text-align: center;
+    border-radius: 25%;
+}
+
+button {
+    background-color: purple;
+    color: gold;
+    border: 1px solid purple;
+    padding: 5px 10px;
+    border-radius: 15%;
+}
+
+button:hover {
+    background-color: gold;
+    color: purple;
+    border: 1px solid gold;
+
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
