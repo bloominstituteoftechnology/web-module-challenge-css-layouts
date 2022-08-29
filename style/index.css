@@ -312,6 +312,8 @@ footer {
   padding: 3rem;
   justify-content: space-between;
   align-items: center;
+  background-color: #0047ab;
+  margin-top: 5rem;
 }
 
 footer .connection-container {
