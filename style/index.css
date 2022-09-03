@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 50px 50px;
+}
+
+.header {
+    padding: 2%;
+}
+
+nav {
+    padding: 3%;
+}
+
+nav a {
+    padding: 10px 20px;
+}
+
+/*Active page*/
+nav a:first-child {
+    background-color: black;
+    color: white;
+}
+
+/*Button Layout*/
+button {
+    border: 1px solid red;
+    height: 50px;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.showcase-image {
+    width: 65%;
+    border: 1px solid black;
+}
+
+.enhance {
+    padding: 5%;
+    box-shadow: 10px 5px 5px #eeeeee;
+
+}
+
+.post {
+    width: 35%;
+    padding: 2%;
+}
+
+.post h2 {
+    font-size: 2rem;
+}
+
+.post>* {
+    border: 1px solid black;
+    margin: 2%;
+}
+
+
+/*More content gallery cards*/
+span {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.media img {
+    width: 30em;
+    padding: 1.5em;
+}
+
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media-gallery>* {
+    flex-basis: 20%;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 4%;
+    display: flex;
+    background-color: #eeeeee;
+    padding: 5%;
+    text-align: center;
+}
