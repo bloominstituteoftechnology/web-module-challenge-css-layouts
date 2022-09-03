@@ -6,6 +6,7 @@
 
 body {
     font-size: 62.5%;
+    font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
 a {
     text-decoration: none;
     padding: 50px 50px;
+    color: black;
 }
 
 .header {
@@ -27,41 +29,46 @@ nav {
 
 nav a {
     padding: 10px 20px;
+    color: #181818;
 }
 
-/*Active page*/
 nav a:first-child {
     background-color: black;
     color: white;
 }
 
-/*Button Layout*/
 button {
-    border: 1px solid red;
     height: 50px;
-
+    border: none;
+    box-shadow: 2px 2px #eeeeee;
 }
+
+button:hover {
+    box-shadow: 2px 2px #181818;
+}
+
+
 
 .main-content {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.showcase-image {
-    width: 65%;
-    border: 1px solid black;
+.main-content>* {
+    width: 50%;
+    flex-grow: 0;
 }
 
-.enhance {
-    padding: 5%;
-    box-shadow: 10px 5px 5px #eeeeee;
-
+.showcase-image:first-child {
+    width: inherit;
 }
 
 .post {
-    width: 35%;
-    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .post h2 {
@@ -69,9 +76,19 @@ button {
 }
 
 .post>* {
-    border: 1px solid black;
+
     margin: 2%;
 }
+
+.post button {
+    width: 25%;
+}
+
+.post p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
 
 
 /*More content gallery cards*/
@@ -87,6 +104,7 @@ span {
 }
 
 .media-gallery {
+    margin-top: 3%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -98,9 +116,29 @@ span {
 /*Footer*/
 
 footer {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+footer button {
+    border: 0.2px solid black;
+}
+
+.footer-border {
     margin-top: 4%;
     display: flex;
-    background-color: #eeeeee;
-    padding: 5%;
-    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+.footer-border h2 {
+    font-size: 1.5rem;
+}
+
+
+.enhance {
+    border-radius: 2rem;
 }
