@@ -23,8 +23,8 @@ Portfolio websites are a great way to show off your work to friends, family, and
 
 Follow these steps to set up and work on your project:
 
-- [ ] Fork and clone this repository.
-- [ ] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
+- [❌] Fork and clone this repository.
+- [N/A] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
 - [ ] DO NOT MAKE A BRANCH! You will be pushing to main/master today.
 - [ ] cd into your repository on the command line and use code . to open VS Code.
 - [ ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
