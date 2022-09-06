@@ -65,12 +65,24 @@ nav {
 	
 }
 
+.menu {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .menu a {
 	padding: 15px;
 	text-decoration: none;
 	color:rgb(173, 182, 196);
-
 }
+
+.menu a:hover {
+	background-color: rgb(173, 182, 196);
+	color: rgb(61, 90, 108);
+}
+
+
 
 .splash div{
 	display: flex;
@@ -86,6 +98,7 @@ nav {
 	background-image: url('https://images.unsplash.com/photo-1500423079914-b65af272b8db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzQ0NTA3fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
 	background-size: cover;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
 	
 }
 
@@ -93,6 +106,25 @@ nav {
 	height: 150px;
 	width: 70px;
 	padding: 20px 0px 0px 5px;
+}
+
+.splash button {
+	background-color: inherit;
+	margin-top: 10px;
+	border-color: rgb(61, 90, 108);
+	color: rgb(61, 90, 108);
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 50px 5px 50px;
+	font-family: 'Courgette';
+	font-size: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.splash button:hover {
+	border-color: white;
+	color: white;
 }
 
 
@@ -117,7 +149,7 @@ nav {
 	margin: 20px 0px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 .card:hover {
@@ -136,4 +168,31 @@ nav {
 
 .card h2 {
 	padding: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	font-size: 1.5rem;
+	font-family: 'Courgette';
+	background-color: rgb(61, 90, 108);
+	color:rgb(173, 182, 196);
+	padding: 15px 15px 15px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer .button {
+	background-color: rgb(173, 182, 196);
+	color: rgb(61, 90, 108);
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-family: 'Courgette';
+	border-radius: 5px;
+}
+
+footer .button:hover {
+	color: white;
 }
