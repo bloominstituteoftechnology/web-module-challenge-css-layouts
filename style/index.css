@@ -1,1 +1,170 @@
-/* Add CSS styling here */
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) 
+*/ 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } 
+
+/* HTML5 display-role reset for older browsers */ 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Architects Daughter', cursive;;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+header{
+    background-color: grey;
+    padding:1.5%;
+    margin-bottom: 1.5%;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 1%;
+
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+    border: white solid 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainTop{
+    display: flex;
+    justify-content: center;
+}
+
+.mainImg{
+    padding: 3%;
+    width: 50%;
+}
+
+.aboutMe{
+    padding: 3%;
+    width: 50%;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.aboutMe button {
+    display: flex;
+    justify-content: left;
+    margin: 2% 0;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.projectEl{
+    text-align: center;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 2%;
+}
+
+h3{
+    font-size: 3rem;
+    margin: 1%;
+}
+
+@media(max-width: 800px){
+    
+    .row div{
+        width: 20%;
+    }
+
+}
+
+@media(max-width: 500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    button{
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    .mainTop{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainTop p{
+        
+    }
+    
+    .mainImg{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .aboutMe{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutMe button {
+        justify-content: center;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* 
+        padding: 1%; */
+    }
+    .row div{
+        width: 40%;
+        margin: 4% 0;
+    }
+}
