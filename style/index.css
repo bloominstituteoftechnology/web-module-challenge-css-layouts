@@ -46,9 +46,23 @@ table {
 }
 /* Reset End */
 
+body {
+	padding: 0px 20px 20px 20px;
+}
+
 nav {
 	display: flex;
 	justify-content:space-between;
+	align-items: center;
+	height: 50px;
+	font-size: 1.5rem;
+	font-family: 'Courgette';
+	
+}
+
+.menu a {
+	padding: 15px;
+	text-decoration: none;
 }
 
 .splash div{
