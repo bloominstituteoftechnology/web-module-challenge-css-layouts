@@ -46,11 +46,28 @@ table {
 }
 /* Reset End */
 
+nav {
+	display: flex;
+	justify-content:space-between;
+}
+
 .splash div{
 	margin: auto;
 	width: 80%;
 	text-align: center;
 	background-image: url('https://images.unsplash.com/photo-1500423079914-b65af272b8db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzQ0NTA3fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+}
+
+.splash img {
+	height: 150px;
+	padding: 20px 0px 0px 5px;
+}
+
+
+.name {
+	font-size: 3rem;
+	font-family: 'Courgette';
+	color: rgb(61, 90, 108);
 }
 
 .gallery {
@@ -61,4 +78,5 @@ table {
 .card {
 	background-color: green;
 	width: 33%;
+	text-align: center;
 }
