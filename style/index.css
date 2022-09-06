@@ -47,7 +47,7 @@ table {
 /* Reset End */
 
 body {
-	padding: 0px 20px 20px 20px;
+	background-color: rgb(173, 182, 196);
 }
 
 nav {
@@ -57,16 +57,23 @@ nav {
 	height: 50px;
 	font-size: 1.5rem;
 	font-family: 'Courgette';
+	background-color: rgb(61, 90, 108);
+	color:rgb(173, 182, 196);
+	padding: 0px 15px 0px 15px;
+	margin-bottom: 30px;
 	
 }
 
 .menu a {
 	padding: 15px;
 	text-decoration: none;
+	color:rgb(173, 182, 196);
+
 }
 
 .splash div{
 	margin: auto;
+	padding: 20px;
 	width: 80%;
 	text-align: center;
 	background-image: url('https://images.unsplash.com/photo-1500423079914-b65af272b8db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzQ0NTA3fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
@@ -86,11 +93,18 @@ nav {
 
 .gallery {
 	display: flex;
+	justify-content: space-between;
 	flex-flow: row wrap;
+	padding: 0 30px;
 }
 
 .card {
 	background-color: green;
-	width: 33%;
+	width: 30%;
 	text-align: center;
+	margin: 20px 0px;
+}
+
+.card img {
+	width: 100%;
 }
