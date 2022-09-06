@@ -61,6 +61,7 @@ nav {
 	color:rgb(173, 182, 196);
 	padding: 0px 15px 0px 15px;
 	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
 }
 
@@ -77,12 +78,15 @@ nav {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
+	margin-bottom: 20px;
 	padding: 20px;
 	width: 70%;
 	height: 350px;
 	text-align: center;
 	background-image: url('https://images.unsplash.com/photo-1500423079914-b65af272b8db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzQ0NTA3fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
 	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 }
 
 .splash img {
@@ -114,11 +118,9 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
 	border-radius: 15px;
-	transition: background-color 2s ease-out 100ms;
 }
 
 .card:hover {
-	transition: all 10ms ease-in-out 200ms;
 	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.23);
 }
 
