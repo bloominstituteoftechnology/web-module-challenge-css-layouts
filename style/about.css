@@ -43,6 +43,11 @@ table {
 	border-spacing: 0;
 }
 /* Reset End */
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
 
 nav {
 	display: flex;
@@ -54,7 +59,7 @@ nav {
 	background-color: rgb(61, 90, 108);
 	color:rgb(173, 182, 196);
 	padding: 0px 15px 0px 15px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
 }
@@ -74,4 +79,98 @@ nav {
 .menu a:hover {
 	background-color: rgb(173, 182, 196);
 	color: rgb(61, 90, 108);
+}
+
+.main {
+	display: flex;
+	padding: 30px;
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	color: rgb(61, 90, 108);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	flex-grow: 2;
+}
+
+.main .photo {
+	height: 350px;
+	border-radius: 10px;
+}
+
+.main a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100PX;
+	height: 100px;
+	margin-top: 25PX;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main a:hover {
+	background-color: rgb(61, 90, 108);
+}
+
+.main .social {
+	width: 80px;
+}
+
+.main a:hover .social {
+	filter: grayscale(100) contrast(100) invert(100);
+}
+
+
+
+
+
+.main .right {
+	padding-left: 30px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	border-left: 2px solid lightgray;
+	margin-left: 30px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main img {
+	
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	font-size: 1.5rem;
+	font-family: 'Courgette';
+	background-color: rgb(61, 90, 108);
+	color:rgb(173, 182, 196);
+	padding: 15px 15px 15px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	justify-self: flex-end;
+}
+
+footer .button {
+	background-color: rgb(173, 182, 196);
+	color: rgb(61, 90, 108);
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-family: 'Courgette';
+	border-radius: 5px;
+}
+
+footer .button:hover {
+	color: white;
 }

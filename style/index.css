@@ -108,21 +108,22 @@ nav {
 	padding: 20px 0px 0px 5px;
 }
 
-.splash button {
+.splash .button {
 	background-color: inherit;
 	margin-top: 10px;
 	border-color: rgb(61, 90, 108);
 	color: rgb(61, 90, 108);
+	border:solid rgb(61, 90, 108);
 	text-decoration: none;
 	text-align: center;
 	padding: 5px 50px 5px 50px;
 	font-family: 'Courgette';
-	font-size: 1rem;
+	font-size: 1.25rem;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-.splash button:hover {
+.splash .button:hover {
 	border-color: white;
 	color: white;
 }
