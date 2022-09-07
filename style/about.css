@@ -149,6 +149,7 @@ nav {
 
 footer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 50px;
@@ -173,4 +174,23 @@ footer .button {
 
 footer .button:hover {
 	color: white;
+}
+
+footer .footer-links {
+	margin-top: 10px;
+	font-size: 1rem;
+}
+
+footer .footer-links a {
+	padding: 0px 10px;
+	color:rgb(173, 182, 196);
+	text-decoration: none;
+}
+
+footer .footer-links a:hover {
+	color: white;
+}
+
+footer .footer-links a:not(:last-child){
+	border-right: 2px solid rgb(173, 182, 196);
 }
