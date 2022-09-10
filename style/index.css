@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
     /*you can never be bigger than your parent - this is going to stop that dreaded horizontal scroll bar*/
     /* border: 1px solid red; */
 }
@@ -98,6 +97,7 @@ button {
 .post {
     width: 100%;
     margin-top: 7%;
+    padding: 2%;
 }
 
 .post h2 {
