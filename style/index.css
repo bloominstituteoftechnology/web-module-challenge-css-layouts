@@ -1,145 +1,186 @@
-/* Add CSS styling here */
-
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     max-width: 100%;
-    margin: 0 auto;
+    border: 1px solid grey;
+    /*you can never be bigger than your parent - this is going to stop that dreaded horizontal scroll bar*/
+    /* border: 1px solid red; */
 }
 
+
+/*Document Styles */
 body {
+    font-size: 62.5%;
+    line-height: 1.5;
+    color: #4f4f4f;
     font-size: 62.5%;
     font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
 a {
     text-decoration: none;
-    padding: 50px 50px;
     color: black;
+    font-size: 1rem;
+    border-radius: 1.5%;
 }
 
-.header {
-    padding: 2%;
+h1 {
+    font-size: 2.5rem;
 }
+
+p {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+/* Add CSS styling here */
+
+section {
+    margin: 1% auto;
+}
+
+header {
+    padding: 1%;
+}
+
 
 nav {
-    padding: 3%;
+    display: flex;
 }
 
 nav a {
-    padding: 10px 20px;
-    color: #181818;
+    padding: 0.5% 1%;
 }
+
+nav a:hover {
+    background-color: #eeeeee;
+}
+
 
 nav a:first-child {
     background-color: black;
     color: white;
 }
 
+nav a:first-child:hover {
+    background-color: grey;
+    color: #eeeeee;
+}
+
+
+
+/*Anchor buttons*/
+
+.primary-btn {
+    border: 1px solid black;
+    padding: 10px 30px;
+    background: none;
+}
+
+.primary-btn:hover {
+    background-color: #eeeeee;
+}
+
 button {
-    height: 50px;
+    background-color: #fff;
     border: none;
-    box-shadow: 2px 2px #eeeeee;
-}
-
-button:hover {
-    box-shadow: 2px 2px #181818;
 }
 
 
-
+/*Main header content*/
 .main-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.main-content>* {
-    width: 50%;
-    flex-grow: 0;
-}
-
-.showcase-image:first-child {
-    width: inherit;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .post {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    margin-top: 7%;
 }
 
 .post h2 {
     font-size: 2rem;
-}
-
-.post>* {
-
-    margin: 2%;
-}
-
-.post button {
-    width: 25%;
+    margin-bottom: 2%;
 }
 
 .post p {
-    font-size: 1.7rem;
-    line-height: 1.5;
+    margin-top: 2%;
 }
 
 
 
-/*More content gallery cards*/
-span {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.media img {
-    width: 30em;
-    padding: 1.5em;
-}
-
-.media-gallery {
-    margin-top: 3%;
+/*Project cards*/
+.row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1%;
+    border-bottom: 5%;
 }
 
-.media-gallery>* {
-    flex-basis: 20%;
+.project-card {
+    border: 1px solid grey;
+    width: 24%;
+    margin-bottom: 20px;
 }
 
-/*Footer*/
+.project-card:hover {
+    border: 2px solid black;
+    padding: 1%;
+}
 
-footer {
-    background-color: #eeeeee;
+.project-card p {
     text-align: center;
 }
 
-footer button {
-    border: 0.2px solid black;
+
+
+
+
+/*Footer styles*/
+
+footer {
+    background-color: #141414;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-.footer-border {
-    margin-top: 4%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-}
-
-
-.footer-border h2 {
+footer h2 {
     font-size: 1.5rem;
+    color: #eeeeee;
+}
+
+footer .primary-btn {
+    border: 1px solid white;
+    color: white;
+}
+
+footer .primary-btn:hover {
+    color: black;
 }
 
 
-.enhance {
-    border-radius: 2rem;
+
+/*Mobile responsive */
+@media (max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: green;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        color: red;
+    }
 }
