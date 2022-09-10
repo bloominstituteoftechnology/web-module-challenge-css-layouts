@@ -96,6 +96,7 @@ button {
 }
 
 .post {
+    width: 100%;
     margin-top: 7%;
 }
 
@@ -126,7 +127,12 @@ button {
 }
 
 .project-card:hover {
-    border: 2px solid black;
+    border: 1px solid black;
+
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     padding: 1%;
 }
 
@@ -164,23 +170,103 @@ footer .primary-btn:hover {
 
 
 /*Mobile responsive */
+
+@media (max-width: 1350px) {
+    body {
+        background-color: #eeeeee;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
+    }
+
+    .main-content img {
+        width: 100%;
+    }
+
+    .post {
+        padding: 1%;
+    }
+}
+
 @media (max-width: 800px) {
     body {
-        background-color: blue;
+        background-color: #eeeeee;
+    }
+
+    .post {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 500px) {
     body {
-        background-color: green;
+        background-color: #eeeeee;
     }
 
     h1 {
+        padding-top: 2%;
         text-align: center;
+        padding-bottom: 5%;
+        font-size: 3rem;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
+    }
+
+    section {
+        text-align: center
     }
 
     nav {
-        flex-wrap: wrap;
-        color: red;
+        flex-direction: column;
+        text-align: center;
+        padding: 2%;
+    }
+
+    nav a {
+        width: 50%;
+        padding: 3%;
+        margin: 0 auto;
+    }
+
+    .main-content img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+    .post p {
+        padding: 2%;
+        line-height: 1.2;
+    }
+
+    .row {
+        margin: 4% 0;
+    }
+
+    .project-card {
+        width: 35%;
+    }
+
+    footer {
+        padding: 10%;
+    }
+
+    footer h2 {
+        font-size: 1.8rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
     }
 }
