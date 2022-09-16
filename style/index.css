@@ -67,6 +67,7 @@ button {
   font-family: 'Bellota', cursive;
   border-radius: 5%;
   font-size: 2rem;
+  width: 50%;
 }
 section {
   padding: 4% 0;
@@ -78,6 +79,7 @@ a {
 h1 {
   font-family: 'Chelsea Market', cursive;
   font-size: 4rem;
+  padding: 2%;
 }
 h2 {
   font-size: 4rem;
@@ -89,12 +91,10 @@ p {
   font-size: 2rem;
 }
 
-
 /* Header Section Styles */
 header {
   background-color: #eddcd9; 
 }
-
 header nav a{
   background-color: #de5499;
   color: #f2ebe9;
@@ -103,47 +103,48 @@ header nav a{
 }
 #top {
   display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
+  justify-content: space-between;
+  align-items: flex-end;
+  
 }
 .mainimage {
-  display: flex;
-  max-width: 40%;   
+  width: 100%;  
+  margin: 2%; 
 }
 .abouttext {
-  margin: 0 auto;
-  max-width: 40%;
+  width: 50%;
+  margin: 2%; 
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.projectimages {
-  display: flex;
-  justify-content: space-between;
-  width: 22%;
-  margin-left: 5%;
-  
-}
-.projectstext {
-  display: flex;
-  justify-content: space-evenly;
-}
-.hobbies {
-  box-sizing: border-box;
-  width: 22%;
-  display: flex;
-  justify-content:space-between;
-  margin-left: 5%;
-}
-.hobbiestext {
+#projects {
   display: flex;
   justify-content: space-around;
+}
+.projectsdiv {
+  text-align: center;
+}
+.projectsdiv img {
+  height: 15vh;
+}
+#hobbies {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.hobbiesdiv {
+  text-align: center;
+}
+.hobbiesdiv img {
+  height: 30vh;
 }
 footer {
   background-color: #eddcd9; 
   text-align: center;
-  margin-top: 5%;
+  padding: 5%;
+  
 
 }
 footer button {
