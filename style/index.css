@@ -1,1 +1,226 @@
-/* Add CSS styling here */
+/*  CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* universal selector styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* general styles */
+html{
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Bellota', cursive;
+  background-color: #f2ebe9;
+ 
+}
+button {
+  font-family: 'Bellota', cursive;
+  border-radius: 5%;
+  font-size: 2rem;
+  width: 50%;
+}
+button:hover {
+  background-color: black;
+  color: #eddcd9;
+}
+section {
+  padding: 4% 0;
+}
+a {
+  text-decoration: none;
+
+}
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 5rem;
+  padding: 2%;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/* Header Section Styles */
+header {
+  background-color: #eddcd9; 
+}
+header nav a{
+  background-color: #de5499;
+  color: #f2ebe9;
+  font-size: 2rem;
+  margin-left: 5%;
+}
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+.mainimage {
+  width: 100%;  
+  margin: 2%; 
+}
+.abouttext {
+  width: 50%;
+  margin: 2%; 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+}
+.projectsdiv {
+  text-align: center;
+}
+.projectsdiv img {
+  height: 15vh;
+}
+#hobbies {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.hobbiesdiv {
+  text-align: center;
+}
+.hobbiesdiv img {
+  height: 30vh;
+}
+footer {
+  background-color: #eddcd9; 
+  text-align: center;
+  padding: 5%;
+  
+
+}
+footer button {
+  background-color: #de5499;
+  color: #f2ebe9;
+
+  /* Media Queries */
+}
+@media (max-width: 800px){
+  header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  #top {
+    flex-direction: column;
+  }
+  .mainimage {
+    width: 96%; 
+  }
+  .abouttext {
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    text-align: center;
+  }
+  button {
+    width: 30%;
+  }
+  #projects {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .projectsdiv img {
+    height: 17vh;
+  }
+  #hobbies {
+    flex-wrap: wrap;
+  }
+  .hobbiesdiv img {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 500px){
+  h1 {
+    font-size: 5rem;
+  }
+  header nav a {
+    width: 25%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mainimage {
+    width: 98%;
+    justify-content: center;
+    margin: auto;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .projectsdiv img {
+    height: 10vh;
+    padding: 2%;
+  }
+  .hobbiesdiv img {
+    height: 20vh;
+    justify-content: space-evenly;
+    padding: 2%;
+  }
+
+}
