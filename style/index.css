@@ -69,6 +69,10 @@ button {
   font-size: 2rem;
   width: 50%;
 }
+button:hover {
+  background-color: black;
+  color: #eddcd9;
+}
 section {
   padding: 4% 0;
 }
@@ -78,7 +82,7 @@ a {
 }
 h1 {
   font-family: 'Chelsea Market', cursive;
-  font-size: 4rem;
+  font-size: 5rem;
   padding: 2%;
 }
 h2 {
@@ -150,5 +154,73 @@ footer {
 footer button {
   background-color: #de5499;
   color: #f2ebe9;
+
+  /* Media Queries */
+}
+@media (max-width: 800px){
+  header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  #top {
+    flex-direction: column;
+  }
+  .mainimage {
+    width: 96%; 
+  }
+  .abouttext {
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    text-align: center;
+  }
+  button {
+    width: 30%;
+  }
+  #projects {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .projectsdiv img {
+    height: 17vh;
+  }
+  #hobbies {
+    flex-wrap: wrap;
+  }
+  .hobbiesdiv img {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 500px){
+  h1 {
+    font-size: 5rem;
+  }
+  header nav a {
+    width: 25%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mainimage {
+    width: 98%;
+    justify-content: center;
+    margin: auto;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .projectsdiv img {
+    height: 10vh;
+    padding: 2%;
+  }
+  .hobbiesdiv img {
+    height: 20vh;
+    justify-content: space-evenly;
+    padding: 2%;
+  }
 
 }
