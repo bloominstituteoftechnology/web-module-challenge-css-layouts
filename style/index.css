@@ -1,3 +1,15 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -27,8 +39,14 @@ footer{
 
 .row{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
+}
+
+.row div{
+    width:30%;
+    margin:2% 0;
 }
 
 .portfolio-element{
@@ -51,4 +69,45 @@ border: white solid 1px;
 button a {
     text-decoration: none;
     color: inherit;
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width:500px) {
+    nav { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links button {
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    .topsection {
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .topsection button {
+        width: 95%;
+        height: 90%;
+    }
+
+    .row .portfolio-element{
+        width:35%;
+        align-items: center;
+    }
+    .row img{
+        width: 90%;
+    }
 }
