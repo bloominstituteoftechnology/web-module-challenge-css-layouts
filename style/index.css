@@ -1,1 +1,113 @@
-/* Add CSS styling here */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topsection{
+    display: flex;
+    justify-content: center;
+}
+
+.image-button{
+    background-image: url('https://ca-times.brightspotcdn.com/dims4/default/ca7d4c8/2147483647/strip/true/crop/7175x4784+0+0/resize/1486x991!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F65%2F90%2F4240d75a7b95e38438bd467b9752%2F1e7c49f3ce394bbdbd7e17bd7eb01962');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 600px;
+    height: 400px;
+}
+
+footer{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row div{
+    width:30%;
+    margin:2% 0;
+}
+
+.portfolio-element{
+    text-align: center;
+}
+
+button{
+background-color: white;
+color: black;
+border: black solid 1px;
+padding: 5px 10px;
+}
+
+button:hover{
+background-color: black;
+color: white;
+border: white solid 1px;
+} 
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width:500px) {
+    nav { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links button {
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    .topsection {
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .topsection button {
+        width: 95%;
+        height: 90%;
+    }
+
+    .row .portfolio-element{
+        width:35%;
+        align-items: center;
+    }
+    .row img{
+        width: 90%;
+    }
+}
