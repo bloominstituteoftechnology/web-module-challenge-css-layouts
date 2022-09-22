@@ -1,4 +1,9 @@
-/* *{border:1px solid grey;} * */
+*{
+	box-sizing: border-box;
+	border:1px solid grey;
+	margin: 0;
+	max-width: 100%;
+} *
 header{
 	background-color: lightgrey;
 	padding: 20px;
@@ -49,4 +54,44 @@ button a{
 	text-decoration: none;
 	color: inherit;
 }
+@media	(max-width: 800px){
 
+}
+@media	(max-width: 500px){
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:	column ;
+	}
+nav{
+	display: flex;
+	flex-direction: column;
+	}
+button{
+	padding: 8px 20px
+}
+.topsection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.imageDescription{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.row div{
+	width: 40%;
+	margin-top: 20%;
+	margin-left: auto;
+}
+footer
+}
