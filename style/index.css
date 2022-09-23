@@ -108,6 +108,7 @@ div.about-me-content {
 
 h2 {
     font-size: 3.5rem;
+    text-align: center;
 }
 
 div.about-me-content button {
@@ -123,8 +124,9 @@ section.portfolio-projects {
     justify-content: space-around;
 }
 
-h2 {
+h2.portfolio-header {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 div.project-item {
