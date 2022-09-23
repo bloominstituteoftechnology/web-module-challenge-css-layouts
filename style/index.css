@@ -80,6 +80,7 @@ a {
 main.about-me {
     height: 40rem;
     width: 100vw;
+    flex-flow: row wrap;
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -114,4 +115,26 @@ div.about-me-content button {
     width: 70%;
     margin: 0 auto;
     padding: 1rem 3rem;
+}
+
+section.portfolio-projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.project-item {
+    height: 30rem;
+    width: 30rem;
+    margin: 2.5rem auto 5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-top: 1.2rem;
 }
