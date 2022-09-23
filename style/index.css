@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	border:1px solid grey;
+	/* border:1px solid grey; */
 	margin: 0;
 	max-width: 100%;
 } *
@@ -20,11 +20,13 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 .imageDescription{
 	padding: 20px;
 	width: 50%; 
+	
 }
 
 .row{
@@ -55,7 +57,12 @@ button a{
 	color: inherit;
 }
 @media	(max-width: 800px){
-
+.row div{
+	width: 20%;
+}
+.topsection img{
+	width: 90%  
+}
 }
 @media	(max-width: 500px){
 header{
@@ -82,6 +89,7 @@ button{
 	align-items: center;
 	justify-content: center;
 	margin:auto;
+	width: 70%;
 }
 .row{
 	display: flex;
@@ -90,8 +98,10 @@ button{
 }
 .row div{
 	width: 40%;
-	margin-top: 20%;
-	margin-left: auto;
+	margin-top: 15%;
+	margin-left:center;
 }
-footer
+footer h2{
+	margin-bottom: 5%;
+}
 }
