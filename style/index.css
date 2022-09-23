@@ -118,15 +118,15 @@ div.about-me-content button {
     padding: 1rem 3rem;
 }
 
+h2.portfolio-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 section.portfolio-projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-
-h2.portfolio-header {
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 div.project-item {
