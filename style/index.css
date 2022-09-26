@@ -1,52 +1,25 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+section{
+    padding: 4% 0;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html{
+    font-size: 62.5%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+body{
+    font-size: 1.6rem;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+h1{
+    font-size: 4rem;
 }
 
 nav{
@@ -55,18 +28,21 @@ nav{
 }
 
 .top{
-    display: flex;
-    justify-content: center;
-}
-
-.imagebutton{
     background-image: url(https://picsum.photos/600/400);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.imagebutton{
     color: white;
     font-size: large;
-    width: 600px;
-    height: 400px;
+
 }
 
 footer{
@@ -78,9 +54,13 @@ footer{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px;
+}
 
+.row div{
+    width: 30%;
+    margin: 2% 0
 }
 
 .portfolio-element{
@@ -107,4 +87,36 @@ button:hover {
 button a{
     text-decoration: none;
     color: inherit;
+}
+@media(max-width: 800px){
+
+}
+
+@media(max-width: 500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+    .links button{
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    .top{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .row div{
+        width: 40%;
+    }
+
 }
