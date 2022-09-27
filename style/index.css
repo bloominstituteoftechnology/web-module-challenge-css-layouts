@@ -79,3 +79,5 @@ footer {
     background-color:beige ;
     height: 10rem;
 }
+body { max-width: 1400px;
+margin: 0 auto;}
