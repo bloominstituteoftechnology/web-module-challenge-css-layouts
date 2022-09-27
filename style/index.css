@@ -51,33 +51,97 @@ table {
 }
 
 .name-nav {
-    background-color:rgb(232, 236, 239);
-    height: 10rem;
+    background-color:#e8ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
 }
-a{ display: inline-block;
-    padding: 1em;
-background-color: rgb(207, 207, 225);}
+nav {
+    display: flex;
+    gap: 0.5rem;
+    margin: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{ display: flex;
+   
+    margin: 0;
+background-color: rgb(207, 207, 225);
+    max-width: 3rem;
+    min-width: 3rem;
+    height: 2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    align-items: center;
+}
 
 h1 {
-    font-size: 4rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
     font-family: 'Press Start 2P', cursive;
     color:rgb(220, 200, 176)
 }
 
 .above-fold {
     background-color:bisque;
-    height: 20rem;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.fold-left {
+    margin: 2em;
+    height: 22rem;
+    background-color: rgb(238, 213, 183);
+    flex-grow: 1;
+    
+}
+.fold-right {
+    height: 22rem;
+    background-color: rgb(194, 194, 194);
+    margin: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 2rem;
+    box-sizing: border-box;
    
 }
 
-.portfolio {
+
+
+.portfolio-row-1{
     background-color: antiquewhite;
-    height: 25rem;
+    justify-content: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-row-2 {
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 10em;
+    width: 10em;
+    background-color: rgb(229, 158, 158);
+    margin: 2em;
 }
 
 footer {
     background-color:beige ;
     height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 body { max-width: 1400px;
 margin: 0 auto;}
