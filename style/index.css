@@ -51,6 +51,31 @@ table {
 }
 
 .name-nav {
-    background-color: aquamarine;
-    height: 1rem;
+    background-color:rgb(232, 236, 239);
+    height: 10rem;
+}
+a{ display: inline-block;
+    padding: 1em;
+background-color: rgb(207, 207, 225);}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(220, 200, 176)
+}
+
+.above-fold {
+    background-color:bisque;
+    height: 20rem;
+   
+}
+
+.portfolio {
+    background-color: antiquewhite;
+    height: 25rem;
+}
+
+footer {
+    background-color:beige ;
+    height: 10rem;
 }
