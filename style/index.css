@@ -21,10 +21,11 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 0;
 	font: inherit;
 	vertical-align: baseline;
 }
+html {font-size: 62.5%;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,4 +48,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.name-nav {
+    background-color: aquamarine;
+    height: 1rem;
 }
