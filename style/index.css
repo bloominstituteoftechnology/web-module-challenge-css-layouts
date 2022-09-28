@@ -88,13 +88,19 @@ h1 {
     background-color:bisque;
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: nowrap
+    
+    max-width: 92rem;
+    margin: 0 auto;
+    align-items: center;
+    
 }
 
+
+
 .fold-left {
-    margin: 2em;
     
+    margin: 2em;
     background-color: rgb(238, 213, 183);
     flex-grow: 0;
     display: flex;
@@ -102,24 +108,27 @@ h1 {
     justify-content:center;
 }
 .fold-left img {
-    max-width: 50%;
+    max-height: 100%;
+    width: 100%;
+   
 }
 .fold-right {
-    height: 22rem;
-    background-color: rgb(194, 194, 194);
+
+    width: 89%;
+    background-color: rgb(216, 121, 121);
     margin: 2rem;
-    display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    align-items: stretch;
     padding: 2rem;
     box-sizing: border-box;
+    
    
 }
 
 
 
 .portfolio-row-1{
+    padding-top: 4rem;
     background-color: antiquewhite;
     justify-content: center;
     
@@ -149,11 +158,24 @@ h1 {
 
 footer {
     background-color:beige ;
-    height: 10rem;
+    min-height: 20rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-body { max-width: 1400px;
+body {
+    min-width: 100%;
+    display: flex; 
+    flex-direction: column;max-width: 1400px;
 margin: 0 auto;}
+
+html {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .above-fold {
+        flex-wrap: wrap;
+    }
+  }
