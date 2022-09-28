@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font-size: 0;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Press Start 2P', cursive;
 }
 html {font-size: 62.5%;}
 /* HTML5 display-role reset for older browsers */
@@ -51,50 +52,64 @@ table {
 }
 
 .name-nav {
-    background-color:#e8ecef;
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
+    max-width: 100rem;
+    align-self: center;
+    width: 100%;
 }
+
 nav {
     display: flex;
+    flex-direction: column
     gap: 0.5rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    min-width: 50%;
 }
-a{ display: flex;
-   
-    margin: 0;
-background-color: rgb(207, 207, 225);
-    max-width: 3rem;
-    min-width: 3rem;
-    height: 2rem;
-    padding: 1rem 2rem;
+
+a { display: inline-block;
+    color: white;
+    background-color: black;
+    align-content: center;;
+    
+    margin: 0.3rem 4rem;
     text-decoration: none;
-    align-items: center;
+    text-align: center;
 }
 
 h1 {
-    padding-top: 1rem;
-    padding-left: 2rem;
-    font-size: 2rem;
+   
+    font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
-    color:rgb(220, 200, 176)
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    margin: 1rem;
+    margin-left: 3rem;
 }
 
 .above-fold {
-    background-color:bisque;
+    background-color: antiquewhite;
     flex-direction: row;
     display: flex;
-    flex-wrap: nowrap
-    
-    max-width: 92rem;
+    flex-wrap: nowrap;
+    max-width: 100rem;
     margin: 0 auto;
     align-items: center;
     
+    
 }
+
+.above-fold h2 {
+    font-size: 2rem;
+}
+
 
 
 
@@ -108,21 +123,42 @@ h1 {
     justify-content:center;
 }
 .fold-left img {
+    min-width: 40rem;
     max-height: 100%;
     width: 100%;
    
 }
+
+
 .fold-right {
 
-    width: 89%;
-    background-color: rgb(216, 121, 121);
+    --bg-image: url("https://images.unsplash.com/photo-1573071761132-f1c1829b17f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1634&q=80")
+   --bg-image-opacity: 0.4;
     margin: 2rem;
     flex-flow: column nowrap;
     align-items: stretch;
     padding: 2rem;
     box-sizing: border-box;
-    
-   
+    position: relative;
+}
+
+.fold-right::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: var(--bg-image-opacity);
+    background-image: var(var(--bg-image));
+    background-size: cover;
+    background-position:center;
+}
+
+.fold-right button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0rem 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 
@@ -131,24 +167,21 @@ h1 {
     padding-top: 4rem;
     background-color: antiquewhite;
     justify-content: center;
-    
+    max-width: 100rem;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
 }
-.portfolio-row-2 {
-    background-color: antiquewhite;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 
 .box {
-    height: 20em;
-    width: 20em;
+    height: 20rem;
+    width: 20rem;
     background-color: rgb(229, 158, 158);
-    margin: 2em;
+    margin: 2rem;
 }
 
 .box img {
@@ -164,18 +197,35 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
+footer button {
+    margin: 1rem;
+    padding: 1rem 1rem;
+    background-color: red;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+}
 body {
     min-width: 100%;
     display: flex; 
-    flex-direction: column;max-width: 1400px;
+    flex-direction: column;max-width: 100rem;
 margin: 0 auto;}
 
 html {
-    width: 100%;
+    min-width: 400px;
+    background-color: antiquewhite;
 }
 
 @media screen and (max-width: 600px) {
     .above-fold {
         flex-wrap: wrap;
     }
+
+    .box {
+        
+        width: 100%;
+        height: 100%;
+    }
   }
+
+ 
