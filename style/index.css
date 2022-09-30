@@ -1,1 +1,274 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    /*border: 0;*/
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /*border: 1px solid grey;*/
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    /* line-height: ; */
+    font-family: 'Amatic SC', cursive;
+}
+
+.title {
+    display: flex;
+    height: 30px;
+}
+
+.title p{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+}
+.title .buttons{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title .buttons div{
+    border-radius: 60%;
+    background-color: white;
+    border: 1px solid black;
+    height: 45%;
+    width: 18px;
+    margin: 4%;
+}
+
+.top {
+    background-color: lightgrey;
+}
+
+.top h1 {
+    font-size: 4rem;
+    padding: 2%;
+}
+.top nav{
+    height: 40px;
+    margin-left: 3%;
+    font-size: 1.6rem;
+}
+.top nav a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 6%;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.info {
+    margin: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.info img{
+    margin-left: 2%;
+}
+.info div{
+    margin-left: 10%;
+}
+
+.info div h2 {
+    padding-bottom: 3%;
+}
+.info nav{
+    height: 40px;
+}
+.info div nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: 7%;
+    height: 40px;
+    padding: 1%;
+    margin-left: 0%;
+    border: 1px solid black;
+}
+.info p{
+    height: 15%;
+    width: 75%;
+}
+.projects .row1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.projects .row2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.projects p{
+    text-align: center;
+    margin-bottom: 10%;
+}
+footer{
+    background-color: lightgrey;
+    text-align: center;
+}
+footer h2{
+    padding: 2%;
+}
+footer nav{
+    height: 50px;
+}
+footer nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: 90%;
+    height: 40px;
+    padding: 1%;
+    margin-left: 0%;
+    border: 1px solid black;
+    background-color: white;
+}
