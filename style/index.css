@@ -1,1 +1,125 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    border: 1px red solid;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: "PT Sans", sans-serif;
+    background-color: #fffafa;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 3px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 4% 0;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+a:hover {
+    /* color: #fcb131; */
+}
+
+i {
+    font-size: 5rem;
+}
+
+header {
+    height: 25%;
+    /* flex props */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 50%;
+    /* flex props */
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 0 2.5%;
+    text-justify: center;
+}
