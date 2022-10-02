@@ -50,4 +50,56 @@ table {
 
 *{
     border: 1px solid red;
+    font-size: 62.5%;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+header {
+display: flex;
+flex-flow: column wrap;
+margin: 2% 2%;
+}
+
+nav {
+margin: 2% 1%;
+}
+
+.home{
+border: 2px solid gray;
+}
+
+.about{
+    border: 2px solid gray;
+}
+
+.contact{
+    border: 2px solid gray;
+}
+
+.project{
+    border: 2px solid gray;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    height: 7%;
+    padding: 5%;
+}
+
+.upperLeft{
+width: 50%; 
+height: 40px;
+margin: 2% 2%;
+}
+
+.upperRight{
+    width: 50%;
+    height: 40px;
+    margin: 2% 2%;
 }
