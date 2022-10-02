@@ -58,10 +58,19 @@ h1{
     font-size: 2rem;
 }
 
+h2{
+    font-size: 1.3rem;
+}
+
 header {
 display: flex;
 flex-flow: column wrap;
-margin: 2% 2%;
+padding: 2%;
+background: lightgray;
+}
+
+a{
+    color: black;
 }
 
 nav {
@@ -89,7 +98,7 @@ border: 2px solid gray;
     flex-direction: row;
     margin-bottom: 5%;
     height: 7%;
-    padding: 5%;
+    padding: 4%;
 }
 
 .upperLeft{
@@ -100,6 +109,30 @@ margin: 2% 2%;
 
 .upperRight{
     width: 50%;
-    height: 40px;
+    height: 100px;
     margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lower{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.lower div{
+    padding: 5%;
+    margin: 2% 5%;
+    width: 3%;
+}
+
+.lower div p{
+    margin: 5%;
+}
+
+footer{
+    padding: 9.5%;
+    text-align: center;
+    background: lightgray;
 }
