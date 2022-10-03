@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,7 +64,7 @@ body {
     line-height: 1.5;
     color: #4f4f4f;
     font-family: "PT Sans", sans-serif;
-    background-color: #fffafa;
+    background-color: rgb(255, 255, 238)
 }
 
 h1,
@@ -72,7 +72,7 @@ h2,
 h3,
 h4 {
     letter-spacing: 3px;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -88,38 +88,134 @@ h3 {
     font-size: 2.5rem;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 section {
-    padding: 4% 0;
+    padding: 2% 0;
 }
 
 a {
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     letter-spacing: 3px;
 }
 
-a:hover {
-    /* color: #fcb131; */
-}
-
-i {
-    font-size: 5rem;
-}
-
 header {
-    height: 25%;
+    height: 20vh;
+    background-color: rgb(211, 211, 124);
+    /* padding: 1.25% 0; */
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    text-align: left;
+    padding: 0 5%;
+}
+
+nav {
+    width: 50%;
+    padding: 0 7.5%;
+    /* flex props */
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    margin:0 .5%;
+    font-weight: bold;
+    background-color: rgb(244, 244, 207);
+    padding: 1.25% 2.5%;
+    text-justify: center;
+    border: 2px black solid;
+}
+
+.top {
     /* flex props */
     display: flex;
     justify-content: space-around;
 }
 
-nav {
-    width: 50%;
-    /* flex props */
-    display: flex;
-    justify-content: flex-end;
+.top .top-image {
+    width: 47.5%;
 }
 
-nav a {
-    padding: 0 2.5%;
-    text-justify: center;
+.top .top-text {
+    width: 47.5%;
+    padding: 2.5%;
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top .top-text h2 {
+    text-align: left;
+    padding: 2.5% 0;
+}
+
+.top .top-text h3 {
+    text-align: center;
+    width: 30%;
+    padding: 1%;
+    margin: 2.5% 0;
+    border: 2px black solid;
+    background-color: rgb(244, 244, 207);
+}
+
+.showcase {
+    padding: 0 1.25%;
+    /* flex props */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.showcase .project {
+    width: 23.125%;
+    padding-bottom: 2.5%;
+}
+
+.showcase .project p {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(211, 211, 124);
+    padding: 2.5% 5%;
+}
+
+footer h3 {
+    font-weight: bold;
+    padding: 1.25% 0;
+}
+
+.contact {
+    width: 100%;
+    padding: 0 auto;
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4 {
+    width: max-content;
+    padding: 0.5%;
+    margin: 1.25%;
+    background-color: rgb(244, 244, 207);
+    border: 2px black solid;
+}
+
+.icon {
+    height: 5rem;
+    width: 5rem;
+    /* flex props */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
