@@ -212,10 +212,15 @@ footer h4 {
 }
 
 .icon {
-    height: 5rem;
-    width: 5rem;
+    width: 10rem;
     /* flex props */
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.icon i {
+    width: 50%;
+    font-size: 4rem;
+    text-align: center;
 }
