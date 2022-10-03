@@ -160,7 +160,7 @@ nav a {
 
 .top .top-text h3 {
     text-align: center;
-    width: 30%;
+    width: max-content;
     padding: 1%;
     margin: 2.5% 0;
     border: 2px black solid;
