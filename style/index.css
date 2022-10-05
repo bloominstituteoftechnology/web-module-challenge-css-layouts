@@ -1,1 +1,226 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    /* border: 1px red solid; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: "PT Sans", sans-serif;
+    background-color: rgb(255, 255, 238)
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding: 2% 0;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(211, 211, 124);
+    /* padding: 1.25% 0; */
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    text-align: left;
+    padding: 0 5%;
+}
+
+nav {
+    width: 50%;
+    padding: 0 7.5%;
+    /* flex props */
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    margin:0 .5%;
+    font-weight: bold;
+    background-color: rgb(244, 244, 207);
+    padding: 1.25% 2.5%;
+    text-justify: center;
+    border: 2px black solid;
+}
+
+.top {
+    /* flex props */
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .top-image {
+    width: 47.5%;
+}
+
+.top .top-text {
+    width: 47.5%;
+    padding: 2.5%;
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top .top-text h2 {
+    text-align: left;
+    padding: 2.5% 0;
+}
+
+.top .top-text h3 {
+    text-align: center;
+    width: max-content;
+    padding: 1%;
+    margin: 2.5% 0;
+    border: 2px black solid;
+    background-color: rgb(244, 244, 207);
+}
+
+.showcase {
+    padding: 0 1.25%;
+    /* flex props */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.showcase .project {
+    width: 23.125%;
+    padding-bottom: 2.5%;
+}
+
+.showcase .project p {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(211, 211, 124);
+    padding: 2.5% 5%;
+}
+
+footer h3 {
+    font-weight: bold;
+    padding: 1.25% 0;
+}
+
+.contact {
+    width: 100%;
+    padding: 0 auto;
+    /* flex props */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4 {
+    width: max-content;
+    padding: 0.5%;
+    margin: 1.25%;
+    background-color: rgb(244, 244, 207);
+    border: 2px black solid;
+}
+
+.icon {
+    width: 10rem;
+    /* flex props */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.icon i {
+    width: 50%;
+    font-size: 4rem;
+    text-align: center;
+}
