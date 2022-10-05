@@ -1,1 +1,57 @@
-/* Add CSS styling here */
+header {
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(155, 162, 141);
+    text-align: center;
+    padding: 40px;
+}
+
+.toplevel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+    font-size: 30px;
+}
+
+.bio {
+    padding: 10px 8px 20px 50px;
+    width: 100%;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: darkslategray;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+
+.head-button {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
