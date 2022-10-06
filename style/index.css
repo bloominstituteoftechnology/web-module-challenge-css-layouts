@@ -50,18 +50,25 @@ table {
 
 *{
     border: 1px solid red;
-    font-size: 62.5%;
     text-decoration: none;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 h2{
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
+p {
+    font-size: 1.4rem;
+}
 header {
 display: flex;
 flex-flow: column wrap;
@@ -71,6 +78,8 @@ background: lightgray;
 
 a{
     color: black;
+    font-size: 3rem;
+    background-color: white;
 }
 
 nav {
@@ -135,4 +144,33 @@ footer{
     padding: 9.5%;
     text-align: center;
     background: lightgray;
+}
+
+
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 500px) {
+header{
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+}
+
+.upper {
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    margin: 10%;
+}
+
+
+.upperRight {
+    
+}
+
 }
