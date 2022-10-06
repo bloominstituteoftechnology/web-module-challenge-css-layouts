@@ -144,6 +144,8 @@ footer{
     padding: 9.5%;
     text-align: center;
     background: lightgray;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -170,7 +172,11 @@ header h1{
 
 
 .upperRight {
-    
+width: 100%;
+}
+
+footer {
+    justify-content: space-between;
 }
 
 }
