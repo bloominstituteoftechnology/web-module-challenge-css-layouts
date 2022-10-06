@@ -128,12 +128,12 @@ margin: 2% 2%;
 .lower{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .lower div{
-    padding: 5%;
-    margin: 2% 5%;
-    width: 3%;
+width: 20%;
+margin: 2%;
 }
 
 .lower div p{
@@ -151,12 +151,19 @@ footer{
 
 
 @media (max-width: 800px) {
-    
+.lower {
+    align-items: center;
+    }
 }
 
 @media (max-width: 500px) {
 header{
-    align-items: center;
+    align-items: center;  
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
 }
 
 header h1{
@@ -173,6 +180,7 @@ header h1{
 
 .upperRight {
 width: 100%;
+text-align: center;
 }
 
 footer {
