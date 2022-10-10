@@ -1,1 +1,112 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'san-serief';
+    line-height: 1.5;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 5rem;
+    padding: 2%;
+}
+h2{
+    font-size: 2rem;
+    padding: 2%;
+}
+a{
+    background-color: antiquewhite;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1%;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+background-color: antiquewhite;
+}
+.title{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.links{
+    width: 45%;
+}
+nav{
+    padding: 2%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav a {
+    padding: 4%;
+}
+
+#photo{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    margin: 1%;
+    justify-content: flex-end;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    margin: 1% auto;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.text a {
+    width: 15%;
+    padding: 1%;
+    border: 1px solid white;
+}
