@@ -1,1 +1,56 @@
-/* Add CSS styling here */
+nav{
+    display: flex;
+    justify-content: space-between;
+} 
+.topsection {
+    display: flex;
+    justify-content: center;
+}
+.image-button {
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  white;
+    font-size: large;
+    width: 600px;
+    height: 400px;
+}
+.row {
+    display:  flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.portfolio-item{
+    text-align: center;
+}
+button {
+background-color: white;
+color: black;
+border: black solid 1px;
+padding: 5px 10px;
+
+}
+button:hover {
+background-color: black;
+color: white;
+border: white solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+.contact {
+    display:  flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    background-color: lightskyblue;
+    text-align: center;
+
+}
+
