@@ -5,62 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style/index.css"/>
 </head>
-
 <body>
   <header>
-    <div class="title">
-      <h2>Anaiz Alfonso</h2>
-    </div>
-    <div class="links">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
-      </nav>
-    </div>
+    <nav>
+      <h1>Anaiz Alfonso</h1>
+      <links>
+        <button><a href="index.html">Home</a></button>
+        <button><a href="about.html">About</a></button>
+        <button><a href="contact.html">Contact</a></button>
+        <button><a href="projects.html">Projects</a></button>
+      </links>
   </header>
-  <section id="photo">
-    <div class="photo">
-      <div class="text">
-        <h1>Anaiz Alfonso</h1>
-        <a href="#projects">My Projects</a>
+
+  <section class="topsection">
+    <button class="image-button">
+      <h1>Anaiz Alfonso</h1>
+      <a href="projects.html">My Portfolio</a>
+    </button>
+  </section>
+<section>
+  <div class="row">
+  <div class="Portfolio-item">
+      <img src="https://picsum.photos/300"/>
+      <p>Portfolio folder</p>
+    </div>
+    <div class="Portfolio-item">
+      <img src="https://picsum.photos/300"/>
+      <p>Portfolio folder</p>
+    </div>
+    <div class="Portfolio-item">
+      <img src="https://picsum.photos/300"/>
+      <p>Portfolio folder</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="Portfolio-item">
+        <img src="https://picsum.photos/300"/>
+        <p>Portfolio folder</p>
+      </div>
+      <div class="Portfolio-item">
+        <img src="https://picsum.photos/300"/>
+        <p>Portfolio folder</p>
+      </div>
+      <div class="Portfolio-item">
+        <img src="https://picsum.photos/300"/>
+        <p>Portfolio folder</p>
       </div>
     </div>
-  </section>
-  <section id="projects">
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 1</a>
-      <img url:"https://picsum.photos/id/237/200/300">
-    </div>
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 2</a>
-    </div>
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 3</a>
-    </div>
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 4</a>
-    </div>
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 5</a>
-    </div>
-    <div class="projectsLnk">
-      <a class="project box1" href="#"></a>
-      <a href="#">Project Title 6</a>
-    </div>
-  </section>
+</section>
   <footer>
-    <section id="contact">
-      <a href="contact.html">Contact</a>
+    <button><a href="contact.html">Contact Me</a></button>
+    <div class="contact">
       <a href="tel:888-888-8888">1-888-888-8888</a>
       <a href="mailto:noemail@mail.com">mailto:noemail@mail.com</a>
+      <a href="https://linkedIn.com">LinkedIn</a>
+      <a href="https://instagram.com">Instagram </a>
+      <a href="https://twitter.com">Twitter</a>
       <address>Lehighton, P.A , USA</address>
     </section>
   </footer>
