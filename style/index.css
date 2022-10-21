@@ -50,6 +50,8 @@ table {
 
 *{
     box-sizing: border-box;
+    background-color: black;
+    color: cyan;
 
 }
 header{
@@ -57,22 +59,74 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin: 2% 0% 2% 0%;
+    
 }
 h1{
     font-size: 3rem;
+
 }
 header nav{
     display: flex;
-    align-content: space-around;
+    width: 75%;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 1%;
+}
+
+h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.hero p{
+    font-size: 1.125rem;
+    padding: 2%;
 
 }
 
-
-img{
-    width: 250px;
+.hero img{
+    width: 40%;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
 }
 
+.call-to-action{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.call-to-action img{
+    width: 30%;
+    border-radius: 20%;
+    padding: 1%;
+}
+.call-to-action p{
+    width: 20%;
+    padding: 2%;
+}
 
-
-
-
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer a button{
+    width: 15%;
+    border-radius: 3%;
+    background-color: lightslategray;
+    color: white;
+}
