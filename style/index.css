@@ -127,14 +127,8 @@ footer{
 footer a{
     width: 15%;
     border-radius: 3%;
-    background-color: lightslategray;
     color: white;
-    border: 1px solid cyan;
-    cursor: pointer;
     justify-content: center;
     align-items: center;
 }
 
-footer button:hover:{
-    width: 17%;
-}
