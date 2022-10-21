@@ -50,7 +50,7 @@ table {
 
 *{
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(37, 34, 34);
     color: cyan;
 
 }
@@ -71,7 +71,6 @@ header nav{
     display: flex;
     width: 75%;
     justify-content: center;
-    justify-content: space-around;
 }
 
 .hero{
@@ -79,7 +78,7 @@ header nav{
     flex-direction: column;
     justify-content: center;
     width: 95%;
-    margin: 1%;
+    margin: 1% auto;
 }
 
 h2{
@@ -87,6 +86,7 @@ h2{
     display: flex;
     justify-content: center;
     padding: 1%;
+    align-items: center;
 }
 
 .hero p{
@@ -96,20 +96,19 @@ h2{
 }
 
 .hero img{
-    width: 40%;
-    border-radius: 15%;
+    width: 95%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 2%;
 }
 
 .call-to-action{
     display: flex;
     flex-wrap: nowrap;
+    width: 90%;
+    margin: 0 auto;
 }
 .call-to-action img{
-    width: 30%;
+    width: 20%;
     border-radius: 20%;
     padding: 1%;
 }
@@ -123,10 +122,19 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2% 0 2% 0;
 }
-footer a button{
+footer a{
     width: 15%;
     border-radius: 3%;
     background-color: lightslategray;
     color: white;
+    border: 1px solid cyan;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button:hover:{
+    width: 17%;
 }
