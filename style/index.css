@@ -29,7 +29,6 @@ body {
     width: auto;
     margin-left: 16px;
     margin-right: 16px;
-    border: 1px solid red;
 }
 .main-project {
     display: flex;
@@ -38,13 +37,36 @@ body {
 
 .main-project__info {
     margin: 16px;
+    max-width: 500px
 }
 
 .main-project__image {
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    max-width: 800px;
+    max-height: 400px;
 }
 
 .main-project__name {
     text-transform: uppercase;
+}
+
+.project-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.project-image {
+    width: 250px;
+    height: 250px;
+}
+
+.project-list__item {
+    margin: 14px;
+    flex-basis: 12%;
+}
+
+.project-name {
+    text-align: center;
 }
