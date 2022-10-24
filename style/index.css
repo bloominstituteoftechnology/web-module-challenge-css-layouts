@@ -24,3 +24,27 @@ body {
     background-color: black;
     color: white;
 }
+
+.container {
+    width: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid red;
+}
+.main-project {
+    display: flex;
+    margin-top: 16px;
+}
+
+.main-project__info {
+    margin: 16px;
+}
+
+.main-project__image {
+    width: 600px;
+    height: 400px;
+}
+
+.main-project__name {
+    text-transform: uppercase;
+}
