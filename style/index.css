@@ -153,6 +153,9 @@ footer a{
     }
 }
 @media (max-width: 400px) {
+    nav{
+        flex-direction: column;
+    }
     .projects_im_proud_of{
         flex-direction: column-reverse;
         width: 75%;
