@@ -16,6 +16,7 @@ footer {
 
 .navbar__links {
     display: flex;
+    flex-direction: row;
 }
 
 .navbar__link {
@@ -95,6 +96,13 @@ footer {
 }
 
 @media (max-width: 500px) {
+    .navbar__name {
+        text-align: center;
+    }
+    .navbar__links {
+        flex-direction: column;
+        text-align: center;
+    }
     .main-project__info {
         text-align: center;
     }
