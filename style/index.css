@@ -39,6 +39,7 @@ footer {
 }
 .main-project {
     display: flex;
+    flex-direction: row;
     margin-top: 16px;
 }
 
@@ -48,9 +49,10 @@ footer {
 }
 
 .main-project__image {
-    width: 800px;
-    max-width: 800px;
-    max-height: 400px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    height: 400px;
 }
 
 .main-project__name {
@@ -80,4 +82,27 @@ footer {
 
 .footer__info {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .project-image {
+        width: 200px;
+        height: 200px;
+    }
+    .project-list__item {
+        flex-basis: 50% 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-project__info {
+        text-align: center;
+    }
+    .project-image {
+        width: 175px;
+        height: 175px;
+    }
+    .main-project {
+       flex-direction: column;
+    }
 }
