@@ -133,7 +133,7 @@ footer a{
     align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .projects_im_proud_of{
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -152,7 +152,7 @@ footer a{
         justify-content: space-around;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     nav{
         flex-direction: column;
     }
