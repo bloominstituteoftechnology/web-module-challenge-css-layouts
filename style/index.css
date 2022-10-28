@@ -38,8 +38,8 @@ header button{
   }
   
   .collage img{
-    height:400px;
-    width:400px;
+    height:500px;
+    width:500px;
   }
   .collage{
     display:flex;
@@ -47,6 +47,12 @@ header button{
     align-items:center;
     justify-content:center;
     justify-content: space-evenly;
+    }
+
+    .collage p{
+        text-align: center;
+        font-family: Arial, Helvetica, serif;
+        font-size: 1em;
     }
   footer button{
     font-size:30px;
@@ -68,3 +74,6 @@ header button{
     color:white;
   }
   
+  footer img{
+    width:35px;
+  }
