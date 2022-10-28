@@ -1,1 +1,70 @@
-/* Add CSS styling here */
+header button{
+    font-size:20px;
+    background-color:white;
+    
+  }
+  header button a{
+    text-decoration:none;
+    color:red;
+  }
+  .topimage button{
+    font-size:30px;
+    background-color:white;
+      
+  }
+  .topimage button a{
+    text-decoration: none;
+    color:red;
+  }
+  .buttons{
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  .topimage{
+    text-align:center;
+  }
+  
+  .imagetext{
+    position: relative;
+    top:350px;
+    background-color:white;
+    opacity:75%;
+  }
+  
+  .imagebutton{
+    position:relative;
+    top:350px;
+  }
+  
+  .collage img{
+    height:400px;
+    width:400px;
+  }
+  .collage{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    justify-content: space-evenly;
+    }
+  footer button{
+    font-size:30px;
+    background-color:white;
+  }
+  
+  footer button a{
+    color:red;
+    text-decoration:none;
+  }
+  footer{
+    padding:50px;
+    background-color:grey;
+    text-align:center;
+  }
+  
+  a:hover{
+    background-color:black;
+    color:white;
+  }
+  
