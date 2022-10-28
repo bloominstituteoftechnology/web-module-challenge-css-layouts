@@ -1,3 +1,7 @@
+header{
+    background-color: grey;
+    color:white;
+}
 header button{
     font-size:20px;
     background-color:white;
@@ -7,6 +11,8 @@ header button{
     text-decoration:none;
     color:red;
   }
+
+  
   .topimage button{
     font-size:30px;
     background-color:white;
@@ -15,6 +21,11 @@ header button{
   .topimage button a{
     text-decoration: none;
     color:red;
+  }
+
+  .topimage button a:hover{
+    text-decoration: none;
+    color:white;
   }
   .buttons{
     display:flex;
@@ -53,6 +64,7 @@ header button{
         text-align: center;
         font-family: Arial, Helvetica, serif;
         font-size: 1em;
+        color: red;
     }
   footer button{
     font-size:30px;
@@ -76,4 +88,8 @@ header button{
   
   footer img{
     width:35px;
+  }
+
+  body{
+    background-image: url(https://i.pinimg.com/736x/bb/fa/c3/bbfac3998bc58a0a9fd2ee7947ca2c64--audi-a-sketch.jpg);
   }
