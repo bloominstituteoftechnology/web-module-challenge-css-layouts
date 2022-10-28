@@ -1,6 +1,6 @@
 header{
-    background-color: grey;
-    color:white;
+    
+    color:red;
 }
 header button{
     font-size:20px;
@@ -10,6 +10,13 @@ header button{
   header button a{
     text-decoration:none;
     color:red;
+  }
+
+  header h1{
+    padding-left: 20px;
+    text-decoration: underline;
+    font-size:60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   }
 
   
@@ -91,5 +98,6 @@ header button{
   }
 
   body{
-    background-image: url(https://i.pinimg.com/736x/bb/fa/c3/bbfac3998bc58a0a9fd2ee7947ca2c64--audi-a-sketch.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/787/565/209/car-audi-audi-a6-lights-wallpaper-preview.jpg);
+    background-repeat:initial
   }
