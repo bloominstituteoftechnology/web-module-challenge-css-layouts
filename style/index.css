@@ -1,1 +1,103 @@
-/* Add CSS styling here */
+header{
+    
+    color:red;
+}
+header button{
+    font-size:20px;
+    background-color:white;
+    
+  }
+  header button a{
+    text-decoration:none;
+    color:red;
+  }
+
+  header h1{
+    padding-left: 20px;
+    text-decoration: underline;
+    font-size:60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+
+  
+  .topimage button{
+    font-size:30px;
+    background-color:white;
+      
+  }
+  .topimage button a{
+    text-decoration: none;
+    color:red;
+  }
+
+  .topimage button a:hover{
+    text-decoration: none;
+    color:white;
+  }
+  .buttons{
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  .topimage{
+    text-align:center;
+  }
+  
+  .imagetext{
+    position: relative;
+    top:350px;
+    background-color:white;
+    opacity:75%;
+  }
+  
+  .imagebutton{
+    position:relative;
+    top:350px;
+  }
+  
+  .collage img{
+    height:500px;
+    width:500px;
+  }
+  .collage{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    justify-content: space-evenly;
+    }
+
+    .collage p{
+        text-align: center;
+        font-family: Arial, Helvetica, serif;
+        font-size: 1em;
+        color: red;
+    }
+  footer button{
+    font-size:30px;
+    background-color:white;
+  }
+  
+  footer button a{
+    color:red;
+    text-decoration:none;
+  }
+  footer{
+    padding:50px;
+    background-color:grey;
+    text-align:center;
+  }
+  
+  a:hover{
+    background-color:black;
+    color:white;
+  }
+  
+  footer img{
+    width:35px;
+  }
+
+  body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/787/565/209/car-audi-audi-a6-lights-wallpaper-preview.jpg);
+    background-repeat:initial
+  }
