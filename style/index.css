@@ -1,9 +1,12 @@
+html{
+  font-size: 62.5%;
+}
 header{
     
     color:red;
 }
 header button{
-    font-size:20px;
+    font-size:2rem;
     background-color:white;
     
   }
@@ -15,13 +18,13 @@ header button{
   header h1{
     padding-left: 20px;
     text-decoration: underline;
-    font-size:60px;
+    font-size:6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   }
 
   
   .topimage button{
-    font-size:30px;
+    font-size:3rem;
     background-color:white;
       
   }
@@ -48,6 +51,7 @@ header button{
     top:350px;
     background-color:white;
     opacity:75%;
+    font-size: 2rem;
   }
   
   .imagebutton{
@@ -70,11 +74,12 @@ header button{
     .collage p{
         text-align: center;
         font-family: Arial, Helvetica, serif;
-        font-size: 1em;
+        font-size: 2rem;
         color: red;
+        font-weight:bold;
     }
   footer button{
-    font-size:30px;
+    font-size:3rem;
     background-color:white;
   }
   
@@ -100,4 +105,19 @@ header button{
   body{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/787/565/209/car-audi-audi-a6-lights-wallpaper-preview.jpg);
     background-repeat:initial
+  }
+
+  @media(max-width: 800px){
+    .collage img{
+      height: 250px;
+      width:250px;
+    }
+    
+    .topimage {
+      width: 800px;
+    }
+
+    .topimage img {
+      width: 800px;
+    }
   }
