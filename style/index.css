@@ -1,67 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 html{
   font-size: 62.5%;
 }
-header{
-    
-    color:red;
+nav{
+  display: flex;
+  justify-content: space-between ;
+  height: 75px;
 }
-header button{
-    font-size:2rem;
-    background-color:white;
-    
-  }
-  header button a{
-    text-decoration:none;
-    color:red;
-  }
-
-  header h1{
-    padding-left: 20px;
-    text-decoration: underline;
-    font-size:6rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-  }
-
+ nav h1{
+  color: red;
+  font-size: 5rem;
   
-  .topimage button{
-    font-size:3rem;
-    background-color:white;
-      
-  }
-  .topimage button a{
-    text-decoration: none;
-    color:red;
-  }
+}
 
-  .topimage button a:hover{
-    text-decoration: none;
-    color:white;
-  }
-  .buttons{
-    display:flex;
-    justify-content:flex-end;
-  }
+nav a{
+  font-size: 2.5rem;
+  color: red;
+  text-decoration: none;
+}
+
+
+
+
   
   .topimage{
-    text-align:center;
+    display: flex;
+    justify-content: center ;
+    padding:15 0;
+
   }
-  
-  .imagetext{
-    position: relative;
-    top:350px;
-    background-color:white;
-    opacity:75%;
-    font-size: 2rem;
+  .topimage a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .imagebutton{
-    position:relative;
-    top:350px;
+
+
+
+  .img-button{
+    background-image: url("https://i0.wp.com/vwtuning.co/wp-content/uploads/2022/07/Audi-A6-C7-Mods.jpg?fit=1700%2C1121&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:red;
+    font-size:large;
+    width:1200px;
+    height:750px;
   }
   
   .collage img{
     height:500px;
     width:500px;
+    padding-top: 20px;
   }
   .collage{
     display:flex;
@@ -91,6 +129,7 @@ header button{
     padding:50px;
     background-color:grey;
     text-align:center;
+    margin-top: 20px;
   }
   
   a:hover{
@@ -113,11 +152,50 @@ header button{
       width:250px;
     }
     
-    .topimage {
-      width: 800px;
+    .topimage{
+      text-align: center;
+      
+      width:800;
     }
 
-    .topimage img {
-      width: 800px;
+    .imagetext{
+      width: 700px;
+      text-align: center;
+      padding-left: 0px;
+      margin-left: 42px;
     }
+
+ 
+
+    .topimage img {
+      width: 700px;
+      text-align: center;
+      padding:0 auto;
+      padding-bottom: 50px;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .buttons{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+
+  @media(max-width: 500px){
+    .topimage{
+      width: 400px;
+    }
+
+    .topimage img{
+      padding: 30px;
+      width: 400px;
+    }
+    
+
+    .collage{}
+    
   }
