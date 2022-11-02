@@ -82,6 +82,11 @@ nav a{
     text-decoration: none;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
+
+  .topimage h2{
+    font-size: 5rem;
   }
 
 
@@ -165,13 +170,10 @@ nav a{
       margin-left: 42px;
     }
 
- 
 
-    .topimage img {
+    .img-button{
       width: 700px;
-      text-align: center;
-      padding:0 auto;
-      padding-bottom: 50px;
+      background-size: 700px 744px;
     }
 
     h1{
@@ -186,14 +188,32 @@ nav a{
   }
 
   @media(max-width: 500px){
-    .topimage{
-      width: 400px;
-    }
 
-    .topimage img{
-      padding: 30px;
-      width: 400px;
-    }
+   nav {
+    height: 250px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .img-button{
+    width: 400px;
+    height: 400px;
+    background-size: 400px 400px;
+  }
+
+  links{
+    display: flex;
+    flex-direction: column;
+    padding
+  }
+
+
+   
+
+    
     
 
     .collage{}
