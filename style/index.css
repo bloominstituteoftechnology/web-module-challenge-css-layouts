@@ -1,1 +1,245 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+nav{
+  display: flex;
+  justify-content: space-between ;
+  height: 75px;
+}
+ nav h1{
+  color: red;
+  font-size: 5rem;
+  
+}
+
+nav a{
+  font-size: 2.5rem;
+  color: red;
+  text-decoration: none;
+}
+
+
+
+
+  
+  .topimage{
+    display: flex;
+    justify-content: center ;
+    padding:15 0;
+
+  }
+  .topimage a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
+
+  .topimage h2{
+    font-size: 5rem;
+  }
+
+
+
+  .img-button{
+    background-image: url("https://i0.wp.com/vwtuning.co/wp-content/uploads/2022/07/Audi-A6-C7-Mods.jpg?fit=1700%2C1121&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:red;
+    font-size:large;
+    width:1200px;
+    height:750px;
+  }
+  
+  .collage img{
+    height:500px;
+    width:500px;
+    padding-top: 20px;
+  }
+  .collage{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    justify-content: space-evenly;
+    }
+
+    .collage p{
+        text-align: center;
+        font-family: Arial, Helvetica, serif;
+        font-size: 2rem;
+        color: red;
+        font-weight:bold;
+    }
+  footer button{
+    font-size:3rem;
+    background-color:white;
+  }
+  
+  footer button a{
+    color:red;
+    text-decoration:none;
+  }
+  footer{
+    padding:50px;
+    background-color:grey;
+    text-align:center;
+    margin-top: 20px;
+  }
+  
+  a:hover{
+    background-color:black;
+    color:white;
+  }
+  
+  footer img{
+    width:35px;
+  }
+
+  body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/787/565/209/car-audi-audi-a6-lights-wallpaper-preview.jpg);
+    background-repeat:initial
+  }
+
+  @media(max-width: 800px){
+    .collage img{
+      height: 250px;
+      width:250px;
+    }
+    
+    .topimage{
+      text-align: center;
+      
+      width:800;
+    }
+
+    .imagetext{
+      width: 700px;
+      text-align: center;
+      padding-left: 0px;
+      margin-left: 42px;
+    }
+
+
+    .img-button{
+      width: 700px;
+      background-size: 700px 744px;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .buttons{
+      display: flex;
+      flex-direction: column;
+    }
+
+   
+    
+  }
+
+  @media(max-width: 500px){
+
+   nav {
+    height: 250px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .img-button{
+    width: 400px;
+    height: 400px;
+    background-size: 400px 400px;
+  }
+
+  links{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+  @media(max-width:360px){
+    .collage img{
+      height: 150px;
+      width:150px;
+    }
+
+    .collage p{
+      font-size: 1.5rem;
+    }
+
+   links{
+    margin-top: 10px;
+   }
+
+   .topimage h2{
+    font-size: 3rem;
+  }
+
+.img-button{
+  font-size: 2rem;
+}
+
+  }
+
+
+   
+
+  
+    
+  
