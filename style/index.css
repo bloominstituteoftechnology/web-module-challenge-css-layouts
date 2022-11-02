@@ -184,6 +184,8 @@ nav a{
       display: flex;
       flex-direction: column;
     }
+
+   
     
   }
 
@@ -207,15 +209,37 @@ nav a{
   links{
     display: flex;
     flex-direction: column;
-    padding
+
+  }
+}
+
+  @media(max-width:360px){
+    .collage img{
+      height: 150px;
+      width:150px;
+    }
+
+    .collage p{
+      font-size: 1.5rem;
+    }
+
+   links{
+    margin-top: 10px;
+   }
+
+   .topimage h2{
+    font-size: 3rem;
+  }
+
+.img-button{
+  font-size: 2rem;
+}
+
   }
 
 
    
 
+  
     
-    
-
-    .collage{}
-    
-  }
+  
