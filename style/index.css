@@ -1,1 +1,222 @@
-/* Add CSS styling here */
+
+/*Begin Foundation 
+
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+Begin Reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+End of Reset
+*/
+* {
+  font-size: 62.5%;
+  width: 100%;
+}
+@keyframes hover {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(2deg);}
+    50% {transform: rotate(-3deg);}
+    75% {transform: rotate(2deg);}
+    100% {transform: rotate(-1deg);}
+  }
+/*End Foundation*/
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+    color: chocolate;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    font-size: 2rem;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 30px;
+    height: 40px;
+    width: fit-content;
+    color: chocolate;
+
+}
+nav a:hover {
+    background-color: white;
+    
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+  animation-direction: alternate;
+}
+nav a:active {
+    background-color: rgb(255, 185, 145);
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    width: 80%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://picsum.photos/id/15/1000/500");
+    background-size: cover;
+}
+.intro h2 {
+    font-size: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.intro a{
+    display: flex;
+    font-size: 2rem;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 30px;
+    height: 40px;
+    width: fit-content;
+    color: chocolate;
+    background-color: white;
+}
+.intro a:hover {
+    background-color: white;
+    
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+  animation-direction: alternate;
+}
+.intro a:active {
+    background-color: rgb(255, 185, 145);
+}
+.gallery {
+    display: flex;
+    height: 350px;
+    border: 2px solid black;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item {
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.gallery-item-img {
+    display: inline-flex;
+    height: 300px;
+    object-fit: cover;
+}
+.gallery p {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(207, 207, 207);
+}
+.contact {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 30px;
+    height: 40px;
+    width: fit-content;
+    background-color: white;
+    
+}
+.contact:hover {
+    
+    animation-name: hover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+    animation-direction: alternate;
+}
+.contact:active {
+    background-color: rgb(255, 185, 145);
+
+}
+.contact a {
+    text-decoration: none;
+    color: chocolate;
+}
