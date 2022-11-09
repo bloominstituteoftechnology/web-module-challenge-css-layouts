@@ -104,3 +104,18 @@ nav a.thisPage {
     background-color: black;
     color: white;
 }
+
+.box {
+    display: inline-block;
+}
+
+#bio {
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+}
+#headshot {
+    display: inline-block;
+    padding: .5%;
+    width: 50%;
+}
