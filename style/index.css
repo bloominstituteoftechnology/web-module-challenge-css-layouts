@@ -62,20 +62,45 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5;
-    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+section {
+    padding: 2% 0;
 }
 
 header {
-    height: 10%;
-    background-color: #bbb;
+    height: 15%;
+    background-color: #ddd;
+    padding: 1%;
 }
 
 h1 {
     font-size: 3.5rem;
+    font-family: 'Covered By Your Grace', cursive;
 }
-H2 {
+h2 {
     font-size: 2.5rem;
+    font-family: 'Covered By Your Grace', cursive;
+}
 
+nav {
+    margin: 1% 3%;
+    display:flex;
+}
+
+nav a {
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: .5% 2.5%;
+    font-size: 1.3rem;
+    text-decoration: none;
+    
+}
+
+nav a.thisPage {
+    background-color: black;
+    color: white;
 }
