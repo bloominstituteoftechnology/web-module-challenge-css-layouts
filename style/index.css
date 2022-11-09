@@ -54,3 +54,28 @@ table {
     border: 1px solid black;
     max-width: 100%;
 }
+
+/* General Styles*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+header {
+    height: 10%;
+    background-color: #bbb;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+H2 {
+    font-size: 2.5rem;
+
+}
