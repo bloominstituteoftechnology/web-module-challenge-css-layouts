@@ -105,7 +105,7 @@ nav a.thisPage {
     color: white;
 }
 
-section {
+#info {
     display:flex;
     align-content:center;
     justify-content: space-around;
@@ -119,11 +119,11 @@ section {
 
 #bio {
     display: inline-block;
-    border: 1px solid black;
+    line-height: 1;
 }
 
 #bio * {
-    margin: .5%;
+    margin: 2%;
 }
 #headshot {
     display: inline-block;
@@ -133,4 +133,27 @@ section {
 button {
     height: 10%;
     width: 30%;
+    border-radius: 0%;
+    border: 1px solid black;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 2.2rem;
+}
+
+.card {
+    width: 22%;
+}
+.thumbnail img {
+    vertical-align: bottom;
+
+}
+
+.caption{
+    text-align: center;
+    line-height: 1;
 }
