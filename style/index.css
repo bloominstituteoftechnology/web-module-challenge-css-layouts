@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -105,17 +105,32 @@ nav a.thisPage {
     color: white;
 }
 
+section {
+    display:flex;
+    align-content:center;
+    justify-content: space-around;
+}
+
 .box {
+    width: 48%;
     display: inline-block;
+    text-align: left;
 }
 
 #bio {
     display: inline-block;
-    width: 50%;
     border: 1px solid black;
+}
+
+#bio * {
+    margin: .5%;
 }
 #headshot {
     display: inline-block;
     padding: .5%;
-    width: 50%;
+}
+
+button {
+    height: 10%;
+    width: 30%;
 }
