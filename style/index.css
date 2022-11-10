@@ -54,7 +54,10 @@ End of Reset
 */
 * {
   font-size: 62.5%;
-  width: 100%;
+}
+html {
+    
+  width: 100vw;
 }
 @keyframes hover {
     0% {transform: rotate(0deg);}
@@ -86,12 +89,11 @@ header h1 {
 }
 nav {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 nav a {
     background-color: rgb(238, 238, 238);
-    display: flex;
+    justify-content: flex-end;
     font-size: 2rem;
     text-decoration: none;
     align-items: center;
