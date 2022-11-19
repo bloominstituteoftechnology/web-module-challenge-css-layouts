@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	/* border: 0; */
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ---End of Meyer Reset---*/
@@ -73,6 +160,7 @@ a {
 img {
     border: 1px solid black;
 }
+
 section {
     padding: .5% 0;
 }
@@ -87,6 +175,7 @@ h1 {
     font-size: 3.5rem;
     font-family: 'Covered By Your Grace', cursive;
 }
+
 h2 {
     font-size: 2.5rem;
     font-family: 'Covered By Your Grace', cursive;
@@ -95,7 +184,7 @@ h2 {
 nav {
     width: 45%;
     margin: 1% 3%;
-    display:flex;
+    display: flex;
 }
 
 nav a {
@@ -105,7 +194,7 @@ nav a {
     font-size: 1.3rem;
     text-decoration: none;
     text-align: center;
-    
+
 }
 
 nav a.thisPage {
@@ -114,8 +203,8 @@ nav a.thisPage {
 }
 
 #info {
-    display:flex;
-    align-content:center;
+    display: flex;
+    align-content: center;
     justify-content: space-around;
 }
 
@@ -133,6 +222,7 @@ nav a.thisPage {
 #bio * {
     margin: 3%;
 }
+
 #headshot {
     display: inline-block;
     padding: .5%;
@@ -164,12 +254,13 @@ a:hover {
 .card {
     width: 21%;
 }
+
 .thumbnail img {
     vertical-align: bottom;
 
 }
 
-.caption{
+.caption {
     text-align: center;
     line-height: 1;
 }
@@ -179,16 +270,62 @@ footer {
     background-color: #ddd;
     padding: 1%;
     text-align: center;
-   
+
 }
 
 footer * {
     margin: 2%;
 }
+
 button.contactMe {
     height: 1.75rem;
     width: fit-content;
     padding: 2.5%;
     line-height: 1;
+
+}
+
+@media (max-width: 800px) {
     
+}
+
+@media (max-width: 500px) {
+   
+
+    h1 {
+        text-align: center;
+
+    }
+
+    nav {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+    }
+    
+    #navBar{
+        margin: 0 auto;
+    }
+
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        text-align: center;
+    }
+
+    a {
+        width: 45%;
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 40%;
+    }
+
 }
