@@ -1,1 +1,67 @@
 /* Add CSS styling here */
+
+body{
+    font-size:62.5%;
+}
+*{
+    border:1px solid black;
+    /* width:100%; */
+}
+
+/* header nav */
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* main body */
+.Top-img{
+    display:flex;
+    justify-content: center;
+}
+
+.image-button{
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:black;
+    font-size:large;
+    width:600px;
+    height:400px;
+}
+
+footer{
+    background-color: grey;
+    padding:3%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:1%;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    text-align:center;
+}
+
+button{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+}
+
+button:hover{
+    border:1px solid black;
+    background-color:white;
+    color:black;
+}
+button a{
+    text-decoration:none;
+    color:inherit;
+}
