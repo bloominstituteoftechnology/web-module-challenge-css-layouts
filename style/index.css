@@ -1,1 +1,125 @@
 /* Add CSS styling here */
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+}
+*{
+    /* border:1px solid black; */
+    /* width:100%; */
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+
+
+/* header nav */
+header, section {
+    padding:4% 0%;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* main body */
+.Top-img{
+    display:flex;
+    justify-content: center;
+}
+
+.image-button{
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:black;
+    font-size:large;
+    width:600px;
+    height:400px;
+}
+
+footer{
+    background-color: grey;
+    padding:3%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding:1%;
+    flex-wrap: wrap;
+}
+.row div{
+    width:30%;
+}
+
+.boxes{
+    text-align:center;
+}
+
+button{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+}
+
+button:hover{
+    border:1px solid black;
+    background-color:white;
+    color:black;
+}
+button a{
+    text-decoration:none;
+    color:inherit;
+}
+@media(max-width:500px){
+    nav {
+        flex-direction: column;
+        align-items:center;
+    }
+    .links{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:80%;
+    }
+    .links button{
+        border:1px solid white;
+        width:35%;
+        height:10vh;
+        /* margin:0.2% 0%; */
+    }
+    h1{
+        font-size:6rem;
+        margin:4%;
+    }
+
+    .Top-img{
+        width:80%;
+        margin:2% auto;
+    }
+    .row{
+        flex-wrap: column;
+        align-content: space-around;
+    }
+    .row div{
+        width:45%;
+    }
+
+    footer{
+        padding:10%;
+    }
+    footer button{
+        width:40%;
+        height:10vh;
+    }
+}
