@@ -1,14 +1,26 @@
 /* Add CSS styling here */
-
-body{
+html{
     font-size:62.5%;
 }
+body{
+    font-size:1.6rem;
+}
 *{
-    border:1px solid black;
+    /* border:1px solid black; */
     /* width:100%; */
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
 }
 
+
 /* header nav */
+header, section {
+    padding:4% 0%;
+}
+
+
 nav{
     display:flex;
     justify-content: space-between;
@@ -41,9 +53,13 @@ footer{
 .row{
     display:flex;
     flex-direction: row;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     padding:1%;
     flex-wrap: wrap;
+}
+.row div{
+    width:30%;
 }
 
 .boxes{
@@ -64,4 +80,46 @@ button:hover{
 button a{
     text-decoration:none;
     color:inherit;
+}
+@media(max-width:500px){
+    nav {
+        flex-direction: column;
+        align-items:center;
+    }
+    .links{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:80%;
+    }
+    .links button{
+        border:1px solid white;
+        width:35%;
+        height:10vh;
+        /* margin:0.2% 0%; */
+    }
+    h1{
+        font-size:6rem;
+        margin:4%;
+    }
+
+    .Top-img{
+        width:80%;
+        margin:2% auto;
+    }
+    .row{
+        flex-wrap: column;
+        align-content: space-around;
+    }
+    .row div{
+        width:45%;
+    }
+
+    footer{
+        padding:10%;
+    }
+    footer button{
+        width:40%;
+        height:10vh;
+    }
 }
