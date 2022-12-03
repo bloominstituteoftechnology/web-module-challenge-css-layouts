@@ -1,1 +1,143 @@
-/* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/* border: 1px solid red; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+/* General Style */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	color: #4f4f4f;
+	font-family: "PT Sans", sans-serif;
+	background-color: #fffafa;
+}
+
+h1, h2, h3, h4 {
+	letter-spacing: 3px;
+	font-family: "Nunito", sans-serif;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+section {
+	padding: 4% 0;
+}
+
+header nav {
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	background-color: none;
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	align-items: center;
+}
+
+.header-logo {
+	height: 55px;
+	width: 55px;
+	padding-left: 0.5vh;
+	padding-top: 0.5vh;
+}
+
+a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: #3382d3;
+	font-family: "PT Sans", sans-serif;
+	padding-left: 3vh;
+	padding-right: 3vh;
+	margin-right: 2vh;
+	background-color: rgb(255, 255, 255);
+}
+
+a:hover {
+	color: rgb(255, 255, 255);
+	background-color: #3382d3;
+	border-radius: 10px;
+}
+
+.hero-img {
+	height: 500px;
+	padding: 6.7% 0;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.title h1, h2{
+	border: 1px solid red;
+	align-self: center;
+	justify-self: center;
+}
