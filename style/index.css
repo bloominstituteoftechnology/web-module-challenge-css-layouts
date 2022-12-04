@@ -149,3 +149,7 @@ footer {
     padding: 2%;
     background-color: lightgray;
 }
+
+footer a {
+    margin: 0.5%;
+}
