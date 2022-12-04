@@ -49,7 +49,7 @@ table {
 /* end of reset */
 
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header {
@@ -57,7 +57,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    margin: 2%;
+    height: 11vh;
 }
 
 h1 {
@@ -73,6 +73,14 @@ nav {
 
 nav a {
     padding: 0.5%;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    background-color: black;
+    color: white;
 }
 
 h2 {
@@ -83,10 +91,38 @@ h2 {
 
 #intro p {
     text-align: center;
+    width: 90%;
 }
 
 #intro {
-    margin: 2%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 11vh;
+}
+
+#cover {
+    background-image: url("https://picsum.photos/id/133/1000/400");
+    height: 45vh;
+    background-size: cover;
+    width: 100%;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#projects div {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#projects img, #projects p{
+    margin: 1%;
+    border-radius: 7px;
 }
