@@ -71,11 +71,12 @@ nav {
     justify-content: center;
 }
 
-nav a {
+a {
     padding: 0.5%;
     border: 1px solid black;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 #home {
@@ -115,7 +116,7 @@ h2 {
     justify-content: space-around;
 }
 
-#projects div {
+#container {
     width: 96%;
     display: flex;
     align-items: center;
@@ -125,4 +126,26 @@ h2 {
 #projects img, #projects p{
     margin: 1%;
     border-radius: 7px;
+}
+
+#text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 7px;
+    padding: 1%;
+}
+
+#container a {
+    margin-top: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: lightgray;
 }
