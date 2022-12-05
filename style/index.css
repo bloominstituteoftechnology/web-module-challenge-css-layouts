@@ -119,10 +119,8 @@ h2 {
     justify-content: space-around;
 }
 
-#container {
+#imgContainer {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 #projects img, #projects p{
@@ -130,12 +128,7 @@ h2 {
     border-radius: 7px;
 }
 
-#projImgs1, #projImgs2 {
-    display: flex;
-}
-
 #text {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -144,6 +137,7 @@ h2 {
     border-radius: 7px;
     padding: 1%;
     text-align: center;
+    width:20%;
 }
 
 #container a {
@@ -162,7 +156,9 @@ footer a {
 }
 
 @media (max-width=800px) {
-
+    #container {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 500px) {
