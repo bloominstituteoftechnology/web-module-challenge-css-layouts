@@ -49,7 +49,7 @@ table {
 /* end of reset */
 
 * {
-    /* border: 1px solid black; */
+    box-sizing: border-box;
 }
 
 header {
@@ -57,22 +57,23 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    height: 11vh;
 }
 
 h1 {
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
+    margin: 1%;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 1%;
 }
 
 a {
-    padding: 0.5%;
+    padding: 3px;
     border: 1px solid black;
     text-decoration: none;
     color: black;
@@ -88,11 +89,13 @@ h2 {
     font-weight: bold;
     font-size: 1.3rem;
     text-align: center;
+    margin: 1%;
 }
 
 #intro p {
     text-align: center;
     width: 90%;
+    margin-bottom: 1%;
 }
 
 #intro {
@@ -100,7 +103,6 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 11vh;
 }
 
 #cover {
@@ -108,6 +110,7 @@ h2 {
     height: 45vh;
     background-size: cover;
     width: 100%;
+    background-position: center center;
 }
 
 #projects {
@@ -117,7 +120,6 @@ h2 {
 }
 
 #container {
-    width: 96%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -126,6 +128,10 @@ h2 {
 #projects img, #projects p{
     margin: 1%;
     border-radius: 7px;
+}
+
+#projImgs1, #projImgs2 {
+    display: flex;
 }
 
 #text {
@@ -137,6 +143,7 @@ h2 {
     background-color: lightgray;
     border-radius: 7px;
     padding: 1%;
+    text-align: center;
 }
 
 #container a {
@@ -152,4 +159,40 @@ footer {
 
 footer a {
     margin: 0.5%;
+}
+
+@media (max-width=800px) {
+
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    header {
+        align-content:flex-start;
+        align-items: center;
+        height: auto;
+    }
+    h1 {
+        margin: 2%;
+    }
+    #intro p, h2 {
+        margin-bottom: 2%;
+    }
+    #cover {
+        height: 25vh;
+    }
+    #container {
+        flex-wrap: wrap;
+    }
+    #container img {
+        width: 35%;
+        height: 30vh;
+        object-fit: cover;
+        margin: 2%;
+    }
 }
