@@ -116,17 +116,24 @@ h2 {
 #projects {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#projects img {
+    margin: 1%;
+    border-radius: 7px;
+    max-width: 30%;
+    min-width: 15%;
 }
 
 #imgContainer {
     display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: space-around;
 }
 
-#projects img, #projects p{
-    margin: 1%;
-    border-radius: 7px;
-}
+
 
 #text {
     display: flex;
@@ -137,7 +144,8 @@ h2 {
     border-radius: 7px;
     padding: 1%;
     text-align: center;
-    width:20%;
+    width: 25%;
+    margin: 2%;
 }
 
 #container a {
