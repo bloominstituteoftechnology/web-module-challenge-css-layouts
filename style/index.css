@@ -23,7 +23,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	/* border: 1px solid red; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,9 +64,9 @@ html {
 body {
 	font-size: 1.8rem;
 	line-height: 1.5;
-	color: #4f4f4f;
+	color: #343f4f;
 	font-family: "PT Sans", sans-serif;
-	background-color: #fffafa;
+	background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4 {
@@ -91,10 +90,12 @@ section {
 	padding: 4% 0;
 }
 
+/* Header Section Styles */
+
 header nav {
 	width: 100%;
 	z-index: 999;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	background-color: none;
 	display: flex;
@@ -110,34 +111,208 @@ header nav {
 	padding-top: 0.5vh;
 }
 
-a {
+.nav-buttons a {
 	text-decoration: none;
-	letter-spacing: 2px;
-	color: #3382d3;
+	letter-spacing: 0.2rem;
+	color: #343f4f;
 	font-family: "PT Sans", sans-serif;
-	padding-left: 3vh;
-	padding-right: 3vh;
-	margin-right: 2vh;
+	padding: .5vh 3vh;
+	margin: 1vh;
 	background-color: rgb(255, 255, 255);
+	border-radius: 1rem;
 }
 
-a:hover {
+.nav-buttons a:hover {
 	color: rgb(255, 255, 255);
-	background-color: #3382d3;
-	border-radius: 10px;
+	background-color: #fc6d6d;
+	border-radius: 1rem;
 }
 
-.hero-img {
-	height: 500px;
-	padding: 6.7% 0;
+/*Top Section Styles*/
+
+.landing-page {
+	height: 97.5vh;
+	margin: 6.3rem 0 0;
+	padding: 0;
+	background: #343f4f;
+	background-image: url("/assets/Inria\ Serif.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: calc(52.5vh);
+	background-position-x: left;
+	background-position-y: center;
 	display: flex;
-	flex-direction: column;
-	justify-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	display: flex;
+	align-items: baseline;
+}
+
+.title .static-title {
+	color: #fffafa;
+	font-size: 6rem;
+	font-weight: 400;
+}
+
+.title .dynamic-title {
+	margin-left: 1.5rem;
+	height: 9rem;
+	line-height: 9rem;
+	overflow: hidden;
+}
+
+.dynamic-title li {
+	color: #fc6d6d;
+	list-style: none;
+	font-size: 6rem;
+	font-weight: 500;
+	position: relative;
+	top: 0;
+	animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+	100%{
+		top: -36rem;
+	}
+}
+
+.dynamic-title li span {
+	position: relative;
+	margin: 0.5rem 0;
+	line-height: 9rem;
+}
+
+.dynamic-title li span::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 110%;
+	width: 100%;
+	background: #343f4f;
+	border-left: 0.2rem solid #fc6d6d;
+	animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+	40%, 60%{
+	  left: calc(100% + 3rem);
+	}
+	100%{
+	  left: 0;
+	}
+  }
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.box {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* Footer Section Styles */
+
+footer {
+	padding: 1% 0;
+	color:  rgb(255, 255, 255);
+	background-color: #343f4f;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a {
+	text-decoration: none;
+	color:  rgb(255, 255, 255);
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #fc6d6d;
+}
+
+footer div {
+	width: 30%;
+}
+
+nav.social {
+	margin: 5% 0 0;
+	width: 20vh;
+	display: flex;
+}
+
+nav.main {
+	display: flex;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
-.title h1, h2{
-	border: 1px solid red;
-	align-self: center;
-	justify-self: center;
+nav.main a {
+	margin: 2% 0;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (max-width: 1100px) {
+	.nav-buttons {
+	  width: 70%;
+	}
+
+	.landing-page {
+		background-image: none;
+	}
+
+}
+  
+/*phone*/
+@media (max-width: 500px) {
+	header nav {
+	  height: 18vh;
+	  flex-direction: column;
+	}
+	.nav-buttons {
+	  width: 100%;
+	}
+	.logo {
+	  text-align: center;
+	}
+
+	.container {
+	  flex-wrap: wrap;
+	}
+	.box {
+	  width: 90%;
+	  margin: 4% 0;
+	}
+
+	footer {
+	  flex-wrap: wrap;
+	}
+	footer div {
+	  width: 90%;
+	  margin: 4% 0;
+	  text-align: center;
+	}
+
+	nav.social {
+		width: auto;
+	}
+
+	.copyright {
+	  justify-content: center;
+	}
 }
