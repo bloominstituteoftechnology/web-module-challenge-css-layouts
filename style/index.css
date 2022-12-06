@@ -1,1 +1,212 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+a {
+    padding: 3px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#home {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1%;
+}
+
+#intro p {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cover {
+    background-image: url("https://picsum.photos/id/133/1000/400");
+    height: 45vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects img {
+    margin: 1%;
+    border-radius: 7px;
+    max-width: 15%;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 7px;
+    padding: 1%;
+    text-align: center;
+    width: 25%;
+    margin: 2%;
+}
+
+#projects a {
+    margin-top: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: lightgray;
+}
+
+footer a {
+    margin: 0.5%;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        margin: 2%;
+    }
+    #intro p, h2 {
+        margin-bottom: 2%;
+    }
+    #text {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 650px) {
+    #projects {
+        flex-wrap: wrap;
+    }
+    #text {
+        width: 90%;
+    }
+    #projects img {
+        max-width: none;
+        width: 32%;
+        object-fit: cover;
+        object-position: 50% 75%;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    header {
+        align-content:flex-start;
+        align-items: center;
+        height: auto;
+    }
+    #cover {
+        height: 25vh;
+    }
+    #projects {
+        flex-wrap: wrap;
+    }
+    #text {
+        width: 90%;
+    }
+    #projects img {
+        max-width: none;
+        width: 40%;
+        object-fit: cover;
+        object-position: 50% 75%;
+        height: 25vh;
+    }
+}
