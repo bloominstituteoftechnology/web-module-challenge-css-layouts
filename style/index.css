@@ -1,1 +1,45 @@
-/* Add CSS styling here */
+header {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom:15px;
+  line-height: 1.6;
+}
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+}
+.top_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.description {
+  padding: 30px;
+  width: 50%;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.portfolio_element {
+  text-align: center;
+}
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
