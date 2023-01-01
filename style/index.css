@@ -71,7 +71,7 @@ h4 {
 }
 header {
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
 }
 header .sitetitle {
     display: flex;
@@ -90,6 +90,7 @@ header .sitetitle {
     background-color: #999999;
     width: 100%;
     height: 15rem;
+    padding-top: 2rem;
     
  }
  .h1name {
@@ -172,7 +173,7 @@ footer {
 }
 .foot {
     margin-top: 2rem;
-    padding-top: 3%;
+    padding-top: 3.5rem;
 }
 .likewut {
     display: flex;
