@@ -109,6 +109,9 @@ h2 {
     font-size: 2em;
     padding-bottom: 20px;
 }
+.about img {
+    padding: 10px;
+}
 .about .projects_button {
     font-size: 1.25em;
 }
