@@ -73,15 +73,8 @@ header {
     display: flex;
     flex-flow: row wrap;
 }
-header .sitetitle {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    width: 100%;
-    background-color: white;  
-}
  .headercontainer {
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -91,6 +84,8 @@ header .sitetitle {
     width: 100%;
     height: 15rem;
     padding-top: 2rem;
+    margin: 2px;
+    margin-top: 0;
     
  }
  .h1name {
@@ -119,7 +114,7 @@ header .sitetitle {
   .bodym {
     margin-left: 2px;
     margin-right: 2px;
-    border:1px solid black;
+    /* border:1px solid black; */
   }
   .main {
     display: flex;
