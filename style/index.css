@@ -194,3 +194,71 @@ footer {
   background-color: black;
   color: white;
 }
+
+@media (max-width: 800px) {
+  /* couldnt find a reference image to base it off of, checked the solution and didnt see anything there eiteher */
+}
+@media (max-width: 500px) {
+  .headercontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 28rem;
+    background: white;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  nav button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+  }
+  .main img {
+    width: 90%;
+  }
+  .info {
+    align-items: center;
+    margin-top: 1%;
+  }
+  .info button {
+    align-items: center;
+    padding: 1%;
+    width: 20rem;
+    height: 2.5em;
+    font-size: 2rem;
+  }
+  .info p {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .imagecontainer {
+    justify-content: space-evenly;
+    gap: 0;
+  }
+  footer {
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot h4 {
+    font-size: 3rem;
+  }
+  .foot button {
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+}
