@@ -1,1 +1,47 @@
-/* Add CSS styling here */
+header {
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bio{
+    padding: 20px;
+    width: 90%;
+}
+.gallery1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+}
+.gallery2{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center; 
+}
+button{
+    background-color: antiquewhite;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 5% 10%;
+}
