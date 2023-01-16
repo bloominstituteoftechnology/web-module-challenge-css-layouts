@@ -109,6 +109,14 @@ button a {
     color: white;
   }
 
+  @media(max-width:800px) {
+
+  }
+
+  @media(max-width:500px) {
+    
+  }
+
 /* HERE BEGINS MY CSS. Not particularly DRY.  This was my initial attempt before watching the solutions video  */
 
 /* 
