@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+      <!-- Additional Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style/index.css">
+    <title>Portfolio of Graeme McNish</title>
 </head>
 <body>
-    
+    <!-- This is the solution video way of solving mixed with my own coding -->
+    <header>
+        <h1>Graeme McNish</h1>
+        <nav>
+            <button><a href="index.html">Home</a></button>
+            <button><a href="about.html">About</a></button>
+            <button><a href="contact.html">Contact</a></button>
+            <button><a href="projects.html">Projects</a></button>
+        </nav>
+    </header>
+
+    <section class="topsection">
+        <img src="https://picsum.photos/id/220/600/400" alt="a photo from picsum">
+        <div class="description">
+            <h2>Graeme McNish</h2>
+            <button><a href="projects.html">My Projects</a></button>
+            <p>
+                I've learned that css isn't so bad once you have access to the awesome power of flexbox.  I'm sure I'll learn much more on my journey to becoming a Full Stack Developer.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/25/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/35/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/45/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/55/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/20/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/30/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/40/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+            <div class="portfolio-element">
+                <img src="https://picsum.photos/id/50/300" alt="picsum placeholder">
+                <p>Portfolio Piece</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Like what you see?</h2>
+        <button><a href="contact.html">Contact Me</a></button>
+        <div class="socials">
+            <a href="https://www.facebook.com/graeme.mcnish/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/GrandMcNish" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/graeme-mcnish/" class="fa fa-linkedin"></a>
+        </div>
+    </footer>
+    <!-- below is my solution to solving - which I was happy with -->
+    <!-- <header>
+        <section id="home">
+            <div class="title">
+                <h1>Graeme McNish</h1>
+            </div>
+            <nav class="links">
+                <button><a href="index.html">Home</a></button>
+                <button><a href="about.html">About</a></button>
+                <button><a href="contact.html">Contact</a></button>
+                <button><a href="projects.html">Projects</a></button>
+            </nav>
+        </section>
+    </header>
+    <section id="about">
+        <div class="left">
+            <img src="https://picsum.photos/id/220/600/400" alt="A photo of Graeme McNish">
+        </div>
+        <div class="right">
+            <h2>Graeme McNish</h2>
+            <button href="projects.html">My Projects</button>
+            <p>I've learned that css isn't so bad once you have access to the awesome power of flexbox.  I'm sure I'll learn much more on my journey to becoming a Full Stack Developer.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="project">
+                <img src="https://picsum.photos/id/25/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 1</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/247/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 2</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/31/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 3</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/312/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 4</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/37/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 5</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/206/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 6</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/201/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 7</h4>
+            </div>
+            <div class="project">
+                <img src="https://picsum.photos/id/94/280" alt="a random image while I work on having something to show of myself!">
+                <h4>Project 8</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="contact">
+            <h3>Like what you see?</h3>
+            <div class="links">
+                    <button><a href="contact.html">Contact Me</a></button>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com/graeme.mcnish/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/GrandMcNish" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/graeme-mcnish/" class="fa fa-linkedin"></a>
+            </div>
+        </section>
+    </footer>   -->
 </body>
 </html>
