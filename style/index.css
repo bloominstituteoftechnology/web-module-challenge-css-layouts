@@ -110,11 +110,24 @@ button a {
   }
 
   @media(max-width:800px) {
-
+    .row {
+        flex-flow: row wrap;
+    }
+    .topsection {
+        display: inline-block;
+    }
   }
 
   @media(max-width:500px) {
-    
+    .description {
+        width: 85%;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+
   }
 
 /* HERE BEGINS MY CSS. Not particularly DRY.  This was my initial attempt before watching the solutions video  */
