@@ -92,13 +92,18 @@ h2 {
 }
 a {
     text-decoration: none;
+    color: #99D9D9;
 }
 a:hover {
     /* background-color: #99D9D9; */
-    /* color: #355464; */
+    color: #355464;
     text-decoration: none;
 }
 .navButton:hover {
+    background-color: #99D9D9;
+    color: #355464;
+}
+.footButton:hover {
     background-color: #99D9D9;
     color: #355464;
 }
@@ -146,4 +151,36 @@ a:hover {
     padding-left: 2%;
     padding-right: 2%;
 }
-
+.footButton {
+    height: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    vertical-align: center;
+    /* width: 20%; */
+    /* border: 2px solid #E9072B; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #355464;
+    color: #99D9D9;
+    text-decoration: none;
+}
+.footBox {
+    background-color: gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #E9072B; */
+    height: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* #footerID {
+    background-color: solid gray;
+}
+.footer .container #footerID {
+    background-color: orange;
+  } */
