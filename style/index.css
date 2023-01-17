@@ -5,6 +5,7 @@
 /* General Stylings */
 * {
     max-width: 100%;
+    border: 1px solid grey;
 }
 
 html {
@@ -19,6 +20,7 @@ body {
 h1, h2 {
     font-size: 5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -29,14 +31,17 @@ h2 {
 
 header {
     background-color: lightgray;
-    padding: 20px;
-    margin-bottom: 15px;
+    /* padding: 20px; */
+    padding: 2%;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1%;
 }
 
 footer {
     background-color: lightgray;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 2%;
 }
 
 /* main sections */
@@ -48,7 +53,8 @@ footer {
 }
 
 .description {
-    padding:20px;
+    /* padding:20px; */
+    padding: 2%;
     width:50%;
 }
 
@@ -56,7 +62,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 2%;
 }
 
 .portfolio-element {
@@ -82,6 +89,10 @@ button:hover {
 button a {
     text-decoration: none;
     color: inherit;
+}
+
+footer button{
+    margin-bottom: 4%;
 }
 
 /* socials */
@@ -110,24 +121,61 @@ button a {
   }
 
   @media(max-width:800px) {
-    .row {
-        flex-flow: row wrap;
+    body {
+        text-align: center;
     }
-    .topsection {
-        display: inline-block;
+    .description {
+        margin: 0 auto;
+    }
+    .portfolio-element {
+        width: 20%;
+    }
+    .topsection img {
+        width: 40%
     }
   }
 
   @media(max-width:500px) {
+
+    .topsection {
+        display: inline-block;
+    }
+    .topsection img {
+        width: 90%
+    }
+    .row {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    body {
+        text-align: center;
+    }
     .description {
         width: 85%;
         font-size: 1.3rem;
         padding: 10px;
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
-
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 45%;
+        margin: 1% 0;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .portfolio-element {
+        width: 40%;
+        font-size: 1.2rem;
+        margin: 4% 0;
+    }
   }
 
 /* HERE BEGINS MY CSS. Not particularly DRY.  This was my initial attempt before watching the solutions video  */
