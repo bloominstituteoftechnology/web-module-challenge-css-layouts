@@ -1,1 +1,358 @@
-/* Add CSS styling here */
+
+
+/* solution video css */
+
+/* General Stylings */
+* {
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */ 
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2 {
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/* header and footer stylings */
+
+header {
+    background-color: lightgray;
+    /* padding: 20px; */
+    padding: 2%;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1%;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    /* padding: 20px; */
+    padding: 2%;
+}
+
+/* main sections */
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    /* padding:20px; */
+    padding: 2%;
+    width:50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* padding: 20px; */
+    padding: 2%;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+/* buttons */
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer button{
+    margin-bottom: 4%;
+}
+
+/* socials */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 2px;
+    text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  @media(max-width:800px) {
+    body {
+        text-align: center;
+    }
+    .description {
+        margin: 0 auto;
+    }
+    .portfolio-element {
+        width: 20%;
+    }
+    .topsection img {
+        width: 40%
+    }
+  }
+
+  @media(max-width:500px) {
+
+    .topsection {
+        display: inline-block;
+    }
+    .topsection img {
+        width: 90%
+    }
+    .row {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    body {
+        text-align: center;
+    }
+    .description {
+        width: 85%;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 45%;
+        margin: 1% 0;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .portfolio-element {
+        width: 40%;
+        font-size: 1.2rem;
+        margin: 4% 0;
+    }
+  }
+
+/* HERE BEGINS MY CSS. Not particularly DRY.  This was my initial attempt before watching the solutions video  */
+
+/* 
+
+* {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */ 
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* h1 {
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 2.7rem;
+} */
+
+/* header {
+    height: 27vh;
+    width: 100%;
+    background-color: aqua;
+    display:inline-block;
+    padding: 20px;
+}
+
+.title h1 {
+    padding: 30px 30px 20px;
+}
+
+.links {
+    display: flex;
+    height: 7vh;
+    width: 700px;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+/* .links button {
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 2rem;
+    background-color: coral;
+    margin-left: 5px;
+}
+
+a:link, a:visited
+{
+   color: white;
+   text-decoration: none;
+}
+
+#about {
+    background-color:aquamarine;
+}
+
+#about img {
+    padding: 10px;
+}
+
+#about {
+    display: flex;
+    height: 65vh;
+    width: 100%;
+}
+
+#about .left {
+    padding: 20px 20px 10px;
+}
+
+#about .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px;
+    align-items: flex-start;
+} */
+
+/* #about h2 {
+    margin: 0px 30px 35px;
+}
+
+#about button, #contact button {
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 3rem;
+    background-color: coral;
+    width: 200px;
+    color: white;
+    margin: 0 30px 45px;
+    text-align: center;
+}
+
+#about p {
+    margin: 0 35px;
+    width: 500px;
+}
+
+#projects {
+    background-color: aquamarine;
+}
+
+#projects .container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 95vh;
+    width: 83%;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 25px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .links {
+    padding: 10px 20px;
+    margin: 30px;
+} */
+
+/* I looked up how to link social media on www.w3schools.com.  I have only used the code that I understand. */
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 2px;
+  }
+  
+  a:hover, fa:hover, button:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+ */ 
