@@ -178,9 +178,9 @@ a:hover {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-/* #footerID {
-    background-color: solid gray;
+@media (max-width: 800px) {
+
 }
-.footer .container #footerID {
-    background-color: orange;
-  } */
+@media (max-width: 500px) {
+    
+}
