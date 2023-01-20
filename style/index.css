@@ -1,1 +1,224 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 {
+    font-size: 72px;
+    padding: 25px;
+    text-align: center;
+}
+h2 {
+    font-size: 48px;
+    padding: 25px;
+    text-align: center;
+}
+html {
+    font-size: 62.5%;
+}
+.bodyText {
+    font-size: 16px;
+}
+.hdrBox {
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+}
+.navBox {
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.navButton {
+    height: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    vertical-align: center;
+    /* width: 20%; */
+    /* border: 2px solid #E9072B; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    background-color: #355464;
+    color: #99D9D9;
+    text-decoration: none;
+    max-width: 20%;
+}
+a {
+    text-decoration: none;
+    color: #99D9D9;
+}
+a:hover {
+    /* background-color: #99D9D9; */
+    color: #355464;
+    text-decoration: none;
+}
+.navButton:hover {
+    background-color: #99D9D9;
+    color: #355464;
+}
+.footButton:hover {
+    background-color: #99D9D9;
+    color: #355464;
+}
+
+.introText {
+    text-align: center;
+    font-size: 16px;
+}
+.bodyBox {
+    /* border: 2px solid #E9072B; */
+    display: flex;
+}
+.bodyImg {
+    /* border: 2px solid #E9072B; */
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+}
+.pic {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.picVert {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    padding: 15px;
+}
+.previewImg {
+    /* border: 2px solid #E9072B; */
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* align-items: center; */
+    /* width: 50%; */
+}
+.bodyText {
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+    /* border: 2px solid #E9072B; */
+    vertical-align: center;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.footButton {
+    height: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    vertical-align: center;
+    /* width: 20%; */
+    /* border: 2px solid #E9072B; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #355464;
+    color: #99D9D9;
+    text-decoration: none;
+}
+.footBox {
+    background-color: gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #E9072B; */
+    height: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.navHold {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .navBox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bodyBox {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .bodyBox .bodyText {
+        text-align: center;
+        padding: 2%;
+    }
+    .navButton {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .navHold {
+        display: flex;
+        flex-direction: column;
+    }
+    .previewImg {
+        flex-basis: 45%;
+    }
+}
+@media (max-width: 500px) {
+    .bodyBox .bodyText {
+        text-align: center;
+        padding: 2% 25% 5% 25%;
+        /* padding-left: ; */
+    }
+    .previewImg {
+        flex-basis: 90%;
+    }
+}
