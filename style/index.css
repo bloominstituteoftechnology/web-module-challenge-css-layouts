@@ -57,6 +57,9 @@ h2 {
     padding: 25px;
     text-align: center;
 }
+html {
+    font-size: 62.5%;
+}
 .bodyText {
     font-size: 16px;
 }
@@ -65,7 +68,6 @@ h2 {
     /* display: inline-block; */
 }
 .navBox {
-    /* width: 100%; */
     display: flex;
     /* border: 2px solid red; */
     margin-left: 10%;
@@ -85,10 +87,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     background-color: #355464;
     color: #99D9D9;
     text-decoration: none;
+    max-width: 20%;
 }
 a {
     text-decoration: none;
@@ -178,9 +181,44 @@ a:hover {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-@media (max-width: 800px) {
+.navHold {
+    display: flex;
+    flex-direction: row;
+}
 
+@media (max-width: 800px) {
+    .navBox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bodyBox {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .bodyBox .bodyText {
+        text-align: center;
+        padding: 2%;
+    }
+    .navButton {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .navHold {
+        display: flex;
+        flex-direction: column;
+    }
+    .previewImg {
+        flex-basis: 45%;
+    }
 }
 @media (max-width: 500px) {
-    
+    .bodyBox .bodyText {
+        text-align: center;
+        padding: 2% 25% 5% 25%;
+        /* padding-left: ; */
+    }
+    .previewImg {
+        flex-basis: 90%;
+    }
 }
