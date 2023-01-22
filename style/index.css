@@ -52,12 +52,9 @@ table {
 
 /* general styles */
 
-/* lets me see the boxes and spacing  */ */
-*{
-	box-sizing: border-box;
-	border: 1px black;
-	max-width: 100%;
-}
+
+
+
 
 html{
 	font-size: 62.5%;
@@ -66,6 +63,8 @@ html{
 body{
 	font-family: 'Shadows Into Light', cursive;
 }
+
+/* sectional styles */
 
 header{
 	display: flex;
@@ -100,6 +99,7 @@ nav a{
 	height: 0.7cm;
 	text-align: center;
 	text-decoration: none;
+	font-size: 2rem;
 
 }
 
@@ -117,7 +117,9 @@ nav a{
 	height: auto;
 	max-width: 80%;
 	padding: 2%;
+	margin-right: 10%;
 }
+
 
 .name{
 font-size: 4rem;
@@ -129,6 +131,8 @@ margin-bottom: 5%;
 	font-size: 2rem;
 	margin-bottom: 5%;
 	padding: 2%;
+	font-family: 'Shadows Into Light', cursive;
+
 }
 
 .bioInfo{
