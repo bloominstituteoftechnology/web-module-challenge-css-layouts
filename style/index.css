@@ -49,36 +49,35 @@ table {
 	border-spacing: 0;
 }
 
-*{
-    box-sizing: border-box;
-    border: 1px solid grey ;
-    max-width: 100%;
-}
 
 /* general styles */
 
-/* html{
-	font-size: 62.5%;
-} */
-
-/* lets me see the boxes and spacing  */
+/* lets me see the boxes and spacing  */ */
 *{
 	box-sizing: border-box;
-	border: 1px solid black;
-	border-width: 100%;
+	border: 1px black;
+	max-width: 100%;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Shadows Into Light', cursive;
 }
 
 header{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	background-color: grey;
+	background-color: rgb(202, 202, 202);
 	padding: 5% 0;
 
 }
 
 h1{
-	font-size: 60px;
+	font-size: 8rem;
 	height: 2cm;
 	margin-left: 2%;
 }
@@ -86,18 +85,19 @@ h1{
 nav{
 	padding: 2%;
 	display: flex;
+
 	
 }
 
 nav a{
 	flex-flow: row wrap;
 	padding-top: 3%;
-	border-radius:  1px;
-	border-color: black;
+	border-radius:  1%;
+	border: solid black;
 	background-color: white;
 	color: black;
 	width: 4cm;
-	height: 1.3cm;
+	height: 0.7cm;
 	text-align: center;
 	text-decoration: none;
 
@@ -119,4 +119,18 @@ nav a{
 	padding: 2%;
 }
 
-	
+.name{
+font-size: 4rem;
+bottom: 5%;
+margin-bottom: 5%;
+}
+
+.projectsb{
+	font-size: 2rem;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+
+.bioInfo{
+	font-size: 2rem;
+}
