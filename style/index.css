@@ -100,7 +100,8 @@ nav a{
 	height: 0.7cm;
 	text-align: center;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 2.5rem;
+	font-weight: bold;
 
 }
 
@@ -134,6 +135,7 @@ margin-bottom: 5%;
 	padding: 2%;
 	font-family: 'Shadows Into Light', cursive;
 	border: solid black 3px;
+	font-weight: bold;
 
 }
 
@@ -165,14 +167,16 @@ margin-bottom: 5%;
 footer{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 .contactMe{
 	padding: 0.5%;
 	font-size: 2rem;
 	border: solid black 3px;
 	text-align: center;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 4%;
-	
+	width: 15%;
+	font-weight: bold;
 }
