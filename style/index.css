@@ -50,11 +50,12 @@ table {
 }
 
 
-/* general styles */
 
-
-
-
+/* *{
+    box-sizing: border-box;
+    border: 1px solid grey ;
+    max-width: 100%;
+} */
 
 html{
 	font-size: 62.5%;
@@ -128,13 +129,50 @@ margin-bottom: 5%;
 }
 
 .projectsb{
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin-bottom: 5%;
 	padding: 2%;
 	font-family: 'Shadows Into Light', cursive;
+	border: solid black 3px;
 
 }
 
 .bioInfo{
+	font-size: 2.5rem;
+}
+
+.projectsLink{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.random{
+	margin: 1%;
+	padding: 0.5%;
+	box-sizing: border-box;
+	border: solid black 2px;
+}
+
+
+.footerText{
+	margin: 2%;
+	padding: 1%;
+	font-size: 4rem;
+	text-align: center;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+.contactMe{
+	padding: 0.5%;
 	font-size: 2rem;
+	border: solid black 3px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4%;
+	
 }
