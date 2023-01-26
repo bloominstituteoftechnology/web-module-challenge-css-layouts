@@ -105,6 +105,16 @@ nav a{
 
 }
 
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+
 .info{
 	display: flex;
 	padding: 2%;
@@ -180,3 +190,8 @@ footer{
 	width: 15%;
 	font-weight: bold;
 }
+
+figcaption{
+	font-size: 2rem;
+}
+
