@@ -158,3 +158,16 @@ footer{
     font-weight: bold;
 }
 
+@media (max-width: 800px) {
+
+	nav {
+		width: 60%;
+	}
+}
+
+@media (max-width: 500px) {
+
+	nav {
+		width: 80%;
+	}
+}

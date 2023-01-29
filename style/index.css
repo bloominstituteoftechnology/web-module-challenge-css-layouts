@@ -217,3 +217,132 @@ h3{
 	font-weight: bold;
 }
 
+@media (max-width: 800px) {
+
+    .picture{
+        height: 40%;
+        width: 40%;
+        padding: 30%;
+    }
+    
+    .main{
+        display: flex;
+        gap: 1%;
+        padding: 3%;	
+    }
+    
+    .bio{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    h1{
+        font-size: 7rem;
+        padding: 1%;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+    
+    button{
+        font-size: 2rem;
+        padding: 1.5%;
+        margin: 2%
+    }
+    
+    h2{
+        font-size: 4.5rem;
+        font-weight: bold;
+        padding-top: 4%;
+        padding-right: 4%;
+        padding-bottom: 4%;
+        width: 70%;
+        height: 20%;
+    }
+    
+    .contactMe{
+        padding: 0.5%;
+        font-size: 3rem;
+        border: solid black 3px;
+        text-align: center;
+        margin-bottom: 4%;
+        width: 25%;
+        font-weight: bold;
+    }
+    }
+    
+    @media (max-width: 500px) {
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .picture{
+            height: 50%;
+            width: 50%;
+            padding: 50%;
+        }
+    
+        nav {
+            display: flex;
+            height: 14vh;
+            width: 90%;
+            justify-content: space-evenly;
+            gap: 4%;
+            padding: 1.5%;
+            text-align: center;
+        }
+    
+        nav a{
+            font-size: 3rem;
+            color: black;
+            font-weight: bold;
+            height: 6vh;
+            width: 50%;
+            padding: 1%;
+            background-color: white;
+            text-decoration: none;
+            font-weight: bold;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+    
+        h2{
+            font-size: 6rem;
+            font-weight: bold;
+            padding-top: 4%;
+            padding-right: 4%;
+            padding-bottom: 4%;
+            width: 90%;
+            height: 20%;
+            text-align: center;
+        }
+    
+        .bio{
+            font-size: 3rem;
+            
+        }
+    
+        .button1{
+            /* margin-left: 30%; */
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contactMe{
+            padding: 0.5%;
+            font-size: 3rem;
+            border: solid black 3px;
+            text-align: center;
+            margin-bottom: 4%;
+            width: 50%;
+            font-weight: bold;
+        }
+        
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    

@@ -161,3 +161,32 @@ footer{
     font-weight: bold;
 }
 
+@media (max-width: 800px) {
+	.bioPic{
+		padding: 20%
+	}
+
+	.midText{
+		padding: 5%;
+	}
+
+	.thankYou{
+		font-size: 5rem;
+	}
+
+	nav {
+		width: 60%
+	}
+	
+	
+}
+
+@media (max-width: 500px) {
+	.bioPic{
+		padding: 30%;
+	}
+
+	nav{
+		width: 80%
+	}
+}
