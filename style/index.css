@@ -217,3 +217,55 @@ h3{
 	font-weight: bold;
 }
 
+@media (max-width: 800px) {
+
+.picture{
+	height: 40%;
+	width: 40%;
+	padding: 30%;
+}
+
+.main{
+	display: flex;
+	gap: 1%;
+	padding: 3%;	
+}
+
+.bio{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 7rem;
+	padding: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+button{
+	font-size: 2rem;
+	padding: 1.5%;
+	margin: 2%
+}
+
+h2{
+	font-size: 4.5rem;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	width: 70%;
+	height: 20%;
+}
+
+.contactMe{
+	padding: 0.5%;
+	font-size: 3rem;
+	border: solid black 3px;
+	text-align: center;
+	margin-bottom: 4%;
+	width: 25%;
+	font-weight: bold;
+}
+}
