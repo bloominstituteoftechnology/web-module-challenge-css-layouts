@@ -75,10 +75,14 @@ header{
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
+	box-sizing: border-box;
+	border: solid black 1px;
+	
 }
 
+
 h1{
-	font-size: 8rem;
+	font-size: 10rem;
 	padding: 1%;
 	margin-bottom: 2%;
 	font-weight: bold;
