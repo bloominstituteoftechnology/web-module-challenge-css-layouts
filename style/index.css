@@ -1,1 +1,39 @@
-/* Add CSS styling here */
+
+
+
+
+header { 
+background-color: lightgray;
+padding:0.5%;
+margin-bottom: 0.5%;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 0.5%;
+}
+.topsection{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.discription{
+    padding:20px;
+    width:50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.portfolio-element{
+    text-align: center;
+  
+
+}
+
+
