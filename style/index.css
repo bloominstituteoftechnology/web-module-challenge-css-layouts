@@ -104,8 +104,11 @@ nav a{
 	background-color: white;
 	text-decoration: none;
 	font-weight: bold;
+	box-sizing: border-box;
 	border: 1px solid black;
 }
+
+
 
 a:hover{
 	background-color: black;
@@ -125,9 +128,11 @@ a:hover{
 }
 
 h2{
-	font-size: 6rem;
+	font-size: 7rem;
 	font-weight: bold;
-	padding: 4%;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
 	width: 70%
 	height: 20%
 }
@@ -164,6 +169,14 @@ button:hover{
 	font-size: 3rem;
 	width: 10%;
 	margin-bottom: 5%;
+	text-align: center;
+}
+
+.description:hover{
+	box-sizing: border-box;
+	border: 2px black solid;
+	color: white;
+	background-color: black;
 }
 
 .projectsLink{
@@ -199,3 +212,4 @@ h3{
 	font-size: 4rem;
 	font-weight: bold;
 }
+
