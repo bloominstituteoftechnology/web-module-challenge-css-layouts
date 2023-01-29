@@ -49,11 +49,12 @@ table {
 	border-spacing: 0;
 }
 
-
+/* website layout */
 
 *{
     box-sizing: border-box;
     max-width: 100%;
+	/* border: solid red 5px; */
 }
 
 html{
@@ -67,46 +68,74 @@ body{
 /* sectional styles */
 
 header{
+	padding: 2%;
+	margin: 0.1%;
+	background-color: rgb(201, 201, 201);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	background-color: rgb(202, 202, 202);
-	padding: 5% 0;
-
+	justify-content: space-between;
 }
 
 h1{
 	font-size: 8rem;
-	height: 2cm;
-	margin-left: 2%;
+	padding: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
 }
 
-nav{
-	padding: 2%;
+nav {
 	display: flex;
-
-	
+	height: 14vh;
+	width: 50%;
+	justify-content: space-evenly;
+	gap: 4%;
+	padding: 1.5%;
+	text-align: center;
 }
 
 nav a{
-	flex-flow: row wrap;
-	padding-top: 3%;
-	border-radius:  1%;
-	border: solid black;
-	background-color: white;
+	font-size: 3rem;
 	color: black;
-	width: 4cm;
-	height: 0.7cm;
-	text-align: center;
-	text-decoration: none;
-	font-size: 2.5rem;
 	font-weight: bold;
-
+	height: 6vh;
+	width: 30%;
+	padding: 1%;
+	background-color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid black;
 }
 
-a:hover {
+a:hover{
 	background-color: black;
 	color: white;
+}
+
+.main{
+	display: flex;
+	gap: 15%;	
+}
+
+.picture{
+
+	padding: 15%;
+	margin: 2%;
+	background-image: url(https://i.postimg.cc/PryswSnG/selfie.jpg);
+}
+
+h2{
+	font-size: 6rem;
+	font-weight: bold;
+	padding: 4%;
+	width: 70%
+	height: 20%
+}
+
+button{
+	font-size: 3rem;
+	padding: 1.5%;
+	margin: 2%
 }
 
 button:hover{
@@ -114,75 +143,51 @@ button:hover{
 	color: white;
 }
 
-.info{
+.bio{
+	font-size: 3rem;
+	padding: 2%;
+	height: 55%
+}
+
+.bioinfo{
 	display: flex;
-	padding: 2%;
-	margin: auto;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-.picture .bioInfo{
-	flex-flow: row wrap ;
+.random{
+	height: auto%;
+	width: 100%;
 }
 
-.picture{
-	height: auto;
-	max-width: 80%;
-	padding: 2%;
-	margin-right: 10%;
-}
-
-
-.name{
-font-size: 4rem;
-bottom: 5%;
-margin-bottom: 5%;
-}
-
-.projectsb{
-	font-size: 2.5rem;
+.description{
+	font-size: 3rem;
+	width: 10%;
 	margin-bottom: 5%;
-	padding: 2%;
-	font-family: 'Shadows Into Light', cursive;
-	border: solid black 3px;
-	font-weight: bold;
-
-}
-
-.bioInfo{
-	font-size: 2.5rem;
 }
 
 .projectsLink{
 	display: flex;
+	flex-flow: wrap row;
+	gap: 15%;
+	padding: 1%;
 	align-items: center;
 	justify-content: center;
 }
 
-.random{
-	margin: 1%;
-	padding: 0.5%;
-	box-sizing: border-box;
-	border: solid black 2px;
-}
-
-
-.footerText{
-	margin: 2%;
-	padding: 1%;
-	font-size: 4rem;
-	text-align: center;
-}
-
 footer{
+	padding: 3%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+	background-color: rgb(201, 201, 201);
 }
+
 .contactMe{
 	padding: 0.5%;
-	font-size: 2rem;
+	font-size: 3rem;
 	border: solid black 3px;
 	text-align: center;
 	margin-bottom: 4%;
@@ -190,7 +195,7 @@ footer{
 	font-weight: bold;
 }
 
-figcaption{
-	font-size: 2rem;
+h3{
+	font-size: 4rem;
+	font-weight: bold;
 }
-
