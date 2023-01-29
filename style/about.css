@@ -1,0 +1,192 @@
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* website layout */
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+	/* border: solid red 5px; */
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+/* sectional styles */
+
+header{
+	padding: 2%;
+	margin: 0.1%;
+	background-color: rgb(201, 201, 201);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+    box-sizing: border-box;
+    border: solid black 1px;
+}
+
+
+h1{
+	font-size: 7rem;
+	padding: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
+    text-decoration: underline;
+}
+
+nav {
+	display: flex;
+	height: 14vh;
+	width: 50%;
+	justify-content: space-evenly;
+	gap: 4%;
+	padding: 1.5%;
+	text-align: center;
+}
+
+nav a{
+	font-size: 3rem;
+	color: black;
+	font-weight: bold;
+	height: 6vh;
+	width: 30%;
+	padding: 1%;
+	background-color: white;
+	text-decoration: none;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+
+
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioPic{
+    background-image: url(https://i.postimg.cc/T3nPR53w/bioPic.png);
+    padding: 9%;
+    height: 20%;
+    width: 25%;
+    margin: 2% 0%;
+}
+
+.bioText{
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.midText{
+    font-weight: bold;
+    padding: 2%
+}
+
+footer{
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: rgb(201, 201, 201);
+}
+
+.updateInfo{
+    font-size: 2rem;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+	.bioPic{
+		padding: 20%
+	}
+
+	.midText{
+		padding: 5%;
+	}
+
+	.thankYou{
+		font-size: 5rem;
+	}
+
+	nav {
+		width: 60%
+	}
+	
+	
+}
+
+@media (max-width: 500px) {
+	.bioPic{
+		padding: 30%;
+	}
+
+	nav{
+		width: 80%
+	}
+}

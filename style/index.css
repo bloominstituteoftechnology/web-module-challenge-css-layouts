@@ -1,1 +1,348 @@
-/* Add CSS styling here */
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* website layout */
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+	/* border: solid red 5px; */
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+/* sectional styles */
+
+header{
+	padding: 2%;
+	margin: 0.1%;
+	background-color: rgb(201, 201, 201);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	box-sizing: border-box;
+	border: solid black 1px;
+	
+}
+
+
+h1{
+	font-size: 10rem;
+	padding: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	height: 14vh;
+	width: 50%;
+	justify-content: space-evenly;
+	gap: 4%;
+	padding: 1.5%;
+	text-align: center;
+}
+
+nav a{
+	font-size: 3rem;
+	color: black;
+	font-weight: bold;
+	height: 6vh;
+	width: 30%;
+	padding: 1%;
+	background-color: white;
+	text-decoration: none;
+	font-weight: bold;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+
+
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+.main{
+	display: flex;
+	gap: 15%;	
+}
+
+.picture{
+
+	padding: 15%;
+	margin: 2%;
+	background-image: url(https://i.postimg.cc/PryswSnG/selfie.jpg);
+}
+
+h2{
+	font-size: 7rem;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	width: 70%;
+	height: 20%;
+}
+
+button{
+	font-size: 3rem;
+	padding: 1.5%;
+	margin: 2%
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+
+.bio{
+	font-size: 3rem;
+	padding: 2%;
+	height: 55%
+}
+
+.bioinfo{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.random{
+	height: auto;
+	width: 100%;
+}
+
+.description{
+	font-size: 3rem;
+	width: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.description:hover{
+	box-sizing: border-box;
+	border: 2px black solid;
+	color: white;
+	background-color: black;
+}
+
+.projectsLink{
+	display: flex;
+	flex-flow: wrap row;
+	gap: 15%;
+	padding: 1%;
+	align-items: center;
+	justify-content: center;
+}
+
+footer{
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: rgb(201, 201, 201);
+}
+
+.contactMe{
+	padding: 0.5%;
+	font-size: 3rem;
+	border: solid black 3px;
+	text-align: center;
+	margin-bottom: 4%;
+	width: 15%;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+    .picture{
+        height: 40%;
+        width: 40%;
+        padding: 30%;
+    }
+    
+    .main{
+        display: flex;
+        gap: 1%;
+        padding: 3%;	
+    }
+    
+    .bio{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    h1{
+        font-size: 7rem;
+        padding: 1%;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+    
+    button{
+        font-size: 2rem;
+        padding: 1.5%;
+        margin: 2%
+    }
+    
+    h2{
+        font-size: 4.5rem;
+        font-weight: bold;
+        padding-top: 4%;
+        padding-right: 4%;
+        padding-bottom: 4%;
+        width: 70%;
+        height: 20%;
+    }
+    
+    .contactMe{
+        padding: 0.5%;
+        font-size: 3rem;
+        border: solid black 3px;
+        text-align: center;
+        margin-bottom: 4%;
+        width: 25%;
+        font-weight: bold;
+    }
+    }
+    
+    @media (max-width: 500px) {
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .picture{
+            height: 50%;
+            width: 50%;
+            padding: 50%;
+        }
+    
+        nav {
+            display: flex;
+            height: 14vh;
+            width: 90%;
+            justify-content: space-evenly;
+            gap: 4%;
+            padding: 1.5%;
+            text-align: center;
+        }
+    
+        nav a{
+            font-size: 3rem;
+            color: black;
+            font-weight: bold;
+            height: 6vh;
+            width: 50%;
+            padding: 1%;
+            background-color: white;
+            text-decoration: none;
+            font-weight: bold;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+    
+        h2{
+            font-size: 6rem;
+            font-weight: bold;
+            padding-top: 4%;
+            padding-right: 4%;
+            padding-bottom: 4%;
+            width: 90%;
+            height: 20%;
+            text-align: center;
+        }
+    
+        .bio{
+            font-size: 3rem;
+            
+        }
+    
+        .button1{
+            /* margin-left: 30%; */
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contactMe{
+            padding: 0.5%;
+            font-size: 3rem;
+            border: solid black 3px;
+            text-align: center;
+            margin-bottom: 4%;
+            width: 50%;
+            font-weight: bold;
+        }
+        
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    
