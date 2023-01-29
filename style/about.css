@@ -174,15 +174,19 @@ footer{
 		font-size: 5rem;
 	}
 
-	nav a{
+	nav {
 		width: 60%
 	}
 	
 	
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 	.bioPic{
 		padding: 30%;
+	}
+
+	nav{
+		width: 80%
 	}
 }
