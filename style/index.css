@@ -1,1 +1,107 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET */
+
+.header nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.big_img {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.big_img_button {
+	background-image: url("https://picsum.photos/600");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: large;
+	width: 500px;
+	height: 500px;
+}
+
+.second_img_row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+.port_element {
+	text-align: center;
+}
+
+button {
+background-color: white;
+color: black;
+border: black solid 1px;
+padding: 5px 10px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	border: white solid 1px;
+}
+
+button a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: aquamarine;
+	padding: 30px;
+}
