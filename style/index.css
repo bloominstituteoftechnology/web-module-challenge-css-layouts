@@ -1,1 +1,118 @@
-/* Add CSS styling here */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+section{
+    padding: 4% 0;
+}
+
+h1, h2{
+    margin:2% 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+.topsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-img{
+    background-image: url('https://images.unsplash.com/photo-1675275013477-6ac381c759a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60/>');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.description{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border:black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border:white solid 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media(max-width: 800px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .row img{
+        width: 20%;
+    }
+    .row div{
+        width:100%;
+    }
+}
+@media(max-width: 500px){
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links button{
+        width: 40%;
+        margin: 1% 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .row img{
+        width: 40%;
+        margin: 4% 0;
+    }
+}
