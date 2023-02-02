@@ -48,7 +48,9 @@ table {
 }
 
 /* CSS RESET */
-
+html {
+	font-size: 62.5%;
+}
 .header nav {
 	display: flex;
 	flex-flow: row wrap;
@@ -58,7 +60,7 @@ table {
 .big_img {
 	display: flex;
 	justify-content: center;
-	padding: 10px;
+	padding: 1rem;
 }
 
 .big_img_button {
