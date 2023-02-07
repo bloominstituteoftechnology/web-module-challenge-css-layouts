@@ -1,1 +1,244 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Work */
+/* Overall */
+
+body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* The Navigation Bar */
+
+header {
+    padding: 20px;
+    background-color: lightgrey;
+}
+h1 {
+    font-size: 3em;
+    padding-bottom: 1%;
+}
+
+/* The Top of the Body */
+
+.about {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkgrey;
+}
+.info {
+    padding: 20px;
+    margin: 0 2.25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+h2 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+.about img {
+    padding: 10px;
+}
+.about .projects_button {
+    font-size: 1.25em;
+}
+.info button {
+    margin-bottom: 20px;
+}
+
+/* The Bottom of the Body */
+
+.row {
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3%;
+    background-color: grey;
+}
+
+.project_element {
+    text-align: center;
+    padding: 2%;
+    align-content: center;
+}
+
+
+/* The Footer */
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+footer h2 {
+    font-size: 1.65em;
+}
+footer a {
+    font-size: 1.15em;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+footer .social {
+    padding-top: 20px;
+}
+
+
+@media(max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .project_element {
+        width: 42%;
+        margin: 0 2%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row div img {
+        width: 60%;
+        margin: 2% 0;
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    button {
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        width: 90%;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project_element {
+        width: 40%;
+    }
+
+    .row div img {
+        width: 80%;
+        margin: 4% 0;
+        flex-direction: row;
+    }
+}
