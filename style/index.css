@@ -1,1 +1,340 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+
+*{
+    box-sizing:border-box ;
+   
+    max-width: 100%;
+}
+
+/* general styles */
+nav {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+    flex-direction: row;
+    width: 100%;
+	height: 100px;
+	font-size: 1.5rem;
+	font-family: 'Playfair Display';
+	background-color: #188ac7;
+	color:white;
+	padding: 0px 15px 0px 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu {
+    padding: 2% 0;
+    display: flex;
+    justify-content:space-between;
+	align-items: center;
+    flex-direction: row;
+    padding: 1% 0;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.menu a{
+    display: flex;
+    justify-content:space-between;
+	align-items: center;
+    flex-direction: row;
+    padding: 2% 0;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+
+.HomeTitle{
+    font-size: 40px;
+    display: flex;
+    justify-content:space-between;
+	align-items: left;
+    flex-direction: column;
+    
+}
+
+.HomeHeader {
+    font-size: 40px;
+    display: flex;
+    justify-content:space-between;
+	align-items: center;
+    flex-direction: column;
+    padding: 2% 0;
+}
+
+.HomeHeader .button{
+	background-color: #188ac7; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+ .photo1 {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	padding:  50px;
+	width: 20%;
+	height: 20%;
+	max-height: 50px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	padding: 0 30px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	text-align: center;
+	margin: 20px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.23);
+}
+
+
+
+.card img {
+	width: 100%;
+	height: 90%;
+	max-height: 364px;
+	object-fit: cover;
+	animation-duration: 4s;
+}
+
+.card h2 {
+	padding: 10px;
+}
+
+
+.About{
+    font-size: 40px;
+    font-family: 'Playfair Display' ;
+    display: flex;
+    justify-content:space-between;
+	align-items: center;
+    flex-direction: column;
+    padding: 2% 0;
+}
+
+.project {
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.project .photo {
+   width: 40%;
+   height: 90%;
+   max-height: 364px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.project:hover {
+   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.23);
+}
+
+.description {
+   padding: 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   color: #188ac7);
+   font-family: 'Playfair Display';
+   font-size: 1.5rem;
+}
+
+.description button {
+   width: 30%;
+   background-color: inherit;
+   border-color: #188ac7;
+   color: #188ac7 ;
+   text-decoration: none;
+   padding: 5px 20px 5px 20px;
+   font-family: 'Playfair Display';
+   font-size: 1rem;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.description button:hover {
+   background-color:#188ac7;
+   color: white;
+}
+
+.About{
+    display: flex;
+	padding: 30px;
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	/* color: #188ac7; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	flex-grow: 2;
+}
+
+.About .photo{
+    height: 350px;
+	border-radius: 10px;
+}
+
+.About a{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100PX;
+	height: 100px;
+	margin-top: 25PX;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.About a:hover {
+	background-color:#188ac7;
+}
+
+.About .social {
+	width: 80px;
+}
+
+.About a:hover .social {
+	filter: grayscale(100) contrast(100) invert(100);
+}
+
+.About .right {
+	padding-left: 30px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	border-left: 2px solid lightgray;
+	margin-left: 30px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.About img {
+	
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	font-size: 1.5rem;
+	font-family: 'Playfair Display';
+	background-color: #188ac7;
+	color:rgb(173, 182, 196);
+	padding: 15px 15px 15px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer .button {
+	background-color: rgb(173, 182, 196);
+	color: #188ac7;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-family: 'Playfair Display';
+	border-radius: 5px;
+}
+
+footer .button:hover {
+	color: white;
+}
+
+footer .footer-links {
+	margin-top: 10px;
+	font-size: 1rem;
+}
+
+footer .footer-links a {
+	padding: 0px 10px;
+	color: white;
+	text-decoration: none;
+}
+
+footer .footer-links a:hover {
+	color: white;
+}
+
+footer .footer-links a:not(:last-child){
+	border-right: 2px solid rgb(173, 182, 196);
+}
