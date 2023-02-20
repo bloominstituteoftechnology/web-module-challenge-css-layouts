@@ -5,8 +5,39 @@
   text-align: center;
 }
 
-.footer {
+footer {
   background-color: lightgrey;
   text-align: center;
   padding: 25px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.description {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: black solid 1px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: white solid 1px;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
 }
