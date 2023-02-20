@@ -1,1 +1,12 @@
-/* Add CSS styling here */
+.topsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 25px;
+}
