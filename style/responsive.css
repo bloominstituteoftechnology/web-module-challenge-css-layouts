@@ -1,0 +1,176 @@
+
+@media(max-width: 800px) {
+	nav {
+        display: flex;
+    	flex-direction: row;
+		justify-content: center;
+		background-color: #188ac7;
+        font-size: 30px;
+        padding: 0%;
+        width: 100%;
+       margin-bottom: 0%;
+		
+	}
+	.menu {
+		padding: 2% 0;
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		flex-direction: row;
+		padding: 1% 0;
+		width: 80%;
+		border-radius: 10px;
+		
+	}
+	.menu a{
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		flex-direction: row;
+		padding: 2% 0;
+		width: 60%;
+		text-align: center;
+		border-radius: 10px;
+		color: black;
+		text-decoration: none;
+		font-size: 100%;
+		/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
+	}
+
+    .HomeTitle{
+        font-size: 40px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+       
+	}
+
+    .photo1 {
+        display: inline-block;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        padding:  0%;
+        margin-right: 0%;
+        width: auto;
+        height: auto;
+        max-width: 30%;
+        
+    }
+    
+    .HomeHeader {
+        font-size: 40px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 5% 0;
+        width: 65%;
+        text-align: center;
+    
+    }
+    
+    .HomeHeader .button{
+        background-color: #188ac7; 
+        border: none;
+        color: white;
+        padding: 15px 92px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        
+    }
+    
+    .HomeP{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+        font-size: 30px;
+    }
+    
+}
+
+@media(max-width: 500px) {
+	
+
+	nav {
+		display: flex;
+    	flex-direction: column;
+		justify-content: center;
+		background-color: #188ac7;
+        font-size: 30px;
+        padding: 20%;
+        width: 100%;
+       margin-bottom: 0%;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+	}
+
+	.menu a{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+        border-color: black;
+}
+
+.photo1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: 1%;
+}
+
+.HomeTitle{
+    font-size: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.HomeHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.HomeHeader .button{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.HomeP{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.gallery .card{
+    width: 40%;
+    margin: 4%;
+}
+
+}

@@ -47,10 +47,13 @@ table {
 /* end reset */
 
 *{
-    box-sizing:border-box ;
-   
-    max-width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 1px solid grey;
 }
+
 
 /* general styles */
 nav {
@@ -75,7 +78,7 @@ nav {
 	align-items: center;
     flex-direction: row;
     padding: 1% 0;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     
 }
@@ -85,12 +88,13 @@ nav {
 	align-items: center;
     flex-direction: row;
     padding: 2% 0;
-    width: 60%;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
     color: black;
     text-decoration: none;
     font-size: 100%;
+	
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
@@ -104,36 +108,53 @@ nav {
     
 }
 
+.photo1 {
+	display: inline-block;;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	padding:  0%;
+	margin-right: 0%;
+	width: auto;
+	height: auto;
+	max-width: 20%;
+	
+}
+
 .HomeHeader {
     font-size: 40px;
-    display: flex;
+    display: inline-block;
+	vertical-align: top;
     justify-content:space-between;
 	align-items: center;
     flex-direction: column;
-    padding: 2% 0;
+    padding: 0% 0;
+	width: 70%;
+
 }
 
 .HomeHeader .button{
 	background-color: #188ac7; 
 	border: none;
 	color: white;
-	padding: 15px 32px;
+	padding: 15px 92px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 10px;
+	
 }
 
- .photo1 {
+.HomeP{
 	display: flex;
-	justify-content: space-between;
-	flex-flow: row wrap;
-	padding:  50px;
-	width: 20%;
-	height: 20%;
-	max-height: 50px;
+    justify-content:space-between;
+	align-items: center;
+    flex-direction: column;
+	padding: 2%;
+	font-size: 30px;
 }
+
+ 
 
 .gallery {
 	display: flex;
@@ -208,7 +229,7 @@ nav {
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-   color: #188ac7);
+   color: #188ac7;
    font-family: 'Playfair Display';
    font-size: 1.5rem;
 }
@@ -286,10 +307,6 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-}
-
-.About img {
-	
 }
 
 footer {
