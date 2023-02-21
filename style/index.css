@@ -1,1 +1,108 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4rem ;
+}
+
+header, section {
+    padding: 4% 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+}
+
+.firstButton {
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+    font-size: large;
+    width: 600px;
+    height: 400px;
+}
+
+.firstRow {
+   
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+.firstRow div{
+    width: 30%;
+    margin: 2% 0;
+}
+
+.projectElement {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color:aliceblue;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+
+}
+
+button:hover {
+    background-color:black;
+    color: aliceblue;
+    border: aliceblue solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links button{
+        width:40%;
+        margin: 0.5% 0; 
+        
+    }
+    .firstSection{
+        width:80% ;
+        margin: 0 auto;
+    }
+    .firstRow div{
+        width: 40%;
+    }
+}
