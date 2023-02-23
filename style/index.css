@@ -8,9 +8,6 @@ html,body
     overflow-x: hidden; 
 }
 
-
-
-
 *{
     font-family: 'Dosis', sans-serif;
     padding: 0; 
@@ -158,4 +155,93 @@ footer{
     text-align: center;
   }
 
+/* tablet */
+  @media (max-width: 720px){
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .profilepic{
+        border-radius: 5%;
+        height: 20rem;
+        width: 30rem;
+        margin: 20%;
+    }
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .myname {
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+    
+    }
+
+    .thestuff{
+        display: flex;
+        flex-direction: column;
+        margin-left: 27%;
+       
+    }
+    .thestuff2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+  }
+
+
+
+
+
+
+/* mobile */
+  @media (max-width: 360px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .profilepic{
+        border-radius: 5%;
+        height: 10rem;
+        width: 15rem;
+        margin: 15%;
+    }
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .myname {
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+    
+    }
+
+    .thestuff{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+    .thestuff2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+
+
+
+
+
+
+
+  }
   
