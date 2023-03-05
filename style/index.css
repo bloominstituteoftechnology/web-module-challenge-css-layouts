@@ -202,6 +202,7 @@ table {
   font-size: 3rem;
   margin-bottom: 2rem;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .main-section .text-content--text p {
@@ -264,4 +265,8 @@ table {
   width: 80%;
   font-size: 2rem;
   padding: 1rem 2rem;
+}
+
+.footer-text--button:hover {
+  cursor: pointer;
 }
