@@ -199,16 +199,17 @@ table {
 }
 
 .main-section .text-content--button button {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   background-color: #fff;
   cursor: pointer;
 }
 
 .main-section .text-content--text p {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   padding-right: 2rem;
+  width: 50rem;
 }
 
 /* END MAIN SECTION */
@@ -257,13 +258,13 @@ table {
 }
 
 .footer-text--text {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .footer-text--button {
-  width: 80%;
-  font-size: 2rem;
+  /* width: 80%; */
+  font-size: 1.8rem;
   padding: 1rem 2rem;
 }
 
