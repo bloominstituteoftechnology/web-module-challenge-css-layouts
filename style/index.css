@@ -272,3 +272,90 @@ table {
 .footer-text--button:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+  .header-style {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .link {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .main-style {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+  .large-image-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+  .main-screen .text-content--text p {
+    margin: 0;
+  }
+
+  .main-screen .text-content--text p {
+    padding-right: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .title-box--name {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .main-section .large-image-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-section .large-image-left img {
+    width: 100%;
+  }
+
+  .links {
+    justify-content: center;
+    align-items: center;
+  }
+  .links a {
+    font-size: 4rem;
+  }
+
+  .main-section .text-content--name {
+    text-align: center;
+  }
+
+  .main-section .text-content--text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+  }
+
+  .text-content--button {
+    text-align: center;
+  }
+}
