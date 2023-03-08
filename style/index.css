@@ -51,3 +51,38 @@ table {
 /* reset end */
 
 /* style begin */
+
+header {
+background-color: light grey;
+padding: 20px;
+margin-bottom: 15px;
+}
+
+footer {
+    background-color: light grey;
+    text-align: center;
+    padding: 20px;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    padding: 20px;
+    width: 50%;
+}
+ 
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20%;
+    
+}
+
+.portfolio-element {
+    text-align: center;
+}
