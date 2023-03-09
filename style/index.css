@@ -76,11 +76,10 @@ footer {
 }
  
 .row {
-    display:flex;
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20%;
-    
+    justify-content: space-evenly;  
 }
 
 .portfolio-element {
