@@ -69,7 +69,7 @@ background-color: rgba(76, 119, 11, 0.4);
 
 .profilepic{
     border-radius: 5%;
-    height: 30rem;
+    height: 45rem;
     width: 30rem;
     margin: 5%;
 }
@@ -84,6 +84,9 @@ margin: 100px 10px 10px 10px;
 font-size: x-large;
 }
 
+p{
+    padding: 20px;
+}
 
 .thestuff{
     display: flex;
@@ -156,7 +159,7 @@ footer{
   }
 
 /* tablet */
-  @media (max-width: 720px){
+  @media (max-width: 900px){
     
     nav{
         display: flex;
