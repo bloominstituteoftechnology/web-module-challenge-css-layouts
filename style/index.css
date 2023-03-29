@@ -1,1 +1,109 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    padding: 4;
+    margin: 4;
+    max-width:100%; 
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+    display:flex;
+    border-radius: 25%;
+    border: 2px solid black;
+    margin-left:5%;
+    width: 30%;
+    justify-content: space-evenly;
+}
+.header{
+    /* border: 2px solid red; */
+    width:100%;
+    background-color:#b3b8b5
+}
+.header-nav {
+    /* border: 2px solid red; */
+    width: 40%;
+    padding: 1%;
+    display: flex;   
+    justify-content: space-evenly;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   /* border: 2px solid red; */
+    margin:5%;
+  
+   
+}
+
+.intro-picture {
+    display: flex;
+    /* border: 2px solid red; */
+    float: left;
+    width: 20%;
+    height: 30%;
+}
+#gallery{
+    /* border: 2px solid red; */
+    display:flex;
+    height: 60vh;
+    margin-right: 5%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gallery-pic {
+    display: flex;
+    width: 20%;
+    height: 30%;
+    margin-left:5%;
+
+
+}
+.contact {
+    display: flex;
+    padding:2%;
+    background-color: #b3b8b5;
+    /* border: 2px solid red; */
+    justify-content: center;
+}
+@media (max-width:800px) {
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.header-nav {
+    width: 100%;
+    text-align: center;
+
+}
+.intro-picture {
+    margin-top: 5%;
+    margin-left: 45%;
+    
+    
+}
+.description {
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.gallery-pic {
+    width: 40%;
+    height: 40%;
+    align-items: center;
+}
+
+#gallery{
+    width: 80%;
+    height: 60%;
+    text-align: left;
+    align-items: center;
+}
+
+}
