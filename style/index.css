@@ -44,29 +44,87 @@ table {
 }
 
 *{
-    font-size:62.5%;
+    box-sizing: border-box;
+    max-width: 100%;
     border:1px solid gray;
 }
 
-header{
-    background-color: black;
-    
+/*Genral Styles*/
+
+html{
+    font-size:62.5%;
 }
 
-header h1{
-    font-size:3rem;
+body {
+    font-size: 1.6rem; 
+    line-height: 1.5;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+h1{
+    font-size:5rem;
     font-family: 'Anton', sans-serif;
-    color: white;
-    margin:1%;
-    text-align: left;
 }
 
-nav {
-    font-size:1.5rem;
+.text{
+    font-size:2rem;
+}
+
+section{
+    padding:4% 0;
+    width: 96%;
+    margin:0 2%;
+}
+
+/*Header Styles*/
+
+header{
+    background-color: gray;
+}
+
+nav a{
+    display: flexbox;
+    padding:0 1%;
     text-align: center;
+    border-radius:10px;
+    font-size:2.5rem;
+    color: black;
+    text-decoration: none;
+    border:1px solid black;
+    background-color: white;
     
 }
 
-nav .home {
-    
+.home{
+    background-color:black;
+    color: white;
+}
+
+/*main info section*/
+
+.main-info{
+    position: relative;
+}
+
+.text, image{
+    display: inline-block;
+}
+
+.traveler{
+    width:30%;
+    border-radius:20%;
+}
+
+.text{
+    width:55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:2;
+    position:absolute;
+    top:120px;
+}
+
+section h2{
+    font-size:6rem ;
+    font-family: 'Anton', sans-serif;
 }
