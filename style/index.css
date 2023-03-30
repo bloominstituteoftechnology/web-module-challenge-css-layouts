@@ -44,5 +44,29 @@ table {
 }
 
 *{
-    border:2px solid gray;
+    font-size:62.5%;
+    border:1px solid gray;
+}
+
+header{
+    background-color: black;
+    
+}
+
+header h1{
+    font-size:3rem;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin:1%;
+    text-align: left;
+}
+
+nav {
+    font-size:1.5rem;
+    text-align: center;
+    
+}
+
+nav .home {
+    
 }
