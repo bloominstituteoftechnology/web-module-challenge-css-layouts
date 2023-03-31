@@ -46,7 +46,7 @@ table {
 *{
     box-sizing: border-box;
     max-width: 100%;
-    border:1px solid gray;
+   
 }
 
 /*Genral Styles*/
@@ -79,52 +79,63 @@ section{
 /*Header Styles*/
 
 header{
-    background-color: gray;
+    background-color: lightgray;
+    padding:1%;
+    margin-bottom:1%;
 }
 
 nav a{
-    display: flexbox;
-    padding:0 1%;
-    text-align: center;
-    border-radius:10px;
-    font-size:2.5rem;
-    color: black;
+    font-size:2rem ;
     text-decoration: none;
-    border:1px solid black;
-    background-color: white;
+    color: black;
     
-}
-
-.home{
-    background-color:black;
-    color: white;
 }
 
 /*main info section*/
 
 .main-info{
-    position: relative;
-}
-
-.text, image{
-    display: inline-block;
-}
-
-.traveler{
-    width:30%;
-    border-radius:20%;
-}
-
-.text{
-    width:55%;
-    margin-left:5%;
-    text-align:center;
-    line-height:2;
-    position:absolute;
-    top:120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 section h2{
     font-size:6rem ;
     font-family: 'Anton', sans-serif;
+}
+
+.text {
+    padding:3%;
+    font-size:3rem ;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:1%;
+}
+
+.row-1 div{
+    margin:0 2%;
+    font-size:3rem ;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:3%;
+}
+
+.row-2 div{
+    margin:0 2%;
+    font-size:3rem ;
+}
+
+footer{
+    background-color: lightgray;
+    padding:2%;
+    font-size:2.5rem;
+    
 }
