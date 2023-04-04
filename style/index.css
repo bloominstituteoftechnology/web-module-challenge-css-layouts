@@ -1,1 +1,183 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+   
+}
+
+/*Genral Styles*/
+
+html{
+    font-size:62.5%;
+}
+
+body {
+    font-size: 1.6rem; 
+    line-height: 1.5;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+h1{
+    font-size:5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.text{
+    font-size:2rem;
+}
+
+section{
+    padding:4% 0;
+    width: 96%;
+    margin:0 2%;
+}
+
+/*Header Styles*/
+
+header{
+    background-color: lightgray;
+    padding:1%;
+    margin-bottom:1%;
+}
+
+nav a{
+    font-size:2rem ;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*main info section*/
+
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section h2{
+    font-size:6rem ;
+    font-family: 'Anton', sans-serif;
+}
+
+.text {
+    padding:3%;
+    font-size:3rem ;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:1%;
+}
+
+.row div{
+    margin:0 2%;
+    font-size:3rem ;
+}
+
+footer{
+    background-color: lightgray;
+    padding:2%;
+    font-size:2.5rem;
+    
+}
+
+@media(max-width: 800px){
+    .main-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .main-info div{
+        width:90%;
+    }
+}
+
+@media(max-width: 500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav button{
+        margin:2% 0;
+    }
+    .main-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .main-info div{
+        width:90%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    .row div{
+        width:40%;
+        margin:2% 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer button{
+        margin:2% 0;
+    }
+}
