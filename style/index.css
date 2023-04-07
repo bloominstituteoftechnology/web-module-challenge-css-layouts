@@ -1,1 +1,316 @@
-/* Add CSS styling here */
+Add CSS styling here
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Header */
+    * {
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+        font-weight: bold;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    a {
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+    }
+
+    .about {
+        margin-left: 1rem;
+        background-color: red;
+        color: white;
+    }
+    
+    .projects {
+        margin: 0 1rem;
+        background-color: green;
+        color: white;
+    }
+
+    /* image and introduction */
+    
+    .main-content {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .projects {
+        margin: 0 2rem;
+    }
+    
+    .greetings h2{
+        font-size: 3rem;
+    }
+    
+    .greetings {
+        font-size: 1.2rem;
+        line-height: 3;
+        padding: 0 4rem;
+    }
+
+    .contact {
+        background-color: blue;
+        color: white;
+    }
+    
+    /* Projects */
+    .img-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+        height: 40vh;
+        width: 40vh;
+        margin: 0rem;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    .contact-footer {
+        background-color: blue;
+        color: white;
+    }
+    
+    .proj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2%;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    /* Media queries for responsive design */
+    @media (max-width: 800px) {
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        nav {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            }
+    
+        .about {
+            padding: 0.5rem 1.5rem;
+            margin: auto;
+        }
+    
+        .projects {
+            padding: 0.5rem .15rem;
+            margin: auto;
+        }
+    
+        .contact {
+            padding: 0.5rem .6rem;
+            margin: auto;
+        }
+    
+        .main-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .img1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-height: 50vh;
+        }
+
+        .main-content .img1 img {
+            width: 100vh;
+        }
+
+        .greetings {
+            text-align: center;
+        }
+
+        .greetings h2{
+            font-size: 1.5rem;
+        }
+        
+        .img-container {
+            justify-content: center;
+        }
+        
+        .proj {
+            text-align: center;
+        }
+        
+        .proj:not(:last-child) {
+            margin-right: 10px;
+        }
+        
+        .proj:nth-child(2n) {
+            margin-right: 0;
+        }
+        
+        .proj-half {
+            width: 50%;
+            text-align: center;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 500px) {
+        h1 {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        a {
+            font-size: 0.8rem;
+        }
+
+        .about {
+            padding: 0.5rem 0.89rem;
+        }
+        .contact {
+            padding: 0.5rem 0.4rem;
+        }
+    
+        .main-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .img1 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-height: 50vh;
+        }
+
+        .main-content .img1 img {
+            width: 100vh;
+        }
+
+        .greetings {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .greetings h2{
+            width: 120%;
+            font-size: 0.7rem;
+            position: relative;
+            left: -10%;
+        }
+
+        .greetings a{
+            font-size: 0.7rem;
+        }
+
+        .greetings p{
+            width: 150%;
+            font-size: 0.5rem;
+            position: relative;
+            left: -25%;
+        }
+        
+        .img-container {
+            justify-content: center;
+        }
+        
+        .proj {
+            width: 45%;
+            text-align: center;
+        }
+
+        .project1 {
+            font-size: 0.5rem;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.5rem;
+        }
+
+        .contact-footer {
+            font-size: 0.5rem;
+            padding: 0.3rem 0.4rem;
+        }
+    }
