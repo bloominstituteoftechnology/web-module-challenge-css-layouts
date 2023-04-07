@@ -1,4 +1,4 @@
-/* Add CSS styling here */
+Add CSS styling here
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -20,7 +20,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -51,12 +51,13 @@ table {
 
 /* Header */
 
-* {
+/* * {
     box-sizing: border-box;
     border: 1px solid black;
 }
 
 body {
+    max-width: 800px;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -151,4 +152,233 @@ footer {
     padding-bottom: 2%;
     font-size: 1.3rem;
     color: black;
-}
+} */
+
+
+
+/* Media queries for responsive design */
+/* @media (max-width: 800px) { */
+    /* h1 {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+    .about {
+        padding: 0.5rem 1.5rem;
+        margin: auto;
+    }
+
+    .projects {
+        padding: 0.5rem .15rem;
+        margin: auto;
+    }
+
+    .contact {
+        padding: 0.5rem .6rem;
+        margin: auto;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 {
+        height: 30%;
+        width: 120%;
+    }
+
+    .greetings {
+        text-align: center;
+    }
+
+    .img-container {
+        flex-wrap: nowrap;
+    }
+
+    .proj {
+        text-align: center;
+    }
+
+    .proj:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .proj:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+    * {
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    
+    body {
+        max-width: 1800px;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+        font-weight: bold;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .about {
+        margin-left: 1rem;
+        background-color: red;
+        color: white;
+    }
+    
+    .projects {
+        margin-left: 1rem;
+        background-color: green;
+        color: white;
+    }
+    
+    .contact {
+        margin-left: 1rem;
+        background-color: blue;
+        color: white;}
+    a {
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+    }
+    
+    .main-content {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .projects {
+        margin: 0 2rem;
+    }
+    
+    .greetings h2{
+        font-size: 3rem;
+    }
+    
+    .greetings {
+        font-size: 1.2rem;
+        line-height: 3;
+        padding: 0 4rem;
+    }
+    
+    .img-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+        height: 40vh;
+        width: 40vh;
+        margin: 0rem;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    
+    .contact-footer {
+        background-color: blue;
+        color: white;
+    }
+    
+    .proj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2%;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    /* Media queries for responsive design */
+    @media (max-width: 800px) {
+        h1 {
+            text-align: center;
+        }
+        nav {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            }
+    
+        .about {
+            padding: 0.5rem 1.5rem;
+            margin: auto;
+        }
+    
+        .projects {
+            padding: 0.5rem .15rem;
+            margin: auto;
+        }
+    
+        .contact {
+            padding: 0.5rem .6rem;
+            margin: auto;
+        }
+    
+        .main-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .img1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .greetings {
+            text-align: center;
+        }
+        
+        .img-container {
+            justify-content: center;
+        }
+        
+        .proj {
+            text-align: center;
+        }
+        
+        .proj:not(:last-child) {
+            margin-right: 10px;
+        }
+        
+        .proj:nth-child(2n) {
+            margin-right: 0;
+        }
+        
+        .proj-half {
+            width: 50%;
+            text-align: center;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
