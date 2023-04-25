@@ -47,7 +47,81 @@ table {
 	border-spacing: 0;
 }
 
-.hoggy{
+/* img{
     height: 50px;
     width: 50px;
+} */
+
+
+.header h1{
+	display: flex;
+	justify-content:center;
+	flex-flow: row wrap;
+	margin: 1.5%;
+	font-size: 200%;
+	color: olivedrab;
+}
+.header nav{
+	display: flex;
+	justify-content: space-around;
+	width: 12%;
+	margin: 0 auto;
+	color: olivedrab;
+}
+
+.header a{
+	border: solid black 1px;
+	padding: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: rgb(254, 140, 2);}
+
+.intro h2{
+	display: flex;
+	justify-content: center;
+	margin-top: 2.5%;
+	font-size: 150%;
+	margin-bottom: 1.25%;
+}
+
+.intro .text{
+	display:flex;
+	justify-content: center;
+	margin-top: 1.25%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.intro .hoggy{
+	margin-top: 2.5%;
+	max-width: 100%;
+	height: auto;
+}
+
+.stacked .pictures{
+	display: flex;
+	height: 10rem;
+}
+.stacked .description{
+	display: flex;
+	flex-flow: row-reverse wrap;	
+	
+}
+
+.stacked p{
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+.cont{
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(83, 175, 141);
+	font-size: 150%;
+}
+body{
+	background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-photo%2Fabstract-art-background-light-olive-green-colors-watercolor-painting-canvas-with-soft-iviry-gradient_113767-2939.jpg&f=1&nofb=1&ipt=7e04cdaf3a61771403b9f51e336bfa11a36b8016851da67ede28293d1c6dd055&ipo=images) ;
 }
