@@ -100,7 +100,9 @@ table {
 
 .stacked .pictures{
 	display: flex;
-	height: 10rem;
+	height: 20vh;
+	justify-content: space-between;
+	padding: 1%;
 }
 .stacked .description{
 	display: flex;
@@ -124,4 +126,7 @@ table {
 }
 body{
 	background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-photo%2Fabstract-art-background-light-olive-green-colors-watercolor-painting-canvas-with-soft-iviry-gradient_113767-2939.jpg&f=1&nofb=1&ipt=7e04cdaf3a61771403b9f51e336bfa11a36b8016851da67ede28293d1c6dd055&ipo=images) ;
+}
+.stacked .empty{
+	width: 1%;
 }
