@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,8 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
+} */
+/* 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -45,36 +45,42 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: solid red;
+}
 header{
     background-color: lightgray;
     padding: 20px;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 footer{
     background-color: lightgray;
     padding: 20px;
     text-align:center
-
 }
 .topsection{
     display:flex;
     flex-direction: row;
     justify-content: center;
-
 }
-.class{
-    padding:20px;
+.toptext{
+    padding:25px;
     width: 50%;
     align-self: center;
     text-align: center;
+    margin:auto;
 }
 .row{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 20px;
+    padding: 25px;
 }
 .port-element{
     text-align: center;
@@ -82,7 +88,7 @@ footer{
 button{
     background-color: white;
     color: black;
-    border: black solid 1px;
+    border: solid black 1px;
     padding: 5px 10px;
 }
 button:hover{
@@ -93,4 +99,105 @@ button:hover{
 button a{
     text-decoration: none;
     color: inherit;
+}
+
+@media(max-width: 1921px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;    
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    } 
+    button{
+        width: 10%;
+    }
+    .row div{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .topsection{
+        width:100%
+    }
+    .topsection img{
+        width: 40%;
+    }
+}
+@media(max-width: 1367px){ 
+    .row div{
+        width: 22%;
+    }
+    .topsection img{
+        width: %;
+    }
+}
+@media(max-width: 801px){
+    .row div{
+        width: 22%;
+    }
+    .topsection img{
+        width: 45%;
+    }
+}
+@media(max-width: 501px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;    
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button{
+        width: 40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection div{
+        width: 90%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div{
+        width: 40%;
+        margin: 5% 0;
+    }
+}
+@media(max-width: 361px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;   
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .topsection img{
+        width: 90%;
+    }
+    .row div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
