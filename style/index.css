@@ -1,1 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: solid red;
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom:20px;
+}
+footer{
+    background-color: lightgray;
+    padding: 20px;
+    text-align:center
+}
+.topsection{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.toptext{
+    padding:25px;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin:auto;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
+}
+.port-element{
+    text-align: center;
+}
+button{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media(max-width: 1921px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;    
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    } 
+    button{
+        width: 10%;
+    }
+    .row div{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .topsection{
+        width:100%
+    }
+    .topsection img{
+        width: 40%;
+    }
+}
+@media(max-width: 1367px){ 
+    .row div{
+        width: 22%;
+    }
+    .topsection img{
+        width: %;
+    }
+}
+@media(max-width: 801px){
+    .row div{
+        width: 22%;
+    }
+    .topsection img{
+        width: 45%;
+    }
+}
+@media(max-width: 501px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;    
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button{
+        width: 40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection div{
+        width: 90%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div{
+        width: 40%;
+        margin: 5% 0;
+    }
+}
+@media(max-width: 361px){
+    header {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;   
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .topsection img{
+        width: 90%;
+    }
+    .row div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
