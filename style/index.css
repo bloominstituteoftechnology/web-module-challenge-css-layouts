@@ -84,6 +84,8 @@ html {
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 	background-color: rgb(221, 145, 30);
+	border-left: 0.3rem solid lightgray;
+	border-right: 0.3rem solid lightgray;
 }
 .img img { 
 	height: 30rem;
@@ -124,7 +126,9 @@ html {
 	height: fit-content;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly; 
+	justify-content: space-evenly;
+	border-left: 0.3rem solid lightgray;
+	border-right: 0.3rem solid lightgray; 
 }
 .projectsimgs {
 	width: 20%;
@@ -137,6 +141,8 @@ html {
 	display: flex;
 	justify-content: center;
 	font-size: 4rem;
+	background-color: lightgray;
+	height: 4.4rem;
 }
 .footer {
 	background-color: lightgray;
@@ -149,4 +155,10 @@ html {
 }
 .text {
 	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+.projectsimgs:hover {
+	width: 25%;
+	height: 22rem;
+	margin: 0rem;
 }
