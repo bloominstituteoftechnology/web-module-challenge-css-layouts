@@ -1,1 +1,67 @@
-/* Add CSS styling here */
+
+/* color pallete:
+ 442b48 - dark purp
+ b8b3e9 - light purp
+ ffd485 - yellow
+ 76d4f9 - blue
+ adf7b6 - green*/
+
+ /* lorem ipsum:
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Libero nunc consequat interdum varius sit amet mattis. Cras pulvinar mattis nunc sed blandit. Sed augue lacus viverra vitae congue. Enim sit amet venenatis urna cursus. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Tincidunt nunc pulvinar sapien et ligula. Neque egestas congue quisque egestas. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Vitae semper quis lectus nulla at volutpat.*/
+
+ .tophalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+		background-color: #ffd485;
+ }
+
+	h1 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3rem;
+	}
+
+	p {
+		font-family: 'Lora', serif;
+		font-size: 1.5rem;
+	}
+
+ footer {
+  background-color: #b8b3e9;
+  text-align: center;
+  padding: 25px;
+ }
+
+ button {
+  background-color: #76d4f9;
+		color: #442b48;
+		border: black solid 1px;
+		padding: 5px 10px;
+		font-size: 20px;
+ }
+
+	button:hover {
+		background-color: #442b48;
+		color: #76d4f9;
+		border: black solid 1px;
+	}
+
+	button a{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 20px;
+		background-color: #ffd485;
+	}
+
+ .desc {
+		width: 200px;
+		text-align: center;
+		padding: 20px;
+	}
