@@ -9,11 +9,9 @@ nav {
 }
 
 .img_button {
-  background-image: url("https://picsum.photos/700/400");
+  background-image: url("https://picsum.photos/550/450");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   font-size: 1.5em;
-  width: 700px;
-  height: 400px;
 }
