@@ -54,7 +54,7 @@ nav {
 
 .button-content a {
   display: inline-block;
-  background-color: rgba 255, 165, 0, 0.7);
+  background-color: rgba(255, 165, 0, 0.7);
   /* Use rgba to specify the background color with transparency */
   color: white;
   padding: 10px 20px;
@@ -62,12 +62,10 @@ nav {
   font-size: 1.2em;
   border-radius: 5px;
 }
-
 .rounded-text {
   display: inline-block;
   background-color: rgba(255, 165, 0, 0.7);
-  color: #333333;
-  /* Change the text color to a darker shade */
+  color: white;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1.2em;
@@ -75,19 +73,10 @@ nav {
   text-align: center;
 }
 
-
-.rounded-text p {
-  margin: 0;
-  /* Remove default margin */
-  line-height: 1.4;
-  /* Adjust line height for better readability */
-}
-
 .rounded-text img {
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
 
 footer {
   background-color: lightgray;
