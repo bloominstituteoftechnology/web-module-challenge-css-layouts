@@ -109,6 +109,8 @@ footer {
 .social-media img {
   width: 30px;
   height: 30px;
+  opacity: 0.7;
+  /* Apply transparency to the images */
 }
 
 .row {

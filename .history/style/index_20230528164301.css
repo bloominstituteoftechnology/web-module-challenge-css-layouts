@@ -95,22 +95,6 @@ footer {
   text-align: center;
 }
 
-.social-media {
-  display: inline-block;
-  float: left;
-  /* Align icons to the right */
-}
-
-.social-media a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media img {
-  width: 30px;
-  height: 30px;
-}
-
 .row {
   display: flex;
   flex-direction: row;

@@ -95,22 +95,6 @@ footer {
   text-align: center;
 }
 
-.social-media {
-  display: inline-block;
-  float: left;
-  /* Align icons to the right */
-}
-
-.social-media a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media img {
-  width: 30px;
-  height: 30px;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -138,4 +122,20 @@ button:hover {
   background-color: black;
   color: white;
   border: white solid 1px;
+}   /* Custom CSS for social media links */
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333333;
+    font-size: 24px;
+}
+
+/* Adjust the size of social media icons as needed */
+.social-media i {
+    width: 24px;
+    height: 24px;
 }

@@ -97,8 +97,7 @@ footer {
 
 .social-media {
   display: inline-block;
-  float: left;
-  /* Align icons to the right */
+  float: right; /* Align icons to the right */
 }
 
 .social-media a {
@@ -109,8 +108,8 @@ footer {
 .social-media img {
   width: 30px;
   height: 30px;
+  opacity: 0.7; /* Apply transparency to the images */
 }
-
 .row {
   display: flex;
   flex-direction: row;
