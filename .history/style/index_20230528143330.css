@@ -24,11 +24,9 @@ footer {
   text-align: center;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
+row {
+  display: flex;\
   justify-content: space-evenly;
-  padding: 25px;
 }
 
 .element_pics {

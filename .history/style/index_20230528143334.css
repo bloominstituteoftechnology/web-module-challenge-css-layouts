@@ -24,11 +24,10 @@ footer {
   text-align: center;
 }
 
-.row {
+row {
   display: flex;
-  flex-direction: row;
+  
   justify-content: space-evenly;
-  padding: 25px;
 }
 
 .element_pics {

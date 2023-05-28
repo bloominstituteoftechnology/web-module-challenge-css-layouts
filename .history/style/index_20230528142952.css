@@ -17,20 +17,12 @@ nav {
   width: 700px;
   height: 400px;
 }
-
 footer {
   background-color: lightgray;
   padding: 25px;
   text-align: center;
 }
-
-.row {
+row{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 25px;
-}
-
-.element_pics {
-  text-align: center;
+  justify-content: space-evenly
 }
