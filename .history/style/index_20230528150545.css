@@ -48,7 +48,4 @@ button:hover {
   border: white solid 2px;
 }
 
-button a {
-  text-decoration: none;
-  color: inherit;
-}
+a

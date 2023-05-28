@@ -45,10 +45,5 @@ button {
 button:hover {
   background-color: black;
   color: white;
-  border: white solid 2px;
-}
-
-button a {
-  text-decoration: none;
-  color: inherit;
+  border: black solid 2px;
 }
