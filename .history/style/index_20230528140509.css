@@ -17,9 +17,8 @@ nav {
   width: 700px;
   height: 400px;
 }
-
-footer {
+footer{
   background-color: lightgray;
-  padding: 25px;
-  text-align: center;
+  padding: 20px;
+  
 }
