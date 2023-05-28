@@ -39,10 +39,8 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* Add a background color with transparency */
-  padding: 20px;
-  /* Add padding to the background */
+  background-color: rgba(0, 0, 0, 0.7); /* Add a background color with transparency */
+  padding: 20px; /* Add padding to the background */
 }
 
 .button-content h1 {
@@ -54,15 +52,13 @@ nav {
 
 .button-content a {
   display: inline-block;
-  background-color: rgba(255, 165, 0, 0.7);
-  /* Use rgba to specify the background color with transparency */
+  background-color: black;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1.2em;
-  border-radius: 5px;
+  /* Increase the font size if necessary */
 }
-
 
 footer {
   background-color: lightgray;
