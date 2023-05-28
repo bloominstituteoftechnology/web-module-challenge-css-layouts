@@ -3,22 +3,9 @@ nav {
   justify-content: space-between;
 }
 
-.links {
-  display: flex;
-  /* Display the links in a flex container */
-}
-
-.links button {
-  padding: 0;
-  /* Remove padding */
-  width: 100px;
-  /* Set a specific width for the buttons */
-}
-
 .uppersection {
   display: flex;
   justify-content: center;
-  padding: 20px;
 }
 
 .img_button {
@@ -51,7 +38,7 @@ footer {
 button {
   background-color: white;
   color: black;
-  border: black solid 1px;
+  border: black solid 2px;
   padding: 5px 10px;
 }
 
@@ -63,5 +50,5 @@ button a {
 button:hover {
   background-color: black;
   color: white;
-  border: white solid 1px;
+  border: white solid 2px;
 }
