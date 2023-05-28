@@ -39,17 +39,12 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* Add a background color with transparency */
-  padding: 20px;
-  /* Add padding to the background */
 }
 
 .button-content h1 {
   margin: 0;
   padding: 0;
   font-size: 2em;
-  /* Increase the font size if necessary */
 }
 
 .button-content a {
