@@ -139,7 +139,6 @@ button:hover {
   color: white;
   border: white solid 1px;
 }
-
 /* Add a media query for mobile devices */
 @media (max-width: 768px) {
   nav {
@@ -184,10 +183,6 @@ button:hover {
 
   .row {
     flex-direction: column;
-    padding: 10px;
-  }
-
-  .element_pics {
     padding: 10px;
   }
 }
