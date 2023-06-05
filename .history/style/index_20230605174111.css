@@ -141,3 +141,53 @@ button:hover {
 }
 
 /* Add a media query for mobile devices */
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .links button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .uppersection {
+    padding: 10px;
+  }
+
+  .img_button {
+    width: 100%;
+    height: 200px;
+  }
+
+  .button-content {
+    padding: 10px;
+  }
+
+  .button-content h1 {
+    font-size: 1.5em;
+  }
+
+  .button-content a {
+    font-size: 1em;
+  }
+
+  .rounded-text {
+    font-size: 1em;
+  }
+
+  .row {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .element_pics {
+    padding: 10px;
+  }
+}
