@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -145,12 +141,13 @@ button:hover {
 }
 
 /* Add a media query for mobile devices */
-@media(max-width: 800px) {}
+@media(max-width: 800px){
 
-@media(max-width: 500px) {
-  nav {
+}
+@media(max-width: 500px){
+  nav{
     display: flex;
     flex-direction: column;
-
+    
   }
 }
