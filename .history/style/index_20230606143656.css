@@ -163,11 +163,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 0
   }
 
   .links button {
     width: 40%;
-    margin: 2% 0;
   }
 }
