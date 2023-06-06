@@ -130,13 +130,8 @@ footer {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-.row div {
-  width: 30%;
-  margin: 2% 0 ;
+  padding: 25px;
 }
 
 .element_pics {

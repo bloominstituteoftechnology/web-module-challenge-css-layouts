@@ -134,9 +134,9 @@ footer {
   justify-content: space-evenly;
 }
 
-.row div {
+.row div{
   width: 30%;
-  margin: 2% 0 ;
+ margin: 1%;
 }
 
 .element_pics {

@@ -131,12 +131,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.row div {
-  width: 30%;
-  margin: 2% 0 ;
+  justify-content: space
 }
 
 .element_pics {
