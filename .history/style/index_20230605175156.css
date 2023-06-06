@@ -1,9 +1,5 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-  border: 1px solid grey;
 }
 
 nav {
@@ -155,17 +151,6 @@ button:hover {
   nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links button {
-    width: 40%;
+    align-items:la
   }
 }
