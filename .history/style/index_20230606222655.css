@@ -23,20 +23,12 @@ nav {
   /* Set a specific width for the buttons */
 }
 
-header,
-section {
-  padding: 4% 0;
-}
-
 .uppersection {
   background-image: url("https://picsum.photos/700/400");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  text-align: center;
+just
 }
 
 /*.img_button {
@@ -47,7 +39,7 @@ section {
   height: 400px;
   position: relative;
   /* Add position relative to establish a new stacking context */
-
+}
 
 .button-content {
   position: absolute;

@@ -23,31 +23,23 @@ nav {
   /* Set a specific width for the buttons */
 }
 
-header,
-section {
-  padding: 4% 0;
+.uppersection {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-.uppersection {
+.img_button {
   background-image: url("https://picsum.photos/700/400");
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  text-align: center;
-}
-
-/*.img_button {
-
   color: white;
   font-size: 1.5em;
   width: 700px;
   height: 400px;
   position: relative;
   /* Add position relative to establish a new stacking context */
-
+}
 
 .button-content {
   position: absolute;
@@ -178,9 +170,8 @@ button:hover {
     width: 40%;
     margin: 2% 0;
   }
-
-  .uppersection {
+  .uppersection{
     width: 80%;
-    margin: 0 auto;
+    margin:
   }
 }
