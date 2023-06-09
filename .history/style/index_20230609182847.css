@@ -104,8 +104,7 @@ button a {
     width: 80%;
     margin: 0 auto;
   }
-
-  .row div {
-    width: 40%;
+  .row div{
+    width: 100%;
   }
 }
