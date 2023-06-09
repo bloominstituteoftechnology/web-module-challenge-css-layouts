@@ -42,13 +42,4 @@ button {
   paddding: 5px 10px;
 }
 
-button:hover {
-  background-color: black;
-  color: white;
-  border: white solid 1px;
-}
-
-button a {
-  text-decoration: none;
-  color: inherit;
-}
+button:hover {}

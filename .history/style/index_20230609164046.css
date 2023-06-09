@@ -38,17 +38,7 @@ footer {
 button {
   background-color: white;
   color: black;
-  border: black solid 1px;
-  paddding: 5px 10px;
+  border: black
 }
 
-button:hover {
-  background-color: black;
-  color: white;
-  border: white solid 1px;
-}
-
-button a {
-  text-decoration: none;
-  color: inherit;
-}
+button:hover {}

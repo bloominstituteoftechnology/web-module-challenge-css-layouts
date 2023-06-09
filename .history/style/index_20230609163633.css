@@ -26,29 +26,10 @@ footer {
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex
   justify-content: space-evenly;
-  padding: 20px;
 }
 
 .portfolio-element {
   text-align: center;
-}
-
-button {
-  background-color: white;
-  color: black;
-  border: black solid 1px;
-  paddding: 5px 10px;
-}
-
-button:hover {
-  background-color: black;
-  color: white;
-  border: white solid 1px;
-}
-
-button a {
-  text-decoration: none;
-  color: inherit;
 }
