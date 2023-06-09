@@ -10,10 +10,5 @@ nav {
 
 .image-button {
   background-image: url("https://picsum.photos/600/400");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  font-size: large;
-  width: 600px;
-  height: 400px;
+
 }
