@@ -53,10 +53,11 @@ button a {
   color: inherit;
 }
 
-@media (max-width: 800px) {
-
+@media (max-width: 600px) {
+  .image-button {
+    width: 100%;
+    height: 100%;
+  }
 }
-
-@media (max-width: 500px) {
-
-}
+```
+```
