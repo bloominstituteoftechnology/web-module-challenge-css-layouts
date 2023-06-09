@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.topsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}

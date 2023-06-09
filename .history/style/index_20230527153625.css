@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppersection{
+  display: flex;
+  justify-content: center;
+}
+
+img_button {
+  
+}

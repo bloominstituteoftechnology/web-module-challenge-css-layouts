@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppersection{
+  display: flex;
+  justify-content: center;
+}
+
+.img_button {
+background-image: url("https://picsum.photos/550/450");
+background-size: cover;
+backgrou
+}

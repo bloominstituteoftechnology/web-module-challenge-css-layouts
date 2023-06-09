@@ -1,0 +1,8 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.topsection {
+  display: flex;
+  justify-content: space-between;
+}

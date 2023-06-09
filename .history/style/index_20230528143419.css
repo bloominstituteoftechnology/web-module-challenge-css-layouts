@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppersection {
+  display: flex;
+  justify-content: center;
+}
+
+.img_button {
+  background-image: url("https://picsum.photos/700/400");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  width: 700px;
+  height: 400px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 25px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 25pc;
+}
+
+.element_pics {
+  text-align: center;
+}

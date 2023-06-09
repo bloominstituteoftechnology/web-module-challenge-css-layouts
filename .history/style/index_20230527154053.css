@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppersection {
+  display: flex;
+  justify-content: center;
+}
+
+.img_button {
+  background-image: url("https://picsum.photos/650/450");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  width: 650px;
+  height: 480px;
+}
