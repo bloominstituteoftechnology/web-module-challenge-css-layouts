@@ -67,18 +67,12 @@ button a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 
-  .links {
+  .links{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
-
-  .links button {
-    width: 40%;
-    margin: 1% 0;
-  }
+  
 }
