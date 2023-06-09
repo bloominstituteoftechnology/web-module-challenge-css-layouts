@@ -4,19 +4,9 @@
   margin: 0;
   max-width: 100%;
 }
-
-html {
-  font-size: 63.5%;
+html{
+  
 }
-
-body {
-  font-size: 1.4rem;
-}
-
-h1 {
-  font-size: 5rem;
-}
-
 header,
 section {
   padding: 6% 0;
