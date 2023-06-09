@@ -5,9 +5,8 @@
   max-width: 100%;
 }
 
-header,
-section {
-  padding: 6% 0;
+section{
+  padding:5% 0
 }
 
 nav {
