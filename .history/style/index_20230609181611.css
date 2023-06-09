@@ -39,11 +39,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.row div {
-  width: 30%;
-}
-}
-
+.row
 .portfolio-element {
   text-align: center;
 }

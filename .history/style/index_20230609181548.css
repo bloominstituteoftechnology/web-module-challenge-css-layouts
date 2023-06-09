@@ -35,13 +35,9 @@ footer {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: ;
   justify-content: space-evenly;
-}
-
-.row div {
-  width: 30%;
-}
+  padding: 20px;
 }
 
 .portfolio-element {
