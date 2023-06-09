@@ -18,6 +18,11 @@ nav {
   background-size: cover;
 }
 
+.image-button {
+  color: white;
+  font-size: large;
+}
+
 footer {
   background-color: lightgrey;
   padding: 20px;

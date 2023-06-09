@@ -13,9 +13,12 @@ nav {
 .topsection {
   display: flex;
   justify-content: center;
-  background-image: url("https://picsum.photos/600/400");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.image-button {
+ 
+  color: white;
+  font-size: large;
 }
 
 footer {
