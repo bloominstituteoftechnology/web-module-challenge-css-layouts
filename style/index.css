@@ -1,1 +1,142 @@
-/* Add CSS styling here */
+
+/* color pallete:
+ 442b48 - dark purp
+ b8b3e9 - light purp
+ ffd485 - yellow
+ 76d4f9 - blue
+ adf7b6 - green*/
+
+ /* lorem ipsum:
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Libero nunc consequat interdum varius sit amet mattis. Cras pulvinar mattis nunc sed blandit. Sed augue lacus viverra vitae congue. Enim sit amet venenatis urna cursus. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Tincidunt nunc pulvinar sapien et ligula. Neque egestas congue quisque egestas. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Vitae semper quis lectus nulla at volutpat.*/
+
+	* {
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		max-width: 100%;
+		border: 1px solid grey;
+	}
+
+	html {
+		font-size: 62.5%;
+	}
+
+	body {
+		font-size: 1.6rem;
+		line-height: 1.5;
+	}
+
+	section {
+		padding: 4% 0;
+	}
+
+ .tophalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+		background-color: #ffd485;
+		width: 80%;
+		margin: 0 auto;
+ }
+
+	.bg-img {
+		background-image: url('https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 50vh;
+	}
+
+	h1, h2 {
+		margin: 2% 0;
+	}
+
+	h1 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3.5rem;
+	}
+
+	p {
+		font-family: 'Lora', serif;
+		font-size: 1.5rem;
+	}
+
+ footer {
+  background-color: #b8b3e9;
+  text-align: center;
+  padding: 25px;
+ }
+
+ button {
+  background-color: #76d4f9;
+		color: #442b48;
+		border: black solid 1px;
+		padding: 5px 10px;
+		font-size: 20px;
+ }
+
+	button:hover {
+		background-color: #442b48;
+		color: #76d4f9;
+		border: black solid 1px;
+	}
+
+	button a{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 20px;
+		background-color: #ffd485;
+	}
+
+ .desc {
+		width: 200px;
+		text-align: center;
+		padding: 20px;
+	}
+
+	@media(max-width: 800px) {
+		.row {
+			flex-wrap: wrap;
+		}
+		
+		.row img {
+			width: 20%;
+		}
+
+		.row div {
+			width: 100%;
+		}
+	}
+
+	@media(max-width: 500px) {
+		.links {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.links button {
+			width: 40%;
+			margin: 3% 0;
+		}
+
+		.row {
+			flex-wrap: wrap;
+		}
+
+		.row img {
+			width: 40%;
+			margin: 4% 0;
+		}
+	}
