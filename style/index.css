@@ -1,1 +1,187 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {  
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/633/918/small/seamless_background_286_finger_print.jpg");
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Staatliches, sans-serif;
+    font-size: 4rem;
+    padding: 0.05%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Staatliches, sans-serif;
+    font-size: 2rem;
+    background-color:  white;
+    padding: 1%;
+}
+
+a {
+    background-color: #8F2D56;
+    color: white;
+    border: 2px solid black;
+    font-family: Gudea, sans-serif;
+    letter-spacing: 4px;
+    padding: 1%;
+    margin: 0.05%;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+span {
+    font-family: Agdasima, sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.titlename {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.aboutsection {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px solid #D81159;
+    width: 70%;
+    padding: 2%;
+    background-color: white;
+}
+
+
+.highlightedproject {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   width: 70%;
+   height: 400px;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+.highlightedproject img {
+   width: 100%;
+   border: 5px solid #5C374C;
+}
+
+.highlightedproject img:hover {
+    border: 5px solid #218380;
+    transition: 2s;
+}
+
+.projectimages {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 60vh;
+}
+
+.projectimages img {
+    width: 20%;
+    padding: 1%;
+}
+
+.projectdescriptions {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 5px solid black;
+    height: 93%;
+}
+
+span.projectdescptext {
+    overflow-wrap: break-word;
+    font-family: Agdasima, sans-serif;
+    font-size: 1.5rem;
+    padding: 1%;
+    text-align: justify;
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    height: 15vh;
+    margin-top: 2%;
+    border-top: 2px solid black;
+}
+
+.footer button {
+    background-color: #8F2D56;
+    color: white;
+    width: 10%;
+    height: 50%;
+    border: 2px solid black;
+    font-family: Gudea, sans-serif;
+    letter-spacing: 4px;
+    margin-top: 2%;
+}
