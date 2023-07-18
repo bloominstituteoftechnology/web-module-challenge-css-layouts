@@ -80,6 +80,12 @@ a {
     margin: 0.05%;
 }
 
+a:hover {
+    background-color: #CE6A85;
+    transition: 2s;
+    color: black;
+}
+
 nav {
     width: 100vw;
     display: flex;
@@ -150,19 +156,20 @@ span {
 }
 
 .projectdescriptions {
+    display: flex;
     margin-top: 1%;
     margin-bottom: 5%;
     background-color: white;
     border: 5px solid black;
-    height: 93%;
+    height: 56vh;
 }
 
 span.projectdescptext {
-    overflow-wrap: break-word;
     font-family: Agdasima, sans-serif;
-    font-size: 1.5rem;
-    padding: 1%;
+    font-size: 1.5vw;
     text-align: justify;
+    letter-spacing: 1px;
+    padding: 2%;
 } 
 
 .footer {
@@ -184,4 +191,10 @@ span.projectdescptext {
     font-family: Gudea, sans-serif;
     letter-spacing: 4px;
     margin-top: 2%;
+}
+
+.footer button:hover {
+    background-color: #CE6A85;
+    transition: 2s;
+    color: black;
 }
