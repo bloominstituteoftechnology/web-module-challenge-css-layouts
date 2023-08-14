@@ -67,13 +67,12 @@ table {
     font-size:large;
     width: 600px;
     height: 400px;
-
 }
 
 
 
-.footer{
+/* .footer{
     display: flex;
     justify-content: center;
     background-color: lightgrey;
-}
+} */
