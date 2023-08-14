@@ -47,3 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+*{
+   box-sizing: border-box;
+   border-color: black;
+   border-width: 10px;
+}
+
