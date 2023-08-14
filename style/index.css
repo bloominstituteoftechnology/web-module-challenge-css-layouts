@@ -77,8 +77,9 @@ table {
     height: 50px;
 }
 
-/* .footer{
-    display: flex;
-    justify-content: center;
+.footer{
     background-color: lightgrey;
-} */
+    padding: 20px;
+    text-align: center;
+
+}
