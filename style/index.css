@@ -88,3 +88,15 @@ footer{
     text-align: center;
 
 }
+button{
+    background-color: #fff;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+    border: black solid 1px;
+
+}
