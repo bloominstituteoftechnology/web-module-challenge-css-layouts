@@ -69,7 +69,11 @@ table {
     height: 400px;
 }
 
-
+.row{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /* .footer{
     display: flex;
