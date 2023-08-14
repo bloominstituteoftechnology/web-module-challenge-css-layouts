@@ -47,11 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-*{
-   box-sizing: border-box;
-   border-color: black;
-   border-width: 100%;
-}
+
 
 .header{
     display: flex;
@@ -64,7 +60,7 @@ table {
    
 .imagebutton{ 
 
-    background-image: url(https://picsum.photos/600/400);
+    background-image: url("https://picsum.photos/600/400");
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
@@ -72,4 +68,12 @@ table {
     width: 600px;
     height: 400px;
 
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
 }
