@@ -64,10 +64,9 @@ table {
    
 .imagebutton{ 
 
-    background-image: url(https://scontent.fdet1-2.fna.fbcdn.net/v/t39.30808-6/366284344_10228077244510383_4579627247168734375_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=300f58&_nc_ohc=rCi85XHB_wwAX_VwpL7&_nc_ht=scontent.fdet1-2.fna&oh=00_AfAvTt26zylh84-I2MixaBeHrzoBYvSMRFYxshvi0tdZdg&oe=64E01970);
+    background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t39.30808-6/366284344_10228077244510383_4579627247168734375_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=300f58&_nc_ohc=rCi85XHB_wwAX_VwpL7&_nc_ht=scontent.fdet1-2.fna&oh=00_AfAvTt26zylh84-I2MixaBeHrzoBYvSMRFYxshvi0tdZdg&oe=64E01970");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
     color:white;
     font-size:large;
     width: 600px;
