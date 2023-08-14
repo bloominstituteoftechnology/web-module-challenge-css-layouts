@@ -71,10 +71,13 @@ table {
 
 .row{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 50px;
-    height: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.element{
+    text-align: center;
 }
 
 .footer{
