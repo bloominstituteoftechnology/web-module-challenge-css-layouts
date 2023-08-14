@@ -70,7 +70,7 @@ table {
 }
 
 .row{
-    display: flexbox;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 50px;
