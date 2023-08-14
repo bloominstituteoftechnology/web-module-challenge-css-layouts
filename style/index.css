@@ -54,5 +54,6 @@ table {
 }
 
 .header{
-    
+    display: flex;
+    flex-flow: space-between;
 }
