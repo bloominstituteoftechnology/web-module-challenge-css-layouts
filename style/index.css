@@ -100,3 +100,7 @@ button:hover{
     border: black solid 1px;
 
 }
+button a {
+    text-decoration: none;
+    color:inherit;
+}
