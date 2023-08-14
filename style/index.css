@@ -50,6 +50,9 @@ table {
 *{
    box-sizing: border-box;
    border-color: black;
-   border-width: 10px;
+   border-width: 100%;
 }
 
+.header{
+    
+}
