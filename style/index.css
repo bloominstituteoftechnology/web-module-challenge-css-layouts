@@ -57,19 +57,23 @@ table {
  {font-size: x-large;}
 .name{
     display: flex;
-    justify-content: center;}
-   
-.imagebutton{ 
-
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
     background-image: url("https://picsum.photos/600/400");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;}
+   
+/* .imagebutton{ 
+
+   
     color:white;
     font-size:large;
     width: 600px;
     height: 400px;
     
-}
+} */
 
 .row{
     display: flex;
@@ -125,6 +129,25 @@ button a {
 
 }
 
-@media(max-width:500px) {
+@media(max-width:500px) {.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagebutton{
+    width:40%;
+    margin: 1% 0;
+}
+.name{
+    width: 80;
+    margin: 0 auto;
+}
+
     
 }
