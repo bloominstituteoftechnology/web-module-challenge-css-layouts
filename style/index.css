@@ -48,13 +48,19 @@ table {
 }
 
 
+html{
+    font-size: 62.55;
+}
+body{
+    font-size: 1.6rem;
+}
 
 .header{
     display: flex;
     justify-content: space-between;
 }
  h1
- {font-size: x-large;}
+ {font-size: 4rem;}
 .name{
     display: flex;
     justify-content: center;
@@ -63,7 +69,9 @@ table {
     text-align: center;
     background-image: url("https://picsum.photos/600/400");
     background-size: cover;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+color: #fff;
+}
    
 /* .imagebutton{ 
 
@@ -74,13 +82,22 @@ table {
     height: 400px;
     
 } */
+header,section{
+    padding:4% 0;
+
+}
 
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px;
 
+
+}
+.row div{
+    width:30%;
+    margin: 2% 0;;
 }
 .element{
     text-align: center;
@@ -148,6 +165,7 @@ button a {
     width: 80;
     margin: 0 auto;
 }
+
 
     
 }
