@@ -1,1 +1,35 @@
-/* Add CSS styling here */
+/* Universal Selector Reset */
+/* * {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    max-width: %;
+
+} */
+header {
+	background-color: lightgrey;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 20px;
+}  
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.desciption {
+	padding: 20px;
+	width: 50%;
+}
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	padding: 20px;
+}
+.portfolio {
+	text-align: center;
+}
