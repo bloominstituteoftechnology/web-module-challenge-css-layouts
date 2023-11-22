@@ -68,7 +68,6 @@ The following goals are designed to stretch your knowledge and may require addit
 
 ## Submission format
 
-Follow these steps for completing your project.
-
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Connect your repository by copy-pasting its Github URL into the submission slot.
+- [ ] Your submitted URL will always reflect your most recent work pushed to Github.
 
