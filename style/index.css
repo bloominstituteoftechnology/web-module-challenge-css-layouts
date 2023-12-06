@@ -1,1 +1,236 @@
-/* Add CSS styling here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  
+}
+
+header {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.headerNav {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.topBodyRight {
+  padding: 20px;
+  width: 50%;
+}
+
+.mainBodyBottom {
+  text-align: center;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: black solid 1px;
+}
+
+button:hover {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: white solid 1px;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .headerNav nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  button {
+    width: 40%;
+    margin: 1% 0;
+  }
+
+  button a {
+    width: 80%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topBodyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .topBodyLeft {
+    display: flex;
+  }
+
+  .mainBodyBottom {
+    display: flex;
+  }
+
+  .topRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .bottomRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .topRow div{
+    margin: 4%;
+  }
+
+  .bottomRow div{
+    margin: 4%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .headerNav nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+  
+  button {
+    width: 40%;
+    margin: 1% 0;
+  }
+
+  button a {
+    width: 80%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topBodyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .topBodyLeft {
+    display: flex;
+  }
+
+  .mainBodyBottom {
+    display: flex;
+  }
+
+  .topRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .bottomRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .topRow div{
+    margin: 4%;
+  }
+
+  .bottomRow div{
+    margin: 4%;
+  }
+  
+  footer {
+    width: 100%;
+  }
+}
