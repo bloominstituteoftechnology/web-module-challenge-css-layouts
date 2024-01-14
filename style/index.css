@@ -1,1 +1,175 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: rgb(37, 34, 34);
+    color: cyan;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2% 0% 2% 0%;
+    
+}
+h1{
+    font-size: 3rem;
+
+}
+header nav{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 1% auto 1% auto;
+    align-items: center;
+}
+
+h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    align-items: center;
+}
+
+.introduction p{
+    font-size: 1.125rem;
+    padding: 2%;
+
+}
+
+.introduction img{
+    width: 95%;
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.projects_im_proud_of{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.projects_im_proud_of img{
+    width: 20%;
+    border-radius: 20%;
+    padding: 1%;
+}
+.projects_im_proud_of p{
+    width: 20%;
+    padding: 2%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 2% 0;
+}
+footer a{
+    width: 15%;
+    border-radius: 3%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .projects_im_proud_of{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects_im_proud_of img{
+        width: 75%;
+    }
+    .projects_im_proud_of p{
+        width: 75%;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 500px) {
+    nav{
+        flex-direction: column;
+    }
+    .projects_im_proud_of{
+        flex-direction: column-reverse;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects_im_proud_of img{
+        width: 50%;
+    }
+    .projects_im_proud_of p{
+        width: 75%;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
